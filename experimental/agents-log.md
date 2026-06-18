@@ -78,10 +78,15 @@ Keep entries concise and link to the relevant files.
   only on the `d!=0` terms. It is now split once more: the coordinate-principal
   `d!=0` terms are discharged by the exact affine quadratic value distribution
   of `A(u,v)`, so the imported `16p` estimate is paid only for mixed
-  coordinate/conic terms. The verifier audits the resulting
-  `jacobi_l1_bound`, `conic_l1_bound`, `kummer_l1_bound`, and
+  coordinate/conic terms. A further elementary split handles the case where
+  the conic character is quadratic and exactly one coordinate character is
+  active: summing first over the quadratic variable gives a `2p` unrestricted
+  bound, and the two principal-coordinate exclusion lines add at most `2p`.
+  The verifier audits the resulting `jacobi_l1_bound`, `conic_l1_bound`,
+  `quadratic_one_coordinate_l1_bound`, `kummer_l1_bound`, and
   `weighted_error_l1_bound` fields; this sharply lowers the reported raw,
-  two-fiber, fixed-window, and quotient-window union thresholds.
+  two-fiber, and fixed-window thresholds while leaving the quotient-window
+  union L1 split conservative.
 - **What to do next:** Verify the exact `16p` constant against a singular
   multiplicative character-sum theorem for the remaining mixed terms, or
   replace it with the proved constant supplied by that theorem.
