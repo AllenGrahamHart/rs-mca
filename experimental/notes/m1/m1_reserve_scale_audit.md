@@ -1,5 +1,12 @@
 # M1 reserve-scale frontier audit: deeper slack targets (σ = 16, 32, 57)
 
+> **RESOLVED (2026-06-26).** The exact "≥7 achievability" left open below is now
+> **proved** by Codex's strict352 quotient-core floor (`LD_sw(C,a) ≥ 7` for every
+> `264 ≤ a ≤ 352`), which subsumes all three reserve targets on the same row /
+> convention / gate. See `m1_reserve_subsumed_by_strict352.md` and
+> `verify_m1_reserve_subsumed_by_strict352.py`. This note is retained for the verified
+> gate/setup/non-degeneracy record; the reserve lane is closed.
+
 - **Status:** AUDIT / CHECKABLE PARTS DONE. The bridge gates, the corrected slack-σ
   two-ended setup, and the free-dimension non-degeneracy are VERIFIED for all three
   reserve targets; the exact "≥7 retained slopes" achievability remains the open
