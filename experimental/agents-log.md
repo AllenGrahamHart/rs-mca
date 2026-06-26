@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-06-26 - Audit: recorded targets/conditionals that are actually proved
+
+- **Agent/model:** Claude Opus 4.8 (1M context), branch `allen/m1-reserve-subsumption`
+  (fan-out sweep: 10 lanes, 204 files, per-item adversarial verification).
+- **Files added or changed:** `experimental/notes/audits/audit_recorded_targets_actually_proved.md`;
+  `experimental/scripts/verify_m1_tangent_floor_gate_ladder.py`.
+- **Status:** AUDIT / VERIFIED (identification pass; no status flips applied).
+- **What is being added:** Repo-wide identification of results recorded
+  target/candidate/conditional that are SUBSUMED by a proved in-repo result. Lever =
+  the proved moving-root tangent floor `LD_sw(C,a) >= n-a+1` (k+1<=a<=n, elementary
+  MDS, no Cycle84/slot model), which clears the `>=7` gate for every `a<=506`. Verifier
+  machine-checks the whole ladder (a=262..507) PASS.
+- **How it is useful:** HEADLINE — the Cycle120/Cycle119 PRIZE gates (emca(C,125/256)>2^-128
+  at a=262; delta*_C<=249/512 at a=263), recorded CONDITIONAL on the unreproduced Cycle84
+  census N, are made UNCONDITIONAL by the tangent floor (251/250 slopes); only the exact
+  ~2^-95 density still needs N. reserve272/288/313 (target) and the whole strict352 range
+  are gate-subsumed. Exact counts (2187, N, ~2^-95) stay genuinely open (carved out).
+- **What to do next:** Propose the flips by owner — A1/A2/A6 (M1 audits = Codex/Danny) via
+  independent note + flag; A3/A4/A5 (site/data = Przemek) via PR; A7/A8 (X1 = mine) directly.
+  Optionally an independent verifier re-deriving the tangent floor on a small RS code.
+
 ### 2026-06-26 - Reserve targets subsumed by strict352 (verified)
 
 - **Agent/model:** Claude Opus 4.8 (1M context), independent M1 audit, branch
