@@ -30,6 +30,29 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-06-26 - Reserve targets subsumed by strict352 (verified)
+
+- **Agent/model:** Claude Opus 4.8 (1M context), independent M1 audit, branch
+  `allen/m1-reserve-subsumption`.
+- **Files added or changed:** `experimental/scripts/verify_m1_reserve_subsumed_by_strict352.py`;
+  `experimental/notes/m1/m1_reserve_subsumed_by_strict352.md`; resolution banner on
+  `experimental/notes/m1/m1_reserve_scale_audit.md`.
+- **Status:** AUDIT / VERIFIED (arithmetic subsumption).
+- **What is being added:** Exact-integer check that Codex's strict352 floor
+  (`LD_sw(C,a) >= 7` for every `264 <= a <= 352`) subsumes the three frontier-board
+  reserve targets `reserve272/288/313` -- same row `RS[F_17^32,H,256]`, same
+  finite-slope support-wise convention, same bridge gate (`floor(17^32/2^128)=6`).
+  Proved floors `M(272)=1.9e13`, `M(288)=1.6e6`, `M(313)=295`, all `>= 7`; radii
+  `15/32,7/16,199/512` match `(n-a)/n`; non-vacuity guard that `a=353` (`M=3`) stays
+  uncovered. This closes the exact-`>=7` piece my reserve-scale audit left open
+  (it had been flagged Cycle84-slot-model-dependent).
+- **How it is useful:** Retires the M1 reserve lane and reframes the live M1 frontier
+  as `a=353 / slack 97 / delta=159/512`. Distinguishes these board *rows* from the
+  separate Paper-C field-separated *reserve certificate* (untouched).
+- **What to do next:** Maintainer may flip `reserve272/288/313` to `status:"proved"`
+  in `site/data/frontier.json` (proposal only, not applied). Then retarget the
+  residual-depth frontier partition (quotient-periodic/tangent/aperiodic) at `a=353`.
+
 ### 2026-06-26 - High-agreement tangent staircase
 
 - **Agent/model:** GPT-5.5 Pro tangent packet, audited and integrated by Codex.
