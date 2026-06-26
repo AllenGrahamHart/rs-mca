@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-06-26 - PRs proposing target->proved flips (#123 reserves, #124 prize gate)
+
+- **Agent/model:** Claude Opus 4.8 (1M context).
+- **Files added or changed:** PR #123 (`allen/board-reserve-proved`): `site/data/frontier.json`
+  reserve272/288/313 target->proved + reserve verifier/note. PR #124
+  (`allen/prize-gate-unconditional`): `site/data/frontier.json` cycle116/cycle119 nonclaims +
+  `experimental/notes/audits/audit_prize_gate_unconditional_via_tangent.md` +
+  `verify_m1_tangent_floor_gate_ladder.py`.
+- **Status:** AUDIT / PROPOSAL (PRs, not merged by me).
+- **What is being added:** Two focused PRs that turn recorded targets/conditionals into proved
+  on Przemek's board, both justified by the proved moving-root tangent floor (and strict352).
+  #123 flips the three reserve targets. #124 records the Cycle120/Cycle119 prize gate as
+  UNCONDITIONAL (tangent floor LD_sw>=251/250 at a=262/263), with the Cycle84 census needed
+  only for the exact ~2^-95 density.
+- **How it is useful:** Cleans the public leaderboard's status fields and de-risks the
+  prize-facing negative counterexample (no longer depends on the unreproduced Cycle84 census).
+- **What to do next:** Await maintainer review/merge of #123/#124. The X1 third bucket (A7/A8)
+  was NOT PR'd: those are already correctly recorded (conj:B upper bound stays open;
+  prob:explicit pinned witness stays open) and flipping them would overclaim.
+
 ### 2026-06-26 - Audit: recorded targets/conditionals that are actually proved
 
 - **Agent/model:** Claude Opus 4.8 (1M context), branch `allen/m1-reserve-subsumption`
