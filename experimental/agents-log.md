@@ -149,6 +149,33 @@ Keep entries concise and link to the relevant files.
   extension-lift, challenge-field, and cryptographic losses as separate ledger
   terms.
 
+### 2026-06-27 - M1 variable-line packet and singleton lemmas
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/notes/m1/m1_hankel_variable_line_packet_lemma.md`,
+  `experimental/agents-log.md`.
+- **Status:** PROVED / PROOF-PROGRAM.
+- **What is being added:** Concise local lemmas for non-fixed variable
+  Hankel determinant lines: active-new packet mass is bounded by true active
+  domain singletons, quotient defects, and twice the injected different-slope
+  two-exchange packet-edge image; the active domain-singleton term is then
+  bounded by contained-boundary and one-outside target images, up to an explicit
+  zero-lower exceptional range. A residual-ledger corollary identifies the
+  packet-edge term with the active different-slope two-exchange codegree
+  subledger, and the zero-lower class is eliminated in the high-agreement range
+  `a>(n+1)/2`, hence throughout the positive-slack rate-half window
+  `k>=n/2`, `t>=1`. The note also records an explicit polynomial closure
+  criterion for the rate-half variable-line branch.
+- **How it is useful:** This extracts a reviewable M1 reduction from the
+  closed all-line packet without promoting an all-line theorem; it isolates the
+  next target-image problem for the aperiodic residue-packing route.
+- **What to do next:** In the high-agreement/rate-half positive-slack range,
+  bound the one-outside singleton target image and the active two-exchange
+  codegree in the quotient-aware residue-line ledger; the closure criterion
+  then pays the non-fixed variable-line branch with only fixed polynomial
+  bookkeeping losses. Treat lower-agreement zero-lower classes separately.
+
 ### 2026-06-26 - Generalized high-agreement ledgers
 
 - **Agent/model:** GPT-5.5 Pro generalized-ledgers packet, audited and
