@@ -1948,3 +1948,32 @@ Keep entries concise and link to the relevant files.
 - **What to do next:** Run verifiers and audits on the integrated material,
   review mathematical notes before promotion, and close the original PRs as
   manually integrated once the integration commit is pushed.
+
+## 2026-07-02 — Prize DAG: strategy layer, refinement principles, hard-problem decompositions
+
+- **Model:** AllenGrahamHart / Claude (Fable 5)
+- **Files:** `experimental/data/prize-dag/prize_dag.json` + `.svg` (149 -> 195
+  nodes across passes 5-8 and decompositions #1-#4),
+  `experimental/scripts/verify_prize_dag.py` (critical-set computation +
+  the CRITICAL=>statement precision invariant),
+  `experimental/scripts/prize_dag_strategy.py` (NEW: CRITICAL / ROUTE /
+  SUPPORT-ONLY classifier), `experimental/notes/roadmaps/
+  strategic_recommendations.md`, `redteam_attack_plan.md`,
+  `enumeration_routes.md` (NEW), `execution_queue.md` (Tiers R/E/P/F/X/Z).
+- **Status:** AUDIT throughout; new DAG nodes carry honest statuses
+  (PROVED only with citations; PROVABLE only with pinned routes;
+  CONJECTURE/TARGET/TEST otherwise).
+- **Highlights:** payment-completeness hypothesis made explicit (CRITICAL,
+  classification OUTPUT of the four enumeration routes, any-gate);
+  Conjecture F given a forced skeleton (gcd reduction + scale recursion +
+  primitive core) and its dim-1 case reduced to an elementary n/j voting
+  bound (PROVABLE); mixed-petal amplification reduced to list decoding one
+  level down (few-petal regime = classical GS; residue precisely located);
+  zone-(b) staged (sharp constants, almost-all-primes partial, subfield
+  descent); XR route staged (E_3 calculus + toy inverse).
+- **Usefulness:** the map now computes its own critical set, enforces
+  statement-precision on it, and every hard problem in the current
+  inventory is decomposed (delegable rungs queued), scoped (memos), or
+  explicitly parked pending data (spread/gap1) or rules (Q0.1).
+- **What to do next:** lanes claim queue items (QP/QF/QX/QZ/QR/QE tiers);
+  statuses flip on integration; strategy layer re-runs after each flip.
