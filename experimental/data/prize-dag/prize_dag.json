@@ -1366,6 +1366,57 @@
     "proof_sketch/s2_paid_ledger.md#3"
    ],
    "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it"
+  },
+  {
+   "id": "thm_exactslack",
+   "title": "thm:exactslack: canonical-line bad slopes = the multi-symmetric image B_T exactly",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "exact characterization on the monomial stratum \u2014 the unsafe side's sharpest proved tool"
+  },
+  {
+   "id": "prop_collapse",
+   "title": "prop:collapse: subgroup-symmetric witnesses collapse to the one-condition ladder",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
+  },
+  {
+   "id": "two_moment_fullness",
+   "title": "thm:twomoment: two-moment fullness at the root barrier (unconditional failure mechanism)",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
+  },
+  {
+   "id": "dyadic_descent",
+   "title": "thm:descent: dyadic descent failure mechanism (unconditional)",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
+  },
+  {
+   "id": "free_pool_ladder",
+   "title": "thm:ladder: polynomial-range free-pool ladder",
+   "status": "CONDITIONAL",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "conditional on a precise subgroup exponential-sum import"
+  },
+  {
+   "id": "subgroup_expsum_input",
+   "title": "The named exp-sum import: subgroup ranges beyond N >= p^{3/7+eps}",
+   "status": "CONJECTURE",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "exp sums are DEAD as a route to the core (route_expsums) but ALIVE as this ladder's import \u2014 the nuance matters"
   }
  ],
  "edges": [
@@ -2508,6 +2559,56 @@
    "from": "dyadic_profile_evaluation",
    "to": "paid_quot_fn",
    "kind": "ev"
+  },
+  {
+   "from": "thm_exactslack",
+   "to": "unsafe_at_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "thm_exactslack",
+   "to": "strat_tree",
+   "kind": "ev"
+  },
+  {
+   "from": "thm_exactslack",
+   "to": "acl_count",
+   "kind": "ev"
+  },
+  {
+   "from": "prop_collapse",
+   "to": "strat_tree",
+   "kind": "ev"
+  },
+  {
+   "from": "two_moment_fullness",
+   "to": "cap_theorem",
+   "kind": "ev"
+  },
+  {
+   "from": "two_moment_fullness",
+   "to": "unsafe_at_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "dyadic_descent",
+   "to": "cap_theorem",
+   "kind": "ev"
+  },
+  {
+   "from": "dyadic_descent",
+   "to": "unsafe_at_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "subgroup_expsum_input",
+   "to": "free_pool_ladder",
+   "kind": "req"
+  },
+  {
+   "from": "free_pool_ladder",
+   "to": "unsafe_at_crossing",
+   "kind": "alt"
   }
  ]
 }
