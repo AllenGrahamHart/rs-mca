@@ -1561,6 +1561,29 @@
     "tex/slackMCA_v4.tex"
    ],
    "notes": "the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory"
+  },
+  {
+   "id": "payment_completeness",
+   "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE",
+   "status": "CONJECTURE",
+   "key": true,
+   "statement": "Every alignment mechanism contributing super-poly mass (over pairs, locators, or fibers) is tangent-type, quotient-type (including towers/scales), or extension-type. Equivalently: the 'unpaid' predicate quantified in R2, Conjecture F, and ImgFib refers to a COMPLETE taxonomy.",
+   "attack_surface": "cannot be proved in isolation \u2014 it is certified only by proving R2/F themselves; until then it accumulates or loses evidence via red-team construction searches and the window/ladder/scan outcomes. Named explicitly so its failure has a precise trigger: S9 \u2014 add the new ledger, reissue the 'unpaid' statements, re-run the map.",
+   "falsifier": "the red-team multi-scale resonance search (redteam_multiscale): any constructed super-poly alignment family outside the three ledger types. HISTORICAL BASE RATE: this class of assumption has already failed three times in this project (no-slack, one-scale entropy, raw fibers).",
+   "refs": [
+    "proof_sketch/s8_s9_assembly_and_negative.md#4"
+   ],
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified"
+  },
+  {
+   "id": "redteam_multiscale",
+   "title": "RED TEAM: construct a fifth mechanism from cross-scale resonance",
+   "status": "TEST",
+   "key": true,
+   "statement": "Adversarial search at n = 2^10..2^12 (enough nested dyadic scales, unlike toys): deliberately construct pairs with simultaneous structure at MANY quotient scales and measure their unpaid alignment mass. Success = a counterexample contribution (COUNTEREXAMPLE status, S9 trigger); sustained failure across a structured search space = the first evidence that touches the actual hiding room.",
+   "refs": [
+    "proof_sketch/s3b_ii_strip_periodic.md#3"
+   ]
   }
  ],
  "edges": [
@@ -2843,6 +2866,31 @@
    "from": "averaged_xr",
    "to": "averaged_slope_conversion",
    "kind": "req"
+  },
+  {
+   "from": "payment_completeness",
+   "to": "r2_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "payment_completeness",
+   "to": "imgfib",
+   "kind": "req"
+  },
+  {
+   "from": "redteam_multiscale",
+   "to": "payment_completeness",
+   "kind": "ev"
+  },
+  {
+   "from": "redteam_multiscale",
+   "to": "gap1_noneq_mass",
+   "kind": "ev"
+  },
+  {
+   "from": "isotypic",
+   "to": "payment_completeness",
+   "kind": "ev"
   }
  ]
 }

@@ -221,6 +221,21 @@ Q3.4 [a_regularity_test] (S)  Measure a-regularity frequency and the
       bounded m.
 ```
 
+## Tier R — red-team attacks (see redteam_attack_plan.md for full specs)
+
+```text
+QR.1 [redteam_multiscale] (M)  The headline attack: multi-scale resonance
+     constructions at n = 2^10..2^12 vs payment_completeness — the
+     hypothesis whose class has already failed three times in this
+     project's history. Hit = COUNTEREXAMPLE contribution (S9 protocol);
+     sustained miss = the first evidence in the actual hiding room.
+QR.2-QR.7  the per-conjecture attacks (gap-1 pumping, petal pushing,
+     collision conspiracies, spread designs, plane census, irregularity
+     maximizers) — each a verifier-backed search, each cheap relative to
+     what it de-risks. Attack statements, not lanes; a hit is a
+     contribution, not a failure.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the
