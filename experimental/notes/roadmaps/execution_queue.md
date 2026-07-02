@@ -274,6 +274,56 @@ QP.3 [pma_wide_residual] (M-L)  The genuinely open residue: many-petal,
      territory. Q2.9 data first.
 ```
 
+## Tier F/X/Z — hard-problem decompositions #2-#4 (2026-07-02)
+
+Conjecture F's primitive core:
+
+```text
+QF.1 [f_dim1] (S)  Write the VOTING argument: gcd-trivial pencils meet
+     D_j in <= n/j points (each x in H votes for one parameter; members
+     need j votes). Toy verifier at n = 16. The base case of the map's
+     one unavoidable conjecture, true with room to spare.
+QF.2 [f_concurrency_equiv] (S)  Write the exact reformulation: F-primitive
+     = j-fold concurrency bound for the evaluation-hyperplane arrangement.
+     Deliverable includes a literature scan: multiplicity point-hyperplane
+     incidences / Furstenberg-type sets over F_q — the dim >= 2 attack
+     inherits an existing field.
+```
+
+XR inverse, k = 3 entry:
+
+```text
+QX.1 [xr_e3_calculus] (M)  Define E_3 (odd-order exchange energy;
+     E_2 = averaged_xr), prove the structured lower-bound direction
+     (folded + tangent pairs are E_3-large). The EASY half of the
+     inverse theorem, delegable now.
+QX.2 [xr_inverse_toy] (M)  Exhaustive toy inverse at n = 16/32: every
+     E_3-large pair is structured. Falsifier + C_XR content preview.
+```
+
+Zone-(b) range extension, staged:
+
+```text
+QZ.1 [are_sharp_constant] (S-M)  Recompute the transfer height bound
+     with explicit constants; determine the true exponent shape.
+QZ.2 [are_exceptional_density] (M)  The almost-all-primes partial:
+     Sum_p collisions <= pairs x log(height) => in any dyadic range all
+     but poly-many primes are collision-light. Dossier-grade partial.
+QZ.3 [are_subfield_amp] (M-L)  Classify collision classes admitting
+     subfield norm descent; each class extends its transfer range.
+```
+
+Monodromy realization, scoping (no DAG nodes — deliverables are memos):
+
+```text
+QM.1 (S)  Inventory Katz-toolbox trace-function realizations matching
+     the alignment sum's shape (literature + repo scan; collectible by
+     any lane).
+QM.2 (M)  Gap analysis: what made BETA_2's slack-line instance
+     realizable (one-parameter family) vs the general pair problem
+     (multi-parameter) — does a fibration exist? Expert-consultable memo.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the

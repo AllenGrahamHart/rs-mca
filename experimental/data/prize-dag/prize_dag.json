@@ -1679,6 +1679,71 @@
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
    ]
+  },
+  {
+   "id": "f_dim1",
+   "title": "F at dimension 1: pencils meet D_j in at most n/j points (VOTING)",
+   "status": "PROVABLE",
+   "statement": "For a gcd-trivial pencil l_0 + t l_1: each x in H roots the member at a UNIQUE parameter t_x = -l_0(x)/l_1(x) (shared roots excluded by gcd-triviality; l_1(x)=0 gives no vote). A D_j member needs j votes; n votes exist. Hence <= n/j members (+1 for the leading-coefficient degeneracy). Far below the n^{B_F} target.",
+   "refs": [
+    "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+   ],
+   "notes": "elementary; the base case of F is TRUE with room to spare"
+  },
+  {
+   "id": "f_concurrency_equiv",
+   "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)",
+   "status": "PROVABLE",
+   "statement": "On an r-flat P of parameter space, member-at-t has root x iff t lies on the hyperplane H_x = {P(x) = 0}. P cap D_j corresponds EXACTLY (up to the leading-coefficient hyperplane) to points lying on >= j of the n evaluation hyperplanes {H_x : x in H}. F-primitive <=> poly bound on j-fold concurrency points, with tangent shape = flats near {multiples of l_S} and periodic shape = pullback flats.",
+   "refs": [
+    "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+   ],
+   "notes": "turns F into finite-field incidence geometry: concurrency loci of a Vandermonde-type arrangement \u2014 a searchable literature (multiplicity incidence bounds, Furstenberg-type sets)"
+  },
+  {
+   "id": "xr_e3_calculus",
+   "title": "E_3 calculus: the 3-fold exchange energy + the structured lower-bound direction",
+   "status": "PROVABLE",
+   "statement": "Define E_3(u,v) = the 3-fold iterated exchange correlation (odd-order Johnson-scheme sum; E_2 = averaged_xr). Prove the EASY direction of the inverse: folded/equivariant words and tangent pairs have E_3 large (explicit lower bounds). Consistency check: E_2 reproduces the averaged-XR variance.",
+   "refs": [
+    "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+   ]
+  },
+  {
+   "id": "xr_inverse_toy",
+   "title": "TOY INVERSE at n = 16/32: every E_3-large pair is structured (exhaustive)",
+   "status": "TEST",
+   "refs": [
+    "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+   ],
+   "notes": "the k=3 inverse verified exhaustively at toy scale \u2014 falsifier and content-preview for C_XR in one experiment"
+  },
+  {
+   "id": "are_sharp_constant",
+   "title": "Sharpen the transfer range: recompute the norm-height bound with explicit constants",
+   "status": "PROVABLE",
+   "statement": "Re-derive the split-prime transfer's height bound exp(C n log n / sigma) with the sharpest explicit C (archimedean conjugate bounds (2l')^{N'/2} per level); determine the TRUE exponent shape (is N' log l' achievable in place of n log n?). Every constant improvement is direct range progress.",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
+  },
+  {
+   "id": "are_exceptional_density",
+   "title": "Almost-all-primes collision-lightness (the density partial)",
+   "status": "PROVABLE",
+   "statement": "Sum over the bounded-height norm family: Sum_p #collisions(p) <= Sum_pairs Omega(Norm(diff)) <= #pairs * log(height). Hence in ANY dyadic prime range, all but a poly-sized exceptional set of primes have collision-light e1 value sets. Partial (the official p could be exceptional) but dossier-grade.",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
+  },
+  {
+   "id": "are_subfield_amp",
+   "title": "Subfield amplification: norms from intermediate fields shrink the height",
+   "status": "TARGET",
+   "statement": "For structured differences lying in (or near) proper subfields of Q(zeta_N'), take norms from the subfield: height (2l')^{deg/2} with smaller degree extends the per-class transfer range. Classify which collision classes admit subfield descent.",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ]
   }
  ],
  "edges": [
@@ -3086,6 +3151,66 @@
    "from": "ldsw_ld_separation",
    "to": "pma_johnson_regime",
    "kind": "ref"
+  },
+  {
+   "from": "f_dim1",
+   "to": "f_primitive_case",
+   "kind": "req"
+  },
+  {
+   "from": "f_concurrency_equiv",
+   "to": "f_primitive_case",
+   "kind": "req"
+  },
+  {
+   "from": "f_dim1",
+   "to": "f_concurrency_equiv",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_e3_calculus",
+   "to": "xr_inverse",
+   "kind": "req"
+  },
+  {
+   "from": "xr_inverse_toy",
+   "to": "xr_inverse",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_gvn",
+   "to": "xr_e3_calculus",
+   "kind": "ref"
+  },
+  {
+   "from": "hooley_katz",
+   "to": "xr_e3_calculus",
+   "kind": "ev"
+  },
+  {
+   "from": "are_sharp_constant",
+   "to": "amplification_range_ext",
+   "kind": "req"
+  },
+  {
+   "from": "are_subfield_amp",
+   "to": "amplification_range_ext",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "are_exceptional_density",
+   "kind": "req"
+  },
+  {
+   "from": "are_exceptional_density",
+   "to": "e1_fullness",
+   "kind": "ev"
+  },
+  {
+   "from": "are_exceptional_density",
+   "to": "dossier_partial",
+   "kind": "ev"
   }
  ]
 }
