@@ -184,6 +184,22 @@ NOTE  Q1.1 (bridge ledger) gains a MANDATORY row: the proved LD_sw vs
       ABF/GG separation (forward-only import; see ldsw_ld_separation).
 ```
 
+## Addendum — falsifier tests (precision pass, 2026-07-02)
+
+```text
+Q3.3 [gap1_toy_test] (S)  Enumerate non-equivariant (multi-isotypic)
+      periodic alignments on toy rows (F_13, F_97): count aligned pairs
+      whose locator root set is K_M-stable but whose word data is not
+      zeta-equivariant. Falsifies gap1_noneq_mass if the mass outgrows
+      poly; grounds it otherwise. Ev-wired to the critical GAP-1 node.
+Q3.4 [a_regularity_test] (S)  Measure a-regularity frequency and the
+      irregular stratum's contribution on random toy interleaved
+      configurations. Informs whether forcing (Q4.4) or an
+      irregular-stratum bound is the right attack; note the m-quantifier
+      lookup (Q0.1/rules_m_reading) may obviate the whole question for
+      bounded m.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the

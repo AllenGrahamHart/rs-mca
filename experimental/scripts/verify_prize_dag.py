@@ -153,6 +153,10 @@ def main() -> None:
         print("CRITICAL open nodes (on EVERY route to the prize):")
         for c in sorted(critical):
             print(f"  ! {c}: {nodes[c]['title'][:66]} [{nodes[c]['status']}]")
+        # precision invariant: critical nodes must carry an exact statement
+        for c in sorted(critical):
+            if not nodes[c].get("statement"):
+                errors.append(f"{c}: CRITICAL but has no 'statement' field (precision invariant)")
     else:
         print("WARNING: root not satisfiable even granting all open nodes (check gates)")
 

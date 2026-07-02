@@ -1,6 +1,6 @@
 {
  "schema": "prize-dag-v1",
- "description": "Dependency DAG of the Proximity Prize program. Nodes = statements/artifacts/experiments; edges point FROM a dependency TO the statement it supports. gate=all: every 'req' child needed; gate=any: one 'alt' child suffices (plus all 'req'). Statuses: PROVED (on main w/ proof or exact verification), PROVABLE (route pinned, write-up pending), CONDITIONAL (proved under stated hypothesis), CONJECTURE (precise statement, unproved), TARGET (fuzzy, expected to sharpen), WALL (frozen hard core w/ consumer theorem), REFUTED (dead route), TEST (experiment/prediction). Source of truth for statuses: experimental/notes/roadmaps/ (r2 + proof_sketch + wp_detail).",
+ "description": "Dependency DAG of the Proximity Prize program. Nodes = statements/artifacts/experiments; edges point FROM a dependency TO the statement it supports. gate=all: every 'req' child needed; gate=any: one 'alt' child suffices (plus all 'req'). Statuses: PROVED (on main w/ proof or exact verification), PROVABLE (route pinned, write-up pending), CONDITIONAL (proved under stated hypothesis), CONJECTURE (precise statement, unproved), TARGET (fuzzy, expected to sharpen), WALL (frozen hard core w/ consumer theorem), REFUTED (dead route), TEST (experiment/prediction). Source of truth for statuses: experimental/notes/roadmaps/ (r2 + proof_sketch + wp_detail). REFINEMENT PRINCIPLES (2026-07-02): (1) critical nodes carry exact 'statement' fields (+ attack_surface/falsifier notes) \u2014 machine-enforced; (2) new conjectured nodes are admitted ONLY as branches of exhaustive splits, proved equivalences/reductions, or with a named non-ev consumer + truth-confidence note \u2014 never as speculative lemma chains presuming a proof shape; (3) every critical conjecture gets a cheap wired falsifier TEST.",
  "root": "prize",
  "nodes": [
   {
@@ -11,7 +11,8 @@
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#1"
-   ]
+   ],
+   "statement": "Both grand challenges resolved per the official statement, packaged per the rules (partials creditable)."
   },
   {
    "id": "mca_grand",
@@ -21,7 +22,8 @@
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#1"
-   ]
+   ],
+   "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed."
   },
   {
    "id": "list_grand",
@@ -31,7 +33,8 @@
    "key": true,
    "refs": [
     "proof_sketch/s7_list_side.md"
-   ]
+   ],
+   "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it."
   },
   {
    "id": "packaging",
@@ -40,7 +43,8 @@
    "gate": "all",
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#1"
-   ]
+   ],
+   "statement": "Compiler emits verdicts under the refusal rule; dossier versions gate-checked; every constant descriptor-generated."
   },
   {
    "id": "s0_zero_open",
@@ -50,7 +54,8 @@
    "key": true,
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
-   ]
+   ],
+   "statement": "Every object axis EQUAL or BRIDGED(loss printed); zero OPEN axes before any prize-facing claim."
   },
   {
    "id": "axes_verified",
@@ -66,7 +71,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
-   ]
+   ],
+   "statement": "Resolve: does the official sampler batch as affine lines u + zv (repo convention) or another shape (powers-of-alpha)? Quote-level audit vs the ABF text."
   },
   {
    "id": "axis2_ell",
@@ -74,7 +80,8 @@
    "status": "TARGET",
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
-   ]
+   ],
+   "statement": "Resolve: official MCA quantifies pairs (C^{==2}) or ell-tuples? If tuples: supply the tuple-to-pair reduction or per-ell gates."
   },
   {
    "id": "axis4_predicate",
@@ -83,7 +90,8 @@
    "key": true,
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#2"
-   ]
+   ],
+   "statement": "Resolve: is ABF's Delta_S((f1,f2), C^{==2}) > 0 exactly the same-support degenerate-pencil predicate (a = b = 0 stratum)? Quote-level audit."
   },
   {
    "id": "axis9_dither",
@@ -100,7 +108,8 @@
    "key": true,
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
-   ]
+   ],
+   "statement": "Confirm or refute in ePrint 2026/680: k <= 2^40 and |F| < 2^256. Determines B* magnitudes, the ~90-bit band statement, and whether non-generating rows (hence the tower case) are admissible."
   },
   {
    "id": "rules_freeze",
@@ -108,7 +117,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#2"
-   ]
+   ],
+   "statement": "Pin every operative rule as quote + hash with a drift detector; plan against the stricter reading on any ambiguity."
   },
   {
    "id": "mca_unsafe",
@@ -117,7 +127,8 @@
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
-   ]
+   ],
+   "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing)."
   },
   {
    "id": "cap_theorem",
@@ -151,7 +162,10 @@
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "statement": "Determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs collided (= prob:perfiber at sigma = 1).",
+   "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
+   "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction"
   },
   {
    "id": "acl_second_order",
@@ -186,7 +200,8 @@
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#4"
-   ]
+   ],
+   "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum."
   },
   {
    "id": "counting_frame",
@@ -253,7 +268,8 @@
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
-   ]
+   ],
+   "statement": "Paid(A) as one computable function assembled from paid_tan_fn + paid_quot_fn (intervals) + paid_ext_fn."
   },
   {
    "id": "staircase",
@@ -328,7 +344,10 @@
    "status": "CONJECTURE",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#3"
-   ]
+   ],
+   "statement": "#{aligned (l, Z): root set K_M-stable but (u,v) multi-isotypic (non-equivariant) on the stratum} <= poly(n) * FM \u2014 the isotypic escape stratum carries no super-poly alignment mass.",
+   "attack_surface": "bound the multi-isotypic stratum via the isotypic decomposition + FM; the stratum is thin (non-equivariant data on stable supports)",
+   "falsifier": "toy enumeration (gap1_toy_test) showing non-equivariant periodic alignments outgrowing poly"
   },
   {
    "id": "gap2_seam",
@@ -346,7 +365,10 @@
    "key": true,
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
-   ]
+   ],
+   "statement": "For every pair (u,v): #(D_j cap X_{u,v} minus paid strata) <= n^B max(1, C(n,j) q^{1-t}) with B <= 3, X_{u,v} = V(2x2 minors of (H_u l ; H_v l)).",
+   "attack_surface": "any ONE of the four wall routes; budget B <= 3 verified",
+   "falsifier": "an unpaid collision in the window scan (P1c) or an unpaid identically-valid pencil at deficiency 1 (P3)"
   },
   {
    "id": "budget_b3",
@@ -446,7 +468,10 @@
    "key": true,
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
-   ]
+   ],
+   "statement": "For every linear P <= P^j and pair (u,v): the D_j-points of P are, up to n^{B_F} exceptions, covered by a shared divisor of degree >= j - dim P - O(log_n) (tangent shape) or a proper quotient-pullback stratum (periodic shape).",
+   "attack_surface": "prove coordinate planes first (= prob:perfiber, minimal instance), then kernel planes; the crux is classifying exceptional planes (ES-type)",
+   "falsifier": "a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry"
   },
   {
    "id": "perfiber",
@@ -571,7 +596,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
-   ]
+   ],
+   "statement": "Script-emitted per-A table: tan/quot(zones, intervals)/ext/ap columns, deduped total vs B*, checker-recomputed."
   },
   {
    "id": "strat_tree",
@@ -579,7 +605,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
-   ]
+   ],
+   "statement": "The executable T0-T7 first-match tree = THE dedup convention; partition theorem proved; fuzz-tested per wp2_3 \u00a74."
   },
   {
    "id": "deficiency_ladder",
@@ -656,7 +683,8 @@
    "key": true,
    "refs": [
     "proof_sketch/s7_list_side.md#5"
-   ]
+   ],
+   "statement": "#Lambda(C^{==m}, delta) <= 2^-128 |F| above the window: ImgFib bound + codegree conversion + m-handling per the official quantifier."
   },
   {
    "id": "imgfib",
@@ -665,7 +693,10 @@
    "key": true,
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
-   ]
+   ],
+   "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted.",
+   "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
+   "falsifier": "a toy word family with super-poly image fibers above the corrected reserve"
   },
   {
    "id": "petal_growth",
@@ -675,7 +706,10 @@
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
-   "gate": "any"
+   "gate": "any",
+   "statement": "Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).",
+   "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
+   "falsifier": "fixed-excess counts growing super-poly in n at some c"
   },
   {
    "id": "petal_witnesses",
@@ -724,7 +758,10 @@
    "key": true,
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
-   ]
+   ],
+   "statement": "Every interleaved configuration reduces with poly loss to the a-regular case (all base agreements exactly a), or the irregular stratum contributes <= poly(n) to interleaved counts.",
+   "attack_surface": "agreement-trimming regularization or a direct irregular-stratum bound",
+   "falsifier": "toy interleaved counts (a_regularity_test) exceeding regularized predictions"
   },
   {
    "id": "clique_cap",
@@ -749,7 +786,8 @@
    "gate": "all",
    "refs": [
     "proof_sketch/s6_extension_lift.md"
-   ]
+   ],
+   "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined."
   },
   {
    "id": "b_rational_lift",
@@ -789,7 +827,8 @@
    "status": "CONJECTURE",
    "refs": [
     "proof_sketch/s6_extension_lift.md#4"
-   ]
+   ],
+   "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger."
   },
   {
    "id": "sigma1_cx",
@@ -805,7 +844,8 @@
    "status": "TARGET",
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#1"
-   ]
+   ],
+   "statement": "Row + packets -> SAFE/UNSAFE/CONDITIONAL/UNKNOWN verdicts per grid A; refuses prize-facing output on OPEN axes or conjectural ledgers."
   },
   {
    "id": "harness",
@@ -813,7 +853,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp0_3_wp0_4_replay_and_harness.md#2"
-   ]
+   ],
+   "statement": "run_all_verifiers: discovery + manifest + cert hashes + six-packet negative-control suite all red."
   },
   {
    "id": "descriptor",
@@ -821,7 +862,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp3_2_symbolic_scaling.md#2"
-   ]
+   ],
+   "statement": "(p, e, s, rho) -> full derived row table, O(poly), double regression (pinned row + master table); sole source of dossier constants."
   },
   {
    "id": "lean_tier1",
@@ -837,7 +879,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp7_2_wp7_3_wp7_4_promotion_gates_dossier.md#3"
-   ]
+   ],
+   "statement": "v-PARTIAL assembled and gate-checked: pinned-row note + envelope family + freeze tables + tier-1 Lean certificates + non-claims, S0-conditioned."
   },
   {
    "id": "bridge_ledger",
@@ -845,7 +888,8 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#3"
-   ]
+   ],
+   "statement": "One row per object crossing (losses, conventions, provenance); checker fails silent bridge use; includes the proved LD_sw forward-only separation."
   },
   {
    "id": "row_slate",
@@ -1013,7 +1057,8 @@
    "status": "TARGET",
    "refs": [
     "proof_sketch/s7_list_side.md#4"
-   ]
+   ],
+   "statement": "The L1 program's closing target: mixed-petal configurations amplify to full-petal ones with controlled multiplicity, closing the d-ell -> infinity branch (see program note, closing section)."
   },
   {
    "id": "e1_fullness",
@@ -1254,7 +1299,8 @@
    "status": "TARGET",
    "refs": [
     "proof_sketch/s6_extension_lift.md#5"
-   ]
+   ],
+   "statement": "Case (iii) closes: intermediate-subfield-confined slopes are priced by the same two mechanisms one level up, recursively, with per-level denominators printed. NOTE: critical only if the official family admits non-generating rows (Q0.1)."
   },
   {
    "id": "two_slope_intersection",
@@ -1347,7 +1393,10 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion"
+   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion",
+   "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
+   "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
+   "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
   },
   {
    "id": "averaged_slope_conversion",
@@ -1417,6 +1466,58 @@
     "tex/slackMCA_v4.tex"
    ],
    "notes": "exp sums are DEAD as a route to the core (route_expsums) but ALIVE as this ladder's import \u2014 the nuance matters"
+  },
+  {
+   "id": "m_handling",
+   "title": "Interleaved m-handling per the official quantifier",
+   "status": "TARGET",
+   "gate": "any",
+   "statement": "Either the official reading bounds m (exists-m / fixed small m: worst-case route suffices) or for-all-m holds (a-regular collapse required for m >= 4). Exhaustive over readings.",
+   "refs": [
+    "proof_sketch/s7_list_side.md#3"
+   ]
+  },
+  {
+   "id": "m_le3_route",
+   "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
+   "status": "CONDITIONAL",
+   "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
+   "refs": [
+    "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
+   ]
+  },
+  {
+   "id": "rules_m_reading",
+   "title": "Official resolution of the 'constant m' quantifier",
+   "status": "TEST",
+   "refs": [
+    "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
+   ]
+  },
+  {
+   "id": "imgfib_monomial",
+   "title": "PROVED instance: monomial-prefix list sizes poly at corrected reserve (split primes, quasi-poly range)",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "cor:quasipoly-upper \u2014 the minimal proved instance of imgfib; range extension = amplification_range_ext"
+  },
+  {
+   "id": "gap1_toy_test",
+   "title": "Toy enumeration: non-equivariant periodic alignment mass (F_13/F_97 rows)",
+   "status": "TEST",
+   "refs": [
+    "proof_sketch/s3b_ii_strip_periodic.md#3"
+   ]
+  },
+  {
+   "id": "a_regularity_test",
+   "title": "Toy measurement: a-regularity frequency + irregular-stratum contribution",
+   "status": "TEST",
+   "refs": [
+    "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
+   ]
   }
  ],
  "edges": [
@@ -1902,11 +2003,6 @@
   },
   {
    "from": "codegree",
-   "to": "list_safe",
-   "kind": "req"
-  },
-  {
-   "from": "a_regular_collapse",
    "to": "list_safe",
    "kind": "req"
   },
@@ -2609,6 +2705,51 @@
    "from": "free_pool_ladder",
    "to": "unsafe_at_crossing",
    "kind": "alt"
+  },
+  {
+   "from": "m_handling",
+   "to": "list_safe",
+   "kind": "req"
+  },
+  {
+   "from": "a_regular_collapse",
+   "to": "m_handling",
+   "kind": "alt"
+  },
+  {
+   "from": "m_le3_route",
+   "to": "m_handling",
+   "kind": "alt"
+  },
+  {
+   "from": "rules_m_reading",
+   "to": "m_le3_route",
+   "kind": "req"
+  },
+  {
+   "from": "imgfib",
+   "to": "m_le3_route",
+   "kind": "req"
+  },
+  {
+   "from": "imgfib_monomial",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "galois_amplification",
+   "to": "imgfib_monomial",
+   "kind": "req"
+  },
+  {
+   "from": "gap1_toy_test",
+   "to": "gap1_noneq_mass",
+   "kind": "ev"
+  },
+  {
+   "from": "a_regularity_test",
+   "to": "a_regularity_forcing",
+   "kind": "ev"
   }
  ]
 }
