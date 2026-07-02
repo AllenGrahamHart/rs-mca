@@ -249,6 +249,31 @@ QE.4 [monodromy_realization] (M)  scoping note: the sheaf family for the
                           the general problem; expert-consultable)
 ```
 
+## Tier P — the mixed-petal subDAG (hard-problem decomposition #1, 2026-07-02)
+
+The single point of failure (petal_mixed_amplification, R4) decomposed:
+the amplification count IS list decoding one level down.
+
+```text
+QP.1 [pma_aux_list_reduction] (S)  Write the reduction: extras inject
+     into the RS list of the auxiliary pieced word U* = c_i L_D on T_i
+     at degree d, agreement N = d+1+sigma-|R_P| (elementary from the
+     PROVED core-defect lemma; D-choice entropy charged to the reserve).
+     Acceptance: note + toy verifier checking the injection on the
+     d-ell = 2, 5 witnesses.
+QP.2 [pma_johnson_regime] (S)  The few-petal regime M below
+     ~(d+sigma)^2/(d(sigma+1)) is CLASSICAL: cite Guruswami-Sudan on the
+     auxiliary word (forward import; add the bridge-ledger row).
+     Acceptance: the threshold formula verified on toys; GS list bound
+     instantiated with explicit constants.
+QP.3 [pma_wide_residual] (M-L)  The genuinely open residue: many-petal,
+     sub-Johnson, CORRELATED targets (all c_i L_D share one L_D). Two
+     independent angles queued as separate attempts: (a) one-dimensional-
+     target strengthening of GS; (b) descent — the auxiliary extras are
+     the SAME problem at strictly smaller degree; iterate to Johnson-safe
+     territory. Q2.9 data first.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the

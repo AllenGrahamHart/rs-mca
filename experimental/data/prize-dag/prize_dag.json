@@ -1648,6 +1648,37 @@
     "experimental/notes/m1/m1_beta2_conditional_close.md"
    ],
    "notes": "the unmapped step: BETA_2's sheaf covers ONE instance; the general realization is open"
+  },
+  {
+   "id": "pma_aux_list_reduction",
+   "title": "PMA stage 1: mixed-petal extras = RS list of the auxiliary pieced word (one level down)",
+   "status": "PROVABLE",
+   "statement": "Fix defect set D (|D| = d) and background R_P. Non-planted extras inject (P -> W_P, proved unique) into the list of degree-<=d polynomials agreeing with the auxiliary word U*(x) = c_i L_D(x) on T_i (well-defined: petals disjoint) at agreement N = d+1+sigma-|R_P|, with W = 0 on R_P. The D-choice entropy C(k-1,d) is charged to the reserve \u2014 the same budget line as all locator combinatorics.",
+   "refs": [
+    "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+   ],
+   "notes": "elementary from the PROVED core-defect lemma; turns the amplification problem into list decoding at degree d"
+  },
+  {
+   "id": "pma_johnson_regime",
+   "title": "PMA stage 2: few-petal regime is CLASSICAL \u2014 Johnson/GS list bound applies",
+   "status": "PROVABLE",
+   "statement": "Whenever N^2 > d |T| (T = union of petals, |T| = M(sigma+1)), i.e. petal count M below ~(d+sigma)^2/(d(sigma+1)), the per-D auxiliary list is poly by Guruswami-Sudan \u2014 an unconditional classical import (forward direction; bridge-ledger row).",
+   "refs": [
+    "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+   ]
+  },
+  {
+   "id": "pma_wide_residual",
+   "title": "PMA stage 3 (the residue): many-petal, sub-Johnson regime with CORRELATED targets",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For M above the Johnson threshold: bound the auxiliary list despite sub-Johnson agreement. The structure not yet exploited: all petal targets c_i L_D come from ONE polynomial L_D (the word is far from arbitrary), the per-petal cap |S_i| <= d spreads agreement thin, and W vanishes on R_P.",
+   "attack_surface": "two independent angles: (a) correlated-target strengthening of GS (the c_i are scalars times a COMMON L_D \u2014 one-dimensional target space per petal); (b) descent: extras of the auxiliary problem are degree-d objects \u2014 the SAME problem at (k, sigma) -> (d+1, ...), strictly smaller; iterate until Johnson-safe. Q2.9 fixed-excess data calibrates both.",
+   "falsifier": "an adversarial many-petal family (R3 attack) with super-poly auxiliary list",
+   "refs": [
+    "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+   ]
   }
  ],
  "edges": [
@@ -3020,6 +3051,41 @@
    "from": "monodromy_realization",
    "to": "payment_completeness",
    "kind": "alt"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "petal_mixed_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "pma_johnson_regime",
+   "to": "petal_mixed_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "pma_wide_residual",
+   "to": "petal_mixed_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_johnson_regime",
+   "kind": "req"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_wide_residual",
+   "kind": "req"
+  },
+  {
+   "from": "petal_fixed_excess",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "ldsw_ld_separation",
+   "to": "pma_johnson_regime",
+   "kind": "ref"
   }
  ]
 }
