@@ -236,6 +236,19 @@ QR.2-QR.7  the per-conjecture attacks (gap-1 pumping, petal pushing,
      contribution, not a failure.
 ```
 
+## Tier E — enumeration-route stages (see enumeration_routes.md)
+
+```text
+QE.1 [xr_gvn] (M, RIPE)   iterated exchange energies + the Cauchy-Schwarz
+                          chain; k=2 exists (averaged_xr), extend to k=3
+QE.2 [spi_component_control] (M)  effective Bezout component/degree bounds
+QE.3 [es_regularity] (S)  feasibility memo: bounded-complexity encoding of
+                          alignment (V^T D V shape) — yes/no before investing
+QE.4 [monodromy_realization] (M)  scoping note: the sheaf family for the
+                          general count (gap between BETA_2's instance and
+                          the general problem; expert-consultable)
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the

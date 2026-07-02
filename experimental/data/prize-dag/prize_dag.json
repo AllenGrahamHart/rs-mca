@@ -1009,13 +1009,14 @@
   },
   {
    "id": "xr_crystallization",
-   "title": "Crystallization: surviving dense alignment IS tangent/quotient structure",
+   "title": "XR classification: members of the exchange-inverse class C_XR are paid",
    "status": "TARGET",
    "key": true,
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
    ],
-   "notes": "the content beyond even moments \u2014 the genuinely new ingredient every mechanism needs"
+   "notes": "the content beyond even moments \u2014 the genuinely new ingredient every mechanism needs",
+   "statement": "Every member of the class C_XR produced by the exchange inverse theorem (xr_inverse) is tangent-type, quotient-type, or extension-type \u2014 or is a NEW named ledger. The class is complete BY CONSTRUCTION of the inverse step; this node is pure classification."
   },
   {
    "id": "spi_genericity",
@@ -1027,12 +1028,13 @@
   },
   {
    "id": "spi_exceptional_class",
-   "title": "ES exceptional varieties over F_q classified = paid strata",
+   "title": "SPI classification: high-dimensional components map to paid strata",
    "status": "TARGET",
    "key": true,
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
-   ]
+   ],
+   "statement": "Every irreducible component of the alignment/structure loci with dimension above the poly-count threshold is contained in a tangent, quotient(-tower), or extension stratum \u2014 or is a NEW named ledger. Completeness of the component list is Noetherian/degree-bounded (spi_component_control)."
   },
   {
    "id": "spi_dimension_free",
@@ -1567,13 +1569,14 @@
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE",
    "status": "CONJECTURE",
    "key": true,
-   "statement": "Every alignment mechanism contributing super-poly mass (over pairs, locators, or fibers) is tangent-type, quotient-type (including towers/scales), or extension-type. Equivalently: the 'unpaid' predicate quantified in R2, Conjecture F, and ImgFib refers to a COMPLETE taxonomy.",
-   "attack_surface": "cannot be proved in isolation \u2014 it is certified only by proving R2/F themselves; until then it accumulates or loses evidence via red-team construction searches and the window/ladder/scan outcomes. Named explicitly so its failure has a precise trigger: S9 \u2014 add the new ledger, reissue the 'unpaid' statements, re-run the map.",
+   "statement": "The ledger taxonomy is exhaustive. NOT to be assumed or merely evidenced: it is the CLASSIFICATION OUTPUT of whichever enumeration route completes \u2014 the inverse class C_XR, the component list, the regularity-lemma exceptional sets, or the monodromy subgroup classification \u2014 each of which is complete by construction. Red-team results preview its content; they do not certify it.",
+   "attack_surface": "complete step 2 (classification) of any one enumeration route; a new class member discovered there = the S9 protocol, built into the strategy rather than bolted on",
    "falsifier": "the red-team multi-scale resonance search (redteam_multiscale): any constructed super-poly alignment family outside the three ledger types. HISTORICAL BASE RATE: this class of assumption has already failed three times in this project (no-slack, one-scale entropy, raw fibers).",
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified"
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified",
+   "gate": "any"
   },
   {
    "id": "redteam_multiscale",
@@ -1584,6 +1587,67 @@
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#3"
    ]
+  },
+  {
+   "id": "xr_gvn",
+   "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
+   "status": "TARGET",
+   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
+   "refs": [
+    "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+   ],
+   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case)"
+  },
+  {
+   "id": "xr_inverse",
+   "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
+   "status": "CONJECTURE",
+   "key": true,
+   "statement": "There is an explicitly described class C_XR (complete by construction from the E_k mechanics) such that E_k(u,v) large implies (u,v) correlates with a member. Expected content: folded/equivariant words (quotient) and common-codeword structure (tangent) at low k; the open question is what, if anything, appears at higher k.",
+   "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
+   "falsifier": "an E_k-large pair correlating with nothing structured at toy scale",
+   "refs": [
+    "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+   ]
+  },
+  {
+   "id": "spi_component_control",
+   "title": "SPI stage 1: effective component control \u2014 count and degrees of irreducible components",
+   "status": "TARGET",
+   "statement": "Bezout-type bounds: the alignment variety X_{u,v} and its intersections with structure loci have an explicitly bounded number of irreducible components with bounded degrees (explicit in n, t, j). The component LIST is the finite enumeration.",
+   "refs": [
+    "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#1"
+   ]
+  },
+  {
+   "id": "spi_point_counting",
+   "title": "SPI stage 2: points of D_j on components \u2014 low-dim components contribute poly",
+   "status": "CONJECTURE",
+   "statement": "For each component V of dim below threshold: #(V cap D_j) <= poly(n). HONEST NOTE: this is where the core resurfaces in the SPI dialect \u2014 D_j is a special finite set, not generic points, so Lang-Weil-type counting does not apply verbatim; the divisor structure must enter.",
+   "refs": [
+    "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#5"
+   ]
+  },
+  {
+   "id": "es_regularity",
+   "title": "ES route: adapt the algebraic regularity lemma (Tao) as the off-the-shelf enumerator",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Formulate alignment as a definable relation of bounded description complexity and apply an F_q algebraic-regularity/ES-type theorem: structure-vs-pseudorandomness with power savings, exceptional sets ALGEBRAIC and classifiable. Named obstacle: bounded complexity vs our degrees growing with t \u2014 the same dimension-free obstacle in regularity-lemma clothing.",
+   "refs": [
+    "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
+   ]
+  },
+  {
+   "id": "monodromy_realization",
+   "title": "Monodromy route stage 0: realize general aperiodic alignment as sheaf monodromy",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Express the aperiodic alignment count (general pairs, in-band agreements) as the trace function of an explicit sheaf family, so that big-monodromy + subgroup classification (the BETA_2 machinery, worked for the slack-line instance) applies. The enumeration = the subgroup classification (Kantor/ADW-style), complete by group theory.",
+   "refs": [
+    "experimental/notes/m1/m1_beta2_conditional_close.md"
+   ],
+   "notes": "the unmapped step: BETA_2's sheaf covers ONE instance; the general realization is open"
   }
  ],
  "edges": [
@@ -2891,6 +2955,71 @@
    "from": "isotypic",
    "to": "payment_completeness",
    "kind": "ev"
+  },
+  {
+   "from": "xr_gvn",
+   "to": "xr_inverse",
+   "kind": "req"
+  },
+  {
+   "from": "xr_inverse",
+   "to": "xr_crystallization",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_xr",
+   "to": "xr_gvn",
+   "kind": "req"
+  },
+  {
+   "from": "hooley_katz",
+   "to": "xr_inverse",
+   "kind": "ev"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "spi_point_counting",
+   "kind": "req"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "spi_exceptional_class",
+   "kind": "req"
+  },
+  {
+   "from": "spi_point_counting",
+   "to": "spi_wall",
+   "kind": "req"
+  },
+  {
+   "from": "es_regularity",
+   "to": "spi_exceptional_class",
+   "kind": "ev"
+  },
+  {
+   "from": "monodromy_realization",
+   "to": "monodromy_route",
+   "kind": "req"
+  },
+  {
+   "from": "xr_crystallization",
+   "to": "payment_completeness",
+   "kind": "alt"
+  },
+  {
+   "from": "spi_exceptional_class",
+   "to": "payment_completeness",
+   "kind": "alt"
+  },
+  {
+   "from": "es_regularity",
+   "to": "payment_completeness",
+   "kind": "alt"
+  },
+  {
+   "from": "monodromy_realization",
+   "to": "payment_completeness",
+   "kind": "alt"
   }
  ]
 }
