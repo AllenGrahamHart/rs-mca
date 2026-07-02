@@ -186,6 +186,11 @@ NOTE  Q1.1 (bridge ledger) gains a MANDATORY row: the proved LD_sw vs
 
 ## Sequencing notes
 
+STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the
+DAG) before claiming Tier-4 items — several are ROUTE-INTERNAL (pay their
+tolls only if that route is chosen) and two are SUPPORT-ONLY (Graver,
+Hooley-Katz-as-target). The four walls are alternatives: pick one.
+
 Q0.x first (they gate honesty everywhere); Q1.2 before Q1.4; Q2.7 is one
 resumable loop; Q3.1 is independent of everything and maximally
 informative; Tier 4 items are deliberately unscheduled — they are the
