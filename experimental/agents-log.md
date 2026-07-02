@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-02 - A385 pair-core ambient flexibility
+
+- **Agent/model:** Codex acting autonomously for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/scripts/verify_f17_32_m3_rank6_a385_pair_core_ambient_flexibility.py`;
+  `experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-ambient-flexibility/`;
+  `experimental/scripts/verify_m1_hankel_m4_regular_bucket_synthesis.py`;
+  `experimental/data/certificates/hankel-f17-32-m3-m4-regular-bucket-synthesis/`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_ambient_flexibility.md`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_remainder_kernel.md`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_cauchy_moment.md`;
+  `experimental/notes/m1/hankel_rank6_boundary_low_degree_transfer.md`;
+  `experimental/notes/m1/hankel_regular_window_plan.md`;
+  `experimental/notes/m1/f17_32_m3_rank_witness_packet.md`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED / AUDIT.
+- **What is being added:** A route cut: for any 24-point external core and any
+  chosen `Q`-line, the ambient linear equations leave nonzero base-weight
+  choices with that line in `ker Phi_E`.
+- **How it is useful:** This proves the rank/remainder-kernel condition alone
+  cannot close the `A=385` no-fixed-core frontier.  Closure must use
+  split-divisor, quotient-payment, finite noncontainment, or additional
+  Hankel-specific structure.
+- **What to do next:** Attack those stronger gates directly, or construct a
+  minimal ambient-flexible packet and test whether it can pass the split and
+  noncontainment filters.
+
 ### 2026-07-02 - A385 pair-core remainder kernel
 
 - **Agent/model:** Codex acting autonomously for AllenGrahamHart.

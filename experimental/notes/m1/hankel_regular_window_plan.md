@@ -1015,6 +1015,11 @@ Cauchy-moment minor equation.
 The pair-core remainder-kernel companion gives the equivalent quotient-map
 form: `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)` must have kernel dimension at least `2`,
 and kernel vectors satisfy `RQ=C_E F_Q+P_X T_Q`.
+The ambient-flexibility companion then cuts off the rank-only route: for any
+24-point core and any chosen `Q`-line, nonzero base weights can be chosen so
+the line lies in `ker Phi_E`.  The remaining `A=385` no-fixed-core closure must
+therefore use split-divisor, quotient-payment, noncontainment, or additional
+Hankel constraints.
 For `A=387`, the projective `Q`-space is a point, so the arbitrary-weight
 separated branch is already projective-safe with total at most `2`.
 For `A=386`, a no-common-component pair of direction conics gives projective

@@ -101,6 +101,10 @@ experimental/notes/m1/hankel_rank6_a385_pair_core_remainder_kernel.md
 gives the equivalent polynomial form.  If `R` is the degree-`<128` interpolant
 with `R(x)=W_x` on `X`, then `L_Q=Rem(RQ,P_X)`, and the same obstruction is
 `dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
+The ambient-flexibility companion proves this kernel condition is achievable
+with all base weights nonzero for arbitrary 24-point cores and chosen `Q`-lines,
+so a closure proof must use gates beyond the ambient Cauchy-moment rank
+condition.
 
 Replay:
 

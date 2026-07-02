@@ -25,7 +25,7 @@ from experimental.scripts.emit_f17_32_hankel_row_descriptor import (  # noqa: E4
 )
 
 
-SCHEMA_VERSION = "f17-32-m3-m4-regular-bucket-synthesis-v51"
+SCHEMA_VERSION = "f17-32-m3-m4-regular-bucket-synthesis-v52"
 Q_LINE = 17**32
 TARGET_BITS = 128
 BUDGET = Q_LINE // 2**TARGET_BITS
@@ -175,6 +175,10 @@ A385_PAIR_CORE_REMAINDER_KERNEL_REF = (
     "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-remainder-kernel/"
     "f17_32_n512_k256_m3_rank6_a385_pair_core_remainder_kernel.json"
 )
+A385_PAIR_CORE_AMBIENT_FLEXIBILITY_REF = (
+    "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-ambient-flexibility/"
+    "f17_32_n512_k256_m3_rank6_a385_pair_core_ambient_flexibility.json"
+)
 
 
 EXPECTED_SCHEMAS = {
@@ -242,6 +246,9 @@ EXPECTED_SCHEMAS = {
     ),
     A385_PAIR_CORE_REMAINDER_KERNEL_REF: (
         "f17-32-m3-rank6-a385-pair-core-remainder-kernel-v1"
+    ),
+    A385_PAIR_CORE_AMBIENT_FLEXIBILITY_REF: (
+        "f17-32-m3-rank6-a385-pair-core-ambient-flexibility-v1"
     ),
 }
 
@@ -2984,6 +2991,57 @@ def check_a385_pair_core_remainder_kernel_packet(data: dict[str, Any]) -> None:
     )
 
 
+def check_a385_pair_core_ambient_flexibility_packet(data: dict[str, Any]) -> None:
+    require(
+        data["agreement"]["A"] == 385,
+        "A385 pair-core ambient-flexibility agreement mismatch",
+    )
+    require(
+        data["status"] == "PROVED / AUDIT",
+        "A385 pair-core ambient-flexibility status mismatch",
+    )
+    summary = data["summary"]
+    require(
+        summary["external_core_size"] == 24
+        and summary["base_weight_variables"] == 128
+        and summary["linear_constraint_count_at_most"] == 48
+        and summary["solution_dimension_lower_bound"] == 80,
+        "A385 pair-core ambient-flexibility dimension summary mismatch",
+    )
+    require(
+        summary["all_base_weights_can_be_nonzero"]
+        and summary["rank_condition_ambient_linearly_flexible"]
+        and summary["rank_condition_alone_cannot_close_no_fixed_core_frontier"],
+        "A385 pair-core ambient-flexibility route-cut flags mismatch",
+    )
+    dimensions = data["dimension_accounting"]
+    require(
+        dimensions["coordinate_forcing_rowspace_numerator_degree_bound"] == 27
+        and dimensions["coordinate_forcing_vanishing_points"] == 127
+        and dimensions["field_size_exceeds_coordinate_hyperplane_count"],
+        "A385 pair-core ambient-flexibility coordinate-forcing audit mismatch",
+    )
+    theorem = data["theorem"]
+    require(
+        "ambient-linearly achievable" in theorem["statement"]
+        and "rank<=3 / dim ker Phi_E>=2 condition cannot be" in theorem["route_cut"],
+        "A385 pair-core ambient-flexibility theorem text mismatch",
+    )
+    nonclaims = set(data["nonclaims"])
+    require(
+        "does not produce a split-locator bad slope" in nonclaims,
+        "A385 pair-core ambient-flexibility missing split nonclaim",
+    )
+    require(
+        "does not prove quotient-divisor gates can be passed" in nonclaims,
+        "A385 pair-core ambient-flexibility missing quotient nonclaim",
+    )
+    require(
+        "does not close or refute the full no-fixed-core A=385 branch" in nonclaims,
+        "A385 pair-core ambient-flexibility missing branch nonclaim",
+    )
+
+
 def build_certificate() -> dict[str, Any]:
     field = Field(P, MODULUS)
     descriptor = load_json(ROW_DESCRIPTOR_REF)
@@ -3038,6 +3096,9 @@ def build_certificate() -> dict[str, Any]:
     )
     check_a385_pair_core_remainder_kernel_packet(
         dependencies[A385_PAIR_CORE_REMAINDER_KERNEL_REF]
+    )
+    check_a385_pair_core_ambient_flexibility_packet(
+        dependencies[A385_PAIR_CORE_AMBIENT_FLEXIBILITY_REF]
     )
 
     domain_encodings = descriptor["domain"]["domain_encodings"]
@@ -3225,6 +3286,12 @@ def build_certificate() -> dict[str, Any]:
                 "the pair-core rank condition is equivalent to dim ker Phi_E>=2, or rank Phi_E<=3",
                 "kernel vectors satisfy RQ=C_E F_Q+P_X T_Q with deg F_Q<128-|E| and deg T_Q<=3; split members at |E|=24 need exact quotient degree 103 and divisor gate",
             ],
+            "a385_pair_core_ambient_flexibility": [
+                "for any 24-point external core E and any fixed Q-line, the ambient equations impose at most 48 homogeneous linear constraints on the 128 base weights",
+                "the solution space has dimension at least 80 and is not contained in any coordinate-zero hyperplane",
+                "because |F_17^32|>128, some solution has every base weight nonzero",
+                "therefore the rank<=3 / dim ker Phi_E>=2 condition is ambient-linearly achievable and cannot close the no-fixed-core branch without split-divisor, quotient-payment, noncontainment, or further Hankel structure",
+            ],
             "a386_moving_slope_refinement": [
                 "within the separated A=386 rank-6 common-component residual, moving-slope line components with external forced core e_G<=71 are projective-safe",
                 "within the same residual, irreducible moving-slope conics with external forced core e_G<=68 are projective-safe by pair-overlap packing",
@@ -3342,6 +3409,7 @@ def build_certificate() -> dict[str, Any]:
             "a385_pair_core_rank_test_count": 1,
             "a385_pair_core_cauchy_moment_count": 1,
             "a385_pair_core_remainder_kernel_count": 1,
+            "a385_pair_core_ambient_flexibility_count": 1,
             "a386_moving_slope_refinement_count": 1,
             "m3_rank_node_dichotomy_count": 1,
             "m3_nullpolynomial_split_locator_gate_count": 1,
@@ -3381,6 +3449,7 @@ def build_certificate() -> dict[str, Any]:
             "A=385 separated rank-6 no-fixed-core pair-core branches must have a 24 x 5 external-evaluation matrix of rank at most 3",
             "A=385 separated rank-6 no-fixed-core pair-core rank tests have an explicit weighted Cauchy-moment matrix factorization",
             "A=385 separated rank-6 no-fixed-core pair-core rank tests are equivalent to a polynomial remainder map with kernel dimension at least 2",
+            "A=385 separated rank-6 no-fixed-core pair-core rank collapse is ambient-linearly achievable with nonzero base weights, so the remaining closure must use stronger gates",
             "A=386 moving-slope line and conic high-core branches are closed by forced-core product collapses; the intermediate high-core quotient ledgers remain diagnostics",
             "A=386 slope-free same-slope shadows contribute zero additional parameters beyond the non-slope-free branch",
             "A=386 dense conic one-over subcases carry exact Pascal pressure thresholds",

@@ -276,6 +276,9 @@ as the weighted Cauchy-moment matrix
 The remainder-kernel companion gives the equivalent quotient-map target:
 `L_Q=Rem(RQ,P_X)` and a survivor requires `dim ker Phi_E>=2` for
 `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
+The ambient-flexibility companion proves this last rank/kernel condition is
+ambient-linearly achievable with all base weights nonzero, so it is a route
+cut rather than a closure mechanism.
 
 At `A=387`, this transfer already closes the separated branch for arbitrary
 nonzero weights: `h=1`, so the projective `Q`-space is a point and there is at

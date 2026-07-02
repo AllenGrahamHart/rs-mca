@@ -388,6 +388,19 @@ the transfer is `L_Q=Rem(RQ,P_X)`, and a survivor needs
 `dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.  Kernel vectors satisfy
 `RQ=C_E F_Q+P_X T_Q`.
 
+The `A=385` pair-core ambient-flexibility packet
+
+```text
+experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-ambient-flexibility/
+  f17_32_n512_k256_m3_rank6_a385_pair_core_ambient_flexibility.json
+```
+
+shows that this kernel condition alone cannot close the branch.  For any
+24-point external core and any chosen `Q`-line, the ambient equations leave
+nonzero base-weight solutions with that line in `ker Phi_E`.  The remaining
+closure must therefore use split-divisor, quotient-payment, noncontainment, or
+additional Hankel structure.
+
 The `A=387` separated-boundary safety packet
 
 ```text

@@ -95,6 +95,18 @@ no-fixed-core over-budget survivor needs an external set `E` of size at least
 `24` for which `Phi_E` has kernel dimension at least `2`, and two distinct
 points of a kernel line pass the quotient-divisor and noncontainment gates.
 
+The ambient-flexibility companion
+
+```text
+experimental/notes/m1/hankel_rank6_a385_pair_core_ambient_flexibility.md
+```
+
+shows that the kernel-dimension condition alone cannot close the branch: for
+any 24-point external core and any chosen `Q`-line, there are nonzero base
+weights making that line lie in `ker Phi_E`.  The remaining closure must use
+the split-divisor, quotient-payment, noncontainment, or further Hankel-specific
+gates.
+
 Replay:
 
 ```sh

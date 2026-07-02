@@ -652,6 +652,12 @@ a quotient-map kernel.  If `R(x)=Omega_x/a_x` on the base support, then
 `RQ=C_E F_Q+P_X T_Q`; at `|E|=24`, actual split members need exact quotient
 degree `103`.
 
+The `A=385` pair-core ambient-flexibility companion shows that the rank/kernel
+condition alone cannot close the branch.  For any 24-point core and any chosen
+`Q`-line, one can choose all base weights nonzero so the line lies in
+`ker Phi_E`; the real closure must use the split-divisor, quotient-payment,
+noncontainment, or additional Hankel gates.
+
 The `A=387` separated-boundary safety companion uses the `h=1` specialization
 to close that agreement for arbitrary nonzero separated weights: the finite
 root table has at most one ambient root, the split-locator gate cannot increase
