@@ -1319,6 +1319,53 @@
    "refs": [
     "experimental/notes/m1/m1_beta2_conditional_close.md"
    ]
+  },
+  {
+   "id": "ldsw_ld_separation",
+   "title": "LD_sw does NOT imply ABF/GG line-decodability (finite counterexample)",
+   "status": "PROVED",
+   "refs": [
+    "experimental/notes/m2/m2_ldsw_line_decoding_separation.md"
+   ],
+   "notes": "the bridge imports external LD theorems FORWARD only; mandatory loss-column entry"
+  },
+  {
+   "id": "common_code_line_budget",
+   "title": "Common code-line residual budget (MDS): tangent-agreeing lines pay residual slopes outside the support",
+   "status": "PROVED",
+   "refs": [
+    "experimental/notes/m2/m2_common_code_line_residual_budget.md"
+   ],
+   "notes": "the proved general tangent-payment engine \u2014 crystallization's large-intersection branch converts to payment through this"
+  },
+  {
+   "id": "unsafe_at_crossing",
+   "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
+   "status": "TARGET",
+   "gate": "any",
+   "key": true,
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#4"
+   ],
+   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion"
+  },
+  {
+   "id": "averaged_slope_conversion",
+   "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
+   "status": "CONJECTURE",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#6"
+   ],
+   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided"
+  },
+  {
+   "id": "dyadic_profile_evaluation",
+   "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates",
+   "status": "PROVABLE",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ],
+   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it"
   }
  ],
  "edges": [
@@ -2395,6 +2442,71 @@
   {
    "from": "conj_f",
    "to": "spi_dimension_free",
+   "kind": "ev"
+  },
+  {
+   "from": "ldsw_ld_separation",
+   "to": "ld_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "ldsw_ld_separation",
+   "to": "bridge_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "common_code_line_budget",
+   "to": "xr_crystallization",
+   "kind": "req"
+  },
+  {
+   "from": "common_code_line_budget",
+   "to": "paid_tan_fn",
+   "kind": "req"
+  },
+  {
+   "from": "common_code_line_budget",
+   "to": "strat_tree",
+   "kind": "ev"
+  },
+  {
+   "from": "unsafe_at_crossing",
+   "to": "mca_unsafe",
+   "kind": "req"
+  },
+  {
+   "from": "e1_fullness",
+   "to": "unsafe_at_crossing",
+   "kind": "alt"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "unsafe_at_crossing",
+   "kind": "alt"
+  },
+  {
+   "from": "qfloor_exact",
+   "to": "unsafe_at_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "fm1",
+   "to": "averaged_slope_conversion",
+   "kind": "req"
+  },
+  {
+   "from": "conj_f",
+   "to": "averaged_slope_conversion",
+   "kind": "ev"
+  },
+  {
+   "from": "dyadic_profile_evaluation",
+   "to": "imgfib",
+   "kind": "req"
+  },
+  {
+   "from": "dyadic_profile_evaluation",
+   "to": "paid_quot_fn",
    "kind": "ev"
   }
  ]

@@ -157,6 +157,33 @@ Q4.7 [xr_crystallization = spi_exceptional_class]  the shared core:
                                the cheapest rigid information.
 ```
 
+## Addendum — items from DAG depth passes 5-6 (2026-07-02)
+
+```text
+Q2.10 [stratification_partition_thm] (S)  Write the T0-T7 partition theorem
+      (totality + first-match disjointness; true by construction) + the
+      fuzz acceptance from wp2_3 §4. Load-bearing: the final theorem sums
+      over these strata. Flips stratification_partition_thm; makes
+      strat_tree's ripeness formal.
+Q2.11 [dyadic_profile_evaluation] (S-M)  Compute Q_H(eta) exactly for
+      2-power domains at the four official rates (pure divisor counting;
+      verifier + note). Without it conj:B's profile hypothesis is
+      unverifiable on official rows. Flips dyadic_profile_evaluation.
+Q2.12 [averaged_slope_conversion] (M)  Second moment + paid-fiber
+      exclusion => a many-SLOPE pair exists whenever the FM locator mean
+      crosses B* (route: s2 fork F2). This is the unsafe side's needed
+      tool in the COLLIDED branch of zone-(b). Flips
+      averaged_slope_conversion; with e1_fullness it makes
+      unsafe_at_crossing's any-gate exhaustive.
+Q4.8  [amplification_range_ext] (L)  Extend the split-prime transfer
+      (finite collisions = char-0 collisions) from p > exp(Cn log n/sigma)
+      toward prize-scale p ~ 2^256. The proved foundation (thm:upstairs +
+      Galois amplification) is fully in place — RIPE in the well-posed
+      sense. Every range improvement is direct corridor progress.
+NOTE  Q1.1 (bridge ledger) gains a MANDATORY row: the proved LD_sw vs
+      ABF/GG separation (forward-only import; see ldsw_ld_separation).
+```
+
 ## Sequencing notes
 
 Q0.x first (they gate honesty everywhere); Q1.2 before Q1.4; Q2.7 is one
