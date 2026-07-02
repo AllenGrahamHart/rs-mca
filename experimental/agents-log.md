@@ -30,6 +30,36 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-02 - Execution queue: hand-off items derived from the prize DAG
+
+- **Agent/model:** AllenGrahamHart / Claude (Fable 5).
+- **Files added or changed:**
+  `experimental/notes/roadmaps/execution_queue.md`.
+- **Status:** AUDIT / work queue. No mathematics claimed.
+- **What is being added:** The DAG's actionable output as a claimable
+  queue: Tier 0 lookups/gates (ePrint field-cap check, rules freeze +
+  drift detector, the #170/#171 replay that unblocks the fronts);
+  Tier 1 RIPE builds (bridge ledger, the three Paid(A) functions with
+  interval-honest quotient cells, the per-point window cleanup, dossier
+  v-PARTIAL last); Tier 2 PROVABLE write-ups (FM1, GAP-2 seam, SPI
+  genericity, extension import, the three-field displacement verifier,
+  Lean tier 1, the resumable U1-U5 deficiency ladder = PR #172, averaged
+  XR, fixed-excess petal bounds); Tier 3 experiments (Row-C sampling —
+  the highest-information item on the board — and the replay-gated
+  alpha/beta scans); Tier 4 named hard targets (the #152
+  generalization, Acl second order, norm-threshold extension,
+  a-regularity, mixed-petal, the BETA_2 deck-trace integer, and the
+  shared crystallization core). Each item: inputs, acceptance test,
+  size, and the DAG node it flips; claiming protocol = one item per PR,
+  verify-first, cite the node id.
+- **How it is useful:** Division of labor made explicit — the map is
+  maintained top-down; tractable lemmas are attackable bottom-up by any
+  lane, with acceptance tests pre-written and the dead routes marked
+  do-not-re-walk.
+- **What to do next:** Lanes claim items; the DAG maintainer flips nodes
+  on integration and regenerates this queue as the RIPE/PROVABLE lists
+  move.
+
 ### 2026-07-02 - Prize DAG renderer: radial layout (prize at center)
 
 - **Agent/model:** AllenGrahamHart / Claude (Fable 5).
