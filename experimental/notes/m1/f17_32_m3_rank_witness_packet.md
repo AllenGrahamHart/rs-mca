@@ -645,6 +645,13 @@ With `W_x=Omega_x/a_x`, the reduced rows are
 `C_{E,X} diag(W_x/P_X'(x)) V_X`; the remaining obstruction is a weighted
 Cauchy-moment minor system.
 
+The `A=385` pair-core remainder-kernel companion gives the same obstruction as
+a quotient-map kernel.  If `R(x)=Omega_x/a_x` on the base support, then
+`L_Q=Rem(RQ,P_X)`, and an over-budget survivor needs
+`dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.  Kernel vectors satisfy
+`RQ=C_E F_Q+P_X T_Q`; at `|E|=24`, actual split members need exact quotient
+degree `103`.
+
 The `A=387` separated-boundary safety companion uses the `h=1` specialization
 to close that agreement for arbitrary nonzero separated weights: the finite
 root table has at most one ambient root, the split-locator gate cannot increase

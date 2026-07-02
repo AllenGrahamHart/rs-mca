@@ -376,6 +376,18 @@ expands the rank-test rows.  After dividing by the nonzero row factors
 `C_{E,X} diag(W_x/P_X'(x)) V_X`, so every rank-`<=3` obstruction is a weighted
 Cauchy-moment minor system.
 
+The `A=385` pair-core remainder-kernel packet
+
+```text
+experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-remainder-kernel/
+  f17_32_n512_k256_m3_rank6_a385_pair_core_remainder_kernel.json
+```
+
+records the equivalent quotient-map form.  With `R(x)=Omega_x/a_x` on `X`,
+the transfer is `L_Q=Rem(RQ,P_X)`, and a survivor needs
+`dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.  Kernel vectors satisfy
+`RQ=C_E F_Q+P_X T_Q`.
+
 The `A=387` separated-boundary safety packet
 
 ```text

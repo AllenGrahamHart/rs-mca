@@ -25,7 +25,7 @@ from experimental.scripts.emit_f17_32_hankel_row_descriptor import (  # noqa: E4
 )
 
 
-SCHEMA_VERSION = "f17-32-m3-m4-regular-bucket-synthesis-v50"
+SCHEMA_VERSION = "f17-32-m3-m4-regular-bucket-synthesis-v51"
 Q_LINE = 17**32
 TARGET_BITS = 128
 BUDGET = Q_LINE // 2**TARGET_BITS
@@ -171,6 +171,10 @@ A385_PAIR_CORE_CAUCHY_MOMENT_REF = (
     "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-cauchy-moment/"
     "f17_32_n512_k256_m3_rank6_a385_pair_core_cauchy_moment.json"
 )
+A385_PAIR_CORE_REMAINDER_KERNEL_REF = (
+    "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-remainder-kernel/"
+    "f17_32_n512_k256_m3_rank6_a385_pair_core_remainder_kernel.json"
+)
 
 
 EXPECTED_SCHEMAS = {
@@ -235,6 +239,9 @@ EXPECTED_SCHEMAS = {
     ),
     A385_PAIR_CORE_CAUCHY_MOMENT_REF: (
         "f17-32-m3-rank6-a385-pair-core-cauchy-moment-v1"
+    ),
+    A385_PAIR_CORE_REMAINDER_KERNEL_REF: (
+        "f17-32-m3-rank6-a385-pair-core-remainder-kernel-v1"
     ),
 }
 
@@ -2921,6 +2928,62 @@ def check_a385_pair_core_cauchy_moment_packet(data: dict[str, Any]) -> None:
     )
 
 
+def check_a385_pair_core_remainder_kernel_packet(data: dict[str, Any]) -> None:
+    require(
+        data["agreement"]["A"] == 385,
+        "A385 pair-core remainder-kernel agreement mismatch",
+    )
+    require(
+        data["status"] == "PROVED / AUDIT",
+        "A385 pair-core remainder-kernel status mismatch",
+    )
+    summary = data["summary"]
+    require(
+        summary["Q_vector_dimension"] == 5
+        and summary["pair_core_min"] == 24
+        and summary["rank_threshold"] == 3
+        and summary["kernel_dimension_threshold"] == 2,
+        "A385 pair-core remainder-kernel summary mismatch",
+    )
+    require(
+        summary["remainder_kernel_normal_form_available"]
+        and summary["quotient_identity_available"]
+        and summary["split_quotient_degree_at_pair_core_min"] == 103
+        and summary["ambient_quotient_dimension_at_pair_core_min"] == 104,
+        "A385 pair-core remainder-kernel quotient summary mismatch",
+    )
+    consequence = data["consequence_for_pair_core_frontier"]
+    require(
+        consequence["linear_map_source_dimension"] == 5
+        and consequence["linear_map_target_dimension"] == 24
+        and consequence["overbudget_survivor_requires"] == "dim ker Phi_E >= 2"
+        and consequence["equivalent_rank_condition"] == "rank Phi_E <= 3",
+        "A385 pair-core remainder-kernel consequence mismatch",
+    )
+    normal = data["normal_form"]
+    require(
+        "Rem(R Q, P_X)" in normal["interpolation_remainder_identity"]
+        and "Phi_E(Q)=0" in normal["external_core_kernel"]
+        and "R Q = C_E F_Q + P_X T_Q" in normal["quotient_identity"],
+        "A385 pair-core remainder-kernel normal form mismatch",
+    )
+    nonclaims = set(data["nonclaims"])
+    require(
+        "does not close the no-fixed-core A=385 frontier" in nonclaims,
+        "A385 pair-core remainder-kernel missing frontier nonclaim",
+    )
+    require(
+        "does not prove that dim ker Phi_E>=2 is impossible for |E|=24"
+        in nonclaims,
+        "A385 pair-core remainder-kernel missing impossibility nonclaim",
+    )
+    require(
+        "does not prove that kernel points pass the split-locator divisor gate"
+        in nonclaims,
+        "A385 pair-core remainder-kernel missing split-gate nonclaim",
+    )
+
+
 def build_certificate() -> dict[str, Any]:
     field = Field(P, MODULUS)
     descriptor = load_json(ROW_DESCRIPTOR_REF)
@@ -2972,6 +3035,9 @@ def build_certificate() -> dict[str, Any]:
     )
     check_a385_pair_core_cauchy_moment_packet(
         dependencies[A385_PAIR_CORE_CAUCHY_MOMENT_REF]
+    )
+    check_a385_pair_core_remainder_kernel_packet(
+        dependencies[A385_PAIR_CORE_REMAINDER_KERNEL_REF]
     )
 
     domain_encodings = descriptor["domain"]["domain_encodings"]
@@ -3153,6 +3219,12 @@ def build_certificate() -> dict[str, Any]:
                 "D_E factors as C_{E,X} diag(W_x/P_X'(x)) V_X with C_{s,x}=1/(s-x) and V_{x,r}=x^r",
                 "the rank<=3 obstruction is therefore the vanishing of all 4x4 weighted Cauchy-moment minors, with each minor expanded by Cauchy-Binet over four base nodes",
             ],
+            "a385_pair_core_remainder_kernel": [
+                "let R be the degree-<128 interpolant with R(x)=Omega_x/a_x on X; then L_Q=Rem(RQ,P_X)",
+                "for an external core polynomial C_E, define Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)",
+                "the pair-core rank condition is equivalent to dim ker Phi_E>=2, or rank Phi_E<=3",
+                "kernel vectors satisfy RQ=C_E F_Q+P_X T_Q with deg F_Q<128-|E| and deg T_Q<=3; split members at |E|=24 need exact quotient degree 103 and divisor gate",
+            ],
             "a386_moving_slope_refinement": [
                 "within the separated A=386 rank-6 common-component residual, moving-slope line components with external forced core e_G<=71 are projective-safe",
                 "within the same residual, irreducible moving-slope conics with external forced core e_G<=68 are projective-safe by pair-overlap packing",
@@ -3269,6 +3341,7 @@ def build_certificate() -> dict[str, Any]:
             "a385_pair_core_quotient_reduction_count": 1,
             "a385_pair_core_rank_test_count": 1,
             "a385_pair_core_cauchy_moment_count": 1,
+            "a385_pair_core_remainder_kernel_count": 1,
             "a386_moving_slope_refinement_count": 1,
             "m3_rank_node_dichotomy_count": 1,
             "m3_nullpolynomial_split_locator_gate_count": 1,
@@ -3307,6 +3380,7 @@ def build_certificate() -> dict[str, Any]:
             "A=385 separated rank-6 no-fixed-core large pair-core branches reduce to quotient pencils with two full-split degree<=103 quotient members",
             "A=385 separated rank-6 no-fixed-core pair-core branches must have a 24 x 5 external-evaluation matrix of rank at most 3",
             "A=385 separated rank-6 no-fixed-core pair-core rank tests have an explicit weighted Cauchy-moment matrix factorization",
+            "A=385 separated rank-6 no-fixed-core pair-core rank tests are equivalent to a polynomial remainder map with kernel dimension at least 2",
             "A=386 moving-slope line and conic high-core branches are closed by forced-core product collapses; the intermediate high-core quotient ledgers remain diagnostics",
             "A=386 slope-free same-slope shadows contribute zero additional parameters beyond the non-slope-free branch",
             "A=386 dense conic one-over subcases carry exact Pascal pressure thresholds",

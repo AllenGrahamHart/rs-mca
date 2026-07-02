@@ -368,6 +368,7 @@
     "A=385 separated rank-6 no-fixed-core large pair-core branches reduce to quotient pencils with two full-split degree<=103 quotient members",
     "A=385 separated rank-6 no-fixed-core pair-core branches must have a 24 x 5 external-evaluation matrix of rank at most 3",
     "A=385 separated rank-6 no-fixed-core pair-core rank tests have an explicit weighted Cauchy-moment matrix factorization",
+    "A=385 separated rank-6 no-fixed-core pair-core rank tests are equivalent to a polynomial remainder map with kernel dimension at least 2",
     "A=386 moving-slope line and conic high-core branches are closed by forced-core product collapses; the intermediate high-core quotient ledgers remain diagnostics",
     "A=386 slope-free same-slope shadows contribute zero additional parameters beyond the non-slope-free branch",
     "A=386 dense conic one-over subcases carry exact Pascal pressure thresholds",
@@ -510,7 +511,7 @@
     "n": 512,
     "q_line": 2367911594760467245844106297320951247361
   },
-  "schema_version": "f17-32-m3-m4-regular-bucket-synthesis-v50",
+  "schema_version": "f17-32-m3-m4-regular-bucket-synthesis-v51",
   "source_artifacts": {
     "f17_32_n512_k256_m3_direction_rank_degree_cap": {
       "ref": "experimental/data/certificates/hankel-f17-32-m3-direction-rank-degree-cap/f17_32_n512_k256_m3_direction_rank_degree_cap.json",
@@ -583,6 +584,10 @@
     "f17_32_n512_k256_m3_rank6_a385_pair_core_rank_test": {
       "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-rank-test/f17_32_n512_k256_m3_rank6_a385_pair_core_rank_test.json",
       "sha256": "60696c6a4bd5dc1ba63920b7e3d35fb1d75b44f78dca6b6d194d14c71f2fff0b"
+    },
+    "f17_32_n512_k256_m3_rank6_a385_pair_core_remainder_kernel": {
+      "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-remainder-kernel/f17_32_n512_k256_m3_rank6_a385_pair_core_remainder_kernel.json",
+      "sha256": "f62553994e07a5eb01bfc99e1afea198cd6d68e3a311fecc558e68e54ddaf671"
     },
     "f17_32_n512_k256_m3_rank6_a385_three_core_quadratic_cut": {
       "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-three-core-quadratic-cut/f17_32_n512_k256_m3_rank6_a385_three_core_quadratic_cut.json",
@@ -661,6 +666,7 @@
     "a385_pair_core_cauchy_moment_count": 1,
     "a385_pair_core_quotient_reduction_count": 1,
     "a385_pair_core_rank_test_count": 1,
+    "a385_pair_core_remainder_kernel_count": 1,
     "a385_three_core_quadratic_cut_count": 1,
     "a385_three_core_residual_closure_count": 1,
     "a385_two_core_component_cut_count": 1,
@@ -675,7 +681,7 @@
     "a386_separated_boundary_closure_count": 1,
     "agreement_count": 42,
     "closed_case_count": 3,
-    "dependencies_checked": 34,
+    "dependencies_checked": 35,
     "endpoint_sensitive_rank_cutoff_case_count": 1,
     "finite_slope_budget": 6,
     "m3_nullpolynomial_split_locator_gate_count": 1,
@@ -726,6 +732,12 @@
       "a pair of finite classes sharing E spans a two-dimensional Q-line, so rowspan(M_E) lies in its three-dimensional annihilator and rank(M_E)<=3",
       "conversely rank(M_E)<=3 gives a kernel Q-line for the linear common-core condition, but not the split-locator or noncontainment gates",
       "the fixed two-core product-collapse lemma does not automatically apply here: the no-fixed-core line annihilator has dimension 3 rather than 1"
+    ],
+    "a385_pair_core_remainder_kernel": [
+      "let R be the degree-<128 interpolant with R(x)=Omega_x/a_x on X; then L_Q=Rem(RQ,P_X)",
+      "for an external core polynomial C_E, define Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)",
+      "the pair-core rank condition is equivalent to dim ker Phi_E>=2, or rank Phi_E<=3",
+      "kernel vectors satisfy RQ=C_E F_Q+P_X T_Q with deg F_Q<128-|E| and deg T_Q<=3; split members at |E|=24 need exact quotient degree 103 and divisor gate"
     ],
     "a385_three_core_quadratic_cut": [
       "inside the separated A=385 rank-6 boundary, a fixed three-point base split-root core leaves a projective Q-line",

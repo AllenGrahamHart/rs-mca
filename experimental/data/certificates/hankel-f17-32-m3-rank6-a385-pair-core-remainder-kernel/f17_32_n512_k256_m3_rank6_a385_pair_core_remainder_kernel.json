@@ -1,0 +1,146 @@
+{
+  "agreement": {
+    "A": 385,
+    "Q_vector_dimension": 5,
+    "boundary_defect_h": 5,
+    "combined_support_size": 134,
+    "direction_rank": 6,
+    "j": 127,
+    "kernel_dimension_threshold": 2,
+    "m": 128,
+    "pair_core_min": 24,
+    "rank_threshold": 3,
+    "t": 129
+  },
+  "checks": [
+    "A=385 dimensions give a five-dimensional Q-space",
+    "L_Q is Rem(RQ,P_X) by base interpolation",
+    "C_E is squarefree and disjoint from X, so evaluation modulo C_E is faithful",
+    "rank<=3 is equivalent to dim ker Phi_E>=2",
+    "kernel vectors satisfy RQ=C_E F_Q+P_X T_Q",
+    "at |E|=24, deg F_Q<104 and split members have exact degree 103"
+  ],
+  "consequence_for_pair_core_frontier": {
+    "equivalent_rank_condition": "rank Phi_E <= 3",
+    "linear_map_source_dimension": 5,
+    "linear_map_target_dimension": 24,
+    "overbudget_survivor_requires": "dim ker Phi_E >= 2",
+    "pressure_forced_core_size": 24,
+    "quotient_identity_at_pair_core_min": "R Q = C_E F_Q + P_X T_Q with deg F_Q<104 and deg T_Q<=3",
+    "split_members_at_pair_core_min": "two distinct kernel-line points must have exact quotient degree 103 and divide (X^512-1)/C_E"
+  },
+  "degree_bound_table": [
+    {
+      "common_external_core_size": 24,
+      "correction_polynomial_degree_bound": "deg T_Q <= 3",
+      "kernel_quotient_degree_bound": "deg F_Q < 104",
+      "split_member_quotient_degree": 103
+    },
+    {
+      "common_external_core_size": 64,
+      "correction_polynomial_degree_bound": "deg T_Q <= 3",
+      "kernel_quotient_degree_bound": "deg F_Q < 64",
+      "split_member_quotient_degree": 63
+    },
+    {
+      "common_external_core_size": 96,
+      "correction_polynomial_degree_bound": "deg T_Q <= 3",
+      "kernel_quotient_degree_bound": "deg F_Q < 32",
+      "split_member_quotient_degree": 31
+    },
+    {
+      "common_external_core_size": 122,
+      "correction_polynomial_degree_bound": "deg T_Q <= 3",
+      "kernel_quotient_degree_bound": "deg F_Q < 6",
+      "split_member_quotient_degree": 5
+    },
+    {
+      "common_external_core_size": 127,
+      "correction_polynomial_degree_bound": "deg T_Q <= 3",
+      "kernel_quotient_degree_bound": "deg F_Q < 1",
+      "split_member_quotient_degree": 0
+    }
+  ],
+  "degree_bounds_at_pair_core_min": {
+    "common_external_core_size": 24,
+    "correction_polynomial_degree_bound": "deg T_Q <= 3",
+    "kernel_quotient_degree_bound": "deg F_Q < 104",
+    "split_member_quotient_degree": 103
+  },
+  "nonclaims": [
+    "does not close the no-fixed-core A=385 frontier",
+    "does not prove that dim ker Phi_E>=2 is impossible for |E|=24",
+    "does not prove that dim ker Phi_E>=2 is quotient-paid",
+    "does not prove that kernel points pass the split-locator divisor gate",
+    "does not prove finite noncontainment for kernel points",
+    "does not classify overlapping-support rank-6 pencils",
+    "does not produce a row-level M3 safe-side bound"
+  ],
+  "normal_form": {
+    "external_core_kernel": "For squarefree C_E with roots E disjoint from X, L_Q vanishes on E iff Phi_E(Q)=0 iff C_E divides Rem(R Q, P_X).",
+    "interpolation_remainder_identity": "Since R(x)Q(x)=W_x Q(x) on X, the transferred polynomial L_Q is exactly Rem(R Q, P_X).",
+    "pair_line_condition": "A pair-core Q-line exists for E iff dim ker Phi_E >= 2, equivalently rank Phi_E <= 3.",
+    "quotient_identity": "For every Q in ker Phi_E there are polynomials F_Q and T_Q with R Q = C_E F_Q + P_X T_Q, deg F_Q < 128-|E| and deg T_Q<=3.",
+    "rank_kernel_equivalence": "The external-evaluation matrix has rank r exactly when Phi_E has rank r, because evaluation on the roots of C_E is an isomorphism F[T]/(C_E) -> F^E.",
+    "split_member_gate": "For the two actual finite split-locator classes on the Q-line, F_Q must have exact degree 127-|E| and divide (X^512-1)/C_E after normalization, in addition to the finite noncontainment gate."
+  },
+  "notation": {
+    "base_interpolant": "R(T) is the unique degree-<128 polynomial with R(x)=W_x=Omega_x/a_x on X",
+    "base_polynomial": "P_X(T)=prod_{x in X}(T-x), deg P_X=128",
+    "external_core_polynomial": "C_E(T)=prod_{s in E}(T-s)",
+    "remainder_map": "Phi_E(Q)=Rem(Rem(R Q, P_X), C_E)",
+    "transfer_polynomial": "L_Q = Rem(R Q, P_X)"
+  },
+  "object": "A=385 pair-core polynomial remainder-kernel normal form",
+  "row": {
+    "code": "RS[F_17^32,H,256]",
+    "domain_hash": "35904a892e0319b3805e91438ec2733427a351a72ce9654428d6a33bd3575b92",
+    "field": "F_17^32",
+    "k": 256,
+    "n": 512,
+    "q_line": 2367911594760467245844106297320951247361
+  },
+  "sampler_denominators": {
+    "finite_line": {
+      "budget_floor_denominator_over_2_128": 6,
+      "denominator": 2367911594760467245844106297320951247361,
+      "denominator_formula": "|F|"
+    },
+    "projective_line": {
+      "budget_floor_denominator_over_2_128": 6,
+      "denominator": 2367911594760467245844106297320951247362,
+      "denominator_formula": "|P^1(F)| = |F| + 1"
+    }
+  },
+  "schema_version": "f17-32-m3-rank6-a385-pair-core-remainder-kernel-v1",
+  "source_artifacts": {
+    "a385_pair_core_cauchy_moment": {
+      "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-cauchy-moment/f17_32_n512_k256_m3_rank6_a385_pair_core_cauchy_moment.json",
+      "sha256": "9c83ef56f635c750ce48cbbdcd44061709506d35b09ba2fcb960c46f1acd2564"
+    },
+    "a385_pair_core_quotient_reduction": {
+      "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-quotient-reduction/f17_32_n512_k256_m3_rank6_a385_pair_core_quotient_reduction.json",
+      "sha256": "08e631a2a1dd49f47ca2fa6eb5189d9989cba529c402c1d097a63ea6ec42a3b4"
+    },
+    "a385_pair_core_rank_test": {
+      "ref": "experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-rank-test/f17_32_n512_k256_m3_rank6_a385_pair_core_rank_test.json",
+      "sha256": "60696c6a4bd5dc1ba63920b7e3d35fb1d75b44f78dca6b6d194d14c71f2fff0b"
+    },
+    "row_descriptor": {
+      "ref": "experimental/data/certificates/hankel-f17-32-row-descriptor/f17_32_n512_k256_hankel_row_descriptor.json",
+      "sha256": "db5706e437eedf38dbd17f762775167f456b3af0db061c230cc621d496361c87"
+    }
+  },
+  "status": "PROVED / AUDIT",
+  "summary": {
+    "Q_vector_dimension": 5,
+    "agreement": 385,
+    "ambient_quotient_dimension_at_pair_core_min": 104,
+    "kernel_dimension_threshold": 2,
+    "pair_core_min": 24,
+    "quotient_identity_available": true,
+    "rank_threshold": 3,
+    "remainder_kernel_normal_form_available": true,
+    "split_quotient_degree_at_pair_core_min": 103
+  }
+}

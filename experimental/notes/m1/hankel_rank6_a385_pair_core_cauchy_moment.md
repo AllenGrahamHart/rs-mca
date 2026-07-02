@@ -92,6 +92,16 @@ frontier.  The next proof attempt should attack these weighted Cauchy-moment
 minor equations directly, or else construct a minimal rank-`<=3` witness and
 route it through the split-locator and paid-ledger gates.
 
+The companion remainder-kernel note
+
+```text
+experimental/notes/m1/hankel_rank6_a385_pair_core_remainder_kernel.md
+```
+
+gives the equivalent polynomial form.  If `R` is the degree-`<128` interpolant
+with `R(x)=W_x` on `X`, then `L_Q=Rem(RQ,P_X)`, and the same obstruction is
+`dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
+
 Replay:
 
 ```sh

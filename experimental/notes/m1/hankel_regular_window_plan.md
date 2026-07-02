@@ -1012,6 +1012,9 @@ The pair-core Cauchy-moment companion makes the rank-collapse target explicit:
 after removing nonzero row factors, the external-evaluation matrix is
 `C_{E,X} diag(W_x/P_X'(x)) V_X`; every rank obstruction is therefore a weighted
 Cauchy-moment minor equation.
+The pair-core remainder-kernel companion gives the equivalent quotient-map
+form: `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)` must have kernel dimension at least `2`,
+and kernel vectors satisfy `RQ=C_E F_Q+P_X T_Q`.
 For `A=387`, the projective `Q`-space is a point, so the arbitrary-weight
 separated branch is already projective-safe with total at most `2`.
 For `A=386`, a no-common-component pair of direction conics gives projective

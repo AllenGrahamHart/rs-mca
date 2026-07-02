@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-02 - A385 pair-core remainder kernel
+
+- **Agent/model:** Codex acting autonomously for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/scripts/verify_f17_32_m3_rank6_a385_pair_core_remainder_kernel.py`;
+  `experimental/data/certificates/hankel-f17-32-m3-rank6-a385-pair-core-remainder-kernel/`;
+  `experimental/scripts/verify_m1_hankel_m4_regular_bucket_synthesis.py`;
+  `experimental/data/certificates/hankel-f17-32-m3-m4-regular-bucket-synthesis/`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_remainder_kernel.md`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_cauchy_moment.md`;
+  `experimental/notes/m1/hankel_rank6_a385_pair_core_rank_test.md`;
+  `experimental/notes/m1/hankel_rank6_boundary_low_degree_transfer.md`;
+  `experimental/notes/m1/hankel_regular_window_plan.md`;
+  `experimental/notes/m1/f17_32_m3_rank_witness_packet.md`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED / AUDIT.
+- **What is being added:** A polynomial remainder-kernel normal form for the
+  `A=385` pair-core obstruction: with `L_Q=Rem(RQ,P_X)`, a survivor needs
+  `dim ker Phi_E>=2` for `Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
+- **How it is useful:** This bridges the Cauchy-moment rank equations to the
+  quotient/divisor gate.  Kernel vectors satisfy
+  `RQ=C_E F_Q+P_X T_Q`, and at `|E|=24` split members need exact quotient
+  degree `103`.
+- **What to do next:** Attack the kernel map directly: prove that
+  `dim ker Phi_E>=2` is impossible or paid for 24-point external cores, or
+  build a minimal witness and pass it through the split/noncontainment gates.
+
 ### 2026-07-02 - A385 pair-core Cauchy-moment normal form
 
 - **Agent/model:** Codex acting autonomously for AllenGrahamHart.

@@ -273,6 +273,9 @@ The Cauchy-moment companion then writes those rows explicitly as
 `P_X(s) sum_x W_x x^r/((s-x)P_X'(x))`, or after removing nonzero row factors,
 as the weighted Cauchy-moment matrix
 `C_{E,X} diag(W_x/P_X'(x)) V_X`.
+The remainder-kernel companion gives the equivalent quotient-map target:
+`L_Q=Rem(RQ,P_X)` and a survivor requires `dim ker Phi_E>=2` for
+`Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
 
 At `A=387`, this transfer already closes the separated branch for arbitrary
 nonzero weights: `h=1`, so the projective `Q`-space is a point and there is at

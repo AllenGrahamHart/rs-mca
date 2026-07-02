@@ -90,6 +90,11 @@ gives explicit rows for this matrix.  After removing nonzero row factors
 `C_{E,X} diag(W_x/P_X'(x)) V_X`, so every obstruction is a weighted
 Cauchy-moment minor equation.
 
+The remainder-kernel companion gives the equivalent quotient-map formulation:
+with `R(x)=Omega_x/a_x` on `X`, the transfer is `L_Q=Rem(RQ,P_X)`, and the
+pair-core condition is `dim ker Phi_E>=2` for
+`Phi_E(Q)=Rem(Rem(RQ,P_X),C_E)`.
+
 Replay:
 
 ```sh
