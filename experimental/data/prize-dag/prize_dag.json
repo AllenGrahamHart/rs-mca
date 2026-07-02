@@ -1,6 +1,6 @@
 {
  "schema": "prize-dag-v1",
- "description": "Dependency DAG of the Proximity Prize program. Nodes = statements/artifacts/experiments; edges point FROM a dependency TO the statement it supports. gate=all: every 'req' child needed; gate=any: one 'alt' child suffices (plus all 'req'). Statuses: PROVED (on main w/ proof or exact verification), PROVABLE (route pinned, write-up pending), CONDITIONAL (proved under stated hypothesis), CONJECTURE (precise statement, unproved), TARGET (fuzzy, expected to sharpen), WALL (frozen hard core w/ consumer theorem), REFUTED (dead route), TEST (experiment/prediction). Source of truth for statuses: experimental/notes/roadmaps/ (r2 + proof_sketch + wp_detail). REFINEMENT PRINCIPLES (2026-07-02): (1) critical nodes carry exact 'statement' fields (+ attack_surface/falsifier notes) \u2014 machine-enforced; (2) new conjectured nodes are admitted ONLY as branches of exhaustive splits, proved equivalences/reductions, or with a named non-ev consumer + truth-confidence note \u2014 never as speculative lemma chains presuming a proof shape; (3) every critical conjecture gets a cheap wired falsifier TEST.",
+ "description": "Dependency DAG of the Proximity Prize program. Nodes = statements/artifacts/experiments; edges point FROM a dependency TO the statement it supports. gate=all: every 'req' child needed; gate=any: one 'alt' child suffices (plus all 'req'). Statuses: PROVED (on main w/ proof or exact verification), PROVABLE (route pinned, write-up pending), CONDITIONAL (proved under stated hypothesis), CONJECTURE (precise statement, unproved), TARGET (fuzzy, expected to sharpen), WALL (frozen hard core w/ consumer theorem), REFUTED (dead route), TEST (experiment/prediction). Source of truth for statuses: experimental/notes/roadmaps/ (r2 + proof_sketch + wp_detail). REFINEMENT PRINCIPLES (2026-07-02): (1) critical nodes carry exact 'statement' fields (+ attack_surface/falsifier notes) \u2014 machine-enforced; (2) new conjectured nodes are admitted ONLY as branches of exhaustive splits, proved equivalences/reductions, or with a named non-ev consumer + truth-confidence note \u2014 never as speculative lemma chains presuming a proof shape; (3) every critical conjecture gets a cheap wired falsifier TEST. INTEGRATED UPSTREAM 2026-07-02 (commit 01add412, PR #174 closed-integrated): this DAG is in-tree subordinate roadmap material; towards-prize.md is the source of truth.",
  "root": "prize",
  "nodes": [
   {
@@ -109,7 +109,8 @@
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
    ],
-   "statement": "Confirm or refute in ePrint 2026/680: k <= 2^40 and |F| < 2^256. Determines B* magnitudes, the ~90-bit band statement, and whether non-generating rows (hence the tower case) are admissible."
+   "statement": "Confirm or refute in ePrint 2026/680: k <= 2^40 and |F| < 2^256. Determines B* magnitudes, the ~90-bit band statement, and whether non-generating rows (hence the tower case) are admissible.",
+   "notes": "HALF-RESOLVED 2026-07-02: towards-prize v3 (source of truth) formally adopts k <= 2^40, |F| < 2^256, B* = floor(q_line/2^128) as the prize regime. Repo-official; the ePrint quote-check remains the dossier-grade acceptance for Q0.1."
   },
   {
    "id": "rules_freeze",
@@ -135,8 +136,10 @@
    "title": "Paper D universal cap (unsafe above 1-rho-2^-9)",
    "status": "PROVED",
    "refs": [
-    "proof_sketch/s2_paid_ledger.md#3"
-   ]
+    "proof_sketch/s2_paid_ledger.md#3",
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "v12 audit in flight (#177, Codex); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane)."
   },
   {
    "id": "qfloor_exact",
@@ -1228,7 +1231,8 @@
    "status": "PROVABLE",
    "refs": [
     "wp_detail/wp2_6_underdetermined_program.md"
-   ]
+   ],
+   "notes": "IN FLIGHT: PR #176 (Codex) adds the A384 deficiency-one Cramer chart (U1/U2)."
   },
   {
    "id": "u2_nondegeneracy",
@@ -1236,7 +1240,8 @@
    "status": "PROVABLE",
    "refs": [
     "wp_detail/wp2_6_underdetermined_program.md"
-   ]
+   ],
+   "notes": "IN FLIGHT: PR #176 (Codex)."
   },
   {
    "id": "u3_divisibility",
@@ -1744,6 +1749,51 @@
    "refs": [
     "tex/slackMCA_v4.tex"
    ]
+  },
+  {
+   "id": "mca_from_ca_reduction",
+   "title": "v12: MCA-from-CA reduction up to half the minimum distance",
+   "status": "PROVED",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "external correlated-agreement theorems now IMPORT into MCA up to d_min/2 \u2014 a new bridge; mandatory bridge-ledger row; conventions audit = #177"
+  },
+  {
+   "id": "half_johnson_ca",
+   "title": "v12: self-contained half-Johnson CA bound (+ optional BCIKS import)",
+   "status": "PROVED",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "feeds the CA->MCA reduction; the BCIKS variant is an optional external import (bridge row if used)"
+  },
+  {
+   "id": "deep_safe_all_linear",
+   "title": "v12: deep-regime MCA safe theorem for ALL linear codes",
+   "status": "PROVED",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "new proved safe-side ground; its range vs the prize corridor is exactly what #177 audits \u2014 do not assume band coverage until audited"
+  },
+  {
+   "id": "map_rational_caps",
+   "title": "v12: map/rational smooth caps via circle/genus-one transports",
+   "status": "PROVED",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "extends the cap package across the admissible smooth-domain family; scope of the model transfers under audit (#177)"
+  },
+  {
+   "id": "certificate_grammar_v2",
+   "title": "v12: certificate grammar v2 + printed deployed-row integer certificates",
+   "status": "PROVED",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "the packaging layer has a paper-side counterpart \u2014 align compiler/descriptor/dossier with this grammar instead of inventing a parallel one"
   }
  ],
  "edges": [
@@ -3209,6 +3259,46 @@
   },
   {
    "from": "are_exceptional_density",
+   "to": "dossier_partial",
+   "kind": "ev"
+  },
+  {
+   "from": "half_johnson_ca",
+   "to": "mca_from_ca_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "mca_from_ca_reduction",
+   "to": "bridge_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "mca_from_ca_reduction",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "deep_safe_all_linear",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "map_rational_caps",
+   "to": "cap_theorem",
+   "kind": "ev"
+  },
+  {
+   "from": "certificate_grammar_v2",
+   "to": "compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "certificate_grammar_v2",
+   "to": "descriptor",
+   "kind": "ev"
+  },
+  {
+   "from": "certificate_grammar_v2",
    "to": "dossier_partial",
    "kind": "ev"
   }
