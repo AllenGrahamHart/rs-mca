@@ -1,0 +1,165 @@
+{
+  "claim": "counterexample-first exact probe for the PR #170 synthetic low-rank spectral target",
+  "coefficient_method_histogram": {
+    "interpolation": 4,
+    "newton": 4
+  },
+  "collision_count": 0,
+  "common_gcd_degree_histogram": {
+    "0": 8
+  },
+  "degree_failure_count": 0,
+  "first_collision": null,
+  "parameters": {
+    "agreement_max": 426,
+    "agreement_min": 426,
+    "rank_max": 20,
+    "rank_min": 13,
+    "stop_on_collision": true
+  },
+  "record_count": 8,
+  "records": [
+    {
+      "A": 426,
+      "coefficient_method": "newton",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 13,
+      "prefix_hash": "79e0074f329d04d41e05f5765019f224fba4c2fd1e8992a923ad50409bb8b1e6",
+      "rank": 13,
+      "rank_capacity": 43,
+      "shifted_degree": 13,
+      "shifted_hash": "863bdde690d972eff02265c7441ceb2f17e78766d19fdff6ded45404cf476bf1",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "newton",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 14,
+      "prefix_hash": "aad20cd338e160f8d2cd6188677abdb124e2437158bc16c4fc16e79dbd47448f",
+      "rank": 14,
+      "rank_capacity": 43,
+      "shifted_degree": 14,
+      "shifted_hash": "479bd70145b317e882257b79d7b880fdd8ae44dee8e2b696420eaaa8e9169a78",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "newton",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 15,
+      "prefix_hash": "6d317acc33afbe6a0969ee17d6b649b2825d8ded51248318e916a75aa70ace79",
+      "rank": 15,
+      "rank_capacity": 43,
+      "shifted_degree": 15,
+      "shifted_hash": "1fb7d4dec16c546f9c7e8adcc9ba78c2699a2280617d69ab11956754d098b977",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "newton",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 16,
+      "prefix_hash": "d24c4f3a78082906a34575db9941d821b57feaf78db1c4ae49e3055d4ba7d5d2",
+      "rank": 16,
+      "rank_capacity": 43,
+      "shifted_degree": 16,
+      "shifted_hash": "221fc34c511982e3b969dac2a264074906b5591ef3310a89665443d41966fc85",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "interpolation",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 17,
+      "prefix_hash": "36b0c126d3a587fe4cfc2de39ff97416801acb6ef1a5daff8d3cb4ecebe7c777",
+      "rank": 17,
+      "rank_capacity": 43,
+      "shifted_degree": 17,
+      "shifted_hash": "aabd0f6b7b2d276f4ba798a88e5236e55cd56a8d9fd3905911dc47941fd05c7c",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "interpolation",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 18,
+      "prefix_hash": "f23b5ea2f5c5fadb26ef3da9ba8a5cd080673f374feda3dc413d49d984c49e57",
+      "rank": 18,
+      "rank_capacity": 43,
+      "shifted_degree": 18,
+      "shifted_hash": "6657069bab4dade3482620a802ac25ab91173794d09651594e4666f355a3ad7e",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "interpolation",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 19,
+      "prefix_hash": "6c5e592c5705e96345f34c1f9a43e651a2cf138700116f0282e5261ee95a97d0",
+      "rank": 19,
+      "rank_capacity": 43,
+      "shifted_degree": 19,
+      "shifted_hash": "f06a3974ceb941cfc375d6e8010b978338611550954332312563930ba083a109",
+      "within_endpoint_capacity": true
+    },
+    {
+      "A": 426,
+      "coefficient_method": "interpolation",
+      "common_gcd_degree": 0,
+      "m": 87,
+      "prefix_degree": 20,
+      "prefix_hash": "f016350a4efbb79501307cfdb8b8ed2c0f80b5fa664f7f7401bb31947edbc095",
+      "rank": 20,
+      "rank_capacity": 43,
+      "shifted_degree": 20,
+      "shifted_hash": "10d02652320eb041d9891bf621740695bf58818383c01aef4f27a07a1e79b511",
+      "within_endpoint_capacity": true
+    }
+  ],
+  "row": {
+    "domain_description": "order-512 subgroup from the accepted F_17^32 row descriptor",
+    "domain_hash": "35904a892e0319b3805e91438ec2733427a351a72ce9654428d6a33bd3575b92",
+    "field": "F_17^32",
+    "k": 256,
+    "n": 512
+  },
+  "schema_version": "f17-32-m3-low-rank-spectral-target-search-v3",
+  "source_artifacts": [
+    {
+      "name": "row_descriptor",
+      "ref": "experimental/data/certificates/hankel-f17-32-row-descriptor/f17_32_n512_k256_hankel_row_descriptor.json",
+      "schema_version": "f17-32-hankel-row-descriptor-v1",
+      "sha256": "db5706e437eedf38dbd17f762775167f456b3af0db061c230cc621d496361c87",
+      "status": "AUDIT"
+    },
+    {
+      "name": "low_rank2_12_affine_verifier",
+      "ref": "experimental/scripts/verify_f17_32_m3_low_rank2_12_v10_affine_gcd.py",
+      "sha256": "7cf4f4f789b482ef7cc3051a95feaef47a4a7fab1b2a6e836bc34336d41af38c"
+    },
+    {
+      "name": "search_script",
+      "ref": "experimental/scripts/search_f17_32_m3_low_rank_spectral_target.py",
+      "sha256": "a4ed401c2f5017a72c898cf3b22afc563d5ef3a3721820be078296cb3dfe1a48"
+    }
+  ],
+  "status": "EXPERIMENTAL / AUDIT",
+  "target": {
+    "formula": "gcd(Phi_{m,r,0}(Z), Phi_{m,r,1}(Z)) = 1",
+    "m_range": [
+      87,
+      128
+    ],
+    "rank_range": "2 <= r <= ceil((m-1)/2)",
+    "recorded_probe": "top-window frontier beyond low-rank2..12",
+    "window": "normalized consecutive subgroup window"
+  }
+}

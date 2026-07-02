@@ -853,6 +853,135 @@ Keep entries concise and link to the relevant files.
   wp4_3); maintainer review of the roadmap posture; resume the PR #172 loop
   per the turn schedule in the wp2_6 detail note.
 
+### 2026-07-02 - Towards-prize v3 cap-paper package
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `tex/towards-prize.tex`;
+  `towards-prize.pdf`; `archived/towards-prize_v2.tex`;
+  `archived/towards-prize_v2.pdf`; `experimental/agents-log.md`.
+- **Status:** AUDIT / VERSION-PROMOTION-CANDIDATE / COMPILED.
+- **What is being added:** `towards-prize.tex` now includes a compact
+  cap-paper refinement theorem rather than copying Paper D v12's long scanner
+  and transport sections.  The new package records the self-contained
+  half-Johnson safe handle, finite staircase certificates for deployed
+  multiplicative and circle rows, map/rational-smooth transfer scope, and the
+  optimized failure profile.
+- **How it is useful:** This makes the prize-facing note strictly stronger for
+  determining `delta^*`: it improves the self-contained safe edge where the
+  half-Johnson certificate beats the one-third-distance theorem, states concrete
+  deployed two-sided intervals, and identifies which row-level claims are finite
+  certificate checks in Paper D v12.
+- **What to do next:** Audit the imported cap-paper package against
+  `tex/cs25_cap_v12.tex`: half-Johnson constants, deployed interval endpoints,
+  circle/genus-one transport hypotheses, and profile constants.
+
+### 2026-07-02 - Towards-prize v2 promotion
+
+- **Agent/model:** Codex, reviewing maintainer-added draft.
+- **Files added or changed:** `tex/towards-prize.tex`;
+  `towards-prize.pdf`; `archived/towards-prize_v1.tex`;
+  `archived/towards-prize_v1.pdf`; `experimental/agents-log.md`.
+- **Status:** AUDIT / VERSION-PROMOTION-CANDIDATE / COMPILED.
+- **What is being added:** The maintainer-added `towards-prize_v2.tex` is
+  promoted to the canonical `tex/towards-prize.tex`.  Compared with v1, it
+  sharpens the unsafe edge using the ordinary locator cap, explicitly marks the
+  top of the old plain-CA band as unsafe, and adds residual shortening-image and
+  doubled-radius pair-list reductions for the mutual layer above half distance.
+- **How it is useful:** This is strictly stronger as a prize-facing note: it
+  narrows the remaining CA interval and replaces the broad "mutual layer"
+  question with concrete finite objects, while preserving the v12 audit framing.
+- **What to do next:** Audit the new numerical constants
+  `alpha_rho`, the ordinary-locator entropy table, and the two residual
+  reductions.  The promoted PDF was compiled with Tectonic; only minor box
+  warnings were reported.
+
+### 2026-07-02 - Paper D v12 reference sweep
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `readme.md`; `agents.md`;
+  `towards-prize.md`; `site/index.html`; `site/data/papers.json`;
+  `site/data/rate-leaderboards.json`; `site/data/updates.json`;
+  `site/papers/cs25_cap_v12.pdf`; selected `experimental/notes/`,
+  `experimental/scripts/`, and `experimental/data/certificates/` references.
+- **Status:** AUDIT / DOCUMENTATION / VERSION-PROMOTION.
+- **What is being added:** Active Paper D references were moved to
+  `tex/cs25_cap_v12.tex`, and contributor-facing text now says that v12 is the
+  main cap paper to audit.  The public site metadata and local PDF mirror were
+  updated to point at the v12 package.
+- **How it is useful:** Prevents new agents from following the superseded v10
+  Hankel-ledger draft as the current cap-paper source, while preserving older
+  v6--v10 audit/log entries as historical provenance.
+- **What to do next:** Audit v12 directly: direct conversion/radius
+  conventions, half-distance import scope, integer certificate replay, and the
+  printed certificate grammar.
+
+### 2026-07-02 - Paper D v12 and towards-prize audit focus
+
+- **Agent/model:** Codex, reviewing maintainer-added drafts.
+- **Files added or changed:** `tex/cs25_cap_v11.tex`;
+  `tex/cs25_cap_v12.tex`; `tex/towards-prize.tex`;
+  `cs25_cap_v11.pdf`; `cs25_cap_v12.pdf`; `towards-prize.pdf`;
+  `AGENTS.md`; `experimental/agents-log.md`.
+- **Status:** AUDIT / VERSION-PROMOTION-CANDIDATE.
+- **What is being added:** Paper D v12 is now the main cap-paper candidate:
+  it supersedes v10/v11 as the most complete draft, adding the safe-side
+  pincer, half-distance MCA-from-CA reduction, map/rational smooth extensions,
+  circle/genus-one transports, explicit witness machinery, optimized profile,
+  and certificate grammar v2.  `tex/towards-prize.tex` is the compact
+  prize-facing theorem note aligned with the v12 package.
+- **How it is useful:** The project focus moves from collecting more frontier
+  examples to auditing the cap package itself.  The main task is checking the
+  CS25/Paper-D conversion pipeline, the optional BCIKS half-distance import,
+  the integer certificates behind every deployed-row inequality, and the exact
+  scope of the circle/genus-one model transfers.
+- **What to do next:** Treat CS25/Paper-D auditing as the main focus.  Before
+  promoting v12 as the stable Paper D, produce a short audit note covering:
+  direct conversion/radius conventions, ABF/CA/MCA normalization, BCIKS import
+  compatibility, exact-integer certificate replay paths, and whether
+  `towards-prize.tex` states only the claims actually proved by v12.
+
+### 2026-07-02 - Post-v10 PR sweep: M1 reductions, M3 synthetic packets, M5 underdetermined roadmap
+
+- **Agent/model:** Codex, integrating and auditing contributions from
+  AllenGrahamHart, DannyExperiments, and Gia.
+- **Files added or changed:**
+  `experimental/notes/triage/pr-triage-2026-07-02-post-v10.md`;
+  `experimental/notes/audits/m0_prize_mca_definition_freeze.md`;
+  `experimental/notes/m1/m1_simple_pole_projected_locator_wall.md`;
+  `experimental/notes/m1/m1_dyadic_shifted_prefix_value_bridge.md`;
+  `experimental/notes/m3/m3_low_rank_affine_spectral_reduction.md`;
+  `experimental/notes/m5/m5_underdetermined_a384_pivot_packet.md`;
+  selected `experimental/data/certificates/hankel-f17-32-m3-*` packets;
+  selected `experimental/scripts/verify_f17_32_m3_*` scripts;
+  `experimental/scripts/verify_f17_32_m5_underdetermined_a384_bucket.py`;
+  `experimental/notes/roadmaps/proximity_prize_execution_roadmap_post_v10_r2.md`;
+  `experimental/notes/roadmaps/proof_sketch/`;
+  `experimental/notes/roadmaps/wp_detail/`;
+  `experimental/data/prize-dag/`;
+  `experimental/scripts/verify_prize_dag.py`;
+  `experimental/scripts/verify_roadmap_r2_numbers.py`;
+  `experimental/scripts/plot_prize_dag.py`;
+  `scripts/check_aperiodic_eliminant_packet.py`;
+  `towards-prize.md`.
+- **Status:** AUDIT / PROVED-LOCAL / EXPERIMENTAL / ROADMAP.  No leaderboard
+  movement and no new prize-facing threshold claim.
+- **What is being added:** The batch integrates Danny/Gia's M1 simple-pole and
+  shifted-prefix reductions, Allen's synthetic low-rank M3/M4 packet material,
+  Allen's M5 `A=384` underdetermined-boundary packet, and Allen's post-v10 r2
+  roadmap/DAG as subordinate planning material.  From the large rank-witness
+  PR only the M0 definition-freeze note and packet-checker enhancement were
+  taken; the generated rank-6 sidecars remain held for split/replay.
+- **How it is useful:** The main new strategic point is that the official
+  prize band is entirely underdetermined, so regular M3 packets are a proving
+  ground while M5 underdetermined charts are the real band-facing program.
+  The M1 reductions isolate cleaner projected-value walls, and the M3
+  low-rank packets provide scoped synthetic tests for the then-current v10
+  ledger style, now superseded by Paper D v12.
+- **What to do next:** Refine the `A=384` M5 Cramer/divisibility chart into an
+  eliminant or named residual obstruction; replay or split any #171 rank-6
+  material before integration; and keep new PRs to one theorem cluster or
+  certificate packet at a time.
+
 ### 2026-07-01 - v10 guide and site metadata sync
 
 - **Agent/model:** Codex.
@@ -861,14 +990,14 @@ Keep entries concise and link to the relevant files.
   `towards-prize.md`; `experimental/agents-log.md`.
 - **Status:** AUDIT / DOCUMENTATION.
 - **What is being added:** The agent guide, repo overview, prize roadmap, and
-  site paper metadata now point at Paper D v10 as the current cap/Hankel-ledger
-  package.  `AGENTS.md` also names the next concrete prize task: an M3/M4
+  site paper metadata were then pointed at Paper D v10 as the cap/Hankel-ledger
+  package.  Paper D v12 now supersedes this entry.  `AGENTS.md` also named the
+  next concrete prize task: an M3/M4
   root-table and paid-root-subtraction packet for the `F_17^32`, `n=512`,
   `k=256` row over agreements `385 <= A <= 426`.
-- **How it is useful:** Prevents new agents and site readers from treating v9,
-  strict264, or strict352 as the active frontier.  The current route is v10
-  safe-side Hankel packets, singular-bucket classification, and exact ledger
-  subtraction against the six-slope `F_17^32` budget.
+- **How it is useful:** Historical provenance for the v10 transition away from
+  v9, strict264, and strict352 as the active frontier.  The current successor
+  route is Paper D v12's safe-side pincer and certificate grammar.
 - **What to do next:** Build the first M3/M4 table for selected agreements in
   `385 <= A <= 426`, including regular roots, tangent/quotient/extension
   subtraction, and residual chart labels.
@@ -933,7 +1062,8 @@ Keep entries concise and link to the relevant files.
   exhaustion, singular buckets, and safe-side extension classification.
 - **What to do next:** Run the regular Hankel checker on the `F_17^32` row in
   the `385 <= A <= 426` window, combine paid-root subtraction with quotient and
-  tangent ledgers, and build pivot eliminants for any singular buckets.
+  tangent ledgers, and build pivot eliminants for any singular buckets.  For
+  current citations, use Paper D v12 rather than this v10 milestone note.
 
 ### 2026-06-30 - M2 Hankel smoke packet
 
@@ -1237,8 +1367,8 @@ Keep entries concise and link to the relevant files.
   `experimental/notes/audits/codex-f1-l1-20260617/README.md`,
   `experimental/agents-log.md`.
 - **Status:** PROVED / ARITHMETIC-AUDIT.
-- **What is being added:** The scanner now emits `PROVED_PAPERD_V5_CAP` for
-  active Paper D v5 cap rows whose divisor, binomial, and field hypotheses pass,
+- **What is being added:** The scanner then emitted `PROVED_PAPERD_V5_CAP` for
+  then-active Paper D v5 cap rows whose divisor, binomial, and field hypotheses pass,
   and `NO_ACTIVE_PAPERD_V5_CAP` when no such row is found. Existing scanner
   reports and leaderboard-sweep outputs are regenerated or mechanically updated
   to remove the old draft/CS25-import status, and stale experimental audit notes
