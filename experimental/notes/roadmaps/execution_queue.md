@@ -184,6 +184,27 @@ NOTE  Q1.1 (bridge ledger) gains a MANDATORY row: the proved LD_sw vs
       ABF/GG separation (forward-only import; see ldsw_ld_separation).
 ```
 
+## Addendum — the Conjecture-F skeleton and the norm criterion (2026-07-02)
+
+```text
+Q2.13 [f_gcd_reduction] (S)  Prove the WLOG reduction: dividing a plane's
+      D_j-points by their gcd is a linear injection into a smaller
+      instance with trivial image gcd (multiples-of-ell_W form a
+      subspace). One page + a toy verifier. Flips f_gcd_reduction; makes
+      the tangent branch of Conjecture F a reduction, not a case.
+Q2.14 [f_scale_recursion] (S)  Prove the pullback embedding: an
+      M-pullback places g's coefficients at multiples of M, so plane
+      sections of the periodic stratum ARE plane sections at scale n/M.
+      One page + toy check. Flips f_scale_recursion; with Q2.13 the full
+      Conjecture F reduces to its primitive core (f_primitive_case).
+Q2.15 [collision_norm_criterion] (S-M)  Isolate prop:qfloor's mechanism
+      as a standalone statement: non-quotient e1-collisions mod p occur
+      iff p divides an explicit nonzero cyclotomic norm of height
+      <= (2l')^{N'/2}. Note + verifier over small N'. Flips
+      collision_norm_criterion; zone-(b) becomes concrete algebraic
+      number theory (count prime divisors of a bounded family).
+```
+
 ## Addendum — falsifier tests (precision pass, 2026-07-02)
 
 ```text
