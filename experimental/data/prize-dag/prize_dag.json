@@ -1255,6 +1255,70 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#5"
    ]
+  },
+  {
+   "id": "two_slope_intersection",
+   "title": "Two distinct bad slopes explain u AND v individually on the support intersection",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "elementary 2x2 solve on S1 cap S2; the engine that makes many-slope configurations structured \u2014 large intersections force tangent-type payment"
+  },
+  {
+   "id": "spread_regime_bound",
+   "title": "Spread regime: all pairwise support intersections < k => poly(n) slopes",
+   "status": "CONJECTURE",
+   "key": true,
+   "refs": [
+    "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+   ],
+   "notes": "the open half of crystallization in slope-side form: with two_slope_intersection it decomposes 'dense alignment => paid' into PROVED (large-intersection) + THIS (small-intersection/entropy) branches; any final safe-side proof proves something equivalent"
+  },
+  {
+   "id": "char0_collision_classification",
+   "title": "thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "the collision family is fully classified in characteristic zero; zone-(b)'s open content is purely the finite-field transfer"
+  },
+  {
+   "id": "galois_amplification",
+   "title": "Split-prime transfer: for p > exp(Cn log n / sigma), finite prefix collisions ARE char-0 collisions",
+   "status": "PROVED",
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "cor:quasipoly-upper machinery \u2014 the proved beachhead of the transfer; prize-scale p ~ 2^256 is far below the proved range"
+  },
+  {
+   "id": "amplification_range_ext",
+   "title": "Extend the split-prime transfer range from exp(Cn log n/sigma) toward prize-scale p",
+   "status": "TARGET",
+   "key": true,
+   "refs": [
+    "tex/slackMCA_v4.tex"
+   ],
+   "notes": "the repo's own proved route to e1-fullness/zone-(b); every range improvement is direct progress on the corridor question"
+  },
+  {
+   "id": "stratification_partition_thm",
+   "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs",
+   "status": "PROVABLE",
+   "refs": [
+    "wp_detail/wp2_3_stratification_case_tree.md"
+   ],
+   "notes": "true by construction; the final theorem literally sums over these strata, so this is load-bearing, not scaffolding"
+  },
+  {
+   "id": "beta2_moment_corroboration",
+   "title": "Second moments M_2(p) -> 1 over primes <= 181 (irreducibility corroboration)",
+   "status": "PROVED",
+   "refs": [
+    "experimental/notes/m1/m1_beta2_conditional_close.md"
+   ]
   }
  ],
  "edges": [
@@ -2272,6 +2336,66 @@
    "from": "ext_import",
    "to": "f1_case_pole",
    "kind": "req"
+  },
+  {
+   "from": "two_slope_intersection",
+   "to": "xr_crystallization",
+   "kind": "req"
+  },
+  {
+   "from": "spread_regime_bound",
+   "to": "xr_crystallization",
+   "kind": "req"
+  },
+  {
+   "from": "two_slope_intersection",
+   "to": "spi_exceptional_class",
+   "kind": "ev"
+  },
+  {
+   "from": "fm1",
+   "to": "spread_regime_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "char0_collision_classification",
+   "to": "galois_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "galois_amplification",
+   "to": "amplification_range_ext",
+   "kind": "req"
+  },
+  {
+   "from": "amplification_range_ext",
+   "to": "e1_fullness",
+   "kind": "alt"
+  },
+  {
+   "from": "galois_amplification",
+   "to": "e1_fullness",
+   "kind": "ev"
+  },
+  {
+   "from": "char0_collision_classification",
+   "to": "perfiber",
+   "kind": "ev"
+  },
+  {
+   "from": "stratification_partition_thm",
+   "to": "strat_tree",
+   "kind": "req"
+  },
+  {
+   "from": "beta2_moment_corroboration",
+   "to": "beta2_irreducibility",
+   "kind": "ev"
+  },
+  {
+   "from": "conj_f",
+   "to": "spi_dimension_free",
+   "kind": "ev"
   }
  ]
 }
