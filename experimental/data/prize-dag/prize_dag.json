@@ -1814,7 +1814,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "new proved safe-side ground; its range vs the prize corridor is exactly what #177 audits \u2014 do not assume band coverage until audited"
+   "notes": "new proved safe-side ground; its range vs the prize corridor is exactly what #177 audits \u2014 do not assume band coverage until audited | RANGE ESTABLISHED (read from v12 directly): thm:deep-mca holds at 3r <= w-1 (one third of distance) \u2014 it does NOT reach the corridor (the band between half-distance and the caps is v12's Open Problem prob:band, by design). Its per-pair dichotomy FORM (tangent-paid or <= r+1 slopes, interpolation + double counting, arbitrary linear codes) is the proved template for xr_clean_residual_any_gate."
   },
   {
    "id": "map_rational_caps",
@@ -2557,12 +2557,25 @@
    "title": "CAMPAIGN TARGET: R2 with 100+-bit slack at rates 1/4, 1/8, 1/16",
    "status": "TARGET",
    "key": true,
-   "statement": "The weakened wall statement that SUFFICES at the clean rates: worst-case unpaid aperiodic count <= 2^100 x FM (any loss up to the ~121-243 bit margins the wave-1 tables measured). The full KMS/globalness + pair-ledger composition must beat only THIS at the three-rate operating points \u2014 two orders of magnitude more room than rate 1/2's ~3-13 bits. If the composition closes here, the safe side of the three-rate determination assembles from already-proved pieces.",
+   "statement": "REFRAMED after the X-1 verdict: at the clean-rate corridor points the target is BELOW ONE, so this node = xr_clean_residual_any_gate (per-pair emptiness), NOT a slack-composition exercise \u2014 the composition architecture is categorically insufficient (singleton obstruction). TOOL REASSIGNMENT: the KLLM/globalness/density chain remains the right instrument only where corridor content has E[X] >= 1 \u2014 i.e., RATE 1/2's contentful rows; the clean rates need exclusion-type per-pair dichotomies (eliminant/SPI/deep-mca-shaped). The campaign's wall choice flips accordingly: SPI/eliminant promoted for the clean rates; XR/KMS reserved for rate 1/2.",
    "attack_surface": "the same conversion chain (strip -> tangent-cap globalness -> KLLM slice variant -> E_3 bridges -> pair ledger) evaluated at the clean-rate margins; the leak adjudication (10 candidates) still gates the hypothesis; hand the slack-composition arithmetic to the strongest available prover with #211's exponents and the wave-1 margins as given data",
    "falsifier": "the composition arithmetic failing even with 2^100 slack (would push the clean rates onto the SPI route, which inherits the F machinery)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ]
+  },
+  {
+   "id": "xr_clean_residual_any_gate",
+   "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For every received pair (u,v) at the clean-rate corridor operating points: every aligned j-support is charged to the tangent, quotient, or extension ledgers \u2014 the post-strip residual family is EMPTY. This is forced: 2^100 x FM < 1 there, so for integer counts the target IS emptiness, and the SINGLETON OBSTRUCTION (verified) shows no density/spectral/average-case composition can prove it: a singleton family satisfies the top-core cap, all spectral bridges, and the v8 cap, yet violates the target. Identity: this is Paper D v12's Open Problem prob:band (the aperiodic band problem) in per-pair form, at specific operating points. The right tool SHAPE exists and is proved at 3r <= w-1 (thm:deep-mca: per-pair interpolation/double-counting dichotomy, tangent-or-few-slopes, arbitrary linear codes); the task is extending exclusion-type dichotomies into the band with the strip ledgers absorbing the structured alternatives \u2014 the eliminant/deficiency machinery (M5 u-ladder, #199) is the shaped instrument, NOT the density toolkit.",
+   "attack_surface": "per-pair algebraic exclusion: an unpaid aperiodic aligned support at corridor deficiency = a solution of an overdetermined algebraic system; the M5 eliminant dichotomy (nonzero eliminant => bounded solutions; identically-valid => structured/paid) is the proved base pattern; deep-mca is the proved template at low radius; the gap is radius reach \u2014 the band",
+   "falsifier": "an explicit post-strip aligned support at a clean-rate corridor point (would also be a spectacular unsafe-side discovery)",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient."
   }
  ],
  "edges": [
@@ -4758,6 +4771,11 @@
   },
   {
    "from": "xr_radius_arithmetic",
+   "to": "r2_clean_rates",
+   "kind": "req"
+  },
+  {
+   "from": "xr_clean_residual_any_gate",
    "to": "r2_clean_rates",
    "kind": "req"
   }
