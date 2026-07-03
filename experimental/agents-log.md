@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - QA.25 boundary-scale zero-sum column
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_qa25_boundary_scale_column.py`;
+  `experimental/data/certificates/qa25-boundary-scale-column/qa25_boundary_scale_column.json`;
+  `experimental/notes/roadmaps/qa25_boundary_scale_column.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT / ARITHMETIC GATE PASSED.
+- **What is being added:** Exact integer crossover arithmetic for the X-8
+  boundary-scale zero-sum column.  The verifier prices the primitive
+  antipodal-free boundary count at the dyadic predecessor scale and checks
+  that adding the column to QA.22 still fits all six campaign rows.
+- **How it is useful:** Closes QA.25's budget gate for
+  `u2c_boundary_scale_column` while keeping the residual U2-C' dichotomy as a
+  separate proof/falsifier obligation.
+- **What to do next:** Run the U2C-PRIME fiber test against the repaired
+  dictionary, including the boundary scale, and report any primitive residue.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

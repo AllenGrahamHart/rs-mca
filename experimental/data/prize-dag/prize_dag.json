@@ -3113,8 +3113,10 @@
    "attack_surface": "the counting is elementary (subset-sum collision enumeration/bounds); the residual dichotomy may follow from the antipodal-descent structure one scale down; QA.25 is pure arithmetic",
    "falsifier": "a t-null block that is not a union of mu_M-cosets for ANY M >= t dividing n (searchable: the toy scan machinery with the fiber test at M = t added \u2014 cheap extension)",
    "refs": [
-    "experimental/notes/roadmaps/u2c_giant_block_statement.md"
-   ]
+    "experimental/notes/roadmaps/u2c_giant_block_statement.md",
+    "experimental/notes/roadmaps/qa25_boundary_scale_column.md"
+   ],
+   "notes": "QA.25 arithmetic landed: exact crossover table for the boundary zero-sum column, using the dyadic predecessor M0 <= t < 2M0 and the X-8 primitive antipodal-free count ceil(2^(R/2)/q_min^e). Boundary ceil column across the six campaign rows is 1/1/64/1/1/2; adding it to the QA.22 total preserves the budget at every row. This closes only the crossover arithmetic; U2-C' residual dichotomy remains the separate U2C-PRIME/fiber-test obligation."
   },
   {
    "id": "t_poly_exact_toral",
