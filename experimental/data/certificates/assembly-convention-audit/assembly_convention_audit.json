@@ -1,0 +1,491 @@
+{
+  "axes": [
+    "support-wise alignment definition",
+    "exact-vs->= agreement",
+    "exchange-distance / s convention",
+    "paid-strip clause form"
+  ],
+  "checks": 19,
+  "findings": [
+    {
+      "description": "QX.13 and the rungs use agreement supports S of size A; the dihedral staircase packet uses exact disagreement supports R of size j=n-A.  Any assembly must dualize before composing.",
+      "evidence": {
+        "dihedral_staircase_deep_regime": "disagreement_support_R_size_j",
+        "qx13_pair_rank_ledger": "agreement_support_S_size_A"
+      },
+      "id": "support_currency_dual_notation",
+      "packets": [
+        "qx13_pair_rank_ledger",
+        "dihedral_staircase_deep_regime"
+      ],
+      "severity": "real_mismatch_but_classified"
+    },
+    {
+      "description": "The compiler strips proved quotient+tangent ledgers and leaves primitive/dihedral/extension mass inside R_post.  A1/A2 speak about the later unified pullback strip.  These are different assembly layers and must not be silently identified.",
+      "evidence": {
+        "a1_staircase_cap_assembly": "unified_pullback_strip",
+        "a2_graded_tangent_bound": "unified_strip_before_depth_residual_occupancy",
+        "xr_clean_poly_forcing_reduction": "quotient_plus_tangent_paid_then_R_post"
+      },
+      "id": "strip_scope_layering",
+      "packets": [
+        "xr_clean_poly_forcing_reduction",
+        "a1_staircase_cap_assembly",
+        "a2_graded_tangent_bound"
+      ],
+      "severity": "scope_layering_not_contradiction"
+    },
+    {
+      "description": "QX.13 and X-3 pin exact agreement/support conventions.  W2, A2, and E33 route/count aligned partners but do not restate the exact-vs->= convention locally.  They appear to inherit the exact convention, but the inheritance should be printed in any final assembly.",
+      "evidence": {
+        "a2_graded_tangent_bound": "not_explicit",
+        "e33_deep_link_staircase": "not_explicit",
+        "w2_graded_tangent_ledger_design": "not_explicit"
+      },
+      "id": "exactness_gap_in_routing_packets",
+      "packets": [
+        "w2_graded_tangent_ledger_design",
+        "a2_graded_tangent_bound",
+        "e33_deep_link_staircase"
+      ],
+      "severity": "documentation_gap"
+    },
+    {
+      "description": "QX.13 defines s as exchange distance; X-3/W2/A2 use r=|S cap T| and s=A-r, with d+s=t in partial tangent cells. This is consistent.",
+      "evidence": {
+        "a2_graded_tangent_bound": "s_equals_A_minus_r_and_d_plus_s_equals_t",
+        "qx13_pair_rank_ledger": "s_exchange_distance_on_agreement_and_cosupports",
+        "w2_graded_tangent_ledger_design": "s_equals_A_minus_r_and_d_plus_s_equals_t",
+        "xr_smallcore_rungs_2a_2b": "s_equals_A_minus_r"
+      },
+      "id": "s_exchange_is_consistent_where_used",
+      "packets": [
+        "qx13_pair_rank_ledger",
+        "xr_smallcore_rungs_2a_2b",
+        "w2_graded_tangent_ledger_design",
+        "a2_graded_tangent_bound"
+      ],
+      "severity": "pass"
+    }
+  ],
+  "node": "safe_assembly_uniformity",
+  "packets": [
+    {
+      "classification": {
+        "exactness": "exact_agreement_A",
+        "exchange_s": "s_exchange_distance_on_agreement_and_cosupports",
+        "paid_strip": "none_moment_level",
+        "support_currency": "agreement_support_S_size_A"
+      },
+      "evidence": [
+        {
+          "excerpt": "are subsets `S subset D` of size exactly `A`; co-supports `D \\ S` are the",
+          "line": 32,
+          "needles": [
+            "are subsets `S subset D` of size exactly `A`"
+          ]
+        },
+        {
+          "excerpt": "s = |S \\ T| = |T \\ S|, r = |S cap T| = A - s,",
+          "line": 37,
+          "needles": [
+            "s = |S \\ T| = |T \\ S|"
+          ]
+        },
+        {
+          "excerpt": "support-wise bad slope\", the slope `z(S)` is then unique, and each support",
+          "line": 68,
+          "needles": [
+            "support-wise bad slope"
+          ]
+        },
+        {
+          "excerpt": "witnesses a support-wise bad slope for the line (u,v)\" \u2014",
+          "line": 304,
+          "needles": [
+            "support-wise bad slope"
+          ]
+        },
+        {
+          "excerpt": "- No structured absorption: paid (tangent/quotient) mass is not subtracted",
+          "line": 339,
+          "needles": [
+            "paid (tangent/quotient) mass is not subtracted"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "qx13_pair_rank_ledger",
+      "path": "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+      "required_evidence": [
+        "are subsets `S subset D` of size exactly `A`",
+        "s = |S \\ T| = |T \\ S|",
+        "support-wise bad slope",
+        "paid (tangent/quotient) mass is not subtracted"
+      ],
+      "role": "pair-rank moment ledger"
+    },
+    {
+      "classification": {
+        "exactness": "fixed_A_candidate_budget",
+        "exchange_s": "not_applicable",
+        "paid_strip": "quotient_plus_tangent_paid_then_R_post",
+        "support_currency": "slope_count_post_strip"
+      },
+      "evidence": [
+        {
+          "excerpt": "post-strip non-quotient/non-tangent residual slope count at that candidate is",
+          "line": 28,
+          "needles": [
+            "post-strip non-quotient/non-tangent residual slope count"
+          ]
+        },
+        {
+          "excerpt": "Equivalently, after the proved quotient and tangent ledgers are charged, the",
+          "line": 31,
+          "needles": [
+            "proved quotient and tangent ledgers are charged"
+          ]
+        },
+        {
+          "excerpt": "R_post(u,v; A) <= 16 n^3.",
+          "line": 36,
+          "needles": [
+            "R_post(u,v; A) <= 16 n^3"
+          ]
+        },
+        {
+          "excerpt": "including primitive aperiodic residue and any dihedral/extension column not",
+          "line": 52,
+          "needles": [
+            "including primitive aperiodic residue and any dihedral/extension column"
+          ]
+        },
+        {
+          "excerpt": "already included in the two ledgers above. If `R_post(u,v; A) <= 16 n^3`, then",
+          "line": 53,
+          "needles": [
+            "R_post(u,v; A) <= 16 n^3"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "xr_clean_poly_forcing_reduction",
+      "path": "experimental/notes/roadmaps/xr_clean_poly_forcing_reduction.md",
+      "required_evidence": [
+        "post-strip non-quotient/non-tangent residual slope count",
+        "R_post(u,v; A) <= 16 n^3",
+        "proved quotient and tangent ledgers are charged",
+        "including primitive aperiodic residue and any dihedral/extension column"
+      ],
+      "role": "clean-rate compiler"
+    },
+    {
+      "classification": {
+        "exactness": "exact_agreement_support_with_exact_disagreement_off_S",
+        "exchange_s": "s_equals_A_minus_r",
+        "paid_strip": "none_structural_routing",
+        "support_currency": "agreement_support_S_size_A"
+      },
+      "evidence": [
+        {
+          "excerpt": "aligned support is a tuple `(S,z,c)` with `|S|=A`, `c in C`, `w_z=c` on `S`,",
+          "line": 21,
+          "needles": [
+            "aligned support is a tuple `(S,z,c)` with `|S|=A`"
+          ]
+        },
+        {
+          "excerpt": "and exact disagreement off `S`. Exactness is the convention used below;",
+          "line": 22,
+          "needles": [
+            "Exactness is the convention used below"
+          ]
+        },
+        {
+          "excerpt": "Equivalently, writing the support exchange distance as `s=A-r`, the partial",
+          "line": 96,
+          "needles": [
+            "s=A-r"
+          ]
+        },
+        {
+          "excerpt": "2 <= s <= t-1, d = t-s, d+s=t.",
+          "line": 100,
+          "needles": [
+            "d+s=t"
+          ]
+        },
+        {
+          "excerpt": "- the partial-band arithmetic `d+s=t` and `c(s,t)=s`.",
+          "line": 139,
+          "needles": [
+            "d+s=t"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "xr_smallcore_rungs_2a_2b",
+      "path": "experimental/notes/roadmaps/xr_smallcore_rungs_2a_2b.md",
+      "required_evidence": [
+        "aligned support is a tuple `(S,z,c)` with `|S|=A`",
+        "Exactness is the convention used below",
+        "s=A-r",
+        "d+s=t"
+      ],
+      "role": "same-slope/list and two-slope forcing rungs"
+    },
+    {
+      "classification": {
+        "exactness": "not_explicit",
+        "exchange_s": "s_equals_A_minus_r_and_d_plus_s_equals_t",
+        "paid_strip": "quotient_dihedral_extension_cascade_removed_before_residual_cells",
+        "support_currency": "overlap_core_r_between_agreement_supports"
+      },
+      "evidence": [
+        {
+          "excerpt": "Let `A=k+t`, and let two distinct-slope aligned supports have common core",
+          "line": 11,
+          "needles": [
+            "common core"
+          ]
+        },
+        {
+          "excerpt": "d = r-k, s = A-r.",
+          "line": 34,
+          "needles": [
+            "d = r-k",
+            "s = A-r"
+          ]
+        },
+        {
+          "excerpt": "d+s=t.",
+          "line": 42,
+          "needles": [
+            "d+s=t"
+          ]
+        },
+        {
+          "excerpt": "work is to bound how often depth-`d` cells can be occupied after quotient,",
+          "line": 72,
+          "needles": [
+            "after quotient,"
+          ]
+        },
+        {
+          "excerpt": "- the identities `d+s=t` and the partial-cell ranges for `t=1..8`;",
+          "line": 114,
+          "needles": [
+            "d+s=t"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "w2_graded_tangent_ledger_design",
+      "path": "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md",
+      "required_evidence": [
+        "common core",
+        "d = r-k",
+        "s = A-r",
+        "d+s=t",
+        "after quotient,"
+      ],
+      "role": "graded tangent cell design"
+    },
+    {
+      "classification": {
+        "exactness": "not_explicit",
+        "exchange_s": "s_equals_A_minus_r_and_d_plus_s_equals_t",
+        "paid_strip": "unified_strip_before_depth_residual_occupancy",
+        "support_currency": "overlap_core_r_between_agreement_supports"
+      },
+      "evidence": [
+        {
+          "excerpt": "k+1 <= r <= A-2 -> tangent-depth d = r-k",
+          "line": 25,
+          "needles": [
+            "k+1 <= r <= A-2"
+          ]
+        },
+        {
+          "excerpt": "s = A-r,",
+          "line": 35,
+          "needles": [
+            "s = A-r"
+          ]
+        },
+        {
+          "excerpt": "d+s = t.",
+          "line": 36,
+          "needles": [
+            "d+s = t"
+          ]
+        },
+        {
+          "excerpt": "After the unified strip, bound the number of occupied tangent-depth-`d`",
+          "line": 65,
+          "needles": [
+            "After the unified strip"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "a2_graded_tangent_bound",
+      "path": "experimental/notes/roadmaps/a2_graded_tangent_bound.md",
+      "required_evidence": [
+        "k+1 <= r <= A-2",
+        "s = A-r",
+        "d+s = t",
+        "After the unified strip"
+      ],
+      "role": "graded tangent bound assembly"
+    },
+    {
+      "classification": {
+        "exactness": "post_strip_partner_count",
+        "exchange_s": "lower_overlap_range_k_over_2_lt_r_lt_k",
+        "paid_strip": "unified_pullback_strip",
+        "support_currency": "partner_supports_through_fixed_subcore"
+      },
+      "evidence": [
+        {
+          "excerpt": "P1 proves that partners through a fixed `(k-1)`-subcore `R subset T0` are",
+          "line": 22,
+          "needles": [
+            "partners through a fixed `(k-1)`-subcore"
+          ]
+        },
+        {
+          "excerpt": "net rich point is paid by the unified pullback strip. The single-direction",
+          "line": 43,
+          "needles": [
+            "unified pullback strip"
+          ]
+        },
+        {
+          "excerpt": "Statement: every post-strip near-k partner in the full overlap range",
+          "line": 73,
+          "needles": [
+            "every post-strip near-k partner"
+          ]
+        },
+        {
+          "excerpt": "`k/2 < |T cap T0| < k`, including lower-overlap bands such as `k-2`, must be",
+          "line": 74,
+          "needles": [
+            "k/2 < |T cap T0| < k"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "a1_staircase_cap_assembly",
+      "path": "experimental/notes/roadmaps/a1_staircase_cap_assembly.md",
+      "required_evidence": [
+        "partners through a fixed `(k-1)`-subcore",
+        "unified pullback strip",
+        "every post-strip near-k partner",
+        "k/2 < |T cap T0| < k"
+      ],
+      "role": "deep-link staircase assembly"
+    },
+    {
+      "classification": {
+        "exactness": "not_explicit",
+        "exchange_s": "overlap_r_with_k_over_2_lt_r_lt_k",
+        "paid_strip": "none_toy_census",
+        "support_currency": "aligned_partner_supports_T"
+      },
+      "evidence": [
+        {
+          "excerpt": "The census fixes an aligned anchor `(u,v,T0,z0)` and counts aligned partner",
+          "line": 10,
+          "needles": [
+            "counts aligned partner"
+          ]
+        },
+        {
+          "excerpt": "k/2 < |T cap T0| < k.",
+          "line": 14,
+          "needles": [
+            "k/2 < |T cap T0| < k"
+          ]
+        },
+        {
+          "excerpt": "r = 6, 7.",
+          "line": 23,
+          "needles": [
+            "r = 6, 7"
+          ]
+        },
+        {
+          "excerpt": "No all-slope support code appears in the near-k band on either row.",
+          "line": 62,
+          "needles": [
+            "No all-slope support code"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "e33_deep_link_staircase",
+      "path": "experimental/notes/roadmaps/e33_deep_link_staircase.md",
+      "required_evidence": [
+        "counts aligned partner",
+        "k/2 < |T cap T0| < k",
+        "r = 6, 7",
+        "No all-slope support code"
+      ],
+      "role": "deep-link staircase toy census"
+    },
+    {
+      "classification": {
+        "exactness": "exact_disagreement_support",
+        "exchange_s": "j_disagreement_not_s_exchange",
+        "paid_strip": "dihedral_specific_not_compiler_strip",
+        "support_currency": "disagreement_support_R_size_j"
+      },
+      "evidence": [
+        {
+          "excerpt": "slope `z`, write `w_z = u + z v`. An exact `j`-support is a set",
+          "line": 12,
+          "needles": [
+            "An exact `j`-support is a set"
+          ]
+        },
+        {
+          "excerpt": "then the number of aligned exact `j`-supports over all finite slopes is at",
+          "line": 26,
+          "needles": [
+            "exact `j`-supports over all finite slopes"
+          ]
+        },
+        {
+          "excerpt": "The QA.21 clean-rate candidates use `j = n-A`, the exact disagreement support",
+          "line": 71,
+          "needles": [
+            "QA.21 clean-rate candidates use `j = n-A`"
+          ]
+        },
+        {
+          "excerpt": "lemma applies to that complementary high-agreement row, not to the clean-rate",
+          "line": 95,
+          "needles": [
+            "complementary high-agreement row"
+          ]
+        }
+      ],
+      "missing_evidence": [],
+      "packet_id": "dihedral_staircase_deep_regime",
+      "path": "experimental/notes/roadmaps/dihedral_staircase_deep_regime.md",
+      "required_evidence": [
+        "An exact `j`-support is a set",
+        "exact `j`-supports over all finite slopes",
+        "QA.21 clean-rate candidates use `j = n-A`",
+        "complementary high-agreement row"
+      ],
+      "role": "dihedral/deep staircase packet"
+    }
+  ],
+  "status": "AUDIT: classified convention drift; no unclassified mismatch",
+  "task": "ASSEMBLY-AUDIT conventions consistency",
+  "unclassified_findings": []
+}

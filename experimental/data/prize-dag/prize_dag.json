@@ -2145,9 +2145,10 @@
    "attack_surface": "mostly bookkeeping made explicit: a one-note assembly proof template with a constants ledger; the genuine content is the uniformity audit of each input's constant",
    "falsifier": "any input theorem whose constant is discovered to drift with n (would localize immediately in the constants ledger)",
    "refs": [
-    "proof_sketch/s8_s9_assembly_and_negative.md"
+    "proof_sketch/s8_s9_assembly_and_negative.md",
+    "assembly_convention_audit.md"
    ],
-   "notes": "prices the children => parent step that the map previously asserted silently; its mirror on the list side rides list_planted_arithmetic + imgfib's uniform exponent"
+   "notes": "prices the children => parent step that the map previously asserted silently; its mirror on the list side rides list_planted_arithmetic + imgfib's uniform exponent | ASSEMBLY-AUDIT (X-10 support wave): verifier-backed convention scan found no unclassified drift. Classified hygiene items: dualize dihedral disagreement supports R (|R|=j=n-A) to agreement supports S before composition; distinguish the compiler's quotient+tangent strip from the later unified pullback strip; print exact-agreement inheritance before invoking W2/A2/E33. The s/exchange convention is consistent: r=|S cap T|, s=A-r, d=r-k, d+s=t."
   },
   {
    "id": "graded_collision_radius",
