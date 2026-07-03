@@ -361,7 +361,7 @@
    "statement": "#{aligned (l, Z): root set K_M-stable but (u,v) multi-isotypic (non-equivariant) on the stratum} <= poly(n) * FM \u2014 the isotypic escape stratum carries no super-poly alignment mass.",
    "attack_surface": "bound the multi-isotypic stratum via the isotypic decomposition + FM; the stratum is thin (non-equivariant data on stable supports)",
    "falsifier": "toy enumeration (gap1_toy_test) showing non-equivariant periodic alignments outgrowing poly",
-   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly."
+   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate)."
   },
   {
    "id": "gap2_seam",
@@ -1441,7 +1441,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
-   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided"
+   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -1862,13 +1862,13 @@
    "title": "LEAP: non-equivariant periodic mass EQUALS the per-character product (tower extension)",
    "status": "CONJECTURE",
    "key": true,
-   "statement": "The per-character product model is exact: non-equivariant K_M-periodic slope mass is bounded by the product over active characters, uniformly \u2014 via tower recursion on the E6 base-line lemma (alpha^M in an intermediate field K: each character maps into one K-line; recurse K down to the base). GAP-1 follows with the fitted constant.",
+   "statement": "HALF PROVED (in flight, #212 \u2014 verified here: three verifiers replayed green, Theorems 1-3 structure checked): the tower product bound \u2014 each character maps into one intermediate-field line (P_r(alpha) = alpha^r G_r(beta) in alpha^r K), multi-character mass <= the per-character product, and the recursion runs down any tower B = K_0 <= ... <= K_s. CROSS-CHARACTER AMPLIFICATION IS REMOVED. The OPEN half: the terminal reserve estimate \u2014 per-character counts summed against poly(n) x FM (the note keeps this explicitly open).",
    "attack_surface": "extend the PROVED base-case lemma (alpha^M in base field) to intermediate fields \u2014 the repo's most-repeated recursion pattern, fourth appearance; then sum over characters",
    "falsifier": "a periodic model exceeding the per-character product rank (E6 found none across F_13/F_97 exact + F_257 to n=256)",
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
    ],
-   "notes": "CALCULATED LEAP grounded in E6 (PR #187): the mechanism lemma is proved in the base case and no tested model exceeds the product. Closing this flips strip's conditionality."
+   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate)."
   },
   {
    "id": "f_pair_bound_envelope",
