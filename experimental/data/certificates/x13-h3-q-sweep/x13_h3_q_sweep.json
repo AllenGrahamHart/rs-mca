@@ -1,0 +1,803 @@
+{
+  "checks": 104,
+  "interpretation": "This is evidence for the high-q vanishing route, not a monotonicity theorem. The n=32 row is deliberately retained because it shows finite-prime non-monotonicity.",
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 1153,
+      "floor_n_alpha": 1024,
+      "h": 3,
+      "label": "n32_alpha_2",
+      "max_signature_group_size": 1,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "1153/1024",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 4960
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [
+        {
+          "P_exponents": [
+            0,
+            14,
+            24
+          ],
+          "Q_exponents": [
+            3,
+            27,
+            30
+          ],
+          "signature_code": 324318
+        },
+        {
+          "P_exponents": [
+            0,
+            5,
+            29
+          ],
+          "Q_exponents": [
+            2,
+            16,
+            26
+          ],
+          "signature_code": 869016
+        },
+        {
+          "P_exponents": [
+            0,
+            10,
+            18
+          ],
+          "Q_exponents": [
+            13,
+            16,
+            21
+          ],
+          "signature_code": 870887
+        },
+        {
+          "P_exponents": [
+            0,
+            3,
+            8
+          ],
+          "Q_exponents": [
+            5,
+            19,
+            29
+          ],
+          "signature_code": 2313974
+        },
+        {
+          "P_exponents": [
+            0,
+            24,
+            27
+          ],
+          "Q_exponents": [
+            11,
+            21,
+            29
+          ],
+          "signature_code": 4411737
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            22
+          ],
+          "Q_exponents": [
+            3,
+            6,
+            11
+          ],
+          "signature_code": 6401267
+        }
+      ],
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 2593,
+      "floor_n_alpha": 2435,
+      "h": 3,
+      "label": "n32_alpha_9_4",
+      "max_signature_group_size": 2,
+      "n": 32,
+      "nontoral_active_cores": 6,
+      "nontoral_anchored_partner_pairs": 6,
+      "nontoral_partner_multiplicity_histogram": {
+        "1": 6
+      },
+      "p_over_floor_n_alpha": "2593/2435",
+      "raw_active_cores": 6,
+      "raw_anchored_partner_pairs": 6,
+      "signature_collision_groups": 32,
+      "signature_collision_triples": 64,
+      "signature_group_size_histogram": {
+        "2": 32
+      },
+      "t": 2,
+      "triple_count": 4960
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 5857,
+      "floor_n_alpha": 5792,
+      "h": 3,
+      "label": "n32_alpha_5_2",
+      "max_signature_group_size": 1,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "5857/5792",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 4960
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 13921,
+      "floor_n_alpha": 13777,
+      "h": 3,
+      "label": "n32_alpha_11_4",
+      "max_signature_group_size": 1,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "13921/13777",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 4960
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 32801,
+      "floor_n_alpha": 32768,
+      "h": 3,
+      "label": "n32_alpha_3",
+      "max_signature_group_size": 1,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "32801/32768",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 4960
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 4289,
+      "floor_n_alpha": 4096,
+      "h": 3,
+      "label": "n64_alpha_2",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "4289/4096",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 41664
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 11777,
+      "floor_n_alpha": 11585,
+      "h": 3,
+      "label": "n64_alpha_9_4",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "11777/11585",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 41664
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 32833,
+      "floor_n_alpha": 32768,
+      "h": 3,
+      "label": "n64_alpha_5_2",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "32833/32768",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 41664
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 92737,
+      "floor_n_alpha": 92681,
+      "h": 3,
+      "label": "n64_alpha_11_4",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "92737/92681",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 41664
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 262337,
+      "floor_n_alpha": 262144,
+      "h": 3,
+      "label": "n64_alpha_3",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "262337/262144",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 41664
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [
+        {
+          "P_exponents": [
+            0,
+            96,
+            122
+          ],
+          "Q_exponents": [
+            13,
+            45,
+            58
+          ],
+          "signature_code": 8940188
+        },
+        {
+          "P_exponents": [
+            0,
+            14,
+            110
+          ],
+          "Q_exponents": [
+            44,
+            64,
+            76
+          ],
+          "signature_code": 13981534
+        },
+        {
+          "P_exponents": [
+            0,
+            12,
+            108
+          ],
+          "Q_exponents": [
+            46,
+            64,
+            78
+          ],
+          "signature_code": 13993147
+        },
+        {
+          "P_exponents": [
+            0,
+            96,
+            116
+          ],
+          "Q_exponents": [
+            34,
+            52,
+            66
+          ],
+          "signature_code": 23671116
+        },
+        {
+          "P_exponents": [
+            0,
+            65,
+            107
+          ],
+          "Q_exponents": [
+            10,
+            76,
+            100
+          ],
+          "signature_code": 24594516
+        },
+        {
+          "P_exponents": [
+            0,
+            21,
+            86
+          ],
+          "Q_exponents": [
+            31,
+            97,
+            121
+          ],
+          "signature_code": 37224239
+        },
+        {
+          "P_exponents": [
+            0,
+            13,
+            96
+          ],
+          "Q_exponents": [
+            51,
+            77,
+            83
+          ],
+          "signature_code": 45804963
+        },
+        {
+          "P_exponents": [
+            0,
+            96,
+            114
+          ],
+          "Q_exponents": [
+            30,
+            50,
+            62
+          ],
+          "signature_code": 68380116
+        }
+      ],
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 17921,
+      "floor_n_alpha": 16384,
+      "h": 3,
+      "label": "n128_alpha_2",
+      "max_signature_group_size": 2,
+      "n": 128,
+      "nontoral_active_cores": 18,
+      "nontoral_anchored_partner_pairs": 18,
+      "nontoral_partner_multiplicity_histogram": {
+        "1": 18
+      },
+      "p_over_floor_n_alpha": "17921/16384",
+      "raw_active_cores": 18,
+      "raw_anchored_partner_pairs": 18,
+      "signature_collision_groups": 384,
+      "signature_collision_triples": 768,
+      "signature_group_size_histogram": {
+        "2": 384
+      },
+      "t": 2,
+      "triple_count": 341376
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 55681,
+      "floor_n_alpha": 55108,
+      "h": 3,
+      "label": "n128_alpha_9_4",
+      "max_signature_group_size": 1,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "55681/55108",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 341376
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 186113,
+      "floor_n_alpha": 185363,
+      "h": 3,
+      "label": "n128_alpha_5_2",
+      "max_signature_group_size": 1,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "186113/185363",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 341376
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 623617,
+      "floor_n_alpha": 623487,
+      "h": 3,
+      "label": "n128_alpha_11_4",
+      "max_signature_group_size": 1,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "623617/623487",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 341376
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 2100097,
+      "floor_n_alpha": 2097152,
+      "h": 3,
+      "label": "n128_alpha_3",
+      "max_signature_group_size": 1,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "2100097/2097152",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 341376
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [
+        {
+          "P_exponents": [
+            0,
+            12,
+            204
+          ],
+          "Q_exponents": [
+            128,
+            164,
+            228
+          ],
+          "signature_code": 262151
+        },
+        {
+          "P_exponents": [
+            0,
+            36,
+            100
+          ],
+          "Q_exponents": [
+            76,
+            128,
+            140
+          ],
+          "signature_code": 327682
+        },
+        {
+          "P_exponents": [
+            0,
+            156,
+            192
+          ],
+          "Q_exponents": [
+            28,
+            40,
+            232
+          ],
+          "signature_code": 8405313
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            172
+          ],
+          "Q_exponents": [
+            12,
+            192,
+            224
+          ],
+          "signature_code": 15859939
+        },
+        {
+          "P_exponents": [
+            0,
+            6,
+            134
+          ],
+          "Q_exponents": [
+            64,
+            140,
+            216
+          ],
+          "signature_code": 16711936
+        },
+        {
+          "P_exponents": [
+            0,
+            180,
+            192
+          ],
+          "Q_exponents": [
+            52,
+            140,
+            204
+          ],
+          "signature_code": 16745088
+        },
+        {
+          "P_exponents": [
+            0,
+            64,
+            140
+          ],
+          "Q_exponents": [
+            12,
+            128,
+            192
+          ],
+          "signature_code": 16777472
+        },
+        {
+          "P_exponents": [
+            0,
+            52,
+            192
+          ],
+          "Q_exponents": [
+            12,
+            180,
+            204
+          ],
+          "signature_code": 16875907
+        }
+      ],
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 65537,
+      "floor_n_alpha": 65536,
+      "h": 3,
+      "label": "n256_alpha_2",
+      "max_signature_group_size": 2,
+      "n": 256,
+      "nontoral_active_cores": 129,
+      "nontoral_anchored_partner_pairs": 129,
+      "nontoral_partner_multiplicity_histogram": {
+        "1": 129
+      },
+      "p_over_floor_n_alpha": "65537/65536",
+      "raw_active_cores": 129,
+      "raw_anchored_partner_pairs": 129,
+      "signature_collision_groups": 5504,
+      "signature_collision_triples": 11008,
+      "signature_group_size_histogram": {
+        "2": 5504
+      },
+      "t": 2,
+      "triple_count": 2763520
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 262657,
+      "floor_n_alpha": 262144,
+      "h": 3,
+      "label": "n256_alpha_9_4",
+      "max_signature_group_size": 1,
+      "n": 256,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "262657/262144",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 2763520
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 1049089,
+      "floor_n_alpha": 1048576,
+      "h": 3,
+      "label": "n256_alpha_5_2",
+      "max_signature_group_size": 1,
+      "n": 256,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "1049089/1048576",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 2763520
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 4201217,
+      "floor_n_alpha": 4194304,
+      "h": 3,
+      "label": "n256_alpha_11_4",
+      "max_signature_group_size": 1,
+      "n": 256,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "4201217/4194304",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 2763520
+    },
+    {
+      "charged_partner_pairs": 0,
+      "charged_reasons": {},
+      "examples": [],
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 16777729,
+      "floor_n_alpha": 16777216,
+      "h": 3,
+      "label": "n256_alpha_3",
+      "max_signature_group_size": 1,
+      "n": 256,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_partner_multiplicity_histogram": {},
+      "p_over_floor_n_alpha": "16777729/16777216",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_triples": 0,
+      "signature_group_size_histogram": {},
+      "t": 2,
+      "triple_count": 2763520
+    }
+  ],
+  "scope": "h=3 anchored active-core census at first primes p == 1 mod n above exact n^alpha floors",
+  "status": "EXACT FINITE EVIDENCE: h=3 nontoral active cores vanish by q>n^(5/2) in all checked rows through n=256; n=128 and n=256 vanish already by q>n^(9/4)",
+  "summary": {
+    "all_alpha_5_2_and_above_zero": true,
+    "max_n": 256,
+    "n128_n256_alpha_9_4_zero": true,
+    "nonzero_rows": [
+      "n32_alpha_9_4",
+      "n128_alpha_2",
+      "n256_alpha_2"
+    ],
+    "rows_checked": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_11_4",
+      "n32_alpha_3",
+      "n64_alpha_2",
+      "n64_alpha_9_4",
+      "n64_alpha_5_2",
+      "n64_alpha_11_4",
+      "n64_alpha_3",
+      "n128_alpha_2",
+      "n128_alpha_9_4",
+      "n128_alpha_5_2",
+      "n128_alpha_11_4",
+      "n128_alpha_3",
+      "n256_alpha_2",
+      "n256_alpha_9_4",
+      "n256_alpha_5_2",
+      "n256_alpha_11_4",
+      "n256_alpha_3"
+    ]
+  },
+  "task": "X13 h=3 high-q sweep"
+}
