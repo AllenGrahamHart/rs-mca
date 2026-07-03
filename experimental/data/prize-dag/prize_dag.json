@@ -2577,7 +2577,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field)."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement."
   },
   {
    "id": "dihedral_staircase",
@@ -2626,6 +2626,30 @@
    "falsifier": "a toy pair aligning super-linear-in-n dihedral supports (searchable with E25's machinery)",
    "refs": [
     "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
+   ]
+  },
+  {
+   "id": "xr_pencil_cascade",
+   "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "If a pair (u,v) has two aligned supports (distinct slopes) whose agreement sets share a common core of size >= k+t-1 = A-1, then the slope pencil is FORCED on the core (interpolation: core >= k determines both explaining codewords, the 2x2 slope system inverts), and the alignment CASCADES: every off-core point upgrades one further slope, so the pair's multiplicity is ~n-core and the pair is a TANGENT-PENCIL pair \u2014 paid. E27 verified every observed cascade algebraically at RS[F_97, mu_16, k=8] (the multiplicity-2 stratum has a -8.8 sigma HOLE at cores >= A-1: big-core mult-2 events are impossible, exactly as the lemma predicts). The argument is interpolation + the two-slope trick \u2014 scale-free.",
+   "attack_surface": "specialize two_slope_intersection to cores >= k+t-1; the cascade step is one line (pencil evaluation off-core); write-up is a small packet",
+   "falsifier": "a toy multiplicity-2 pair with core >= A-1 and no pencil (E27's machinery searches this directly; zero found in 2000 constructed + 10^5 organic)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "xr_smallcore_spread_count",
+   "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase.",
+   "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
+   "falsifier": "a toy pair with super-poly many pairwise-small-core aligned supports (searchable with E27's pencil machinery)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ]
   }
  ],
@@ -4888,6 +4912,21 @@
   {
    "from": "dihedral_quotient_stratum",
    "to": "dihedral_staircase",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_pencil_cascade",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "req"
+  },
+  {
+   "from": "xr_smallcore_spread_count",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "req"
+  },
+  {
+   "from": "spread_exception_classification",
+   "to": "xr_smallcore_spread_count",
    "kind": "ev"
   }
  ]
