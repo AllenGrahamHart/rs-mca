@@ -598,10 +598,19 @@ QX.10 [engine comparison + loss tables] (S-M)  Tabulate the exact
       KLLM global hypercontractivity; per rate, compare loss exponents
       against the available FM gap. The cheap first look that decides
       whether raw constants ever suffice.
-QX.11 [xr_globalness_from_ledger] (M)  The real math: convert the
-      ledger's per-cell tangent caps into link-density bounds at each
-      core size r; verify they sit below KLLM's globalness threshold.
-      Falsifier: an unpaid tangent leak at some core size.
+QX.11 [xr_globalness_from_ledger] (S — now packaging: proof DONE)
+      The top-core double-count theorem is written and verified
+      (provenance: GPT Pro, independently checked: hand algebra + 400
+      brute-force trials). Package as a repo-standard note + verifier;
+      PIN THE STRIP NORMAL FORM (L_tan = 1 vs 2 convention) against
+      the actual T0-T7 tree; cite #152's t=2 residual-edge bound as
+      the grounded case.
+QX.12-FLAGS (raised priority)  The KLLM import note must (a) verify
+      the quoted globalness/stability constants against the actual
+      paper — currently [CITATION NEEDED]; (b) cite the UNIFORM-SLICE
+      variant precisely (cube results do not transfer verbatim).
+      This is now the last import-verification standing between the
+      XR wall's primary path and conjecture-free status.
 QX.12 [xr_small_set_engine import] (M)  The KLLM import note:
       statement, conventions matched to J(n,j) links = fixed-core
       cells, bridge-ledger row.

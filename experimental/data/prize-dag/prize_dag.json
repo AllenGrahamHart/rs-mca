@@ -2354,19 +2354,21 @@
    "falsifier": "the tables showing BOTH known quantitative forms lose more than the FM gap provides \u2014 would mean the import needs strengthening, not that the route is dead",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
-   ]
+   ],
+   "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly."
   },
   {
    "id": "xr_globalness_from_ledger",
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate",
-   "status": "CONJECTURE",
+   "status": "PROVABLE",
    "key": true,
-   "statement": "Post-strip alignment sets are GLOBAL in the KLLM sense: their density on every fixed-core link is bounded, because link-concentration = aligned locators sharing the core divisor l_S = exactly the tangent stratum, which the PROVED payment machinery (staircase, common-code-line budget, v8 cap) prices. The paid taxonomy and the junta obstruction are the same object from two fields \u2014 our ledger supplies the hypothesis the general theorem cannot assume.",
+   "statement": "THEOREM (proof written and verified; PROVED modulo the tangent-strip normal form): if every unpaid (j-1)-core has at most L_tan aligned completions (the top-core cap \u2014 which IS the tangent/moving-root ledger: completions of a core share the degree-(j-1) divisor; #152 proves the t=2 case as the residual one-exchange-edge bound), then by an exact double count, EVERY r-core link of the post-strip family has density <= L_tan/(n-j+1), uniformly in r <= j-1. Hence A_post is (a, L_tan/(n-j+1))-global in the uniform-slice KLLM sense for all a <= j-1 \u2014 a polynomial-scale link parameter, INDEPENDENT of the FM density. The KLLM loss is then poly(n), and the q-power savings remain with the pair ledger c(s,t) = min(s,t-1): the globalness branch no longer consumes the q-budget crux 1 needs. L_tan = 1 (first-unpaid-support convention) or 2 (residual-edge convention).",
    "attack_surface": "quantify the ledger's per-cell caps as link-density bounds at each core size r; compare against KLLM's globalness threshold (the composition arithmetic); the strip handles the quotient links",
    "falsifier": "a post-strip alignment set with link density above the paid bound at some core size (would be an unpaid tangent leak \u2014 an R2 problem, not a route problem)",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
-   ]
+   ],
+   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this)."
   },
   {
    "id": "xr_small_set_engine",
