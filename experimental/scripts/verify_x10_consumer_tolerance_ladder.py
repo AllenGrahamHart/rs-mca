@@ -196,7 +196,11 @@ def build_certificate() -> dict[str, Any]:
     check("QA.22 source certificate has six rows", len(qa22["rows"]) == 6)
     check("QA.25 source certificate has six rows", len(qa25["rows"]) == 6)
     check("QA.25 rows are repaired and budget-ok", all(row["repaired_budget_ok"] for row in qa25["rows"]))
-    check("X-10 final estimate node is still target", pte["status"] == "TARGET", pte["status"])
+    check(
+        "X-10 final estimate node is still open/conditional",
+        pte["status"] in {"TARGET", "CONDITIONAL"},
+        pte["status"],
+    )
     check("X-10 node states the orbit conversion", "(n/h) A_h^nt <= n^2" in pte["statement"])
     check("A consumer reduces to X-10", "X-10" in alpha["notes"] and "anchored_nontoral_pte_bound" in alpha["notes"])
     check("B consumer reduces to X-10", "X-10" in beta["notes"] and "defect/tails wrapper" in beta["notes"])

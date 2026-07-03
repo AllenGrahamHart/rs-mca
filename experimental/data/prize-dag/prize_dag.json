@@ -3193,7 +3193,7 @@
    "refs": [
     "experimental/notes/roadmaps/pa_active_core_probe.md"
    ],
-   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs."
+   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs. | W4 LANDED (#47, verified sound): the sufficiency rewiring drops the terminal target from n^2 to n^3 (both consumers charge R_PTE as one compiler column; row arithmetic fits, 31 checks). HONEST CORRECTION of my earlier 'h=3 closure pending W4': the campaign's trade sizes are h >= t+1 (Row C: t=3..5 => h >= 4; the smallest campaign trade is h=4, NOT h=3). So #46's h=3 cubic cap is a BASE CASE, not a campaign row; W4 makes n^3 SUFFICIENT but the BOUND is still open for the actual range h >= 4. Net: target lowered a full power of n; h=3 base proved; h >= 4 is the live front (the freeze-induction with h=3 as base, or the high-q route)."
   },
   {
    "id": "h3_param_lemma",
@@ -3204,6 +3204,16 @@
     "experimental/notes/roadmaps/x12_h3_parametrization.md"
    ],
    "notes": "Autonomous-mode proof, independently re-derived here. The h=3 active-core problem is now an EXACT rational-incidence count in 3 variables \u2014 the sharpest handle on the terminal node. | CUBIC CAP PROVED (#46, independently verified): x(t) in H forces t to be a root of the nonzero degree-<=2n polynomial N_x(t)^n - D(t)^n (nonzero because N_x = D => a=b=1, invalid) \u2014 so <= 2n partners per core; C(n-1,2) cores => anchored active pairs < n^3, UNCONDITIONALLY and before any strip. This is the L3/n^3 rung for h=3 \u2014 PROVED. Sufficiency for the campaign still needs W4's rewiring (n^3 -> determination); the BOUND itself is now closed at h=3."
+  },
+  {
+   "id": "w4_direct_column_rewiring",
+   "title": "PROVED (autonomous #47): the n^2 -> n^3 sufficiency rewiring",
+   "status": "PROVED",
+   "statement": "Both hard consumers (U1's primitive star/PTE column, B's exit 3) can consume the row-wise fully-stripped split-pair count R_PTE(row) DIRECTLY as a single compiler column (one shared residue_column_id \u2014 they are the SAME family by star-PTE + X-10 + B-WRITEUP, not two), charged like the already-accepted quotient/dihedral staircase columns. The compiler's exact integer room (QA.22 + QA.25 certificates) satisfies n^3 <= B* - repaired_budget_total at every row (31 checks; even two such columns fit). CONSEQUENCE: the terminal target drops from R_PTE <= n^2 to R_PTE <= n^3. HONEST SCOPE (verified here): W4 proves SUFFICIENCY only \u2014 the estimate R_PTE <= n^3 itself remains open; and the charging is legitimate because R_PTE is the same shape of structured row-count the compiler already prices.",
+   "refs": [
+    "experimental/notes/roadmaps/w4_direct_column_rewiring.md"
+   ],
+   "notes": "Autonomous proof, verified as sound bookkeeping. NOT a closure \u2014 it lowers the bar by a full power of n."
   }
  ],
  "edges": [
@@ -5749,6 +5759,11 @@
   },
   {
    "from": "h3_param_lemma",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "w4_direct_column_rewiring",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

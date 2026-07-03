@@ -69,24 +69,49 @@ prize 1/8    2.092501191439833
 prize 1/16   2.092501191439831
 ```
 
-So the global arithmetic has room for a much weaker direct compiler column, but
-that is not the theorem the proof stack consumes.  The local U1 and B reductions
-still need the orbit-converted `n^2` bound, hence `alpha <= 1`.
+So the global arithmetic has room for a much weaker direct compiler column.  In
+the pre-W4 proof stack, however, the local U1 and B reductions still needed the
+orbit-converted `n^2` bound, hence `alpha <= 1`.
+
+## W4 Addendum
+
+The W4 direct-column packet rewires the two hard consumption points:
+
+```text
+U1 primitive star/PTE column
+B exit 3 primitive moment/PTE residue
+```
+
+Both now consume the same final row-wise post-strip residue column directly in
+the compiler.  Therefore the strict anchored target
+
+```text
+A_h^nt <= h n
+```
+
+is no longer the weakest sufficient campaign target.  The rewired sufficient
+form is the L3 terminal rung
+
+```text
+# uncharged split pairs <= n^3 per row,
+```
+
+provided the bound is delivered in final post-strip split-pair currency.  A
+core-only bound with an unpaid polynomial tail multiplier is still not accepted.
 
 ## Verdict
 
-The weakest sufficient rung for GPT Pro to attack first is the near-linear
-anchored estimate:
+Before W4, the weakest sufficient rung for the local U1/B statements was the
+near-linear anchored estimate:
 
 ```text
 A_h^nt <= h n
 ```
 
 or a version with only losses that are explicitly absorbed in the `h` envelope
-and in the exact constants.  A bound of the form `h n^1.5` is not enough for
-U1, B exit 3, or the tails wrapper.  A bound `h n^(2-delta)` is sufficient for
-those hard consumers only when `delta >= 1`, i.e. when it has returned to the
-linear `h n` scale.
+and in the exact constants.  After W4, the compiler can instead consume one
+direct `n^3` split-pair column, which is the target now recorded in
+`active_core_count_bound`.
 
 ## Verification
 
