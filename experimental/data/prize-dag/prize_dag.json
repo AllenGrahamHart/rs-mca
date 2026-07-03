@@ -3191,9 +3191,10 @@
    "attack_surface": "Open routes, in promise order: (1) THE HIGH-Q VANISHING route \u2014 the empirical transition is bracketed (mass at q = 1.13n^2, zero at n^3); locate it finely (the q-sweep), then prove vanishing above it: candidate mechanisms \u2014 the (a,b,t) incidence at three simultaneous H-memberships (each costs n/q; at q >= n^3 the total parameter mass n^2 q (n/q)^3 = n^5/q^2 < 1: the challenge is converting this expectation into exclusion via the parametrization's algebraic structure, NOT pigeonhole); (2) the h = 3 case fully first (the parametrization makes it three rational functions \u2014 an exact component analysis of the incidence surface may be feasible symbolically), then induct via the freeze method with the h=3 base replacing the trivial base \u2014 recompute what n-power the induction then yields; (3) the full-strip cleanup (RECLASS-976): if the strip charges the boundary mass, restate and retarget; (4) W4 rewiring for the n^3 rung. Numerical scans are first-class moves: every hypothesis gets its falsifier scan before proof effort (the program's law \u2014 it has caught 10 falsehoods this week).",
    "falsifier": "SP-CENSUS-2 anchored active-core counts exceeding the n^{1/3} (trophy) or n^{4/3-delta} (ladder) shapes at in-range toys",
    "refs": [
-    "experimental/notes/roadmaps/pa_active_core_probe.md"
+    "experimental/notes/roadmaps/pa_active_core_probe.md",
+    "x13_h3_q_sweep.md"
    ],
-   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs. | W4 LANDED (#47, verified sound): the sufficiency rewiring drops the terminal target from n^2 to n^3 (both consumers charge R_PTE as one compiler column; row arithmetic fits, 31 checks). HONEST CORRECTION of my earlier 'h=3 closure pending W4': the campaign's trade sizes are h >= t+1 (Row C: t=3..5 => h >= 4; the smallest campaign trade is h=4, NOT h=3). So #46's h=3 cubic cap is a BASE CASE, not a campaign row; W4 makes n^3 SUFFICIENT but the BOUND is still open for the actual range h >= 4. Net: target lowered a full power of n; h=3 base proved; h >= 4 is the live front (the freeze-induction with h=3 as base, or the high-q route)."
+   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs. | W4 LANDED (#47, verified sound): the sufficiency rewiring drops the terminal target from n^2 to n^3 (both consumers charge R_PTE as one compiler column; row arithmetic fits, 31 checks). HONEST CORRECTION of my earlier 'h=3 closure pending W4': the campaign's trade sizes are h >= t+1 (Row C: t=3..5 => h >= 4; the smallest campaign trade is h=4, NOT h=3). So #46's h=3 cubic cap is a BASE CASE, not a campaign row; W4 makes n^3 SUFFICIENT but the BOUND is still open for the actual range h >= 4. Net: target lowered a full power of n; h=3 base proved; h >= 4 is the live front (the freeze-induction with h=3 as base, or the high-q route). | X13 H3 HIGH-Q SWEEP: exact finite census through n=256 shows the q~n^2 h=3 masses vanish by the first p > n^(9/4) at n=128,256 and all checked rows vanish by p > n^(5/2). Non-monotonic caution: n=32 has 0, then 6, then 0 across the first alpha=2,9/4,5/2 primes."
   },
   {
    "id": "h3_param_lemma",
@@ -3214,6 +3215,16 @@
     "experimental/notes/roadmaps/w4_direct_column_rewiring.md"
    ],
    "notes": "Autonomous proof, verified as sound bookkeeping. NOT a closure \u2014 it lowers the bar by a full power of n."
+  },
+  {
+   "id": "h3_highq_sweep",
+   "title": "X13: h=3 high-q sweep brackets the vanishing threshold",
+   "status": "PROVED",
+   "refs": [
+    "x13_h3_q_sweep.md"
+   ],
+   "statement": "Exact finite census for h=3 at n in {32,64,128,256} and first primes p == 1 mod n above n^alpha for alpha in {2,9/4,5/2,11/4,3}. The known n=128 and n=256 q~n^2 masses (18 and 129) vanish already at the first p > n^(9/4); every checked row vanishes by the first p > n^(5/2). This is finite evidence for high-q vanishing, not a monotonicity theorem.",
+   "notes": "Verifier: experimental/scripts/verify_x13_h3_q_sweep.py (106 PASS). The n=32 row is kept as a caution: C_3^nt is 0 at p=1153, 6 at p=2593, and 0 at p=5857, so finite-prime monotonicity is false even though high-q vanishing is visible."
   }
  ],
  "edges": [
@@ -5764,6 +5775,11 @@
   },
   {
    "from": "w4_direct_column_rewiring",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "h3_highq_sweep",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
