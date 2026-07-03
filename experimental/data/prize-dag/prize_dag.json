@@ -2696,14 +2696,16 @@
   {
    "id": "xr_syzygy_support_lemma",
    "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "Alignment functionals of support T are exactly the dual codewords supported in T (Lambda_T, dim t; C-perp is MDS with min weight k+1); condition rows have tensor form (lambda, z lambda). Rank stagnation at a new support forces a SYZYGY: dual codewords lambda_i in Lambda_{T_i} with sum (z_i - z_m) phi_i = 0 (the twist is invertible since slopes are distinct). Support cancellation + the MDS dual weight then force: for some member i0, supp(lambda_i0) lies inside the union of its pairwise intersections, hence sum over partners |T_i0 cap T_i'| >= k+1. QUANTITATIVE CONSEQUENCE: in the far-spread regime (each overlap < k), every stagnation event needs >= 2 partners; the minimal configuration is a TRIPLE; and stagnation events are rationed by the family's total overlap mass.",
    "attack_surface": "the derivation is complete as sketched (subtract z_m x first component; support cancellation; MDS dual weight); write the packet with the twist bookkeeping and the necessity/sufficiency gap stated (the twisted-psi membership in Lambda_{T_m} is an ADDITIONAL constraint beyond the syzygy)",
    "falsifier": "a toy stagnation with overlap budget < k+1 (mechanical check in any stacked-rank scan)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/xr_syzygy_support_lemma.md"
+   ],
+   "notes": "PROVED by the 2c-alpha packet: shortened-dual dimension and MDS dual distance give the row block; deficient increment gives a syzygy with nonzero new block; first-coordinate support cancellation confines that block to pairwise intersections; MDS dual distance forces the k+1 overlap budget. Verifier: verify_xr_syzygy_support_lemma.py."
   },
   {
    "id": "xr_popular_core_triangles",

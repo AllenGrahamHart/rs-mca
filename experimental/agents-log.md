@@ -1369,3 +1369,20 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - XR 2c-alpha syzygy support lemma
+
+- **Agent/model:** Codex.
+- **DAG node:** `xr_syzygy_support_lemma`.
+- **Files added or changed:** `experimental/notes/roadmaps/xr_syzygy_support_lemma.md`,
+  `experimental/scripts/verify_xr_syzygy_support_lemma.py`,
+  `experimental/data/certificates/xr-syzygy-support-lemma/*`,
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** PROVED.
+- **What is being added:** A proof that rank stagnation for distinct-slope
+  alignment blocks forces a nonzero constrained-support dual word whose support
+  is covered by pairwise intersections, so the overlap budget is at least
+  `k+1`.
+- **Verification:** `verify_xr_syzygy_support_lemma.py` rebuilds shortened dual
+  spaces and syzygy kernels on two toy RS rows and checks the support-budget
+  implication exhaustively over ordered triples.
