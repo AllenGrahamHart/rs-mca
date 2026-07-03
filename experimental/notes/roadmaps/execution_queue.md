@@ -666,6 +666,12 @@ QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END
       candidate. Deliverables: practical k (vs the GV prediction ~10),
       certifier selection, certificate sizes/check times, and one
       complete printed toy certificate as the format exemplar.
+      READING-B ADDENDUM (project ruling 2026-07-03): the bake-off
+      MUST include an EXACT/complete solver mode (branch-and-bound or
+      pruned exhaustion) — under procedure-as-determination semantics,
+      solver COMPLETENESS is what makes totality free, so the exact
+      mode is the totality anchor even if a heuristic mode wins on
+      speed. Report both: fastest certifier + the complete one.
 ```
 
 ## Tier D8 — crux 2's final layer (2026-07-03)

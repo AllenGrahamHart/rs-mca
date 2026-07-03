@@ -2510,13 +2510,13 @@
    "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p",
    "status": "TARGET",
    "key": true,
-   "statement": "Per-row certificates cannot be run over the astronomically many primes in a knife-edge window; the grand challenge needs the pipeline's success made UNIFORM: (i) good multipliers exist for every p (pigeonhole/counting over c \u2014 provable-shaped, and already sufficient to make the weight-~24 radius extension uniform, shrinking ALL windows simultaneously); (ii) the k-multiplier matrix achieves the ternary distance for every p (the worst-case form of the GV heuristic \u2014 the true final boss of crux 2). Fallback semantics: a proved-correct certifying ALGORITHM + per-row certificates may satisfy the prize's determination requirement (rules question \u2014 see rules_freeze).",
+   "statement": "WORKING INTERPRETATION ADOPTED (project decision 2026-07-03): Reading B \u2014 the determination artifact is a proved-correct procedure yielding the certified delta*_C for any admissible C. Under B the layer restructures: correctness = certificate self-verification (easy); TOTALITY = free with an EXACT (complete) solver, since each row's question is finite and branch-and-bound terminates with a verdict \u2014 the UNKNOWN outcome is eliminated by solver completeness, not by a uniform distance theorem. Residuals: (a) practical runtime on queried rows (empirical, demonstrated on exhibited rows; partials creditable); (b) judged acceptability of procedure-as-determination (favorable signals; settled by peer review). INSURANCE RETAINED: the classical uniform-GV theorem remains mapped as the fallback should review demand Reading A; uniform multiplier existence (QA.19) stays valuable as an efficiency theorem.",
    "attack_surface": "(i) first: uniform multiplier existence is a counting argument, delegable; then the uniform-L window census quantifies exactly which rows remain exposed; (ii) is where genuinely new mathematics would live if the rules demand a classical uniform theorem",
    "falsifier": "a prime for which no k <= poly multiplier system achieves the distance (the toy bake-off's k-vs-GV data previews this)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "Rules signal FAVORABLE: the prize page states no closed-form requirement ('clearly states the claimed results, explains how they relate'), partials encouraged; compiler semantics plausible, judges' discretion final. | RULES EFFECT (2026-07-03): four aligned signals for the off-ramp \u2014 the challenge form is per-code ('determine the largest delta*_C'), no closed-form requirement stated, partials encouraged, and formal verification explicitly encouraged (a VeriPB certificate IS such an artifact). Part (ii)'s mathematical content unchanged if the classical reading prevails; its necessity-probability dropped."
+   "notes": "Reading B adopted as working interpretation by project decision; the boss dissolves into solver completeness + engineering + judgment. The classical branch demotes to insurance-tier."
   }
  ],
  "edges": [
