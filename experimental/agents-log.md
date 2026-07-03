@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - ACT-SHADOW active occupancy audit
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_act_shadow_occupancy.py`;
+  `experimental/data/certificates/act-shadow-occupancy/act_shadow_occupancy.json`;
+  `experimental/notes/roadmaps/act_shadow_occupancy.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT / TOY FALSIFIER NEGATIVE.
+- **What is being added:** An activity-filtered occupancy audit on the E33
+  sampled aligned-pair rows, counting both lower-overlap occupied subcores and
+  partial-tangent depth cells.
+- **How it is useful:** Confirms that the formal-lattice obstruction from
+  OCC-1/OCC-2 does not appear in the active post-strip shadow at the toy rows:
+  active depth cells max at `10` and active depth mass maxes at `60 <= n^2`.
+- **What to do next:** Prove the shared active-shadow incidence theorem for
+  A1/A2, or search for an active-depth toy row beyond the sampled E33 shape.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

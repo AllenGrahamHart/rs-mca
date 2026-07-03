@@ -3063,9 +3063,10 @@
    "attack_surface": "sum the proved per-subcore cap over an occupancy-bounded family; the occupancy bound is a packing count over the (k-1)-subcore lattice",
    "falsifier": "toy occupancy exceeding the budget (E33's scan + an occupancy histogram column)",
    "refs": [
-    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
+    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md",
+    "experimental/notes/roadmaps/act_shadow_occupancy.md"
    ],
-   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds."
+   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds. | ACT-SHADOW: lower active column reproduced in the same aligned-pair pass (max active subcores 42, max K=5, active*maxK=210 <= n^2 at the F_17 stress row); this is the A1 side of the shared active-shadow count."
   },
   {
    "id": "a2_depth_cell_residual_occupancy",
@@ -3145,8 +3146,10 @@
    "attack_surface": "the same rarity-counting shape as A-i: activity requires an alignment event, which is suppressed; count expected active cells directly",
    "falsifier": "a toy row with super-budget ACTIVE depth cells (extend the OCC-2 audit with the activity filter)",
    "refs": [
-    "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
-   ]
+    "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md",
+    "experimental/notes/roadmaps/act_shadow_occupancy.md"
+   ],
+   "notes": "ACT-SHADOW toy falsifier did not fire: in the E33 aligned-pair rows n=16,k=8,A=11,t=3, the partial-tangent depth band is r=9 (d=1,s=2). Formal cells per anchor = C(11,9)=55, but the active depth shadow maxes at 10 cells; max cell multiplicity is 6 and active*maxK = 60 <= n^2. This matches P-A/OCC-1's active-rarity shape and leaves the theorem, not a new mechanism, as the remaining work."
   }
  ],
  "edges": [
