@@ -2981,9 +2981,12 @@
    "attack_surface": "the Theorem 1 engine at bidegree (b, b); the fiber symmetric-function dictionary (blocks = fibers of zero-top-coefficient maps) converts block-trades into value-rigidity statements identical in shape to the proved case",
    "falsifier": "a post-4-column-strip toy family exceeding n^2 whose members are NOT fiber unions (extend the staircase enumerator with a fiber detector \u2014 E37's machinery)",
    "refs": [
-    "experimental/notes/roadmaps/f_matching_composition.md"
+    "experimental/notes/roadmaps/f_matching_composition.md",
+    "experimental/notes/roadmaps/w3_chargeable_dictionary_grammar.md",
+    "experimental/notes/roadmaps/h1_u1_toy_harness.md",
+    "experimental/scripts/verify_h1_u1_toy_harness.py"
    ],
-   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence."
+   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence. | H1 HARNESS PASS (28/28 replayed): exhaustive prime-field toy rows reduce same-top-t locator families to canonical star trades, verify the star-PTE normal form, strip explicit quotient/dihedral v1 pullbacks, and check survivors per base. Max post-strip survivors/base = 10, max raw same-top trades/base = 14, both far below n^2 in every checked row; largest row F97/mu24 A=8 has max family size 15 and survivor cap 7 <= 576."
   },
   {
    "id": "star_pte_lemma",

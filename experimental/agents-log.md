@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - H1 U1 primitive-star toy harness
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_h1_u1_toy_harness.py`;
+  `experimental/data/certificates/h1-u1-toy-harness/h1_u1_toy_harness.json`;
+  `experimental/notes/roadmaps/h1_u1_toy_harness.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / HARNESS PASS.
+- **What is being added:** An exhaustive toy harness for
+  `u1_primitive_star_pte_bound (v1)`: same-top-`t` locator classes are
+  enumerated, canonical star trades are formed from every base, explicit
+  quotient/dihedral v1 pullback trades are stripped, and survivors are counted
+  per base.
+- **How it is useful:** Every checked base stays below the `n^2` survivor
+  allowance; the largest observed post-strip survivor count is `10`, and even
+  the raw same-top list is at most `14` per base.  This gives the U1 proof
+  phase a replayable case-analysis scaffold.
+- **What to do next:** Extend the harness when new v1 clauses are added, and
+  use any future `> n^2` survivor certificate as the U1 falsifier.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
