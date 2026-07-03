@@ -1369,3 +1369,19 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - XR 2c-beta-3a triangle eliminant form
+
+- **Agent/model:** Codex.
+- **DAG node:** `xr_triangle_eliminant_form`.
+- **Files added or changed:** `experimental/notes/roadmaps/xr_triangle_eliminant_form.md`,
+  `experimental/scripts/verify_xr_triangle_eliminant_form.py`,
+  `experimental/data/certificates/xr-triangle-eliminant-form/*`,
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** PROVED as a construction.
+- **What is being added:** The explicit chart normal-form matrix for
+  light-triangle syzygies, its twisted equivalent form, and the determinantal
+  maximal-minor criterion for rank drop.
+- **Verification:** `verify_xr_triangle_eliminant_form.py` compares the normal
+  form, twisted form, and brute stacked alignment-row rank on toy rows,
+  including all light triples in the `F_11, n=8` row.

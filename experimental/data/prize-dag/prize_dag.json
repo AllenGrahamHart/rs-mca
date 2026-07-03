@@ -2781,13 +2781,15 @@
   {
    "id": "xr_triangle_eliminant_form",
    "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Write explicitly, in MDS coordinates, the determinantal condition for the twisted sum map on Lambda_0 + Lambda_1 + Lambda_2 to have a kernel in the light regime (sum r - trip <= 2k): the eliminant polynomial in the support coordinates and slopes. Construction only \u2014 shortening bases for each Lambda_i, the stacked matrix, the minor structure. Deliverable: the normal form + a toy evaluator (feeds E32's census directly).",
    "attack_surface": "mechanical; generalized-Vandermonde shortening bases make the minors explicit",
    "falsifier": "n/a (a construction; correctness checked by the evaluator against brute rank)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
+   ],
+   "notes": "PROVED as a construction: choose MDS/Vandermonde chart bases for the three shortened dual spaces; the map (a_i) -> (sum B_i a_i, sum z_i B_i a_i) has kernel exactly the triangle syzygies; after clearing chart denominators, its maximal minors are the light-triangle eliminants. Verifier: verify_xr_triangle_eliminant_form.py compares normal, twisted, and brute ranks."
   },
   {
    "id": "xr_eliminant_vanishing_class",
