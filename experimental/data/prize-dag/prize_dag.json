@@ -3113,8 +3113,10 @@
    "attack_surface": "the counting is elementary (subset-sum collision enumeration/bounds); the residual dichotomy may follow from the antipodal-descent structure one scale down; QA.25 is pure arithmetic",
    "falsifier": "a t-null block that is not a union of mu_M-cosets for ANY M >= t dividing n (searchable: the toy scan machinery with the fiber test at M = t added \u2014 cheap extension)",
    "refs": [
-    "experimental/notes/roadmaps/u2c_giant_block_statement.md"
-   ]
+    "experimental/notes/roadmaps/u2c_giant_block_statement.md",
+    "experimental/notes/roadmaps/u2c_prime_boundary_fiber_test.md"
+   ],
+   "notes": "U2C-PRIME toy falsifier closed for the X-8 constructed family: exhaustive antipodal-free quotient patterns at F_257/mu_128 (t=4,R=32) and F_257/mu_256 (t=8,R=32) find 256 zero-sum boundary patterns in each row. Every lifted block is t-null, the old M>t classifier rejects it, and the repaired M>=t classifier charges it at minimal M=t. This is not a proof of U2-C' for arbitrary blocks; it confirms the named X-8 residual is exactly the boundary column, not an unpaid primitive class."
   },
   {
    "id": "t_poly_exact_toral",

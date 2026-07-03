@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - U2C-PRIME boundary fiber test
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_u2c_prime_boundary_fiber_test.py`;
+  `experimental/data/certificates/u2c-prime-boundary-fiber-test/u2c_prime_boundary_fiber_test.json`;
+  `experimental/notes/roadmaps/u2c_prime_boundary_fiber_test.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT / TOY FALSIFIER NEGATIVE.
+- **What is being added:** A low-memory exact toy test for the X-8 boundary
+  construction.  It enumerates antipodal-free quotient zero-sum patterns at
+  two `F_257` rows and verifies that old `M>t` classification rejects them
+  while repaired `M>=t` classification charges them at `M=t`.
+- **How it is useful:** Confirms that the X-8 residual is the intended
+  boundary column, not an unpaid primitive U2-C' exception.
+- **What to do next:** Prove or further falsify the full residual dichotomy
+  for arbitrary `t`-null blocks beyond the constructed boundary family.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
