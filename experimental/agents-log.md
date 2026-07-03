@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - T-TOY toral bidegree scan
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_ttoy_toral_classification_scan.py`;
+  `experimental/data/certificates/ttoy-toral-classification-scan/ttoy_toral_classification_scan.json`;
+  `experimental/notes/roadmaps/ttoy_toral_classification_scan.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** EXPERIMENTAL / TOY SANITY PASS.
+- **What is being added:** A low-memory exact classification scan for
+  bidegree-`(1,1)` factors of `psi(X)-psi(Y)` on tame toy rows through degree
+  20.  The scan classifies every affine/toral line factor as a
+  linear-conjugate power pullback, rules out translation and `XY=c` exact
+  polynomial factors in degree `<p`, and checks Dickson polynomials only hit
+  this exact polynomial scan through the even-degree `X^2` symmetry.
+- **How it is useful:** This removes the cheap falsifier for the T input while
+  preserving the honest full burden: the Laurent/Ritt toral classification,
+  corrected `n^2/p` threshold, and bounded-tail wrapper remain the real
+  theorem work.
+- **What to do next:** Use the scan as a sanity check for the first
+  factorization rung, then write the Laurent/Ritt assembly with the tails
+  clause instead of trying to promote this toy packet to full T.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
