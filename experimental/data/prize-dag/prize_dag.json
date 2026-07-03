@@ -2600,6 +2600,18 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ]
+  },
+  {
+   "id": "rigidity_kernel",
+   "title": "THE RIGIDITY KERNEL: the one statement the four open faces consume",
+   "status": "CONJECTURE",
+   "key": true,
+   "statement": "RK (schema): at every FM-suppressed operating point of every row and every quotient-lattice scale (multiplicative + dihedral), every agreement object is paid-taxonomy-member (tangent / multiplicative pullback / dihedral pullback / extension) or belongs to a primitive remainder <= n^{B_RK} x FM(instance), worst-case per word/pair, jointly across characters. The four consumers: TR = RK at quotient rows; the F residue = RK for evaluation flats; the spread classification = RK for rank-loss configurations; the clean-rate exclusion = RK per-pair at the base row. Proved instances: deep-mca (radius <= 1/3-distance), pincer (1/2 via CA), flats dim <= 2 + fixed-d + MDS, the moment ledger (average case, all radii), #152 (t=2 local), #212 (cross-character reduction). The frontier = excursions along five axes (radius, dimension, quantifier, deficiency, jointness); the worst-case axis is shared by all faces and is where the exceptional-object classification lives. See experimental/notes/roadmaps/rigidity_kernel.md.",
+   "attack_surface": "any axis-Q technique (average -> worst-case exceptional classification) transfers across all four faces; the budget audit sets face 4's required excursion; dihedral events enlarge clause (i) everywhere at once",
+   "falsifier": "any face's falsifier is RK's falsifier at that instance (the four faces' probes all test RK)",
+   "refs": [
+    "experimental/notes/roadmaps/rigidity_kernel.md"
+   ]
   }
  ],
  "edges": [
@@ -4817,6 +4829,41 @@
    "from": "xr_target_budget_audit",
    "to": "xr_clean_residual_any_gate",
    "kind": "req"
+  },
+  {
+   "from": "rigidity_kernel",
+   "to": "gap1_noneq_mass",
+   "kind": "alt"
+  },
+  {
+   "from": "rigidity_kernel",
+   "to": "f_many_sparse_structure",
+   "kind": "alt"
+  },
+  {
+   "from": "rigidity_kernel",
+   "to": "spread_exception_classification",
+   "kind": "alt"
+  },
+  {
+   "from": "rigidity_kernel",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "alt"
+  },
+  {
+   "from": "rigidity_kernel",
+   "to": "payment_completeness",
+   "kind": "ev"
+  },
+  {
+   "from": "deep_safe_all_linear",
+   "to": "rigidity_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_ledger_qpower",
+   "to": "rigidity_kernel",
+   "kind": "ev"
   }
  ]
 }
