@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - A1 staircase cap assembly
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_a1_staircase_cap_assembly.py`;
+  `experimental/data/certificates/a1-staircase-cap-assembly/a1_staircase_cap_assembly.json`;
+  `experimental/notes/roadmaps/a1_staircase_cap_assembly.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** CONDITIONAL-ASSEMBLED.
+- **What is being added:** A proof-assembly packet replaying P1, F3, and E33.
+  It closes the fixed-`(k-1)`-subcore rich-line residue after the unified
+  mixed `b=2` pullback strip, and records the E33 constants used for
+  calibration.
+- **How it is useful:** The affine-net obstruction exposed by P3 is now paid
+  inside the P1 fixed-subcore model.  The packet names the remaining full
+  staircase gap as `a1_lower_overlap_occupied_subcore_accounting`.
+- **What to do next:** Prove the lower-overlap / occupied-subcore accounting
+  step before flipping `deep_link_staircase`, beta-2b, or beta-3c to proved.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

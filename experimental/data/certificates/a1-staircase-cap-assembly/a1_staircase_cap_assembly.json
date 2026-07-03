@@ -1,0 +1,44 @@
+{
+  "assembly": {
+    "closed_component": "p1 fixed-(k-1)-subcore rich-line residue closes after F3 mixed degree-1 pullback strip",
+    "constants": {
+      "e33_max_partner_events_per_anchor": 72,
+      "e33_max_partner_events_per_anchor_over_n": 4.5,
+      "e33_max_partner_events_through_one_subcore": 5,
+      "f3_total_pair_trades": 726,
+      "f3_total_rich_points_charged": 342,
+      "p1_prestrip_fixture_n": 46,
+      "p1_prestrip_rich_parameters": 65
+    },
+    "interpretation": "A1 closes the rich-line chapter at the fixed-subcore model level. It does not honestly flip deep_link_staircase to PROVED until the lower-overlap / occupied-subcore accounting is supplied.",
+    "node": "deep_link_staircase",
+    "proof_chain": [
+      "P1 reduces partners through a fixed (k-1)-subcore to rich points of an affine line arrangement in (z,a).",
+      "Single-direction rich points are tangent/pencil paid; multi-direction rich points are exactly the affine-net residue isolated by P3.",
+      "F3 charges every multi-direction rich point by a spanning tree of mixed b=2 degree-1 pullback cells.",
+      "Therefore the P1 fixed-subcore rich-line obstruction is removed by the unified strip.",
+      "The full deep-link staircase follows once lower-overlap partners are assigned to O(n) occupied deep-subcore witnesses."
+    ],
+    "remaining_named_gap": "a1_lower_overlap_occupied_subcore_accounting",
+    "status": "CONDITIONAL-ASSEMBLED",
+    "task": "A1 staircase cap assembly"
+  },
+  "checks": 8,
+  "inputs": {
+    "E33": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_e33_deep_link_staircase.py",
+      "tail": "  ],\n  \"task\": \"E33\",\n  \"verdict\": \"linear in all checked toy rows; no super-linear near-k link population observed\"\n}\n\nPASS: 10 E33 deep-link staircase checks"
+    },
+    "F3": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_f3_net_absorption.py",
+      "tail": "  \"task\": \"F3\",\n  \"total_pair_trades\": 726,\n  \"total_rich_points\": 342\n}\n\nPASS: 33 F3 net-absorption checks"
+    },
+    "P1": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_p1_deep_link_staircase_conditional.py",
+      "tail": "  },\n  \"status\": \"CONDITIONAL: requires post-paid per-subcore rich-line cap and occupied-subcore accounting\",\n  \"task\": \"P1\"\n}\n\nPASS: 32 P1 conditional deep-link checks"
+    }
+  }
+}

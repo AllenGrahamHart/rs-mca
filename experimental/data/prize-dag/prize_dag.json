@@ -2779,9 +2779,14 @@
    "attack_surface": "PROOF ROUTE SELECTED BY E33 (falsifier never fired, both rows): the link-population cap. Observed: max partner events per anchor 13 (< n) at the corridor row, 72 = 4.5n at the dense stress row \u2014 linear shape throughout; and THE key structural signal: partner events through any single fixed subcore max out at 5 on BOTH rows (density-independent). Proof shape: per-subcore rigidity (interpolation at near-k cores \u2014 the c(s,t) plateau's boundary) x occupied-subcore accounting. The derived-pencil recursion demotes to a transport tool \u2014 no super-linear growth exists for it to explain.",
    "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/e33_deep_link_staircase.md",
+    "experimental/notes/roadmaps/p1_deep_link_staircase_conditional.md",
+    "experimental/notes/roadmaps/f3_net_absorption.md",
+    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md",
+    "experimental/scripts/verify_a1_staircase_cap_assembly.py"
    ],
-   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap. | PROVABLE via assembly (P1 reduction + U3 charge + E33 constants) \u2014 unlocks beta-2b, beta-3c, and closes the rich-line chapter of face 4."
+   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap. | PROVABLE via assembly (P1 reduction + U3 charge + E33 constants) \u2014 unlocks beta-2b, beta-3c, and closes the rich-line chapter of face 4. | A1 CONDITIONAL ASSEMBLY (9/9 plus P1/F3/E33 replays): the fixed-(k-1)-subcore rich-line residue closes after F3's mixed b=2 degree-1 pullback strip; P1's pre-strip obstruction 65>46 is paid, F3 charges 342 rich points with 726 pair trades, and E33 constants remain max subcore 5 / max anchor 72=4.5n. Honest remaining gap for the full near-k range: a1_lower_overlap_occupied_subcore_accounting, assigning lower-overlap partners (e.g. k-2) to O(n) occupied deep-subcore witnesses."
   },
   {
    "id": "xr_triangle_eliminant_form",
@@ -2929,9 +2934,11 @@
    "attack_surface": "characterize rich lines through a subcore (they should be exactly the staircase/pencil families \u2014 the paid classes); the post-strip cap then follows from the same interpolation rigidity that bounds tame partners; E33's data calibrates C",
    "falsifier": "a post-strip toy subcore with > C partners (extend E33's scan with a strip filter)",
    "refs": [
-    "experimental/notes/roadmaps/e33_deep_link_staircase.md"
+    "experimental/notes/roadmaps/e33_deep_link_staircase.md",
+    "experimental/notes/roadmaps/f3_net_absorption.md",
+    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
    ],
-   "notes": "P3 (10/10): the reduction's residue is NAMED \u2014 p3_affine_net_richline_residue (multi-direction affine nets in the subcore plane); the strip-first route alone is insufficient; see the residue node's two routes. | ASSEMBLABLE (post-F3): P1's subcore reduction (proved) + the charged affine-net residue (U3, proved) => the post-strip cap follows; remaining work = the assembly packet writing the two together with E33's constants."
+   "notes": "P3 (10/10): the reduction's residue is NAMED \u2014 p3_affine_net_richline_residue (multi-direction affine nets in the subcore plane); the strip-first route alone is insufficient; see the residue node's two routes. | ASSEMBLABLE (post-F3): P1's subcore reduction (proved) + the charged affine-net residue (U3, proved) => the post-strip cap follows; remaining work = the assembly packet writing the two together with E33's constants. | A1: fixed-(k-1)-subcore rich-line residue is closed by F3's mixed b=2 pullback charge. This discharges the P3 affine-net obstruction inside the P1 model; full deep_link_staircase still waits on a1_lower_overlap_occupied_subcore_accounting."
   },
   {
    "id": "moment_trade_staircase",
