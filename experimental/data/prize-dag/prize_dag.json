@@ -1613,7 +1613,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36.",
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean.",
    "gate": "any"
   },
   {
@@ -2057,7 +2057,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately."
+   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task)."
   },
   {
    "id": "list_planted_arithmetic",
@@ -2601,7 +2601,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly. | QA.21 NEGATIVE (76/76 green, GAP QA21-G1): the crude dihedral column exceeds B* at EVERY clean-rate candidate (+292/+158/+52 bits at Row C; ~1e11-bit scale at prize-max); the E26 window model gives 0 at odd j but provably omits the fixed-point branch (E30). NO in-repo lemma bounds per-pair dihedral simultaneity. The s >= 2^122 verdict is now CONDITIONAL on dihedral_staircase; the audit's status reverts to TARGET pending that lemma. Honest arc: the requirement computation giveth (the poly allowance) and taketh away (the dihedral column). | CLOSED by the poly-forcing compiler (52/52, exact integers): 16 n^3 <= s_lo(A) at all six candidates (prize rows tight at 29 n^3); QA21-G1 DISSOLVES \u2014 the dihedral/extension columns fold into R_post, so no separate B_dih subtraction exists; the staircase req edge removed accordingly."
+   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly. | QA.21 NEGATIVE (76/76 green, GAP QA21-G1): the crude dihedral column exceeds B* at EVERY clean-rate candidate (+292/+158/+52 bits at Row C; ~1e11-bit scale at prize-max); the E26 window model gives 0 at odd j but provably omits the fixed-point branch (E30). NO in-repo lemma bounds per-pair dihedral simultaneity. The s >= 2^122 verdict is now CONDITIONAL on dihedral_staircase; the audit's status reverts to TARGET pending that lemma. Honest arc: the requirement computation giveth (the poly allowance) and taketh away (the dihedral column). | CLOSED by the poly-forcing compiler (52/52, exact integers): 16 n^3 <= s_lo(A) at all six candidates (prize rows tight at 29 n^3); QA21-G1 DISSOLVES \u2014 the dihedral/extension columns fold into R_post, so no separate B_dih subtraction exists; the staircase req edge removed accordingly. | QA.22 REQUIRED (X-4): re-run the candidate budget with the staircase column \u2014 staircase supports inflate SUPPORT counts not slope counts, but the census/dossier B_quot documentation and the list-side budgets need the exact staircase binomials per candidate (~2^105-115 at prize rows vs B* ~ 2^128: expected to fit with 13-23 bits of room; verify exactly)."
   },
   {
    "id": "rigidity_kernel",
@@ -2665,7 +2665,7 @@
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
    ],
-   "notes": "PROVED (X-3 wave, verifier 39/39): same_slope_branch(u,v;z,A) = ExactList_C(w_z, A) exactly, with automatic far-spread (RS uniqueness + exactness). The list-lane obligation itself lives in the list nodes, as designed."
+   "notes": "PROVED (X-3 wave, verifier 39/39): same_slope_branch(u,v;z,A) = ExactList_C(w_z, A) exactly, with automatic far-spread (RS uniqueness + exactness). The list-lane obligation itself lives in the list nodes, as designed. | X-4 CORRECTION: the consumed object is the SPLIT form (staircase terms charged + primitive bound), not the unqualified ExactList. Slope/support distinction limits MCA-side impact: staircase supports share slopes, so R_post's slope count survives; the spread-count support analysis charges staircase supports to the (enlarged, tail-form) quotient strip."
   },
   {
    "id": "xr_partial_tangent_band",
@@ -2865,7 +2865,8 @@
    "falsifier": "a per-leaf count provably exceeding the quotient-row list count (would break the dictionary; toy-checkable)",
    "refs": [
     "experimental/notes/roadmaps/gap1_terminal_reserve.md"
-   ]
+   ],
+   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies."
   },
   {
    "id": "tr_joint_telescope",
@@ -2891,6 +2892,18 @@
     "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
    ],
    "notes": "E32-MERGED executed the restatement: E13's exception classes are now written in the 2c eliminant normal form \u2014 the identification is formal; face 3's classification and beta-3b are confirmed one body of work."
+  },
+  {
+   "id": "x4_exactlist_staircase_split",
+   "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound",
+   "status": "TARGET",
+   "key": true,
+   "statement": "The unqualified worst-word exact-list bound is FALSE (verified counterexample: the quotient-coset staircase \u2014 locators L_B(X) G(X^M), M | n, M > t, S_Q = tail B plus h full M-cosets; top t+1 coefficients Q-independent so differences are codewords; ExactList >= C(n/M - 1, h), = 2^82.97 at the Row-C toy point vs 16n^3 = 2^34, pairwise overlaps < k throughout). THE CORRECTED STATEMENT: ExactList_C(w, A) <= QuotientStaircase(n,k,t) + DihedralStaircase-analogue + PrimitiveExactList, where QuotientStaircase = the explicit sum over M | n, M > t of coset-staircase terms (exact binomials), and the primitive target is PrimitiveExactList <= n^2 at corridor rows after stripping locators of the forms L_B(X) G(X^M) and X^e L_B(X) G(X^M + zeta X^-M). Transported quotient-row version identical (needed by TR's per-leaf term). MCA-side damage bounded: R_post counts SLOPES, and staircase supports share slopes (v8), so the compiler survives; the split is load-bearing for the LIST challenge and TR arithmetic. At prize rows M > t ~ 2^33 forces n/M <= 256, so staircase terms ~ C(128..256, 32..65) ~ 2^105-115 \u2014 under B* but far above 16n^3: QA.22 must re-run the budget with the staircase column.",
+   "attack_surface": "the staircase terms are EXACT binomials (chargeable by census); the primitive bound post-strip is the new deep target \u2014 the strip removes precisely the coefficient-cancellation mechanism, so a primitive list member's locator has full coefficient spread: quantify via the eliminant/Wronskian of the locator differences",
+   "falsifier": "a primitive (post-strip) worst-word exact list exceeding n^2 at a toy corridor row (searchable: extend the staircase enumerator with a strip filter)",
+   "refs": [
+    "experimental/notes/roadmaps/e35_weight2_abundance.md"
+   ]
   }
  ],
  "edges": [
@@ -5282,6 +5295,16 @@
   {
    "from": "spread_syzygy_ident",
    "to": "spread_exception_classification",
+   "kind": "req"
+  },
+  {
+   "from": "x4_exactlist_staircase_split",
+   "to": "xr_smallcore_spread_count",
+   "kind": "req"
+  },
+  {
+   "from": "x4_exactlist_staircase_split",
+   "to": "tr_perleaf_list_ident",
    "kind": "req"
   }
  ]
