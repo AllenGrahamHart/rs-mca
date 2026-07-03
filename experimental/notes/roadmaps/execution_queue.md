@@ -652,11 +652,20 @@ QA.16 [multiplier_exactness + weight_graded_mitm] (M, one packet)
 QA.17 [multi_multiplier_reduction] (S-M)  The k-relation reduction +
       the GV counting table (k vs excluded weight); records the two
       failed alternatives (scale splitting, 2-adic nesting) as scoping.
-QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END at
-      N' = 16/32: choose multipliers, build the k x N' system, attempt
-      certification (LP / structured design / hybrid), verify against
-      exhaustive enumeration. Measures the practical k and selects the
-      certifier BEFORE anyone runs the N' = 128 case.
+QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END
+      certifier BAKE-OFF at N' = 16/32. DESIGN NOTE: pick the toy
+      prime SMALL (e.g. ~2^20 at N'=16) so the height frontier does
+      NOT already certify everything — the toy must be an honest
+      miniature with real certification work. Candidates, in
+      recommended order: (1) pseudo-Boolean / SAT with PROOF LOGGING
+      (VeriPB-style): encodes 'no ternary solution of weight <= 2l''
+      natively at arbitrary coefficient precision and emits a
+      MACHINE-CHECKABLE certificate — the repo's exact currency,
+      dossier-ready; (2) MITM enumeration bands as the calibration
+      baseline; (3) LP/Delsarte relaxation as the theory-side
+      candidate. Deliverables: practical k (vs the GV prediction ~10),
+      certifier selection, certificate sizes/check times, and one
+      complete printed toy certificate as the format exemplar.
 ```
 
 ## Sequencing notes
