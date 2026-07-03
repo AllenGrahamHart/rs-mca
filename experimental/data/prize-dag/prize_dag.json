@@ -2962,15 +2962,17 @@
   {
    "id": "p3_affine_net_richline_residue",
    "title": "P3's named residue: multi-direction affine nets in the subcore parameter plane",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
-   "statement": "P3 verdict (CONDITIONAL, 10/10): the current paid strip (tangent pencil + quotient-with-tails + dihedral) does NOT yield the rich-line cap \u2014 after normalizing by a fixed (k-1)-subcore, off-core points define lines in the (z,a) parameter plane, and (t+1)-rich points can arise from MULTI-DIRECTION AFFINE NETS rather than pencils or quotient/dihedral structures. The remaining obligation: bound post-strip rich points from affine nets. TWO candidate routes: (a) the nets may be chargeable to the UNIFIED pullback class (affine maps are degree-1 rational maps; net directions = mixed low-degree pullbacks \u2014 check against the Luroth frame before inventing new machinery); (b) if genuinely primitive, this is finite-field incidence geometry (Szemeredi-Trotter/Vinh-type rich-point bounds) \u2014 classical tools exist. NOTE the theme: affine/additive structure surfacing for the third time today (the involution witness, the moment blocks, now nets).",
-   "attack_surface": "first check route (a): express net-generated rich configurations as mixed degree-1 pullback trades; if that charges them, P3 completes with the unified strip. Else route (b): finite-field incidence bounds at the exact parameters (rich points of line arrangements over F_q, t+1-rich, poly-many lines)",
-   "falsifier": "a post-unified-strip toy net achieving super-linear rich points (extend E33's scan with a net detector)",
+   "statement": "F3 PROVED U3 for the P3 fixed-subcore affine-plane model under the unified pullback strip: after normalizing by a fixed (k-1)-subcore, every off-core point gives an affine branch L_i(z)=alpha_i+beta_i z in the (z,a) plane. At any multi-direction (t+1)-rich point, a pivot branch and each other incident branch define a nonzero degree-1 equality fiber L_i-L_0 with root z0. The b=2 fiber dictionary records the pair by block symmetric coefficients e_1=L_0+L_i and e_2=L_0 L_i; these mixed pair cells cover the rich block. Thus the old affine-net residue is paid by mixed degree-1 pullback trades. The pre-unified strip (tangent + quotient-tail + dihedral) still misses the P3 toy net, as recorded by verify_p3_rich_line_residue.py.",
+   "attack_surface": "Resolved by route (a): express every net-generated rich point as a spanning tree of mixed b=2 degree-1 pullback trades. The Vinh/incidence route (b) is not needed for this residue.",
+   "falsifier": "A multi-direction rich point in the fixed-subcore affine-plane model whose incident branches cannot be covered by b=2 degree-1 equality fibers; F3 proves this cannot occur after duplicate/tangent lines are removed.",
    "refs": [
-    "experimental/notes/roadmaps/e33_deep_link_staircase.md"
+    "experimental/notes/roadmaps/e33_deep_link_staircase.md",
+    "experimental/notes/roadmaps/p3_post_strip_rich_line_residue.md",
+    "experimental/notes/roadmaps/f3_net_absorption.md"
    ],
-   "notes": "U3 \u2014 THE NET-ABSORPTION CONJECTURE (route (a) promoted): the multi-direction affine nets are mixed degree-1 pullback trades, charged by the unified strip \u2014 nets in the (z,a) plane are graphs of affine maps = fibers of degree-1 rational families, i.e., the fourth guise of the one class discovered today. Checkable at toys in an afternoon (net detector vs fiber dictionary); if true, the rich-line cap completes via P1's proved reduction + the unified strip."
+   "notes": "F3 verifier: 14 affine-net cases over F_193, including the original P3 three-direction net with 65 post-anchor rich parameters, plus generic/adversarial templates. All 342 rich points charge to 726 b=2 pair trades; 4314 local fiber-dictionary identities replay green. U3 survives; affine nets are the fourth guise of the unified pullback class rather than a primitive residue."
   },
   {
    "id": "u1_pullback_dichotomy",

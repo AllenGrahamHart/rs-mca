@@ -1369,3 +1369,25 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - F3 net absorption
+
+- **Agent/model:** Codex.
+- **DAG node:** `p3_affine_net_richline_residue`.
+- **Task:** F3.
+- **Files added or changed:** `experimental/scripts/verify_f3_net_absorption.py`,
+  `experimental/notes/roadmaps/f3_net_absorption.md`,
+  `experimental/notes/roadmaps/p3_post_strip_rich_line_residue.md`,
+  `experimental/data/certificates/f3-net-absorption/`, and the prize DAG
+  JSON/SVG.
+- **Status:** PROVED under the unified pullback strip.
+- **What is being added:** The affine-net residue from P3 is charged by mixed
+  `b=2` degree-1 pullback cells.  The verifier replays the original P3 toy
+  net and generic/adversarial affine-net templates over `F_193`: 14 cases,
+  342 rich points, 726 pair trades, and 4314 local fiber-dictionary identities.
+- **How it is useful:** U3 survives; the old pre-unified
+  tangent/quotient/dihedral obstruction is now paid by the unified pullback
+  strip, making `p1_post_paid_subcore_richline_cap` ripe in the DAG.
+- **Verification:** `verify_f3_net_absorption.py`,
+  `verify_p3_rich_line_residue.py`, `verify_prize_dag.py`, `py_compile`, and
+  `git diff --check`.

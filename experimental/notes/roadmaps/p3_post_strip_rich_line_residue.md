@@ -1,18 +1,33 @@
 # P3: post-strip rich-line cap residue
 
 - **DAG:** `deep_link_staircase`.
-- **Status:** CONDITIONAL / negative obstruction to the proposed proof.
+- **Status:** RESOLVED by F3 under the unified pullback strip.  The old
+  tangent/quotient/dihedral strip alone still has the negative obstruction
+  recorded below.
 - **Verifier:** `experimental/scripts/verify_p3_rich_line_residue.py`.
+  F3 replay: `experimental/scripts/verify_f3_net_absorption.py`.
+
+## F3 Resolution
+
+F3 proves that the named residue is not primitive after the unified strip is
+adopted.  In the fixed-subcore plane each off-core point gives an affine branch
+`L_i(z)=alpha_i+beta_i z`.  At any multi-direction rich point, a pivot branch
+and every other incident branch give a nonzero degree-1 equality fiber
+`L_i-L_0`; the `b=2` fiber dictionary records the pair by
+`e_1=L_0+L_i`, `e_2=L_0L_i`.  These mixed pair cells cover the rich block.
+
+Thus affine nets are paid mixed degree-1 pullback trades.  See
+`f3_net_absorption.md`.
 
 ## Conclusion
 
-The P3 cap is not proved by the current paid strip
+The P3 cap was not proved by the pre-unified paid strip
 
 ```text
 tangent pencil + quotient-with-tails L_B(X)G(X^M) + dihedral/Chebyshev.
 ```
 
-The remaining residue is:
+The remaining residue under that old strip was:
 
 ```text
 p3_affine_net_richline_residue
@@ -65,21 +80,14 @@ P1's reduction is still correct:
 fixed deep subcore  ->  rich points of an affine line arrangement.
 ```
 
-But P3 needs one more classification statement:
+F3 supplies the missing classification statement:
 
 ```text
 After the paid strip, no affine-net rich-line residue remains.
 ```
 
-Equivalently, either:
-
-1. prove that every affine-net residue is secretly one of the paid strata under
-   the full global definitions, or
-2. add affine-net rich-line cells as a separate paid/residual stratum and
-   charge them.
-
-Without that extra statement, the constant per-subcore cap is false in the
-local algebraic model that P1 proved.
+Specifically, every affine-net residue is a mixed degree-1 pullback trade under
+the unified strip.
 
 ## Conditional Cap
 
