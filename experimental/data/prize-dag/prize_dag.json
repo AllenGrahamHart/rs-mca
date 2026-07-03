@@ -3100,9 +3100,10 @@
    "attack_surface": "the three methods as specced in the tasking block; E37/F2 machinery prototypes all of them",
    "falsifier": "a certificate run FINDING a primitive block at an official row (then the column is charged, not excluded \u2014 a major but survivable event)",
    "refs": [
-    "experimental/notes/roadmaps/f2_moment_trade_census.md"
+    "experimental/notes/roadmaps/f2_moment_trade_census.md",
+    "experimental/notes/roadmaps/u2b_resultant_respec.md"
    ],
-   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch."
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | U2-B-RESPEC (X-10 support wave): resultant kernel is executable and detects the F193 witness / rejects the same pattern at p=641, but a complete Row-C certificate is blocked by two explicit inputs: Row-C prime remains unpinned in xr_budget_audit, and raw exponent-pattern enumeration is impossible (dihedral-orbit lower bound about 2^127 already for b<=20, about 2^457 for b<=100). Fail-closed contract: pin p and provide a proved finite normal-form pattern list before claiming U2-B certified."
   },
   {
    "id": "u2c_boundary_scale_column",

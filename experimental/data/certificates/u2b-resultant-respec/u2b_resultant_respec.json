@@ -1,0 +1,218 @@
+{
+  "certifier_contract": {
+    "fail_closed_rule": "without a pinned row prime and an exhaustive compressed pattern list, U2-B remains TARGET and must not be reported as certified",
+    "input": [
+      "row characteristic p",
+      "n, t",
+      "finite normal-form list of exponent patterns E with t < |E| <= floor(log2 n)^2",
+      "coverage proof that the list exhausts primitive patterns not already charged"
+    ],
+    "per_pattern_check": "compute gcd(Phi_n, sum_{e in E} X^{r e}) over F_p for r=1..t; degree zero rules out that sparse-relation pattern at the row prime"
+  },
+  "checks": 12,
+  "node": "u2_per_row_certifier",
+  "prize_small_window": {
+    "empty_rows": [
+      "prize_rate_1_4",
+      "prize_rate_1_8",
+      "prize_rate_1_16"
+    ],
+    "verdict": "no U2-B small-block certificate needed at prize rows"
+  },
+  "resultant_kernel_demo": {
+    "clean_common_gcd_degree": 0,
+    "clean_prime": 641,
+    "exponents": [
+      0,
+      1,
+      2,
+      4,
+      16,
+      45,
+      50,
+      60
+    ],
+    "hit_common_gcd_degree": 1,
+    "hit_prime": 193,
+    "interpretation": "positive common gcd degree means the prime divides the common resultant/norm obstruction for this pattern; degree zero rules the pattern out at that prime",
+    "n": 64,
+    "row": "toy F_193/mu_64 witness pattern",
+    "t": 3
+  },
+  "rowc_live_rows": [
+    {
+      "base_window": {
+        "count": 95,
+        "end": 100,
+        "start": 6
+      },
+      "n": 1024,
+      "pinned_prime_available": false,
+      "required_next_input": "pin the row characteristic/prime and provide a proved finite normal-form sparse-relation pattern list; the resultant kernel can then check p-divisibility pattern-by-pattern",
+      "row_id": "RowC_rate_1_4",
+      "row_prime_status": "unpinned_in_current_certificates",
+      "stage1_b_le_20": {
+        "b_values": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 128,
+          "decimal_digits": 39,
+          "log2_floor": 127
+        },
+        "raw_subset_count": {
+          "bit_length": 139,
+          "decimal_digits": 42,
+          "log2_floor": 138
+        }
+      },
+      "stage2_b_le_grammar_max": {
+        "b_values_end": 100,
+        "b_values_start": 6,
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 458,
+          "decimal_digits": 138,
+          "log2_floor": 457
+        },
+        "raw_subset_count": {
+          "bit_length": 469,
+          "decimal_digits": 141,
+          "log2_floor": 468
+        }
+      },
+      "t": 5
+    },
+    {
+      "base_window": {
+        "count": 95,
+        "end": 100,
+        "start": 6
+      },
+      "n": 1024,
+      "pinned_prime_available": false,
+      "required_next_input": "pin the row characteristic/prime and provide a proved finite normal-form sparse-relation pattern list; the resultant kernel can then check p-divisibility pattern-by-pattern",
+      "row_id": "RowC_rate_1_8",
+      "row_prime_status": "unpinned_in_current_certificates",
+      "stage1_b_le_20": {
+        "b_values": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 128,
+          "decimal_digits": 39,
+          "log2_floor": 127
+        },
+        "raw_subset_count": {
+          "bit_length": 139,
+          "decimal_digits": 42,
+          "log2_floor": 138
+        }
+      },
+      "stage2_b_le_grammar_max": {
+        "b_values_end": 100,
+        "b_values_start": 6,
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 458,
+          "decimal_digits": 138,
+          "log2_floor": 457
+        },
+        "raw_subset_count": {
+          "bit_length": 469,
+          "decimal_digits": 141,
+          "log2_floor": 468
+        }
+      },
+      "t": 5
+    },
+    {
+      "base_window": {
+        "count": 97,
+        "end": 100,
+        "start": 4
+      },
+      "n": 1024,
+      "pinned_prime_available": false,
+      "required_next_input": "pin the row characteristic/prime and provide a proved finite normal-form sparse-relation pattern list; the resultant kernel can then check p-divisibility pattern-by-pattern",
+      "row_id": "RowC_rate_1_16",
+      "row_prime_status": "unpinned_in_current_certificates",
+      "stage1_b_le_20": {
+        "b_values": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 128,
+          "decimal_digits": 39,
+          "log2_floor": 127
+        },
+        "raw_subset_count": {
+          "bit_length": 139,
+          "decimal_digits": 42,
+          "log2_floor": 138
+        }
+      },
+      "stage2_b_le_grammar_max": {
+        "b_values_end": 100,
+        "b_values_start": 4,
+        "dihedral_orbit_lower_bound": {
+          "bit_length": 458,
+          "decimal_digits": 138,
+          "log2_floor": 457
+        },
+        "raw_subset_count": {
+          "bit_length": 469,
+          "decimal_digits": 141,
+          "log2_floor": 468
+        }
+      },
+      "t": 3
+    }
+  ],
+  "rowc_prime_status": "unpinned",
+  "source": "u2a_window_split.json + xr_budget_audit.md",
+  "status": "RESPEC: Row-C live cells identified, but per-row certificates require pinned primes plus compressed pattern generation",
+  "task": "U2-B-RESPEC resultant-route contract"
+}
