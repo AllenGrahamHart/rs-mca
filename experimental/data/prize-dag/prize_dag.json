@@ -363,7 +363,7 @@
    "statement": "#{aligned (l, Z): root set K_M-stable but (u,v) multi-isotypic (non-equivariant) on the stratum} <= poly(n) * FM \u2014 the isotypic escape stratum carries no super-poly alignment mass.",
    "attack_surface": "bound the multi-isotypic stratum via the isotypic decomposition + FM; the stratum is thin (non-equivariant data on stable supports)",
    "falsifier": "toy enumeration (gap1_toy_test) showing non-equivariant periodic alignments outgrowing poly",
-   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate)."
+   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate). | Reduced to Conjecture TR (joint quotient-row FM bound) \u2014 see gap1_product_model. The convergence deepens: GAP-1, F, spread, and the clean-rate exclusion all funnel toward the same rigidity/counting core at quotient scales."
   },
   {
    "id": "gap2_seam",
@@ -1870,7 +1870,7 @@
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
    ],
-   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate)."
+   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows."
   },
   {
    "id": "f_pair_bound_envelope",
