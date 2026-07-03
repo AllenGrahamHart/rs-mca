@@ -2576,7 +2576,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2588,6 +2588,18 @@
     "tex/cs25_cap_v12.tex"
    ],
    "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap)."
+  },
+  {
+   "id": "xr_target_budget_audit",
+   "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Compute, per clean-rate decision row (from the census/#213 pipeline + the E14 gate-margin conventions reconciled): the exact integer slack s = B* - B_quot(A) - B_tan(A) at the safe-side candidate A. TWO WORLDS: s = 0 => the exclusion is true rigidity (no unpaid support at all \u2014 the emptiness form, the hard band problem); s >= 1 => the singleton obstruction DISSOLVES and the requirement becomes bounded-multiplicity forcing (no pair has s+1 unpaid deep slopes) \u2014 attackable by the proved multi-slope machinery (two-slope intersection, deep-mca Case (a), eliminant dichotomies: overlapping deep supports force structure). Mechanical arithmetic; the problem's CLASS depends on the answer.",
+   "attack_surface": "read s off the exact quotient counts at the candidates (census_exact_counts) minus the tangent staircase; reconcile E14's gate-margin (GM) conventions; note a trivial construction gives SOME pair one deep bad slope, so s = 0 would make the target tight against trivially-existing objects \u2014 suspicious, and worth double-checking the decision point's location before concluding rigidity is needed",
+   "falsifier": "n/a (an audit)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
   }
  ],
  "edges": [
@@ -4800,6 +4812,11 @@
    "from": "dihedral_quotient_stratum",
    "to": "payment_completeness",
    "kind": "ev"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "req"
   }
  ]
 }
