@@ -2309,12 +2309,13 @@
    "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice",
    "status": "CONJECTURE",
    "key": true,
-   "statement": "For Hankel-pencil kernel flats, displacement structure (V^T D V, #191) forces sparse-word supports into coset patterns \u2014 E7's kernel twins were exactly coset pairs. Then the support lattice embeds in the divisor/coset poset: size poly(n). The one genuinely open family-specific termination bound.",
+   "statement": "RESTATED after the E17 COUNTEREXAMPLE (#210, pre-registered falsifier fired): Hankel-kernel sparse dual words are NOT always coset-patterned \u2014 an exact j=5,t=3 kernel plane has a support-{2,3} weight-2 word, not a coset pair. The termination bound for the Hankel family must come from the GENERAL support-lattice accounting (f_support_lattice) with Hankel-specific closed-set counting, or a refined displacement structure theory beyond coset patterns. The observed support was still SMALL and LOCAL (adjacent exponents) \u2014 the restated question: are Hankel sparse-word supports always low-diameter/structured, if not coset?",
    "attack_surface": "first step is EVIDENCE: rerun the E9 census RESTRICTED to Hankel-kernel flats and record the support patterns (predicted: unions of cosets); then the lattice bound via the displacement identities",
    "falsifier": "a kernel-flat sparse word with non-coset support in the restricted census",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
-   ]
+   ],
+   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest."
   },
   {
    "id": "xr_e3_to_expansion",
@@ -2349,7 +2350,7 @@
    "title": "THE RESIDUE: quantitative regime matching at FM-scale densities",
    "status": "TARGET",
    "key": true,
-   "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import.",
+   "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import. COMPOSITION TENSION (#211/E20): raw KMS/DKKMS do not provide a q-power FM engine as stated (verdict per the loss tables); KLLM's extracted stay-probability arithmetic consumes globalness beta <= q^-g and yields q^{-(g+t-1)/4} \u2014 a Q-POWER globalness demand, while the proved top-core cap gives poly(n)-scale. THE open arithmetic: does poly-globalness + the q-power pair ledger compose to n^B * FM (the KLLM engine used only for the structured residue), or does the cap need a q-power strengthening (a new, harder statement)? This is now the central question of the QX.14/QX.15 assembly.",
    "attack_surface": "parameter tables first (S-sized): tabulate the KMS/KLLM loss exponents against the FM gap per rate; if the exponents eat the gap, the KLLM global-hypercontractivity route is the fallback with sharper small-set constants",
    "falsifier": "the tables showing BOTH known quantitative forms lose more than the FM gap provides \u2014 would mean the import needs strengthening, not that the route is dead",
    "refs": [
@@ -2368,7 +2369,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this)."
+   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this). | E19 STRESS (#209): 10 post-strip paid-tangent LINK-LEAK CANDIDATES at the exact n=16 corpus \u2014 the 'modulo strip normal form' caveat is now LOAD-BEARING: each candidate must be adjudicated (strippable under the correct L_tan convention vs a genuine unpaid tangent leak). The double-count mathematics is unaffected; the hypothesis-pinning is the open work. The #209 corpus is the adjudication test bed."
   },
   {
    "id": "xr_small_set_engine",
