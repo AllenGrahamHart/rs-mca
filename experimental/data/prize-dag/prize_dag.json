@@ -3038,7 +3038,8 @@
    "falsifier": "a toy base with active-core mass exceeding the n^2 budget post-strip (extend H1's harness with a per-core column \u2014 cheap)",
    "refs": [
     "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ]
+   ],
+   "notes": "P-A DATA (#27, 28/28): active cores are RARE \u2014 max 6 active cores per base, max K_Q = 2, budget ratio 0.016 of n^2 at toys. THE DECOMPOSITION SEED: A splits as (A-i) the active-core rarity lemma \u2014 a core is active only if some full fiber of psi_Q lies in D, itself a strongly suppressed event; count E[active] directly \u2014 and (A-ii) the per-core cap (ALREADY BANKED as u1_minimal_fixed_core_sporadic_bound). The incidence-variety machinery may be unnecessary: rarity x per-core cap could give the n^2 budget outright."
   },
   {
    "id": "u1_beta_band_trade_reduction",
@@ -3050,7 +3051,8 @@
    "falsifier": "a toy band-trade family avoiding all three exits (searchable with H1 machinery extended to h > t+1)",
    "refs": [
     "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ]
+   ],
+   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table."
   },
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
@@ -3062,18 +3064,20 @@
    "falsifier": "toy occupancy exceeding the budget (E33's scan + an occupancy histogram column)",
    "refs": [
     "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
-   ]
+   ],
+   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds."
   },
   {
    "id": "a2_depth_cell_residual_occupancy",
    "title": "A2's second blocker: depth-cell residual occupancy",
-   "status": "TARGET",
+   "status": "REFUTED",
    "statement": "Bound the residual occupancy of the graded ledger's depth-d cells post-charge \u2014 the band analogue of the subcore accounting. A2's routing table is COMPLETE (no extra pairwise or heavy-triangle object exists), so this count is the ledger's only remaining content.",
    "attack_surface": "the same packing machinery as the subcore accounting, at depth-graded cells",
    "falsifier": "a depth cell with super-budget residual occupancy at toys",
    "refs": [
     "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md"
-   ]
+   ],
+   "notes": "OCC-2 (#31, 49/49): the DIRECT formal-lattice packing is REFUTED \u2014 super-linear at every clean row; replaced by a2_depth_cell_active_shadow_bound."
   },
   {
    "id": "u2c_giant_block_dichotomy",
@@ -3097,7 +3101,8 @@
    "falsifier": "a certificate run FINDING a primitive block at an official row (then the column is charged, not excluded \u2014 a major but survivable event)",
    "refs": [
     "experimental/notes/roadmaps/f2_moment_trade_census.md"
-   ]
+   ],
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch."
   },
   {
    "id": "u2c_boundary_scale_column",
@@ -3130,7 +3135,18 @@
    "refs": [
     "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
    ],
-   "notes": "PROVENANCE: GPT Pro X-9 (10-for-10 substantive). The theorem is EASIER than full Laurent-Ritt precisely because the degree collapse kills general-bidegree components geometrically \u2014 the fence that made T look hard was an artifact of not parametrizing."
+   "notes": "PROVENANCE: GPT Pro X-9 (10-for-10 substantive). The theorem is EASIER than full Laurent-Ritt precisely because the degree collapse kills general-bidegree components geometrically \u2014 the fence that made T look hard was an artifact of not parametrizing. | T-TOY (#32, 212/212): the classification confirmed empirically through degree 20 at tame toy rows \u2014 zero unclassified bidegree-(1,1) toral/affine cases; line factors are linear-conjugate power pullbacks; Dickson appears at the X^2 symmetry exactly as the theorem predicts."
+  },
+  {
+   "id": "a2_depth_cell_active_shadow_bound",
+   "title": "OCC-2's named replacement: the active-shadow depth-cell bound",
+   "status": "TARGET",
+   "statement": "The graded ledger's quantitative bound must count ACTIVE depth cells (those actually occupied by post-strip pairs \u2014 the shadow), not the formal cell lattice, which is already super-linear at every clean row (OCC-2's verified negative). Statement: the active shadow is budget-bounded; E33/P-A-style occupancy data says active objects are rare throughout this program.",
+   "attack_surface": "the same rarity-counting shape as A-i: activity requires an alignment event, which is suppressed; count expected active cells directly",
+   "falsifier": "a toy row with super-budget ACTIVE depth cells (extend the OCC-2 audit with the activity filter)",
+   "refs": [
+    "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
+   ]
   }
  ],
  "edges": [
@@ -5612,7 +5628,7 @@
   {
    "from": "a2_depth_cell_residual_occupancy",
    "to": "xr_partial_tangent_band",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "u2c_giant_block_dichotomy",
@@ -5637,6 +5653,11 @@
   {
    "from": "t_laurent_ritt_toral_stabilizer",
    "to": "u1_tame_toral_fiberproduct_classification",
+   "kind": "req"
+  },
+  {
+   "from": "a2_depth_cell_active_shadow_bound",
+   "to": "xr_partial_tangent_band",
    "kind": "req"
   }
  ]

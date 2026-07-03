@@ -1,0 +1,749 @@
+{
+  "checks": 210,
+  "classification": {
+    "affine_nontranslation": "linear-conjugate power pullback phi((X-c)^m)",
+    "dickson": "not a new exact polynomial toral line source; even degrees reduce to X^2 power symmetry",
+    "inverse_toral_XY_equals_c": "impossible for nonconstant exact polynomial psi",
+    "toral_scaling": "center c=0 subcase, phi(X^m)",
+    "translation": "impossible for nonconstant deg<p"
+  },
+  "node": "u1_tame_toral_fiberproduct_classification",
+  "rows": [
+    {
+      "affine_nontranslation_symmetries": 9215,
+      "degree_window": [
+        4,
+        20
+      ],
+      "dickson_sanity": [
+        {
+          "classification": "power_pullback_X2",
+          "degree": 4,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 5,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 6,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 7,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 8,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 9,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 10,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 11,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 12,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 13,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 14,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 15,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 16,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 17,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 18,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 19,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 20,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        }
+      ],
+      "inverse_toral_XY_equals_c_checks": 34,
+      "max_degree": 20,
+      "n": 32,
+      "normal_form_support_pattern_affine_count": 120862,
+      "normal_form_support_pattern_symmetry_count": 1246,
+      "orders": [
+        {
+          "affine_symmetries": 97,
+          "centers": 97,
+          "degree_hits": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "nontrivial_a_values": 1,
+          "normal_form_support_patterns_per_center": 1022,
+          "order": 2,
+          "toral_scaling_symmetries": 1
+        },
+        {
+          "affine_symmetries": 194,
+          "centers": 97,
+          "degree_hits": [
+            6,
+            9,
+            12,
+            15,
+            18
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 62,
+          "order": 3,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 194,
+          "centers": 97,
+          "degree_hits": [
+            4,
+            8,
+            12,
+            16,
+            20
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 31,
+          "order": 4,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 194,
+          "centers": 97,
+          "degree_hits": [
+            6,
+            12,
+            18
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 7,
+          "order": 6,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 388,
+          "centers": 97,
+          "degree_hits": [
+            8,
+            16
+          ],
+          "nontrivial_a_values": 4,
+          "normal_form_support_patterns_per_center": 3,
+          "order": 8,
+          "toral_scaling_symmetries": 4
+        },
+        {
+          "affine_symmetries": 388,
+          "centers": 97,
+          "degree_hits": [
+            12
+          ],
+          "nontrivial_a_values": 4,
+          "normal_form_support_patterns_per_center": 1,
+          "order": 12,
+          "toral_scaling_symmetries": 4
+        },
+        {
+          "affine_symmetries": 776,
+          "centers": 97,
+          "degree_hits": [
+            16
+          ],
+          "nontrivial_a_values": 8,
+          "normal_form_support_patterns_per_center": 1,
+          "order": 16,
+          "toral_scaling_symmetries": 8
+        },
+        {
+          "affine_symmetries": 776,
+          "centers": 97,
+          "degree_hits": [],
+          "nontrivial_a_values": 8,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 24,
+          "toral_scaling_symmetries": 8
+        },
+        {
+          "affine_symmetries": 1552,
+          "centers": 97,
+          "degree_hits": [],
+          "nontrivial_a_values": 16,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 32,
+          "toral_scaling_symmetries": 16
+        },
+        {
+          "affine_symmetries": 1552,
+          "centers": 97,
+          "degree_hits": [],
+          "nontrivial_a_values": 16,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 48,
+          "toral_scaling_symmetries": 16
+        },
+        {
+          "affine_symmetries": 3104,
+          "centers": 97,
+          "degree_hits": [],
+          "nontrivial_a_values": 32,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 96,
+          "toral_scaling_symmetries": 32
+        }
+      ],
+      "p": 97,
+      "row": "F97_mu32_t3",
+      "t": 3,
+      "toral_scaling_symmetries_b0": 95,
+      "translation_symmetries_ruled_out": 96,
+      "unclassified_cases": 0
+    },
+    {
+      "affine_nontranslation_symmetries": 36863,
+      "degree_window": [
+        4,
+        20
+      ],
+      "dickson_sanity": [
+        {
+          "classification": "power_pullback_X2",
+          "degree": 4,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 5,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 6,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 7,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 8,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 9,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 10,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 11,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 12,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 13,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 14,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 15,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 16,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 17,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 18,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 19,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 20,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        }
+      ],
+      "inverse_toral_XY_equals_c_checks": 34,
+      "max_degree": 20,
+      "n": 64,
+      "normal_form_support_pattern_affine_count": 240478,
+      "normal_form_support_pattern_symmetry_count": 1246,
+      "orders": [
+        {
+          "affine_symmetries": 193,
+          "centers": 193,
+          "degree_hits": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "nontrivial_a_values": 1,
+          "normal_form_support_patterns_per_center": 1022,
+          "order": 2,
+          "toral_scaling_symmetries": 1
+        },
+        {
+          "affine_symmetries": 386,
+          "centers": 193,
+          "degree_hits": [
+            6,
+            9,
+            12,
+            15,
+            18
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 62,
+          "order": 3,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 386,
+          "centers": 193,
+          "degree_hits": [
+            4,
+            8,
+            12,
+            16,
+            20
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 31,
+          "order": 4,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 386,
+          "centers": 193,
+          "degree_hits": [
+            6,
+            12,
+            18
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 7,
+          "order": 6,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 772,
+          "centers": 193,
+          "degree_hits": [
+            8,
+            16
+          ],
+          "nontrivial_a_values": 4,
+          "normal_form_support_patterns_per_center": 3,
+          "order": 8,
+          "toral_scaling_symmetries": 4
+        },
+        {
+          "affine_symmetries": 772,
+          "centers": 193,
+          "degree_hits": [
+            12
+          ],
+          "nontrivial_a_values": 4,
+          "normal_form_support_patterns_per_center": 1,
+          "order": 12,
+          "toral_scaling_symmetries": 4
+        },
+        {
+          "affine_symmetries": 1544,
+          "centers": 193,
+          "degree_hits": [
+            16
+          ],
+          "nontrivial_a_values": 8,
+          "normal_form_support_patterns_per_center": 1,
+          "order": 16,
+          "toral_scaling_symmetries": 8
+        },
+        {
+          "affine_symmetries": 1544,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 8,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 24,
+          "toral_scaling_symmetries": 8
+        },
+        {
+          "affine_symmetries": 3088,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 16,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 32,
+          "toral_scaling_symmetries": 16
+        },
+        {
+          "affine_symmetries": 3088,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 16,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 48,
+          "toral_scaling_symmetries": 16
+        },
+        {
+          "affine_symmetries": 6176,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 32,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 64,
+          "toral_scaling_symmetries": 32
+        },
+        {
+          "affine_symmetries": 6176,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 32,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 96,
+          "toral_scaling_symmetries": 32
+        },
+        {
+          "affine_symmetries": 12352,
+          "centers": 193,
+          "degree_hits": [],
+          "nontrivial_a_values": 64,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 192,
+          "toral_scaling_symmetries": 64
+        }
+      ],
+      "p": 193,
+      "row": "F193_mu64_t3",
+      "t": 3,
+      "toral_scaling_symmetries_b0": 191,
+      "translation_symmetries_ruled_out": 192,
+      "unclassified_cases": 0
+    },
+    {
+      "affine_nontranslation_symmetries": 65535,
+      "degree_window": [
+        6,
+        20
+      ],
+      "dickson_sanity": [
+        {
+          "classification": "power_pullback_X2",
+          "degree": 6,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 7,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 8,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 9,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 10,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 11,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 12,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 13,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 14,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 15,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 16,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 17,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 18,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        },
+        {
+          "classification": "no_exact_polynomial_toral_line",
+          "degree": 19,
+          "exact_polynomial_line_factor": false,
+          "support_gcd": 1
+        },
+        {
+          "classification": "power_pullback_X2",
+          "degree": 20,
+          "exact_polynomial_line_factor": true,
+          "support_gcd": 2
+        }
+      ],
+      "inverse_toral_XY_equals_c_checks": 30,
+      "max_degree": 20,
+      "n": 256,
+      "normal_form_support_pattern_affine_count": 282700,
+      "normal_form_support_pattern_symmetry_count": 1100,
+      "orders": [
+        {
+          "affine_symmetries": 257,
+          "centers": 257,
+          "degree_hits": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "nontrivial_a_values": 1,
+          "normal_form_support_patterns_per_center": 1020,
+          "order": 2,
+          "toral_scaling_symmetries": 1
+        },
+        {
+          "affine_symmetries": 514,
+          "centers": 257,
+          "degree_hits": [
+            8,
+            12,
+            16,
+            20
+          ],
+          "nontrivial_a_values": 2,
+          "normal_form_support_patterns_per_center": 30,
+          "order": 4,
+          "toral_scaling_symmetries": 2
+        },
+        {
+          "affine_symmetries": 1028,
+          "centers": 257,
+          "degree_hits": [
+            8,
+            16
+          ],
+          "nontrivial_a_values": 4,
+          "normal_form_support_patterns_per_center": 3,
+          "order": 8,
+          "toral_scaling_symmetries": 4
+        },
+        {
+          "affine_symmetries": 2056,
+          "centers": 257,
+          "degree_hits": [
+            16
+          ],
+          "nontrivial_a_values": 8,
+          "normal_form_support_patterns_per_center": 1,
+          "order": 16,
+          "toral_scaling_symmetries": 8
+        },
+        {
+          "affine_symmetries": 4112,
+          "centers": 257,
+          "degree_hits": [],
+          "nontrivial_a_values": 16,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 32,
+          "toral_scaling_symmetries": 16
+        },
+        {
+          "affine_symmetries": 8224,
+          "centers": 257,
+          "degree_hits": [],
+          "nontrivial_a_values": 32,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 64,
+          "toral_scaling_symmetries": 32
+        },
+        {
+          "affine_symmetries": 16448,
+          "centers": 257,
+          "degree_hits": [],
+          "nontrivial_a_values": 64,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 128,
+          "toral_scaling_symmetries": 64
+        },
+        {
+          "affine_symmetries": 32896,
+          "centers": 257,
+          "degree_hits": [],
+          "nontrivial_a_values": 128,
+          "normal_form_support_patterns_per_center": 0,
+          "order": 256,
+          "toral_scaling_symmetries": 128
+        }
+      ],
+      "p": 257,
+      "row": "F257_mu256_t5",
+      "t": 5,
+      "toral_scaling_symmetries_b0": 255,
+      "translation_symmetries_ruled_out": 256,
+      "unclassified_cases": 0
+    }
+  ],
+  "scope": "Exact polynomial bidegree-(1,1) toral/affine factors for deg psi in (t,20] and p>20.  General Laurent/rational toral components remain the load-bearing T theorem.",
+  "status": "PASS: bidegree-(1,1) tame toy scan has no exceptions",
+  "task": "T-TOY"
+}

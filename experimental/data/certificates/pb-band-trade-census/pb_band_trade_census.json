@@ -1,0 +1,2630 @@
+{
+  "aggregate_exit_counts": {
+    "exit1_minimal_subtrade": 15,
+    "exit2_v1_pullback": 79,
+    "exit3_primitive_moment_pte": 922
+  },
+  "dictionary": "w3_chargeable_dictionary_grammar.md v1",
+  "max_non_v1_canonical_orbits_per_row": 625,
+  "node": "u1_beta_band_trade_reduction",
+  "rows": [
+    {
+      "A": 4,
+      "canonical_band_trade_orbits": 0,
+      "defect_degree_histogram": {},
+      "exit_counts": {},
+      "h_range": [],
+      "h_rows": [],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        9
+      ],
+      "max_signature_group_size": 0,
+      "n": 8,
+      "n_squared_cap": 64,
+      "non_v1_canonical_orbits": 0,
+      "p": 17,
+      "primitive_moment_examples": [],
+      "row": "F17_mu8_A4_t3",
+      "t": 3,
+      "v1_reasons": {}
+    },
+    {
+      "A": 5,
+      "canonical_band_trade_orbits": 1,
+      "defect_degree_histogram": {
+        "0": 1
+      },
+      "exit_counts": {
+        "exit2_v1_pullback": 1
+      },
+      "h_range": [
+        5,
+        6
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 2,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 60,
+          "subset_count": 792,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 1,
+          "defect_degree_histogram": {
+            "0": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 1
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 2,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 1,
+          "same_signature_classes_with_multiplicity": 91,
+          "subset_count": 924,
+          "v1_reasons": {
+            "dihedral:X^5+X^-5": 1
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        9
+      ],
+      "max_signature_group_size": 2,
+      "n": 12,
+      "n_squared_cap": 144,
+      "non_v1_canonical_orbits": 0,
+      "p": 13,
+      "primitive_moment_examples": [],
+      "row": "F13_mu12_A5_t3",
+      "t": 3,
+      "v1_reasons": {
+        "dihedral:X^5+X^-5": 1
+      }
+    },
+    {
+      "A": 6,
+      "canonical_band_trade_orbits": 1,
+      "defect_degree_histogram": {
+        "0": 1
+      },
+      "exit_counts": {
+        "exit2_v1_pullback": 1
+      },
+      "h_range": [
+        5,
+        6
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 2,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 60,
+          "subset_count": 792,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 1,
+          "defect_degree_histogram": {
+            "0": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 1
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 2,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 1,
+          "same_signature_classes_with_multiplicity": 91,
+          "subset_count": 924,
+          "v1_reasons": {
+            "dihedral:X^5+X^-5": 1
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        9
+      ],
+      "max_signature_group_size": 2,
+      "n": 12,
+      "n_squared_cap": 144,
+      "non_v1_canonical_orbits": 0,
+      "p": 13,
+      "primitive_moment_examples": [],
+      "row": "F13_mu12_A6_t3",
+      "t": 3,
+      "v1_reasons": {
+        "dihedral:X^5+X^-5": 1
+      }
+    },
+    {
+      "A": 6,
+      "canonical_band_trade_orbits": 28,
+      "defect_degree_histogram": {
+        "0": 1,
+        "1": 10,
+        "2": 16,
+        "4": 1
+      },
+      "exit_counts": {
+        "exit2_v1_pullback": 4,
+        "exit3_primitive_moment_pte": 24
+      },
+      "h_range": [
+        5,
+        8
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 7,
+          "defect_degree_histogram": {
+            "1": 7
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 7
+          },
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 3,
+          "non_v1_canonical_orbits": 7,
+          "raw_disjoint_band_pairs": 112,
+          "same_signature_classes_with_multiplicity": 960,
+          "subset_count": 4368,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 19,
+          "defect_degree_histogram": {
+            "1": 3,
+            "2": 16
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2,
+            "exit3_primitive_moment_pte": 17
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 17,
+          "raw_disjoint_band_pairs": 280,
+          "same_signature_classes_with_multiplicity": 2656,
+          "subset_count": 8008,
+          "v1_reasons": {
+            "quotient:X^6": 2
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 4000,
+          "subset_count": 11440,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "0": 1,
+            "4": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 7,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 3,
+          "same_signature_classes_with_multiplicity": 4321,
+          "subset_count": 12870,
+          "v1_reasons": {
+            "quotient:X^4": 2
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 7,
+      "n": 16,
+      "n_squared_cap": 256,
+      "non_v1_canonical_orbits": 24,
+      "p": 17,
+      "primitive_moment_examples": [
+        {
+          "P": [
+            0,
+            1,
+            4,
+            12,
+            13
+          ],
+          "Q": [
+            2,
+            5,
+            8,
+            9,
+            15
+          ],
+          "canonical_P": [
+            0,
+            1,
+            4,
+            5,
+            8
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            9,
+            12,
+            13
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            2,
+            3,
+            10,
+            11
+          ],
+          "Q": [
+            4,
+            7,
+            8,
+            13,
+            14
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            8,
+            9
+          ],
+          "canonical_Q": [
+            5,
+            6,
+            11,
+            12,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            2,
+            6,
+            10,
+            12,
+            15
+          ],
+          "Q": [
+            3,
+            8,
+            9,
+            11,
+            13
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            10
+          ],
+          "canonical_Q": [
+            1,
+            3,
+            7,
+            11,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            6,
+            7,
+            10
+          ],
+          "Q": [
+            1,
+            8,
+            9,
+            11,
+            12
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            4,
+            9
+          ],
+          "canonical_Q": [
+            2,
+            8,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            4,
+            5,
+            13
+          ],
+          "Q": [
+            3,
+            7,
+            8,
+            9,
+            15
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            5,
+            8
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            12,
+            13,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            3,
+            8,
+            12
+          ],
+          "Q": [
+            2,
+            5,
+            7,
+            11,
+            14
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            7,
+            11
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            8,
+            12,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            8,
+            10,
+            11,
+            12
+          ],
+          "Q": [
+            2,
+            6,
+            7,
+            13,
+            15
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            4,
+            8
+          ],
+          "canonical_Q": [
+            5,
+            7,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            3,
+            4,
+            5,
+            9,
+            10
+          ],
+          "Q": [
+            1,
+            2,
+            8,
+            11,
+            12,
+            13
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            6,
+            7,
+            10
+          ],
+          "canonical_Q": [
+            2,
+            8,
+            9,
+            13,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 6
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            5,
+            8,
+            14
+          ],
+          "Q": [
+            3,
+            4,
+            10,
+            12,
+            13,
+            15
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            4,
+            7,
+            10
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            6,
+            12,
+            14,
+            15
+          ],
+          "defect_degree": 2,
+          "h": 6
+        },
+        {
+          "P": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            11
+          ],
+          "Q": [
+            1,
+            8,
+            10,
+            12,
+            13,
+            14
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            9
+          ],
+          "canonical_Q": [
+            3,
+            8,
+            10,
+            11,
+            12,
+            13
+          ],
+          "defect_degree": 2,
+          "h": 6
+        }
+      ],
+      "row": "F17_mu16_A6_t3",
+      "t": 3,
+      "v1_reasons": {
+        "quotient:X^4": 2,
+        "quotient:X^6": 2
+      }
+    },
+    {
+      "A": 8,
+      "canonical_band_trade_orbits": 28,
+      "defect_degree_histogram": {
+        "0": 1,
+        "1": 10,
+        "2": 16,
+        "4": 1
+      },
+      "exit_counts": {
+        "exit2_v1_pullback": 4,
+        "exit3_primitive_moment_pte": 24
+      },
+      "h_range": [
+        5,
+        8
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 7,
+          "defect_degree_histogram": {
+            "1": 7
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 7
+          },
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 3,
+          "non_v1_canonical_orbits": 7,
+          "raw_disjoint_band_pairs": 112,
+          "same_signature_classes_with_multiplicity": 960,
+          "subset_count": 4368,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 19,
+          "defect_degree_histogram": {
+            "1": 3,
+            "2": 16
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2,
+            "exit3_primitive_moment_pte": 17
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 17,
+          "raw_disjoint_band_pairs": 280,
+          "same_signature_classes_with_multiplicity": 2656,
+          "subset_count": 8008,
+          "v1_reasons": {
+            "quotient:X^6": 2
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 4000,
+          "subset_count": 11440,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "0": 1,
+            "4": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 7,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 3,
+          "same_signature_classes_with_multiplicity": 4321,
+          "subset_count": 12870,
+          "v1_reasons": {
+            "quotient:X^4": 2
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 7,
+      "n": 16,
+      "n_squared_cap": 256,
+      "non_v1_canonical_orbits": 24,
+      "p": 17,
+      "primitive_moment_examples": [
+        {
+          "P": [
+            0,
+            1,
+            4,
+            12,
+            13
+          ],
+          "Q": [
+            2,
+            5,
+            8,
+            9,
+            15
+          ],
+          "canonical_P": [
+            0,
+            1,
+            4,
+            5,
+            8
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            9,
+            12,
+            13
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            2,
+            3,
+            10,
+            11
+          ],
+          "Q": [
+            4,
+            7,
+            8,
+            13,
+            14
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            8,
+            9
+          ],
+          "canonical_Q": [
+            5,
+            6,
+            11,
+            12,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            2,
+            6,
+            10,
+            12,
+            15
+          ],
+          "Q": [
+            3,
+            8,
+            9,
+            11,
+            13
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            10
+          ],
+          "canonical_Q": [
+            1,
+            3,
+            7,
+            11,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            6,
+            7,
+            10
+          ],
+          "Q": [
+            1,
+            8,
+            9,
+            11,
+            12
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            4,
+            9
+          ],
+          "canonical_Q": [
+            2,
+            8,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            4,
+            5,
+            13
+          ],
+          "Q": [
+            3,
+            7,
+            8,
+            9,
+            15
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            5,
+            8
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            12,
+            13,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            3,
+            8,
+            12
+          ],
+          "Q": [
+            2,
+            5,
+            7,
+            11,
+            14
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            7,
+            11
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            8,
+            12,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            8,
+            10,
+            11,
+            12
+          ],
+          "Q": [
+            2,
+            6,
+            7,
+            13,
+            15
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            4,
+            8
+          ],
+          "canonical_Q": [
+            5,
+            7,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            3,
+            4,
+            5,
+            9,
+            10
+          ],
+          "Q": [
+            1,
+            2,
+            8,
+            11,
+            12,
+            13
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            6,
+            7,
+            10
+          ],
+          "canonical_Q": [
+            2,
+            8,
+            9,
+            13,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 6
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            5,
+            8,
+            14
+          ],
+          "Q": [
+            3,
+            4,
+            10,
+            12,
+            13,
+            15
+          ],
+          "canonical_P": [
+            0,
+            2,
+            3,
+            4,
+            7,
+            10
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            6,
+            12,
+            14,
+            15
+          ],
+          "defect_degree": 2,
+          "h": 6
+        },
+        {
+          "P": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            11
+          ],
+          "Q": [
+            1,
+            8,
+            10,
+            12,
+            13,
+            14
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            9
+          ],
+          "canonical_Q": [
+            3,
+            8,
+            10,
+            11,
+            12,
+            13
+          ],
+          "defect_degree": 2,
+          "h": 6
+        }
+      ],
+      "row": "F17_mu16_A8_t3",
+      "t": 3,
+      "v1_reasons": {
+        "quotient:X^4": 2,
+        "quotient:X^6": 2
+      }
+    },
+    {
+      "A": 8,
+      "canonical_band_trade_orbits": 2,
+      "defect_degree_histogram": {
+        "0": 1,
+        "4": 1
+      },
+      "exit_counts": {
+        "exit2_v1_pullback": 2
+      },
+      "h_range": [
+        5,
+        8
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 3,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 16,
+          "subset_count": 4368,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 3,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 120,
+          "subset_count": 8008,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 0,
+          "defect_degree_histogram": {},
+          "exit_counts": {},
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 3,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 0,
+          "same_signature_classes_with_multiplicity": 304,
+          "subset_count": 11440,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "0": 1,
+            "4": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 6,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 3,
+          "same_signature_classes_with_multiplicity": 409,
+          "subset_count": 12870,
+          "v1_reasons": {
+            "quotient:X^4": 2
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 6,
+      "n": 16,
+      "n_squared_cap": 256,
+      "non_v1_canonical_orbits": 0,
+      "p": 97,
+      "primitive_moment_examples": [],
+      "row": "F97_mu16_A8_t3",
+      "t": 3,
+      "v1_reasons": {
+        "quotient:X^4": 2
+      }
+    },
+    {
+      "A": 8,
+      "canonical_band_trade_orbits": 146,
+      "defect_degree_histogram": {
+        "0": 4,
+        "1": 15,
+        "2": 49,
+        "3": 46,
+        "4": 29,
+        "5": 3
+      },
+      "exit_counts": {
+        "exit1_minimal_subtrade": 4,
+        "exit2_v1_pullback": 14,
+        "exit3_primitive_moment_pte": 128
+      },
+      "h_range": [
+        5,
+        10
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 18,
+          "defect_degree_histogram": {
+            "0": 3,
+            "1": 15
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2,
+            "exit3_primitive_moment_pte": 16
+          },
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 4,
+          "non_v1_canonical_orbits": 16,
+          "raw_disjoint_band_pairs": 326,
+          "same_signature_classes_with_multiplicity": 1541,
+          "subset_count": 15504,
+          "v1_reasons": {
+            "quotient:X^5": 2
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 48,
+          "defect_degree_histogram": {
+            "2": 48
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 3,
+            "exit3_primitive_moment_pte": 45
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 45,
+          "raw_disjoint_band_pairs": 930,
+          "same_signature_classes_with_multiplicity": 8280,
+          "subset_count": 38760,
+          "v1_reasons": {
+            "quotient:X^6": 3
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 46,
+          "defect_degree_histogram": {
+            "2": 1,
+            "3": 45
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 46
+          },
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 6,
+          "non_v1_canonical_orbits": 46,
+          "raw_disjoint_band_pairs": 920,
+          "same_signature_classes_with_multiplicity": 22210,
+          "subset_count": 77520,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 30,
+          "defect_degree_histogram": {
+            "3": 1,
+            "4": 29
+          },
+          "exit_counts": {
+            "exit1_minimal_subtrade": 4,
+            "exit2_v1_pullback": 7,
+            "exit3_primitive_moment_pte": 19
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 10,
+          "non_v1_canonical_orbits": 23,
+          "raw_disjoint_band_pairs": 515,
+          "same_signature_classes_with_multiplicity": 36001,
+          "subset_count": 125970,
+          "v1_reasons": {
+            "quotient:X^4": 3,
+            "quotient:X^6": 4
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "5": 2
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 2
+          },
+          "h": 9,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 13,
+          "non_v1_canonical_orbits": 2,
+          "raw_disjoint_band_pairs": 40,
+          "same_signature_classes_with_multiplicity": 45460,
+          "subset_count": 167960,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "0": 1,
+            "5": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2
+          },
+          "h": 10,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 11,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 3,
+          "same_signature_classes_with_multiplicity": 47761,
+          "subset_count": 184756,
+          "v1_reasons": {
+            "quotient:X^5": 2
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 13,
+      "n": 20,
+      "n_squared_cap": 400,
+      "non_v1_canonical_orbits": 132,
+      "p": 41,
+      "primitive_moment_examples": [
+        {
+          "P": [
+            2,
+            3,
+            5,
+            10,
+            13
+          ],
+          "Q": [
+            6,
+            12,
+            14,
+            15,
+            16
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            10
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            11,
+            13,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            4,
+            7,
+            11
+          ],
+          "Q": [
+            5,
+            6,
+            8,
+            9,
+            12
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            15,
+            17,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            3,
+            7,
+            13,
+            14
+          ],
+          "Q": [
+            5,
+            6,
+            15,
+            17,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            8,
+            9,
+            11
+          ],
+          "canonical_Q": [
+            3,
+            5,
+            12,
+            13,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            4,
+            11,
+            14,
+            17
+          ],
+          "Q": [
+            1,
+            3,
+            13,
+            18,
+            19
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            10
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            9,
+            12,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            4,
+            9,
+            13
+          ],
+          "Q": [
+            7,
+            8,
+            12,
+            14,
+            16
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            7,
+            9
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            13,
+            14,
+            17
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            2,
+            6,
+            11,
+            14
+          ],
+          "Q": [
+            3,
+            4,
+            5,
+            7,
+            10
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            3,
+            8,
+            11,
+            18,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            2,
+            7,
+            9,
+            14,
+            16
+          ],
+          "Q": [
+            6,
+            12,
+            13,
+            17,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            6,
+            12
+          ],
+          "canonical_Q": [
+            2,
+            4,
+            9,
+            11,
+            16
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            15,
+            18
+          ],
+          "Q": [
+            6,
+            7,
+            9,
+            11,
+            14
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            8,
+            11,
+            13,
+            15,
+            16
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            8,
+            9,
+            16
+          ],
+          "Q": [
+            6,
+            7,
+            14,
+            15,
+            19
+          ],
+          "canonical_P": [
+            0,
+            1,
+            7,
+            9,
+            13
+          ],
+          "canonical_Q": [
+            2,
+            3,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            5,
+            10,
+            15,
+            19
+          ],
+          "Q": [
+            4,
+            8,
+            11,
+            14,
+            17
+          ],
+          "canonical_P": [
+            0,
+            3,
+            6,
+            9,
+            13
+          ],
+          "canonical_Q": [
+            2,
+            7,
+            12,
+            16,
+            18
+          ],
+          "defect_degree": 1,
+          "h": 5
+        }
+      ],
+      "row": "F41_mu20_A8_t3",
+      "t": 3,
+      "v1_reasons": {
+        "quotient:X^4": 3,
+        "quotient:X^5": 4,
+        "quotient:X^6": 7
+      }
+    },
+    {
+      "A": 10,
+      "canonical_band_trade_orbits": 146,
+      "defect_degree_histogram": {
+        "0": 4,
+        "1": 15,
+        "2": 49,
+        "3": 46,
+        "4": 29,
+        "5": 3
+      },
+      "exit_counts": {
+        "exit1_minimal_subtrade": 4,
+        "exit2_v1_pullback": 14,
+        "exit3_primitive_moment_pte": 128
+      },
+      "h_range": [
+        5,
+        10
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 18,
+          "defect_degree_histogram": {
+            "0": 3,
+            "1": 15
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2,
+            "exit3_primitive_moment_pte": 16
+          },
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 4,
+          "non_v1_canonical_orbits": 16,
+          "raw_disjoint_band_pairs": 326,
+          "same_signature_classes_with_multiplicity": 1541,
+          "subset_count": 15504,
+          "v1_reasons": {
+            "quotient:X^5": 2
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 48,
+          "defect_degree_histogram": {
+            "2": 48
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 3,
+            "exit3_primitive_moment_pte": 45
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 45,
+          "raw_disjoint_band_pairs": 930,
+          "same_signature_classes_with_multiplicity": 8280,
+          "subset_count": 38760,
+          "v1_reasons": {
+            "quotient:X^6": 3
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 46,
+          "defect_degree_histogram": {
+            "2": 1,
+            "3": 45
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 46
+          },
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 6,
+          "non_v1_canonical_orbits": 46,
+          "raw_disjoint_band_pairs": 920,
+          "same_signature_classes_with_multiplicity": 22210,
+          "subset_count": 77520,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 30,
+          "defect_degree_histogram": {
+            "3": 1,
+            "4": 29
+          },
+          "exit_counts": {
+            "exit1_minimal_subtrade": 4,
+            "exit2_v1_pullback": 7,
+            "exit3_primitive_moment_pte": 19
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 10,
+          "non_v1_canonical_orbits": 23,
+          "raw_disjoint_band_pairs": 515,
+          "same_signature_classes_with_multiplicity": 36001,
+          "subset_count": 125970,
+          "v1_reasons": {
+            "quotient:X^4": 3,
+            "quotient:X^6": 4
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "5": 2
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 2
+          },
+          "h": 9,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 13,
+          "non_v1_canonical_orbits": 2,
+          "raw_disjoint_band_pairs": 40,
+          "same_signature_classes_with_multiplicity": 45460,
+          "subset_count": 167960,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "0": 1,
+            "5": 1
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 2
+          },
+          "h": 10,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 11,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 3,
+          "same_signature_classes_with_multiplicity": 47761,
+          "subset_count": 184756,
+          "v1_reasons": {
+            "quotient:X^5": 2
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 13,
+      "n": 20,
+      "n_squared_cap": 400,
+      "non_v1_canonical_orbits": 132,
+      "p": 41,
+      "primitive_moment_examples": [
+        {
+          "P": [
+            2,
+            3,
+            5,
+            10,
+            13
+          ],
+          "Q": [
+            6,
+            12,
+            14,
+            15,
+            16
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            10
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            11,
+            13,
+            14
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            4,
+            7,
+            11
+          ],
+          "Q": [
+            5,
+            6,
+            8,
+            9,
+            12
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            15,
+            17,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            3,
+            7,
+            13,
+            14
+          ],
+          "Q": [
+            5,
+            6,
+            15,
+            17,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            8,
+            9,
+            11
+          ],
+          "canonical_Q": [
+            3,
+            5,
+            12,
+            13,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            4,
+            11,
+            14,
+            17
+          ],
+          "Q": [
+            1,
+            3,
+            13,
+            18,
+            19
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            5,
+            10
+          ],
+          "canonical_Q": [
+            3,
+            6,
+            9,
+            12,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            4,
+            9,
+            13
+          ],
+          "Q": [
+            7,
+            8,
+            12,
+            14,
+            16
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            7,
+            9
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            13,
+            14,
+            17
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            2,
+            6,
+            11,
+            14
+          ],
+          "Q": [
+            3,
+            4,
+            5,
+            7,
+            10
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            3,
+            8,
+            11,
+            18,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            2,
+            7,
+            9,
+            14,
+            16
+          ],
+          "Q": [
+            6,
+            12,
+            13,
+            17,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            6,
+            12
+          ],
+          "canonical_Q": [
+            2,
+            4,
+            9,
+            11,
+            16
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            15,
+            18
+          ],
+          "Q": [
+            6,
+            7,
+            9,
+            11,
+            14
+          ],
+          "canonical_P": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "canonical_Q": [
+            8,
+            11,
+            13,
+            15,
+            16
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            8,
+            9,
+            16
+          ],
+          "Q": [
+            6,
+            7,
+            14,
+            15,
+            19
+          ],
+          "canonical_P": [
+            0,
+            1,
+            7,
+            9,
+            13
+          ],
+          "canonical_Q": [
+            2,
+            3,
+            10,
+            14,
+            15
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            1,
+            5,
+            10,
+            15,
+            19
+          ],
+          "Q": [
+            4,
+            8,
+            11,
+            14,
+            17
+          ],
+          "canonical_P": [
+            0,
+            3,
+            6,
+            9,
+            13
+          ],
+          "canonical_Q": [
+            2,
+            7,
+            12,
+            16,
+            18
+          ],
+          "defect_degree": 1,
+          "h": 5
+        }
+      ],
+      "row": "F41_mu20_A10_t3",
+      "t": 3,
+      "v1_reasons": {
+        "quotient:X^4": 3,
+        "quotient:X^5": 4,
+        "quotient:X^6": 7
+      }
+    },
+    {
+      "A": 8,
+      "canonical_band_trade_orbits": 664,
+      "defect_degree_histogram": {
+        "0": 4,
+        "1": 16,
+        "2": 63,
+        "3": 148,
+        "4": 230,
+        "5": 143,
+        "6": 57,
+        "7": 1,
+        "8": 2
+      },
+      "exit_counts": {
+        "exit1_minimal_subtrade": 7,
+        "exit2_v1_pullback": 39,
+        "exit3_primitive_moment_pte": 618
+      },
+      "h_range": [
+        5,
+        12
+      ],
+      "h_rows": [
+        {
+          "canonical_band_trade_orbits": 15,
+          "defect_degree_histogram": {
+            "1": 15
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 15
+          },
+          "h": 5,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 15,
+          "raw_disjoint_band_pairs": 360,
+          "same_signature_classes_with_multiplicity": 768,
+          "subset_count": 42504,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 62,
+          "defect_degree_histogram": {
+            "0": 2,
+            "1": 1,
+            "2": 59
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 10,
+            "exit3_primitive_moment_pte": 52
+          },
+          "h": 6,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 5,
+          "non_v1_canonical_orbits": 52,
+          "raw_disjoint_band_pairs": 1350,
+          "same_signature_classes_with_multiplicity": 8677,
+          "subset_count": 134596,
+          "v1_reasons": {
+            "dihedral:X^5+X^-5": 1,
+            "quotient:X^10": 8,
+            "quotient:X^6": 1
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 149,
+          "defect_degree_histogram": {
+            "2": 4,
+            "3": 145
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 149
+          },
+          "h": 7,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 6,
+          "non_v1_canonical_orbits": 149,
+          "raw_disjoint_band_pairs": 3576,
+          "same_signature_classes_with_multiplicity": 51248,
+          "subset_count": 346104,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 232,
+          "defect_degree_histogram": {
+            "0": 1,
+            "3": 3,
+            "4": 228
+          },
+          "exit_counts": {
+            "exit1_minimal_subtrade": 1,
+            "exit2_v1_pullback": 19,
+            "exit3_primitive_moment_pte": 212
+          },
+          "h": 8,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 15,
+          "non_v1_canonical_orbits": 213,
+          "raw_disjoint_band_pairs": 5265,
+          "same_signature_classes_with_multiplicity": 176145,
+          "subset_count": 735471,
+          "v1_reasons": {
+            "quotient:X^10": 11,
+            "quotient:X^4": 8
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 145,
+          "defect_degree_histogram": {
+            "4": 2,
+            "5": 143
+          },
+          "exit_counts": {
+            "exit1_minimal_subtrade": 2,
+            "exit3_primitive_moment_pte": 143
+          },
+          "h": 9,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 11,
+          "non_v1_canonical_orbits": 145,
+          "raw_disjoint_band_pairs": 3480,
+          "same_signature_classes_with_multiplicity": 373688,
+          "subset_count": 1307504,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 55,
+          "defect_degree_histogram": {
+            "6": 55
+          },
+          "exit_counts": {
+            "exit1_minimal_subtrade": 4,
+            "exit2_v1_pullback": 6,
+            "exit3_primitive_moment_pte": 45
+          },
+          "h": 10,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 15,
+          "non_v1_canonical_orbits": 49,
+          "raw_disjoint_band_pairs": 1248,
+          "same_signature_classes_with_multiplicity": 554545,
+          "subset_count": 1961256,
+          "v1_reasons": {
+            "quotient:X^10": 6
+          }
+        },
+        {
+          "canonical_band_trade_orbits": 2,
+          "defect_degree_histogram": {
+            "6": 1,
+            "7": 1
+          },
+          "exit_counts": {
+            "exit3_primitive_moment_pte": 2
+          },
+          "h": 11,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 2,
+          "max_signature_group_size": 14,
+          "non_v1_canonical_orbits": 2,
+          "raw_disjoint_band_pairs": 48,
+          "same_signature_classes_with_multiplicity": 659688,
+          "subset_count": 2496144,
+          "v1_reasons": {}
+        },
+        {
+          "canonical_band_trade_orbits": 4,
+          "defect_degree_histogram": {
+            "0": 1,
+            "6": 1,
+            "8": 2
+          },
+          "exit_counts": {
+            "exit2_v1_pullback": 4
+          },
+          "h": 12,
+          "large_window_moment_residuals_h_gt_2t_plus_4": 0,
+          "max_signature_group_size": 24,
+          "non_v1_canonical_orbits": 0,
+          "raw_disjoint_band_pairs": 12,
+          "same_signature_classes_with_multiplicity": 693257,
+          "subset_count": 2704156,
+          "v1_reasons": {
+            "quotient:X^4": 3,
+            "quotient:X^6": 1
+          }
+        }
+      ],
+      "large_window_moment_residuals_h_gt_2t_plus_4": 2,
+      "map_degree_window": [
+        4,
+        16
+      ],
+      "max_signature_group_size": 24,
+      "n": 24,
+      "n_squared_cap": 576,
+      "non_v1_canonical_orbits": 625,
+      "p": 97,
+      "primitive_moment_examples": [
+        {
+          "P": [
+            1,
+            4,
+            15,
+            16,
+            19
+          ],
+          "Q": [
+            3,
+            7,
+            9,
+            10,
+            14
+          ],
+          "canonical_P": [
+            0,
+            4,
+            5,
+            7,
+            11
+          ],
+          "canonical_Q": [
+            10,
+            13,
+            19,
+            22,
+            23
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            8,
+            12,
+            16,
+            18
+          ],
+          "Q": [
+            7,
+            11,
+            14,
+            15,
+            20
+          ],
+          "canonical_P": [
+            0,
+            4,
+            7,
+            8,
+            13
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            9,
+            11,
+            17
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            4,
+            9,
+            22
+          ],
+          "Q": [
+            1,
+            3,
+            8,
+            12,
+            15
+          ],
+          "canonical_P": [
+            0,
+            2,
+            4,
+            6,
+            11
+          ],
+          "canonical_Q": [
+            3,
+            5,
+            10,
+            14,
+            17
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            16,
+            20,
+            21,
+            23
+          ],
+          "Q": [
+            6,
+            7,
+            8,
+            13,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            4,
+            8
+          ],
+          "canonical_Q": [
+            6,
+            11,
+            16,
+            17,
+            18
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            1,
+            6,
+            10,
+            21
+          ],
+          "Q": [
+            2,
+            8,
+            9,
+            13,
+            22
+          ],
+          "canonical_P": [
+            0,
+            3,
+            4,
+            9,
+            13
+          ],
+          "canonical_Q": [
+            1,
+            5,
+            11,
+            12,
+            16
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            10,
+            11,
+            15,
+            18
+          ],
+          "Q": [
+            1,
+            7,
+            12,
+            13,
+            20
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            8,
+            14
+          ],
+          "canonical_Q": [
+            2,
+            3,
+            10,
+            15,
+            21
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            2,
+            11,
+            12,
+            22
+          ],
+          "Q": [
+            5,
+            9,
+            16,
+            19,
+            20
+          ],
+          "canonical_P": [
+            0,
+            1,
+            10,
+            12,
+            14
+          ],
+          "canonical_Q": [
+            3,
+            7,
+            16,
+            17,
+            20
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            0,
+            3,
+            7,
+            9,
+            19
+          ],
+          "Q": [
+            1,
+            2,
+            6,
+            8,
+            11
+          ],
+          "canonical_P": [
+            0,
+            1,
+            5,
+            7,
+            10
+          ],
+          "canonical_Q": [
+            2,
+            6,
+            8,
+            18,
+            23
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            3,
+            10,
+            15,
+            18,
+            21
+          ],
+          "Q": [
+            8,
+            13,
+            16,
+            17,
+            22
+          ],
+          "canonical_P": [
+            0,
+            5,
+            6,
+            9,
+            14
+          ],
+          "canonical_Q": [
+            1,
+            4,
+            7,
+            12,
+            19
+          ],
+          "defect_degree": 1,
+          "h": 5
+        },
+        {
+          "P": [
+            3,
+            4,
+            14,
+            20,
+            21
+          ],
+          "Q": [
+            7,
+            8,
+            10,
+            17,
+            18
+          ],
+          "canonical_P": [
+            0,
+            1,
+            3,
+            10,
+            11
+          ],
+          "canonical_Q": [
+            7,
+            13,
+            14,
+            20,
+            21
+          ],
+          "defect_degree": 1,
+          "h": 5
+        }
+      ],
+      "row": "F97_mu24_A8_t3",
+      "t": 3,
+      "v1_reasons": {
+        "dihedral:X^5+X^-5": 1,
+        "quotient:X^10": 25,
+        "quotient:X^4": 11,
+        "quotient:X^6": 2
+      }
+    }
+  ],
+  "task": "P-B band-trade census",
+  "total_canonical_band_trade_orbits": 1016,
+  "verdict": "PASS: every checked canonical band trade routes to exits 1/2/3; no toy falsifier"
+}

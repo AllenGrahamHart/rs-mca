@@ -1,0 +1,2299 @@
+{
+  "node": "u1_alpha_active_core_incidence",
+  "rows": [
+    {
+      "A": 4,
+      "active_core_count_distribution": {
+        "0": 70
+      },
+      "bases_total": 70,
+      "bases_with_active_core": 0,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 70
+      },
+      "max_K_Q": 0,
+      "max_K_Q_distribution": {
+        "0": 70
+      },
+      "max_active_cores_over_n": 0.0,
+      "max_active_cores_per_base": 0,
+      "max_active_times_max_K_Q": 0,
+      "max_active_times_max_K_Q_over_n_squared": 0.0,
+      "max_total_sporadic_minimal_trades_per_base": 0,
+      "max_total_sporadic_over_n_squared": 0.0,
+      "minimal_full_fiber_trades": 2,
+      "minimal_h": 4,
+      "n": 8,
+      "n_squared_budget": 64,
+      "p": 17,
+      "paid_minimal_trades": 2,
+      "row": "F17_mu8_A4_t3",
+      "sporadic_minimal_trades": 0,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 70
+      },
+      "worst_bases": []
+    },
+    {
+      "A": 5,
+      "active_core_count_distribution": {
+        "0": 696,
+        "1": 96
+      },
+      "bases_total": 792,
+      "bases_with_active_core": 96,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 696,
+        "1,1": 96
+      },
+      "max_K_Q": 1,
+      "max_K_Q_distribution": {
+        "0": 696,
+        "1": 96
+      },
+      "max_active_cores_over_n": 0.08333333333333333,
+      "max_active_cores_per_base": 1,
+      "max_active_times_max_K_Q": 1,
+      "max_active_times_max_K_Q_over_n_squared": 0.006944444444444444,
+      "max_total_sporadic_minimal_trades_per_base": 1,
+      "max_total_sporadic_over_n_squared": 0.006944444444444444,
+      "minimal_full_fiber_trades": 120,
+      "minimal_h": 4,
+      "n": 12,
+      "n_squared_budget": 144,
+      "p": 13,
+      "paid_minimal_trades": 24,
+      "row": "F13_mu12_A5_t3",
+      "sporadic_minimal_trades": 96,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 696,
+        "1": 96
+      },
+      "worst_bases": [
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                2,
+                6
+              ]
+            }
+          ],
+          "signature": [
+            1,
+            3,
+            11
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            3,
+            5,
+            7,
+            9,
+            10
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                7,
+                9,
+                10
+              ]
+            }
+          ],
+          "signature": [
+            1,
+            3,
+            11
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            7
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                3,
+                7
+              ]
+            }
+          ],
+          "signature": [
+            0,
+            1,
+            6
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            6,
+            8,
+            10,
+            11
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                8,
+                10,
+                11
+              ]
+            }
+          ],
+          "signature": [
+            0,
+            1,
+            6
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            10
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                3,
+                10
+              ]
+            }
+          ],
+          "signature": [
+            12,
+            12,
+            1
+          ],
+          "total_sporadic_minimal_trades": 1
+        }
+      ]
+    },
+    {
+      "A": 6,
+      "active_core_count_distribution": {
+        "0": 780,
+        "1": 144
+      },
+      "bases_total": 924,
+      "bases_with_active_core": 144,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 780,
+        "1,1": 144
+      },
+      "max_K_Q": 1,
+      "max_K_Q_distribution": {
+        "0": 780,
+        "1": 144
+      },
+      "max_active_cores_over_n": 0.08333333333333333,
+      "max_active_cores_per_base": 1,
+      "max_active_times_max_K_Q": 1,
+      "max_active_times_max_K_Q_over_n_squared": 0.006944444444444444,
+      "max_total_sporadic_minimal_trades_per_base": 1,
+      "max_total_sporadic_over_n_squared": 0.006944444444444444,
+      "minimal_full_fiber_trades": 180,
+      "minimal_h": 4,
+      "n": 12,
+      "n_squared_budget": 144,
+      "p": 13,
+      "paid_minimal_trades": 36,
+      "row": "F13_mu12_A6_t3",
+      "sporadic_minimal_trades": 144,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 780,
+        "1": 144
+      },
+      "worst_bases": [
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                2,
+                6
+              ]
+            }
+          ],
+          "signature": [
+            4,
+            6,
+            7
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            3,
+            4,
+            5,
+            7,
+            9,
+            10
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                7,
+                9,
+                10
+              ]
+            }
+          ],
+          "signature": [
+            4,
+            6,
+            7
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                3,
+                7
+              ]
+            }
+          ],
+          "signature": [
+            3,
+            1,
+            9
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            4,
+            6,
+            8,
+            10,
+            11
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                8,
+                10,
+                11
+              ]
+            }
+          ],
+          "signature": [
+            3,
+            1,
+            9
+          ],
+          "total_sporadic_minimal_trades": 1
+        },
+        {
+          "active_cores": 1,
+          "active_times_max_k": 1,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10
+          ],
+          "family_size": 2,
+          "max_K_Q": 1,
+          "minimal_trades": 1,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                3,
+                10
+              ]
+            }
+          ],
+          "signature": [
+            2,
+            9,
+            11
+          ],
+          "total_sporadic_minimal_trades": 1
+        }
+      ]
+    },
+    {
+      "A": 6,
+      "active_core_count_distribution": {
+        "0": 2920,
+        "1": 4192,
+        "2": 896
+      },
+      "bases_total": 8008,
+      "bases_with_active_core": 5088,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 2920,
+        "1,1": 3952,
+        "1,2": 240,
+        "2,1": 848,
+        "2,2": 48
+      },
+      "max_K_Q": 2,
+      "max_K_Q_distribution": {
+        "0": 2920,
+        "1": 4800,
+        "2": 288
+      },
+      "max_active_cores_over_n": 0.125,
+      "max_active_cores_per_base": 2,
+      "max_active_times_max_K_Q": 4,
+      "max_active_times_max_K_Q_over_n_squared": 0.015625,
+      "max_total_sporadic_minimal_trades_per_base": 3,
+      "max_total_sporadic_over_n_squared": 0.01171875,
+      "minimal_full_fiber_trades": 7056,
+      "minimal_h": 4,
+      "n": 16,
+      "n_squared_budget": 256,
+      "p": 17,
+      "paid_minimal_trades": 784,
+      "row": "F17_mu16_A6_t3",
+      "sporadic_minimal_trades": 6272,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 2920,
+        "1": 3952,
+        "2": 1088,
+        "3": 48
+      },
+      "worst_bases": [
+        {
+          "active_cores": 2,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8
+          ],
+          "family_size": 4,
+          "max_K_Q": 2,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 2,
+              "Q": [
+                1,
+                2,
+                3,
+                8
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                5,
+                8
+              ]
+            }
+          ],
+          "signature": [
+            10,
+            1,
+            9
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 2,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            5,
+            7,
+            10,
+            11,
+            13
+          ],
+          "family_size": 4,
+          "max_K_Q": 2,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 2,
+              "Q": [
+                7,
+                10,
+                11,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                5,
+                7,
+                13
+              ]
+            }
+          ],
+          "signature": [
+            10,
+            1,
+            9
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 2,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            7,
+            9,
+            10,
+            11,
+            13
+          ],
+          "family_size": 4,
+          "max_K_Q": 2,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 2,
+              "Q": [
+                7,
+                10,
+                11,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                9,
+                10,
+                11
+              ]
+            }
+          ],
+          "signature": [
+            2,
+            12,
+            14
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 2,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            1,
+            2,
+            4,
+            7,
+            14
+          ],
+          "family_size": 4,
+          "max_K_Q": 2,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 2,
+              "Q": [
+                1,
+                2,
+                4,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                2,
+                7
+              ]
+            }
+          ],
+          "signature": [
+            5,
+            7,
+            2
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 2,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            1,
+            2,
+            4,
+            7,
+            15
+          ],
+          "family_size": 4,
+          "max_K_Q": 2,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 2,
+              "Q": [
+                0,
+                1,
+                2,
+                7
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                4,
+                7,
+                15
+              ]
+            }
+          ],
+          "signature": [
+            9,
+            2,
+            6
+          ],
+          "total_sporadic_minimal_trades": 3
+        }
+      ]
+    },
+    {
+      "A": 8,
+      "active_core_count_distribution": {
+        "0": 2174,
+        "1": 6480,
+        "2": 3584,
+        "3": 544,
+        "4": 88
+      },
+      "bases_total": 12870,
+      "bases_with_active_core": 10696,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 2174,
+        "1,1": 6432,
+        "1,2": 48,
+        "2,1": 3584,
+        "3,1": 544,
+        "4,1": 88
+      },
+      "max_K_Q": 2,
+      "max_K_Q_distribution": {
+        "0": 2174,
+        "1": 10648,
+        "2": 48
+      },
+      "max_active_cores_over_n": 0.25,
+      "max_active_cores_per_base": 4,
+      "max_active_times_max_K_Q": 4,
+      "max_active_times_max_K_Q_over_n_squared": 0.015625,
+      "max_total_sporadic_minimal_trades_per_base": 4,
+      "max_total_sporadic_over_n_squared": 0.015625,
+      "minimal_full_fiber_trades": 17640,
+      "minimal_h": 4,
+      "n": 16,
+      "n_squared_budget": 256,
+      "p": 17,
+      "paid_minimal_trades": 1960,
+      "row": "F17_mu16_A8_t3",
+      "sporadic_minimal_trades": 15680,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 2174,
+        "1": 6432,
+        "2": 3632,
+        "3": 544,
+        "4": 88
+      },
+      "worst_bases": [
+        {
+          "active_cores": 4,
+          "active_times_max_k": 4,
+          "base": [
+            2,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 4,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                9,
+                11,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                5,
+                7,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                8,
+                9,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                7,
+                8,
+                9,
+                14
+              ]
+            }
+          ],
+          "signature": [
+            9,
+            15,
+            4
+          ],
+          "total_sporadic_minimal_trades": 4
+        },
+        {
+          "active_cores": 4,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            13
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 4,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                4,
+                11,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                7,
+                9,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                7,
+                10,
+                11,
+                13
+              ]
+            }
+          ],
+          "signature": [
+            13,
+            8,
+            9
+          ],
+          "total_sporadic_minimal_trades": 4
+        },
+        {
+          "active_cores": 4,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            1,
+            6,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 4,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                6,
+                8,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                8,
+                11,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                11,
+                12,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                8,
+                11,
+                12,
+                14
+              ]
+            }
+          ],
+          "signature": [
+            9,
+            3,
+            6
+          ],
+          "total_sporadic_minimal_trades": 4
+        },
+        {
+          "active_cores": 4,
+          "active_times_max_k": 4,
+          "base": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            10,
+            13
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 4,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                8,
+                10,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                4,
+                6,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                7,
+                8,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                7,
+                8,
+                13
+              ]
+            }
+          ],
+          "signature": [
+            3,
+            13,
+            14
+          ],
+          "total_sporadic_minimal_trades": 4
+        },
+        {
+          "active_cores": 4,
+          "active_times_max_k": 4,
+          "base": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            11,
+            13
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 4,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                2,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                3,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                6,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                6,
+                11,
+                13
+              ]
+            }
+          ],
+          "signature": [
+            11,
+            7,
+            2
+          ],
+          "total_sporadic_minimal_trades": 4
+        }
+      ]
+    },
+    {
+      "A": 8,
+      "active_core_count_distribution": {
+        "0": 12870
+      },
+      "bases_total": 12870,
+      "bases_with_active_core": 0,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 12870
+      },
+      "max_K_Q": 0,
+      "max_K_Q_distribution": {
+        "0": 12870
+      },
+      "max_active_cores_over_n": 0.0,
+      "max_active_cores_per_base": 0,
+      "max_active_times_max_K_Q": 0,
+      "max_active_times_max_K_Q_over_n_squared": 0.0,
+      "max_total_sporadic_minimal_trades_per_base": 0,
+      "max_total_sporadic_over_n_squared": 0.0,
+      "minimal_full_fiber_trades": 840,
+      "minimal_h": 4,
+      "n": 16,
+      "n_squared_budget": 256,
+      "p": 97,
+      "paid_minimal_trades": 840,
+      "row": "F97_mu16_A8_t3",
+      "sporadic_minimal_trades": 0,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 12870
+      },
+      "worst_bases": []
+    },
+    {
+      "A": 8,
+      "active_core_count_distribution": {
+        "0": 55810,
+        "1": 46760,
+        "2": 18720,
+        "3": 4000,
+        "4": 600,
+        "5": 80
+      },
+      "bases_total": 125970,
+      "bases_with_active_core": 70160,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 55810,
+        "1,1": 46760,
+        "2,1": 18720,
+        "3,1": 4000,
+        "4,1": 600,
+        "5,1": 80
+      },
+      "max_K_Q": 1,
+      "max_K_Q_distribution": {
+        "0": 55810,
+        "1": 70160
+      },
+      "max_active_cores_over_n": 0.25,
+      "max_active_cores_per_base": 5,
+      "max_active_times_max_K_Q": 5,
+      "max_active_times_max_K_Q_over_n_squared": 0.0125,
+      "max_total_sporadic_minimal_trades_per_base": 5,
+      "max_total_sporadic_over_n_squared": 0.0125,
+      "minimal_full_fiber_trades": 118800,
+      "minimal_h": 4,
+      "n": 20,
+      "n_squared_budget": 400,
+      "p": 41,
+      "paid_minimal_trades": 19800,
+      "row": "F41_mu20_A8_t3",
+      "sporadic_minimal_trades": 99000,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 55810,
+        "1": 46760,
+        "2": 18720,
+        "3": 4000,
+        "4": 600,
+        "5": 80
+      },
+      "worst_bases": [
+        {
+          "active_cores": 5,
+          "active_times_max_k": 5,
+          "base": [
+            0,
+            1,
+            2,
+            6,
+            8,
+            10,
+            14,
+            15
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 5,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                14,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                8,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                8,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                10,
+                14,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                8,
+                10,
+                14,
+                15
+              ]
+            }
+          ],
+          "signature": [
+            0,
+            8,
+            17
+          ],
+          "total_sporadic_minimal_trades": 5
+        },
+        {
+          "active_cores": 5,
+          "active_times_max_k": 5,
+          "base": [
+            0,
+            1,
+            5,
+            7,
+            9,
+            13,
+            14,
+            19
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 5,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                7,
+                9
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                13,
+                14,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                7,
+                9,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                9,
+                13,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                7,
+                9,
+                13,
+                14
+              ]
+            }
+          ],
+          "signature": [
+            0,
+            20,
+            12
+          ],
+          "total_sporadic_minimal_trades": 5
+        },
+        {
+          "active_cores": 5,
+          "active_times_max_k": 5,
+          "base": [
+            0,
+            1,
+            5,
+            12,
+            13,
+            14,
+            16,
+            19
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 5,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                12,
+                16
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                1,
+                14,
+                16
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                13,
+                14,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                5,
+                12,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                12,
+                13,
+                16
+              ]
+            }
+          ],
+          "signature": [
+            40,
+            14,
+            25
+          ],
+          "total_sporadic_minimal_trades": 5
+        },
+        {
+          "active_cores": 5,
+          "active_times_max_k": 5,
+          "base": [
+            0,
+            1,
+            2,
+            6,
+            13,
+            14,
+            15,
+            17
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 5,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                14,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                13,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                15,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                6,
+                13,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                13,
+                14,
+                17
+              ]
+            }
+          ],
+          "signature": [
+            5,
+            22,
+            32
+          ],
+          "total_sporadic_minimal_trades": 5
+        },
+        {
+          "active_cores": 5,
+          "active_times_max_k": 5,
+          "base": [
+            2,
+            4,
+            6,
+            9,
+            10,
+            11,
+            15,
+            18
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 5,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                4,
+                11,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                9,
+                11,
+                18
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                9,
+                10,
+                15,
+                18
+              ]
+            }
+          ],
+          "signature": [
+            26,
+            7,
+            24
+          ],
+          "total_sporadic_minimal_trades": 5
+        }
+      ]
+    },
+    {
+      "A": 10,
+      "active_core_count_distribution": {
+        "0": 65356,
+        "1": 69320,
+        "2": 37460,
+        "3": 10360,
+        "4": 1920,
+        "5": 240,
+        "6": 100
+      },
+      "bases_total": 184756,
+      "bases_with_active_core": 119400,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 65356,
+        "1,1": 69320,
+        "2,1": 37460,
+        "3,1": 10360,
+        "4,1": 1920,
+        "5,1": 240,
+        "6,1": 100
+      },
+      "max_K_Q": 1,
+      "max_K_Q_distribution": {
+        "0": 65356,
+        "1": 119400
+      },
+      "max_active_cores_over_n": 0.3,
+      "max_active_cores_per_base": 6,
+      "max_active_times_max_K_Q": 6,
+      "max_active_times_max_K_Q_over_n_squared": 0.015,
+      "max_total_sporadic_minimal_trades_per_base": 6,
+      "max_total_sporadic_over_n_squared": 0.015,
+      "minimal_full_fiber_trades": 221760,
+      "minimal_h": 4,
+      "n": 20,
+      "n_squared_budget": 400,
+      "p": 41,
+      "paid_minimal_trades": 36960,
+      "row": "F41_mu20_A10_t3",
+      "sporadic_minimal_trades": 184800,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 65356,
+        "1": 69320,
+        "2": 37460,
+        "3": 10360,
+        "4": 1920,
+        "5": 240,
+        "6": 100
+      },
+      "worst_bases": [
+        {
+          "active_cores": 6,
+          "active_times_max_k": 6,
+          "base": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            15,
+            18
+          ],
+          "family_size": 7,
+          "max_K_Q": 1,
+          "minimal_trades": 6,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                3,
+                6,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                4,
+                11,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                4,
+                9,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                9,
+                10,
+                15,
+                18
+              ]
+            }
+          ],
+          "signature": [
+            4,
+            8,
+            8
+          ],
+          "total_sporadic_minimal_trades": 6
+        },
+        {
+          "active_cores": 6,
+          "active_times_max_k": 6,
+          "base": [
+            0,
+            1,
+            2,
+            6,
+            8,
+            10,
+            13,
+            14,
+            15,
+            17
+          ],
+          "family_size": 10,
+          "max_K_Q": 1,
+          "minimal_trades": 6,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                14,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                2,
+                8,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                13,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                6,
+                13,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                10,
+                14,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                8,
+                10,
+                14,
+                15
+              ]
+            }
+          ],
+          "signature": [
+            22,
+            7,
+            29
+          ],
+          "total_sporadic_minimal_trades": 6
+        },
+        {
+          "active_cores": 6,
+          "active_times_max_k": 6,
+          "base": [
+            2,
+            3,
+            4,
+            6,
+            9,
+            10,
+            11,
+            15,
+            17,
+            18
+          ],
+          "family_size": 11,
+          "max_K_Q": 1,
+          "minimal_trades": 6,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                3,
+                6,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                4,
+                11,
+                15
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                4,
+                9,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                6,
+                10,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                9,
+                10,
+                15,
+                18
+              ]
+            }
+          ],
+          "signature": [
+            3,
+            25,
+            12
+          ],
+          "total_sporadic_minimal_trades": 6
+        },
+        {
+          "active_cores": 6,
+          "active_times_max_k": 6,
+          "base": [
+            1,
+            3,
+            4,
+            8,
+            10,
+            11,
+            15,
+            16,
+            17,
+            19
+          ],
+          "family_size": 10,
+          "max_K_Q": 1,
+          "minimal_trades": 6,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                4,
+                15,
+                16
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                8,
+                10,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                10,
+                11,
+                17,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                4,
+                15,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                8,
+                15,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                8,
+                15,
+                16,
+                19
+              ]
+            }
+          ],
+          "signature": [
+            17,
+            14,
+            25
+          ],
+          "total_sporadic_minimal_trades": 6
+        },
+        {
+          "active_cores": 6,
+          "active_times_max_k": 6,
+          "base": [
+            1,
+            2,
+            3,
+            7,
+            9,
+            10,
+            14,
+            15,
+            16,
+            18
+          ],
+          "family_size": 11,
+          "max_K_Q": 1,
+          "minimal_trades": 6,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                2,
+                7,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                3,
+                15,
+                16
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                3,
+                14,
+                18
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                3,
+                16,
+                18
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                7,
+                14,
+                16
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                7,
+                14,
+                15,
+                18
+              ]
+            }
+          ],
+          "signature": [
+            7,
+            4,
+            34
+          ],
+          "total_sporadic_minimal_trades": 6
+        }
+      ]
+    },
+    {
+      "A": 8,
+      "active_core_count_distribution": {
+        "0": 653367,
+        "1": 77112,
+        "2": 4728,
+        "3": 264
+      },
+      "bases_total": 735471,
+      "bases_with_active_core": 82104,
+      "full_fiber_identity_failures": 0,
+      "joint_active_cores_by_max_K_Q": {
+        "0,0": 653367,
+        "1,1": 77112,
+        "2,1": 4728,
+        "3,1": 264
+      },
+      "max_K_Q": 1,
+      "max_K_Q_distribution": {
+        "0": 653367,
+        "1": 82104
+      },
+      "max_active_cores_over_n": 0.125,
+      "max_active_cores_per_base": 3,
+      "max_active_times_max_K_Q": 3,
+      "max_active_times_max_K_Q_over_n_squared": 0.005208333333333333,
+      "max_total_sporadic_minimal_trades_per_base": 3,
+      "max_total_sporadic_over_n_squared": 0.005208333333333333,
+      "minimal_full_fiber_trades": 141960,
+      "minimal_h": 4,
+      "n": 24,
+      "n_squared_budget": 576,
+      "p": 97,
+      "paid_minimal_trades": 54600,
+      "row": "F97_mu24_A8_t3",
+      "sporadic_minimal_trades": 87360,
+      "t": 3,
+      "total_sporadic_minimal_distribution": {
+        "0": 653367,
+        "1": 77112,
+        "2": 4728,
+        "3": 264
+      },
+      "worst_bases": [
+        {
+          "active_cores": 3,
+          "active_times_max_k": 3,
+          "base": [
+            0,
+            1,
+            3,
+            6,
+            8,
+            13,
+            15,
+            22
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                3,
+                8,
+                22
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                3,
+                6,
+                8,
+                13
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                6,
+                8,
+                15,
+                22
+              ]
+            }
+          ],
+          "signature": [
+            42,
+            65,
+            39
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 3,
+          "active_times_max_k": 3,
+          "base": [
+            4,
+            7,
+            9,
+            12,
+            14,
+            16,
+            19,
+            21
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                12,
+                14,
+                21
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                7,
+                9,
+                14
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                9,
+                12,
+                14,
+                19
+              ]
+            }
+          ],
+          "signature": [
+            90,
+            96,
+            49
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 3,
+          "active_times_max_k": 3,
+          "base": [
+            1,
+            4,
+            6,
+            11,
+            13,
+            17,
+            20,
+            23
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                4,
+                6,
+                11
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                1,
+                6,
+                20,
+                23
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                4,
+                6,
+                13,
+                20
+              ]
+            }
+          ],
+          "signature": [
+            27,
+            28,
+            93
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 3,
+          "active_times_max_k": 3,
+          "base": [
+            0,
+            2,
+            3,
+            5,
+            8,
+            10,
+            15,
+            17
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                3,
+                5,
+                10
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                8,
+                10,
+                17
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                5,
+                8,
+                10,
+                15
+              ]
+            }
+          ],
+          "signature": [
+            58,
+            12,
+            82
+          ],
+          "total_sporadic_minimal_trades": 3
+        },
+        {
+          "active_cores": 3,
+          "active_times_max_k": 3,
+          "base": [
+            0,
+            2,
+            9,
+            11,
+            12,
+            14,
+            17,
+            19
+          ],
+          "family_size": 5,
+          "max_K_Q": 1,
+          "minimal_trades": 3,
+          "paid_minimal_trades": 0,
+          "sample_cores": [
+            {
+              "K_Q": 1,
+              "Q": [
+                0,
+                14,
+                17,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                2,
+                9,
+                17,
+                19
+              ]
+            },
+            {
+              "K_Q": 1,
+              "Q": [
+                9,
+                12,
+                14,
+                19
+              ]
+            }
+          ],
+          "signature": [
+            87,
+            27,
+            10
+          ],
+          "total_sporadic_minimal_trades": 3
+        }
+      ]
+    }
+  ],
+  "source_harness": "verify_h1_u1_toy_harness.py",
+  "summary": {
+    "max_K_Q": 2,
+    "max_active_cores_per_base": 6,
+    "max_active_times_max_K_Q": 6,
+    "max_total_sporadic_minimal_trades_per_base": 6,
+    "rows_with_active_cores": [
+      "F13_mu12_A5_t3",
+      "F13_mu12_A6_t3",
+      "F17_mu16_A6_t3",
+      "F17_mu16_A8_t3",
+      "F41_mu20_A8_t3",
+      "F41_mu20_A10_t3",
+      "F97_mu24_A8_t3"
+    ]
+  },
+  "task": "P-A active-core probe",
+  "verdict": "PASS: active-core mass is far below n^2 in every checked toy row"
+}
