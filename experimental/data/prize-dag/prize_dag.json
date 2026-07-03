@@ -3192,7 +3192,8 @@
    "falsifier": "SP-CENSUS-2 anchored active-core counts exceeding the n^{1/3} (trophy) or n^{4/3-delta} (ladder) shapes at in-range toys",
    "refs": [
     "experimental/notes/roadmaps/pa_active_core_probe.md"
-   ]
+   ],
+   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator."
   }
  ],
  "edges": [
