@@ -1369,3 +1369,18 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - XR 2c-gamma-a syzygy flat transport
+
+- **Agent/model:** Codex.
+- **DAG node:** `xr_syzygy_flat_transport`.
+- **Files added or changed:** `experimental/notes/roadmaps/xr_syzygy_flat_transport.md`,
+  `experimental/scripts/verify_xr_syzygy_flat_transport.py`,
+  `experimental/data/certificates/xr-syzygy-flat-transport/*`,
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** PROVED as a dictionary/reduction.
+- **What is being added:** The transport from diffuse 2c syzygy members to
+  Conjecture F sparse-dual supports and trace-matroid closed sets, with the
+  downstream lattice bound left explicitly to the F nodes.
+- **Verification:** `verify_xr_syzygy_flat_transport.py` checks the map on
+  MDS, common-root, and even-pullback toy flats over `F_17`.
