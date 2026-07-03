@@ -466,7 +466,8 @@
    "status": "PROVABLE",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
-   ]
+   ],
+   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped."
   },
   {
    "id": "displacement_uniform",
@@ -2412,16 +2413,18 @@
    "statement": "For a fixed post-strip pair, bound |A| by the exhaustive per-scale split: (i) CLOSE pairs (exchange distance <= ledger reach s_L): residual systems suppress at a q-FACTOR per step (#152's mechanism); (ii) FAR-ONLY sets (distance-s independent): Delsarte/anticode bounds at (j/n) per step; (iii) STRUCTURED mass (link-dense): the KMS/globalness route (juntas = tangent-paid). The wall closes iff the three coverages overlap \u2014 determined by xr_radius_arithmetic. The dichotomy is exhaustive by construction; the assembly is the wall.",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
-   ]
+   ],
+   "notes": "The scary failure mode (rank collapse after s=1) DOES NOT OCCUR: the ledger has full linear reach to t-1. The assembly's remaining work: the worst-case conversion (post-strip close-pair energy is either spread \u2014 ledger applies \u2014 or link-dense/junta \u2014 paid via KMS/globalness) + the QX.14 table."
   },
   {
    "id": "xr_ledger_qpower",
    "title": "Each residual constraint is worth a q-factor: the ledger's exchange rate over combinatorics",
    "status": "PROVABLE",
-   "statement": "From the #152 structure: each exchange step's residual constraint is an algebraic equation over F_q, so aligned-pair probability at distance s carries q^{-c(s,t)} suppression (c >= 1 per overdetermined step) \u2014 versus the anticode's (j/n) ~ 2^{-1} per step. One algebraic step buys what ~log q ~ 250 combinatorial steps buy. Formalize c(s,t) from the residual-system ranks (t = 2, s = 1 proved; the general shape is the target of exchange_ledger_gen_t).",
+   "statement": "RESOLVED IN CLOSED FORM: c(s,t) = min(s, t-1). Theorem (proof written, verified): for agreement supports S,T of size k+t at exchange distance s, codim(K_S cap K_T) = t + min(s,t) \u2014 Case r >= k: the two degree-<k explanations are FORCED EQUAL by interpolation on the overlap, giving q^{-(t+s)}; Case r < k: the pair count q^{2k-r} gives exactly q^{-2t} (statistical independence \u2014 the plateau). All-slope accounting: same-slope branch q^{1-t-min(s,t)} (union over q slopes), distinct-slope branch q^{2-2t} (the change of variables (u,v) -> (U_z, U_z') is invertible, so distinct-slope words are independent). Net suppression relative to FM: q^{-min(s,t-1)}. LINEAR GROWTH, NO RANK COLLAPSE; saturation at t-1 is the unavoidable distinct-slope independence, not a degeneration. Base case c(1,2)=1 = #152.",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
-   ]
+   ],
+   "notes": "PROVENANCE: derived externally (GPT Pro, relayed by project owner 2026-07-03); INDEPENDENTLY VERIFIED by the roadmap lane \u2014 both codim cases re-derived by hand, Monte Carlo at q=5,k=2,t=2 matches (s=1: ratio 0.98 vs q^-3; plateau: 1.07-1.11 vs q^-4). CAVEATS for the packet write-up: (a) this is the exact PAIR-CORRELATION (moment-level) ledger \u2014 the fixed-word worst-case conversion remains with the KMS/globalness branch, as the derivation itself states; (b) stated in the plain support-collinearity model \u2014 the bridge to LD_sw split-locator conventions needs its ledger row; (c) the cited 'average-support-collinearity packet' does not exist under that name \u2014 cite m1_support_coefficient_test.md and the actual #152/#193 anchors."
   },
   {
    "id": "xr_radius_arithmetic",
@@ -2431,7 +2434,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "the single most information-dense computation available on the XR front: it prices the whole wall"
+   "notes": "UNBLOCKED: c(s,t) = min(s,t-1) pinned \u2014 QX.14 is RUNNABLE NOW. Ledger reach resolved in principle: s_L = t-1 (full linear reach to the independence plateau); QX.14 determines the much smaller s* the coverage actually needs."
   },
   {
    "id": "profile_covering_obstruction",

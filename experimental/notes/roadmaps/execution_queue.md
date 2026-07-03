@@ -627,10 +627,14 @@ QS.5 [circuit_pricing] (S)  The deficiency-1 reuse: minimal circuit =
 ## Tier D6 — the XR wall's final assembly (2026-07-03; the soft-wall push)
 
 ```text
-QX.13 [xr_ledger_qpower] (S-M)  Formalize the q-factor-per-constraint
-      suppression c(s,t) from the #152 residual-system ranks (t=2, s=1
-      proved; parameterize the general shape).
-QX.14 [xr_radius_arithmetic] (S, after QX.13's parameterization)  THE
+QX.13 [xr_ledger_qpower] (S — now packaging, not research)  The
+      closed form c(s,t) = min(s,t-1) is derived and verified
+      (provenance: external GPT Pro derivation, independently checked
+      by hand + Monte Carlo). Package as a repo-standard proof note +
+      verifier; cite real anchors (m1_support_coefficient_test, #152);
+      add the LD_sw-conventions bridge row; state the moment-level
+      scope honestly (worst-case conversion stays with KMS/globalness).
+QX.14 [xr_radius_arithmetic] (S — RUNNABLE NOW, c is pinned)  THE
       TABLE: per rate, ledger q-powers + anticode factors + structured
       absorption vs the FM target; solve for the required ledger reach
       s*(rate). One spreadsheet-grade computation that prices the
