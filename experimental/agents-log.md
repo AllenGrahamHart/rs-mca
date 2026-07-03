@@ -1369,3 +1369,22 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - P1 deep-link staircase conditional packet
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/p1_deep_link_staircase_conditional.md`,
+  `experimental/scripts/verify_p1_deep_link_staircase_conditional.py`,
+  `experimental/data/certificates/p1-deep-link-staircase-conditional/`,
+  `experimental/data/prize-dag/prize_dag.json`, and the regenerated DAG SVG.
+- **Status:** CONDITIONAL for DAG node `deep_link_staircase` / task P1.
+- **What is being added:** The exact fixed-`(k-1)`-subcore reduction of
+  near-k aligned partners to rich points in an affine `(z,a)` line arrangement,
+  plus the conditional counting theorem: if post-paid occupied subcores are
+  `O(n)` and each has bounded residual richness, then the staircase is linear.
+- **How it is useful:** Names the remaining gap
+  `p1_post_paid_subcore_richline_cap` and prevents an overclaim: the verifier
+  embeds a raw three-family rich-line arrangement over `F_211` with 65 partner
+  parameters on `n=46` through one fixed near-k subcore before paid stripping.
+- **What to do next:** Prove the post-paid residual rich-line cap, or classify
+  the rich-line arrangements as tangent/quotient/dihedral paid strata.

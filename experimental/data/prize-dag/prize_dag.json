@@ -2772,15 +2772,16 @@
   {
    "id": "deep_link_staircase",
    "title": "THE COMMON GATE of beta-2b and beta-3c: aligned partners at near-k overlap",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
-   "statement": "For a fixed pair and a fixed aligned support T0: bound the number of aligned supports (distinct slopes) overlapping T0 in the budget-relevant range (roughly (k/2, k) points) by poly(n) \u2014 expected staircase-linear. This single lemma rations BOTH heavy-triangle stagnations (beta-2b: every heavy triple contains such a partner pair) AND the total overlap budget for light-triangle stagnations (beta-3c: each stagnation spends k+1 budget, and the staircase bounds the family's total budget). Pairwise machinery is proved (the r < k plateau gives exact 2t-additivity); the staircase is about the POPULATION of near-k partners, the link of T0 at deep sub-cores \u2014 where the tangent staircase and top-core cap machineries both point. EVIDENCE-GATED: E33 (count near-k-overlap aligned partners at toys) runs before proof attempts, per the program's strategy.",
-   "attack_surface": "PROOF ROUTE SELECTED BY E33 (falsifier never fired, both rows): the link-population cap. Observed: max partner events per anchor 13 (< n) at the corridor row, 72 = 4.5n at the dense stress row \u2014 linear shape throughout; and THE key structural signal: partner events through any single fixed subcore max out at 5 on BOTH rows (density-independent). Proof shape: per-subcore rigidity (interpolation at near-k cores \u2014 the c(s,t) plateau's boundary) x occupied-subcore accounting. The derived-pencil recursion demotes to a transport tool \u2014 no super-linear growth exists for it to explain.",
-   "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
+   "statement": "P1 CONDITIONAL proof packet: for a fixed anchor T0, near-k overlap partners reduce exactly to rich points of an affine line arrangement attached to a fixed deep subcore. The final staircase bound follows immediately if the post-paid residual line arrangements satisfy the named cap p1_post_paid_subcore_richline_cap: at most B*n occupied deep subcores and at most L residual rich partner events per occupied subcore, giving #partners <= B*L*n. This single conditional lemma rations BOTH heavy-triangle stagnations (beta-2b) and the total overlap budget for light-triangle stagnations (beta-3c).",
+   "attack_surface": "PROOF ROUTE SELECTED BY E33 and reduced by P1: exact (k-1)-subcore interpolation gives c = p_z + a h_R, so every off-core point is one affine line in the parameter plane (z,a), and partners through R are exactly (t+1)-rich points. E33 observed the post-paid constants expected from this cap (max fixed-subcore occupancy 5; total events 13 and 72=4.5n). Raw per-subcore O(1) is false before paid stripping: the P1 verifier embeds a three-family rich-line arrangement over F_211 with 65 partner parameters on n=46 through one fixed near-k subcore. Remaining named gap: p1_post_paid_subcore_richline_cap.",
+   "falsifier": "a post-paid toy pair + support whose residual fixed-subcore rich-line arrangement has unbounded rich points, or whose occupied deep subcores are super-linear",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/p1_deep_link_staircase_conditional.md"
    ],
-   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question."
+   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. P1 closes the algebraic reduction and counting implication CONDITIONALLY; it also names the exact missing post-paid cap after showing the raw cap is false for arbitrary unstripped pairs."
   },
   {
    "id": "xr_triangle_eliminant_form",

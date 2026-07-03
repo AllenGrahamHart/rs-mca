@@ -1,0 +1,184 @@
+{
+  "checks": 30,
+  "conditional_counting": {
+    "rows": [
+      {
+        "bound": 32,
+        "n": 16,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 80,
+        "n": 16,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 128,
+        "n": 16,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 128,
+        "n": 16,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 320,
+        "n": 16,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 512,
+        "n": 16,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 512,
+        "n": 16,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 1280,
+        "n": 16,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 2048,
+        "n": 16,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 128,
+        "n": 64,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 320,
+        "n": 64,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 512,
+        "n": 64,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 512,
+        "n": 64,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 1280,
+        "n": 64,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 2048,
+        "n": 64,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 2048,
+        "n": 64,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 5120,
+        "n": 64,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 8192,
+        "n": 64,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 2048,
+        "n": 1024,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 5120,
+        "n": 1024,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 8192,
+        "n": 1024,
+        "occupied_witness_factor": 1,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 8192,
+        "n": 1024,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 20480,
+        "n": 1024,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 32768,
+        "n": 1024,
+        "occupied_witness_factor": 4,
+        "per_witness_cap": 8
+      },
+      {
+        "bound": 32768,
+        "n": 1024,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 2
+      },
+      {
+        "bound": 81920,
+        "n": 1024,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 5
+      },
+      {
+        "bound": 131072,
+        "n": 1024,
+        "occupied_witness_factor": 16,
+        "per_witness_cap": 8
+      }
+    ]
+  },
+  "node": "deep_link_staircase",
+  "rich_line_reduction_fixture": {
+    "A": 6,
+    "field": "F_211",
+    "fixed_subcore_size": 3,
+    "interpretation": "raw per-subcore constant cap is false before post-paid stripping",
+    "k": 4,
+    "line_count": 40,
+    "n": 46,
+    "rich_parameters": 65,
+    "t": 2,
+    "verified_partner_parameters": 65
+  },
+  "status": "CONDITIONAL: requires post-paid per-subcore rich-line cap and occupied-subcore accounting",
+  "task": "P1"
+}
