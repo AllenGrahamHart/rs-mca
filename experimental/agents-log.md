@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - P-A active-core probe
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_pa_active_core_probe.py`;
+  `experimental/data/certificates/pa-active-core-probe/pa_active_core_probe.json`;
+  `experimental/notes/roadmaps/pa_active_core_probe.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / PROBE.
+- **What is being added:** A per-core column on H1's toy harness for
+  `u1_alpha_active_core_incidence`, recording active cores `Q`, per-core
+  sporadic full-fiber counts `K_Q`, active-core histograms, and joint
+  `(active cores, max K_Q)` mass against the `n^2` budget.
+- **How it is useful:** No active-core falsifier appears.  The largest
+  observed mass is `6`, with `max active cores/base = 6` and `max K_Q = 2`;
+  the data suggests active-core count is the primary incidence axis while
+  per-core multiplicity is usually trivial.
+- **What to do next:** Use the observed decomposition to shape the proof of
+  `u1_alpha_active_core_incidence`: first bound active cores, then handle the
+  rare `K_Q>1` energy correction or force shared toral/pullback structure.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

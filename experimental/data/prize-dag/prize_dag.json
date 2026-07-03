@@ -3037,8 +3037,11 @@
    "attack_surface": "second-moment/energy count over (Q, P) incidences; or show > n^{4/3} active cores force shared toral structure; toy calibration via H1's harness data (which already measures active cores implicitly)",
    "falsifier": "a toy base with active-core mass exceeding the n^2 budget post-strip (extend H1's harness with a per-core column \u2014 cheap)",
    "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ]
+    "experimental/notes/roadmaps/h1_u1_toy_harness.md",
+    "experimental/notes/roadmaps/pa_active_core_probe.md",
+    "experimental/scripts/verify_pa_active_core_probe.py"
+   ],
+   "notes": "P-A PROBE (28/28): active-core column added to H1. Across all checked bases, max active cores/base = 6, max K_Q = 2, max active*maxK = 6, max total sporadic minimal trades/base = 6, always far below n^2 (largest ratios about 1.6%). K_Q is almost always 1; active-core count, not multiplicity, is the first decomposition axis. No falsifier found."
   },
   {
    "id": "u1_beta_band_trade_reduction",
