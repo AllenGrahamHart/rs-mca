@@ -1,0 +1,237 @@
+{
+  "checks": 12,
+  "nodes": [
+    "a1_lower_overlap_occupied_subcore_accounting",
+    "a2_depth_cell_active_shadow_bound",
+    "u1_alpha_active_core_incidence"
+  ],
+  "rows": [
+    {
+      "A": 11,
+      "anchors_with_depth_shadow": 238,
+      "anchors_with_lower_shadow": 743,
+      "depth_active_count_distribution": {
+        "0": 3858,
+        "1": 235,
+        "10": 1,
+        "2": 2
+      },
+      "depth_cell_rs": [
+        9
+      ],
+      "depth_formal_cells_by_r": {
+        "9": 55
+      },
+      "depth_joint_active_by_max_K": {
+        "0,0": 3858,
+        "1,1": 227,
+        "1,2": 4,
+        "1,3": 2,
+        "1,4": 2,
+        "10,1": 1,
+        "2,1": 2
+      },
+      "depth_observed_events_by_r": {
+        "9": 263
+      },
+      "k": 8,
+      "lower_active_count_distribution": {
+        "0": 3353,
+        "1": 666,
+        "2": 63,
+        "3": 8,
+        "8": 4,
+        "9": 2
+      },
+      "lower_formal_partner_cells_by_r": {
+        "6": 462,
+        "7": 1650
+      },
+      "lower_joint_active_by_max_K": {
+        "0,0": 3353,
+        "1,1": 666,
+        "2,1": 63,
+        "3,1": 8,
+        "8,1": 4,
+        "9,1": 1,
+        "9,5": 1
+      },
+      "lower_observed_events_by_r": {
+        "6": 186,
+        "7": 684
+      },
+      "lower_overlap_rs": [
+        6,
+        7
+      ],
+      "max_depth_active_cells_per_anchor": 10,
+      "max_depth_active_times_max_K": 40,
+      "max_depth_events_per_anchor": 10,
+      "max_depth_multiplicity_per_cell": 4,
+      "max_lower_active_subcores_per_anchor": 9,
+      "max_lower_active_times_max_K": 45,
+      "max_lower_events_per_anchor": 13,
+      "max_lower_multiplicity_per_subcore": 5,
+      "n": 16,
+      "n_squared_budget": 256,
+      "q": 97,
+      "row": "F_97_mu16_k8_A11_t3",
+      "samples": 4096,
+      "t": 3
+    },
+    {
+      "A": 11,
+      "anchors_with_depth_shadow": 391,
+      "anchors_with_lower_shadow": 511,
+      "depth_active_count_distribution": {
+        "0": 121,
+        "1": 222,
+        "10": 9,
+        "2": 115,
+        "3": 37,
+        "4": 8
+      },
+      "depth_cell_rs": [
+        9
+      ],
+      "depth_formal_cells_by_r": {
+        "9": 55
+      },
+      "depth_joint_active_by_max_K": {
+        "0,0": 121,
+        "1,1": 180,
+        "1,2": 11,
+        "1,3": 15,
+        "1,4": 12,
+        "1,5": 2,
+        "1,6": 2,
+        "10,1": 8,
+        "10,5": 1,
+        "2,1": 77,
+        "2,2": 16,
+        "2,3": 12,
+        "2,4": 7,
+        "2,5": 3,
+        "3,1": 25,
+        "3,2": 8,
+        "3,3": 4,
+        "4,1": 3,
+        "4,2": 3,
+        "4,4": 2
+      },
+      "depth_observed_events_by_r": {
+        "9": 926
+      },
+      "k": 8,
+      "lower_active_count_distribution": {
+        "0": 1,
+        "1": 10,
+        "10": 17,
+        "11": 12,
+        "12": 16,
+        "13": 21,
+        "14": 15,
+        "15": 4,
+        "16": 5,
+        "17": 1,
+        "18": 1,
+        "19": 5,
+        "2": 26,
+        "20": 2,
+        "21": 1,
+        "26": 1,
+        "3": 58,
+        "38": 1,
+        "4": 84,
+        "40": 3,
+        "42": 1,
+        "5": 90,
+        "6": 63,
+        "7": 36,
+        "8": 24,
+        "9": 14
+      },
+      "lower_formal_partner_cells_by_r": {
+        "6": 462,
+        "7": 1650
+      },
+      "lower_joint_active_by_max_K": {
+        "0,0": 1,
+        "1,1": 10,
+        "10,1": 14,
+        "10,5": 3,
+        "11,1": 7,
+        "11,5": 5,
+        "12,1": 11,
+        "12,5": 5,
+        "13,1": 11,
+        "13,2": 3,
+        "13,5": 7,
+        "14,1": 10,
+        "14,5": 5,
+        "15,1": 4,
+        "16,1": 3,
+        "16,2": 1,
+        "16,5": 1,
+        "17,1": 1,
+        "18,5": 1,
+        "19,1": 3,
+        "19,2": 1,
+        "19,5": 1,
+        "2,1": 26,
+        "20,1": 1,
+        "20,5": 1,
+        "21,1": 1,
+        "26,5": 1,
+        "3,1": 58,
+        "38,5": 1,
+        "4,1": 81,
+        "4,2": 3,
+        "40,1": 1,
+        "40,5": 2,
+        "42,2": 1,
+        "5,1": 90,
+        "6,1": 62,
+        "6,2": 1,
+        "7,1": 36,
+        "8,1": 23,
+        "8,2": 1,
+        "9,1": 13,
+        "9,2": 1
+      },
+      "lower_observed_events_by_r": {
+        "6": 852,
+        "7": 2882
+      },
+      "lower_overlap_rs": [
+        6,
+        7
+      ],
+      "max_depth_active_cells_per_anchor": 10,
+      "max_depth_active_times_max_K": 60,
+      "max_depth_events_per_anchor": 50,
+      "max_depth_multiplicity_per_cell": 6,
+      "max_lower_active_subcores_per_anchor": 42,
+      "max_lower_active_times_max_K": 210,
+      "max_lower_events_per_anchor": 72,
+      "max_lower_multiplicity_per_subcore": 5,
+      "n": 16,
+      "n_squared_budget": 256,
+      "q": 17,
+      "row": "F_17_mu16_k8_A11_t3",
+      "samples": 512,
+      "t": 3
+    }
+  ],
+  "source": "E33 sampled aligned-pair engine plus P-A/OCC-1 certificates",
+  "summary": {
+    "max_depth_active_cells_per_anchor": 10,
+    "max_depth_active_times_max_K": 60,
+    "max_lower_active_subcores_per_anchor": 42,
+    "occ1_max_partner_events_through_one_actual_core": 5,
+    "pa_max_active_cores_per_base": 6,
+    "pa_max_active_times_max_K_Q": 6,
+    "verdict": "No active-shadow falsifier: active lower subcores and active depth cells stay within the calibrated linear/n^2 budgets in the toy aligned-pair rows."
+  },
+  "task": "ACT-SHADOW active occupancy audit"
+}
