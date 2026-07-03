@@ -102,4 +102,4 @@ To refresh the certificate:
 python3 experimental/scripts/verify_x15_h5_empty_sweep.py --write-certificate
 ```
 
-Current replay: **40 PASS, 0 FAIL**.
+Current replay: **50 PASS, 0 FAIL**.
