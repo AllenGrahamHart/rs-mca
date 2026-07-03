@@ -2540,7 +2540,8 @@
    "falsifier": "n/a (a computed coverage fact; it shrinks as mechanisms extend)",
    "refs": [
     "proof_sketch/s7_list_side.md"
-   ]
+   ],
+   "notes": "E26 HIT (#214, replayed green): 1,489,073 distinct strict pure-dihedral scales land inside the gap (2^33, sigma*] at prize-max rate 1/2 \u2014 including d = 2^33 + 2 with count C(2^40, 2^32+1), log2 >= 4.05e10 (astronomically above B*) \u2014 plus mixed dihedral-multiplicative hits through twin-fiber size 2^21. Note: 1,489,073 ~ half the 2,978,147-radius deficit (parity structure of dihedral scales). CONDITIONAL on E25: the windows are real floors iff dihedral alignment is real (paid or unpaid \u2014 either way they witness unsafety). Pinned/Row-C strict intervals empty \u2014 the gap phenomenon is prize-max-specific, as expected. If E25 confirms, rate 1/2's biggest blocker FALLS."
   },
   {
    "id": "pma_pullback_lists",
@@ -2587,7 +2588,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap)."
+   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap). | E26 (#214): the WEAPON face is arithmetically confirmed \u2014 the class provides ~1.5M new window scales inside rate 1/2's deficit. E25 (is the alignment real?) is now the single gate on both the ledger question and the gap coverage."
   },
   {
    "id": "xr_target_budget_audit",
