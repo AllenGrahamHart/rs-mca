@@ -2577,7 +2577,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field)."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field). | THE COMPILED TARGET (proved compiler): the entire clean-rate safe-side obligation is now officially R_post(u,v; A) <= 16 n^3 per pair \u2014 post quotient/tangent strip, with dihedral and extension columns INSIDE R_post. Sufficiency is exact integer arithmetic at all six candidates. The face-4 rungs are the supply side of exactly this inequality."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2593,7 +2593,7 @@
   {
    "id": "xr_target_budget_audit",
    "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "Compute, per clean-rate decision row (from the census/#213 pipeline + the E14 gate-margin conventions reconciled): the exact integer slack s = B* - B_quot(A) - B_tan(A) at the safe-side candidate A. TWO WORLDS: s = 0 => the exclusion is true rigidity (no unpaid support at all \u2014 the emptiness form, the hard band problem); s >= 1 => the singleton obstruction DISSOLVES and the requirement becomes bounded-multiplicity forcing (no pair has s+1 unpaid deep slopes) \u2014 attackable by the proved multi-slope machinery (two-slope intersection, deep-mca Case (a), eliminant dichotomies: overlapping deep supports force structure). Mechanical arithmetic; the problem's CLASS depends on the answer.",
    "attack_surface": "read s off the exact quotient counts at the candidates (census_exact_counts) minus the tangent staircase; reconcile E14's gate-margin (GM) conventions; note a trivial construction gives SOME pair one deep bad slope, so s = 0 would make the target tight against trivially-existing objects \u2014 suspicious, and worth double-checking the decision point's location before concluding rigidity is needed",
@@ -2601,7 +2601,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly. | QA.21 NEGATIVE (76/76 green, GAP QA21-G1): the crude dihedral column exceeds B* at EVERY clean-rate candidate (+292/+158/+52 bits at Row C; ~1e11-bit scale at prize-max); the E26 window model gives 0 at odd j but provably omits the fixed-point branch (E30). NO in-repo lemma bounds per-pair dihedral simultaneity. The s >= 2^122 verdict is now CONDITIONAL on dihedral_staircase; the audit's status reverts to TARGET pending that lemma. Honest arc: the requirement computation giveth (the poly allowance) and taketh away (the dihedral column)."
+   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly. | QA.21 NEGATIVE (76/76 green, GAP QA21-G1): the crude dihedral column exceeds B* at EVERY clean-rate candidate (+292/+158/+52 bits at Row C; ~1e11-bit scale at prize-max); the E26 window model gives 0 at odd j but provably omits the fixed-point branch (E30). NO in-repo lemma bounds per-pair dihedral simultaneity. The s >= 2^122 verdict is now CONDITIONAL on dihedral_staircase; the audit's status reverts to TARGET pending that lemma. Honest arc: the requirement computation giveth (the poly allowance) and taketh away (the dihedral column). | CLOSED by the poly-forcing compiler (52/52, exact integers): 16 n^3 <= s_lo(A) at all six candidates (prize rows tight at 29 n^3); QA21-G1 DISSOLVES \u2014 the dihedral/extension columns fold into R_post, so no separate B_dih subtraction exists; the staircase req edge removed accordingly."
   },
   {
    "id": "rigidity_kernel",
@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others. | FACE 4 BOTTOMED OUT (nested decomposition complete per the descend-until-blocked strategy): every leaf is now PROVABLE (pencil cascade, alpha budget, sunflower cap, eliminant form, flat transport), an IDENTIFICATION (gamma-c = face 2's residue; 2a = the list lane), ledger design (2b + beta-2a), or EVIDENCE-GATED (deep_link_staircase <- E33; eliminant-vanishing classification <- E32-ext; dihedral staircase <- X-3). No leaf is an unnamed mystery."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others. | FACE 4 BOTTOMED OUT (nested decomposition complete per the descend-until-blocked strategy): every leaf is now PROVABLE (pencil cascade, alpha budget, sunflower cap, eliminant form, flat transport), an IDENTIFICATION (gamma-c = face 2's residue; 2a = the list lane), ledger design (2b + beta-2a), or EVIDENCE-GATED (deep_link_staircase <- E33; eliminant-vanishing classification <- E32-ext; dihedral staircase <- X-3). No leaf is an unnamed mystery. | X-3 WAVE (3 packets, 127 checks green): rung 2a reduction PROVED; rung 2b forcing map PROVED (d + s = t complementarity); deep-regime staircase PROVED (n+2, all slopes); the poly-forcing COMPILER proved \u2014 face 4's target is officially R_post <= 16 n^3. Remaining open on face 4: the 2b ledger design, the corridor staircase content (merged into rungs), the 2c leaves (E32-ext/E33-gated + provable packets), and the two identifications."
   },
   {
    "id": "dihedral_staircase",
@@ -2626,7 +2626,8 @@
    "falsifier": "a toy pair aligning super-linear-in-n dihedral supports (searchable with E25's machinery)",
    "refs": [
     "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
-   ]
+   ],
+   "notes": "GPT PRO X-3 + Codex integration (verifier 36/36): PROVED in the deep regime 3j <= n-k \u2014 at most n+2 exact supports across ALL slopes, dihedrality not even needed (two supports pin (U,V); third codewords forced to the pencil; error-word zero sets change at <= n slopes). HONESTLY SCOPED: not applicable at the clean-rate candidates (j ~ 957 of 1024). The corridor obligation is REFRAMED by the poly-forcing compiler: the dihedral column folds into R_post <= 16 n^3 \u2014 no separate budget subtraction; this node's corridor content merges into the face-4 rungs. | POST-COMPILER ROLE: demoted req -> ev. Dihedral supports count inside R_post like any others, so the rungs' analysis covers them; this lemma is now a sharpening (and its deep-regime instance a proved template), not a gate."
   },
   {
    "id": "xr_pencil_cascade",
@@ -2656,14 +2657,15 @@
   {
    "id": "xr_sameslope_list_crossover",
    "title": "RUNG 2a: same-slope families ARE the list challenge's object",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "Within one slope z, distinct aligned supports = distinct codewords at distance exactly j from u+zv, and their supports are AUTOMATICALLY far-spread (two distinct codewords agree < k, so exact agreement sets of the same word overlap r < k \u2014 qx13 Theorem 1's forced-equality case, contrapositive). So the same-slope leg of xr_smallcore_spread_count is EXACTLY a worst-word list count at radius j \u2014 the SECOND grand challenge's kernel object. THE TWO GRAND CHALLENGES MEET HERE: any per-word poly list bound at the corridor radius (the list lane's own safe-side content, with its planted-sunflower machinery, petal ledgers, and clean margins at the clean rates) plugs in directly, summed over the <= q slopes with the FM/budget arithmetic controlling the slope sum.",
    "attack_surface": "consume the list lane's corridor analysis (list_crossing_localization, worst_word_planted revised, pma machinery); the reduction itself is the one-paragraph argument above",
    "falsifier": "a toy word with super-poly codewords at exact distance j (the list lane's own falsifier)",
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+   ],
+   "notes": "PROVED (X-3 wave, verifier 39/39): same_slope_branch(u,v;z,A) = ExactList_C(w_z, A) exactly, with automatic far-spread (RS uniqueness + exactness). The list-lane obligation itself lives in the list nodes, as designed."
   },
   {
    "id": "xr_partial_tangent_band",
@@ -2674,7 +2676,8 @@
    "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+   ],
+   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
@@ -5062,11 +5065,6 @@
    "kind": "ev"
   },
   {
-   "from": "dihedral_staircase",
-   "to": "xr_target_budget_audit",
-   "kind": "req"
-  },
-  {
    "from": "dihedral_quotient_stratum",
    "to": "dihedral_staircase",
    "kind": "ev"
@@ -5165,6 +5163,11 @@
    "from": "xr_syzygy_flat_transport",
    "to": "xr_scattered_syzygy_flattice",
    "kind": "req"
+  },
+  {
+   "from": "dihedral_staircase",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "ev"
   }
  ]
 }
