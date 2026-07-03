@@ -2571,13 +2571,13 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points",
    "status": "TARGET",
    "key": true,
-   "statement": "For every received pair (u,v) at the clean-rate corridor operating points: every aligned j-support is charged to the tangent, quotient, or extension ledgers \u2014 the post-strip residual family is EMPTY. This is forced: 2^100 x FM < 1 there, so for integer counts the target IS emptiness, and the SINGLETON OBSTRUCTION (verified) shows no density/spectral/average-case composition can prove it: a singleton family satisfies the top-core cap, all spectral bridges, and the v8 cap, yet violates the target. Identity: this is Paper D v12's Open Problem prob:band (the aperiodic band problem) in per-pair form, at specific operating points. The right tool SHAPE exists and is proved at 3r <= w-1 (thm:deep-mca: per-pair interpolation/double-counting dichotomy, tangent-or-few-slopes, arbitrary linear codes); the task is extending exclusion-type dichotomies into the band with the strip ledgers absorbing the structured alternatives \u2014 the eliminant/deficiency machinery (M5 u-ladder, #199) is the shaped instrument, NOT the density toolkit.",
+   "statement": "TRANSFORMED BY THE AUDIT (s >= 2^122): the emptiness form is DEAD at every clean-rate decision point \u2014 the requirement is now: for every pair (u,v), the unpaid aperiodic deep bad-slope count at the candidate agreement is <= poly(n) (any polynomial up to ~n^3 fits inside the 2^122-2^127.9 allowance). The singleton obstruction is GONE. The needed statement is the GENERIC BRANCH of a deep-mca-type dichotomy at corridor radius: tangent-paid OR <= poly(n) slopes \u2014 deep-mca proves exactly this shape (<= r+1 ~ n) at radius <= (1-rho)/3; the task is extending the dichotomy's reach with a 2^122-sized loss tolerance. Unsafe side at A-1 is quotient-census-witnessed (the candidates were chosen as first-past-the-realizable point). This is a VASTLY weaker target than this morning's emptiness form and materially weaker than R2-as-stated (poly count, not poly x FM).",
    "attack_surface": "per-pair algebraic exclusion: an unpaid aperiodic aligned support at corridor deficiency = a solution of an overdetermined algebraic system; the M5 eliminant dichotomy (nonzero eliminant => bounded solutions; identically-valid => structured/paid) is the proved base pattern; deep-mca is the proved template at low radius; the gap is radius reach \u2014 the band",
    "falsifier": "an explicit post-strip aligned support at a clean-rate corridor point (would also be a spectacular unsafe-side discovery)",
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2593,14 +2593,15 @@
   {
    "id": "xr_target_budget_audit",
    "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?",
-   "status": "TARGET",
+   "status": "PROVABLE",
    "key": true,
    "statement": "Compute, per clean-rate decision row (from the census/#213 pipeline + the E14 gate-margin conventions reconciled): the exact integer slack s = B* - B_quot(A) - B_tan(A) at the safe-side candidate A. TWO WORLDS: s = 0 => the exclusion is true rigidity (no unpaid support at all \u2014 the emptiness form, the hard band problem); s >= 1 => the singleton obstruction DISSOLVES and the requirement becomes bounded-multiplicity forcing (no pair has s+1 unpaid deep slopes) \u2014 attackable by the proved multi-slope machinery (two-slope intersection, deep-mca Case (a), eliminant dichotomies: overlapping deep supports force structure). Mechanical arithmetic; the problem's CLASS depends on the answer.",
    "attack_surface": "read s off the exact quotient counts at the candidates (census_exact_counts) minus the tangent staircase; reconcile E14's gate-margin (GM) conventions; note a trivial construction gives SOME pair one deep bad slope, so s = 0 would make the target tight against trivially-existing objects \u2014 suspicious, and worth double-checking the decision point's location before concluding rigidity is needed",
    "falsifier": "n/a (an audit)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then."
   },
   {
    "id": "rigidity_kernel",
@@ -2612,7 +2613,8 @@
    "falsifier": "any face's falsifier is RK's falsifier at that instance (the four faces' probes all test RK)",
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
-   ]
+   ],
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged."
   }
  ],
  "edges": [
