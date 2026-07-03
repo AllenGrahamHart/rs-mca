@@ -1450,7 +1450,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant)"
+   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family."
   },
   {
    "id": "thm_exactslack",
@@ -1712,7 +1712,7 @@
    "title": "PMA stage 3 (the residue): many-petal, sub-Johnson regime with CORRELATED targets",
    "status": "TARGET",
    "key": true,
-   "statement": "For M above the Johnson threshold: bound the auxiliary list despite sub-Johnson agreement. The structure not yet exploited: all petal targets c_i L_D come from ONE polynomial L_D (the word is far from arbitrary), the per-petal cap |S_i| <= d spreads agreement thin, and W vanishes on R_P.",
+   "statement": "RESTATED after the pullback counterexample (verified): split L(D) = L_quot u L_lowdef u L_prim. The quotient-pullback stratum is REAL and exponential-in-M (pma_pullback_lists) \u2014 charged to the quotient-profile budget (M = O(log n) at the cutoff => poly-but-budgeted). The low-defect stratum is covered by the fixed-excess machinery. The corrected target: THE PRIMITIVE RESIDUAL \u2014 non-pullback, non-low-defect wide sub-Johnson lists are polynomial. The third appearance of strip-quotient-first (after XR's E2 caveat and F's scale recursion).",
    "attack_surface": "two independent angles: (a) correlated-target strengthening of GS (the c_i are scalars times a COMMON L_D \u2014 one-dimensional target space per petal); (b) descent: extras of the auxiliary problem are degree-d objects \u2014 the SAME problem at (k, sigma) -> (d+1, ...), strictly smaller; iterate until Johnson-safe. Q2.9 fixed-excess data calibrates both.",
    "falsifier": "an adversarial many-petal family (R3 attack) with super-poly auxiliary list",
    "refs": [
@@ -1942,7 +1942,7 @@
    "id": "aperiodic_zero_at_crossing",
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates",
    "status": "CONDITIONAL",
-   "statement": "At every candidate crossing point of every official rate, n^B * FM < 1 (the FM mean there is ~2^-thousands per the window evaluations), so under R2 with ANY polynomial exponent the integer aperiodic count is EXACTLY zero. This is why B <= 3 suffices for exact adjacency: integrality absorbs the polynomial slack. The FM-evaluation table at all candidate points is the PROVABLE computational half.",
+   "statement": "CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 \u2014 margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term \u2014 R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
@@ -2420,7 +2420,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "The scary failure mode (rank collapse after s=1) DOES NOT OCCUR: the ledger has full linear reach to t-1. The assembly's remaining work: the worst-case conversion (post-strip close-pair energy is either spread \u2014 ledger applies \u2014 or link-dense/junta \u2014 paid via KMS/globalness) + the QX.14 table."
+   "notes": "The scary failure mode (rank collapse after s=1) DOES NOT OCCUR: the ledger has full linear reach to t-1. The assembly's remaining work: the worst-case conversion (post-strip close-pair energy is either spread \u2014 ledger applies \u2014 or link-dense/junta \u2014 paid via KMS/globalness) + the QX.14 table. | WAVE-1 VERDICT: per-distance residual certification to s ~ t-1 is implausible (billions of steps); ALL conversion pressure now rests on the KMS/globalness branch (the poly-vs-q-power composition + the 10-candidate leak adjudication). The wall's fate = that composition, full stop."
   },
   {
    "id": "xr_ledger_qpower",
@@ -2436,7 +2436,7 @@
    "id": "xr_radius_arithmetic",
    "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope",
    "status": "PROVABLE",
-   "statement": "TABLE COMPUTED (wave 1, verifier 215/215): s* = 1 AT EVERY SHAPE. Per-step ledger gap j(n-j)/q = 114.8 bits (pinned row), 232.0 (Row C), ~176-178 (prize-max, all four rates). Structural gems: the distinct-slope plateau sums to EXACTLY E[X]^2 (Vandermonde identity), so E[X^2] <= E[X]^2 (1 + 1/q) + E[X] (1 + j(n-j)/(q-ish)) \u2014 the second moment is maximally concentrated and the moment side of the XR wall closes at the minimal possible price. Remaining wall content = the worst-case conversion only (globalness adjudication + the poly-vs-q-power composition).",
+   "statement": "FULL VERDICT (wave 1, 215/215 checks \u2014 CORRECTING the premature 's*=1' reading): s* = 1 NEVER closes a corridor row. Under the pinned-ledger two-regime model every corridor edge needs full reach s* = t*-1 (~8.6e9 exchange steps at rate-1/2 prize scale, ~n*2^-8); Chebyshev-strict reads identically; even the generous three-regime scenario needs s* ~ t*/15 at prize scale. THE RESIDUAL-LEDGER CONVERSION PATH IS HARD, localized to the mid band s in (t/15, t-1]. Structural facts that survive: the distinct-slope plateau = E[X]^2 exactly (Vandermonde); s=1 dominates the head; a second bulk peak (~j(n-j)/n) rides the plateau at a q^-1 discount. MITIGATIONS: the A=265 stripped exemplar needs only s* = 4 (small-t partial XR = what P2 needs); at rates 1/4, 1/8, 1/16 the corridor edges have E[X] < 1 (moment-level Markov-trivial) \u2014 THE CONTENTFUL ROWS ARE RATE 1/2 ONLY; the n^3-budget and plateau-absorption mechanisms hand off with ~3 bits of margin at the rate-1/2 edge (the arithmetic shadow of E[X] ~ B*).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
@@ -2527,6 +2527,28 @@
     "proof_sketch/s2_paid_ledger.md#3"
    ],
    "notes": "Reading B adopted as working interpretation by project decision; the boss dissolves into solver completeness + engineering + judgment. The classical branch demotes to insurance-tier."
+  },
+  {
+   "id": "rate_half_coverage_gap",
+   "title": "DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At prize-max rate 1/2 the exact 2-power quotient-core window undershoots the mean crossing: M_max = 2^33 vs sigma* = 8,592,912,738 leaves 2,978,147 radii that are neither proved-unsafe (quotient windows) nor extras-zero (integrality) \u2014 an uncovered band the current mechanisms do not reach. Rates 1/4, 1/8, 1/16 are CLEAN (first open radius margins < -121 at Row C, < -3.4e11 at prize-max). Together with the s* verdict and the thin -12.87 margins, all three wave-1 findings point the same way: RATE 1/2 IS THE BATTLEFIELD; the other three rates look dramatically more closable.",
+   "attack_surface": "candidate closers: extend the quotient-core window arithmetic past 2-power M (other divisors of the band), sharpen the mean-crossing bracket, or route the band through the unsafe-witness machinery; first step is mapping WHICH mechanism family the band's radii belong to",
+   "falsifier": "n/a (a computed coverage fact; it shrinks as mechanisms extend)",
+   "refs": [
+    "proof_sketch/s7_list_side.md"
+   ]
+  },
+  {
+   "id": "pma_pullback_lists",
+   "title": "COUNTEREXAMPLE (verified): quotient-pullback families give exponential sub-Johnson auxiliary lists",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "Explicit construction (Codex; verified here by hand + numerically at F_31): petals = quotient fibers T_i = {x^ell = alpha_i}, L_D = H(X^ell) a pullback locator, W_S = G_S(X^ell) with G_S(Y) = Y H(Y) - prod_{i in S}(Y - alpha_i) (leading terms cancel): each W_S agrees with U* on exactly (m+1) ell = d + ell points; C(M, m+1) distinct members; sub-Johnson whenever (m+1)^2 < Mm. The unqualified correlated-target hope is FALSE: shared L_D alone cannot give poly wide lists. The family is PURE PULLBACK \u2014 chargeable to the quotient-profile budget; at the L1 cutoff M = O(log n), so the mass is poly-but-budgeted (it consumes exponent, realizing the conj:B profile term concretely).",
+   "refs": [
+    "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+   ]
   }
  ],
  "edges": [
@@ -4688,6 +4710,21 @@
   {
    "from": "multiplier_exactness",
    "to": "integer_code_distance_cert",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_coverage_gap",
+   "to": "list_adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_coverage_gap",
+   "to": "adjacency_closing",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_pullback_lists",
+   "to": "pma_wide_residual",
    "kind": "ev"
   }
  ]
