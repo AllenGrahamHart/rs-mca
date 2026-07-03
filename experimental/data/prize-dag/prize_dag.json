@@ -23,7 +23,8 @@
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#1"
    ],
-   "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed."
+   "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed.",
+   "notes": "CAMPAIGN PIVOT (project decision 2026-07-03): primary closure target = rates 1/4, 1/8, 1/16 (clean corridors, 100+-bit conversion slack, no coverage band); rate 1/2 = the endgame (three named residuals: the tight composition, the 3.0e6-radius band, the -12.87-bit margin point). Per-rate determinations are creditable partials; three-rate closure would be a monumental submission and an information source on 1/2."
   },
   {
    "id": "list_grand",
@@ -34,7 +35,8 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it."
+   "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it.",
+   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object)."
   },
   {
    "id": "packaging",
@@ -2549,6 +2551,18 @@
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
    ]
+  },
+  {
+   "id": "r2_clean_rates",
+   "title": "CAMPAIGN TARGET: R2 with 100+-bit slack at rates 1/4, 1/8, 1/16",
+   "status": "TARGET",
+   "key": true,
+   "statement": "The weakened wall statement that SUFFICES at the clean rates: worst-case unpaid aperiodic count <= 2^100 x FM (any loss up to the ~121-243 bit margins the wave-1 tables measured). The full KMS/globalness + pair-ledger composition must beat only THIS at the three-rate operating points \u2014 two orders of magnitude more room than rate 1/2's ~3-13 bits. If the composition closes here, the safe side of the three-rate determination assembles from already-proved pieces.",
+   "attack_surface": "the same conversion chain (strip -> tangent-cap globalness -> KLLM slice variant -> E_3 bridges -> pair ledger) evaluated at the clean-rate margins; the leak adjudication (10 candidates) still gates the hypothesis; hand the slack-composition arithmetic to the strongest available prover with #211's exponents and the wave-1 margins as given data",
+   "falsifier": "the composition arithmetic failing even with 2^100 slack (would push the clean rates onto the SPI route, which inherits the F machinery)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
   }
  ],
  "edges": [
@@ -4726,6 +4740,26 @@
    "from": "pma_pullback_lists",
    "to": "pma_wide_residual",
    "kind": "ev"
+  },
+  {
+   "from": "r2_clean_rates",
+   "to": "r2_rigidity",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_globalness_from_ledger",
+   "to": "r2_clean_rates",
+   "kind": "req"
+  },
+  {
+   "from": "xr_small_set_engine",
+   "to": "r2_clean_rates",
+   "kind": "req"
+  },
+  {
+   "from": "xr_radius_arithmetic",
+   "to": "r2_clean_rates",
+   "kind": "req"
   }
  ]
 }

@@ -701,6 +701,36 @@ QA.20 [rules: compiler semantics] (S — reading)  Add to the freeze
       much of certifier_uniformity part (ii) is actually required.
 ```
 
+## Tier 3R — THE THREE-RATE CAMPAIGN (project decision 2026-07-03)
+
+Primary target: close BOTH determinations at rates 1/4, 1/8, 1/16.
+Rationale (wave-1 data): conversion slack 100+ bits there vs 3-13 at
+rate 1/2; corridor decision points integrality-clean by -121..-1e12
+bits; no coverage band. Rate 1/2 = the endgame with three named
+residuals.
+
+```text
+Q3R.1 [r2_clean_rates composition] (M — TOP PRIORITY; GPT-Pro-shaped)
+      The slack composition: strip -> tangent-cap globalness -> KLLM
+      -> E_3 bridges -> pair ledger, required to beat only 2^100 x FM
+      at the clean-rate operating points. Given data: #211's KLLM
+      exponents, the wave-1 margin tables, the proved bridges.
+Q3R.2 [leak adjudication] (M)  The 10 post-strip link-leak candidates
+      from #209: classify each (strippable under L_tan convention vs
+      genuine tangent leak). Gates the globalness hypothesis at ALL
+      rates.
+Q3R.3 [clean-rate corridor pipeline] (M-L; Codex-shaped)  Run the
+      census/dodge/exact-count machinery on concrete rows at rates
+      1/4, 1/8, 1/16 (Row-C-class + pinned-class): locate crossings,
+      verify integrality margins per row, emit the per-row certificate
+      skeletons. The determination's assembly line, on the clean lanes.
+Q3R.4 [pullback-strip packet] (M)  Package pma_pullback_lists +
+      restate the primitive residual; charge the pullback stratum to
+      the profile budget (dyadic_profile_evaluation feeds this).
+Q3R.5 [per-rate dossier framing] (S)  The submission shape: three-rate
+      determinations as the headline partial, per Reading B semantics.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the
