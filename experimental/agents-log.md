@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - U2-A moment/PTE window split
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_u2a_window_split.py`;
+  `experimental/data/certificates/u2a-window-split/u2a_window_split.json`;
+  `experimental/notes/roadmaps/u2a_window_split.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED arithmetic / WINDOW PACKET.
+- **What is being added:** Exact dangerous block-size windows for the frozen
+  W3 grammar `t < b <= floor(log2 n)^2`, derived from the QA.22 clean-rate
+  rows, including TR-transported quotient-row windows.
+- **How it is useful:** U2-B now has an exact cell list: RowC `1/4` and
+  `1/8` use `b=6..100`, RowC `1/16` uses `b=4..100`; all prize small windows
+  are empty and route to U2-C.
+- **What to do next:** Build U2-B certificates for the Row-C base cells and
+  the live transported Row-C quotient cells; do not restrict to the older
+  `2t+4` empirical F2 window.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
