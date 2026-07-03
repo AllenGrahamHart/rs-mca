@@ -690,7 +690,7 @@ QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END
 ## Tier D8 — crux 2's final layer (2026-07-03)
 
 ```text
-QA.19 [certifier_uniformity part (i)] (M)  Uniform multiplier
+QA.19 MOOT (2026-07-03: multiplier route refuted; direct mod-p MITM is per-row deterministic — no uniformity theorem needed)  [was: Uniform multiplier
       existence: for every admissible p, good compression multipliers
       exist (counting over c). Immediately uniformizes the weight-~24
       radius extension => ALL knife-edge windows shrink at once; the
