@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others."
   },
   {
    "id": "dihedral_staircase",
@@ -2687,6 +2687,43 @@
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ],
+   "notes": "DECOMPOSED via the syzygy anatomy (derived and verified in-line): stagnation = twisted syzygy of constrained-support dual codewords; MDS dual weight forces the k+1 overlap budget (2c-alpha, PROVABLE, 4-line proof); budget-meeting configurations split into concentrated (popular cores + the m=3 triangle dichotomy \u2014 2c-beta, first concrete target, toy-exhaustible) and diffuse (scattered syzygies = face 2's F-lattice objects \u2014 2c-gamma). E32 probe queued: stacked-rank column on E27's machinery, hunt stagnating far-spread triples."
+  },
+  {
+   "id": "xr_syzygy_support_lemma",
+   "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "Alignment functionals of support T are exactly the dual codewords supported in T (Lambda_T, dim t; C-perp is MDS with min weight k+1); condition rows have tensor form (lambda, z lambda). Rank stagnation at a new support forces a SYZYGY: dual codewords lambda_i in Lambda_{T_i} with sum (z_i - z_m) phi_i = 0 (the twist is invertible since slopes are distinct). Support cancellation + the MDS dual weight then force: for some member i0, supp(lambda_i0) lies inside the union of its pairwise intersections, hence sum over partners |T_i0 cap T_i'| >= k+1. QUANTITATIVE CONSEQUENCE: in the far-spread regime (each overlap < k), every stagnation event needs >= 2 partners; the minimal configuration is a TRIPLE; and stagnation events are rationed by the family's total overlap mass.",
+   "attack_surface": "the derivation is complete as sketched (subtract z_m x first component; support cancellation; MDS dual weight); write the packet with the twist bookkeeping and the necessity/sufficiency gap stated (the twisted-psi membership in Lambda_{T_m} is an ADDITIONAL constraint beyond the syzygy)",
+   "falsifier": "a toy stagnation with overlap budget < k+1 (mechanical check in any stacked-rank scan)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+   ]
+  },
+  {
+   "id": "xr_popular_core_triangles",
+   "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy",
+   "status": "TARGET",
+   "key": true,
+   "statement": "When the k+1 overlap budget is met by FEW partners (near-k overlaps): classify. Two shapes: (a) popular cores \u2014 many supports through a common near-k core: link/top-core territory (G1 cap machinery; the c(s,t) plateau says alignments there are independent, so mass is rationed); (b) TRIANGLES \u2014 the minimal stagnation configuration: three far-spread supports with two near-k overlaps plus the twisted compatibility. THE FIRST CONCRETE TARGET: prove the m=3 dichotomy \u2014 every rank-stagnating far-spread triple is paid (tangent/quotient/dihedral) or satisfies an eliminant identity placing it in a paid stratum. Exhaustively toy-testable with M5 charts; the eliminant at triple level is the smallest interesting instance of the family-level u5 dichotomy.",
+   "attack_surface": "enumerate toy triples exhaustively (E32 probe: extend E27's verifier with a stacked-rank column and hunt stagnating far-spread triples); the triple eliminant in M5's chart machinery; the two near-k overlaps are one point below rung 2b's forcing threshold \u2014 the boundary case",
+   "falsifier": "an unpaid rank-stagnating far-spread triple at toys (the E32 hunt, directly)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "xr_scattered_syzygy_flattice",
+   "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects",
+   "status": "TARGET",
+   "key": true,
+   "statement": "When the k+1 budget is spread over many small overlaps: the syzygy's dual codeword has SCATTERED support exactly covered by the intersection pattern \u2014 and counting constrained-support dual codewords and their linear relations is precisely Conjecture F's sparse-dual/closed-set lattice object. FACE 4's core meets FACE 2 here: the diffuse-stagnation count is an F-lattice count over the intersection-pattern flats. With faces 3+4 already sharing the spread residue and 2a consuming the list lane, ALL FOUR kernel faces are now pairwise connected through concrete shared objects \u2014 the kernel is one problem in the strongest possible sense.",
+   "attack_surface": "transport the F-descent machinery (four-branch strip incl. dihedral, fixed-d lattice bounds, E30's small-lattice data) to the intersection-pattern flats; the scattered supports have bounded piece sizes (< k), which is exactly the regime where descent behaved polynomially at toys",
+   "falsifier": "a toy diffuse stagnation whose intersection-pattern flat has super-poly closed-set lattice (the E30 machinery checks this directly)",
+   "refs": [
+    "experimental/notes/roadmaps/e30_dim3_flat_census.md"
    ]
   }
  ],
@@ -4984,6 +5021,26 @@
   {
    "from": "xr_ledger_qpower",
    "to": "xr_fresh_codim_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_syzygy_support_lemma",
+   "to": "xr_fresh_codim_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "xr_popular_core_triangles",
+   "to": "xr_fresh_codim_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "xr_scattered_syzygy_flattice",
+   "to": "xr_fresh_codim_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "f_many_sparse_structure",
+   "to": "xr_scattered_syzygy_flattice",
    "kind": "ev"
   }
  ]
