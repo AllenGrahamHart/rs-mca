@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - P-B band-trade census
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_pb_band_trade_census.py`;
+  `experimental/data/certificates/pb-band-trade-census/pb_band_trade_census.json`;
+  `experimental/notes/roadmaps/pb_band_trade_census.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / CENSUS PASS.
+- **What is being added:** A low-memory exact extension of the H1 harness to
+  canonical band trades with `t+1 < h <= min(floor(log2 n)^2, n/2)`, routed
+  through the three exits of `u1_beta_band_trade_reduction`.
+- **How it is useful:** No toy band trade avoids all three exits.  The census
+  finds `1016` canonical orbits: `15` minimal-subtrade, `79` v1
+  pullback/dihedral, and `922` primitive moment/PTE hand-offs.
+- **What to do next:** Carry the primitive moment/PTE mass into U2-A/U2-B.
+  The `F97_mu24` row has two exit-3 residuals with `h > 2t+4`, so the U2
+  window split should cover the full frozen grammar window.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

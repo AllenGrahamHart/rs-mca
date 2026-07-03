@@ -3049,8 +3049,11 @@
    "attack_surface": "the linear-series view (bounded-degree pencils of divisors of X^n - delta with many totally-split members); or a difference/derivative step down in h; toy census of band trades at n = 64 calibrates which exit dominates",
    "falsifier": "a toy band-trade family avoiding all three exits (searchable with H1 machinery extended to h > t+1)",
    "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ]
+    "experimental/notes/roadmaps/h1_u1_toy_harness.md",
+    "experimental/notes/roadmaps/pb_band_trade_census.md",
+    "experimental/scripts/verify_pb_band_trade_census.py"
+   ],
+   "notes": "P-B census (93/93, peak RSS about 149 MB): exact H1-row band-trade enumeration for t+1 < h <= min(floor(log2 n)^2, n/2). Found 1016 canonical band-trade orbits, all routed through the registered exits: 15 minimal-subtrade, 79 v1 pullback/dihedral, 922 primitive moment/PTE. No toy trade avoids all three exits. Dominant exit is U2's moment/PTE hand-off; two F97_mu24 residuals have h > 2t+4, so U2-A/B should cover the full frozen grammar window, not only the old F2-EXT empirical cap."
   },
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
