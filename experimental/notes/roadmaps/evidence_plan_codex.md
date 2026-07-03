@@ -574,3 +574,20 @@ INTERPRET large-p vanishing => the exclusion theorem is plausibly
           the moment column is REAL at official rows: charge it
           (exact binomials) and re-run QA.22 with the fourth column.
 ```
+
+## F4 — characteristic-p switch nets (X-5's residual red-team template)
+```text
+TARGET    u1_pullback_dichotomy (narrow/compression form)
+QUESTION  do tame-row domains admit many DISJOINT gadgets with
+          IDENTICAL moment defects Delta(r), r <= t? (p-fold switches
+          then cancel: C(R, p) same-top-t locators from switch nets —
+          not obviously shared-map-fiber-structured.)
+METHOD    toy hunt at small p rows (the danger regime): enumerate
+          gadget pairs (P_i, Q_i) by defect vector; count disjoint
+          identical-defect families; test the survivors against the
+          fiber dictionary. Include prime-power q rows.
+INTERPRET none found at tame rows => the template is empty and the
+          compression dictionary needs no switch-net clause | found
+          => test chargeability; unchargeable switch nets = the
+          compression conjecture's true adversary (name it loudly).
+```
