@@ -2675,9 +2675,10 @@
    "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
    "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md"
    ],
-   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core."
+   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). W2 DESIGN: the charge cells are now fixed: d=0 stays in 2c, 1<=d<=t-2 is a graded tangent cell keyed by the forced (U,V) and the d extra core points, and d>=t-1 is paid by the pencil cascade. Remaining: prove the quantitative occupancy bound for depth-d cells."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
@@ -2752,9 +2753,10 @@
    "attack_surface": "shared ledger design with xr_partial_tangent_band; the dimension count above pins exactly which configurations need the charge",
    "falsifier": "a heavy triangle whose stagnation resists the graded charge at toys",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md"
    ],
-   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair)."
+   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair). W2 DESIGN pins the routing: any heavy triangle with an edge r_ij>=k+1 charges directly to the 2b depth cell d=r_ij-k; if no such edge exists, heaviness forces at least two overlaps >k/2, so the remaining generic boundary is exactly the deep-link staircase population problem."
   },
   {
    "id": "xr_light_triangle_eliminant",

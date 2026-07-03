@@ -1,0 +1,297 @@
+{
+  "cell_tables": [
+    {
+      "A": 9,
+      "cascade_boundary": {
+        "d_min": 0,
+        "r_min": 8,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 1
+      },
+      "t": 1
+    },
+    {
+      "A": 10,
+      "cascade_boundary": {
+        "d_min": 1,
+        "r_min": 9,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 2
+      },
+      "t": 2
+    },
+    {
+      "A": 11,
+      "cascade_boundary": {
+        "d_min": 2,
+        "r_min": 10,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 3,
+          "qx13_fresh_codim": 2,
+          "r": 9,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 3
+      },
+      "t": 3
+    },
+    {
+      "A": 12,
+      "cascade_boundary": {
+        "d_min": 3,
+        "r_min": 11,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 4,
+          "qx13_fresh_codim": 3,
+          "r": 9,
+          "s": 3
+        },
+        {
+          "d": 2,
+          "identity": 4,
+          "qx13_fresh_codim": 2,
+          "r": 10,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 4
+      },
+      "t": 4
+    },
+    {
+      "A": 13,
+      "cascade_boundary": {
+        "d_min": 4,
+        "r_min": 12,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 5,
+          "qx13_fresh_codim": 4,
+          "r": 9,
+          "s": 4
+        },
+        {
+          "d": 2,
+          "identity": 5,
+          "qx13_fresh_codim": 3,
+          "r": 10,
+          "s": 3
+        },
+        {
+          "d": 3,
+          "identity": 5,
+          "qx13_fresh_codim": 2,
+          "r": 11,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 5
+      },
+      "t": 5
+    },
+    {
+      "A": 14,
+      "cascade_boundary": {
+        "d_min": 5,
+        "r_min": 13,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 6,
+          "qx13_fresh_codim": 5,
+          "r": 9,
+          "s": 5
+        },
+        {
+          "d": 2,
+          "identity": 6,
+          "qx13_fresh_codim": 4,
+          "r": 10,
+          "s": 4
+        },
+        {
+          "d": 3,
+          "identity": 6,
+          "qx13_fresh_codim": 3,
+          "r": 11,
+          "s": 3
+        },
+        {
+          "d": 4,
+          "identity": 6,
+          "qx13_fresh_codim": 2,
+          "r": 12,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 6
+      },
+      "t": 6
+    },
+    {
+      "A": 15,
+      "cascade_boundary": {
+        "d_min": 6,
+        "r_min": 14,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 7,
+          "qx13_fresh_codim": 6,
+          "r": 9,
+          "s": 6
+        },
+        {
+          "d": 2,
+          "identity": 7,
+          "qx13_fresh_codim": 5,
+          "r": 10,
+          "s": 5
+        },
+        {
+          "d": 3,
+          "identity": 7,
+          "qx13_fresh_codim": 4,
+          "r": 11,
+          "s": 4
+        },
+        {
+          "d": 4,
+          "identity": 7,
+          "qx13_fresh_codim": 3,
+          "r": 12,
+          "s": 3
+        },
+        {
+          "d": 5,
+          "identity": 7,
+          "qx13_fresh_codim": 2,
+          "r": 13,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 7
+      },
+      "t": 7
+    },
+    {
+      "A": 16,
+      "cascade_boundary": {
+        "d_min": 7,
+        "r_min": 15,
+        "s_max": 1
+      },
+      "k": 8,
+      "partial_depths": [
+        {
+          "d": 1,
+          "identity": 8,
+          "qx13_fresh_codim": 7,
+          "r": 9,
+          "s": 7
+        },
+        {
+          "d": 2,
+          "identity": 8,
+          "qx13_fresh_codim": 6,
+          "r": 10,
+          "s": 6
+        },
+        {
+          "d": 3,
+          "identity": 8,
+          "qx13_fresh_codim": 5,
+          "r": 11,
+          "s": 5
+        },
+        {
+          "d": 4,
+          "identity": 8,
+          "qx13_fresh_codim": 4,
+          "r": 12,
+          "s": 4
+        },
+        {
+          "d": 5,
+          "identity": 8,
+          "qx13_fresh_codim": 3,
+          "r": 13,
+          "s": 3
+        },
+        {
+          "d": 6,
+          "identity": 8,
+          "qx13_fresh_codim": 2,
+          "r": 14,
+          "s": 2
+        }
+      ],
+      "residual_boundary": {
+        "d": 0,
+        "r": 8,
+        "s": 8
+      },
+      "t": 8
+    }
+  ],
+  "checks": 26383,
+  "heavy_triangle_boundary": {
+    "deep_link_only_profiles": 26333,
+    "direct_2b_profiles": 64838,
+    "heavy_profiles": 91171,
+    "k_max": 18,
+    "max_budget_margin_seen": 18,
+    "profiles_checked": 256649
+  },
+  "node": "xr_partial_tangent_band / xr_heavy_triangle_charge",
+  "status": "design arithmetic only; no status promotion",
+  "task": "W2"
+}

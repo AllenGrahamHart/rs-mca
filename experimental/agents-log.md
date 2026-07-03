@@ -1369,3 +1369,21 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - W2 graded tangent ledger design
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md`,
+  `experimental/scripts/verify_w2_graded_tangent_ledger.py`,
+  `experimental/data/certificates/w2-graded-tangent-ledger/*`,
+  `experimental/data/prize-dag/prize_dag.json` + `.svg`,
+  `experimental/agents-log.md`.
+- **Status:** DESIGN / ARITHMETIC CHECK.
+- **What is being added:** The graded tangent ledger cell design consuming the
+  proved 2b forcing map: residual `d=0`, partial cells `1<=d<=t-2`, cascade
+  boundary `d>=t-1`, plus heavy-triangle routing.
+- **How it is useful:** Removes ambiguity from the 2b ledger task.  Heavy
+  triangles either have a direct 2b edge or are rationed by the deep-link
+  staircase; there is no fourth boundary object.
+- **What to do next:** Prove the occupancy bound for the depth-`d` tangent
+  cells using the paid tangent/top-core machinery.
