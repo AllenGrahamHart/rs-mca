@@ -2825,8 +2825,10 @@
    "attack_surface": "the subgroup theorem is classical; the stabilizer computation is a short PGL_2 argument; the exotic-case check is finite casework (n = 2-power, n | q-1)",
    "falsifier": "an exotic Mobius map preserving a prize domain (finite check per (n,q) class)",
    "refs": [
-    "experimental/notes/roadmaps/e30_dim3_flat_census.md"
-   ]
+    "experimental/notes/roadmaps/e30_dim3_flat_census.md",
+    "experimental/notes/roadmaps/e36_pgl2_stabilizer.md"
+   ],
+   "notes": "E36 finite check: for every distinct coset alpha*mu_n in F_17 (n=4,8,16) and F_97 (n=4,8,16,32), exact three-point PGL2 stabilizer enumeration found stabilizer size 2n and equality with the explicit dihedral group; 52/52 row checks, exception list empty. This supports the quotient-sector completeness claim at toy scope; the general algebraic proof remains the node's residual work."
   },
   {
    "id": "f_sparse_rank_split",

@@ -1369,3 +1369,23 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - E36 PGL2 stabilizer finite check
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/scripts/verify_e36_pgl2_stabilizer.py`,
+  `experimental/notes/roadmaps/e36_pgl2_stabilizer.md`,
+  `experimental/data/certificates/e36-pgl2-stabilizer/*`,
+  `experimental/data/prize-dag/prize_dag.json` + `.svg`,
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / FINITE CHECK.
+- **What is being added:** An exact finite stabilizer census for E36
+  (`f_dih_subgroup_completeness`) on every distinct coset `alpha * mu_n` for
+  `F_17`, `n=4,8,16`, and `F_97`, `n=4,8,16,32`.
+- **How it is useful:** All 52 checked toy domains have `PGL_2(F_q)`
+  set-stabilizer exactly equal to the expected dihedral group; no exotic
+  Mobius stabilizer was found.  This supports the face-2 quotient taxonomy at
+  toy scope without claiming the full general lemma.
+- **What to do next:** Prove the general group-theoretic stabilizer exclusion
+  for prize-domain 2-power cosets, or use this certificate as the finite
+  calibration while the algebraic proof is written.
