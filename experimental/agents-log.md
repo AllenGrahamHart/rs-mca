@@ -30,6 +30,25 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - B-WRITEUP band-trade reduction packet
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_b_writeup_band_reduction.py`;
+  `experimental/data/certificates/b-writeup-band-reduction/b_writeup_band_reduction.json`;
+  `experimental/notes/roadmaps/b_writeup_band_trade_reduction.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** CONDITIONAL / WRITE-UP.
+- **What is being added:** A band-trade reduction packet following the P-B
+  routing table.  Exits 1 and 2 are formal reductions; exit 3 is identified
+  as the X-10 anchored non-toral PTE bound with defect/tails wrapper.
+- **How it is useful:** Prevents overclaiming B as proved while recording the
+  exact remaining residue that the census forces.
+- **What to do next:** Prove `anchored_nontoral_pte_bound` or weaken it enough
+  to preserve the `n^2` uncharged split-pair budget.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
