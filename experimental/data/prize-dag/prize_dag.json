@@ -2452,8 +2452,47 @@
    "status": "TARGET",
    "key": true,
    "statement": "For a knife-edge row's specific p: a printed lattice certificate (dual/transference bound restricted to the sparse ternary cone, or exhaustion over reduced bases) proving K_p contains no ternary vector of support <= 2l' beyond the cyclotomic relations \u2014 certifying FULL injectivity in one per-row computation. Replaces the generator-design existence question as certified_valueset_lower's primary route; fits the repo's certificate grammar (the knife-edge certificate becomes a lattice certificate).",
-   "attack_surface": "start with the SEARCH direction (E24): BKZ at N' = 128 either finds a collision (decides the cell!) or the reduced basis profile feeds the certificate; the cone restriction is the open technical piece \u2014 sparse is not short (lambda_1 ~ 7.7 < ternary norm ~ 11.4 at rank 512, so plain SVP bounds cannot separate)",
+   "attack_surface": "DECOMPOSED: multiplier lemma (elementary) -> weight-graded MITM (provable radius extension 7 -> ~12 swaps per row) -> k-multiplier reduction (GV-favorable at k ~ 10) -> integer_code_distance_cert (the residue: one small explicit matrix per row). E24's BKZ hunt is the search-side complement throughout.",
    "falsifier": "BKZ finding a sparse ternary kernel vector = an actual collision = the collided branch is REAL at that cell (a zone-(b) verdict, not a route failure)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
+  },
+  {
+   "id": "multiplier_exactness",
+   "title": "The multiplier lemma: a good c converts the mod-p relation into an EXACT integer relation",
+   "status": "PROVABLE",
+   "statement": "For any c: if the reduced residues r_x = (c zeta^x mod+- p) satisfy sum over any support-(2l') ternary combo |sum v_x r_x| < p, then kernel membership forces the exact integer relation sum v_x r_x = 0. Elementary; the bridge from modular to integer arithmetic that every certificate below uses.",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
+  },
+  {
+   "id": "weight_graded_mitm",
+   "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24",
+   "status": "PROVABLE",
+   "statement": "With one good multiplier, exact relations among the r_x up to weight w are excluded by meet-in-the-middle enumeration at cost ~C(N', w/2): feasible to w ~ 24 at N' = 128 \u2014 extending the certified no-collision radius from the proved d* = 7 swaps to ~12 swaps, PER ROW, with a printed certificate. A real, provable, incremental strengthening of graded_collision_radius.",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
+  },
+  {
+   "id": "multi_multiplier_reduction",
+   "title": "k multipliers => collisions lie in the ternary kernel of an EXPLICIT k x N' integer matrix (GV-favorable at k ~ 10)",
+   "status": "PROVABLE",
+   "statement": "Each of k good multipliers yields an exact integer relation, so any collision vector is a ternary vector in the kernel of an explicit k x N' matrix of medium integers. Gilbert-Varshamov counting: each row is worth ~log p ~ 240 bits vs ternary weight entropy ~8.6 bits/unit, so k ~ 10 heuristically excludes ALL weights <= 2l' = 130. Reduces full per-row certification to the minimum-distance of one small fixed object. (Failed alternatives recorded: magnitude-scale splitting dies on internal cancellation; 2-adic nesting dies on entropy \u2014 one multiplier cannot carry the certificate, ten plausibly can.)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
+  },
+  {
+   "id": "integer_code_distance_cert",
+   "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Certify that the fixed k x N' integer matrix (from the row's chosen multipliers) has no ternary kernel vector of weight <= 2l' beyond the cyclotomic relations. A small, explicit, per-row object. Candidate certifiers: Delsarte-LP bounds instantiated on the specific system; structured multiplier DESIGN making distance provable by construction; weight-split enumeration hybrids (MITM below w_0, LP/structure above).",
+   "attack_surface": "toy-first: run the full pipeline (choose multipliers, build the matrix, attempt certification) at N' = 16/32 where exhaustive verification is possible \u2014 measures how large k must be in practice and which certifier closes; the E24 BKZ hunt doubles as the search-side sanity check",
+   "falsifier": "a ternary kernel vector of the k-multiplier system that IS a genuine collision (E24 would find it independently)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ]
@@ -4578,6 +4617,36 @@
   {
    "from": "collision_norm_criterion",
    "to": "kernel_lattice_reframing",
+   "kind": "ev"
+  },
+  {
+   "from": "multiplier_exactness",
+   "to": "weight_graded_mitm",
+   "kind": "req"
+  },
+  {
+   "from": "multiplier_exactness",
+   "to": "multi_multiplier_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "weight_graded_mitm",
+   "to": "lattice_cone_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "multi_multiplier_reduction",
+   "to": "integer_code_distance_cert",
+   "kind": "req"
+  },
+  {
+   "from": "integer_code_distance_cert",
+   "to": "lattice_cone_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "graded_collision_radius",
+   "to": "weight_graded_mitm",
    "kind": "ev"
   }
  ]

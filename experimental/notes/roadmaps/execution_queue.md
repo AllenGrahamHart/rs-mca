@@ -642,6 +642,23 @@ QX.15 [xr_distance_dichotomy assembly note] (M; after QX.14)  The
       statement, with the coverage table as its quantitative spine.
 ```
 
+## Tier D7 — the lattice certificate pipeline (2026-07-03)
+
+```text
+QA.16 [multiplier_exactness + weight_graded_mitm] (M, one packet)
+      The multiplier lemma + the per-row MITM certificate to w ~ 24:
+      extends the certified radius 7 -> ~12 swaps with a printed
+      certificate. Verify on toy rows against exhaustive truth.
+QA.17 [multi_multiplier_reduction] (S-M)  The k-relation reduction +
+      the GV counting table (k vs excluded weight); records the two
+      failed alternatives (scale splitting, 2-adic nesting) as scoping.
+QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END at
+      N' = 16/32: choose multipliers, build the k x N' system, attempt
+      certification (LP / structured design / hybrid), verify against
+      exhaustive enumeration. Measures the practical k and selects the
+      certifier BEFORE anyone runs the N' = 128 case.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the
