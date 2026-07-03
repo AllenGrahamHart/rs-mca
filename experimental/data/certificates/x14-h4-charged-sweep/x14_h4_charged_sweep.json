@@ -1,0 +1,1890 @@
+{
+  "checks": 88,
+  "interpretation": "This is the first actual campaign trade size for t=3.  The scan is finite evidence only; it does not prove uniform h=4 emptiness.",
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "active_partner_multiplicity_histogram": {
+        "7": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            1,
+            9,
+            17,
+            25
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            2,
+            10,
+            18,
+            26
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            3,
+            11,
+            19,
+            27
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            4,
+            12,
+            20,
+            28
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            5,
+            13,
+            21,
+            29
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            6,
+            14,
+            22,
+            30
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            7,
+            15,
+            23,
+            31
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 7,
+      "charged_reasons": {
+        "cyclic:m=4": 7
+      },
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 1153,
+      "floor_n_alpha": 1024,
+      "h": 4,
+      "label": "n32_alpha_2",
+      "max_signature_group_size": 8,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "1153/1024",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 8,
+      "signature_group_size_histogram": {
+        "8": 1
+      },
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "7": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            1,
+            9,
+            17,
+            25
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            2,
+            10,
+            18,
+            26
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            3,
+            11,
+            19,
+            27
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            4,
+            12,
+            20,
+            28
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            5,
+            13,
+            21,
+            29
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            6,
+            14,
+            22,
+            30
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            7,
+            15,
+            23,
+            31
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 7,
+      "charged_reasons": {
+        "cyclic:m=4": 7
+      },
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 2593,
+      "floor_n_alpha": 2435,
+      "h": 4,
+      "label": "n32_alpha_9_4",
+      "max_signature_group_size": 8,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "2593/2435",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 8,
+      "signature_group_size_histogram": {
+        "8": 1
+      },
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "7": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            1,
+            9,
+            17,
+            25
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            2,
+            10,
+            18,
+            26
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            3,
+            11,
+            19,
+            27
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            4,
+            12,
+            20,
+            28
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            5,
+            13,
+            21,
+            29
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            6,
+            14,
+            22,
+            30
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            7,
+            15,
+            23,
+            31
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 7,
+      "charged_reasons": {
+        "cyclic:m=4": 7
+      },
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 5857,
+      "floor_n_alpha": 5792,
+      "h": 4,
+      "label": "n32_alpha_5_2",
+      "max_signature_group_size": 8,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "5857/5792",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 8,
+      "signature_group_size_histogram": {
+        "8": 1
+      },
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "7": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            1,
+            9,
+            17,
+            25
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            2,
+            10,
+            18,
+            26
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            3,
+            11,
+            19,
+            27
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            4,
+            12,
+            20,
+            28
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            5,
+            13,
+            21,
+            29
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            6,
+            14,
+            22,
+            30
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "Q_exponents": [
+            7,
+            15,
+            23,
+            31
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 7,
+      "charged_reasons": {
+        "cyclic:m=4": 7
+      },
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 32801,
+      "floor_n_alpha": 32768,
+      "h": 4,
+      "label": "n32_alpha_3",
+      "max_signature_group_size": 8,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "32801/32768",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 8,
+      "signature_group_size_histogram": {
+        "8": 1
+      },
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "15": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            1,
+            17,
+            33,
+            49
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            2,
+            18,
+            34,
+            50
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            3,
+            19,
+            35,
+            51
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            4,
+            20,
+            36,
+            52
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            5,
+            21,
+            37,
+            53
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            6,
+            22,
+            38,
+            54
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            7,
+            23,
+            39,
+            55
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            8,
+            24,
+            40,
+            56
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 15,
+      "charged_reasons": {
+        "cyclic:m=4": 15
+      },
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 4289,
+      "floor_n_alpha": 4096,
+      "h": 4,
+      "label": "n64_alpha_2",
+      "max_signature_group_size": 16,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "4289/4096",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 16,
+      "signature_group_size_histogram": {
+        "16": 1
+      },
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "15": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            1,
+            17,
+            33,
+            49
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            2,
+            18,
+            34,
+            50
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            3,
+            19,
+            35,
+            51
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            4,
+            20,
+            36,
+            52
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            5,
+            21,
+            37,
+            53
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            6,
+            22,
+            38,
+            54
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            7,
+            23,
+            39,
+            55
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            8,
+            24,
+            40,
+            56
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 15,
+      "charged_reasons": {
+        "cyclic:m=4": 15
+      },
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 11777,
+      "floor_n_alpha": 11585,
+      "h": 4,
+      "label": "n64_alpha_9_4",
+      "max_signature_group_size": 16,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "11777/11585",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 16,
+      "signature_group_size_histogram": {
+        "16": 1
+      },
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "15": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            1,
+            17,
+            33,
+            49
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            2,
+            18,
+            34,
+            50
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            3,
+            19,
+            35,
+            51
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            4,
+            20,
+            36,
+            52
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            5,
+            21,
+            37,
+            53
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            6,
+            22,
+            38,
+            54
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            7,
+            23,
+            39,
+            55
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            8,
+            24,
+            40,
+            56
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 15,
+      "charged_reasons": {
+        "cyclic:m=4": 15
+      },
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 32833,
+      "floor_n_alpha": 32768,
+      "h": 4,
+      "label": "n64_alpha_5_2",
+      "max_signature_group_size": 16,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "32833/32768",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 16,
+      "signature_group_size_histogram": {
+        "16": 1
+      },
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "15": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            1,
+            17,
+            33,
+            49
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            2,
+            18,
+            34,
+            50
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            3,
+            19,
+            35,
+            51
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            4,
+            20,
+            36,
+            52
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            5,
+            21,
+            37,
+            53
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            6,
+            22,
+            38,
+            54
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            7,
+            23,
+            39,
+            55
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q_exponents": [
+            8,
+            24,
+            40,
+            56
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 15,
+      "charged_reasons": {
+        "cyclic:m=4": 15
+      },
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 262337,
+      "floor_n_alpha": 262144,
+      "h": 4,
+      "label": "n64_alpha_3",
+      "max_signature_group_size": 16,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "262337/262144",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 16,
+      "signature_group_size_histogram": {
+        "16": 1
+      },
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "1": 12,
+        "31": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            1,
+            33,
+            65,
+            97
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            2,
+            34,
+            66,
+            98
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            3,
+            35,
+            67,
+            99
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            4,
+            36,
+            68,
+            100
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            5,
+            37,
+            69,
+            101
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            6,
+            38,
+            70,
+            102
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            7,
+            39,
+            71,
+            103
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            8,
+            40,
+            72,
+            104
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 43,
+      "charged_reasons": {
+        "cyclic:m=4": 31,
+        "cyclic:m=6": 12
+      },
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 17921,
+      "floor_n_alpha": 16384,
+      "h": 4,
+      "label": "n128_alpha_2",
+      "max_signature_group_size": 32,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "17921/16384",
+      "raw_active_cores": 13,
+      "raw_anchored_partner_pairs": 43,
+      "signature_collision_groups": 193,
+      "signature_collision_subsets": 416,
+      "signature_group_size_histogram": {
+        "2": 192,
+        "32": 1
+      },
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "31": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            1,
+            33,
+            65,
+            97
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            2,
+            34,
+            66,
+            98
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            3,
+            35,
+            67,
+            99
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            4,
+            36,
+            68,
+            100
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            5,
+            37,
+            69,
+            101
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            6,
+            38,
+            70,
+            102
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            7,
+            39,
+            71,
+            103
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            8,
+            40,
+            72,
+            104
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 31,
+      "charged_reasons": {
+        "cyclic:m=4": 31
+      },
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 55681,
+      "floor_n_alpha": 55108,
+      "h": 4,
+      "label": "n128_alpha_9_4",
+      "max_signature_group_size": 32,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "55681/55108",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 32,
+      "signature_group_size_histogram": {
+        "32": 1
+      },
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "31": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            1,
+            33,
+            65,
+            97
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            2,
+            34,
+            66,
+            98
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            3,
+            35,
+            67,
+            99
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            4,
+            36,
+            68,
+            100
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            5,
+            37,
+            69,
+            101
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            6,
+            38,
+            70,
+            102
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            7,
+            39,
+            71,
+            103
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            8,
+            40,
+            72,
+            104
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 31,
+      "charged_reasons": {
+        "cyclic:m=4": 31
+      },
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 186113,
+      "floor_n_alpha": 185363,
+      "h": 4,
+      "label": "n128_alpha_5_2",
+      "max_signature_group_size": 32,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "186113/185363",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 32,
+      "signature_group_size_histogram": {
+        "32": 1
+      },
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "active_partner_multiplicity_histogram": {
+        "31": 1
+      },
+      "charged_examples": [
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            1,
+            33,
+            65,
+            97
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            2,
+            34,
+            66,
+            98
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            3,
+            35,
+            67,
+            99
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            4,
+            36,
+            68,
+            100
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            5,
+            37,
+            69,
+            101
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            6,
+            38,
+            70,
+            102
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            7,
+            39,
+            71,
+            103
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        },
+        {
+          "P_exponents": [
+            0,
+            32,
+            64,
+            96
+          ],
+          "Q_exponents": [
+            8,
+            40,
+            72,
+            104
+          ],
+          "reason": "cyclic:m=4",
+          "signature_code": 0
+        }
+      ],
+      "charged_partner_pairs": 31,
+      "charged_reasons": {
+        "cyclic:m=4": 31
+      },
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 2100097,
+      "floor_n_alpha": 2097152,
+      "h": 4,
+      "label": "n128_alpha_3",
+      "max_signature_group_size": 32,
+      "n": 128,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "nontoral_examples": [],
+      "p_over_floor_n_alpha": "2100097/2097152",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 32,
+      "signature_group_size_histogram": {
+        "32": 1
+      },
+      "subset_count": 10668000,
+      "t": 3
+    }
+  ],
+  "scope": "anchored h=4 split pairs with e_i(P)=e_i(Q), i=1,2,3, at first p == 1 mod n above n^alpha",
+  "status": "EXACT FINITE EVIDENCE: h=4 post-cyclic/dihedral non-toral residue is zero in all checked rows through n=128",
+  "summary": {
+    "all_nonzero_active_rows_cyclic_charged": true,
+    "max_n": 128,
+    "nonzero_active_rows_before_charging": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_3",
+      "n64_alpha_2",
+      "n64_alpha_9_4",
+      "n64_alpha_5_2",
+      "n64_alpha_3",
+      "n128_alpha_2",
+      "n128_alpha_9_4",
+      "n128_alpha_5_2",
+      "n128_alpha_3"
+    ],
+    "nonzero_nontoral_rows_after_charging": [],
+    "rows_checked": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_3",
+      "n64_alpha_2",
+      "n64_alpha_9_4",
+      "n64_alpha_5_2",
+      "n64_alpha_3",
+      "n128_alpha_2",
+      "n128_alpha_9_4",
+      "n128_alpha_5_2",
+      "n128_alpha_3"
+    ]
+  },
+  "task": "X14 h=4 charged sweep"
+}
