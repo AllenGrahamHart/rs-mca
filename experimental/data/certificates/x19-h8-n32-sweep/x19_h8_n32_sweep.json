@@ -1,0 +1,392 @@
+{
+  "checks": 29,
+  "coverage_note": "n=32 is checked through alpha=3; this low-memory packet sorts C(32,8)=10518300 subsets per row using four uint64 key arrays",
+  "interpretation": "Global signature injectivity is false at h=8, but only by a paid cyclic pullback family: the four cosets r mod 4 have locator polynomials X^8 - zeta^(8r).",
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "collision_examples": [
+        {
+          "cyclic_reason": "four cosets of the subgroup <zeta^4>; locator polynomials X^8 - zeta^(8r)",
+          "signature_12": 0,
+          "signature_34": 0,
+          "signature_56": 0,
+          "signature_7": 0,
+          "subsets": [
+            [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28
+            ],
+            [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29
+            ],
+            [
+              2,
+              6,
+              10,
+              14,
+              18,
+              22,
+              26,
+              30
+            ],
+            [
+              3,
+              7,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31
+            ]
+          ]
+        }
+      ],
+      "cyclic_charged_partner_pairs": 3,
+      "cyclic_paid_collision_groups": 1,
+      "exponent": "2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 1153,
+      "floor_n_alpha": 1024,
+      "global_signature_injective": false,
+      "h": 8,
+      "label": "n32_alpha_2",
+      "max_signature_group_size": 4,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "1153/1024",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 3,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 4,
+      "subset_count": 10518300,
+      "t": 7
+    },
+    {
+      "collision_examples": [
+        {
+          "cyclic_reason": "four cosets of the subgroup <zeta^4>; locator polynomials X^8 - zeta^(8r)",
+          "signature_12": 0,
+          "signature_34": 0,
+          "signature_56": 0,
+          "signature_7": 0,
+          "subsets": [
+            [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28
+            ],
+            [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29
+            ],
+            [
+              2,
+              6,
+              10,
+              14,
+              18,
+              22,
+              26,
+              30
+            ],
+            [
+              3,
+              7,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31
+            ]
+          ]
+        }
+      ],
+      "cyclic_charged_partner_pairs": 3,
+      "cyclic_paid_collision_groups": 1,
+      "exponent": "9/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 2593,
+      "floor_n_alpha": 2435,
+      "global_signature_injective": false,
+      "h": 8,
+      "label": "n32_alpha_9_4",
+      "max_signature_group_size": 4,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "2593/2435",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 3,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 4,
+      "subset_count": 10518300,
+      "t": 7
+    },
+    {
+      "collision_examples": [
+        {
+          "cyclic_reason": "four cosets of the subgroup <zeta^4>; locator polynomials X^8 - zeta^(8r)",
+          "signature_12": 0,
+          "signature_34": 0,
+          "signature_56": 0,
+          "signature_7": 0,
+          "subsets": [
+            [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28
+            ],
+            [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29
+            ],
+            [
+              2,
+              6,
+              10,
+              14,
+              18,
+              22,
+              26,
+              30
+            ],
+            [
+              3,
+              7,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31
+            ]
+          ]
+        }
+      ],
+      "cyclic_charged_partner_pairs": 3,
+      "cyclic_paid_collision_groups": 1,
+      "exponent": "5/2",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 5857,
+      "floor_n_alpha": 5792,
+      "global_signature_injective": false,
+      "h": 8,
+      "label": "n32_alpha_5_2",
+      "max_signature_group_size": 4,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "5857/5792",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 3,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 4,
+      "subset_count": 10518300,
+      "t": 7
+    },
+    {
+      "collision_examples": [
+        {
+          "cyclic_reason": "four cosets of the subgroup <zeta^4>; locator polynomials X^8 - zeta^(8r)",
+          "signature_12": 0,
+          "signature_34": 0,
+          "signature_56": 0,
+          "signature_7": 0,
+          "subsets": [
+            [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28
+            ],
+            [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29
+            ],
+            [
+              2,
+              6,
+              10,
+              14,
+              18,
+              22,
+              26,
+              30
+            ],
+            [
+              3,
+              7,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31
+            ]
+          ]
+        }
+      ],
+      "cyclic_charged_partner_pairs": 3,
+      "cyclic_paid_collision_groups": 1,
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 13921,
+      "floor_n_alpha": 13777,
+      "global_signature_injective": false,
+      "h": 8,
+      "label": "n32_alpha_11_4",
+      "max_signature_group_size": 4,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "13921/13777",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 3,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 4,
+      "subset_count": 10518300,
+      "t": 7
+    },
+    {
+      "collision_examples": [
+        {
+          "cyclic_reason": "four cosets of the subgroup <zeta^4>; locator polynomials X^8 - zeta^(8r)",
+          "signature_12": 0,
+          "signature_34": 0,
+          "signature_56": 0,
+          "signature_7": 0,
+          "subsets": [
+            [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28
+            ],
+            [
+              1,
+              5,
+              9,
+              13,
+              17,
+              21,
+              25,
+              29
+            ],
+            [
+              2,
+              6,
+              10,
+              14,
+              18,
+              22,
+              26,
+              30
+            ],
+            [
+              3,
+              7,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31
+            ]
+          ]
+        }
+      ],
+      "cyclic_charged_partner_pairs": 3,
+      "cyclic_paid_collision_groups": 1,
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 32801,
+      "floor_n_alpha": 32768,
+      "global_signature_injective": false,
+      "h": 8,
+      "label": "n32_alpha_3",
+      "max_signature_group_size": 4,
+      "n": 32,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "32801/32768",
+      "raw_active_cores": 1,
+      "raw_anchored_partner_pairs": 3,
+      "signature_collision_groups": 1,
+      "signature_collision_subsets": 4,
+      "subset_count": 10518300,
+      "t": 7
+    }
+  ],
+  "scope": "h=8/t=7 split pairs at n=32; the top-seven signature has exactly one collision group, the cyclic coset partition modulo 4",
+  "signature_encoding": "(e1+p*e2, e3+p*e4, e5+p*e6, e7)",
+  "status": "EXACT FINITE EVIDENCE: h=8 has one raw cyclic-paid collision group and zero post-strip non-toral partners in every checked n=32 row",
+  "summary": {
+    "collision_rows": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_11_4",
+      "n32_alpha_3"
+    ],
+    "global_signature_injective_rows": [],
+    "max_n": 32,
+    "max_subset_count": 10518300,
+    "post_strip_nontoral_rows": [],
+    "rows_checked": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_11_4",
+      "n32_alpha_3"
+    ]
+  },
+  "task": "X19 h=8 n=32 signature sweep"
+}
