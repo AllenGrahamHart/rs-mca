@@ -1,0 +1,225 @@
+{
+  "checks": 47,
+  "named_residue": "a2_depth_cell_active_shadow_bound",
+  "node": "a2_depth_cell_residual_occupancy",
+  "required_replacement_statement": "After the unified paid strip, for each fixed anchor support T0 and depth d, the occupied tangent-depth cells (or their weighted emissions) form a linear active shadow, unless a positive-density subfamily is one of the paid tangent, quotient/pullback, dihedral, extension, or moment/PTE structures.",
+  "rows": [
+    {
+      "A": 261,
+      "blocking_depth": {
+        "d": 3,
+        "formal_cells": 33930,
+        "log2_over_n": 5.050273809598339,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 256,
+      "n": 1024,
+      "name": "RowC_rate_1_4",
+      "partial_depth_count": 3,
+      "sampled_exact_depths": [
+        {
+          "d": 3,
+          "formal_overlap_cores_in_anchor": 33930,
+          "log2_formal_overlap_cores": 15.05027380959834,
+          "log2_over_n": 5.050273809598339,
+          "s": 2
+        },
+        {
+          "d": 2,
+          "formal_overlap_cores_in_anchor": 2929290,
+          "log2_formal_overlap_cores": 21.482119596563738,
+          "log2_over_n": 11.482119596563738,
+          "s": 3
+        },
+        {
+          "d": 1,
+          "formal_overlap_cores_in_anchor": 188939205,
+          "log2_formal_overlap_cores": 27.493346851986992,
+          "log2_over_n": 17.493346851986992,
+          "s": 4
+        }
+      ],
+      "t": 5
+    },
+    {
+      "A": 133,
+      "blocking_depth": {
+        "d": 3,
+        "formal_cells": 8778,
+        "log2_over_n": 3.099676554859643,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 128,
+      "n": 1024,
+      "name": "RowC_rate_1_8",
+      "partial_depth_count": 3,
+      "sampled_exact_depths": [
+        {
+          "d": 3,
+          "formal_overlap_cores_in_anchor": 8778,
+          "log2_formal_overlap_cores": 13.099676554859643,
+          "log2_over_n": 3.099676554859643,
+          "s": 2
+        },
+        {
+          "d": 2,
+          "formal_overlap_cores_in_anchor": 383306,
+          "log2_formal_overlap_cores": 18.548137055675937,
+          "log2_over_n": 8.548137055675937,
+          "s": 3
+        },
+        {
+          "d": 1,
+          "formal_overlap_cores_in_anchor": 12457445,
+          "log2_formal_overlap_cores": 23.57050486870439,
+          "log2_over_n": 13.57050486870439,
+          "s": 4
+        }
+      ],
+      "t": 5
+    },
+    {
+      "A": 67,
+      "blocking_depth": {
+        "d": 1,
+        "formal_cells": 2211,
+        "log2_over_n": 1.1104833098162263,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 64,
+      "n": 1024,
+      "name": "RowC_rate_1_16",
+      "partial_depth_count": 1,
+      "sampled_exact_depths": [
+        {
+          "d": 1,
+          "formal_overlap_cores_in_anchor": 2211,
+          "log2_formal_overlap_cores": 11.110483309816226,
+          "log2_over_n": 1.1104833098162263,
+          "s": 2
+        }
+      ],
+      "t": 3
+    },
+    {
+      "A": 558345748481,
+      "blocking_depth": {
+        "d": 8589934591,
+        "formal_cells": 155874987423124884029440,
+        "log2_over_n": 36.04473562605949,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 549755813888,
+      "n": 2199023255552,
+      "name": "prize_rate_1_4",
+      "partial_depth_count": 8589934591,
+      "sampled_exact_depths": [
+        {
+          "d": 8589934591,
+          "formal_overlap_cores_in_anchor": 155874987423124884029440,
+          "log2_formal_overlap_cores": 77.04473562605949,
+          "log2_over_n": 36.04473562605949,
+          "s": 2
+        },
+        {
+          "d": 8589934590,
+          "formal_overlap_cores_in_anchor": 29010712173973124948835916757073920,
+          "log2_formal_overlap_cores": 114.48214093836421,
+          "log2_over_n": 73.48214093836421,
+          "s": 3
+        },
+        {
+          "d": 8589934589,
+          "formal_overlap_cores_in_anchor": 4049501950664212750153601349134435090893373440,
+          "log2_formal_overlap_cores": 151.5045087513875,
+          "log2_over_n": 110.5045087513875,
+          "s": 4
+        }
+      ],
+      "t": 8589934593
+    },
+    {
+      "A": 283467841537,
+      "blocking_depth": {
+        "d": 8589934591,
+        "formal_cells": 40177008592681137340416,
+        "log2_over_n": 34.088788238722,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 274877906944,
+      "n": 2199023255552,
+      "name": "prize_rate_1_8",
+      "partial_depth_count": 8589934591,
+      "sampled_exact_depths": [
+        {
+          "d": 8589934591,
+          "formal_overlap_cores_in_anchor": 40177008592681137340416,
+          "log2_formal_overlap_cores": 75.088788238722,
+          "log2_over_n": 34.088788238722,
+          "s": 2
+        },
+        {
+          "d": 8589934590,
+          "formal_overlap_cores_in_anchor": 3796296635033490000132204679659520,
+          "log2_formal_overlap_cores": 111.54821985735421,
+          "log2_over_n": 70.54821985735421,
+          "s": 3
+        },
+        {
+          "d": 8589934589,
+          "formal_overlap_cores_in_anchor": 269032003238932694035112358795944512108625920,
+          "log2_formal_overlap_cores": 147.59261397670247,
+          "log2_over_n": 106.59261397670247,
+          "s": 4
+        }
+      ],
+      "t": 8589934593
+    },
+    {
+      "A": 141733920769,
+      "blocking_depth": {
+        "d": 4294967295,
+        "formal_cells": 10044252148205717815296,
+        "log2_over_n": 32.08878823872709,
+        "s": 2
+      },
+      "formal_cell_formula": "for fixed anchor T0 and s=A-r=t-d, count C(A,s)",
+      "k": 137438953472,
+      "n": 2199023255552,
+      "name": "prize_rate_1_16",
+      "partial_depth_count": 4294967295,
+      "sampled_exact_depths": [
+        {
+          "d": 4294967295,
+          "formal_overlap_cores_in_anchor": 10044252148205717815296,
+          "log2_formal_overlap_cores": 73.08878823872709,
+          "log2_over_n": 32.08878823872709,
+          "s": 2
+        },
+        {
+          "d": 4294967294,
+          "formal_overlap_cores_in_anchor": 474537079379186250016507868217344,
+          "log2_formal_overlap_cores": 108.54821985735421,
+          "log2_over_n": 67.54821985735421,
+          "s": 3
+        },
+        {
+          "d": 4294967293,
+          "formal_overlap_cores_in_anchor": 16814500202314659107349098096483151040741376,
+          "log2_formal_overlap_cores": 143.5926139766923,
+          "log2_over_n": 102.59261397669229,
+          "s": 4
+        }
+      ],
+      "t": 4294967297
+    }
+  ],
+  "status": "CONDITIONAL / RESIDUE: naive depth-cell packing fails",
+  "task": "OCC-2",
+  "verdict": "A constant per-depth-cell emission cap does not imply the A2 occupancy bound by summing over the formal cell lattice.  The formal lattice is already super-linear inside one anchor at every clean-rate candidate."
+}

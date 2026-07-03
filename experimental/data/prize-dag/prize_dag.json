@@ -3068,12 +3068,14 @@
    "id": "a2_depth_cell_residual_occupancy",
    "title": "A2's second blocker: depth-cell residual occupancy",
    "status": "TARGET",
-   "statement": "Bound the residual occupancy of the graded ledger's depth-d cells post-charge \u2014 the band analogue of the subcore accounting. A2's routing table is COMPLETE (no extra pairwise or heavy-triangle object exists), so this count is the ledger's only remaining content.",
-   "attack_surface": "the same packing machinery as the subcore accounting, at depth-graded cells",
-   "falsifier": "a depth cell with super-budget residual occupancy at toys",
+   "statement": "Bound the residual occupancy of the graded ledger's depth-d cells post-charge \u2014 the band analogue of the subcore accounting. A2's routing table is COMPLETE (no extra pairwise or heavy-triangle object exists), so this count is the ledger's only remaining content. OCC-2 sharpens the needed statement to the active-shadow form: after the unified paid strip, for each anchor T0 and depth d, the occupied tangent-depth cells (or weighted emissions) are linear unless a positive-density subfamily is paid by tangent, quotient/pullback, dihedral, extension, or moment/PTE structure.",
+   "attack_surface": "not plain lattice packing: OCC-2 certifies that the formal depth-cell lattice is already super-linear at every clean row, so the proof must use alignment/post-strip incidence to bound the active shadow",
+   "falsifier": "post-strip aligned data with super-budget active depth-cell shadow and no paid structural explanation",
    "refs": [
-    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md"
-   ]
+    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md",
+    "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
+   ],
+   "notes": "OCC-2 audit: direct depth-cell packing fails as a proof route. For a fixed anchor, the formal depth-d overlap lattice has C(A,k+d)=C(A,s) cells; at the clean rows even the s=2 boundary gives 2,211 to 33,930 Row-C cells (>n=1024) and 32-36 bits over n at prize rows. Replacement theorem named: a2_depth_cell_active_shadow_bound."
   },
   {
    "id": "u2c_giant_block_dichotomy",

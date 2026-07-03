@@ -30,6 +30,29 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - OCC-2 depth-cell occupancy audit
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_occ2_depth_cell_occupancy.py`;
+  `experimental/data/certificates/occ2-depth-cell-occupancy/occ2_depth_cell_occupancy.json`;
+  `experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** CONDITIONAL / RESIDUE.
+- **What is being added:** The OCC-2 audit certifies that summing a bounded
+  per-cell cap over the formal depth-cell lattice cannot close A2: for a fixed
+  anchor, the depth lattice has `C(A,k+d)=C(A,s)` possible cores, already
+  super-linear at every clean-rate candidate.
+- **How it is useful:** This prevents another proof attempt from using plain
+  lattice packing and sharpens the remaining A2 theorem to
+  `a2_depth_cell_active_shadow_bound`, the depth-graded active-shadow incidence
+  statement after the unified paid strip.
+- **What to do next:** Prove the active-shadow incidence bound, or exhibit a
+  post-strip aligned family with super-budget active depth cells and no paid
+  tangent, pullback, dihedral, extension, or moment/PTE explanation.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
