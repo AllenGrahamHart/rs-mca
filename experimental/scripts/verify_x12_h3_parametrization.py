@@ -82,12 +82,18 @@ def symbolic_checks() -> dict[str, str]:
         "Nx": sy.sstr(Nx),
         "Ny": sy.sstr(Ny),
         "Nz": sy.sstr(Nz),
+        "Nx_minus_D": sy.sstr(sy.expand(Nx - D)),
         "x_of_t": sy.sstr(Nx / D),
         "y_of_t": sy.sstr(Ny / D),
         "z_of_t": sy.sstr(Nz / D),
         "line_conic_factorization": "F(x, a+t(x-1)) = (x-1) * ((t^2+t+1)x - Nx)",
         "sum_identity": "Nx+Ny+Nz = (1+a+b)(t^2+t+1)",
         "pair_sum_identity": "Nx*Ny+Nx*Nz+Ny*Nz = (a+b+ab)(t^2+t+1)^2",
+        "nonzero_membership_polynomial": (
+            "For valid distinct 1,a,b, Nx^n-D^n is nonzero: if Nx=zeta*D, "
+            "leading coefficients force zeta=1, then Nx-D=(b-a)t+(b-1), "
+            "which would force a=b=1."
+        ),
     }
 
 
@@ -304,10 +310,39 @@ def small_forward_exhaustive() -> dict[str, Any]:
     }
 
 
+def cubic_cap_checks() -> dict[str, Any]:
+    rows = []
+    for n in (8, 16, 32, 64, 128, 256, 1024):
+        anchored_core_count = math.comb(n - 1, 2)
+        per_core_cap = 2 * n
+        total_cap = anchored_core_count * per_core_cap
+        check(
+            f"h=3 cubic cap arithmetic n={n}",
+            total_cap < n**3,
+            f"cap={total_cap}, n^3={n**3}",
+        )
+        rows.append(
+            {
+                "n": n,
+                "anchored_core_count": anchored_core_count,
+                "per_core_cap": per_core_cap,
+                "total_cap": total_cap,
+                "n_cubed": n**3,
+                "strictly_below_n_cubed": total_cap < n**3,
+            }
+        )
+    return {
+        "statement": "For h=3, anchored active pairs are < n^3 in odd characteristic with p not dividing n.",
+        "proof_count": "C(n-1,2) anchored cores times at most 2n slope parameters per core equals n(n-1)(n-2) < n^3.",
+        "rows": rows,
+    }
+
+
 def build_certificate() -> dict[str, Any]:
     symbolic = symbolic_checks()
     active_rows = [analyze_active_row(row) for row in ACTIVE_ROWS]
     small = small_forward_exhaustive()
+    cubic_cap = cubic_cap_checks()
     check(
         "boundary active counts are 18 and 129",
         [row["anchored_active_pairs"] for row in active_rows] == [18, 129],
@@ -321,6 +356,7 @@ def build_certificate() -> dict[str, Any]:
         "task": "X12 h=3 rational parametrization",
         "status": "PROVED: h=3 active partners reduce to a three-rational-function subgroup incidence",
         "symbolic_formulas": symbolic,
+        "h3_cubic_cap": cubic_cap,
         "active_row_checks": active_rows,
         "small_forward_exhaustive": small,
         "checks": NCHECK,

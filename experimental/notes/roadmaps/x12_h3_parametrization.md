@@ -48,6 +48,41 @@ D(t) != 0,
 
 modulo the finite ordering multiplicity of the partner triple.
 
+## Cubic Cap Corollary
+
+For `h=3`, the weakest terminal-node rung L3 is already proved:
+
+```text
+# anchored active pairs < n^3.
+```
+
+Indeed, fix the anchored core `{1,a,b}`.  A partner produced by the
+parametrization has `x(t) in H`, so
+
+```text
+Nx(t)^n - D(t)^n = 0.
+```
+
+This is a nonzero polynomial.  If it vanished identically, then over the
+algebraic closure `Nx = zeta D` for some `n`-th root of unity `zeta`; the
+leading coefficients force `zeta = 1`, and then
+
+```text
+Nx - D = (b-a)t + (b-1)
+```
+
+would force `a=b=1`, impossible for a valid core.
+
+Thus each fixed anchored core has at most `2n` possible slope parameters.
+There are `C(n-1,2)` anchored cores, so
+
+```text
+C(n-1,2) * 2n = n(n-1)(n-2) < n^3.
+```
+
+The bound counts all active pairs, before any toral/full-strip removal, so it
+also bounds the fully stripped `h=3` residue.
+
 ## Proof
 
 Put
@@ -118,6 +153,9 @@ F_65537 / mu_256: 129 active anchored pairs
 
 and every checked active core has one partner.
 
+The verifier also checks the cubic-cap arithmetic at representative `n`,
+including `n=1024`.
+
 ## Verification
 
 Run:
@@ -132,4 +170,4 @@ To refresh the certificate:
 python3 experimental/scripts/verify_x12_h3_parametrization.py --write-certificate
 ```
 
-Current replay: **16 PASS, 0 FAIL**.
+Current replay: **23 PASS, 0 FAIL**.
