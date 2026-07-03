@@ -2801,8 +2801,10 @@
    "attack_surface": "E32-extended census first; then the M5 chart machinery per observed class",
    "falsifier": "an unpaid identically-vanishing configuration class at toys (the census reports it directly)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/e32_merged_stagnation_exception_census.md"
+   ],
+   "notes": "E32-MERGED profile census: the E27 corridor row has no light profiles at all (min sigma 17 > 2k 16), and its 9 far-spread Venn profiles have no stacked-rank defect. Three n=16 light-profile rows over F_17^* have 34/91/163 light profiles and no profile-forced eliminant vanishing. No S9 profile class found; coordinate-special vanishing remains a future refinement if needed."
   },
   {
    "id": "xr_syzygy_flat_transport",
@@ -2882,8 +2884,10 @@
    "attack_surface": "restate E13's classes in the eliminant normal form's language (the evaluator exists); one census, two consumers",
    "falsifier": "an E13 exception class not expressible as a vanishing-eliminant configuration (the restatement exercise finds it immediately)",
    "refs": [
-    "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
-   ]
+    "experimental/notes/roadmaps/xr_triangle_eliminant_form.md",
+    "experimental/notes/roadmaps/e32_merged_stagnation_exception_census.md"
+   ],
+   "notes": "E32-MERGED writes the face-3 dictionary in the eliminant normal form: AG/net = incidence-design rank drop, v-degenerate = one coordinate leg killed by the constrained-support dual word, syzygy circuits = one-dimensional full-support normal-form kernels with independent deletions. No fourth profile-forced branch appears in the checked census."
   }
  ],
  "edges": [

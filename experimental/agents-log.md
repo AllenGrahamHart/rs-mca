@@ -1369,3 +1369,20 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - E32-MERGED stagnation + exception profile census
+
+- **Agent/model:** Codex.
+- **DAG consumers:** `xr_eliminant_vanishing_class`, `spread_syzygy_ident`,
+  `xr_light_triangle_eliminant`.
+- **Files added or changed:** `experimental/notes/roadmaps/e32_merged_stagnation_exception_census.md`,
+  `experimental/scripts/verify_e32_merged_census.py`,
+  `experimental/data/certificates/e32-merged-census/*`,
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** EVIDENCE / profile-exact negative census.
+- **What is being added:** Exact Venn-profile enumeration for the E27 corridor
+  row and three n=16 light rows; no profile-forced rank stagnation or
+  light-eliminant vanishing is found, and the E13 classes are restated in the
+  eliminant normal form.
+- **Verification:** `verify_e32_merged_census.py` recomputes the profile ranks
+  and pinned coordinate-embedding counts.
