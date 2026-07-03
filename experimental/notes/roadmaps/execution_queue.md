@@ -668,6 +668,20 @@ QA.18 [integer_code_distance_cert toy pipeline] (M)  END-TO-END
       complete printed toy certificate as the format exemplar.
 ```
 
+## Tier D8 — crux 2's final layer (2026-07-03)
+
+```text
+QA.19 [certifier_uniformity part (i)] (M)  Uniform multiplier
+      existence: for every admissible p, good compression multipliers
+      exist (counting over c). Immediately uniformizes the weight-~24
+      radius extension => ALL knife-edge windows shrink at once; the
+      parametric census quantifies the surviving exposed set.
+QA.20 [rules: compiler semantics] (S — reading)  Add to the freeze
+      table: does a proved-correct certifying decision procedure
+      satisfy 'determine for each admissible C'? The answer sets how
+      much of certifier_uniformity part (ii) is actually required.
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the

@@ -120,7 +120,8 @@
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#2"
    ],
-   "statement": "Pin every operative rule as quote + hash with a drift detector; plan against the stricter reading on any ambiguity."
+   "statement": "Pin every operative rule as quote + hash with a drift detector; plan against the stricter reading on any ambiguity.",
+   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically."
   },
   {
    "id": "mca_unsafe",
@@ -2496,6 +2497,18 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ]
+  },
+  {
+   "id": "certifier_uniformity",
+   "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Per-row certificates cannot be run over the astronomically many primes in a knife-edge window; the grand challenge needs the pipeline's success made UNIFORM: (i) good multipliers exist for every p (pigeonhole/counting over c \u2014 provable-shaped, and already sufficient to make the weight-~24 radius extension uniform, shrinking ALL windows simultaneously); (ii) the k-multiplier matrix achieves the ternary distance for every p (the worst-case form of the GV heuristic \u2014 the true final boss of crux 2). Fallback semantics: a proved-correct certifying ALGORITHM + per-row certificates may satisfy the prize's determination requirement (rules question \u2014 see rules_freeze).",
+   "attack_surface": "(i) first: uniform multiplier existence is a counting argument, delegable; then the uniform-L window census quantifies exactly which rows remain exposed; (ii) is where genuinely new mathematics would live if the rules demand a classical uniform theorem",
+   "falsifier": "a prime for which no k <= poly multiplier system achieves the distance (the toy bake-off's k-vs-GV data previews this)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
   }
  ],
  "edges": [
@@ -4647,6 +4660,21 @@
   {
    "from": "graded_collision_radius",
    "to": "weight_graded_mitm",
+   "kind": "ev"
+  },
+  {
+   "from": "certifier_uniformity",
+   "to": "certified_valueset_lower",
+   "kind": "req"
+  },
+  {
+   "from": "lattice_cone_certificate",
+   "to": "certifier_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "rules_m_reading",
+   "to": "certifier_uniformity",
    "kind": "ev"
   }
  ]
