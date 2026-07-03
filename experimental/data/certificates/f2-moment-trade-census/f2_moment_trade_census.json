@@ -1,0 +1,1277 @@
+{
+  "adversarial_patterns": [
+    {
+      "ap_zero_syndrome_hits": 96,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          4,
+          8,
+          12
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "near_n",
+      "n": 16,
+      "p": 17,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 96,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          4,
+          8,
+          12
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "n2",
+      "n": 16,
+      "p": 257,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 96,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          4,
+          8,
+          12
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "n3",
+      "n": 16,
+      "p": 4129,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 96,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          4,
+          8,
+          12
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "2^61",
+      "n": 16,
+      "p": 2305843009213694017,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 192,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          8,
+          16,
+          24
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "near_n",
+      "n": 32,
+      "p": 97,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 192,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          8,
+          16,
+          24
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "n2",
+      "n": 32,
+      "p": 1153,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 192,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          8,
+          16,
+          24
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "n3",
+      "n": 32,
+      "p": 32801,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 192,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          8,
+          16,
+          24
+        ]
+      },
+      "known_witness_transport": null,
+      "label": "2^61",
+      "n": 32,
+      "p": 2305843009213694017,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 384,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          16,
+          32,
+          48
+        ]
+      },
+      "known_witness_transport": {
+        "is_zero": false,
+        "known_exponent_set_syndrome": [
+          148,
+          116,
+          190
+        ]
+      },
+      "label": "near_n",
+      "n": 64,
+      "p": 193,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 384,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          16,
+          32,
+          48
+        ]
+      },
+      "known_witness_transport": {
+        "is_zero": false,
+        "known_exponent_set_syndrome": [
+          2468,
+          2965,
+          1325
+        ]
+      },
+      "label": "n2",
+      "n": 64,
+      "p": 4289,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 384,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          16,
+          32,
+          48
+        ]
+      },
+      "known_witness_transport": {
+        "is_zero": false,
+        "known_exponent_set_syndrome": [
+          93651,
+          193933,
+          126188
+        ]
+      },
+      "label": "n3",
+      "n": 64,
+      "p": 262337,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    },
+    {
+      "ap_zero_syndrome_hits": 384,
+      "first_ap_hit": {
+        "b": 4,
+        "class": "quotient_or_rotational",
+        "exponents": [
+          0,
+          16,
+          32,
+          48
+        ]
+      },
+      "known_witness_transport": {
+        "is_zero": false,
+        "known_exponent_set_syndrome": [
+          275593402809180994,
+          324326281920536791,
+          906237365219810247
+        ]
+      },
+      "label": "2^61",
+      "n": 64,
+      "p": 2305843009213694017,
+      "primitive_ap_zero_syndrome_hits": 0,
+      "subfield_supported_blocks": "not applicable in prime field F_p; prime-power q rows remain a separate construction check"
+    }
+  ],
+  "checks": 7,
+  "known_witness": {
+    "dihedral_class": "primitive",
+    "exponents": [
+      0,
+      1,
+      2,
+      4,
+      16,
+      45,
+      50,
+      60
+    ],
+    "n": 64,
+    "p": 193,
+    "power_sum_r4": 18,
+    "syndrome_t3": [
+      0,
+      0,
+      0
+    ],
+    "zeta": 11,
+    "zeta_order_check": true
+  },
+  "n64_b8_threshold_scan": [
+    {
+      "b": 8,
+      "log_p_over_log_n": 1.2654095062113468,
+      "n": 64,
+      "p": 193,
+      "primitive_exists": true,
+      "structured_before_witness": 0,
+      "witness_exponents": [
+        0,
+        1,
+        4,
+        7,
+        19,
+        23,
+        49,
+        59
+      ],
+      "zero_syndrome_blocks_seen_until_witness": 1,
+      "zeta": 125
+    },
+    {
+      "b": 8,
+      "log_p_over_log_n": 1.33427075819898,
+      "n": 64,
+      "p": 257,
+      "primitive_exists": true,
+      "structured_before_witness": 1,
+      "witness_exponents": [
+        0,
+        1,
+        5,
+        21,
+        22,
+        45,
+        51,
+        62
+      ],
+      "zero_syndrome_blocks_seen_until_witness": 2,
+      "zeta": 81
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        2,
+        20,
+        32,
+        33,
+        34,
+        52
+      ],
+      "log_p_over_log_n": 1.4684286057901914,
+      "n": 64,
+      "p": 449,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 7560,
+      "zero_syndrome_blocks_total": 7560,
+      "zeta": 391
+    },
+    {
+      "b": 8,
+      "log_p_over_log_n": 1.5287379181075806,
+      "n": 64,
+      "p": 577,
+      "primitive_exists": true,
+      "structured_before_witness": 2,
+      "witness_exponents": [
+        0,
+        1,
+        9,
+        21,
+        22,
+        38,
+        46,
+        62
+      ],
+      "zero_syndrome_blocks_seen_until_witness": 3,
+      "zeta": 557
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        16,
+        17,
+        32,
+        33,
+        48,
+        49
+      ],
+      "log_p_over_log_n": 1.5540300911031235,
+      "n": 64,
+      "p": 641,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 7560,
+      "zero_syndrome_blocks_total": 7560,
+      "zeta": 77
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        16,
+        17,
+        32,
+        33,
+        48,
+        49
+      ],
+      "log_p_over_log_n": 1.5978066313269714,
+      "n": 64,
+      "p": 769,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 4200,
+      "zero_syndrome_blocks_total": 4200,
+      "zeta": 85
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        6,
+        13,
+        32,
+        33,
+        38,
+        45
+      ],
+      "log_p_over_log_n": 1.695196132941962,
+      "n": 64,
+      "p": 1153,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 5320,
+      "zero_syndrome_blocks_total": 5320,
+      "zeta": 943
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        16,
+        17,
+        32,
+        33,
+        48,
+        49
+      ],
+      "log_p_over_log_n": 1.708185575452288,
+      "n": 64,
+      "p": 1217,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 6440,
+      "zero_syndrome_blocks_total": 6440,
+      "zeta": 910
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        16,
+        17,
+        32,
+        33,
+        48,
+        49
+      ],
+      "log_p_over_log_n": 1.7434093160516062,
+      "n": 64,
+      "p": 1409,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 5320,
+      "zero_syndrome_blocks_total": 5320,
+      "zeta": 415
+    },
+    {
+      "b": 8,
+      "first_structured_exponents": [
+        0,
+        1,
+        16,
+        17,
+        32,
+        33,
+        48,
+        49
+      ],
+      "log_p_over_log_n": 1.7741262654193763,
+      "n": 64,
+      "p": 1601,
+      "primitive_exists": false,
+      "structured_zero_syndrome_blocks": 4200,
+      "zero_syndrome_blocks_total": 4200,
+      "zeta": 828
+    }
+  ],
+  "node": "x4b_moment_trade_exclusion",
+  "representative_rows": [
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            4,
+            8,
+            12
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 12,
+          "zero_syndrome_blocks_total": 12
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            12,
+            13
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 210,
+          "zero_syndrome_blocks_total": 210
+        }
+      ],
+      "label": "near_n",
+      "log_p_over_log_n": 1.021865710312585,
+      "n": 16,
+      "p": 17,
+      "primitive_weights": [],
+      "zeta": 3
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            4,
+            8,
+            12
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 12,
+          "zero_syndrome_blocks_total": 12
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            12,
+            13
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 210,
+          "zero_syndrome_blocks_total": 210
+        }
+      ],
+      "label": "n2",
+      "log_p_over_log_n": 2.0014061372984697,
+      "n": 16,
+      "p": 257,
+      "primitive_weights": [],
+      "zeta": 249
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            4,
+            8,
+            12
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 12,
+          "zero_syndrome_blocks_total": 12
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            12,
+            13
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 210,
+          "zero_syndrome_blocks_total": 210
+        }
+      ],
+      "label": "n3",
+      "log_p_over_log_n": 3.002894175794044,
+      "n": 16,
+      "p": 4129,
+      "primitive_weights": [],
+      "zeta": 1163
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            4,
+            8,
+            12
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 12,
+          "zero_syndrome_blocks_total": 12
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            12,
+            13
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 210,
+          "zero_syndrome_blocks_total": 210
+        }
+      ],
+      "label": "2^61",
+      "log_p_over_log_n": 15.25,
+      "n": 16,
+      "p": 2305843009213694017,
+      "primitive_weights": [],
+      "zeta": 698203570695319299
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 24,
+          "zero_syndrome_blocks_total": 24
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            8,
+            9,
+            16,
+            17,
+            24,
+            25
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 1540,
+          "zero_syndrome_blocks_total": 1540
+        }
+      ],
+      "label": "near_n",
+      "log_p_over_log_n": 1.3199825684374256,
+      "n": 32,
+      "p": 97,
+      "primitive_weights": [],
+      "zeta": 28
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 24,
+          "zero_syndrome_blocks_total": 24
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            8,
+            9,
+            16,
+            17,
+            24,
+            25
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 980,
+          "zero_syndrome_blocks_total": 980
+        }
+      ],
+      "label": "n2",
+      "log_p_over_log_n": 2.034235359530354,
+      "n": 32,
+      "p": 1153,
+      "primitive_weights": [],
+      "zeta": 286
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 24,
+          "zero_syndrome_blocks_total": 24
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            8,
+            9,
+            16,
+            17,
+            24,
+            25
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 980,
+          "zero_syndrome_blocks_total": 980
+        }
+      ],
+      "label": "n3",
+      "log_p_over_log_n": 3.000290435665446,
+      "n": 32,
+      "p": 32801,
+      "primitive_weights": [],
+      "zeta": 6798
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            8,
+            16,
+            24
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 24,
+          "zero_syndrome_blocks_total": 24
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            8,
+            9,
+            16,
+            17,
+            24,
+            25
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 980,
+          "zero_syndrome_blocks_total": 980
+        }
+      ],
+      "label": "2^61",
+      "log_p_over_log_n": 12.2,
+      "n": 32,
+      "p": 2305843009213694017,
+      "primitive_weights": [],
+      "zeta": 2200900986550374710
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 48,
+          "zero_syndrome_blocks_total": 48
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": [
+            0,
+            5,
+            20,
+            32,
+            37,
+            52
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 320,
+          "zero_syndrome_blocks_total": 320
+        },
+        {
+          "b": 7,
+          "primitive_exists": true,
+          "structured_before_witness": 0,
+          "witness_exponents": [
+            0,
+            1,
+            2,
+            4,
+            8,
+            26,
+            49
+          ],
+          "zero_syndrome_blocks_seen_until_witness": 1
+        },
+        {
+          "b": 8,
+          "primitive_exists": true,
+          "structured_before_witness": 0,
+          "witness_exponents": [
+            0,
+            1,
+            4,
+            7,
+            19,
+            23,
+            49,
+            59
+          ],
+          "zero_syndrome_blocks_seen_until_witness": 1
+        }
+      ],
+      "label": "near_n",
+      "log_p_over_log_n": 1.2654095062113468,
+      "n": 64,
+      "p": 193,
+      "primitive_weights": [
+        7,
+        8
+      ],
+      "zeta": 125
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 48,
+          "zero_syndrome_blocks_total": 48
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            16,
+            17,
+            32,
+            33,
+            48,
+            49
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 4200,
+          "zero_syndrome_blocks_total": 4200
+        }
+      ],
+      "label": "n2",
+      "log_p_over_log_n": 2.0110709334392594,
+      "n": 64,
+      "p": 4289,
+      "primitive_weights": [],
+      "zeta": 3213
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 48,
+          "zero_syndrome_blocks_total": 48
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            16,
+            17,
+            32,
+            33,
+            48,
+            49
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 4200,
+          "zero_syndrome_blocks_total": 4200
+        }
+      ],
+      "label": "n3",
+      "log_p_over_log_n": 3.0001769623402055,
+      "n": 64,
+      "p": 262337,
+      "primitive_weights": [],
+      "zeta": 173013
+    },
+    {
+      "by_weight": [
+        {
+          "b": 4,
+          "first_structured_exponents": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 48,
+          "zero_syndrome_blocks_total": 48
+        },
+        {
+          "b": 5,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 6,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 7,
+          "first_structured_exponents": null,
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 0,
+          "zero_syndrome_blocks_total": 0
+        },
+        {
+          "b": 8,
+          "first_structured_exponents": [
+            0,
+            1,
+            16,
+            17,
+            32,
+            33,
+            48,
+            49
+          ],
+          "primitive_exists": false,
+          "structured_zero_syndrome_blocks": 4200,
+          "zero_syndrome_blocks_total": 4200
+        }
+      ],
+      "label": "2^61",
+      "log_p_over_log_n": 10.166666666666668,
+      "n": 64,
+      "p": 2305843009213694017,
+      "primitive_weights": [],
+      "zeta": 525805331982941206
+    }
+  ],
+  "scanned_weights": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "status": "EVIDENCE: U2 survives checked t=3, b<=8 bands; b=9,10 unscanned here",
+  "summary": {
+    "first_n64_prime_after_low_hits_with_no_b8_primitive": 641,
+    "n64_primitive_primes_in_first_10": [
+      {
+        "log_p_over_log_n": 1.2654095062113468,
+        "p": 193,
+        "witness": [
+          0,
+          1,
+          4,
+          7,
+          19,
+          23,
+          49,
+          59
+        ]
+      },
+      {
+        "log_p_over_log_n": 1.33427075819898,
+        "p": 257,
+        "witness": [
+          0,
+          1,
+          5,
+          21,
+          22,
+          45,
+          51,
+          62
+        ]
+      },
+      {
+        "log_p_over_log_n": 1.5287379181075806,
+        "p": 577,
+        "witness": [
+          0,
+          1,
+          9,
+          21,
+          22,
+          38,
+          46,
+          62
+        ]
+      }
+    ],
+    "representative_high_scale_primitive_rows": []
+  },
+  "t": 3,
+  "task": "F2/E37",
+  "unscanned_weights_from_spec": [
+    9,
+    10
+  ]
+}
