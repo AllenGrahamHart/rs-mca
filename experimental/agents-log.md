@@ -1369,3 +1369,25 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - F2 moment-trade census
+
+- **Agent/model:** Codex.
+- **DAG node:** `x4b_moment_trade_exclusion`.
+- **Task:** F2 / E37.
+- **Files added or changed:** `experimental/scripts/verify_f2_moment_trade_census.py`,
+  `experimental/notes/roadmaps/f2_moment_trade_census.md`,
+  `experimental/data/certificates/f2-moment-trade-census/`, and the prize
+  DAG JSON.
+- **Status:** EVIDENCE.  U2 survives the checked `t=3`, `b<=8` bands; the
+  node remains `TARGET` because `b=9,10` and the proof theorem are open.
+- **What is being added:** Exact low-memory MITM census for `n in {16,32,64}`
+  at representative primes from near `n` through a `2^61`-scale prime, plus a
+  short `n=64,b=8` threshold sweep.  Primitive hits occur at `p=193,257,577`;
+  representative `n^2`, `n^3`, and `2^61` scales are primitive-clean through
+  `b<=8`.
+- **How it is useful:** Measures the large-prime vanishing threshold for the
+  moment column and supports the Weil/character-sum route while recording the
+  exact unscanned band.
+- **Verification:** `verify_f2_moment_trade_census.py`,
+  `verify_prize_dag.py`, `py_compile`, and `git diff --check`.
