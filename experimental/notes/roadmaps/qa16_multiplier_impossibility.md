@@ -68,7 +68,7 @@ Both steps fail, for different reasons:
   The "k log p bits" count presupposed an independence that never holds.
 - **No good multiplier exists (SS3-SS4):** exhaustive search over ALL
   `c in F_p^*` at three toys finds ZERO good multipliers, with the best
-  achievable max-residue a factor 4.7-8.5 ABOVE the threshold; the
+  achievable max-residue a factor 4.75-8.55 ABOVE the threshold; the
   counting heuristic says the deficit is overwhelming (2^{-hundreds}) at
   every prize-relevant `N'`. So step 1's hypothesis is never satisfiable
   where it is needed, and step 2's integer matrix never exists.
@@ -177,7 +177,7 @@ anywhere: the observed best sits at 0.94-0.95 of `p/4` in all three
 cases, so a mis-thresholded reading (`p/4` in place of `p/(4l')`) is a
 plausible source of the earlier figure.] The refined random model of SS4
 predicts `min_c M(c) ~ 54 / 11585 / 2678` for the three pairs — the
-right scale (observed/predicted = 1.13 / 1.34 / 1.08), consistent with
+right scale (observed/predicted = 1.14 / 1.34 / 1.08), consistent with
 "no structure rescues the multiplier".
 
 **These toys are honest miniatures.** All three sit BELOW the s2 norm
@@ -238,7 +238,7 @@ good multipliers exist  <=>  p > (2l')^{N'/2}  <=>  zone (a),
 which is precisely the region where prop:qfloor already gives EXACT
 counts and no certificate is needed. In zone (b) (`80 < N' < ~512` at
 rho = 1/2, prize scale), where the pipeline was aimed, the expected
-number of good multipliers is `2^{-199}` to `2^{-2056}` (refined) —
+number of good multipliers is `2^{-199}` to `2^{-2055}` (refined) —
 overwhelming nonexistence. The multiplier route's (heuristic) domain of
 existence is exactly the domain where it has nothing to add.
 
