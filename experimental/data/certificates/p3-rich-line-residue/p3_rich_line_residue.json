@@ -1,0 +1,86 @@
+{
+  "checks": 8,
+  "fixture": {
+    "A": 6,
+    "dihedral_paid_supports": 0,
+    "domain": "mu_64",
+    "field": "F_193",
+    "intended_rich_parameters": 65,
+    "k": 4,
+    "line_family_parameter_m": 10,
+    "max_intended_multiplicity": 3,
+    "named_residue": "p3_affine_net_richline_residue",
+    "quotient_tail_paid_supports": 0,
+    "sample_supports": [
+      [
+        0,
+        1,
+        2,
+        7,
+        16,
+        28
+      ],
+      [
+        0,
+        1,
+        2,
+        7,
+        18,
+        26
+      ],
+      [
+        0,
+        1,
+        2,
+        8,
+        16,
+        30
+      ],
+      [
+        0,
+        1,
+        2,
+        8,
+        17,
+        29
+      ],
+      [
+        0,
+        1,
+        2,
+        8,
+        19,
+        27
+      ],
+      [
+        0,
+        1,
+        2,
+        8,
+        20,
+        26
+      ],
+      [
+        0,
+        1,
+        2,
+        9,
+        16,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        9,
+        17,
+        31
+      ]
+    ],
+    "t": 2,
+    "verified_aligned_supports": 65
+  },
+  "node": "deep_link_staircase",
+  "status": "CONDITIONAL/NEGATIVE: current paid strip does not prove the fixed-subcore rich-line cap",
+  "task": "P3"
+}
