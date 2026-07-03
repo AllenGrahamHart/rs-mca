@@ -362,3 +362,30 @@ INTERPRET > 87 => THE SECOND PIN IS COMPLETE — a window-edge
           per the staircase table and re-run (the framework makes this
           a parameter change, not new mathematics)
 ```
+
+## E24 — LLL/BKZ collision hunt: DECIDE the cells sampling cannot reach
+
+```text
+TARGET    zone_b open cells / kernel_lattice_reframing /
+          lattice_cone_certificate
+QUESTION  does the kernel lattice K_p = {v : sum v_x zeta^x = 0 mod p}
+          contain sparse ternary vectors (support <= 2l') beyond the
+          cyclotomic relations, at N' = 128 and 256, for Row-C-class
+          primes?
+PRIOR     ~85% no (matches typicality + Gaussian heuristic ~2^-50)
+METHOD    build K_p explicitly (rank N', index p; p = 1 mod N' so zeta
+          in F_p — pure linear algebra); run LLL then BKZ with
+          increasing block size; record the reduced basis profile and
+          every short vector found; test each for ternary-sparsity;
+          quotient out the known cyclotomic relation sublattice first
+INTERPRET no sparse ternary vector at practical block sizes + healthy
+          basis profile => the open cells gain their first DIRECT
+          evidence (beyond all sampling reach); the profile data feeds
+          the cone-certificate design | a sparse ternary vector FOUND
+          => AN ACTUAL COLLISION at an open cell: the collided branch
+          is real, zone-(b) verdict changes, averaged_slope_conversion
+          promotes — the single most consequential possible finding
+          on the unsafe side
+NOTE      this instrument reaches exactly where birthday sampling was
+          proven infeasible; either outcome is decisive-grade.
+```

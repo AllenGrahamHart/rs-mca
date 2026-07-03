@@ -2194,7 +2194,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "E12 (#203): EARLY-CAP signal \u2014 the cyclic germ lifts to ell-sum orbits (8/16 templates at N=16/32) but plain orbit unions grow only ~linearly in templates. Next attacks: multiplicative template compression or imported abelian difference-set designs. No fiber counts used (guard respected)."
+   "notes": "E12 (#203): EARLY-CAP signal \u2014 the cyclic germ lifts to ell-sum orbits (8/16 templates at N=16/32) but plain orbit unions grow only ~linearly in templates. Next attacks: multiplicative template compression or imported abelian difference-set designs. No fiber counts used (guard respected). | SCOPED by profile_covering_obstruction: only engineered (flat-profile/integer-factored) designs can work; the kernel-lattice route (lattice_cone_certificate) is now the primary alternative \u2014 neither pure existence nor pure construction, but per-row CERTIFICATION."
   },
   {
    "id": "xr_anticode_toolkit",
@@ -2425,6 +2425,38 @@
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
    "notes": "the single most information-dense computation available on the XR front: it prices the whole wall"
+  },
+  {
+   "id": "profile_covering_obstruction",
+   "title": "The profile-covering obstruction: why naive generator designs cap (explains E12)",
+   "status": "PROVABLE",
+   "statement": "A generator certificate requires the difference's 64-dim conjugate profile to match some gamma_i's profile within a factor-p^{1/phi} window per coordinate; covering arbitrary profiles needs exponentially many generators, and the e1 image is too sparse (2^122 values in a 2^390-point ball) for averaging to find full boxes. Hence: no unstructured family works, pigeonhole existence fails, and E12's linear cap is the observed shadow. The one FREE profile class: flat \u2014 (integer) x (small element) differences are self-certified.",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ],
+   "notes": "the scoping result that redirects the design search toward engineered (flat/near-integer) difference profiles"
+  },
+  {
+   "id": "kernel_lattice_reframing",
+   "title": "REFRAMING: e1 is linear \u2014 collisions = sparse ternary vectors in ONE explicit index-p lattice",
+   "status": "PROVABLE",
+   "statement": "Since p = 1 mod N', zeta lives in F_p and e1 is an F_p-linear functional on class indicators: a collision is EXACTLY a ternary vector (entries -1/0/1, support <= 2l') in the kernel lattice K_p = {v : sum v_x zeta^x = 0 mod p}, beyond the known cyclotomic relations. The entire per-prime certification crux is a sparse-short-vector question about one explicit rank-N' lattice. Gaussian-heuristic arithmetic independently reproduces the typicality prediction (~2^-50 expected hits at N'=128).",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ],
+   "notes": "converts the crux from additive-combinatorics existence into lattice technology: search = LLL/BKZ; certification = cone-restricted dual/transference bounds (honestly harder than plain lambda_1)"
+  },
+  {
+   "id": "lattice_cone_certificate",
+   "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For a knife-edge row's specific p: a printed lattice certificate (dual/transference bound restricted to the sparse ternary cone, or exhaustion over reduced bases) proving K_p contains no ternary vector of support <= 2l' beyond the cyclotomic relations \u2014 certifying FULL injectivity in one per-row computation. Replaces the generator-design existence question as certified_valueset_lower's primary route; fits the repo's certificate grammar (the knife-edge certificate becomes a lattice certificate).",
+   "attack_surface": "start with the SEARCH direction (E24): BKZ at N' = 128 either finds a collision (decides the cell!) or the reduced basis profile feeds the certificate; the cone restriction is the open technical piece \u2014 sparse is not short (lambda_1 ~ 7.7 < ternary norm ~ 11.4 at rank 512, so plain SVP bounds cannot separate)",
+   "falsifier": "BKZ finding a sparse ternary kernel vector = an actual collision = the collided branch is REAL at that cell (a zone-(b) verdict, not a route failure)",
+   "refs": [
+    "proof_sketch/s2_paid_ledger.md#3"
+   ]
   }
  ],
  "edges": [
@@ -4522,6 +4554,31 @@
    "from": "exchange_ledger_gen_t",
    "to": "xr_distance_dichotomy",
    "kind": "req"
+  },
+  {
+   "from": "profile_covering_obstruction",
+   "to": "generator_economy",
+   "kind": "ev"
+  },
+  {
+   "from": "kernel_lattice_reframing",
+   "to": "lattice_cone_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "lattice_cone_certificate",
+   "to": "certified_valueset_lower",
+   "kind": "alt"
+  },
+  {
+   "from": "kernel_lattice_reframing",
+   "to": "e1_random_prime_model",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "kernel_lattice_reframing",
+   "kind": "ev"
   }
  ]
 }
