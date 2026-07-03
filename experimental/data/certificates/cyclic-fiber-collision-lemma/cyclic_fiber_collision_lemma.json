@@ -1,0 +1,149 @@
+{
+  "cases": [
+    {
+      "anchored_partner_pairs": 3,
+      "coset_count": 4,
+      "cyclic_map": "x^2",
+      "h": 2,
+      "n": 8,
+      "ordered_paid_pairs": 12,
+      "p": 73,
+      "zero_top_signature_cosets": 4
+    },
+    {
+      "anchored_partner_pairs": 1,
+      "coset_count": 2,
+      "cyclic_map": "x^4",
+      "h": 4,
+      "n": 8,
+      "ordered_paid_pairs": 2,
+      "p": 73,
+      "zero_top_signature_cosets": 2
+    },
+    {
+      "anchored_partner_pairs": 7,
+      "coset_count": 8,
+      "cyclic_map": "x^2",
+      "h": 2,
+      "n": 16,
+      "ordered_paid_pairs": 56,
+      "p": 257,
+      "zero_top_signature_cosets": 8
+    },
+    {
+      "anchored_partner_pairs": 3,
+      "coset_count": 4,
+      "cyclic_map": "x^4",
+      "h": 4,
+      "n": 16,
+      "ordered_paid_pairs": 12,
+      "p": 257,
+      "zero_top_signature_cosets": 4
+    },
+    {
+      "anchored_partner_pairs": 1,
+      "coset_count": 2,
+      "cyclic_map": "x^8",
+      "h": 8,
+      "n": 16,
+      "ordered_paid_pairs": 2,
+      "p": 257,
+      "zero_top_signature_cosets": 2
+    },
+    {
+      "anchored_partner_pairs": 15,
+      "coset_count": 16,
+      "cyclic_map": "x^2",
+      "h": 2,
+      "n": 32,
+      "ordered_paid_pairs": 240,
+      "p": 1153,
+      "zero_top_signature_cosets": 16
+    },
+    {
+      "anchored_partner_pairs": 7,
+      "coset_count": 8,
+      "cyclic_map": "x^4",
+      "h": 4,
+      "n": 32,
+      "ordered_paid_pairs": 56,
+      "p": 1153,
+      "zero_top_signature_cosets": 8
+    },
+    {
+      "anchored_partner_pairs": 3,
+      "coset_count": 4,
+      "cyclic_map": "x^8",
+      "h": 8,
+      "n": 32,
+      "ordered_paid_pairs": 12,
+      "p": 1153,
+      "zero_top_signature_cosets": 4
+    },
+    {
+      "anchored_partner_pairs": 1,
+      "coset_count": 2,
+      "cyclic_map": "x^16",
+      "h": 16,
+      "n": 32,
+      "ordered_paid_pairs": 2,
+      "p": 1153,
+      "zero_top_signature_cosets": 2
+    },
+    {
+      "anchored_partner_pairs": 31,
+      "coset_count": 32,
+      "cyclic_map": "x^2",
+      "h": 2,
+      "n": 64,
+      "ordered_paid_pairs": 992,
+      "p": 4289,
+      "zero_top_signature_cosets": 32
+    },
+    {
+      "anchored_partner_pairs": 15,
+      "coset_count": 16,
+      "cyclic_map": "x^4",
+      "h": 4,
+      "n": 64,
+      "ordered_paid_pairs": 240,
+      "p": 4289,
+      "zero_top_signature_cosets": 16
+    },
+    {
+      "anchored_partner_pairs": 7,
+      "coset_count": 8,
+      "cyclic_map": "x^8",
+      "h": 8,
+      "n": 64,
+      "ordered_paid_pairs": 56,
+      "p": 4289,
+      "zero_top_signature_cosets": 8
+    },
+    {
+      "anchored_partner_pairs": 3,
+      "coset_count": 4,
+      "cyclic_map": "x^16",
+      "h": 16,
+      "n": 64,
+      "ordered_paid_pairs": 12,
+      "p": 4289,
+      "zero_top_signature_cosets": 4
+    },
+    {
+      "anchored_partner_pairs": 1,
+      "coset_count": 2,
+      "cyclic_map": "x^32",
+      "h": 32,
+      "n": 64,
+      "ordered_paid_pairs": 2,
+      "p": 4289,
+      "zero_top_signature_cosets": 2
+    }
+  ],
+  "checks": 128,
+  "node": "cyclic_fiber_collision_lemma",
+  "statement": "If h is a proper divisor of n and H=mu_n, the full fibers of x -> x^h on H have locators X^h-a. Therefore their top h-1 elementary symmetric sums vanish, all fiber pairs are same-top-(h-1) collisions, and all such collisions are cyclic-pullback paid.",
+  "status": "PROVED algebraic lemma; verifier sanity-checks representative rows",
+  "task": "cyclic fiber collision lemma"
+}

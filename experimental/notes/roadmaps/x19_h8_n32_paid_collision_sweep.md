@@ -91,6 +91,11 @@ fails after the h=5, h=6, and h=7 empty sweeps.  The failure is not a primitive
 obstruction: it is exactly the cyclic coset partition and is already paid by
 the existing pullback dictionary.
 
+The general reason is recorded in `cyclic_fiber_collision_lemma.md`: for every
+proper divisor `h | n`, the full fibers of `X^h` on `mu_n` have locator
+`X^h - a`, hence zero top-`(h-1)` signature.  X19 is the instance
+`(n,h) = (32,8)`.
+
 This sharpens the terminal proof target.  A plausible theorem should not be
 phrased as global top-`h-1` signature injectivity.  It should be phrased as
 one of:
