@@ -77,8 +77,18 @@ defect/tails wrapper:
   A_{h,B}^nt <= C_{h,B} n.
 ```
 
-With the orbit factor, this gives the required `<= n^2` scale for uncharged
-split pairs.  Without that estimate, B remains open.
+With the old orbit-factor route, this gives the required `<= n^2` scale for
+uncharged split pairs.  W4 replaces that local consumption point: exit 3 is now
+charged directly to the final row-wise primitive PTE compiler column.  Thus B
+still depends on the same residue, but the sufficient bound is the W4 L3
+currency
+
+```text
+# uncharged split pairs <= n^3 per row
+```
+
+rather than the strict anchored `A_h^nt <= h n` form, provided tails are already
+included in that final row-wise count or paid separately.
 
 ## Census Check
 
@@ -98,7 +108,8 @@ PTE estimate.
 
 ## Conditional Theorem
 
-Assume the anchored non-toral PTE bound and its defect/tails wrapper.  Then
+Assume either the anchored non-toral PTE bound and its defect/tails wrapper, or
+the W4 direct-column replacement in final post-strip row-wise currency.  Then
 `u1_beta_band_trade_reduction` holds:
 
 ```text

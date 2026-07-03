@@ -84,9 +84,13 @@ def build_certificate() -> dict[str, Any]:
         "exit3_primitive_moment_pte",
     })
     check("P-B exit 3 is the dominant observed route", aggregate["exit3_primitive_moment_pte"] > aggregate["exit1_minimal_subtrade"] + aggregate["exit2_v1_pullback"])
-    check("B node remains open", b_node["status"] == "TARGET", b_node["status"])
+    check("B node remains open/conditional", b_node["status"] in {"TARGET", "CONDITIONAL"}, b_node["status"])
     check("B node records moving-curve failure", "moving curves" in b_node["statement"])
-    check("anchored non-toral PTE node remains open", pte_node["status"] == "TARGET", pte_node["status"])
+    check(
+        "anchored non-toral PTE node remains open/conditional",
+        pte_node["status"] in {"TARGET", "CONDITIONAL"},
+        pte_node["status"],
+    )
     check("X-10 node names defect/tails wrapper", "defect version" in pte_node["statement"] and "tails wrapper" in pte_node["statement"])
 
     row_summaries = []
