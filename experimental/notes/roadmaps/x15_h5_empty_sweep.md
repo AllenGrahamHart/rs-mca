@@ -19,7 +19,7 @@ For
 
 ```text
 n = 32,  alpha in {2, 9/4, 5/2, 3}
-n = 64,  alpha in {2, 9/4, 5/2},
+n = 64,  alpha in {2, 9/4, 5/2, 11/4, 3},
 ```
 
 the verifier takes the first prime
@@ -53,6 +53,8 @@ n32, alpha=3         32801      201376       0
 n64, alpha=2         4289       7624512      0
 n64, alpha=9/4       11777      7624512      0
 n64, alpha=5/2       32833      7624512      0
+n64, alpha=11/4      92737      7624512      0
+n64, alpha=3         262337     7624512      0
 ```
 
 Therefore:
@@ -64,17 +66,17 @@ post-strip h=5 non-toral residue = 0
 
 in every checked row.
 
-## Coverage Bound
+## Two-Word Signature
 
 The verifier stores the top-four signature as
 
 ```text
-e_1 + p e_2 + p^2 e_3 + p^3 e_4,
+(e_1 + p e_2,  e_3 + p e_4),
 ```
 
-so this low-memory implementation requires `p^4 < 2^64`.  That is why the
-`n=64` sweep stops at `alpha=5/2`; the next cells would need a two-word key or
-a heavier Python-integer sort.  The `n=32` sweep fits through `alpha=3`.
+and sorts the two `uint64` words lexicographically.  This keeps the exact
+low-memory sweep but removes the old `p^4 < 2^64` cap; the checked `n=64`
+range now reaches `alpha=3`.
 
 ## Interpretation
 

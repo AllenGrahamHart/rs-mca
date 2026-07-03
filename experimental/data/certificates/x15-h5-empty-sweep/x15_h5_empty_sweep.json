@@ -1,6 +1,6 @@
 {
-  "checks": 38,
-  "coverage_note": "n=64 is capped at alpha=5/2 because p^4 must fit in uint64 for this low-memory verifier; n=32 is checked through alpha=3",
+  "checks": 48,
+  "coverage_note": "top-four signatures are stored as two base-p uint64 words (e1+p*e2, e3+p*e4), extending n=64 through alpha=3 while keeping the exact low-memory sort",
   "node": "active_core_count_bound",
   "rows": [
     {
@@ -135,6 +135,44 @@
       "signature_collision_subsets": 0,
       "subset_count": 7624512,
       "t": 4
+    },
+    {
+      "collision_examples": [],
+      "exponent": "11/4",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 92737,
+      "floor_n_alpha": 92681,
+      "h": 5,
+      "label": "n64_alpha_11_4",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "92737/92681",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_subsets": 0,
+      "subset_count": 7624512,
+      "t": 4
+    },
+    {
+      "collision_examples": [],
+      "exponent": "3",
+      "first_prime_p_1_mod_n_after_floor_n_alpha": 262337,
+      "floor_n_alpha": 262144,
+      "h": 5,
+      "label": "n64_alpha_3",
+      "max_signature_group_size": 1,
+      "n": 64,
+      "nontoral_active_cores": 0,
+      "nontoral_anchored_partner_pairs": 0,
+      "p_over_floor_n_alpha": "262337/262144",
+      "raw_active_cores": 0,
+      "raw_anchored_partner_pairs": 0,
+      "signature_collision_groups": 0,
+      "signature_collision_subsets": 0,
+      "subset_count": 7624512,
+      "t": 4
     }
   ],
   "scope": "anchored h=5/t=4 split pairs; since the top-four signature is injective on all checked 5-subsets, no active-core partners exist",
@@ -150,7 +188,9 @@
       "n32_alpha_3",
       "n64_alpha_2",
       "n64_alpha_9_4",
-      "n64_alpha_5_2"
+      "n64_alpha_5_2",
+      "n64_alpha_11_4",
+      "n64_alpha_3"
     ]
   },
   "task": "X15 h=5 empty sweep"
