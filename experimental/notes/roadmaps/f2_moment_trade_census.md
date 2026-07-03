@@ -2,7 +2,9 @@
 
 - **DAG node:** `x4b_moment_trade_exclusion`.
 - **Task:** F2 / E37.
-- **Status:** EVIDENCE.  U2 survives the checked bands; this is not a proof.
+- **Status:** EVIDENCE.  U2 survives the checked high-scale bands; this is not
+  a proof.  The original verifier covers `b<=8`; F2-EXT covers `b=9,10` in
+  `experimental/notes/roadmaps/f2_ext_large_bands.md`.
 - **Verifier:** `experimental/scripts/verify_f2_moment_trade_census.py`.
 
 ## Scope
@@ -14,15 +16,15 @@ zero syndromes:
 sum_{e in E} zeta^(r e) = 0,      r = 1,2,3.
 ```
 
-The exact MITM band is capped at
+The exact MITM band in this first verifier is capped at
 
 ```text
 b = 4,5,6,7,8.
 ```
 
-The full F2 spec asks for `b in (t,2t+4] = 4..10`; the `b=9,10` bands are
-left unscanned here because they require the `n=64`, `h=5` half-table.  This
-keeps the PR within the machine's RAM budget.
+The full F2 spec asks for `b in (t,2t+4] = 4..10`.  The `b=9,10` bands are
+handled by F2-EXT using a bounded-memory numpy `h=5` table rather than a
+Python dictionary.
 
 The primitive filter removes blocks with nontrivial rotational or reflection
 stabilizer, i.e. the quotient/dihedral paid sector.
@@ -75,12 +77,16 @@ log(p)/log(n) < 1.56
 for the checked `n=64,b=8` threshold row, while representative scales
 `n^2`, `n^3`, and `2^61` are clean through `b=8`.
 
-The remaining F2 work is exactly named:
+F2-EXT closes the empirical large-band gap:
 
 ```text
-F2-large-band: complete or certify b=9,10, and replace the finite evidence
-with a Weil/character-sum exclusion theorem for official rows.
+b=9,10 exact MITM completed for n in {32,64}.
+Low-prime primitive hits persist, especially b=10 at n=64 up to p=1601.
+Representative n^2, n^3, and 2^61 rows are primitive-clean.
 ```
+
+The remaining work is no longer an unscanned toy band; it is the per-row
+certifier / resultant-divisibility proof route for official rows.
 
 ## Verification
 

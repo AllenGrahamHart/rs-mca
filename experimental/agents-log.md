@@ -30,6 +30,29 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - F2-EXT large-band moment-trade MITM
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_f2_ext_large_bands.py`;
+  `experimental/data/certificates/f2-ext-large-bands/f2_ext_large_bands.json`;
+  `experimental/notes/roadmaps/f2_ext_large_bands.md`;
+  `experimental/notes/roadmaps/f2_moment_trade_census.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / EXACT TOY CENSUS.
+- **What is being added:** A bounded-memory numpy MITM verifier for the
+  previously unscanned `b=9,10` bands at `t=3`, `n in {32,64}`.  The heavy
+  `n=64`, `h=5` half-table is stored as sorted `uint64` arrays rather than as
+  a Python dictionary.
+- **How it is useful:** The empirical large-band gap is closed: low-prime
+  primitive hits persist, especially `b=10` at `n=64`, but the representative
+  `n^2`, `n^3`, and `2^61` rows are primitive-clean.  This supports the
+  per-row certification/resultant route rather than a monotone threshold
+  theorem.
+- **What to do next:** Use the F2-EXT witnesses and clean high-scale rows to
+  calibrate the Row-C small-window certifier for official rows.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
