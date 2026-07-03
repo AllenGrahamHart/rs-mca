@@ -551,3 +551,26 @@ W2: the 2b graded tangent ledger design (consume the proved forcing
 ```
 Still queued from earlier waves: E28 (band map — now also feeds the
 cascade-radius question), E29 (post-E34 role), C-1, C-5.
+
+## E37 — THE MOMENT-BLOCK CENSUS (urgent; the fifth mechanism's per-row existence)
+
+```text
+TARGET    moment_trade_staircase / x4b_moment_trade_exclusion
+QUESTION  do primitive (non-quotient, non-dihedral) t-moment-null
+          blocks exist at official-row-like parameters? The verified
+          witness lives at small p relative to n (F_193, mu_64, t=3,
+          b=8); official rows have p ~ 2^128-256 with n <= 2^41 —
+          Weil-type intuition suggests large p may FORBID small
+          primitive blocks. Decide empirically.
+METHOD    per (n, p, t): exhaustive/MITM search for 0/1 dual words of
+          weight b in (t, 2t+4] with t leading zero syndromes, minus
+          symmetric ones. Toy scan: n in {16, 32, 64}, p in several
+          sizes from n+1-ish up to 2^61-ish; the p-size dependence is
+          THE deliverable (existence threshold in log p / log n).
+          Reuse the C-4 MITM machinery. SOLO if heavy.
+INTERPRET large-p vanishing => the exclusion theorem is plausibly
+          provable via Weil/character sums (route selected) and
+          official rows are safe | blocks persist at large p =>
+          the moment column is REAL at official rows: charge it
+          (exact binomials) and re-run QA.22 with the fourth column.
+```
