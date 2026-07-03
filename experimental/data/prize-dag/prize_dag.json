@@ -2632,14 +2632,16 @@
   {
    "id": "xr_pencil_cascade",
    "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
-   "statement": "If a pair (u,v) has two aligned supports (distinct slopes) whose agreement sets share a common core of size >= k+t-1 = A-1, then the slope pencil is FORCED on the core (interpolation: core >= k determines both explaining codewords, the 2x2 slope system inverts), and the alignment CASCADES: every off-core point upgrades one further slope, so the pair's multiplicity is ~n-core and the pair is a TANGENT-PENCIL pair \u2014 paid. E27 verified every observed cascade algebraically at RS[F_97, mu_16, k=8] (the multiplicity-2 stratum has a -8.8 sigma HOLE at cores >= A-1: big-core mult-2 events are impossible, exactly as the lemma predicts). The argument is interpolation + the two-slope trick \u2014 scale-free.",
+   "statement": "If a pair (u,v) has two aligned supports at distinct slopes whose agreement sets share a common core R of size r >= k+t-1 = A-1, then the slope pencil is FORCED on R: the 2x2 slope system recovers codewords U,V with u=U and v=V on R. If r >= A, every finite slope is already A-bad on R. If r=A-1, the threshold cascade is exactly the off-core residual-ratio map x -> -(u-U)(x)/(v-V)(x), with collisions allowed and blocked points contributing no finite slope. Thus the whole big-core branch is one TANGENT-PENCIL paid cell, and no post-paid residual distinct-slope pair has core >= A-1. E27 verified every observed toy cascade algebraically at RS[F_97, mu_16, k=8].",
    "attack_surface": "specialize two_slope_intersection to cores >= k+t-1; the cascade step is one line (pencil evaluation off-core); write-up is a small packet",
    "falsifier": "a toy multiplicity-2 pair with core >= A-1 and no pencil (E27's machinery searches this directly; zero found in 2000 constructed + 10^5 organic)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/xr_pencil_cascade.md"
+   ],
+   "notes": "W1 PROVED: two distinct slopes invert to a codeword pair (U,V) on any core R with |R|>=A-1. For |R|>=A every finite slope is already explained on R; for |R|=A-1 all threshold slopes are exactly off-core zeros of e_u+z e_v, equivalently the residual-ratio image x -> -e_u(x)/e_v(x), with collisions and blocked points handled. Verifier verify_xr_pencil_cascade.py pins the threshold, collision, blocked-point, core-A, and recovery identities over F_17."
   },
   {
    "id": "xr_smallcore_spread_count",

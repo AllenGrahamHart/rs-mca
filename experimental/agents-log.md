@@ -1369,3 +1369,21 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - W1 pencil-cascade packet
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/xr_pencil_cascade.md`,
+  `experimental/scripts/verify_xr_pencil_cascade.py`,
+  `experimental/data/certificates/xr-pencil-cascade/*`,
+  `experimental/data/prize-dag/prize_dag.json` + `.svg`,
+  `experimental/agents-log.md`.
+- **Status:** PROVED.
+- **What is being added:** The face-4 pencil-cascade forcing lemma for
+  `xr_pencil_cascade`, with the threshold `core >= A-1 = k+t-1` stated in
+  exact residual-ratio form.
+- **How it is useful:** Removes the big-core distinct-slope branch from the
+  residual spread problem: after tangent-pencil payment, any remaining
+  distinct-slope pair must have common core at most `A-2`.
+- **What to do next:** Consume this in the face-4 assembly together with the
+  2b graded tangent ledger design and the 2c spread/rank residue.
