@@ -2915,8 +2915,10 @@
    "attack_surface": "pure arithmetic for (a); Dickson's classical theorem for (b); the existing census machinery transported for (c); toy laboratory: F_49/mu_8 (fully computable wild row)",
    "falsifier": "an invariant structure at a wild toy row outside the Dickson-derived strata (F_49/mu_8 is exhaustively checkable)",
    "refs": [
-    "experimental/notes/roadmaps/e36_pgl2_stabilizer.md"
-   ]
+    "experimental/notes/roadmaps/e36_pgl2_stabilizer.md",
+    "experimental/notes/roadmaps/qa23_wild_row_audit.md"
+   ],
+   "notes": "QA.23 AUDIT (16/16 green): exactly 26 admissible Mersenne wild rows below 2^256 (r=13:9, r=17:7, r=19:6, r=31:4), with every coset wild by dilation conjugacy. F49/mu8 toy: PGL_2(F_7) has order 336, subgroup lattice count 413, tame Sylow-2/dihedral sublattice count 19; every subgroup-invariant support is an orbit-union, so no support/window escape outside Dickson strata. Window arithmetic gains five non-tame orbit partitions: (1,1,3,3), (1,1,6), (1,7), (2,3,3), (2,6). Conclusion: wild rows need a separate Dickson-lattice window column; dihedral-only is incomplete there."
   },
   {
    "id": "p1_post_paid_subcore_richline_cap",

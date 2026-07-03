@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - QA.23 wild-row Dickson audit
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/qa23_wild_row_audit.md`;
+  `experimental/scripts/verify_qa23_wild_row_audit.py`;
+  `experimental/data/certificates/qa23-wild-row-audit/`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT.
+- **What is being added:** The QA.23 verifier enumerates the 26 admissible
+  Mersenne wild rows below `2^256`, checks coset inheritance by dilation, and
+  exhaustively audits the `F_49/mu_8` support/window toy through
+  `PGL_2(F_7)`.
+- **How it is useful:** It confirms that the wild rows have finite classical
+  Dickson conclusion spaces, but also that their window arithmetic strictly
+  enlarges the tame dihedral ledger.
+- **What to do next:** Add a separate Dickson-lattice budget column for any
+  wild-row prize application; keep the tame dihedral column for Row C and
+  prize-max rows.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
