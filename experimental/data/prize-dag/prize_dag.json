@@ -2778,8 +2778,10 @@
    "attack_surface": "condition on a deep sub-core of T0; partners through it are a link population (G1/cap machinery); the derived-pencil recursion (heavy triple => aligned structure of the derived pair (v - w, d) along the codeword pencil) is the transport that may reduce this to lower-agreement instances",
    "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/e33_deep_link_staircase.md"
+   ],
+   "notes": "E33 finite toy census: for fixed aligned anchors at n=16,k=8,A=11, near-k partner counts in the bands r=6,7 match qx13 fresh-codimension first moments. F_97/E27 row: 870 observed vs 909.934 expected over 4096 anchors, max 13 partner events, max 3 distinct partner slopes, max 5 through one subcore. F_17 dense stress row: 3734 observed vs 3521.576 expected over 512 anchors, max 72 partner events (=4.5n), max 10 distinct slopes, max 5 through one subcore. No all-slope support code and no super-linear link population observed; node remains TARGET pending proof."
   },
   {
    "id": "xr_triangle_eliminant_form",

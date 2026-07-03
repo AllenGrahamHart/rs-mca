@@ -1369,3 +1369,22 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - E33 deep-link staircase census
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/scripts/verify_e33_deep_link_staircase.py`,
+  `experimental/notes/roadmaps/e33_deep_link_staircase.md`,
+  `experimental/data/certificates/e33-deep-link-staircase/*`,
+  `experimental/data/prize-dag/prize_dag.json` + `.svg`,
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / FINITE CHECK.
+- **What is being added:** A deterministic toy census for
+  `deep_link_staircase`, counting near-k aligned partners of a fixed aligned
+  anchor in the overlap bands `r=6,7` for `n=16,k=8,A=11`.
+- **How it is useful:** Both the E27 `F_97` row and a denser `F_17` stress row
+  stay in the qx13 fresh-codimension band and show linear-size maxima; no
+  super-linear deep-link population was found.
+- **What to do next:** Try to prove the link-population cap directly, using
+  the derived-pencil recursion as transport rather than as an empirically
+  forced growth mechanism.

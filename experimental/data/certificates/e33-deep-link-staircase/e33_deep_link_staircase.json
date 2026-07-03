@@ -1,0 +1,74 @@
+{
+  "checks": 8,
+  "node": "deep_link_staircase",
+  "rows": [
+    {
+      "A": 11,
+      "all_slope_support_codes": 0,
+      "candidate_supports_by_overlap": {
+        "6": 462,
+        "7": 1650
+      },
+      "expected_events_by_overlap": {
+        "6": 199.048062,
+        "7": 710.885936
+      },
+      "expected_total_events": 909.933998,
+      "field": "F_97",
+      "k": 8,
+      "linear_cap_used": 128,
+      "max_distinct_partner_slopes_per_anchor": 3,
+      "max_partner_events_per_anchor": 13,
+      "max_partner_events_through_one_subcore": 5,
+      "n": 16,
+      "observed_events_by_overlap": {
+        "6": 186,
+        "7": 684
+      },
+      "observed_total_events": 870,
+      "overlap_range": [
+        6,
+        7
+      ],
+      "pairs_with_any_partner": 743,
+      "samples": 4096,
+      "seed": 20260733,
+      "t": 3
+    },
+    {
+      "A": 11,
+      "all_slope_support_codes": 0,
+      "candidate_supports_by_overlap": {
+        "6": 462,
+        "7": 1650
+      },
+      "expected_events_by_overlap": {
+        "6": 770.3448,
+        "7": 2751.231427
+      },
+      "expected_total_events": 3521.576226,
+      "field": "F_17",
+      "k": 8,
+      "linear_cap_used": 128,
+      "max_distinct_partner_slopes_per_anchor": 10,
+      "max_partner_events_per_anchor": 72,
+      "max_partner_events_through_one_subcore": 5,
+      "n": 16,
+      "observed_events_by_overlap": {
+        "6": 852,
+        "7": 2882
+      },
+      "observed_total_events": 3734,
+      "overlap_range": [
+        6,
+        7
+      ],
+      "pairs_with_any_partner": 511,
+      "samples": 512,
+      "seed": 20260734,
+      "t": 3
+    }
+  ],
+  "task": "E33",
+  "verdict": "linear in all checked toy rows; no super-linear near-k link population observed"
+}
