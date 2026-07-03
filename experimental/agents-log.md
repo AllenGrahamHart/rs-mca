@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - XR small-core rungs 2a/2b reductions
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/notes/roadmaps/xr_smallcore_rungs_2a_2b.md`;
+  `experimental/scripts/verify_xr_smallcore_rungs_2a_2b.py`;
+  `experimental/data/certificates/xr-smallcore-rungs-2a-2b/`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED reductions / TARGET residual.
+- **What is being added:** Rung 2a is proved to be exactly the same-slope
+  worst-word exact-list object. Rung 2b is proved to be a two-slope
+  tangent-depth bridge for cores `k+1 <= r <= A-2`; the boundary `r=k` is
+  recorded as depth zero and remains in the irreducible rank/spread core.
+- **How it is useful:** This removes the list and partial-forcing bands from
+  the genuinely new face-4 residue. The remaining `xr_smallcore_spread_count`
+  content is rung 2c plus the imported list/tangent ledgers.
+- **What to do next:** Prove or import the needed list safe-side bound and the
+  general graded tangent ledger; then attack the rung-2c
+  fresh-codimension-or-structure dichotomy.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

@@ -2649,32 +2649,37 @@
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
    "falsifier": "a toy pair with super-poly many pairwise-small-core aligned supports (searchable with E27's pencil machinery)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/xr_smallcore_rungs_2a_2b.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | CODEX 2a/2b PACKET: xr_smallcore_rungs_2a_2b proves the two reductions explicitly and verifies toy instances. Precise boundary: r=k has tangent depth 0 and remains with the irreducible rank/spread core; the charged partial band is k+1<=r<=A-2. The packet does not prove the list grand challenge or the general graded tangent ledger, so this parent remains TARGET."
   },
   {
    "id": "xr_sameslope_list_crossover",
    "title": "RUNG 2a: same-slope families ARE the list challenge's object",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Within one slope z, distinct aligned supports = distinct codewords at distance exactly j from u+zv, and their supports are AUTOMATICALLY far-spread (two distinct codewords agree < k, so exact agreement sets of the same word overlap r < k \u2014 qx13 Theorem 1's forced-equality case, contrapositive). So the same-slope leg of xr_smallcore_spread_count is EXACTLY a worst-word list count at radius j \u2014 the SECOND grand challenge's kernel object. THE TWO GRAND CHALLENGES MEET HERE: any per-word poly list bound at the corridor radius (the list lane's own safe-side content, with its planted-sunflower machinery, petal ledgers, and clean margins at the clean rates) plugs in directly, summed over the <= q slopes with the FM/budget arithmetic controlling the slope sum.",
    "attack_surface": "consume the list lane's corridor analysis (list_crossing_localization, worst_word_planted revised, pma machinery); the reduction itself is the one-paragraph argument above",
    "falsifier": "a toy word with super-poly codewords at exact distance j (the list lane's own falsifier)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/xr_smallcore_rungs_2a_2b.md"
+   ],
+   "notes": "Reduction PROVED in xr_smallcore_rungs_2a_2b: for a fixed finite slope, exact aligned supports are exactly exact-list codewords of u+zv and distinct exact supports have overlap <k. The node remains CONDITIONAL because the needed worst-word list safe-side bound is the list lane's own open content."
   },
   {
    "id": "xr_partial_tangent_band",
    "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Distinct-slope aligned supports with core r in [k+1, A-2]: subtracting the two alignment identities gives (z1-z2) v = c1 - c2 on the core, so v agrees with a codeword on r >= k+1 points \u2014 the pair acquires depth-(r-k) tangent structure (one line, proved two-slope machinery). The work: design the GRADED tangent ledger charging depth-d partially-forced pairs (the s-ladder's worst-case face; #152's t=2 exchange packet is the proved base case), so that every band pair is either charged or upgraded toward the cascade threshold.",
    "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
    "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/xr_smallcore_rungs_2a_2b.md"
+   ],
+   "notes": "Two-slope forcing map PROVED in xr_smallcore_rungs_2a_2b: any distinct-slope pair with core r=k+d, d>=1, is a tangent-depth-d cell for (u,v). The exact charged band is k+1<=r<=A-2; r=k has depth 0 and stays in rung 2c. The node remains CONDITIONAL pending the general graded tangent ledger."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
