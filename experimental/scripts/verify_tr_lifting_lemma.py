@@ -161,15 +161,23 @@ def run_row(label, p, n, omega, e, cc, M, k, A_list, nondeg_pin, pins):
     # ---- 4 deterministic words
     cstar = [(3 * i + 1) % p for i in range(k)]
     c2 = [(5 * i * i + 2) % p for i in range(k)]
+    # c3 = cstar + (2, 0, -1, 0, ...): on a degenerate tower with
+    # alpha^2 = 2 scalar (F13 rows) this is built to sigma-collide with
+    # cstar in the (D=2, r0=0) class: 2 + 2*(-1) = 0.
+    c3 = [(cstar[i] + (2 if i == 0 else p - 1 if i == 2 else 0)) % p
+          for i in range(k)]
     w1 = evalvec(cstar)
     w2b = bytearray(w1)
     for j in range(M):                       # bump one K_M-orbit
         w2b[j * (n // M)] = (w2b[j * (n // M)] + 1) % p
-    v1, v2 = evalvec(cstar), evalvec(c2)     # orbit-mix word
-    w3 = bytes(v1[i] if (i % (n // M)) % 2 == 0 else v2[i]
+    v1, v2, v3 = evalvec(cstar), evalvec(c2), evalvec(c3)
+    w3 = bytes(v1[i] if (i % (n // M)) % 2 == 0 else v2[i]  # 2-way mix
                for i in range(n))
     w4 = bytes((7 * i * i + 3 * i + 5) % p for i in range(n))
-    words = [("W1", w1), ("W2", bytes(w2b)), ("W3", w3), ("W4", w4)]
+    w5 = bytes([v1, v3, v2][(i % (n // M)) % 3][i]          # 3-way mix
+               for i in range(n))
+    words = [("W1", w1), ("W2", bytes(w2b)), ("W3", w3), ("W4", w4),
+             ("W5", w5)]
 
     full, minA = (1 << n) - 1, min(A_list)
 
@@ -297,11 +305,14 @@ def main():
     print("TR lifting-lemma verifier (stdlib, deterministic)")
     # (label, p, n, omega, e, cc, M, k, A_list, nondeg pin, census pin)
     run_row("F13-M2", 13, 12, 2, 2, 2, 2, 4, [4, 8],
-            {1: True, 2: True}, None)
+            {1: True, 2: True},
+            (30, 31, 4, 93, 30, 0, 0, 4, 26))
     run_row("F13-M4", 13, 12, 2, 2, 2, 4, 4, [4, 8],
-            {1: False, 2: False, 4: True}, None)
+            {1: False, 2: False, 4: True},
+            (150, 8, 2, 56, 40, 110, 10, 52, 98))
     run_row("F17-M4", 17, 16, 3, 4, 3, 4, 4, [4, 8],
-            {1: True, 2: True, 4: True}, None)
+            {1: True, 2: True, 4: True},
+            (150, 9, 1, 63, 150, 0, 0, 52, 98))
     n_pass = sum(RESULTS)
     print(f"== {n_pass}/{len(RESULTS)} PASS ==")
     sys.exit(0 if all(RESULTS) else 1)
