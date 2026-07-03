@@ -460,7 +460,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#7"
    ],
-   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps."
+   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only)."
   },
   {
    "id": "averaged_xr",
@@ -902,7 +902,7 @@
     "wp_detail/wp7_2_wp7_3_wp7_4_promotion_gates_dossier.md#3"
    ],
    "statement": "v-PARTIAL assembled and gate-checked: pinned-row note + envelope family + freeze tables + tier-1 Lean certificates + non-claims, S0-conditioned.",
-   "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor."
+   "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor. | Fleet A M5: the three-rate dossier skeleton exists (32 open slots, all DAG-id-verified); NEW thin-margin flag: Row C at rate 1/16 is gate-knife-edged (GM = +6.85) \u2014 add to the QA.4 census objects; Row-C-class rows carry only 23.2-61.8 bits at A*+1 (per-row-class caveats recorded, prize-max headroom 130-181 bits stands)."
   },
   {
    "id": "bridge_ledger",
@@ -2361,7 +2361,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly."
+   "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly. | Fleet A M3: the import skeleton encodes the decisive structural check \u2014 the chain is satisfiable ONLY IF the KLLM losses are mu-free AND the globalness definition is absolute (g3 + g1*g6 = 0). The eventual PDF verification is now a TWO-ITEM check (C2, C9), not a paper-wide audit."
   },
   {
    "id": "xr_globalness_from_ledger",
@@ -2374,7 +2374,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this). | E19 STRESS (#209): 10 post-strip paid-tangent LINK-LEAK CANDIDATES at the exact n=16 corpus \u2014 the 'modulo strip normal form' caveat is now LOAD-BEARING: each candidate must be adjudicated (strippable under the correct L_tan convention vs a genuine unpaid tangent leak). The double-count mathematics is unaffected; the hypothesis-pinning is the open work. The #209 corpus is the adjudication test bed."
+   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this). | E19 STRESS (#209): 10 post-strip paid-tangent LINK-LEAK CANDIDATES at the exact n=16 corpus \u2014 the 'modulo strip normal form' caveat is now LOAD-BEARING: each candidate must be adjudicated (strippable under the correct L_tan convention vs a genuine unpaid tangent leak). The double-count mathematics is unaffected; the hypothesis-pinning is the open work. The #209 corpus is the adjudication test bed. | PACKET AT REPO STANDARD (Fleet A M2): G1 proved with Steiner-system tightness (Fano/SQS(8) meet the bound exactly); BONUS G2 (hereditary cap on junta cells \u2014 connects directly to the qx6_qx8 pigeonhole) and G3 (LEAK LOCALIZATION: any r-level link leak localizes upward to a top core \u2014 the #209 adjudication reduces to top-core counts only, and E19's per-r tables collapse to one level). HONEST SCOPING SHARPENED: the cap HYPOTHESIS for post-strip families at general in-band t is open \u2014 grounded only at t=2 (#152); Convention S needs an unwritten per-core stripping ledger; Convention E is #152's shape. The hypothesis at scale = exchange_ledger_gen_t territory."
   },
   {
    "id": "xr_small_set_engine",
@@ -2432,7 +2432,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "PROVENANCE: derived externally (GPT Pro, relayed by project owner 2026-07-03); INDEPENDENTLY VERIFIED by the roadmap lane \u2014 both codim cases re-derived by hand, Monte Carlo at q=5,k=2,t=2 matches (s=1: ratio 0.98 vs q^-3; plateau: 1.07-1.11 vs q^-4). CAVEATS for the packet write-up: (a) this is the exact PAIR-CORRELATION (moment-level) ledger \u2014 the fixed-word worst-case conversion remains with the KMS/globalness branch, as the derivation itself states; (b) stated in the plain support-collinearity model \u2014 the bridge to LD_sw split-locator conventions needs its ledger row; (c) the cited 'average-support-collinearity packet' does not exist under that name \u2014 cite m1_support_coefficient_test.md and the actual #152/#193 anchors."
+   "notes": "PROVENANCE: derived externally (GPT Pro, relayed by project owner 2026-07-03); INDEPENDENTLY VERIFIED by the roadmap lane \u2014 both codim cases re-derived by hand, Monte Carlo at q=5,k=2,t=2 matches (s=1: ratio 0.98 vs q^-3; plateau: 1.07-1.11 vs q^-4). CAVEATS for the packet write-up: (a) this is the exact PAIR-CORRELATION (moment-level) ledger \u2014 the fixed-word worst-case conversion remains with the KMS/globalness branch, as the derivation itself states; (b) stated in the plain support-collinearity model \u2014 the bridge to LD_sw split-locator conventions needs its ledger row; (c) the cited 'average-support-collinearity packet' does not exist under that name \u2014 cite m1_support_coefficient_test.md and the actual #152/#193 anchors. | Fleet A M1: c(s,t) = min(s,t-1) now at repo standard \u2014 164 exact checks over six fields incl. full word enumeration; bridge row written (forward-only per the LD_sw separation); a task-spec arithmetic bug caught and proven as a PASS check."
   },
   {
    "id": "xr_radius_arithmetic",
