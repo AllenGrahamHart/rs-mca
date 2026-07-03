@@ -496,3 +496,58 @@ result as the axis-T data; no new task.)
 Assignment guidance: E27/E30 are light censuses (Fleet A-shaped);
 E28/E29 are compute-heavier (Codex-shaped; serialize with anything
 heavy per the RAM rule).
+
+# WAVE 5 — the consolidated kernel gate slate (post faces-1-3 decomposition)
+
+The derivation frontier is exhausted; these probes price everything
+that remains. One PR each; tools exist for all of them.
+
+## E32-MERGED [faces 3+4 jointly — supersedes E32-ext]
+```text
+The stagnation + exception census, one run, two consumers: (i) hunt
+rank-stagnating far-spread triples (stacked-rank column on E27's
+machinery); (ii) exhaustively enumerate light configurations at n=16
+and evaluate the eliminant (evaluator: verify_xr_triangle_eliminant_
+form.py); (iii) classify every identically-vanishing configuration;
+(iv) restate E13's exception classes (AG/net, v-degenerate, syzygy
+circuits) in the eliminant normal form — same objects, one language.
+INTERPRET: all vanishing configs paid-patterned => beta-3b AND
+face 3's classification write themselves | unpaid class => S9.
+```
+## E33 [face 4] deep-link staircase count
+```text
+As pre-registered: near-k-overlap aligned partners of a fixed
+(pair, support) at toys. Linear => transfer-argument lemma;
+super-linear => the derived-pencil recursion is load-bearing.
+```
+## E34 [face 1] the telescoping check (mechanical, cheap)
+```text
+At the F_13 toy (M4's verifier data): does the joint per-character
+product equal/undershoot the single joint-stabilizer-scale instance?
+YES => TR's jointness is structural (tower statement); E29 demotes
+to constants calibration. NO => measure the excess; the joint
+analytic content is real and E29 decides its size.
+```
+## E35 [face 2] weight-2 abundance column
+```text
+On E30's census machinery: per flat, count minimal weight-2 supports
+vs symmetry-stratum membership (both dihedral parities). Deliverable:
+the abundance threshold at which weight-2 count forces symmetry
+(calibrates f_weight2_inverse's constant; falsifier = an abundant
+asymmetric flat).
+```
+## E36 [face 2 keystone] exotic-stabilizer finite check
+```text
+For prize-class toy domains (2-power n | q-1, both parities of the
+coset): enumerate the full PGL_2(F_q) set-stabilizer of the domain;
+verify it equals Dih_n (or classify the exceptions). Closes
+f_dih_subgroup_completeness's residual caveat.
+```
+## Non-evidence follow-ups (write-up lane)
+```text
+W1: pencil-cascade packet (last provable face-4 rung).
+W2: the 2b graded tangent ledger design (consume the proved forcing
+    map; charge cells by depth d = t - s).
+```
+Still queued from earlier waves: E28 (band map — now also feeds the
+cascade-radius question), E29 (post-E34 role), C-1, C-5.
