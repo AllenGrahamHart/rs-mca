@@ -2903,8 +2903,10 @@
    "attack_surface": "the staircase terms are EXACT binomials (chargeable by census); the primitive bound post-strip is the new deep target \u2014 the strip removes precisely the coefficient-cancellation mechanism, so a primitive list member's locator has full coefficient spread: quantify via the eliminant/Wronskian of the locator differences",
    "falsifier": "a primitive (post-strip) worst-word exact list exceeding n^2 at a toy corridor row (searchable: extend the staircase enumerator with a strip filter)",
    "refs": [
-    "experimental/notes/roadmaps/e35_weight2_abundance.md"
-   ]
+    "experimental/notes/roadmaps/e35_weight2_abundance.md",
+    "experimental/notes/roadmaps/qa22_staircase_budget_column.md"
+   ],
+   "notes": "QA.22 arithmetic gate passed: exact fixed-tail quotient staircase plus the fixed-tail Chebyshev/dihedral analogue fits all six clean-rate candidates under Staircase + B_tan_max + 16n^3 <= B*. Important arithmetic caveat: at prize rows the full margin is only ~0.9 bits because 16n^3 = 2^127 dominates; the staircase column itself has 26.99/60.65/43.83 bits of room after 16n^3+B_tan at rates 1/4, 1/8, 1/16. Transported quotient-row table emitted for TR."
   },
   {
    "id": "wild_row_audit",

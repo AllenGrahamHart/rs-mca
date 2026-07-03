@@ -1369,3 +1369,23 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - QA.22 staircase budget column
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/qa22_staircase_budget_column.md`,
+  `experimental/scripts/verify_qa22_staircase_budget.py`,
+  `experimental/data/certificates/qa22-staircase-budget/`,
+  and `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** AUDIT / arithmetic gate passed for DAG node
+  `x4_exactlist_staircase_split`.
+- **What is being added:** Exact fixed-tail quotient staircase sums
+  `C(n/M - 1, floor(A/M))`, the fixed-tail Chebyshev analogue, transported
+  quotient-row tables for TR, and the exact gate
+  `Staircase + B_tan_max + 16n^3 <= B*` at all six clean-rate candidates.
+- **How it is useful:** Confirms the X-4 staircase column fits the budget, but
+  flags that the full prize-row margin is only about `0.9` bits because
+  `16n^3 = 2^127`; the staircase column itself has much larger residual room.
+- **What to do next:** Feed the transported quotient-row table to TR's per-leaf
+  split and keep the `16n^3` compiler allowance visible in prize-row budget
+  discussions.
