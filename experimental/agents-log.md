@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - Dihedral staircase deep-regime integration
+
+- **Agent/model:** Codex, checking GPT-Pro proof text.
+- **Files added or changed:**
+  `experimental/notes/roadmaps/dihedral_staircase_deep_regime.md`;
+  `experimental/scripts/verify_dihedral_staircase_deep_regime.py`;
+  `experimental/data/certificates/dihedral-staircase-deep/`;
+  `experimental/notes/roadmaps/qa21_dihedral_budget_column.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED deep-regime theorem / NEGATIVE applicability audit.
+- **What is being added:** The exact-support staircase proof is recorded
+  under the explicit hypothesis `3j <= n-k`, giving at most `n+1` finite-slope
+  aligned exact `j`-supports for any fixed pair.  The verifier freezes the
+  correction that QA.21's clean-rate candidates use `j=n-A`; the tight RowC
+  `2^174` count is at `j=957`, not `j=67`.
+- **How it is useful:** This banks a valid deep-MCA-style dihedral staircase
+  and prevents it from being misapplied to the clean-rate budget.  It also
+  names the real outside-regime obstruction as the Chebyshev quotient
+  line-list bound.
+- **What to do next:** Prove `x3_chebyshev_quotient_line_list_bound`, or a
+  stronger per-pair line-list theorem, for the corridor rows where
+  `3j > n-k`.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

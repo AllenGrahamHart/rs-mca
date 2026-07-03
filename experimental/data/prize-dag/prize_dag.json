@@ -2624,8 +2624,10 @@
    "statement": "For a fixed pair (u,v), bound the number of simultaneously-aligned inversion-closed supports: the dihedral analogue of the tangent staircase. QA.21 shows the crude bound (all N_dih = 2 C((n-2)/2, (j-1)/2) supports) blows the clean-rate budget by +52..+292 bits (Row C) \u2014 the allowance survives only if per-pair dihedral simultaneity is suppressed by those factors. STRUCTURAL HANDLES: (a) every odd-j inversion-closed support contains one of exactly TWO points ({+1, -1}) \u2014 all dihedral-aligned supports pass through one of two links, so the top-core/link machinery bites maximally; (b) palindromic agreement rigidity (the aligned word's symmetric part is constrained); (c) E25's toy data shows small per-pair counts empirically (100/64 charged events across the whole corpus). Expected shape: linear-in-n like the tangent staircase.",
    "attack_surface": "start from the fixed-point observation: condition on the support containing +1; the aligned family through one point at one slope is a moving-root-type family \u2014 the tangent staircase argument should transfer nearly verbatim; E25's charging machinery is the toy calibration",
    "falsifier": "a toy pair aligning super-linear-in-n dihedral supports (searchable with E25's machinery)",
+   "notes": "X-3/GPT-Pro proof checked and integrated as dihedral_staircase_deep_regime: valid exact-support staircase under 3j <= n-k, giving <= n+1 finite-slope aligned supports for any fixed pair and any support type. It does NOT close QA21-G1: the clean-rate candidates use j=n-A and all six have k+3j>n; the tight RowC 2^173.68 count is at j=957, while 67 is the complementary support size. Outside the deep regime the packet identifies the Chebyshev quotient line-list bound as the remaining obstruction.",
    "refs": [
-    "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
+    "experimental/notes/roadmaps/qa21_dihedral_budget_column.md",
+    "experimental/notes/roadmaps/dihedral_staircase_deep_regime.md"
    ]
   },
   {

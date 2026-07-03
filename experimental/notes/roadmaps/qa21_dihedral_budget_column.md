@@ -131,6 +131,19 @@ allowance survives only if QA21-G1 is closed (e.g. a dihedral analogue of
 the census class-count argument, or E25's "paid/absorbed" verdict promoted
 to a per-pair ledger with its own cap).
 
+**X-3 deep-regime check.** A GPT-Pro proof of a dihedral staircase was checked
+and retained in `dihedral_staircase_deep_regime.md`: if `j` is the exact
+disagreement-support size and `3j <= n-k`, then every fixed pair has at most
+`n+1` aligned finite-slope exact `j`-supports of any kind, hence at most `n+1`
+dihedral ones.  This is a correct deep-regime theorem, but it does **not**
+apply to the clean-rate candidates above.  At the tight RowC `1/16` line, the
+candidate has `A=67` and `j=n-A=957`; the displayed `2^173.68` count is
+`2*C(511,478)=2*C(511,33)`, so `33` is the complementary moving-pair count,
+not `(j-1)/2` for the QA.21 support.  The condition `k+3j<=n` fails there by
+`1911`.  QA21-G1 therefore remains open outside the deep regime; the named
+remaining obstruction is the Chebyshev quotient line-list bound recorded in
+that note.
+
 ## 6. Non-claims
 
 - NOT claiming the budget is actually blown: N_dih counts supports, not
