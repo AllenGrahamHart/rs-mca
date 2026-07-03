@@ -2878,9 +2878,11 @@
    "attack_surface": "compose #212's per-character confinement with the tower recursion at the joint subgroup; the F_13 toy (already instrumented in the M4 verifier) tests telescoping exactly",
    "falsifier": "the F_13 joint product strictly exceeding every telescoped bound (mechanical check)",
    "refs": [
-    "experimental/notes/roadmaps/gap1_terminal_reserve.md"
+    "experimental/notes/roadmaps/gap1_terminal_reserve.md",
+    "experimental/notes/roadmaps/qa24_degenerate_tower_bookkeeping.md",
+    "experimental/notes/roadmaps/tr_lifting_lemma.md"
    ],
-   "notes": "Scoping caveat (honest): E34's identity is in the linear-model counts (E6/M4 convention); LIFTING it to the aligned A_r sets is face 1's residual statement \u2014 small, named, and toy-instrumented by the same verifier. | LIFTED AND PROVED (tr_lifting_lemma.md, 21/21 over 330 cells with real codeword enumeration): LL1 is a POINTWISE identity for every codeword \u2014 the agreement condition never has to decompose, it merely filters the domain \u2014 so telescoping commutes with alignment exactly on stable sets (LL2). Count transfer holds iff the tower is NON-DEGENERATE ([K(gamma):K] = M/D); degenerate towers lose it (CONDITIONAL there, with an engineered collision witness word W5 \u2014 10 degenerate cells verified). Genuine-instance containment is one-directional (harmless direction). Exact stability is load-bearing; weakest repair stated. Face 1's jointness face is CLOSED."
+   "notes": "Scoping caveat (honest): E34's identity is in the linear-model counts (E6/M4 convention); LIFTING it to the aligned A_r sets is face 1's residual statement \u2014 small, named, and toy-instrumented by the same verifier. | LIFTED AND PROVED (tr_lifting_lemma.md, 21/21 over 330 cells with real codeword enumeration): LL1 is a POINTWISE identity for every codeword \u2014 the agreement condition never has to decompose, it merely filters the domain \u2014 so telescoping commutes with alignment exactly on stable sets (LL2). Count transfer holds iff the tower is NON-DEGENERATE ([K(gamma):K] = M/D); degenerate towers lose it (CONDITIONAL there, with an engineered collision witness word W5 \u2014 10 degenerate cells verified). Genuine-instance containment is one-directional (harmless direction). Exact stability is load-bearing; weakest repair stated. Face 1's jointness face is CLOSED. | QA.24 BOOKKEEPING (28/28 green): degenerate towers are NOT absent at clean-rate row arithmetic. All 153 nontrivial (row,M) triples admit D<M class closures needing a correction; the M>t consumer subtable has 50 triples. Correct transfer column is |K|^(M/D-d), d=[K(gamma):K], i.e. (M/D-d) log2(q) bits at base level and multiplied by [K:B] for larger K."
   },
   {
    "id": "spread_syzygy_ident",

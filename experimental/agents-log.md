@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - QA.24 degenerate-tower bookkeeping
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/qa24_degenerate_tower_bookkeeping.md`;
+  `experimental/scripts/verify_qa24_degenerate_towers.py`;
+  `experimental/data/certificates/qa24-degenerate-towers/`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT.
+- **What is being added:** The QA.24 verifier enumerates all clean-rate
+  dyadic `(row,M)` period triples and emits the F2 count-transfer correction
+  column from the lifting lemma.
+- **How it is useful:** It shows degenerate towers are not absent from the
+  clean-rate arithmetic; any TR use of count equality must either assume
+  non-degeneracy, exclude the degenerate tower, or pay `|K|^(M/D-d)`.
+- **What to do next:** Thread the correction column into any TR consumer that
+  invokes `tr_lifting_lemma.md` Theorem LL(iii) without a non-degeneracy
+  hypothesis.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
