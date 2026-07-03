@@ -2588,7 +2588,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap). | E26 (#214): the WEAPON face is arithmetically confirmed \u2014 the class provides ~1.5M new window scales inside rate 1/2's deficit. E25 (is the alignment real?) is now the single gate on both the ledger question and the gap coverage."
+   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap). | E26 (#214): the WEAPON face is arithmetically confirmed \u2014 the class provides ~1.5M new window scales inside rate 1/2's deficit. E25 (is the alignment real?) is now the single gate on both the ledger question and the gap coverage. | E30 REFINEMENT (17/17 green): at ODD j, dihedral-type words are ANTI-reciprocal \u2014 ratio exactly -+a^{-j+2m} (forced by (X+1) | odd-degree self-reciprocal polys); the original -a^{2m} clause misses EVERY dihedral word at odd j. Corrected clause: lambda_a = -+a^{-j+2m} lambda_{a^-1}. ALSO: the class is RARE among generic flats (~1/500) but dominant where reciprocal structure is built in; D_j counts are monotone in minimal dual weight; dim-3 lattices all in [284,698] (the fixed-d bound is slack \u2014 structure shrinks lattices). No fifth shape observed."
   },
   {
    "id": "xr_target_budget_audit",
@@ -2601,7 +2601,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then."
+   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form."
   },
   {
    "id": "rigidity_kernel",
@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign."
   }
  ],
  "edges": [
