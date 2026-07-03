@@ -1369,3 +1369,20 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - XR 2c-beta-1 sunflower rank additivity
+
+- **Agent/model:** Codex.
+- **DAG node:** `xr_sunflower_rank_additive`.
+- **Files added or changed:** `experimental/notes/roadmaps/xr_sunflower_rank_additive.md`,
+  `experimental/scripts/verify_xr_sunflower_rank_additive.py`,
+  `experimental/data/certificates/xr-sunflower-rank-additive/*`,
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** PROVED.
+- **What is being added:** A self-contained proof that distinct-slope
+  sunflower alignment blocks have no nontrivial row syzygy when the common core
+  has size `< k+1`; therefore the stacked rank is `m t` and the family size is
+  bounded by `floor(2n/t)`.
+- **Verification:** `verify_xr_sunflower_rank_additive.py` exhausts 109,200
+  ordered packed sunflower triples across two toy RS rows and checks full
+  stacked rank.

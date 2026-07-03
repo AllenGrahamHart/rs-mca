@@ -2733,14 +2733,16 @@
   {
    "id": "xr_sunflower_rank_additive",
    "title": "beta-1 (PROVABLE, proof complete): sunflowers never stagnate \u2014 the 2n/t cap",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "If an aligned far-spread family is a sunflower (all pairwise intersections equal one common core Y, |Y| < k), every syzygy member is supported inside Y (cancellation only on shared points), and |Y| < k+1 = the MDS dual minimum weight forces all members to vanish: NO nontrivial syzygy exists, so by the alpha anatomy every member contributes its FULL t rows and the family size is <= 2n/t per pair (~630 at prize-max rate 1/4). REVERSAL NOTE: the list lane's planted-sunflower worst cases are exactly the MCA-side's provably-safe configurations \u2014 the two challenges' hard directions are disjoint here.",
    "attack_surface": "the proof is the three sentences above (alpha's support cancellation + the dual weight); package with the exact rank bookkeeping (each member adds exactly t)",
    "falsifier": "a toy aligned sunflower with rank increment < t at some member (mechanical stacked-rank check)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/xr_sunflower_rank_additive.md"
+   ],
+   "notes": "PROVED by the 2c-beta-1 packet: in a sunflower, first-coordinate cancellation forces each syzygy member onto the common core; the core has size < k+1, below the RS dual minimum distance, so every member vanishes. Hence m blocks have rank mt and m <= floor(2n/t). Verifier: verify_xr_sunflower_rank_additive.py."
   },
   {
    "id": "xr_heavy_triangle_charge",
