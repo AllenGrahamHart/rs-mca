@@ -1892,7 +1892,7 @@
    "refs": [
     "tex/proximity_blueprint_v3.tex"
    ],
-   "notes": "RESOLVED VACUOUS 2026-07-03: blueprint line 102 defines smooth DEFINITIVELY: 'a multiplicative coset of a subgroup of power-of-two order.' The family is 2-power only; this node is vacuously satisfied. E8 permanently canceled. One nuance recorded: domains are COSETS gamma*H, not just subgroups \u2014 harmless (x -> gamma*x is a degree-preserving substitution, code equivalent up to coordinate scaling) but conventions should note it."
+   "notes": "RESOLVED VACUOUS 2026-07-03: blueprint line 102 defines smooth DEFINITIVELY: 'a multiplicative coset of a subgroup of power-of-two order.' The family is 2-power only; this node is vacuously satisfied. E8 permanently canceled. One nuance recorded: domains are COSETS gamma*H, not just subgroups \u2014 harmless (x -> gamma*x is a degree-preserving substitution, code equivalent up to coordinate scaling) but conventions should note it. (rules_freeze req edge removed: the vacuity rests on the blueprint's definition, already quoted, not on the freeze artifact.)"
   },
   {
    "id": "mixed_radix_toy_row",
@@ -2010,7 +2010,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "couples the census to certified_valueset_lower parametrically instead of blocking on it | IN FLIGHT: #195"
+   "notes": "couples the census to certified_valueset_lower parametrically instead of blocking on it | IN FLIGHT: #195 | Family now definitively pinned (2-power cosets, k <= 2^40, |F| < 2^256): the exposure census is EXACT finite arithmetic \u2014 compute the actual number of knife-edge-exposed cells and their prime-window sizes per rate. Coset domains: collision structure identical (multiplication by gamma is a bijection mod p) \u2014 one-line lemma to include."
   },
   {
    "id": "census_dodge_selection",
@@ -2463,7 +2463,8 @@
    "falsifier": "BKZ finding a sparse ternary kernel vector = an actual collision = the collided branch is REAL at that cell (a zone-(b) verdict, not a route failure)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "The proof-logging certifier now aligns with the prize's own formal-verification-encouraged criterion \u2014 not just convenient, textually favored."
   },
   {
    "id": "multiplier_exactness",
@@ -2515,7 +2516,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "Rules signal FAVORABLE: the prize page states no closed-form requirement ('clearly states the claimed results, explains how they relate'), partials encouraged; compiler semantics plausible, judges' discretion final."
+   "notes": "Rules signal FAVORABLE: the prize page states no closed-form requirement ('clearly states the claimed results, explains how they relate'), partials encouraged; compiler semantics plausible, judges' discretion final. | RULES EFFECT (2026-07-03): four aligned signals for the off-ramp \u2014 the challenge form is per-code ('determine the largest delta*_C'), no closed-form requirement stated, partials encouraged, and formal verification explicitly encouraged (a VeriPB certificate IS such an artifact). Part (ii)'s mathematical content unchanged if the classical reading prevails; its necessity-probability dropped."
   }
  ],
  "edges": [
@@ -4062,11 +4063,6 @@
   {
    "from": "mixed_radix_frontier",
    "to": "list_grand",
-   "kind": "req"
-  },
-  {
-   "from": "rules_freeze",
-   "to": "mixed_radix_frontier",
    "kind": "req"
   },
   {
