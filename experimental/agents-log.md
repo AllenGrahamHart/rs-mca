@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - XR clean-rate polynomial forcing compiler
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/notes/roadmaps/xr_clean_poly_forcing_reduction.md`;
+  `experimental/scripts/verify_xr_clean_poly_forcing.py`;
+  `experimental/data/certificates/xr-clean-poly-forcing/`;
+  `experimental/agents-log.md`.
+- **Status:** PROVED compiler / CONDITIONAL consumer.
+- **What is being added:** A clean-rate proof packet for DAG node
+  `xr_clean_residual_any_gate`: after the `xr_target_budget_audit` quotient
+  and tangent charges, every Row C/prize clean-rate candidate absorbs a
+  post-strip per-pair residual of `16 n^3` slopes. The verifier checks the
+  integer inequality exactly and records the rate-half pinned row as a
+  non-claim.
+- **How it is useful:** It turns the revised face-4 obligation into a precise
+  algebraic target: any primitive/dihedral/extension split with total
+  `<= 16 n^3` closes the clean-rate gate. In particular, a primitive `n^3`
+  bound plus even a quadratic dihedral staircase cap is already arithmetically
+  sufficient.
+- **What to do next:** Prove the remaining RK face-4 residual bound and the
+  `dihedral_staircase` per-pair simultaneity cap; this packet only proves the
+  exact budget compiler.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
