@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - SP-CENSUS domain-wide split pairs
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_sp_census_split_pairs.py`;
+  `experimental/data/certificates/sp-census-split-pairs/sp_census_split_pairs.json`;
+  `experimental/notes/roadmaps/sp_census_split_pair_census.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / CENSUS.
+- **What is being added:** An exact domain-wide census of ordered disjoint
+  split pairs `(Q,P)` with matching top-`t` elementary signatures over six
+  toy rows.  The charged classifier is the X-9 cyclic/dihedral toral normal
+  forms, including scaled dihedral offsets; every uncharged ordered pair is
+  stored with compact derivative/defect anatomy.
+- **How it is useful:** It gives X-10 the raw supply side for both active-core
+  and band-trade counting.  The census shows that raw domain-wide uncharged
+  mass can exceed `n^2`, especially at smaller `q`, so the next theorem must
+  be activity-sensitive rather than a global split-pair count.
+- **What to do next:** Apply the activity filter from bases/cores/band
+  families and test whether the large raw supply compresses to the P-A/OCC
+  active-shadow pattern or clusters into paid cyclic, dihedral, or moment/PTE
+  columns.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

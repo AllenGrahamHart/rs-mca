@@ -3037,9 +3037,10 @@
    "attack_surface": "second-moment/energy count over (Q, P) incidences; or show > n^{4/3} active cores force shared toral structure; toy calibration via H1's harness data (which already measures active cores implicitly)",
    "falsifier": "a toy base with active-core mass exceeding the n^2 budget post-strip (extend H1's harness with a per-core column \u2014 cheap)",
    "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
+    "experimental/notes/roadmaps/h1_u1_toy_harness.md",
+    "experimental/notes/roadmaps/sp_census_split_pair_census.md"
    ],
-   "notes": "P-A DATA (#27, 28/28): active cores are RARE \u2014 max 6 active cores per base, max K_Q = 2, budget ratio 0.016 of n^2 at toys. THE DECOMPOSITION SEED: A splits as (A-i) the active-core rarity lemma \u2014 a core is active only if some full fiber of psi_Q lies in D, itself a strongly suppressed event; count E[active] directly \u2014 and (A-ii) the per-core cap (ALREADY BANKED as u1_minimal_fixed_core_sporadic_bound). The incidence-variety machinery may be unnecessary: rarity x per-core cap could give the n^2 budget outright."
+   "notes": "P-A DATA (#27, 28/28): active cores are RARE \u2014 max 6 active cores per base, max K_Q = 2, budget ratio 0.016 of n^2 at toys. THE DECOMPOSITION SEED: A splits as (A-i) the active-core rarity lemma \u2014 a core is active only if some full fiber of psi_Q lies in D, itself a strongly suppressed event; count E[active] directly \u2014 and (A-ii) the per-core cap (ALREADY BANKED as u1_minimal_fixed_core_sporadic_bound). The incidence-variety machinery may be unnecessary: rarity x per-core cap could give the n^2 budget outright. | SP-CENSUS: raw DOMAIN-WIDE uncharged split pairs can exceed n^2 (e.g. F97/mu24 has 30000 = 52.08 n^2), so A cannot be a global split-pair count; the activity filter is the theorem."
   },
   {
    "id": "u1_beta_band_trade_reduction",
@@ -3050,9 +3051,10 @@
    "attack_surface": "the linear-series view (bounded-degree pencils of divisors of X^n - delta with many totally-split members); or a difference/derivative step down in h; toy census of band trades at n = 64 calibrates which exit dominates",
    "falsifier": "a toy band-trade family avoiding all three exits (searchable with H1 machinery extended to h > t+1)",
    "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
+    "experimental/notes/roadmaps/h1_u1_toy_harness.md",
+    "experimental/notes/roadmaps/sp_census_split_pair_census.md"
    ],
-   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table."
+   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table. | SP-CENSUS supplies the domain-wide raw split-pair side: the dominant uncharged route is primitive moment/PTE (F97/mu24: 29640 of 30000), so B's proof must cluster or charge the moment/PTE handoff rather than rely on raw scarcity."
   },
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
@@ -3136,6 +3138,18 @@
     "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
    ],
    "notes": "PROVENANCE: GPT Pro X-9 (10-for-10 substantive). The theorem is EASIER than full Laurent-Ritt precisely because the degree collapse kills general-bidegree components geometrically \u2014 the fence that made T look hard was an artifact of not parametrizing. | T-TOY (#32, 212/212): the classification confirmed empirically through degree 20 at tame toy rows \u2014 zero unclassified bidegree-(1,1) toral/affine cases; line factors are linear-conjugate power pullbacks; Dickson appears at the X^2 symmetry exactly as the theorem predicts."
+  },
+  {
+   "id": "sp_census_split_pair_census",
+   "title": "SP-CENSUS: domain-wide split-pair census for X-10",
+   "status": "TEST",
+   "statement": "Exact toy census of ordered disjoint split pairs (Q,P) in mu_n with |Q|=|P|=h, e_i(Q)=e_i(P) for i<=t, and t<h<=floor(log2 n)^2. Classify the raw domain-wide supply by the X-9 toral normal forms (cyclic F(x^m), dihedral F(x^m+alpha x^-m)); record every uncharged pair's compact derivative/defect anatomy. The result is intentionally not per-base and therefore tests the activity-filter burden for X-10.",
+   "attack_surface": "raw split-pair supply may exceed n^2 at small q; X-10 must show that active split pairs, not all formal split pairs, are budget-bounded or paid by cyclic/dihedral/moment columns",
+   "falsifier": "a post-activity-filter toy family whose uncharged split-pair mass still exceeds the n^2 budget without cyclic, dihedral, or moment/PTE clustering",
+   "refs": [
+    "experimental/notes/roadmaps/sp_census_split_pair_census.md"
+   ],
+   "notes": "SP-CENSUS: exact domain-wide rows F17/mu8, F13/mu12, F17/F97-mu16, F41/mu20, F97/mu24. Raw uncharged ordered split pairs: 0, 24, 976, 0, 5480, 30000. At fixed n=16 the small-q warning is stark (F17 has 976, F97 has 0). Rows over n^2 before activity filtering: F17/mu16, F41/mu20, F97/mu24. Every uncharged pair is encoded in the certificate as [h,Q_mask,P_mask,route,defect_degree,dQ_zero_mask,dP_zero_mask]."
   },
   {
    "id": "a2_depth_cell_active_shadow_bound",
@@ -5654,6 +5668,21 @@
    "from": "t_laurent_ritt_toral_stabilizer",
    "to": "u1_tame_toral_fiberproduct_classification",
    "kind": "req"
+  },
+  {
+   "from": "sp_census_split_pair_census",
+   "to": "u1_alpha_active_core_incidence",
+   "kind": "ev"
+  },
+  {
+   "from": "sp_census_split_pair_census",
+   "to": "u1_beta_band_trade_reduction",
+   "kind": "ev"
+  },
+  {
+   "from": "sp_census_split_pair_census",
+   "to": "t_laurent_ritt_toral_stabilizer",
+   "kind": "ev"
   },
   {
    "from": "a2_depth_cell_active_shadow_bound",
