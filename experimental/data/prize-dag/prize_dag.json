@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face."
   },
   {
    "id": "dihedral_staircase",
@@ -2649,6 +2649,43 @@
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
    "falsifier": "a toy pair with super-poly many pairwise-small-core aligned supports (searchable with E27's pencil machinery)",
    "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ],
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open."
+  },
+  {
+   "id": "xr_sameslope_list_crossover",
+   "title": "RUNG 2a: same-slope families ARE the list challenge's object",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Within one slope z, distinct aligned supports = distinct codewords at distance exactly j from u+zv, and their supports are AUTOMATICALLY far-spread (two distinct codewords agree < k, so exact agreement sets of the same word overlap r < k \u2014 qx13 Theorem 1's forced-equality case, contrapositive). So the same-slope leg of xr_smallcore_spread_count is EXACTLY a worst-word list count at radius j \u2014 the SECOND grand challenge's kernel object. THE TWO GRAND CHALLENGES MEET HERE: any per-word poly list bound at the corridor radius (the list lane's own safe-side content, with its planted-sunflower machinery, petal ledgers, and clean margins at the clean rates) plugs in directly, summed over the <= q slopes with the FM/budget arithmetic controlling the slope sum.",
+   "attack_surface": "consume the list lane's corridor analysis (list_crossing_localization, worst_word_planted revised, pma machinery); the reduction itself is the one-paragraph argument above",
+   "falsifier": "a toy word with super-poly codewords at exact distance j (the list lane's own falsifier)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+   ]
+  },
+  {
+   "id": "xr_partial_tangent_band",
+   "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger",
+   "status": "TARGET",
+   "statement": "Distinct-slope aligned supports with core r in [k+1, A-2]: subtracting the two alignment identities gives (z1-z2) v = c1 - c2 on the core, so v agrees with a codeword on r >= k+1 points \u2014 the pair acquires depth-(r-k) tangent structure (one line, proved two-slope machinery). The work: design the GRADED tangent ledger charging depth-d partially-forced pairs (the s-ladder's worst-case face; #152's t=2 exchange packet is the proved base case), so that every band pair is either charged or upgraded toward the cascade threshold.",
+   "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
+   "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "xr_fresh_codim_dichotomy",
+   "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Far-spread regime (distinct slopes, cores r < k \u2014 no pairwise forcing exists): prove that every additional aligned support either (a) raises the joint rank of the pair's stacked alignment conditions by >= 1 (then the 2n dimension cap gives per-pair count <= 2n + charged, POLY outright), or (b) certifies an algebraic identity (rank stagnation = an eliminant vanishing identically) that places the family in a paid stratum. Proved inputs: distinct-slope conditions are exactly-additive PAIRWISE (qx13 (2b): the [[1,z],[1,z']] change of variables is rank-level, not just measure-level); the m >= 3 degeneracy question is the eliminant dichotomy at family level (M5's u5 shape). THIS is where the rigidity kernel's axis-Q content genuinely lives for face 4 \u2014 everything else in the face is proved machinery, a crossover, or graded bookkeeping. Note: dimension counting ALONE cannot close it (a point lies in adversarially many t-codim subspaces); the algebraic dichotomy is the content.",
+   "attack_surface": "the eliminant route at family level: rank stagnation across three-plus slopes as an identity in the support indicators; the M5/#199 chart machinery is the base laboratory; E27's organic sample calibrates how often stagnation occurs at toys (answer: FM-band rates)",
+   "falsifier": "a toy pair with rank-stagnating far-spread family OUTSIDE every paid stratum (searchable: extend E27's pencil verifier with a stacked-rank column)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ]
   }
@@ -4927,6 +4964,26 @@
   {
    "from": "spread_exception_classification",
    "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_sameslope_list_crossover",
+   "to": "xr_smallcore_spread_count",
+   "kind": "req"
+  },
+  {
+   "from": "xr_partial_tangent_band",
+   "to": "xr_smallcore_spread_count",
+   "kind": "req"
+  },
+  {
+   "from": "xr_fresh_codim_dichotomy",
+   "to": "xr_smallcore_spread_count",
+   "kind": "req"
+  },
+  {
+   "from": "xr_ledger_qpower",
+   "to": "xr_fresh_codim_dichotomy",
    "kind": "ev"
   }
  ]
