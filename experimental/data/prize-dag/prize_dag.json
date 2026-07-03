@@ -3061,8 +3061,11 @@
    "attack_surface": "sum the proved per-subcore cap over an occupancy-bounded family; the occupancy bound is a packing count over the (k-1)-subcore lattice",
    "falsifier": "toy occupancy exceeding the budget (E33's scan + an occupancy histogram column)",
    "refs": [
-    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
-   ]
+    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md",
+    "experimental/notes/roadmaps/occ1_occupied_subcore_accounting.md",
+    "experimental/scripts/verify_occ1_occupied_subcore_accounting.py"
+   ],
+   "notes": "OCC-1 audit (19/19): E33 occupancy column added and benign (F97 max actual occupied cores/anchor 9, F17 max 42; max per-core multiplicity 5; max induced (k-1)-shadow 104). Direct packing does NOT close: a one-per-cell family in the (k-1)-lattice already has > n cells at every clean row, with exact RowC counts C(261,6), C(133,6), C(67,4). New precise residue: a1_lower_core_shadow_incidence_bound, namely post-strip alignment must compress the lower-core shadow to O(n) or force a paid structure."
   },
   {
    "id": "a2_depth_cell_residual_occupancy",

@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - OCC-1 occupied-subcore accounting audit
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_occ1_occupied_subcore_accounting.py`;
+  `experimental/data/certificates/occ1-occupied-subcore-accounting/occ1_occupied_subcore_accounting.json`;
+  `experimental/notes/roadmaps/occ1_occupied_subcore_accounting.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** CONDITIONAL / RESIDUE.
+- **What is being added:** The E33 toy census now has an occupied-core column
+  for OCC-1, and the direct packing route is audited.  The toys remain benign:
+  max actual occupied cores per anchor are `9` over `F_97` and `42` over
+  `F_17`, with max per-core multiplicity `5`.
+- **How it is useful:** This narrows the blocker shared by A1 and A2.  A
+  constant fixed-core cap cannot by itself imply the staircase, since the
+  `(k-1)` lattice has super-linear many cells at every clean row.
+- **What to do next:** Prove the named residue
+  `a1_lower_core_shadow_incidence_bound`: post-strip lower-overlap cores must
+  have `O(n)` active shadow, or else force an already-paid structure.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
