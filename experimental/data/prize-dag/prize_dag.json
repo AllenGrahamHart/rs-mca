@@ -2804,9 +2804,11 @@
    "attack_surface": "E32-extended census first; then the M5 chart machinery per observed class",
    "falsifier": "an unpaid identically-vanishing configuration class at toys (the census reports it directly)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/e32_coordinate_sliver.md",
+    "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
    ],
-   "notes": "E32-MERGED VERDICT (17/17, replayed green): NO identically-vanishing light profile exists at any checked row \u2014 the canonical normal-form matrix has full rank on every budget-meeting light profile (34/91/163 light profiles across three F_17 rows, representing ~4e11 triples by profile class). The profile-forced S9 scenario is REMOVED. Remaining sliver: coordinate-special vanishing (vanishing at special point choices within a full-rank profile) \u2014 a much smaller target, E32-coordinate refinement queued. BONUS CRITERION: sigma >= 3A - n always, so rows with 3A > n + 2k have EMPTY light regime (E27's toy corridor row is one \u2014 its triples are all heavy/boundary); prize rows do have light regimes (3A < n + 2k there)."
+   "notes": "E32-MERGED VERDICT (17/17, replayed green): NO identically-vanishing light profile exists at any checked row \u2014 the canonical normal-form matrix has full rank on every budget-meeting light profile (34/91/163 light profiles across three F_17 rows, representing ~4e11 triples by profile class). The profile-forced S9 scenario is REMOVED. Remaining sliver: coordinate-special vanishing (vanishing at special point choices within a full-rank profile) \u2014 a much smaller target, E32-coordinate refinement queued. BONUS CRITERION: sigma >= 3A - n always, so rows with 3A > n + 2k have EMPTY light regime (E27's toy corridor row is one \u2014 its triples are all heavy/boundary); prize rows do have light regimes (3A < n + 2k there). | E32-COORD AUDIT (7/7 green): pointwise evaluator applied inside full-rank light profiles on two exact n=8 toys over F_11; 19+40 profiles, 87,360+294,840 coordinate placements, ZERO coordinate-special defects. No new paid class appears at toy scale; remaining global obligation is proper-hypersurface rationing, not classification."
   },
   {
    "id": "xr_syzygy_flat_transport",

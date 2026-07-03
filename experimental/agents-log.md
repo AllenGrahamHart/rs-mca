@@ -30,6 +30,25 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-03 - E32-COORD coordinate-special sliver
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/e32_coordinate_sliver.md`;
+  `experimental/scripts/verify_e32_coordinate_sliver.py`;
+  `experimental/data/certificates/e32-coordinate-sliver/`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/data/prize-dag/prize_dag.svg`;
+  `experimental/agents-log.md`.
+- **Status:** AUDIT.
+- **What is being added:** The coordinate-level E32 refinement applies the
+  light-triangle eliminant evaluator pointwise inside full-rank profiles for
+  two exact `n=8` toy rows.
+- **How it is useful:** It checks `382,200` coordinate placements and finds no
+  coordinate-special eliminant vanishing, supporting the view that the remaining
+  sliver is a proper hypersurface-rationing term rather than a new paid class.
+- **What to do next:** Keep the global node as a rationing target; only extend
+  the pointwise census to larger rows with explicit runtime bounds.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.
