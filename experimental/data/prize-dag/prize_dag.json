@@ -3158,9 +3158,10 @@
    "attack_surface": "the derivative-clustering lens (all fibers of one antiderivative share L'); Vinogradov-style mean-value induction on h (each moment level should cost a factor ~n... the conjectured bound hn is LINEAR \u2014 the strongest possible form; a weaker n^{1+eps} or n polylog n version still closes the campaign with adjusted budgets); SP-CENSUS (running) measures A_h^nt directly at toys \u2014 add the anchored column",
    "falsifier": "SP-CENSUS anchored counts exceeding hn at any in-range (p >= n^2) toy row",
    "refs": [
-    "experimental/notes/roadmaps/pa_active_core_probe.md"
+    "experimental/notes/roadmaps/pa_active_core_probe.md",
+    "experimental/notes/roadmaps/x10_consumer_tolerance_ladder.md"
    ],
-   "notes": "SP-CENSUS (#33): every uncharged excess sits at q << n^2 \u2014 empirical CONFIRMATION of X-10's low-q falsifier (F17/mu16 at 3.8x, F41/mu20 at 13.7x, F97/mu24 at 52x \u2014 all far below the q >= n^2 line); NO in-range excess observed. Follow-up: SP-CENSUS-2 at q > n^2 rows (the census's toy fields were all sub-threshold). The anchored/active framing note is the conservative reading; the sharp reading is that the hypothesis line is real and empirically visible."
+   "notes": "SP-CENSUS (#33): every uncharged excess sits at q << n^2 \u2014 empirical CONFIRMATION of X-10's low-q falsifier (F17/mu16 at 3.8x, F41/mu20 at 13.7x, F97/mu24 at 52x \u2014 all far below the q >= n^2 line); NO in-range excess observed. Follow-up: SP-CENSUS-2 at q > n^2 rows (the census's toy fields were all sub-threshold). The anchored/active framing note is the conservative reading; the sharp reading is that the hypothesis line is real and empirically visible. | X-10 LADDER: consumer arithmetic normalized as A_h^nt <= h n^alpha. The local U1 split-pair budget and B exit-3 require alpha <= 1; h n^1.5 is not enough, and h n^(2-delta) works only for delta >= 1. Direct QA22/QA25 compiler room tolerates alpha=2 on all six rows (limiting prize alpha_max ~2.0925), but that weaker rung does not preserve the local n^2 theorems. Tails/defect losses obey alpha + lambda <= 1."
   },
   {
    "id": "splitpair_lowq_falsifier",
