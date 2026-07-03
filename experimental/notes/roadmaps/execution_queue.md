@@ -731,6 +731,19 @@ Q3R.5 [per-rate dossier framing] (S)  The submission shape: three-rate
       determinations as the headline partial, per Reading B semantics.
 ```
 
+## QA.21 — the dihedral budget column (mandatory, post-E25/E30)
+
+```text
+QA.21 [xr_target_budget_audit re-run] (S-M)  E25 confirmed dihedral
+      mass is real; E30 gives the odd-j clause (lambda_a =
+      -+a^{-j+2m} lambda_{a^-1}). Compute B_dih exactly at every
+      clean-rate candidate (inversion-closed supports at odd j =
+      pairs + one of {1,-1}) and re-emit the s table. The clean-rate
+      allowance 2^122+ could shrink; face 4's poly-forcing form is
+      robust unless B_dih approaches B* (loud-flag if any candidate's
+      s drops below 2^100).
+```
+
 ## Sequencing notes
 
 STRATEGIC OVERLAY: see `strategic_recommendations.md` (computed from the
