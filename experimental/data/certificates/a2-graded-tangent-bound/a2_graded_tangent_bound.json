@@ -1,0 +1,51 @@
+{
+  "assembly": {
+    "completed": [
+      "Every distinct-slope pair with k+1 <= r <= A-2 routes to depth d=r-k.",
+      "Depth and qx13 fresh codimension satisfy d+s=t in every partial cell.",
+      "The cascade boundary r>=A-1 is outside the partial ledger.",
+      "The r=k boundary stays in the rank/spread shell.",
+      "Every heavy triangle has either a direct 2b edge or at least two deep-link edges."
+    ],
+    "constants": {
+      "a1_max_subcore_constant_observed": 5,
+      "heavy_deep_link_only_profiles": 26333,
+      "heavy_direct_2b_profiles": 64838,
+      "heavy_profiles_checked": 256649,
+      "w2_max_t_checked": 8,
+      "w2_total_partial_cells_t1_to_t8": 21
+    },
+    "interpretation": "A2 completes the routing/charge table but not the quantitative band bound.  The first resisting cell is the depth-cell occupancy bound; the heavy boundary additionally depends on A1's lower-overlap occupied-subcore accounting.",
+    "node": "xr_partial_tangent_band / xr_heavy_triangle_charge",
+    "remaining_residues": [
+      {
+        "id": "a2_depth_cell_residual_occupancy",
+        "statement": "After the unified strip, bound the number of occupied tangent-depth-d residual cells, and the emissions from each cell, uniformly in every partial band 1<=d<=t-2."
+      },
+      {
+        "id": "a1_lower_overlap_occupied_subcore_accounting",
+        "statement": "Route lower-overlap heavy-boundary partners to O(n) occupied deep-subcore witnesses so the A1 fixed-subcore cap applies."
+      }
+    ],
+    "status": "CONDITIONAL-ROUTED",
+    "task": "A2 graded tangent ledger bound"
+  },
+  "checks": 10,
+  "inputs": {
+    "A1": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_a1_staircase_cap_assembly.py",
+      "tail": "  \"remaining_named_gap\": \"a1_lower_overlap_occupied_subcore_accounting\",\n  \"status\": \"CONDITIONAL-ASSEMBLED\",\n  \"task\": \"A1 staircase cap assembly\"\n}\n\nAll 9 checks passed."
+    },
+    "W2": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_w2_graded_tangent_ledger.py",
+      "tail": "  \"node\": \"xr_partial_tangent_band / xr_heavy_triangle_charge\",\n  \"status\": \"design arithmetic only; no status promotion\",\n  \"task\": \"W2\"\n}\n\nPASS: 26385 W2 graded tangent ledger checks"
+    },
+    "X3_2b": {
+      "returncode": 0,
+      "script": "experimental/scripts/verify_xr_smallcore_rungs_2a_2b.py",
+      "tail": "PASS  rung arithmetic t=9: qx13 c(s,t)=s in partial band\nPASS  rung arithmetic t=10: partial band nonempty iff t>=3\nPASS  rung arithmetic t=10: d+s=t through the partial band\nPASS  rung arithmetic t=10: qx13 c(s,t)=s in partial band\n\n39 PASS, 0 FAIL"
+    }
+  }
+}

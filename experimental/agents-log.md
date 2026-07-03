@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - A2 graded tangent bound routing
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_a2_graded_tangent_bound.py`;
+  `experimental/data/certificates/a2-graded-tangent-bound/a2_graded_tangent_bound.json`;
+  `experimental/notes/roadmaps/a2_graded_tangent_bound.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** CONDITIONAL-ROUTED.
+- **What is being added:** A2 composes W2, the X-3 2b forcing map, and A1
+  into a complete routing table for the graded tangent ledger and heavy
+  triangle boundary.
+- **How it is useful:** The packet proves there is no extra pairwise band or
+  fourth heavy-triangle object.  It names the remaining blockers precisely:
+  `a2_depth_cell_residual_occupancy` and
+  `a1_lower_overlap_occupied_subcore_accounting`.
+- **What to do next:** Prove the depth-cell occupancy bound, then close the
+  lower-overlap occupied-subcore accounting from A1.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

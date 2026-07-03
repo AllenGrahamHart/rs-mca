@@ -2676,9 +2676,12 @@
    "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
    "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md",
+    "experimental/notes/roadmaps/a2_graded_tangent_bound.md",
+    "experimental/scripts/verify_a2_graded_tangent_bound.py"
    ],
-   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it)."
+   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it). | A2 CONDITIONAL-ROUTED (10/10 plus W2/X3/A1 replays): routing is complete and no extra pairwise band exists. Partial cells are exactly d=r-k, s=A-r, d+s=t; cascade and r=k boundaries are separated. Quantitative promotion is blocked precisely by a2_depth_cell_residual_occupancy."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
@@ -2753,9 +2756,13 @@
    "attack_surface": "shared ledger design with xr_partial_tangent_band; the dimension count above pins exactly which configurations need the charge",
    "falsifier": "a heavy triangle whose stagnation resists the graded charge at toys",
    "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md",
+    "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md",
+    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md",
+    "experimental/notes/roadmaps/a2_graded_tangent_bound.md",
+    "experimental/scripts/verify_a2_graded_tangent_bound.py"
    ],
-   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair)."
+   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair). | A2 CONDITIONAL-ROUTED: exhaustive integer profiles through k<=18 confirm the heavy boundary has either a direct 2b edge (64,838 profiles in the W2 replay) or a deep-link route (26,333 profiles). No fourth heavy-triangle object remains. Quantitative promotion still depends on a1_lower_overlap_occupied_subcore_accounting plus the depth-cell occupancy bound for direct 2b edges."
   },
   {
    "id": "xr_light_triangle_eliminant",
