@@ -1,0 +1,54 @@
+{
+  "checks": 15,
+  "named_condition": "p2_no_wild_subfield_circle_domain",
+  "node": "f_dih_subgroup_completeness",
+  "rows": [
+    {
+      "char": 3,
+      "dihedral_size": 8,
+      "field": "F_9",
+      "kind": "wild_subfield_circle",
+      "n": 4,
+      "stabilizer_size": 24,
+      "wild_congruence_p_divides_n_minus_1": true
+    },
+    {
+      "char": 5,
+      "dihedral_size": 8,
+      "field": "F_25",
+      "kind": "tame_dihedral",
+      "n": 4,
+      "stabilizer_size": 8,
+      "wild_congruence_p_divides_n_minus_1": false
+    },
+    {
+      "char": 5,
+      "dihedral_size": 16,
+      "field": "F_25",
+      "kind": "tame_dihedral",
+      "n": 8,
+      "stabilizer_size": 16,
+      "wild_congruence_p_divides_n_minus_1": false
+    },
+    {
+      "char": 7,
+      "dihedral_size": 16,
+      "field": "F_49",
+      "kind": "wild_subfield_circle",
+      "n": 8,
+      "stabilizer_size": 336,
+      "wild_congruence_p_divides_n_minus_1": true
+    },
+    {
+      "char": 7,
+      "dihedral_size": 32,
+      "field": "F_49",
+      "kind": "tame_dihedral",
+      "n": 16,
+      "stabilizer_size": 32,
+      "wild_congruence_p_divides_n_minus_1": false
+    }
+  ],
+  "status": "CONDITIONAL: tame proof; wild subfield-circle domains are genuine exceptions",
+  "task": "P2"
+}

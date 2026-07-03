@@ -1369,3 +1369,22 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - P2 dihedral subgroup completeness: tame proof and wild exception
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/p2_dih_subgroup_completeness_conditional.md`,
+  `experimental/scripts/verify_p2_dih_subgroup_completeness.py`,
+  `experimental/data/certificates/p2-dih-subgroup-completeness/`,
+  `experimental/data/prize-dag/prize_dag.json`, and the regenerated DAG SVG.
+- **Status:** CONDITIONAL for DAG node `f_dih_subgroup_completeness`.
+- **What is being added:** A tame PGL2 proof that 2-power multiplicative/coset
+  domains have exactly dihedral stabilizer, plus the named condition
+  `p2_no_wild_subfield_circle_domain`.
+- **How it is useful:** Corrects the raw all-`q` statement: subfield-circle
+  domains are genuine exotic stabilizers. The verifier pins `F_9/mu_4`
+  (`|Stab|=24` vs `|Dih|=8`) and `F_49/mu_8` (`336` vs `16`), while nearby
+  non-wild rows return to the dihedral size.
+- **What to do next:** Exclude subfield-circle domains in the row descriptor or
+  add them as a separate paid taxonomy branch before using this node as a
+  global quotient-completeness theorem.

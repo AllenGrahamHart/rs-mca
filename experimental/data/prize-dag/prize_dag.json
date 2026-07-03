@@ -2821,16 +2821,18 @@
   },
   {
    "id": "f_dih_subgroup_completeness",
-   "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory",
-   "status": "PROVABLE",
+   "title": "FACE-2 KEYSTONE (CONDITIONAL): quotient-sector completeness in the tame PGL2 case",
+   "status": "CONDITIONAL",
    "key": true,
-   "statement": "Quotient-type escape mechanisms arise from Mobius symmetries of the evaluation domain; the PGL_2 stabilizer of mu_n (and of 2-power coset domains) contains the dihedral group Dih_n (rotations x -> zeta x, inversions x -> zeta/x) and generically equals it. Every subgroup of a dihedral group is cyclic or dihedral (theorem): cyclic => multiplicative pullbacks g(X^M); dihedral => Chebyshev quotients X^e g(X^M + zeta' X^-M) (twisted inversions are conjugate relabelings). THEREFORE the symmetry-quotient taxonomy {multiplicative, dihedral} is COMPLETE \u2014 no sixth quotient mechanism exists. Explains E25/E27/E30's clean fifth-shape watches structurally. Residual check (small lemma): no exotic stabilizer at special (n, q) \u2014 the stabilizer of an n-point projective set with n >= 3 is finite and contains Dih_n; rule out proper overgroups for prize domains.",
-   "attack_surface": "the subgroup theorem is classical; the stabilizer computation is a short PGL_2 argument; the exotic-case check is finite casework (n = 2-power, n | q-1)",
-   "falsifier": "E36: an exotic Mobius map preserving a prize-class domain (finite enumeration per (n,q) toy class \u2014 queued with Codex, Wave 5)",
+   "statement": "P2 proof packet: quotient-type escape mechanisms from tame PGL_2 symmetries of a 2-power multiplicative/coset domain are complete. In the tame case, the set-stabilizer is exactly Dih_n (rotations and twisted inversions), so every subgroup is cyclic or dihedral: cyclic => multiplicative pullbacks X^e g(X^M), dihedral => Chebyshev quotients X^e g(X^M + zeta' X^-M). Raw all-q completeness is false: subfield-circle domains mu_{p^m+1} in F_{p^{2m}} have larger stabilizer containing PGL_2(F_{p^m}). Named condition: p2_no_wild_subfield_circle_domain.",
+   "attack_surface": "Tame proof is finite-subgroup classification in PGL_2: a finite tame stabilizer containing C_n is cyclic/dihedral/A4/S4/A5; for n>=8 only cyclic/dihedral can contain order n, inversion rules out cyclic, and larger D_m cannot preserve an n-point non-fixed orbit. n=4 is the harmonic D4 case in tame characteristic. Wild exceptions are real and classified as subfield circles; verifier pins F_9/mu_4 and F_49/mu_8.",
+   "falsifier": "a non-subfield-circle prize row whose PGL_2 set-stabilizer strictly contains Dih_n, or a wild subfield-circle row accidentally treated as a multiplicative/dihedral-only domain",
    "refs": [
-    "experimental/notes/roadmaps/e30_dim3_flat_census.md"
+    "experimental/notes/roadmaps/e30_dim3_flat_census.md",
+    "experimental/notes/roadmaps/e36_pgl2_stabilizer.md",
+    "experimental/notes/roadmaps/p2_dih_subgroup_completeness_conditional.md"
    ],
-   "notes": "E36 (54/54, replayed green): at every checked toy prize-class domain the full PGL_2 set-stabilizer has size exactly 2n and equals the explicit dihedral group \u2014 NO exotic Mobius stabilizer. Toy casework discharged; the general algebraic lemma (all prize (n,q)) remains the route to PROVED, honestly scoped by the packet itself."
+   "notes": "E36 (54/54, replayed green): checked prime-field toy domains have stabilizer exactly 2n. P2 adds the tame proof and the missing negative controls: F_9/mu_4 has stabilizer 24 vs 8, and F_49/mu_8 has stabilizer 336 vs 16. Thus the node is closed only under p2_no_wild_subfield_circle_domain; the pinned F_17^32,n=512 row satisfies the easy tame congruence 17 does not divide 511."
   },
   {
    "id": "f_sparse_rank_split",
