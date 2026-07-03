@@ -73,7 +73,8 @@
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
-   "statement": "Resolve: does the official sampler batch as affine lines u + zv (repo convention) or another shape (powers-of-alpha)? Quote-level audit vs the ABF text."
+   "statement": "Resolve: does the official sampler batch as affine lines u + zv (repo convention) or another shape (powers-of-alpha)? Quote-level audit vs the ABF text.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
   },
   {
    "id": "axis2_ell",
@@ -82,7 +83,8 @@
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
-   "statement": "Resolve: official MCA quantifies pairs (C^{==2}) or ell-tuples? If tuples: supply the tuple-to-pair reduction or per-ell gates."
+   "statement": "Resolve: official MCA quantifies pairs (C^{==2}) or ell-tuples? If tuples: supply the tuple-to-pair reduction or per-ell gates.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
   },
   {
    "id": "axis4_predicate",
@@ -92,7 +94,8 @@
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#2"
    ],
-   "statement": "Resolve: is ABF's Delta_S((f1,f2), C^{==2}) > 0 exactly the same-support degenerate-pencil predicate (a = b = 0 stratum)? Quote-level audit."
+   "statement": "Resolve: is ABF's Delta_S((f1,f2), C^{==2}) > 0 exactly the same-support degenerate-pencil predicate (a = b = 0 stratum)? Quote-level audit.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
   },
   {
    "id": "axis9_dither",
@@ -105,13 +108,13 @@
   {
    "id": "field_cap_check",
    "title": "Confirm k<=2^40, |F|<2^256 in ePrint",
-   "status": "TEST",
+   "status": "PROVED",
    "key": true,
    "refs": [
-    "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
+    "tex/proximity_blueprint_v3.tex"
    ],
    "statement": "Confirm or refute in ePrint 2026/680: k <= 2^40 and |F| < 2^256. Determines B* magnitudes, the ~90-bit band statement, and whether non-generating rows (hence the tower case) are admissible.",
-   "notes": "HALF-RESOLVED 2026-07-02: towards-prize v3 (source of truth) formally adopts k <= 2^40, |F| < 2^256, B* = floor(q_line/2^128) as the prize regime. Repo-official; the ePrint quote-check remains the dossier-grade acceptance for Q0.1."
+   "notes": "RESOLVED 2026-07-03: blueprint line 102 quotes the survey (= ePrint 2026/680, Arnon-Boneh-Fenzi, 'Open Problems in List Decoding and Correlated Agreement', April 2026): 'The survey focuses on rho in {1/2,1/4,1/8,1/16}, target error eps* = 2^-128, smooth domains, k <= 2^40, and |F| < 2^256.' Also confirmed live on proximityprize.org: eps* = 2^-128, list denominator eps*|F|, partials encouraged, formal verification encouraged not required, peer review + public posting required, awards splittable. (Direct ePrint fetch Cloudflare-blocked; the in-repo blueprint quote is the working authority; dossier should carry the survey's own text via the authors' copy.)"
   },
   {
    "id": "rules_freeze",
@@ -141,7 +144,7 @@
     "proof_sketch/s2_paid_ledger.md#3",
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "v12 audit DONE (#177 integrated e7042160; one rounding fix patched by maintainer); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane)."
+   "notes": "v12 audit DONE (#177 integrated e7042160; one rounding fix patched by maintainer); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane). | Blueprint: the universal cap is 'modulo the imported Crites-Stewart conversion' \u2014 v12's self-contained half-Johnson CA mitigates; the bridge row must state which variant the dossier uses."
   },
   {
    "id": "qfloor_exact",
@@ -1329,7 +1332,8 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#5"
    ],
-   "statement": "Case (iii) closes: intermediate-subfield-confined slopes are priced by the same two mechanisms one level up, recursively, with per-level denominators printed. NOTE: critical only if the official family admits non-generating rows (Q0.1)."
+   "statement": "Case (iii) closes: intermediate-subfield-confined slopes are priced by the same two mechanisms one level up, recursively, with per-level denominators printed. NOTE: critical only if the official family admits non-generating rows (Q0.1).",
+   "notes": "Family CONFIRMED to include non-generating rows (any field < 2^256 incl. extensions, n up to 2^41): the tower case is genuinely critical, no longer family-conditional."
   },
   {
    "id": "two_slope_intersection",
@@ -1506,7 +1510,8 @@
    "statement": "Either the official reading bounds m (exists-m / fixed small m: worst-case route suffices) or for-all-m holds (a-regular collapse required for m >= 4). Exhaustive over readings.",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
-   ]
+   ],
+   "notes": "Rules resolved: family-per-constant-m. m_le3_route serves the small-m members (conditional only on imgfib now); the large-m members route through a_regular_collapse. Both branches now live, per-m partials creditable."
   },
   {
    "id": "m_le3_route",
@@ -1520,10 +1525,11 @@
   {
    "id": "rules_m_reading",
    "title": "Official resolution of the 'constant m' quantifier",
-   "status": "TEST",
+   "status": "PROVED",
    "refs": [
-    "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
-   ]
+    "tex/proximity_blueprint_v3.tex"
+   ],
+   "notes": "RESOLVED 2026-07-03: blueprint line 116: 'For constant interleaving arity m, determine the threshold.' Reading: the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (m <= 3 instances covered by the worst-case route are genuine partials); the FULL family at arbitrary constant m still needs a-regularity or equivalent \u2014 a_regularity_forcing stays relevant for large-m members."
   },
   {
    "id": "imgfib_monomial",
@@ -1878,15 +1884,15 @@
   {
    "id": "mixed_radix_frontier",
    "title": "Mixed-radix uniformity: does the machinery survive non-2-power smooth domains?",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": false,
    "statement": "LIKELY VACUOUS \u2014 the standard reading of 'smooth' in the FRI/STARK proximity literature is 2-smooth (power-of-2 order), and every repo row is 2-power. The live prize page leaves it undefined, so the ePrint confirmation (Q0.1 freeze row) closes this. IF the official family were broader: (a) wp0_2's conservativity sketch \u2014 2-power domains are the MOST quotient-rich, so the adverse analysis is conservative for broader smooth classes; (b) the residual work would be lattice-compatible restatements of chain-ordered tools (dedup, tower descent), a repair job priced by the E8 toy.",
    "attack_surface": "audit which arguments used chain structure (first-match dedup ordering, tower descent, scale recursion composition) vs which are per-M and lattice-agnostic (periodic strata counts, f_scale_recursion, coset dynamics per M); the lattice-forced analogue of multi-scale resonance (E5/R1) is the danger zone",
    "falsifier": "the n=48 toy row (E8): any 2-power-verified invariant failing on the first mixed-radix row",
    "refs": [
-    "experimental/notes/roadmaps/evidence_plan_codex.md"
+    "tex/proximity_blueprint_v3.tex"
    ],
-   "notes": "downgraded 2026-07-02 after review discussion: initially overweighted; the definitional risk is one lookup and the broad-reading direction is favorable per wp0_2 [SKETCH]. E8 = insurance, run only if the freeze lands broad."
+   "notes": "RESOLVED VACUOUS 2026-07-03: blueprint line 102 defines smooth DEFINITIVELY: 'a multiplicative coset of a subgroup of power-of-two order.' The family is 2-power only; this node is vacuously satisfied. E8 permanently canceled. One nuance recorded: domains are COSETS gamma*H, not just subgroups \u2014 harmless (x -> gamma*x is a degree-preserving substitution, code equivalent up to coordinate scaling) but conventions should note it."
   },
   {
    "id": "mixed_radix_toy_row",
@@ -2508,7 +2514,8 @@
    "falsifier": "a prime for which no k <= poly multiplier system achieves the distance (the toy bake-off's k-vs-GV data previews this)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "Rules signal FAVORABLE: the prize page states no closed-form requirement ('clearly states the claimed results, explains how they relate'), partials encouraged; compiler semantics plausible, judges' discretion final."
   }
  ],
  "edges": [

@@ -234,8 +234,8 @@ NOTE      cheap (toy scale) and high-information in BOTH directions;
 5. E4 (single-point-of-failure chain, newly measurable)
 6. E6 (known crack, cheap enumeration first)
 7. E5 (low hit-prior but program-level impact; run in background)
-8. E8 (INSURANCE ONLY — skip unless the Q0.1 freeze lands on a
-   broader-than-2-power smoothness definition)
+8. E8 CANCELED PERMANENTLY (2026-07-03): blueprint line 102 defines
+   smooth as power-of-two order, definitively. Do not run.
 ```
 
 The roadmap-maker lane commits to processing every completed packet into

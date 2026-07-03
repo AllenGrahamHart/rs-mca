@@ -495,11 +495,11 @@
 <text x="5555" y="9478" text-anchor="middle" font-size="15" fill="#333">provisional)</text>
 <text x="5555" y="9496" text-anchor="middle" font-size="12" fill="#8a949c">[CONDITIONAL]</text>
 </g>
-<g><title>field_cap_check: Confirm k&lt;=2^40, |F|&lt;2^256 in ePrint [TEST]</title>
-<circle cx="5655" cy="9781" r="11" fill="#fbfcfd" stroke="#5c6bc0" stroke-width="3"/>
+<g><title>field_cap_check: Confirm k&lt;=2^40, |F|&lt;2^256 in ePrint [PROVED]</title>
+<circle cx="5655" cy="9781" r="12" fill="#1b7837"/>
 <text x="5654" y="9829" text-anchor="middle" font-size="15" fill="#333" font-weight="bold">Confirm k&lt;=2^40, |F|&lt;2^256</text>
 <text x="5654" y="9847" text-anchor="middle" font-size="15" fill="#333" font-weight="bold">in ePrint</text>
-<text x="5654" y="9865" text-anchor="middle" font-size="12" fill="#8a949c" font-weight="bold">[TEST]</text>
+<text x="5654" y="9865" text-anchor="middle" font-size="12" fill="#8a949c" font-weight="bold">[PROVED]</text>
 </g>
 <g><title>rules_freeze: Rules freeze + SHA drift detector [TARGET]</title>
 <circle cx="4947" cy="9291" r="12" fill="#a8b8c8"/>
@@ -1535,11 +1535,11 @@
 <text x="6901" y="7176" text-anchor="start" font-size="15" fill="#333">base exponent ~1)</text>
 <text x="6901" y="7194" text-anchor="start" font-size="12" fill="#8a949c">[CONDITIONAL]</text>
 </g>
-<g><title>rules_m_reading: Official resolution of the 'constant m' quantifier [TEST]</title>
-<circle cx="6459" cy="8186" r="11" fill="#fbfcfd" stroke="#5c6bc0" stroke-width="3"/>
+<g><title>rules_m_reading: Official resolution of the 'constant m' quantifier [PROVED]</title>
+<circle cx="6459" cy="8186" r="12" fill="#1b7837"/>
 <text x="6466" y="8233" text-anchor="middle" font-size="15" fill="#333">Official resolution of the</text>
 <text x="6466" y="8251" text-anchor="middle" font-size="15" fill="#333">'constant m' quantifier</text>
-<text x="6466" y="8269" text-anchor="middle" font-size="12" fill="#8a949c">[TEST]</text>
+<text x="6466" y="8269" text-anchor="middle" font-size="12" fill="#8a949c">[PROVED]</text>
 </g>
 <g><title>imgfib_monomial: PROVED instance: monomial-prefix list sizes poly at corrected reserve (split primes, quasi-poly range) [PROVED]</title>
 <circle cx="7605" cy="7505" r="12" fill="#1b7837"/>
@@ -1780,12 +1780,12 @@
 <text x="9052" y="4246" text-anchor="start" font-size="15" fill="#333">for primitive planes</text>
 <text x="9052" y="4264" text-anchor="start" font-size="12" fill="#8a949c">[CONJECTURE]</text>
 </g>
-<g><title>mixed_radix_frontier: Mixed-radix uniformity: does the machinery survive non-2-power smooth domains? [TARGET]</title>
-<circle cx="5199" cy="6247" r="12" fill="#a8b8c8"/>
+<g><title>mixed_radix_frontier: Mixed-radix uniformity: does the machinery survive non-2-power smooth domains? [PROVED]</title>
+<circle cx="5199" cy="6247" r="12" fill="#1b7837"/>
 <text x="5176" y="6240" text-anchor="end" font-size="15" fill="#333">Mixed-radix uniformity:</text>
 <text x="5176" y="6258" text-anchor="end" font-size="15" fill="#333">does the machinery survive</text>
 <text x="5176" y="6276" text-anchor="end" font-size="15" fill="#333">non-2-power smooth…</text>
-<text x="5176" y="6294" text-anchor="end" font-size="12" fill="#8a949c">[TARGET]</text>
+<text x="5176" y="6294" text-anchor="end" font-size="12" fill="#8a949c">[PROVED]</text>
 </g>
 <g><title>mixed_radix_toy_row: E8: the n=48 mixed-radix toy row (F_97) — rerun the base machinery off the 2-power chain [TEST]</title>
 <circle cx="4929" cy="6743" r="11" fill="#fbfcfd" stroke="#5c6bc0" stroke-width="3"/>
@@ -2196,7 +2196,7 @@
 </g>
 <text x="60" y="80" font-size="30" fill="#555">263 nodes, 433 edges | distance from center = dependency depth (prize at the center)</text>
 <text x="60" y="120" font-size="30" fill="#555">solid=req dashed=alt dotted=evidence sparse-red=refutes | fork tick = gate ANY | bold = key</text>
-<text x="60" y="160" font-size="30" fill="#555">CONDITIONAL:10  CONJECTURE:26  PROVABLE:63  PROVED:72  REFUTED:7  TARGET:65  TEST:14  WALL:6</text>
+<text x="60" y="160" font-size="30" fill="#555">CONDITIONAL:10  CONJECTURE:26  PROVABLE:63  PROVED:75  REFUTED:7  TARGET:64  TEST:12  WALL:6</text>
 <circle cx="76" cy="210" r="15" fill="#1b7837"/>
 <text x="104" y="220" font-size="32" fill="#444">PROVED</text>
 <circle cx="76" cy="262" r="15" fill="#7fbf7b"/>
