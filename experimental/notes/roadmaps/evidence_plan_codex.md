@@ -444,3 +444,55 @@ NOTE      pairs naturally with E25 (the dihedral audit): E25 asks
           whether the class is a paid stratum; E26 asks whether it is
           a USEFUL WEAPON. Run both.
 ```
+
+# WAVE 4 (GATED) — the Rigidity Kernel probes, one per axis
+
+Launch condition: after xr_target_budget_audit + E25 report (their
+outcomes parametrize the tables below). Purpose: produce the OBSERVED
+structure along which RK's decomposition will be written — per the
+program's standing rule that classifications decompose after their
+data, not before.
+
+## E27 [axis Q — THE CENTRAL ONE] Exceptional-pair census
+```text
+Exhaustive at toy rows (n = 16, F_97; n = 32 sampled): for every pair
+(u,v) with >= 1 unpaid aperiodic deep bad slope at the toy corridor
+point, record the multiplicity spectrum (how many pairs have 1, 2, 3+
+unpaid slopes) and CLASSIFY each exceptional pair's structure against
+the 4-branch taxonomy + the trivial construction (u := c - z0 v on T).
+INTERPRET: multiplicity-1 pairs abundant but multiplicity-(s+1) pairs
+all structured => the forcing form of face 4 is TRUE at toy scale and
+its decomposition = the observed forcing chain; an unstructured
+multi-slope pair => RK's axis-Q core has a genuinely new exceptional
+class (name it, S9).
+```
+## E28 [axis R] The empirical band map
+```text
+At toy rows, scan radii from w/3 (deep-mca proved) to the corridor:
+at each radius, classify ALL pairs with bad slopes. Deliverable: the
+radius at which each mechanism (tangent forcing, quotient, dihedral,
+unstructured) first appears — the toy-scale map of the band. This
+locates where deep-mca's dichotomy actually degrades vs where it is
+merely unproved.
+```
+## E29 [axis J] Jointness measurement for Conjecture TR
+```text
+At F_13/F_97 (the #212 toy parameters): measure the joint
+per-character product vs the per-leaf FM bounds across all active
+sets — how many bits does jointness buy empirically, and does the
+joint bound track n^B x FM? Calibrates TR's exponent before anyone
+attempts its proof.
+```
+## E30 [axis D] Dimension-3 flat census with the dihedral branch
+```text
+Extend E7/E10 to dim-3 flats at n = 16 (sampled if needed): classify
+sparse-dual structure with the ENLARGED taxonomy (multiplicative +
+dihedral + tangent + descent); record whether any fifth shape appears
+and the closed-set growth vs the fixed-d n^{O(d)} bound.
+```
+## E31 [axis T] (= #199 ladder reach, already in flight — consume its
+result as the axis-T data; no new task.)
+
+Assignment guidance: E27/E30 are light censuses (Fleet A-shaped);
+E28/E29 are compute-heavier (Codex-shaped; serialize with anything
+heavy per the RAM rule).
