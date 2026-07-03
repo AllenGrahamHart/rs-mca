@@ -2577,7 +2577,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2593,7 +2593,7 @@
   {
    "id": "xr_target_budget_audit",
    "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?",
-   "status": "PROVABLE",
+   "status": "TARGET",
    "key": true,
    "statement": "Compute, per clean-rate decision row (from the census/#213 pipeline + the E14 gate-margin conventions reconciled): the exact integer slack s = B* - B_quot(A) - B_tan(A) at the safe-side candidate A. TWO WORLDS: s = 0 => the exclusion is true rigidity (no unpaid support at all \u2014 the emptiness form, the hard band problem); s >= 1 => the singleton obstruction DISSOLVES and the requirement becomes bounded-multiplicity forcing (no pair has s+1 unpaid deep slopes) \u2014 attackable by the proved multi-slope machinery (two-slope intersection, deep-mca Case (a), eliminant dichotomies: overlapping deep supports force structure). Mechanical arithmetic; the problem's CLASS depends on the answer.",
    "attack_surface": "read s off the exact quotient counts at the candidates (census_exact_counts) minus the tangent staircase; reconcile E14's gate-margin (GM) conventions; note a trivial construction gives SOME pair one deep bad slope, so s = 0 would make the target tight against trivially-existing objects \u2014 suspicious, and worth double-checking the decision point's location before concluding rigidity is needed",
@@ -2601,7 +2601,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly."
+   "notes": "DONE (verifier 49/49): s >= 1 ASTRONOMICALLY at every clean-rate candidate \u2014 log2 s ~ 122.0 (Row C) to 127.9 (prize-max): B_quot is STRICTLY ZERO at the candidates (j odd \u2014 parity kills the deciding dyadic scales), so essentially the whole B* budget is the aperiodic allowance. Only the pinned calibration row (rate 1/2) gives s = 0 exactly at A=507 (reproducing the proved tangent pin \u2014 rate 1/2's knife-edge nature confirmed at calibration). No verdict depends on the B_tan ambiguity or collision direction. FLAG: dihedral-stratum mass excluded from the formula \u2014 if E25 finds it real AND it populates odd-j candidates (odd supports = pairs + one of {1,-1}, so not parity-excluded), the budget shrinks; re-run with the dihedral column then. | E30 SHARPENS THE FLAG: the clean-rate candidates sit at ODD j, and dihedral-type words DO exist there in the anti-reciprocal form \u2014 the dihedral budget column, when E25 lands, must use the corrected -+a^{-j+2m} clause, not the even-j form. | MANDATORY FOLLOW-UP (QA.21): re-run the budget with the DIHEDRAL COLUMN \u2014 E25 says the mass is real, E30 gives the odd-j anti-reciprocal clause for the candidates. The clean-rate s = 2^122+ could shrink; compute B_dih at each candidate exactly. | QA.21 NEGATIVE (76/76 green, GAP QA21-G1): the crude dihedral column exceeds B* at EVERY clean-rate candidate (+292/+158/+52 bits at Row C; ~1e11-bit scale at prize-max); the E26 window model gives 0 at odd j but provably omits the fixed-point branch (E30). NO in-repo lemma bounds per-pair dihedral simultaneity. The s >= 2^122 verdict is now CONDITIONAL on dihedral_staircase; the audit's status reverts to TARGET pending that lemma. Honest arc: the requirement computation giveth (the poly allowance) and taketh away (the dihedral column)."
   },
   {
    "id": "rigidity_kernel",
@@ -2615,6 +2615,18 @@
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
    "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign."
+  },
+  {
+   "id": "dihedral_staircase",
+   "title": "REQUIRED LEMMA (QA21-G1): the per-pair dihedral-aligned support cap",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For a fixed pair (u,v), bound the number of simultaneously-aligned inversion-closed supports: the dihedral analogue of the tangent staircase. QA.21 shows the crude bound (all N_dih = 2 C((n-2)/2, (j-1)/2) supports) blows the clean-rate budget by +52..+292 bits (Row C) \u2014 the allowance survives only if per-pair dihedral simultaneity is suppressed by those factors. STRUCTURAL HANDLES: (a) every odd-j inversion-closed support contains one of exactly TWO points ({+1, -1}) \u2014 all dihedral-aligned supports pass through one of two links, so the top-core/link machinery bites maximally; (b) palindromic agreement rigidity (the aligned word's symmetric part is constrained); (c) E25's toy data shows small per-pair counts empirically (100/64 charged events across the whole corpus). Expected shape: linear-in-n like the tangent staircase.",
+   "attack_surface": "start from the fixed-point observation: condition on the support containing +1; the aligned family through one point at one slope is a moving-root-type family \u2014 the tangent staircase argument should transfer nearly verbatim; E25's charging machinery is the toy calibration",
+   "falsifier": "a toy pair aligning super-linear-in-n dihedral supports (searchable with E25's machinery)",
+   "refs": [
+    "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
+   ]
   }
  ],
  "edges": [
@@ -4866,6 +4878,16 @@
   {
    "from": "xr_ledger_qpower",
    "to": "rigidity_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "dihedral_staircase",
+   "to": "xr_target_budget_audit",
+   "kind": "req"
+  },
+  {
+   "from": "dihedral_quotient_stratum",
+   "to": "dihedral_staircase",
    "kind": "ev"
   }
  ]
