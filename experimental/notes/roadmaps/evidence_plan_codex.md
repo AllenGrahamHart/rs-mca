@@ -389,3 +389,30 @@ INTERPRET no sparse ternary vector at practical block sizes + healthy
 NOTE      this instrument reaches exactly where birthday sampling was
           proven infeasible; either outcome is decisive-grade.
 ```
+
+## E25 — THE DIHEDRAL AUDIT (urgent; decides whether we found the fifth mechanism)
+
+```text
+TARGET    payment_completeness / dihedral_quotient_stratum / zone_b
+QUESTION  do inversion-symmetric (palindromic/reciprocal) configurations
+          generate UNPAID MCA bad slopes on multiplicative prize rows,
+          or are they absorbed by existing ledgers?
+PRIOR     ~55% absorbed — the zone-(b) antipodal-class machinery already
+          quotients by a related symmetry, and v12's Chebyshev cap-side
+          machinery treats the class; but the red team NEVER searched
+          dihedral structure (E5/R1 were multiplicative-only)
+METHOD    exact toys first (F_17, mu_16; F_97): build palindromic
+          locator families l_I (inverse-pair quadratic products), solve
+          the alignment systems for words (u,v) with dihedral symmetry
+          (u(x^{-1}) = x^{-deg} u(x)-type); count bad slopes vs the
+          tangent/quotient/antipodal charges; then the M5 chart
+          machinery at A = 384-426 restricted to palindromic supports
+INTERPRET absorbed => taxonomy completion: add the dihedral ledger
+          (v12-Chebyshev machinery imports), restate the strip, DONE at
+          bookkeeping cost | UNPAID slopes found => THE FIFTH MECHANISM:
+          full S9 (new ledger, corridor arithmetic recomputes, caps may
+          SHARPEN — a dihedral floor would be a new unsafe construction
+          and a paper-grade discovery in its own right)
+NOTE      either outcome is major; this is the highest-information
+          single probe since E1.
+```

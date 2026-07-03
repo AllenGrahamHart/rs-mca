@@ -1577,7 +1577,7 @@
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#1"
    ],
-   "notes": "the same multi-scale self-similarity as Q_M = Q_1 and the coset-move dynamics \u2014 third appearance of the recursion | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration."
+   "notes": "the same multi-scale self-similarity as Q_M = Q_1 and the coset-move dynamics \u2014 third appearance of the recursion | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration. | NEEDS THE DIHEDRAL ANALOGUE: plane sections of the reciprocal stratum should be plane sections of the Chebyshev-quotient instance (y = x + x^{-1}), mirroring the multiplicative case \u2014 plausibly provable identically (the X^m h(X + X^{-1}) factorization is the pullback map)."
   },
   {
    "id": "f_primitive_case",
@@ -1613,7 +1613,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP.",
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost.",
    "gate": "any"
   },
   {
@@ -2128,7 +2128,7 @@
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured",
    "status": "CONJECTURE",
    "key": true,
-   "statement": "RESTATED per E9 (#201, outcome (b) of the pre-registered table): many-sparse flats are pullback-structured, tangent-structured, or DESCENT-REDUCIBLE (the census found a large support-3-only third class \u2014 exactly the sparse-dependence branch that f_sparse_descent_step prices). With the descent ledger included BEFORE the primitive residue, the conjecture is: nothing UNPAID survives all three branches.",
+   "statement": "RESTATED (second revision, after the verified dihedral counterexample): many-sparse flats are MULTIPLICATIVE-pullback-structured, DIHEDRAL/Chebyshev-quotient-structured (X^e g(X^M + X^{-M}) \u2014 the new class), tangent-structured, or descent-reducible. The conjecture: nothing UNPAID survives all FOUR branches. The dihedral branch is forced: reciprocal flats are gcd-trivial, multiplicatively aperiodic, and have super-poly lattices \u2014 only the enlarged quotient class pays them.",
    "attack_surface": "coding-theory structure: codes with many minimal low-weight words are classified in known regimes; the coset-support pattern (supports = unions of coset pairs) is the signature to force; toy-enumerable falsifier at n = 16",
    "falsifier": "a toy flat (n = 16 exhaustive over dims 2-3) with many sparse dual words that is neither pullback- nor tangent-classified",
    "refs": [
@@ -2295,7 +2295,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "PACKET WRITTEN (wave 1, verifier 31/31): batch/memoized form proved; the binary form carries a (1 + W_max) factor \u2014 both defuse 2^depth. CAVEATS recorded: conventions need reconciling with in-flight QF.6/QF.7 at integration; the identity RELOCATES the polynomial question to family-specific closed-set counting (as the E17 counterexample independently showed)."
+   "notes": "PACKET WRITTEN (wave 1, verifier 31/31): batch/memoized form proved; the binary form carries a (1 + W_max) factor \u2014 both defuse 2^depth. CAVEATS recorded: conventions need reconciling with in-flight QF.6/QF.7 at integration; the identity RELOCATES the polynomial question to family-specific closed-set counting (as the E17 counterexample independently showed). | Positive residue from X-2: FIXED-d closed-set bound n^{O(d)} (trace-matroid rank argument) \u2014 every fixed dimension now has polynomial accounting; uniformity in d is impossible without the dihedral ledger."
   },
   {
    "id": "f_termination_mds",
@@ -2576,6 +2576,17 @@
     "tex/cs25_cap_v12.tex"
    ],
    "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient."
+  },
+  {
+   "id": "dihedral_quotient_stratum",
+   "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "The palindromic flats P_m = {p : p(X) = X^{2m} p(X^{-1})} (dim m+1) are gcd-trivial, NOT contained in any multiplicative pullback g(X^M), yet contain C((n-2)/2, m) members of D_j (products of inverse-pair quadratics X^2 - (a+a^{-1})X + 1), carry one weight-2 dual word per inverse pair, and their sparse-support closed-set lattice has size >= sum_{h<=m} C((n-2)/2, h) \u2014 super-polynomial for m = omega(1). Structure: W_m = X^m F[X + X^{-1}]_{<=m} \u2014 the DIHEDRAL/CHEBYSHEV quotient x ~ x^{-1}, with the trace matroid = rank-(m+1) MDS in y = x + x^{-1}. CONVERGENCE: this is exactly Paper D v12's 'Chebyshev case' (twin cosets, K_c kernels, chi-fibers) \u2014 the cap-side machinery already treats this class; the F-taxonomy and the paid-quotient definition must enlarge to X^e g(X^M + X^{-M}). Positive residue (also verified): for FIXED dimension d the closed-set count is <= n^{O(d)} (rank bound) \u2014 extending the proved range to every fixed d with d-dependent exponent.",
+   "refs": [
+    "tex/cs25_cap_v12.tex"
+   ],
+   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only)."
   }
  ],
  "edges": [
@@ -4778,6 +4789,16 @@
    "from": "xr_clean_residual_any_gate",
    "to": "r2_clean_rates",
    "kind": "req"
+  },
+  {
+   "from": "dihedral_quotient_stratum",
+   "to": "f_many_sparse_structure",
+   "kind": "req"
+  },
+  {
+   "from": "dihedral_quotient_stratum",
+   "to": "payment_completeness",
+   "kind": "ev"
   }
  ]
 }
