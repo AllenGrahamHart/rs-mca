@@ -2632,14 +2632,15 @@
   {
    "id": "xr_pencil_cascade",
    "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "If a pair (u,v) has two aligned supports (distinct slopes) whose agreement sets share a common core of size >= k+t-1 = A-1, then the slope pencil is FORCED on the core (interpolation: core >= k determines both explaining codewords, the 2x2 slope system inverts), and the alignment CASCADES: every off-core point upgrades one further slope, so the pair's multiplicity is ~n-core and the pair is a TANGENT-PENCIL pair \u2014 paid. E27 verified every observed cascade algebraically at RS[F_97, mu_16, k=8] (the multiplicity-2 stratum has a -8.8 sigma HOLE at cores >= A-1: big-core mult-2 events are impossible, exactly as the lemma predicts). The argument is interpolation + the two-slope trick \u2014 scale-free.",
    "attack_surface": "specialize two_slope_intersection to cores >= k+t-1; the cascade step is one line (pencil evaluation off-core); write-up is a small packet",
    "falsifier": "a toy multiplicity-2 pair with core >= A-1 and no pencil (E27's machinery searches this directly; zero found in 2000 constructed + 10^5 organic)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+   ],
+   "notes": "PROVED (W1, PR #10, 70/70 replayed): the forcing lemma at core >= k+t-1 with the cascade, scale-free, E27-calibrated. Face 4 rung 1 closed."
   },
   {
    "id": "xr_smallcore_spread_count",
@@ -2677,7 +2678,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core."
+   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it)."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
@@ -2780,7 +2781,7 @@
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
    ],
-   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question."
+   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap."
   },
   {
    "id": "xr_triangle_eliminant_form",
@@ -2830,7 +2831,7 @@
    "refs": [
     "experimental/notes/roadmaps/e30_dim3_flat_census.md"
    ],
-   "notes": "E36 (54/54, replayed green): at every checked toy prize-class domain the full PGL_2 set-stabilizer has size exactly 2n and equals the explicit dihedral group \u2014 NO exotic Mobius stabilizer. Toy casework discharged; the general algebraic lemma (all prize (n,q)) remains the route to PROVED, honestly scoped by the packet itself."
+   "notes": "E36 (54/54, replayed green): at every checked toy prize-class domain the full PGL_2 set-stabilizer has size exactly 2n and equals the explicit dihedral group \u2014 NO exotic Mobius stabilizer. Toy casework discharged; the general algebraic lemma (all prize (n,q)) remains the route to PROVED, honestly scoped by the packet itself. | P2 (PR #14, 17/17 replayed): tame-case proof integrated; the wild exception class is the banked Mersenne analysis. PRs #10/#12/#13/#14 integrated manually onto the live branch (DAG conflicts resolved here); closing with credit comments."
   },
   {
    "id": "f_sparse_rank_split",
