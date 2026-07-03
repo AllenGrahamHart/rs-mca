@@ -3193,7 +3193,17 @@
    "refs": [
     "experimental/notes/roadmaps/pa_active_core_probe.md"
    ],
-   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator."
+   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level."
+  },
+  {
+   "id": "h3_param_lemma",
+   "title": "PROVED (autonomous #45, sympy-verified): the h=3 (a,b,t) parametrization",
+   "status": "PROVED",
+   "statement": "For P = {1,a,b} in mu_n (odd char), every nontrivial affine triple (x,y,z) with the same top-2 elementary symmetric sums is x(t),y(t),z(t) = explicit deg-2/deg-2 rational functions of one parameter t, D = t^2+t+1 != 0; converse holds. BOTH symmetric-sum identities verified identically zero by independent sympy simplification (not just the packet verifier). This is the exact base object of the h=3 active-core count: C_3^nt = #{(a,b,t): a,b,x(t),y(t),z(t) in H, non-permutation, non-toral}.",
+   "refs": [
+    "experimental/notes/roadmaps/x12_h3_parametrization.md"
+   ],
+   "notes": "Autonomous-mode proof, independently re-derived here. The h=3 active-core problem is now an EXACT rational-incidence count in 3 variables \u2014 the sharpest handle on the terminal node."
   }
  ],
  "edges": [
@@ -5736,6 +5746,11 @@
    "from": "active_core_count_bound",
    "to": "anchored_nontoral_pte_bound",
    "kind": "req"
+  },
+  {
+   "from": "h3_param_lemma",
+   "to": "active_core_count_bound",
+   "kind": "ev"
   }
  ]
 }
