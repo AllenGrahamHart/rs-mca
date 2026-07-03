@@ -2712,7 +2712,8 @@
    "falsifier": "an unpaid rank-stagnating far-spread triple at toys (the E32 hunt, directly)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+   ],
+   "notes": "DECOMPOSED (derived, not conjectured): beta-1 sunflowers never stagnate (PROVABLE \u2014 support cancellation + dual weight; families capped at 2n/t ~ 630; the list lane's worst case is the MCA lane's safe case); beta-2 heavy triangles (syzygy dimensionally forced when sum r - triple > 2k) merge with rung 2b's graded ledger, and non-sunflower popular cores reduce here via petal contact; beta-3 light triangles = the triple eliminant locus \u2014 the smallest closed form of the residual core, E32-testable. The dimension count (3t vs |union| - k) is the exact heavy/light divider."
   },
   {
    "id": "xr_scattered_syzygy_flattice",
@@ -2724,6 +2725,41 @@
    "falsifier": "a toy diffuse stagnation whose intersection-pattern flat has super-poly closed-set lattice (the E30 machinery checks this directly)",
    "refs": [
     "experimental/notes/roadmaps/e30_dim3_flat_census.md"
+   ]
+  },
+  {
+   "id": "xr_sunflower_rank_additive",
+   "title": "beta-1 (PROVABLE, proof complete): sunflowers never stagnate \u2014 the 2n/t cap",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "If an aligned far-spread family is a sunflower (all pairwise intersections equal one common core Y, |Y| < k), every syzygy member is supported inside Y (cancellation only on shared points), and |Y| < k+1 = the MDS dual minimum weight forces all members to vanish: NO nontrivial syzygy exists, so by the alpha anatomy every member contributes its FULL t rows and the family size is <= 2n/t per pair (~630 at prize-max rate 1/4). REVERSAL NOTE: the list lane's planted-sunflower worst cases are exactly the MCA-side's provably-safe configurations \u2014 the two challenges' hard directions are disjoint here.",
+   "attack_surface": "the proof is the three sentences above (alpha's support cancellation + the dual weight); package with the exact rank bookkeeping (each member adds exactly t)",
+   "falsifier": "a toy aligned sunflower with rank increment < t at some member (mechanical stacked-rank check)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+   ]
+  },
+  {
+   "id": "xr_heavy_triangle_charge",
+   "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge",
+   "status": "TARGET",
+   "statement": "Configurations with sum of pairwise overlaps minus triple intersection > 2k: syzygies exist for dimension reasons (kernel of the sum map is forced positive: 3t > |union| - k). These are overlap-heavy \u2014 at least two near-k/2+ overlaps, one step below rung 2b's partial-forcing threshold. TASK: extend the graded tangent ledger (2b) across the boundary so heavy-triangle stagnations are charged by the same depth grading; the popular-core case with petal-petal contact reduces here too (non-sunflower popular cores stagnate only through petal contact \u2014 sunflowers are excluded by beta-1).",
+   "attack_surface": "shared ledger design with xr_partial_tangent_band; the dimension count above pins exactly which configurations need the charge",
+   "falsifier": "a heavy triangle whose stagnation resists the graded charge at toys",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "xr_light_triangle_eliminant",
+   "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Light configurations (sum r - triple <= 2k, budget >= k+1 still met): syzygy existence is a NON-GENERIC determinantal condition \u2014 an explicit eliminant locus in the support coordinates (the kernel of the sum map Lambda_0 + Lambda_1 + Lambda_2 jumps rank). The remaining claim: for every pair, stagnating light triangles are rationed \u2014 the eliminant locus's intersection with the pair's aligned-support variety is poly-bounded or paid. This is the SMALLEST closed form of face 4's residual core: one determinantal condition, three supports, exhaustively toy-testable (E32), and M5's chart machinery is its laboratory at deficiency-triple level.",
+   "attack_surface": "write the eliminant explicitly at toy scale (the sum-map matrix in MDS coordinates); E32 hunts stagnating light triples; the u5-style dichotomy (eliminant nonzero => rationed; identically zero => the configuration family is structured/paid) at triple level",
+   "falsifier": "a toy pair with super-poly stagnating light triangles outside paid strata (E32 directly)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ]
   }
  ],
@@ -5042,6 +5078,21 @@
    "from": "f_many_sparse_structure",
    "to": "xr_scattered_syzygy_flattice",
    "kind": "ev"
+  },
+  {
+   "from": "xr_sunflower_rank_additive",
+   "to": "xr_popular_core_triangles",
+   "kind": "req"
+  },
+  {
+   "from": "xr_heavy_triangle_charge",
+   "to": "xr_popular_core_triangles",
+   "kind": "req"
+  },
+  {
+   "from": "xr_light_triangle_eliminant",
+   "to": "xr_popular_core_triangles",
+   "kind": "req"
   }
  ]
 }
