@@ -1369,3 +1369,22 @@ Keep entries concise and link to the relevant files.
   classifier, the enumeration-route map, and the red-team queue, plus the claimable execution
   queue and pre-registered evidence campaign they point at.**
 - **What to do next:** statuses flip on integration of #179-#183; strategy layer re-runs per flip.
+
+### 2026-07-03 - P3 post-strip rich-line cap residue
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/p3_post_strip_rich_line_residue.md`,
+  `experimental/scripts/verify_p3_rich_line_residue.py`,
+  `experimental/data/certificates/p3-rich-line-residue/`, and
+  `experimental/data/prize-dag/prize_dag.json`.
+- **Status:** CONDITIONAL / negative obstruction for DAG node
+  `deep_link_staircase`.
+- **What is being added:** A 2-power multiplicative-domain embedding of the
+  P1 affine-net rich-line obstruction on `F_193/mu_64`, with 65 exact aligned
+  supports through one fixed near-k subcore.
+- **How it is useful:** Shows the current tangent / quotient-tail / dihedral
+  strip does not by itself prove the constant fixed-subcore cap. The named
+  residue is `p3_affine_net_richline_residue`.
+- **What to do next:** Prove affine-net residues are secretly paid under the
+  global definitions, or add/charge them as a separate residual stratum before
+  using P1 as a closed deep-link staircase proof.

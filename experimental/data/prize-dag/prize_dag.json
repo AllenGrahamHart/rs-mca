@@ -2779,9 +2779,11 @@
    "attack_surface": "PROOF ROUTE SELECTED BY E33 (falsifier never fired, both rows): the link-population cap. Observed: max partner events per anchor 13 (< n) at the corridor row, 72 = 4.5n at the dense stress row \u2014 linear shape throughout; and THE key structural signal: partner events through any single fixed subcore max out at 5 on BOTH rows (density-independent). Proof shape: per-subcore rigidity (interpolation at near-k cores \u2014 the c(s,t) plateau's boundary) x occupied-subcore accounting. The derived-pencil recursion demotes to a transport tool \u2014 no super-linear growth exists for it to explain.",
    "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
    "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
+    "experimental/notes/roadmaps/p1_deep_link_staircase_conditional.md",
+    "experimental/notes/roadmaps/p3_post_strip_rich_line_residue.md"
    ],
-   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap."
+   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap. | P3 (negative/conditional): the current strip does not by itself prove the cap. A 2-power multiplicative fixture on F_193/mu_64 has 65 exact aligned supports through one fixed near-k subcore, max multiplicity t+1, and zero hits under the local tangent-pencil / quotient-tail / dihedral full-fiber predicates. New named residue: p3_affine_net_richline_residue."
   },
   {
    "id": "xr_triangle_eliminant_form",
