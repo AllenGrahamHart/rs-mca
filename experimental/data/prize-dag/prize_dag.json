@@ -3193,7 +3193,7 @@
    "refs": [
     "experimental/notes/roadmaps/pa_active_core_probe.md"
    ],
-   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level."
+   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs."
   },
   {
    "id": "h3_param_lemma",
@@ -3203,7 +3203,7 @@
    "refs": [
     "experimental/notes/roadmaps/x12_h3_parametrization.md"
    ],
-   "notes": "Autonomous-mode proof, independently re-derived here. The h=3 active-core problem is now an EXACT rational-incidence count in 3 variables \u2014 the sharpest handle on the terminal node."
+   "notes": "Autonomous-mode proof, independently re-derived here. The h=3 active-core problem is now an EXACT rational-incidence count in 3 variables \u2014 the sharpest handle on the terminal node. | CUBIC CAP PROVED (#46, independently verified): x(t) in H forces t to be a root of the nonzero degree-<=2n polynomial N_x(t)^n - D(t)^n (nonzero because N_x = D => a=b=1, invalid) \u2014 so <= 2n partners per core; C(n-1,2) cores => anchored active pairs < n^3, UNCONDITIONALLY and before any strip. This is the L3/n^3 rung for h=3 \u2014 PROVED. Sufficiency for the campaign still needs W4's rewiring (n^3 -> determination); the BOUND itself is now closed at h=3."
   }
  ],
  "edges": [

@@ -371,7 +371,69 @@
       "signature_collision_groups": 5504
     }
   ],
-  "checks": 14,
+  "checks": 21,
+  "h3_cubic_cap": {
+    "proof_count": "C(n-1,2) anchored cores times at most 2n slope parameters per core equals n(n-1)(n-2) < n^3.",
+    "rows": [
+      {
+        "anchored_core_count": 21,
+        "n": 8,
+        "n_cubed": 512,
+        "per_core_cap": 16,
+        "strictly_below_n_cubed": true,
+        "total_cap": 336
+      },
+      {
+        "anchored_core_count": 105,
+        "n": 16,
+        "n_cubed": 4096,
+        "per_core_cap": 32,
+        "strictly_below_n_cubed": true,
+        "total_cap": 3360
+      },
+      {
+        "anchored_core_count": 465,
+        "n": 32,
+        "n_cubed": 32768,
+        "per_core_cap": 64,
+        "strictly_below_n_cubed": true,
+        "total_cap": 29760
+      },
+      {
+        "anchored_core_count": 1953,
+        "n": 64,
+        "n_cubed": 262144,
+        "per_core_cap": 128,
+        "strictly_below_n_cubed": true,
+        "total_cap": 249984
+      },
+      {
+        "anchored_core_count": 8001,
+        "n": 128,
+        "n_cubed": 2097152,
+        "per_core_cap": 256,
+        "strictly_below_n_cubed": true,
+        "total_cap": 2048256
+      },
+      {
+        "anchored_core_count": 32385,
+        "n": 256,
+        "n_cubed": 16777216,
+        "per_core_cap": 512,
+        "strictly_below_n_cubed": true,
+        "total_cap": 16581120
+      },
+      {
+        "anchored_core_count": 522753,
+        "n": 1024,
+        "n_cubed": 1073741824,
+        "per_core_cap": 2048,
+        "strictly_below_n_cubed": true,
+        "total_cap": 1070598144
+      }
+    ],
+    "statement": "For h=3, anchored active pairs are < n^3 in odd characteristic with p not dividing n."
+  },
   "node": "active_core_count_bound",
   "small_forward_exhaustive": {
     "anchored_P_choices": 105,
@@ -387,9 +449,11 @@
   "symbolic_formulas": {
     "D": "t**2 + t + 1",
     "Nx": "-a*t + b*t + b + t**2 + t",
+    "Nx_minus_D": "-a*t + b*t + b - 1",
     "Ny": "a*t + a + b*t**2 + b*t - t",
     "Nz": "a*t**2 + a*t - b*t + t + 1",
     "line_conic_factorization": "F(x, a+t(x-1)) = (x-1) * ((t^2+t+1)x - Nx)",
+    "nonzero_membership_polynomial": "For valid distinct 1,a,b, Nx^n-D^n is nonzero: if Nx=zeta*D, leading coefficients force zeta=1, then Nx-D=(b-a)t+(b-1), which would force a=b=1.",
     "pair_sum_identity": "Nx*Ny+Nx*Nz+Ny*Nz = (a+b+ab)(t^2+t+1)^2",
     "sum_identity": "Nx+Ny+Nz = (1+a+b)(t^2+t+1)",
     "x_of_t": "(-a*t + b*t + b + t**2 + t)/(t**2 + t + 1)",
