@@ -416,3 +416,31 @@ INTERPRET absorbed => taxonomy completion: add the dihedral ledger
 NOTE      either outcome is major; this is the highest-information
           single probe since E1.
 ```
+
+## E26 — Dihedral window arithmetic vs the rate-1/2 coverage gap
+
+```text
+TARGET    rate_half_coverage_gap / dihedral_quotient_stratum
+QUESTION  do dihedral/Chebyshev quotient windows (twin-coset fibers,
+          d = m*ell degree arithmetic) provide unsafe coverage at
+          effective scales inside [2^33, sigma*] at prize-max rate 1/2
+          — i.e., does the new mechanism family fill the 2,978,147-
+          radius granularity deficit?
+PRIOR     ~50% — the scales are genuinely new (twin cosets, pair
+          fibers) but whether their arithmetic interpolates into the
+          deficit is pure computation
+METHOD    window arithmetic only (no search): enumerate achievable
+          dihedral and mixed dihedral-multiplicative window scales and
+          their unsafe-count formulas at prize-max rate 1/2; compare
+          against the deficit interval; exact analogues at the pinned
+          row and Row C as calibration
+INTERPRET coverage found => blocker (a) of rate 1/2 FALLS — the
+          endgame there reduces to the tight composition + the thin
+          margin point; also strong evidence the dihedral ledger is
+          load-bearing on multiplicative rows (feeds E25)
+          no coverage => the gap needs non-2-power quotient extension
+          or bracket sharpening (as previously listed)
+NOTE      pairs naturally with E25 (the dihedral audit): E25 asks
+          whether the class is a paid stratum; E26 asks whether it is
+          a USEFUL WEAPON. Run both.
+```

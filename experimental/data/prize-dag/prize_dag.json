@@ -2536,7 +2536,7 @@
    "status": "TARGET",
    "key": true,
    "statement": "At prize-max rate 1/2 the exact 2-power quotient-core window undershoots the mean crossing: M_max = 2^33 vs sigma* = 8,592,912,738 leaves 2,978,147 radii that are neither proved-unsafe (quotient windows) nor extras-zero (integrality) \u2014 an uncovered band the current mechanisms do not reach. Rates 1/4, 1/8, 1/16 are CLEAN (first open radius margins < -121 at Row C, < -3.4e11 at prize-max). Together with the s* verdict and the thin -12.87 margins, all three wave-1 findings point the same way: RATE 1/2 IS THE BATTLEFIELD; the other three rates look dramatically more closable.",
-   "attack_surface": "candidate closers: extend the quotient-core window arithmetic past 2-power M (other divisors of the band), sharpen the mean-crossing bracket, or route the band through the unsafe-witness machinery; first step is mapping WHICH mechanism family the band's radii belong to",
+   "attack_surface": "NEW CANDIDATE CLOSER (from the dihedral discovery): the gap is a scale-granularity artifact \u2014 sigma* - 2^33 = 2,978,146-ish, i.e. the 2-power window lattice's step. The dihedral/Chebyshev quotient family provides unsafe windows at NEW effective scales (twin-coset fibers, d = m*ell degree arithmetic \u2014 the PMA pullback construction is the list-side prototype). TASK: compute the dihedral window arithmetic at prize-max rate 1/2 and check whether any dihedral-or-mixed scale lands in [2^33, sigma*]. Other closers unchanged: extend quotient-core arithmetic past 2-powers; sharpen the crossing bracket.",
    "falsifier": "n/a (a computed coverage fact; it shrinks as mechanisms extend)",
    "refs": [
     "proof_sketch/s7_list_side.md"
@@ -2587,7 +2587,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only)."
+   "notes": "PROVENANCE: GPT Pro X-2 verdict (outcome c \u2014 the requested counterexample branch), verified here step by step. Falsification #3 of our F-taxonomy statements, and the most consequential: a candidate new quotient MECHANISM, never searched by the red team (E5/R1 tested multiplicative multi-scale only). | DUAL NATURE: every counterexample is a witness \u2014 the dihedral class taxes the safe side AND gifts the unsafe side a new floor-construction family; its window arithmetic is the sharpest candidate for closing rate 1/2's coverage gap (see rate_half_coverage_gap)."
   }
  ],
  "edges": [
