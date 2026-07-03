@@ -222,12 +222,11 @@ determinant gate heuristic suggests `<= t` anchors per core pre-collapse
 general `t` is open. This note does not close that; it makes the cap the
 SINGLE hypothesis to test (via G3, top cores only).
 
-## 4. The `L_tan` convention — an explicit AUDIT question [NOT resolved here]
+## 4. The `L_tan` convention — finite-corpus audit resolved
 
 Theorem G1 is proved for every `L`; the composition needs a VALUE, and
 two conventions are in play. They differ by exactly a factor 2 in `eps`,
-which propagates linearly through every consumer. **Stated, not
-resolved:**
+which propagates linearly through every consumer.
 
 ```text
 Convention S ("first-unpaid-support stripping"):   L_tan = 1.
@@ -265,14 +264,21 @@ by the factor 2 shown in SS5.
 
 **Adjudication corpus.** The 10 post-strip link-leak candidates from the
 #209 corpus (Q3R.2 / Fleet C-1 in `campaign_split_2026_07_03.md`) are
-the decision data: each candidate is either (i) strippable under
-Convention S (evidence that `L_tan = 1` with a REAL, priceable stripping
-ledger), or (ii) consistent with Convention E only (`L_tan = 2`), or
-(iii) a genuine unpaid tangent leak — `c_A(H) > 2` at a top core
-post-strip — which breaks BOTH conventions at that core and is
-R2-relevant (report loudly, per E19's protocol). By Corollary G3 the
-classification only needs top-core counts. Until that adjudication
-lands, downstream consumers must carry `L_tan in {1, 2}` symbolically.
+now adjudicated in `q3r2_link_leak_adjudication.md`.  By Corollary G3 the
+classification only needs top-core counts, and the exact corpus verdict is:
+
+```text
+8 delta_character rows:      strippable under Convention S (L_tan = 1)
+2 character_pair rows:       strippable under Convention E (L_tan = 2)
+genuine unpaid leaks:        0
+```
+
+Thus Q3R.2 is a convention warning, not a new unpaid tangent obstruction, on
+the exact finite corpus.  If a downstream packet insists on `L_tan=1` without
+pricing a first-unpaid-support strip, the two character-pair rows
+(`character_pair_9_13`, `character_pair_10_14`) are the regression witnesses.
+If it uses the grounded residual-edge convention, the ten #209 rows all pass
+with `L_tan=2`.
 
 ## 5. The KLLM interface — what the composition consumes
 
@@ -328,15 +334,17 @@ N1  The CAP ITSELF is not proved for actual post-strip alignment
     families.  Grounded case: t = 2 only (#152, PROVED-LOCAL, in the
     t = 2 Hankel-pencil normal form after fixed-slope root-slice
     charging).  General in-band t is OPEN (`exchange_ledger_gen_t`,
-    Q4.1).  Empirical gates: E19's measurements and the 10 #209 leak
-    candidates (Q3R.2).  This note proves cap => globalness, nothing
-    about cap-validity.
+    Q4.1).  The #209 finite leak-candidate gate (Q3R.2) is adjudicated,
+    with zero genuine `L_tan=2` leaks, but this note still proves only
+    cap => globalness, not cap-validity at general in-band t.
 N2  No KLLM/KMS/DKKMS statement is quoted, used, or asserted.  The
     matching of SS5's (a,eps) form to the literature definition, in the
     uniform-slice variant, is QX.12's job [CITATION NEEDED there].
-N3  The L_tan value is NOT resolved (SS4): Convention S's stripping
-    ledger is unpriced in the repo; Convention E is proved only at
-    t = 2.  Consumers carry L_tan in {1,2} symbolically.
+N3  The exact #209 corpus resolves as: eight rows satisfy Convention S
+    (`L_tan=1`) and two rows require Convention E (`L_tan=2`).  The
+    Convention S stripping ledger remains unpriced in the repo, so
+    consumers that want a proved grounded convention should carry
+    `L_tan=2` unless they also price that first-support strip.
 N4  G1 alone does not give R2: it converts the cap into a link bound
     per pair; the composition still needs the cap per pair (N1), the
     KLLM engine (N2), and the assembly (Q3R.1).
