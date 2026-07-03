@@ -1,0 +1,1167 @@
+{
+  "checks": 5,
+  "node": "xr_eliminant_vanishing_class",
+  "rows": [
+    {
+      "A": 4,
+      "coordinate_special_defects": 0,
+      "defect_examples": [],
+      "defective_profiles": 0,
+      "field": "F_11",
+      "full_rank_coordinate_placements": 87360,
+      "full_rank_light_profiles": 19,
+      "k": 2,
+      "light_triples": 87360,
+      "n": 8,
+      "name": "coord_n8_k2_A4",
+      "profile_density_table": [
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 3,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 2,
+            "c": 2,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 3,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 3,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 3,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 0,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 2,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 1,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 2,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 2,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 2,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 3,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 3,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 3,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 0,
+            "c": 2,
+            "h": 0,
+            "outside": 0,
+            "r01": 2,
+            "r02": 0,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 0,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 1,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 2,
+            "r02": 1,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 1,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 2,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 2,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 3,
+            "b": 0,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 3,
+            "r02": 0,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 0,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 3,
+            "b": 1,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 3,
+            "r02": 1,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 1,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 2,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 1,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 2,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 3,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 1,
+            "h": 1,
+            "outside": 0,
+            "r01": 2,
+            "r02": 1,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 1,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 2,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 0,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 3,
+            "r02": 1,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 1,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "h": 2,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 2
+          }
+        }
+      ],
+      "profile_forced_defect_triples_skipped": 0,
+      "supports": 70,
+      "t": 2
+    },
+    {
+      "A": 4,
+      "coordinate_special_defects": 0,
+      "defect_examples": [],
+      "defective_profiles": 0,
+      "field": "F_11",
+      "full_rank_coordinate_placements": 294840,
+      "full_rank_light_profiles": 40,
+      "k": 3,
+      "light_triples": 294840,
+      "n": 8,
+      "name": "coord_n8_k3_A4",
+      "profile_density_table": [
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 3,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 2,
+            "c": 2,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 3,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 0,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 3,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 3,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 0,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 3,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 1,
+            "r02": 3,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 3,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 0,
+            "c": 2,
+            "h": 0,
+            "outside": 0,
+            "r01": 2,
+            "r02": 0,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 0,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 2,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 2,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 3,
+            "b": 0,
+            "c": 1,
+            "h": 0,
+            "outside": 0,
+            "r01": 3,
+            "r02": 0,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 0,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 1120,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 3,
+            "b": 1,
+            "c": 0,
+            "h": 0,
+            "outside": 0,
+            "r01": 3,
+            "r02": 1,
+            "r12": 0,
+            "sigma": 4,
+            "x0": 0,
+            "x1": 1,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 2,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 4,
+            "x0": 3,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 1,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 2,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 1,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 3,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 1,
+            "h": 1,
+            "outside": 0,
+            "r01": 2,
+            "r02": 1,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 1,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 2,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 0,
+            "c": 0,
+            "h": 1,
+            "outside": 0,
+            "r01": 3,
+            "r02": 1,
+            "r12": 1,
+            "sigma": 4,
+            "x0": 1,
+            "x1": 1,
+            "x2": 3
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "h": 2,
+            "outside": 0,
+            "r01": 2,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 4,
+            "x0": 2,
+            "x1": 2,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 3,
+            "h": 0,
+            "outside": 1,
+            "r01": 1,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 5,
+            "x0": 2,
+            "x1": 0,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 2,
+            "c": 2,
+            "h": 0,
+            "outside": 1,
+            "r01": 1,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 3,
+            "c": 1,
+            "h": 0,
+            "outside": 1,
+            "r01": 1,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 5,
+            "x0": 0,
+            "x1": 2,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 1,
+            "c": 2,
+            "h": 0,
+            "outside": 1,
+            "r01": 2,
+            "r02": 1,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 2,
+            "c": 1,
+            "h": 0,
+            "outside": 1,
+            "r01": 2,
+            "r02": 2,
+            "r12": 1,
+            "sigma": 5,
+            "x0": 0,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 3,
+            "b": 1,
+            "c": 1,
+            "h": 0,
+            "outside": 1,
+            "r01": 3,
+            "r02": 1,
+            "r12": 1,
+            "sigma": 5,
+            "x0": 0,
+            "x1": 0,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 2,
+            "h": 1,
+            "outside": 1,
+            "r01": 1,
+            "r02": 2,
+            "r12": 3,
+            "sigma": 5,
+            "x0": 2,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 2,
+            "c": 1,
+            "h": 1,
+            "outside": 1,
+            "r01": 1,
+            "r02": 3,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 2,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 2,
+            "h": 1,
+            "outside": 1,
+            "r01": 2,
+            "r02": 1,
+            "r12": 3,
+            "sigma": 5,
+            "x0": 2,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 40320,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 1,
+            "h": 1,
+            "outside": 1,
+            "r01": 2,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 2,
+            "c": 0,
+            "h": 1,
+            "outside": 1,
+            "r01": 2,
+            "r02": 3,
+            "r12": 1,
+            "sigma": 5,
+            "x0": 0,
+            "x1": 2,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 0,
+            "c": 1,
+            "h": 1,
+            "outside": 1,
+            "r01": 3,
+            "r02": 1,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 0,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 1,
+            "c": 0,
+            "h": 1,
+            "outside": 1,
+            "r01": 3,
+            "r02": 2,
+            "r12": 1,
+            "sigma": 5,
+            "x0": 0,
+            "x1": 1,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 1,
+            "h": 2,
+            "outside": 1,
+            "r01": 2,
+            "r02": 2,
+            "r12": 3,
+            "sigma": 5,
+            "x0": 2,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 0,
+            "h": 2,
+            "outside": 1,
+            "r01": 2,
+            "r02": 3,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 2,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 0,
+            "h": 2,
+            "outside": 1,
+            "r01": 3,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 5,
+            "x0": 1,
+            "x1": 1,
+            "x2": 2
+          }
+        },
+        {
+          "coordinate_placements": 2520,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 2,
+            "c": 2,
+            "h": 0,
+            "outside": 2,
+            "r01": 2,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 6,
+            "x0": 0,
+            "x1": 0,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 2,
+            "h": 1,
+            "outside": 2,
+            "r01": 2,
+            "r02": 2,
+            "r12": 3,
+            "sigma": 6,
+            "x0": 1,
+            "x1": 0,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 2,
+            "c": 1,
+            "h": 1,
+            "outside": 2,
+            "r01": 2,
+            "r02": 3,
+            "r12": 2,
+            "sigma": 6,
+            "x0": 0,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 2,
+            "b": 1,
+            "c": 1,
+            "h": 1,
+            "outside": 2,
+            "r01": 3,
+            "r02": 2,
+            "r12": 2,
+            "sigma": 6,
+            "x0": 0,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 1,
+            "c": 1,
+            "h": 2,
+            "outside": 2,
+            "r01": 2,
+            "r02": 3,
+            "r12": 3,
+            "sigma": 6,
+            "x0": 1,
+            "x1": 1,
+            "x2": 0
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 0,
+            "c": 1,
+            "h": 2,
+            "outside": 2,
+            "r01": 3,
+            "r02": 2,
+            "r12": 3,
+            "sigma": 6,
+            "x0": 1,
+            "x1": 0,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 10080,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 1,
+            "b": 1,
+            "c": 0,
+            "h": 2,
+            "outside": 2,
+            "r01": 3,
+            "r02": 3,
+            "r12": 2,
+            "sigma": 6,
+            "x0": 0,
+            "x1": 1,
+            "x2": 1
+          }
+        },
+        {
+          "coordinate_placements": 3360,
+          "defect_density": "0",
+          "defects": 0,
+          "profile": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "h": 3,
+            "outside": 2,
+            "r01": 3,
+            "r02": 3,
+            "r12": 3,
+            "sigma": 6,
+            "x0": 1,
+            "x1": 1,
+            "x2": 1
+          }
+        }
+      ],
+      "profile_forced_defect_triples_skipped": 0,
+      "supports": 70,
+      "t": 1
+    }
+  ],
+  "scope": "pointwise coordinate placements inside full-rank light profiles; exact n=8 toy rows",
+  "status": "AUDIT: no coordinate-special light-triangle eliminant vanishing found in exact n=8 toys",
+  "task": "E32-COORD",
+  "unpaid_coordinate_special_class_found": false
+}
