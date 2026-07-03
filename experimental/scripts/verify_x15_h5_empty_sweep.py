@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """X15 h=5 empty-sweep for the terminal active-core node.
 
-This verifier scans anchored h=5/t=4 terminal trades in the low-memory range
-where the top-four elementary-symmetric signature fits in uint64.  In every
+This verifier scans anchored h=5/t=4 terminal trades with a two-word
+low-memory signature for the top-four elementary-symmetric sums.  In every
 checked row the signature map is injective on 5-subsets, so there are no active
 partners even before applying the paid strip.
 """
@@ -55,6 +55,8 @@ ROWS = (
     SweepRow(64, 2, 1),
     SweepRow(64, 9, 4),
     SweepRow(64, 5, 2),
+    SweepRow(64, 11, 4),
+    SweepRow(64, 3, 1),
 )
 
 
@@ -94,17 +96,21 @@ def exps5(code: int) -> list[int]:
     return [(code >> (8 * shift)) & 255 for shift in range(5)]
 
 
-def signature_arrays(p: int, n: int, domain: list[int]) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+def signature_arrays(
+    p: int, n: int, domain: list[int]
+) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     """Return sorted h=5/top-4 signature arrays."""
     h = 5
     t = 4
-    max_key = p**t - 1
-    check(f"n={n}, p={p}: h=5 signature fits uint64", max_key < 2**64, f"p^4={p**4}")
-    powers = [1]
-    for _ in range(t):
-        powers.append(powers[-1] * p)
+    max_half_key = p**2 - 1
+    check(
+        f"n={n}, p={p}: h=5 two-word signature halves fit uint64",
+        max_half_key < 2**64,
+        f"p^2={p**2}",
+    )
 
-    keys = array("Q")
+    key_lo = array("Q")
+    key_hi = array("Q")
     codes = array("Q")
     for comb in combinations(range(n), h):
         e = [0] * (t + 1)
@@ -113,13 +119,15 @@ def signature_arrays(p: int, n: int, domain: list[int]) -> tuple[np.ndarray, np.
             x = domain[i]
             for r in range(t, 0, -1):
                 e[r] = (e[r] + x * e[r - 1]) % p
-        keys.append(sum(e[r] * powers[r - 1] for r in range(1, t + 1)))
+        key_lo.append(e[1] + p * e[2])
+        key_hi.append(e[3] + p * e[4])
         codes.append(code5(comb))
 
-    key_arr = np.frombuffer(keys, dtype=np.uint64).copy()
+    key_lo_arr = np.frombuffer(key_lo, dtype=np.uint64).copy()
+    key_hi_arr = np.frombuffer(key_hi, dtype=np.uint64).copy()
     code_arr = np.frombuffer(codes, dtype=np.uint64).copy()
-    order = np.argsort(key_arr, kind="stable")
-    return key_arr, code_arr, order
+    order = np.lexsort((key_lo_arr, key_hi_arr))
+    return key_lo_arr, key_hi_arr, code_arr, order
 
 
 def analyze_row(row: SweepRow) -> dict[str, Any]:
@@ -134,7 +142,7 @@ def analyze_row(row: SweepRow) -> dict[str, Any]:
     )
 
     domain = h1.mu_domain(p, row.n)
-    key_arr, code_arr, order = signature_arrays(p, row.n, domain)
+    key_lo_arr, key_hi_arr, code_arr, order = signature_arrays(p, row.n, domain)
 
     collision_groups = 0
     collision_subsets = 0
@@ -144,8 +152,13 @@ def analyze_row(row: SweepRow) -> dict[str, Any]:
     start = 0
     while start < len(order):
         end = start + 1
-        key = key_arr[order[start]]
-        while end < len(order) and key_arr[order[end]] == key:
+        key_lo = key_lo_arr[order[start]]
+        key_hi = key_hi_arr[order[start]]
+        while (
+            end < len(order)
+            and key_lo_arr[order[end]] == key_lo
+            and key_hi_arr[order[end]] == key_hi
+        ):
             end += 1
         size = end - start
         if size > 1:
@@ -155,7 +168,8 @@ def analyze_row(row: SweepRow) -> dict[str, Any]:
             if len(collision_examples) < 5:
                 collision_examples.append(
                     {
-                        "signature_code": int(key),
+                        "signature_low": int(key_lo),
+                        "signature_high": int(key_hi),
                         "subsets": [exps5(int(code_arr[order[i]])) for i in range(start, end)],
                     }
                 )
@@ -199,8 +213,8 @@ def build_certificate() -> dict[str, Any]:
         all(row["signature_collision_groups"] == 0 for row in rows),
     )
     check(
-        "sweep includes n=64 through alpha=5/2",
-        any(row["label"] == "n64_alpha_5_2" for row in rows),
+        "sweep includes n=64 through alpha=3",
+        any(row["label"] == "n64_alpha_3" for row in rows),
     )
     check(
         "sweep includes n=32 through alpha=3",
@@ -216,8 +230,9 @@ def build_certificate() -> dict[str, Any]:
             "injective on all checked 5-subsets, no active-core partners exist"
         ),
         "coverage_note": (
-            "n=64 is capped at alpha=5/2 because p^4 must fit in uint64 for "
-            "this low-memory verifier; n=32 is checked through alpha=3"
+            "top-four signatures are stored as two base-p uint64 words "
+            "(e1+p*e2, e3+p*e4), extending n=64 through alpha=3 while keeping "
+            "the exact low-memory sort"
         ),
         "rows": rows,
         "summary": {
