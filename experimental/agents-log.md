@@ -30,6 +30,29 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - F4 characteristic-p switch-net hunt
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_f4_switch_net_hunt.py`;
+  `experimental/data/certificates/f4-switch-net-hunt/f4_switch_net_hunt.json`;
+  `experimental/notes/roadmaps/f4_switch_net_hunt.md`;
+  `experimental/data/prize-dag/prize_dag.json`;
+  `experimental/agents-log.md`.
+- **Status:** EVIDENCE / NEGATIVE-CLEAN.
+- **What is being added:** An exact finite-field verifier for the F4
+  characteristic-`p` switch-net attack against the frozen v1 U1 dictionary.
+  It enumerates identical-defect disjoint gadget families over small-`p`
+  prime-power toy rows and checks whether any family yields
+  `C(R,p) > n^2` v1-uncharged switches.
+- **How it is useful:** No dangerous uncharged switch-net appears in the
+  checked rows; the only `p`-switch classes found are capacity-limited below
+  the `n^2` survivor allowance.  This removes the flagged switch-net attack
+  from the current U1 red-team surface at toy scale.
+- **What to do next:** Run the H1 primitive-star harness against grammar v1;
+  keep U1 as conjectural until the compression proof or a harness-level
+  survivor family is produced.
+
 ### 2026-07-02 - Towards-prize sparse note documentation pass
 
 - **Agent/model:** Codex.

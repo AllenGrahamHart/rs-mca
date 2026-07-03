@@ -2981,9 +2981,12 @@
    "attack_surface": "the Theorem 1 engine at bidegree (b, b); the fiber symmetric-function dictionary (blocks = fibers of zero-top-coefficient maps) converts block-trades into value-rigidity statements identical in shape to the proved case",
    "falsifier": "a post-4-column-strip toy family exceeding n^2 whose members are NOT fiber unions (extend the staircase enumerator with a fiber detector \u2014 E37's machinery)",
    "refs": [
-    "experimental/notes/roadmaps/f_matching_composition.md"
+    "experimental/notes/roadmaps/f_matching_composition.md",
+    "experimental/notes/roadmaps/w3_chargeable_dictionary_grammar.md",
+    "experimental/notes/roadmaps/f4_switch_net_hunt.md",
+    "experimental/scripts/verify_f4_switch_net_hunt.py"
    ],
-   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence."
+   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence. | F4 VERDICT (negative-clean, 21/21 replayed): characteristic-p switch-net hunt found no v1-uncharged C(R,p)>n^2 family in the checked small-p prime-power rows. The only p-switch classes found are capacity-limited (F16/mu15 h=2 max R=3; F27/mu26 h=2 max R=6), while the danger-capable singleton rows F25/mu24, F49/mu48 control, and F81/mu80 have max R=1. U1 remains conjectural, but the flagged switch-net red-team template is not observed at tame toys."
   },
   {
    "id": "star_pte_lemma",
