@@ -1,6 +1,7 @@
 # U2-C falsifier scan — toy-scale attack on the giant-regime dichotomy
 
-- **Status:** IN PROGRESS (pre-registered before running). Sibling of
+- **Status:** DONE — both scales PASS (U2-C not falsified; graduate to X-7).
+  Pre-registered before running. Sibling of
   `u2c_giant_block_statement.md`; consumer = node
   `x4b_moment_trade_exclusion` (closure-plan piece (C), the giant regime).
 - **Verifier:** `experimental/scripts/verify_u2c_falsifier_scan.py`
@@ -93,58 +94,97 @@ zeta = g^{(q-1)/n}, g = least primitive root; recorded + reverified.
 
 ## Results
 
-_(filled incrementally by the verifier; PASS = no primitive hit /
-falsifier correctly absent, FAIL = primitive hit found.)_
+_(PASS = no primitive/falsifier hit; FAIL = a verified primitive hit.)_
 
-### Scale 1 (n=64, t=8) — search (A), sparse / antipodal-lift — DONE, all 3 primes
+### Scale 1 (n=64, t=8) — search (A) sparse / antipodal-lift — DONE, all 3 primes
 
 Positive control PASS at every prime (the 4 mod-4 classes are t-null & 'coset').
 
 | w | mode | vanishing sums `sum zeta^e=0` | of which PRIMITIVE (non-antipodal) |
 |---|------|------|------|
 | 3 (odd) | EXH | 0 | 0 |
-| 4 | EXH | **496** = C(32,2) | **0** |
+| 4 | EXH | **496 = C(32,2)** | **0** |
 | 5 (odd) | EXH | 0 | 0 |
 | 6 | SAMP (cov ~2.7%) | ~136 (~C(32,3)·cov) | 0 |
 
 **Every** vanishing sum of 64th-roots-of-unity in the prime field `F_q` is a
-union of antipodal pairs `{e, e+32}` — exactly the char-0 structure (the only
-prime is 2, so the only minimal relation is `1+(-1)=0`). The count 496 = C(32,2)
-is the exact char-0 prediction (2 antipodal pairs out of 32). **Zero** primitive
-(non-antipodal) sparse relations at any of the three tame primes. The X-6 shape
-`1+Y+Y^2+Y^4=0` has **no** solution `Y ∈ mu_64` at any of the primes — the
-extension-field escape (X-6 used `2^k ∤ p-1`, order 1024 in F_{p^2}) does **not**
-reach the prime field here. Antipodal-lift produced **0** primitive t-null blocks.
-Interpretation match: the antipodal mechanism only recurses into coset structure
-in the tame prime field — no seed for a dichotomy escape. **Search (A): PASS.**
+union of antipodal pairs `{e, e+32}` — exactly the char-0 structure (only prime
+is 2 ⇒ only minimal relation is `1+(-1)=0`). The count 496 = C(32,2) is the
+exact char-0 prediction. **Zero** primitive relations at all three tame primes.
+The X-6 shape `1+Y+Y^2+Y^4=0` has **no** solution `Y ∈ mu_64` at any prime — the
+extension-field escape (X-6 used order-1024 in F_{p^2}, `2^k ∤ p-1`) does not
+reach the prime field. Antipodal-lift produced **0** primitive t-null blocks.
+**Search (A): PASS.**
 
-### Scale 1 (n=64, t=8) — search (M), trade-level MITM — DONE
+### Scale 1 (n=64, t=8) — search (M) trade-level MITM — DONE
 
-**Exhaustive weights b ∈ [9,16], all 3 primes** (each MITM key match
-re-verified by exact power-sum recomputation on the reconstructed support;
-canonical + 3 random balanced bipartitions for b ≤ 14, canonical only for
-b = 15,16; combination arrays cached across primes). Result, identical at
-q ≈ 2^31, 2^36, 2^40:
+Every MITM key-match is re-verified by exact power-sum recomputation.
 
-- b = 9,10,11,12,13,14,15: **0** verified t-null hits (these weights are all
-  non-multiples of M0=16 ⇒ any hit would be a falsifier — none exist).
-- b = 16: exactly **4** verified t-null hits, **all classified 'coset'**
-  (the 4 residue-classes mod 4 = the mu_16-cosets). Positive control PASS
-  — the MITM pipeline finds the known coset blocks.
-- Total primitive/falsifier hits in [9,16]: **0**. VERDICT PASS.
+- **Exhaustive b ∈ [9,16], all 3 primes** (canonical + 3 random bipartitions for
+  b≤14; canonical for b=15,16; combos cached across primes): b=9…15 → **0**
+  hits; b=16 → exactly **4** hits, **all 'coset'** (the mu_16-cosets). Positive
+  control PASS — pipeline recovers the known blocks.
+- **Extended b ∈ [17,32], prime 0 (q≈2^31):** b=17,18 exhaustive → 0;
+  b=19…32 sampled, K=2·10^6/side (cov ~2.2e-3 → ~1.1e-5) → **0** at every
+  weight, including coset weight 32.
+- Scale-1 MITM total primitive/falsifier hits: **0**. Only t-null blocks found
+  anywhere = the 4 mu_16-cosets. **Search (M): PASS.**
 
-Note: complement duality maps [9,16] weight-b blocks to weight-(64-b) blocks
-in [48,55]; BCH min-weight (≥9) plus the fully-covered [9,16] window certifies
-the *entire low-and-high tail* [1,16]∪[48,63] contains no primitive t-null
-block. The middle window [17,31] (all auto-primitive weights except none —
-16,32,48 are the only coset weights) is addressed next.
+With complement duality + BCH min-weight, exhaustive [9,18] certifies the whole
+low/high tail [1,18]∪[46,63] is free of primitive t-null blocks at q≈2^31; the
+middle [19,31] is sampled only.
 
-**Extended weights b ∈ [17,32], prime 0 (q ≈ 2^31):**
-- b = 17, 18: **exhaustive** (canonical bipartition), **0** hits.
-- b = 19..32: **sampled** MITM, K = 2·10^6 per side (4·10^12 pairs each),
-  coverage from ~2.2·10^-3 (b=19) down to ~1.1·10^-5 (b=32). **0** verified
-  t-null hits at every weight — including the coset weight 32 (no non-coset
-  weight-32 hit sampled) and all 14 auto-primitive weights 17–31.
+### Scale 2 (n=128, t=12) — escalation (scale 1 clean) — DONE, prime q≈2^31
 
-Scale-1 MITM total primitive/falsifier hits: **0**. The only t-null blocks
-found anywhere are the 4 mu_16-cosets (weight 16). **Search (M): PASS.**
+Exhaustive MITM infeasible at n=128 (C(64,k) explodes) ⇒ MITM **fully sampled**,
+coverage stated honestly; sparse search exhaustive for w=3,4.
+
+- Positive control: 8 mu_16-cosets (mod-8 classes) t-null & 'coset'. PASS.
+- Sampled MITM b∈[13,64], K=2·10^6/side: **0** hits. Coverage ~8.6e-5 (b=13) →
+  ~1.2e-24 (b=64) — meaningful only at small auto-primitive weights 13–18
+  (cov 8.6e-5 … 5e-9); large-b coverage vacuous. Honest: sampling finds, does
+  not certify absence.
+- Sparse: w=3 → 0; **w=4 → 2016 = C(64,2)**, all antipodal; w=5 → 0 (sampled);
+  w=6 → 14, all antipodal. **0 primitive**; exact char-0 count again. X-6 shape
+  `1+Y+Y^2+Y^4=0`: no solution in mu_128. Antipodal-lift: 0.
+- **Scale 2 VERDICT: PASS.**
+
+## VERDICT — U2-C NOT falsified at toy scale; graduate to X-7
+
+Across n=64,t=8 (q≈2^31/2^36/2^40) and n=128,t=12 (q≈2^31):
+
+1. **Every** verified t-null block is a mod-(n/16) coset union (the 4/8
+   mu_16-cosets); **zero** primitive t-null blocks. Exhaustively so for
+   n=64, b∈[9,18] at q≈2^31 and b∈[9,16] at all three primes — the entire
+   auto-primitive low window is empty.
+2. **Every** sparse vanishing sum of n-th roots of unity in the prime field is a
+   union of antipodal pairs — the exact char-0 structure (counts C(n/2,2)).
+   **Zero** primitive (non-antipodal) relations; the X-6 shape does not embed in
+   mu_n; antipodal-lift yields only coset structure. The tame door `n | q-1`
+   does **not** open the X-6 escape at these primes — the only minimal 2-power-
+   root relation is `1+(-1)=0`, so the mechanism just recurses into cosets.
+
+This is the **pre-registered "all hits coset-structured"** outcome: U2-C's
+dichotomy exit survives at the toys. **Recommendation: promote U2-C to X-7 for a
+GPT-Pro proof** (Weil / resultant-divisibility route). Honest residual gaps a
+proof (not more search) must close: (i) n=64 middle weights [19,31] and all of
+n=128 are *sampled*, not certified; (ii) the resultant-divisibility mechanism
+predicts *special* primes `q | Res(relation, Phi_n)` where a primitive relation
+would appear — none of the 4 toy primes is such a prime, consistent with X-6's
+"finitely many exceptional primes per relation, all inadmissible at official
+rows" mitigation. The n|q-1 field-condition question (handle 4) is answered
+**empirically negative** at toy scale: tameness alone does not resurrect the
+escape.
+
+## Reproduce (deterministic, seed 20260703; peak RSS ≈0.6 GB scale 1 / ≈1.0 GB scale 2)
+
+```
+python3 experimental/scripts/verify_u2c_falsifier_scan.py --selfcheck
+python3 experimental/scripts/verify_u2c_falsifier_scan.py --scale 1 --mode sparse
+python3 experimental/scripts/verify_u2c_falsifier_scan.py --scale 1 --mode mitm \
+        --primes 0 1 2 --bmax-exh 16 --bmax-samp 16 --nbip 4        # exhaustive [9,16]
+python3 experimental/scripts/verify_u2c_falsifier_scan.py --scale 1 --mode mitm \
+        --primes 0 --bmin 17 --bmax-exh 18 --bmax-samp 32 --nbip 1  # [17,32]
+python3 experimental/scripts/verify_u2c_falsifier_scan.py --scale 2 --mode all \
+        --primes 0 --bmax-exh 8 --bmax-samp 64 --nbip 1 --wmax-exh 4
+```
