@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others. | FACE 4 BOTTOMED OUT (nested decomposition complete per the descend-until-blocked strategy): every leaf is now PROVABLE (pencil cascade, alpha budget, sunflower cap, eliminant form, flat transport), an IDENTIFICATION (gamma-c = face 2's residue; 2a = the list lane), ledger design (2b + beta-2a), or EVIDENCE-GATED (deep_link_staircase <- E33; eliminant-vanishing classification <- E32-ext; dihedral staircase <- X-3). No leaf is an unnamed mystery. | X-3 WAVE (3 packets, 127 checks green): rung 2a reduction PROVED; rung 2b forcing map PROVED (d + s = t complementarity); deep-regime staircase PROVED (n+2, all slopes); the poly-forcing COMPILER proved \u2014 face 4's target is officially R_post <= 16 n^3. Remaining open on face 4: the 2b ledger design, the corridor staircase content (merged into rungs), the 2c leaves (E32-ext/E33-gated + provable packets), and the two identifications."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others. | FACE 4 BOTTOMED OUT (nested decomposition complete per the descend-until-blocked strategy): every leaf is now PROVABLE (pencil cascade, alpha budget, sunflower cap, eliminant form, flat transport), an IDENTIFICATION (gamma-c = face 2's residue; 2a = the list lane), ledger design (2b + beta-2a), or EVIDENCE-GATED (deep_link_staircase <- E33; eliminant-vanishing classification <- E32-ext; dihedral staircase <- X-3). No leaf is an unnamed mystery. | X-3 WAVE (3 packets, 127 checks green): rung 2a reduction PROVED; rung 2b forcing map PROVED (d + s = t complementarity); deep-regime staircase PROVED (n+2, all slopes); the poly-forcing COMPILER proved \u2014 face 4's target is officially R_post <= 16 n^3. Remaining open on face 4: the 2b ledger design, the corridor staircase content (merged into rungs), the 2c leaves (E32-ext/E33-gated + provable packets), and the two identifications. | PROVABLE-PACKET WAVE EXECUTED (4/4 green, ~856k checks): alpha, beta-1, beta-3a, gamma-a all PROVED. Face 4's remaining open: the pencil-cascade write-up (last provable packet), the 2b ledger design, E32-ext + E33 (tools now exist), the two identifications' inherited burdens, and the corridor staircase sharpening (ev)."
   },
   {
    "id": "dihedral_staircase",
@@ -2696,14 +2696,15 @@
   {
    "id": "xr_syzygy_support_lemma",
    "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "Alignment functionals of support T are exactly the dual codewords supported in T (Lambda_T, dim t; C-perp is MDS with min weight k+1); condition rows have tensor form (lambda, z lambda). Rank stagnation at a new support forces a SYZYGY: dual codewords lambda_i in Lambda_{T_i} with sum (z_i - z_m) phi_i = 0 (the twist is invertible since slopes are distinct). Support cancellation + the MDS dual weight then force: for some member i0, supp(lambda_i0) lies inside the union of its pairwise intersections, hence sum over partners |T_i0 cap T_i'| >= k+1. QUANTITATIVE CONSEQUENCE: in the far-spread regime (each overlap < k), every stagnation event needs >= 2 partners; the minimal configuration is a TRIPLE; and stagnation events are rationed by the family's total overlap mass.",
    "attack_surface": "the derivation is complete as sketched (subtract z_m x first component; support cancellation; MDS dual weight); write the packet with the twist bookkeeping and the necessity/sufficiency gap stated (the twisted-psi membership in Lambda_{T_m} is an ADDITIONAL constraint beyond the syzygy)",
    "falsifier": "a toy stagnation with overlap budget < k+1 (mechanical check in any stacked-rank scan)",
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+   ],
+   "notes": "PROVED (23,480 checks): the k+1 overlap budget, in the rank-linear-algebra model of qx13 (the ledger's own model \u2014 scoping consistent across the whole chain)."
   },
   {
    "id": "xr_popular_core_triangles",
@@ -2733,14 +2734,15 @@
   {
    "id": "xr_sunflower_rank_additive",
    "title": "beta-1 (PROVABLE, proof complete): sunflowers never stagnate \u2014 the 2n/t cap",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "If an aligned far-spread family is a sunflower (all pairwise intersections equal one common core Y, |Y| < k), every syzygy member is supported inside Y (cancellation only on shared points), and |Y| < k+1 = the MDS dual minimum weight forces all members to vanish: NO nontrivial syzygy exists, so by the alpha anatomy every member contributes its FULL t rows and the family size is <= 2n/t per pair (~630 at prize-max rate 1/4). REVERSAL NOTE: the list lane's planted-sunflower worst cases are exactly the MCA-side's provably-safe configurations \u2014 the two challenges' hard directions are disjoint here.",
    "attack_surface": "the proof is the three sentences above (alpha's support cancellation + the dual weight); package with the exact rank bookkeeping (each member adds exactly t)",
    "falsifier": "a toy aligned sunflower with rank increment < t at some member (mechanical stacked-rank check)",
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+   ],
+   "notes": "PROVED (552,814 checks): sunflowers never stagnate; the exact cap m <= floor(2n/t) per pair is proved, not just the shape."
   },
   {
    "id": "xr_heavy_triangle_charge",
@@ -2781,13 +2783,14 @@
   {
    "id": "xr_triangle_eliminant_form",
    "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Write explicitly, in MDS coordinates, the determinantal condition for the twisted sum map on Lambda_0 + Lambda_1 + Lambda_2 to have a kernel in the light regime (sum r - trip <= 2k): the eliminant polynomial in the support coordinates and slopes. Construction only \u2014 shortening bases for each Lambda_i, the stacked matrix, the minor structure. Deliverable: the normal form + a toy evaluator (feeds E32's census directly).",
    "attack_surface": "mechanical; generalized-Vandermonde shortening bases make the minors explicit",
    "falsifier": "n/a (a construction; correctness checked by the evaluator against brute rank)",
    "refs": [
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ]
+   ],
+   "notes": "PROVED as a construction (270,536 checks): the light-triangle eliminant normal form + evaluator \u2014 E32-ext's census tool now exists."
   },
   {
    "id": "xr_eliminant_vanishing_class",
@@ -2804,13 +2807,14 @@
   {
    "id": "xr_syzygy_flat_transport",
    "title": "gamma-a (PROVABLE/mechanical): the scattered-syzygy -> flat dictionary",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "The transport lemma: a diffuse stagnation's syzygy members are constrained-support dual codewords whose support pattern defines an intersection-pattern flat; the dictionary maps stagnation counting to sparse-dual/closed-set counting over these flats in the F-machinery's exact conventions (piece sizes < k, the regime where E30 measured small lattices). Definitional packet + toy cross-check.",
    "attack_surface": "write the dictionary; verify on E30's census artifacts (the flats are already there)",
    "falsifier": "n/a (a reduction; correctness = the toy cross-check)",
    "refs": [
     "experimental/notes/roadmaps/e30_dim3_flat_census.md"
-   ]
+   ],
+   "notes": "PROVED as a dictionary (9,463 checks): scattered syzygies -> intersection-pattern flats in the F-machinery's exact conventions; gamma-b's fixed-d reduction is now formally fed."
   }
  ],
  "edges": [
