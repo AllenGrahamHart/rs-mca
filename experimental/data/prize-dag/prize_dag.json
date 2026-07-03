@@ -2614,7 +2614,7 @@
    "refs": [
     "experimental/notes/roadmaps/rigidity_kernel.md"
    ],
-   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others."
+   "notes": "FACE-4 UPDATE (budget audit): its RK instance weakened dramatically \u2014 per-pair POLY count at corridor radius (allowance 2^122+), not FM-scale; the axis-R excursion now carries a 2^122 loss tolerance. Faces 1-3 unchanged. | E30 (axis D): no fifth shape at dim 3; clause (i)'s dihedral condition corrected for parity (anti-reciprocal at odd j); lattices small \u2014 the descent side of axis D looks benign. | FACE-4 LADDER WRITTEN (from observed data, as planned): pencil-cascade (provable) + small-core spread count (face-3 crossover \u2014 axis-Q content localizes HERE) + dihedral staircase. The quantifier axis's exceptional-classification question is now concretely: 'bound spread aligned families per pair' \u2014 the same object face 3 classifies. Two faces, one residual statement. | AXIS-Q LOCALIZED (the close-look pass): face 4's entire worst-case content now sits in xr_fresh_codim_dichotomy (rank stagnation across 3+ slopes is paid) + the list crossover (consumed from the second challenge's lane). The kernel's shared axis has a single named algebraic statement for its friendliest face. | FULL CONNECTIVITY: with 2c-gamma, all four faces are pairwise linked through concrete shared objects (3-4: the spread residue; 4-list: same-slope crossover; 4-2: scattered syzygies; 1-everything: quotient-row instances). The kernel is one problem in the strongest sense; any face's technique now has named transport maps to the others. | FACE 4 BOTTOMED OUT (nested decomposition complete per the descend-until-blocked strategy): every leaf is now PROVABLE (pencil cascade, alpha budget, sunflower cap, eliminant form, flat transport), an IDENTIFICATION (gamma-c = face 2's residue; 2a = the list lane), ledger design (2b + beta-2a), or EVIDENCE-GATED (deep_link_staircase <- E33; eliminant-vanishing classification <- E32-ext; dihedral staircase <- X-3). No leaf is an unnamed mystery."
   },
   {
    "id": "dihedral_staircase",
@@ -2720,7 +2720,7 @@
    "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects",
    "status": "TARGET",
    "key": true,
-   "statement": "When the k+1 budget is spread over many small overlaps: the syzygy's dual codeword has SCATTERED support exactly covered by the intersection pattern \u2014 and counting constrained-support dual codewords and their linear relations is precisely Conjecture F's sparse-dual/closed-set lattice object. FACE 4's core meets FACE 2 here: the diffuse-stagnation count is an F-lattice count over the intersection-pattern flats. With faces 3+4 already sharing the spread residue and 2a consuming the list lane, ALL FOUR kernel faces are now pairwise connected through concrete shared objects \u2014 the kernel is one problem in the strongest possible sense.",
+   "statement": "When the k+1 budget is spread over many small overlaps: the syzygy's dual codeword has SCATTERED support exactly covered by the intersection pattern \u2014 and counting constrained-support dual codewords and their linear relations is precisely Conjecture F's sparse-dual/closed-set lattice object. FACE 4's core meets FACE 2 here: the diffuse-stagnation count is an F-lattice count over the intersection-pattern flats. With faces 3+4 already sharing the spread residue and 2a consuming the list lane, ALL FOUR kernel faces are now pairwise connected through concrete shared objects \u2014 the kernel is one problem in the strongest possible sense. DECOMPOSED: gamma-a the transport dictionary (PROVABLE); gamma-b bounded syzygy dimension \u2014 the PROVED fixed-d lattice bound + the four-branch strip apply (proved reduction); gamma-c growing dimension \u2014 possible only when total overlap exceeds (m-1)k, and that regime IS face 2's f_many_sparse_structure (an identification, not new content: the F-residue and face 4's diffuse residue are the same node).",
    "attack_surface": "transport the F-descent machinery (four-branch strip incl. dihedral, fixed-d lattice bounds, E30's small-lattice data) to the intersection-pattern flats; the scattered supports have bounded piece sizes (< k), which is exactly the regime where descent behaved polynomially at toys",
    "falsifier": "a toy diffuse stagnation whose intersection-pattern flat has super-poly closed-set lattice (the E30 machinery checks this directly)",
    "refs": [
@@ -2748,7 +2748,8 @@
    "falsifier": "a heavy triangle whose stagnation resists the graded charge at toys",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ]
+   ],
+   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair)."
   },
   {
    "id": "xr_light_triangle_eliminant",
@@ -2760,6 +2761,52 @@
    "falsifier": "a toy pair with super-poly stagnating light triangles outside paid strata (E32 directly)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "deep_link_staircase",
+   "title": "THE COMMON GATE of beta-2b and beta-3c: aligned partners at near-k overlap",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For a fixed pair and a fixed aligned support T0: bound the number of aligned supports (distinct slopes) overlapping T0 in the budget-relevant range (roughly (k/2, k) points) by poly(n) \u2014 expected staircase-linear. This single lemma rations BOTH heavy-triangle stagnations (beta-2b: every heavy triple contains such a partner pair) AND the total overlap budget for light-triangle stagnations (beta-3c: each stagnation spends k+1 budget, and the staircase bounds the family's total budget). Pairwise machinery is proved (the r < k plateau gives exact 2t-additivity); the staircase is about the POPULATION of near-k partners, the link of T0 at deep sub-cores \u2014 where the tangent staircase and top-core cap machineries both point. EVIDENCE-GATED: E33 (count near-k-overlap aligned partners at toys) runs before proof attempts, per the program's strategy.",
+   "attack_surface": "condition on a deep sub-core of T0; partners through it are a link population (G1/cap machinery); the derived-pencil recursion (heavy triple => aligned structure of the derived pair (v - w, d) along the codeword pencil) is the transport that may reduce this to lower-agreement instances",
+   "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+   ]
+  },
+  {
+   "id": "xr_triangle_eliminant_form",
+   "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form",
+   "status": "PROVABLE",
+   "statement": "Write explicitly, in MDS coordinates, the determinantal condition for the twisted sum map on Lambda_0 + Lambda_1 + Lambda_2 to have a kernel in the light regime (sum r - trip <= 2k): the eliminant polynomial in the support coordinates and slopes. Construction only \u2014 shortening bases for each Lambda_i, the stacked matrix, the minor structure. Deliverable: the normal form + a toy evaluator (feeds E32's census directly).",
+   "attack_surface": "mechanical; generalized-Vandermonde shortening bases make the minors explicit",
+   "falsifier": "n/a (a construction; correctness checked by the evaluator against brute rank)",
+   "refs": [
+    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
+   ]
+  },
+  {
+   "id": "xr_eliminant_vanishing_class",
+   "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations",
+   "status": "TARGET",
+   "key": true,
+   "statement": "The triple-level u5 dichotomy's structured branch: classify support/slope configurations where the light-triangle eliminant vanishes IDENTICALLY (for structural reasons) \u2014 conjecturally exactly the paid patterns (near-heavy boundary, dihedral-symmetric, pullback-patterned). Per the program's strategy this node is NOT decomposed further until the census runs: E32-extended enumerates ALL eliminant-vanishing light configurations at n = 16 exhaustively; the classification will be written along the observed cases (the E9/E13 pattern).",
+   "attack_surface": "E32-extended census first; then the M5 chart machinery per observed class",
+   "falsifier": "an unpaid identically-vanishing configuration class at toys (the census reports it directly)",
+   "refs": [
+    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+   ]
+  },
+  {
+   "id": "xr_syzygy_flat_transport",
+   "title": "gamma-a (PROVABLE/mechanical): the scattered-syzygy -> flat dictionary",
+   "status": "PROVABLE",
+   "statement": "The transport lemma: a diffuse stagnation's syzygy members are constrained-support dual codewords whose support pattern defines an intersection-pattern flat; the dictionary maps stagnation counting to sparse-dual/closed-set counting over these flats in the F-machinery's exact conventions (piece sizes < k, the regime where E30 measured small lattices). Definitional packet + toy cross-check.",
+   "attack_surface": "write the dictionary; verify on E30's census artifacts (the flats are already there)",
+   "falsifier": "n/a (a reduction; correctness = the toy cross-check)",
+   "refs": [
+    "experimental/notes/roadmaps/e30_dim3_flat_census.md"
    ]
   }
  ],
@@ -5092,6 +5139,31 @@
   {
    "from": "xr_light_triangle_eliminant",
    "to": "xr_popular_core_triangles",
+   "kind": "req"
+  },
+  {
+   "from": "deep_link_staircase",
+   "to": "xr_heavy_triangle_charge",
+   "kind": "req"
+  },
+  {
+   "from": "deep_link_staircase",
+   "to": "xr_light_triangle_eliminant",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_light_triangle_eliminant",
+   "kind": "req"
+  },
+  {
+   "from": "xr_eliminant_vanishing_class",
+   "to": "xr_light_triangle_eliminant",
+   "kind": "req"
+  },
+  {
+   "from": "xr_syzygy_flat_transport",
+   "to": "xr_scattered_syzygy_flattice",
    "kind": "req"
   }
  ]

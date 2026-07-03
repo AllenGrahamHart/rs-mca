@@ -496,3 +496,25 @@ result as the axis-T data; no new task.)
 Assignment guidance: E27/E30 are light censuses (Fleet A-shaped);
 E28/E29 are compute-heavier (Codex-shaped; serialize with anything
 heavy per the RAM rule).
+
+## E32 (extended) — the stagnation census [gates xr_eliminant_vanishing_class]
+```text
+Extend E27's machinery with a stacked-rank column. At n=16 (F_97 and
+F_17): (i) hunt rank-stagnating far-spread triples over constructed +
+organic pairs; (ii) EXHAUSTIVELY enumerate light configurations
+(sum r - trip <= 2k, budget >= k+1) and evaluate the eliminant
+(consume xr_triangle_eliminant_form's evaluator when it lands; brute
+stacked-rank until then); (iii) classify every identically-vanishing
+configuration found. INTERPRET: all vanishing configs paid-patterned
+=> beta-3b's classification writes itself | an unpaid vanishing class
+=> name it (S9 inside face 4).
+```
+## E33 — the deep-link staircase count [gates deep_link_staircase]
+```text
+At n=16 toys: for aligned (pair, support T0), count aligned partners
+at overlap in (k/2, k). PREDICTION (staircase-shaped): <= C * n with
+small C; the tangent staircase's cousin. INTERPRET: linear => the
+lemma's shape confirmed, prove via link/cap machinery | super-linear
+growth => the derived-pencil recursion is load-bearing, decompose
+along the observed growth structure.
+```
