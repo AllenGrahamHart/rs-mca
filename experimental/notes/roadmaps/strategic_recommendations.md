@@ -1,8 +1,19 @@
 # Strategic recommendations from the prize DAG (computed, not opined)
 
-- **Status:** AUDIT. Every claim below is the output of
-  `experimental/scripts/prize_dag_strategy.py` over the current
-  `prize_dag.json` (167 nodes; 67 open). Regenerate after any status flip.
+- **Status:** AUDIT — REGENERATED 2026-07-03 (audit credit: Codex staleness
+  sweep). Numbers below are from `prize_dag_strategy.py` over prize_dag.json
+  at 263 nodes / 432 edges; 108 open. THE SCRIPTS ARE AUTHORITATIVE — this
+  markdown is a snapshot; rerun the validator + classifier for live truth:
+  `python3 experimental/scripts/verify_prize_dag.py`
+  `python3 experimental/scripts/prize_dag_strategy.py`
+- **Verdict changes since the 167-node snapshot:** R6's lookups are DONE
+  (rules layer resolved: smooth = 2-power definitively, caps confirmed,
+  m = family-per-constant; mixed-radix vacuous); R4's petal single-point is
+  now DECOMPOSED (aux-list reduction + classical GS few-petal + one open
+  wide-regime residue); R5's zone-(b) gained a preferred route (norm
+  criterion -> density -> typicality) + the kernel-lattice instrument; R2
+  stands, with XR now the LEADING wall (pair ledger c(s,t)=min(s,t-1)
+  verified; KMS/KLLM engine identified; coverage table in flight).
 - **Semantics, honestly:** these statements are GRAPH-RELATIVE. "Not on the
   path" means *not on any currently-mapped route*; a genuinely new proof
   strategy = new edges = recompute (and the classifier will say so).
@@ -87,7 +98,9 @@ inherits their answers.
 ## The computed classes (summary; regenerate for the live version)
 
 ```text
-open: 67 | critical: 33 | route-choice/internal: 19 | support-only: 15
+open: 108 | critical: 52 | route-choice/internal: 32 | support-only: 24
+(REGENERATED 2026-07-03; the per-class name lists below this line reflect
+the older snapshot where they conflict — the classifier output is truth)
 critical leaves (math):  conj_f, r2_rigidity, zone_b, imgfib,
                          petal_growth (+ its only live alt),
                          gap1_noneq_mass, f1_classification (+ tower case,

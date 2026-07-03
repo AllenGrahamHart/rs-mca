@@ -10,7 +10,7 @@
 > fixed the case list.
 
 - **Status:** AUDIT / work queue. Derived mechanically from
-  `experimental/data/prize-dag/prize_dag.json` (149 nodes @ this writing):
+  `experimental/data/prize-dag/prize_dag.json` (263 nodes / 432 edges @ 2026-07-03; the validator + strategy scripts are AUTHORITATIVE over any counts embedded in prose here):
   the RIPE list (requirements met), the PROVABLE tier (routes pinned), the
   ready TEST nodes, and the named hard targets. Regenerate the source lists
   with `verify_prize_dag.py` as statuses flip.
