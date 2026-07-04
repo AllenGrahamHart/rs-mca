@@ -1,0 +1,42 @@
+{
+ "entries": [
+  {
+   "node": "mca_safe",
+   "kids": [
+    "counting_frame",
+    "fm1",
+    "strip",
+    "paid_closure",
+    "r2_rigidity",
+    "ext_lift",
+    "safe_assembly_uniformity"
+   ],
+   "argument": "MODUS PONENS: the kid safe_assembly_uniformity IS the implication 'the other six kids => mca_safe' (uniformly, absolute exponents) \u2014 its own statement says so verbatim. Granting all seven kids as stated, mca_safe follows tautologically. The open work is correctly the red kid.",
+   "pins": {
+    "mca_safe": "e79900ef03bce187",
+    "counting_frame": "b0b9a196226c5a93",
+    "fm1": "318e26d846cf72f8",
+    "strip": "e157f87a52e7aeeb",
+    "paid_closure": "dd3fba8028713ae6",
+    "r2_rigidity": "c0b65ca10d409780",
+    "ext_lift": "9587a77f2f4fd81b",
+    "safe_assembly_uniformity": "aea2d57ac82bf3f9"
+   }
+  },
+  {
+   "node": "mca_unsafe",
+   "kids": [
+    "cap_theorem",
+    "zone_b",
+    "unsafe_at_crossing"
+   ],
+   "argument": "PER-ROW AGGREGATION: unsafe_at_crossing states the parent's content per admissible row (witnesses at the adjacent grid point, both branches: collision-free qfloor value-set / collided averaged conversion, the latter consuming zone_b); cap_theorem (proved) positions the crossing below 1-rho-2^-9. For-each-row exhibit => the family statement is definitional aggregation.",
+   "pins": {
+    "mca_unsafe": "d9a047c757c6781c",
+    "cap_theorem": "1fb39af544f2d351",
+    "zone_b": "75db584ef7100b1f",
+    "unsafe_at_crossing": "ce0dc79f00cfed1f"
+   }
+  }
+ ]
+}

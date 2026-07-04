@@ -132,12 +132,13 @@
   {
    "id": "mca_unsafe",
    "title": "MCA unsafe side at adjacent grid point",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing)."
+   "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing).",
+   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry."
   },
   {
    "id": "cap_theorem",
@@ -210,13 +211,14 @@
   {
    "id": "mca_safe",
    "title": "MCA safe side: B_C(a_safe) <= B* in-band",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#4"
    ],
-   "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum."
+   "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum.",
+   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry."
   },
   {
    "id": "counting_frame",
@@ -1919,7 +1921,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit)."
+   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work."
   },
   {
    "id": "crossing_localization",
@@ -2036,7 +2038,8 @@
    "falsifier": "n/a (composite obligation)",
    "refs": [
     "proof_sketch/s7_list_side.md"
-   ]
+   ],
+   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work."
   },
   {
    "id": "list_crossing_localization",
