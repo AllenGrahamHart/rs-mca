@@ -3474,6 +3474,16 @@
     "experimental/notes/roadmaps/x45_h4_common_gcd_orbit_compression.md"
    ],
    "notes": "Proved certifier compression for the h=4 top-level signed moment/common-gcd branch. The verifier checks symbolic identities, invariance examples in n=16 and n=32 rows, and a full n=16 anchored-pair orbit compression where 225225 pairs reduce to 3723 canonical orbits with degree constant on every orbit."
+  },
+  {
+   "id": "x46_h4_top_level_orbit_budget",
+   "title": "X46: h=4 top-level canonical-orbit budget",
+   "status": "PROVED",
+   "statement": "For n=2^s, affine exponent symmetries plus side swap have size 2 n phi(n)=n^2 on ordered signed h=4 pairs. X45 makes the common-gcd degree constant on these orbits, and the Phi_n-descended paid status is invariant by the same monomial/primitive-root permutation argument. Hence the h=4 top-level non-descended survivor count is at most n^2 times the number of positive canonical non-descended orbits; <= n such orbits suffices for the rewired n^3 terminal column.",
+   "refs": [
+    "experimental/notes/roadmaps/x46_h4_top_level_orbit_budget.md"
+   ],
+   "notes": "Proved budget consequence of orbit compression. The verifier checks group size, paid-status invariance, full n=16 orbit accounting, and n=32 sample budgets. This converts the h=4 top-level branch into the canonical target: count positive non-descended affine orbits, with <= n already enough."
   }
  ],
  "edges": [
@@ -6159,6 +6169,11 @@
   },
   {
    "from": "x45_h4_common_gcd_orbit_compression",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x46_h4_top_level_orbit_budget",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
