@@ -3634,6 +3634,16 @@
     "experimental/notes/roadmaps/x61_h4_linear_degeneracy_ledger.md"
    ],
    "notes": "Separates true S-unit degeneracy from the two additional X60 bookkeeping exclusions. This prepares a clean handoff to any nondegenerate linear-subgroup/S-unit theorem while proving the diagonal/source-overlap branches are already affordable."
+  },
+  {
+   "id": "x62_h4_linear_norm_gate",
+   "title": "X62: h=4 filtered linear triples are p-specific norm gates",
+   "status": "PROVED",
+   "statement": "Over complex roots of unity, the X60-filtered equation x+y-z=1 has no solutions: x+y=z+1 makes two unit-circle chords with the same midpoint, hence either {x,y}={z,1} or z=-1 and y=-x, all excluded. Therefore every finite-field filtered triple gives f=X^a+X^b-X^c-1 with f(zeta)=0 but Phi_n not dividing f over Z, so p divides Res(Phi_n,f).",
+   "refs": [
+    "experimental/notes/roadmaps/x62_h4_linear_norm_gate.md"
+   ],
+   "notes": "Strengthens X61's nondegenerate handoff: after the X60 branches are stripped, the centered h=4 obstruction has no characteristic-zero S-unit residue. The remaining filtered triples are entirely finite-p sparse cyclotomic norm-gate mass, in the same certification lane as X30/X35."
   }
  ],
  "edges": [
@@ -6554,6 +6564,26 @@
   },
   {
    "from": "x61_h4_linear_degeneracy_ledger",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x30_finite_p_norm_gate",
+   "to": "x62_h4_linear_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
+   "to": "x62_h4_linear_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "x61_h4_linear_degeneracy_ledger",
+   "to": "x62_h4_linear_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "x62_h4_linear_norm_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
