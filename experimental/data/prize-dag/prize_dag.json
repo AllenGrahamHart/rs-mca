@@ -128,7 +128,7 @@
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#2"
    ],
    "statement": "THE RULES-FACT (closed by citation, not proof): the operative prize rules are exactly \u2014 smooth domain = coset of a power-of-2-order subgroup; k <= 2^40; |F| < 2^256; rates EXACT in {1/2, 1/4, 1/8, 1/16} (no dither latitude); the m-quantifier per rules_m_reading (family-per-constant-m). Certificate = quote + hash of proximityprize.org and ePrint 2026/680 with a drift detector; on any residual ambiguity the campaign plans against the stricter reading. (Reworded 2026-07-04 from task form to propositional form \u2014 node-kind hygiene.)",
-   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically.",
+   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically. | WIRING COMPLETED (user catch #4, 2026-07-04): rules_m_reading (PROVED) was an unwired component \u2014 now req. Component ledger: field_cap_check WIRED+PROVED; m-reading WIRED+PROVED; smooth-reading and rates-exactness citations RESOLVED in the rules-layer resolution (blueprint line 102 / live-fetch quotes, ba75cec7) but not yet assembled as the quote+hash certificate \u2014 THAT assembly is exactly the declaration act this node's amber awaits. The amber is now honestly scoped: requirements-met on the wired components; certificate assembly pending.",
    "closure": "citation"
   },
   {
@@ -6152,6 +6152,11 @@
   {
    "from": "official_row_primes_pinning",
    "to": "c1a_lowh_direct_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "rules_m_reading",
+   "to": "rules_freeze",
    "kind": "req"
   }
  ]
