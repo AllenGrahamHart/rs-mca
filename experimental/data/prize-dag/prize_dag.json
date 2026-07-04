@@ -3274,6 +3274,16 @@
     "experimental/notes/roadmaps/x25_h5_prime_window.md"
    ],
    "notes": "Finite evidence only. The scan stops at n=32 because full n=64,h=5 all-prime coverage is much heavier; X15 already checks selected n=64 rows through alpha=3."
+  },
+  {
+   "id": "x26_h4_quotient_sum_certificate",
+   "title": "X26: h=4 exceptional primes are quotient h=2 sum collisions",
+   "status": "TEST",
+   "statement": "Exact quotient h=2 certificate for the h=4 antipodal-lift exceptions. In the full n=16,32,64 boundary windows, the zero-sum quotient baseline accounts for mu_4 full fibers; extra quotient sum collisions are absent for n=16,32 and occur for n=64 exactly at p=4993,7937,10177,11329,26177,50177,51137,65537,156353 with counts 12,12,4,4,4,4,4,4,4. This exactly matches X22's antipodal_h2_quotient_lift rows.",
+   "refs": [
+    "experimental/notes/roadmaps/x26_h4_quotient_sum_certificate.md"
+   ],
+   "notes": "Shrinks the finite-p h=4 exception mechanism to a lower h=2 quotient sum-collision certificate; no new primitive h=4 mechanism is present in the full checked windows."
   }
  ],
  "edges": [
@@ -5854,6 +5864,11 @@
   },
   {
    "from": "x25_h5_prime_window",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x26_h4_quotient_sum_certificate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
