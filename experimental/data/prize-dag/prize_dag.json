@@ -3320,9 +3320,9 @@
    "title": "PROVED (roadmap-lane, toy-verified): the char-0 giant coset theorem",
    "status": "PROVED",
    "key": true,
-   "statement": "Over characteristic zero: every 0/1 t-null vector on mu_n (n = 2^s) is a union of mu_M-cosets with M > t. ONE-PARAGRAPH PROOF (Fourier/Galois): the exponent polynomial f_B has INTEGER coefficients, so f_B(zeta^r) = 0 propagates to the full Galois orbit of zeta^r \u2014 all frequencies of the same 2-adic valuation; r in [1, t] realizes every valuation v <= log2(t), so B-hat vanishes at ALL r not divisible by 2^{v+1}-max = the first 2-power > t; hence B-hat is supported on MZ (M = 2^{ceil log2 t}+... the least 2-power > t) and the 0/1 indicator equals its fiber average => a coset union. Verified exhaustively at (n, t) = (16, 4): exactly the mu_8-cosets and their union. NOTE: even easier than X24 (0/1 giant beats signed small-h); the X-8 boundary blocks are FINITE-FIELD-ONLY objects, consistent (see b2's Frobenius gap).",
+   "statement": "Over characteristic zero: every 0/1 t-null vector on mu_n (n = 2^s) is a union of mu_M-cosets with M > t. ONE-PARAGRAPH PROOF (Fourier/Galois): the exponent polynomial f_B has INTEGER coefficients, so f_B(zeta^r) = 0 propagates to the full Galois orbit of zeta^r \u2014 all frequencies of the same 2-adic valuation; r in [1, t] realizes every valuation v <= log2(t), so B-hat vanishes at ALL r not divisible by 2^{v+1}-max = the first 2-power > t; hence B-hat is supported on MZ (M = 2^{ceil log2 t}+... the least 2-power > t) and the 0/1 indicator equals its fiber average => a coset union. Verified exhaustively at (n, t) = (16, 4): exactly the mu_8-cosets and their union. NOTE: even easier than X24 (0/1 giant beats signed small-h); the X-8 boundary blocks are FINITE-FIELD-ONLY objects, consistent (see b2's Frobenius gap). STANDALONE PACKET SHIPPED (9/9): full proof written; verifier uses exact cyclotomic arithmetic \u2014 full 2^16 brute at (16,4) plus exact rational-nullspace proofs of both directions at (16,4)/(32,4)/(32,8) (nullity = n/M, counts = 2^{n/M}).",
    "refs": [
-    "experimental/notes/roadmaps/u2c_giant_block_statement.md"
+    "experimental/notes/roadmaps/b1_char0_giant_coset_theorem.md"
    ]
   },
   {
@@ -3358,7 +3358,8 @@
    "falsifier": "a consumer trace with h > 2 log2 n trades entering R_PTE at super-absorbable weight",
    "refs": [
     "experimental/notes/roadmaps/a_closure_assembly.md"
-   ]
+   ],
+   "notes": "Micro-lemma resolved (star_pte_support_bound PROVED): h <= A, extremes realized explicitly at F_101. The audit's tighter 2h <= A hope is dead."
   },
   {
    "id": "c1_scalable_certificate",
@@ -3410,11 +3411,20 @@
    "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261",
    "status": "TARGET",
    "key": true,
-   "statement": "With H_max = A (audit verdict), the certification pipelines cover: C1a direct MITM h = 4(-5); C1b descent h <= ~8-10 (band saturation). The range h in (~10, A] (A = 67/133/261 per rate) is covered by NEITHER \u2014 and the crude route (value_set_partner_cap x C(n,h) cores) reduces back to the terminal bound. ROUTES: (a) a large-h emptiness/exclusion THEOREM (first moment empty by thousands of bits; h-1 obstruction conditions overwhelm the C(n,h) pattern entropy above h ~ some explicit H0 \u2014 find the worst-case tool); (b) a scalable certificate valid at all h (the descent is not); (c) consumer-side: resolve the h <= A vs 2h <= A micro-lemma and check whether large-h trades enter R_PTE at full weight; (d) per-h budget arithmetic: 261 x ~1e5 << n^3 fits, so per-h bounds suffice \u2014 no aggregation cleverness needed.",
+   "statement": "With H_max = A (audit verdict), the certification pipelines cover: C1a direct MITM h = 4(-5); C1b descent h <= ~8-10 (band saturation). The range h in (~10, A] (A = 67/133/261 per rate) is covered by NEITHER \u2014 and the crude route (value_set_partner_cap x C(n,h) cores) reduces back to the terminal bound. ROUTES: (a) a large-h emptiness/exclusion THEOREM (first moment empty by thousands of bits; h-1 obstruction conditions overwhelm the C(n,h) pattern entropy above h ~ some explicit H0 \u2014 find the worst-case tool); (b) a scalable certificate valid at all h (the descent is not); (c) consumer-side: resolve the h <= A vs 2h <= A micro-lemma and check whether large-h trades enter R_PTE at full weight; (d) per-h budget arithmetic: 261 x ~1e5 << n^3 fits, so per-h bounds suffice \u2014 no aggregation cleverness needed. GAP PINNED (micro-lemma 5/5): h <= A reading PROVED (2h <= A wrong) \u2014 the certification gap is the full (10, A] with A = 67/133/261; its (100, A] tail additionally lies outside the frozen W3 grammar window at rates 1/4 and 1/8 (nonempty both), empty at 1/16.",
    "attack_surface": "the Fable C1b brief carries this as its second part: prove the injection lemma (h <= 10) AND map/attack the large-h routes",
    "falsifier": "a trade found at h in (10, A] at any calibration row with q >= n^3 (none ever observed)",
    "refs": [
     "experimental/notes/roadmaps/h_window_derivation_audit.md"
+   ]
+  },
+  {
+   "id": "star_pte_support_bound",
+   "title": "PROVED (micro-lemma, 5/5): h <= A is the correct reading; 2h <= A is WRONG",
+   "status": "PROVED",
+   "statement": "With agreement sets S_f, S_g (|.| = A = k+t), overlap r: the canonical trade is P = S_f \\ S_g, Q = S_g \\ S_f, so h = A - r; distinct degree-<k codewords agree in <= k-1 points => r <= k-1 => t < h <= A. The trade SUPPORT 2h = 2(A-r) splits across TWO agreement sets and runs up to 2A. Verified via explicit F_101 constructions realizing both extremes (r = 0: h = A; r = k-1: h = t+1). CONSEQUENCE: H_max = A = 67/133/261 confirmed; the beyond-grammar range (100, A] is nonempty at rates 1/4 AND 1/8 (261, 133), empty at 1/16 (67 < 100).",
+   "refs": [
+    "experimental/notes/roadmaps/star_pte_support_bound.md"
    ]
   }
  ],
@@ -6057,6 +6067,11 @@
   {
    "from": "midlarge_h_certification",
    "to": "c1_scalable_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "star_pte_support_bound",
+   "to": "midlarge_h_certification",
    "kind": "req"
   }
  ]
