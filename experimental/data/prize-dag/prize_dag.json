@@ -3754,6 +3754,16 @@
     "experimental/notes/roadmaps/x73_h4_normalized_pair_sieve.md"
    ],
    "notes": "Upgrades the h=4 interval-resultant lane from a normal form for known solutions to a complete row-local key certifier: enumerate (1,r,s), primitive-root test, X68 key, then expand survivors in X65 row-count currency."
+  },
+  {
+   "id": "x74_h4_sieve_orbit_bound",
+   "title": "X74: h=4 normalized sieve gives a uniform n^3 orbit bound",
+   "status": "PROVED",
+   "statement": "For fixed primitive root, interval sign, and length, the X71 equation forces the interval start if it exists; hence survivor normalized pairs are <= 2*phi(n)*(n-1). Each X68 key contains at most phi(n) X64 canonical row representatives, so the primitive h=4 norm-gate canonical-orbit count is <= 2*phi(n)^2*(n-1)=n^2(n-1)/2<n^3.",
+   "refs": [
+    "experimental/notes/roadmaps/x74_h4_sieve_orbit_bound.md"
+   ],
+   "notes": "Converts the complete X73 normalized-pair certifier into a uniform h=4 row-count bound in X65 canonical-orbit currency, closing the h=4 primitive finite-p norm-gate branch at the rewired L3 exponent."
   }
  ],
  "edges": [
@@ -6939,6 +6949,26 @@
   },
   {
    "from": "x73_h4_normalized_pair_sieve",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x65_h4_linear_orbit_budget",
+   "to": "x74_h4_sieve_orbit_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "x74_h4_sieve_orbit_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x73_h4_normalized_pair_sieve",
+   "to": "x74_h4_sieve_orbit_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x74_h4_sieve_orbit_bound",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
