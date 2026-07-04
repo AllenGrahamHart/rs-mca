@@ -1,0 +1,959 @@
+{
+  "checks": 22,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x69_h4_unit_anchor_normal_form": "PROVED",
+    "x70_h4_normalized_quotient_resultant": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "certifier_key_count": 19,
+      "diagonal_members": [],
+      "form_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "length_histogram": {
+        "10": 4,
+        "11": 4,
+        "12": 2,
+        "2": 16,
+        "3": 14,
+        "4": 12,
+        "5": 10,
+        "6": 6,
+        "7": 6,
+        "8": 4,
+        "9": 4
+      },
+      "max_interval_length": 12,
+      "min_interval_length": 2,
+      "n": 16,
+      "normalized_member_count": 82,
+      "p": 17,
+      "sample_interval_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 6,
+          "member": [
+            1,
+            5,
+            11
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 5
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 6,
+          "member": [
+            1,
+            6,
+            12
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 6
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            13,
+            15
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 13
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        }
+      ],
+      "sign_histogram": {
+        "negative": 40,
+        "positive": 42
+      },
+      "start_histogram_support_size": 12,
+      "weight_failures": []
+    },
+    {
+      "certifier_key_count": 133,
+      "diagonal_members": [],
+      "form_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "length_histogram": {
+        "10": 12,
+        "11": 18,
+        "12": 8,
+        "13": 22,
+        "14": 16,
+        "15": 24,
+        "16": 22,
+        "17": 20,
+        "18": 12,
+        "19": 14,
+        "2": 16,
+        "20": 18,
+        "21": 8,
+        "22": 14,
+        "23": 12,
+        "24": 10,
+        "25": 14,
+        "26": 8,
+        "27": 10,
+        "28": 12,
+        "29": 10,
+        "3": 14,
+        "30": 10,
+        "31": 8,
+        "32": 8,
+        "33": 8,
+        "34": 8,
+        "35": 8,
+        "36": 12,
+        "37": 10,
+        "38": 8,
+        "39": 6,
+        "4": 20,
+        "40": 10,
+        "41": 8,
+        "42": 10,
+        "43": 6,
+        "44": 4,
+        "45": 6,
+        "46": 8,
+        "47": 8,
+        "48": 10,
+        "49": 4,
+        "5": 26,
+        "50": 4,
+        "51": 4,
+        "52": 4,
+        "54": 2,
+        "55": 2,
+        "56": 2,
+        "58": 2,
+        "6": 10,
+        "7": 12,
+        "8": 24,
+        "9": 10
+      },
+      "max_interval_length": 58,
+      "min_interval_length": 2,
+      "n": 64,
+      "normalized_member_count": 596,
+      "p": 193,
+      "sample_interval_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 13,
+          "member": [
+            1,
+            2,
+            15
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 5,
+          "member": [
+            1,
+            6,
+            11
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 6
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 13,
+          "member": [
+            1,
+            50,
+            63
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 50
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 5,
+          "member": [
+            1,
+            54,
+            59
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 54
+        },
+        {
+          "key": [
+            1,
+            2,
+            44
+          ],
+          "length": 42,
+          "member": [
+            1,
+            2,
+            44
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        }
+      ],
+      "sign_histogram": {
+        "negative": 298,
+        "positive": 298
+      },
+      "start_histogram_support_size": 57,
+      "weight_failures": []
+    },
+    {
+      "certifier_key_count": 23,
+      "diagonal_members": [],
+      "form_failures": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "length_histogram": {
+        "11": 4,
+        "12": 2,
+        "13": 4,
+        "19": 2,
+        "2": 16,
+        "20": 2,
+        "21": 8,
+        "22": 6,
+        "23": 2,
+        "25": 2,
+        "26": 2,
+        "27": 4,
+        "28": 6,
+        "29": 2,
+        "3": 8,
+        "31": 4,
+        "32": 4,
+        "33": 4,
+        "35": 2,
+        "36": 2,
+        "39": 2,
+        "41": 2,
+        "42": 2,
+        "44": 2,
+        "45": 2,
+        "5": 4
+      },
+      "max_interval_length": 45,
+      "min_interval_length": 2,
+      "n": 64,
+      "normalized_member_count": 100,
+      "p": 7937,
+      "sample_interval_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 22,
+          "member": [
+            1,
+            21,
+            43
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 21
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 22,
+          "member": [
+            1,
+            22,
+            44
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 22
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            61,
+            63
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 61
+        },
+        {
+          "key": [
+            1,
+            2,
+            30
+          ],
+          "length": 28,
+          "member": [
+            1,
+            2,
+            30
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        }
+      ],
+      "sign_histogram": {
+        "negative": 44,
+        "positive": 56
+      },
+      "start_histogram_support_size": 39,
+      "weight_failures": []
+    },
+    {
+      "certifier_key_count": 12,
+      "diagonal_members": [],
+      "form_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "length_histogram": {
+        "10": 8,
+        "14": 4,
+        "25": 4,
+        "30": 4,
+        "32": 4,
+        "4": 4,
+        "41": 2,
+        "54": 2,
+        "56": 2,
+        "57": 2,
+        "62": 2,
+        "66": 2,
+        "71": 2,
+        "72": 2,
+        "74": 2,
+        "87": 2,
+        "9": 4
+      },
+      "max_interval_length": 87,
+      "min_interval_length": 4,
+      "n": 128,
+      "normalized_member_count": 52,
+      "p": 17921,
+      "sample_interval_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "length": 30,
+          "member": [
+            1,
+            2,
+            32
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "length": 62,
+          "member": [
+            1,
+            33,
+            95
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 33
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "length": 62,
+          "member": [
+            1,
+            34,
+            96
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 34
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "length": 30,
+          "member": [
+            1,
+            97,
+            127
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 97
+        },
+        {
+          "key": [
+            1,
+            2,
+            34
+          ],
+          "length": 32,
+          "member": [
+            1,
+            2,
+            34
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        }
+      ],
+      "sign_histogram": {
+        "negative": 20,
+        "positive": 32
+      },
+      "start_histogram_support_size": 39,
+      "weight_failures": []
+    },
+    {
+      "certifier_key_count": 22,
+      "diagonal_members": [],
+      "form_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "length_histogram": {
+        "100": 2,
+        "102": 2,
+        "103": 2,
+        "110": 2,
+        "126": 2,
+        "128": 2,
+        "130": 2,
+        "146": 2,
+        "153": 2,
+        "156": 2,
+        "169": 2,
+        "171": 2,
+        "2": 8,
+        "223": 2,
+        "225": 2,
+        "251": 2,
+        "252": 2,
+        "3": 4,
+        "31": 2,
+        "33": 2,
+        "36": 4,
+        "4": 2,
+        "42": 4,
+        "44": 4,
+        "5": 2,
+        "51": 4,
+        "52": 4,
+        "56": 4,
+        "57": 8,
+        "6": 4,
+        "85": 2,
+        "87": 2,
+        "9": 8
+      },
+      "max_interval_length": 252,
+      "min_interval_length": 2,
+      "n": 256,
+      "normalized_member_count": 100,
+      "p": 91393,
+      "sample_interval_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 85,
+          "member": [
+            1,
+            170,
+            85
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "positive",
+          "start": 85
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 85,
+          "member": [
+            1,
+            172,
+            87
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "positive",
+          "start": 87
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            252,
+            255
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 252
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "length": 251,
+          "member": [
+            1,
+            2,
+            253
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2
+        }
+      ],
+      "sign_histogram": {
+        "negative": 44,
+        "positive": 56
+      },
+      "start_histogram_support_size": 71,
+      "weight_failures": []
+    }
+  ],
+  "status": "PROVED NORMAL FORM: X70 QUOTIENTS ARE SIGNED INTERVAL POLYNOMIALS",
+  "task": "X71 h=4 interval quotient form",
+  "theorem": "Let A_m=1+X+...+X^{m-1}.  For an X69 normalized word X+X^r-X^s-1, the X70 quotient by X-1 is q_{r,s}=1+A_r-A_s.  Thus if r>s, q_{r,s}=1+X^s+...+X^{r-1}; if s>r, q_{r,s}=1-X^r-...-X^{s-1}; and if r=s, q_{r,s}=1.  The primitive norm-gate certifier can therefore work with constant-plus-signed-interval polynomials."
+}

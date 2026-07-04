@@ -1,0 +1,87 @@
+{
+  "checks": 28,
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "bad_examples": [],
+      "n": 16,
+      "p": 257,
+      "quotient_collision_count": 3,
+      "quotient_summary": {
+        "extra_antipodal_quotient_lifts": 0,
+        "total_anchored_quotient_collisions": 3,
+        "zero_sum_mu4_full_fiber": 3
+      },
+      "reason_counts": {
+        "zero_sum_mu4_full_fiber": 3
+      },
+      "zero_sum_baseline_formula": 3
+    },
+    {
+      "bad_examples": [],
+      "n": 32,
+      "p": 1153,
+      "quotient_collision_count": 7,
+      "quotient_summary": {
+        "extra_antipodal_quotient_lifts": 0,
+        "total_anchored_quotient_collisions": 7,
+        "zero_sum_mu4_full_fiber": 7
+      },
+      "reason_counts": {
+        "zero_sum_mu4_full_fiber": 7
+      },
+      "zero_sum_baseline_formula": 7
+    },
+    {
+      "bad_examples": [],
+      "n": 64,
+      "p": 4993,
+      "quotient_collision_count": 27,
+      "quotient_summary": {
+        "extra_antipodal_quotient_lifts": 12,
+        "total_anchored_quotient_collisions": 27,
+        "zero_sum_mu4_full_fiber": 15
+      },
+      "reason_counts": {
+        "extra_antipodal_quotient_lift": 12,
+        "zero_sum_mu4_full_fiber": 15
+      },
+      "zero_sum_baseline_formula": 15
+    },
+    {
+      "bad_examples": [],
+      "n": 128,
+      "p": 65537,
+      "quotient_collision_count": 83,
+      "quotient_summary": {
+        "extra_antipodal_quotient_lifts": 52,
+        "total_anchored_quotient_collisions": 83,
+        "zero_sum_mu4_full_fiber": 31
+      },
+      "reason_counts": {
+        "extra_antipodal_quotient_lift": 52,
+        "zero_sum_mu4_full_fiber": 31
+      },
+      "zero_sum_baseline_formula": 31
+    },
+    {
+      "bad_examples": [],
+      "n": 256,
+      "p": 65537,
+      "quotient_collision_count": 151,
+      "quotient_summary": {
+        "extra_antipodal_quotient_lifts": 88,
+        "total_anchored_quotient_collisions": 151,
+        "zero_sum_mu4_full_fiber": 63
+      },
+      "reason_counts": {
+        "extra_antipodal_quotient_lift": 88,
+        "zero_sum_mu4_full_fiber": 63
+      },
+      "zero_sum_baseline_formula": 63
+    }
+  ],
+  "status": "PROVED ALGEBRAIC BRIDGE: anchored h=4 antipodal-union trades are exactly anchored quotient h=2 sum collisions",
+  "task": "X29 h=4 quotient-bridge lemma",
+  "theorem": "For 4|n and odd characteristic, the square map identifies anchored h=4 supports that are unions of antipodal pairs with anchored 2-subsets of mu_{n/2}.  Equality of the h=4 top-three elementary signature is equivalent to equality of quotient pair sums.  The zero-sum quotient baseline has size n/4-1 and lifts to mu_4 full-fiber pairs."
+}

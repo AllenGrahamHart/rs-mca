@@ -1,0 +1,472 @@
+{
+  "checks": 40,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x37_h4_quartic_fiber_form": "PROVED"
+  },
+  "inverse_toral_checks": [
+    {
+      "c": 1,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 97,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 2,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 97,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 96,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 97,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 1,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 257,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 2,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 257,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 256,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 257,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 1,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 4993,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 2,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 4993,
+      "top_coefficient": 1,
+      "top_degree": 8
+    },
+    {
+      "c": 4992,
+      "conclusion": "nonzero top coefficient prevents the rational identity",
+      "multiplied_identity": "X^4(psi(X)-psi(c/X))",
+      "p": 4993,
+      "top_coefficient": 1,
+      "top_degree": 8
+    }
+  ],
+  "node": "active_core_count_bound",
+  "quartic_examples": [
+    {
+      "classifications": [
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [],
+          "invariant": true,
+          "lambda": 4992,
+          "lambda_fourth": 1,
+          "order": 2,
+          "pullback_through_X_order": true
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [],
+          "invariant": true,
+          "lambda": 158,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": true
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [],
+          "invariant": true,
+          "lambda": 4835,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": true
+        }
+      ],
+      "expected_order": 4,
+      "invariant_orders": [
+        2,
+        4
+      ],
+      "label": "mu4 baseline",
+      "locator_coefficients_low_to_high": [
+        4992,
+        0,
+        0,
+        0,
+        1
+      ],
+      "n": 32,
+      "p": 4993,
+      "support": [
+        0,
+        8,
+        16,
+        24
+      ]
+    },
+    {
+      "classifications": [
+        {
+          "allowed_exponents": [
+            0,
+            2,
+            4
+          ],
+          "forbidden_nonzero_exponents": [],
+          "invariant": true,
+          "lambda": 4992,
+          "lambda_fourth": 1,
+          "order": 2,
+          "pullback_through_X_order": true
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [
+            2
+          ],
+          "invariant": false,
+          "lambda": 158,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": false
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [
+            2
+          ],
+          "invariant": false,
+          "lambda": 4835,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": false
+        }
+      ],
+      "expected_order": 2,
+      "invariant_orders": [
+        2
+      ],
+      "label": "antipodal quotient extra",
+      "locator_coefficients_low_to_high": [
+        269,
+        0,
+        4723,
+        0,
+        1
+      ],
+      "n": 64,
+      "p": 4993,
+      "support": [
+        0,
+        2,
+        32,
+        34
+      ]
+    },
+    {
+      "classifications": [
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [
+            1,
+            3
+          ],
+          "invariant": false,
+          "lambda": 4992,
+          "lambda_fourth": 1,
+          "order": 2,
+          "pullback_through_X_order": false
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [
+            1,
+            3
+          ],
+          "invariant": false,
+          "lambda": 158,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": false
+        },
+        {
+          "allowed_exponents": [
+            0,
+            4
+          ],
+          "forbidden_nonzero_exponents": [
+            1,
+            3
+          ],
+          "invariant": false,
+          "lambda": 4835,
+          "lambda_fourth": 1,
+          "order": 4,
+          "pullback_through_X_order": false
+        }
+      ],
+      "expected_order": null,
+      "invariant_orders": [],
+      "label": "top-level first-sum only nontrade",
+      "locator_coefficients_low_to_high": [
+        2534,
+        2728,
+        0,
+        4723,
+        1
+      ],
+      "n": 32,
+      "p": 4993,
+      "support": [
+        0,
+        1,
+        2,
+        17
+      ]
+    }
+  ],
+  "status": "PROVED SPECIALIZATION: quartic exact toral lines are cyclic-paid or impossible",
+  "symbolic_scaling_checks": [
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          2,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          1
+        ],
+        "invariant": false,
+        "lambda": 96,
+        "lambda_fourth": 1,
+        "order": 2,
+        "pullback_through_X_order": false
+      },
+      "lambda": 96,
+      "order": 2,
+      "p": 97,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          2,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 96,
+        "lambda_fourth": 1,
+        "order": 2,
+        "pullback_through_X_order": true
+      }
+    },
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          2
+        ],
+        "invariant": false,
+        "lambda": 22,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": false
+      },
+      "lambda": 22,
+      "order": 4,
+      "p": 97,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 22,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": true
+      }
+    },
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          2
+        ],
+        "invariant": false,
+        "lambda": 75,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": false
+      },
+      "lambda": 75,
+      "order": 4,
+      "p": 97,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 75,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": true
+      }
+    },
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          2,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          1
+        ],
+        "invariant": false,
+        "lambda": 4992,
+        "lambda_fourth": 1,
+        "order": 2,
+        "pullback_through_X_order": false
+      },
+      "lambda": 4992,
+      "order": 2,
+      "p": 4993,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          2,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 4992,
+        "lambda_fourth": 1,
+        "order": 2,
+        "pullback_through_X_order": true
+      }
+    },
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          2
+        ],
+        "invariant": false,
+        "lambda": 158,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": false
+      },
+      "lambda": 158,
+      "order": 4,
+      "p": 4993,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 158,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": true
+      }
+    },
+    {
+      "bad": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [
+          2
+        ],
+        "invariant": false,
+        "lambda": 4835,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": false
+      },
+      "lambda": 4835,
+      "order": 4,
+      "p": 4993,
+      "paid": {
+        "allowed_exponents": [
+          0,
+          4
+        ],
+        "forbidden_nonzero_exponents": [],
+        "invariant": true,
+        "lambda": 4835,
+        "lambda_fourth": 1,
+        "order": 4,
+        "pullback_through_X_order": true
+      }
+    }
+  ],
+  "task": "X38 h=4 exact toral-line classifier",
+  "theorem": "Let psi(X)=X^4+a3X^3+a2X^2+a1X+a0 over odd characteristic. If psi(lambda X)=psi(X) for lambda != 1, then lambda^4=1. For m=ord(lambda), every nonzero coefficient has exponent divisible by m; hence m is 2 or 4 and psi=Phi(X^m), a cyclic pullback. No exact inverse toral line XY=c divides psi(X)-psi(Y), since X^4(psi(X)-psi(c/X)) has nonzero X^8 coefficient. Therefore a primitive h=4 quartic two-fiber residue has no exact toral line."
+}

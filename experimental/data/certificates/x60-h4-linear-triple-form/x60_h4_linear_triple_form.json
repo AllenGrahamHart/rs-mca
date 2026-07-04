@@ -1,0 +1,114 @@
+{
+  "checks": 26,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x58_h4_reduced_additive_energy": "PROVED",
+    "x59_h4_mobius_collision_form": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "anchored_nonzero_h2_surplus": 84,
+      "branch_counts": {
+        "x_equals_1": 16,
+        "y_equals_1": 16,
+        "y_equals_minus_x": 16,
+        "y_equals_x": 15,
+        "z_equals_1": 15
+      },
+      "excluded_union_count": 73,
+      "filtered_linear_triple_count": 168,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "normal_form": "2*A = #{x,y,z in H: x+y-z=1, avoiding y=x,y=-x,x=1,y=1,z=1}",
+      "p": 17,
+      "raw_linear_triple_count": 241,
+      "x56_anchored_barrier": 264,
+      "x59_anchored_surplus": 84
+    },
+    {
+      "anchored_nonzero_h2_surplus": 588,
+      "branch_counts": {
+        "x_equals_1": 64,
+        "y_equals_1": 64,
+        "y_equals_minus_x": 64,
+        "y_equals_x": 21,
+        "z_equals_1": 21
+      },
+      "excluded_union_count": 229,
+      "filtered_linear_triple_count": 1176,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "normal_form": "2*A = #{x,y,z in H: x+y-z=1, avoiding y=x,y=-x,x=1,y=1,z=1}",
+      "p": 193,
+      "raw_linear_triple_count": 1405,
+      "x56_anchored_barrier": 544,
+      "x59_anchored_surplus": 588
+    },
+    {
+      "anchored_nonzero_h2_surplus": 104,
+      "branch_counts": {
+        "x_equals_1": 64,
+        "y_equals_1": 64,
+        "y_equals_minus_x": 64,
+        "y_equals_x": 5,
+        "z_equals_1": 5
+      },
+      "excluded_union_count": 197,
+      "filtered_linear_triple_count": 208,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "normal_form": "2*A = #{x,y,z in H: x+y-z=1, avoiding y=x,y=-x,x=1,y=1,z=1}",
+      "p": 7937,
+      "raw_linear_triple_count": 405,
+      "x56_anchored_barrier": 544,
+      "x59_anchored_surplus": 104
+    },
+    {
+      "anchored_nonzero_h2_surplus": 60,
+      "branch_counts": {
+        "x_equals_1": 128,
+        "y_equals_1": 128,
+        "y_equals_minus_x": 128,
+        "y_equals_x": 1,
+        "z_equals_1": 1
+      },
+      "excluded_union_count": 381,
+      "filtered_linear_triple_count": 120,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "normal_form": "2*A = #{x,y,z in H: x+y-z=1, avoiding y=x,y=-x,x=1,y=1,z=1}",
+      "p": 17921,
+      "raw_linear_triple_count": 501,
+      "x56_anchored_barrier": 840,
+      "x59_anchored_surplus": 60
+    },
+    {
+      "anchored_nonzero_h2_surplus": 112,
+      "branch_counts": {
+        "x_equals_1": 256,
+        "y_equals_1": 256,
+        "y_equals_minus_x": 256,
+        "y_equals_x": 3,
+        "z_equals_1": 3
+      },
+      "excluded_union_count": 769,
+      "filtered_linear_triple_count": 224,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "normal_form": "2*A = #{x,y,z in H: x+y-z=1, avoiding y=x,y=-x,x=1,y=1,z=1}",
+      "p": 91393,
+      "raw_linear_triple_count": 993,
+      "x56_anchored_barrier": 1300,
+      "x59_anchored_surplus": 112
+    }
+  ],
+  "status": "PROVED EXACT LINEAR-TRIPLE IDENTITY",
+  "task": "X60 h=4 linear triple normal form",
+  "theorem": "The substitution x=h, y=hr, z=h(1+r)-1 is a bijection between X59 Mobius collisions and solutions x+y-z=1 in H^3.  The excluded branches h=1, h=r^-1, h=2/(1+r), r=1, and r=-1 become respectively x=1, y=1, z=1, y=x, and y=-x.  Therefore twice the anchored surplus is the linear-triple count after removing those five loci."
+}

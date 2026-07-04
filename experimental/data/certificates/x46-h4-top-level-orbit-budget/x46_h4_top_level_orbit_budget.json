@@ -1,0 +1,269 @@
+{
+  "checks": 24,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x32_h4_terminal_dichotomy": "PROVED",
+    "x33_h4_common_gcd_gate": "PROVED",
+    "x45_h4_common_gcd_orbit_compression": "PROVED"
+  },
+  "descended_invariance_examples": [
+    {
+      "P": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "Q": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "base_descended": true,
+      "checked_transforms": 48,
+      "n": 16
+    },
+    {
+      "P": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "Q": [
+        3,
+        4,
+        7,
+        12
+      ],
+      "base_descended": false,
+      "checked_transforms": 48,
+      "n": 16
+    },
+    {
+      "P": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "Q": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "base_descended": true,
+      "checked_transforms": 48,
+      "n": 32
+    },
+    {
+      "P": [
+        0,
+        1,
+        2,
+        17
+      ],
+      "Q": [
+        3,
+        8,
+        19,
+        21
+      ],
+      "base_descended": false,
+      "checked_transforms": 48,
+      "n": 32
+    }
+  ],
+  "group_size_rows": [
+    {
+      "group_size": 64,
+      "n": 8,
+      "n_squared": 64,
+      "phi_n": 4
+    },
+    {
+      "group_size": 256,
+      "n": 16,
+      "n_squared": 256,
+      "phi_n": 8
+    },
+    {
+      "group_size": 1024,
+      "n": 32,
+      "n_squared": 1024,
+      "phi_n": 16
+    },
+    {
+      "group_size": 4096,
+      "n": 64,
+      "n_squared": 4096,
+      "phi_n": 32
+    },
+    {
+      "group_size": 16384,
+      "n": 128,
+      "n_squared": 16384,
+      "phi_n": 64
+    },
+    {
+      "group_size": 65536,
+      "n": 256,
+      "n_squared": 65536,
+      "phi_n": 128
+    }
+  ],
+  "n16_full_accounting": {
+    "anchored_orbit_size_histogram": {
+      "1": 1,
+      "16": 44,
+      "2": 2,
+      "32": 318,
+      "4": 3,
+      "64": 3348,
+      "8": 7
+    },
+    "anchored_ordered_pairs": 225225,
+    "anchored_top_level_survivors": 0,
+    "canonical_orbits": 3723,
+    "degree_histogram_by_orbit": {
+      "0": 3721,
+      "8": 2
+    },
+    "group_size": 256,
+    "n": 16,
+    "n_cubed": 4096,
+    "p": 257,
+    "positive_non_descended_canonical_orbits": 0,
+    "positive_non_descended_crude_budget": 0,
+    "positive_non_descended_exact_expansion": 0
+  },
+  "n32_sample_budget": {
+    "n": 32,
+    "p": 4993,
+    "rows": [
+      {
+        "P": [
+          0,
+          8,
+          16,
+          24
+        ],
+        "Q": [
+          1,
+          9,
+          17,
+          25
+        ],
+        "canonical_P": [
+          0,
+          8,
+          16,
+          24
+        ],
+        "canonical_Q": [
+          1,
+          9,
+          17,
+          25
+        ],
+        "canonical_degree": 16,
+        "canonical_descended": true,
+        "single_orbit_budget": 1024
+      },
+      {
+        "P": [
+          0,
+          1,
+          2,
+          17
+        ],
+        "Q": [
+          3,
+          8,
+          19,
+          21
+        ],
+        "canonical_P": [
+          0,
+          1,
+          2,
+          17
+        ],
+        "canonical_Q": [
+          3,
+          5,
+          8,
+          19
+        ],
+        "canonical_degree": 0,
+        "canonical_descended": false,
+        "single_orbit_budget": 1024
+      },
+      {
+        "P": [
+          0,
+          1,
+          3,
+          14
+        ],
+        "Q": [
+          4,
+          7,
+          16,
+          27
+        ],
+        "canonical_P": [
+          0,
+          1,
+          3,
+          14
+        ],
+        "canonical_Q": [
+          4,
+          7,
+          16,
+          27
+        ],
+        "canonical_degree": 0,
+        "canonical_descended": false,
+        "single_orbit_budget": 1024
+      },
+      {
+        "P": [
+          0,
+          2,
+          5,
+          19
+        ],
+        "Q": [
+          1,
+          7,
+          12,
+          25
+        ],
+        "canonical_P": [
+          0,
+          1,
+          3,
+          14
+        ],
+        "canonical_Q": [
+          12,
+          18,
+          23,
+          26
+        ],
+        "canonical_degree": 0,
+        "canonical_descended": false,
+        "single_orbit_budget": 1024
+      }
+    ],
+    "sample_count": 4
+  },
+  "node": "active_core_count_bound",
+  "status": "PROVED H4 CANONICAL-ORBIT BUDGET FOR THE TERMINAL n^3 COLUMN",
+  "task": "X46 h=4 top-level orbit budget",
+  "theorem": "For n=2^s, the affine exponent symmetries plus side swap have size 2*n*phi(n)=n^2 on ordered signed h=4 pairs.  X45 shows the h=4 common-gcd degree is constant on these orbits, and the Phi_n-descended paid status is invariant by the same monomial/primitive-root permutation argument.  Therefore the top-level non-descended survivor count is at most n^2 times the number of positive canonical non-descended orbits.  In particular, <= n such canonical orbits is sufficient for the rewired n^3 terminal column, and zero such orbits closes the h=4 top-level branch."
+}

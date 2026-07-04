@@ -1,0 +1,160 @@
+{
+  "checks": 8,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x35_h4_power_sum_gate": "PROVED"
+  },
+  "interpretation": "This extends the X33/X35 signed 4+4 moment-gate evidence from n=16,32 to the n=64 q~n^3 row without replaying the full n=64 all-prime support sweep.",
+  "node": "active_core_count_bound",
+  "row": {
+    "counts": {
+      "anchored_e1_pairs": 79341,
+      "anchored_top_three_pairs": 15,
+      "antipodal_e1_pairs": 13485,
+      "top_level_e1_pairs": 65856,
+      "top_three_mu4_full_fiber": 15
+    },
+    "e1_group_count": 243137,
+    "elapsed_seconds": 13.32085371017456,
+    "examples": {
+      "paid_top_three": [
+        {
+          "P": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q": [
+            1,
+            17,
+            33,
+            49
+          ],
+          "classification": "mu4_full_fiber",
+          "descended": true
+        },
+        {
+          "P": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q": [
+            2,
+            18,
+            34,
+            50
+          ],
+          "classification": "mu4_full_fiber",
+          "descended": true
+        },
+        {
+          "P": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q": [
+            3,
+            19,
+            35,
+            51
+          ],
+          "classification": "mu4_full_fiber",
+          "descended": true
+        },
+        {
+          "P": [
+            0,
+            16,
+            32,
+            48
+          ],
+          "Q": [
+            4,
+            20,
+            36,
+            52
+          ],
+          "classification": "mu4_full_fiber",
+          "descended": true
+        }
+      ],
+      "top_level_first_sum": [
+        {
+          "P": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "Q": [
+            23,
+            25,
+            29,
+            38
+          ],
+          "power_common_gcd_degree": 0
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "Q": [
+            12,
+            20,
+            38,
+            51
+          ],
+          "power_common_gcd_degree": 0
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "Q": [
+            3,
+            11,
+            25,
+            42
+          ],
+          "power_common_gcd_degree": 0
+        },
+        {
+          "P": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "Q": [
+            12,
+            23,
+            56,
+            57
+          ],
+          "power_common_gcd_degree": 0
+        }
+      ]
+    },
+    "expected_mu4_baseline": 15,
+    "max_e1_group_size": 496,
+    "n": 64,
+    "p": 262337,
+    "subset_count": 635376,
+    "top_level_power_common_gcd_degree_histogram": {
+      "0": 65856
+    }
+  },
+  "status": "EXACT FINITE EVIDENCE: at F_262337/mu_64, signed h=4 top-level first-sum candidates have zero 3-moment common-gcd survivors",
+  "task": "X36 h=4 n64 high-row power gate"
+}

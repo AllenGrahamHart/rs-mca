@@ -1,0 +1,114 @@
+{
+  "checks": 28,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x42_h4_centered_energy_accounting": "PROVED",
+    "x44_h4_centered_max_shell_bound": "PROVED",
+    "x48_h4_centered_coset_shell_param": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "coset_shell_size_histogram": {
+        "7": 1
+      },
+      "expected_shell_mass": 7,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_shell_size": 7,
+      "n": 16,
+      "n_cubed": 4096,
+      "p": 17,
+      "quotient_cosets": 1,
+      "quotient_energy_bound": 560,
+      "quotient_max_shell_bound_ceiling": 560,
+      "quotient_max_shell_bound_fraction": "560/1",
+      "quotient_shell_mass": 7
+    },
+    {
+      "coset_shell_size_histogram": {
+        "10": 1,
+        "12": 1,
+        "9": 1
+      },
+      "expected_shell_mass": 31,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_shell_size": 12,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 193,
+      "quotient_cosets": 3,
+      "quotient_energy_bound": 53184,
+      "quotient_max_shell_bound_ceiling": 81840,
+      "quotient_max_shell_bound_fraction": "81840/1",
+      "quotient_shell_mass": 31
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 105,
+        "1": 14,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "6": 1
+      },
+      "expected_shell_mass": 31,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_shell_size": 6,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 7937,
+      "quotient_cosets": 124,
+      "quotient_energy_bound": 1024,
+      "quotient_max_shell_bound_ceiling": 4960,
+      "quotient_max_shell_bound_fraction": "4960/1",
+      "quotient_shell_mass": 31
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 91,
+        "1": 36,
+        "2": 12,
+        "3": 1
+      },
+      "expected_shell_mass": 63,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_shell_size": 3,
+      "n": 128,
+      "n_cubed": 2097152,
+      "p": 17921,
+      "quotient_cosets": 140,
+      "quotient_energy_bound": 0,
+      "quotient_max_shell_bound_ceiling": 0,
+      "quotient_max_shell_bound_fraction": "0/1",
+      "quotient_shell_mass": 63
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 250,
+        "1": 92,
+        "2": 12,
+        "3": 2,
+        "5": 1
+      },
+      "expected_shell_mass": 127,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_shell_size": 5,
+      "n": 256,
+      "n_cubed": 16777216,
+      "p": 91393,
+      "quotient_cosets": 357,
+      "quotient_energy_bound": 1280,
+      "quotient_max_shell_bound_ceiling": 32512,
+      "quotient_max_shell_bound_fraction": "32512/1",
+      "quotient_shell_mass": 127
+    }
+  ],
+  "status": "PROVED QUOTIENT-COMPRESSED CENTERED ENERGY BOUND",
+  "task": "X49 h=4 centered quotient-energy compression",
+  "theorem": "Let m_C be X48's shell size attached to the quotient coset C=sH. Since each coset has n values of s and m_s is constant on cosets, X42 gives R_centered <= n * sum_C C(m_C,4).  The total quotient mass sum_C m_C equals (n-2)/2, because the only excluded unordered pairs are the n/2 zero-sum antipodal pairs.  Therefore R_centered <= (C(M,4)/M) * n(n-2)/2, where M=max_C m_C.  This is the quotient-compressed form of X44's max-shell criterion."
+}

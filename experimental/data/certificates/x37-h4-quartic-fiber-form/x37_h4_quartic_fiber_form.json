@@ -1,0 +1,152 @@
+{
+  "checks": 11,
+  "consequence": "The signed h=4 moment residue is also a degree-4 two-fiber problem.  Paid cyclic/dihedral cases are quartic pullbacks; any remaining branch is a primitive quartic with two split mu_n fibers.",
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x35_h4_power_sum_gate": "PROVED"
+  },
+  "examples": [
+    {
+      "P": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "P_elementary": [
+        0,
+        0,
+        0,
+        4992
+      ],
+      "P_locator_values_on_P": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_locator_values_on_Q": [
+        2458,
+        2458,
+        2458,
+        2458
+      ],
+      "Q": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "Q_elementary": [
+        0,
+        0,
+        0,
+        2534
+      ],
+      "fiber_constant_e4P_minus_e4Q": 2458,
+      "label": "mu4 baseline",
+      "n": 32,
+      "p": 4993,
+      "quartic_fiber_criterion_holds": true,
+      "same_top_three": true
+    },
+    {
+      "P": [
+        0,
+        2,
+        32,
+        34
+      ],
+      "P_elementary": [
+        0,
+        4723,
+        0,
+        269
+      ],
+      "P_locator_values_on_P": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_locator_values_on_Q": [
+        2545,
+        2545,
+        2545,
+        2545
+      ],
+      "Q": [
+        8,
+        21,
+        40,
+        53
+      ],
+      "Q_elementary": [
+        0,
+        4723,
+        0,
+        2717
+      ],
+      "fiber_constant_e4P_minus_e4Q": 2545,
+      "label": "antipodal quotient extra",
+      "n": 64,
+      "p": 4993,
+      "quartic_fiber_criterion_holds": true,
+      "same_top_three": true
+    },
+    {
+      "P": [
+        0,
+        1,
+        2,
+        17
+      ],
+      "P_elementary": [
+        270,
+        0,
+        2265,
+        2534
+      ],
+      "P_locator_values_on_P": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_locator_values_on_Q": [
+        731,
+        1884,
+        2473,
+        3667
+      ],
+      "Q": [
+        3,
+        8,
+        19,
+        21
+      ],
+      "Q_elementary": [
+        270,
+        322,
+        2440,
+        3657
+      ],
+      "fiber_constant_e4P_minus_e4Q": 3870,
+      "label": "top-level first-sum only nontrade",
+      "n": 32,
+      "p": 4993,
+      "quartic_fiber_criterion_holds": false,
+      "same_top_three": false
+    }
+  ],
+  "node": "active_core_count_bound",
+  "status": "PROVED REDUCTION: h=4 top-three trades are exactly two split fibers of a monic quartic locator",
+  "task": "X37 h=4 quartic-fiber form",
+  "theorem": "For disjoint 4-subsets P,Q over a field, e1,e2,e3 agree iff L_Q(X)=L_P(X)-c with c=e4(P)-e4(Q).  Equivalently, P is the zero fiber of the monic quartic L_P and Q is the c-fiber.  If P and Q are disjoint and top-three equal then c is nonzero.",
+  "tiny_exhaustion": {
+    "checked_disjoint_pairs": 450450,
+    "mismatches": [],
+    "n": 16,
+    "p": 257
+  }
+}

@@ -1,0 +1,5671 @@
+{
+  "checks": 5,
+  "elapsed_seconds": 360.66776728630066,
+  "family": {
+    "antipodal_rows": [
+      {
+        "collision_groups": 97,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 12,
+          "mu4_full_fiber": 15
+        },
+        "p": 4993,
+        "raw_anchored_partner_pairs": 27
+      },
+      {
+        "collision_groups": 97,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 12,
+          "mu4_full_fiber": 15
+        },
+        "p": 7937,
+        "raw_anchored_partner_pairs": 27
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 10177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 11329,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 26177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 50177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 51137,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 65537,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 156353,
+        "raw_anchored_partner_pairs": 19
+      }
+    ],
+    "mode": "all primes n^2 < p <= n^3",
+    "n": 64,
+    "nonfingerprinted_rows": [],
+    "p_max": 261761,
+    "p_min": 4289,
+    "prime_count": 693,
+    "rows": [
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 4289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 4481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 4673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 4801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 97,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 12,
+          "mu4_full_fiber": 15
+        },
+        "p": 4993,
+        "raw_anchored_partner_pairs": 27
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 5441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 5569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 5953,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 6337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 6529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 6977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 7297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 7489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 7681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 7873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 97,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 12,
+          "mu4_full_fiber": 15
+        },
+        "p": 7937,
+        "raw_anchored_partner_pairs": 27
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 8513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 8641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 9281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 9473,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 9601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 9857,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 10177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 10369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 10433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 10753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 11329,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 11393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 11777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 11969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 12097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 12161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 12289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13249,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 13697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 14081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 14401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 14593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 14657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 15233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 15361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 15809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 15937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 16001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 16193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 17729,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 17921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 18049,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 18433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 19009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 19073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 19457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 19777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 19841,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 20161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 20353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 20929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 21121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 21313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 21377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 21569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 22273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 22721,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 23041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 23297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 23873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 24001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 25153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 25409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 25537,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 25601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 25793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 26113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 26177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 26497,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 26561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 26881,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 27073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 27329,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 27457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 28097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 28289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 29569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 29633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 29761,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 30529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 30593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 30977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 31489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 31873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 32257,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 32321,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 32833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 33409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 33601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 33857,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 34369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 35201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 35393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 35521,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 35969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 36097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 36161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 36353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 36929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 37057,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 37313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 37441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 37633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 37889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 38273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 38593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 38977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 39041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 39233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 39937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 40129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 40193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 40577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 40897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 40961,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 41281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 41729,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 42433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 42689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 43201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 43457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 43649,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 43777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 43969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 44417,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 45121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 45377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 45569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 45697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 45953,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 46273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 46337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 47041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 47297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 47681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 47809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 48193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 48449,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 49409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 49537,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 49921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 50177,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 50497,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 50753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 51137,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 51329,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 51521,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 51713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 52289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 52609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 52673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 53377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 53441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 53569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 53633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 54401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 54721,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 55681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 56897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 57089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 57601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 57793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 58049,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 58369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 59009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 59393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 60161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 60289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 60353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 60737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 61057,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 61121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 61441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 62017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 62081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 62273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 62401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 63361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 63617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 63809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 64513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 64577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 65089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 65537,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 65729,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 65921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 67073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 67777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 68161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 68737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 68993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 69313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 69697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 69761,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 70529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 70657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 70849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 70913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 71233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 71809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 72577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 74177,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 74561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 75329,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 75521,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 76289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 76481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 76673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 76801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 77249,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 77377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 77569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 77761,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 78017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 78401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 78593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 78721,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 78977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 79873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 80449,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 80513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 80833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 80897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 81281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 81409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 82241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 82561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 83009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 83137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 83777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 83969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 84481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 84673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 84737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 85121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 85313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 85889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 86017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 86209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 87041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 87553,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 88001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 88129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 88321,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 88513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 88897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 89153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 91009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 91393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 91457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 91841,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 91969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 92033,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 92353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 92737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 92801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 92993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 93377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 93761,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 93889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 94273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 94529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 94849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 95233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 95617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 95873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 96001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 96769,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 97729,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 98369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 98561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 98689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 99137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 99713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 100417,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 100609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 100673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 100801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 101377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 102337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 102593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 102913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 103553,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 103681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 104513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 105601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 106433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 106753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 107137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 107201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 107713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 107777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 108161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 108289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 108929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 109121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 109313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 109441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 110017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 110273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 110849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 110977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 112129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 112577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 113089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 113153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 113537,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 113921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 114113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 114689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 115201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 115777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 116929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 116993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 117889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 118081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 118273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 118529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 118913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 119233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 119297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 119489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 119617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 119809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 120193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 120577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 120641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 120833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 121921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 122497,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 122561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 122753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 123457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 124097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 124673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 125441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 126337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 126913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 127297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 127681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 127873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 128257,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 128321,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 128449,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 128833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 129089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 129281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 129793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 130241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 130369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 130817,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 131009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 131713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 131777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 131969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 132929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 133121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 133633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 133697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 134081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 134401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 134593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 135617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 135937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 136193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 136769,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 136897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 137089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 137153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 137537,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 138113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 138241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 138433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 138497,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 139201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 139393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 139457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 139969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 140417,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 140929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 141121,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 141697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 141761,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 142529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 142657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 143489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 143617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 143873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 144577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 144961,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 145601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 146369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 147073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 147137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 147457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 148609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 149057,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 149249,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 149377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 149441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 149953,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 150209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 150401,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 150721,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 151169,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 151553,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 151681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 151937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 152641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 152833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 152897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 153089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 153281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 153409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 154369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 154753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 155009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 155137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 155201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 155521,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 155777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 33,
+        "fingerprint_counts": {
+          "antipodal_h2_quotient_lift": 4,
+          "mu4_full_fiber": 15
+        },
+        "p": 156353,
+        "raw_anchored_partner_pairs": 19
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 157057,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 157889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 158017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 158209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 158657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 158849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159169,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159553,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 159937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 160001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 161281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 161729,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 161921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 162881,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 163393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 163841,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 165313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 165569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 166081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 166273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 166657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 166849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 167809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 167873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 168193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 168449,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 168769,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 169217,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 169409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 170369,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 170497,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 170689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 170881,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 171329,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 171713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 172097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 172673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 172801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 172993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 173249,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 174017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 174337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 174721,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 175361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 175873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 175937,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 176129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 176321,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 176641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 177217,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 177409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 177473,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 177601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 178561,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 178753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 178817,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 179393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 179969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 180097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 180161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 180289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 181889,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 182209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 182593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 182657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 183041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 183361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 183809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 184321,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 184577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 185089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 185153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 186049,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 186113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 186689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 187009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 187073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 187393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 188417,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 188609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 188801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 189377,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 189697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 190529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 190657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 190913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 191297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 192193,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 192833,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 192961,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 193153,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 193601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 193793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 194113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 195137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 195329,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 195457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 196033,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 196993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 197441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 197569,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 198017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 198337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 198529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 198593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 198977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 199489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 199873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 200257,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 200513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 201281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 201473,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 202049,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 202753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 202817,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 203393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 203713,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 203969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 204161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 204353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 204481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 205441,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 205633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 206081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 206209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 206273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 206593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 207041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 207169,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 208001,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 208129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 208513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 208577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 208961,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 209089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 209857,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 210113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 210241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 211073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 211457,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 211777,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 211969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 212161,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 212353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 212801,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 213953,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 214657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 214849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 214913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 215297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 215617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 215681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 216577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 216641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 217409,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 217793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 219649,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 220673,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 221953,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 222337,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 222913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 222977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 223361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 223681,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 224129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 224449,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 224513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 224897,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 225089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 225217,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 225601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 226241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 226433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 226753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 226817,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 227393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 228097,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 228353,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 228737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 228929,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 229249,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 230017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 230081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 230273,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 230849,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 230977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 231041,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 231169,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 231809,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 232129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 232513,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 232961,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 233921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 235009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 236609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 236737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 236993,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 237313,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 238081,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 238529,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 238657,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 239233,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 239297,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 239489,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 239873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 240257,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 240641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 240769,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 241537,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 241601,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 241793,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 241921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 242689,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 243073,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 243137,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 243521,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 244033,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 244481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 246017,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 246209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 246913,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 247553,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 247873,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 248257,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 248641,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 249089,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 249217,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 249857,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 250049,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 250433,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 250753,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 251201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 251393,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 251969,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 252289,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 252481,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 252737,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 253633,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 254209,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 254593,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 254977,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 255361,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 255617,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 256129,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 256577,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 257281,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 257473,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 257857,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 257921,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 258113,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 258241,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 259009,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 259201,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 259841,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 260417,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 260609,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 261697,
+        "raw_anchored_partner_pairs": 15
+      },
+      {
+        "collision_groups": 1,
+        "fingerprint_counts": {
+          "mu4_full_fiber": 15
+        },
+        "p": 261761,
+        "raw_anchored_partner_pairs": 15
+      }
+    ]
+  },
+  "node": "active_core_count_bound",
+  "status": "EXACT FINITE EVIDENCE: full n=64, h=4 window has no primitive residue; all exceptional-prime mass is antipodal quotient-paid",
+  "summary": {
+    "antipodal_primes": [
+      4993,
+      7937,
+      10177,
+      11329,
+      26177,
+      50177,
+      51137,
+      65537,
+      156353
+    ],
+    "n": 64,
+    "nonfingerprinted_count": 0,
+    "p_max": 261761,
+    "p_min": 4289,
+    "prime_count": 693
+  },
+  "task": "X22 h=4 n=64 full prime-window sweep"
+}

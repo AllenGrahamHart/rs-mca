@@ -1,0 +1,441 @@
+{
+  "actual_quartic_examples": [
+    {
+      "classifications": [
+        {
+          "a": 4992,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": true,
+          "direct_invariant": true,
+          "forbidden_shifted_exponents": [],
+          "nonzero_center_affine_residue": false,
+          "order": 2,
+          "shifted_coefficients_low_to_high": [
+            4992,
+            0,
+            0,
+            0,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": true
+        },
+        {
+          "a": 158,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": true,
+          "direct_invariant": true,
+          "forbidden_shifted_exponents": [],
+          "nonzero_center_affine_residue": false,
+          "order": 4,
+          "shifted_coefficients_low_to_high": [
+            4992,
+            0,
+            0,
+            0,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": true
+        }
+      ],
+      "coefficients": [
+        4992,
+        0,
+        0,
+        0,
+        1
+      ],
+      "hits": [
+        {
+          "a": 4992,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": true,
+          "direct_invariant": true,
+          "forbidden_shifted_exponents": [],
+          "nonzero_center_affine_residue": false,
+          "order": 2,
+          "shifted_coefficients_low_to_high": [
+            4992,
+            0,
+            0,
+            0,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": true
+        },
+        {
+          "a": 158,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": true,
+          "direct_invariant": true,
+          "forbidden_shifted_exponents": [],
+          "nonzero_center_affine_residue": false,
+          "order": 4,
+          "shifted_coefficients_low_to_high": [
+            4992,
+            0,
+            0,
+            0,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": true
+        }
+      ],
+      "label": "mu4 baseline",
+      "n": 32,
+      "p": 4993,
+      "support": [
+        0,
+        8,
+        16,
+        24
+      ]
+    },
+    {
+      "classifications": [
+        {
+          "a": 4992,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": false,
+          "direct_invariant": false,
+          "forbidden_shifted_exponents": [
+            1,
+            3
+          ],
+          "nonzero_center_affine_residue": false,
+          "order": 2,
+          "shifted_coefficients_low_to_high": [
+            2534,
+            2728,
+            0,
+            4723,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": false
+        },
+        {
+          "a": 158,
+          "a_fourth": 1,
+          "b": 0,
+          "center": 0,
+          "centered_power": false,
+          "direct_invariant": false,
+          "forbidden_shifted_exponents": [
+            1,
+            3
+          ],
+          "nonzero_center_affine_residue": false,
+          "order": 4,
+          "shifted_coefficients_low_to_high": [
+            2534,
+            2728,
+            0,
+            4723,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": false
+        },
+        {
+          "a": 4992,
+          "a_fourth": 1,
+          "b": 1,
+          "center": 2497,
+          "centered_power": false,
+          "direct_invariant": false,
+          "forbidden_shifted_exponents": [
+            1,
+            3
+          ],
+          "nonzero_center_affine_residue": false,
+          "order": 2,
+          "shifted_coefficients_low_to_high": [
+            2304,
+            2526,
+            2093,
+            4725,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": false
+        },
+        {
+          "a": 158,
+          "a_fourth": 1,
+          "b": 3,
+          "center": 2735,
+          "centered_power": false,
+          "direct_invariant": false,
+          "forbidden_shifted_exponents": [
+            1,
+            2,
+            3
+          ],
+          "nonzero_center_affine_residue": false,
+          "order": 4,
+          "shifted_coefficients_low_to_high": [
+            1272,
+            259,
+            815,
+            684,
+            1
+          ],
+          "translation": false,
+          "zero_center_cyclic_paid": false
+        }
+      ],
+      "coefficients": [
+        2534,
+        2728,
+        0,
+        4723,
+        1
+      ],
+      "hits": [],
+      "label": "top-level first-sum only nontrade",
+      "n": 32,
+      "p": 4993,
+      "support": [
+        0,
+        1,
+        2,
+        17
+      ]
+    }
+  ],
+  "centered_power_examples": [
+    {
+      "a": 96,
+      "a_fourth": 1,
+      "b": 10,
+      "center": 5,
+      "centered_power": true,
+      "coefficients": [
+        29,
+        12,
+        60,
+        77,
+        1
+      ],
+      "direct_invariant": true,
+      "forbidden_shifted_exponents": [],
+      "label": "order2 nonzero-center branch",
+      "nonzero_center_affine_residue": true,
+      "order": 2,
+      "shifted_coefficients_low_to_high": [
+        5,
+        0,
+        7,
+        0,
+        1
+      ],
+      "translation": false,
+      "zero_center_cyclic_paid": false
+    },
+    {
+      "a": 22,
+      "a_fourth": 1,
+      "b": 89,
+      "center": 5,
+      "centered_power": true,
+      "coefficients": [
+        48,
+        82,
+        53,
+        77,
+        1
+      ],
+      "direct_invariant": true,
+      "forbidden_shifted_exponents": [],
+      "label": "order4 nonzero-center branch",
+      "nonzero_center_affine_residue": true,
+      "order": 4,
+      "shifted_coefficients_low_to_high": [
+        5,
+        0,
+        0,
+        0,
+        1
+      ],
+      "translation": false,
+      "zero_center_cyclic_paid": false
+    },
+    {
+      "a": 4992,
+      "a_fourth": 1,
+      "b": 0,
+      "center": 0,
+      "centered_power": true,
+      "coefficients": [
+        5,
+        0,
+        7,
+        0,
+        1
+      ],
+      "direct_invariant": true,
+      "forbidden_shifted_exponents": [],
+      "label": "order2 zero-center paid branch",
+      "nonzero_center_affine_residue": false,
+      "order": 2,
+      "shifted_coefficients_low_to_high": [
+        5,
+        0,
+        7,
+        0,
+        1
+      ],
+      "translation": false,
+      "zero_center_cyclic_paid": true
+    },
+    {
+      "a": 158,
+      "a_fourth": 1,
+      "b": 0,
+      "center": 0,
+      "centered_power": true,
+      "coefficients": [
+        5,
+        0,
+        0,
+        0,
+        1
+      ],
+      "direct_invariant": true,
+      "forbidden_shifted_exponents": [],
+      "label": "order4 zero-center paid branch",
+      "nonzero_center_affine_residue": false,
+      "order": 4,
+      "shifted_coefficients_low_to_high": [
+        5,
+        0,
+        0,
+        0,
+        1
+      ],
+      "translation": false,
+      "zero_center_cyclic_paid": true
+    }
+  ],
+  "checks": 22,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x38_h4_exact_toral_line_classifier": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "status": "PROVED REFINEMENT: quartic affine-line factors are centered powers",
+  "task": "X39 h=4 affine-line normal form",
+  "theorem": "Let psi be a monic quartic over characteristic p>4.  If psi(aX+b)=psi(X) for a nonidentity affine map, then translations a=1,b!=0 are impossible.  For a!=1, with c=b/(1-a), the shifted polynomial psi(T+c) is invariant under T -> aT.  The leading term forces a^4=1, so ord(a) is 2 or 4, and all nonzero shifted exponents are multiples of ord(a).  Hence psi=Phi((X-c)^m), m in {2,4}.  The c=0 branch is cyclic-paid; the c!=0 branch is the named centered-power affine residue.",
+  "translation_checks": [
+    {
+      "a": 1,
+      "b": 1,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 97,
+      "translation": true,
+      "translation_top_x3_coefficient": 4
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 97,
+      "translation": true,
+      "translation_top_x3_coefficient": 8
+    },
+    {
+      "a": 1,
+      "b": 96,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 97,
+      "translation": true,
+      "translation_top_x3_coefficient": 93
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 4993,
+      "translation": true,
+      "translation_top_x3_coefficient": 4
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 4993,
+      "translation": true,
+      "translation_top_x3_coefficient": 8
+    },
+    {
+      "a": 1,
+      "b": 4992,
+      "coefficients": [
+        11,
+        13,
+        17,
+        19,
+        1
+      ],
+      "direct_invariant": false,
+      "normal_form": null,
+      "p": 4993,
+      "translation": true,
+      "translation_top_x3_coefficient": 4989
+    }
+  ]
+}

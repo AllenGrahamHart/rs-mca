@@ -1,0 +1,68 @@
+{
+  "algebra_checks": {
+    "field_p": 101,
+    "perturbed_obstructions": [
+      100,
+      0,
+      0,
+      0
+    ],
+    "trade_forced_root": [
+      70,
+      99,
+      56,
+      86,
+      73,
+      1
+    ],
+    "trade_lambda": 17,
+    "trade_obstructions": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "checks": 18,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x24_char0_dyadic_descent": "PROVED",
+    "x78_h5_square_shift_supports": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "sanity_rows": [
+    {
+      "n": 16,
+      "nonsquare_or_zero_lambda_supports": 0,
+      "nonzero_obstruction_supports": 8008,
+      "p": 17,
+      "samples": [],
+      "square_lambda_supports": 0,
+      "ten_support_count": 8008,
+      "zero_obstruction_supports": 0
+    },
+    {
+      "n": 16,
+      "nonsquare_or_zero_lambda_supports": 0,
+      "nonzero_obstruction_supports": 8008,
+      "p": 97,
+      "samples": [],
+      "square_lambda_supports": 0,
+      "ten_support_count": 8008,
+      "zero_obstruction_supports": 0
+    },
+    {
+      "n": 16,
+      "nonsquare_or_zero_lambda_supports": 0,
+      "nonzero_obstruction_supports": 8008,
+      "p": 257,
+      "samples": [],
+      "square_lambda_supports": 0,
+      "ten_support_count": 8008,
+      "zero_obstruction_supports": 0
+    }
+  ],
+  "status": "PROVED H5 MULTI-OBSTRUCTION GATE: FINITE TRADES FORCE FOUR LOW COEFFICIENTS TO VANISH",
+  "task": "X79 h=5 obstruction norm gate",
+  "theorem": "For a 10-support R in mu_n, the monic degree-five square root candidate for L_R+lambda is forced by the coefficients of degrees 10 through 5.  A finite h=5 trade can occur only if the four low coefficients X^1..X^4 of S_R^2-L_R vanish modulo the row prime and the constant discrepancy is a nonzero square.  Since X24 forbids characteristic-zero h=5 trades, every characteristic-p h=5 trade is p-specific: after clearing powers of two, p divides the cyclotomic norm of each nonzero obstruction."
+}

@@ -1,0 +1,63 @@
+{
+  "checks": 10,
+  "h4_rows": [
+    {
+      "bad_examples": [],
+      "h4_candidates_after_cyclotomic_descent": 1,
+      "n": 8
+    },
+    {
+      "bad_examples": [],
+      "h4_candidates_after_cyclotomic_descent": 6,
+      "n": 16
+    }
+  ],
+  "node": "active_core_count_bound",
+  "pair_sum_rows": [
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 1,
+      "m": 4,
+      "nontrivial_sum_collisions": 1,
+      "unordered_pairs": 6
+    },
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 6,
+      "m": 8,
+      "nontrivial_sum_collisions": 6,
+      "unordered_pairs": 28
+    },
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 28,
+      "m": 16,
+      "nontrivial_sum_collisions": 28,
+      "unordered_pairs": 120
+    },
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 120,
+      "m": 32,
+      "nontrivial_sum_collisions": 120,
+      "unordered_pairs": 496
+    },
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 496,
+      "m": 64,
+      "nontrivial_sum_collisions": 496,
+      "unordered_pairs": 2016
+    },
+    {
+      "bad_examples": [],
+      "expected_zero_sum_pair_collisions": 2016,
+      "m": 128,
+      "nontrivial_sum_collisions": 2016,
+      "unordered_pairs": 8128
+    }
+  ],
+  "status": "PROVED over characteristic zero: h=4 trades in mu_{2^s} are exactly mu4 full-fiber trades",
+  "task": "X23 h=4 characteristic-zero classifier",
+  "theorem": "If n=2^s and P,Q are disjoint 4-subsets of complex mu_n with equal first three elementary symmetric sums, then P and Q are full mu_4 fibers.  Finite-field antipodal quotient lifts are therefore p-specific reductions, not characteristic-zero trades."
+}

@@ -1,0 +1,131 @@
+{
+  "checks": 29,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x31_h2_quotient_norm_criterion": "PROVED",
+    "x41_h4_centered_norm_gate": "PROVED",
+    "x48_h4_centered_coset_shell_param": "PROVED",
+    "x52_h4_centered_field_uniformity": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "coset_shell_size_histogram": {
+        "7": 1
+      },
+      "direct_quartic_energy_bound": 560,
+      "direct_shell_size_histogram": {
+        "7": 16
+      },
+      "direct_shell_surplus_pairs": 336,
+      "forced_surplus_from_max_shell": 336,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_shell_size": 7,
+      "n": 16,
+      "p": 17,
+      "quotient_quartic_energy_bound": 560,
+      "quotient_shell_surplus_pairs": 336
+    },
+    {
+      "coset_shell_size_histogram": {
+        "10": 1,
+        "12": 1,
+        "9": 1
+      },
+      "direct_quartic_energy_bound": 53184,
+      "direct_shell_size_histogram": {
+        "10": 64,
+        "12": 64,
+        "9": 64
+      },
+      "direct_shell_surplus_pairs": 9408,
+      "forced_surplus_from_max_shell": 4224,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_shell_size": 12,
+      "n": 64,
+      "p": 193,
+      "quotient_quartic_energy_bound": 53184,
+      "quotient_shell_surplus_pairs": 9408
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 105,
+        "1": 14,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "6": 1
+      },
+      "direct_quartic_energy_bound": 1024,
+      "direct_shell_size_histogram": {
+        "1": 896,
+        "2": 128,
+        "3": 64,
+        "4": 64,
+        "6": 64
+      },
+      "direct_shell_surplus_pairs": 1664,
+      "forced_surplus_from_max_shell": 960,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_shell_size": 6,
+      "n": 64,
+      "p": 7937,
+      "quotient_quartic_energy_bound": 1024,
+      "quotient_shell_surplus_pairs": 1664
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 91,
+        "1": 36,
+        "2": 12,
+        "3": 1
+      },
+      "direct_quartic_energy_bound": 0,
+      "direct_shell_size_histogram": {
+        "1": 4608,
+        "2": 1536,
+        "3": 128
+      },
+      "direct_shell_surplus_pairs": 1920,
+      "forced_surplus_from_max_shell": 384,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_shell_size": 3,
+      "n": 128,
+      "p": 17921,
+      "quotient_quartic_energy_bound": 0,
+      "quotient_shell_surplus_pairs": 1920
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 250,
+        "1": 92,
+        "2": 12,
+        "3": 2,
+        "5": 1
+      },
+      "direct_quartic_energy_bound": 1280,
+      "direct_shell_size_histogram": {
+        "1": 23552,
+        "2": 3072,
+        "3": 512,
+        "5": 256
+      },
+      "direct_shell_surplus_pairs": 7168,
+      "forced_surplus_from_max_shell": 2560,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_shell_size": 5,
+      "n": 256,
+      "p": 91393,
+      "quotient_quartic_energy_bound": 1280,
+      "quotient_shell_surplus_pairs": 7168
+    }
+  ],
+  "status": "PROVED ACCOUNTING: CENTERED SHELL SURPLUS IS H2 NORM-GATE SURPLUS",
+  "task": "X54 h=4 shell-surplus norm-gate bridge",
+  "theorem": "For every nonzero pair-sum shell S_s of size m_s, each unordered choice of two distinct shell pairs gives a nonzero h=2 pair-sum collision.  Distinct pairs in one shell are automatically disjoint, and by X41 each such collision is non-Phi-descended and p-norm-gated. Therefore the h=2 norm-gate surplus in centered shells is exactly sum_{s != 0} C(m_s,2).  By X48/X52, m_s is constant on H-cosets, so this equals n * sum_C C(m_C,2)."
+}

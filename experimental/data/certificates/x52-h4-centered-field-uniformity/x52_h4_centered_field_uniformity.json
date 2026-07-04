@@ -1,0 +1,95 @@
+{
+  "checks": 36,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x48_h4_centered_coset_shell_param": "PROVED",
+    "x49_h4_centered_quotient_energy": "PROVED",
+    "x50_h4_centered_threshold": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "direct_shell_size_histogram": {
+        "1": 24
+      },
+      "exact_threshold": 10,
+      "expected_shell_mass": 3,
+      "field": "GF(5^2)",
+      "inconsistent_cosets": {},
+      "label": "GF25_mu8",
+      "max_shell_size": 1,
+      "n": 8,
+      "n_cubed": 512,
+      "nonzero_pair_sum_values": 24,
+      "p": 5,
+      "q": 25,
+      "quotient_cosets": 3,
+      "quotient_shell_mass": 3,
+      "quotient_shell_size_histogram": {
+        "1": 3
+      },
+      "x49_quotient_energy": 0,
+      "x50_bound_ceiling": 0,
+      "x50_bound_fraction": "0/1"
+    },
+    {
+      "direct_shell_size_histogram": {
+        "2": 32,
+        "3": 16
+      },
+      "exact_threshold": 11,
+      "expected_shell_mass": 7,
+      "field": "GF(7^2)",
+      "inconsistent_cosets": {},
+      "label": "GF49_mu16",
+      "max_shell_size": 3,
+      "n": 16,
+      "n_cubed": 4096,
+      "nonzero_pair_sum_values": 48,
+      "p": 7,
+      "q": 49,
+      "quotient_cosets": 3,
+      "quotient_shell_mass": 7,
+      "quotient_shell_size_histogram": {
+        "2": 2,
+        "3": 1
+      },
+      "x49_quotient_energy": 0,
+      "x50_bound_ceiling": 0,
+      "x50_bound_fraction": "0/1"
+    },
+    {
+      "direct_shell_size_histogram": {
+        "1": 48,
+        "2": 24,
+        "3": 24,
+        "4": 24
+      },
+      "exact_threshold": 12,
+      "expected_shell_mass": 11,
+      "field": "GF(11^2)",
+      "inconsistent_cosets": {},
+      "label": "GF121_mu24",
+      "max_shell_size": 4,
+      "n": 24,
+      "n_cubed": 13824,
+      "nonzero_pair_sum_values": 120,
+      "p": 11,
+      "q": 121,
+      "quotient_cosets": 5,
+      "quotient_shell_mass": 11,
+      "quotient_shell_size_histogram": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "x49_quotient_energy": 24,
+      "x50_bound_ceiling": 66,
+      "x50_bound_fraction": "66/1"
+    }
+  ],
+  "status": "PROVED FIELD-UNIFORM EXTENSION OF X48-X50",
+  "task": "X52 h=4 centered field-uniformity",
+  "theorem": "Let F be any field of odd characteristic and H <= F^* be cyclic of even order n. For s != 0, unordered H-pairs with sum s are in two-to-one correspondence with ratios r in H\\{1} satisfying 1+r in sH.  Hence shell sizes are constant on F^*/H-cosets.  If F is finite, the n-th power map has kernel H, so the quotient coset can be represented by s^n.  X49's quotient energy and X50's threshold are therefore field-uniform, not prime-field artifacts."
+}

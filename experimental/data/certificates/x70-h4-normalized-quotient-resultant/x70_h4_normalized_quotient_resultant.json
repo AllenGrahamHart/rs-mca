@@ -1,0 +1,1082 @@
+{
+  "checks": 28,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x62_h4_linear_norm_gate": "PROVED",
+    "x68_h4_norm_gate_certifier_keys": "PROVED",
+    "x69_h4_unit_anchor_normal_form": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "certifier_key_count": 19,
+      "diagonal_quotient_examples": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "normalized_member_count": 82,
+      "p": 17,
+      "quotient_identity_failures": [],
+      "quotient_l1_histogram": {
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 2,
+        "3": 16,
+        "4": 14,
+        "5": 12,
+        "6": 10,
+        "7": 6,
+        "8": 6,
+        "9": 4
+      },
+      "quotient_weight_histogram": {
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 2,
+        "3": 16,
+        "4": 14,
+        "5": 12,
+        "6": 10,
+        "7": 6,
+        "8": 6,
+        "9": 4
+      },
+      "removed_factor": "X-1",
+      "removed_resultant_abs": 2,
+      "sample_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_degree": 3,
+          "quotient_l1": 3,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "quotient_weight": 3
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            5,
+            11
+          ],
+          "quotient_degree": 10,
+          "quotient_l1": 7,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 7
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            6,
+            12
+          ],
+          "quotient_degree": 11,
+          "quotient_l1": 7,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 7
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            13,
+            15
+          ],
+          "quotient_degree": 14,
+          "quotient_l1": 3,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 3
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_degree": 4,
+          "quotient_l1": 4,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 4
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 133,
+      "diagonal_quotient_examples": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "normalized_member_count": 596,
+      "p": 193,
+      "quotient_identity_failures": [],
+      "quotient_l1_histogram": {
+        "10": 10,
+        "11": 12,
+        "12": 18,
+        "13": 8,
+        "14": 22,
+        "15": 16,
+        "16": 24,
+        "17": 22,
+        "18": 20,
+        "19": 12,
+        "20": 14,
+        "21": 18,
+        "22": 8,
+        "23": 14,
+        "24": 12,
+        "25": 10,
+        "26": 14,
+        "27": 8,
+        "28": 10,
+        "29": 12,
+        "3": 16,
+        "30": 10,
+        "31": 10,
+        "32": 8,
+        "33": 8,
+        "34": 8,
+        "35": 8,
+        "36": 8,
+        "37": 12,
+        "38": 10,
+        "39": 8,
+        "4": 14,
+        "40": 6,
+        "41": 10,
+        "42": 8,
+        "43": 10,
+        "44": 6,
+        "45": 4,
+        "46": 6,
+        "47": 8,
+        "48": 8,
+        "49": 10,
+        "5": 20,
+        "50": 4,
+        "51": 4,
+        "52": 4,
+        "53": 4,
+        "55": 2,
+        "56": 2,
+        "57": 2,
+        "59": 2,
+        "6": 26,
+        "7": 10,
+        "8": 12,
+        "9": 24
+      },
+      "quotient_weight_histogram": {
+        "10": 10,
+        "11": 12,
+        "12": 18,
+        "13": 8,
+        "14": 22,
+        "15": 16,
+        "16": 24,
+        "17": 22,
+        "18": 20,
+        "19": 12,
+        "20": 14,
+        "21": 18,
+        "22": 8,
+        "23": 14,
+        "24": 12,
+        "25": 10,
+        "26": 14,
+        "27": 8,
+        "28": 10,
+        "29": 12,
+        "3": 16,
+        "30": 10,
+        "31": 10,
+        "32": 8,
+        "33": 8,
+        "34": 8,
+        "35": 8,
+        "36": 8,
+        "37": 12,
+        "38": 10,
+        "39": 8,
+        "4": 14,
+        "40": 6,
+        "41": 10,
+        "42": 8,
+        "43": 10,
+        "44": 6,
+        "45": 4,
+        "46": 6,
+        "47": 8,
+        "48": 8,
+        "49": 10,
+        "5": 20,
+        "50": 4,
+        "51": 4,
+        "52": 4,
+        "53": 4,
+        "55": 2,
+        "56": 2,
+        "57": 2,
+        "59": 2,
+        "6": 26,
+        "7": 10,
+        "8": 12,
+        "9": 24
+      },
+      "removed_factor": "X-1",
+      "removed_resultant_abs": 2,
+      "sample_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "member": [
+            1,
+            2,
+            15
+          ],
+          "quotient_degree": 14,
+          "quotient_l1": 14,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 14
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "member": [
+            1,
+            6,
+            11
+          ],
+          "quotient_degree": 10,
+          "quotient_l1": 6,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 6
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "member": [
+            1,
+            50,
+            63
+          ],
+          "quotient_degree": 62,
+          "quotient_l1": 14,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 14
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "member": [
+            1,
+            54,
+            59
+          ],
+          "quotient_degree": 58,
+          "quotient_l1": 6,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 6
+        },
+        {
+          "key": [
+            1,
+            2,
+            44
+          ],
+          "member": [
+            1,
+            2,
+            44
+          ],
+          "quotient_degree": 43,
+          "quotient_l1": 43,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 43
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 23,
+      "diagonal_quotient_examples": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "normalized_member_count": 100,
+      "p": 7937,
+      "quotient_identity_failures": [],
+      "quotient_l1_histogram": {
+        "12": 4,
+        "13": 2,
+        "14": 4,
+        "20": 2,
+        "21": 2,
+        "22": 8,
+        "23": 6,
+        "24": 2,
+        "26": 2,
+        "27": 2,
+        "28": 4,
+        "29": 6,
+        "3": 16,
+        "30": 2,
+        "32": 4,
+        "33": 4,
+        "34": 4,
+        "36": 2,
+        "37": 2,
+        "4": 8,
+        "40": 2,
+        "42": 2,
+        "43": 2,
+        "45": 2,
+        "46": 2,
+        "6": 4
+      },
+      "quotient_weight_histogram": {
+        "12": 4,
+        "13": 2,
+        "14": 4,
+        "20": 2,
+        "21": 2,
+        "22": 8,
+        "23": 6,
+        "24": 2,
+        "26": 2,
+        "27": 2,
+        "28": 4,
+        "29": 6,
+        "3": 16,
+        "30": 2,
+        "32": 4,
+        "33": 4,
+        "34": 4,
+        "36": 2,
+        "37": 2,
+        "4": 8,
+        "40": 2,
+        "42": 2,
+        "43": 2,
+        "45": 2,
+        "46": 2,
+        "6": 4
+      },
+      "removed_factor": "X-1",
+      "removed_resultant_abs": 2,
+      "sample_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_degree": 3,
+          "quotient_l1": 3,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "quotient_weight": 3
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            21,
+            43
+          ],
+          "quotient_degree": 42,
+          "quotient_l1": 23,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 23
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            22,
+            44
+          ],
+          "quotient_degree": 43,
+          "quotient_l1": 23,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 23
+        },
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "member": [
+            1,
+            61,
+            63
+          ],
+          "quotient_degree": 62,
+          "quotient_l1": 3,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 3
+        },
+        {
+          "key": [
+            1,
+            2,
+            30
+          ],
+          "member": [
+            1,
+            2,
+            30
+          ],
+          "quotient_degree": 29,
+          "quotient_l1": 29,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 29
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 12,
+      "diagonal_quotient_examples": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "normalized_member_count": 52,
+      "p": 17921,
+      "quotient_identity_failures": [],
+      "quotient_l1_histogram": {
+        "10": 4,
+        "11": 8,
+        "15": 4,
+        "26": 4,
+        "31": 4,
+        "33": 4,
+        "42": 2,
+        "5": 4,
+        "55": 2,
+        "57": 2,
+        "58": 2,
+        "63": 2,
+        "67": 2,
+        "72": 2,
+        "73": 2,
+        "75": 2,
+        "88": 2
+      },
+      "quotient_weight_histogram": {
+        "10": 4,
+        "11": 8,
+        "15": 4,
+        "26": 4,
+        "31": 4,
+        "33": 4,
+        "42": 2,
+        "5": 4,
+        "55": 2,
+        "57": 2,
+        "58": 2,
+        "63": 2,
+        "67": 2,
+        "72": 2,
+        "73": 2,
+        "75": 2,
+        "88": 2
+      },
+      "removed_factor": "X-1",
+      "removed_resultant_abs": 2,
+      "sample_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "member": [
+            1,
+            2,
+            32
+          ],
+          "quotient_degree": 31,
+          "quotient_l1": 31,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 31
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "member": [
+            1,
+            33,
+            95
+          ],
+          "quotient_degree": 94,
+          "quotient_l1": 63,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 63
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "member": [
+            1,
+            34,
+            96
+          ],
+          "quotient_degree": 95,
+          "quotient_l1": 63,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 63
+        },
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "member": [
+            1,
+            97,
+            127
+          ],
+          "quotient_degree": 126,
+          "quotient_l1": 31,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 31
+        },
+        {
+          "key": [
+            1,
+            2,
+            34
+          ],
+          "member": [
+            1,
+            2,
+            34
+          ],
+          "quotient_degree": 33,
+          "quotient_l1": 33,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 33
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 22,
+      "diagonal_quotient_examples": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "normalized_member_count": 100,
+      "p": 91393,
+      "quotient_identity_failures": [],
+      "quotient_l1_histogram": {
+        "10": 8,
+        "101": 2,
+        "103": 2,
+        "104": 2,
+        "111": 2,
+        "127": 2,
+        "129": 2,
+        "131": 2,
+        "147": 2,
+        "154": 2,
+        "157": 2,
+        "170": 2,
+        "172": 2,
+        "224": 2,
+        "226": 2,
+        "252": 2,
+        "253": 2,
+        "3": 8,
+        "32": 2,
+        "34": 2,
+        "37": 4,
+        "4": 4,
+        "43": 4,
+        "45": 4,
+        "5": 2,
+        "52": 4,
+        "53": 4,
+        "57": 4,
+        "58": 8,
+        "6": 2,
+        "7": 4,
+        "86": 2,
+        "88": 2
+      },
+      "quotient_weight_histogram": {
+        "10": 8,
+        "101": 2,
+        "103": 2,
+        "104": 2,
+        "111": 2,
+        "127": 2,
+        "129": 2,
+        "131": 2,
+        "147": 2,
+        "154": 2,
+        "157": 2,
+        "170": 2,
+        "172": 2,
+        "224": 2,
+        "226": 2,
+        "252": 2,
+        "253": 2,
+        "3": 8,
+        "32": 2,
+        "34": 2,
+        "37": 4,
+        "4": 4,
+        "43": 4,
+        "45": 4,
+        "5": 2,
+        "52": 4,
+        "53": 4,
+        "57": 4,
+        "58": 8,
+        "6": 2,
+        "7": 4,
+        "86": 2,
+        "88": 2
+      },
+      "removed_factor": "X-1",
+      "removed_resultant_abs": 2,
+      "sample_quotients": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_degree": 4,
+          "quotient_l1": 4,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 4
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "member": [
+            1,
+            170,
+            85
+          ],
+          "quotient_degree": 169,
+          "quotient_l1": 86,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 86
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "member": [
+            1,
+            172,
+            87
+          ],
+          "quotient_degree": 171,
+          "quotient_l1": 86,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 86
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "member": [
+            1,
+            252,
+            255
+          ],
+          "quotient_degree": 254,
+          "quotient_l1": 4,
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "quotient_weight": 4
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "member": [
+            1,
+            2,
+            253
+          ],
+          "quotient_degree": 252,
+          "quotient_l1": 252,
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "quotient_weight": 252
+        }
+      ]
+    }
+  ],
+  "status": "PROVED CERTIFIER REDUCTION: NORMALIZED WORDS FACTOR BY X-1 WITH ONLY A 2-FACTOR RESULTANT",
+  "task": "X70 h=4 normalized quotient-resultant reduction",
+  "theorem": "For every X69 normalized word f_{r,s}=X+X^r-X^s-1, f_{r,s}(1)=0, so f_{r,s}=(X-1)q_{r,s} in Z[X].  For 2-power n, Phi_n(1)=2, hence Res(Phi_n,f_{r,s})=+/-2*Res(Phi_n,q_{r,s}).  Since row characteristic is odd, the p-specific norm-gate predicate is equivalent to p | Res(Phi_n,q_{r,s})."
+}

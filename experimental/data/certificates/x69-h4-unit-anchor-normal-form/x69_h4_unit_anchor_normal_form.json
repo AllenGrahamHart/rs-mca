@@ -1,0 +1,1008 @@
+{
+  "checks": 23,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x67_h4_galois_norm_gate_compression": "PROVED",
+    "x68_h4_norm_gate_certifier_keys": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "bad_normalized": [],
+      "certifier_key_count": 19,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_normalized_members_per_key": 8,
+      "min_normalized_members_per_key": 2,
+      "missing_normalized": [],
+      "n": 16,
+      "normalized_member_count_histogram": {
+        "2": 1,
+        "4": 16,
+        "8": 2
+      },
+      "normalized_pair_budget": 225,
+      "p": 17,
+      "sample_normalized_classes": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              1,
+              5,
+              11
+            ],
+            [
+              1,
+              6,
+              12
+            ],
+            [
+              1,
+              13,
+              15
+            ]
+          ],
+          "row_representatives": [
+            [
+              1,
+              5,
+              11
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              1,
+              10,
+              5
+            ],
+            [
+              1,
+              12,
+              7
+            ],
+            [
+              1,
+              12,
+              15
+            ]
+          ],
+          "row_representatives": [
+            [
+              1,
+              12,
+              15
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            6
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              6
+            ],
+            [
+              1,
+              3,
+              13
+            ],
+            [
+              1,
+              4,
+              14
+            ],
+            [
+              1,
+              11,
+              15
+            ]
+          ],
+          "row_representatives": [
+            [
+              1,
+              3,
+              13
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            7
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              7
+            ],
+            [
+              1,
+              6,
+              3
+            ],
+            [
+              1,
+              10,
+              15
+            ],
+            [
+              1,
+              14,
+              11
+            ]
+          ],
+          "row_representatives": [
+            [
+              1,
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            9
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              9
+            ],
+            [
+              1,
+              8,
+              15
+            ]
+          ],
+          "row_representatives": [
+            [
+              3,
+              6,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "bad_normalized": [],
+      "certifier_key_count": 133,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_normalized_members_per_key": 8,
+      "min_normalized_members_per_key": 2,
+      "missing_normalized": [],
+      "n": 64,
+      "normalized_member_count_histogram": {
+        "2": 2,
+        "4": 114,
+        "8": 17
+      },
+      "normalized_pair_budget": 3969,
+      "p": 193,
+      "sample_normalized_classes": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              15
+            ],
+            [
+              1,
+              6,
+              11
+            ],
+            [
+              1,
+              50,
+              63
+            ],
+            [
+              1,
+              54,
+              59
+            ]
+          ],
+          "row_representatives": [
+            [
+              2,
+              41,
+              23
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            44
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              44
+            ],
+            [
+              1,
+              21,
+              63
+            ],
+            [
+              1,
+              61,
+              3
+            ],
+            [
+              1,
+              62,
+              4
+            ]
+          ],
+          "row_representatives": [
+            [
+              15,
+              19,
+              45
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            51
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              51
+            ],
+            [
+              1,
+              14,
+              63
+            ],
+            [
+              1,
+              18,
+              35
+            ],
+            [
+              1,
+              30,
+              47
+            ]
+          ],
+          "row_representatives": [
+            [
+              2,
+              55,
+              9
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            54
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              54
+            ],
+            [
+              1,
+              11,
+              63
+            ],
+            [
+              1,
+              35,
+              29
+            ],
+            [
+              1,
+              36,
+              30
+            ]
+          ],
+          "row_representatives": [
+            [
+              13,
+              15,
+              51
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            10
+          ],
+          "normalized_members": [
+            [
+              1,
+              3,
+              10
+            ],
+            [
+              1,
+              7,
+              50
+            ],
+            [
+              1,
+              15,
+              58
+            ],
+            [
+              1,
+              19,
+              22
+            ],
+            [
+              1,
+              27,
+              18
+            ]
+          ],
+          "row_representatives": [
+            [
+              5,
+              35,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "bad_normalized": [],
+      "certifier_key_count": 23,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_normalized_members_per_key": 8,
+      "min_normalized_members_per_key": 2,
+      "missing_normalized": [],
+      "n": 64,
+      "normalized_member_count_histogram": {
+        "2": 2,
+        "4": 18,
+        "8": 3
+      },
+      "normalized_pair_budget": 3969,
+      "p": 7937,
+      "sample_normalized_classes": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              1,
+              21,
+              43
+            ],
+            [
+              1,
+              22,
+              44
+            ],
+            [
+              1,
+              61,
+              63
+            ]
+          ],
+          "row_representatives": [
+            [
+              5,
+              41,
+              23
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            30
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              30
+            ],
+            [
+              1,
+              11,
+              53
+            ],
+            [
+              1,
+              12,
+              54
+            ],
+            [
+              1,
+              35,
+              63
+            ]
+          ],
+          "row_representatives": [
+            [
+              4,
+              59,
+              50
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            6
+          ],
+          "normalized_members": [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              1,
+              23,
+              2
+            ],
+            [
+              1,
+              39,
+              14
+            ],
+            [
+              1,
+              43,
+              2
+            ],
+            [
+              1,
+              51,
+              26
+            ]
+          ],
+          "row_representatives": [
+            [
+              5,
+              23,
+              10
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "normalized_members": [
+            [
+              1,
+              4,
+              9
+            ],
+            [
+              1,
+              12,
+              25
+            ],
+            [
+              1,
+              40,
+              53
+            ],
+            [
+              1,
+              56,
+              61
+            ]
+          ],
+          "row_representatives": [
+            [
+              8,
+              13,
+              49
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            26
+          ],
+          "normalized_members": [
+            [
+              1,
+              4,
+              26
+            ],
+            [
+              1,
+              6,
+              42
+            ],
+            [
+              1,
+              23,
+              59
+            ],
+            [
+              1,
+              39,
+              61
+            ]
+          ],
+          "row_representatives": [
+            [
+              4,
+              17,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "bad_normalized": [],
+      "certifier_key_count": 12,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_normalized_members_per_key": 8,
+      "min_normalized_members_per_key": 4,
+      "missing_normalized": [],
+      "n": 128,
+      "normalized_member_count_histogram": {
+        "4": 11,
+        "8": 1
+      },
+      "normalized_pair_budget": 16129,
+      "p": 17921,
+      "sample_normalized_classes": [
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              32
+            ],
+            [
+              1,
+              33,
+              95
+            ],
+            [
+              1,
+              34,
+              96
+            ],
+            [
+              1,
+              97,
+              127
+            ]
+          ],
+          "row_representatives": [
+            [
+              19,
+              38,
+              96
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            34
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              34
+            ],
+            [
+              1,
+              31,
+              97
+            ],
+            [
+              1,
+              32,
+              98
+            ],
+            [
+              1,
+              95,
+              127
+            ]
+          ],
+          "row_representatives": [
+            [
+              32,
+              38,
+              83
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            5,
+            15
+          ],
+          "normalized_members": [
+            [
+              1,
+              5,
+              15
+            ],
+            [
+              1,
+              77,
+              3
+            ],
+            [
+              1,
+              114,
+              124
+            ],
+            [
+              1,
+              126,
+              52
+            ]
+          ],
+          "row_representatives": [
+            [
+              9,
+              53,
+              27
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "normalized_members": [
+            [
+              1,
+              16,
+              25
+            ],
+            [
+              1,
+              88,
+              17
+            ],
+            [
+              1,
+              104,
+              113
+            ],
+            [
+              1,
+              112,
+              41
+            ]
+          ],
+          "row_representatives": [
+            [
+              16,
+              81,
+              105
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            16,
+            41
+          ],
+          "normalized_members": [
+            [
+              1,
+              16,
+              41
+            ],
+            [
+              1,
+              88,
+              113
+            ],
+            [
+              1,
+              104,
+              17
+            ],
+            [
+              1,
+              112,
+              25
+            ]
+          ],
+          "row_representatives": [
+            [
+              1,
+              112,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "bad_normalized": [],
+      "certifier_key_count": 22,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_normalized_members_per_key": 8,
+      "min_normalized_members_per_key": 4,
+      "missing_normalized": [],
+      "n": 256,
+      "normalized_member_count_histogram": {
+        "4": 19,
+        "8": 3
+      },
+      "normalized_pair_budget": 65025,
+      "p": 91393,
+      "sample_normalized_classes": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              1,
+              170,
+              85
+            ],
+            [
+              1,
+              172,
+              87
+            ],
+            [
+              1,
+              252,
+              255
+            ]
+          ],
+          "row_representatives": [
+            [
+              4,
+              67,
+              197
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "normalized_members": [
+            [
+              1,
+              2,
+              253
+            ],
+            [
+              1,
+              4,
+              255
+            ],
+            [
+              1,
+              52,
+              103
+            ],
+            [
+              1,
+              154,
+              205
+            ]
+          ],
+          "row_representatives": [
+            [
+              4,
+              69,
+              195
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            149
+          ],
+          "normalized_members": [
+            [
+              1,
+              3,
+              149
+            ],
+            [
+              1,
+              108,
+              254
+            ],
+            [
+              1,
+              122,
+              86
+            ],
+            [
+              1,
+              171,
+              135
+            ]
+          ],
+          "row_representatives": [
+            [
+              6,
+              220,
+              71
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            2
+          ],
+          "normalized_members": [
+            [
+              1,
+              4,
+              2
+            ],
+            [
+              1,
+              254,
+              2
+            ],
+            [
+              1,
+              255,
+              3
+            ],
+            [
+              1,
+              255,
+              253
+            ]
+          ],
+          "row_representatives": [
+            [
+              4,
+              65,
+              130
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            134
+          ],
+          "normalized_members": [
+            [
+              1,
+              4,
+              134
+            ],
+            [
+              1,
+              26,
+              78
+            ],
+            [
+              1,
+              123,
+              253
+            ],
+            [
+              1,
+              179,
+              231
+            ]
+          ],
+          "row_representatives": [
+            [
+              2,
+              69,
+              6
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "PROVED NORMAL FORM: EVERY PRIMITIVE CERTIFIER KEY HAS A REPRESENTATIVE (1,r,s)",
+  "task": "X69 h=4 unit-anchor normal form",
+  "theorem": "For n=2^s, content gcd(n,a,b,c)=1 implies at least one exponent is odd. The X64 chord transforms can place an odd exponent in the first coordinate; X67 unit scaling then sends it to 1.  Hence every primitive X68 norm-gate certifier key has a filtered content-one representative (1,r,s).  This reduces resultant enumeration to normalized pairs (r,s), while survivor row mass is still counted using X65."
+}

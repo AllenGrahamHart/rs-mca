@@ -1,0 +1,123 @@
+{
+  "checks": 9,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x24_char0_dyadic_descent": "PROVED",
+    "x25_h5_prime_window": "TEST",
+    "x30_finite_p_norm_gate": "PROVED"
+  },
+  "full_prime_window_rows": [
+    {
+      "collision_rows": 0,
+      "max_subset_count": 4368,
+      "n": 16,
+      "p_max": 4049,
+      "p_min": 257,
+      "prime_count": 61
+    },
+    {
+      "collision_rows": 0,
+      "max_subset_count": 201376,
+      "n": 32,
+      "p_max": 32609,
+      "p_min": 1153,
+      "prime_count": 212
+    }
+  ],
+  "node": "active_core_count_bound",
+  "selected_empty_rows": [
+    {
+      "collision_groups": 0,
+      "exponent": "2",
+      "label": "n32_alpha_2",
+      "n": 32,
+      "p": 1153,
+      "subset_count": 201376
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "9/4",
+      "label": "n32_alpha_9_4",
+      "n": 32,
+      "p": 2593,
+      "subset_count": 201376
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "5/2",
+      "label": "n32_alpha_5_2",
+      "n": 32,
+      "p": 5857,
+      "subset_count": 201376
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "3",
+      "label": "n32_alpha_3",
+      "n": 32,
+      "p": 32801,
+      "subset_count": 201376
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "2",
+      "label": "n64_alpha_2",
+      "n": 64,
+      "p": 4289,
+      "subset_count": 7624512
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "9/4",
+      "label": "n64_alpha_9_4",
+      "n": 64,
+      "p": 11777,
+      "subset_count": 7624512
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "5/2",
+      "label": "n64_alpha_5_2",
+      "n": 64,
+      "p": 32833,
+      "subset_count": 7624512
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "11/4",
+      "label": "n64_alpha_11_4",
+      "n": 64,
+      "p": 92737,
+      "subset_count": 7624512
+    },
+    {
+      "collision_groups": 0,
+      "exponent": "3",
+      "label": "n64_alpha_3",
+      "n": 64,
+      "p": 262337,
+      "subset_count": 7624512
+    }
+  ],
+  "status": "PROVED REDUCTION + FINITE EVIDENCE: H5 TRADES ARE FIRST-LEVEL P-SPECIFIC NORM GATES; CHECKED WINDOWS ARE EMPTY",
+  "task": "X77 h=5 norm-gate reduction",
+  "theorem": "For h=5 on a 2-power row, the X30 dyadic descent branch is impossible because an antipodal union has even size.  X24 also proves characteristic-zero h=5 trades are empty.  Hence any finite-field h=5 trade must be a first-level p-specific sparse norm-gate event for the signed 5+5 first-sum word.  The X25 full n=16,32 boundary windows and X15 selected n=32,64 rows have no same-top-four collisions, so no such norm-gated h=5 trades occur in those checked scopes.",
+  "x30_odd_h_rows": [
+    {
+      "can_be_antipodal_union": false,
+      "h": 3
+    },
+    {
+      "can_be_antipodal_union": false,
+      "h": 5
+    },
+    {
+      "can_be_antipodal_union": false,
+      "h": 7
+    },
+    {
+      "can_be_antipodal_union": false,
+      "h": 9
+    }
+  ]
+}

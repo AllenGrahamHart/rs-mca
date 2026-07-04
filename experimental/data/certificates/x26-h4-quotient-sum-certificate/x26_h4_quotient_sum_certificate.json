@@ -1,0 +1,1382 @@
+{
+  "checks": 10,
+  "families": [
+    {
+      "extra_rows": [],
+      "n": 16,
+      "p_max": 4049,
+      "p_min": 257,
+      "prime_count": 61,
+      "quotient_m": 8,
+      "zero_sum_baseline": 3
+    },
+    {
+      "extra_rows": [],
+      "n": 32,
+      "p_max": 32609,
+      "p_min": 1153,
+      "prime_count": 212,
+      "quotient_m": 16,
+      "zero_sum_baseline": 7
+    },
+    {
+      "extra_rows": [
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                2
+              ],
+              "Q_quotient_exponents": [
+                8,
+                21
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                3
+              ],
+              "Q_quotient_exponents": [
+                6,
+                14
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                5
+              ],
+              "Q_quotient_exponents": [
+                8,
+                18
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                8
+              ],
+              "Q_quotient_exponents": [
+                26,
+                29
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                10
+              ],
+              "Q_quotient_exponents": [
+                24,
+                29
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                13
+              ],
+              "Q_quotient_exponents": [
+                24,
+                26
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 12,
+          "m": 32,
+          "p": 4993,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 12,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 27,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                2
+              ],
+              "Q_quotient_exponents": [
+                25,
+                30
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                5
+              ],
+              "Q_quotient_exponents": [
+                7,
+                9
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                7
+              ],
+              "Q_quotient_exponents": [
+                14,
+                28
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                9
+              ],
+              "Q_quotient_exponents": [
+                18,
+                30
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                12
+              ],
+              "Q_quotient_exponents": [
+                14,
+                23
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                14
+              ],
+              "Q_quotient_exponents": [
+                18,
+                25
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 12,
+          "m": 32,
+          "p": 7937,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 12,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 27,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                3
+              ],
+              "Q_quotient_exponents": [
+                12,
+                19
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                7
+              ],
+              "Q_quotient_exponents": [
+                20,
+                23
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 10177,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                9
+              ],
+              "Q_quotient_exponents": [
+                15,
+                25
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                10
+              ],
+              "Q_quotient_exponents": [
+                17,
+                26
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 11329,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                1
+              ],
+              "Q_quotient_exponents": [
+                13,
+                17
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                4
+              ],
+              "Q_quotient_exponents": [
+                19,
+                20
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 26177,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                3
+              ],
+              "Q_quotient_exponents": [
+                19,
+                31
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                12
+              ],
+              "Q_quotient_exponents": [
+                13,
+                16
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 50177,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                1
+              ],
+              "Q_quotient_exponents": [
+                16,
+                23
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                7
+              ],
+              "Q_quotient_exponents": [
+                16,
+                17
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 51137,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                5
+              ],
+              "Q_quotient_exponents": [
+                21,
+                27
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                6
+              ],
+              "Q_quotient_exponents": [
+                11,
+                16
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 65537,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        },
+        {
+          "examples": [
+            {
+              "P_quotient_exponents": [
+                0,
+                10
+              ],
+              "Q_quotient_exponents": [
+                16,
+                27
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                11
+              ],
+              "Q_quotient_exponents": [
+                16,
+                26
+              ],
+              "reason": "extra_antipodal_quotient_lift"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                1,
+                17
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                2,
+                18
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                3,
+                19
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                4,
+                20
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                5,
+                21
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                6,
+                22
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                7,
+                23
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                8,
+                24
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                9,
+                25
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            },
+            {
+              "P_quotient_exponents": [
+                0,
+                16
+              ],
+              "Q_quotient_exponents": [
+                10,
+                26
+              ],
+              "reason": "zero_sum_mu4_full_fiber"
+            }
+          ],
+          "extra_antipodal_quotient_lifts": 4,
+          "m": 32,
+          "p": 156353,
+          "reason_counts": {
+            "extra_antipodal_quotient_lift": 4,
+            "zero_sum_mu4_full_fiber": 15
+          },
+          "total_anchored_quotient_collisions": 19,
+          "zero_sum_baseline": 15
+        }
+      ],
+      "n": 64,
+      "p_max": 261761,
+      "p_min": 4289,
+      "prime_count": 693,
+      "quotient_m": 32,
+      "zero_sum_baseline": 15
+    }
+  ],
+  "node": "active_core_count_bound",
+  "status": "EXACT FINITE CERTIFICATE: h=4 exceptional-prime mass is precisely quotient h=2 sum-collision mass",
+  "summary": {
+    "families": [
+      {
+        "extra_primes": {},
+        "n": 16,
+        "p_max": 4049,
+        "p_min": 257,
+        "prime_count": 61,
+        "quotient_m": 8,
+        "zero_sum_baseline": 3
+      },
+      {
+        "extra_primes": {},
+        "n": 32,
+        "p_max": 32609,
+        "p_min": 1153,
+        "prime_count": 212,
+        "quotient_m": 16,
+        "zero_sum_baseline": 7
+      },
+      {
+        "extra_primes": {
+          "10177": 4,
+          "11329": 4,
+          "156353": 4,
+          "26177": 4,
+          "4993": 12,
+          "50177": 4,
+          "51137": 4,
+          "65537": 4,
+          "7937": 12
+        },
+        "n": 64,
+        "p_max": 261761,
+        "p_min": 4289,
+        "prime_count": 693,
+        "quotient_m": 32,
+        "zero_sum_baseline": 15
+      }
+    ]
+  },
+  "task": "X26 h=4 quotient-sum certificate"
+}

@@ -1,0 +1,83 @@
+{
+  "checks": 25,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x56_h2_anchored_surplus_currency": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "anchored_nonzero_h2_surplus": 84,
+      "diagonal_target_count": 14,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "normal_form": "A = (I - D - 2(n-2))/2",
+      "p": 17,
+      "reduced_ordered_incidence": 168,
+      "shifted_ordered_incidence": 210,
+      "source_pair_ordered_trivial_count": 28,
+      "x56_anchored_barrier": 264,
+      "x56_barrier_margin": 180
+    },
+    {
+      "anchored_nonzero_h2_surplus": 588,
+      "diagonal_target_count": 20,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "normal_form": "A = (I - D - 2(n-2))/2",
+      "p": 193,
+      "reduced_ordered_incidence": 1176,
+      "shifted_ordered_incidence": 1320,
+      "source_pair_ordered_trivial_count": 124,
+      "x56_anchored_barrier": 544,
+      "x56_barrier_margin": -44
+    },
+    {
+      "anchored_nonzero_h2_surplus": 104,
+      "diagonal_target_count": 4,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "normal_form": "A = (I - D - 2(n-2))/2",
+      "p": 7937,
+      "reduced_ordered_incidence": 208,
+      "shifted_ordered_incidence": 336,
+      "source_pair_ordered_trivial_count": 124,
+      "x56_anchored_barrier": 544,
+      "x56_barrier_margin": 440
+    },
+    {
+      "anchored_nonzero_h2_surplus": 60,
+      "diagonal_target_count": 0,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "normal_form": "A = (I - D - 2(n-2))/2",
+      "p": 17921,
+      "reduced_ordered_incidence": 120,
+      "shifted_ordered_incidence": 372,
+      "source_pair_ordered_trivial_count": 252,
+      "x56_anchored_barrier": 840,
+      "x56_barrier_margin": 780
+    },
+    {
+      "anchored_nonzero_h2_surplus": 112,
+      "diagonal_target_count": 2,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "normal_form": "A = (I - D - 2(n-2))/2",
+      "p": 91393,
+      "reduced_ordered_incidence": 224,
+      "shifted_ordered_incidence": 734,
+      "source_pair_ordered_trivial_count": 508,
+      "x56_anchored_barrier": 1300,
+      "x56_barrier_margin": 1188
+    }
+  ],
+  "status": "PROVED EXACT REDUCED-ENERGY IDENTITY",
+  "task": "X58 h=4 reduced additive energy normal form",
+  "theorem": "For H=mu_n and anchored source pair {1,a}, ordered targets (b,c) with 1+a=b+c split into the two ordered copies of the source pair, possible diagonal targets b=c, and two ordered copies of each valid disjoint target pair.  Summing over a in H\\{1,-1} gives A_anchor_surplus = (I - D - 2(n-2))/2."
+}

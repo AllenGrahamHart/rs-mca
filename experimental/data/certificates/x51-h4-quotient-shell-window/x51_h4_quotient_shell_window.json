@@ -1,0 +1,168 @@
+{
+  "checks": 31,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x48_h4_centered_coset_shell_param": "PROVED",
+    "x50_h4_centered_threshold": "PROVED"
+  },
+  "method": "For each prime p == 1 mod n with n^2 < p <= n^3, compute H=mu_n and count quotient cosets by the invariant (1+r)^n for r in H, excluding r=1 and r=-1.  The shell size is half the largest quotient ratio count.  This is exactly X48's shifted-subgroup shell statistic.",
+  "node": "active_core_count_bound",
+  "status": "EXACT TEST: FULL BOUNDARY WINDOWS THROUGH n=512",
+  "task": "X51 h=4 quotient-shell boundary-window census",
+  "windows": [
+    {
+      "average_hit_cosets_denominator": 212,
+      "average_hit_cosets_numerator": 3129,
+      "cube_root_sufficient_threshold_floor_48n": 11,
+      "exact_threshold": 13,
+      "mass_failures": [],
+      "max_hit_cosets": 15,
+      "max_shell_row_count": 2,
+      "max_shell_rows": [
+        1217,
+        2113
+      ],
+      "max_shell_size": 3,
+      "min_hit_cosets": 10,
+      "n": 32,
+      "odd_bucket_failures": [],
+      "odd_ratio_bucket_total": 0,
+      "p_range": [
+        1024,
+        32768
+      ],
+      "prime_count": 212,
+      "shell_size_histogram": {
+        "1": 193,
+        "2": 17,
+        "3": 2
+      },
+      "threshold_violations": []
+    },
+    {
+      "average_hit_cosets_denominator": 693,
+      "average_hit_cosets_numerator": 21167,
+      "cube_root_sufficient_threshold_floor_48n": 14,
+      "exact_threshold": 16,
+      "mass_failures": [],
+      "max_hit_cosets": 31,
+      "max_shell_row_count": 1,
+      "max_shell_rows": [
+        7937
+      ],
+      "max_shell_size": 6,
+      "min_hit_cosets": 19,
+      "n": 64,
+      "odd_bucket_failures": [],
+      "odd_ratio_bucket_total": 0,
+      "p_range": [
+        4096,
+        262144
+      ],
+      "prime_count": 693,
+      "shell_size_histogram": {
+        "1": 610,
+        "2": 57,
+        "3": 22,
+        "4": 3,
+        "6": 1
+      },
+      "threshold_violations": []
+    },
+    {
+      "average_hit_cosets_denominator": 2411,
+      "average_hit_cosets_numerator": 150586,
+      "cube_root_sufficient_threshold_floor_48n": 18,
+      "exact_threshold": 20,
+      "mass_failures": [],
+      "max_hit_cosets": 63,
+      "max_shell_row_count": 3,
+      "max_shell_rows": [
+        65537,
+        665857,
+        697601
+      ],
+      "max_shell_size": 4,
+      "min_hit_cosets": 46,
+      "n": 128,
+      "odd_bucket_failures": [],
+      "odd_ratio_bucket_total": 0,
+      "p_range": [
+        16384,
+        2097152
+      ],
+      "prime_count": 2411,
+      "shell_size_histogram": {
+        "1": 2073,
+        "2": 287,
+        "3": 48,
+        "4": 3
+      },
+      "threshold_violations": []
+    },
+    {
+      "average_hit_cosets_denominator": 8383,
+      "average_hit_cosets_numerator": 1058497,
+      "cube_root_sufficient_threshold_floor_48n": 23,
+      "exact_threshold": 25,
+      "mass_failures": [],
+      "max_hit_cosets": 127,
+      "max_shell_row_count": 1,
+      "max_shell_rows": [
+        91393
+      ],
+      "max_shell_size": 5,
+      "min_hit_cosets": 92,
+      "n": 256,
+      "odd_bucket_failures": [],
+      "odd_ratio_bucket_total": 0,
+      "p_range": [
+        65536,
+        16777216
+      ],
+      "prime_count": 8383,
+      "shell_size_histogram": {
+        "1": 7058,
+        "2": 1162,
+        "3": 147,
+        "4": 15,
+        "5": 1
+      },
+      "threshold_violations": []
+    },
+    {
+      "average_hit_cosets_denominator": 29774,
+      "average_hit_cosets_numerator": 7567129,
+      "cube_root_sufficient_threshold_floor_48n": 29,
+      "exact_threshold": 31,
+      "mass_failures": [],
+      "max_hit_cosets": 255,
+      "max_shell_row_count": 5,
+      "max_shell_rows": [
+        265729,
+        285697,
+        330241,
+        366593,
+        566273
+      ],
+      "max_shell_size": 5,
+      "min_hit_cosets": 193,
+      "n": 512,
+      "odd_bucket_failures": [],
+      "odd_ratio_bucket_total": 0,
+      "p_range": [
+        262144,
+        134217728
+      ],
+      "prime_count": 29774,
+      "shell_size_histogram": {
+        "1": 25066,
+        "2": 4273,
+        "3": 391,
+        "4": 39,
+        "5": 5
+      },
+      "threshold_violations": []
+    }
+  ]
+}

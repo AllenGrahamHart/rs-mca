@@ -1,0 +1,259 @@
+{
+  "checks": 36,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x60_h4_linear_triple_form": "PROVED",
+    "x63_h4_linear_content_descent": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "canonical_orbit_count": 21,
+      "content_histogram": {
+        "1": 160,
+        "2": 8
+      },
+      "filtered_linear_triple_count": 168,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "nonfree_examples": [],
+      "orbit_size_histogram": {
+        "8": 168
+      },
+      "p": 17,
+      "primitive_canonical_orbit_count": 20,
+      "primitive_content_one_count": 160,
+      "primitive_orbit_size_histogram": {
+        "8": 160
+      },
+      "quotient_descended_count": 8,
+      "sample_canonical_orbits": [
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          3,
+          13
+        ],
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          1,
+          5,
+          11
+        ],
+        [
+          1,
+          7,
+          4
+        ]
+      ]
+    },
+    {
+      "canonical_orbit_count": 147,
+      "content_histogram": {
+        "1": 1072,
+        "2": 104
+      },
+      "filtered_linear_triple_count": 1176,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "nonfree_examples": [],
+      "orbit_size_histogram": {
+        "8": 1176
+      },
+      "p": 193,
+      "primitive_canonical_orbit_count": 134,
+      "primitive_content_one_count": 1072,
+      "primitive_orbit_size_histogram": {
+        "8": 1072
+      },
+      "quotient_descended_count": 104,
+      "sample_canonical_orbits": [
+        [
+          1,
+          3,
+          49
+        ],
+        [
+          1,
+          10,
+          52
+        ],
+        [
+          1,
+          16,
+          8
+        ],
+        [
+          1,
+          17,
+          35
+        ],
+        [
+          1,
+          19,
+          4
+        ]
+      ]
+    },
+    {
+      "canonical_orbit_count": 26,
+      "content_histogram": {
+        "1": 184,
+        "2": 24
+      },
+      "filtered_linear_triple_count": 208,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "nonfree_examples": [],
+      "orbit_size_histogram": {
+        "8": 208
+      },
+      "p": 7937,
+      "primitive_canonical_orbit_count": 23,
+      "primitive_content_one_count": 184,
+      "primitive_orbit_size_histogram": {
+        "8": 184
+      },
+      "quotient_descended_count": 24,
+      "sample_canonical_orbits": [
+        [
+          1,
+          41,
+          10
+        ],
+        [
+          1,
+          42,
+          9
+        ],
+        [
+          1,
+          46,
+          14
+        ],
+        [
+          4,
+          9,
+          22
+        ],
+        [
+          4,
+          17,
+          58
+        ]
+      ]
+    },
+    {
+      "canonical_orbit_count": 15,
+      "content_histogram": {
+        "1": 96,
+        "2": 24
+      },
+      "filtered_linear_triple_count": 120,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "nonfree_examples": [],
+      "orbit_size_histogram": {
+        "8": 120
+      },
+      "p": 17921,
+      "primitive_canonical_orbit_count": 12,
+      "primitive_content_one_count": 96,
+      "primitive_orbit_size_histogram": {
+        "8": 96
+      },
+      "quotient_descended_count": 24,
+      "sample_canonical_orbits": [
+        [
+          1,
+          89,
+          48
+        ],
+        [
+          1,
+          112,
+          25
+        ],
+        [
+          6,
+          8,
+          109
+        ],
+        [
+          6,
+          45,
+          72
+        ],
+        [
+          8,
+          45,
+          70
+        ]
+      ]
+    },
+    {
+      "canonical_orbit_count": 28,
+      "content_histogram": {
+        "1": 176,
+        "2": 48
+      },
+      "filtered_linear_triple_count": 224,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "nonfree_examples": [],
+      "orbit_size_histogram": {
+        "8": 224
+      },
+      "p": 91393,
+      "primitive_canonical_orbit_count": 22,
+      "primitive_content_one_count": 176,
+      "primitive_orbit_size_histogram": {
+        "8": 176
+      },
+      "quotient_descended_count": 48,
+      "sample_canonical_orbits": [
+        [
+          2,
+          4,
+          193
+        ],
+        [
+          2,
+          65,
+          132
+        ],
+        [
+          2,
+          69,
+          6
+        ],
+        [
+          2,
+          134,
+          197
+        ],
+        [
+          4,
+          59,
+          23
+        ]
+      ]
+    }
+  ],
+  "status": "PROVED ORBIT COMPRESSION: FILTERED LINEAR TRIPLES HAVE FREE EIGHTFOLD SYMMETRY",
+  "task": "X64 h=4 linear orbit compression",
+  "theorem": "The equation x+y=z+1 is an equality of unordered pairs {x,y} and {z,1}.  Swapping within pairs, swapping the two pairs, and renormalizing the chosen anchor to 1 gives eight exponent transforms.  The X60 filtered exclusions make the four points distinct and avoid the zero-sum stabilizer, so every filtered triple has orbit size 8.  The transforms are generated by subtracting one of a,b,c,0 and permuting roles, hence gcd(n,a,b,c) is invariant.  The X63 primitive residue can therefore be certified on canonical eight-orbit representatives."
+}

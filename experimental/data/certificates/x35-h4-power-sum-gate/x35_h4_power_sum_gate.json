@@ -1,0 +1,111 @@
+{
+  "checks": 15,
+  "consequence": "The h=4 top-level residue is a signed 8-sparse, 3-moment-null block.  It can be handled by the same sparse moment certifier architecture as x4b_moment_trade_exclusion, with signs and disjoint 4+4 support.",
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x33_h4_common_gcd_gate": "PROVED",
+    "x34_h4_staged_gcd_anatomy": "TEST",
+    "x4b_moment_trade_exclusion": "TARGET"
+  },
+  "gate_comparison_rows": [
+    {
+      "checked_top_level_patterns": 712,
+      "degree_pair_histogram": {
+        "0,0": 712
+      },
+      "mismatches": [],
+      "n": 16,
+      "p": 257
+    },
+    {
+      "checked_top_level_patterns": 19860,
+      "degree_pair_histogram": {
+        "0,0": 19860
+      },
+      "mismatches": [],
+      "n": 32,
+      "p": 4993
+    }
+  ],
+  "newton_examples": [
+    {
+      "elementary_signature": [
+        0,
+        0,
+        0
+      ],
+      "n": 32,
+      "p": 4993,
+      "power_signature": [
+        0,
+        0,
+        0
+      ],
+      "reconstructed_elementary_signature": [
+        0,
+        0,
+        0
+      ],
+      "support": [
+        0,
+        8,
+        16,
+        24
+      ]
+    },
+    {
+      "elementary_signature": [
+        270,
+        0,
+        2265
+      ],
+      "n": 32,
+      "p": 4993,
+      "power_signature": [
+        270,
+        2998,
+        2396
+      ],
+      "reconstructed_elementary_signature": [
+        270,
+        0,
+        2265
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        17
+      ]
+    },
+    {
+      "elementary_signature": [
+        53,
+        248,
+        212
+      ],
+      "n": 16,
+      "p": 257,
+      "power_signature": [
+        53,
+        0,
+        85
+      ],
+      "reconstructed_elementary_signature": [
+        53,
+        248,
+        212
+      ],
+      "support": [
+        0,
+        2,
+        4,
+        6
+      ]
+    }
+  ],
+  "node": "active_core_count_bound / x4b_moment_trade_exclusion",
+  "status": "PROVED REDUCTION: in characteristic > 3, h=4 top-three trades are exactly signed 8-sparse words with power sums 1,2,3 vanishing",
+  "task": "X35 h=4 power-sum gate",
+  "theorem": "Newton identities give e1=p1, 2e2=e1*p1-p2, and 3e3=p3-e1*p2+e2*p1.  Since p>3 at the terminal rows, equality of e1,e2,e3 for two 4-sets is equivalent to equality of p1,p2,p3. Therefore X33's gcd(Phi_n,E1,E2,E3) gate is equivalent to gcd(Phi_n,S1,S2,S3), where Sr is the signed power-sum word sum_{a in P} X^{ra}-sum_{b in Q} X^{rb}."
+}

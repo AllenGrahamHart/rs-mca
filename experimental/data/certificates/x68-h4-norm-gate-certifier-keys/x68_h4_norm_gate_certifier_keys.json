@@ -1,0 +1,484 @@
+{
+  "checks": 40,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x65_h4_linear_orbit_budget": "PROVED",
+    "x66_h4_norm_gate_orbit_invariance": "PROVED",
+    "x67_h4_galois_norm_gate_compression": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "certifier_class_size_histogram_on_row_reps": {
+        "1": 18,
+        "2": 1
+      },
+      "certifier_key_count": 19,
+      "key_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "p": 17,
+      "primitive_x64_representatives": 20,
+      "raw_certifier_orbit_size_histogram": {
+        "32": 1,
+        "64": 19
+      },
+      "raw_orbit_failures": [],
+      "row_rep_intersection_histogram_per_raw_certifier_orbit": {
+        "1": 18,
+        "2": 2
+      },
+      "row_representatives_merged": 1,
+      "sample_certifier_classes": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "row_representatives": [
+            [
+              1,
+              5,
+              11
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "row_representatives": [
+            [
+              1,
+              12,
+              15
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            6
+          ],
+          "row_representatives": [
+            [
+              1,
+              3,
+              13
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            7
+          ],
+          "row_representatives": [
+            [
+              1,
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            9
+          ],
+          "row_representatives": [
+            [
+              3,
+              6,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "certifier_class_size_histogram_on_row_reps": {
+        "1": 132,
+        "2": 1
+      },
+      "certifier_key_count": 133,
+      "key_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "p": 193,
+      "primitive_x64_representatives": 134,
+      "raw_certifier_orbit_size_histogram": {
+        "128": 3,
+        "256": 131
+      },
+      "raw_orbit_failures": [],
+      "row_rep_intersection_histogram_per_raw_certifier_orbit": {
+        "1": 132,
+        "2": 2
+      },
+      "row_representatives_merged": 1,
+      "sample_certifier_classes": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "row_representatives": [
+            [
+              2,
+              41,
+              23
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            44
+          ],
+          "row_representatives": [
+            [
+              15,
+              19,
+              45
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            51
+          ],
+          "row_representatives": [
+            [
+              2,
+              55,
+              9
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            54
+          ],
+          "row_representatives": [
+            [
+              13,
+              15,
+              51
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            10
+          ],
+          "row_representatives": [
+            [
+              5,
+              35,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "certifier_class_size_histogram_on_row_reps": {
+        "1": 23
+      },
+      "certifier_key_count": 23,
+      "key_failures": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "p": 7937,
+      "primitive_x64_representatives": 23,
+      "raw_certifier_orbit_size_histogram": {
+        "128": 3,
+        "256": 20
+      },
+      "raw_orbit_failures": [],
+      "row_rep_intersection_histogram_per_raw_certifier_orbit": {
+        "1": 23
+      },
+      "row_representatives_merged": 0,
+      "sample_certifier_classes": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "row_representatives": [
+            [
+              5,
+              41,
+              23
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            30
+          ],
+          "row_representatives": [
+            [
+              4,
+              59,
+              50
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            6
+          ],
+          "row_representatives": [
+            [
+              5,
+              23,
+              10
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "row_representatives": [
+            [
+              8,
+              13,
+              49
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            26
+          ],
+          "row_representatives": [
+            [
+              4,
+              17,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "certifier_class_size_histogram_on_row_reps": {
+        "1": 12
+      },
+      "certifier_key_count": 12,
+      "key_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "p": 17921,
+      "primitive_x64_representatives": 12,
+      "raw_certifier_orbit_size_histogram": {
+        "512": 12
+      },
+      "raw_orbit_failures": [],
+      "row_rep_intersection_histogram_per_raw_certifier_orbit": {
+        "1": 12
+      },
+      "row_representatives_merged": 0,
+      "sample_certifier_classes": [
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "row_representatives": [
+            [
+              19,
+              38,
+              96
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            34
+          ],
+          "row_representatives": [
+            [
+              32,
+              38,
+              83
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            5,
+            15
+          ],
+          "row_representatives": [
+            [
+              9,
+              53,
+              27
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "row_representatives": [
+            [
+              16,
+              81,
+              105
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            16,
+            41
+          ],
+          "row_representatives": [
+            [
+              1,
+              112,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "certifier_class_size_histogram_on_row_reps": {
+        "1": 22
+      },
+      "certifier_key_count": 22,
+      "key_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "p": 91393,
+      "primitive_x64_representatives": 22,
+      "raw_certifier_orbit_size_histogram": {
+        "1024": 22
+      },
+      "raw_orbit_failures": [],
+      "row_rep_intersection_histogram_per_raw_certifier_orbit": {
+        "1": 22
+      },
+      "row_representatives_merged": 0,
+      "sample_certifier_classes": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "row_representatives": [
+            [
+              4,
+              67,
+              197
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "row_representatives": [
+            [
+              4,
+              69,
+              195
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            3,
+            149
+          ],
+          "row_representatives": [
+            [
+              6,
+              220,
+              71
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            2
+          ],
+          "row_representatives": [
+            [
+              4,
+              65,
+              130
+            ]
+          ]
+        },
+        {
+          "key": [
+            1,
+            4,
+            134
+          ],
+          "row_representatives": [
+            [
+              2,
+              69,
+              6
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "PROVED CERTIFIER KEY: CHORD AND GALOIS ACTIONS SHARE RESULTANT PRIME SETS",
+  "task": "X68 h=4 norm-gate certifier keys",
+  "theorem": "Define K(a,b,c) as the lexicographically least word in the orbit generated by X64 chord transforms and unit exponent scaling.  X66 and X67 imply every word with the same key has the same cyclotomic resultant prime set.  The key is filtered and content-one whenever the input is.  This packages resultant computation; finite-row survivor mass must still be expanded using X65 primitive X64 representative counts.",
+  "warning": "The raw certifier orbit contains many exponent words that are not solutions for the fixed finite-field generator.  The key compresses resultant computation only, not row-count mass."
+}

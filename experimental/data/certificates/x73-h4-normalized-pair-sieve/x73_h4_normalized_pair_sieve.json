@@ -1,0 +1,1016 @@
+{
+  "checks": 42,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x68_h4_norm_gate_certifier_keys": "PROVED",
+    "x69_h4_unit_anchor_normal_form": "PROVED",
+    "x71_h4_interval_quotient_form": "PROVED",
+    "x72_h4_interval_xplus_strip": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "extra_sieve_keys": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "missing_replay_keys": [],
+      "n": 16,
+      "normalized_pair_candidate_count": 195,
+      "p": 17,
+      "primitive_root_unit_count": 8,
+      "rejected_normalized_pair_count": 113,
+      "replay_key_count": 19,
+      "replay_representatives_per_key_histogram": {
+        "1": 18,
+        "2": 1
+      },
+      "sample_survivors": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            6
+          ],
+          "length": 4,
+          "member": [
+            1,
+            2,
+            6
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            7
+          ],
+          "length": 5,
+          "member": [
+            1,
+            2,
+            7
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            9
+          ],
+          "length": 7,
+          "member": [
+            1,
+            2,
+            9
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        }
+      ],
+      "survivor_interval_sign_histogram": {
+        "negative": 40,
+        "positive": 42
+      },
+      "survivor_key_count": 19,
+      "survivor_length_histogram": {
+        "10": 4,
+        "11": 4,
+        "12": 2,
+        "2": 16,
+        "3": 14,
+        "4": 12,
+        "5": 10,
+        "6": 6,
+        "7": 6,
+        "8": 4,
+        "9": 4
+      },
+      "survivor_normalized_pair_count": 82,
+      "survivor_pairs_per_key_histogram": {
+        "2": 1,
+        "4": 16,
+        "8": 2
+      },
+      "survivor_xplus_strip_histogram": {
+        "no_xplus_strip": 60,
+        "xplus_strip": 22
+      }
+    },
+    {
+      "extra_sieve_keys": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "missing_replay_keys": [],
+      "n": 64,
+      "normalized_pair_candidate_count": 3843,
+      "p": 193,
+      "primitive_root_unit_count": 32,
+      "rejected_normalized_pair_count": 3247,
+      "replay_key_count": 133,
+      "replay_representatives_per_key_histogram": {
+        "1": 132,
+        "2": 1
+      },
+      "sample_survivors": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 13,
+          "member": [
+            1,
+            2,
+            15
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            44
+          ],
+          "length": 42,
+          "member": [
+            1,
+            2,
+            44
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            51
+          ],
+          "length": 49,
+          "member": [
+            1,
+            2,
+            51
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            54
+          ],
+          "length": 52,
+          "member": [
+            1,
+            2,
+            54
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            3,
+            10
+          ],
+          "length": 7,
+          "member": [
+            1,
+            3,
+            10
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 3,
+          "xminus_remainder": 0
+        }
+      ],
+      "survivor_interval_sign_histogram": {
+        "negative": 298,
+        "positive": 298
+      },
+      "survivor_key_count": 133,
+      "survivor_length_histogram": {
+        "10": 12,
+        "11": 18,
+        "12": 8,
+        "13": 22,
+        "14": 16,
+        "15": 24,
+        "16": 22,
+        "17": 20,
+        "18": 12,
+        "19": 14,
+        "2": 16,
+        "20": 18,
+        "21": 8,
+        "22": 14,
+        "23": 12,
+        "24": 10,
+        "25": 14,
+        "26": 8,
+        "27": 10,
+        "28": 12,
+        "29": 10,
+        "3": 14,
+        "30": 10,
+        "31": 8,
+        "32": 8,
+        "33": 8,
+        "34": 8,
+        "35": 8,
+        "36": 12,
+        "37": 10,
+        "38": 8,
+        "39": 6,
+        "4": 20,
+        "40": 10,
+        "41": 8,
+        "42": 10,
+        "43": 6,
+        "44": 4,
+        "45": 6,
+        "46": 8,
+        "47": 8,
+        "48": 10,
+        "49": 4,
+        "5": 26,
+        "50": 4,
+        "51": 4,
+        "52": 4,
+        "54": 2,
+        "55": 2,
+        "56": 2,
+        "58": 2,
+        "6": 10,
+        "7": 12,
+        "8": 24,
+        "9": 10
+      },
+      "survivor_normalized_pair_count": 596,
+      "survivor_pairs_per_key_histogram": {
+        "2": 2,
+        "4": 114,
+        "8": 17
+      },
+      "survivor_xplus_strip_histogram": {
+        "no_xplus_strip": 444,
+        "xplus_strip": 152
+      }
+    },
+    {
+      "extra_sieve_keys": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "missing_replay_keys": [],
+      "n": 64,
+      "normalized_pair_candidate_count": 3843,
+      "p": 7937,
+      "primitive_root_unit_count": 32,
+      "rejected_normalized_pair_count": 3743,
+      "replay_key_count": 23,
+      "replay_representatives_per_key_histogram": {
+        "1": 23
+      },
+      "sample_survivors": [
+        {
+          "key": [
+            1,
+            2,
+            4
+          ],
+          "length": 2,
+          "member": [
+            1,
+            2,
+            4
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            30
+          ],
+          "length": 28,
+          "member": [
+            1,
+            2,
+            30
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            3,
+            6
+          ],
+          "length": 3,
+          "member": [
+            1,
+            3,
+            6
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 3,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "length": 5,
+          "member": [
+            1,
+            4,
+            9
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 4,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            4,
+            26
+          ],
+          "length": 22,
+          "member": [
+            1,
+            4,
+            26
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 4,
+          "xminus_remainder": 0
+        }
+      ],
+      "survivor_interval_sign_histogram": {
+        "negative": 44,
+        "positive": 56
+      },
+      "survivor_key_count": 23,
+      "survivor_length_histogram": {
+        "11": 4,
+        "12": 2,
+        "13": 4,
+        "19": 2,
+        "2": 16,
+        "20": 2,
+        "21": 8,
+        "22": 6,
+        "23": 2,
+        "25": 2,
+        "26": 2,
+        "27": 4,
+        "28": 6,
+        "29": 2,
+        "3": 8,
+        "31": 4,
+        "32": 4,
+        "33": 4,
+        "35": 2,
+        "36": 2,
+        "39": 2,
+        "41": 2,
+        "42": 2,
+        "44": 2,
+        "45": 2,
+        "5": 4
+      },
+      "survivor_normalized_pair_count": 100,
+      "survivor_pairs_per_key_histogram": {
+        "2": 2,
+        "4": 18,
+        "8": 3
+      },
+      "survivor_xplus_strip_histogram": {
+        "no_xplus_strip": 72,
+        "xplus_strip": 28
+      }
+    },
+    {
+      "extra_sieve_keys": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "missing_replay_keys": [],
+      "n": 128,
+      "normalized_pair_candidate_count": 15875,
+      "p": 17921,
+      "primitive_root_unit_count": 64,
+      "rejected_normalized_pair_count": 15823,
+      "replay_key_count": 12,
+      "replay_representatives_per_key_histogram": {
+        "1": 12
+      },
+      "sample_survivors": [
+        {
+          "key": [
+            1,
+            2,
+            32
+          ],
+          "length": 30,
+          "member": [
+            1,
+            2,
+            32
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            34
+          ],
+          "length": 32,
+          "member": [
+            1,
+            2,
+            34
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            5,
+            15
+          ],
+          "length": 10,
+          "member": [
+            1,
+            5,
+            15
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 5,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "length": 9,
+          "member": [
+            1,
+            16,
+            25
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 16,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            16,
+            41
+          ],
+          "length": 25,
+          "member": [
+            1,
+            16,
+            41
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sign": "negative",
+          "start": 16,
+          "xminus_remainder": 0
+        }
+      ],
+      "survivor_interval_sign_histogram": {
+        "negative": 20,
+        "positive": 32
+      },
+      "survivor_key_count": 12,
+      "survivor_length_histogram": {
+        "10": 8,
+        "14": 4,
+        "25": 4,
+        "30": 4,
+        "32": 4,
+        "4": 4,
+        "41": 2,
+        "54": 2,
+        "56": 2,
+        "57": 2,
+        "62": 2,
+        "66": 2,
+        "71": 2,
+        "72": 2,
+        "74": 2,
+        "87": 2,
+        "9": 4
+      },
+      "survivor_normalized_pair_count": 52,
+      "survivor_pairs_per_key_histogram": {
+        "4": 11,
+        "8": 1
+      },
+      "survivor_xplus_strip_histogram": {
+        "no_xplus_strip": 44,
+        "xplus_strip": 8
+      }
+    },
+    {
+      "extra_sieve_keys": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "missing_replay_keys": [],
+      "n": 256,
+      "normalized_pair_candidate_count": 64515,
+      "p": 91393,
+      "primitive_root_unit_count": 128,
+      "rejected_normalized_pair_count": 64415,
+      "replay_key_count": 22,
+      "replay_representatives_per_key_histogram": {
+        "1": 22
+      },
+      "sample_survivors": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "length": 251,
+          "member": [
+            1,
+            2,
+            253
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            3,
+            149
+          ],
+          "length": 146,
+          "member": [
+            1,
+            3,
+            149
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 3,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            4,
+            2
+          ],
+          "length": 2,
+          "member": [
+            1,
+            4,
+            2
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "sign": "positive",
+          "start": 2,
+          "xminus_remainder": 0
+        },
+        {
+          "key": [
+            1,
+            4,
+            134
+          ],
+          "length": 130,
+          "member": [
+            1,
+            4,
+            134
+          ],
+          "quotient_prefix": [
+            1,
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "sign": "negative",
+          "start": 4,
+          "xminus_remainder": 0
+        }
+      ],
+      "survivor_interval_sign_histogram": {
+        "negative": 44,
+        "positive": 56
+      },
+      "survivor_key_count": 22,
+      "survivor_length_histogram": {
+        "100": 2,
+        "102": 2,
+        "103": 2,
+        "110": 2,
+        "126": 2,
+        "128": 2,
+        "130": 2,
+        "146": 2,
+        "153": 2,
+        "156": 2,
+        "169": 2,
+        "171": 2,
+        "2": 8,
+        "223": 2,
+        "225": 2,
+        "251": 2,
+        "252": 2,
+        "3": 4,
+        "31": 2,
+        "33": 2,
+        "36": 4,
+        "4": 2,
+        "42": 4,
+        "44": 4,
+        "5": 2,
+        "51": 4,
+        "52": 4,
+        "56": 4,
+        "57": 8,
+        "6": 4,
+        "85": 2,
+        "87": 2,
+        "9": 8
+      },
+      "survivor_normalized_pair_count": 100,
+      "survivor_pairs_per_key_histogram": {
+        "4": 19,
+        "8": 3
+      },
+      "survivor_xplus_strip_histogram": {
+        "no_xplus_strip": 76,
+        "xplus_strip": 24
+      }
+    }
+  ],
+  "status": "PROVED ROW-LOCAL CERTIFIER: COMPLETE NORMALIZED PAIR SIEVE MATCHES REPLAY KEYS",
+  "task": "X73 h=4 normalized pair sieve",
+  "theorem": "For p == 1 mod n, p not dividing n, Phi_n splits over F_p as the simple product over primitive n-th roots zeta^u.  Therefore a normalized word X+X^r-X^s-1 is p-norm-gated iff it vanishes at zeta^u for some unit u.  Enumerating every filtered normalized pair (1,r,s), applying this primitive-root test, and grouping survivors by the X68 key gives the complete row-local certifier key set.  In the replay rows this complete sieve matches exactly the keys obtained independently from finite-field X60 triples."
+}

@@ -1,0 +1,427 @@
+{
+  "checks": 34,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x62_h4_linear_norm_gate": "PROVED",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x65_h4_linear_orbit_budget": "PROVED",
+    "x66_h4_norm_gate_orbit_invariance": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "content_failures": [],
+      "factor_identity_checks": 160,
+      "factor_identity_failures": [],
+      "filter_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "nontrivial_unit_examples": [
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "scaled": [
+            3,
+            6,
+            5
+          ],
+          "u": 3
+        },
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "scaled": [
+            5,
+            10,
+            3
+          ],
+          "u": 5
+        },
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "scaled": [
+            7,
+            14,
+            1
+          ],
+          "u": 7
+        },
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "scaled": [
+            9,
+            2,
+            15
+          ],
+          "u": 9
+        },
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "scaled": [
+            11,
+            6,
+            13
+          ],
+          "u": 11
+        }
+      ],
+      "p": 17,
+      "primitive_canonical_representatives": 20,
+      "unit_count": 8,
+      "unit_orbit_size_histogram": {
+        "8": 20
+      }
+    },
+    {
+      "content_failures": [],
+      "factor_identity_checks": 4288,
+      "factor_identity_failures": [],
+      "filter_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "nontrivial_unit_examples": [
+        {
+          "rep": [
+            1,
+            3,
+            49
+          ],
+          "scaled": [
+            3,
+            9,
+            19
+          ],
+          "u": 3
+        },
+        {
+          "rep": [
+            1,
+            3,
+            49
+          ],
+          "scaled": [
+            5,
+            15,
+            53
+          ],
+          "u": 5
+        },
+        {
+          "rep": [
+            1,
+            3,
+            49
+          ],
+          "scaled": [
+            7,
+            21,
+            23
+          ],
+          "u": 7
+        },
+        {
+          "rep": [
+            1,
+            3,
+            49
+          ],
+          "scaled": [
+            9,
+            27,
+            57
+          ],
+          "u": 9
+        },
+        {
+          "rep": [
+            1,
+            3,
+            49
+          ],
+          "scaled": [
+            11,
+            33,
+            27
+          ],
+          "u": 11
+        }
+      ],
+      "p": 193,
+      "primitive_canonical_representatives": 134,
+      "unit_count": 32,
+      "unit_orbit_size_histogram": {
+        "32": 134
+      }
+    },
+    {
+      "content_failures": [],
+      "factor_identity_checks": 736,
+      "factor_identity_failures": [],
+      "filter_failures": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "nontrivial_unit_examples": [
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "scaled": [
+            3,
+            59,
+            30
+          ],
+          "u": 3
+        },
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "scaled": [
+            5,
+            13,
+            50
+          ],
+          "u": 5
+        },
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "scaled": [
+            7,
+            31,
+            6
+          ],
+          "u": 7
+        },
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "scaled": [
+            9,
+            49,
+            26
+          ],
+          "u": 9
+        },
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "scaled": [
+            11,
+            3,
+            46
+          ],
+          "u": 11
+        }
+      ],
+      "p": 7937,
+      "primitive_canonical_representatives": 23,
+      "unit_count": 32,
+      "unit_orbit_size_histogram": {
+        "32": 23
+      }
+    },
+    {
+      "content_failures": [],
+      "factor_identity_checks": 768,
+      "factor_identity_failures": [],
+      "filter_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "nontrivial_unit_examples": [
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "scaled": [
+            3,
+            11,
+            16
+          ],
+          "u": 3
+        },
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "scaled": [
+            5,
+            61,
+            112
+          ],
+          "u": 5
+        },
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "scaled": [
+            7,
+            111,
+            80
+          ],
+          "u": 7
+        },
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "scaled": [
+            9,
+            33,
+            48
+          ],
+          "u": 9
+        },
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "scaled": [
+            11,
+            83,
+            16
+          ],
+          "u": 11
+        }
+      ],
+      "p": 17921,
+      "primitive_canonical_representatives": 12,
+      "unit_count": 64,
+      "unit_orbit_size_histogram": {
+        "64": 12
+      }
+    },
+    {
+      "content_failures": [],
+      "factor_identity_checks": 2816,
+      "factor_identity_failures": [],
+      "filter_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "nontrivial_unit_examples": [
+        {
+          "rep": [
+            2,
+            4,
+            193
+          ],
+          "scaled": [
+            6,
+            12,
+            67
+          ],
+          "u": 3
+        },
+        {
+          "rep": [
+            2,
+            4,
+            193
+          ],
+          "scaled": [
+            10,
+            20,
+            197
+          ],
+          "u": 5
+        },
+        {
+          "rep": [
+            2,
+            4,
+            193
+          ],
+          "scaled": [
+            14,
+            28,
+            71
+          ],
+          "u": 7
+        },
+        {
+          "rep": [
+            2,
+            4,
+            193
+          ],
+          "scaled": [
+            18,
+            36,
+            201
+          ],
+          "u": 9
+        },
+        {
+          "rep": [
+            2,
+            4,
+            193
+          ],
+          "scaled": [
+            22,
+            44,
+            75
+          ],
+          "u": 11
+        }
+      ],
+      "p": 91393,
+      "primitive_canonical_representatives": 22,
+      "unit_count": 128,
+      "unit_orbit_size_histogram": {
+        "128": 22
+      }
+    }
+  ],
+  "status": "PROVED CERTIFIER COMPRESSION: UNIT EXPONENT ACTION PRESERVES RESULTANT PRIME SETS",
+  "task": "X67 h=4 Galois norm-gate compression",
+  "theorem": "For u in (Z/nZ)^*, f_(ua,ub,uc)(X)=f_(a,b,c)(X^u).  The map zeta -> zeta^u permutes primitive n-th roots, so the cyclotomic norm and resultant Res(Phi_n,f) are unchanged up to sign.  Unit scaling also preserves the X60 congruence filters and primitive content.  This is a sparse-resultant certifier compression, not a fixed-generator row-count symmetry.",
+  "warning": "Do not divide finite-field triple counts by phi(n) from this lemma.  Unit exponent scaling is a Galois relabeling of primitive roots for the resultant, not an additive symmetry of the row."
+}
