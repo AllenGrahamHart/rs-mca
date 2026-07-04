@@ -699,7 +699,7 @@
   },
   {
    "id": "payment_completeness",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
@@ -789,7 +789,7 @@
   },
   {
    "id": "spi_exceptional_class",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "SPI classification: high-dimensional components map to paid strata"
   },
   {
