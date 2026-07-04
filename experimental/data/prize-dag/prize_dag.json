@@ -3282,12 +3282,12 @@
   {
    "id": "a_universal_trade_variety",
    "title": "(A) SHARPENED: trades = torsion points on the UNIVERSAL variety W_h",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "The x83 obstruction polynomials depend only on h: define W_h in G_m^{2h} (obstructions = 0, triangular, explicit). Trades at any row = points of W_h with mu_n coordinates. The obstructions are quasi-homogeneous (O_j(gamma R) = gamma^{2h-j} O_j(R) \u2014 verified), so counts are scaling/Galois-orbit invariant. This reframes (A) from subgroup point-counting to TORSION POINTS ON A FIXED SUBVARIETY OF A TORUS \u2014 classical territory.",
    "refs": [
     "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
    ],
-   "notes": "Roadmap-lane derivation. The universality (n-independence) is the leverage every prior route lacked."
+   "notes": "Roadmap-lane derivation. The universality (n-independence) is the leverage every prior route lacked. | UPGRADED to PROVED: universality = Lemma 0's graph structure (proved, replayed); quasi-homogeneity = the pilot's isobaric verification (7/7). Both claims machine-checked."
   },
   {
    "id": "a2_laurent_finiteness",
@@ -3299,7 +3299,8 @@
    "falsifier": "char-0 non-fiber trades growing with n at fixed h (the sweeps say no)",
    "refs": [
     "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
-   ]
+   ],
+   "notes": "DEMOTED req -> ev per the assembly's G2: at fixed n, X24 alone classifies the char-0 set (empty at window sizes) \u2014 Laurent is packaging for the n-uniform story, not load-bearing for closure."
   },
   {
    "id": "a3_good_reduction_lemma",
@@ -5985,7 +5986,7 @@
   {
    "from": "a2_laurent_finiteness",
    "to": "h4_sparse_norm_gate",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "a3_good_reduction_lemma",
