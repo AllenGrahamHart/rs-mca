@@ -1,0 +1,404 @@
+{
+  "checks": 41,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x40_h4_centered_pair_shell_reduction": "PROVED",
+    "x44_h4_centered_max_shell_bound": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "coset_shell_size_histogram": {
+        "7": 1
+      },
+      "direct_shell_size_histogram": {
+        "7": 16
+      },
+      "formula_mismatches": [],
+      "inconsistent_cosets": {},
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_coset_shell_size": 7,
+      "max_direct_shell_size": 7,
+      "n": 16,
+      "nonzero_cosets_with_shells": 1,
+      "nonzero_pair_sum_values": 16,
+      "p": 17,
+      "quotient_cosets": 1,
+      "sample_coset_rows": [
+        {
+          "ratio_count": 14,
+          "representative": 1,
+          "shell_size": 7
+        }
+      ]
+    },
+    {
+      "coset_shell_size_histogram": {
+        "10": 1,
+        "12": 1,
+        "9": 1
+      },
+      "direct_shell_size_histogram": {
+        "10": 64,
+        "12": 64,
+        "9": 64
+      },
+      "formula_mismatches": [],
+      "inconsistent_cosets": {},
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_coset_shell_size": 12,
+      "max_direct_shell_size": 12,
+      "n": 64,
+      "nonzero_cosets_with_shells": 3,
+      "nonzero_pair_sum_values": 192,
+      "p": 193,
+      "quotient_cosets": 3,
+      "sample_coset_rows": [
+        {
+          "ratio_count": 18,
+          "representative": 1,
+          "shell_size": 9
+        },
+        {
+          "ratio_count": 20,
+          "representative": 2,
+          "shell_size": 10
+        },
+        {
+          "ratio_count": 24,
+          "representative": 4,
+          "shell_size": 12
+        }
+      ]
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 105,
+        "1": 14,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "6": 1
+      },
+      "direct_shell_size_histogram": {
+        "1": 896,
+        "2": 128,
+        "3": 64,
+        "4": 64,
+        "6": 64
+      },
+      "formula_mismatches": [],
+      "inconsistent_cosets": {},
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_coset_shell_size": 6,
+      "max_direct_shell_size": 6,
+      "n": 64,
+      "nonzero_cosets_with_shells": 19,
+      "nonzero_pair_sum_values": 1216,
+      "p": 7937,
+      "quotient_cosets": 124,
+      "sample_coset_rows": [
+        {
+          "ratio_count": 12,
+          "representative": 1,
+          "shell_size": 6
+        },
+        {
+          "ratio_count": 4,
+          "representative": 2,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 2,
+          "representative": 3,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 2,
+          "representative": 4,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 0,
+          "representative": 5,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 6,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 7,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 8,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 9,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 10,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 11,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 2,
+          "representative": 12,
+          "shell_size": 1
+        }
+      ]
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 91,
+        "1": 36,
+        "2": 12,
+        "3": 1
+      },
+      "direct_shell_size_histogram": {
+        "1": 4608,
+        "2": 1536,
+        "3": 128
+      },
+      "formula_mismatches": [],
+      "inconsistent_cosets": {},
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_coset_shell_size": 3,
+      "max_direct_shell_size": 3,
+      "n": 128,
+      "nonzero_cosets_with_shells": 49,
+      "nonzero_pair_sum_values": 6272,
+      "p": 17921,
+      "quotient_cosets": 140,
+      "sample_coset_rows": [
+        {
+          "ratio_count": 0,
+          "representative": 1,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 2,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 3,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 4,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 5,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 6,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 7,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 2,
+          "representative": 8,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 2,
+          "representative": 10,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 0,
+          "representative": 11,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 2,
+          "representative": 12,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 2,
+          "representative": 13,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 2,
+          "representative": 15,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 2,
+          "representative": 17,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 4,
+          "representative": 20,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 28,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 56,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 74,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 91,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 105,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 134,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 4,
+          "representative": 182,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 6,
+          "representative": 282,
+          "shell_size": 3
+        }
+      ]
+    },
+    {
+      "coset_shell_size_histogram": {
+        "0": 250,
+        "1": 92,
+        "2": 12,
+        "3": 2,
+        "5": 1
+      },
+      "direct_shell_size_histogram": {
+        "1": 23552,
+        "2": 3072,
+        "3": 512,
+        "5": 256
+      },
+      "formula_mismatches": [],
+      "inconsistent_cosets": {},
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_coset_shell_size": 5,
+      "max_direct_shell_size": 5,
+      "n": 256,
+      "nonzero_cosets_with_shells": 107,
+      "nonzero_pair_sum_values": 27392,
+      "p": 91393,
+      "quotient_cosets": 357,
+      "sample_coset_rows": [
+        {
+          "ratio_count": 6,
+          "representative": 1,
+          "shell_size": 3
+        },
+        {
+          "ratio_count": 2,
+          "representative": 2,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 4,
+          "representative": 3,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 0,
+          "representative": 4,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 5,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 6,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 2,
+          "representative": 7,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 0,
+          "representative": 8,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 9,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 0,
+          "representative": 10,
+          "shell_size": 0
+        },
+        {
+          "ratio_count": 2,
+          "representative": 11,
+          "shell_size": 1
+        },
+        {
+          "ratio_count": 4,
+          "representative": 12,
+          "shell_size": 2
+        },
+        {
+          "ratio_count": 10,
+          "representative": 13,
+          "shell_size": 5
+        }
+      ]
+    }
+  ],
+  "status": "PROVED COSET PARAMETRIZATION FOR CENTERED H4 PAIR-SUM SHELLS",
+  "task": "X48 h=4 centered coset shell parametrization",
+  "theorem": "For H=mu_n in F_p and s != 0, unordered distinct pairs {x,y} in H with x+y=s are in two-to-one correspondence with ratios r=x/y in H\\{1} satisfying 1+r in sH.  Therefore m_s = 1/2 * #{r in H\\{1}: 1+r in sH}.  In particular m_s depends only on the quotient coset sH, and X44's max-shell statistic is the maximum shifted-subgroup intersection over F_p^*/H."
+}

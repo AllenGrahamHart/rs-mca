@@ -3494,6 +3494,16 @@
     "experimental/notes/roadmaps/x47_h4_fingerprint_to_orbit_budget.md"
    ],
    "notes": "Bridge plus certificate replay. Converts existing h=4 finite fingerprint evidence into X46 canonical-orbit currency: exact windows n=16,32,64 have positive canonical non-descended orbit count 0 and expanded top-level budget 0."
+  },
+  {
+   "id": "x48_h4_centered_coset_shell_param",
+   "title": "X48: h=4 centered pair-sum shells are quotient-coset intersections",
+   "status": "PROVED",
+   "statement": "For H=mu_n in F_p and s != 0, unordered distinct pairs {x,y} in H with x+y=s are in two-to-one correspondence with ratios r=x/y in H\\{1} satisfying 1+r in sH. Hence m_s = (1/2) #{r in H\\{1}: 1+r in sH}; in particular m_s depends only on the quotient coset sH. X44's max-shell statistic is therefore a shifted-subgroup intersection maximum over F_p^*/H.",
+   "refs": [
+    "experimental/notes/roadmaps/x48_h4_centered_coset_shell_param.md"
+   ],
+   "notes": "Proved parametrization for the centered affine branch's shell-size target. The verifier replays stress and boundary rows, checking the ratio formula, coset constancy, evenness, quotient coset count, and equality of direct and quotient max shells."
   }
  ],
  "edges": [
@@ -6189,6 +6199,11 @@
   },
   {
    "from": "x47_h4_fingerprint_to_orbit_budget",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x48_h4_centered_coset_shell_param",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
