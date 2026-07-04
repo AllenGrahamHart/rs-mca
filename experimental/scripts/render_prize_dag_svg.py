@@ -46,28 +46,26 @@ def validator_ripe():
 
 
 def open_classes(nodes, req, crit):
-    """leaf-open (actionable work site: no open requirements, own content
-    open), staged (CONDITIONAL proof exists, or validator-RIPE: discharge
-    pending), inherited-open (open only via upstream)."""
+    """LOCAL color semantics (user scheme 2026-07-04):
+      green = the statement is proved (PROVED / PROVABLE);
+      amber = the LOCAL implication is proved - CONDITIONAL with wired
+              hypotheses, or validator-RIPE (assembly trivially pending);
+      red   = no local proof of any kind: one proof (statement or
+              assembly argument) remains to be written HERE.
+    #red = the true remaining work inventory. Orthogonal halo signal:
+    frontier reds (no red among critical req children) can start today.
+    Returns (frontier_red, amber, deep_red)."""
     from collections import defaultdict
     rev = defaultdict(list)
     for u, v in req:
         rev[v].append(u)
     ripe_set = validator_ripe()
-    leaf, staged, inh = set(), set(), set()
-    for v in crit:
-        st = nodes[v]["status"]
-        if st not in OPEN:
-            continue
-        kids = [u for u in rev[v] if u in crit]
-        open_kid = any(nodes[u]["status"] in OPEN for u in kids)
-        if st == "CONDITIONAL" or v in ripe_set:
-            staged.add(v)
-        elif not open_kid:
-            leaf.add(v)      # all reqs settled, own content open: ACTIONABLE
-        else:
-            inh.add(v)
-    return leaf, staged, inh
+    amber = {v for v in crit if nodes[v]["status"] in OPEN
+             and (nodes[v]["status"] == "CONDITIONAL" or v in ripe_set)}
+    reds = {v for v in crit if nodes[v]["status"] in OPEN and v not in amber}
+    frontier = {v for v in reds
+                if not any(u in reds for u in rev[v] if u in crit)}
+    return frontier, amber, reds - frontier
 
 
 def main():
@@ -374,8 +372,8 @@ def radial():
             parts.append(f'<path d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
                          f'stroke-opacity="0.75"/>')
         elif c == "inh":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#dc2626" stroke-width="1.4" '
-                         f'stroke-opacity="0.6" stroke-dasharray="6 4"/>')
+            parts.append(f'<path d="{pth}" fill="none" stroke="#ef4444" stroke-width="1.5" '
+                         f'stroke-opacity="0.8"/>')
         else:
             parts.append(f'<path d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
     for v in ring:
@@ -389,8 +387,7 @@ def radial():
         elif v in staged:
             halo = f'<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0+3}" fill="none" ' \
                    f'stroke="#f59e0b" stroke-width="0.9" stroke-opacity="0.55"/>'
-        if v in inh:
-            fill = "#7f2d2d"
+
         tip = html.escape(f'{v} [{st}] {n.get("title","")[:160]}')
         parts.append(f'<g>{halo}<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0}" fill="{fill}" '
                      f'stroke="#0b1220" stroke-width="1"><title>{tip}</title></circle></g>')
