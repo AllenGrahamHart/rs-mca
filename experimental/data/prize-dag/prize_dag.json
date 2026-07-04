@@ -476,7 +476,7 @@
   {
    "id": "averaged_xr",
    "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
    ],
@@ -1450,7 +1450,7 @@
   {
    "id": "unsafe_at_crossing",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
@@ -1463,7 +1463,7 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
@@ -1654,7 +1654,7 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
@@ -3764,13 +3764,14 @@
   {
    "id": "xr_ledger_exponent_reconciliation",
    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Reconcile averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1): determine the correct exponent per shell, propagate through the second-moment sum, and confirm the consumer margins absorb the difference (a full q factor at shells s >= t). Small: the qx13 ledger tables decide it at toy scale.",
    "attack_surface": "recompute the toy pair-ledger at both exponents vs the exact counts",
    "falsifier": "the toy ledger matching neither exponent",
    "refs": [
     "nodes/averaged_xr/proof.md"
-   ]
+   ],
+   "notes": "PROVED (my lane, exact linear algebra, verifier green): codim = t + min(s,t) exactly; the statement's exponent is right, the ledger's min(s,t-1) is the anchored convention \u2014 a dictionary entry, not an error. The four-node chain re-discharges."
   },
   {
    "id": "subcore_richline_classification",

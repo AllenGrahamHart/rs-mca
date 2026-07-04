@@ -64,12 +64,12 @@
   },
   {
    "id": "averaged_slope_conversion",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
   },
   {
    "id": "averaged_xr",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Averaged XR via Johnson-scheme second moments"
   },
   {
@@ -804,7 +804,7 @@
   },
   {
    "id": "unsafe_at_crossing",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
   },
   {
@@ -879,7 +879,7 @@
   },
   {
    "id": "xr_ledger_exponent_reconciliation",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))"
   },
   {
