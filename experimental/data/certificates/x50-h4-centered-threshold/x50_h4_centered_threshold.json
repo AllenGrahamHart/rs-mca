@@ -1,0 +1,144 @@
+{
+  "checks": 44,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x49_h4_centered_quotient_energy": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "centered_bound_ceiling": 560,
+      "centered_bound_fraction": "560/1",
+      "cube_root_sufficient_threshold_floor_48n": 9,
+      "exact_threshold": 11,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_shell_size": 7,
+      "n": 16,
+      "n_cubed": 4096,
+      "p": 17,
+      "slack_to_threshold": 4
+    },
+    {
+      "centered_bound_ceiling": 81840,
+      "centered_bound_fraction": "81840/1",
+      "cube_root_sufficient_threshold_floor_48n": 14,
+      "exact_threshold": 16,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_shell_size": 12,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 193,
+      "slack_to_threshold": 4
+    },
+    {
+      "centered_bound_ceiling": 4960,
+      "centered_bound_fraction": "4960/1",
+      "cube_root_sufficient_threshold_floor_48n": 14,
+      "exact_threshold": 16,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_shell_size": 6,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 7937,
+      "slack_to_threshold": 10
+    },
+    {
+      "centered_bound_ceiling": 0,
+      "centered_bound_fraction": "0/1",
+      "cube_root_sufficient_threshold_floor_48n": 18,
+      "exact_threshold": 20,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_shell_size": 3,
+      "n": 128,
+      "n_cubed": 2097152,
+      "p": 17921,
+      "slack_to_threshold": 17
+    },
+    {
+      "centered_bound_ceiling": 32512,
+      "centered_bound_fraction": "32512/1",
+      "cube_root_sufficient_threshold_floor_48n": 23,
+      "exact_threshold": 25,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_shell_size": 5,
+      "n": 256,
+      "n_cubed": 16777216,
+      "p": 91393,
+      "slack_to_threshold": 20
+    }
+  ],
+  "status": "PROVED EXACT THRESHOLD CONSEQUENCE OF X49",
+  "task": "X50 h=4 centered cube-root threshold",
+  "theorem": "X49 gives R_centered <= (C(M,4)/M) * n(n-2)/2.  For M>=4, C(M,4)/M = (M-1)(M-2)(M-3)/24, so this is <= n^3 exactly when (M-1)(M-2)(M-3)(n-2) <= 48 n^2.  The left side is increasing in M for M>=4, giving an exact row threshold T(n).  The simpler sufficient condition M^3 <= 48 n also closes the centered branch.",
+  "threshold_table": [
+    {
+      "cube_root_sufficient_threshold_floor_48n": 9,
+      "exact_threshold": 11,
+      "first_failing_bound_fraction": "4620/1",
+      "first_failing_shell_size": 12,
+      "n": 16,
+      "threshold_bound_fraction": "3360/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 11,
+      "exact_threshold": 13,
+      "first_failing_bound_fraction": "34320/1",
+      "first_failing_shell_size": 14,
+      "n": 32,
+      "threshold_bound_fraction": "26400/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 14,
+      "exact_threshold": 16,
+      "first_failing_bound_fraction": "277760/1",
+      "first_failing_shell_size": 17,
+      "n": 64,
+      "threshold_bound_fraction": "225680/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 18,
+      "exact_threshold": 20,
+      "first_failing_bound_fraction": "2298240/1",
+      "first_failing_shell_size": 21,
+      "n": 128,
+      "threshold_bound_fraction": "1953504/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 23,
+      "exact_threshold": 25,
+      "first_failing_bound_fraction": "18694400/1",
+      "first_failing_shell_size": 26,
+      "n": 256,
+      "threshold_bound_fraction": "16451072/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 36,
+      "exact_threshold": 38,
+      "first_failing_bound_fraction": "1103563776/1",
+      "first_failing_shell_size": 39,
+      "n": 1024,
+      "threshold_bound_fraction": "1016440320/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 369,
+      "exact_threshold": 371,
+      "first_failing_bound_fraction": "1160271863253565440/1",
+      "first_failing_shell_size": 372,
+      "n": 1048576,
+      "threshold_bound_fraction": "1150889610990059520/1"
+    },
+    {
+      "cube_root_sufficient_threshold_floor_48n": 47259,
+      "exact_threshold": 47261,
+      "first_failing_bound_fraction": "10634071076977882808472051036192768000/1",
+      "first_failing_shell_size": 47262,
+      "n": 2199023255552,
+      "threshold_bound_fraction": "10633396055009855605314576244015104000/1"
+    }
+  ]
+}

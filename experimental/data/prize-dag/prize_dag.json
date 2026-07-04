@@ -3514,6 +3514,16 @@
     "experimental/notes/roadmaps/x49_h4_centered_quotient_energy.md"
    ],
    "notes": "Proved quotient-compressed centered-energy accounting. This refines X44 by removing the paid zero-sum shell before max-shell bounding and identifies the remaining task as controlling concentration of (n-2)/2 quotient shell mass among shifted-subgroup intersections."
+  },
+  {
+   "id": "x50_h4_centered_threshold",
+   "title": "X50: h=4 centered branch closes below the cube-root shell threshold",
+   "status": "PROVED",
+   "statement": "From X49, R_centered <= (C(M,4)/M)n(n-2)/2. For M>=4 this is <= n^3 exactly when (M-1)(M-2)(M-3)(n-2) <= 48 n^2; M<4 is automatic. Therefore every row with quotient-coset shell maximum M <= T(n) closes the centered h=4 branch, and the simpler sufficient condition M^3 <= 48n also closes it.",
+   "refs": [
+    "experimental/notes/roadmaps/x50_h4_centered_threshold.md"
+   ],
+   "notes": "Packages X49 into an exact row threshold T(n) and a cube-root sufficient criterion. The verifier replays X49 rows and prints official-scale thresholds, reducing the centered h=4 residue to a shifted-subgroup concentration target max_C #{r in H\\{1}: 1+r in C} <= 2T(n)."
   }
  ],
  "edges": [
@@ -6219,6 +6229,16 @@
   },
   {
    "from": "x49_h4_centered_quotient_energy",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x49_h4_centered_quotient_energy",
+   "to": "x50_h4_centered_threshold",
+   "kind": "req"
+  },
+  {
+   "from": "x50_h4_centered_threshold",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
