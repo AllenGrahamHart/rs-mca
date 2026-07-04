@@ -2557,7 +2557,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED)."
+   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED). | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation."
   },
   {
    "id": "certifier_uniformity",
@@ -3146,7 +3146,7 @@
    "refs": [
     "experimental/notes/roadmaps/f2_moment_trade_census.md"
    ],
-   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there."
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there. | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation."
   },
   {
    "id": "u2c_boundary_scale_column",
@@ -3582,7 +3582,7 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ],
-   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible."
+   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM)."
   },
   {
    "id": "cap_end_sharpening",
