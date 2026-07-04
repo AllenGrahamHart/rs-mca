@@ -3314,6 +3314,16 @@
     "experimental/notes/roadmaps/x29_h4_quotient_bridge_lemma.md"
    ],
    "notes": "This is the count-transfer lemma behind X20 and X26-X28. It does not prove that every h=4 trade is an antipodal union; it proves that the antipodal branch is exactly quotient h=2 sum-collision arithmetic."
+  },
+  {
+   "id": "x30_finite_p_norm_gate",
+   "title": "X30: finite-p terminal trades trigger dyadic descent or a sparse norm prime",
+   "status": "PROVED",
+   "statement": "Let n=2^s and let f be the signed first-sum word of a finite-field trade in mu_n. If Phi_n does not divide f over Z, then the characteristic p divides Res(Phi_n,f). If Phi_n divides f, then the positive and negative supports are antipodal unions and the trade descends through x -> x^2. Iterating gives the recursive dichotomy: finite-p terminal trades are either characteristic-zero dyadic trades or p-specific sparse cyclotomic norm reductions at the first failed level.",
+   "refs": [
+    "experimental/notes/roadmaps/x30_finite_p_norm_gate.md"
+   ],
+   "notes": "Formalizes the finite-p reduction language used by X24-X29. For odd h, descent is impossible at the first level, so any finite-p odd-h trade is a norm-gate residue. For h=4, the observed extra mass is a norm-gate residue after one quotient descent."
   }
  ],
  "edges": [
@@ -5914,6 +5924,11 @@
   },
   {
    "from": "x29_h4_quotient_bridge_lemma",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x30_finite_p_norm_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
