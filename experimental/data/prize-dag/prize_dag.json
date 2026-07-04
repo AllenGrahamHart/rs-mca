@@ -3444,6 +3444,16 @@
     "experimental/notes/roadmaps/x42_h4_centered_energy_accounting.md"
    ],
    "notes": "Proved accounting formula for the X40/X41 centered branch. This is a count/certifier packet, not a uniform shell-size theorem."
+  },
+  {
+   "id": "x43_h4_centered_shell_size_closure",
+   "title": "X43: h=4 centered branch closes under max shell size <= 4",
+   "status": "PROVED",
+   "statement": "Let m_s be nonzero pair-sum shell sizes. By X42, R_centered <= sum_s C(m_s,4). If max_s m_s <=3 the centered branch is empty. If max_s m_s <=4, then C(m_s,4)<=m_s/4 and R_centered <= C(n,2)/4 < n^2, safely below the rewired n^3 terminal column. The verifier replays X42 and checks that every audited campaign row satisfies this small-shell criterion.",
+   "refs": [
+    "experimental/notes/roadmaps/x43_h4_centered_shell_size_closure.md"
+   ],
+   "notes": "Proved closure criterion. The remaining uniform task is to prove or certify max nonzero pair-sum shell size <=4 in the required rows."
   }
  ],
  "edges": [
@@ -6114,6 +6124,11 @@
   },
   {
    "from": "x42_h4_centered_energy_accounting",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x43_h4_centered_shell_size_closure",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

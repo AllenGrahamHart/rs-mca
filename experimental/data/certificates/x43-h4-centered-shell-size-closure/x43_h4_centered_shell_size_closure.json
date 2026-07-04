@@ -1,0 +1,97 @@
+{
+  "checks": 15,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x42_h4_centered_energy_accounting": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "criterion_applies": false,
+      "exact_centered_trade_count": 112,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17_nonempty",
+      "max_shell_size": 7,
+      "n": 16,
+      "p": 17,
+      "total_unordered_pairs": 120,
+      "x42_binom4_bound": 560,
+      "x43_small_shell_bound": null
+    },
+    {
+      "criterion_applies": false,
+      "exact_centered_trade_count": 704,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193_nonempty",
+      "max_shell_size": 12,
+      "n": 64,
+      "p": 193,
+      "total_unordered_pairs": 2016,
+      "x42_binom4_bound": 53184,
+      "x43_small_shell_bound": null
+    },
+    {
+      "criterion_applies": true,
+      "exact_centered_trade_count": 0,
+      "kind": "campaign_boundary",
+      "label": "n32_alpha_2",
+      "max_shell_size": 2,
+      "n": 32,
+      "p": 1153,
+      "total_unordered_pairs": 496,
+      "x42_binom4_bound": 0,
+      "x43_small_shell_bound": 0
+    },
+    {
+      "criterion_applies": true,
+      "exact_centered_trade_count": 0,
+      "kind": "campaign_boundary",
+      "label": "n64_alpha_2",
+      "max_shell_size": 2,
+      "n": 64,
+      "p": 4289,
+      "total_unordered_pairs": 2016,
+      "x42_binom4_bound": 0,
+      "x43_small_shell_bound": 0
+    },
+    {
+      "criterion_applies": true,
+      "exact_centered_trade_count": 0,
+      "kind": "campaign_boundary",
+      "label": "n128_alpha_2",
+      "max_shell_size": 3,
+      "n": 128,
+      "p": 17921,
+      "total_unordered_pairs": 8128,
+      "x42_binom4_bound": 0,
+      "x43_small_shell_bound": 0
+    },
+    {
+      "criterion_applies": true,
+      "exact_centered_trade_count": 0,
+      "kind": "campaign_boundary",
+      "label": "n128_alpha_3",
+      "max_shell_size": 1,
+      "n": 128,
+      "p": 2100097,
+      "total_unordered_pairs": 8128,
+      "x42_binom4_bound": 0,
+      "x43_small_shell_bound": 0
+    },
+    {
+      "criterion_applies": true,
+      "exact_centered_trade_count": 0,
+      "kind": "campaign_boundary",
+      "label": "n256_alpha_2",
+      "max_shell_size": 4,
+      "n": 256,
+      "p": 65537,
+      "total_unordered_pairs": 32640,
+      "x42_binom4_bound": 512,
+      "x43_small_shell_bound": 8160
+    }
+  ],
+  "status": "PROVED CRITERION + CERTIFICATE REPLAY: max nonzero pair-shell size <=4 closes the centered branch below n^2",
+  "task": "X43 h=4 centered shell-size closure",
+  "theorem": "Let m_s be nonzero pair-sum shell sizes.  X42 gives R_centered <= sum_s C(m_s,4).  If max_s m_s <=3 then every term vanishes.  If max_s m_s <=4, then C(m_s,4) is 1 only at m_s=4, so C(m_s,4) <= m_s/4 and R_centered <= (sum_s m_s)/4 < n^2.  Thus the centered affine branch is safely below the rewired n^3 terminal column under this one-number shell-size condition."
+}
