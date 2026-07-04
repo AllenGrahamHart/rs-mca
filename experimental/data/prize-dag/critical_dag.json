@@ -18,6 +18,21 @@
    "title": "OCC-2's named replacement: the active-shadow depth-cell bound"
   },
   {
+   "id": "a3_good_reduction_lemma",
+   "label": "PROVED",
+   "title": "(A3) THE ONE NEW LEMMA: good reduction of W_h's torsion structure"
+  },
+  {
+   "id": "a_closure_assembly",
+   "label": "CONDITIONAL",
+   "title": "THE (A) CLOSURE (conditional, verified): zero primitive residue on two computational inputs"
+  },
+  {
+   "id": "a_universal_trade_variety",
+   "label": "PROVED",
+   "title": "(A) SHARPENED: trades = torsion points on the UNIVERSAL variety W_h"
+  },
+  {
    "id": "acl_count",
    "label": "PROVED",
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)"
@@ -28,9 +43,19 @@
    "title": "Acl second-order term (hand-off lemma)"
   },
   {
+   "id": "active_core_count_bound",
+   "label": "UNPROVED",
+   "title": "THE RESIDUE, PEELED ONCE MORE (X-11): the active-core count C_h^nt"
+  },
+  {
    "id": "adjacency_closing",
    "label": "UNPROVED",
    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points"
+  },
+  {
+   "id": "anchored_nontoral_pte_bound",
+   "label": "CONDITIONAL",
+   "title": "THE FINAL ESTIMATE: A_h^nt <= hn \u2014 everything reduces to this"
   },
   {
    "id": "aperiodic_zero_at_crossing",
@@ -86,6 +111,21 @@
    "id": "b_rational_lift",
    "label": "PROVED",
    "title": "B-rational pencils give B-slopes (linearity)"
+  },
+  {
+   "id": "c1_scalable_certificate",
+   "label": "UNPROVED",
+   "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024"
+  },
+  {
+   "id": "c1a_lowh_direct_certificates",
+   "label": "CONDITIONAL",
+   "title": "C1a: direct per-row certificates at the window's bottom (feasible NOW)"
+  },
+  {
+   "id": "c1b_descent_injection",
+   "label": "PROVED",
+   "title": "C1b THE CORE: the descent-injection certificate (verified seed identity)"
   },
   {
    "id": "cap_theorem",
@@ -388,6 +428,16 @@
    "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL"
   },
   {
+   "id": "h4_sparse_norm_gate",
+   "label": "UNPROVED",
+   "title": "THE h=4 RESIDUE (x32): the 8-sparse cyclotomic norm gate"
+  },
+  {
+   "id": "h_window_derivation",
+   "label": "PROVED",
+   "title": "THE LOOSE END the assembly surfaced: derive the h-window cap"
+  },
+  {
    "id": "imgfib",
    "label": "CONDITIONAL",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)"
@@ -503,6 +553,26 @@
    "title": "MCA unsafe side at adjacent grid point"
   },
   {
+   "id": "midlarge_h20_A",
+   "label": "UNPROVED",
+   "title": "midlarge h20 A"
+  },
+  {
+   "id": "midlarge_h7_20",
+   "label": "UNPROVED",
+   "title": "midlarge h7 20"
+  },
+  {
+   "id": "midlarge_h_certification",
+   "label": "UNPROVED",
+   "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261"
+  },
+  {
+   "id": "midlarge_partner_cap_reduction",
+   "label": "PROVABLE",
+   "title": "midlarge partner cap reduction"
+  },
+  {
    "id": "mixed_radix_frontier",
    "label": "PROVED",
    "title": "Mixed-radix uniformity: does the machinery survive non-2-power smooth domains?"
@@ -516,6 +586,11 @@
    "id": "noncontain_degeneracy",
    "label": "PROVED",
    "title": "Containment = degenerate pencil (a=b=0) = def:residue"
+  },
+  {
+   "id": "official_row_primes_pinning",
+   "label": "UNPROVED",
+   "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo"
   },
   {
    "id": "p1_post_paid_subcore_richline_cap",
@@ -613,6 +688,11 @@
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family"
   },
   {
+   "id": "single_obstruction_valueset",
+   "label": "UNPROVED",
+   "title": "single obstruction valueset"
+  },
+  {
    "id": "staircase",
    "label": "PROVED",
    "title": "Tangent staircase compiler (#147)"
@@ -623,9 +703,19 @@
    "title": "Consecutive grid counts differ by ~q-factors: sign decisions need only coarse relative precision"
   },
   {
+   "id": "star_pte_support_bound",
+   "label": "PROVED",
+   "title": "PROVED (micro-lemma, 5/5): h <= A is the correct reading; 2h <= A is WRONG"
+  },
+  {
    "id": "strip",
    "label": "CONDITIONAL",
    "title": "Strip-periodic: aperiodic stratum exact"
+  },
+  {
+   "id": "t_laurent_ritt_toral_stabilizer",
+   "label": "PROVED",
+   "title": "PROVED (X-9): the tame Laurent-Ritt / toral stabilizer theorem \u2014 T's core"
   },
   {
    "id": "tr_joint_telescope",
@@ -636,6 +726,31 @@
    "id": "tr_perleaf_list_ident",
    "label": "UNPROVED",
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
+  },
+  {
+   "id": "u1_alpha_active_core_incidence",
+   "label": "UNPROVED",
+   "title": "INPUT A: the active-core incidence theorem (the genuine new math)"
+  },
+  {
+   "id": "u1_beta_band_trade_reduction",
+   "label": "CONDITIONAL",
+   "title": "INPUT B: the band-trade reduction"
+  },
+  {
+   "id": "u1_minimal_fixed_core_sporadic_bound",
+   "label": "CONDITIONAL",
+   "title": "BANKABLE PARTIAL (X-7): per-core sporadic fiber bound"
+  },
+  {
+   "id": "u1_pullback_dichotomy",
+   "label": "CONDITIONAL",
+   "title": "U1 \u2014 THE CLOSING CONJECTURE: cancellation is pullback, quantitatively"
+  },
+  {
+   "id": "u1_tame_toral_fiberproduct_classification",
+   "label": "CONDITIONAL",
+   "title": "INPUT T: the toral fiber-product classification"
   },
   {
    "id": "u2_per_row_certifier",
@@ -656,6 +771,11 @@
    "id": "v8_ledger",
    "label": "PROVED",
    "title": "v8 one-support-one-slope ledger"
+  },
+  {
+   "id": "value_set_partner_cap",
+   "label": "PROVED",
+   "title": "PROVED (all h): <= floor(n/h) partners per anchored core"
   },
   {
    "id": "vtdv",
@@ -1472,6 +1592,26 @@
    "to": "p1_post_paid_subcore_richline_cap"
   },
   {
+   "from": "u1_pullback_dichotomy",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "u1_minimal_fixed_core_sporadic_bound",
+   "to": "u1_pullback_dichotomy"
+  },
+  {
+   "from": "u1_tame_toral_fiberproduct_classification",
+   "to": "u1_pullback_dichotomy"
+  },
+  {
+   "from": "u1_alpha_active_core_incidence",
+   "to": "u1_pullback_dichotomy"
+  },
+  {
+   "from": "u1_beta_band_trade_reduction",
+   "to": "u1_pullback_dichotomy"
+  },
+  {
    "from": "a1_lower_overlap_occupied_subcore_accounting",
    "to": "deep_link_staircase"
   },
@@ -1488,12 +1628,68 @@
    "to": "x4b_moment_trade_exclusion"
   },
   {
+   "from": "t_laurent_ritt_toral_stabilizer",
+   "to": "u1_tame_toral_fiberproduct_classification"
+  },
+  {
    "from": "a2_depth_cell_active_shadow_bound",
    "to": "xr_partial_tangent_band"
   },
   {
+   "from": "anchored_nontoral_pte_bound",
+   "to": "u1_alpha_active_core_incidence"
+  },
+  {
+   "from": "active_core_count_bound",
+   "to": "anchored_nontoral_pte_bound"
+  },
+  {
+   "from": "h4_sparse_norm_gate",
+   "to": "active_core_count_bound"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "h4_sparse_norm_gate"
+  },
+  {
+   "from": "a3_good_reduction_lemma",
+   "to": "h4_sparse_norm_gate"
+  },
+  {
    "from": "b2_modp_giant_extras",
    "to": "u2c_boundary_scale_column"
+  },
+  {
+   "from": "a_closure_assembly",
+   "to": "h4_sparse_norm_gate"
+  },
+  {
+   "from": "h_window_derivation",
+   "to": "a_closure_assembly"
+  },
+  {
+   "from": "c1_scalable_certificate",
+   "to": "a_closure_assembly"
+  },
+  {
+   "from": "c1a_lowh_direct_certificates",
+   "to": "c1_scalable_certificate"
+  },
+  {
+   "from": "c1b_descent_injection",
+   "to": "c1_scalable_certificate"
+  },
+  {
+   "from": "midlarge_h_certification",
+   "to": "c1_scalable_certificate"
+  },
+  {
+   "from": "star_pte_support_bound",
+   "to": "midlarge_h_certification"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "a_closure_assembly"
   },
   {
    "from": "rules_freeze",
@@ -1502,6 +1698,10 @@
   {
    "from": "f1_pole_list_threshold_location",
    "to": "f1_case_pole"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "c1a_lowh_direct_certificates"
   },
   {
    "from": "rules_m_reading",
@@ -1586,6 +1786,26 @@
   {
    "from": "list_corridor_ledger",
    "to": "list_adjacency_closing"
+  },
+  {
+   "from": "midlarge_partner_cap_reduction",
+   "to": "midlarge_h_certification"
+  },
+  {
+   "from": "midlarge_h7_20",
+   "to": "midlarge_h_certification"
+  },
+  {
+   "from": "midlarge_h20_A",
+   "to": "midlarge_h_certification"
+  },
+  {
+   "from": "single_obstruction_valueset",
+   "to": "midlarge_h20_A"
+  },
+  {
+   "from": "value_set_partner_cap",
+   "to": "midlarge_partner_cap_reduction"
   }
  ]
 }

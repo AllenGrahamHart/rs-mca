@@ -2671,7 +2671,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires."
   },
   {
    "id": "xr_sameslope_list_crossover",
@@ -6098,7 +6098,7 @@
   {
    "from": "u1_pullback_dichotomy",
    "to": "xr_smallcore_spread_count",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "star_pte_lemma",
