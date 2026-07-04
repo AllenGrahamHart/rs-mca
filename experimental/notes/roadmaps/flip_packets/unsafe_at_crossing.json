@@ -1,16 +1,20 @@
 {
-  "schema": "critical-dag-flip-packet-v1",
-  "node": "unsafe_at_crossing",
-  "packet": "experimental/notes/roadmaps/flip_packets/unsafe_at_crossing.md",
-  "current_label": "UNPROVED",
-  "verdict": "DEFECT",
-  "kids": [],
-  "pins": {
-    "unsafe_at_crossing": "ce0dc79f00cfed1f",
-    "averaged_slope_conversion": "58feb09620e4ea1b",
-    "qfloor_exact": "da5de7e28aee0eeb",
-    "certified_valueset_lower": "00335d6a53907bd9"
-  },
-  "argument": "DEFECT: the statement contains branch obligations but has no req children. Wire the branch nodes or rewrite this as a primitive TRUE-RED target.",
-  "proposed_fix": "Add req edges for the collided averaged conversion and the collision-free value-set/lower-bound certificate, or remove branch clauses and mark the node TRUE RED."
+ "schema": "critical-dag-flip-packet-v1",
+ "node": "unsafe_at_crossing",
+ "packet": "experimental/notes/roadmaps/flip_packets/unsafe_at_crossing.md",
+ "current_label": "UNPROVED",
+ "verdict": "DEFECT",
+ "kids": [],
+ "pins": {
+  "unsafe_at_crossing": "ce0dc79f00cfed1f",
+  "averaged_slope_conversion": "58feb09620e4ea1b",
+  "qfloor_exact": "da5de7e28aee0eeb",
+  "certified_valueset_lower": "00335d6a53907bd9"
+ },
+ "argument": "DEFECT: the statement contains branch obligations but has no req children. Wire the branch nodes or rewrite this as a primitive TRUE-RED target.",
+ "proposed_fix": "Add req edges for the collided averaged conversion and the collision-free value-set/lower-bound certificate, or remove branch clauses and mark the node TRUE RED.",
+ "integrated": {
+  "commit": "2cb12205",
+  "applied_as": "DEFECT_FIXED"
+ }
 }

@@ -1,13 +1,17 @@
 {
-  "schema": "critical-dag-flip-packet-v1",
-  "node": "rate_half_coverage_gap",
-  "packet": "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md",
-  "current_label": "UNPROVED",
-  "verdict": "PROMOTE-PROVED",
-  "kids": [],
-  "pins": {
-    "rate_half_coverage_gap": "2202f5b7b9f119ad"
-  },
-  "argument": "PROMOTE-PROVED: exact arithmetic is reproduced by verify_qa3_e14_fm_margins.py; there are no req children and no remaining local mathematical content.",
-  "verifier": "python3 experimental/scripts/verify_qa3_e14_fm_margins.py"
+ "schema": "critical-dag-flip-packet-v1",
+ "node": "rate_half_coverage_gap",
+ "packet": "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md",
+ "current_label": "UNPROVED",
+ "verdict": "PROMOTE-PROVED",
+ "kids": [],
+ "pins": {
+  "rate_half_coverage_gap": "2202f5b7b9f119ad"
+ },
+ "argument": "PROMOTE-PROVED: exact arithmetic is reproduced by verify_qa3_e14_fm_margins.py; there are no req children and no remaining local mathematical content.",
+ "verifier": "python3 experimental/scripts/verify_qa3_e14_fm_margins.py",
+ "integrated": {
+  "commit": "2cb12205",
+  "applied_as": "PROVED"
+ }
 }

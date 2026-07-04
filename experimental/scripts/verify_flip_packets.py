@@ -73,6 +73,17 @@ def main() -> int:
             print(f"FAIL: {path.name}: missing packet note {packet}")
             ok = False
 
+        _integ = entry.get("integrated")
+        if _integ:
+            _want = {"CONDITIONAL": ("CONDITIONAL",), "PROVED": ("PROVED", "PROVABLE")}.get(
+                _integ.get("applied_as"))
+            _st = nodes.get(node_id, {}).get("status")
+            if _want is None or _st in _want:
+                print(f"PASS (integrated as {_integ.get('applied_as')}): {node_id}")
+                continue
+            print(f"FAIL: {node_id}: integrated as {_integ.get('applied_as')} but live status {_st}")
+            ok = False
+            continue
         expected_kids = req_children.get(node_id, [])
         listed_kids = sorted(entry.get("kids", []))
         if listed_kids != expected_kids:
