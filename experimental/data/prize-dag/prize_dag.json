@@ -3618,6 +3618,50 @@
    "refs": [
     "experimental/notes/roadmaps/corridor_eaters_computation.md"
    ]
+  },
+  {
+   "id": "midlarge_partner_cap_reduction",
+   "title": "midlarge partner cap reduction",
+   "status": "PROVABLE",
+   "statement": "ASSEMBLY (via the PROVED value_set_partner_cap: <= floor(n/h) partners per anchored core at every h): the mid/large-h trade bound reduces to bounding ACTIVE CORES per h \u2014 the budget tolerates ~3.3e3 active cores/h. Pure reduction on a proved lemma; write-up pending.",
+   "attack_surface": "one page: compose the cap with the per-h budget table",
+   "falsifier": "none \u2014 arithmetic",
+   "refs": [
+    "experimental/notes/roadmaps/midlarge_h_routes.md"
+   ]
+  },
+  {
+   "id": "midlarge_h7_20",
+   "title": "midlarge h7 20",
+   "status": "TARGET",
+   "statement": "The scannable band h in (6, 20]: zero active cores at official-shape rows. EVIDENCE WALL: the pre-registered scan \u2014 C1b-descent pipelines at n <= 256 calibration rows plus MITM slices at n = 1024, h = 7..20; interpretation fixed before data: any active core found is charged and counted against the 3.3e3/h budget; zero across calibrations licenses the exclusion lemma attempt.",
+   "attack_surface": "the C1a/C1b machinery re-parameterized; delegable compute",
+   "falsifier": "an active core at h in (7,20] at any calibration row",
+   "refs": [
+    "experimental/notes/roadmaps/midlarge_h_routes.md"
+   ]
+  },
+  {
+   "id": "midlarge_h20_A",
+   "title": "midlarge h20 A",
+   "status": "TARGET",
+   "statement": "The asymptotic band h in (20, A] (A = 67/133/261): the obstruction-overwhelm route \u2014 an active core forces h-1 >= 20 simultaneous obstruction vanishings at the row's zeta; prove a single-obstruction value-set lower bound (via the m1 bijection reparametrization + Lemma 0's determined-low-coefficients structure) forcing active cores <= budget. Decomposes further to single_obstruction_valueset below.",
+   "attack_surface": "the graph structure: cores inject into top-coefficient tuples; one obstruction's value distribution is the whole question",
+   "falsifier": "an active core at h > 20 anywhere (never observed)",
+   "refs": [
+    "experimental/notes/roadmaps/midlarge_h_routes.md"
+   ]
+  },
+  {
+   "id": "single_obstruction_valueset",
+   "title": "single obstruction valueset",
+   "status": "TARGET",
+   "statement": "THE LEMMA UNDER midlarge_h20_A: for h > 20 at official-shape rows, the first obstruction O_{h-1}, restricted to anchored cores, takes >= C(n,h)/budget distinct values in F_p (equivalently: its fibers are small). EVIDENCE WALL: the value-distribution scan \u2014 sample anchored cores at h = 21..40, calibration rows, measure O-value collision rates; pre-registered: collision rate consistent with uniform => the lemma's shape is right; heavy collisions => route dead, fall back to per-h certificates.",
+   "attack_surface": "sampling scan, delegable; then the proof via character sums or the norm structure",
+   "falsifier": "O-value collision rates far above uniform at any calibration row",
+   "refs": [
+    "experimental/notes/roadmaps/midlarge_h_routes.md"
+   ]
   }
  ],
  "edges": [
@@ -6414,6 +6458,31 @@
   {
    "from": "list_corridor_ledger",
    "to": "list_adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "midlarge_partner_cap_reduction",
+   "to": "midlarge_h_certification",
+   "kind": "req"
+  },
+  {
+   "from": "midlarge_h7_20",
+   "to": "midlarge_h_certification",
+   "kind": "req"
+  },
+  {
+   "from": "midlarge_h20_A",
+   "to": "midlarge_h_certification",
+   "kind": "req"
+  },
+  {
+   "from": "single_obstruction_valueset",
+   "to": "midlarge_h20_A",
+   "kind": "req"
+  },
+  {
+   "from": "value_set_partner_cap",
+   "to": "midlarge_partner_cap_reduction",
    "kind": "req"
   }
  ]
