@@ -63,6 +63,11 @@
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
   },
   {
+   "id": "aqb_averaged_quotient_box",
+   "label": "UNPROVED",
+   "title": "AQB-I averaged quotient-box estimate"
+  },
+  {
    "id": "averaged_slope_conversion",
    "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
@@ -749,7 +754,7 @@
   },
   {
    "id": "rate_half_band_closure",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
   },
   {
@@ -2102,6 +2107,10 @@
   {
    "from": "ejm_joint_moment",
    "to": "pcf_evaluation_flatness"
+  },
+  {
+   "from": "aqb_averaged_quotient_box",
+   "to": "rate_half_band_closure"
   },
   {
    "from": "acl_second_order",

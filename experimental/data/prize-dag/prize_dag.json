@@ -3562,7 +3562,7 @@
   {
    "id": "rate_half_band_closure",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Cover the 2,978,147-radius band at prize-max rate 1/2 \u2014 now proven (Modal, exact) to be OPEN ONLY for fields with log2 q in (255.900, 256): below the threshold the scale-free floor's reach (~n/log2 q) clears sigma* = 8,592,912,738 and the corridor closes like the other rates. The residual battlefield: the top 0.100 bits of the admissible field range, where the floor caps at 2^33 = sigma* - 2,978,146. Routes: averaged conversion at giant M, B2b-style balance, or safe-side push through sigma*. Rates 1/4, 1/8, 1/16 need nothing (clean by margins < -121).",
    "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
@@ -3570,7 +3570,7 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
    ],
-   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem."
+   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate."
   },
   {
    "id": "worst_word_challenger_pricing",
@@ -3889,6 +3889,12 @@
    "title": "EJM joint Fourier moment",
    "status": "TARGET",
    "statement": "Nonzero-frequency joint moment bound for the odd-evaluation map (see statement.md); the corrected one-node residue of the primitive core."
+  },
+  {
+   "id": "aqb_averaged_quotient_box",
+   "title": "AQB-I averaged quotient-box estimate",
+   "status": "TARGET",
+   "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently."
   }
  ],
  "edges": [
@@ -6910,6 +6916,11 @@
   {
    "from": "ejm_joint_moment",
    "to": "pcf_evaluation_flatness",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_averaged_quotient_box",
+   "to": "rate_half_band_closure",
    "kind": "req"
   }
  ]
