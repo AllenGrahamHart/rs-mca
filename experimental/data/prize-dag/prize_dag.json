@@ -3364,6 +3364,16 @@
     "experimental/notes/roadmaps/x34_h4_staged_gcd_anatomy.md"
    ],
    "notes": "Finite evidence and proof-target anatomy only. It does not prove the general E2-kill theorem."
+  },
+  {
+   "id": "x35_h4_power_sum_gate",
+   "title": "X35: h=4 top-three trades are signed 8-sparse 3-null words",
+   "status": "PROVED",
+   "statement": "In characteristic p > 3, equality of e1,e2,e3 for two 4-sets is equivalent by Newton identities to equality of the first three power sums. Therefore X33's h=4 common-gcd gate gcd(Phi_n,E1,E2,E3) is equivalent to gcd(Phi_n,S1,S2,S3), where Sr=sum_{a in P}X^{ra}-sum_{b in Q}X^{rb}. The h=4 top-level residue is exactly a signed 4+4 sparse word whose moments 1,2,3 vanish, linking the h=4 terminal branch to the x4b moment-trade certifier architecture.",
+   "refs": [
+    "experimental/notes/roadmaps/x35_h4_power_sum_gate.md"
+   ],
+   "notes": "Proved reduction. Finite cross-checks on F257/mu16 and F4993/mu32 show the elementary and power-sum gcd gates agree on every selected top-level first-sum pattern."
   }
  ],
  "edges": [
@@ -5990,6 +6000,16 @@
   {
    "from": "x34_h4_staged_gcd_anatomy",
    "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x35_h4_power_sum_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x35_h4_power_sum_gate",
+   "to": "x4b_moment_trade_exclusion",
    "kind": "ev"
   }
  ]
