@@ -3244,6 +3244,16 @@
     "experimental/notes/roadmaps/x22_h4_n64_full_window.md"
    ],
    "notes": "Extends X21's bounded n=64 sample to the full n^2..n^3 window. Supports the two-family h=4 classification target: mu_4 full fibers plus antipodal quotient lifts, both cyclic-paid."
+  },
+  {
+   "id": "x23_h4_char0_classifier",
+   "title": "X23: h=4 characteristic-zero trades are full mu_4 fibers",
+   "status": "PROVED",
+   "statement": "For n=2^s over C, every disjoint h=4 same-top-three trade in mu_n is a difference of two full mu_4 fibers. Proof: equality of e1 gives a signed word f with f(zeta)=0; since Phi_n=X^(n/2)+1, f is antipodal; equality of e2 descends to a two-point sum collision on the complex unit circle, which is nontrivial only at sum zero. Hence both quotient pairs are antipodal and the original supports are mu_4 fibers.",
+   "refs": [
+    "experimental/notes/roadmaps/x23_h4_char0_classifier.md"
+   ],
+   "notes": "Separates the h=4 route into a proved characteristic-zero part and p-specific finite-field exceptions. The X20-X22 antipodal quotient lifts are finite-field reductions, not characteristic-zero primitive trades."
   }
  ],
  "edges": [
@@ -5809,6 +5819,11 @@
   },
   {
    "from": "x22_h4_n64_full_window",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x23_h4_char0_classifier",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
