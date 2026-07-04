@@ -3374,6 +3374,16 @@
     "experimental/notes/roadmaps/x35_h4_power_sum_gate.md"
    ],
    "notes": "Proved reduction. Finite cross-checks on F257/mu16 and F4993/mu32 show the elementary and power-sum gcd gates agree on every selected top-level first-sum pattern."
+  },
+  {
+   "id": "x36_h4_n64_highrow_power_gate",
+   "title": "X36: h=4 signed power gate clears F262337/mu64",
+   "status": "TEST",
+   "statement": "Exact single-row check at F_262337/mu_64, the first n=64 prime row above n^3. Among 79,341 anchored first-sum h=4 pairs, 65,856 are non-antipodal top-level candidates; every one has signed power common-gcd degree zero for moments 1,2,3. The only 15 top-three pairs are the paid mu_4 baseline.",
+   "refs": [
+    "experimental/notes/roadmaps/x36_h4_n64_highrow_power_gate.md"
+   ],
+   "notes": "Finite high-row evidence for the X35 signed 4+4 moment-gate formulation. This avoids replaying the full n=64 all-prime sweep while extending the small-row common-gcd evidence to q ~ n^3."
   }
  ],
  "edges": [
@@ -6010,6 +6020,11 @@
   {
    "from": "x35_h4_power_sum_gate",
    "to": "x4b_moment_trade_exclusion",
+   "kind": "ev"
+  },
+  {
+   "from": "x36_h4_n64_highrow_power_gate",
+   "to": "active_core_count_bound",
    "kind": "ev"
   }
  ]
