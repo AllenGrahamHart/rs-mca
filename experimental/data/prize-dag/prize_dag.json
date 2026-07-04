@@ -189,14 +189,14 @@
   {
    "id": "acl_second_order",
    "title": "Acl second-order term (hand-off lemma)",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp3_2_symbolic_scaling.md#3"
    ],
    "statement": "Compute the second-order term of the antipodal class count Acl(N', l') beyond leading order, with explicit error control, so the corridor's quotient end becomes a NUMBER per rate instead of an interval. With it, per-rate bracket widths are exact and the adjacency question (adjacency_closing) is decidable rate-by-rate. Route shape: generating-function / saddle-point expansion of the class count.",
    "attack_surface": "computation-shaped: expand the counting generating function one order past S2's leading term; verify against exact small-N' counts (already tabulated in the E1 packet: log2 A = 49.72/100.44/201.88)",
    "falsifier": "exact small-N' counts disagreeing with the expansion (arithmetic check, not a conjecture risk)",
-   "notes": "CONCRETE TARGET (corridor computation): deliver >= 0.367 / 0.023 / 0.304 grid steps at rates 1/4 / 1/8 / 1/16 (log2 Acl anchors 49.72/100.44/201.88 cited; the E1 packet file needs pinning). The corridor's one remaining mathematical item. | EVALUATED (agent, verifier replayed): E1 anchors pinned (Acl_tot = (3^{N'/2}+1)/2 \u2014 the rho=1/2 reference); the size-restricted corridor input via the certified thm:exactcount formula. X_acl = +0.0497 / +0.0164 / -0.0056 grid steps at rates 1/4 / 1/8 / 1/16. VERDICT: NO RATE CLOSES \u2014 1/8 short by 0.00707 steps (~0.9 bits, entire interval below required); 1/16 FALSIFIER FIRES (marginal widening at N'~383, the finite-N' exponent exceeds asymptotic beta). The second-order term is now a NUMBER, not a hope."
+   "notes": "CONCRETE TARGET (corridor computation): deliver >= 0.367 / 0.023 / 0.304 grid steps at rates 1/4 / 1/8 / 1/16 (log2 Acl anchors 49.72/100.44/201.88 cited; the E1 packet file needs pinning). The corridor's one remaining mathematical item. | EVALUATED (agent, verifier replayed): E1 anchors pinned (Acl_tot = (3^{N'/2}+1)/2 \u2014 the rho=1/2 reference); the size-restricted corridor input via the certified thm:exactcount formula. X_acl = +0.0497 / +0.0164 / -0.0056 grid steps at rates 1/4 / 1/8 / 1/16. VERDICT: NO RATE CLOSES \u2014 1/8 short by 0.00707 steps (~0.9 bits, entire interval below required); 1/16 FALSIFIER FIRES (marginal widening at N'~383, the finite-N' exponent exceeds asymptotic beta). The second-order term is now a NUMBER, not a hope. | FLIP on replay (Codex wave 3): TARGET -> PROVED."
   },
   {
    "id": "norm_threshold_ext",
@@ -255,12 +255,12 @@
   {
    "id": "fm1",
    "title": "FM1: E[#aligned] = C(n,j)(1-q^-t)q^{1-t} exactly",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#2"
    ],
-   "notes": "IN FLIGHT: PR #181 (Codex) = the standalone proof note (Q2.1); flips to PROVED on integration."
+   "notes": "IN FLIGHT: PR #181 (Codex) = the standalone proof note (Q2.1); flips to PROVED on integration. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "vtdv",
@@ -289,13 +289,13 @@
   {
    "id": "paid_closure",
    "title": "Paid(A) closure: tangent+quotient+extension computable",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
    "statement": "Paid(A) as one computable function assembled from paid_tan_fn + paid_quot_fn (intervals) + paid_ext_fn.",
-   "notes": "SWEEP FLIP (ring 2, node 1, 2026-07-04): RIPE with all six kids PROVED; the node's content IS the cited assembly (s2_paid_ledger #5: tan + quot + ext with first-match dedup), which exists as the pseudocode with every component a PROVED node. REFEREE SUBTLETY, recorded: the zone-(b) quotient cell is INTERVAL-valued ([DdH(N'), 2^{beta N'}]) pending zone_b \u2014 the 'computable function' claim is interval-valued there by design, and consumers (mca_safe via r2/zone_b) consume the interval, not a scalar. Declaration: PROVABLE (not PROVED) \u2014 the validator correctly blocked full green because a component is itself PROVABLE (write-up pending); flips PROVED when it does."
+   "notes": "SWEEP FLIP (ring 2, node 1, 2026-07-04): RIPE with all six kids PROVED; the node's content IS the cited assembly (s2_paid_ledger #5: tan + quot + ext with first-match dedup), which exists as the pseudocode with every component a PROVED node. REFEREE SUBTLETY, recorded: the zone-(b) quotient cell is INTERVAL-valued ([DdH(N'), 2^{beta N'}]) pending zone_b \u2014 the 'computable function' claim is interval-valued there by design, and consumers (mca_safe via r2/zone_b) consume the interval, not a scalar. Declaration: PROVABLE (not PROVED) \u2014 the validator correctly blocked full green because a component is itself PROVABLE (write-up pending); flips PROVED when it does. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "staircase",
@@ -367,14 +367,14 @@
   {
    "id": "gap1_noneq_mass",
    "title": "GAP-1: non-equivariant periodic mass <= poly",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#3"
    ],
    "statement": "#{aligned (l, Z): root set K_M-stable but (u,v) multi-isotypic (non-equivariant) on the stratum} <= poly(n) * FM \u2014 the isotypic escape stratum carries no super-poly alignment mass.",
    "attack_surface": "bound the multi-isotypic stratum via the isotypic decomposition + FM; the stratum is thin (non-equivariant data on stable supports)",
    "falsifier": "toy enumeration (gap1_toy_test) showing non-equivariant periodic alignments outgrowing poly",
-   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate). | Reduced to Conjecture TR (joint quotient-row FM bound) \u2014 see gap1_product_model. The convergence deepens: GAP-1, F, spread, and the clean-rate exclusion all funnel toward the same rigidity/counting core at quotient scales. | FACE 1 SIMPLIFIED (E34): Conjecture TR's jointness is STRUCTURAL \u2014 exact telescoping to a single instance at the joint-stabilizer scale (class-closure form). Remaining: (i) lift the identity from linear-model counts to aligned A_r sets; (ii) the per-leaf bound = the list-lane identification (tr_perleaf_list_ident). The q^{M-1} over-aggregation M4 flagged is gone by construction. | FACE 1 STATUS after the lifting lemma: jointness fully closed (structural + lifted); the ENTIRE remaining face-1 content = the per-leaf bound in its corrected split form (x4_exactlist_staircase_split at quotient rows) + the degenerate-tower bookkeeping (count transfer conditional there \u2014 charge degenerate towers separately or exclude by row arithmetic). | QA.24: the degenerate-tower correction column exists and is universal (all consumer triples) \u2014 face 1's arithmetic uses corrected counts; no route change."
+   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate). | Reduced to Conjecture TR (joint quotient-row FM bound) \u2014 see gap1_product_model. The convergence deepens: GAP-1, F, spread, and the clean-rate exclusion all funnel toward the same rigidity/counting core at quotient scales. | FACE 1 SIMPLIFIED (E34): Conjecture TR's jointness is STRUCTURAL \u2014 exact telescoping to a single instance at the joint-stabilizer scale (class-closure form). Remaining: (i) lift the identity from linear-model counts to aligned A_r sets; (ii) the per-leaf bound = the list-lane identification (tr_perleaf_list_ident). The q^{M-1} over-aggregation M4 flagged is gone by construction. | FACE 1 STATUS after the lifting lemma: jointness fully closed (structural + lifted); the ENTIRE remaining face-1 content = the per-leaf bound in its corrected split form (x4_exactlist_staircase_split at quotient rows) + the degenerate-tower bookkeeping (count transfer conditional there \u2014 charge degenerate towers separately or exclude by row arithmetic). | QA.24: the degenerate-tower correction column exists and is universal (all consumer triples) \u2014 face 1's arithmetic uses corrected counts; no route change. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL."
   },
   {
    "id": "gap2_seam",
@@ -820,12 +820,13 @@
   {
    "id": "ext_lift",
    "title": "S6: extension lift classified",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "refs": [
     "proof_sketch/s6_extension_lift.md"
    ],
-   "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined."
+   "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined.",
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "b_rational_lift",
@@ -846,11 +847,11 @@
   {
    "id": "ext_import",
    "title": "B_ext crosses gate exactly at the S7 list window",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#2"
    ],
-   "notes": "IN FLIGHT: PR #190 (Q2.4 executed)."
+   "notes": "IN FLIGHT: PR #190 (Q2.4 executed). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "generating_escape",
@@ -1319,29 +1320,29 @@
   {
    "id": "paid_tan_fn",
    "title": "Paid_tan(A): staircase formula as a computable function",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
-   "notes": "IN FLIGHT: #194 (bundle)"
+   "notes": "IN FLIGHT: #194 (bundle) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "paid_quot_fn",
    "title": "Paid_quot(A): zones a/b/c, interval-valued cells",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
-   "notes": "interval-valued form buildable now; POINT values in zone (b) conditional on the collision question | IN FLIGHT: #194"
+   "notes": "interval-valued form buildable now; POINT values in zone (b) conditional on the collision question | IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "paid_ext_fn",
    "title": "Paid_ext(A): the s6 import rule (0 if generating)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#2"
    ],
-   "notes": "IN FLIGHT: #194"
+   "notes": "IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "f1_case_pole",
@@ -1586,22 +1587,22 @@
   {
    "id": "f_gcd_reduction",
    "title": "F WLOG reduction: factor out the plane's common divisor",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Let w = deg gcd(P cap D_j). Division by the gcd maps P cap D_j injectively into P' cap D'_{j-w} for an explicit linear P' of dim <= dim P over the co-domain (X^n-1)/gcd, with trivial image gcd. Hence F reduces to gcd-trivial planes; the deep-gcd branch IS the tangent shape.",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "elementary: multiples-of-ell_W form a subspace; division is linear | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration."
+   "notes": "elementary: multiples-of-ell_W form a subspace; division is linear | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "f_scale_recursion",
    "title": "F scale recursion: pullback points are plane points of the quotient instance",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "P cap D_j^per(M) is linearly isomorphic to P' cap D'_{j/M} at scale n/M (an M-pullback ell = g(X^M) places g's coefficients at multiples of M \u2014 a linear embedding). Hence F(n) <= F_primitive(n) + sum over M | gcd(n,j) of F(n/M): the periodic branch recurses, bottoming out at checkable scales.",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#1"
    ],
-   "notes": "the same multi-scale self-similarity as Q_M = Q_1 and the coset-move dynamics \u2014 third appearance of the recursion | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration. | NEEDS THE DIHEDRAL ANALOGUE: plane sections of the reciprocal stratum should be plane sections of the Chebyshev-quotient instance (y = x + x^{-1}), mirroring the multiplicative case \u2014 plausibly provable identically (the X^m h(X + X^{-1}) factorization is the pullback map)."
+   "notes": "the same multi-scale self-similarity as Q_M = Q_1 and the coset-move dynamics \u2014 third appearance of the recursion | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration. | NEEDS THE DIHEDRAL ANALOGUE: plane sections of the reciprocal stratum should be plane sections of the Chebyshev-quotient instance (y = x + x^{-1}), mirroring the multiplicative case \u2014 plausibly provable identically (the X^m h(X + X^{-1}) factorization is the pullback map). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "f_primitive_case",
@@ -1619,12 +1620,12 @@
   {
    "id": "collision_norm_criterion",
    "title": "Non-quotient e1-collisions mod p <=> p divides an explicit bounded nonzero norm",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "For B != B' non-quotient-related: e1(B) = e1(B') mod frak-p iff frak-p | (e1(B)-e1(B')) in Z[zeta_N'], a NONZERO (by thm:upstairs) cyclotomic integer with all archimedean conjugates <= 2l'. Hence zone-(b) = counting prime divisors of an explicit bounded-height difference family.",
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory | IN FLIGHT: implemented on the E1 branch (#180: 'Add E1 collision norm criterion')."
+   "notes": "the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory | IN FLIGHT: implemented on the E1 branch (#180: 'Add E1 collision norm criterion'). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "payment_completeness",
@@ -1749,22 +1750,22 @@
   {
    "id": "f_dim1",
    "title": "F at dimension 1: pencils meet D_j in at most n/j points (VOTING)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "For a gcd-trivial pencil l_0 + t l_1: each x in H roots the member at a UNIQUE parameter t_x = -l_0(x)/l_1(x) (shared roots excluded by gcd-triviality; l_1(x)=0 gives no vote). A D_j member needs j votes; n votes exist. Hence <= n/j members (+1 for the leading-coefficient degeneracy). Far below the n^{B_F} target.",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "elementary; the base case of F is TRUE with room to spare | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration."
+   "notes": "elementary; the base case of F is TRUE with room to spare | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "f_concurrency_equiv",
    "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "On an r-flat P of parameter space, member-at-t has root x iff t lies on the hyperplane H_x = {P(x) = 0}. P cap D_j corresponds EXACTLY (up to the leading-coefficient hyperplane) to points lying on >= j of the n evaluation hyperplanes {H_x : x in H}. F-primitive <=> poly bound on j-fold concurrency points, with tangent shape = flats near {multiples of l_S} and periodic shape = pullback flats.",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "turns F into finite-field incidence geometry: concurrency loci of a Vandermonde-type arrangement \u2014 a searchable literature (multiplicity incidence bounds, Furstenberg-type sets)"
+   "notes": "turns F into finite-field incidence geometry: concurrency loci of a Vandermonde-type arrangement \u2014 a searchable literature (multiplicity incidence bounds, Furstenberg-type sets) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "xr_e3_calculus",
@@ -1797,12 +1798,12 @@
   {
    "id": "are_exceptional_density",
    "title": "Almost-all-primes collision-lightness (the density partial)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Sum over the bounded-height norm family: Sum_p #collisions(p) <= Sum_pairs Omega(Norm(diff)) <= #pairs * log(height). Hence in ANY dyadic prime range, all but a poly-sized exceptional set of primes have collision-light e1 value sets. Partial (the official p could be exceptional) but dossier-grade.",
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "IN FLIGHT: #180's 'Bound E1 exceptional collision primes' commit (QZ.2 executed). | PROVED-IN-FLIGHT: #206 \u2014 with the Markov anchor: at most TWO primes in range can collide >= half of rate-1/2 cell pairs under the height bound"
+   "notes": "IN FLIGHT: #180's 'Bound E1 exceptional collision primes' commit (QZ.2 executed). | PROVED-IN-FLIGHT: #206 \u2014 with the Markov anchor: at most TWO primes in range can collide >= half of rate-1/2 cell pairs under the height bound | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "are_subfield_amp",
@@ -1886,7 +1887,7 @@
   {
    "id": "gap1_product_model",
    "title": "LEAP: non-equivariant periodic mass EQUALS the per-character product (tower extension)",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "HALF PROVED (in flight, #212 \u2014 verified here: three verifiers replayed green, Theorems 1-3 structure checked): the tower product bound \u2014 each character maps into one intermediate-field line (P_r(alpha) = alpha^r G_r(beta) in alpha^r K), multi-character mass <= the per-character product, and the recursion runs down any tower B = K_0 <= ... <= K_s. CROSS-CHARACTER AMPLIFICATION IS REMOVED. The OPEN half: the terminal reserve estimate \u2014 per-character counts summed against poly(n) x FM (the note keeps this explicitly open).",
    "attack_surface": "extend the PROVED base-case lemma (alpha^M in base field) to intermediate fields \u2014 the repo's most-repeated recursion pattern, fourth appearance; then sum over characters",
@@ -1894,7 +1895,7 @@
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
    ],
-   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows."
+   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL."
   },
   {
    "id": "f_pair_bound_envelope",
@@ -1947,22 +1948,22 @@
   {
    "id": "crossing_localization",
    "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "B_C(a) is nonincreasing and integer-valued in a, so a unique a* with B_C(a*-1) > B* >= B_C(a*) exists UNCONDITIONALLY for every row. The corridor arithmetic already brackets a* to at most ceil(width)+1 = 2-3 candidate grid points per rate. The endgame is therefore a FINITE list of pointwise decisions, not an analytic meeting of bounds.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "elementary; reframes adjacency_closing from 'no mechanism' to 'decide <= 3 points per rate' | IN FLIGHT: #193"
+   "notes": "elementary; reframes adjacency_closing from 'no mechanism' to 'decide <= 3 points per rate' | IN FLIGHT: #193 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "staircase_steepness",
    "title": "Consecutive grid counts differ by ~q-factors: sign decisions need only coarse relative precision",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "At consecutive grid points t changes by 1, so the leading-order stratum counts jump by factors ~ q (from the exact C(n,j) q^{1-t} shape and the Acl formulas). Hence B* is crossed in ONE step, and each candidate-point comparison B_C(A) vs B* is decided by relative precision far coarser than the step factor \u2014 EXCEPT on a knife-edge set where the count sits within the estimate's error band of B*.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the reason the endgame is tractable: steep staircases make comparisons cheap | IN FLIGHT: #193"
+   "notes": "the reason the endgame is tractable: steep staircases make comparisons cheap | IN FLIGHT: #193 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "aperiodic_zero_at_crossing",
@@ -2003,12 +2004,12 @@
   {
    "id": "single_swap_injectivity",
    "title": "FREE RUNG: single-swap collisions are impossible at prize scale (unconditional)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "For classes differing in one element, e1(B) - e1(B') = zeta^i - zeta^j has all archimedean conjugates <= 2, so its norm is <= 2^{phi(N')} ~ 2^{N'/2} << p ~ 2^250. Nonzero (thm:upstairs) and of height below p => p cannot divide it => single-swap pairs NEVER collide at prize scale. Unconditional, for every prime in the admissible range.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the base case of certified distinctness: the swap-metric graph's edges are all collision-free; the open problem is composing this into large all-pairs-distinct families | Subsumed as the s=1 case of graded_collision_radius; kept as the write-up's base case."
+   "notes": "the base case of certified distinctness: the swap-metric graph's edges are all collision-free; the open problem is composing this into large all-pairs-distinct families | Subsumed as the s=1 case of graded_collision_radius; kept as the write-up's base case. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "census_bounded_scales",
@@ -2066,11 +2067,12 @@
   {
    "id": "list_crossing_localization",
    "title": "List staircase: sup-over-words list size is a monotone integer => unique crossing exists",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "sup_U |Lambda(U, delta)| is nondecreasing and integer-valued in delta, so a unique adjacent crossing of eps*|F| exists unconditionally per row and m. The list-window arithmetic [H/128, H/256] brackets the candidates. Same elementary argument as the MCA side.",
    "refs": [
     "proof_sketch/s7_list_side.md"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "worst_word_planted",
@@ -2088,17 +2090,17 @@
   {
    "id": "list_planted_arithmetic",
    "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)",
-   "status": "PROVABLE",
+   "status": "CONDITIONAL",
    "statement": "planted_count(delta) is an explicit combinatorial formula (core/petal choices x scalar factors). Under worst_word_planted + imgfib + integrality, the list crossing is decided by EXACT arithmetic: windows [planted_count - margin, planted_count) in eps*|F|-space, the census/dodge structure transferring verbatim from the MCA side \u2014 with NO zone-(b) analogue (no value sets mod p; counts are explicit).",
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted)."
+   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted). | FLIP on replay (Codex wave 3): PROVABLE -> CONDITIONAL."
   },
   {
    "id": "f_dim2_skeleton",
    "title": "F at dimension 2: elementary pair bound + twins are tangent-paid",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "On a gcd-trivial plane P: (i) domain traces H_x cap P are genuine lines; (ii) DISTINCT-trace pairs meet in one point, so sum of C(mult,2) <= C(n,2), giving #(P cap D_j) <= C(n,2)/C(j,2) for twin-free planes \u2014 elementary double counting; (iii) TWINS (coincident traces x,y) force every member through x to pass through y: the sub-pencil shares divisor (X-x)(X-y) and f_gcd_reduction pays it as tangent. F-dim-2 = pair bound + twin reduction, with the twin count T entering as (C(n,2) + (q+1)T)/C(j,2).",
    "attack_surface": "write-up + verifier; TESTABLE PREDICTION against E7's own artifact: the j=5 kernel-sample top planes (primitive max 13 > 12 = C(16,2)/C(5,2)) must contain >= 1 twin pair \u2014 count twins in the recorded top planes",
@@ -2106,7 +2108,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "explains the E7 numbers: 38 <= 40 at j=3 (bound TIGHTER than the packet's floor 60); the kernel excess 13 > 12 is the twin signature | CROSS-POLLINATION: #183's 'Align E7 evidence with fixed-dimension theorem' commit followed this node's publication on the #178 branch \u2014 the census packet is being aligned to the pair-bound frame. | E10 PREDICTION CONFIRMED (#183): 5/5 sampled j=5 top kernel planes contain twins; ZERO twin-free planes above the simple bound 12. Full j=4 Grassmannian census (25,734,890 planes): primitive max 28 vs simple floor 20 vs pair floor 40, all 9 top primitive planes twin-rich (2^8 profile)."
+   "notes": "explains the E7 numbers: 38 <= 40 at j=3 (bound TIGHTER than the packet's floor 60); the kernel excess 13 > 12 is the twin signature | CROSS-POLLINATION: #183's 'Align E7 evidence with fixed-dimension theorem' commit followed this node's publication on the #178 branch \u2014 the census packet is being aligned to the pair-bound frame. | E10 PREDICTION CONFIRMED (#183): 5/5 sampled j=5 top kernel planes contain twins; ZERO twin-free planes above the simple bound 12. Full j=4 Grassmannian census (25,734,890 planes): primitive max 28 vs simple floor 20 vs pair floor 40, all 9 top primitive planes twin-rich (2^8 profile). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "f_dim_induction",
@@ -2178,13 +2180,13 @@
   {
    "id": "graded_collision_radius",
    "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "Pairs at swap distance s have e1-difference height <= 2s, norm <= (2s)^{phi(N')}; if (2s)^{phi(N')} < p the pair is collision-free (nonzero by thm:upstairs, norm below p). At N'=128, p ~ 2^250: d* = 7. COROLLARY: when 2l' < p^{1/phi(N')} (true at N' <= 64 for prize p), ALL pairs are certified \u2014 unconditional fullness, the prop:qfloor norm-threshold mechanism restated as certification. Subsumes single_swap_injectivity as the s = 1 case.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "PROVED-IN-FLIGHT: #206 (s=1 rung subsumed; exact norm formula Phi_M(1)^(phi(N)/phi(M)))"
+   "notes": "PROVED-IN-FLIGHT: #206 (s=1 rung subsumed; exact norm formula Phi_M(1)^(phi(N)/phi(M))) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "height_only_impossibility",
@@ -2211,13 +2213,13 @@
   {
    "id": "cluster_certificates",
    "title": "Cluster machinery: free cliques + one-check cluster pairing",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "(a) Diameter-d* class sets are fully certified free cliques (~2^33 at N'=128) by graded_collision_radius. (b) For clusters with center-difference Delta EVERYWHERE-BIG (min conjugate >= spread/(budget-1)): every cross-pair diff = Delta(1 + Delta^{-1} eta) with quotient norm < p, so ONE precomputable norm check on Delta certifies ALL cross-pairs of the two clusters. (c) FREEBIE: integer factors are self-certified (p does not divide integers < p), so integer multiples of certified elements are certified.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "certification compresses quadratically: pairs -> cluster pairs -> generator checks | PROVED-IN-FLIGHT: #206"
+   "notes": "certification compresses quadratically: pairs -> cluster pairs -> generator checks | PROVED-IN-FLIGHT: #206 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "generator_economy",
@@ -2245,7 +2247,7 @@
   {
    "id": "f_consumer_scoped",
    "title": "Consumer-scoped F: the proof only needs F on TWO classical flat families",
-   "status": "TARGET",
+   "status": "REFUTED",
    "key": true,
    "statement": "F restricted to the families the consumers actually feed it: (a) coordinate-slice/fiber flats \u2014 direction spaces are shortened RS, hence MDS, hence dual distance w* provably LARGE: no sparse dual words exist and the spread/moment branch applies wholesale; (b) Hankel-pencil kernel flats \u2014 displacement rank <= 2: sparse dual words are governed by the structured-kernel theory (the #191 V^T D V identities). If the scope audit confirms consumers stay within (a) u (b), general F demotes from critical to nice-to-have and the many-sparse census narrows to displacement kernels.",
    "attack_surface": "GATE FIRST (QF.9): audit r2's fiber argument and imgfib's plane sections \u2014 verify every F-consumption lies in family (a) or (b); THEN (a) is classical MDS duality + the moment count, and (b) inherits #191; criticality rewiring only after the audit passes",
@@ -2253,7 +2255,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "potentially the largest effective-difficulty reduction on the F front: the fiber side may fall to Singleton + moments outright | A0 AUDIT VERDICT (#200): NO_NOT_GLOBALLY \u2014 coordinate-prefix and Hankel-kernel consumers ARE scoped-treatable (QF.10 remains live for both), but the L1 ImgFib mixed-petal sunflower residual ESCAPES the two families. General F stays critical; no rewiring."
+   "notes": "potentially the largest effective-difficulty reduction on the F front: the fiber side may fall to Singleton + moments outright | A0 AUDIT VERDICT (#200): NO_NOT_GLOBALLY \u2014 coordinate-prefix and Hankel-kernel consumers ARE scoped-treatable (QF.10 remains live for both), but the L1 ImgFib mixed-petal sunflower residual ESCAPES the two families. General F stays critical; no rewiring. | FLIP on replay (Codex wave 3): TARGET -> REFUTED."
   },
   {
    "id": "a426_universal_numerator",
@@ -2889,14 +2891,14 @@
   {
    "id": "tr_perleaf_list_ident",
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Each per-character set A_r in Conjecture TR is a worst-word deep-agreement list count at a same-rate quotient row \u2014 the SAME object as rung 2a's ExactList and the list challenge's kernel, at scale n/M. Identification: the list lane's corridor machinery is TR's per-leaf supply; no separate per-leaf theory needed.",
    "attack_surface": "write the dictionary (K_M-stable agreement <-> quotient-row agreement \u2014 #212's tower machinery is the transport); cross-check on the F_13 toy",
    "falsifier": "a per-leaf count provably exceeding the quotient-row list count (would break the dictionary; toy-checkable)",
    "refs": [
     "experimental/notes/roadmaps/gap1_terminal_reserve.md"
    ],
-   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim."
+   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "tr_joint_telescope",
@@ -2926,7 +2928,7 @@
   {
    "id": "x4_exactlist_staircase_split",
    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "The unqualified worst-word exact-list bound is FALSE (verified counterexample: the quotient-coset staircase \u2014 locators L_B(X) G(X^M), M | n, M > t, S_Q = tail B plus h full M-cosets; top t+1 coefficients Q-independent so differences are codewords; ExactList >= C(n/M - 1, h), = 2^82.97 at the Row-C toy point vs 16n^3 = 2^34, pairwise overlaps < k throughout). THE CORRECTED STATEMENT: ExactList_C(w, A) <= QuotientStaircase(n,k,t) + DihedralStaircase-analogue + PrimitiveExactList, where QuotientStaircase = the explicit sum over M | n, M > t of coset-staircase terms (exact binomials), and the primitive target is PrimitiveExactList <= n^2 at corridor rows after stripping locators of the forms L_B(X) G(X^M) and X^e L_B(X) G(X^M + zeta X^-M). Transported quotient-row version identical (needed by TR's per-leaf term). MCA-side damage bounded: R_post counts SLOPES, and staircase supports share slopes (v8), so the compiler survives; the split is load-bearing for the LIST challenge and TR arithmetic. At prize rows M > t ~ 2^33 forces n/M <= 256, so staircase terms ~ C(128..256, 32..65) ~ 2^105-115 \u2014 under B* but far above 16n^3: QA.22 must re-run the budget with the staircase column. FOUR-COLUMN AMENDMENT (X-4b verdict, witness verified): the split gains the MomentTradeStaircase column \u2014 the primitive moment-null blocks are a THIRD cancellation mechanism outside all symmetry; see moment_trade_staircase and x4b_moment_trade_exclusion. The n^2 primitive target now applies AFTER the moment column.",
    "attack_surface": "the staircase terms are EXACT binomials (chargeable by census); the primitive bound post-strip is the new deep target \u2014 the strip removes precisely the coefficient-cancellation mechanism, so a primitive list member's locator has full coefficient spread: quantify via the eliminant/Wronskian of the locator differences",
@@ -2934,7 +2936,7 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected."
+   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "wild_row_audit",
@@ -2965,7 +2967,7 @@
   {
    "id": "moment_trade_staircase",
    "title": "THE FIFTH MECHANISM (X-4b verdict, VERIFIED): primitive moment-trade / PTE staircases",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "Cancellation is NOT symmetry: any disjoint family of t-moment-null blocks (e_1(B) = ... = e_t(B) = 0, |B| > t) generates exact-list staircases exactly as the quotient/dihedral ones do \u2014 the block locators have zero top-t sub-leading coefficients, so unions share top coefficients and differences drop to degree < k. VERIFIED PRIMITIVE WITNESS: B = {11^e : e in {0,1,2,4,16,45,50,60}} in mu_64 over F_193 \u2014 power sums vanish for r = 1,2,3 (r = 4 gives 18), locator top-3 sub-leading coefficients literally zero, NO rotation or reflection stabilizer (all independently recomputed). Replicated across cosets: post-strip exact lists >= C(R, R/2), exponential in n \u2014 the quotient/dihedral strip provably misses it. CODING IDENTITY: t-moment-null blocks are 0/1-coefficient dual codewords with t leading zero syndromes \u2014 sparse dual words at weights ABOVE every census we ran (E9/E30/E35 covered weight <= 4; structural blindness, honest lesson). The symmetry classes are the special case where invariance forces moment-nullity; the general class is Prouhet-Tarry-Escott-flavored and p-SPECIFIC.",
    "attack_surface": "existence per (n, p, t, b) is a classical-flavored finite-field question (0/1 words in cyclic-code duals with prescribed leading zeros) \u2014 CHECKABLE per official row (the Reading-B certification engine hook); E37 censuses toy and official-like rows",
@@ -2973,12 +2975,12 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "THE UNIFICATION (matching-composition witness + fiber arithmetic, verified): t-moment-null blocks of size b ARE fibers of polynomials with zero top-t coefficients (elementary symmetric functions of a fiber = the map's coefficients, invariant in the fiber value below e_b), and the matching-composition counterexample's psi-fiber pairs are the same class at b = 2. The fifth mechanism = PULLBACK ALONG RATIONAL MAPS with coefficient constraints; the symmetry quotients are its invertible/group special cases. Trade FAMILIES mix maps across blocks (each block a fiber of its own map) \u2014 the family class is the mixed-pullback closure."
+   "notes": "THE UNIFICATION (matching-composition witness + fiber arithmetic, verified): t-moment-null blocks of size b ARE fibers of polynomials with zero top-t coefficients (elementary symmetric functions of a fiber = the map's coefficients, invariant in the fiber value below e_b), and the matching-composition counterexample's psi-fiber pairs are the same class at b = 2. The fifth mechanism = PULLBACK ALONG RATIONAL MAPS with coefficient constraints; the symmetry quotients are its invertible/group special cases. Trade FAMILIES mix maps across blocks (each block a fiber of its own map) \u2014 the family class is the mixed-pullback closure. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
   },
   {
    "id": "x4b_moment_trade_exclusion",
    "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For each official row (p, n, t): either (a) prove no super-logarithmic disjoint family of primitive (non-quotient, non-dihedral) t-moment-null blocks exists in the row domain \u2014 then the four-column split's moment column is empty/log-bounded there; or (b) enumerate/charge the existing families as the MomentTradeStaircase column with exact counts. Includes the full PTE-trade version (pairs P, Q with matching first-t power sums). This is per-prime certification-shaped \u2014 exactly the crux-2 architecture: the engine checks rows; Reading B semantics apply. The four-column split: ExactList <= QuotientStaircase + DihedralStaircase + MomentTradeStaircase + PrimitiveNoTradeExactList (<= n^2 target for the last).",
    "attack_surface": "per-row search = lattice/coding computation (0/1 dual words with t leading zeros, weight window (t, O(log n)]): MITM/BKZ machinery from the certifier pipeline applies directly; theory side: weight distributions of the relevant cyclic codes, Weil-type bounds may kill small blocks at large p (the F_193 witness needed small p relative to n)",
@@ -2986,7 +2988,7 @@
    "refs": [
     "experimental/notes/roadmaps/xr_budget_audit.md"
    ],
-   "notes": "Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' \u2014 E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic at large p. | U2 \u2014 THE LARGE-PRIME CONJECTURE (branch (a) sharpened with first-moment arithmetic): at official rows, primitive t-moment-null blocks of size b in (t, polylog n] do not exist \u2014 expected count ~ n^b p^{-t}, and t log2 p >= 384 dwarfs b log2 n <= 41b at every official row (the verified witness needed p ~ n^3 \u2014 tiny; official p ~ 2^128+). Route: Weil/character-sum bounds on the block variety. E37 tests the threshold empirically; if confirmed, the moment column is EMPTY at official rows and the exclusion is a provable-shaped theorem, not a certification burden. | X-5 DEFINITIONAL FIX: the moment/PTE column must carry a BOUNDED GRAMMAR (shared-map fiber families with exact counting rules), NOT arbitrary trades \u2014 arbitrary trades are universal by the star-PTE lemma and uncountable as a column. QA.22's computed columns are already bounded-grammar instances (shared-map quotient/dihedral) \u2014 affordable; the compression conjecture says the full dictionary stays affordable. | F2/E37 (#21, 9/9 replayed): THE THRESHOLD IS MEASURED \u2014 primitive t=3 blocks (b <= 8) exist ONLY at very small p (hits at p = 193/257/577 for n = 64; none from p = 641 up; none at representative n^2, n^3, or 2^61 scales). Official rows (p ~ 2^128+) are far beyond every observed hit. b = 9, 10 honestly left open. U2 survives with its Weil-route target inequality now empirically calibrated. | U2 PROMOTED TO PROOF TARGET (X-6 brief drafted): the Weil-route theorem over the full b-window (t, O(log n)], uniform \u2014 the census's b = 9,10 gap makes window uniformity mandatory in the proof. | U2 REFUTED AS UNIVERSAL (X-6, witness verified here: 234-bit prime, sparse relation 1+a+a^2+a^4 = 0, ord(a) = 1024, block {+-1, +-b, +-b^2, +-b^4} in mu_2048 over F_{p^2} \u2014 3-moment-null, non-quotient, non-dihedral). MITIGATIONS, both verified: (1) the witness is INADMISSIBLE (q = 2^468 > 2^256 field cap); (2) the mechanism is resultant-divisibility \u2014 sparse-relation blocks exist EXACTLY at primes dividing fixed integers Res(relation, Phi_n) (finitely many exceptional primes per relation), so E37's small-p hits were small resultant factors and the 2^61 no-hits mean those primes divide no relevant resultant \u2014 evidence of SPARSITY, not a universal threshold. THE LANE'S NEW FORM: u2_per_row_moment_certifier \u2014 enumerate sparse-relation/moment ideals for b <= C log n, verify official-row primes divide none of the norms (pure divisibility checks; crux-2's architecture; Reading B semantics). The universal-theorem route is closed; the certification route is fully specified and cheap per row. Falsification #7 (mine). | THE CLOSURE PLAN (three pieces, window arithmetic first): (A) WINDOW SPLIT \u2014 blocks need b > t, so the small-block window (t, C log n] is EMPTY at prize-max rates (t ~ 10^9 >> log n): the sparse-relation class cannot exist there; small blocks threaten only Row-C-class rows (t = 3-5, b <= ~20). (B) SMALL-WINDOW CERTIFIER (Row-C-class, feasible NOW): per official row, certify no primitive t-null block of size b <= C log n exists in that row's domain \u2014 method: elimination/Groebner on the t power-sum equations over mu_n (b <= 20 variables), or the resultant route (enumerate sparse-relation patterns of weight <= b, check p divides no norm); E37's MITM machinery prototypes this; output = exact per-row certificates (Reading B inputs). (C) GIANT REGIME (prize-max, b >= t+1 ~ 10^9): disjointness caps gadget families at R <= n/t ~ 255; existing giant blocks are plausibly ONLY 2-power coset unions (M > t forces M >= 2^34 \u2014 the already-charged quotient staircase, QA.22-affordable); primitive-giant nonexistence is a named structural sub-target \u2014 and the FALLBACK is absorbency: even a charged primitive-giant column of QA.22-comparable size fits the 27-61-bit margins. Assign: (A)+(B) Codex; (C) statement first (roadmap-maker), then GPT Pro. | U2-C DRAFTED (u2c_giant_block_statement.md): the two-exit giant-regime statement with four handles, incl. the NEW complement duality (L_B L_comp = X^n - gamma forces co-blocks t-null \u2014 the regime is pinched from both ends) and the scaled toy falsifier (n = 256, t = 16 \u2014 trade-level MITM search). | F2-EXT (#25, 5/5 replayed): b = 9,10 CLOSED \u2014 low-prime hits persist (n=64, b=10 to p=1601); representative n^2/n^3/2^61 rows primitive-clean; the threshold picture holds at every tested b. | U2-C FALSIFIER SCAN: PASS (agent-green; my replay running in background \u2014 amend if red). Structural bonus: t-null blocks are BCH-type 0/1 words (DFT vanishing at 1..t); 2-power dictionary blocks reduce to residue classes mod n/16 (stride test); weight not divisible by 16 => automatically primitive. Both scales: only mu_16-cosets found; THE TAME DOOR DOES NOT OPEN (at n | q-1 the only minimal 2-power-root relation is 1 + (-1) = 0 \u2014 X-6's mechanism recurses into cosets). U2-C is PROOF-READY per the pre-registered exit; honest residuals: n=64 weights 19-31 and n=128 sampled not certified; special resultant primes untested. | QA.25 (#34): the boundary-scale ceilings are 1/1/64/1/1/2 across the six campaign rows \u2014 adding to QA.22 totals still fits every row. The boundary column is closed arithmetic at the candidates. | U2C-PRIME (#35): the repaired M >= t classifier charges every X-8 toy boundary witness \u2014 the residual dichotomy U2-C-prime machinery is validated."
+   "notes": "Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' \u2014 E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic at large p. | U2 \u2014 THE LARGE-PRIME CONJECTURE (branch (a) sharpened with first-moment arithmetic): at official rows, primitive t-moment-null blocks of size b in (t, polylog n] do not exist \u2014 expected count ~ n^b p^{-t}, and t log2 p >= 384 dwarfs b log2 n <= 41b at every official row (the verified witness needed p ~ n^3 \u2014 tiny; official p ~ 2^128+). Route: Weil/character-sum bounds on the block variety. E37 tests the threshold empirically; if confirmed, the moment column is EMPTY at official rows and the exclusion is a provable-shaped theorem, not a certification burden. | X-5 DEFINITIONAL FIX: the moment/PTE column must carry a BOUNDED GRAMMAR (shared-map fiber families with exact counting rules), NOT arbitrary trades \u2014 arbitrary trades are universal by the star-PTE lemma and uncountable as a column. QA.22's computed columns are already bounded-grammar instances (shared-map quotient/dihedral) \u2014 affordable; the compression conjecture says the full dictionary stays affordable. | F2/E37 (#21, 9/9 replayed): THE THRESHOLD IS MEASURED \u2014 primitive t=3 blocks (b <= 8) exist ONLY at very small p (hits at p = 193/257/577 for n = 64; none from p = 641 up; none at representative n^2, n^3, or 2^61 scales). Official rows (p ~ 2^128+) are far beyond every observed hit. b = 9, 10 honestly left open. U2 survives with its Weil-route target inequality now empirically calibrated. | U2 PROMOTED TO PROOF TARGET (X-6 brief drafted): the Weil-route theorem over the full b-window (t, O(log n)], uniform \u2014 the census's b = 9,10 gap makes window uniformity mandatory in the proof. | U2 REFUTED AS UNIVERSAL (X-6, witness verified here: 234-bit prime, sparse relation 1+a+a^2+a^4 = 0, ord(a) = 1024, block {+-1, +-b, +-b^2, +-b^4} in mu_2048 over F_{p^2} \u2014 3-moment-null, non-quotient, non-dihedral). MITIGATIONS, both verified: (1) the witness is INADMISSIBLE (q = 2^468 > 2^256 field cap); (2) the mechanism is resultant-divisibility \u2014 sparse-relation blocks exist EXACTLY at primes dividing fixed integers Res(relation, Phi_n) (finitely many exceptional primes per relation), so E37's small-p hits were small resultant factors and the 2^61 no-hits mean those primes divide no relevant resultant \u2014 evidence of SPARSITY, not a universal threshold. THE LANE'S NEW FORM: u2_per_row_moment_certifier \u2014 enumerate sparse-relation/moment ideals for b <= C log n, verify official-row primes divide none of the norms (pure divisibility checks; crux-2's architecture; Reading B semantics). The universal-theorem route is closed; the certification route is fully specified and cheap per row. Falsification #7 (mine). | THE CLOSURE PLAN (three pieces, window arithmetic first): (A) WINDOW SPLIT \u2014 blocks need b > t, so the small-block window (t, C log n] is EMPTY at prize-max rates (t ~ 10^9 >> log n): the sparse-relation class cannot exist there; small blocks threaten only Row-C-class rows (t = 3-5, b <= ~20). (B) SMALL-WINDOW CERTIFIER (Row-C-class, feasible NOW): per official row, certify no primitive t-null block of size b <= C log n exists in that row's domain \u2014 method: elimination/Groebner on the t power-sum equations over mu_n (b <= 20 variables), or the resultant route (enumerate sparse-relation patterns of weight <= b, check p divides no norm); E37's MITM machinery prototypes this; output = exact per-row certificates (Reading B inputs). (C) GIANT REGIME (prize-max, b >= t+1 ~ 10^9): disjointness caps gadget families at R <= n/t ~ 255; existing giant blocks are plausibly ONLY 2-power coset unions (M > t forces M >= 2^34 \u2014 the already-charged quotient staircase, QA.22-affordable); primitive-giant nonexistence is a named structural sub-target \u2014 and the FALLBACK is absorbency: even a charged primitive-giant column of QA.22-comparable size fits the 27-61-bit margins. Assign: (A)+(B) Codex; (C) statement first (roadmap-maker), then GPT Pro. | U2-C DRAFTED (u2c_giant_block_statement.md): the two-exit giant-regime statement with four handles, incl. the NEW complement duality (L_B L_comp = X^n - gamma forces co-blocks t-null \u2014 the regime is pinched from both ends) and the scaled toy falsifier (n = 256, t = 16 \u2014 trade-level MITM search). | F2-EXT (#25, 5/5 replayed): b = 9,10 CLOSED \u2014 low-prime hits persist (n=64, b=10 to p=1601); representative n^2/n^3/2^61 rows primitive-clean; the threshold picture holds at every tested b. | U2-C FALSIFIER SCAN: PASS (agent-green; my replay running in background \u2014 amend if red). Structural bonus: t-null blocks are BCH-type 0/1 words (DFT vanishing at 1..t); 2-power dictionary blocks reduce to residue classes mod n/16 (stride test); weight not divisible by 16 => automatically primitive. Both scales: only mu_16-cosets found; THE TAME DOOR DOES NOT OPEN (at n | q-1 the only minimal 2-power-root relation is 1 + (-1) = 0 \u2014 X-6's mechanism recurses into cosets). U2-C is PROOF-READY per the pre-registered exit; honest residuals: n=64 weights 19-31 and n=128 sampled not certified; special resultant primes untested. | QA.25 (#34): the boundary-scale ceilings are 1/1/64/1/1/2 across the six campaign rows \u2014 adding to QA.22 totals still fits every row. The boundary column is closed arithmetic at the candidates. | U2C-PRIME (#35): the repaired M >= t classifier charges every X-8 toy boundary witness \u2014 the residual dichotomy U2-C-prime machinery is validated. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "p3_affine_net_richline_residue",
@@ -3136,7 +3138,7 @@
   {
    "id": "u2c_boundary_scale_column",
    "title": "THE REPAIR: the boundary-scale (M = t) zero-sum column + crossover arithmetic (QA.25)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "(1) DICTIONARY CLAUSE: mu_t-coset unions with zero-sum value patterns (and the multi-level generalization for non-2-power t*: zero sums at each multiple of M <= t*) join the charged classes \u2014 exactly characterized, exactly countable (subset-sum collision counts, ~max(0, 2^{R/2}/q) scale). (2) QA.25 CROSSOVER ARITHMETIC: per admissible row, the boundary-column staircase mass vs B* = q/2^128 \u2014 the count GROWS as q shrinks while B* SHRINKS: locate the crossover row exactly; above it (incl. all six campaign candidates, verified nearly-empty) the column fits; below it the rows need richer per-row analysis (possibly a new determined-region-style boundary in q). (3) The residual dichotomy conjecture (U2-C'): every t-null block is a union of mu_M-cosets with M >= t... M = t INCLUDED... with zero-sum patterns \u2014 i.e., the boundary class + the old dictionary EXHAUST t-null blocks. The X-8 construction is consistent with this; its falsifier is a t-null block that is not even a boundary-scale coset union.",
    "attack_surface": "the counting is elementary (subset-sum collision enumeration/bounds); the residual dichotomy may follow from the antipodal-descent structure one scale down; QA.25 is pure arithmetic",
@@ -3144,7 +3146,7 @@
    "refs": [
     "experimental/notes/roadmaps/u2c_giant_block_statement.md"
    ],
-   "notes": "(B) DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem \u2014 PROVED (one-paragraph Galois/Fourier argument, exhaustively toy-verified); B2a the boundary class \u2014 exactly counted (QA.25 fits); B2b the mod-p extras bound \u2014 the residue, with the Frobenius gap explaining WHY it exists, the first-moment balance explaining why counting can't close it, and the 123-bit cushion changing its difficulty class (no-concentration, not exclusion). (B) is now structurally parallel to (A): char-0 classification proved + one mod-p gap lemma \u2014 but WITHOUT the universal-variety trick (2^41 variables), compensated by the cushion."
+   "notes": "(B) DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem \u2014 PROVED (one-paragraph Galois/Fourier argument, exhaustively toy-verified); B2a the boundary class \u2014 exactly counted (QA.25 fits); B2b the mod-p extras bound \u2014 the residue, with the Frobenius gap explaining WHY it exists, the first-moment balance explaining why counting can't close it, and the 123-bit cushion changing its difficulty class (no-concentration, not exclusion). (B) is now structurally parallel to (A): char-0 classification proved + one mod-p gap lemma \u2014 but WITHOUT the universal-variety trick (2^41 variables), compensated by the cushion. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "t_poly_exact_toral",
@@ -3488,11 +3490,12 @@
   {
    "id": "f1_pole_list_threshold_location",
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "The imported list-side input the pole pricing consumes (s6 section 2, verified): the extension-pole mechanism's witness count N(L) crosses the MCA gate (N > |F| 2^-128) exactly when the BASE list crosses L ~ 2^128; non-generating rows force q_gen < 2^128 with doubled base reserve. The hypothesis: the base-row list threshold location keeps L below the crossing at the corridor points f1_case_pole prices. MAY be dischargeable by existing list-lane results (base gate B*_gen <= 1) \u2014 flagged for the F-lane owner to either wire to an existing proof or close directly.",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "axis8_generating",
@@ -3532,7 +3535,7 @@
   {
    "id": "corridor_ledger",
    "title": "THE CORRIDOR LEDGER: per-rate, eaters (i)+(ii)+(iii) >= W(rate) - 1",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Exhaustive over the three clean rates: with W = the current corridor widths (1.12-2.17 grid steps), the three eaters \u2014 acl_second_order (i), corridor_window_cleanup (ii), corridor_ext_crossing (iii) \u2014 jointly recover at least W(rate) - 1 grid steps, collapsing the bracket to adjacency. Pure arithmetic ONCE the eaters' numeric outputs exist (evidence-gated on them); this node is the future assembly implication of adjacency_closing. If the sum falls short at any rate: the determination lands bracket-grade there \u2014 the honest failure mode, priced.",
    "attack_surface": "a three-row table; each entry an interval comparison",
@@ -3540,7 +3543,7 @@
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
    ],
-   "notes": "THE REQUIRED-MAGNITUDE TABLE (agent, exact, identity (i)+(ii)+(iii) = W-1 verified): X_acl(1/4) >= 0.367, X_acl(1/8) >= 0.023, X_acl(1/16) >= 0.304 grid steps. RATE 1/8 IS ~0.02 STEPS FROM ADJACENCY. The ledger is now pure arithmetic conditional on acl_second_order delivering these magnitudes. | LEDGER COMPLETE WITH VERDICT: (i)+(ii)+(iii) delivers LESS than W-1 at all three clean rates \u2014 bracket-grade under current mechanisms. THE NEW SHARPEST TARGET: find ~0.007 grid steps (~0.9 bits) at rate 1/8 from a FOURTH mechanism (cap-end sharpening, tau* reserve tightening, or knife-edge census pinning) \u2014 the smallest named quantity standing between the campaign and its first full determination corridor."
+   "notes": "THE REQUIRED-MAGNITUDE TABLE (agent, exact, identity (i)+(ii)+(iii) = W-1 verified): X_acl(1/4) >= 0.367, X_acl(1/8) >= 0.023, X_acl(1/16) >= 0.304 grid steps. RATE 1/8 IS ~0.02 STEPS FROM ADJACENCY. The ledger is now pure arithmetic conditional on acl_second_order delivering these magnitudes. | LEDGER COMPLETE WITH VERDICT: (i)+(ii)+(iii) delivers LESS than W-1 at all three clean rates \u2014 bracket-grade under current mechanisms. THE NEW SHARPEST TARGET: find ~0.007 grid steps (~0.9 bits) at rate 1/8 from a FOURTH mechanism (cap-end sharpening, tau* reserve tightening, or knife-edge census pinning) \u2014 the smallest named quantity standing between the campaign and its first full determination corridor. | UN-HELD on reading the packet (a read-ordering artifact had hidden it): CONDITIONAL on fourth_mechanism_rate8 \u2014 the three eaters are numeric, the ledger closes iff the wedge lands. Correct."
   },
   {
    "id": "rate_half_band_closure",
