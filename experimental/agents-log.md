@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - E36 PGL2 stabilizer toy check
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/e36_pgl2_stabilizer.md`,
+  `experimental/scripts/verify_e36_pgl2_stabilizer.py`,
+  `experimental/data/certificates/e36-pgl2-stabilizer/`.
+- **Status:** finite check / evidence packet.
+- **What is being added:** Exact toy enumeration of the `PGL_2(F_q)`
+  set-stabilizer for every 2-power multiplicative coset in `F_17` and `F_97`,
+  checking that it equals the expected dihedral group.
+- **How it is useful:** Rules out exotic Mobius stabilizers in the checked
+  prize-class toy domains and supports the dihedral subgroup-completeness
+  route without promoting the general theorem.
+- **What to do next:** Keep the general group-theoretic exclusion of
+  overgroups as the remaining proof obligation.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
