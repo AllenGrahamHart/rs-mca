@@ -176,7 +176,7 @@
   {
    "id": "zone_b",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "gate": "any",
    "key": true,
    "refs": [
@@ -185,7 +185,7 @@
    "statement": "Determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs collided (= prob:perfiber at sigma = 1). SHARPENED (E1 compatibility): on 2-power rows the open cells are the 2-power divisors in (80, 512) \u2014 for Row C exactly N' in {128, 256}: the corridor question is TWO value sets per row.",
    "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
    "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction",
-   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan."
+   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan. | CONDITIONAL (Modal data refereed): the raw fullness fractions ARE the signed-core quotient \u2014 N'=16 p=60161 EXACT (3281=3281), N'=32 99.57%/97.66% with accidents shrinking in p, prize-shape scans zero collisions. The collision-free branch stands; residue = e1_fullness (the norm-density estimate)."
   },
   {
    "id": "acl_second_order",
@@ -3916,6 +3916,12 @@
    "title": "Dirichlet log-integral flatness",
    "status": "TARGET",
    "statement": "Near-log-integral geometric-mean distribution of low-degree odd evaluations on the section (see statement.md) \u2014 the final reduced input of the primitive core."
+  },
+  {
+   "id": "e1_fullness",
+   "title": "e1 non-quotient collision density",
+   "status": "TARGET",
+   "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16)."
   }
  ],
  "edges": [
@@ -6962,6 +6968,11 @@
   {
    "from": "dli_dirichlet_log_integral",
    "to": "ejm_joint_moment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_fullness",
+   "to": "zone_b",
    "kind": "req"
   }
  ]

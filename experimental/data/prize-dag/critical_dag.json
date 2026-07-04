@@ -283,6 +283,11 @@
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
   },
   {
+   "id": "e1_fullness",
+   "label": "UNPROVED",
+   "title": "e1 non-quotient collision density"
+  },
+  {
    "id": "ejm_joint_moment",
    "label": "CONDITIONAL",
    "title": "EJM joint Fourier moment"
@@ -1044,7 +1049,7 @@
   },
   {
    "id": "zone_b",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)"
   }
  ],
@@ -2122,7 +2127,16 @@
    "to": "ejm_joint_moment"
   },
   {
+   "from": "e1_fullness",
+   "to": "zone_b"
+  },
+  {
    "from": "acl_second_order",
+   "to": "zone_b",
+   "kind": "alt"
+  },
+  {
+   "from": "e1_fullness",
    "to": "zone_b",
    "kind": "alt"
   },
