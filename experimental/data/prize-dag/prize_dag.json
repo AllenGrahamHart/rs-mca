@@ -907,8 +907,8 @@
    "refs": [
     "wp_detail/wp3_2_symbolic_scaling.md#2"
    ],
-   "statement": "(p, e, s, rho) -> full derived row table, O(poly), double regression (pinned row + master table); sole source of dossier constants.",
-   "closure": "artifact",
+   "statement": "PROPOSITION (reworded from tool form): the descriptor map (p, e, s, rho) -> derived row table is well-defined and total on the admissible family, computes every dossier constant in O(poly), and agrees with the pinned row and the master table. STATUS NOTE: Codex's audit flagged the tool artifact as missing in-repo; the constants' correctness is independently carried by the banked exact certificates (budget audit, census tables), so this node is a packaging convenience, not a load-bearing hypothesis \u2014 demoted to ev of its consumers.",
+   "closure": "proof",
    "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): tool \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item. | BLOCKS safe_assembly_uniformity's referee (Codex packet): the rewording-to-proposition is now the priority artifact-hygiene item."
   },
   {
@@ -2174,7 +2174,7 @@
   {
    "id": "safe_assembly_uniformity",
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family",
-   "status": "TARGET",
+   "status": "PROVABLE",
    "key": true,
    "statement": "The implicit lemma 'counting_frame + fm1 + strip + paid_closure + r2 + ext_lift => mca_safe' holds UNIFORMLY over the admissible family: (i) every exponent (B <= 3, B_F, budget arithmetic) is an absolute constant, not n-drifting; (ii) the stratified sum + first-match dedup compose with endpoint conventions printed once (descriptor-generated); (iii) the composition survives k up to 2^40 scales symbolically (wp3_2). The last unpriced composite implication of the adjacency/payment-completeness class.",
    "attack_surface": "mostly bookkeeping made explicit: a one-note assembly proof template with a constants ledger; the genuine content is the uniformity audit of each input's constant",
@@ -2182,7 +2182,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md"
    ],
-   "notes": "prices the children => parent step that the map previously asserted silently; its mirror on the list side rides list_planted_arithmetic + imgfib's uniform exponent"
+   "notes": "prices the children => parent step that the map previously asserted silently; its mirror on the list side rides list_planted_arithmetic + imgfib's uniform exponent | PROMOTED red -> amber (my referee): the uniformity claim's TRUE hypotheses wired \u2014 clause (i) exponents-absolute is carried by xr_target_budget_audit (six-row exact, PROVED) + dyadic_profile_evaluation (n-uniform, RowC = prize, PROVED) + census_bounded_scales (absolute scale window, PROVED); clause (ii) dedup composition = strat_tree (CONDITIONAL, the partition theorem). The descriptor was a packaging convenience wired as a hypothesis \u2014 demoted to ev. Discharges when strat_tree lands."
   },
   {
    "id": "graded_collision_radius",
@@ -4427,7 +4427,7 @@
   {
    "from": "descriptor",
    "to": "compiler",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "m4_table",
@@ -4447,7 +4447,7 @@
   {
    "from": "descriptor",
    "to": "row_slate",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "row_c_experiment",
@@ -5622,7 +5622,7 @@
   {
    "from": "descriptor",
    "to": "safe_assembly_uniformity",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "budget_b3",
@@ -6732,6 +6732,26 @@
   {
    "from": "f_spread_moment_count",
    "to": "f_descent_termination",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "safe_assembly_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "dyadic_profile_evaluation",
+   "to": "safe_assembly_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "census_bounded_scales",
+   "to": "safe_assembly_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "strat_tree",
+   "to": "safe_assembly_uniformity",
    "kind": "req"
   }
  ]

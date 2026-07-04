@@ -258,11 +258,6 @@
    "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
   },
   {
-   "id": "descriptor",
-   "label": "UNPROVED",
-   "title": "Symbolic row descriptor (single constants source)"
-  },
-  {
    "id": "dihedral_quotient_stratum",
    "label": "PROVED",
    "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
@@ -734,7 +729,7 @@
   },
   {
    "id": "safe_assembly_uniformity",
-   "label": "UNPROVED",
+   "label": "PROVABLE",
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family"
   },
   {
@@ -761,6 +756,16 @@
    "id": "star_pte_support_bound",
    "label": "PROVED",
    "title": "PROVED (micro-lemma, 5/5): h <= A is the correct reading; 2h <= A is WRONG"
+  },
+  {
+   "id": "strat_tree",
+   "label": "PROVABLE",
+   "title": "Stratification case-tree T0-T7 (= dedup convention)"
+  },
+  {
+   "id": "stratification_partition_thm",
+   "label": "PROVABLE",
+   "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs"
   },
   {
    "id": "strip",
@@ -1249,6 +1254,10 @@
    "to": "f1_case_pole"
   },
   {
+   "from": "stratification_partition_thm",
+   "to": "strat_tree"
+  },
+  {
    "from": "common_code_line_budget",
    "to": "paid_tan_fn"
   },
@@ -1439,10 +1448,6 @@
   {
    "from": "safe_assembly_uniformity",
    "to": "mca_safe"
-  },
-  {
-   "from": "descriptor",
-   "to": "safe_assembly_uniformity"
   },
   {
    "from": "collision_norm_criterion",
@@ -1935,6 +1940,22 @@
   {
    "from": "f_spread_moment_count",
    "to": "f_descent_termination"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "safe_assembly_uniformity"
+  },
+  {
+   "from": "dyadic_profile_evaluation",
+   "to": "safe_assembly_uniformity"
+  },
+  {
+   "from": "census_bounded_scales",
+   "to": "safe_assembly_uniformity"
+  },
+  {
+   "from": "strat_tree",
+   "to": "safe_assembly_uniformity"
   }
  ]
 }
