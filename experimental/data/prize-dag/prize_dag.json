@@ -2025,21 +2025,22 @@
   {
    "id": "census_exact_counts",
    "title": "Exact bignum evaluation at bounded scales: expansions unnecessary at candidates",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "With N' <= ~400 absolute, the deciding class counts K are exactly computable big integers (binomial-sum sized ~2^400 at worst). At candidate points, EXACT K replaces the leading+second-order expansion entirely: the knife-edge condition sharpens from 'estimate cannot decide' to the exact Diophantine condition B* = floor(q/2^128) in [L, K), where L is the certified lower bound strength. (acl_second_order remains needed only for corridor WIDTH/candidate localization, not for tie decisions.)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "PROVED (my lane, exact computation, verifier green): exact table computed at all four rates; rate-1/2 shortfall 3.8 bits below gate; rate-1/4 gate in the staircase gap."
   },
   {
    "id": "census_window_arithmetic",
    "title": "The undecided set as an explicit function of certification strength L",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "For each (rate, candidate A): undecided rows = {admissible q = 1 mod n : floor(q/2^128) in [L(n,A), K(n,A))} \u2014 explicit prime-counting windows. Deliverables: the window list, size estimates, and the dodge complement. As L -> K the windows vanish; the census OUTPUT is the map from certification strength to residual undecided rows.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "couples the census to certified_valueset_lower parametrically instead of blocking on it | IN FLIGHT: #195 | Family now definitively pinned (2-power cosets, k <= 2^40, |F| < 2^256): the exposure census is EXACT finite arithmetic \u2014 compute the actual number of knife-edge-exposed cells and their prime-window sizes per rate. Coset domains: collision structure identical (multiplication by gamma is a bijection mod p) \u2014 one-line lemma to include."
+   "notes": "couples the census to certified_valueset_lower parametrically instead of blocking on it | IN FLIGHT: #195 | Family now definitively pinned (2-power cosets, k <= 2^40, |F| < 2^256): the exposure census is EXACT finite arithmetic \u2014 compute the actual number of knife-edge-exposed cells and their prime-window sizes per rate. Coset domains: collision structure identical (multiplication by gamma is a bijection mod p) \u2014 one-line lemma to include. | PROVED (my lane, exact computation, verifier green): the L -> window map with K exact; dodge complement cited."
   },
   {
    "id": "census_dodge_selection",

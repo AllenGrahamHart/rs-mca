@@ -154,12 +154,12 @@
   },
   {
    "id": "census_exact_counts",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Exact bignum evaluation at bounded scales: expansions unnecessary at candidates"
   },
   {
    "id": "census_window_arithmetic",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The undecided set as an explicit function of certification strength L"
   },
   {
