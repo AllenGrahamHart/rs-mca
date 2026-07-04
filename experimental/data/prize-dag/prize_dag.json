@@ -3254,6 +3254,16 @@
     "experimental/notes/roadmaps/x23_h4_char0_classifier.md"
    ],
    "notes": "Separates the h=4 route into a proved characteristic-zero part and p-specific finite-field exceptions. The X20-X22 antipodal quotient lifts are finite-field reductions, not characteristic-zero primitive trades."
+  },
+  {
+   "id": "x24_char0_dyadic_descent",
+   "title": "X24: characteristic-zero dyadic trades are exactly full fibers",
+   "status": "PROVED",
+   "statement": "For n=2^s over C, disjoint h-subsets of mu_n with equal first h-1 elementary symmetric sums exist only when h is a power of two; then both supports are full mu_h fibers. Proof: equality of e1 forces the signed word through Phi_n=X^(n/2)+1, hence both supports are antipodal unions; locator identities descend through x -> x^2 from h to h/2; iterate to an odd contradiction or a singleton quotient.",
+   "refs": [
+    "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
+   ],
+   "notes": "Generalizes X23 and explains h=5 char-zero emptiness. The remaining terminal residue is finite-p certification/charging of p-specific reductions."
   }
  ],
  "edges": [
@@ -5824,6 +5834,11 @@
   },
   {
    "from": "x23_h4_char0_classifier",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
