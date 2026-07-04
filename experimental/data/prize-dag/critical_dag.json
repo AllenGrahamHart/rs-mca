@@ -698,9 +698,9 @@
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
-   "id": "pcf_norm_gate_flatness",
+   "id": "pcf_evaluation_flatness",
    "label": "UNPROVED",
-   "title": "pcf norm gate flatness"
+   "title": "pcf evaluation flatness"
   },
   {
    "id": "periodic_strata",
@@ -2053,7 +2053,7 @@
    "to": "f1_pole_list_threshold_location"
   },
   {
-   "from": "pcf_norm_gate_flatness",
+   "from": "pcf_evaluation_flatness",
    "to": "b2b_primitive_core"
   },
   {

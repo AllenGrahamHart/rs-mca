@@ -3767,7 +3767,7 @@
    "refs": [
     "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
    ],
-   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework. | PRO SKEW PACKET INTEGRATED (12/12 replayed): one falsification (#15, profile-constancy \u2014 honest witness banked), two new theorems (the bounded-coefficient norm gate \u2014 ask 2 CLOSED; the support thresholds), the exact cascade identity, and the unconditional two-level bound. The node's problem is now exact and norm-gate-shaped end to end. | LEVEL-2 FALSIFIER CONVERGES (Opus, 3 pre-registered tests, deterministic, 133MB): TEST 1 \u2014 the kill-test SURVIVED: the tower formula reproduces the exhaustive mu_32 census EXACTLY on all 8 rows (incl. 455488); the factorization is quantitatively real at level 2. TEST 2 \u2014 profile-constancy independently falsified (second witness set; constant on scaling orbits, NOT profiles; vacuous at non-exceptional primes) \u2014 converges with Pro's F_17 witness. TEST 3 \u2014 no coefficient explosion at generic primes; per-level rigidity numerically confirmed, matching the proved norm gate. NET (both lanes agree): exact factorization + proved rigidity + dead shortcut; the one question is the norm-gate-sparsity bound on the profile SUM (= Pro's rho_j product formulation). | CONDITIONAL (Pro Brief D route C, verified): reduces to the ONE per-level estimate pcf_norm_gate_flatness (|G_j| <= q^{-L_j+eta_j}U_j, sum eta_j=o(t)). The frontier moves inward to a single clean norm-gate count."
+   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework. | PRO SKEW PACKET INTEGRATED (12/12 replayed): one falsification (#15, profile-constancy \u2014 honest witness banked), two new theorems (the bounded-coefficient norm gate \u2014 ask 2 CLOSED; the support thresholds), the exact cascade identity, and the unconditional two-level bound. The node's problem is now exact and norm-gate-shaped end to end. | LEVEL-2 FALSIFIER CONVERGES (Opus, 3 pre-registered tests, deterministic, 133MB): TEST 1 \u2014 the kill-test SURVIVED: the tower formula reproduces the exhaustive mu_32 census EXACTLY on all 8 rows (incl. 455488); the factorization is quantitatively real at level 2. TEST 2 \u2014 profile-constancy independently falsified (second witness set; constant on scaling orbits, NOT profiles; vacuous at non-exceptional primes) \u2014 converges with Pro's F_17 witness. TEST 3 \u2014 no coefficient explosion at generic primes; per-level rigidity numerically confirmed, matching the proved norm gate. NET (both lanes agree): exact factorization + proved rigidity + dead shortcut; the one question is the norm-gate-sparsity bound on the profile SUM (= Pro's rho_j product formulation). | CONDITIONAL (Pro Brief D route C, verified): reduces to the ONE per-level estimate pcf_norm_gate_flatness (|G_j| <= q^{-L_j+eta_j}U_j, sum eta_j=o(t)). The frontier moves inward to a single clean norm-gate count. | PREDICATE RESTATED (falsification #20): the resultant-majorant PCF is FALSE (the collapse identity); the conditional chain survives verbatim with the evaluation-form predicate pcf_evaluation_flatness (B_j itself <= balanced * q^eta \u2014 the direct statement; Lemma 2.1 onward unchanged)."
   },
   {
    "id": "l1_coset_chart_residue_bridge",
@@ -3845,8 +3845,9 @@
   {
    "id": "pcf_norm_gate_flatness",
    "title": "pcf norm gate flatness",
-   "status": "TARGET",
-   "statement": ""
+   "status": "REFUTED",
+   "statement": "",
+   "notes": "REFUTED (Pro D2, falsification #20, verified: collapse identity 200/200, eta coefficients exact): for 2-power moduli the odd folded-resultant packet is ONE resultant (alpha -> alpha^r permutes roots of X^N+1); the level-2 midpoint profile then has |G_2| >= 3^N/q \u2014 requiring eta = Theta(L) = Theta(t). The MAJORANT is exponentially lossy; the norm gate itself (valid => q | Res) remains true, and the two-level bound remains a valid upper bound. Corrected target: pcf_evaluation_flatness (the true odd evaluation equations)."
   },
   {
    "id": "generator_size_budget_check",
@@ -3874,6 +3875,12 @@
    "status": "PROVED",
    "statement": "L4: direction-dual cleanliness (or pinned-value variant) at terminal unpaid primitive Hankel leaves \u2014 the member-count input QF.12 leaves family-specific.",
    "notes": "PROVED via the pinned-value variant (cleanliness is FALSE in general \u2014 the MDS monic-slice example); verified 279 flats."
+  },
+  {
+   "id": "pcf_evaluation_flatness",
+   "title": "pcf evaluation flatness",
+   "status": "TARGET",
+   "statement": "The CORRECTED flatness target (post falsification #20): for every central\nlevel-j profile M, the TRUE valid-skew count satisfies\nB_j(M) = #{d in D_j(M) : Q_d(zeta^{2l-1}) = 0 in F_q for all 1 <= l <= L_j}\n<= q^{-L_j + eta_j} U_j(M), with sum_j eta_j = o(t) (prize budget\nq^{-t+H} W_cen <= 2^122). The conditions are the ACTUAL odd evaluation\nequations at the specific roots \u2014 L_j genuinely independent F_q-conditions \u2014\nNOT the folded-resultant divisibility, which collapses to ONE condition for\n2-power moduli (Res(X^N+1, Q_{d,r}) = Res(X^N+1, Q_{d,1}) for all odd r \u2014\nthe collapse identity, proved+verified). Surviving levers: the second-moment/\ncharacter-sum route (untouched by the falsifier), the divisor-pair bilinear\nroute, and any structure that remembers WHICH roots are prescribed."
   }
  ],
  "edges": [
@@ -6858,7 +6865,7 @@
    "kind": "ev"
   },
   {
-   "from": "pcf_norm_gate_flatness",
+   "from": "pcf_evaluation_flatness",
    "to": "b2b_primitive_core",
    "kind": "req"
   },
