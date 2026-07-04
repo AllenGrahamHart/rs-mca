@@ -1,0 +1,2489 @@
+{
+  "checks": 17,
+  "families": [
+    {
+      "antipodal_rows": [],
+      "mode": "all primes n^2 < p <= n^3",
+      "n": 16,
+      "nonfingerprinted_rows": [],
+      "p_max": 4049,
+      "p_min": 257,
+      "prime_count": 61,
+      "rows": [
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 257,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 337,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 353,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 401,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 433,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 449,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 577,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 593,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 641,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 673,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 769,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 881,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 929,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 977,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1009,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1153,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1201,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1217,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1249,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1297,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1361,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1409,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1489,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1553,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1601,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1697,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1777,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1873,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 1889,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2017,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2081,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2113,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2129,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2161,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2273,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2417,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2593,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2609,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2657,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2689,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2753,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2801,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2833,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 2897,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3041,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3089,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3121,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3137,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3169,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3217,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3313,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3329,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3361,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3457,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3617,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3697,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3761,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3793,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 3889,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 4001,
+          "raw_anchored_partner_pairs": 3
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 3
+          },
+          "p": 4049,
+          "raw_anchored_partner_pairs": 3
+        }
+      ]
+    },
+    {
+      "antipodal_rows": [],
+      "mode": "all primes n^2 < p <= n^3",
+      "n": 32,
+      "nonfingerprinted_rows": [],
+      "p_max": 32609,
+      "p_min": 1153,
+      "prime_count": 212,
+      "rows": [
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1153,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1217,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1249,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1409,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1601,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1697,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 1889,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2017,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2081,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2113,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2273,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2593,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2657,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2689,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 2753,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3041,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3137,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3169,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3329,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3361,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3457,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 3617,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4001,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4129,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4289,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4481,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4513,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4673,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4801,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 4993,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5153,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5281,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5441,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5569,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5857,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 5953,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 6113,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 6337,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 6529,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 6689,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 6977,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7297,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7393,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7457,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7489,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7649,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7681,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7841,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7873,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 7937,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8161,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8353,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8513,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8609,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8641,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8737,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 8929,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9281,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9377,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9473,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9601,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9697,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 9857,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10177,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10273,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10337,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10369,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10433,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10529,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10657,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 10753,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11329,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11393,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11489,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11617,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11681,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11777,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 11969,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 12097,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 12161,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 12289,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 12577,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 12641,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13121,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13217,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13249,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13313,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13441,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13537,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13633,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13697,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13729,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 13921,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14081,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14177,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14369,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14401,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14561,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14593,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14657,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 14753,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15073,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15137,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15233,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15329,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15361,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15649,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15809,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 15937,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16001,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16033,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16097,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16193,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16417,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16481,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16673,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 16993,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 17377,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 17569,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 17729,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 17761,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 17921,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 18049,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 18401,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 18433,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 18593,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 18913,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19009,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19073,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19457,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19489,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19553,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19681,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19777,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19841,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 19937,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20129,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20161,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20353,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20641,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20897,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 20929,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21089,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21121,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21313,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21377,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21569,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 21601,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 22273,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 22369,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 22433,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 22721,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 22817,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 23041,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 23201,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 23297,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 23873,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 24001,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 24097,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 24481,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25057,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25121,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25153,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25409,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25537,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25601,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25633,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25793,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 25889,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26017,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26113,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26177,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26209,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26497,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26561,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26849,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 26881,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27073,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27329,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27361,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27457,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27617,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 27809,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 28001,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 28097,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 28289,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 28513,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 28961,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29153,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29473,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29537,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29569,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29633,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29761,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 29921,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30113,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30241,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30497,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30529,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30593,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30689,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30817,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30881,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 30977,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 31393,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 31489,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 31649,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 31873,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 32257,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 32321,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 32353,
+          "raw_anchored_partner_pairs": 7
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 7
+          },
+          "p": 32609,
+          "raw_anchored_partner_pairs": 7
+        }
+      ]
+    },
+    {
+      "antipodal_rows": [
+        {
+          "collision_groups": 97,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 12,
+            "mu4_full_fiber": 15
+          },
+          "p": 4993,
+          "raw_anchored_partner_pairs": 27
+        },
+        {
+          "collision_groups": 97,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 12,
+            "mu4_full_fiber": 15
+          },
+          "p": 7937,
+          "raw_anchored_partner_pairs": 27
+        },
+        {
+          "collision_groups": 33,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 4,
+            "mu4_full_fiber": 15
+          },
+          "p": 10177,
+          "raw_anchored_partner_pairs": 19
+        }
+      ],
+      "mode": "first 25 primes above n^2",
+      "n": 64,
+      "nonfingerprinted_rows": [],
+      "p_max": 10433,
+      "p_min": 4289,
+      "prime_count": 25,
+      "rows": [
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 4289,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 4481,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 4673,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 4801,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 97,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 12,
+            "mu4_full_fiber": 15
+          },
+          "p": 4993,
+          "raw_anchored_partner_pairs": 27
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 5441,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 5569,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 5953,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 6337,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 6529,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 6977,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 7297,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 7489,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 7681,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 7873,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 97,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 12,
+            "mu4_full_fiber": 15
+          },
+          "p": 7937,
+          "raw_anchored_partner_pairs": 27
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 8513,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 8641,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 9281,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 9473,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 9601,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 9857,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 33,
+          "fingerprint_counts": {
+            "antipodal_h2_quotient_lift": 4,
+            "mu4_full_fiber": 15
+          },
+          "p": 10177,
+          "raw_anchored_partner_pairs": 19
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 10369,
+          "raw_anchored_partner_pairs": 15
+        },
+        {
+          "collision_groups": 1,
+          "fingerprint_counts": {
+            "mu4_full_fiber": 15
+          },
+          "p": 10433,
+          "raw_anchored_partner_pairs": 15
+        }
+      ]
+    }
+  ],
+  "node": "active_core_count_bound",
+  "status": "EXACT FINITE EVIDENCE: h=4 prime sweep finds no primitive residue; exceptional-prime mass is antipodal quotient-paid",
+  "summary": {
+    "families": [
+      {
+        "antipodal_primes": [],
+        "mode": "all primes n^2 < p <= n^3",
+        "n": 16,
+        "p_max": 4049,
+        "p_min": 257,
+        "prime_count": 61
+      },
+      {
+        "antipodal_primes": [],
+        "mode": "all primes n^2 < p <= n^3",
+        "n": 32,
+        "p_max": 32609,
+        "p_min": 1153,
+        "prime_count": 212
+      },
+      {
+        "antipodal_primes": [
+          4993,
+          7937,
+          10177
+        ],
+        "mode": "first 25 primes above n^2",
+        "n": 64,
+        "p_max": 10433,
+        "p_min": 4289,
+        "prime_count": 25
+      }
+    ],
+    "nonfingerprinted_count": 0
+  },
+  "task": "X21 h=4 prime sweep"
+}

@@ -3224,6 +3224,16 @@
     "experimental/notes/roadmaps/x20_h4_cyclic_fingerprint.md"
    ],
    "notes": "Refines X14's cyclic-paid verdict: the persistent family is X^4 full fibers; the only extra boundary component is a quotient h=2 trade lifted through the antipodal X^2 partition and charged in-window by the equivalent X^6 partition."
+  },
+  {
+   "id": "x21_h4_prime_sweep",
+   "title": "X21: h=4 prime sweep finds only cyclic fingerprints",
+   "status": "TEST",
+   "statement": "Exact h=4 prime sweep: for n=16 and n=32, every prime p == 1 mod n with n^2 < p <= n^3 has only the persistent mu_4 full-fiber family; for the first 25 n=64 boundary primes, the only extra active pairs are paid antipodal h=2 quotient lifts at p=4993,7937,10177. No primitive h=4 residue is observed.",
+   "refs": [
+    "experimental/notes/roadmaps/x21_h4_prime_sweep.md"
+   ],
+   "notes": "Confirms that exceptional-prime h=4 behavior exists but stays inside the cyclic pullback ledger; the uniform h=4 target should classify both mu_4 full fibers and antipodal quotient lifts, not claim raw emptiness."
   }
  ],
  "edges": [
@@ -5779,6 +5789,11 @@
   },
   {
    "from": "x20_h4_cyclic_fingerprint",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x21_h4_prime_sweep",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
