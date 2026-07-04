@@ -3921,7 +3921,8 @@
    "id": "ef_ru",
    "title": "row-uniform extension-fiber hypothesis",
    "status": "TARGET",
-   "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first)."
+   "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first).",
+   "notes": "REFEREE VERDICT: NOT discharged by the banked arithmetic \u2014 ext_import prices the pole column, generating_escape gives the s6 escape direction; EF_ru is the COMPLETENESS claim (nothing lands off the pole divisor). Genuine leaf #5, but rich-line-classification-shaped: a one-round Pro target with s6 sections attached."
   }
  ],
  "edges": [
