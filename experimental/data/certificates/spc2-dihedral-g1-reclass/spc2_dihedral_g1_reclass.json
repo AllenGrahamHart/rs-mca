@@ -1,0 +1,216 @@
+{
+  "checks": 7,
+  "interpretation": "The known 976 anchored h=8 survivors are not an artifact of omitting gcd(n,m)=1 dihedral fibers from the SP-CENSUS support classifier.",
+  "node": "spc2_dihedral_g1_reclass",
+  "result": {
+    "augmented_partition_count": 269,
+    "coprime_dihedral_added_charges": {},
+    "h": 8,
+    "n": 32,
+    "new_charged": 249,
+    "new_nontoral": 976,
+    "new_reasons": {
+      "cyclic:m=4": 105,
+      "cyclic:m=6": 144
+    },
+    "old_charged": 249,
+    "old_nontoral": 976,
+    "old_partition_count": 77,
+    "old_reasons": {
+      "cyclic:m=4": 105,
+      "cyclic:m=6": 144
+    },
+    "p": 1153,
+    "remaining_examples": [
+      {
+        "P_exponents": [
+          0,
+          2,
+          8,
+          14,
+          15,
+          18,
+          25,
+          26
+        ],
+        "Q_exponents": [
+          5,
+          12,
+          17,
+          20,
+          22,
+          23,
+          27,
+          28
+        ],
+        "signature_code": 6464558
+      },
+      {
+        "P_exponents": [
+          0,
+          7,
+          11,
+          12,
+          20,
+          21,
+          26,
+          28
+        ],
+        "Q_exponents": [
+          3,
+          4,
+          5,
+          15,
+          16,
+          22,
+          27,
+          30
+        ],
+        "signature_code": 6836397
+      },
+      {
+        "P_exponents": [
+          0,
+          1,
+          10,
+          12,
+          24,
+          25,
+          29,
+          30
+        ],
+        "Q_exponents": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          15,
+          19,
+          21
+        ],
+        "signature_code": 8158726
+      },
+      {
+        "P_exponents": [
+          0,
+          2,
+          5,
+          6,
+          14,
+          22,
+          25,
+          29
+        ],
+        "Q_exponents": [
+          1,
+          10,
+          11,
+          18,
+          19,
+          21,
+          27,
+          31
+        ],
+        "signature_code": 10941675
+      },
+      {
+        "P_exponents": [
+          0,
+          2,
+          11,
+          12,
+          15,
+          20,
+          25,
+          31
+        ],
+        "Q_exponents": [
+          4,
+          6,
+          7,
+          10,
+          16,
+          22,
+          23,
+          28
+        ],
+        "signature_code": 11154920
+      },
+      {
+        "P_exponents": [
+          0,
+          3,
+          9,
+          10,
+          13,
+          20,
+          26,
+          31
+        ],
+        "Q_exponents": [
+          5,
+          8,
+          11,
+          15,
+          19,
+          24,
+          28,
+          30
+        ],
+        "signature_code": 12358157
+      },
+      {
+        "P_exponents": [
+          0,
+          7,
+          12,
+          15,
+          17,
+          18,
+          22,
+          23
+        ],
+        "Q_exponents": [
+          3,
+          9,
+          10,
+          13,
+          20,
+          21,
+          27,
+          29
+        ],
+        "signature_code": 12554192
+      },
+      {
+        "P_exponents": [
+          0,
+          5,
+          12,
+          14,
+          21,
+          22,
+          26,
+          28
+        ],
+        "Q_exponents": [
+          1,
+          3,
+          8,
+          9,
+          10,
+          19,
+          25,
+          29
+        ],
+        "signature_code": 14491631
+      }
+    ],
+    "row": "F1153_mu32_t3_h8",
+    "subset_count": 10518300,
+    "t": 3
+  },
+  "status": "NEGATIVE RESULT: coprime dihedral pair-fibers do not charge the F1153/mu32,h=8 boundary survivors",
+  "task": "SP-CENSUS-2 coprime-dihedral reclassification"
+}

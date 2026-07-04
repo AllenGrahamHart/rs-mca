@@ -109,6 +109,17 @@ possible exits:
 This is not the old below-threshold low-q warning.  The falsifier sits above
 the advertised `q >= n^2` line.
 
+Follow-up `spc2_dihedral_g1_reclass.md` tested the cheapest missing paid
+clause: adding all coprime dihedral pair-fiber partitions
+`X^m + alpha X^-m` with `gcd(n,m)=1`.  It charges none of the h=8 survivors:
+
+```text
+old non-toral = 976
+new non-toral = 976
+```
+
+So the boundary mass is not an omitted coprime-dihedral artifact.
+
 ## Verification
 
 Run:
