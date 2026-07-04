@@ -149,7 +149,7 @@
   },
   {
    "id": "cap_envelope_parameter_sweep",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Does the graded-prefix envelope close rates 1/4 and 1/16 at finer quotient scales?"
   },
   {
@@ -229,7 +229,7 @@
   },
   {
    "id": "corridor_ledger",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "THE CORRIDOR LEDGER: per-rate, eaters (i)+(ii)+(iii) >= W(rate) - 1"
   },
   {
