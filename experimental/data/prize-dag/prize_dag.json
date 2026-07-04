@@ -3404,6 +3404,16 @@
     "experimental/notes/roadmaps/x38_h4_exact_toral_line_classifier.md"
    ],
    "notes": "Proved h=4 specialization of the toral-line branch. This does not classify higher-degree components or Laurent tails; it removes the exact line-level toral escape from the X37 quartic residue."
+  },
+  {
+   "id": "x39_h4_affine_line_normal_form",
+   "title": "X39: h=4 affine-line factors are centered powers",
+   "status": "PROVED",
+   "statement": "For a monic quartic psi over characteristic p>4, an exact affine line factor X=aY+b of psi(X)-psi(Y) is either the identity or has normal form psi(X)=Phi((X-c)^m), where c=b/(1-a) and m in {2,4}. Nontrivial translations are impossible by the 4b leading-difference coefficient. The zero-center case is the cyclic-paid branch from X38; the nonzero-center case is the named h4_centered_power_affine_residue, not charged in this packet.",
+   "refs": [
+    "experimental/notes/roadmaps/x39_h4_affine_line_normal_form.md"
+   ],
+   "notes": "Proved affine bidegree-(1,1) normal form for quartic fiber products. This sharpens the h=4 primitive residue by isolating the only affine-line escape not already multiplicative-cyclic paid."
   }
  ],
  "edges": [
@@ -6054,6 +6064,11 @@
   },
   {
    "from": "x38_h4_exact_toral_line_classifier",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x39_h4_affine_line_normal_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
