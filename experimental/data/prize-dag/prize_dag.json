@@ -3844,6 +3844,16 @@
     "experimental/notes/roadmaps/x82_square_shift_certifier_keys.md"
    ],
    "notes": "Fixes the square-shift key discipline after X81: row_key uses scaling only; certifier_key may also use unit relabeling for obstruction/resultant computation. The verifier records fixed-row unit mismatches to prevent the false division-by-units error."
+  },
+  {
+   "id": "x83_uniform_square_shift_obstruction_gate",
+   "title": "X83: uniform square-shift supports have h-1 low obstruction gates",
+   "status": "PROVED",
+   "statement": "For any h in odd characteristic, the monic degree-h square root candidate for a split 2h-support locator is forced by the high coefficients in degrees 2h down to h. The support underlies a minimal h-trade exactly when the h-1 low coefficients of S^2-L_R vanish and the constant discrepancy is a nonzero square. Over Q(zeta_n), 2^(4h-2) clears every low obstruction; if h is not a power of two, X24 makes every finite-row trade p-specific by forcing p to divide the norm of a nonzero cleared obstruction.",
+   "refs": [
+    "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
+   ],
+   "notes": "Generalizes X79's h=5 four-obstruction gate to every h and records the exact denominator loss. Power-of-two h keeps the paid full-fiber char-zero branch; non-power h becomes a sparse norm-gate certification target."
   }
  ],
  "edges": [
@@ -7184,6 +7194,26 @@
   },
   {
    "from": "x82_square_shift_certifier_keys",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "x83_uniform_square_shift_obstruction_gate",
+   "kind": "ev"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "x83_uniform_square_shift_obstruction_gate",
+   "kind": "ev"
+  },
+  {
+   "from": "x82_square_shift_certifier_keys",
+   "to": "x83_uniform_square_shift_obstruction_gate",
+   "kind": "ev"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
