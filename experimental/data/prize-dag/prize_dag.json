@@ -867,12 +867,12 @@
   {
    "id": "f1_classification",
    "title": "F-valued slopes: B-rational / pole / tower",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s6_extension_lift.md#4"
    ],
    "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger.",
-   "notes": "AUDITED TRUE RED (Codex packet, accepted): the case classification's own content is open mathematics. | CONVERGENT FRONTIER CERTIFICATION: Codex's wave-7 audit independently matches the Opus TRUE RED verdict \u2014 the Galois-descent trichotomy content is confirmed hard red by both lanes."
+   "notes": "CONDITIONAL on {pole_forcing, case_pole}: the trichotomy assembly (conditional.md); tower case PROVED."
   },
   {
    "id": "sigma1_cx",
@@ -1123,12 +1123,9 @@
   },
   {
    "id": "e1_fullness",
-   "title": "e1 value sets stay (1-o(1))-full below the saturation scale",
-   "status": "CONJECTURE",
-   "refs": [
-    "proof_sketch/s2_paid_ledger.md#3"
-   ],
-   "notes": "the precise collision-free reading of zone-(b); Row-C sampling measures exactly this | E1 PILOT (PR #180, replayed green): zero collisions at 2^18 samples/cell for N' in {64,128,256} on Row C => support >= 2^33.4 (95%), extreme collapse ruled out at printed scale. Class counts log2 A = 49.7/100.4/201.9: only N'=64 is birthday-DECIDABLE (~2^25 samples); open in-corridor cells need structured estimators or the norm-criterion route. Spec correction adopted: N' must divide n (96/192 dropped)."
+   "title": "e1 non-quotient collision density",
+   "status": "TARGET",
+   "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16)."
   },
   {
    "id": "paper_a_noslack",
@@ -1361,12 +1358,12 @@
   {
    "id": "f1_case_tower",
    "title": "F1 case (iii): intermediate-subfield tower recursion",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#5"
    ],
    "statement": "Case (iii) closes: intermediate-subfield-confined slopes are priced by the same two mechanisms one level up, recursively, with per-level denominators printed. NOTE: critical only if the official family admits non-generating rows (Q0.1).",
-   "notes": "Family CONFIRMED to include non-generating rows (any field < 2^256 incl. extensions, n up to 2^41): the tower case is genuinely critical, no longer family-conditional. | SCOPE WIRE (expansion audit): 'critical only if the official family admits towers' = exactly axis8_generating \u2014 now wired as req."
+   "notes": "PROVED (maintainer assembly): minimal-field descent kills the tower case at the bottom; two proved ledgers per level; admissibility by axis8."
   },
   {
    "id": "two_slope_intersection",
@@ -3916,12 +3913,6 @@
    "title": "Dirichlet log-integral flatness",
    "status": "TARGET",
    "statement": "Near-log-integral geometric-mean distribution of low-degree odd evaluations on the section (see statement.md) \u2014 the final reduced input of the primitive core."
-  },
-  {
-   "id": "e1_fullness",
-   "title": "e1 non-quotient collision density",
-   "status": "TARGET",
-   "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16)."
   }
  ],
  "edges": [
@@ -6974,6 +6965,11 @@
    "from": "e1_fullness",
    "to": "zone_b",
    "kind": "req"
+  },
+  {
+   "from": "pcf_norm_gate_flatness",
+   "to": "b2b_primitive_core",
+   "kind": "ev"
   }
  ]
 }

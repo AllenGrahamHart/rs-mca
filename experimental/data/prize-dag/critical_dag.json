@@ -324,12 +324,12 @@
   },
   {
    "id": "f1_case_tower",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "F1 case (iii): intermediate-subfield tower recursion"
   },
   {
    "id": "f1_classification",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "F-valued slopes: B-rational / pole / tower"
   },
   {
