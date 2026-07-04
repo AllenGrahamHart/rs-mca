@@ -3304,6 +3304,16 @@
     "experimental/notes/roadmaps/x28_h4_n128_direct_bridge.md"
    ],
    "notes": "Bridges X27's cheap quotient arithmetic back to actual h=4 support space on selected larger rows, including the max n=128 quotient-extra row and a clean high-end row. This is selected-row evidence, not a full n=128 prime-window h=4 sort."
+  },
+  {
+   "id": "x29_h4_quotient_bridge_lemma",
+   "title": "X29: h=4 antipodal-union trades equal quotient h=2 sum collisions",
+   "status": "PROVED",
+   "statement": "For 4|n over odd characteristic, the square map identifies anchored h=4 supports that are unions of antipodal pairs with anchored 2-subsets of mu_{n/2}. If P=pi^{-1}(A) and Q=pi^{-1}(B), then L_P(X)=L_A(X^2), so equality of the h=4 top-three elementary signature is equivalent to sum(A)=sum(B). The zero-sum quotient baseline has size n/4-1 and lifts exactly to mu_4 full-fiber pairs.",
+   "refs": [
+    "experimental/notes/roadmaps/x29_h4_quotient_bridge_lemma.md"
+   ],
+   "notes": "This is the count-transfer lemma behind X20 and X26-X28. It does not prove that every h=4 trade is an antipodal union; it proves that the antipodal branch is exactly quotient h=2 sum-collision arithmetic."
   }
  ],
  "edges": [
@@ -5899,6 +5909,11 @@
   },
   {
    "from": "x28_h4_n128_direct_bridge",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x29_h4_quotient_bridge_lemma",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
