@@ -3749,11 +3749,12 @@
    "title": "b2b primitive core",
    "status": "TARGET",
    "statement": "THE REMAINING CORE of B2b: #{t-null primitive B : t+16 <= |B| <= n/2} <= 2^122 (after complement duality, the M > t dictionary, the M_0-boundary class, and the proved near-tails). The descent packet reduces this to counting bounded-multiplicity multiset-null objects WITH the odd skew equations retained; interpolation is dead at k = 16 (reaches 2^128). One structural input needed \u2014 candidate shapes: the skew-equation rigidity at successive scales, or a divisor-pair argument exploiting BOTH constrained halves of L_A L_{A^c} = X^n - 1.",
-   "attack_surface": "the skew nullity (L5) is new structure nobody has exploited; start there",
+   "attack_surface": "THE SKEW-TOWER FRAMEWORK (opened, level-1 exact, three-field verified \u2014 see notes/skew_tower_attack.md): the count factorizes exactly over descent levels; each level's branching IS the signed-sparse-relation count (the (A)-side norm-gate object) \u2014 the campaign's two halves meet inside this node. Remaining: bounded-coefficient generalization, central-range weight accounting, profile-constancy proof.",
    "falsifier": "a t-null primitive census at a scaled row showing core counts near the budget",
    "refs": [
     "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
-   ]
+   ],
+   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework."
   },
   {
    "id": "l1_coset_chart_residue_bridge",
