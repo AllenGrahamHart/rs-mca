@@ -889,7 +889,7 @@
   },
   {
    "id": "u2_per_row_certifier",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
