@@ -1,0 +1,126 @@
+{
+  "checks": 18,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x42_h4_centered_energy_accounting": "PROVED",
+    "x43_h4_centered_shell_size_closure": "PROVED"
+  },
+  "full_windows": [
+    {
+      "interesting_rows": [
+        {
+          "exact_centered_trades": 0,
+          "max_pair_product_sum_bucket": 1,
+          "max_shell_size": 6,
+          "n": 64,
+          "n_cubed": 262144,
+          "p": 7937,
+          "shell_size_histogram": {
+            "1": 896,
+            "2": 128,
+            "3": 64,
+            "4": 64,
+            "6": 64
+          },
+          "x42_binom4_bound": 1024,
+          "x44_bound_ceiling": 5040,
+          "x44_bound_fraction": "5040/1"
+        }
+      ],
+      "max_exact_centered_trades": 0,
+      "max_shell_size": 6,
+      "max_x42_binom4_bound": 1024,
+      "n": 64,
+      "prime_count": 693
+    }
+  ],
+  "node": "active_core_count_bound",
+  "selected_rows": [
+    {
+      "exact_centered_trades": 0,
+      "max_pair_product_sum_bucket": 1,
+      "max_shell_size": 6,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 7937,
+      "shell_size_histogram": {
+        "1": 896,
+        "2": 128,
+        "3": 64,
+        "4": 64,
+        "6": 64
+      },
+      "x42_binom4_bound": 1024,
+      "x44_bound_ceiling": 5040,
+      "x44_bound_fraction": "5040/1"
+    },
+    {
+      "exact_centered_trades": 0,
+      "max_pair_product_sum_bucket": 1,
+      "max_shell_size": 3,
+      "n": 128,
+      "n_cubed": 2097152,
+      "p": 17921,
+      "shell_size_histogram": {
+        "1": 4608,
+        "2": 1536,
+        "3": 128
+      },
+      "x42_binom4_bound": 0,
+      "x44_bound_ceiling": 0,
+      "x44_bound_fraction": "0/1"
+    },
+    {
+      "exact_centered_trades": 0,
+      "max_pair_product_sum_bucket": 1,
+      "max_shell_size": 5,
+      "n": 256,
+      "n_cubed": 16777216,
+      "p": 91393,
+      "shell_size_histogram": {
+        "1": 23552,
+        "2": 3072,
+        "3": 512,
+        "5": 256
+      },
+      "x42_binom4_bound": 1280,
+      "x44_bound_ceiling": 32640,
+      "x44_bound_fraction": "32640/1"
+    }
+  ],
+  "status": "PROVED MAX-SHELL BOUND + FULL n64 WINDOW REPLAY",
+  "stress_rows": [
+    {
+      "exact_centered_trades": 112,
+      "max_pair_product_sum_bucket": 3,
+      "max_shell_size": 7,
+      "n": 16,
+      "n_cubed": 4096,
+      "p": 17,
+      "shell_size_histogram": {
+        "7": 16
+      },
+      "x42_binom4_bound": 560,
+      "x44_bound_ceiling": 600,
+      "x44_bound_fraction": "600/1"
+    },
+    {
+      "exact_centered_trades": 704,
+      "max_pair_product_sum_bucket": 2,
+      "max_shell_size": 12,
+      "n": 64,
+      "n_cubed": 262144,
+      "p": 193,
+      "shell_size_histogram": {
+        "10": 64,
+        "12": 64,
+        "9": 64
+      },
+      "x42_binom4_bound": 53184,
+      "x44_bound_ceiling": 83160,
+      "x44_bound_fraction": "83160/1"
+    }
+  ],
+  "task": "X44 h=4 centered max-shell bound",
+  "theorem": "Let M=max_s m_s over nonzero pair-sum shells.  Since C(m,4)/m is increasing for m>=4, X42's sum_s C(m_s,4) is at most C(M,4)/M times sum_s m_s, and sum_s m_s <= C(n,2).  Thus R_centered <= C(M,4) C(n,2)/M.  Any row with this bound <= n^3 has the centered affine branch safely inside the rewired terminal column."
+}
