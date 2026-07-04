@@ -284,13 +284,13 @@
   {
    "id": "paid_closure",
    "title": "Paid(A) closure: tangent+quotient+extension computable",
-   "status": "PROVED",
+   "status": "PROVABLE",
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
    "statement": "Paid(A) as one computable function assembled from paid_tan_fn + paid_quot_fn (intervals) + paid_ext_fn.",
-   "notes": "SWEEP FLIP (ring 2, node 1, 2026-07-04): RIPE with all six kids PROVED; the node's content IS the cited assembly (s2_paid_ledger #5: tan + quot + ext with first-match dedup), which exists as the pseudocode with every component a PROVED node. REFEREE SUBTLETY, recorded: the zone-(b) quotient cell is INTERVAL-valued ([DdH(N'), 2^{beta N'}]) pending zone_b \u2014 the 'computable function' claim is interval-valued there by design, and consumers (mca_safe via r2/zone_b) consume the interval, not a scalar. Declaration performed after this referee check."
+   "notes": "SWEEP FLIP (ring 2, node 1, 2026-07-04): RIPE with all six kids PROVED; the node's content IS the cited assembly (s2_paid_ledger #5: tan + quot + ext with first-match dedup), which exists as the pseudocode with every component a PROVED node. REFEREE SUBTLETY, recorded: the zone-(b) quotient cell is INTERVAL-valued ([DdH(N'), 2^{beta N'}]) pending zone_b \u2014 the 'computable function' claim is interval-valued there by design, and consumers (mca_safe via r2/zone_b) consume the interval, not a scalar. Declaration: PROVABLE (not PROVED) \u2014 the validator correctly blocked full green because a component is itself PROVABLE (write-up pending); flips PROVED when it does."
   },
   {
    "id": "staircase",
