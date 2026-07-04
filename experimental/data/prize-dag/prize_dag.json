@@ -3384,6 +3384,16 @@
     "experimental/notes/roadmaps/x36_h4_n64_highrow_power_gate.md"
    ],
    "notes": "Finite high-row evidence for the X35 signed 4+4 moment-gate formulation. This avoids replaying the full n=64 all-prime sweep while extending the small-row common-gcd evidence to q ~ n^3."
+  },
+  {
+   "id": "x37_h4_quartic_fiber_form",
+   "title": "X37: h=4 trades are two fibers of one monic quartic",
+   "status": "PROVED",
+   "statement": "For disjoint 4-subsets P,Q, equality of e1,e2,e3 is equivalent to Q being a constant fiber of the monic quartic locator L_P: L_P(P)=0 and L_P(Q)=c with c=e4(P)-e4(Q). If P and Q are disjoint and top-three equal then c != 0. Thus the h=4 residue is equivalently a degree-4 two-split-fiber problem, matching the pullback/fiber taxonomy.",
+   "refs": [
+    "experimental/notes/roadmaps/x37_h4_quartic_fiber_form.md"
+   ],
+   "notes": "Proved locator identity with examples and a full tiny F257/mu16 exhaustion. Complements X35's signed moment formulation."
   }
  ],
  "edges": [
@@ -6024,6 +6034,11 @@
   },
   {
    "from": "x36_h4_n64_highrow_power_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x37_h4_quartic_fiber_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
