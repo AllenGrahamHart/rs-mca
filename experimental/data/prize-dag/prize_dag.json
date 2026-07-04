@@ -637,7 +637,7 @@
   {
    "id": "strat_tree",
    "title": "Stratification case-tree T0-T7 (= dedup convention)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
@@ -1419,11 +1419,11 @@
   {
    "id": "stratification_partition_thm",
    "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
-   "notes": "true by construction; the final theorem literally sums over these strata, so this is load-bearing, not scaffolding | IN FLIGHT: PR #192 (Q2.10 executed)."
+   "notes": "PROVED (Opus write-up, my replay: 1536-point exhaustive + 307200 randomized, PASS): first-match + catch-all => partition, for ANY predicates. THE NINE-CELL READING: {T0..T7, L} with L nonempty by design \u2014 T0-T7 alone are NOT total; do not confuse with the open L=0 paid-completeness claim."
   },
   {
    "id": "beta2_moment_corroboration",
@@ -2174,7 +2174,7 @@
   {
    "id": "safe_assembly_uniformity",
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "The implicit lemma 'counting_frame + fm1 + strip + paid_closure + r2 + ext_lift => mca_safe' holds UNIFORMLY over the admissible family: (i) every exponent (B <= 3, B_F, budget arithmetic) is an absolute constant, not n-drifting; (ii) the stratified sum + first-match dedup compose with endpoint conventions printed once (descriptor-generated); (iii) the composition survives k up to 2^40 scales symbolically (wp3_2). The last unpriced composite implication of the adjacency/payment-completeness class.",
    "attack_surface": "mostly bookkeeping made explicit: a one-note assembly proof template with a constants ledger; the genuine content is the uniformity audit of each input's constant",
