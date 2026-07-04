@@ -2356,7 +2356,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest. | LEVERAGE +4 (top of board). Reframed to the exact #closed-sets-poly question. Phase 0 probe found the object lives at rank-drop slopes \u2014 census must use the fiber machinery, not naive sampling. Pipeline banked."
+   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest. | LEVERAGE +4 (top of board). Reframed to the exact #closed-sets-poly question. Phase 0 probe found the object lives at rank-drop slopes \u2014 census must use the fiber machinery, not naive sampling. Pipeline banked. | PHASE 0 DONE: M(Z) pinned (v12 extractor), E17 reproduced (gate passed). REFRAMED: generic supports uniform-diameter but <=1/flat (trivial lattice); termination = MAX #closed-sets over rare structured flats. Modal census dispatched (max-search)."
   },
   {
    "id": "xr_e3_to_expansion",
