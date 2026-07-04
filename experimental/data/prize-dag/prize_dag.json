@@ -1691,11 +1691,12 @@
   {
    "id": "spi_point_counting",
    "title": "SPI stage 2: points of D_j on components \u2014 low-dim components contribute poly",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "statement": "For each component V of dim below threshold: #(V cap D_j) <= poly(n). HONEST NOTE: this is where the core resurfaces in the SPI dialect \u2014 D_j is a special finite set, not generic points, so Lang-Weil-type counting does not apply verbatim; the divisor structure must enter.",
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#5"
-   ]
+   ],
+   "notes": "CONDITIONAL (Pro Theorem J): conj_f (PROVED) + hankel_slope_large_sieve => R2 with B = C_F + C_Sigma. Honest: the sieve IS R2 factorized \u2014 the gain is that the fiber factor is now settled by Conjecture F and the residue is purely the XR exchange wall, where the campaign has machinery (Johnson expansion, exchange ledgers)."
   },
   {
    "id": "es_regularity",
@@ -3895,6 +3896,12 @@
    "title": "AQB-I averaged quotient-box estimate",
    "status": "TARGET",
    "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently."
+  },
+  {
+   "id": "hankel_slope_large_sieve",
+   "title": "Hankel slope large sieve",
+   "status": "TARGET",
+   "statement": "Supported-slope estimate = R2's factorized residue (see statement.md); closed subcases: rank-drop, D=1, fixed D."
   }
  ],
  "edges": [
@@ -6921,6 +6928,16 @@
   {
    "from": "aqb_averaged_quotient_box",
    "to": "rate_half_band_closure",
+   "kind": "req"
+  },
+  {
+   "from": "conj_f",
+   "to": "spi_point_counting",
+   "kind": "req"
+  },
+  {
+   "from": "hankel_slope_large_sieve",
+   "to": "spi_point_counting",
    "kind": "req"
   }
  ]
