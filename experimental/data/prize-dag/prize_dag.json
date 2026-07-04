@@ -3724,6 +3724,16 @@
     "experimental/notes/roadmaps/x70_h4_normalized_quotient_resultant.md"
    ],
    "notes": "Removes the universal X-1 factor from the primitive h=4 sparse-resultant certifier after unit-anchor normalization, leaving the quotient q_{r,s} as the exact p-specific test object."
+  },
+  {
+   "id": "x71_h4_interval_quotient_form",
+   "title": "X71: h=4 normalized quotient is a signed interval polynomial",
+   "status": "PROVED",
+   "statement": "For A_m=1+...+X^{m-1}, the X70 quotient of X+X^r-X^s-1 is q=1+A_r-A_s. Hence q is 1 plus the interval X^s..X^{r-1} when r>s, or 1 minus the interval X^r..X^{s-1} when s>r; the diagonal gives q=1.",
+   "refs": [
+    "experimental/notes/roadmaps/x71_h4_interval_quotient_form.md"
+   ],
+   "notes": "Converts the primitive h=4 p-specific resultant test object into constant-plus-signed-interval form, parameterized by start, length, and sign."
   }
  ],
  "edges": [
@@ -6844,6 +6854,21 @@
   },
   {
    "from": "x70_h4_normalized_quotient_resultant",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x69_h4_unit_anchor_normal_form",
+   "to": "x71_h4_interval_quotient_form",
+   "kind": "req"
+  },
+  {
+   "from": "x70_h4_normalized_quotient_resultant",
+   "to": "x71_h4_interval_quotient_form",
+   "kind": "req"
+  },
+  {
+   "from": "x71_h4_interval_quotient_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
