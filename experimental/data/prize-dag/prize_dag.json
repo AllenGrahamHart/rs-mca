@@ -3744,6 +3744,16 @@
     "experimental/notes/roadmaps/x72_h4_interval_xplus_strip.md"
    ],
    "notes": "Adds an optional second linear-factor stripping stage to the h=4 primitive norm-gate certifier after X70/X71, reducing the resultant degree for parity-matched interval keys without changing X65 row-count expansion."
+  },
+  {
+   "id": "x73_h4_normalized_pair_sieve",
+   "title": "X73: h=4 normalized-pair sieve is a complete row-local certifier",
+   "status": "PROVED",
+   "statement": "For p==1 mod n, Phi_n splits over F_p as the simple product over primitive roots zeta^u. Hence a normalized word X+X^r-X^s-1 is p-norm-gated iff it vanishes at zeta^u for some unit u. Exhausting all filtered normalized pairs and grouping survivors by X68 key recovers exactly the replay finite-triple key set in the checked rows.",
+   "refs": [
+    "experimental/notes/roadmaps/x73_h4_normalized_pair_sieve.md"
+   ],
+   "notes": "Upgrades the h=4 interval-resultant lane from a normal form for known solutions to a complete row-local key certifier: enumerate (1,r,s), primitive-root test, X68 key, then expand survivors in X65 row-count currency."
   }
  ],
  "edges": [
@@ -6899,6 +6909,36 @@
   },
   {
    "from": "x72_h4_interval_xplus_strip",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
+   "to": "x73_h4_normalized_pair_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "x73_h4_normalized_pair_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "x69_h4_unit_anchor_normal_form",
+   "to": "x73_h4_normalized_pair_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "x71_h4_interval_quotient_form",
+   "to": "x73_h4_normalized_pair_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "x72_h4_interval_xplus_strip",
+   "to": "x73_h4_normalized_pair_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "x73_h4_normalized_pair_sieve",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
