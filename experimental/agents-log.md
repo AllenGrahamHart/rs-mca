@@ -30,6 +30,23 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - H1 U1 toy harness
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/h1_u1_toy_harness.md`,
+  `experimental/scripts/verify_h1_u1_toy_harness.py`,
+  `experimental/data/certificates/h1-u1-toy-harness/`.
+- **Status:** EVIDENCE / HARNESS PASS.
+- **What is being added:** A toy-scale harness for
+  `u1_primitive_star_pte_bound (v1)` that enumerates same-top-`t` locator
+  families, checks the star-PTE normal form, strips explicit v1
+  quotient/dihedral pullback trades, and records the per-base survivor cap.
+- **How it is useful:** Provides the shared scaffold used by later active-core
+  and band-trade evidence packets while keeping the U1 proof status
+  conservative.
+- **What to do next:** Treat this as toy evidence only; PA/PB-style probes can
+  import the verifier helpers after this packet lands.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
