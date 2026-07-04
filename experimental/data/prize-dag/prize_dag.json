@@ -3564,6 +3564,16 @@
     "experimental/notes/roadmaps/x54_h4_shell_surplus_norm_gate_bridge.md"
    ],
    "notes": "Quantifies the X41 localization. Any large centered h=4 shell first appears as a quadratic surplus of sparse h=2 norm gates; a quotient shell of size M forces n*C(M,2) such surplus collisions."
+  },
+  {
+   "id": "x55_h4_surplus_threshold_bridge",
+   "title": "X55: h=4 centered branch closes below the exact surplus barrier",
+   "status": "PROVED",
+   "statement": "Let T(n) be the X50 exact shell threshold. Since X54 gives N_surplus >= n*C(M,2) for a quotient shell of size M, the strict aggregate bound N_surplus < n*C(T(n)+1,2) rules out M >= T(n)+1, hence M <= T(n), and X50 puts the centered h=4 branch inside the n^3 terminal column. The condition is sufficient, not necessary.",
+   "refs": [
+    "experimental/notes/roadmaps/x55_h4_surplus_threshold_bridge.md"
+   ],
+   "notes": "Converts the centered h=4 shell maximum target into one aggregate h=2 norm-gate surplus target. The verifier replays X54 rows, records a stress row where the sufficient barrier is not necessary, and checks exactly that the 6*n^(5/3) total-surplus scale lies below the barrier on every X50 threshold-table row, including n=2^41."
   }
  ],
  "edges": [
@@ -6359,6 +6369,21 @@
   },
   {
    "from": "x54_h4_shell_surplus_norm_gate_bridge",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x50_h4_centered_threshold",
+   "to": "x55_h4_surplus_threshold_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "x54_h4_shell_surplus_norm_gate_bridge",
+   "to": "x55_h4_surplus_threshold_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "x55_h4_surplus_threshold_bridge",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

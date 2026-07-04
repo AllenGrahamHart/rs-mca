@@ -1,0 +1,230 @@
+{
+  "checks": 48,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x50_h4_centered_threshold": "PROVED",
+    "x54_h4_shell_surplus_norm_gate_bridge": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "barrier_margin": 720,
+      "exact_threshold": 11,
+      "forced_surplus_from_max_shell": 336,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_shell_size": 7,
+      "n": 16,
+      "p": 17,
+      "shell_surplus_pairs": 336,
+      "surplus_barrier": 1056,
+      "surplus_condition_satisfied": true,
+      "x50_max_shell_safe": true
+    },
+    {
+      "barrier_margin": -704,
+      "exact_threshold": 16,
+      "forced_surplus_from_max_shell": 4224,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_shell_size": 12,
+      "n": 64,
+      "p": 193,
+      "shell_surplus_pairs": 9408,
+      "surplus_barrier": 8704,
+      "surplus_condition_satisfied": false,
+      "x50_max_shell_safe": true
+    },
+    {
+      "barrier_margin": 7040,
+      "exact_threshold": 16,
+      "forced_surplus_from_max_shell": 960,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_shell_size": 6,
+      "n": 64,
+      "p": 7937,
+      "shell_surplus_pairs": 1664,
+      "surplus_barrier": 8704,
+      "surplus_condition_satisfied": true,
+      "x50_max_shell_safe": true
+    },
+    {
+      "barrier_margin": 24960,
+      "exact_threshold": 20,
+      "forced_surplus_from_max_shell": 384,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_shell_size": 3,
+      "n": 128,
+      "p": 17921,
+      "shell_surplus_pairs": 1920,
+      "surplus_barrier": 26880,
+      "surplus_condition_satisfied": true,
+      "x50_max_shell_safe": true
+    },
+    {
+      "barrier_margin": 76032,
+      "exact_threshold": 25,
+      "forced_surplus_from_max_shell": 2560,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_shell_size": 5,
+      "n": 256,
+      "p": 91393,
+      "shell_surplus_pairs": 7168,
+      "surplus_barrier": 83200,
+      "surplus_condition_satisfied": true,
+      "x50_max_shell_safe": true
+    }
+  ],
+  "scale_table": [
+    {
+      "binom_threshold_plus_one_2": 66,
+      "exact_threshold": 11,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 55296,
+        "right": 287496
+      },
+      "n": 16,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 2048,
+        "right": 287496
+      },
+      "surplus_barrier": 1056
+    },
+    {
+      "binom_threshold_plus_one_2": 91,
+      "exact_threshold": 13,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 221184,
+        "right": 753571
+      },
+      "n": 32,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 8192,
+        "right": 753571
+      },
+      "surplus_barrier": 2912
+    },
+    {
+      "binom_threshold_plus_one_2": 136,
+      "exact_threshold": 16,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 884736,
+        "right": 2515456
+      },
+      "n": 64,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 32768,
+        "right": 2515456
+      },
+      "surplus_barrier": 8704
+    },
+    {
+      "binom_threshold_plus_one_2": 210,
+      "exact_threshold": 20,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 3538944,
+        "right": 9261000
+      },
+      "n": 128,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 131072,
+        "right": 9261000
+      },
+      "surplus_barrier": 26880
+    },
+    {
+      "binom_threshold_plus_one_2": 325,
+      "exact_threshold": 25,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 14155776,
+        "right": 34328125
+      },
+      "n": 256,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 524288,
+        "right": 34328125
+      },
+      "surplus_barrier": 83200
+    },
+    {
+      "binom_threshold_plus_one_2": 741,
+      "exact_threshold": 38,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 226492416,
+        "right": 406869021
+      },
+      "n": 1024,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 8388608,
+        "right": 406869021
+      },
+      "surplus_barrier": 758784
+    },
+    {
+      "binom_threshold_plus_one_2": 69006,
+      "exact_threshold": 371,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 237494511599616,
+        "right": 328594705452216
+      },
+      "n": 1048576,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 8796093022208,
+        "right": 328594705452216
+      },
+      "surplus_barrier": 72358035456
+    },
+    {
+      "binom_threshold_plus_one_2": 1116824691,
+      "exact_threshold": 47261,
+      "general_constant_6_scale_check": {
+        "holds": true,
+        "inequality": "216*n^2 < C(T+1,2)^3",
+        "left": 1044511908147039606946136064,
+        "right": 1393012522649014792298971371
+      },
+      "n": 2199023255552,
+      "prime_constant_2_scale_check": {
+        "holds": true,
+        "inequality": "8*n^2 < C(T+1,2)^3",
+        "left": 38685626227668133590597632,
+        "right": 1393012522649014792298971371
+      },
+      "surplus_barrier": 2455923467883676434432
+    }
+  ],
+  "status": "PROVED SUFFICIENT SURPLUS BARRIER FOR X50",
+  "task": "X55 h=4 surplus-threshold bridge",
+  "theorem": "Let T(n) be the X50 exact shell threshold.  X54 gives N_surplus >= n*C(M,2) for a quotient shell of size M.  Therefore N_surplus < n*C(T(n)+1,2) rules out M >= T(n)+1, hence M <= T(n), and X50 puts the centered h=4 branch inside the n^3 terminal column. This is a sufficient condition only.  The exact surplus barrier has room for a total-surplus bound at the 6*n^(5/3) scale on every recorded threshold row, checked by 216*n^2 < C(T+1,2)^3."
+}
