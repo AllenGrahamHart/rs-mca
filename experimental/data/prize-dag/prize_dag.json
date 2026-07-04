@@ -2351,12 +2351,12 @@
    "status": "CONJECTURE",
    "key": true,
    "statement": "RESTATED after the E17 COUNTEREXAMPLE (#210, pre-registered falsifier fired): Hankel-kernel sparse dual words are NOT always coset-patterned \u2014 an exact j=5,t=3 kernel plane has a support-{2,3} weight-2 word, not a coset pair. The termination bound for the Hankel family must come from the GENERAL support-lattice accounting (f_support_lattice) with Hankel-specific closed-set counting, or a refined displacement structure theory beyond coset patterns. The observed support was still SMALL and LOCAL (adjacent exponents) \u2014 the restated question: are Hankel sparse-word supports always low-diameter/structured, if not coset?",
-   "attack_surface": "first step is EVIDENCE: rerun the E9 census RESTRICTED to Hankel-kernel flats and record the support patterns (predicted: unions of cosets); then the lattice bound via the displacement identities",
+   "attack_surface": "REDUCED (via f_support_lattice PROVED): termination <=> #closed-sets of the Hankel support lattice is poly(n). Pipeline (notes/pipeline.md): Phase 0 DONE \u2014 object validated, kernels live at RANK-DROP slopes (naive Hankel sampling gives trivial kernels; must construct via the fiber/tangent machinery). Phase 1 = Modal structure census (diameter + #closed-sets growth at mu_32/64; pins the conjecture). Phase 2 = Pro proof (displacement identity + accounting identity + census conjecture). Next: pin M(Z) from fiber code, reproduce E17 as the gate.",
    "falsifier": "a kernel-flat sparse word with non-coset support in the restricted census",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest."
+   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest. | LEVERAGE +4 (top of board). Reframed to the exact #closed-sets-poly question. Phase 0 probe found the object lives at rank-drop slopes \u2014 census must use the fiber machinery, not naive sampling. Pipeline banked."
   },
   {
    "id": "xr_e3_to_expansion",
