@@ -3664,6 +3664,16 @@
     "experimental/notes/roadmaps/x64_h4_linear_orbit_compression.md"
    ],
    "notes": "Converts the remaining primitive four-term norm-gate problem from ordered triples to canonical chord-pair orbit representatives. This is a constant compression, but it fixes the natural certifier currency for the X62/X63 residue."
+  },
+  {
+   "id": "x65_h4_linear_orbit_budget",
+   "title": "X65: h=4 linear triples have exact canonical orbit budget",
+   "status": "PROVED",
+   "statement": "Since X64 proves filtered_linear_triples = 8*canonical_orbit_count and X60's centered h=4 target is filtered_linear_triples < 8*C(T(n)+1,2), the target is exactly canonical_orbit_count < C(T(n)+1,2). After X63 quotient-content descent, the top-level primitive target is the same inequality for content-one canonical orbits.",
+   "refs": [
+    "experimental/notes/roadmaps/x65_h4_linear_orbit_budget.md"
+   ],
+   "notes": "Removes the ordered-triple factor from the centered h=4 residue and records the primitive post-quotient currency. In the replay rows, the only total-orbit barrier failure is the low-characteristic n64 stress row; it passes after quotient-descended content is stripped."
   }
  ],
  "edges": [
@@ -6634,6 +6644,41 @@
   },
   {
    "from": "x64_h4_linear_orbit_compression",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x50_h4_centered_threshold",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x55_h4_surplus_threshold_bridge",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x56_h2_anchored_surplus_currency",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x63_h4_linear_content_descent",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
+   "to": "x65_h4_linear_orbit_budget",
+   "kind": "req"
+  },
+  {
+   "from": "x65_h4_linear_orbit_budget",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
