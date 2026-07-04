@@ -379,11 +379,11 @@
   {
    "id": "gap2_seam",
    "title": "GAP-2 seam closed: pullback => M | t_denom",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#3"
    ],
-   "notes": "IN FLIGHT: PR #189 (Q2.2 executed)."
+   "notes": "IN FLIGHT: PR #189 (Q2.2 executed). | FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify 3/3 replayed)."
   },
   {
    "id": "r2_rigidity",
@@ -2409,11 +2409,13 @@
   {
    "id": "xr_small_set_engine",
    "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Keevash-Lifshitz-Long-Minzer global hypercontractivity (proved): sets with no density boost on any small link expand almost perfectly, with losses polynomial in the link parameters rather than in 1/mu \u2014 the density-robust engine for our FM-scale (mu ~ q^{1-t}) regime, replacing raw KMS constants where they degrade. Import note + bridge-ledger row + statement matching.",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
-   ]
+   ],
+   "closure": "citation",
+   "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (citation-import (KLLM hypercontractivity); scope note: does NOT close the XR wall)."
   },
   {
    "id": "circuit_nongeneric",
@@ -3685,13 +3687,14 @@
   {
    "id": "f1_minimal_field_descent",
    "title": "f1 minimal field descent",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Every bad slope's pencil data has a well-defined minimal field of definition K with B <= K <= F; the trichotomy's CASE SPLIT (K = B / B < K < F / K = F) is exhaustive by field theory. Near-definitional; write-up pending.",
    "attack_surface": "one page of Galois descent bookkeeping on the pencil data",
    "falsifier": "pencil data without a well-defined minimal field (composite ambiguity)",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
-   ]
+   ],
+   "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify A+B replayed, concrete F_2^12/F_5^4 cases)."
   },
   {
    "id": "f1_full_field_pole_forcing",

@@ -304,7 +304,7 @@
   },
   {
    "id": "f1_minimal_field_descent",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "f1 minimal field descent"
   },
   {
@@ -434,7 +434,7 @@
   },
   {
    "id": "gap2_seam",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "GAP-2 seam closed: pullback => M | t_denom"
   },
   {
@@ -914,7 +914,7 @@
   },
   {
    "id": "xr_small_set_engine",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure"
   },
   {
