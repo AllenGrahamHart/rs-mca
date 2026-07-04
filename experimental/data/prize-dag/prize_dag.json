@@ -3697,7 +3697,7 @@
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
    ],
-   "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify A+B replayed, concrete F_2^12/F_5^4 cases)."
+   "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify A+B replayed, concrete F_2^12/F_5^4 cases). | SECOND INDEPENDENT PROOF (Codex red-walk): the projective Frobenius-stabilizer framing, agreeing with the Opus divisor-lattice version \u2014 archived in notes/second_proof_codex.md. Cross-validated twice over. Codex has also imported the f1_full_field_pole_forcing frontier node \u2014 its walk converges on the pole-forcing lemma next, the trichotomy's real remaining content."
   },
   {
    "id": "f1_full_field_pole_forcing",
