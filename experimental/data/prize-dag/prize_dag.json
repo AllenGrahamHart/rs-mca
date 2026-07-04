@@ -3714,6 +3714,16 @@
     "experimental/notes/roadmaps/x69_h4_unit_anchor_normal_form.md"
    ],
    "notes": "Reduces primitive h=4 sparse-resultant enumeration from exponent triples to normalized pairs (1,r,s) in certifier currency; survivor row mass still expands via X65."
+  },
+  {
+   "id": "x70_h4_normalized_quotient_resultant",
+   "title": "X70: h=4 normalized norm gates reduce by the X-1 quotient",
+   "status": "PROVED",
+   "statement": "For each X69 representative f=X+X^r-X^s-1, f(1)=0, so f=(X-1)q_{r,s}. For 2-power n, Phi_n(1)=2, and row characteristic is odd; hence p | Res(Phi_n,f) is equivalent to p | Res(Phi_n,q_{r,s}).",
+   "refs": [
+    "experimental/notes/roadmaps/x70_h4_normalized_quotient_resultant.md"
+   ],
+   "notes": "Removes the universal X-1 factor from the primitive h=4 sparse-resultant certifier after unit-anchor normalization, leaving the quotient q_{r,s} as the exact p-specific test object."
   }
  ],
  "edges": [
@@ -6814,6 +6824,26 @@
   },
   {
    "from": "x69_h4_unit_anchor_normal_form",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x62_h4_linear_norm_gate",
+   "to": "x70_h4_normalized_quotient_resultant",
+   "kind": "req"
+  },
+  {
+   "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "x70_h4_normalized_quotient_resultant",
+   "kind": "req"
+  },
+  {
+   "from": "x69_h4_unit_anchor_normal_form",
+   "to": "x70_h4_normalized_quotient_resultant",
+   "kind": "req"
+  },
+  {
+   "from": "x70_h4_normalized_quotient_resultant",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
