@@ -2551,13 +2551,13 @@
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system",
    "status": "TARGET",
    "key": true,
-   "statement": "Certify that the fixed k x N' integer matrix (from the row's chosen multipliers) has no ternary kernel vector of weight <= 2l' beyond the cyclotomic relations. A small, explicit, per-row object. Candidate certifiers: Delsarte-LP bounds instantiated on the specific system; structured multiplier DESIGN making distance provable by construction; weight-split enumeration hybrids (MITM below w_0, LP/structure above).",
+   "statement": "RESTATED (Reading B; the old 'the fixed k x N' matrix' form referenced a nonexistent row object \u2014 the dispatch-skip + Codex's report both confirmed): for ANY admissible exhibit row's multiplier matrix, the certifying PROCEDURE (kernel_lattice_reframing + weight_graded_mitm, both PROVED, + a Delsarte-LP / lattice-cone certifier) decides no-ternary-kernel-of-weight <= 2l' beyond the cyclotomic relations. Obligation = certifier soundness at the needed weight range + the calibration demonstration (the C-4 toy anchor exists, replayed). Dependency note: multi_multiplier_reduction is REFUTED \u2014 the multi-multiplier route is dead; single-exhibit form only.",
    "attack_surface": "BAKE-OFF FIRST (QA.18, toy prime chosen small so the height frontier leaves real work): (1) pseudo-Boolean/SAT with proof logging (VeriPB-style) \u2014 emits machine-checkable UNSAT certificates for exactly this finite claim, at arbitrary coefficient precision; dossier-ready format; (2) MITM bands as baseline; (3) LP/Delsarte as the theory-side candidate. Measure practical k vs the GV prediction; ship one complete printed toy certificate as the format exemplar. E24's BKZ hunt runs as the search-side complement.",
    "falsifier": "a ternary kernel vector of the k-multiplier system that IS a genuine collision (E24 would find it independently)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated."
+   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED)."
   },
   {
    "id": "certifier_uniformity",
@@ -3140,13 +3140,13 @@
    "id": "u2_per_row_certifier",
    "title": "U2-B: the per-row moment certificates (small-t rows)",
    "status": "TARGET",
-   "statement": "For every official small-t row (Row-C class; the exact list from piece A's window arithmetic): an exact machine-checkable certificate that no primitive t-null block of size b <= C log n exists in that row's domain \u2014 by elimination, the resultant route, or MITM (two methods cross-checked on one cell). Certificates are Reading-B determination inputs. In Codex's queue.",
+   "statement": "RESTATED (Reading B + primes-reframe; the old 'for every official row' form was unsatisfiable \u2014 no official row list exists, official_row_primes_pinning PROVED): for ANY admissible small-t exhibit row (Row-C class), the elimination-certificate PROCEDURE decides whether a primitive t-null block of size b <= C log n exists in that exhibit's domain. Obligation = procedure correctness + a calibration demonstration; per-exhibit execution is the submitter's compute burden under Reading B. HONEST BLOCKER (the dispatch skip): the procedure currently needs an exhaustive pattern list (raw enum > 2^80) \u2014 the open content is a feasible-certificate form (LP/lattice-cone style), OR subsumption by the exact census machinery at small t (referee next session).",
    "attack_surface": "the three methods as specced in the tasking block; E37/F2 machinery prototypes all of them",
    "falsifier": "a certificate run FINDING a primitive block at an official row (then the column is charged, not excluded \u2014 a major but survivable event)",
    "refs": [
     "experimental/notes/roadmaps/f2_moment_trade_census.md"
    ],
-   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80)."
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there."
   },
   {
    "id": "u2c_boundary_scale_column",
