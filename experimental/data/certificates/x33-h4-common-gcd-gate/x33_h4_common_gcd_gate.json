@@ -1,0 +1,349 @@
+{
+  "checks": 11,
+  "criterion_examples": {
+    "examples": [
+      {
+        "P": [
+          0,
+          8,
+          16,
+          24
+        ],
+        "Q": [
+          1,
+          9,
+          17,
+          25
+        ],
+        "common_h4_gcd_degree": 16,
+        "expected_positive_degree": true,
+        "n": 32,
+        "name": "mu4 baseline",
+        "p": 4993
+      },
+      {
+        "P": [
+          0,
+          1,
+          2,
+          17
+        ],
+        "Q": [
+          3,
+          8,
+          19,
+          21
+        ],
+        "common_h4_gcd_degree": 0,
+        "expected_positive_degree": false,
+        "n": 32,
+        "name": "top-level first-sum only",
+        "p": 4993
+      }
+    ]
+  },
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x32_h4_terminal_dichotomy": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "open_residue": "Run or prove this common-gcd exclusion for official h=4 rows, or count positive-degree top-level survivors as a norm-gate column.",
+  "row_census": [
+    {
+      "counts": {
+        "anchored_e1_pairs": 817,
+        "anchored_top_three_pairs": 3,
+        "antipodal_e1_pairs": 105,
+        "top_level_e1_pairs": 712,
+        "top_three_mu4_full_fiber": 3
+      },
+      "e1_group_count": 257,
+      "examples": {
+        "top_level_first_sum": [
+          {
+            "P": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "Q": [
+              5,
+              8,
+              10,
+              14
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "Q": [
+              10,
+              11,
+              13,
+              14
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              2,
+              11,
+              14
+            ],
+            "Q": [
+              1,
+              3,
+              10,
+              13
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "Q": [
+              3,
+              8,
+              9,
+              15
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          }
+        ],
+        "top_three_paid": [
+          {
+            "P": [
+              0,
+              4,
+              8,
+              12
+            ],
+            "Q": [
+              1,
+              5,
+              9,
+              13
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 8,
+            "descended": true
+          },
+          {
+            "P": [
+              0,
+              4,
+              8,
+              12
+            ],
+            "Q": [
+              2,
+              6,
+              10,
+              14
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 8,
+            "descended": true
+          },
+          {
+            "P": [
+              0,
+              4,
+              8,
+              12
+            ],
+            "Q": [
+              3,
+              7,
+              11,
+              15
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 8,
+            "descended": true
+          }
+        ]
+      },
+      "max_e1_group_size": 28,
+      "n": 16,
+      "p": 257,
+      "subset_count": 1820,
+      "top_level_common_gcd_degree_histogram": {
+        "0": 712
+      }
+    },
+    {
+      "counts": {
+        "anchored_e1_pairs": 21225,
+        "anchored_top_three_pairs": 7,
+        "antipodal_e1_pairs": 1365,
+        "top_level_e1_pairs": 19860,
+        "top_three_mu4_full_fiber": 7
+      },
+      "e1_group_count": 4769,
+      "examples": {
+        "top_level_first_sum": [
+          {
+            "P": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "Q": [
+              8,
+              9,
+              21,
+              22
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              2,
+              9,
+              22
+            ],
+            "Q": [
+              1,
+              3,
+              8,
+              21
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "Q": [
+              7,
+              8,
+              15,
+              21
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          },
+          {
+            "P": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "Q": [
+              15,
+              20,
+              24,
+              29
+            ],
+            "common_h4_gcd_degree": 0,
+            "same_top_three_at_chosen_generator": false
+          }
+        ],
+        "top_three_paid": [
+          {
+            "P": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q": [
+              1,
+              9,
+              17,
+              25
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 16,
+            "descended": true
+          },
+          {
+            "P": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q": [
+              2,
+              10,
+              18,
+              26
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 16,
+            "descended": true
+          },
+          {
+            "P": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q": [
+              3,
+              11,
+              19,
+              27
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 16,
+            "descended": true
+          },
+          {
+            "P": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q": [
+              4,
+              12,
+              20,
+              28
+            ],
+            "classification": "mu4_full_fiber",
+            "common_h4_gcd_degree": 16,
+            "descended": true
+          }
+        ]
+      },
+      "max_e1_group_size": 152,
+      "n": 32,
+      "p": 4993,
+      "subset_count": 35960,
+      "top_level_common_gcd_degree_histogram": {
+        "0": 19860
+      }
+    }
+  ],
+  "status": "PROVED CHECKER + FINITE EVIDENCE: h=4 top-level candidates are exactly common-gcd survivors; representative boundary rows have many first-sum norm gates but zero top-level h=4 survivors",
+  "task": "X33 h=4 common-gcd gate",
+  "theorem": "For a fixed h=4 exponent pattern P,Q and row p == 1 mod n, some Galois scaling of the pattern is a top-three h=4 trade iff gcd(Phi_n,E1,E2,E3) has positive degree in F_p[X], where Er is the r-th elementary-difference polynomial reduced modulo X^n-1. Degree zero rules out the pattern and all its Galois scalings."
+}

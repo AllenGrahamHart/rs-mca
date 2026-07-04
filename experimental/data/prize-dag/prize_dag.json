@@ -3344,6 +3344,16 @@
     "experimental/notes/roadmaps/x32_h4_terminal_dichotomy.md"
    ],
    "notes": "Packages X29-X31 in terminal-node currency. It does not bound the top-level non-antipodal norm-gate branch; it names that branch as the precise remaining h=4 obstruction and verifies representative baseline, quotient-extra, and top-level norm-gate examples."
+  },
+  {
+   "id": "x33_h4_common_gcd_gate",
+   "title": "X33: h=4 top-level branch has an exact common-gcd certifier",
+   "status": "PROVED",
+   "statement": "For a fixed h=4 exponent pattern P,Q and row p == 1 mod n, some Galois scaling of the pattern is a top-three h=4 trade iff gcd(Phi_n,E1,E2,E3) has positive degree in F_p[X], where Er is the r-th elementary-difference polynomial reduced modulo X^n-1. Degree zero rules out the pattern and all its Galois scalings. Representative rows F257/mu16 and F4993/mu32 have many non-antipodal first-sum candidates but zero top-level common-gcd survivors; all top-three pairs are the paid mu_4 baseline.",
+   "refs": [
+    "experimental/notes/roadmaps/x33_h4_common_gcd_gate.md"
+   ],
+   "notes": "Strengthens X32's top-level norm-gate residue into the exact row-local checker using all h=4 equations. The packet proves the checker and supplies small-row evidence; it does not provide the compressed official-row pattern list."
   }
  ],
  "edges": [
@@ -5959,6 +5969,11 @@
   },
   {
    "from": "x32_h4_terminal_dichotomy",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x33_h4_common_gcd_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
