@@ -362,20 +362,21 @@ def radial():
                        key=lambda e: order[ecls(e[0])]):
         pth = polar_path(X[u], Y[u], X[v], Y[v])
         c = ecls(u)
+        dat = f'data-u="{u}" data-v="{v}"'
         if c == "green":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
                          f'stroke-opacity="0.8" filter="url(#glow-green)"/>')
         elif c == "red":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#f87171" stroke-width="2" '
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f87171" stroke-width="2" '
                          f'stroke-opacity="0.95" filter="url(#glow-red)"/>')
         elif c == "amber":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
                          f'stroke-opacity="0.75"/>')
         elif c == "inh":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#ef4444" stroke-width="1.5" '
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#ef4444" stroke-width="1.5" '
                          f'stroke-opacity="0.8"/>')
         else:
-            parts.append(f'<path d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
     for v in ring:
         n = nodes[v]; st = n["status"]
         fill = FILL.get(st, "#64748b")
@@ -389,7 +390,7 @@ def radial():
                    f'stroke="#f59e0b" stroke-width="0.9" stroke-opacity="0.55"/>'
 
         tip = html.escape(f'{v} [{st}] {n.get("title","")[:160]}')
-        parts.append(f'<g>{halo}<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0}" fill="{fill}" '
+        parts.append(f'<g data-id="{v}">{halo}<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0}" fill="{fill}" '
                      f'stroke="#0b1220" stroke-width="1"><title>{tip}</title></circle></g>')
         if v in GRANDS or v in leaf or v in staged:
             anc = "middle" if v in GRANDS else ("start" if X[v] >= cx else "end")
