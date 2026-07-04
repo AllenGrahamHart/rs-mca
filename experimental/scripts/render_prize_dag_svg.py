@@ -32,6 +32,29 @@ FILL = {"PROVED": "#15803d", "PROVABLE": "#86efac", "CONDITIONAL": "#f59e0b",
         "TARGET": "#ef4444", "CONJECTURE": "#fb923c", "TEST": "#a78bfa",
         "WALL": "#7f1d1d", "REFUTED": "#9ca3af"}
 
+def open_classes(nodes, req, crit):
+    """leaf-open (own content open), staged (CONDITIONAL or RIPE: reqs all
+    green), inherited-open (red only via upstream)."""
+    from collections import defaultdict
+    rev = defaultdict(list)
+    for u, v in req:
+        rev[v].append(u)
+    leaf, staged, inh = set(), set(), set()
+    for v in crit:
+        st = nodes[v]["status"]
+        if st not in OPEN:
+            continue
+        kids = [u for u in rev[v] if u in crit]
+        ripe = kids and all(nodes[u]["status"] in DONE for u in kids)
+        open_kid = any(nodes[u]["status"] in OPEN for u in kids)
+        if st == "CONDITIONAL" or ripe:
+            staged.add(v)
+        elif not open_kid:
+            leaf.add(v)
+        else:
+            inh.add(v)
+    return leaf, staged, inh
+
 
 def main():
     d = json.load(open(DAG))
@@ -266,9 +289,15 @@ def radial():
     for r in range(1, maxring + 1):
         parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r*RSTEP+30}" fill="none" '
                      f'stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>')
+    leaf, staged, inh = open_classes(nodes, req, crit)
+
     def ecls(u):
-        return "green" if nodes[u]["status"] in DONE else \
-               ("red" if nodes[u]["status"] in OPEN else "dim")
+        st = nodes[u]["status"]
+        if st in DONE: return "green"
+        if u in leaf: return "red"
+        if u in staged: return "amber"
+        if st in OPEN: return "inh"
+        return "dim"
     def polar_path(x1, y1, x2, y2):
         """Natural radial-flow edge: interpolate angle and radius in polar
         space (shortest angular way), eased so the sweep happens mid-path."""
@@ -285,16 +314,23 @@ def radial():
             pts.append(f"{cx + rr * math.cos(th):.1f},{cy + rr * math.sin(th):.1f}")
         return "M" + " L".join(pts)
 
+    order = {"dim": 0, "inh": 1, "green": 2, "amber": 3, "red": 4}
     for u, v in sorted((e for e in req if e[0] in crit and e[1] in crit),
-                       key=lambda e: {"dim": 0, "green": 1, "red": 2}[ecls(e[0])]):
+                       key=lambda e: order[ecls(e[0])]):
         pth = polar_path(X[u], Y[u], X[v], Y[v])
         c = ecls(u)
         if c == "green":
             parts.append(f'<path d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
                          f'stroke-opacity="0.8" filter="url(#glow-green)"/>')
         elif c == "red":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#f87171" stroke-width="1.8" '
+            parts.append(f'<path d="{pth}" fill="none" stroke="#f87171" stroke-width="2" '
                          f'stroke-opacity="0.95" filter="url(#glow-red)"/>')
+        elif c == "amber":
+            parts.append(f'<path d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
+                         f'stroke-opacity="0.75"/>')
+        elif c == "inh":
+            parts.append(f'<path d="{pth}" fill="none" stroke="#b91c1c" stroke-width="0.9" '
+                         f'stroke-opacity="0.4"/>')
         else:
             parts.append(f'<path d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
     for v in ring:
@@ -302,13 +338,18 @@ def radial():
         fill = FILL.get(st, "#64748b")
         r0 = 10 if v in GRANDS else (6.5 if st in OPEN else 5.5)
         halo = ""
-        if st in OPEN:
+        if v in leaf:
             halo = f'<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0+3.5}" fill="none" ' \
-                   f'stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/>'
+                   f'stroke="#f87171" stroke-width="1.2" stroke-opacity="0.8" filter="url(#glow-red)"/>'
+        elif v in staged:
+            halo = f'<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0+3}" fill="none" ' \
+                   f'stroke="#f59e0b" stroke-width="0.9" stroke-opacity="0.55"/>'
+        if v in inh:
+            fill = "#7f2d2d"
         tip = html.escape(f'{v} [{st}] {n.get("title","")[:160]}')
         parts.append(f'<g>{halo}<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0}" fill="{fill}" '
                      f'stroke="#0b1220" stroke-width="1"><title>{tip}</title></circle></g>')
-        if v in GRANDS or st in OPEN:
+        if v in GRANDS or v in leaf or v in staged:
             anc = "middle" if v in GRANDS else ("start" if X[v] >= cx else "end")
             dx = 0 if v in GRANDS else (r0 + 4 if X[v] >= cx else -(r0 + 4))
             dy = -r0 - 5 if v in GRANDS else 3
