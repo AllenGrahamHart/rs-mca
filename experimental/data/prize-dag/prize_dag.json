@@ -3214,6 +3214,16 @@
     "experimental/notes/roadmaps/w4_direct_column_rewiring.md"
    ],
    "notes": "Autonomous proof, verified as sound bookkeeping. NOT a closure \u2014 it lowers the bar by a full power of n."
+  },
+  {
+   "id": "x20_h4_cyclic_fingerprint",
+   "title": "X20: h=4 active pairs split into cyclic fingerprints in checked rows",
+   "status": "TEST",
+   "statement": "For the X14 h=4 rows, every anchored active pair is either a full mu_4 fiber trade or an antipodal h=2 quotient lift through X^2. The two fingerprint identities are proved algebraically; the row coverage is exact finite evidence. No primitive h=4 residue is observed.",
+   "refs": [
+    "experimental/notes/roadmaps/x20_h4_cyclic_fingerprint.md"
+   ],
+   "notes": "Refines X14's cyclic-paid verdict: the persistent family is X^4 full fibers; the only extra boundary component is a quotient h=2 trade lifted through the antipodal X^2 partition and charged in-window by the equivalent X^6 partition."
   }
  ],
  "edges": [
@@ -5764,6 +5774,11 @@
   },
   {
    "from": "w4_direct_column_rewiring",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x20_h4_cyclic_fingerprint",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

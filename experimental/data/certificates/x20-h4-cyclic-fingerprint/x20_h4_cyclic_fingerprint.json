@@ -1,0 +1,1417 @@
+{
+  "checks": 68,
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              1,
+              9,
+              17,
+              25
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              2,
+              10,
+              18,
+              26
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              3,
+              11,
+              19,
+              27
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              4,
+              12,
+              20,
+              28
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              5,
+              13,
+              21,
+              29
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              6,
+              14,
+              22,
+              30
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 7
+      },
+      "floor_n_alpha": 1024,
+      "h": 4,
+      "label": "n32_alpha_2",
+      "n": 32,
+      "p": 1153,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              1,
+              9,
+              17,
+              25
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              2,
+              10,
+              18,
+              26
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              3,
+              11,
+              19,
+              27
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              4,
+              12,
+              20,
+              28
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              5,
+              13,
+              21,
+              29
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              6,
+              14,
+              22,
+              30
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 7
+      },
+      "floor_n_alpha": 2435,
+      "h": 4,
+      "label": "n32_alpha_9_4",
+      "n": 32,
+      "p": 2593,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              1,
+              9,
+              17,
+              25
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              2,
+              10,
+              18,
+              26
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              3,
+              11,
+              19,
+              27
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              4,
+              12,
+              20,
+              28
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              5,
+              13,
+              21,
+              29
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              6,
+              14,
+              22,
+              30
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 7
+      },
+      "floor_n_alpha": 5792,
+      "h": 4,
+      "label": "n32_alpha_5_2",
+      "n": 32,
+      "p": 5857,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              1,
+              9,
+              17,
+              25
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              2,
+              10,
+              18,
+              26
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              3,
+              11,
+              19,
+              27
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              4,
+              12,
+              20,
+              28
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              5,
+              13,
+              21,
+              29
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              8,
+              16,
+              24
+            ],
+            "Q_exponents": [
+              6,
+              14,
+              22,
+              30
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 7
+      },
+      "floor_n_alpha": 32768,
+      "h": 4,
+      "label": "n32_alpha_3",
+      "n": 32,
+      "p": 32801,
+      "raw_anchored_partner_pairs": 7,
+      "signature_collision_groups": 1,
+      "subset_count": 35960,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              1,
+              17,
+              33,
+              49
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              2,
+              18,
+              34,
+              50
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              3,
+              19,
+              35,
+              51
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              4,
+              20,
+              36,
+              52
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              5,
+              21,
+              37,
+              53
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              6,
+              22,
+              38,
+              54
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 15
+      },
+      "floor_n_alpha": 4096,
+      "h": 4,
+      "label": "n64_alpha_2",
+      "n": 64,
+      "p": 4289,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              1,
+              17,
+              33,
+              49
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              2,
+              18,
+              34,
+              50
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              3,
+              19,
+              35,
+              51
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              4,
+              20,
+              36,
+              52
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              5,
+              21,
+              37,
+              53
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              6,
+              22,
+              38,
+              54
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 15
+      },
+      "floor_n_alpha": 11585,
+      "h": 4,
+      "label": "n64_alpha_9_4",
+      "n": 64,
+      "p": 11777,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              1,
+              17,
+              33,
+              49
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              2,
+              18,
+              34,
+              50
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              3,
+              19,
+              35,
+              51
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              4,
+              20,
+              36,
+              52
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              5,
+              21,
+              37,
+              53
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              6,
+              22,
+              38,
+              54
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 15
+      },
+      "floor_n_alpha": 32768,
+      "h": 4,
+      "label": "n64_alpha_5_2",
+      "n": 64,
+      "p": 32833,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              1,
+              17,
+              33,
+              49
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              2,
+              18,
+              34,
+              50
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              3,
+              19,
+              35,
+              51
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              4,
+              20,
+              36,
+              52
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              5,
+              21,
+              37,
+              53
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              16,
+              32,
+              48
+            ],
+            "Q_exponents": [
+              6,
+              22,
+              38,
+              54
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 15
+      },
+      "floor_n_alpha": 262144,
+      "h": 4,
+      "label": "n64_alpha_3",
+      "n": 64,
+      "p": 262337,
+      "raw_anchored_partner_pairs": 15,
+      "signature_collision_groups": 1,
+      "subset_count": 635376,
+      "t": 3
+    },
+    {
+      "examples": {
+        "antipodal_h2_quotient_lift": [
+          {
+            "P_exponents": [
+              0,
+              58,
+              64,
+              122
+            ],
+            "Q_exponents": [
+              33,
+              42,
+              97,
+              106
+            ],
+            "signature_code": 16361873
+          },
+          {
+            "P_exponents": [
+              0,
+              48,
+              64,
+              112
+            ],
+            "Q_exponents": [
+              22,
+              23,
+              86,
+              87
+            ],
+            "signature_code": 28870731
+          },
+          {
+            "P_exponents": [
+              0,
+              63,
+              64,
+              127
+            ],
+            "Q_exponents": [
+              25,
+              41,
+              89,
+              105
+            ],
+            "signature_code": 51540796
+          },
+          {
+            "P_exponents": [
+              0,
+              10,
+              64,
+              74
+            ],
+            "Q_exponents": [
+              26,
+              33,
+              90,
+              97
+            ],
+            "signature_code": 68906245
+          },
+          {
+            "P_exponents": [
+              0,
+              55,
+              64,
+              119
+            ],
+            "Q_exponents": [
+              16,
+              22,
+              80,
+              86
+            ],
+            "signature_code": 70232399
+          },
+          {
+            "P_exponents": [
+              0,
+              57,
+              64,
+              121
+            ],
+            "Q_exponents": [
+              31,
+              41,
+              95,
+              105
+            ],
+            "signature_code": 86164168
+          }
+        ],
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              1,
+              33,
+              65,
+              97
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              2,
+              34,
+              66,
+              98
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              3,
+              35,
+              67,
+              99
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              4,
+              36,
+              68,
+              100
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              5,
+              37,
+              69,
+              101
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              6,
+              38,
+              70,
+              102
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "antipodal_h2_quotient_lift": 12,
+        "mu4_full_fiber": 31
+      },
+      "floor_n_alpha": 16384,
+      "h": 4,
+      "label": "n128_alpha_2",
+      "n": 128,
+      "p": 17921,
+      "raw_anchored_partner_pairs": 43,
+      "signature_collision_groups": 193,
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              1,
+              33,
+              65,
+              97
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              2,
+              34,
+              66,
+              98
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              3,
+              35,
+              67,
+              99
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              4,
+              36,
+              68,
+              100
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              5,
+              37,
+              69,
+              101
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              6,
+              38,
+              70,
+              102
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 31
+      },
+      "floor_n_alpha": 55108,
+      "h": 4,
+      "label": "n128_alpha_9_4",
+      "n": 128,
+      "p": 55681,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              1,
+              33,
+              65,
+              97
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              2,
+              34,
+              66,
+              98
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              3,
+              35,
+              67,
+              99
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              4,
+              36,
+              68,
+              100
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              5,
+              37,
+              69,
+              101
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              6,
+              38,
+              70,
+              102
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 31
+      },
+      "floor_n_alpha": 185363,
+      "h": 4,
+      "label": "n128_alpha_5_2",
+      "n": 128,
+      "p": 186113,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "subset_count": 10668000,
+      "t": 3
+    },
+    {
+      "examples": {
+        "mu4_full_fiber": [
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              1,
+              33,
+              65,
+              97
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              2,
+              34,
+              66,
+              98
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              3,
+              35,
+              67,
+              99
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              4,
+              36,
+              68,
+              100
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              5,
+              37,
+              69,
+              101
+            ],
+            "signature_code": 0
+          },
+          {
+            "P_exponents": [
+              0,
+              32,
+              64,
+              96
+            ],
+            "Q_exponents": [
+              6,
+              38,
+              70,
+              102
+            ],
+            "signature_code": 0
+          }
+        ]
+      },
+      "fingerprint_counts": {
+        "mu4_full_fiber": 31
+      },
+      "floor_n_alpha": 2097152,
+      "h": 4,
+      "label": "n128_alpha_3",
+      "n": 128,
+      "p": 2100097,
+      "raw_anchored_partner_pairs": 31,
+      "signature_collision_groups": 1,
+      "subset_count": 10668000,
+      "t": 3
+    }
+  ],
+  "status": "FINITE EVIDENCE + PROVED FINGERPRINT IDENTITIES: checked h=4 active pairs split into mu4 full fibers or antipodal h2 quotient lifts",
+  "summary": {
+    "antipodal_rows": [
+      "n128_alpha_2"
+    ],
+    "nonzero_other_rows": [],
+    "rows_checked": [
+      "n32_alpha_2",
+      "n32_alpha_9_4",
+      "n32_alpha_5_2",
+      "n32_alpha_3",
+      "n64_alpha_2",
+      "n64_alpha_9_4",
+      "n64_alpha_5_2",
+      "n64_alpha_3",
+      "n128_alpha_2",
+      "n128_alpha_9_4",
+      "n128_alpha_5_2",
+      "n128_alpha_3"
+    ]
+  },
+  "task": "X20 h=4 cyclic fingerprint"
+}
