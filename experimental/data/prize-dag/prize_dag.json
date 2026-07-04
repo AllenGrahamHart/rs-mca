@@ -1442,13 +1442,13 @@
   {
    "id": "unsafe_at_crossing",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "any",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass.",
+   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROMOTED red -> amber (Codex batch-3 defect completed by this audit): the collision-free branch = certified_valueset_lower (the all-pairs-distinct witness family) \u2014 was prose-only (my earlier fix silently no-op'd on an existing ev edge); now wired req alongside the collided branch (averaged_slope_conversion, RIPE). The two-branch split (collision-free vs collided) is exhaustive by definition; granting both branches, the adjacent-point witnesses exist per row \u2014 assembly statement.",
    "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
    "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
    "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
@@ -2067,7 +2067,7 @@
   {
    "id": "worst_word_planted",
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "REVISED per the E15 COUNTEREXAMPLE (#197): the naive planted-only form is FALSE \u2014 a structured low-slack NON-planted challenger exists at sigma = 1 in the toy cell. Revised statement: at the crossing radii the sup-over-words list is attained by the planted sunflower family OR the E15 structured challenger class, and list_planted_arithmetic must price BOTH classes exactly. The challenger is structured (not a fifth-mechanism signal); the endgame arithmetic gains one classified column.",
    "attack_surface": "toy probe: search word families at n = 16..64 for lists exceeding the planted count at matched radius; the L1 sunflower machinery prices any challenger's structure",
@@ -2075,7 +2075,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired."
+   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired. | PROMOTED red -> amber (Codex batch 3, my replay): with the repaired challenger-pricing child and imgfib granted, the sup is carried by planted + priced-challenger classes \u2014 assembly statement."
   },
   {
    "id": "list_planted_arithmetic",
@@ -4840,7 +4840,7 @@
   {
    "from": "averaged_slope_conversion",
    "to": "unsafe_at_crossing",
-   "kind": "alt"
+   "kind": "req"
   },
   {
    "from": "qfloor_exact",
@@ -6483,11 +6483,6 @@
    "kind": "req"
   },
   {
-   "from": "averaged_slope_conversion",
-   "to": "unsafe_at_crossing",
-   "kind": "req"
-  },
-  {
    "from": "worst_word_challenger_pricing",
    "to": "worst_word_planted",
    "kind": "req"
@@ -6585,6 +6580,11 @@
   {
    "from": "b2b_primitive_core",
    "to": "b2_modp_giant_extras",
+   "kind": "req"
+  },
+  {
+   "from": "certified_valueset_lower",
+   "to": "unsafe_at_crossing",
    "kind": "req"
   }
  ]

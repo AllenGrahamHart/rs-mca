@@ -1,21 +1,19 @@
 {
- "schema": "critical-dag-flip-packet-v1",
- "node": "worst_word_planted",
- "packet": "experimental/notes/roadmaps/flip_packets/worst_word_planted.md",
- "current_label": "UNPROVED",
- "verdict": "DEFECT",
- "kids": [
-  "imgfib"
- ],
- "pins": {
-  "worst_word_planted": "260596841634e691",
-  "imgfib": "0701cb2b6f534e11",
-  "list_planted_arithmetic": "981bbfa57a032011"
- },
- "argument": "DEFECT: after the E15 repair, imgfib alone is not the node's dependency set. The statement names list_planted_arithmetic and needs challenger-class pricing/exhaustion, but those obligations are not wired as req children.",
- "proposed_fix": "Wire list_planted_arithmetic after adding the E15 column, or add separate challenger_class_arithmetic and planted_or_e15_exhaustion children.",
- "integrated": {
-  "commit": "2cb12205",
-  "applied_as": "DEFECT_FIXED"
- }
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "worst_word_planted",
+  "packet": "experimental/notes/roadmaps/flip_packets/worst_word_planted.md",
+  "current_label": "UNPROVED",
+  "verdict": "PROMOTE-CONDITIONAL",
+  "kids": [
+    "imgfib",
+    "worst_word_challenger_pricing"
+  ],
+  "pins": {
+    "worst_word_planted": "260596841634e691",
+    "imgfib": "0701cb2b6f534e11",
+    "worst_word_challenger_pricing": "530e4054a353aeda",
+    "list_planted_arithmetic": "981bbfa57a032011"
+  },
+  "argument": "PROMOTE-CONDITIONAL: after the E15 repair child was wired, the parent is the statement-level assembly saying the list worst word is carried by the modeled planted class plus the priced/exhausted challenger class, with imgfib excluding unpriced extras. The hard content remains in the two children and in the sibling list_planted_arithmetic arithmetic consumed by list_adjacency_closing.",
+  "caution": "Do not read this as proving the challenger child. It only says the former wiring defect has been repaired enough for the parent to be amber."
 }

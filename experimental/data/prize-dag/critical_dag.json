@@ -794,7 +794,7 @@
   },
   {
    "id": "unsafe_at_crossing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
   },
   {
@@ -829,7 +829,7 @@
   },
   {
    "id": "worst_word_planted",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
   },
   {
@@ -1220,6 +1220,10 @@
   {
    "from": "unsafe_at_crossing",
    "to": "mca_unsafe"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "unsafe_at_crossing"
   },
   {
    "from": "fm1",
@@ -1794,10 +1798,6 @@
    "to": "list_adjacency_closing"
   },
   {
-   "from": "averaged_slope_conversion",
-   "to": "unsafe_at_crossing"
-  },
-  {
    "from": "worst_word_challenger_pricing",
    "to": "worst_word_planted"
   },
@@ -1864,6 +1864,10 @@
   {
    "from": "b2b_primitive_core",
    "to": "b2_modp_giant_extras"
+  },
+  {
+   "from": "certified_valueset_lower",
+   "to": "unsafe_at_crossing"
   }
  ]
 }
