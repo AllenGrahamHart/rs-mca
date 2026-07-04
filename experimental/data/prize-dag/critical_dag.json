@@ -184,12 +184,12 @@
   },
   {
    "id": "certified_valueset_lower",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)"
   },
   {
    "id": "certifier_uniformity",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p"
   },
   {
@@ -534,7 +534,7 @@
   },
   {
    "id": "integer_code_distance_cert",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system"
   },
   {
@@ -549,7 +549,7 @@
   },
   {
    "id": "knife_edge_census",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "The genuine residue: census + exact handling of knife-edge rows"
   },
   {
@@ -579,7 +579,7 @@
   },
   {
    "id": "lattice_cone_certificate",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row"
   },
   {
