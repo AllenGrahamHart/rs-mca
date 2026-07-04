@@ -383,6 +383,11 @@
    "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
   },
   {
+   "id": "f_spread_descent_dichotomy",
+   "label": "PROVED",
+   "title": "PROVED (Pro Brief B partial): the spread/rank-defect dichotomy + descent"
+  },
+  {
    "id": "f_spread_moment_count",
    "label": "PROVED",
    "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension"
@@ -1913,6 +1918,10 @@
   {
    "from": "skew_support_threshold",
    "to": "b2b_primitive_core"
+  },
+  {
+   "from": "f_spread_descent_dichotomy",
+   "to": "f_dim_induction"
   }
  ]
 }
