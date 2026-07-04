@@ -409,9 +409,17 @@ def radial():
     parts.append(f'<text x="{cx:.0f}" y="{cy-58:.0f}" font-size="13" text-anchor="middle" '
                  f'fill="#94a3b8" letter-spacing="2">THE PRIZE</text>')
     parts.append("</svg>")
+    # THE COLOR CONTRACT (enforced): (1) green = proved / light green =
+    # provable; (2) amber = proven/provable conditional on predicates;
+    # (3) red otherwise; (4) arcs carry their source node's color.
+    import re as _re
+    _svg = "\n".join(parts)
+    _fills = set(_re.findall(r'data-id="[^"]+">.*?fill="(#[0-9a-f]+)"', _svg))
+    assert _fills <= {"#15803d", "#86efac", "#f59e0b", "#ef4444"}, \
+        f"palette violation: {_fills}"
     out = os.path.join(HERE, "..", "data", "prize-dag", "prize_dag_critical_radial.svg")
     with open(out, "w") as f:
-        f.write("\n".join(parts))
+        f.write(_svg)
     ne = sum(1 for u, v in req if u in crit and v in crit)
     print(f"wrote {out}: {len(ring)} critical nodes, {ne} critical edges, {maxring} rings")
 
