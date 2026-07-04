@@ -148,6 +148,11 @@
    "title": "C1b THE CORE: the descent-injection certificate (verified seed identity)"
   },
   {
+   "id": "cap_envelope_parameter_sweep",
+   "label": "UNPROVED",
+   "title": "Does the graded-prefix envelope close rates 1/4 and 1/16 at finer quotient scales?"
+  },
+  {
    "id": "cap_theorem",
    "label": "PROVED",
    "title": "Paper D universal cap (unsafe above 1-rho-2^-9)"
@@ -429,7 +434,7 @@
   },
   {
    "id": "fourth_mechanism_rate8",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "THE WEDGE: 0.00707 grid steps at rate 1/8 from any fourth mechanism"
   },
   {
@@ -1922,6 +1927,10 @@
   {
    "from": "f_spread_descent_dichotomy",
    "to": "f_dim_induction"
+  },
+  {
+   "from": "cap_envelope_parameter_sweep",
+   "to": "corridor_ledger"
   }
  ]
 }
