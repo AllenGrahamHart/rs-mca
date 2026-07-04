@@ -251,17 +251,44 @@ def radial():
     for u, v in req:
         if u in crit and v in crit:
             nb[u].append(v); nb[v].append(u)
-    for _ in range(8):
+    def cmean(v):
+        ns = [w for w in nb[v] if w in ang]
+        if not ns:
+            return ang[v]
+        x = sum(math.cos(ang[w]) for w in ns)
+        y = sum(math.sin(ang[w]) for w in ns)
+        if x * x + y * y < 1e-12:
+            return ang[v]
+        return math.atan2(y, x) % (2 * math.pi)
+
+    def total_arc():
+        return sum(abs((ang[u] - ang[v] + math.pi) % (2 * math.pi) - math.pi)
+                   for u, v in req if u in ang and v in ang)
+
+    before = total_arc()
+    # circular-mean relaxation with a minimum angular gap per ring:
+    # nodes drift toward their neighbours' angles (short arcs) but keep
+    # 55% of uniform spacing so labels never collide.
+    for _ in range(40):
         for r in sorted(rings):
+            if r == 0:
+                continue
             lay = rings[r]
-            def key(v):
-                ns = [w for w in nb[v] if w in ang]
-                if not ns: return ang[v]
-                x = sum(math.cos(ang[w]) for w in ns); y = sum(math.sin(ang[w]) for w in ns)
-                return math.atan2(y, x) % (2 * math.pi)
-            lay.sort(key=key)
-            for i, v in enumerate(lay):
-                ang[v] = 2 * math.pi * (i + (r % 2) * 0.5) / len(lay)
+            m = len(lay)
+            des = {v: cmean(v) for v in lay}
+            lay.sort(key=lambda v: des[v])
+            gap = 2 * math.pi / m * 0.55
+            a = [des[v] for v in lay]
+            for i in range(1, m):
+                if a[i] < a[i - 1] + gap:
+                    a[i] = a[i - 1] + gap
+            span = a[-1] - a[0]
+            if m > 1 and span > 2 * math.pi - gap:
+                scale = (2 * math.pi - gap) / span
+                a = [a[0] + (x - a[0]) * scale for x in a]
+            for v, x in zip(lay, a):
+                ang[v] = x % (2 * math.pi)
+    print(f"angular relaxation: total arc length {before:.1f} -> {total_arc():.1f} rad")
     RSTEP, PAD = 92, 60
     R = (maxring + 0.5) * RSTEP + PAD
     W = H = int(2 * R + 240)
