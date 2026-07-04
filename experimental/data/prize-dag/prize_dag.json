@@ -1353,7 +1353,7 @@
     "proof_sketch/s6_extension_lift.md#5"
    ],
    "statement": "Case (iii) closes: intermediate-subfield-confined slopes are priced by the same two mechanisms one level up, recursively, with per-level denominators printed. NOTE: critical only if the official family admits non-generating rows (Q0.1).",
-   "notes": "Family CONFIRMED to include non-generating rows (any field < 2^256 incl. extensions, n up to 2^41): the tower case is genuinely critical, no longer family-conditional."
+   "notes": "Family CONFIRMED to include non-generating rows (any field < 2^256 incl. extensions, n up to 2^41): the tower case is genuinely critical, no longer family-conditional. | SCOPE WIRE (expansion audit): 'critical only if the official family admits towers' = exactly axis8_generating \u2014 now wired as req."
   },
   {
    "id": "two_slope_intersection",
@@ -1629,7 +1629,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had.",
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had. | GATE FIX (expansion audit): the statement says 'whichever enumeration route completes' \u2014 set gate:any over the four alt routes. ALSO: the B2b scan's 'no sixth guise' finding is supporting evidence at giant scale.",
    "gate": "any"
   },
   {
@@ -3661,6 +3661,39 @@
    "falsifier": "O-value collision rates far above uniform at any calibration row",
    "refs": [
     "experimental/notes/roadmaps/midlarge_h_routes.md"
+   ]
+  },
+  {
+   "id": "f1_minimal_field_descent",
+   "title": "f1 minimal field descent",
+   "status": "PROVABLE",
+   "statement": "Every bad slope's pencil data has a well-defined minimal field of definition K with B <= K <= F; the trichotomy's CASE SPLIT (K = B / B < K < F / K = F) is exhaustive by field theory. Near-definitional; write-up pending.",
+   "attack_surface": "one page of Galois descent bookkeeping on the pencil data",
+   "falsifier": "pencil data without a well-defined minimal field (composite ambiguity)",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
+   ]
+  },
+  {
+   "id": "f1_full_field_pole_forcing",
+   "title": "f1 full field pole forcing",
+   "status": "TARGET",
+   "statement": "THE REAL CONTENT of the trichotomy: K = F (genuinely F-valued, not subfield-confined) FORCES the pole mechanism \u2014 s6 section 1's verified direction ('B-rational data cannot produce genuinely F-valued bad slopes; those require F-valued words or the pole mechanism') upgraded from the generating-row case to all admissible rows. With this, case (ii)'s pricing applies to everything K = F, and the trichotomy closes given the tower case.",
+   "attack_surface": "extend the s6 section-1 argument row-uniformly; the extension-fiber arithmetic is banked",
+   "falsifier": "a genuinely F-valued bad slope above the reserve avoiding both the pole mechanism and subfield confinement",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
+   ]
+  },
+  {
+   "id": "petal_excess_induction",
+   "title": "petal excess induction",
+   "status": "TARGET",
+   "statement": "Bridge from petal_fixed_excess (PROVED, c fixed) to growing excess: the mixed-amplification induction on c with poly(n) constants uniform in c. EVIDENCE WALL: the growing-excess petal census \u2014 pre-registered scan of full-petal extras at c = 2..8 on calibration rows; interpretation fixed: counts flat in c => the induction's shape is right; growth in c => the amplification route needs a new idea (route_exact_rank is already REFUTED).",
+   "attack_surface": "the petal census machinery at growing c; delegable compute",
+   "falsifier": "petal extras growing with c at any calibration row",
+   "refs": [
+    "experimental/notes/roadmaps/flip_packets/imgfib.md"
    ]
   }
  ],
@@ -6483,6 +6516,26 @@
   {
    "from": "value_set_partner_cap",
    "to": "midlarge_partner_cap_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "f1_minimal_field_descent",
+   "to": "f1_classification",
+   "kind": "req"
+  },
+  {
+   "from": "f1_full_field_pole_forcing",
+   "to": "f1_classification",
+   "kind": "req"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "f1_case_tower",
+   "kind": "req"
+  },
+  {
+   "from": "petal_excess_induction",
+   "to": "petal_growth",
    "kind": "req"
   }
  ]

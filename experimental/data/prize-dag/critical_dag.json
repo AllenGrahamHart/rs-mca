@@ -283,6 +283,16 @@
    "title": "F-valued slopes: B-rational / pole / tower"
   },
   {
+   "id": "f1_full_field_pole_forcing",
+   "label": "UNPROVED",
+   "title": "f1 full field pole forcing"
+  },
+  {
+   "id": "f1_minimal_field_descent",
+   "label": "PROVABLE",
+   "title": "f1 minimal field descent"
+  },
+  {
    "id": "f1_pole_list_threshold_location",
    "label": "UNPROVED",
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
@@ -631,6 +641,11 @@
    "id": "periodic_strata",
    "label": "PROVED",
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
+  },
+  {
+   "id": "petal_excess_induction",
+   "label": "UNPROVED",
+   "title": "petal excess induction"
   },
   {
    "id": "petal_fixed_excess",
@@ -1806,6 +1821,22 @@
   {
    "from": "value_set_partner_cap",
    "to": "midlarge_partner_cap_reduction"
+  },
+  {
+   "from": "f1_minimal_field_descent",
+   "to": "f1_classification"
+  },
+  {
+   "from": "f1_full_field_pole_forcing",
+   "to": "f1_classification"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "f1_case_tower"
+  },
+  {
+   "from": "petal_excess_induction",
+   "to": "petal_growth"
   }
  ]
 }
