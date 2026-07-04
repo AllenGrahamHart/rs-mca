@@ -3504,6 +3504,16 @@
     "experimental/notes/roadmaps/x48_h4_centered_coset_shell_param.md"
    ],
    "notes": "Proved parametrization for the centered affine branch's shell-size target. The verifier replays stress and boundary rows, checking the ratio formula, coset constancy, evenness, quotient coset count, and equality of direct and quotient max shells."
+  },
+  {
+   "id": "x49_h4_centered_quotient_energy",
+   "title": "X49: h=4 centered energy compresses to quotient cosets",
+   "status": "PROVED",
+   "statement": "Let m_C be the X48 shell size attached to a quotient coset C=sH. Since each coset has n field elements and m_s is coset-constant, X42 gives R_centered <= n sum_C C(m_C,4). The total quotient shell mass is sum_C m_C=(n-2)/2 because the only excluded unordered pairs are the n/2 zero-sum antipodal pairs. Hence R_centered <= (C(M,4)/M) n(n-2)/2 with M=max_C m_C.",
+   "refs": [
+    "experimental/notes/roadmaps/x49_h4_centered_quotient_energy.md"
+   ],
+   "notes": "Proved quotient-compressed centered-energy accounting. This refines X44 by removing the paid zero-sum shell before max-shell bounding and identifies the remaining task as controlling concentration of (n-2)/2 quotient shell mass among shifted-subgroup intersections."
   }
  ],
  "edges": [
@@ -6204,6 +6214,11 @@
   },
   {
    "from": "x48_h4_centered_coset_shell_param",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x49_h4_centered_quotient_energy",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
