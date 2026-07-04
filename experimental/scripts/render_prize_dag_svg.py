@@ -241,6 +241,23 @@ def radial():
         for u in rev[v]:
             if u not in crit:
                 crit.add(u); stack.append(u)
+    alt_pairs = [(e["from"], e["to"]) for e in d["edges"]
+                 if e.get("kind") == "alt"
+                 and e["from"] in nodes and e["to"] in nodes]
+    grew = True
+    while grew:
+        grew = False
+        for u, v in alt_pairs:
+            if v in crit and u not in crit and nodes[u]["status"] != "REFUTED" \
+                    and nodes[v].get("gate") == "any":
+                crit.add(u); grew = True
+                st2 = [u]
+                while st2:
+                    w = st2.pop()
+                    for x in rev[w]:
+                        if x not in crit:
+                            crit.add(x); st2.append(x)
+                rev[v].append(u); cons[u].append(v)
     # ring = LONGEST req-path to a grand: guarantees ring(u) > ring(v) for
     # every requirement edge u -> v, so implication always flows strictly
     # inward - the radial direction IS the direction of implication.

@@ -40,6 +40,22 @@ def derive():
             if u not in crit:
                 crit.add(u)
                 stack.append(u)
+    alt = [(e["from"], e["to"]) for e in d["edges"] if e.get("kind") == "alt"]
+    grew = True
+    while grew:
+        grew = False
+        for u, v in alt:
+            if v in crit and u not in crit and nodes[u]["status"] != "REFUTED" \
+                    and nodes[v].get("gate") == "any":
+                crit.add(u)
+                grew = True
+                st2 = [u]
+                while st2:
+                    w = st2.pop()
+                    for x in rev[w]:
+                        if x not in crit:
+                            crit.add(x)
+                            st2.append(x)
     _, amber, _ = R.open_classes(nodes, req, crit)
     def label(v):
         st = nodes[v]["status"]
@@ -55,7 +71,9 @@ def derive():
                    "title": nodes[v].get("title", "")[:160]}
                   for v in sorted(crit)],
         "edges": [{"from": u, "to": v} for u, v in req
-                  if u in crit and v in crit],
+                  if u in crit and v in crit]
+                 + [{"from": u, "to": v, "kind": "alt"} for u, v in alt
+                    if u in crit and v in crit and nodes[v].get("gate") == "any"],
     }
     path = os.path.join(HERE, "..", "data", "prize-dag", "critical_dag.json")
     json.dump(out, open(path, "w"), indent=1)
