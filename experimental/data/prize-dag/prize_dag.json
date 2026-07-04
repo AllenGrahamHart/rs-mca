@@ -3614,6 +3614,16 @@
     "experimental/notes/roadmaps/x59_h4_mobius_collision_form.md"
    ],
    "notes": "Equivalent to X58's reduced additive-energy form, but exposes the p-specific subgroup correspondence h(1+r)-1 in H. This is the current cleanest surface-incidence statement for the centered h=4 branch."
+  },
+  {
+   "id": "x60_h4_linear_triple_form",
+   "title": "X60: h=4 centered surplus is filtered linear triples in H^3",
+   "status": "PROVED",
+   "statement": "Under x=h, y=hr, z=h(1+r)-1, X59's nontrivial Mobius collisions are exactly solutions x+y-z=1 in H^3 avoiding x=1, y=1, z=1, y=x, and y=-x. Hence twice the X56 anchored surplus is this filtered linear-triple count, and X55-X56 require it to be < 8*C(T(n)+1,2).",
+   "refs": [
+    "experimental/notes/roadmaps/x60_h4_linear_triple_form.md"
+   ],
+   "notes": "Puts the centered h=4 target into the standard additive-combinatorics form: bound subgroup triples on the affine plane x+y-z=1 after deleting the five forced loci."
   }
  ],
  "edges": [
@@ -6494,6 +6504,21 @@
   },
   {
    "from": "x59_h4_mobius_collision_form",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x58_h4_reduced_additive_energy",
+   "to": "x60_h4_linear_triple_form",
+   "kind": "req"
+  },
+  {
+   "from": "x59_h4_mobius_collision_form",
+   "to": "x60_h4_linear_triple_form",
+   "kind": "req"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
