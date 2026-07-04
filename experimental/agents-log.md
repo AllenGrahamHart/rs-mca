@@ -30,6 +30,21 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - E33 deep-link staircase toy census
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/e33_deep_link_staircase.md`,
+  `experimental/scripts/verify_e33_deep_link_staircase.py`,
+  `experimental/data/certificates/e33-deep-link-staircase/`.
+- **Status:** EVIDENCE / finite toy census.
+- **What is being added:** A deterministic fixed-seed census for aligned
+  partners through a fixed deep-link anchor at near-`k` overlaps in the
+  `F_97` corridor row and a denser `F_17` stress row.
+- **How it is useful:** Prices the Wave 5 deep-link staircase falsifier and
+  supplies the aligned-pair engine consumed by later active-shadow audits.
+- **What to do next:** Do not promote this to the staircase lemma; it is
+  toy-scale evidence and calibration only.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
