@@ -3236,7 +3236,8 @@
    "falsifier": "an official row prime dividing some 8-sparse Res(Phi_n, f) \u2014 a real h=4 primitive trade at that row (would need charging, not exclusion)",
    "refs": [
     "experimental/notes/roadmaps/x30_finite_p_norm_gate.md"
-   ]
+   ],
+   "notes": "(A) DECOMPOSED (roadmap-lane derivation): the universal-variety reframing \u2014 trades = torsion points on the h-only variety W_h. (A1) toral part = fibers (proved, X24/x83 geometric); (A2) Laurent's theorem: non-toral torsion <= C(h) UNIFORM IN N (classical, needs effective citation); (A3) the good-reduction lemma: extras mod p require p in a finite h-only computable set S(h) \u2014 the one new lemma, with the always-works fallback (compute S(h) once, per-row GCD tests); (A4) assembly: C(h) x orbit factor n^2 <= n^3 budget. (A) has moved from the unsolved subgroup-counting frontier to effective-Laurent + good-reduction \u2014 proven-theory territory plus one lemma."
   },
   {
    "id": "x24_char0_dyadic_descent",
@@ -3276,6 +3277,40 @@
     "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
    ],
    "notes": "The 64-commit autonomous consolidation (x40-x83 working state compressed into this + x81/x82). THE COMPLETE DICHOTOMY: the entire small-h mathematics of the terminal node is DONE."
+  },
+  {
+   "id": "a_universal_trade_variety",
+   "title": "(A) SHARPENED: trades = torsion points on the UNIVERSAL variety W_h",
+   "status": "PROVABLE",
+   "statement": "The x83 obstruction polynomials depend only on h: define W_h in G_m^{2h} (obstructions = 0, triangular, explicit). Trades at any row = points of W_h with mu_n coordinates. The obstructions are quasi-homogeneous (O_j(gamma R) = gamma^{2h-j} O_j(R) \u2014 verified), so counts are scaling/Galois-orbit invariant. This reframes (A) from subgroup point-counting to TORSION POINTS ON A FIXED SUBVARIETY OF A TORUS \u2014 classical territory.",
+   "refs": [
+    "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
+   ],
+   "notes": "Roadmap-lane derivation. The universality (n-independence) is the leverage every prior route lacked."
+  },
+  {
+   "id": "a2_laurent_finiteness",
+   "title": "(A2): Laurent's theorem gives the n-UNIFORM char-0 count",
+   "status": "PROVABLE",
+   "key": true,
+   "statement": "By Laurent's theorem (Lang's conjecture for tori, PROVED classical mathematics), the torsion points of W_h lie in finitely many torsion cosets contained in W_h. Contained torus cosets = the toral components = the fiber loci (X24/x83 geometrically). Hence char-0 non-fiber trades number <= C(h), UNIFORMLY IN n. Subsumes X24's classification and explains every empty sweep. NEEDS: the citation verification + an effective version (Evertse / Beukers-Smyth / Aliev-Smyth lineage) for explicit C(h) at h <= ~40. [CITATION NEEDED - stated from memory]",
+   "attack_surface": "literature verification task (GPT-Pro-shaped: pull the effective-Laurent papers, extract the bound's shape in deg(W_h) and height)",
+   "falsifier": "char-0 non-fiber trades growing with n at fixed h (the sweeps say no)",
+   "refs": [
+    "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
+   ]
+  },
+  {
+   "id": "a3_good_reduction_lemma",
+   "title": "(A3) THE ONE NEW LEMMA: good reduction of W_h's torsion structure",
+   "status": "TARGET",
+   "key": true,
+   "statement": "For p outside a finite, h-only, row-independent exceptional set S(h) \u2014 primes dividing explicit nonzero integers (discriminants/resultants of W_h's non-toral components and torsion-coset membership data) \u2014 the mu_n(F_q)-points of W_h do not exceed the char-0 structure: no new trades appear mod p. This is the exceptional-prime phenomenon (F_193, the q-sweep non-monotonicity, X-6) in its proper algebro-geometric form. TWO EXITS: (i) bound S(h)'s defining integers below 2^128 (heights ~ exp(poly(h)): plausible at small h, unclear at h ~ 40); (ii) THE FALLBACK THAT ALWAYS WORKS: compute S(h)'s integers ONCE per h (row-independent, reusable), then per-row certification = GCD/divisibility tests \u2014 trivial arithmetic. x83's triangularity makes the eliminant chain computable.",
+   "attack_surface": "formulate via the triangular eliminant chain (each obstruction eliminates one variable); the components' torsion data reduces to resultants against X^n - 1 evaluated on the h-only component ideals; small-h (4,5,6) computations first to calibrate integer sizes",
+   "falsifier": "an official-row prime dividing one of S(h)'s integers at some window h (= a real trade at that row; then charge it, absorbency has n^3 room)",
+   "refs": [
+    "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
+   ]
   }
  ],
  "edges": [
@@ -5858,6 +5893,21 @@
    "from": "x83_uniform_square_shift_obstruction_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "h4_sparse_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "a2_laurent_finiteness",
+   "to": "h4_sparse_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "a3_good_reduction_lemma",
+   "to": "h4_sparse_norm_gate",
+   "kind": "req"
   }
  ]
 }
