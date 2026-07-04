@@ -380,6 +380,8 @@ def radial():
     for v in ring:
         n = nodes[v]; st = n["status"]
         fill = FILL.get(st, "#64748b")
+        if v in staged:
+            fill = "#f59e0b"   # class drives color: RIPE targets are amber like CONDITIONALs
         r0 = 10 if v in GRANDS else (6.5 if st in OPEN else 5.5)
         halo = ""
         if v in leaf:
