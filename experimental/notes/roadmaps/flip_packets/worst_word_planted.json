@@ -1,0 +1,17 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "worst_word_planted",
+  "packet": "experimental/notes/roadmaps/flip_packets/worst_word_planted.md",
+  "current_label": "UNPROVED",
+  "verdict": "DEFECT",
+  "kids": [
+    "imgfib"
+  ],
+  "pins": {
+    "worst_word_planted": "260596841634e691",
+    "imgfib": "0701cb2b6f534e11",
+    "list_planted_arithmetic": "981bbfa57a032011"
+  },
+  "argument": "DEFECT: after the E15 repair, imgfib alone is not the node's dependency set. The statement names list_planted_arithmetic and needs challenger-class pricing/exhaustion, but those obligations are not wired as req children.",
+  "proposed_fix": "Wire list_planted_arithmetic after adding the E15 column, or add separate challenger_class_arithmetic and planted_or_e15_exhaustion children."
+}

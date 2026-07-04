@@ -1,0 +1,19 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "f1_classification",
+  "packet": "experimental/notes/roadmaps/flip_packets/f1_classification.md",
+  "current_label": "UNPROVED",
+  "verdict": "TRUE RED",
+  "kids": [
+    "b_rational_lift",
+    "f1_case_pole",
+    "f1_case_tower"
+  ],
+  "pins": {
+    "f1_classification": "f8983f265d77298a",
+    "b_rational_lift": "518e9181c78c2f9d",
+    "f1_case_pole": "93b3d21741f782de",
+    "f1_case_tower": "23cb152e159b547a"
+  },
+  "argument": "TRUE RED: the children price the three branches, but the trichotomy/exhaustion theorem is the open Galois-descent classification. A fourth F-valued non-pole non-confined class has not been ruled out."
+}

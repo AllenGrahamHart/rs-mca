@@ -1,0 +1,23 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "imgfib",
+  "packet": "experimental/notes/roadmaps/flip_packets/imgfib.md",
+  "current_label": "UNPROVED",
+  "verdict": "PROMOTE-CONDITIONAL",
+  "kids": [
+    "petal_growth",
+    "conj_f",
+    "l1_program_frontier",
+    "dyadic_profile_evaluation",
+    "payment_completeness"
+  ],
+  "pins": {
+    "imgfib": "0701cb2b6f534e11",
+    "petal_growth": "8f168d85016f2af5",
+    "conj_f": "fd5e16562c7aa220",
+    "l1_program_frontier": "72362a3fe8608709",
+    "dyadic_profile_evaluation": "05224c92c9c1190f",
+    "payment_completeness": "6bd02bac86a7bd31"
+  },
+  "argument": "PROMOTE-CONDITIONAL: the L1 frontier plus petal_growth, Conjecture F, dyadic profile arithmetic, and payment completeness are exactly the children needed to derive the image-fiber bound. The hard content remains in the children."
+}
