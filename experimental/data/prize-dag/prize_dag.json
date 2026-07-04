@@ -3324,6 +3324,16 @@
     "experimental/notes/roadmaps/x30_finite_p_norm_gate.md"
    ],
    "notes": "Formalizes the finite-p reduction language used by X24-X29. For odd h, descent is impossible at the first level, so any finite-p odd-h trade is a norm-gate residue. For h=4, the observed extra mass is a norm-gate residue after one quotient descent."
+  },
+  {
+   "id": "x31_h2_quotient_norm_criterion",
+   "title": "X31: quotient h=2 extras are sparse cyclotomic norm gates",
+   "status": "PROVED",
+   "statement": "For m=2^s, an anchored quotient h=2 collision 1+zeta^a=zeta^b+zeta^c is either the zero-sum Phi_m-descended baseline a=m/2,c=b+m/2, or the nonzero sparse resultant Res(Phi_m,1+X^a-X^b-X^c) is divisible by the characteristic. Conversely, resultant divisibility produces such a collision after Galois exponent scaling of the pattern. Exact row checks compute all extra resultants for m=32,p=4993; m=64,p=65537; and m=128,p=65537.",
+   "refs": [
+    "experimental/notes/roadmaps/x31_h2_quotient_norm_criterion.md"
+   ],
+   "notes": "Specializes X30 to the quotient h=2 layer used by X26-X29. It proves that the h=4 paid quotient exception column decomposes as zero-sum baseline plus sparse norm gates, with no hidden third mechanism in the quotient layer."
   }
  ],
  "edges": [
@@ -5929,6 +5939,11 @@
   },
   {
    "from": "x30_finite_p_norm_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x31_h2_quotient_norm_criterion",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
