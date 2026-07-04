@@ -143,6 +143,21 @@
    "title": "Conjecture F: plane sections of D_j have poly unpaid points"
   },
   {
+   "id": "corridor_ext_crossing",
+   "label": "UNPROVED",
+   "title": "Corridor eater (iii): the extension-crossing arithmetic"
+  },
+  {
+   "id": "corridor_ledger",
+   "label": "UNPROVED",
+   "title": "THE CORRIDOR LEDGER: per-rate, eaters (i)+(ii)+(iii) >= W(rate) - 1"
+  },
+  {
+   "id": "corridor_window_cleanup",
+   "label": "UNPROVED",
+   "title": "Corridor eater (ii): per-point window cleanup at the boundary"
+  },
+  {
    "id": "counting_frame",
    "label": "PROVED",
    "title": "Exact frame: finite divisor set, pencil linear, <=1 slope/locator"
@@ -1256,6 +1271,30 @@
   {
    "from": "m_sweep",
    "to": "m_handling"
+  },
+  {
+   "from": "acl_second_order",
+   "to": "corridor_ledger"
+  },
+  {
+   "from": "corridor_window_cleanup",
+   "to": "corridor_ledger"
+  },
+  {
+   "from": "corridor_ext_crossing",
+   "to": "corridor_ledger"
+  },
+  {
+   "from": "corridor_window_cleanup",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "corridor_ext_crossing",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "corridor_ledger",
+   "to": "adjacency_closing"
   }
  ]
 }
