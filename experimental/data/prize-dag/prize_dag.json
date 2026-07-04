@@ -3900,8 +3900,15 @@
   {
    "id": "hankel_slope_large_sieve",
    "title": "Hankel slope large sieve",
+   "status": "CONDITIONAL",
+   "statement": "Supported-slope estimate = R2's factorized residue (see statement.md); closed subcases: rank-drop, D=1, fixed D.",
+   "notes": "CONDITIONAL (Hankel thread, refereed): three proved reductions (fresh-rank <= 2n; the Vandermonde triple-shadow lemma; m=3 stagnations tangent-paid via the k+1 common-core slope solve) leave only the diffuse m>=4 case \u2014 a strictly narrower residue."
+  },
+  {
+   "id": "diffuse_triple_shadow",
+   "title": "diffuse triple-shadow theorem",
    "status": "TARGET",
-   "statement": "Supported-slope estimate = R2's factorized residue (see statement.md); closed subcases: rank-drop, D=1, fixed D."
+   "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED)."
   }
  ],
  "edges": [
@@ -6938,6 +6945,11 @@
   {
    "from": "hankel_slope_large_sieve",
    "to": "spi_point_counting",
+   "kind": "req"
+  },
+  {
+   "from": "diffuse_triple_shadow",
+   "to": "hankel_slope_large_sieve",
    "kind": "req"
   }
  ]
