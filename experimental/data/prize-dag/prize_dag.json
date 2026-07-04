@@ -1084,12 +1084,13 @@
   {
    "id": "spi_exceptional_class",
    "title": "SPI classification: high-dimensional components map to paid strata",
-   "status": "TARGET",
+   "status": "PROVABLE",
    "key": true,
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
    ],
-   "statement": "Every irreducible component of the alignment/structure loci with dimension above the poly-count threshold is contained in a tangent, quotient(-tower), or extension stratum \u2014 or is a NEW named ledger. Completeness of the component list is Noetherian/degree-bounded (spi_component_control)."
+   "statement": "RESTATED (the wording correction): every rank-excess or super-slope component of the alignment incidence OUTSIDE the generic horizontal component is tangent-paid, empty, degenerate-excluded, quotient/extension-paid, or an apolar-principal scroll (the new named class: generically row-deficient pencils, ker = q_Z K(Z)[X]_{<=D-1}, priced by the R(Z) = Res(q_Z, X^n-1) dichotomy \u2014 R == 0 forces tangent payment, else O(n^2) supported slopes). The generic horizontal component is deliberately NOT claimed paid: its D_j-count is spi_point_counting (R2), a separate node.",
+   "notes": "PROVABLE (Pro G on replay: scroll + rank-profile verticals + R(Z) dichotomy; both new lemmas verified). The wording trap caught: high dimension alone is NOT the criterion \u2014 rank-excess is. The apolar-principal scroll added as a named priceable class (taxonomy growth #3, after affine-net and dihedral)."
   },
   {
    "id": "spi_dimension_free",
@@ -1633,7 +1634,7 @@
   {
    "id": "payment_completeness",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "The ledger taxonomy is exhaustive. NOT to be assumed or merely evidenced: it is the CLASSIFICATION OUTPUT of whichever enumeration route completes \u2014 the inverse class C_XR, the component list, the regularity-lemma exceptional sets, or the monodromy subgroup classification \u2014 each of which is complete by construction. Red-team results preview its content; they do not certify it.",
    "attack_surface": "complete step 2 (classification) of any one enumeration route; a new class member discovered there = the S9 protocol, built into the strategy rather than bolted on",
@@ -1681,8 +1682,8 @@
   {
    "id": "spi_component_control",
    "title": "SPI stage 1: effective component control \u2014 count and degrees of irreducible components",
-   "status": "TARGET",
-   "statement": "Bezout-type bounds: the alignment variety X_{u,v} and its intersections with structure loci have an explicitly bounded number of irreducible components with bounded degrees (explicit in n, t, j). The component LIST is the finite enumeration.",
+   "status": "PROVED",
+   "statement": "#Irr(I_{u,v}) <= t+1 and Segre degree <= j+t+1 for the Hankel slope-incidence variety (one horizontal scroll + <= r <= t vertical rank-drop fibers); same per paid stratum. Far stronger than the poly target. (Pro G, refereed, verified.)",
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#1"
    ]
@@ -6892,6 +6893,11 @@
   {
    "from": "hankel_moment_clean_leaves",
    "to": "f_termination_hankel",
+   "kind": "req"
+  },
+  {
+   "from": "hankel_rank_profile_entropy",
+   "to": "spi_exceptional_class",
    "kind": "req"
   }
  ]

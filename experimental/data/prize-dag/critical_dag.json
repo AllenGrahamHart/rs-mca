@@ -694,7 +694,7 @@
   },
   {
    "id": "payment_completeness",
-   "label": "CONDITIONAL",
+   "label": "PROVABLE",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
@@ -776,6 +776,16 @@
    "id": "skew_support_threshold",
    "label": "PROVED",
    "title": "skew support threshold"
+  },
+  {
+   "id": "spi_component_control",
+   "label": "PROVED",
+   "title": "SPI stage 1: effective component control \u2014 count and degrees of irreducible components"
+  },
+  {
+   "id": "spi_exceptional_class",
+   "label": "PROVABLE",
+   "title": "SPI classification: high-dimensional components map to paid strata"
   },
   {
    "id": "staircase",
@@ -1351,6 +1361,10 @@
   {
    "from": "payment_completeness",
    "to": "imgfib"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "spi_exceptional_class"
   },
   {
    "from": "f_dim1",
@@ -2077,8 +2091,17 @@
    "to": "f_termination_hankel"
   },
   {
+   "from": "hankel_rank_profile_entropy",
+   "to": "spi_exceptional_class"
+  },
+  {
    "from": "acl_second_order",
    "to": "zone_b",
+   "kind": "alt"
+  },
+  {
+   "from": "spi_exceptional_class",
+   "to": "payment_completeness",
    "kind": "alt"
   },
   {
