@@ -3674,6 +3674,16 @@
     "experimental/notes/roadmaps/x65_h4_linear_orbit_budget.md"
    ],
    "notes": "Removes the ordered-triple factor from the centered h=4 residue and records the primitive post-quotient currency. In the replay rows, the only total-orbit barrier failure is the low-characteristic n64 stress row; it passes after quotient-descended content is stripped."
+  },
+  {
+   "id": "x66_h4_norm_gate_orbit_invariance",
+   "title": "X66: h=4 sparse norm-gate tests are orbit-invariant",
+   "status": "PROVED",
+   "statement": "Each X64 transform sends f=X^a+X^b-X^c-1 to a signed monomial multiple of f in Z[C_n]: +1, +X^{-c}, -X^{-a}, or -X^{-b}. Therefore evaluation at primitive n-th roots and the prime divisors of Res(Phi_n,f) are invariant on each canonical orbit.",
+   "refs": [
+    "experimental/notes/roadmaps/x66_h4_norm_gate_orbit_invariance.md"
+   ],
+   "notes": "Upgrades X64/X65 from count-orbit currency to norm-gate certifier currency: one canonical content-one representative carries the entire eightfold sparse-resultant obstruction."
   }
  ],
  "edges": [
@@ -6679,6 +6689,31 @@
   },
   {
    "from": "x65_h4_linear_orbit_budget",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
+   "to": "x66_h4_norm_gate_orbit_invariance",
+   "kind": "req"
+  },
+  {
+   "from": "x62_h4_linear_norm_gate",
+   "to": "x66_h4_norm_gate_orbit_invariance",
+   "kind": "req"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
+   "to": "x66_h4_norm_gate_orbit_invariance",
+   "kind": "req"
+  },
+  {
+   "from": "x65_h4_linear_orbit_budget",
+   "to": "x66_h4_norm_gate_orbit_invariance",
+   "kind": "req"
+  },
+  {
+   "from": "x66_h4_norm_gate_orbit_invariance",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

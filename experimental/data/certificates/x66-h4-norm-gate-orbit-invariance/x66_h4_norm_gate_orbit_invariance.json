@@ -1,0 +1,150 @@
+{
+  "checks": 29,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x60_h4_linear_triple_form": "PROVED",
+    "x62_h4_linear_norm_gate": "PROVED",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x65_h4_linear_orbit_budget": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "filtered_linear_triple_count": 168,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "orbit_mismatch_count": 0,
+      "p": 17,
+      "primitive_canonical_orbit_count": 20,
+      "primitive_relation_checks": 1280,
+      "signed_monomial_relation_failures": [],
+      "unit_action_count": 8,
+      "unit_histogram": {
+        "sign=-1,shift_source=swap": 336,
+        "sign=-1,shift_source=x": 168,
+        "sign=-1,shift_source=y": 168,
+        "sign=1,shift_source=identity": 168,
+        "sign=1,shift_source=swap": 336,
+        "sign=1,shift_source=z": 168
+      }
+    },
+    {
+      "filtered_linear_triple_count": 1176,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "orbit_mismatch_count": 0,
+      "p": 193,
+      "primitive_canonical_orbit_count": 134,
+      "primitive_relation_checks": 8576,
+      "signed_monomial_relation_failures": [],
+      "unit_action_count": 8,
+      "unit_histogram": {
+        "sign=-1,shift_source=swap": 2352,
+        "sign=-1,shift_source=x": 1176,
+        "sign=-1,shift_source=y": 1176,
+        "sign=1,shift_source=identity": 1176,
+        "sign=1,shift_source=swap": 2352,
+        "sign=1,shift_source=z": 1176
+      }
+    },
+    {
+      "filtered_linear_triple_count": 208,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "orbit_mismatch_count": 0,
+      "p": 7937,
+      "primitive_canonical_orbit_count": 23,
+      "primitive_relation_checks": 1472,
+      "signed_monomial_relation_failures": [],
+      "unit_action_count": 8,
+      "unit_histogram": {
+        "sign=-1,shift_source=swap": 416,
+        "sign=-1,shift_source=x": 208,
+        "sign=-1,shift_source=y": 208,
+        "sign=1,shift_source=identity": 208,
+        "sign=1,shift_source=swap": 416,
+        "sign=1,shift_source=z": 208
+      }
+    },
+    {
+      "filtered_linear_triple_count": 120,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "orbit_mismatch_count": 0,
+      "p": 17921,
+      "primitive_canonical_orbit_count": 12,
+      "primitive_relation_checks": 768,
+      "signed_monomial_relation_failures": [],
+      "unit_action_count": 8,
+      "unit_histogram": {
+        "sign=-1,shift_source=swap": 240,
+        "sign=-1,shift_source=x": 120,
+        "sign=-1,shift_source=y": 120,
+        "sign=1,shift_source=identity": 120,
+        "sign=1,shift_source=swap": 240,
+        "sign=1,shift_source=z": 120
+      }
+    },
+    {
+      "filtered_linear_triple_count": 224,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "orbit_mismatch_count": 0,
+      "p": 91393,
+      "primitive_canonical_orbit_count": 22,
+      "primitive_relation_checks": 1408,
+      "signed_monomial_relation_failures": [],
+      "unit_action_count": 8,
+      "unit_histogram": {
+        "sign=-1,shift_source=swap": 448,
+        "sign=-1,shift_source=x": 224,
+        "sign=-1,shift_source=y": 224,
+        "sign=1,shift_source=identity": 224,
+        "sign=1,shift_source=swap": 448,
+        "sign=1,shift_source=z": 224
+      }
+    }
+  ],
+  "status": "PROVED ORBIT INVARIANCE: NORM-GATE PRIME SET IS CONSTANT ON X64 ORBITS",
+  "task": "X66 h=4 norm-gate orbit invariance",
+  "theorem": "For each of the eight X64 transforms, the transformed four-term word X^a+X^b-X^c-1 is equal in Z[C_n] to +/- X^m times the original word, with m in {0,-a,-b,-c}.  Therefore evaluation at any primitive n-th root is multiplied by a unit, and the cyclotomic norm/resultant prime divisibility test is invariant on each canonical orbit.",
+  "unit_identities": [
+    {
+      "transform": "positive_pair_identity",
+      "unit": "+1"
+    },
+    {
+      "transform": "positive_pair_swap",
+      "unit": "+1"
+    },
+    {
+      "transform": "negative_pair_reanchor_z",
+      "unit": "+X^{-c}"
+    },
+    {
+      "transform": "negative_pair_reanchor_z_after_swap",
+      "unit": "+X^{-c}"
+    },
+    {
+      "transform": "side_swap_reanchor_x",
+      "unit": "-X^{-a}"
+    },
+    {
+      "transform": "side_swap_reanchor_x_after_swap",
+      "unit": "-X^{-a}"
+    },
+    {
+      "transform": "side_swap_reanchor_y",
+      "unit": "-X^{-b}"
+    },
+    {
+      "transform": "side_swap_reanchor_y_after_swap",
+      "unit": "-X^{-b}"
+    }
+  ]
+}
