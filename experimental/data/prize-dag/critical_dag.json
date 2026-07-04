@@ -44,7 +44,7 @@
   },
   {
    "id": "active_core_count_bound",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE RESIDUE, PEELED ONCE MORE (X-11): the active-core count C_h^nt"
   },
   {
@@ -374,7 +374,7 @@
   },
   {
    "id": "f_sparse_rank_split",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
   },
   {
@@ -454,7 +454,7 @@
   },
   {
    "id": "h4_sparse_norm_gate",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE h=4 RESIDUE (x32): the 8-sparse cyclotomic norm gate"
   },
   {
@@ -544,7 +544,7 @@
   },
   {
    "id": "list_safe",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "List safe side above the window"
   },
   {
@@ -759,7 +759,7 @@
   },
   {
    "id": "u1_alpha_active_core_incidence",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "INPUT A: the active-core incidence theorem (the genuine new math)"
   },
   {
@@ -864,7 +864,7 @@
   },
   {
    "id": "xr_heavy_triangle_charge",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge"
   },
   {
@@ -904,7 +904,7 @@
   },
   {
    "id": "xr_scattered_syzygy_flattice",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects"
   },
   {
