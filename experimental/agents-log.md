@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - QA.24 degenerate-tower bookkeeping
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/qa24_degenerate_tower_bookkeeping.md`,
+  `experimental/scripts/verify_qa24_degenerate_towers.py`,
+  `experimental/data/certificates/qa24-degenerate-towers/`.
+- **Status:** AUDIT.
+- **What is being added:** Exact clean-rate bookkeeping for the lifting
+  lemma's degenerate-tower F2 exception, including the correction factor
+  `|K|^(M/D-d)` and row-wise bit columns.
+- **How it is useful:** Prevents TR from using the lifting lemma's
+  cardinality equality without either a non-degeneracy hypothesis, the
+  correction factor, or a separate exclusion argument.
+- **What to do next:** Apply this only as bookkeeping; it does not repair or
+  prove the TR count transfer by itself.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
