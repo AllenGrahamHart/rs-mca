@@ -3824,6 +3824,16 @@
     "experimental/notes/roadmaps/x80_odd_support_free_orbits.md"
    ],
    "notes": "Fixes h=5 orbit bookkeeping after X78/X79: there is no hidden stabilizer denominator in ordered row mass, and the only unordered symmetric branch is the explicit antipodal swap."
+  },
+  {
+   "id": "x81_minimal_trade_square_shift",
+   "title": "X81: minimal trades biject with square-shift split supports",
+   "status": "PROVED",
+   "statement": "Over any odd-characteristic field and for any h, unordered disjoint degree-h minimal trades are in bijection with split 2h-supports R whose locator L_R admits L_R+lambda=S^2 for a monic degree-h S and a nonzero square lambda. The split is unique up to swapping sides.",
+   "refs": [
+    "experimental/notes/roadmaps/x81_minimal_trade_square_shift.md"
+   ],
+   "notes": "Uniform support-level normal form for the star-PTE minimal trades. X78 is the h=5 specialization; X79 adds the h=5 low-obstruction gates."
   }
  ],
  "edges": [
@@ -7134,6 +7144,21 @@
   },
   {
    "from": "x80_odd_support_free_orbits",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "star_pte_lemma",
+   "to": "x81_minimal_trade_square_shift",
+   "kind": "ev"
+  },
+  {
+   "from": "x78_h5_square_shift_supports",
+   "to": "x81_minimal_trade_square_shift",
+   "kind": "ev"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
