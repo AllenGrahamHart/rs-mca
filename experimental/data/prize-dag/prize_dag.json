@@ -2456,13 +2456,13 @@
   {
    "id": "xr_distance_dichotomy",
    "title": "The XR final assembly: three tools partition the distance scales",
-   "status": "TARGET",
+   "status": "PROVABLE",
    "key": true,
    "statement": "For a fixed post-strip pair, bound |A| by the exhaustive per-scale split: (i) CLOSE pairs (exchange distance <= ledger reach s_L): residual systems suppress at a q-FACTOR per step (#152's mechanism); (ii) FAR-ONLY sets (distance-s independent): Delsarte/anticode bounds at (j/n) per step; (iii) STRUCTURED mass (link-dense): the KMS/globalness route (juntas = tangent-paid). The wall closes iff the three coverages overlap \u2014 determined by xr_radius_arithmetic. The dichotomy is exhaustive by construction; the assembly is the wall.",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "The scary failure mode (rank collapse after s=1) DOES NOT OCCUR: the ledger has full linear reach to t-1. The assembly's remaining work: the worst-case conversion (post-strip close-pair energy is either spread \u2014 ledger applies \u2014 or link-dense/junta \u2014 paid via KMS/globalness) + the QX.14 table. | WAVE-1 VERDICT: per-distance residual certification to s ~ t-1 is implausible (billions of steps); ALL conversion pressure now rests on the KMS/globalness branch (the poly-vs-q-power composition + the 10-candidate leak adjudication). The wall's fate = that composition, full stop."
+   "notes": "Integrated from Codex (referee pass): status reconciled to PROVABLE (artifacts + all-green predicates); the globalness edge promoted ev -> req per the sketch's own text ('a required input, not merely evidence')."
   },
   {
    "id": "xr_ledger_qpower",
@@ -5915,7 +5915,7 @@
   {
    "from": "xr_globalness_from_ledger",
    "to": "xr_distance_dichotomy",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "exchange_calculus",
