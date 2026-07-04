@@ -1,0 +1,18 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "knife_edge_census",
+  "packet": "experimental/notes/roadmaps/flip_packets/knife_edge_census.md",
+  "current_label": "UNPROVED",
+  "verdict": "PROMOTE-CONDITIONAL",
+  "kids": [
+    "certified_valueset_lower",
+    "census_window_arithmetic"
+  ],
+  "pins": {
+    "knife_edge_census": "198e816a76a9e9d2",
+    "certified_valueset_lower": "00335d6a53907bd9",
+    "census_window_arithmetic": "ad0a5b69dbe08647"
+  },
+  "argument": "PROMOTE-CONDITIONAL: granted the per-row value-set lower certificate and the exact window arithmetic, the parent is just the substitution of certified lower strength L into the exact [L,K) Diophantine windows.",
+  "caution": "The certified_valueset_lower child must be read as a per-row certificate schema; if read literally as one fixed row, schema-ify that child before applying."
+}

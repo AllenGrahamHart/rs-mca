@@ -192,7 +192,8 @@
    ],
    "statement": "Compute the second-order term of the antipodal class count Acl(N', l') beyond leading order, with explicit error control, so the corridor's quotient end becomes a NUMBER per rate instead of an interval. With it, per-rate bracket widths are exact and the adjacency question (adjacency_closing) is decidable rate-by-rate. Route shape: generating-function / saddle-point expansion of the class count.",
    "attack_surface": "computation-shaped: expand the counting generating function one order past S2's leading term; verify against exact small-N' counts (already tabulated in the E1 packet: log2 A = 49.72/100.44/201.88)",
-   "falsifier": "exact small-N' counts disagreeing with the expansion (arithmetic check, not a conjecture risk)"
+   "falsifier": "exact small-N' counts disagreeing with the expansion (arithmetic check, not a conjecture risk)",
+   "notes": "CONCRETE TARGET (corridor computation): deliver >= 0.367 / 0.023 / 0.304 grid steps at rates 1/4 / 1/8 / 1/16 (log2 Acl anchors 49.72/100.44/201.88 cited; the E1 packet file needs pinning). The corridor's one remaining mathematical item."
   },
   {
    "id": "norm_threshold_ext",
@@ -720,14 +721,15 @@
   {
    "id": "imgfib",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
-   "falsifier": "a toy word family with super-poly image fibers above the corrected reserve"
+   "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
+   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids."
   },
   {
    "id": "petal_growth",
@@ -860,7 +862,8 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#4"
    ],
-   "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger."
+   "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger.",
+   "notes": "AUDITED TRUE RED (Codex packet, accepted): the case classification's own content is open mathematics."
   },
   {
    "id": "sigma1_cx",
@@ -897,7 +900,7 @@
    ],
    "statement": "(p, e, s, rho) -> full derived row table, O(poly), double regression (pinned row + master table); sole source of dossier constants.",
    "closure": "artifact",
-   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): tool \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
+   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): tool \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item. | BLOCKS safe_assembly_uniformity's referee (Codex packet): the rewording-to-proposition is now the priority artifact-hygiene item."
   },
   {
    "id": "lean_tier1",
@@ -1445,7 +1448,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model.",
+   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass.",
    "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
    "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
    "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
@@ -1966,14 +1969,15 @@
   {
    "id": "knife_edge_census",
    "title": "The genuine residue: census + exact handling of knife-edge rows",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "REFINED: with bounded scales + exact counts, the census is exact Diophantine arithmetic \u2014 windows [L(n,A), K(n,A)) in B*-space per rate/candidate, undecided rows = admissible primes landing inside. Ties exist systematically (B* sweeps all integers as q varies); the residual undecided set shrinks exactly as certification strength L grows toward K. Full grand-challenge closure requires L within O(1) of K at the tie point OR per-prime typicality; exhibited-row partials dodge entirely (census_dodge_selection).",
    "attack_surface": "needs acl_second_order first (the error band's width); then the census is mechanical over the descriptor family",
    "falsifier": "a dense knife-edge family (would mean the expansion's error model is wrong, not that adjacency fails)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/knife_edge_census.md): statement-level assembly over the wired kids."
   },
   {
    "id": "certified_valueset_lower",
@@ -2071,7 +2075,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task)."
+   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired."
   },
   {
    "id": "list_planted_arithmetic",
@@ -2547,7 +2551,7 @@
   {
    "id": "rate_half_coverage_gap",
    "title": "DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "At prize-max rate 1/2 the exact 2-power quotient-core window undershoots the mean crossing: M_max = 2^33 vs sigma* = 8,592,912,738 leaves 2,978,147 radii that are neither proved-unsafe (quotient windows) nor extras-zero (integrality) \u2014 an uncovered band the current mechanisms do not reach. Rates 1/4, 1/8, 1/16 are CLEAN (first open radius margins < -121 at Row C, < -3.4e11 at prize-max). Together with the s* verdict and the thin -12.87 margins, all three wave-1 findings point the same way: RATE 1/2 IS THE BATTLEFIELD; the other three rates look dramatically more closable.",
    "attack_surface": "NEW CANDIDATE CLOSER (from the dihedral discovery): the gap is a scale-granularity artifact \u2014 sigma* - 2^33 = 2,978,146-ish, i.e. the 2-power window lattice's step. The dihedral/Chebyshev quotient family provides unsafe windows at NEW effective scales (twin-coset fibers, d = m*ell degree arithmetic \u2014 the PMA pullback construction is the list-side prototype). TASK: compute the dihedral window arithmetic at prize-max rate 1/2 and check whether any dihedral-or-mixed scale lands in [2^33, sigma*]. Other closers unchanged: extend quotient-core arithmetic past 2-powers; sharpen the crossing bracket.",
@@ -2555,7 +2559,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "E26 HIT (#214, replayed green): 1,489,073 distinct strict pure-dihedral scales land inside the gap (2^33, sigma*] at prize-max rate 1/2 \u2014 including d = 2^33 + 2 with count C(2^40, 2^32+1), log2 >= 4.05e10 (astronomically above B*) \u2014 plus mixed dihedral-multiplicative hits through twin-fiber size 2^21. Note: 1,489,073 ~ half the 2,978,147-radius deficit (parity structure of dihedral scales). CONDITIONAL on E25: the windows are real floors iff dihedral alignment is real (paid or unpaid \u2014 either way they witness unsafety). Pinned/Row-C strict intervals empty \u2014 the gap phenomenon is prize-max-specific, as expected. If E25 confirms, rate 1/2's biggest blocker FALLS. | E25 DISCHARGES E26's condition at toy scope: dihedral alignment is real, so the 1.49M dihedral windows are live unsafe floors \u2014 rate 1/2's biggest blocker is FALLING, pending the scale-up from toy/basis-line to full M5-grade window certificates. | RATE-PORTABILITY NOTE (2026-07-04): the terminal trade machinery is rate-agnostic \u2014 W_h is h-only, A3 works at any fixed (n,h), and the dichotomy closure yields EXACTLY ZERO primitive residue at certified primes, which fits 1/2's 3-13-bit slack as well as the clean rates' 100+ bits. Certifying rho = 1/2 rows = adding their primes to the C2 GCD list (trivial marginal cost once certificates exist). THE TRUE 1/2 ENDGAME is therefore: (i) THIS coverage band; (ii) the -12.87-bit negative-margin decision point (conversion-chain, not counting); (iii) the B-side balance re-arithmetic at 1/2's giant parameters (the 123-bit cushion was computed at clean-rate prize-max; 1/2 may sit closer to or past the first-moment balance). The deferral stands, but the counting half of 1/2 is already absorbed by the campaign framework."
+   "notes": "E26 HIT (#214, replayed green): 1,489,073 distinct strict pure-dihedral scales land inside the gap (2^33, sigma*] at prize-max rate 1/2 \u2014 including d = 2^33 + 2 with count C(2^40, 2^32+1), log2 >= 4.05e10 (astronomically above B*) \u2014 plus mixed dihedral-multiplicative hits through twin-fiber size 2^21. Note: 1,489,073 ~ half the 2,978,147-radius deficit (parity structure of dihedral scales). CONDITIONAL on E25: the windows are real floors iff dihedral alignment is real (paid or unpaid \u2014 either way they witness unsafety). Pinned/Row-C strict intervals empty \u2014 the gap phenomenon is prize-max-specific, as expected. If E25 confirms, rate 1/2's biggest blocker FALLS. | E25 DISCHARGES E26's condition at toy scope: dihedral alignment is real, so the 1.49M dihedral windows are live unsafe floors \u2014 rate 1/2's biggest blocker is FALLING, pending the scale-up from toy/basis-line to full M5-grade window certificates. | RATE-PORTABILITY NOTE (2026-07-04): the terminal trade machinery is rate-agnostic \u2014 W_h is h-only, A3 works at any fixed (n,h), and the dichotomy closure yields EXACTLY ZERO primitive residue at certified primes, which fits 1/2's 3-13-bit slack as well as the clean rates' 100+ bits. Certifying rho = 1/2 rows = adding their primes to the C2 GCD list (trivial marginal cost once certificates exist). THE TRUE 1/2 ENDGAME is therefore: (i) THIS coverage band; (ii) the -12.87-bit negative-margin decision point (conversion-chain, not counting); (iii) the B-side balance re-arithmetic at 1/2's giant parameters (the 123-bit cushion was computed at clean-rate prize-max; 1/2 may sit closer to or past the first-moment balance). The deferral stands, but the counting half of 1/2 is already absorbed by the campaign framework. | FLIPPED PROVED (Codex packet + my referee addition): the statement is the verified DISCOVERY (exact arithmetic, verifier-reproduced). CONSUMER SEMANTICS FIXED: the closing nodes need the band CLOSED, not discovered \u2014 successor node rate_half_band_closure created; this node demoted to ev at both closings."
   },
   {
    "id": "pma_pullback_lists",
@@ -2570,7 +2574,7 @@
   {
    "id": "r2_clean_rates",
    "title": "CAMPAIGN TARGET: R2 with 100+-bit slack at rates 1/4, 1/8, 1/16",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "CURRENT FORM (the compiled target, superseding the X-1 emptiness framing \u2014 see the day's arc in notes): at each clean-rate decision candidate, for every pair (u,v), the post-strip residual slope count satisfies R_post(u,v; A) <= 16 n^3 (dihedral and extension columns INSIDE R_post). Sufficiency for the determination is PROVED exact integer arithmetic (the poly-forcing compiler: 16 n^3 <= s_lo at all six candidates, prize rows tight at 29 n^3). The supply side is the face-4 rung ladder under xr_clean_residual_any_gate. TOOL ASSIGNMENT stands: exclusion-type per-pair dichotomies here; the KLLM/globalness composition reserved for rate 1/2's E[X] >= 1 rows.",
    "attack_surface": "the same conversion chain (strip -> tangent-cap globalness -> KLLM slice variant -> E_3 bridges -> pair ledger) evaluated at the clean-rate margins; the leak adjudication (10 candidates) still gates the hypothesis; hand the slack-composition arithmetic to the strongest available prover with #211's exponents and the wave-1 margins as given data",
@@ -2578,7 +2582,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "C-2 PIPELINE (#213, checker replayed green): corridor crossings located at all three clean rates with the ordering list_lo < quot < tau* < cap verified; per-row certificate skeletons emitted; minimum integrality margin ~8.0e11 bits. THE DETERMINED REGION: pinned-class rows are threshold-DECIDED for field sizes 128..168 bits (rate 1/4), 128..169 (1/8), 128..170 (1/16) by existing machinery; Row-C-class norm frontiers at even N' <= 100/120/112. Beyond ~170 bits the band/exclusion theory (xr_clean_residual_any_gate) gates. PRECISION (corrected 2026-07-03): the determined region covers the DEMONSTRATED ROW CLASSES (pinned-class, Row-C-class) at fields 2^128..~2^168-170; class-universality below 2^168 needs the pipeline sweep (mechanical, not yet run). The grand challenges at the clean rates are NOT resolved: fields 2^170..2^256 are gated by the per-pair exclusion (the band) \u2014 the honest claim is 'one named problem stands between the clean rates and full resolution', not 'basically resolved'. | STATEMENT ARC (one day): slack composition -> emptiness (X-1) -> integer budget (audit) -> compiled poly target (16 n^3). Each form superseded by computing the requirement more precisely. | The zero-residue form of the (A) closure makes the trade column rate-portable (see rate_half_coverage_gap note): when the clean-rate certificates land, running the rho = 1/2 rows through C2 is nearly free and should be done opportunistically \u2014 the 1/2 deferral then rests solely on the coverage band + margin point + B-side re-arithmetic."
+   "notes": "C-2 PIPELINE (#213, checker replayed green): corridor crossings located at all three clean rates with the ordering list_lo < quot < tau* < cap verified; per-row certificate skeletons emitted; minimum integrality margin ~8.0e11 bits. THE DETERMINED REGION: pinned-class rows are threshold-DECIDED for field sizes 128..168 bits (rate 1/4), 128..169 (1/8), 128..170 (1/16) by existing machinery; Row-C-class norm frontiers at even N' <= 100/120/112. Beyond ~170 bits the band/exclusion theory (xr_clean_residual_any_gate) gates. PRECISION (corrected 2026-07-03): the determined region covers the DEMONSTRATED ROW CLASSES (pinned-class, Row-C-class) at fields 2^128..~2^168-170; class-universality below 2^168 needs the pipeline sweep (mechanical, not yet run). The grand challenges at the clean rates are NOT resolved: fields 2^170..2^256 are gated by the per-pair exclusion (the band) \u2014 the honest claim is 'one named problem stands between the clean rates and full resolution', not 'basically resolved'. | STATEMENT ARC (one day): slack composition -> emptiness (X-1) -> integer budget (audit) -> compiled poly target (16 n^3). Each form superseded by computing the requirement more precisely. | The zero-residue form of the (A) closure makes the trade column rate-portable (see rate_half_coverage_gap note): when the clean-rate certificates land, running the rho = 1/2 rows through C2 is nearly free and should be done opportunistically \u2014 the 1/2 deferral then rests solely on the coverage band + margin point + B-side re-arithmetic. | PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/r2_clean_rates.md): statement-level assembly over the wired kids."
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -3490,24 +3494,26 @@
   {
    "id": "corridor_window_cleanup",
    "title": "Corridor eater (ii): per-point window cleanup at the boundary",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "For each rate and each corridor grid point: the per-point boundary windows (the finite residual charts) tighten by exact per-point evaluation; deliverable = the cleaned per-point bounds as a table, with the grid-step fraction each rate recovers. Evidence-gated: a finite per-point computation (the window_m5_charts material, made propositional).",
    "attack_surface": "finite enumeration per corridor point; the chart machinery exists",
    "falsifier": "a corridor point whose cleaned window widens rather than tightens",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
-   ]
+   ],
+   "notes": "COMPUTED (agent, verifier PASS; falsifier passed \u2014 no point widens): recovers 0.633 / 0.099 / 0.370 grid steps at rates 1/4 / 1/8 / 1/16. The eater-partition modeling choice ([tau*,cap] -> (ii)) is stated openly in the note; the boundary numbers are banked."
   },
   {
    "id": "corridor_ext_crossing",
    "title": "Corridor eater (iii): the extension-crossing arithmetic",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "The extension-pole contribution at the crossing points: exact arithmetic of the ext column at a_safe and a_safe - 1 per rate (consuming the proved ext_pole_floor/ext chain), yielding the grid-step fraction the ext side recovers. Provable-shaped: the components are proved; the crossing-point evaluation is arithmetic.",
    "attack_surface": "evaluate the proved ext functions at the six crossing points",
    "falsifier": "an ext crossing value that widens a corridor",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
-   ]
+   ],
+   "notes": "COMPUTED (agent, verifier PASS): N(L) = 0 at all six crossing points on generating rows \u2014 the ext eater is a GUARD (0.000 grid steps), and the non-generating branch WIDENS. CONDITIONAL on the generating-rows reading = axis8_generating."
   },
   {
    "id": "corridor_ledger",
@@ -3519,6 +3525,30 @@
    "falsifier": "any rate where the eater intervals cannot reach W - 1",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
+   ],
+   "notes": "THE REQUIRED-MAGNITUDE TABLE (agent, exact, identity (i)+(ii)+(iii) = W-1 verified): X_acl(1/4) >= 0.367, X_acl(1/8) >= 0.023, X_acl(1/16) >= 0.304 grid steps. RATE 1/8 IS ~0.02 STEPS FROM ADJACENCY. The ledger is now pure arithmetic conditional on acl_second_order delivering these magnitudes."
+  },
+  {
+   "id": "rate_half_band_closure",
+   "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Cover the 2,978,147-radius band at prize-max rate 1/2 (M_max = 2^33 vs sigma* = 8,592,912,738) by a new mechanism (quotient windows and integrality both fall short) \u2014 or the rate-1/2 determination lands bracket-grade there. Rates 1/4, 1/8, 1/16 need nothing (clean by margins < -121). THE rate-1/2 battlefield node.",
+   "attack_surface": "a third mechanism for the band: extended quotient scales, averaged conversion at giant M, or the B2b-style balance analysis",
+   "falsifier": "a band radius provably uncoverable by any priced mechanism",
+   "refs": [
+    "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
+   ]
+  },
+  {
+   "id": "worst_word_challenger_pricing",
+   "title": "Challenger-class pricing (the E15 successor hypothesis of worst_word_planted)",
+   "status": "TARGET",
+   "statement": "Price or exhaust the structured low-slack NON-planted challenger class (the E15 counterexample's family) so the revised worst_word_planted statement's sup-over-words claim is carried by planted + challenger classes jointly.",
+   "attack_surface": "the E15 construction's parameters; classify then price",
+   "falsifier": "a third challenger class outside both",
+   "refs": [
+    "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ]
   }
  ],
@@ -5686,12 +5716,12 @@
   {
    "from": "rate_half_coverage_gap",
    "to": "list_adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "rate_half_coverage_gap",
    "to": "adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "pma_pullback_lists",
@@ -6261,6 +6291,31 @@
   {
    "from": "r2_clean_rates",
    "to": "aperiodic_zero_at_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "list_adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "unsafe_at_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "worst_word_challenger_pricing",
+   "to": "worst_word_planted",
+   "kind": "req"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "corridor_ext_crossing",
    "kind": "req"
   }
  ]

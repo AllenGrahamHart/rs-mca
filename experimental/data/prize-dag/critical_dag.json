@@ -38,6 +38,16 @@
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
   },
   {
+   "id": "averaged_slope_conversion",
+   "label": "CONDITIONAL",
+   "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
+  },
+  {
+   "id": "averaged_xr",
+   "label": "PROVABLE",
+   "title": "Averaged XR via Johnson-scheme second moments"
+  },
+  {
    "id": "axes_verified",
    "label": "PROVED",
    "title": "Axes 3/5/7 verified + q-dictionary (axis 6)"
@@ -149,7 +159,7 @@
   },
   {
    "id": "corridor_ext_crossing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Corridor eater (iii): the extension-crossing arithmetic"
   },
   {
@@ -159,7 +169,7 @@
   },
   {
    "id": "corridor_window_cleanup",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Corridor eater (ii): per-point window cleanup at the boundary"
   },
   {
@@ -374,7 +384,7 @@
   },
   {
    "id": "imgfib",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)"
   },
   {
@@ -394,7 +404,7 @@
   },
   {
    "id": "knife_edge_census",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The genuine residue: census + exact handling of knife-edge rows"
   },
   {
@@ -559,13 +569,13 @@
   },
   {
    "id": "r2_clean_rates",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "CAMPAIGN TARGET: R2 with 100+-bit slack at rates 1/4, 1/8, 1/16"
   },
   {
-   "id": "rate_half_coverage_gap",
+   "id": "rate_half_band_closure",
    "label": "UNPROVED",
-   "title": "DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max"
+   "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
   },
   {
    "id": "rules_freeze",
@@ -646,6 +656,11 @@
    "id": "wild_row_audit",
    "label": "UNPROVED",
    "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
+  },
+  {
+   "id": "worst_word_challenger_pricing",
+   "label": "UNPROVED",
+   "title": "Challenger-class pricing (the E15 successor hypothesis of worst_word_planted)"
   },
   {
    "id": "worst_word_planted",
@@ -1042,6 +1057,10 @@
    "to": "mca_unsafe"
   },
   {
+   "from": "fm1",
+   "to": "averaged_slope_conversion"
+  },
+  {
    "from": "dyadic_profile_evaluation",
    "to": "imgfib"
   },
@@ -1072,6 +1091,10 @@
   {
    "from": "char0_collision_classification",
    "to": "collision_norm_criterion"
+  },
+  {
+   "from": "averaged_xr",
+   "to": "averaged_slope_conversion"
   },
   {
    "from": "payment_completeness",
@@ -1298,14 +1321,6 @@
    "to": "certifier_uniformity"
   },
   {
-   "from": "rate_half_coverage_gap",
-   "to": "list_adjacency_closing"
-  },
-  {
-   "from": "rate_half_coverage_gap",
-   "to": "adjacency_closing"
-  },
-  {
    "from": "xr_globalness_from_ledger",
    "to": "r2_clean_rates"
   },
@@ -1524,6 +1539,26 @@
   {
    "from": "r2_clean_rates",
    "to": "aperiodic_zero_at_crossing"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "unsafe_at_crossing"
+  },
+  {
+   "from": "worst_word_challenger_pricing",
+   "to": "worst_word_planted"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "corridor_ext_crossing"
   }
  ]
 }
