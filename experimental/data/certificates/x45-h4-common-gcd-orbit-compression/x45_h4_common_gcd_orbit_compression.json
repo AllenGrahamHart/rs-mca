@@ -1,0 +1,178 @@
+{
+  "checks": 13,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x33_h4_common_gcd_gate": "PROVED",
+    "x35_h4_power_sum_gate": "PROVED"
+  },
+  "invariance_examples": [
+    {
+      "P": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "Q": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "base_degree": 8,
+      "canonical_P": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "canonical_Q": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "canonical_degree": 8,
+      "checked_transforms": 48,
+      "n": 16,
+      "p": 257
+    },
+    {
+      "P": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "Q": [
+        3,
+        4,
+        7,
+        12
+      ],
+      "base_degree": 0,
+      "canonical_P": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "canonical_Q": [
+        3,
+        4,
+        7,
+        12
+      ],
+      "canonical_degree": 0,
+      "checked_transforms": 48,
+      "n": 16,
+      "p": 257
+    },
+    {
+      "P": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "Q": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "base_degree": 16,
+      "canonical_P": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "canonical_Q": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "canonical_degree": 16,
+      "checked_transforms": 48,
+      "n": 32,
+      "p": 4993
+    },
+    {
+      "P": [
+        0,
+        1,
+        2,
+        17
+      ],
+      "Q": [
+        3,
+        8,
+        19,
+        21
+      ],
+      "base_degree": 0,
+      "canonical_P": [
+        0,
+        1,
+        2,
+        17
+      ],
+      "canonical_Q": [
+        3,
+        5,
+        8,
+        19
+      ],
+      "canonical_degree": 0,
+      "checked_transforms": 48,
+      "n": 32,
+      "p": 4993
+    }
+  ],
+  "n16_full_orbit_report": {
+    "anchored_ordered_pairs": 225225,
+    "canonical_orbits": 3723,
+    "compression_factor": 60.4955680902498,
+    "degree_histogram_by_orbit": {
+      "0": 3721,
+      "8": 2
+    },
+    "n": 16,
+    "orbit_size_histogram": {
+      "1": 1,
+      "16": 44,
+      "2": 2,
+      "32": 318,
+      "4": 3,
+      "64": 3348,
+      "8": 7
+    },
+    "p": 257,
+    "positive_non_descended_examples": []
+  },
+  "node": "active_core_count_bound",
+  "status": "PROVED ORBIT COMPRESSION FOR THE H4 COMMON-GCD CERTIFIER",
+  "symbolic_identities": {
+    "P": [
+      0,
+      1,
+      2,
+      17
+    ],
+    "Q": [
+      3,
+      8,
+      19,
+      21
+    ],
+    "n": 32,
+    "shift": 5,
+    "translation_identity": true,
+    "unit": 7,
+    "unit_identity": true
+  },
+  "task": "X45 h=4 common-gcd orbit compression",
+  "theorem": "For n=2^s and p == 1 mod n, the degree of gcd(Phi_n,E1,E2,E3) for an h=4 signed exponent pattern is invariant under common translation, odd-unit dilation, and side swap.  Translation multiplies E_r by X^(rd), which is coprime to Phi_n; unit dilation composes E_r with X^u and permutes primitive n-th roots; swapping sides multiplies E_r by -1.  Thus a row certifier may check one canonical affine-orbit representative."
+}

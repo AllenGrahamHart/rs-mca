@@ -3464,6 +3464,16 @@
     "experimental/notes/roadmaps/x44_h4_centered_max_shell_bound.md"
    ],
    "notes": "Proved max-shell accounting criterion. This turns the centered branch into a row-local certificate based on one shell-size statistic."
+  },
+  {
+   "id": "x45_h4_common_gcd_orbit_compression",
+   "title": "X45: h=4 common-gcd gate is affine-orbit invariant",
+   "status": "PROVED",
+   "statement": "For n=2^s and p == 1 mod n, the X33 h=4 common-gcd degree deg gcd(Phi_n,E1,E2,E3) is invariant under common exponent translation, odd-unit exponent dilation, and side swap. Translation multiplies E_r by X^(rd), unit dilation composes E_r with X^u and permutes primitive roots, and side swap multiplies by -1. Thus h=4 top-level certifiers may check one canonical affine exponent-orbit representative.",
+   "refs": [
+    "experimental/notes/roadmaps/x45_h4_common_gcd_orbit_compression.md"
+   ],
+   "notes": "Proved certifier compression for the h=4 top-level signed moment/common-gcd branch. The verifier checks symbolic identities, invariance examples in n=16 and n=32 rows, and a full n=16 anchored-pair orbit compression where 225225 pairs reduce to 3723 canonical orbits with degree constant on every orbit."
   }
  ],
  "edges": [
@@ -6144,6 +6154,11 @@
   },
   {
    "from": "x44_h4_centered_max_shell_bound",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x45_h4_common_gcd_orbit_compression",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
