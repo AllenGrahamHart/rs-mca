@@ -1,0 +1,37 @@
+{
+ "artifact": "abf26.pdf (ePrint 2026/680, Arnon-Boneh-Fenzi, 'Open Problems in List Decoding and Correlated Agreement', July 2, 2026)",
+ "sha256": "426a979c13cc61db0f2cdb909067ef4c9f24438859fe0a7a337d2b19b07fcaa5",
+ "verified": "2026-07-04, direct read of the in-repo PDF",
+ "components": [
+  {
+   "claim": "smooth = multiplicative subgroup of F whose size is a power of two",
+   "quote": "The challenge refers to a smooth evaluation domain L, which is a multiplicative subgroup of F whose size is a power of two (Definition 2.12).",
+   "where": "p.5 (also p.4: 'focus almost exclusively on ... L is a multiplicative subgroup of F whose size is a power of two')",
+   "nuance": "subgroup form; the campaign's coset-form analysis is the conservative superset"
+  },
+  {
+   "claim": "rates EXACT, one of {1/2, 1/4, 1/8, 1/16}",
+   "quote": "The code has constant rate, and in particular the rate rho(C) := k/|L| is one of {1/2, 1/4, 1/8, 1/16}.",
+   "where": "p.5, the grand MCA challenge box"
+  },
+  {
+   "claim": "k <= 2^40 and |F| < 2^256",
+   "quote": "we are mostly interested in determining delta*_C when L <= F is a smooth domain, k <= 2^40, and |F| < 2^256.",
+   "where": "p.5, immediately below the grand MCA challenge box",
+   "nuance": "'mostly interested' scopes the intended target range = our admissibility reading"
+  },
+  {
+   "claim": "constant-m / family-per-constant-m quantifier",
+   "quote": "For a given eps*, say eps* = 2^-128, and a constant m, determine the largest delta*_C ... Resolving the challenge for a code C, an m, and an eps*, requires specifying a delta*_C along with a proof ...",
+   "where": "p.5, the grand list decoding challenge box + following paragraph",
+   "note": "per-(C, m, eps*) determination = rules_m_reading's family-per-constant-m, as banked PROVED"
+  },
+  {
+   "claim": "gate eps* = 2^-128; list gate eps*|F|; existence proviso '|F| sufficiently large so delta* exists'",
+   "quote": "For a given eps*, say eps* = 2^-128 ... |Lambda(C^{==m}, delta*_C)| <= eps* |F| ... assuming |F| is sufficiently large so that such a delta*_C exists.",
+   "where": "p.5, both challenge boxes"
+  }
+ ],
+ "bonus_finding": "Theorem 4.7 [Jo26], p.18: eps_mca(C^{==t}, delta) = eps_mca(C, delta) \u2014 interleaved MCA equals base MCA exactly (resolves a prior open question in the document); relevant to the MCA-side m-independence (the LIST-side m remains per the challenge box).",
+ "drift_detector": "re-verify quotes against the pinned sha256; the prize PAGE remains self-described preliminary \u2014 page drift monitoring continues separately"
+}

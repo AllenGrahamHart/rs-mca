@@ -524,7 +524,7 @@
   },
   {
    "id": "rules_freeze",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Rules freeze + SHA drift detector"
   },
   {
