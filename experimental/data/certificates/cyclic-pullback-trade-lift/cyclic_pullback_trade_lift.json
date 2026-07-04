@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "full_signature_groups": 1,
+      "g": 4,
+      "h": 4,
+      "max_group_size": 4,
+      "n": 16,
+      "p": 257,
+      "quotient_n": 4,
+      "quotient_signature_groups": 1,
+      "s": 1,
+      "subsets_checked": 4,
+      "zero_gap_coefficients_seen": 12
+    },
+    {
+      "full_signature_groups": 1,
+      "g": 8,
+      "h": 8,
+      "max_group_size": 4,
+      "n": 32,
+      "p": 1153,
+      "quotient_n": 4,
+      "quotient_signature_groups": 1,
+      "s": 1,
+      "subsets_checked": 4,
+      "zero_gap_coefficients_seen": 28
+    },
+    {
+      "full_signature_groups": 25,
+      "g": 4,
+      "h": 8,
+      "max_group_size": 4,
+      "n": 32,
+      "p": 1153,
+      "quotient_n": 8,
+      "quotient_signature_groups": 25,
+      "s": 2,
+      "subsets_checked": 28,
+      "zero_gap_coefficients_seen": 168
+    },
+    {
+      "full_signature_groups": 113,
+      "g": 4,
+      "h": 8,
+      "max_group_size": 8,
+      "n": 64,
+      "p": 4289,
+      "quotient_n": 16,
+      "quotient_signature_groups": 113,
+      "s": 2,
+      "subsets_checked": 120,
+      "zero_gap_coefficients_seen": 720
+    },
+    {
+      "full_signature_groups": 4960,
+      "g": 2,
+      "h": 6,
+      "max_group_size": 1,
+      "n": 64,
+      "p": 4289,
+      "quotient_n": 32,
+      "quotient_signature_groups": 4960,
+      "s": 3,
+      "subsets_checked": 4960,
+      "zero_gap_coefficients_seen": 14880
+    },
+    {
+      "full_signature_groups": 1793,
+      "g": 2,
+      "h": 4,
+      "max_group_size": 32,
+      "n": 128,
+      "p": 17921,
+      "quotient_n": 64,
+      "quotient_signature_groups": 1793,
+      "s": 2,
+      "subsets_checked": 2016,
+      "zero_gap_coefficients_seen": 4032
+    }
+  ],
+  "checks": 7146,
+  "node": "cyclic_pullback_trade_lift",
+  "statement": "For H=mu_n and g|n, any support that is a union of g-point cyclic fibers has locator L_C(X^g), where C is the quotient support in mu_{n/g}. Therefore same-top split-pair collisions lift and descend exactly through the cyclic quotient and are cyclic-pullback paid.",
+  "status": "PROVED algebraic lemma; verifier sanity-checks representative rows",
+  "task": "cyclic pullback trade-lift lemma"
+}

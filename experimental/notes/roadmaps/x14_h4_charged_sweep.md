@@ -71,6 +71,12 @@ cyclic:m=6  -> 12 pairs
 At higher q in the same n=128 row, only the persistent `cyclic:m=4` family
 remains.
 
+The `cyclic:m=4` family is the full-fiber case of
+`cyclic_fiber_collision_lemma.md`.  The `cyclic:m=6` boundary family is
+explained by `cyclic_pullback_trade_lift.md`: here `gcd(128,6)=2`, so h=4
+supports are unions of two 2-point cyclic fibers, and same-top-three equality
+upstairs is the lift of same-top-one equality on the quotient `mu_64`.
+
 ## Interpretation
 
 This is not a proof that h=4 is uniformly empty after the strip, and it does

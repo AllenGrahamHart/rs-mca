@@ -96,6 +96,10 @@ Raw top-`(h-1)` signature injectivity is not a viable global terminal theorem:
 it fails whenever `h` is a proper divisor of `n`.  The failure is harmless only
 because it is already in the paid cyclic pullback class.
 
+This is the `s=1` special case of `cyclic_pullback_trade_lift.md`, where a
+support is a union of `s` cyclic fibers and the full locator is the quotient
+locator evaluated at `X^g`.
+
 The terminal target should therefore remain in post-strip form:
 
 ```text
