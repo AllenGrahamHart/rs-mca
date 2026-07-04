@@ -30,6 +30,20 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - F4 characteristic-p switch-net hunt
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/f4_switch_net_hunt.md`,
+  `experimental/scripts/verify_f4_switch_net_hunt.py`,
+  `experimental/data/certificates/f4-switch-net-hunt/`.
+- **Status:** EVIDENCE / NEGATIVE-CLEAN.
+- **What is being added:** An exact toy-row falsification attempt for the
+  characteristic-`p` switch-net residual template in `u1_pullback_dichotomy`.
+- **How it is useful:** Records that the registered small-characteristic
+  attack finds no v1-uncharged dangerous `C(R,p) > n^2` switch-net family.
+- **What to do next:** Treat this as evidence only; it does not prove U1
+  outside the checked rows.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.

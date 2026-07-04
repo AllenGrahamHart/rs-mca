@@ -1,0 +1,720 @@
+{
+  "dangerous_family_count": 0,
+  "dictionary": "w3_chargeable_dictionary_grammar.md v1",
+  "node": "u1_pullback_dichotomy",
+  "rows": [
+    {
+      "e": 3,
+      "field": "GF(8)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 2,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 2
+          },
+          "max_disjoint_family_defect": [
+            3,
+            5,
+            4
+          ],
+          "nonzero_defect_classes": 21,
+          "p_switch_classes": 0,
+          "packing_capacity": 3,
+          "total_defect_classes": 21,
+          "total_ordered_gadgets": 42,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 2,
+          "max_candidates_in_one_defect_class": 6,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0,
+                  1
+                ],
+                "Q": [
+                  2,
+                  3
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 2
+          },
+          "max_disjoint_family_defect": [
+            2,
+            4,
+            6
+          ],
+          "nonzero_defect_classes": 35,
+          "p_switch_classes": 0,
+          "packing_capacity": 1,
+          "total_defect_classes": 35,
+          "total_ordered_gadgets": 210,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0,
+        1
+      ],
+      "n": 7,
+      "p": 2,
+      "q": 8,
+      "row": "F8_mu7_small_p",
+      "scope": "tame",
+      "t": 3
+    },
+    {
+      "e": 2,
+      "field": "GF(9)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 1,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 3
+          },
+          "max_disjoint_family_defect": [
+            6,
+            4,
+            3
+          ],
+          "nonzero_defect_classes": 56,
+          "p_switch_classes": 0,
+          "packing_capacity": 4,
+          "total_defect_classes": 56,
+          "total_ordered_gadgets": 56,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 2,
+          "max_candidates_in_one_defect_class": 10,
+          "max_disjoint_family": {
+            "R": 2,
+            "gadgets": [
+              {
+                "P": [
+                  4,
+                  6
+                ],
+                "Q": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "P": [
+                  3,
+                  7
+                ],
+                "Q": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orbit_count": 2,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 3
+          },
+          "max_disjoint_family_defect": [
+            5,
+            6,
+            8
+          ],
+          "nonzero_defect_classes": 80,
+          "p_switch_classes": 0,
+          "packing_capacity": 2,
+          "total_defect_classes": 80,
+          "total_ordered_gadgets": 420,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 3,
+          "max_candidates_in_one_defect_class": 12,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0,
+                  1,
+                  2
+                ],
+                "Q": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 3
+          },
+          "max_disjoint_family_defect": [
+            6,
+            8,
+            3
+          ],
+          "nonzero_defect_classes": 76,
+          "p_switch_classes": 0,
+          "packing_capacity": 1,
+          "total_defect_classes": 77,
+          "total_ordered_gadgets": 560,
+          "zero_defect_ordered_gadgets": 8
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0
+      ],
+      "n": 8,
+      "p": 3,
+      "q": 9,
+      "row": "F9_mu8_prime_power",
+      "scope": "tame",
+      "t": 3
+    },
+    {
+      "e": 4,
+      "field": "GF(16)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 2,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 3
+          },
+          "max_disjoint_family_defect": [
+            3,
+            5,
+            9
+          ],
+          "nonzero_defect_classes": 105,
+          "p_switch_classes": 0,
+          "packing_capacity": 7,
+          "total_defect_classes": 105,
+          "total_ordered_gadgets": 210,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 2,
+          "max_candidates_in_one_defect_class": 54,
+          "max_disjoint_family": {
+            "R": 3,
+            "gadgets": [
+              {
+                "P": [
+                  0,
+                  1
+                ],
+                "Q": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "P": [
+                  3,
+                  5
+                ],
+                "Q": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "P": [
+                  4,
+                  6
+                ],
+                "Q": [
+                  10,
+                  14
+                ]
+              }
+            ],
+            "orbit_count": 3,
+            "switches_C_R_p": 3,
+            "switches_log2": 1.584963,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 3
+          },
+          "max_disjoint_family_defect": [
+            0,
+            0,
+            9
+          ],
+          "nonzero_defect_classes": 255,
+          "p_switch_classes": 255,
+          "packing_capacity": 3,
+          "total_defect_classes": 255,
+          "total_ordered_gadgets": 8190,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "n": 15,
+      "p": 2,
+      "q": 16,
+      "row": "F16_mu15_char2",
+      "scope": "tame",
+      "t": 3
+    },
+    {
+      "e": 2,
+      "field": "GF(25)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": 12,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 1,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 4
+          },
+          "max_disjoint_family_defect": [
+            24,
+            13,
+            23
+          ],
+          "nonzero_defect_classes": 552,
+          "p_switch_classes": 0,
+          "packing_capacity": 12,
+          "total_defect_classes": 552,
+          "total_ordered_gadgets": 552,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 2,
+          "max_candidates_in_one_defect_class": 7,
+          "max_disjoint_family": {
+            "R": 4,
+            "gadgets": [
+              {
+                "P": [
+                  9,
+                  12
+                ],
+                "Q": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "P": [
+                  15,
+                  18
+                ],
+                "Q": [
+                  4,
+                  16
+                ]
+              },
+              {
+                "P": [
+                  2,
+                  3
+                ],
+                "Q": [
+                  7,
+                  21
+                ]
+              },
+              {
+                "P": [
+                  14,
+                  22
+                ],
+                "Q": [
+                  8,
+                  19
+                ]
+              }
+            ],
+            "orbit_count": 4,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 4
+          },
+          "max_disjoint_family_defect": [
+            24,
+            14,
+            14
+          ],
+          "nonzero_defect_classes": 15000,
+          "p_switch_classes": 0,
+          "packing_capacity": 6,
+          "total_defect_classes": 15000,
+          "total_ordered_gadgets": 63756,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        1
+      ],
+      "n": 24,
+      "p": 5,
+      "q": 25,
+      "row": "F25_mu24_char5",
+      "scope": "tame",
+      "t": 3
+    },
+    {
+      "e": 3,
+      "field": "GF(27)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 1,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 4
+          },
+          "max_disjoint_family_defect": [
+            7,
+            19,
+            20
+          ],
+          "nonzero_defect_classes": 650,
+          "p_switch_classes": 0,
+          "packing_capacity": 13,
+          "total_defect_classes": 650,
+          "total_ordered_gadgets": 650,
+          "zero_defect_ordered_gadgets": 0
+        },
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": null,
+          "first_danger_family": null,
+          "h": 2,
+          "max_candidates_in_one_defect_class": 138,
+          "max_disjoint_family": {
+            "R": 6,
+            "gadgets": [
+              {
+                "P": [
+                  0,
+                  1
+                ],
+                "Q": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "P": [
+                  5,
+                  7
+                ],
+                "Q": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "P": [
+                  11,
+                  12
+                ],
+                "Q": [
+                  8,
+                  17
+                ]
+              },
+              {
+                "P": [
+                  4,
+                  16
+                ],
+                "Q": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "P": [
+                  21,
+                  24
+                ],
+                "Q": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "P": [
+                  9,
+                  25
+                ],
+                "Q": [
+                  22,
+                  23
+                ]
+              }
+            ],
+            "orbit_count": 6,
+            "switches_C_R_p": 20,
+            "switches_log2": 4.321928,
+            "v1_chargeable_by_orbit_cap": false,
+            "v1_orbit_cap": 4
+          },
+          "max_disjoint_family_defect": [
+            14,
+            17,
+            7
+          ],
+          "nonzero_defect_classes": 728,
+          "p_switch_classes": 728,
+          "packing_capacity": 6,
+          "total_defect_classes": 728,
+          "total_ordered_gadgets": 89700,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0,
+        2
+      ],
+      "n": 26,
+      "p": 3,
+      "q": 27,
+      "row": "F27_mu26_char3",
+      "scope": "tame",
+      "t": 3
+    },
+    {
+      "e": 2,
+      "field": "GF(49)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": 14,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 1,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 5
+          },
+          "max_disjoint_family_defect": [
+            48,
+            26,
+            27
+          ],
+          "nonzero_defect_classes": 2256,
+          "p_switch_classes": 0,
+          "packing_capacity": 24,
+          "total_defect_classes": 2256,
+          "total_ordered_gadgets": 2256,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0
+      ],
+      "n": 48,
+      "p": 7,
+      "q": 49,
+      "row": "F49_mu48_dickson_control",
+      "scope": "wild-control",
+      "t": 3
+    },
+    {
+      "e": 4,
+      "field": "GF(81)",
+      "gadget_sizes": [
+        {
+          "danger_classes": 0,
+          "danger_threshold_R": 35,
+          "first_danger_family": null,
+          "h": 1,
+          "max_candidates_in_one_defect_class": 1,
+          "max_disjoint_family": {
+            "R": 1,
+            "gadgets": [
+              {
+                "P": [
+                  0
+                ],
+                "Q": [
+                  1
+                ]
+              }
+            ],
+            "orbit_count": 1,
+            "switches_C_R_p": 0,
+            "switches_log2": null,
+            "v1_chargeable_by_orbit_cap": true,
+            "v1_orbit_cap": 6
+          },
+          "max_disjoint_family_defect": [
+            18,
+            46,
+            69
+          ],
+          "nonzero_defect_classes": 6320,
+          "p_switch_classes": 0,
+          "packing_capacity": 40,
+          "total_defect_classes": 6320,
+          "total_ordered_gadgets": 6320,
+          "zero_defect_ordered_gadgets": 0
+        }
+      ],
+      "modulus_low_coeffs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "n": 80,
+      "p": 3,
+      "q": 81,
+      "row": "F81_mu80_char3",
+      "scope": "tame",
+      "t": 3
+    }
+  ],
+  "task": "F4 characteristic-p switch-net hunt",
+  "uncharged_dangerous_family_count": 0,
+  "verdict": "NEGATIVE-CLEAN: no v1-uncharged C(R,p)>n^2 switch-net found"
+}
