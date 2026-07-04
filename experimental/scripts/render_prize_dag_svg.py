@@ -363,18 +363,18 @@ def radial():
         pth = polar_path(X[u], Y[u], X[v], Y[v])
         c = ecls(u)
         dat = f'data-u="{u}" data-v="{v}"'
+        # ARC RULE: an arc carries the color of its SOURCE node - the
+        # proof-state of the hypothesis flowing along it. (Frontier vs
+        # deep red lives on the node halo, not the arc.)
         if c == "green":
             parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
                          f'stroke-opacity="0.8" filter="url(#glow-green)"/>')
-        elif c == "red":
-            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f87171" stroke-width="2" '
-                         f'stroke-opacity="0.95" filter="url(#glow-red)"/>')
+        elif c in ("red", "inh"):
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f87171" stroke-width="1.7" '
+                         f'stroke-opacity="0.9" filter="url(#glow-red)"/>')
         elif c == "amber":
-            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
-                         f'stroke-opacity="0.75"/>')
-        elif c == "inh":
-            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#ef4444" stroke-width="1.5" '
-                         f'stroke-opacity="0.8"/>')
+            parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.4" '
+                         f'stroke-opacity="0.85"/>')
         else:
             parts.append(f'<path {dat} d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
     for v in ring:
