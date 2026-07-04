@@ -128,6 +128,11 @@
    "title": "B-rational pencils give B-slopes (linearity)"
   },
   {
+   "id": "bounded_coeff_norm_gate",
+   "label": "PROVED",
+   "title": "bounded coeff norm gate"
+  },
+  {
    "id": "c1_scalable_certificate",
    "label": "CONDITIONAL",
    "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024"
@@ -726,6 +731,11 @@
    "id": "single_obstruction_valueset",
    "label": "UNPROVED",
    "title": "single obstruction valueset"
+  },
+  {
+   "id": "skew_support_threshold",
+   "label": "PROVED",
+   "title": "skew support threshold"
   },
   {
    "id": "staircase",
@@ -1895,6 +1905,14 @@
   {
    "from": "subcore_richline_classification",
    "to": "p1_post_paid_subcore_richline_cap"
+  },
+  {
+   "from": "bounded_coeff_norm_gate",
+   "to": "b2b_primitive_core"
+  },
+  {
+   "from": "skew_support_threshold",
+   "to": "b2b_primitive_core"
   }
  ]
 }

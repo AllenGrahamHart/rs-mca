@@ -3749,12 +3749,12 @@
    "title": "b2b primitive core",
    "status": "TARGET",
    "statement": "THE REMAINING CORE of B2b: #{t-null primitive B : t+16 <= |B| <= n/2} <= 2^122 (after complement duality, the M > t dictionary, the M_0-boundary class, and the proved near-tails). The descent packet reduces this to counting bounded-multiplicity multiset-null objects WITH the odd skew equations retained; interpolation is dead at k = 16 (reaches 2^128). One structural input needed \u2014 candidate shapes: the skew-equation rigidity at successive scales, or a divisor-pair argument exploiting BOTH constrained halves of L_A L_{A^c} = X^n - 1.",
-   "attack_surface": "THE SKEW-TOWER FRAMEWORK (opened, level-1 exact, three-field verified \u2014 see notes/skew_tower_attack.md): the count factorizes exactly over descent levels; each level's branching IS the signed-sparse-relation count (the (A)-side norm-gate object) \u2014 the campaign's two halves meet inside this node. Remaining: bounded-coefficient generalization, central-range weight accounting, profile-constancy proof.",
+   "attack_surface": "THE REFORMULATED CORE (Pro packet, verified 12/12): profile-constancy is dead (falsification #15 \u2014 F_17 witness) but replaced by stronger structure: Vandermonde support thresholds (2^{32-j}+1 per level) + the bounded-coefficient norm gate (no escape) + the EXACT character-sum cascade with sum L_j = t. The remaining core is sharp: prove the rho_j deviation product is q^{o(t)} on the central tower measure \u2014 i.e., bound large-support bounded-coefficient vectors whose folded resultants simultaneously carry the fixed prime. Two-level gate bound already unconditional.",
    "falsifier": "a t-null primitive census at a scaled row showing core counts near the budget",
    "refs": [
     "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
    ],
-   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework."
+   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework. | PRO SKEW PACKET INTEGRATED (12/12 replayed): one falsification (#15, profile-constancy \u2014 honest witness banked), two new theorems (the bounded-coefficient norm gate \u2014 ask 2 CLOSED; the support thresholds), the exact cascade identity, and the unconditional two-level bound. The node's problem is now exact and norm-gate-shaped end to end."
   },
   {
    "id": "l1_coset_chart_residue_bridge",
@@ -3787,6 +3787,24 @@
    "falsifier": "a fifth rich-line class at any toy row (extend the E33 scan)",
    "refs": [
     "nodes/p1_post_paid_subcore_richline_cap/proof.md"
+   ]
+  },
+  {
+   "id": "bounded_coeff_norm_gate",
+   "title": "bounded coeff norm gate",
+   "status": "PROVED",
+   "statement": "For bounded integer coefficients |c_a| <= C and omega of 2-power order M in F_p: P_c(omega) = 0 forces the cyclotomic/coset case (c_a = c_{a+M/2}, counted exactly) OR p | Res(X^{M/2}+1, Q_c) \u2014 the explicit cleared norm. Tower sections contain no opposite pairs, so every nonzero tower skew is norm-gated at every imposed odd exponent simultaneously. No bounded-coefficient escape. (Pro; replayed, F_97 example Res = 97^2 exact.)",
+   "refs": [
+    "nodes/b2b_primitive_core/notes/pro_skew_tower_packet.md"
+   ]
+  },
+  {
+   "id": "skew_support_threshold",
+   "title": "skew support threshold",
+   "status": "PROVED",
+   "statement": "Vandermonde rigidity: a nonzero level-j skew under L_j odd constraints needs active support >= L_j + 1; at prize t = 2^33 the thresholds are 2^{32-j} + 1 per level. In the small-support regime the branch factor is profile-only ({0,1} by parity). (Pro; replayed.)",
+   "refs": [
+    "nodes/b2b_primitive_core/notes/pro_skew_tower_packet.md"
    ]
   }
  ],
@@ -6659,6 +6677,16 @@
   {
    "from": "subcore_richline_classification",
    "to": "p1_post_paid_subcore_richline_cap",
+   "kind": "req"
+  },
+  {
+   "from": "bounded_coeff_norm_gate",
+   "to": "b2b_primitive_core",
+   "kind": "req"
+  },
+  {
+   "from": "skew_support_threshold",
+   "to": "b2b_primitive_core",
    "kind": "req"
   }
  ]
