@@ -1934,7 +1934,7 @@
   {
    "id": "adjacency_closing",
    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For each admissible row: the proved safe agreement a and proved unsafe agreement a-1 are ADJACENT \u2014 the bracket between the two sides collapses to one grid step. Current per-rate corridor widths are 1.12-2.17 grid steps: even with every mapped conjecture closed, the slack must be eaten by (i) the Acl second-order term (makes the quotient end a number), (ii) per-point window cleanup at the boundary, and (iii) the extension-crossing arithmetic \u2014 or the determination lands with a gap and only bracket-grade partials.",
    "attack_surface": "rate-by-rate: compute which corridors provably collapse under acl_second_order alone (width 1.12 = rho 1/8 is closest); the 506/507 pinned row is the existence proof that adjacency IS achievable where tangent exactness rules",
@@ -1942,7 +1942,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | STATUS AFTER THE EVALUATION: honest bracket-grade at all clean rates under the three-eater partition; rate 1/8 needs 0.007 steps from outside the partition. The node's 'or the determination lands with a gap and only bracket-grade partials' clause is now the live branch unless a fourth mechanism is found."
+   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | STATUS AFTER THE EVALUATION: honest bracket-grade at all clean rates under the three-eater partition; rate 1/8 needs 0.007 steps from outside the partition. The node's 'or the determination lands with a gap and only bracket-grade partials' clause is now the live branch unless a fourth mechanism is found. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
    "id": "crossing_localization",
@@ -2013,13 +2013,13 @@
   {
    "id": "census_bounded_scales",
    "title": "The deciding scale is PINNED in an absolute window (n-uniformity of the census)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "key": true,
    "statement": "At agreement A the quotient stratum on scale N' has forced class ratio l'/N' = j/n, so counts grow strictly as 2^{N' H(j/n)} with H(j/n) bounded below on the corridor (j/n ~ 0.4-0.5 => H >= 0.97). Hence exactly ONE scale's count lands within the staircase-step factor of B*, and it lies in an ABSOLUTE window N' in [~120, ~400] \u2014 independent of n and k up to 2^40. The census is n-uniform because every crossing only sees bounded scales.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the lemma that makes a symbolic census possible at all; also gives UNIQUENESS of the deciding scale (monotone counts, q-factor gaps)"
+   "notes": "the lemma that makes a symbolic census possible at all; also gives UNIQUENESS of the deciding scale (monotone counts, q-factor gaps) | FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (unique deciding scale in N [120,400], n-uniform)."
   },
   {
    "id": "census_exact_counts",
@@ -2522,11 +2522,12 @@
   {
    "id": "weight_graded_mitm",
    "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "SIMPLIFIED (post-impossibility): direct meet-in-the-middle MOD P needs NO multiplier \u2014 enumerate signed sparse sums of zeta-powers directly, check none vanish beyond the cyclotomic relations; cost ~C(N', w/2) 2^{w/2}, feasible to w ~ 24-30 at N' = 128. Extends the certified radius per row with a printed certificate.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (HONESTY CORRECTION folded in: feasibility ceiling w~20 routine / w~24 with the Galois-orbit reduction; w~30 was aspirational and is withdrawn)."
   },
   {
    "id": "multi_multiplier_reduction",
@@ -3362,7 +3363,7 @@
   {
    "id": "b2_modp_giant_extras",
    "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "At official prize-max rows: the count of non-coset-union t-null blocks (and their trade families) is <= n^3 = 2^123. STRUCTURE: (i) THE FROBENIUS GAP \u2014 q = 1 mod n makes Frobenius act trivially on frequencies, so B1's Galois forcing has NO mod-p analogue; extras genuinely can exist (the X-8 boundary class is exactly such) \u2014 the char-0/finite-field gap is fundamental, not technical. (ii) THE FIRST-MOMENT BALANCE: t log2 q ~ 2.15e12 vs log2(2^n) = 2.2e12 \u2014 the prize-max giant regime sits within ~2% of the counting threshold; pure counting can NEVER close it. (iii) THE CUSHION: the budget is 2^123, not 1 \u2014 the statement is 'no 2^123-fold concentration above the balanced mean', a FIXED arithmetic quantity per row (no adversarial quantifier). (iv) The boundary/zero-sum class is EXACTLY counted (QA.25: <= 64 per row, fits). Routes for the residue: the divisor frame (L_B = degree-b divisor of X^n - delta with a top-t coefficient gap \u2014 divisor-with-prescribed-coefficients counting), the mu_M-fiber descent (128 coupled fiber-DFTs), or a second-moment/pair-correlation bound at giant scale. SCAN VERDICT (39/39 rows, replayed): NOT FALSIFIED \u2014 and the shape is the best case: NO spike at the balance crossing; extras die BEFORE nominal balance, decaying faster than the mean; above balance every t-null block is exactly a coset union (the coset floor). Max observed excess 2^4.18 vs the toy cushion 2^15 \u2014 concentration exponent ~4 bits against the 123-bit prize cushion. NO SIXTH GUISE: every near-crossing survivor is X-8/QA.25 boundary-class. Coverage exact and honest: exhaustive mu_32 all-t, n=64 window b in [5,10] (amended from [5,16], disclosed), n=256/512 known-class arithmetic + falsifier-only sampling. RESIDUAL for the proof: large weights and prize scales rest on known-class arithmetic \u2014 the divisor-frame lemma must close them, now with the calibrated target: smooth sub-mean decay, boundary-class-only survivors, 119 bits of margin.",
    "attack_surface": "the divisor-counting frame is the most promising: monic degree-b divisors of a fully-split X^n - delta with t prescribed top coefficients \u2014 a concrete F_q[X] counting question with possible Hayes/Carlitz-style tools; the cushion means even 2^100-lossy bounds close it",
@@ -3370,7 +3371,7 @@
    "refs": [
     "experimental/notes/roadmaps/u2c_falsifier_scan.md"
    ],
-   "notes": "PRO PACKET INTEGRATED (verified 17/17): descent suite PROVED, near-tails PROVED (< 2^122, half the budget), boundary notation repaired (hazard 1), brief frame (c) refuted (hazard 2 = falsification #14, mine). The node now = the primitive core alone (b2b_primitive_core)."
+   "notes": "PRO PACKET INTEGRATED (verified 17/17): descent suite PROVED, near-tails PROVED (< 2^122, half the budget), boundary notation repaired (hazard 1), brief frame (c) refuted (hazard 2 = falsification #14, mine). The node now = the primitive core alone (b2b_primitive_core). | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
    "id": "a_closure_assembly",
@@ -3399,7 +3400,7 @@
   {
    "id": "c1_scalable_certificate",
    "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "The (A) closure's (C1) input cannot be computed by direct elimination (pilot-measured: dead at n = 32). NEEDED: a certificate for 'no non-toral mod-p solutions of the anchored system rem(X^n - 1, S^2 - S(1)^2) = 0' computable at n = 1024, h in the window, for the six official primes. ROUTES: (i) 2-ADIC RECURSIVE DESCENT (most promising): X^n - 1 = (X^{n/2} - 1)(X^{n/2} + 1) \u2014 the divisor S^2 - lambda distributes across the dyadic tower in finitely many degree patterns; per pattern the conditions decompose into subproblems at n/2 \u2014 D(n,h) as a product of much smaller resultants over descent patterns (the same tower structure that powers every 2-power argument in this campaign); (ii) mod-p elimination for the six specific primes (kills coefficient growth but symbolic degree growth in the 41 squarings remains \u2014 feasibility unclear); (iii) the absorbency retreat: even without certificates, bound the multiplicity at possibly-bad primes structurally (A3's G3 gap \u2014 currently no tool). Route (i) is the one with a campaign pedigree.",
    "attack_surface": "work out the descent pattern combinatorics at h = 4, n = 32 vs the pilot's computed data (the calibration case exists); if the recursion closes, the n = 1024 certificate is log2(n) = 10 descent levels of bounded work",
@@ -3407,7 +3408,7 @@
    "refs": [
     "experimental/notes/roadmaps/a_pilot_wh_torsion_data.md"
    ],
-   "notes": "DECOMPOSED (roadmap-lane, seed identity sympy-verified): C1a \u2014 direct MITM certificates at h = 4/5, n = 1024 (FEASIBLE NOW, ~2^35 hash entries; covers the most exposed window sizes); C1b \u2014 the descent-injection certificate (trades descend to band pairs via the exact pushforward identity, budget h/2 per level; only 4 levels needed to reach the censusable n = 64; the injection lemma is the one new statement, calibratable against the pilot's exact n = 32 ground truth); C1c \u2014 the antipodal branch tracked as paid per level (X24's mechanism); C1d \u2014 the interface with the h-window audit (running). ALSO NOTED: at official primes the first-moment gap is 700+ bits per h (unlike the giant regime's razor edge) \u2014 if C1b resists, a large-sieve/averaging argument over patterns is the theory fallback. | COVERAGE MAP after the delta-saturation correction: C1a (direct MITM) covers h = 4, maybe 5; C1b (descent) covers h <= ~8-10; h >= ~16 needs the large-h emptiness lemma (route ii) as a third piece IF the window audit's H_max reaches that high. The audit is the decisive pending input. | WINDOW VERDICT: H_max = A. Coverage now: C1a h=4(-5), C1b h<=~10, NEITHER for h in (10, A] \u2014 the widened gap is noded (midlarge_h_certification) and goes into the Fable brief."
+   "notes": "DECOMPOSED (roadmap-lane, seed identity sympy-verified): C1a \u2014 direct MITM certificates at h = 4/5, n = 1024 (FEASIBLE NOW, ~2^35 hash entries; covers the most exposed window sizes); C1b \u2014 the descent-injection certificate (trades descend to band pairs via the exact pushforward identity, budget h/2 per level; only 4 levels needed to reach the censusable n = 64; the injection lemma is the one new statement, calibratable against the pilot's exact n = 32 ground truth); C1c \u2014 the antipodal branch tracked as paid per level (X24's mechanism); C1d \u2014 the interface with the h-window audit (running). ALSO NOTED: at official primes the first-moment gap is 700+ bits per h (unlike the giant regime's razor edge) \u2014 if C1b resists, a large-sieve/averaging argument over patterns is the theory fallback. | COVERAGE MAP after the delta-saturation correction: C1a (direct MITM) covers h = 4, maybe 5; C1b (descent) covers h <= ~8-10; h >= ~16 needs the large-h emptiness lemma (route ii) as a third piece IF the window audit's H_max reaches that high. The audit is the decisive pending input. | WINDOW VERDICT: H_max = A. Coverage now: C1a h=4(-5), C1b h<=~10, NEITHER for h in (10, A] \u2014 the widened gap is noded (midlarge_h_certification) and goes into the Fable brief. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
    "id": "c1a_lowh_direct_certificates",

@@ -49,7 +49,7 @@
   },
   {
    "id": "adjacency_closing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points"
   },
   {
@@ -104,7 +104,7 @@
   },
   {
    "id": "b2_modp_giant_extras",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion"
   },
   {
@@ -129,7 +129,7 @@
   },
   {
    "id": "c1_scalable_certificate",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024"
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "id": "census_bounded_scales",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The deciding scale is PINNED in an absolute window (n-uniformity of the census)"
   },
   {
@@ -824,7 +824,7 @@
   },
   {
    "id": "weight_graded_mitm",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24"
   },
   {
