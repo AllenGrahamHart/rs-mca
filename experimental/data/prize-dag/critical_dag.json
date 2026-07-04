@@ -424,7 +424,7 @@
   },
   {
    "id": "far_pair_separation",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification"
   },
   {
@@ -464,12 +464,12 @@
   },
   {
    "id": "generator_economy",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "THE CORE, SHARPENED: multiplicative difference-designs (few bases certify everything)"
   },
   {
    "id": "generator_size_budget_check",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "generator size budget check"
   },
   {
