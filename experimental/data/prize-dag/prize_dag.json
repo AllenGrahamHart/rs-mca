@@ -3684,6 +3684,16 @@
     "experimental/notes/roadmaps/x66_h4_norm_gate_orbit_invariance.md"
    ],
    "notes": "Upgrades X64/X65 from count-orbit currency to norm-gate certifier currency: one canonical content-one representative carries the entire eightfold sparse-resultant obstruction."
+  },
+  {
+   "id": "x67_h4_galois_norm_gate_compression",
+   "title": "X67: h=4 norm gates have Galois-unit certifier compression",
+   "status": "PROVED",
+   "statement": "For u in (Z/nZ)^*, f_(ua,ub,uc)(X)=f_(a,b,c)(X^u), so u permutes the primitive-root factors in Res(Phi_n,f). Thus the resultant prime set is constant on unit exponent orbits; this compresses sparse-resultant certification but is not a fixed-generator row-count symmetry.",
+   "refs": [
+    "experimental/notes/roadmaps/x67_h4_galois_norm_gate_compression.md"
+   ],
+   "notes": "Adds the Galois compression layer above X66. Future primitive norm-gate certifiers may group canonical X64 representatives by unit action for resultant computations, while preserving row-count expansion separately."
   }
  ],
  "edges": [
@@ -6714,6 +6724,31 @@
   },
   {
    "from": "x66_h4_norm_gate_orbit_invariance",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x62_h4_linear_norm_gate",
+   "to": "x67_h4_galois_norm_gate_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
+   "to": "x67_h4_galois_norm_gate_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x65_h4_linear_orbit_budget",
+   "to": "x67_h4_galois_norm_gate_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x66_h4_norm_gate_orbit_invariance",
+   "to": "x67_h4_galois_norm_gate_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x67_h4_galois_norm_gate_compression",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
