@@ -3814,6 +3814,16 @@
     "experimental/notes/roadmaps/x79_h5_obstruction_norm_gate.md"
    ],
    "notes": "Sharpens X77/X78 from one first-sum norm gate to four simultaneous square-shift obstruction gates; the next h=5 certifier can test the gcd of these obstruction norms per 10-support."
+  },
+  {
+   "id": "x80_odd_support_free_orbits",
+   "title": "X80: odd h=5 supports have free ordered scaling orbits",
+   "status": "PROVED",
+   "statement": "On a 2-power multiplicative domain, every odd-cardinality support has trivial cyclic scaling stabilizer. Hence ordered h=5 pairs have free scaling orbits of size n, and the anchored ordered count with 1 in the first support converts exactly by N_ord=(n/5)N_anchor. For unordered h=5 pairs, the only possible nontrivial stabilizer is the antipodal swap P <-> -P.",
+   "refs": [
+    "experimental/notes/roadmaps/x80_odd_support_free_orbits.md"
+   ],
+   "notes": "Fixes h=5 orbit bookkeeping after X78/X79: there is no hidden stabilizer denominator in ordered row mass, and the only unordered symmetric branch is the explicit antipodal swap."
   }
  ],
  "edges": [
@@ -7109,6 +7119,21 @@
   },
   {
    "from": "x79_h5_obstruction_norm_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x78_h5_square_shift_supports",
+   "to": "x80_odd_support_free_orbits",
+   "kind": "req"
+  },
+  {
+   "from": "x79_h5_obstruction_norm_gate",
+   "to": "x80_odd_support_free_orbits",
+   "kind": "ev"
+  },
+  {
+   "from": "x80_odd_support_free_orbits",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
