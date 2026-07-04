@@ -424,7 +424,7 @@
   },
   {
    "id": "m_handling",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Interleaved m-handling per the official quantifier"
   },
   {
@@ -1244,6 +1244,18 @@
   {
    "from": "axis8_generating",
    "to": "s0_zero_open"
+  },
+  {
+   "from": "rules_freeze",
+   "to": "m_handling"
+  },
+  {
+   "from": "rules_m_reading",
+   "to": "m_handling"
+  },
+  {
+   "from": "m_sweep",
+   "to": "m_handling"
   }
  ]
 }
