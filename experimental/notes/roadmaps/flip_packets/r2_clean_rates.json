@@ -1,0 +1,22 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "r2_clean_rates",
+  "packet": "experimental/notes/roadmaps/flip_packets/r2_clean_rates.md",
+  "current_label": "UNPROVED",
+  "verdict": "PROMOTE-CONDITIONAL",
+  "kids": [
+    "xr_globalness_from_ledger",
+    "xr_small_set_engine",
+    "xr_radius_arithmetic",
+    "xr_clean_residual_any_gate"
+  ],
+  "pins": {
+    "r2_clean_rates": "09d963096b27ee33",
+    "xr_globalness_from_ledger": "66698d8ee5d497a7",
+    "xr_small_set_engine": "22d4196e33ea3135",
+    "xr_radius_arithmetic": "8492a9a618ec287d",
+    "xr_clean_residual_any_gate": "15e5616ad4375364"
+  },
+  "argument": "PROMOTE-CONDITIONAL: the exact 16 n^3 budget sufficiency is already proved; granted xr_clean_residual_any_gate and the clean-rate radius arithmetic/import children, the compiled clean-rate target follows.",
+  "caution": "The two globalness children may be context rather than minimal req edges because the node text reserves KLLM/globalness for rate 1/2."
+}
