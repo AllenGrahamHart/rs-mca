@@ -3584,6 +3584,16 @@
     "experimental/notes/roadmaps/x56_h2_anchored_surplus_currency.md"
    ],
    "notes": "Removes the anchored/unanchored convention ambiguity around the h=2 rung. The verifier shows exactly why the existing A_2^nt <= 6*n^(5/3) line-bound total is still too weak for X55's anchored surplus target, which is O(n^(2/3)); the remaining input must be p-specific norm-gate surplus exclusion or stronger distribution, not the standard fixed-line theorem."
+  },
+  {
+   "id": "x57_h4_surplus_boundary_window",
+   "title": "X57: h=4 surplus barrier holds on complete boundary windows",
+   "status": "TEST",
+   "statement": "Exact finite census over every prime p == 1 mod n with n^2 < p <= n^3 for n in {32,64,128,256,512}. Reusing X51's quotient invariant (1+r)^n, compute A_anchor_surplus = 4 sum_C C(m_C,2) and verify the X56 barrier A_anchor_surplus < 4*C(T(n)+1,2) row-by-row. The worst observed row is n=512,p=320513 with A=316 versus barrier 1984; no violations occur.",
+   "refs": [
+    "experimental/notes/roadmaps/x57_h4_surplus_boundary_window.md"
+   ],
+   "notes": "Strengthens X51's boundary evidence from max-shell control to the aggregate surplus inequality that X55/X56 identify as the real centered h=4 target. The census is low-memory quotient-shell arithmetic, not h=4 support enumeration."
   }
  ],
  "edges": [
@@ -6419,6 +6429,26 @@
   },
   {
    "from": "x56_h2_anchored_surplus_currency",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x51_h4_quotient_shell_window",
+   "to": "x57_h4_surplus_boundary_window",
+   "kind": "req"
+  },
+  {
+   "from": "x55_h4_surplus_threshold_bridge",
+   "to": "x57_h4_surplus_boundary_window",
+   "kind": "req"
+  },
+  {
+   "from": "x56_h2_anchored_surplus_currency",
+   "to": "x57_h4_surplus_boundary_window",
+   "kind": "req"
+  },
+  {
+   "from": "x57_h4_surplus_boundary_window",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
