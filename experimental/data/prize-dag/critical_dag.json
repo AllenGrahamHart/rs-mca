@@ -9,12 +9,12 @@
  "nodes": [
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "SHARED BLOCKER of A1 + A2: occupied-subcore accounting"
   },
   {
    "id": "a2_depth_cell_active_shadow_bound",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "OCC-2's named replacement: the active-shadow depth-cell bound"
   },
   {
@@ -79,22 +79,22 @@
   },
   {
    "id": "axis1_batching",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Axis 1: ABF batching shape"
   },
   {
    "id": "axis2_ell",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Axis 2: ell>2 batching / tuple-to-pair"
   },
   {
    "id": "axis4_predicate",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Axis 4: ABF Delta_S = degenerate-pencil predicate?"
   },
   {
    "id": "axis8_generating",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Axis 8: non-generating rows / tower-case admissibility (node-ified from s5_s0 F3)"
   },
   {
@@ -289,7 +289,7 @@
   },
   {
    "id": "f1_case_tower",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "F1 case (iii): intermediate-subfield tower recursion"
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "id": "f_many_sparse_structure",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
   },
   {
@@ -549,7 +549,7 @@
   },
   {
    "id": "list_unsafe",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "List unsafe at gate: qcore counting (conventions pending)"
   },
   {
@@ -709,7 +709,7 @@
   },
   {
    "id": "s0_zero_open",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "S0 object audit: zero OPEN axes"
   },
   {
@@ -879,7 +879,7 @@
   },
   {
    "id": "xr_partial_tangent_band",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger"
   },
   {

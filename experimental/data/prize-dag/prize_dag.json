@@ -52,14 +52,14 @@
   {
    "id": "s0_zero_open",
    "title": "S0 object audit: zero OPEN axes",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
    "statement": "Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim).",
-   "notes": "PROMOTED red -> amber (ring-2 sweep, node 2): the statement IS the conjunction of the per-axis resolution nodes \u2014 inventory verified COMPLETE against s5_s0's axis table (axes 3/5/6/7 = axes_verified PROVED; axes 1/2/4/8/9 = nodes; the rules layer = rules_freeze PROVED). Axis 8 was MISSING (defect #5) \u2014 node-ified and wired by this audit. Definitional assembly: flips green when the axis nodes land."
+   "notes": "PROMOTED red -> amber (ring-2 sweep, node 2): the statement IS the conjunction of the per-axis resolution nodes \u2014 inventory verified COMPLETE against s5_s0's axis table (axes 3/5/6/7 = axes_verified PROVED; axes 1/2/4/8/9 = nodes; the rules layer = rules_freeze PROVED). Axis 8 was MISSING (defect #5) \u2014 node-ified and wired by this audit. Definitional assembly: flips green when the axis nodes land. | DISCHARGED on the axis cascade: all seven axis/rules inputs green; the pinned definitional conjunction lands. THE CONVENTIONS GUARD IS GREEN."
   },
   {
    "id": "axes_verified",
@@ -72,33 +72,36 @@
   {
    "id": "axis1_batching",
    "title": "Axis 1: ABF batching shape",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
    "statement": "Resolve: does the official sampler batch as affine lines u + zv (repo convention) or another shape (powers-of-alpha)? Quote-level audit vs the ABF text.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis1_batching/.",
+   "closure": "citation"
   },
   {
    "id": "axis2_ell",
    "title": "Axis 2: ell>2 batching / tuple-to-pair",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
    "statement": "Resolve: official MCA quantifies pairs (C^{==2}) or ell-tuples? If tuples: supply the tuple-to-pair reduction or per-ell gates.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis2_ell/.",
+   "closure": "citation"
   },
   {
    "id": "axis4_predicate",
    "title": "Axis 4: ABF Delta_S = degenerate-pencil predicate?",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#2"
    ],
    "statement": "Resolve: is ABF's Delta_S((f1,f2), C^{==2}) > 0 exactly the same-support degenerate-pencil predicate (a = b = 0 stratum)? Quote-level audit.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked)."
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis4_predicate/.",
+   "closure": "citation"
   },
   {
    "id": "axis9_dither",
@@ -464,11 +467,11 @@
   {
    "id": "exchange_ledger_gen_t",
    "title": "Generalize #152 exchange ledger past t=2 (hand-off)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#7"
    ],
-   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only)."
+   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/exchange_ledger_gen_t/."
   },
   {
    "id": "averaged_xr",
@@ -632,13 +635,13 @@
   {
    "id": "strat_tree",
    "title": "Stratification case-tree T0-T7 (= dedup convention)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
    "statement": "The executable T0-T7 first-match tree = THE dedup convention; partition theorem proved; fuzz-tested per wp2_3 \u00a74.",
    "closure": "artifact",
-   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): artifact+embedded theorem (partition thm is the propositional core) \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
+   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): artifact+embedded theorem (partition thm is the propositional core) \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/strat_tree/."
   },
   {
    "id": "deficiency_ladder",
@@ -686,10 +689,11 @@
   {
    "id": "list_unsafe",
    "title": "List unsafe at gate: qcore counting (conventions pending)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s7_list_side.md#2"
-   ]
+   ],
+   "notes": "DISCHARGED: qcore + s0 both green."
   },
   {
    "id": "qcore",
@@ -925,11 +929,12 @@
   {
    "id": "bridge_ledger",
    "title": "Bridge ledger (no silent crossings)",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#3"
    ],
-   "statement": "One row per object crossing (losses, conventions, provenance); checker fails silent bridge use; includes the proved LD_sw forward-only separation."
+   "statement": "One row per object crossing (losses, conventions, provenance); checker fails silent bridge use; includes the proved LD_sw forward-only separation.",
+   "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/bridge_ledger/."
   },
   {
    "id": "row_slate",
@@ -1044,12 +1049,13 @@
   {
    "id": "xr_expansion",
    "title": "Expansion pumping: dense aligned Johnson-neighborhoods over-constrain",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
    "statement": "ASSEMBLY (honest form): combine (a) the anticode toolkit (distance-s independence, combinatorial factors), (b) the same-slope exchange exclusion radius from the residual ledger (t = 2 PROVED in #152 via exchange_calculus; general t = exchange_ledger_gen_t), and (c) the v8 one-support-one-slope cap (PROVED \u2014 the q-scale input) into partial B_ap bounds: per-slope alignment sets are distance-excluded and per-locator capped, giving FM-scale bounds on the strata where the exclusion radius is large. HONEST GAP: where the radius is small, closing to FM scale hands off to the energy/inverse pipeline (xr_gvn -> xr_inverse) \u2014 the wall's two halves meet here, and the meeting is the wall.",
-   "attack_surface": "rung 1: the toolkit note (classical, S); rung 2: Q4.1's ledger generalization sets the exclusion radius s(t); rung 3: the assembly computation \u2014 which strata get FM-scale bounds at which s; the remainder is the pipeline's job, stated without pretense"
+   "attack_surface": "rung 1: the toolkit note (classical, S); rung 2: Q4.1's ledger generalization sets the exclusion radius s(t); rung 3: the assembly computation \u2014 which strata get FM-scale bounds at which s; the remainder is the pipeline's job, stated without pretense",
+   "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_expansion/."
   },
   {
    "id": "xr_crystallization",
@@ -1648,17 +1654,17 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs."
+   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_gvn/."
   },
   {
    "id": "xr_inverse",
    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives.",
    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
@@ -1666,7 +1672,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "E2 scaffold caveat (PR #184): frozen full-block quotient fibers have ZERO one-exchange energy \u2014 the inverse test MUST strip paid quotient strata first or use a multi-exchange variant, else designed-in false negative. Structured >> random baseline confirmed on the walk-energy proxy. | K=1 BASE CASE IN FLIGHT (#191): E_1-extremal families are point-dictator/common-root = PAID structures, exactly the 'energy-extremal => paid' shape this node conjectures at k=3. First inverse-flavor theorem on the board. | E11 (#202): stripped candidate-dictionary scan at J(16,8)/J(32,16) \u2014 post-strip top E_3 candidates are ONLY fixed-core/fixed-hole first-eigenspace structures, consistent with the k=1 dictator extremals. The #184 quotient-pollution caveat confirmed real. Scope: dictionary, not full pair scanner."
+   "notes": "E2 scaffold caveat (PR #184): frozen full-block quotient fibers have ZERO one-exchange energy \u2014 the inverse test MUST strip paid quotient strata first or use a multi-exchange variant, else designed-in false negative. Structured >> random baseline confirmed on the walk-energy proxy. | K=1 BASE CASE IN FLIGHT (#191): E_1-extremal families are point-dictator/common-root = PAID structures, exactly the 'energy-extremal => paid' shape this node conjectures at k=3. First inverse-flavor theorem on the board. | E11 (#202): stripped candidate-dictionary scan at J(16,8)/J(32,16) \u2014 post-strip top E_3 candidates are ONLY fixed-core/fixed-hole first-eigenspace structures, consistent with the k=1 dictator extremals. The #184 quotient-pollution caveat confirmed real. Scope: dictionary, not full pair scanner. | FLIP on replay (Codex rednode wave 2): CONJECTURE -> CONDITIONAL; packet in nodes/xr_inverse/."
   },
   {
    "id": "spi_component_control",
@@ -2146,7 +2152,7 @@
   {
    "id": "f_many_sparse_structure",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "RESTATED (second revision, after the verified dihedral counterexample): many-sparse flats are MULTIPLICATIVE-pullback-structured, DIHEDRAL/Chebyshev-quotient-structured (X^e g(X^M + X^{-M}) \u2014 the new class), tangent-structured, or descent-reducible. The conjecture: nothing UNPAID survives all FOUR branches. The dihedral branch is forced: reciprocal flats are gcd-trivial, multiplicatively aperiodic, and have super-poly lattices \u2014 only the enlarged quotient class pays them.",
    "attack_surface": "coding-theory structure: codes with many minimal low-weight words are classified in known regimes; the coset-support pattern (supports = unions of coset pairs) is the signature to force; toy-enumerable falsifier at n = 16",
@@ -2154,7 +2160,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "where ALL the residual risk of the F induction concentrates; the other three parts are elementary | E9 census (exact, codim-1 flats at j<=4): third class = support-3 words, structured not unstructured \u2014 the revision cost one statement edit because the descent node already existed. | E35 CORRECTION propagates: the multiplicative branch reads X^e g(X^M) (projective/twisted form) wherever the taxonomy lists it \u2014 matching the dihedral X^e prefix; the untwisted form is falsified as the literal clause by the {X, X^3, X^5} example."
+   "notes": "where ALL the residual risk of the F induction concentrates; the other three parts are elementary | E9 census (exact, codim-1 flats at j<=4): third class = support-3 words, structured not unstructured \u2014 the revision cost one statement edit because the descent node already existed. | E35 CORRECTION propagates: the multiplicative branch reads X^e g(X^M) (projective/twisted form) wherever the taxonomy lists it \u2014 matching the dihedral X^e prefix; the untwisted form is falsified as the literal clause by the {X, X^3, X^5} example. | FLIP on replay (Codex rednode wave 2): CONJECTURE -> CONDITIONAL; packet in nodes/f_many_sparse_structure/."
   },
   {
    "id": "safe_assembly_uniformity",
@@ -2286,25 +2292,26 @@
   {
    "id": "c_xr_content",
    "title": "C_XR content at k=3 (grounded): post-strip extremals are fixed-core/fixed-hole structures",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "After stripping paid quotient strata, the k=3 inverse class C_XR consists exactly of fixed-core and fixed-hole (first-eigenspace) structures. Grounded by E11's stripped dictionary scan (J(16,8), J(32,16): only such structures top the E_3 lists) and #191's proved k=1 dictator extremals. This SPECIFIES the inverse theorem's target class \u2014 xr_inverse now has a concrete statement to prove rather than an unknown class to discover.",
    "attack_surface": "DECOMPOSED: two elementary bridges (E_3 <-> expansion; junta <-> paid) + the NAMED literature engine (KMS Johnson-graph structure theorem) + one residue (quantitative matching at FM scale, with KLLM global hypercontractivity as the modern fallback). The pair-orbit scanner (QX.5) remains the empirical falsifier.",
    "falsifier": "a stripped pair-orbit with top E_3 outside the fixed-core/fixed-hole family",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex rednode wave 2): CONJECTURE -> CONDITIONAL; packet in nodes/c_xr_content/."
   },
   {
    "id": "spread_syzygy_circuit_bound",
    "title": "The syzygy-circuit branch: bound the full-support minimal-circuit exceptions",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "E13's 71 non-AG exceptions are ALL one-dimensional full-locator-support syzygy circuits, and the PROVED circuit lemma (row dependencies = exactly two zero-polynomial identities; one-dim full-support dependencies with independent deletions are minimal circuits) makes the branch precise: count/classify minimal full-support circuits per (n, j) and price their slope contribution. The exception taxonomy's third and final observed branch.",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "a precise algebraic proof target per the packet's own framing; the circuit lemma is its proved base",
+   "notes": "a precise algebraic proof target per the packet's own framing; the circuit lemma is its proved base | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/spread_syzygy_circuit_bound/.",
    "attack_surface": "DECOMPOSED: nongenericity (degree counting on the two simultaneous identities) -> q-suppressed locus density (Schwartz-Zippel) -> O(1)-per-circuit pricing (deficiency-1 Cramer/eliminant reuse from #199). Assembly: circuits x O(1) <= FM-compatible. Evidence first step: the circuit census's growth rate in n (extends E13's 71-at-n=32 count)."
   },
   {
@@ -2373,7 +2380,7 @@
   {
    "id": "xr_kms_parameter_matching",
    "title": "THE RESIDUE: quantitative regime matching at FM-scale densities",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import. COMPOSITION TENSION (#211/E20): raw KMS/DKKMS do not provide a q-power FM engine as stated (verdict per the loss tables); KLLM's extracted stay-probability arithmetic consumes globalness beta <= q^-g and yields q^{-(g+t-1)/4} \u2014 a Q-POWER globalness demand, while the proved top-core cap gives poly(n)-scale. THE open arithmetic: does poly-globalness + the q-power pair ledger compose to n^B * FM (the KLLM engine used only for the structured residue), or does the cap need a q-power strengthening (a new, harder statement)? This is now the central question of the QX.14/QX.15 assembly.",
    "attack_surface": "parameter tables first (S-sized): tabulate the KMS/KLLM loss exponents against the FM gap per rate; if the exponents eat the gap, the KLLM global-hypercontractivity route is the fallback with sharper small-set constants",
@@ -2381,7 +2388,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly. | Fleet A M3: the import skeleton encodes the decisive structural check \u2014 the chain is satisfiable ONLY IF the KLLM losses are mu-free AND the globalness definition is absolute (g3 + g1*g6 = 0). The eventual PDF verification is now a TWO-ITEM check (C2, C9), not a paper-wide audit."
+   "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly. | Fleet A M3: the import skeleton encodes the decisive structural check \u2014 the chain is satisfiable ONLY IF the KLLM losses are mu-free AND the globalness definition is absolute (g3 + g1*g6 = 0). The eventual PDF verification is now a TWO-ITEM check (C2, C9), not a paper-wide audit. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_kms_parameter_matching/."
   },
   {
    "id": "xr_globalness_from_ledger",
@@ -2639,7 +2646,7 @@
   {
    "id": "dihedral_staircase",
    "title": "REQUIRED LEMMA (QA21-G1): the per-pair dihedral-aligned support cap",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "For a fixed pair (u,v), bound the number of simultaneously-aligned inversion-closed supports: the dihedral analogue of the tangent staircase. QA.21 shows the crude bound (all N_dih = 2 C((n-2)/2, (j-1)/2) supports) blows the clean-rate budget by +52..+292 bits (Row C) \u2014 the allowance survives only if per-pair dihedral simultaneity is suppressed by those factors. STRUCTURAL HANDLES: (a) every odd-j inversion-closed support contains one of exactly TWO points ({+1, -1}) \u2014 all dihedral-aligned supports pass through one of two links, so the top-core/link machinery bites maximally; (b) palindromic agreement rigidity (the aligned word's symmetric part is constrained); (c) E25's toy data shows small per-pair counts empirically (100/64 charged events across the whole corpus). Expected shape: linear-in-n like the tangent staircase.",
    "attack_surface": "start from the fixed-point observation: condition on the support containing +1; the aligned family through one point at one slope is a moving-root-type family \u2014 the tangent staircase argument should transfer nearly verbatim; E25's charging machinery is the toy calibration",
@@ -2647,7 +2654,7 @@
    "refs": [
     "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
    ],
-   "notes": "GPT PRO X-3 + Codex integration (verifier 36/36): PROVED in the deep regime 3j <= n-k \u2014 at most n+2 exact supports across ALL slopes, dihedrality not even needed (two supports pin (U,V); third codewords forced to the pencil; error-word zero sets change at <= n slopes). HONESTLY SCOPED: not applicable at the clean-rate candidates (j ~ 957 of 1024). The corridor obligation is REFRAMED by the poly-forcing compiler: the dihedral column folds into R_post <= 16 n^3 \u2014 no separate budget subtraction; this node's corridor content merges into the face-4 rungs. | POST-COMPILER ROLE: demoted req -> ev. Dihedral supports count inside R_post like any others, so the rungs' analysis covers them; this lemma is now a sharpening (and its deep-regime instance a proved template), not a gate."
+   "notes": "GPT PRO X-3 + Codex integration (verifier 36/36): PROVED in the deep regime 3j <= n-k \u2014 at most n+2 exact supports across ALL slopes, dihedrality not even needed (two supports pin (U,V); third codewords forced to the pencil; error-word zero sets change at <= n slopes). HONESTLY SCOPED: not applicable at the clean-rate candidates (j ~ 957 of 1024). The corridor obligation is REFRAMED by the poly-forcing compiler: the dihedral column folds into R_post <= 16 n^3 \u2014 no separate budget subtraction; this node's corridor content merges into the face-4 rungs. | POST-COMPILER ROLE: demoted req -> ev. Dihedral supports count inside R_post like any others, so the rungs' analysis covers them; this lemma is now a sharpening (and its deep-regime instance a proved template), not a gate. | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/dihedral_staircase/."
   },
   {
    "id": "xr_pencil_cascade",
@@ -2691,14 +2698,14 @@
   {
    "id": "xr_partial_tangent_band",
    "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Distinct-slope aligned supports with core r in [k+1, A-2]: subtracting the two alignment identities gives (z1-z2) v = c1 - c2 on the core, so v agrees with a codeword on r >= k+1 points \u2014 the pair acquires depth-(r-k) tangent structure (one line, proved two-slope machinery). The work: design the GRADED tangent ledger charging depth-d partially-forced pairs (the s-ladder's worst-case face; #152's t=2 exchange packet is the proved base case), so that every band pair is either charged or upgraded toward the cascade threshold.",
    "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
    "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it). | A2 (#26, 10/10 replayed): CONDITIONAL-ROUTED, routing table COMPLETE (no extra pairwise/heavy-triangle object); the two occupancy accountings are the only remaining content (nodes added, one shared with A1)."
+   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it). | A2 (#26, 10/10 replayed): CONDITIONAL-ROUTED, routing table COMPLETE (no extra pairwise/heavy-triangle object); the two occupancy accountings are the only remaining content (nodes added, one shared with A1). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_partial_tangent_band/."
   },
   {
    "id": "xr_fresh_codim_dichotomy",
@@ -2907,14 +2914,14 @@
   {
    "id": "spread_syzygy_ident",
    "title": "FACE-3 (identification): below-cap configurations = the syzygy anatomy at general supports",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Face 3's rank-loss configurations are syzygies of constrained-support dual codewords \u2014 the SAME anatomy as face 4's alpha, at general (not necessarily aligned) supports: the k+1 overlap budget transports verbatim (MDS weights are support-agnostic); E13's observed exception classes (AG/net, v-degenerate, syzygy circuits) are the general-support siblings of beta-3b's vanishing-eliminant configurations. Face 3's classification and beta-3b's census are ONE body of work \u2014 merge the E32-ext census design to cover both.",
    "attack_surface": "restate E13's classes in the eliminant normal form's language (the evaluator exists); one census, two consumers",
    "falsifier": "an E13 exception class not expressible as a vanishing-eliminant configuration (the restatement exercise finds it immediately)",
    "refs": [
     "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
    ],
-   "notes": "E32-MERGED executed the restatement: E13's exception classes are now written in the 2c eliminant normal form \u2014 the identification is formal; face 3's classification and beta-3b are confirmed one body of work."
+   "notes": "E32-MERGED executed the restatement: E13's exception classes are now written in the 2c eliminant normal form \u2014 the identification is formal; face 3's classification and beta-3b are confirmed one body of work. | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/spread_syzygy_ident/."
   },
   {
    "id": "x4_exactlist_staircase_split",
@@ -3079,7 +3086,7 @@
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
    "title": "SHARED BLOCKER of A1 + A2: occupied-subcore accounting",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Count the subcores simultaneously occupied by aligned partners at lower overlaps \u2014 the accounting layer above the proved per-subcore cap. Consumers: the assembled staircase (A1) and the graded tangent ledger bound (A2) \u2014 one machinery, two clients. E33's occupancy data calibrates (observed: totals stayed linear).",
    "attack_surface": "sum the proved per-subcore cap over an occupancy-bounded family; the occupancy bound is a packing count over the (k-1)-subcore lattice",
@@ -3087,7 +3094,7 @@
    "refs": [
     "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
    ],
-   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds."
+   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a1_lower_overlap_occupied_subcore_accounting/."
   },
   {
    "id": "a2_depth_cell_residual_occupancy",
@@ -3163,14 +3170,14 @@
   {
    "id": "a2_depth_cell_active_shadow_bound",
    "title": "OCC-2's named replacement: the active-shadow depth-cell bound",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "The graded ledger's quantitative bound must count ACTIVE depth cells (those actually occupied by post-strip pairs \u2014 the shadow), not the formal cell lattice, which is already super-linear at every clean row (OCC-2's verified negative). Statement: the active shadow is budget-bounded; E33/P-A-style occupancy data says active objects are rare throughout this program.",
    "attack_surface": "the same rarity-counting shape as A-i: activity requires an alignment event, which is suppressed; count expected active cells directly",
    "falsifier": "a toy row with super-budget ACTIVE depth cells (extend the OCC-2 audit with the activity filter)",
    "refs": [
     "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
    ],
-   "notes": "ACT-SHADOW (#36): active depth cells max 10, max depth mass 60 <= n^2 = 256 at toys \u2014 no falsifier; the active-shadow statements are empirically solid and are instances of the same rarity count as the final estimate."
+   "notes": "ACT-SHADOW (#36): active depth cells max 10, max depth mass 60 <= n^2 = 256 at toys \u2014 no falsifier; the active-shadow statements are empirically solid and are instances of the same rarity count as the final estimate. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a2_depth_cell_active_shadow_bound/."
   },
   {
    "id": "anchored_nontoral_pte_bound",
@@ -3490,11 +3497,13 @@
   {
    "id": "axis8_generating",
    "title": "Axis 8: non-generating rows / tower-case admissibility (node-ified from s5_s0 F3)",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Resolve axis 8: does the official family admit NON-GENERATING rows (q_line = q_gen^m, m >= 2)? The confirmed caps (k <= 2^40, |F| < 2^256, abf26.pdf p.5) leave room for q_gen < 2^128 extension towers, so the F3-adverse direction is LIVE: the tower case is admissible and must be PRICED (the ext_lift / f1_classification chain), not excluded. Resolution = either a citation that the official family excludes towers, or the priced-adverse reading with the ext chain as the bridge (loss printed). Was referenced in s5_s0's failure table (F3) but had no node until the ring-2 sweep audit.",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md"
-   ]
+   ],
+   "closure": "citation",
+   "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis8_generating/."
   },
   {
    "id": "corridor_window_cleanup",
