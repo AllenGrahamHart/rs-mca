@@ -1931,7 +1931,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work."
+   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass."
   },
   {
    "id": "crossing_localization",
@@ -3485,6 +3485,40 @@
    "statement": "Resolve axis 8: does the official family admit NON-GENERATING rows (q_line = q_gen^m, m >= 2)? The confirmed caps (k <= 2^40, |F| < 2^256, abf26.pdf p.5) leave room for q_gen < 2^128 extension towers, so the F3-adverse direction is LIVE: the tower case is admissible and must be PRICED (the ext_lift / f1_classification chain), not excluded. Resolution = either a citation that the official family excludes towers, or the priced-adverse reading with the ext chain as the bridge (loss printed). Was referenced in s5_s0's failure table (F3) but had no node until the ring-2 sweep audit.",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md"
+   ]
+  },
+  {
+   "id": "corridor_window_cleanup",
+   "title": "Corridor eater (ii): per-point window cleanup at the boundary",
+   "status": "TARGET",
+   "statement": "For each rate and each corridor grid point: the per-point boundary windows (the finite residual charts) tighten by exact per-point evaluation; deliverable = the cleaned per-point bounds as a table, with the grid-step fraction each rate recovers. Evidence-gated: a finite per-point computation (the window_m5_charts material, made propositional).",
+   "attack_surface": "finite enumeration per corridor point; the chart machinery exists",
+   "falsifier": "a corridor point whose cleaned window widens rather than tightens",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
+   ]
+  },
+  {
+   "id": "corridor_ext_crossing",
+   "title": "Corridor eater (iii): the extension-crossing arithmetic",
+   "status": "TARGET",
+   "statement": "The extension-pole contribution at the crossing points: exact arithmetic of the ext column at a_safe and a_safe - 1 per rate (consuming the proved ext_pole_floor/ext chain), yielding the grid-step fraction the ext side recovers. Provable-shaped: the components are proved; the crossing-point evaluation is arithmetic.",
+   "attack_surface": "evaluate the proved ext functions at the six crossing points",
+   "falsifier": "an ext crossing value that widens a corridor",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
+   ]
+  },
+  {
+   "id": "corridor_ledger",
+   "title": "THE CORRIDOR LEDGER: per-rate, eaters (i)+(ii)+(iii) >= W(rate) - 1",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Exhaustive over the three clean rates: with W = the current corridor widths (1.12-2.17 grid steps), the three eaters \u2014 acl_second_order (i), corridor_window_cleanup (ii), corridor_ext_crossing (iii) \u2014 jointly recover at least W(rate) - 1 grid steps, collapsing the bracket to adjacency. Pure arithmetic ONCE the eaters' numeric outputs exist (evidence-gated on them); this node is the future assembly implication of adjacency_closing. If the sum falls short at any rate: the determination lands bracket-grade there \u2014 the honest failure mode, priced.",
+   "attack_surface": "a three-row table; each entry an interval comparison",
+   "falsifier": "any rate where the eater intervals cannot reach W - 1",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
    ]
   }
  ],
@@ -6187,6 +6221,36 @@
   {
    "from": "m_sweep",
    "to": "m_handling",
+   "kind": "req"
+  },
+  {
+   "from": "acl_second_order",
+   "to": "corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "corridor_window_cleanup",
+   "to": "corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "corridor_ext_crossing",
+   "to": "corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "corridor_window_cleanup",
+   "to": "adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "corridor_ext_crossing",
+   "to": "adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "corridor_ledger",
+   "to": "adjacency_closing",
    "kind": "req"
   }
  ]
