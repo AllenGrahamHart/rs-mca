@@ -108,6 +108,21 @@
    "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion"
   },
   {
+   "id": "b2b_dyadic_descent_packet",
+   "label": "PROVED",
+   "title": "b2b dyadic descent packet"
+  },
+  {
+   "id": "b2b_near_tail_bound",
+   "label": "PROVED",
+   "title": "b2b near tail bound"
+  },
+  {
+   "id": "b2b_primitive_core",
+   "label": "UNPROVED",
+   "title": "b2b primitive core"
+  },
+  {
    "id": "b_rational_lift",
    "label": "PROVED",
    "title": "B-rational pencils give B-slopes (linearity)"
@@ -1837,6 +1852,18 @@
   {
    "from": "petal_excess_induction",
    "to": "petal_growth"
+  },
+  {
+   "from": "b2b_dyadic_descent_packet",
+   "to": "b2_modp_giant_extras"
+  },
+  {
+   "from": "b2b_near_tail_bound",
+   "to": "b2_modp_giant_extras"
+  },
+  {
+   "from": "b2b_primitive_core",
+   "to": "b2_modp_giant_extras"
   }
  ]
 }
