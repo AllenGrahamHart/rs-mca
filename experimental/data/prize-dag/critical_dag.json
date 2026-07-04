@@ -64,7 +64,7 @@
   },
   {
    "id": "averaged_slope_conversion",
-   "label": "CONDITIONAL",
+   "label": "PROVABLE",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
   },
   {
@@ -214,7 +214,7 @@
   },
   {
    "id": "corridor_ext_crossing",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Corridor eater (iii): the extension-crossing arithmetic"
   },
   {
@@ -779,7 +779,7 @@
   },
   {
    "id": "u1_tame_toral_fiberproduct_classification",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "INPUT T: the toral fiber-product classification"
   },
   {

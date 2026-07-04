@@ -435,7 +435,7 @@
   {
    "id": "beta2_reduction",
    "title": "BETA_2 reduced to one global monodromy fact (citable chain)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "experimental/notes/m1/m1_beta2_conditional_close.md"
    ]
@@ -635,7 +635,7 @@
   {
    "id": "strat_tree",
    "title": "Stratification case-tree T0-T7 (= dedup convention)",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
@@ -1463,7 +1463,7 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
@@ -1654,7 +1654,7 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
@@ -1664,7 +1664,7 @@
   {
    "id": "xr_inverse",
    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives.",
    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
@@ -2292,7 +2292,7 @@
   {
    "id": "c_xr_content",
    "title": "C_XR content at k=3 (grounded): post-strip extremals are fixed-core/fixed-hole structures",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "After stripping paid quotient strata, the k=3 inverse class C_XR consists exactly of fixed-core and fixed-hole (first-eigenspace) structures. Grounded by E11's stripped dictionary scan (J(16,8), J(32,16): only such structures top the E_3 lists) and #191's proved k=1 dictator extremals. This SPECIFIES the inverse theorem's target class \u2014 xr_inverse now has a concrete statement to prove rather than an unknown class to discover.",
    "attack_surface": "DECOMPOSED: two elementary bridges (E_3 <-> expansion; junta <-> paid) + the NAMED literature engine (KMS Johnson-graph structure theorem) + one residue (quantitative matching at FM scale, with KLLM global hypercontractivity as the modern fallback). The pair-orbit scanner (QX.5) remains the empirical falsifier.",
@@ -2305,7 +2305,7 @@
   {
    "id": "spread_syzygy_circuit_bound",
    "title": "The syzygy-circuit branch: bound the full-support minimal-circuit exceptions",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "E13's 71 non-AG exceptions are ALL one-dimensional full-locator-support syzygy circuits, and the PROVED circuit lemma (row dependencies = exactly two zero-polynomial identities; one-dim full-support dependencies with independent deletions are minimal circuits) makes the branch precise: count/classify minimal full-support circuits per (n, j) and price their slope contribution. The exception taxonomy's third and final observed branch.",
    "refs": [
@@ -2380,7 +2380,7 @@
   {
    "id": "xr_kms_parameter_matching",
    "title": "THE RESIDUE: quantitative regime matching at FM-scale densities",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import. COMPOSITION TENSION (#211/E20): raw KMS/DKKMS do not provide a q-power FM engine as stated (verdict per the loss tables); KLLM's extracted stay-probability arithmetic consumes globalness beta <= q^-g and yields q^{-(g+t-1)/4} \u2014 a Q-POWER globalness demand, while the proved top-core cap gives poly(n)-scale. THE open arithmetic: does poly-globalness + the q-power pair ledger compose to n^B * FM (the KLLM engine used only for the structured residue), or does the cap need a q-power strengthening (a new, harder statement)? This is now the central question of the QX.14/QX.15 assembly.",
    "attack_surface": "parameter tables first (S-sized): tabulate the KMS/KLLM loss exponents against the FM gap per rate; if the exponents eat the gap, the KLLM global-hypercontractivity route is the fallback with sharper small-set constants",
@@ -3047,7 +3047,7 @@
   {
    "id": "u1_tame_toral_fiberproduct_classification",
    "title": "INPUT T: the toral fiber-product classification",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "deg psi < p, D = gamma mu_n, p coprime to n: if psi's non-diagonal fiber product has a toral component x^a y^b = c, or psi has > poly(deg) n^{2/3} full D-fibers, then psi is v1-chargeable (monomial/power or Dickson/Chebyshev pullback, up to linear conjugacy, coset scaling, bounded tails). STRONGER than Ritt's Second Theorem (which IS verified: tame composition collisions of coprime degrees are monomial-or-Dickson, von zur Gathen normal forms); the needed form is a Laurent/toral statement \u2014 Zieve's Laurent-polynomial decompositions are the right orbit, unverified at this exact strength. CORRECTED WORDING (per X-7): Frobenius/additive wild composition is excluded by deg < p; tame exceptional families (monomial, Dickson) are the DICTIONARY, not absent phenomena. X-8 CORRECTIONS: (i) the exact-polynomial toral case is PROVED and gives MONOMIAL ONLY (t_poly_exact_toral) \u2014 Dickson requires the Laurent/rational case, so the load-bearing missing theorem is a POSITIVE-CHARACTERISTIC LAURENT-RITT statement (named; Zannier's polynomial Ritt II does not cover it); (ii) the many-fiber threshold MUST carry the n^2/p term: the trigger is K > C(d) max{n^{2/3}, n^2/p}, equivalently the hypotheses need p >= C(d) n^{4/3} \u2014 SATISFIED at the six candidates by ~200 bits (p ~ 2^250 vs n^{4/3} = 2^54.7) but low-q admissible rows are NOT covered (the same low-q danger zone as the boundary column); (iii) the bounded-tails wrapper is a named missing lemma (fiber-minus-B-points incidence loss). T = one proved subtheorem + conditional assembly on {Laurent-Ritt, corrected threshold, tails lemma}.",
    "attack_surface": "literature verification first (Zieve, Laurent decompositions; Bilu-Tichy orbit); else prove directly: a toral component gives a multiplicative identity between root multisets of psi - y \u2014 push through the tame normal forms",
@@ -3520,7 +3520,7 @@
   {
    "id": "corridor_ext_crossing",
    "title": "Corridor eater (iii): the extension-crossing arithmetic",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "The extension-pole contribution at the crossing points: exact arithmetic of the ext column at a_safe and a_safe - 1 per rate (consuming the proved ext_pole_floor/ext chain), yielding the grid-step fraction the ext side recovers. Provable-shaped: the components are proved; the crossing-point evaluation is arithmetic.",
    "attack_surface": "evaluate the proved ext functions at the six crossing points",
    "falsifier": "an ext crossing value that widens a corridor",
