@@ -1,0 +1,417 @@
+{
+  "checks": 47,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x64_h4_linear_orbit_compression": "PROVED",
+    "x65_h4_linear_orbit_budget": "PROVED",
+    "x71_h4_interval_quotient_form": "PROVED",
+    "x73_h4_normalized_pair_sieve": "PROVED",
+    "x74_h4_sieve_orbit_bound": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "bad_realizations": [],
+      "candidate_witness_count_histogram_per_orbit": {
+        "4": 18,
+        "8": 2
+      },
+      "chosen_witness_count": 20,
+      "collision_examples": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "n_cubed_bound": 4096,
+      "n_squared_bound": 256,
+      "p": 17,
+      "phi_n": 8,
+      "primitive_canonical_orbit_count": 20,
+      "sample_witnesses": [
+        {
+          "rep": [
+            1,
+            4,
+            6
+          ],
+          "witness": [
+            1,
+            "negative",
+            2
+          ]
+        },
+        {
+          "rep": [
+            1,
+            12,
+            15
+          ],
+          "witness": [
+            1,
+            "negative",
+            3
+          ]
+        },
+        {
+          "rep": [
+            1,
+            2,
+            7
+          ],
+          "witness": [
+            1,
+            "negative",
+            5
+          ]
+        },
+        {
+          "rep": [
+            1,
+            5,
+            11
+          ],
+          "witness": [
+            1,
+            "negative",
+            6
+          ]
+        },
+        {
+          "rep": [
+            1,
+            3,
+            13
+          ],
+          "witness": [
+            1,
+            "negative",
+            10
+          ]
+        }
+      ],
+      "witness_bound_2_phi_n_minus_1": 240
+    },
+    {
+      "bad_realizations": [],
+      "candidate_witness_count_histogram_per_orbit": {
+        "4": 116,
+        "8": 18
+      },
+      "chosen_witness_count": 134,
+      "collision_examples": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "n_cubed_bound": 262144,
+      "n_squared_bound": 4096,
+      "p": 193,
+      "phi_n": 32,
+      "primitive_canonical_orbit_count": 134,
+      "sample_witnesses": [
+        {
+          "rep": [
+            1,
+            26,
+            28
+          ],
+          "witness": [
+            1,
+            "negative",
+            2
+          ]
+        },
+        {
+          "rep": [
+            1,
+            40,
+            48
+          ],
+          "witness": [
+            1,
+            "negative",
+            8
+          ]
+        },
+        {
+          "rep": [
+            1,
+            36,
+            51
+          ],
+          "witness": [
+            1,
+            "negative",
+            15
+          ]
+        },
+        {
+          "rep": [
+            1,
+            17,
+            35
+          ],
+          "witness": [
+            1,
+            "negative",
+            18
+          ]
+        },
+        {
+          "rep": [
+            1,
+            20,
+            42
+          ],
+          "witness": [
+            1,
+            "negative",
+            22
+          ]
+        }
+      ],
+      "witness_bound_2_phi_n_minus_1": 4032
+    },
+    {
+      "bad_realizations": [],
+      "candidate_witness_count_histogram_per_orbit": {
+        "4": 19,
+        "8": 4
+      },
+      "chosen_witness_count": 23,
+      "collision_examples": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "n_cubed_bound": 262144,
+      "n_squared_bound": 4096,
+      "p": 7937,
+      "phi_n": 32,
+      "primitive_canonical_orbit_count": 23,
+      "sample_witnesses": [
+        {
+          "rep": [
+            1,
+            41,
+            10
+          ],
+          "witness": [
+            1,
+            "positive",
+            31
+          ]
+        },
+        {
+          "rep": [
+            1,
+            46,
+            14
+          ],
+          "witness": [
+            1,
+            "positive",
+            32
+          ]
+        },
+        {
+          "rep": [
+            1,
+            42,
+            9
+          ],
+          "witness": [
+            1,
+            "positive",
+            33
+          ]
+        },
+        {
+          "rep": [
+            5,
+            28,
+            19
+          ],
+          "witness": [
+            5,
+            "negative",
+            11
+          ]
+        },
+        {
+          "rep": [
+            5,
+            50,
+            27
+          ],
+          "witness": [
+            5,
+            "negative",
+            21
+          ]
+        }
+      ],
+      "witness_bound_2_phi_n_minus_1": 4032
+    },
+    {
+      "bad_realizations": [],
+      "candidate_witness_count_histogram_per_orbit": {
+        "4": 11,
+        "8": 1
+      },
+      "chosen_witness_count": 12,
+      "collision_examples": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "n_cubed_bound": 2097152,
+      "n_squared_bound": 16384,
+      "p": 17921,
+      "phi_n": 64,
+      "primitive_canonical_orbit_count": 12,
+      "sample_witnesses": [
+        {
+          "rep": [
+            1,
+            89,
+            48
+          ],
+          "witness": [
+            1,
+            "positive",
+            41
+          ]
+        },
+        {
+          "rep": [
+            1,
+            112,
+            25
+          ],
+          "witness": [
+            1,
+            "positive",
+            87
+          ]
+        },
+        {
+          "rep": [
+            9,
+            91,
+            117
+          ],
+          "witness": [
+            9,
+            "positive",
+            54
+          ]
+        },
+        {
+          "rep": [
+            9,
+            53,
+            27
+          ],
+          "witness": [
+            9,
+            "positive",
+            74
+          ]
+        },
+        {
+          "rep": [
+            19,
+            38,
+            96
+          ],
+          "witness": [
+            19,
+            "negative",
+            30
+          ]
+        }
+      ],
+      "witness_bound_2_phi_n_minus_1": 16256
+    },
+    {
+      "bad_realizations": [],
+      "candidate_witness_count_histogram_per_orbit": {
+        "4": 19,
+        "8": 3
+      },
+      "chosen_witness_count": 22,
+      "collision_examples": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "n_cubed_bound": 16777216,
+      "n_squared_bound": 65536,
+      "p": 91393,
+      "phi_n": 128,
+      "primitive_canonical_orbit_count": 22,
+      "sample_witnesses": [
+        {
+          "rep": [
+            4,
+            59,
+            23
+          ],
+          "witness": [
+            19,
+            "negative",
+            57
+          ]
+        },
+        {
+          "rep": [
+            19,
+            183,
+            124
+          ],
+          "witness": [
+            19,
+            "positive",
+            57
+          ]
+        },
+        {
+          "rep": [
+            25,
+            227,
+            196
+          ],
+          "witness": [
+            25,
+            "negative",
+            9
+          ]
+        },
+        {
+          "rep": [
+            25,
+            68,
+            99
+          ],
+          "witness": [
+            25,
+            "positive",
+            9
+          ]
+        },
+        {
+          "rep": [
+            29,
+            182,
+            97
+          ],
+          "witness": [
+            29,
+            "positive",
+            153
+          ]
+        }
+      ],
+      "witness_bound_2_phi_n_minus_1": 65280
+    }
+  ],
+  "status": "PROVED H4 STRENGTHENING: PRIMITIVE CANONICAL ORBITS INJECT INTO O(n^2) INTERVAL WITNESSES",
+  "task": "X75 h=4 witness-injection bound",
+  "theorem": "Every primitive h=4 X64 canonical row orbit has an X64 transform with odd first exponent d.  Scaling that transform by d^{-1} gives a normalized interval word which vanishes at the primitive root zeta^d.  For fixed d, interval sign, and interval length, X71's geometric-series equation forces the interval start if it exists. Choosing the lexicographically first such witness gives an injection from primitive canonical row orbits into at most 2*phi(n)*(n-1)=n(n-1)<n^2 witnesses."
+}
