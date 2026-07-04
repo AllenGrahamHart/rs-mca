@@ -269,11 +269,25 @@ def radial():
     def ecls(u):
         return "green" if nodes[u]["status"] in DONE else \
                ("red" if nodes[u]["status"] in OPEN else "dim")
+    def polar_path(x1, y1, x2, y2):
+        """Natural radial-flow edge: interpolate angle and radius in polar
+        space (shortest angular way), eased so the sweep happens mid-path."""
+        t1, r1 = math.atan2(y1 - cy, x1 - cx), math.hypot(x1 - cx, y1 - cy)
+        t2, r2 = math.atan2(y2 - cy, x2 - cx), math.hypot(x2 - cx, y2 - cy)
+        dt = (t2 - t1 + math.pi) % (2 * math.pi) - math.pi
+        pts = []
+        N = 18
+        for i in range(N + 1):
+            s = i / N
+            ease = s * s * (3 - 2 * s)          # smoothstep on the angle
+            th = t1 + dt * ease
+            rr = r1 + (r2 - r1) * s
+            pts.append(f"{cx + rr * math.cos(th):.1f},{cy + rr * math.sin(th):.1f}")
+        return "M" + " L".join(pts)
+
     for u, v in sorted((e for e in req if e[0] in crit and e[1] in crit),
                        key=lambda e: {"dim": 0, "green": 1, "red": 2}[ecls(e[0])]):
-        x1, y1, x2, y2 = X[u], Y[u], X[v], Y[v]
-        qx = cx + (x1 + x2 - 2 * cx) * 0.42; qy = cy + (y1 + y2 - 2 * cy) * 0.42
-        pth = f"M{x1:.0f},{y1:.0f} Q{qx:.0f},{qy:.0f} {x2:.0f},{y2:.0f}"
+        pth = polar_path(X[u], Y[u], X[v], Y[v])
         c = ecls(u)
         if c == "green":
             parts.append(f'<path d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
