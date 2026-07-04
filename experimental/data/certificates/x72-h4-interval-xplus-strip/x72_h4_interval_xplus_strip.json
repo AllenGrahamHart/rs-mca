@@ -1,0 +1,1141 @@
+{
+  "checks": 40,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x68_h4_norm_gate_certifier_keys": "PROVED",
+    "x70_h4_normalized_quotient_resultant": "PROVED",
+    "x71_h4_interval_quotient_form": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "certifier_key_count": 19,
+      "division_failures": [],
+      "key_flag_histogram": {
+        "no_xplus_strip": 13,
+        "xplus_strip": 6
+      },
+      "key_invariance_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "normalized_flag_histogram": {
+        "no_xplus_strip": 60,
+        "xplus_strip": 22
+      },
+      "normalized_member_count": 82,
+      "p": 17,
+      "parity_failures": [],
+      "residual_degree_histogram": {
+        "10": 2,
+        "11": 3,
+        "12": 2,
+        "13": 5,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 1
+      },
+      "residual_weight_histogram": {
+        "10": 4,
+        "11": 2,
+        "12": 2,
+        "13": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 2,
+        "9": 2
+      },
+      "sample_stripped_residuals": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "residual_degree": 3,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 3,
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 5,
+          "member": [
+            1,
+            10,
+            5
+          ],
+          "residual_degree": 8,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "residual_weight": 7,
+          "sign": "positive",
+          "start": 5
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 5,
+          "member": [
+            1,
+            12,
+            7
+          ],
+          "residual_degree": 10,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "residual_weight": 9,
+          "sign": "positive",
+          "start": 7
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            12,
+            15
+          ],
+          "residual_degree": 13,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 13,
+          "sign": "negative",
+          "start": 12
+        },
+        {
+          "key": [
+            1,
+            2,
+            7
+          ],
+          "length": 5,
+          "member": [
+            1,
+            2,
+            7
+          ],
+          "residual_degree": 5,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 4,
+          "sign": "negative",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 133,
+      "division_failures": [],
+      "key_flag_histogram": {
+        "no_xplus_strip": 94,
+        "xplus_strip": 39
+      },
+      "key_invariance_failures": [],
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "normalized_flag_histogram": {
+        "no_xplus_strip": 444,
+        "xplus_strip": 152
+      },
+      "normalized_member_count": 596,
+      "p": 193,
+      "parity_failures": [],
+      "residual_degree_histogram": {
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 3,
+        "16": 2,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 2,
+        "24": 2,
+        "25": 2,
+        "26": 6,
+        "27": 3,
+        "28": 1,
+        "29": 3,
+        "30": 4,
+        "31": 2,
+        "32": 3,
+        "33": 3,
+        "34": 2,
+        "35": 1,
+        "36": 4,
+        "37": 3,
+        "38": 3,
+        "39": 1,
+        "40": 4,
+        "41": 2,
+        "42": 6,
+        "43": 5,
+        "44": 6,
+        "45": 3,
+        "46": 4,
+        "47": 4,
+        "48": 2,
+        "49": 5,
+        "50": 4,
+        "51": 4,
+        "52": 2,
+        "53": 4,
+        "54": 5,
+        "55": 4,
+        "56": 4,
+        "57": 6,
+        "58": 5,
+        "59": 7,
+        "6": 1,
+        "60": 3,
+        "61": 2,
+        "9": 2
+      },
+      "residual_weight_histogram": {
+        "10": 2,
+        "11": 1,
+        "12": 3,
+        "14": 1,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 3,
+        "19": 1,
+        "20": 1,
+        "21": 7,
+        "22": 2,
+        "23": 3,
+        "24": 3,
+        "25": 3,
+        "26": 7,
+        "27": 7,
+        "28": 4,
+        "29": 5,
+        "30": 3,
+        "31": 7,
+        "33": 7,
+        "34": 3,
+        "35": 5,
+        "36": 4,
+        "37": 7,
+        "38": 7,
+        "39": 3,
+        "40": 3,
+        "41": 3,
+        "42": 2,
+        "43": 7,
+        "44": 1,
+        "45": 1,
+        "46": 3,
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "5": 1,
+        "50": 1,
+        "52": 3,
+        "53": 1,
+        "54": 2,
+        "55": 2,
+        "56": 3,
+        "57": 1,
+        "59": 1,
+        "7": 1,
+        "8": 3,
+        "9": 2
+      },
+      "sample_stripped_residuals": [
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 13,
+          "member": [
+            1,
+            2,
+            15
+          ],
+          "residual_degree": 13,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 8,
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 5,
+          "member": [
+            1,
+            6,
+            11
+          ],
+          "residual_degree": 9,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 8,
+          "sign": "negative",
+          "start": 6
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 13,
+          "member": [
+            1,
+            50,
+            63
+          ],
+          "residual_degree": 61,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 56,
+          "sign": "negative",
+          "start": 50
+        },
+        {
+          "key": [
+            1,
+            2,
+            15
+          ],
+          "length": 5,
+          "member": [
+            1,
+            54,
+            59
+          ],
+          "residual_degree": 57,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 56,
+          "sign": "negative",
+          "start": 54
+        },
+        {
+          "key": [
+            1,
+            2,
+            51
+          ],
+          "length": 49,
+          "member": [
+            1,
+            2,
+            51
+          ],
+          "residual_degree": 49,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 26,
+          "sign": "negative",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 23,
+      "division_failures": [],
+      "key_flag_histogram": {
+        "no_xplus_strip": 15,
+        "xplus_strip": 8
+      },
+      "key_invariance_failures": [],
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "normalized_flag_histogram": {
+        "no_xplus_strip": 72,
+        "xplus_strip": 28
+      },
+      "normalized_member_count": 100,
+      "p": 7937,
+      "parity_failures": [],
+      "residual_degree_histogram": {
+        "19": 1,
+        "22": 1,
+        "23": 1,
+        "27": 1,
+        "28": 1,
+        "29": 2,
+        "32": 2,
+        "36": 1,
+        "37": 1,
+        "40": 1,
+        "42": 1,
+        "44": 1,
+        "50": 1,
+        "51": 1,
+        "52": 1,
+        "53": 2,
+        "54": 1,
+        "55": 2,
+        "56": 2,
+        "58": 1,
+        "59": 2,
+        "7": 1
+      },
+      "residual_weight_histogram": {
+        "15": 1,
+        "17": 1,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "22": 2,
+        "23": 1,
+        "25": 1,
+        "26": 1,
+        "28": 1,
+        "29": 1,
+        "35": 1,
+        "36": 1,
+        "38": 1,
+        "39": 1,
+        "41": 1,
+        "42": 2,
+        "44": 1,
+        "45": 1,
+        "46": 2,
+        "47": 1,
+        "49": 1,
+        "58": 1,
+        "6": 1
+      },
+      "sample_stripped_residuals": [
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "length": 5,
+          "member": [
+            1,
+            4,
+            9
+          ],
+          "residual_degree": 7,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 6,
+          "sign": "negative",
+          "start": 4
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "length": 13,
+          "member": [
+            1,
+            12,
+            25
+          ],
+          "residual_degree": 23,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 18,
+          "sign": "negative",
+          "start": 12
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "length": 13,
+          "member": [
+            1,
+            40,
+            53
+          ],
+          "residual_degree": 51,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 46,
+          "sign": "negative",
+          "start": 40
+        },
+        {
+          "key": [
+            1,
+            4,
+            9
+          ],
+          "length": 5,
+          "member": [
+            1,
+            56,
+            61
+          ],
+          "residual_degree": 59,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 58,
+          "sign": "negative",
+          "start": 56
+        },
+        {
+          "key": [
+            1,
+            4,
+            31
+          ],
+          "length": 27,
+          "member": [
+            1,
+            4,
+            31
+          ],
+          "residual_degree": 29,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 17,
+          "sign": "negative",
+          "start": 4
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 12,
+      "division_failures": [],
+      "key_flag_histogram": {
+        "no_xplus_strip": 10,
+        "xplus_strip": 2
+      },
+      "key_invariance_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "normalized_flag_histogram": {
+        "no_xplus_strip": 44,
+        "xplus_strip": 8
+      },
+      "normalized_member_count": 52,
+      "p": 17921,
+      "parity_failures": [],
+      "residual_degree_histogram": {
+        "102": 1,
+        "110": 2,
+        "111": 2,
+        "23": 1,
+        "39": 1,
+        "86": 1
+      },
+      "residual_weight_histogram": {
+        "100": 1,
+        "108": 1,
+        "20": 1,
+        "28": 1,
+        "52": 1,
+        "60": 1,
+        "68": 1,
+        "76": 1
+      },
+      "sample_stripped_residuals": [
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "length": 9,
+          "member": [
+            1,
+            16,
+            25
+          ],
+          "residual_degree": 23,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 20,
+          "sign": "negative",
+          "start": 16
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "length": 71,
+          "member": [
+            1,
+            88,
+            17
+          ],
+          "residual_degree": 86,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 52,
+          "sign": "positive",
+          "start": 17
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "length": 9,
+          "member": [
+            1,
+            104,
+            113
+          ],
+          "residual_degree": 111,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 108,
+          "sign": "negative",
+          "start": 104
+        },
+        {
+          "key": [
+            1,
+            16,
+            25
+          ],
+          "length": 71,
+          "member": [
+            1,
+            112,
+            41
+          ],
+          "residual_degree": 110,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 76,
+          "sign": "positive",
+          "start": 41
+        },
+        {
+          "key": [
+            1,
+            16,
+            41
+          ],
+          "length": 25,
+          "member": [
+            1,
+            16,
+            41
+          ],
+          "residual_degree": 39,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 28,
+          "sign": "negative",
+          "start": 16
+        }
+      ]
+    },
+    {
+      "certifier_key_count": 22,
+      "division_failures": [],
+      "key_flag_histogram": {
+        "no_xplus_strip": 16,
+        "xplus_strip": 6
+      },
+      "key_invariance_failures": [],
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "normalized_flag_histogram": {
+        "no_xplus_strip": 76,
+        "xplus_strip": 24
+      },
+      "normalized_member_count": 100,
+      "p": 91393,
+      "parity_failures": [],
+      "residual_degree_histogram": {
+        "101": 1,
+        "107": 1,
+        "116": 1,
+        "130": 1,
+        "154": 1,
+        "168": 1,
+        "170": 1,
+        "172": 1,
+        "194": 1,
+        "202": 1,
+        "203": 2,
+        "211": 1,
+        "220": 1,
+        "226": 2,
+        "234": 1,
+        "250": 1,
+        "251": 1,
+        "253": 2,
+        "3": 1,
+        "36": 1,
+        "51": 1
+      },
+      "residual_weight_histogram": {
+        "116": 2,
+        "119": 1,
+        "127": 2,
+        "129": 2,
+        "137": 1,
+        "140": 2,
+        "159": 1,
+        "167": 1,
+        "176": 1,
+        "179": 1,
+        "208": 1,
+        "223": 1,
+        "253": 1,
+        "3": 1,
+        "33": 1,
+        "48": 1,
+        "77": 1,
+        "80": 1,
+        "89": 1,
+        "97": 1
+      },
+      "sample_stripped_residuals": [
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            2,
+            5
+          ],
+          "residual_degree": 3,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 3,
+          "sign": "negative",
+          "start": 2
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 85,
+          "member": [
+            1,
+            170,
+            85
+          ],
+          "residual_degree": 168,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 127,
+          "sign": "positive",
+          "start": 85
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 85,
+          "member": [
+            1,
+            172,
+            87
+          ],
+          "residual_degree": 170,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 129,
+          "sign": "positive",
+          "start": 87
+        },
+        {
+          "key": [
+            1,
+            2,
+            5
+          ],
+          "length": 3,
+          "member": [
+            1,
+            252,
+            255
+          ],
+          "residual_degree": 253,
+          "residual_prefix": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "residual_weight": 253,
+          "sign": "negative",
+          "start": 252
+        },
+        {
+          "key": [
+            1,
+            2,
+            253
+          ],
+          "length": 251,
+          "member": [
+            1,
+            2,
+            253
+          ],
+          "residual_degree": 251,
+          "residual_prefix": [
+            1,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "residual_weight": 127,
+          "sign": "negative",
+          "start": 2
+        }
+      ]
+    }
+  ],
+  "status": "PROVED CERTIFIER REDUCTION: PARITY-MATCHED INTERVAL QUOTIENTS STRIP X+1 SAFELY",
+  "task": "X72 h=4 interval X+1 strip",
+  "theorem": "For q=1+eps*(X^a+...+X^(a+ell-1)), q(-1)=0 if and only if ell is odd and eps*(-1)^a=-1.  In that case q=(X+1)h.  For 2-power n>=4, Phi_n(-1)=2, so odd row characteristic makes p | Res(Phi_n,q) equivalent to p | Res(Phi_n,h).  The strip flag is invariant on X68 certifier keys because it is equivalent to the original four-term word vanishing at -1, and the X64/Galois key operations preserve that vanishing."
+}

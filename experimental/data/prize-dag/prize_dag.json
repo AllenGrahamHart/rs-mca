@@ -3734,6 +3734,16 @@
     "experimental/notes/roadmaps/x71_h4_interval_quotient_form.md"
    ],
    "notes": "Converts the primitive h=4 p-specific resultant test object into constant-plus-signed-interval form, parameterized by start, length, and sign."
+  },
+  {
+   "id": "x72_h4_interval_xplus_strip",
+   "title": "X72: h=4 interval quotients have a parity-controlled X+1 strip",
+   "status": "PROVED",
+   "statement": "For q=1+eps*(X^a+...+X^(a+ell-1)), q(-1)=0 iff ell is odd and eps*(-1)^a=-1. In that case q=(X+1)h, and for 2-power n>=4 the factor Res(Phi_n,X+1)=+/-2 is prime-safe in odd characteristic. The strip flag is invariant on X68 certifier keys.",
+   "refs": [
+    "experimental/notes/roadmaps/x72_h4_interval_xplus_strip.md"
+   ],
+   "notes": "Adds an optional second linear-factor stripping stage to the h=4 primitive norm-gate certifier after X70/X71, reducing the resultant degree for parity-matched interval keys without changing X65 row-count expansion."
   }
  ],
  "edges": [
@@ -6869,6 +6879,26 @@
   },
   {
    "from": "x71_h4_interval_quotient_form",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "x72_h4_interval_xplus_strip",
+   "kind": "req"
+  },
+  {
+   "from": "x70_h4_normalized_quotient_resultant",
+   "to": "x72_h4_interval_xplus_strip",
+   "kind": "req"
+  },
+  {
+   "from": "x71_h4_interval_quotient_form",
+   "to": "x72_h4_interval_xplus_strip",
+   "kind": "req"
+  },
+  {
+   "from": "x72_h4_interval_xplus_strip",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
