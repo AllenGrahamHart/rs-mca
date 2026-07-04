@@ -3234,6 +3234,16 @@
     "experimental/notes/roadmaps/x21_h4_prime_sweep.md"
    ],
    "notes": "Confirms that exceptional-prime h=4 behavior exists but stays inside the cyclic pullback ledger; the uniform h=4 target should classify both mu_4 full fibers and antipodal quotient lifts, not claim raw emptiness."
+  },
+  {
+   "id": "x22_h4_n64_full_window",
+   "title": "X22: full n=64 h=4 prime window has no primitive residue",
+   "status": "TEST",
+   "statement": "Medium-cost exact sweep over all 693 primes p == 1 mod 64 with 64^2 < p <= 64^3. Every h=4 active pair is cyclic-fingerprinted; there are zero primitive/non-fingerprinted rows. The only extra exceptional-prime family is the paid antipodal h=2 quotient lift, at p=4993,7937,10177,11329,26177,50177,51137,65537,156353.",
+   "refs": [
+    "experimental/notes/roadmaps/x22_h4_n64_full_window.md"
+   ],
+   "notes": "Extends X21's bounded n=64 sample to the full n^2..n^3 window. Supports the two-family h=4 classification target: mu_4 full fibers plus antipodal quotient lifts, both cyclic-paid."
   }
  ],
  "edges": [
@@ -5794,6 +5804,11 @@
   },
   {
    "from": "x21_h4_prime_sweep",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x22_h4_n64_full_window",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
