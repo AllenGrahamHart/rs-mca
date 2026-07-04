@@ -1,0 +1,151 @@
+{
+  "checks": 31,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x31_h2_quotient_norm_criterion": "PROVED",
+    "x40_h4_centered_pair_shell_reduction": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "nonzero_norm_gate_examples": [
+    {
+      "found": true,
+      "left_pair": [
+        0,
+        1
+      ],
+      "n": 16,
+      "p": 17,
+      "p_adic_valuation": 1,
+      "phi_descended": false,
+      "resultant": 68,
+      "resultant_abs_bits": 7,
+      "right_pair": [
+        2,
+        13
+      ],
+      "sum_s": 4
+    },
+    {
+      "found": true,
+      "left_pair": [
+        0,
+        1
+      ],
+      "n": 64,
+      "p": 193,
+      "p_adic_valuation": 1,
+      "phi_descended": false,
+      "resultant": 99202,
+      "resultant_abs_bits": 17,
+      "right_pair": [
+        5,
+        11
+      ],
+      "sum_s": 126
+    },
+    {
+      "found": true,
+      "left_pair": [
+        0,
+        1
+      ],
+      "n": 64,
+      "p": 257,
+      "p_adic_valuation": 1,
+      "phi_descended": false,
+      "resultant": 10954882,
+      "resultant_abs_bits": 24,
+      "right_pair": [
+        3,
+        27
+      ],
+      "sum_s": 82
+    },
+    {
+      "found": true,
+      "left_pair": [
+        0,
+        1
+      ],
+      "n": 32,
+      "p": 1153,
+      "p_adic_valuation": 1,
+      "phi_descended": false,
+      "resultant": 4612,
+      "resultant_abs_bits": 13,
+      "right_pair": [
+        22,
+        29
+      ],
+      "sum_s": 287
+    },
+    {
+      "found": true,
+      "left_pair": [
+        0,
+        2
+      ],
+      "n": 128,
+      "p": 17921,
+      "p_adic_valuation": 2,
+      "phi_descended": false,
+      "resultant": 47851889260036,
+      "resultant_abs_bits": 46,
+      "right_pair": [
+        52,
+        84
+      ],
+      "sum_s": 4760
+    }
+  ],
+  "status": "PROVED LOCALIZATION: nonzero centered pair shells are p-specific h=2 norm gates",
+  "task": "X41 h=4 centered norm-gate localization",
+  "theorem": "Over characteristic-zero roots of unity, two unordered pairs with the same nonzero sum are equal: conjugating x+y=u+v=s gives x^-1+y^-1=u^-1+v^-1, hence s/(xy)=s/(uv), so xy=uv and the pairs have the same sum and product.  Therefore a finite-field nonzero pair-sum collision cannot be Phi_n-descended; by X30/X31 its sparse 2+2 word has p dividing Res(Phi_n,f).  The centered affine h=4 residue from X40 is consequently p-specific norm-gate mass at the pair-shell level.",
+  "zero_sum_baseline_examples": [
+    {
+      "left_pair": [
+        0,
+        8
+      ],
+      "left_sum": 0,
+      "n": 16,
+      "p": 17,
+      "phi_descended": true,
+      "right_pair": [
+        1,
+        9
+      ],
+      "right_sum": 0
+    },
+    {
+      "left_pair": [
+        0,
+        32
+      ],
+      "left_sum": 0,
+      "n": 64,
+      "p": 193,
+      "phi_descended": true,
+      "right_pair": [
+        5,
+        37
+      ],
+      "right_sum": 0
+    },
+    {
+      "left_pair": [
+        0,
+        64
+      ],
+      "left_sum": 0,
+      "n": 128,
+      "p": 17921,
+      "phi_descended": true,
+      "right_pair": [
+        7,
+        71
+      ],
+      "right_sum": 0
+    }
+  ]
+}

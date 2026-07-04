@@ -3424,6 +3424,16 @@
     "experimental/notes/roadmaps/x40_h4_centered_pair_shell_reduction.md"
    ],
    "notes": "Proved exact reduction plus finite pair-shell evidence through n=256 alpha=2 and n=128 alpha=3. This does not prove shell emptiness uniformly; it turns the centered affine residue into a lower-dimensional h=2 collision target."
+  },
+  {
+   "id": "x41_h4_centered_norm_gate",
+   "title": "X41: h=4 centered affine shells are h=2 norm-gated",
+   "status": "PROVED",
+   "statement": "Over characteristic-zero roots of unity, two unordered pairs with the same nonzero sum are equal: conjugation gives s/(xy)=s/(uv), so xy=uv. Therefore a finite-field nonzero pair-sum collision is not Phi_n-descended; by X30/X31 its signed 2+2 word has p dividing Res(Phi_n,f). Thus the h4_centered_power_affine_residue from X40 is p-specific h=2 norm-gate mass at the pair-shell level, with the extra pair-product collision condition from X40.",
+   "refs": [
+    "experimental/notes/roadmaps/x41_h4_centered_norm_gate.md"
+   ],
+   "notes": "Proved localization. This does not bound the number of norm-gated shells; it shows the nonzero centered affine branch is not a new characteristic-zero h=4 mechanism."
   }
  ],
  "edges": [
@@ -6084,6 +6094,11 @@
   },
   {
    "from": "x40_h4_centered_pair_shell_reduction",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x41_h4_centered_norm_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
