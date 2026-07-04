@@ -25,9 +25,12 @@ TIERS
   A  FULL exhaustive census at n=32 (half=16 => full-subset MITM enumerates
      EVERY t-null block; exact, complete), t in {2,3,4}, each swept through its
      own balance point.  <-- the flagship; non-coset counts are EXACT.
-  B  fixed-weight exhaustive MITM window at n=64,t=4 (b in [5,16]); 64-bit mixed
-     key + exact re-verification of every collision.  Certifies the
-     sub-coset-weight window (b in {5,6,7} < M0=8) is empty (or emits a hit).
+  B  fixed-weight EXHAUSTIVE-all-split MITM window at n=64,t=4, b in [5,10]
+     (every (w1,w2) split shape across the halves is searched -- unlike a
+     balanced-split-only MITM, this is a genuine in-window certificate);
+     64-bit mixed key + exact re-verification of every collision.  Certifies
+     the sub-coset-weight weights (b in {5,6,7,9,10}, not mult of M0=8) empty
+     (or emits the primitive).
   C  n=256,t=16 and n=512,t=32 (the prompt's scaled analogues): EXACT coset /
      mean / QA.25-boundary arithmetic + a positive-control coset check.  A
      sampled MITM probe at the minimal weight is included but is falsifier-ONLY
@@ -205,6 +208,17 @@ def census_full(n, t, q, zeta, log, store_cap=64, verify_sample=64):
                 M0=M0, R=R)
 
 # --------------------------------------------- Tier B: fixed-weight window MITM
+# GENUINELY EXHAUSTIVE over ALL split shapes: a weight-b block splits (w1, w2)
+# across the two halves with w1 arbitrary in [0, b]; a balanced-split-only MITM
+# (the U2-C engine shape) misses unbalanced splits and is only probabilistic
+# under random bipartitions.  Here every unordered pair (w1-of-P1, w2-of-P2)
+# is covered exactly once: the smaller-count side is fully hashed
+# (wh <= bmax/2, tiny), the larger side fully streamed via vectorized
+# outer-adds of quarter tables.  A t-null block makes BOTH random linear forms
+# of (p_1..p_t) vanish on each side with opposite signs, so its 64-bit mixed
+# key matches EXACTLY -- exhaustive-in-window; every key collision is
+# re-verified exactly (two independent exact methods must agree).
+
 def contrib_forms(exps, n, q, zeta, t, wA, wB):
     ca = np.empty(len(exps), dtype=np.int64)
     cb = np.empty(len(exps), dtype=np.int64)
@@ -216,25 +230,51 @@ def contrib_forms(exps, n, q, zeta, t, wA, wB):
         ca[i] = a % q; cb[i] = bb % q
     return ca, cb
 
-def _combos(m, k, chunk=2_000_000):
-    it = itertools.combinations(range(m), k)
-    while True:
-        buf = list(itertools.islice(it, chunk))
-        if not buf:
-            return
-        yield np.asarray(buf, dtype=np.int16)
+def _quarter_tabs(ca, cb, wmax):
+    """Split a half (len m) into two quarters; per quarter per weight j:
+       (fa, fb, mask) over all C(m/2, j) subsets (within-half bit positions)."""
+    m = len(ca); mq = m // 2
+    tabs = []
+    for lo in (0, mq):
+        tab = {}
+        for j in range(0, min(wmax, mq) + 1):
+            combos = list(itertools.combinations(range(lo, lo + mq), j))
+            k = len(combos)
+            fa = np.zeros(k, dtype=np.int64); fb = np.zeros(k, dtype=np.int64)
+            mk = np.zeros(k, dtype=np.uint64)
+            if j > 0:
+                idx = np.asarray(combos, dtype=np.int64)
+                fa = ca[idx].sum(axis=1)
+                fb = cb[idx].sum(axis=1)
+                one = np.uint64(1)
+                for c in range(j):
+                    mk |= one << idx[:, c].astype(np.uint64)
+            tab[j] = (fa, fb, mk)
+        tabs.append(tab)
+    return tabs[0], tabs[1]
 
-def _mask_from(arr, offset):
-    masks = np.zeros(arr.shape[0], dtype=np.uint64)
-    one = np.uint64(1)
-    for j in range(arr.shape[1]):
-        masks |= (one << (arr[:, j].astype(np.uint64) + np.uint64(offset)))
-    return masks
+def _enum_weight(tabA, tabB, w, q, chunk=4_000_000):
+    """Yield (fa mod q, fb mod q, within-half masks) covering ALL weight-w
+       subsets of the half, as outer combinations of the two quarter tables."""
+    mq_max = max(tabA.keys())
+    for j in range(max(0, w - mq_max), min(w, mq_max) + 1):
+        Afa, Afb, Amk = tabA[j]
+        Bfa, Bfb, Bmk = tabB[w - j]
+        if len(Afa) == 0 or len(Bfa) == 0:
+            continue
+        step = max(1, chunk // max(1, len(Bfa)))
+        for i0 in range(0, len(Afa), step):
+            fa = (Afa[i0:i0 + step, None] + Bfa[None, :]) % q
+            fb = (Afb[i0:i0 + step, None] + Bfb[None, :]) % q
+            mk = (Amk[i0:i0 + step, None] | Bmk[None, :])
+            yield fa.ravel(), fb.ravel(), mk.ravel()
 
-def window_mitm(n, t, q, zeta, b_list, log):
-    """Exhaustive fixed-weight MITM over 0/1 blocks of mu_n, weights in b_list.
-       64-bit mixed key; every collision re-verified exactly."""
-    M0 = least_2power_above(t); stride = n // M0
+def _mix64(fa, fb):
+    return fa.astype(np.uint64) * MIX_C1 + fb.astype(np.uint64) * MIX_C2
+
+def window_mitm_allsplit(n, t, q, zeta, bmin, bmax):
+    """Exhaustive t-null census restricted to weights b in [bmin, bmax].
+       Returns (per_b tallies, hits dict)."""
     half = n // 2
     P1 = list(range(0, half)); P2 = list(range(half, n))
     rng = np.random.default_rng(SEED ^ q)
@@ -242,50 +282,68 @@ def window_mitm(n, t, q, zeta, b_list, log):
     wB = [int(rng.integers(1, q)) for _ in range(t)]
     ca1, cb1 = contrib_forms(P1, n, q, zeta, t, wA, wB)
     ca2, cb2 = contrib_forms(P2, n, q, zeta, t, wA, wB)
-    per_b = {}
-    for b in b_list:
-        b1 = b // 2; b2 = b - b1
-        hits = {}     # frozenset support -> verify dict (t-null only)
+    tabs = {0: _quarter_tabs(ca1, cb1, min(bmax, half)),
+            1: _quarter_tabs(ca2, cb2, min(bmax, half))}
+    # exact power table for fast exact verification (int64-safe: q < 2^20, n<=64)
+    Zt = np.array([[pow(zeta, (r * s) % n, q) for r in range(1, t + 1)]
+                   for s in range(n)], dtype=np.int64)
 
-        def do_split(k1, k2):
-            # hash side: k1 from P1
-            keys_parts, mask_parts = [], []
-            for arr in _combos(len(P1), k1):
-                fa = ca1[arr].sum(axis=1) % q
-                fb = cb1[arr].sum(axis=1) % q
-                keys_parts.append((fa.astype(np.uint64) * MIX_C1
-                                   + fb.astype(np.uint64) * MIX_C2))
-                mask_parts.append(_mask_from(arr, 0))
-            keys = np.concatenate(keys_parts); masks = np.concatenate(mask_parts)
+    # hash tables: per half, per wh <= bmax//2: sorted NEGATED mixed keys + masks
+    wh_max = min(bmax // 2, half)
+    hashed = {}
+    for h in (0, 1):
+        for wh in range(0, wh_max + 1):
+            fparts, mparts = [], []
+            for fa, fb, mk in _enum_weight(*tabs[h], wh, q):
+                fparts.append(_mix64((q - fa) % q, (q - fb) % q))
+                mparts.append(mk)
+            keys = np.concatenate(fparts); masks = np.concatenate(mparts)
             order = np.argsort(keys, kind='stable')
-            keys = keys[order]; masks = masks[order]
-            for arr in _combos(len(P2), k2):
-                fa = ca2[arr].sum(axis=1) % q
-                fb = cb2[arr].sum(axis=1) % q
-                fan = (q - fa) % q; fbn = (q - fb) % q
-                ks = (fan.astype(np.uint64) * MIX_C1 + fbn.astype(np.uint64) * MIX_C2)
-                lo = np.searchsorted(keys, ks, 'left')
-                hi = np.searchsorted(keys, ks, 'right')
-                sm2 = _mask_from(arr, half)
-                for si in np.nonzero(lo < hi)[0]:
-                    for hidx in range(lo[si], hi[si]):
-                        fm = int(masks[hidx]) | int(sm2[si])
-                        sup = frozenset(i for i in range(n) if (fm >> i) & 1)
-                        if sup in hits:
-                            continue
-                        v = verify_hit(sup, n, q, zeta, t)   # EXACT re-verify
-                        if v['tnull']:
-                            hits[sup] = v
-        do_split(b1, b2)
-        if b1 != b2:
-            do_split(b2, b1)
-        cos = sum(1 for v in hits.values() if v['cls'] == 'coset')
-        non = len(hits) - cos
-        per_b[b] = dict(total=len(hits), coset=cos, noncoset=non,
-                        sub_coset_weight=(b % M0 != 0))
-        log(f"    b={b:2d} ({'<M0' if b % M0 else 'coset-wt'}): "
-            f"tnull={len(hits)} coset={cos} noncoset={non}")
-    return per_b
+            hashed[(h, wh)] = (keys[order], masks[order])
+
+    hits = {}   # global support mask (python int) -> verify dict (t-null only)
+
+    def check_candidate(gmask):
+        if gmask in hits:
+            return
+        sup = [i for i in range(n) if (gmask >> i) & 1]
+        ps = Zt[sup].sum(axis=0) % q          # exact (no int64 overflow)
+        if not np.all(ps == 0):
+            return
+        v = verify_hit(sup, n, q, zeta, t)    # ground-truth pow() recompute
+        assert v['tnull'], (sup, ps)          # two exact methods must agree
+        hits[gmask] = v
+
+    # stream: each unordered pair (w1-of-P1, w2-of-P2) covered exactly once.
+    # Streaming half h at weight w matches hash tables (1-h, wh) with
+    # wh <= w (strict < when h==1, so the tie w1==w2 is handled once at h==0).
+    for h in (0, 1):
+        shift = 0 if h == 0 else half
+        oshift = half if h == 0 else 0
+        for w in range(max(1, (bmin + 1) // 2), min(bmax, half) + 1):
+            whs = [wh for wh in range(0, wh_max + 1)
+                   if (wh < w or (wh == w and h == 0))
+                   and bmin <= w + wh <= bmax]
+            if not whs:
+                continue
+            for fa, fb, mk in _enum_weight(*tabs[h], w, q):
+                ks = _mix64(fa, fb)
+                for wh in whs:
+                    keys, masks = hashed[(1 - h, wh)]
+                    lo = np.searchsorted(keys, ks, 'left')
+                    hi = np.searchsorted(keys, ks, 'right')
+                    for si in np.nonzero(lo < hi)[0]:
+                        for hidx in range(lo[si], hi[si]):
+                            gmask = (int(mk[si]) << shift) | \
+                                    (int(masks[hidx]) << oshift)
+                            check_candidate(gmask)
+
+    per_b = {}
+    for v in hits.values():
+        d = per_b.setdefault(v['b'], dict(total=0, coset=0, noncoset=0))
+        d['total'] += 1
+        d['coset' if v['cls'] == 'coset' else 'noncoset'] += 1
+    return per_b, hits
 
 # ------------------------------------------- Tier C: exact known + sampled probe
 def sampled_probe(n, t, q, zeta, b, K, log):
@@ -344,7 +402,7 @@ TIER_A = [
     (32, 3, [6, 7, 8, 9, 10, 11, 12, 13, 15, 18]),
     (32, 4, [6, 7, 8, 9, 10, 11, 12, 14, 16]),
 ]
-TIER_B = (64, 4, [6, 7, 8, 9, 10, 11, 12, 15, 16], list(range(5, 17)))
+TIER_B = (64, 4, [7, 9, 11, 13, 15, 16, 17], (5, 10))
 TIER_C = [(256, 16), (512, 32)]
 
 def run_tier_A(log):
@@ -379,26 +437,44 @@ def run_tier_A(log):
                         f"partial-occ={partial} count={c}")
     return any_fail
 
-def run_tier_B(log):
-    n, t, kexps, b_list = TIER_B
+def run_tier_B(log, kexps=None):
+    n, t, kdefault, (bmin, bmax) = TIER_B
+    kexps = kexps if kexps else kdefault
     M0 = least_2power_above(t)
-    log(f"\n#### Tier B window: n={n} t={t}  M0={M0}  weights={b_list}  "
-        f"(b<M0={[b for b in b_list if b % M0]}) balance log2q={n/t:.2f} ####")
+    log(f"\n#### Tier B window: n={n} t={t}  M0={M0}  EXHAUSTIVE all-split "
+        f"b in [{bmin},{bmax}] (sub-coset-weight b: {[b for b in range(bmin, bmax+1) if b % M0]})"
+        f"  balance log2q={n/t:.2f} ####")
     any_fail = False
     for k in kexps:
         q = prime_1modn_near(n, k)
         g, zeta = get_zeta(q, n)
-        log(f"  -- q={q} (~2^{math.log2(q):.2f}) --")
-        per_b = window_mitm(n, t, q, zeta, b_list, log)
+        log(f"  -- q={q} (~2^{math.log2(q):.2f}) --", )
+        per_b, hits = window_mitm_allsplit(n, t, q, zeta, bmin, bmax)
+        # positive control: all 8 mu_8-cosets (b=8, split (4,4)) must be found
+        ncosets = per_b.get(M0, dict(coset=0))['coset']
+        assert ncosets == n // M0, ("coset positive-control", q, ncosets)
+        for b in range(bmin, bmax + 1):
+            d = per_b.get(b, dict(total=0, coset=0, noncoset=0))
+            bmean = math.comb(n, b) / (q ** t)
+            log(f"    b={b:2d} ({'<M0 ' if b % M0 else 'cos-w'}): tnull={d['total']:>4} "
+                f"coset={d['coset']} noncoset={d['noncoset']:>4} "
+                f"b-mean={log2_or(bmean)}")
         nc_win = sum(d['noncoset'] for d in per_b.values())
         nc_subcoset = sum(d['noncoset'] for b, d in per_b.items() if b % M0)
-        ml2 = mean_log2(n, t, q)
-        # window mean = sum of C(n,b)/q^t over window
-        wmean = sum(math.comb(n, b) for b in b_list) / (q ** t)
+        wmean = sum(math.comb(n, b) for b in range(bmin, bmax + 1)) / (q ** t)
         v, spike, _ = verdict_row(n, nc_win, wmean)
         any_fail = any_fail or spike
-        log(f"     window noncoset total={nc_win} (sub-coset-weight={nc_subcoset}) "
-            f"window-mean={log2_or(wmean)} verdict={v}")
+        ratio = (f"2^{math.log2(nc_win/wmean):.2f}" if nc_win > 0 else "0")
+        log(f"     window noncoset={nc_win} (sub-coset-weight={nc_subcoset}) "
+            f"window-mean={log2_or(wmean)} ratio={ratio} verdict={v}")
+        # anatomy of any non-coset hits
+        shown = 0
+        for gm, vv in hits.items():
+            if vv['cls'] != 'coset' and shown < 6:
+                prof = quotient_profile(gm, n, M0)
+                log(f"       nc-anatomy: b={vv['b']} support={vv['support']} "
+                    f"profile={prof}")
+                shown += 1
     return any_fail
 
 def run_tier_C(log):
@@ -460,7 +536,9 @@ def selfcheck():
     assert res['coset'] == (1 << (n // M0)) - 1, (res['coset'], (1 << (n // M0)) - 1)
     # cross-check total against an independent brute count on a TINY case n=8
     _brute_check()
-    print("SELFCHECK PASS: verifier, classifier, census consistent (brute-checked).")
+    _brute_check_windowB()
+    print("SELFCHECK PASS: verifier, classifier, census + window engine "
+          "consistent (brute-checked).")
 
 def _brute_check():
     """Independent O(2^n) brute enumeration on a tiny case, matched vs census."""
@@ -481,10 +559,37 @@ def _brute_check():
     print(f"  brute-check n=8,t=2,q={q}: total={tot} coset={cos} "
           f"noncoset={tot-cos} (census agrees)")
 
+def _brute_check_windowB():
+    """Brute-check the Tier B all-split window engine on n=16, t=2 vs O(2^16)."""
+    n, t = 16, 2
+    q = prime_1modn_near(n, 7); g, zeta = get_zeta(q, n)
+    bmin, bmax = 3, 8
+    brute = {}
+    for mask in range(1, 1 << n):
+        b = popcount(mask)
+        if not (bmin <= b <= bmax):
+            continue
+        S = [i for i in range(n) if (mask >> i) & 1]
+        if all(v == 0 for v in power_sums(S, n, q, zeta, t)):
+            d = brute.setdefault(b, [0, 0])
+            d[0] += 1
+            d[1] += 1 if classify(S, n, t) == 'coset' else 0
+    per_b, _ = window_mitm_allsplit(n, t, q, zeta, bmin, bmax)
+    for b in range(bmin, bmax + 1):
+        bt = brute.get(b, [0, 0])
+        et = per_b.get(b, dict(total=0, coset=0))
+        assert et['total'] == bt[0] and et['coset'] == bt[1], \
+            ("windowB brute mismatch", b, et, bt)
+    print(f"  brute-check windowB n=16,t=2,q={q}, b in [{bmin},{bmax}]: "
+          f"per-b tallies agree with O(2^16) enumeration "
+          f"({ {b: v[0] for b, v in sorted(brute.items())} })")
+
 # ------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--tier', choices=['A', 'B', 'C', 'all'], default='all')
+    ap.add_argument('--kexps', type=int, nargs='*', default=None,
+                    help='Tier B only: override the swept log2-q exponents')
     ap.add_argument('--selfcheck', action='store_true')
     args = ap.parse_args()
     if args.selfcheck:
@@ -497,7 +602,7 @@ def main():
     if args.tier in ('A', 'all'):
         any_fail = run_tier_A(log) or any_fail
     if args.tier in ('B', 'all'):
-        any_fail = run_tier_B(log) or any_fail
+        any_fail = run_tier_B(log, kexps=args.kexps) or any_fail
     if args.tier in ('C', 'all'):
         any_fail = run_tier_C(log) or any_fail
     verdict = 'FAIL (B2b FALSIFIED at scaled params)' if any_fail else \

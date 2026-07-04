@@ -91,13 +91,27 @@ signature). Directly answers: does the non-coset count track the mean
 (no concentration) or spike, and does anything happen sharply AT the crossing?
 
 ### Tier B — fixed-weight window at larger n (corroboration), n=64, t=4
-Full census infeasible (`2^32`/half). Instead exhaustive **fixed-weight** MITM
-at the near-minimal weights (`b1 = b//2`, `C(32,b1)` feasible to `b1<=8`,
-`b<=16`), 64-bit mixed key + exact re-verification of every collision (U2-C
-engine). `M0=8`, so weights `5,6,7` are BELOW the minimum coset weight 8 — a
-t-null block there is an especially sharp primitive. Window `b in [5,16]`,
-swept through balance (`log2 q=16`); certifies the sub-coset-weight window is
-empty (or emits the primitive).
+Full census infeasible (`2^32`/half). Exhaustive **fixed-weight all-split**
+MITM at the near-minimal weights: every split shape `(w1, w2)`, `w1+w2=b`,
+across the two halves is searched (smaller side hashed, larger side streamed
+via vectorized outer-adds), so the window census is a genuine certificate —
+NOTE this is *stronger* than the U2-C engine, whose balanced-split
+(`b//2, b-b//2`) search plus random bipartitions covers unbalanced splits only
+probabilistically. 64-bit mixed key + exact re-verification of every collision
+by two independent exact methods. `M0=8`, so weights `5,6,7,9,10` are not
+multiples of `M0` — a t-null block there is automatically primitive. Window
+**`b in [5,10]`** at 7 primes `log2 q in {7,9,11,13,15,16,17}` swept through
+balance (`log2 q=16`).
+
+> **Amendment (disclosed; made after Tier A ran, before any Tier B result):**
+> the originally registered Tier B window `[5,16]` with the balanced-split
+> U2-C engine was replaced by the all-split engine with window `[5,10]` — a
+> balanced-split engine at `b in [11,16]` would NOT have been exhaustive
+> (it misses unbalanced splits), and mislabeling it "exhaustive" is worse
+> than an honestly smaller window; `[5,10]` is what is affordable all-split
+> within the single-process/2GB budget. The falsifier target (near-minimal
+> weights `b in [t+1, t+small]`) is unchanged. The new engine is brute-force
+> cross-checked at `n=16, t=2` against `O(2^16)` enumeration in `--selfcheck`.
 
 ### Tier C — exact known-class + honest probe at the prompt scales, n=256/512
 `n=256,t=16` and `n=512,t=32` (the prompt's scaled analogues, balance
