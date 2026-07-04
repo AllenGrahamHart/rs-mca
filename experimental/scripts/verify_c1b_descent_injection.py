@@ -22,12 +22,11 @@ Sections (each emits PASS/FAIL):
   S12 Part 2: Frobenius/BCH two-value characterization at p = -1 mod n
       (exhaustive at n=16, h=4, q=31^2) + negative control at q=7^2
 
-Memory-light (< 300 MB), runtime ~1-2 min, single process, stdlib + sympy.
+Memory-light (~300 MB peak), runtime ~10 s, single process, stdlib + sympy.
 """
 
 import sys
 import json
-import math
 from itertools import combinations, combinations_with_replacement
 from collections import Counter, defaultdict
 

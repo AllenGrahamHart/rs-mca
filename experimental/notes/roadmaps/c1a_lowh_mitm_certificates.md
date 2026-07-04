@@ -228,4 +228,5 @@ collision/trade in exact `F_{p*}` arithmetic, and checks the certificate JSONs'
 internal consistency (schema, zero non-toral, toral = C(256,2), stand-in prime
 `== 1 mod 1024` and prime, and per-n scan consistency). PASS/FAIL per gate/row.
 
-Current replay: **25 PASS, 0 FAIL**.
+Current replay: **27 PASS, 0 FAIL** (wall ~407 s: gates + exact n=16..256 +
+n=1024 report + h=5 measurement + certificate emit/verify).
