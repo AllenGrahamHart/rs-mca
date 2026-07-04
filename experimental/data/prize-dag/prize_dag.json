@@ -3284,6 +3284,16 @@
     "experimental/notes/roadmaps/x26_h4_quotient_sum_certificate.md"
    ],
    "notes": "Shrinks the finite-p h=4 exception mechanism to a lower h=2 quotient sum-collision certificate; no new primitive h=4 mechanism is present in the full checked windows."
+  },
+  {
+   "id": "x27_h4_large_quotient_sum",
+   "title": "X27: large h=4 quotient-sum windows stay sparse and paid",
+   "status": "TEST",
+   "statement": "Exact quotient h=2 extension for the h=4 antipodal-lift exception mechanism in the full n=128 and n=256 boundary windows. The zero-sum quotient baseline holds at every prime. Extra paid antipodal quotient lifts occur at 46 of 2411 primes for n=128, total 780 and max row 52, and at 214 of 8383 primes for n=256, total 3056 and max row 88. In both windows the total extra quotient mass is below n^2.",
+   "refs": [
+    "experimental/notes/roadmaps/x27_h4_large_quotient_sum.md"
+   ],
+   "notes": "Extends X26's lower h=2 quotient arithmetic without h=4 support sorting. This is finite evidence, not a structural h=4 classification; it shows the known paid finite-p exception mechanism remains far below the rewired n^3 terminal column in the next two full boundary windows."
   }
  ],
  "edges": [
@@ -5869,6 +5879,11 @@
   },
   {
    "from": "x26_h4_quotient_sum_certificate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x27_h4_large_quotient_sum",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
