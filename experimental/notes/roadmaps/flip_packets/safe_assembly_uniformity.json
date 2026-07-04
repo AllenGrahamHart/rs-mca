@@ -1,0 +1,16 @@
+{
+  "schema": "critical-dag-flip-packet-v1",
+  "node": "safe_assembly_uniformity",
+  "packet": "experimental/notes/roadmaps/flip_packets/safe_assembly_uniformity.md",
+  "current_label": "UNPROVED",
+  "verdict": "DEFECT",
+  "kids": [
+    "descriptor"
+  ],
+  "pins": {
+    "safe_assembly_uniformity": "aea2d57ac82bf3f9",
+    "descriptor": "e7304c18f03a0d1c"
+  },
+  "argument": "DEFECT: the only req child descriptor is an artifact specification, not a proposition strong enough to imply the uniform safe-side assembly statement. Split or reword descriptor into a checkable descriptor theorem, then re-referee.",
+  "proposed_fix": "Create a truth-apt descriptor node asserting generator existence, polynomial symbolic evaluation, pinned-row regression, master-table regression, and single-source use by the compiler."
+}
