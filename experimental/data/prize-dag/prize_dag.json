@@ -3704,6 +3704,16 @@
     "experimental/notes/roadmaps/x68_h4_norm_gate_certifier_keys.md"
    ],
    "notes": "Packages the primitive h=4 norm-gate certifier input: one resultant per chord-plus-Galois key, with an explicit warning that raw key orbits are not fixed-row solution orbits."
+  },
+  {
+   "id": "x69_h4_unit_anchor_normal_form",
+   "title": "X69: h=4 primitive norm-gate keys have unit-anchor normal form",
+   "status": "PROVED",
+   "statement": "For n=2^s and gcd(n,a,b,c)=1, at least one exponent is odd. X64 transforms can place an odd exponent in the first coordinate, and X67 unit scaling sends it to 1. Hence every primitive X68 certifier key has a filtered content-one representative (1,r,s).",
+   "refs": [
+    "experimental/notes/roadmaps/x69_h4_unit_anchor_normal_form.md"
+   ],
+   "notes": "Reduces primitive h=4 sparse-resultant enumeration from exponent triples to normalized pairs (1,r,s) in certifier currency; survivor row mass still expands via X65."
   }
  ],
  "edges": [
@@ -6784,6 +6794,26 @@
   },
   {
    "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
+   "to": "x69_h4_unit_anchor_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "x67_h4_galois_norm_gate_compression",
+   "to": "x69_h4_unit_anchor_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "x68_h4_norm_gate_certifier_keys",
+   "to": "x69_h4_unit_anchor_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "x69_h4_unit_anchor_normal_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
