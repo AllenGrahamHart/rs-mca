@@ -52,13 +52,14 @@
   {
    "id": "s0_zero_open",
    "title": "S0 object audit: zero OPEN axes",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
-   "statement": "Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim)."
+   "statement": "Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim).",
+   "notes": "PROMOTED red -> amber (ring-2 sweep, node 2): the statement IS the conjunction of the per-axis resolution nodes \u2014 inventory verified COMPLETE against s5_s0's axis table (axes 3/5/6/7 = axes_verified PROVED; axes 1/2/4/8/9 = nodes; the rules layer = rules_freeze PROVED). Axis 8 was MISSING (defect #5) \u2014 node-ified and wired by this audit. Definitional assembly: flips green when the axis nodes land."
   },
   {
    "id": "axes_verified",
@@ -102,11 +103,11 @@
   {
    "id": "axis9_dither",
    "title": "Axis 9: exact rates (dither adverse, provisional)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
    ],
-   "notes": "Decomposed 2026-07-04 (normal-form audit): the provisional condition IS the rules-freeze question \u2014 live page wording 'rates exact' resolves dither ADVERSE; now wired as req on rules_freeze instead of living in prose."
+   "notes": "Decomposed 2026-07-04 (normal-form audit): the provisional condition IS the rules-freeze question \u2014 live page wording 'rates exact' resolves dither ADVERSE; now wired as req on rules_freeze instead of living in prose. | DISCHARGED 2026-07-04: rules_freeze flipped green (rates-exact quoted verbatim from abf26.pdf p.5) \u2014 the conditional's hypothesis landed; the adverse resolution (no dither latitude => the maximal dyadic quotient structure STANDS) is now unconditional."
   },
   {
    "id": "field_cap_check",
@@ -3477,6 +3478,15 @@
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
    ]
+  },
+  {
+   "id": "axis8_generating",
+   "title": "Axis 8: non-generating rows / tower-case admissibility (node-ified from s5_s0 F3)",
+   "status": "TARGET",
+   "statement": "Resolve axis 8: does the official family admit NON-GENERATING rows (q_line = q_gen^m, m >= 2)? The confirmed caps (k <= 2^40, |F| < 2^256, abf26.pdf p.5) leave room for q_gen < 2^128 extension towers, so the F3-adverse direction is LIVE: the tower case is admissible and must be PRICED (the ext_lift / f1_classification chain), not excluded. Resolution = either a citation that the official family excludes towers, or the priced-adverse reading with the ext chain as the bridge (loss printed). Was referenced in s5_s0's failure table (F3) but had no node until the ring-2 sweep audit.",
+   "refs": [
+    "experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md"
+   ]
   }
  ],
  "edges": [
@@ -6158,6 +6168,11 @@
   {
    "from": "rules_m_reading",
    "to": "rules_freeze",
+   "kind": "req"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "s0_zero_open",
    "kind": "req"
   }
  ]

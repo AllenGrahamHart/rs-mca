@@ -37,6 +37,29 @@
     "zone_b": "75db584ef7100b1f",
     "unsafe_at_crossing": "ce0dc79f00cfed1f"
    }
+  },
+  {
+   "node": "s0_zero_open",
+   "kids": [
+    "axes_verified",
+    "axis1_batching",
+    "axis2_ell",
+    "axis4_predicate",
+    "axis8_generating",
+    "axis9_dither",
+    "rules_freeze"
+   ],
+   "argument": "DEFINITIONAL CONJUNCTION: 'every object axis EQUAL or BRIDGED with loss printed' is exactly the conjunction of the per-axis resolutions; the inventory is complete per s5_s0's axis table after the axis-8 node-ification (defect #5, this audit).",
+   "pins": {
+    "s0_zero_open": "2f71d69e11cd8e08",
+    "axes_verified": "dd9980c99a08f9ff",
+    "axis1_batching": "7089ad1b705823d8",
+    "axis2_ell": "6dc60645ee1fc5e2",
+    "axis4_predicate": "84fffb2273024c00",
+    "axis8_generating": "333676d3555ae634",
+    "axis9_dither": "fdb698e939f674ef",
+    "rules_freeze": "20158d4e39a2d99a"
+   }
   }
  ]
 }
