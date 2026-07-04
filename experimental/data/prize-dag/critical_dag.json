@@ -64,12 +64,12 @@
   },
   {
    "id": "averaged_slope_conversion",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
   },
   {
    "id": "averaged_xr",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Averaged XR via Johnson-scheme second moments"
   },
   {
@@ -259,7 +259,7 @@
   },
   {
    "id": "dyadic_profile_evaluation",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
   },
   {
@@ -624,7 +624,7 @@
   },
   {
    "id": "p1_post_paid_subcore_richline_cap",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "P1's named gap: the per-subcore cap holds POST-STRIP"
   },
   {
@@ -748,6 +748,11 @@
    "title": "Strip-periodic: aperiodic stratum exact"
   },
   {
+   "id": "subcore_richline_classification",
+   "label": "UNPROVED",
+   "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores"
+  },
+  {
    "id": "t_laurent_ritt_toral_stabilizer",
    "label": "PROVED",
    "title": "PROVED (X-9): the tame Laurent-Ritt / toral stabilizer theorem \u2014 T's core"
@@ -799,7 +804,7 @@
   },
   {
    "id": "unsafe_at_crossing",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
   },
   {
@@ -871,6 +876,11 @@
    "id": "xr_heavy_triangle_charge",
    "label": "CONDITIONAL",
    "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge"
+  },
+  {
+   "id": "xr_ledger_exponent_reconciliation",
+   "label": "UNPROVED",
+   "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))"
   },
   {
    "id": "xr_ledger_qpower",
@@ -1877,6 +1887,14 @@
   {
    "from": "l1_coset_chart_residue_bridge",
    "to": "petal_excess_induction"
+  },
+  {
+   "from": "xr_ledger_exponent_reconciliation",
+   "to": "averaged_xr"
+  },
+  {
+   "from": "subcore_richline_classification",
+   "to": "p1_post_paid_subcore_richline_cap"
   }
  ]
 }

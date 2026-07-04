@@ -476,11 +476,11 @@
   {
    "id": "averaged_xr",
    "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
    ],
-   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit): the proof defers to xr_ledger_qpower (now PROVED, slot filled) BUT the exponent off-by-one \u2014 statement q^{-min(s,t)} vs ledger c(s,t) = min(s,t-1) \u2014 is unresolved and worth a full q factor at deep shells. Conditional on xr_ledger_exponent_reconciliation."
   },
   {
    "id": "displacement_uniform",
@@ -1450,12 +1450,12 @@
   {
    "id": "unsafe_at_crossing",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROMOTED red -> amber (Codex batch-3 defect completed by this audit): the collision-free branch = certified_valueset_lower (the all-pairs-distinct witness family) \u2014 was prose-only (my earlier fix silently no-op'd on an existing ev edge); now wired req alongside the collided branch (averaged_slope_conversion, RIPE). The two-branch split (collision-free vs collided) is exhaustive by definition; granting both branches, the adjacent-point witnesses exist per row \u2014 assembly statement. | FLIP on replay (Codex wave 5): CONDITIONAL -> PROVED. | REWIRE accepted with the proof: collision-free branch = qfloor_exact (existence by counting \u2014 collision-free MEANS the value-set is full); certified_valueset_lower de-wired here (it serves the knife-edge census, which needs the certified construction). | GATE CLEARED (like m_handling): the any-route structure predates the settled two-branch proof; e1_fullness and free_pool_ladder demoted to ev (kept as alternative-mechanism evidence).",
+   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROMOTED red -> amber (Codex batch-3 defect completed by this audit): the collision-free branch = certified_valueset_lower (the all-pairs-distinct witness family) \u2014 was prose-only (my earlier fix silently no-op'd on an existing ev edge); now wired req alongside the collided branch (averaged_slope_conversion, RIPE). The two-branch split (collision-free vs collided) is exhaustive by definition; granting both branches, the adjacent-point witnesses exist per row \u2014 assembly statement. | FLIP on replay (Codex wave 5): CONDITIONAL -> PROVED. | REWIRE accepted with the proof: collision-free branch = qfloor_exact (existence by counting \u2014 collision-free MEANS the value-set is full); certified_valueset_lower de-wired here (it serves the knife-edge census, which needs the certified construction). | GATE CLEARED (like m_handling): the any-route structure predates the settled two-branch proof; e1_fullness and free_pool_ladder demoted to ev (kept as alternative-mechanism evidence). | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
    "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
    "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
    "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
@@ -1463,21 +1463,21 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
-   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED.",
+   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
    "statement": "From the exact FM first moment and the slope-resolved second-moment ledger, after excluding paid fibers and applying the v8 per-locator cap, a family whose locator mean crosses B* contains a pair (u,v) with at least B* distinct bad slopes."
   },
   {
    "id": "dyadic_profile_evaluation",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family."
+   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family. | FLIP on replay (consolidation agent): exact big-int reproduction of QA.22 (log2 Q_M* = 99.81/66.15/82.97); first-scale dominance proved; n-uniform (RowC = prize); rate-1/2 parity-killed."
   },
   {
    "id": "thm_exactslack",
@@ -1654,12 +1654,12 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_gvn/. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_gvn/. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands."
   },
   {
    "id": "xr_inverse",
@@ -2957,7 +2957,7 @@
   {
    "id": "p1_post_paid_subcore_richline_cap",
    "title": "P1's named gap: the per-subcore cap holds POST-STRIP",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Codex P1 (CONDITIONAL, replay pending PR integration): the exact near-k subcore reduction of the deep-link staircase is PROVED, but the raw per-subcore partner cap is FALSE before paid stripping \u2014 rich lines (structured configurations through a subcore) can carry many partners and must be charged first. Remaining statement: after the paid strip (tangent/quotient-with-tails/dihedral), partners through any fixed near-k subcore number <= C (E33 observed <= 5, density-independent, in post-organic data \u2014 consistent with the strip removing the rich lines).",
    "attack_surface": "characterize rich lines through a subcore (they should be exactly the staircase/pencil families \u2014 the paid classes); the post-strip cap then follows from the same interpolation rigidity that bounds tame partners; E33's data calibrates C",
@@ -2965,7 +2965,7 @@
    "refs": [
     "experimental/notes/roadmaps/e33_deep_link_staircase.md"
    ],
-   "notes": "P3 (10/10): the reduction's residue is NAMED \u2014 p3_affine_net_richline_residue (multi-direction affine nets in the subcore plane); the strip-first route alone is insufficient; see the residue node's two routes. | ASSEMBLABLE (post-F3): P1's subcore reduction (proved) + the charged affine-net residue (U3, proved) => the post-strip cap follows; remaining work = the assembly packet writing the two together with E33's constants. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+   "notes": "P3 (10/10): the reduction's residue is NAMED \u2014 p3_affine_net_richline_residue (multi-direction affine nets in the subcore plane); the strip-first route alone is insufficient; see the residue node's two routes. | ASSEMBLABLE (post-F3): P1's subcore reduction (proved) + the charged affine-net residue (U3, proved) => the post-strip cap follows; remaining work = the assembly packet writing the two together with E33's constants. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit GAP): the landed proof ASSERTS rich-line-class exhaustiveness \u2014 exactly the unproven content (deps are evidence-only: E33 toys, 14 F_193 net cases). Conditional on subcore_richline_classification."
   },
   {
    "id": "moment_trade_staircase",
@@ -3759,6 +3759,29 @@
    "statement": "PROVED-LOCAL / NORMAL-FORM (693-line verifier, upstream main ab8d125b): in a full-petal coset chart (H of order ell, t distinct active petals, C a union of H-cosets), every capped kernel set is EITHER quotient-coset structured OR emits a low-degree projective residue pair, which after cancelling simultaneous active quotient-label basepoints becomes ordinary residue-line data on the surviving labels. Consumes the merged L1 collapse chain (coset-petal rank collapse + general reconstruction collapse). NOT a primitive-vacancy theorem \u2014 the prime-ell mixed minimal examples are classified by the residue data, not excluded.",
    "refs": [
     "experimental/notes/l1/l1_coset_chart_residue_bridge_v1.md"
+   ]
+  },
+  {
+   "id": "xr_ledger_exponent_reconciliation",
+   "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))",
+   "status": "TARGET",
+   "statement": "Reconcile averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1): determine the correct exponent per shell, propagate through the second-moment sum, and confirm the consumer margins absorb the difference (a full q factor at shells s >= t). Small: the qx13 ledger tables decide it at toy scale.",
+   "attack_surface": "recompute the toy pair-ledger at both exponents vs the exact counts",
+   "falsifier": "the toy ledger matching neither exponent",
+   "refs": [
+    "nodes/averaged_xr/proof.md"
+   ]
+  },
+  {
+   "id": "subcore_richline_classification",
+   "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores",
+   "status": "TARGET",
+   "key": true,
+   "statement": "Every (t+1)-rich line through a near-k subcore lies in {tangent pencil, quotient-with-tails, dihedral, affine-net} \u2014 no fifth class \u2014 and the post-strip residue is uniformly capped. The honest open content behind p1's cap; currently supported only by E33 evidence (<= 5 at toys) and the F_193 net cases.",
+   "attack_surface": "the taxonomy machinery (Laurent-Ritt + dihedral stratum, both PROVED) applied at the subcore normal form; or a fifth-class falsifier scan first",
+   "falsifier": "a fifth rich-line class at any toy row (extend the E33 scan)",
+   "refs": [
+    "nodes/p1_post_paid_subcore_richline_cap/proof.md"
    ]
   }
  ],
@@ -6622,6 +6645,16 @@
    "from": "l1_coset_chart_residue_bridge",
    "to": "petal_growth",
    "kind": "ev"
+  },
+  {
+   "from": "xr_ledger_exponent_reconciliation",
+   "to": "averaged_xr",
+   "kind": "req"
+  },
+  {
+   "from": "subcore_richline_classification",
+   "to": "p1_post_paid_subcore_richline_cap",
+   "kind": "req"
   }
  ]
 }
