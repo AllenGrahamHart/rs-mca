@@ -8,6 +8,16 @@
  ],
  "nodes": [
   {
+   "id": "a1_lower_overlap_occupied_subcore_accounting",
+   "label": "UNPROVED",
+   "title": "SHARED BLOCKER of A1 + A2: occupied-subcore accounting"
+  },
+  {
+   "id": "a2_depth_cell_active_shadow_bound",
+   "label": "UNPROVED",
+   "title": "OCC-2's named replacement: the active-shadow depth-cell bound"
+  },
+  {
    "id": "acl_count",
    "label": "PROVED",
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)"
@@ -66,11 +76,6 @@
    "id": "b_rational_lift",
    "label": "PROVED",
    "title": "B-rational pencils give B-slopes (linearity)"
-  },
-  {
-   "id": "budget_b3",
-   "label": "PROVED",
-   "title": "Poly budget B <= 3 at n = 2^41 (123 < 128 bits)"
   },
   {
    "id": "cap_theorem",
@@ -168,6 +173,11 @@
    "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list"
   },
   {
+   "id": "deep_link_staircase",
+   "label": "CONDITIONAL",
+   "title": "THE COMMON GATE of beta-2b and beta-3c: aligned partners at near-k overlap"
+  },
+  {
    "id": "deep_point",
    "label": "PROVED",
    "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
@@ -186,6 +196,11 @@
    "id": "dyadic_profile_evaluation",
    "label": "PROVABLE",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
+  },
+  {
+   "id": "exchange_calculus",
+   "label": "PROVED",
+   "title": "One-exchange = Cauchy rank-one update (#152 instances)"
   },
   {
    "id": "ext_import",
@@ -478,6 +493,16 @@
    "title": "Containment = degenerate pencil (a=b=0) = def:residue"
   },
   {
+   "id": "p1_post_paid_subcore_richline_cap",
+   "label": "PROVABLE",
+   "title": "P1's named gap: the per-subcore cap holds POST-STRIP"
+  },
+  {
+   "id": "p3_affine_net_richline_residue",
+   "label": "PROVED",
+   "title": "P3's named residue: multi-direction affine nets in the subcore parameter plane"
+  },
+  {
    "id": "paid_closure",
    "label": "PROVABLE",
    "title": "Paid(A) closure: tangent+quotient+extension computable"
@@ -533,9 +558,9 @@
    "title": "prop:qfloor: quotient floor exact above norm threshold"
   },
   {
-   "id": "r2_rigidity",
+   "id": "r2_clean_rates",
    "label": "UNPROVED",
-   "title": "R2: unpaid aligned count <= n^B * FM (B<=3)"
+   "title": "CAMPAIGN TARGET: R2 with 100+-bit slack at rates 1/4, 1/8, 1/16"
   },
   {
    "id": "rate_half_coverage_gap",
@@ -638,6 +663,106 @@
    "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)"
   },
   {
+   "id": "xr_clean_residual_any_gate",
+   "label": "UNPROVED",
+   "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
+  },
+  {
+   "id": "xr_eliminant_vanishing_class",
+   "label": "UNPROVED",
+   "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations"
+  },
+  {
+   "id": "xr_fresh_codim_dichotomy",
+   "label": "UNPROVED",
+   "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy"
+  },
+  {
+   "id": "xr_globalness_from_ledger",
+   "label": "PROVABLE",
+   "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
+  },
+  {
+   "id": "xr_heavy_triangle_charge",
+   "label": "UNPROVED",
+   "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge"
+  },
+  {
+   "id": "xr_ledger_qpower",
+   "label": "PROVABLE",
+   "title": "Each residual constraint is worth a q-factor: the ledger's exchange rate over combinatorics"
+  },
+  {
+   "id": "xr_light_triangle_eliminant",
+   "label": "UNPROVED",
+   "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus"
+  },
+  {
+   "id": "xr_partial_tangent_band",
+   "label": "UNPROVED",
+   "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger"
+  },
+  {
+   "id": "xr_pencil_cascade",
+   "label": "PROVED",
+   "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma"
+  },
+  {
+   "id": "xr_popular_core_triangles",
+   "label": "UNPROVED",
+   "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy"
+  },
+  {
+   "id": "xr_radius_arithmetic",
+   "label": "PROVABLE",
+   "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope"
+  },
+  {
+   "id": "xr_sameslope_list_crossover",
+   "label": "PROVED",
+   "title": "RUNG 2a: same-slope families ARE the list challenge's object"
+  },
+  {
+   "id": "xr_scattered_syzygy_flattice",
+   "label": "UNPROVED",
+   "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects"
+  },
+  {
+   "id": "xr_small_set_engine",
+   "label": "PROVABLE",
+   "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure"
+  },
+  {
+   "id": "xr_smallcore_spread_count",
+   "label": "UNPROVED",
+   "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count"
+  },
+  {
+   "id": "xr_sunflower_rank_additive",
+   "label": "PROVED",
+   "title": "beta-1 (PROVABLE, proof complete): sunflowers never stagnate \u2014 the 2n/t cap"
+  },
+  {
+   "id": "xr_syzygy_flat_transport",
+   "label": "PROVED",
+   "title": "gamma-a (PROVABLE/mechanical): the scattered-syzygy -> flat dictionary"
+  },
+  {
+   "id": "xr_syzygy_support_lemma",
+   "label": "PROVED",
+   "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget"
+  },
+  {
+   "id": "xr_target_budget_audit",
+   "label": "PROVED",
+   "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?"
+  },
+  {
+   "id": "xr_triangle_eliminant_form",
+   "label": "PROVED",
+   "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form"
+  },
+  {
    "id": "zone_b",
    "label": "UNPROVED",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)"
@@ -725,10 +850,6 @@
    "to": "mca_safe"
   },
   {
-   "from": "r2_rigidity",
-   "to": "mca_safe"
-  },
-  {
    "from": "ext_lift",
    "to": "mca_safe"
   },
@@ -783,14 +904,6 @@
   {
    "from": "gap2_seam",
    "to": "strip"
-  },
-  {
-   "from": "budget_b3",
-   "to": "r2_rigidity"
-  },
-  {
-   "from": "conj_f",
-   "to": "r2_rigidity"
   },
   {
    "from": "qcore",
@@ -962,10 +1075,6 @@
   },
   {
    "from": "payment_completeness",
-   "to": "r2_rigidity"
-  },
-  {
-   "from": "payment_completeness",
    "to": "imgfib"
   },
   {
@@ -1011,10 +1120,6 @@
   {
    "from": "knife_edge_census",
    "to": "adjacency_closing"
-  },
-  {
-   "from": "r2_rigidity",
-   "to": "aperiodic_zero_at_crossing"
   },
   {
    "from": "fm1",
@@ -1165,6 +1270,14 @@
    "to": "f_support_lattice"
   },
   {
+   "from": "exchange_calculus",
+   "to": "xr_ledger_qpower"
+  },
+  {
+   "from": "xr_ledger_qpower",
+   "to": "xr_radius_arithmetic"
+  },
+  {
    "from": "kernel_lattice_reframing",
    "to": "lattice_cone_certificate"
   },
@@ -1193,8 +1306,92 @@
    "to": "adjacency_closing"
   },
   {
+   "from": "xr_globalness_from_ledger",
+   "to": "r2_clean_rates"
+  },
+  {
+   "from": "xr_small_set_engine",
+   "to": "r2_clean_rates"
+  },
+  {
+   "from": "xr_radius_arithmetic",
+   "to": "r2_clean_rates"
+  },
+  {
+   "from": "xr_clean_residual_any_gate",
+   "to": "r2_clean_rates"
+  },
+  {
    "from": "dihedral_quotient_stratum",
    "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_clean_residual_any_gate"
+  },
+  {
+   "from": "xr_pencil_cascade",
+   "to": "xr_clean_residual_any_gate"
+  },
+  {
+   "from": "xr_smallcore_spread_count",
+   "to": "xr_clean_residual_any_gate"
+  },
+  {
+   "from": "xr_sameslope_list_crossover",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_partial_tangent_band",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_fresh_codim_dichotomy",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_syzygy_support_lemma",
+   "to": "xr_fresh_codim_dichotomy"
+  },
+  {
+   "from": "xr_popular_core_triangles",
+   "to": "xr_fresh_codim_dichotomy"
+  },
+  {
+   "from": "xr_scattered_syzygy_flattice",
+   "to": "xr_fresh_codim_dichotomy"
+  },
+  {
+   "from": "xr_sunflower_rank_additive",
+   "to": "xr_popular_core_triangles"
+  },
+  {
+   "from": "xr_heavy_triangle_charge",
+   "to": "xr_popular_core_triangles"
+  },
+  {
+   "from": "xr_light_triangle_eliminant",
+   "to": "xr_popular_core_triangles"
+  },
+  {
+   "from": "deep_link_staircase",
+   "to": "xr_heavy_triangle_charge"
+  },
+  {
+   "from": "deep_link_staircase",
+   "to": "xr_light_triangle_eliminant"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_light_triangle_eliminant"
+  },
+  {
+   "from": "xr_eliminant_vanishing_class",
+   "to": "xr_light_triangle_eliminant"
+  },
+  {
+   "from": "xr_syzygy_flat_transport",
+   "to": "xr_scattered_syzygy_flattice"
   },
   {
    "from": "f_dih_subgroup_completeness",
@@ -1218,11 +1415,19 @@
   },
   {
    "from": "x4_exactlist_staircase_split",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "x4_exactlist_staircase_split",
    "to": "tr_perleaf_list_ident"
   },
   {
    "from": "wild_row_audit",
    "to": "f_dih_subgroup_completeness"
+  },
+  {
+   "from": "p1_post_paid_subcore_richline_cap",
+   "to": "deep_link_staircase"
   },
   {
    "from": "moment_trade_staircase",
@@ -1233,12 +1438,28 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
+   "from": "p3_affine_net_richline_residue",
+   "to": "p1_post_paid_subcore_richline_cap"
+  },
+  {
+   "from": "a1_lower_overlap_occupied_subcore_accounting",
+   "to": "deep_link_staircase"
+  },
+  {
+   "from": "a1_lower_overlap_occupied_subcore_accounting",
+   "to": "xr_partial_tangent_band"
+  },
+  {
    "from": "u2_per_row_certifier",
    "to": "x4b_moment_trade_exclusion"
   },
   {
    "from": "u2c_boundary_scale_column",
    "to": "x4b_moment_trade_exclusion"
+  },
+  {
+   "from": "a2_depth_cell_active_shadow_bound",
+   "to": "xr_partial_tangent_band"
   },
   {
    "from": "b2_modp_giant_extras",
@@ -1295,6 +1516,14 @@
   {
    "from": "corridor_ledger",
    "to": "adjacency_closing"
+  },
+  {
+   "from": "r2_clean_rates",
+   "to": "mca_safe"
+  },
+  {
+   "from": "r2_clean_rates",
+   "to": "aperiodic_zero_at_crossing"
   }
  ]
 }
