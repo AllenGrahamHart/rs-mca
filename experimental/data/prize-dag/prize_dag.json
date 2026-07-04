@@ -3804,6 +3804,16 @@
     "experimental/notes/roadmaps/x78_h5_square_shift_supports.md"
    ],
    "notes": "Turns the h=5 norm-gate branch into a canonical support test: the candidate square root is forced by the degree 10..5 coefficients, degrees 1..4 are obstruction equations, and there is no partition multiplicity."
+  },
+  {
+   "id": "x79_h5_obstruction_norm_gate",
+   "title": "X79: h=5 square-shift supports trigger four obstruction norm gates",
+   "status": "PROVED",
+   "statement": "For a 10-support R, the monic degree-five square-root candidate for L_R+lambda is forced by coefficients in degrees 10 through 5. A finite h=5 trade can occur only if the four low coefficients X^1..X^4 of S_R^2-L_R vanish modulo the row prime and the constant discrepancy is a nonzero square. Since X24 forbids characteristic-zero h=5 trades, after clearing powers of two every finite h=5 trade is p-specific: p divides the cyclotomic norm of each nonzero low obstruction.",
+   "refs": [
+    "experimental/notes/roadmaps/x79_h5_obstruction_norm_gate.md"
+   ],
+   "notes": "Sharpens X77/X78 from one first-sum norm gate to four simultaneous square-shift obstruction gates; the next h=5 certifier can test the gcd of these obstruction norms per 10-support."
   }
  ],
  "edges": [
@@ -7084,6 +7094,21 @@
   },
   {
    "from": "x78_h5_square_shift_supports",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "x79_h5_obstruction_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "x78_h5_square_shift_supports",
+   "to": "x79_h5_obstruction_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "x79_h5_obstruction_norm_gate",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
