@@ -1,9 +1,11 @@
 # B2b balance-point concentration scan — does the mod-p extras count spike near first-moment balance?
 
-- **Status:** PRE-REGISTERED (this section written before running). Falsifier
-  scan for DAG node `b2_modp_giant_extras` (the mod-p giant-block "extras"
-  bound at prize-max). Sibling of the PROVED char-0 node
-  `b1_char0_giant_coset_theorem`. Machinery inherited from the U2-C scan
+- **Status:** DONE — 39/39 rows PASS (B2b not falsified; no concentration, no
+  crossing spike; see Results + Verdict). Interpretation/thresholds were
+  pre-registered before running; the one design amendment (Tier B window) is
+  disclosed inline. Falsifier scan for DAG node `b2_modp_giant_extras` (the
+  mod-p giant-block "extras" bound at prize-max). Sibling of the PROVED char-0
+  node `b1_char0_giant_coset_theorem`. Machinery inherited from the U2-C scan
   (`u2c_falsifier_scan.md`); this scan differs in ONE decisive way — it runs
   **at** the first-moment balance point, not far above it.
 - **Verifier / scanner (one file):**
@@ -142,18 +144,111 @@ Per row we report `(known coset | non-coset observed [EXH or LB] | balanced mean
 
 - **Tier A rows are EXHAUSTIVE and COMPLETE** — every t-null block of `mu_32` is
   enumerated at every swept q; the non-coset counts are exact, not lower bounds.
-- **Tier B** is EXHAUSTIVE within the stated weight window `b in [5,16]` at
-  each swept q (0/1 blocks only); weights outside the window are not covered by
-  Tier B (Tier A already gives the complete picture at n=32).
+- **Tier B** is EXHAUSTIVE within the (amended, see above) weight window
+  `b in [5,10]` at each swept q (0/1 blocks only; ALL split shapes); weights
+  outside the window are not covered by Tier B (Tier A already gives the
+  complete all-weight picture at n=32).
 - **Tier C** coset/mean/boundary are exact arithmetic; the MITM number there is
   a sampled LOWER BOUND (finds, cannot certify absence) — coverage stated
   per row.
 
-## Results
+## Results — ALL TIERS RUN, ALL PASS
 
-_(filled after running; PASS = no `>=2^20` non-coset spike above mean.)_
+_(PASS = no `>=2^20` non-coset spike above mean; all runs seed 20260704.)_
 
-<!-- RESULTS-ANCHOR -->
+Selfcheck PASS: census engine matches `O(2^8)` brute enumeration at `n=8`;
+the Tier B all-split window engine matches `O(2^16)` brute enumeration at
+`n=16,t=2,q=193` per-weight exactly. Every reported hit re-verified by direct
+power-sum evaluation; Tier A coset counts matched `2^R-1` exactly at all 30
+rows (positive control); Tier B found all 8 `mu_8`-cosets at all 7 primes;
+Tier C single-coset positive controls t-null at both rows.
+
+### Tier A — FULL census, n=32 (EXHAUSTIVE at every row) — 30/30 PASS
+
+`t=2` (`M0=4`, coset unions `2^8-1=255`, balance `log2 q=16`):
+
+| q | log2 q | total t-null | coset | non-coset (EXACT) | mean `2^n/q^t` | nc/mean |
+|---|---|---|---|---|---|---|
+| 97 | 6.60 | 455743 | 255 | 455488 | 2^18.80 | 2^-0.00 |
+| 193 | 7.59 | 116511 | 255 | 116256 | 2^16.82 | 2^0.01 |
+| 577 | 9.17 | 14495 | 255 | 14240 | 2^13.66 | 2^0.14 |
+| 2081 | 11.02 | 1471 | 255 | 1216 | 2^9.95 | 2^0.29 |
+| 8353 | 13.03 | 575 | 255 | 320 | 2^5.94 | 2^2.38 |
+| 16417 | 14.00 | 543 | 255 | 288 | 2^3.99 | **2^4.18** |
+| 32801 | 15.00 | 255 | 255 | **0** | 2^2.00 | 0 |
+| 65537 | 16.00 (balance) | 255 | 255 | **0** | 2^-0.00 | 0 |
+| 131297/262337/524353 | 17–19 | 255 | 255 | **0** | 2^-2..2^-6 | 0 |
+
+`t=3` (balance `log2 q=10.67`): non-coset 6336 (q=97, ratio 2^0.43) → 768
+(q=193) → 128 (q=257, ratio 2^-0.98) → 64 (q=577, ratio 2^1.52) → **0 at ALL
+q >= 1153** (`log2 q=10.17`) through 2^18. 10/10 PASS.
+
+`t=4` (`M0=8`, coset unions 15, balance `log2 q=8`): non-coset 160 at q=97
+(ratio 2^1.72) → **0 at ALL q >= 193** through 2^16. 9/9 PASS.
+
+**Shape of the crossing (the pre-registered question):** NO spike at the
+balance crossing — the opposite. Far below balance the non-coset count sits
+**exactly on** the balanced mean (ratio 2^0.00–2^0.3); approaching balance it
+decays FASTER than the mean until only field-specific structured residues
+survive (max excess ratio 2^4.18, absolute count 288 — vs cushion
+`n^3 = 2^15`); at/above the crossing the count hits the exact coset floor
+`2^R-1` and stays there. The transition to the floor completes strictly BELOW
+nominal balance in all three sweeps (last non-coset survivor at
+`t log2 q ~ 28/30.5/26.4` out of `n=32` for t=2/3/4). The near-balance excess
+is granular: hits arrive in symmetry-orbit quanta (multiples of 32), which is
+also why slightly-below-balance rows with mean ~4 show 0. Calibrated
+concentration exponent over 30 exhaustive rows: `log2(nc/mean) <= 4.2`.
+
+**Anatomy of the non-coset extras (sixth-guise question):** far below balance
+the extras are generic (all partial-occupancy profiles — the random
+mean-tracking population). The LAST survivors near the crossing are strongly
+structured: at `t=2,q=16417` all 288 have per-class partial occupancy
+`(2,2,...,2)` — unions of 5–8 two-element in-class fiber patterns (pair
+relations inside single `mu_{M0}`-quotient classes); at `t=3,q=577` the 64
+survivors are antipodal `(2,2,2,2,2,2)`-profile blocks. Both are exactly the
+X-8/QA.25 boundary-scale zero-sum mechanism, already counted in the budget.
+**No new (sixth-guise) class appeared at any exhaustive row.**
+
+### Tier B — n=64, t=4, EXHAUSTIVE all-split window b in [5,10] — 7/7 PASS
+
+7 primes `log2 q in {7.59, 9.17, 11.05, 13.06, 15.00, 16.00, 17.01}` (balance
+16). At every prime: weights 5,6,7,9 EMPTY; weight 8 = exactly the 8
+`mu_8`-cosets; weight 10 empty EXCEPT q=193 (far below balance): **192
+non-coset t-null blocks vs per-weight mean `C(64,10)/q^4 = 2^6.77 ~ 109`,
+ratio 2^0.53** — mean-tracking, generic profiles (no structure). The
+sub-coset-weight window is CERTIFIED empty at the 6 primes `q >= 577`; at
+balance itself the whole window `[5,10]` contains only the coset dictionary.
+
+### Tier C — prompt scales n=256/512 at balance q=65537 — exact + probe
+
+Exact (no enumeration): coset unions `2^R-1 = 255` both rows; balanced mean
+`2^n/q^t = 2^-0.00` (both — exactly at balance); QA.25 boundary model
+`2^{R/2}/q^e = 2^-12.00` (both); cushions `n^3 = 2^24 / 2^27`. Known classes
+fit with the full cushion intact. Sampled probe at `b=t+1` (K=120000/side):
+0 hits at coverage `~2^-50.7` (n=256) and `~2^-136.2` (n=512) — HONEST LABEL:
+falsifier-only, certifies nothing.
+
+## VERDICT — B2b's no-concentration form NOT falsified; 39/39 rows PASS
+
+1. **No concentration anywhere**: max non-coset/mean ratio 2^4.18 (at absolute
+   count 288 << `n^3`); the pre-registered `>=2^20` falsifier threshold was
+   never approached within 15 bits, at any covered row.
+2. **No phase-transition spike at the crossing** — the non-coset count decays
+   through balance AHEAD of the mean and lands on the exact coset floor
+   strictly before `t log2 q = n`; above balance every t-null block is a coset
+   union (the b1 char-0 dictionary), at every exhaustively covered row.
+3. **Every structured survivor identified as X-8/QA.25 boundary-type**
+   in-class pair/zero-sum patterns. No sixth guise.
+4. Calibration for the (B)-side proof brief: toy concentration exponent
+   `<= ~4` bits vs the 123-bit cushion, and the extras die BEFORE balance —
+   consistent with B2b holding at prize-max with the entire cushion intact.
+
+**Honest coverage residual:** exhaustive coverage = n=32 all weights (30 q-rows)
++ n=64 weights 5–10 (7 q-rows). n=64 weights >10, and everything non-exact at
+n=256/512, are NOT covered (probe coverage `2^-50.7`/`2^-136.2` is vacuous).
+A mechanism first activating above n=64, or only at weights >10 of n=64, is
+not excluded — that residual is what the divisor-frame counting route in the
+`b2_modp_giant_extras` node must close.
 
 ## Reproduce (deterministic, seed 20260704)
 
