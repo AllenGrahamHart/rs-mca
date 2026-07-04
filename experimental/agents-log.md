@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - T-TOY toral classification scan
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/ttoy_toral_classification_scan.md`,
+  `experimental/scripts/verify_ttoy_toral_classification_scan.py`,
+  `experimental/data/certificates/ttoy-toral-classification-scan/`.
+- **Status:** TOY SANITY PASS.
+- **What is being added:** An exact bidegree-`(1,1)` toral/affine
+  fiber-product sanity scan for tame polynomial maps with `deg psi in
+  (t,20]`, including Dickson sanity checks.
+- **How it is useful:** Removes the cheap toral-line falsifier for the tame
+  toral classification input and records that affine line-factor cases reduce
+  to power-pullback normal forms in the checked range.
+- **What to do next:** Keep the full Laurent/rational toral classification
+  and bounded-tail robustness as separate load-bearing theorem work.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
