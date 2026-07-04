@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2292 2292" font-family="Helvetica,Arial,sans-serif">
+<defs>
+ <filter id="glow-green" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="2.6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ <filter id="glow-red" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+</defs>
+<rect width="2292" height="2292" fill="#0b1220"/>
+<circle cx="1146.0" cy="1146.0" r="122" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="214" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="306" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="398" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="490" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="582" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="674" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="766" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="858" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<circle cx="1146.0" cy="1146.0" r="950" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
+<path d="M1253,1331 Q1211,1271 1193,1259" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1383,1340 Q1318,1280 1319,1272" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1360,1146 Q1283,1166 1259,1193" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1460,902 Q1391,983 1416,1002" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1124,933 Q1184,1037 1259,1099" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1168,933 Q1203,1037 1259,1099" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1116,841 Q1124,929 1124,933" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1176,841 Q1149,929 1124,933" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1235,853 Q1174,934 1124,933" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1235,853 Q1193,934 1168,933" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1340,909 Q1310,1010 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1416,1002 Q1341,1049 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1439,1235 Q1351,1147 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1057,1439 Q1064,1347 1039,1331" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1002,1416 Q1040,1337 1039,1331" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M952,1383 Q1020,1323 1039,1331" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M909,1340 Q1002,1305 1039,1331" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M876,1290 Q988,1284 1039,1331" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1002,876 Q1003,996 951,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1003,1305 Q1039,1232 1033,1193" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M973,1272 Q1026,1179 1033,1099" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M937,1102 Q1011,1108 1033,1099" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M952,909 Q977,1028 937,1102" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M853,1235 Q950,1236 973,1272" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1176,1451 Q1219,1341 1289,1305" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1290,1416 Q1267,1326 1289,1305" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1235,1439 Q1243,1336 1289,1305" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1439,1235 Q1330,1297 1290,1416" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M876,1439 Q933,1187 909,952" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M841,1116 Q936,1170 951,1233" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M796,1335 Q871,1213 841,1116" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M753,1080 Q853,1106 841,1116" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M753,1212 Q853,1161 841,1116" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M753,1080 Q868,1241 876,1439" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1290,876 Q1289,996 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1383,952 Q1327,1028 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1340,1383 Q1310,1209 1341,1059" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1340,909 Q1288,933 1290,876" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1416,1002 Q1359,1004 1383,952" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1460,902 Q1377,962 1383,952" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1290,1416 Q1288,1359 1340,1383" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1235,1439 Q1265,1368 1340,1383" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1176,1451 Q1146,1402 1116,1451" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1290,1416 Q1248,1421 1244,1532" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1364,813 Q1298,893 1290,876" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M841,1176 Q936,1195 951,1233" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M876,853 Q910,986 853,1057" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M986,1510 Q956,1262 853,1057" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1057,1439 Q1042,1422 986,1510" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1416,1290 Q1341,1243 1341,1233" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1522,1275 Q1417,1261 1416,1290" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M771,831 Q841,934 796,957" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1061,663 Q963,864 796,957" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1099,1259 Q1141,1193 1180,1146" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1099,1259 Q1112,1193 1112,1146" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1253,961 Q1211,1021 1193,1033" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1289,987 Q1226,1032 1193,1033" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1168,933 Q1128,971 1080,942" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1606,1314 Q1507,1216 1544,1146" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1544,1146 Q1436,1109 1439,1057" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1439,1057 Q1342,1056 1319,1020" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M973,1020 Q1054,1046 1099,1033" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1003,987 Q1066,1032 1099,1033" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M656,1146 Q793,1066 796,957" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M876,853 Q827,1023 656,1146" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M656,1146 Q783,1278 771,1461" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1728,1146 Q1233,1278 771,1461" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M966,1700 Q913,1511 771,1461" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1326,1700 Q1064,1511 771,1461" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1728,1146 Q1315,1378 966,1700" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1728,1146 Q1466,1378 1326,1700" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1728,1146 Q1588,1290 1617,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1416,1290 Q1391,1309 1460,1390" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1460,1390 Q1406,1261 1451,1176" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1460,1390 Q1242,1451 1061,1629" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1061,1629 Q1202,1489 1364,1479" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1061,1629 Q1213,1527 1391,1570" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1326,1700 Q1419,1522 1617,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1326,1700 Q1024,1522 675,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M726,1673 Q772,1511 675,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M472,1146 Q665,1290 675,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1728,1146 Q1214,1367 726,1673" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M564,1146 Q1004,968 1391,722" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M675,804 Q1051,824 1391,722" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1296,1803 Q1407,1566 1617,1488" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1113,749 Q1095,856 1057,853" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1617,804 Q1537,932 1606,978" fill="none" stroke="#4ade80" stroke-width="1.3" stroke-opacity="0.8" filter="url(#glow-green)"/>
+<path d="M1193,1259 Q1180,1193 1180,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1193,1259 Q1151,1193 1112,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1259,1099 Q1208,1126 1180,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1259,1193 Q1208,1166 1180,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1033,1099 Q1084,1126 1112,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1033,1193 Q1084,1166 1112,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1212,1350 Q1193,1279 1193,1259" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1168,1359 Q1175,1283 1193,1259" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1124,1359 Q1156,1283 1193,1259" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1080,1350 Q1138,1279 1193,1259" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1319,1272 Q1238,1246 1193,1259" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1341,1233 Q1275,1202 1259,1193" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1039,1331 Q1148,1204 1259,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1341,1059 Q1275,1090 1259,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M951,1059 Q1111,1090 1259,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1289,1305 Q1253,1193 1259,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1057,853 Q1064,1101 1039,1331" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M853,1057 Q941,1072 951,1059" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1193,1259 Q1118,1213 1033,1193" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M951,1233 Q1017,1163 1033,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M909,952 Q965,1101 951,1233" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M853,1057 Q941,1145 951,1233" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1116,1451 Q1194,1341 1289,1305" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1244,1532 Q1174,1436 1116,1451" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1113,1543 Q1120,1440 1116,1451" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1355,1190 Q1281,1184 1259,1193" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M932,1146 Q1009,1126 1033,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M796,957 Q876,1029 853,1057" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M876,1002 Q951,1049 951,1059" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M876,1002 Q951,1122 951,1233" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M986,782 Q1042,870 1057,853" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1193,1033 Q1180,1099 1180,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1212,942 Q1193,1013 1193,1033" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1080,942 Q1138,1013 1193,1033" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1319,1020 Q1238,1046 1193,1033" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M951,1059 Q1036,1024 1080,942" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1451,1176 Q1347,1106 1319,1020" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1099,1033 Q1112,1099 1112,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M937,1190 Q1038,1117 1099,1033" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M951,1233 Q976,1201 937,1190" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M771,1461 Q841,1199 796,957" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1617,1488 Q1186,1422 771,1461" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1355,1102 Q1281,1108 1259,1099" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1451,1116 Q1362,1115 1355,1102" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1364,1479 Q1365,1299 1451,1176" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1391,1570 Q1340,1464 1364,1479" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M675,1488 Q791,1422 771,1461" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M726,619 Q772,1068 675,1488" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M966,592 Q1173,735 1391,722" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1522,1017 Q1432,1104 1451,1176" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1391,722 Q1407,913 1522,1017" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1039,961 Q1081,1021 1099,1033" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M288,1146 Q1107,1146 1912,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1912,1146 Q1723,1269 1753,1438" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1753,1438 Q1599,1413 1617,1488" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1244,760 Q1150,861 1057,853" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1606,978 Q1380,914 1244,760" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M2096,1146 Q1185,1146 288,1146" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1326,592 Q1415,843 1606,978" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1753,854 Q1477,791 1326,592" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M1296,489 Q1285,638 1326,592" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<path d="M380,1146 Q887,870 1296,489" fill="none" stroke="#f87171" stroke-width="1.8" stroke-opacity="0.95" filter="url(#glow-red)"/>
+<g><circle cx="1180" cy="1146" r="13.5" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1180" cy="1146" r="10" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>mca_grand [TARGET] Grand MCA: determine delta* (emca &lt;= 2^-128)</title></circle></g>
+<text x="1180" y="1131" font-size="8.5" text-anchor="middle" fill="#e2e8f0">mca_grand</text>
+<g><circle cx="1112" cy="1146" r="13.5" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1112" cy="1146" r="10" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>list_grand [TARGET] Grand List: determine delta* (|Lambda| &lt;= 2^-128 |F|)</title></circle></g>
+<text x="1112" y="1131" font-size="8.5" text-anchor="middle" fill="#e2e8f0">list_grand</text>
+<g><circle cx="1193" cy="1259" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1193" cy="1259" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>s0_zero_open [TARGET] S0 object audit: zero OPEN axes</title></circle></g>
+<text x="1203" y="1262" font-size="8.5" text-anchor="start" fill="#e2e8f0">s0_zero_open</text>
+<g><circle cx="1259" cy="1099" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1259" cy="1099" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>mca_safe [TARGET] MCA safe side: B_C(a_safe) &lt;= B* in-band</title></circle></g>
+<text x="1269" y="1102" font-size="8.5" text-anchor="start" fill="#e2e8f0">mca_safe</text>
+<g><circle cx="1259" cy="1193" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1259" cy="1193" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>mca_unsafe [TARGET] MCA unsafe side at adjacent grid point</title></circle></g>
+<text x="1269" y="1196" font-size="8.5" text-anchor="start" fill="#e2e8f0">mca_unsafe</text>
+<g><circle cx="1099" cy="1259" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>mixed_radix_frontier [PROVED] Mixed-radix uniformity: does the machinery survive non-2-power smooth domains?</title></circle></g>
+<g><circle cx="1193" cy="1033" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1193" cy="1033" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>adjacency_closing [TARGET] The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points</title></circle></g>
+<text x="1203" y="1036" font-size="8.5" text-anchor="start" fill="#e2e8f0">adjacency_closing</text>
+<g><circle cx="1033" cy="1099" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1033" cy="1099" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>list_safe [TARGET] List safe side above the window</title></circle></g>
+<text x="1023" y="1102" font-size="8.5" text-anchor="end" fill="#e2e8f0">list_safe</text>
+<g><circle cx="1033" cy="1193" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1033" cy="1193" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>list_unsafe [CONDITIONAL] List unsafe at gate: qcore counting (conventions pending)</title></circle></g>
+<text x="1023" y="1196" font-size="8.5" text-anchor="end" fill="#e2e8f0">list_unsafe</text>
+<g><circle cx="1099" cy="1033" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1099" cy="1033" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>list_adjacency_closing [TARGET] The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii</title></circle></g>
+<text x="1089" y="1036" font-size="8.5" text-anchor="end" fill="#e2e8f0">list_adjacency_closing</text>
+<g><circle cx="1253" cy="1331" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>axes_verified [PROVED] Axes 3/5/7 verified + q-dictionary (axis 6)</title></circle></g>
+<g><circle cx="1212" cy="1350" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1212" cy="1350" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>axis1_batching [TARGET] Axis 1: ABF batching shape</title></circle></g>
+<text x="1223" y="1353" font-size="8.5" text-anchor="start" fill="#e2e8f0">axis1_batching</text>
+<g><circle cx="1168" cy="1359" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1168" cy="1359" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>axis2_ell [TARGET] Axis 2: ell&gt;2 batching / tuple-to-pair</title></circle></g>
+<text x="1179" y="1362" font-size="8.5" text-anchor="start" fill="#e2e8f0">axis2_ell</text>
+<g><circle cx="1124" cy="1359" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1124" cy="1359" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>axis4_predicate [TARGET] Axis 4: ABF Delta_S = degenerate-pencil predicate?</title></circle></g>
+<text x="1113" y="1362" font-size="8.5" text-anchor="end" fill="#e2e8f0">axis4_predicate</text>
+<g><circle cx="1080" cy="1350" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1080" cy="1350" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>axis9_dither [CONDITIONAL] Axis 9: exact rates (dither adverse, provisional)</title></circle></g>
+<text x="1069" y="1353" font-size="8.5" text-anchor="end" fill="#e2e8f0">axis9_dither</text>
+<g><circle cx="1319" cy="1272" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1319" cy="1272" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>rules_freeze [TARGET] Rules freeze + SHA drift detector</title></circle></g>
+<text x="1330" y="1275" font-size="8.5" text-anchor="start" fill="#e2e8f0">rules_freeze</text>
+<g><circle cx="1124" cy="933" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>counting_frame [PROVED] Exact frame: finite divisor set, pencil linear, &lt;=1 slope/locator</title></circle></g>
+<g><circle cx="1168" cy="933" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>fm1 [PROVABLE] FM1: E[#aligned] = C(n,j)(1-q^-t)q^{1-t} exactly</title></circle></g>
+<g><circle cx="1039" cy="1331" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1039" cy="1331" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>strip [CONDITIONAL] Strip-periodic: aperiodic stratum exact</title></circle></g>
+<text x="1028" y="1334" font-size="8.5" text-anchor="end" fill="#e2e8f0">strip</text>
+<g><circle cx="1341" cy="1059" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1341" cy="1059" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>paid_closure [TARGET] Paid(A) closure: tangent+quotient+extension computable</title></circle></g>
+<text x="1352" y="1062" font-size="8.5" text-anchor="start" fill="#e2e8f0">paid_closure</text>
+<g><circle cx="951" cy="1059" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="951" cy="1059" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>r2_rigidity [CONJECTURE] R2: unpaid aligned count &lt;= n^B * FM (B&lt;=3)</title></circle></g>
+<text x="940" y="1062" font-size="8.5" text-anchor="end" fill="#e2e8f0">r2_rigidity</text>
+<g><circle cx="1289" cy="1305" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1289" cy="1305" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>ext_lift [TARGET] S6: extension lift classified</title></circle></g>
+<text x="1300" y="1308" font-size="8.5" text-anchor="start" fill="#e2e8f0">ext_lift</text>
+<g><circle cx="1355" cy="1102" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1355" cy="1102" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>safe_assembly_uniformity [TARGET] The mca_safe assembly implication, priced: constants and conventions uniform over the family</title></circle></g>
+<text x="1366" y="1105" font-size="8.5" text-anchor="start" fill="#e2e8f0">safe_assembly_uniformity</text>
+<g><circle cx="1360" cy="1146" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>cap_theorem [PROVED] Paper D universal cap (unsafe above 1-rho-2^-9)</title></circle></g>
+<g><circle cx="1341" cy="1233" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1341" cy="1233" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>zone_b [CONJECTURE] Zone-(b): e1 value-set collisions, 80&lt;N&#x27;&lt;512 (= perfiber at sigma=1)</title></circle></g>
+<text x="1352" y="1236" font-size="8.5" text-anchor="start" fill="#e2e8f0">zone_b</text>
+<g><circle cx="1355" cy="1190" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1355" cy="1190" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>unsafe_at_crossing [TARGET] Unsafe witnesses at the adjacent grid point (the determination&#x27;s other half)</title></circle></g>
+<text x="1366" y="1193" font-size="8.5" text-anchor="start" fill="#e2e8f0">unsafe_at_crossing</text>
+<g><circle cx="1212" cy="942" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1212" cy="942" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>acl_second_order [TARGET] Acl second-order term (hand-off lemma)</title></circle></g>
+<text x="1223" y="945" font-size="8.5" text-anchor="start" fill="#e2e8f0">acl_second_order</text>
+<g><circle cx="1253" cy="961" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>crossing_localization [PROVABLE] B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list</title></circle></g>
+<g><circle cx="1289" cy="987" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>staircase_steepness [PROVABLE] Consecutive grid counts differ by ~q-factors: sign decisions need only coarse relative precision</title></circle></g>
+<g><circle cx="1080" cy="942" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1080" cy="942" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>aperiodic_zero_at_crossing [CONDITIONAL] Integrality: R2 (any poly) + tiny FM =&gt; aperiodic contribution EXACTLY 0 at candidates</title></circle></g>
+<text x="1069" y="945" font-size="8.5" text-anchor="end" fill="#e2e8f0">aperiodic_zero_at_crossing</text>
+<g><circle cx="1319" cy="1020" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1319" cy="1020" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>knife_edge_census [TARGET] The genuine residue: census + exact handling of knife-edge rows</title></circle></g>
+<text x="1330" y="1023" font-size="8.5" text-anchor="start" fill="#e2e8f0">knife_edge_census</text>
+<g><circle cx="951" cy="1233" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="951" cy="1233" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>imgfib [CONJECTURE] L1: #ImgFib_U &lt;= n^B above reserve (image fibers)</title></circle></g>
+<text x="940" y="1236" font-size="8.5" text-anchor="end" fill="#e2e8f0">imgfib</text>
+<g><circle cx="973" cy="1272" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>codegree [PROVED] L2 codegree reduction (Theorems A/B/C, L1-free)</title></circle></g>
+<g><circle cx="937" cy="1102" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>m_sweep [PROVED] For-all-m affordable: m &lt;= sqrt((n-k)/t) ~ 16-31</title></circle></g>
+<g><circle cx="932" cy="1146" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="932" cy="1146" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>m_handling [TARGET] Interleaved m-handling per the official quantifier</title></circle></g>
+<text x="922" y="1149" font-size="8.5" text-anchor="end" fill="#e2e8f0">m_handling</text>
+<g><circle cx="1003" cy="1305" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>qcore [PROVED] thm:qcore: C(n/M-1, k/M) codewords, q-independent</title></circle></g>
+<g><circle cx="973" cy="1020" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>list_crossing_localization [PROVABLE] List staircase: sup-over-words list size is a monotone integer =&gt; unique crossing exists</title></circle></g>
+<g><circle cx="937" cy="1190" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="937" cy="1190" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>worst_word_planted [CONJECTURE] LEAP: at the crossing radii the extremal words are the planted sunflower family</title></circle></g>
+<text x="926" y="1193" font-size="8.5" text-anchor="end" fill="#e2e8f0">worst_word_planted</text>
+<g><circle cx="1003" cy="987" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>list_planted_arithmetic [PROVABLE] Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)</title></circle></g>
+<g><circle cx="1039" cy="961" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1039" cy="961" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>rate_half_coverage_gap [TARGET] DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max</title></circle></g>
+<text x="1028" y="964" font-size="8.5" text-anchor="end" fill="#e2e8f0">rate_half_coverage_gap</text>
+<g><circle cx="1383" cy="1340" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>field_cap_check [PROVED] Confirm k&lt;=2^40, |F|&lt;2^256 in ePrint</title></circle></g>
+<g><circle cx="1116" cy="841" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>v8_ledger [PROVED] v8 one-support-one-slope ledger</title></circle></g>
+<g><circle cx="1176" cy="841" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>noncontain_degeneracy [PROVED] Containment = degenerate pencil (a=b=0) = def:residue</title></circle></g>
+<g><circle cx="1235" cy="853" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>vtdv [PROVED] Subgroup Hankel = V^T D_u V (prime + extension verified)</title></circle></g>
+<g><circle cx="1057" cy="1439" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>periodic_strata [PROVED] Periodic strata C(n/M, j/M); exchange-independent; coset recursion</title></circle></g>
+<g><circle cx="1002" cy="1416" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>q_recursion [PROVED] Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)</title></circle></g>
+<g><circle cx="952" cy="1383" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>confinement [PROVED] Confinement-from-stabilizer theorem (x1)</title></circle></g>
+<g><circle cx="909" cy="1340" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>isotypic [PROVED] Isotypic refinement: escape iff multi-isotypic (x1)</title></circle></g>
+<g><circle cx="1057" cy="853" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1057" cy="853" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>gap1_noneq_mass [CONJECTURE] GAP-1: non-equivariant periodic mass &lt;= poly</title></circle></g>
+<text x="1047" y="856" font-size="8.5" text-anchor="end" fill="#e2e8f0">gap1_noneq_mass</text>
+<g><circle cx="876" cy="1290" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>gap2_seam [PROVABLE] GAP-2 seam closed: pullback =&gt; M | t_denom</title></circle></g>
+<g><circle cx="1340" cy="909" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>staircase [PROVED] Tangent staircase compiler (#147)</title></circle></g>
+<g><circle cx="1416" cy="1002" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>qfloor_exact [PROVED] prop:qfloor: quotient floor exact above norm threshold</title></circle></g>
+<g><circle cx="1439" cy="1235" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>ext_pole_floor [PROVED] Extension-pole floor (v10): N(L) witnesses</title></circle></g>
+<g><circle cx="1290" cy="876" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>paid_tan_fn [PROVABLE] Paid_tan(A): staircase formula as a computable function</title></circle></g>
+<g><circle cx="1383" cy="952" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>paid_quot_fn [PROVABLE] Paid_quot(A): zones a/b/c, interval-valued cells</title></circle></g>
+<g><circle cx="1340" cy="1383" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>paid_ext_fn [PROVABLE] Paid_ext(A): the s6 import rule (0 if generating)</title></circle></g>
+<g><circle cx="1002" cy="876" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>budget_b3 [PROVED] Poly budget B &lt;= 3 at n = 2^41 (123 &lt; 128 bits)</title></circle></g>
+<g><circle cx="853" cy="1057" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="853" cy="1057" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>conj_f [CONJECTURE] Conjecture F: plane sections of D_j have poly unpaid points</title></circle></g>
+<text x="843" y="1060" font-size="8.5" text-anchor="end" fill="#e2e8f0">conj_f</text>
+<g><circle cx="876" cy="1002" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="876" cy="1002" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>payment_completeness [CONJECTURE] Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE</title></circle></g>
+<text x="866" y="1005" font-size="8.5" text-anchor="end" fill="#e2e8f0">payment_completeness</text>
+<g><circle cx="1176" cy="1451" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>b_rational_lift [PROVED] B-rational pencils give B-slopes (linearity)</title></circle></g>
+<g><circle cx="1290" cy="1416" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>ext_import [PROVABLE] B_ext crosses gate exactly at the S7 list window</title></circle></g>
+<g><circle cx="1235" cy="1439" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>generating_escape [PROVED] Non-generating rows forced tiny (q_gen &lt; 2^128)</title></circle></g>
+<g><circle cx="1116" cy="1451" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1116" cy="1451" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>f1_classification [CONJECTURE] F-valued slopes: B-rational / pole / tower</title></circle></g>
+<text x="1106" y="1454" font-size="8.5" text-anchor="end" fill="#e2e8f0">f1_classification</text>
+<g><circle cx="1451" cy="1116" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1451" cy="1116" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>descriptor [TARGET] Symbolic row descriptor (single constants source)</title></circle></g>
+<text x="1461" y="1119" font-size="8.5" text-anchor="start" fill="#e2e8f0">descriptor</text>
+<g><circle cx="1416" cy="1290" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>collision_norm_criterion [PROVABLE] Non-quotient e1-collisions mod p &lt;=&gt; p divides an explicit bounded nonzero norm</title></circle></g>
+<g><circle cx="1451" cy="1176" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1451" cy="1176" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>certified_valueset_lower [TARGET] Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)</title></circle></g>
+<text x="1461" y="1179" font-size="8.5" text-anchor="start" fill="#e2e8f0">certified_valueset_lower</text>
+<g><circle cx="1439" cy="1057" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>census_window_arithmetic [PROVABLE] The undecided set as an explicit function of certification strength L</title></circle></g>
+<g><circle cx="909" cy="952" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="909" cy="952" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>petal_growth [TARGET] Full-petal growth bound / mixed-petal amplification</title></circle></g>
+<text x="899" y="955" font-size="8.5" text-anchor="end" fill="#e2e8f0">petal_growth</text>
+<g><circle cx="841" cy="1116" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>l1_program_frontier [PROVED] L1 proof program: all branches closed except full-petal d-ell -&gt; infinity (Thm 21/B11)</title></circle></g>
+<g><circle cx="841" cy="1176" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>dyadic_profile_evaluation [PROVABLE] Compute Q_H(eta) exactly for 2-power domains at the four rates</title></circle></g>
+<g><circle cx="853" cy="1235" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>deep_point [PROVED] Deep-point identity BadVec = Deep_alpha^mu (x1)</title></circle></g>
+<g><circle cx="952" cy="909" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>clique_cap [PROVED] K_{m,m} clique cap n &gt;= k + m^2(a-k) (x1)</title></circle></g>
+<g><circle cx="986" cy="782" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="986" cy="782" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>gap1_product_model [CONJECTURE] LEAP: non-equivariant periodic mass EQUALS the per-character product (tower extension)</title></circle></g>
+<text x="976" y="785" font-size="8.5" text-anchor="end" fill="#e2e8f0">gap1_product_model</text>
+<g><circle cx="1244" cy="760" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1244" cy="760" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>tr_perleaf_list_ident [TARGET] FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows</title></circle></g>
+<text x="1254" y="763" font-size="8.5" text-anchor="start" fill="#e2e8f0">tr_perleaf_list_ident</text>
+<g><circle cx="1113" cy="749" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>tr_joint_telescope [PROVED] FACE-1 CORE (derivation candidate): jointness telescopes to the joint stabilizer</title></circle></g>
+<g><circle cx="1460" cy="902" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>acl_count [PROVED] thm:exactcount: Acl = 2^{beta N&#x27;(1-o(1))} (char 0)</title></circle></g>
+<g><circle cx="1364" cy="813" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>common_code_line_budget [PROVED] Common code-line residual budget (MDS): tangent-agreeing lines pay residual slopes outside the support</title></circle></g>
+<g><circle cx="876" cy="853" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_gcd_reduction [PROVABLE] F WLOG reduction: factor out the plane&#x27;s common divisor</title></circle></g>
+<g><circle cx="986" cy="1510" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_scale_recursion [PROVABLE] F scale recursion: pullback points are plane points of the quotient instance</title></circle></g>
+<g><circle cx="796" cy="957" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="796" cy="957" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>f_primitive_case [CONJECTURE] F primitive core: gcd-trivial, aperiodic plane points are poly</title></circle></g>
+<text x="785" y="960" font-size="8.5" text-anchor="end" fill="#e2e8f0">f_primitive_case</text>
+<g><circle cx="1244" cy="1532" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1244" cy="1532" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>f1_case_pole [CONDITIONAL] F1 case (ii): pole-type slopes priced by the imported list term</title></circle></g>
+<text x="1254" y="1535" font-size="8.5" text-anchor="start" fill="#e2e8f0">f1_case_pole</text>
+<g><circle cx="1113" cy="1543" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1113" cy="1543" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>f1_case_tower [TARGET] F1 case (iii): intermediate-subfield tower recursion</title></circle></g>
+<text x="1103" y="1546" font-size="8.5" text-anchor="end" fill="#e2e8f0">f1_case_tower</text>
+<g><circle cx="1522" cy="1275" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>char0_collision_classification [PROVED] thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic</title></circle></g>
+<g><circle cx="1460" cy="1390" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>graded_collision_radius [PROVABLE] Graded radius: collisions require swap distance &gt; d*(N&#x27;,p); small scales unconditionally FULL</title></circle></g>
+<g><circle cx="1364" cy="1479" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1364" cy="1479" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>far_pair_separation [TARGET] THE RESIDUE: generator-factored difference designs + per-row generator certification</title></circle></g>
+<text x="1374" y="1482" font-size="8.5" text-anchor="start" fill="#e2e8f0">far_pair_separation</text>
+<g><circle cx="1522" cy="1017" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1522" cy="1017" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>certifier_uniformity [TARGET] The layer above the pipeline: the certifier provably succeeds for EVERY admissible p</title></circle></g>
+<text x="1533" y="1020" font-size="8.5" text-anchor="start" fill="#e2e8f0">certifier_uniformity</text>
+<g><circle cx="1544" cy="1146" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>census_exact_counts [PROVABLE] Exact bignum evaluation at bounded scales: expansions unnecessary at candidates</title></circle></g>
+<g><circle cx="876" cy="1439" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>petal_fixed_excess [PROVABLE] Bound full-petal extras at each fixed excess d-ell &lt;= c (finite toy enumerations)</title></circle></g>
+<g><circle cx="796" cy="1335" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>l1_core_defect_reduction [PROVED] L1 Lemma 2: sunflower core-defect reduction</title></circle></g>
+<g><circle cx="753" cy="1080" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>l1_crt_compression [PROVED] L1 Lemmas 7/8: full-petal CRT compression + rank certificate</title></circle></g>
+<g><circle cx="753" cy="1212" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>l1_defect_layer_bounds [PROVED] L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)</title></circle></g>
+<g><circle cx="1606" cy="978" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1606" cy="978" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>x4_exactlist_staircase_split [TARGET] THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound</title></circle></g>
+<text x="1617" y="981" font-size="8.5" text-anchor="start" fill="#e2e8f0">x4_exactlist_staircase_split</text>
+<g><circle cx="771" cy="831" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_dim1 [PROVABLE] F at dimension 1: pencils meet D_j in at most n/j points (VOTING)</title></circle></g>
+<g><circle cx="1061" cy="663" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_concurrency_equiv [PROVABLE] F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)</title></circle></g>
+<g><circle cx="656" cy="1146" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_dim2_skeleton [PROVABLE] F at dimension 2: elementary pair bound + twins are tangent-paid</title></circle></g>
+<g><circle cx="771" cy="1461" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="771" cy="1461" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>f_dim_induction [TARGET] The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension</title></circle></g>
+<text x="760" y="1464" font-size="8.5" text-anchor="end" fill="#e2e8f0">f_dim_induction</text>
+<g><circle cx="1061" cy="1629" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>cluster_certificates [PROVABLE] Cluster machinery: free cliques + one-check cluster pairing</title></circle></g>
+<g><circle cx="1391" cy="1570" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1391" cy="1570" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>generator_economy [TARGET] THE CORE, SHARPENED: multiplicative difference-designs (few bases certify everything)</title></circle></g>
+<text x="1402" y="1573" font-size="8.5" text-anchor="start" fill="#e2e8f0">generator_economy</text>
+<g><circle cx="1391" cy="722" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1391" cy="722" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>lattice_cone_certificate [TARGET] The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row</title></circle></g>
+<text x="1401" y="725" font-size="8.5" text-anchor="start" fill="#e2e8f0">lattice_cone_certificate</text>
+<g><circle cx="1606" cy="1314" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>census_bounded_scales [PROVABLE] The deciding scale is PINNED in an absolute window (n-uniformity of the census)</title></circle></g>
+<g><circle cx="1617" cy="804" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>moment_trade_staircase [PROVABLE] THE FIFTH MECHANISM (X-4b verdict, VERIFIED): primitive moment-trade / PTE staircases</title></circle></g>
+<g><circle cx="1326" cy="592" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1326" cy="592" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>x4b_moment_trade_exclusion [TARGET] THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)</title></circle></g>
+<text x="1336" y="595" font-size="8.5" text-anchor="start" fill="#e2e8f0">x4b_moment_trade_exclusion</text>
+<g><circle cx="1728" cy="1146" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_dual_distance_frame [PROVABLE] The frame: trace degeneracies = low-weight words of the flat&#x27;s dual code P-perp</title></circle></g>
+<g><circle cx="966" cy="1700" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_spread_moment_count [PROVABLE] Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) — poly to LOG dimension</title></circle></g>
+<g><circle cx="1326" cy="1700" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_sparse_descent_step [PROVABLE] The descent step: a sparse dual word buys divisor depth faster than it costs dimension</title></circle></g>
+<g><circle cx="1617" cy="1488" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1617" cy="1488" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>f_many_sparse_structure [CONJECTURE] THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured</title></circle></g>
+<text x="1627" y="1491" font-size="8.5" text-anchor="start" fill="#e2e8f0">f_many_sparse_structure</text>
+<g><circle cx="675" cy="1488" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="675" cy="1488" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>f_descent_termination [CONJECTURE] Descent termination: the sparse-word descent tree is polynomial (census-grounded)</title></circle></g>
+<text x="665" y="1491" font-size="8.5" text-anchor="end" fill="#e2e8f0">f_descent_termination</text>
+<g><circle cx="564" cy="1146" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>kernel_lattice_reframing [PROVABLE] REFRAMING: e1 is linear — collisions = sparse ternary vectors in ONE explicit index-p lattice</title></circle></g>
+<g><circle cx="675" cy="804" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>weight_graded_mitm [PROVABLE] Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24</title></circle></g>
+<g><circle cx="966" cy="592" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="966" cy="592" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>integer_code_distance_cert [TARGET] THE RESIDUE: certify min ternary distance &gt; 2l&#x27; for the explicit k x N&#x27; system</title></circle></g>
+<text x="956" y="595" font-size="8.5" text-anchor="end" fill="#e2e8f0">integer_code_distance_cert</text>
+<g><circle cx="1753" cy="854" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1753" cy="854" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>u2_per_row_certifier [TARGET] U2-B: the per-row moment certificates (small-t rows)</title></circle></g>
+<text x="1764" y="857" font-size="8.5" text-anchor="start" fill="#e2e8f0">u2_per_row_certifier</text>
+<g><circle cx="1296" cy="489" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1296" cy="489" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>u2c_boundary_scale_column [TARGET] THE REPAIR: the boundary-scale (M = t) zero-sum column + crossover arithmetic (QA.25)</title></circle></g>
+<text x="1306" y="492" font-size="8.5" text-anchor="start" fill="#e2e8f0">u2c_boundary_scale_column</text>
+<g><circle cx="1296" cy="1803" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>dihedral_quotient_stratum [PROVABLE] DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class</title></circle></g>
+<g><circle cx="1753" cy="1438" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1753" cy="1438" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>f_sparse_rank_split [TARGET] FACE-2 SPLIT (derivation): by sparse-word rank</title></circle></g>
+<text x="1764" y="1441" font-size="8.5" text-anchor="start" fill="#e2e8f0">f_sparse_rank_split</text>
+<g><circle cx="726" cy="1673" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_support_lattice [PROVABLE] Reformulation: descent-tree size = closed-set count of the sparse-support lattice</title></circle></g>
+<g><circle cx="472" cy="1146" r="5.5" fill="#86efac" stroke="#0b1220" stroke-width="1"><title>f_termination_mds [PROVABLE] MDS-dual flats: termination is TRIVIAL (no sparse words exist)</title></circle></g>
+<g><circle cx="726" cy="619" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="726" cy="619" r="6.5" fill="#fb923c" stroke="#0b1220" stroke-width="1"><title>f_termination_hankel [CONJECTURE] Hankel-kernel flats: coset-patterned supports =&gt; divisor-poset-sized lattice</title></circle></g>
+<text x="715" y="622" font-size="8.5" text-anchor="end" fill="#e2e8f0">f_termination_hankel</text>
+<g><circle cx="380" cy="1146" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="380" cy="1146" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>b2_modp_giant_extras [TARGET] (B)&#x27;s residue: the mod-p extras bound at prize-max — with a 123-bit cushion</title></circle></g>
+<text x="370" y="1149" font-size="8.5" text-anchor="end" fill="#e2e8f0">b2_modp_giant_extras</text>
+<g><circle cx="1912" cy="1146" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="1912" cy="1146" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>f_weight2_inverse [CONDITIONAL] FACE-2 CORE (evidence-informed): the weight-2 inverse theorem</title></circle></g>
+<text x="1922" y="1149" font-size="8.5" text-anchor="start" fill="#e2e8f0">f_weight2_inverse</text>
+<g><circle cx="288" cy="1146" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="288" cy="1146" r="6.5" fill="#f59e0b" stroke="#0b1220" stroke-width="1"><title>f_dih_subgroup_completeness [CONDITIONAL] FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory</title></circle></g>
+<text x="278" y="1149" font-size="8.5" text-anchor="end" fill="#e2e8f0">f_dih_subgroup_completeness</text>
+<g><circle cx="2096" cy="1146" r="10.0" fill="none" stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/><circle cx="2096" cy="1146" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>wild_row_audit [TARGET] QA.23: the Mersenne wild rows — Dickson taxonomy + window arithmetic</title></circle></g>
+<text x="2106" y="1149" font-size="8.5" text-anchor="start" fill="#e2e8f0">wild_row_audit</text>
+<text x="1146" y="1088" font-size="13" text-anchor="middle" fill="#94a3b8" letter-spacing="2">THE PRIZE</text>
+</svg>

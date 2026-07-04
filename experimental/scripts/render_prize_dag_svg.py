@@ -185,3 +185,130 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def radial():
+    """Critical-only radial view: the grand targets at the center, rings
+    by req-distance to the prize. Writes prize_dag_critical_radial.svg."""
+    import math
+    d = json.load(open(DAG))
+    nodes = {n["id"]: n for n in d["nodes"]}
+    req = [(e["from"], e["to"]) for e in d["edges"]
+           if e.get("kind", "req") == "req" and e["from"] in nodes and e["to"] in nodes]
+    rev = defaultdict(list)
+    cons = defaultdict(list)
+    for u, v in req:
+        rev[v].append(u); cons[u].append(v)
+    crit = set(g for g in GRANDS if g in nodes)
+    stack = list(crit)
+    while stack:
+        v = stack.pop()
+        for u in rev[v]:
+            if u not in crit:
+                crit.add(u); stack.append(u)
+    # ring = shortest req-distance to a grand
+    from collections import deque
+    ring = {g: 0 for g in GRANDS if g in nodes}
+    dq = deque(ring)
+    while dq:
+        v = dq.popleft()
+        for u in rev[v]:
+            if u in crit and u not in ring:
+                ring[u] = ring[v] + 1; dq.append(u)
+    maxring = max(ring.values())
+    rings = defaultdict(list)
+    for v, r in ring.items():
+        rings[r].append(v)
+    # angular ordering: init alphabetical, then barycenter sweeps by neighbor angle
+    ang = {}
+    for r in rings:
+        for i, v in enumerate(sorted(rings[r])):
+            ang[v] = 2 * math.pi * i / len(rings[r])
+    nb = defaultdict(list)
+    for u, v in req:
+        if u in crit and v in crit:
+            nb[u].append(v); nb[v].append(u)
+    for _ in range(8):
+        for r in sorted(rings):
+            lay = rings[r]
+            def key(v):
+                ns = [w for w in nb[v] if w in ang]
+                if not ns: return ang[v]
+                x = sum(math.cos(ang[w]) for w in ns); y = sum(math.sin(ang[w]) for w in ns)
+                return math.atan2(y, x) % (2 * math.pi)
+            lay.sort(key=key)
+            for i, v in enumerate(lay):
+                ang[v] = 2 * math.pi * (i + (r % 2) * 0.5) / len(lay)
+    RSTEP, PAD = 92, 60
+    R = (maxring + 0.5) * RSTEP + PAD
+    W = H = int(2 * R + 240)
+    cx, cy = W / 2, H / 2
+    X, Y = {}, {}
+    for v in ring:
+        rr = ring[v] * RSTEP + (0 if ring[v] == 0 else 30)
+        X[v] = cx + rr * math.cos(ang[v]); Y[v] = cy + rr * math.sin(ang[v])
+    if all(g in ring for g in GRANDS) and len(GRANDS) == 2:
+        a, b = sorted(GRANDS)
+        X[a], Y[a], X[b], Y[b] = cx - 34, cy, cx + 34, cy
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
+             f'font-family="Helvetica,Arial,sans-serif">']
+    parts.append("""<defs>
+ <filter id="glow-green" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="2.6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ <filter id="glow-red" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+</defs>""")
+    parts.append(f'<rect width="{W}" height="{H}" fill="#0b1220"/>')
+    for r in range(1, maxring + 1):
+        parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r*RSTEP+30}" fill="none" '
+                     f'stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>')
+    def ecls(u):
+        return "green" if nodes[u]["status"] in DONE else \
+               ("red" if nodes[u]["status"] in OPEN else "dim")
+    for u, v in sorted((e for e in req if e[0] in crit and e[1] in crit),
+                       key=lambda e: {"dim": 0, "green": 1, "red": 2}[ecls(e[0])]):
+        x1, y1, x2, y2 = X[u], Y[u], X[v], Y[v]
+        qx = cx + (x1 + x2 - 2 * cx) * 0.42; qy = cy + (y1 + y2 - 2 * cy) * 0.42
+        pth = f"M{x1:.0f},{y1:.0f} Q{qx:.0f},{qy:.0f} {x2:.0f},{y2:.0f}"
+        c = ecls(u)
+        if c == "green":
+            parts.append(f'<path d="{pth}" fill="none" stroke="#4ade80" stroke-width="1.3" '
+                         f'stroke-opacity="0.8" filter="url(#glow-green)"/>')
+        elif c == "red":
+            parts.append(f'<path d="{pth}" fill="none" stroke="#f87171" stroke-width="1.8" '
+                         f'stroke-opacity="0.95" filter="url(#glow-red)"/>')
+        else:
+            parts.append(f'<path d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
+    for v in ring:
+        n = nodes[v]; st = n["status"]
+        fill = FILL.get(st, "#64748b")
+        r0 = 10 if v in GRANDS else (6.5 if st in OPEN else 5.5)
+        halo = ""
+        if st in OPEN:
+            halo = f'<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0+3.5}" fill="none" ' \
+                   f'stroke="#f87171" stroke-width="1" stroke-opacity="0.6" filter="url(#glow-red)"/>'
+        tip = html.escape(f'{v} [{st}] {n.get("title","")[:160]}')
+        parts.append(f'<g>{halo}<circle cx="{X[v]:.0f}" cy="{Y[v]:.0f}" r="{r0}" fill="{fill}" '
+                     f'stroke="#0b1220" stroke-width="1"><title>{tip}</title></circle></g>')
+        if v in GRANDS or st in OPEN:
+            anc = "middle" if v in GRANDS else ("start" if X[v] >= cx else "end")
+            dx = 0 if v in GRANDS else (r0 + 4 if X[v] >= cx else -(r0 + 4))
+            dy = -r0 - 5 if v in GRANDS else 3
+            parts.append(f'<text x="{X[v]+dx:.0f}" y="{Y[v]+dy:.0f}" font-size="8.5" '
+                         f'text-anchor="{anc}" fill="#e2e8f0">{html.escape(v[:32])}</text>')
+    parts.append(f'<text x="{cx:.0f}" y="{cy-58:.0f}" font-size="13" text-anchor="middle" '
+                 f'fill="#94a3b8" letter-spacing="2">THE PRIZE</text>')
+    parts.append("</svg>")
+    out = os.path.join(HERE, "..", "data", "prize-dag", "prize_dag_critical_radial.svg")
+    with open(out, "w") as f:
+        f.write("\n".join(parts))
+    ne = sum(1 for u, v in req if u in crit and v in crit)
+    print(f"wrote {out}: {len(ring)} critical nodes, {ne} critical edges, {maxring} rings")
+
+
+if __name__ == "__main__" and os.environ.get("RADIAL"):
+    radial()
