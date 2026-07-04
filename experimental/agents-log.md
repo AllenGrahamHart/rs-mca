@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - E30 dimension-3 flat census
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/e30_dim3_flat_census.md`,
+  `experimental/scripts/verify_e30_dim3_flats.py`,
+  `experimental/data/certificates/e30-dim3-flat-census/`.
+- **Status:** EXPERIMENTAL / toy evidence.
+- **What is being added:** A deterministic dimension-3 flat census under the
+  enlarged taxonomy, with a JSON certificate added for the existing
+  count/class-histogram/fingerprint replay.
+- **How it is useful:** Extends the evidence record for RK axis D and records
+  how sampled projective-dimension-3 flats route through the known taxonomy at
+  `F_17/mu_16`.
+- **What to do next:** Treat as sampled toy evidence only; no global face-2
+  theorem is claimed.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.

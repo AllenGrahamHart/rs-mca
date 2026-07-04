@@ -1,0 +1,168 @@
+{
+  "all_expected_families_pass": true,
+  "families": {
+    "a_random|j4": {
+      "class_hist": {
+        "w2_twin_generic": 5,
+        "w3_descent": 224,
+        "w4_descent": 21
+      },
+      "count": 250,
+      "fingerprint": "5de83afcd116738ff33a364df947bb0aa8df29def90ce541163eff4f2e5b6159"
+    },
+    "a_random|j5": {
+      "class_hist": {
+        "w2_dihedral": 1,
+        "w2_twin_generic": 2,
+        "w3_descent": 207,
+        "w4_descent": 40
+      },
+      "count": 250,
+      "fingerprint": "19240d58e6431772b1dc07cba33ee754534661e11318d6980a92740022a40187"
+    },
+    "b_dj_span|j4": {
+      "class_hist": {
+        "common_root": 19,
+        "w2_dihedral": 1,
+        "w2_mult_coset": 1,
+        "w2_twin_generic": 11,
+        "w3_descent": 206,
+        "w4_descent": 12
+      },
+      "count": 250,
+      "fingerprint": "148436bafbf4dce3424f1b4177155ff739fa7d8a8d640a6abdd2468998c5c4ec"
+    },
+    "b_dj_span|j5": {
+      "class_hist": {
+        "common_root": 39,
+        "w2_mult_coset": 2,
+        "w2_twin_generic": 50,
+        "w3_descent": 151,
+        "w4_descent": 8
+      },
+      "count": 250,
+      "fingerprint": "bddadbaf1c35b4c169b6321db65eef12180dcc50d7f8588eb010350cc84f339c"
+    },
+    "c_hankel_ext|j4": {
+      "class_hist": {
+        "w3_descent": 52,
+        "w4_descent": 8
+      },
+      "count": 60,
+      "fingerprint": "6e3efb3ecc1df745b90b7ba248faed4b7ad5c557ee7df2b56334856cdfc5b6f9"
+    },
+    "c_hankel_ext|j5": {
+      "class_hist": {
+        "w2_mult_coset": 3,
+        "w2_twin_generic": 14,
+        "w3_descent": 27,
+        "w4_descent": 16
+      },
+      "count": 60,
+      "fingerprint": "035bab041476060625cbf3eced274c97f73cc415de886b7d8f20aba3066b854c"
+    },
+    "c_palindromic|j4": {
+      "class_hist": {
+        "w2_dihedral": 10,
+        "w2_twin_generic": 1,
+        "w3_descent": 26,
+        "w4_descent": 23
+      },
+      "count": 60,
+      "fingerprint": "b7f88786ecd39812933e5b1f76a738c745bd7ce069be62ee8adfc649ae7312ce"
+    },
+    "c_palindromic|j5": {
+      "class_hist": {
+        "common_root": 1,
+        "w2_twin_generic": 10,
+        "w3_descent": 48,
+        "w4_descent": 1
+      },
+      "count": 60,
+      "fingerprint": "5348a1275a6326fed8ba9228e8a392c0f13675d07e5383eaa2105424f997018f"
+    },
+    "c_pullback_adj|j4": {
+      "class_hist": {
+        "w2_mult_coset": 21,
+        "w3_descent": 22,
+        "w4_descent": 17
+      },
+      "count": 60,
+      "fingerprint": "85c6b90e82f7c981958b5f732ba4e2041d96f4aec4fa4061c425ede9033cb4f5"
+    },
+    "c_pullback_adj|j5": {
+      "class_hist": {
+        "w2_mult_coset": 11,
+        "w3_descent": 26,
+        "w4_descent": 23
+      },
+      "count": 60,
+      "fingerprint": "9b1aa96301ecdf8f0205baa3d41d0a017c68308e8eb0acffe8ab422ad93a6a3e"
+    },
+    "d_common_div_pencil|j4": {
+      "class_hist": {
+        "common_root": 16
+      },
+      "count": 16,
+      "fingerprint": "9196545e9b1d37d160490b7ad56b655f404d67bccac2cefff65cfe0dae15a26e"
+    },
+    "d_common_div_pencil|j5": {
+      "class_hist": {
+        "common_root": 40
+      },
+      "count": 40,
+      "fingerprint": "2f0db41c7b757a36ee9912995e961caa63086c6ec490f4436647bdd23a2b6b35"
+    },
+    "d_coset_span|j4": {
+      "class_hist": {
+        "w2_dihedral": 1,
+        "w2_mult_coset": 20,
+        "w4_descent": 19
+      },
+      "count": 40,
+      "fingerprint": "d0885b1307ae1cbf4c26f2d8da6c660cc5bb01461927787ae3653406cb844fbd"
+    },
+    "d_coset_span|j5": {
+      "class_hist": {
+        "w3_descent": 40
+      },
+      "count": 40,
+      "fingerprint": "7a4fdadf058f53fb3b63222d6be4542c2622b16d0765b2007059aaa379aa73c7"
+    },
+    "d_inverse_closed_span|j4": {
+      "class_hist": {
+        "common_root": 2,
+        "w2_dihedral": 7,
+        "w2_mult_coset": 1,
+        "w2_twin_generic": 2,
+        "w3_descent": 19,
+        "w4_descent": 9
+      },
+      "count": 40,
+      "fingerprint": "87d8f06ef75622c6c1bcecf1737a4cc2812e7b555942a9c6b1c4c05d3f260acc"
+    },
+    "d_inverse_closed_span|j5": {
+      "class_hist": {
+        "common_root": 4,
+        "w2_mult_coset": 1,
+        "w2_twin_generic": 14,
+        "w3_descent": 20,
+        "w4_descent": 1
+      },
+      "count": 40,
+      "fingerprint": "ea65751ed4b05be5b9a9e8a5d9cf737d2893a92f9dfbd748199e5bfb3d077e87"
+    },
+    "j3_full_space|j3": {
+      "class_hist": {
+        "spread_ge_5": 1
+      },
+      "count": 1,
+      "fingerprint": "2ea8d4ba65c87500b4e7adfa86ad3350bdafcb9ea653c043776c6366005c2c6c"
+    }
+  },
+  "family_count": 17,
+  "node": "rk_axis_d_dim3_flat_census",
+  "scope": "F_17, mu_16, projective-dimension-3 flats; j=3 exact, j=4,5 deterministic sampled families",
+  "status": "EXPERIMENTAL / toy evidence; sampled census, not exhaustive and not a proof",
+  "task": "E30 dimension-3 flat census"
+}
