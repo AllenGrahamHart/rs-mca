@@ -188,6 +188,10 @@ def main() -> None:
     if _prose:
         print("CONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready):",
               ", ".join(sorted(_prose)))
+    _arts = sorted(n["id"] for n in data["nodes"] if n.get("closure") == "artifact")
+    if _arts:
+        print("ARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote):",
+              ", ".join(_arts))
     print("PASS: structure, refs, acyclicity, reachability, status propagation")
 
 

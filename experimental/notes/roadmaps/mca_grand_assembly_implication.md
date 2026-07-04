@@ -24,7 +24,7 @@
    requirement set carries rate 1/2 (rate_half_coverage_gap, promoted
    ev -> req by this audit) so "each admissible C" has no silent rate
    exclusion.
-3. **The guards** — `s0_zero_open` (pinned df384f63456868b1):
+3. **The guards** — `s0_zero_open` (pinned 2f71d69e11cd8e08):
    "all conventions printed" is the grand's own closing clause;
    `mixed_radix_frontier` (pinned 9bb2a65e06a3e64c):
    the official smooth family.
@@ -36,8 +36,12 @@ ld_bridge (PROVED), second_pin_or_wall.
 ## Statement pins
 
 - `mca_grand`: sha256/16 = `d30ad9a0f59b57cc`
-- `s0_zero_open`: sha256/16 = `df384f63456868b1`
+- `s0_zero_open`: sha256/16 = `2f71d69e11cd8e08`
 - `mca_safe`: sha256/16 = `e79900ef03bce187`
 - `mca_unsafe`: sha256/16 = `d9a047c757c6781c`
 - `mixed_radix_frontier`: sha256/16 = `9bb2a65e06a3e64c`
 - `adjacency_closing`: sha256/16 = `dc61467625cafd3b`
+
+## Re-referee log
+
+- 2026-07-04: s0_zero_open reworded (node-kind hygiene: propositional core split from process discipline). Same claim, same guard role; implication unaffected. Re-pinned to 2f71d69e11cd8e08.

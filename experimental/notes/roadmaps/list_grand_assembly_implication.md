@@ -39,8 +39,8 @@
    gate. The exhibit needs exactly these two facts at the adjacent
    pair of radii.
 
-3. **The object-identity guard** — `s0_zero_open` (pinned df384f63456868b1):
-   > Every object axis EQUAL or BRIDGED(loss printed); zero OPEN axes before any prize-facing claim.
+3. **The object-identity guard** — `s0_zero_open` (pinned 2f71d69e11cd8e08):
+   > Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim).
 
    This converts "our Lambda" into "the official Lambda": every axis
    EQUAL or BRIDGED with printed loss, zero OPEN axes before any
@@ -70,8 +70,12 @@ sufficient.
 ## Statement pins
 
 - `list_grand`: sha256/16 = `622f54432e3d690b`
-- `s0_zero_open`: sha256/16 = `df384f63456868b1`
+- `s0_zero_open`: sha256/16 = `2f71d69e11cd8e08`
 - `list_safe`: sha256/16 = `2f2916c84424728f`
 - `list_unsafe`: sha256/16 = `9c2a69f576a231a6`
 - `mixed_radix_frontier`: sha256/16 = `9bb2a65e06a3e64c`
 - `list_adjacency_closing`: sha256/16 = `0db1902038e33944`
+
+## Re-referee log
+
+- 2026-07-04: s0_zero_open reworded (node-kind hygiene: propositional core split from process discipline). Same claim, same guard role; implication unaffected. Re-pinned to 2f71d69e11cd8e08.

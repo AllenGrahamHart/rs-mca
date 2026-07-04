@@ -58,7 +58,7 @@
    "refs": [
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
-   "statement": "Every object axis EQUAL or BRIDGED(loss printed); zero OPEN axes before any prize-facing claim."
+   "statement": "Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim)."
   },
   {
    "id": "axes_verified",
@@ -117,7 +117,8 @@
     "tex/proximity_blueprint_v3.tex"
    ],
    "statement": "Confirm or refute in ePrint 2026/680: k <= 2^40 and |F| < 2^256. Determines B* magnitudes, the ~90-bit band statement, and whether non-generating rows (hence the tower case) are admissible.",
-   "notes": "RESOLVED 2026-07-03: blueprint line 102 quotes the survey (= ePrint 2026/680, Arnon-Boneh-Fenzi, 'Open Problems in List Decoding and Correlated Agreement', April 2026): 'The survey focuses on rho in {1/2,1/4,1/8,1/16}, target error eps* = 2^-128, smooth domains, k <= 2^40, and |F| < 2^256.' Also confirmed live on proximityprize.org: eps* = 2^-128, list denominator eps*|F|, partials encouraged, formal verification encouraged not required, peer review + public posting required, awards splittable. (Direct ePrint fetch Cloudflare-blocked; the in-repo blueprint quote is the working authority; dossier should carry the survey's own text via the authors' copy.)"
+   "notes": "RESOLVED 2026-07-03: blueprint line 102 quotes the survey (= ePrint 2026/680, Arnon-Boneh-Fenzi, 'Open Problems in List Decoding and Correlated Agreement', April 2026): 'The survey focuses on rho in {1/2,1/4,1/8,1/16}, target error eps* = 2^-128, smooth domains, k <= 2^40, and |F| < 2^256.' Also confirmed live on proximityprize.org: eps* = 2^-128, list denominator eps*|F|, partials encouraged, formal verification encouraged not required, peer review + public posting required, awards splittable. (Direct ePrint fetch Cloudflare-blocked; the in-repo blueprint quote is the working authority; dossier should carry the survey's own text via the authors' copy.)",
+   "closure": "citation"
   },
   {
    "id": "rules_freeze",
@@ -126,8 +127,9 @@
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#2"
    ],
-   "statement": "Pin every operative rule as quote + hash with a drift detector; plan against the stricter reading on any ambiguity.",
-   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically."
+   "statement": "THE RULES-FACT (closed by citation, not proof): the operative prize rules are exactly \u2014 smooth domain = coset of a power-of-2-order subgroup; k <= 2^40; |F| < 2^256; rates EXACT in {1/2, 1/4, 1/8, 1/16} (no dither latitude); the m-quantifier per rules_m_reading (family-per-constant-m). Certificate = quote + hash of proximityprize.org and ePrint 2026/680 with a drift detector; on any residual ambiguity the campaign plans against the stricter reading. (Reworded 2026-07-04 from task form to propositional form \u2014 node-kind hygiene.)",
+   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically.",
+   "closure": "citation"
   },
   {
    "id": "mca_unsafe",
@@ -603,7 +605,9 @@
    "status": "TARGET",
    "refs": [
     "wp_detail/wp2_5_wp4_1_window_charts_and_displacement.md#1"
-   ]
+   ],
+   "closure": "artifact",
+   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): deliverable \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
   },
   {
    "id": "replay_170_171",
@@ -629,7 +633,9 @@
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
-   "statement": "The executable T0-T7 first-match tree = THE dedup convention; partition theorem proved; fuzz-tested per wp2_3 \u00a74."
+   "statement": "The executable T0-T7 first-match tree = THE dedup convention; partition theorem proved; fuzz-tested per wp2_3 \u00a74.",
+   "closure": "artifact",
+   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): artifact+embedded theorem (partition thm is the propositional core) \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
   },
   {
    "id": "deficiency_ladder",
@@ -887,7 +893,9 @@
    "refs": [
     "wp_detail/wp3_2_symbolic_scaling.md#2"
    ],
-   "statement": "(p, e, s, rho) -> full derived row table, O(poly), double regression (pinned row + master table); sole source of dossier constants."
+   "statement": "(p, e, s, rho) -> full derived row table, O(poly), double regression (pinned row + master table); sole source of dossier constants.",
+   "closure": "artifact",
+   "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): tool \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
   },
   {
    "id": "lean_tier1",
@@ -905,7 +913,8 @@
     "wp_detail/wp7_2_wp7_3_wp7_4_promotion_gates_dossier.md#3"
    ],
    "statement": "v-PARTIAL assembled and gate-checked: pinned-row note + envelope family + freeze tables + tier-1 Lean certificates + non-claims, S0-conditioned.",
-   "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor. | Fleet A M5: the three-rate dossier skeleton exists (32 open slots, all DAG-id-verified); NEW thin-margin flag: Row C at rate 1/16 is gate-knife-edged (GM = +6.85) \u2014 add to the QA.4 census objects; Row-C-class rows carry only 23.2-61.8 bits at A*+1 (per-row-class caveats recorded, prize-max headroom 130-181 bits stands)."
+   "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor. | Fleet A M5: the three-rate dossier skeleton exists (32 open slots, all DAG-id-verified); NEW thin-margin flag: Row C at rate 1/16 is gate-knife-edged (GM = +6.85) \u2014 add to the QA.4 census objects; Row-C-class rows carry only 23.2-61.8 bits at A*+1 (per-row-class caveats recorded, prize-max headroom 130-181 bits stands). | NODE-KIND FLAG (hygiene audit 2026-07-04): deliverable \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item.",
+   "closure": "artifact"
   },
   {
    "id": "bridge_ledger",
