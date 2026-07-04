@@ -3346,14 +3346,14 @@
    "refs": [
     "experimental/notes/roadmaps/a_closure_assembly.md"
    ],
-   "notes": "Fable-agent deliverable, replayed green."
+   "notes": "Fable-agent deliverable, replayed green. | AUDIT INTEGRATED: H_max := A (67/133/261 per rate) \u2014 the 2log2(n) cap was unfounded; assembly arithmetic already verified at 100, needs the h <= A extension pass. The (C2) GCD harness is BUILT and self-tested (recovers {7,17,97} exactly, three independent ways, 4s, stdlib-only) \u2014 (C2) is now purely mechanical once certificates exist. The star-PTE support micro-lemma (h <= A vs 2h <= A) flagged for the maintainer."
   },
   {
    "id": "h_window_derivation",
    "title": "THE LOOSE END the assembly surfaced: derive the h-window cap",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
-   "statement": "The 2 log2 n / (log2 n)^2 cap on trade sizes has NO in-repo derivation (proof-agent flag; assembly arithmetic verified at both 20 and 100). Trades can a priori have h up to A (~67 at Row C). RESOLUTIONS (any one): (i) extend (C1) certificates to h <= A (same machinery \u2014 x83/A3 apply at every h); (ii) a large-h emptiness lemma (first moment empty by hundreds of bits at h > 20; obstruction count grows with h); (iii) derive the true consumer cap from the list accounting. Must close before the assembly is complete.",
+   "statement": "The 2 log2 n / (log2 n)^2 cap on trade sizes has NO in-repo derivation (proof-agent flag; assembly arithmetic verified at both 20 and 100). Trades can a priori have h up to A (~67 at Row C). RESOLUTIONS (any one): (i) extend (C1) certificates to h <= A (same machinery \u2014 x83/A3 apply at every h); (ii) a large-h emptiness lemma (first moment empty by hundreds of bits at h > 20; obstruction count grows with h); (iii) derive the true consumer cap from the list accounting. Must close before the assembly is complete. AUDIT VERDICT (Opus agent, 13/13 replayed): NO banked step caps the consumer at 2 log2 n \u2014 that number maps to no repo object. The only banked window is the frozen W3 v1 grammar (log2 n)^2 = 100, which is DEFINITIONAL (an uncharged exclusion, not an emptiness theorem) and sits BELOW the Row-C agreements A = 67/133/261 (rates 1/16, 1/8, 1/4). RESOLUTION ADOPTED: H_max := A \u2014 trades with h up to A enter the accounting; A3+X24 apply verbatim at every h; prize-max rows have empty windows and need nothing. PROVED EN ROUTE (all h, verified numerically): <= floor(n/h) partners per anchored core (value-set argument: L_Q = L_P - c with c in the value set of L_P on mu_n, Q -> c injective) \u2014 sharpens the h=3 cubic-cap argument uniformly. NEW FLAG: the exact star-PTE support bound (h <= A vs 2h <= A) is unpinned in-repo and changes the gap size \u2014 micro-lemma needed.",
    "attack_surface": "route (iii) first (cheap accounting audit); (i) priced by the pilot's feasibility curve; (ii) if the curve is bad",
    "falsifier": "a consumer trace with h > 2 log2 n trades entering R_PTE at super-absorbable weight",
    "refs": [
@@ -3371,7 +3371,7 @@
    "refs": [
     "experimental/notes/roadmaps/a_pilot_wh_torsion_data.md"
    ],
-   "notes": "DECOMPOSED (roadmap-lane, seed identity sympy-verified): C1a \u2014 direct MITM certificates at h = 4/5, n = 1024 (FEASIBLE NOW, ~2^35 hash entries; covers the most exposed window sizes); C1b \u2014 the descent-injection certificate (trades descend to band pairs via the exact pushforward identity, budget h/2 per level; only 4 levels needed to reach the censusable n = 64; the injection lemma is the one new statement, calibratable against the pilot's exact n = 32 ground truth); C1c \u2014 the antipodal branch tracked as paid per level (X24's mechanism); C1d \u2014 the interface with the h-window audit (running). ALSO NOTED: at official primes the first-moment gap is 700+ bits per h (unlike the giant regime's razor edge) \u2014 if C1b resists, a large-sieve/averaging argument over patterns is the theory fallback. | COVERAGE MAP after the delta-saturation correction: C1a (direct MITM) covers h = 4, maybe 5; C1b (descent) covers h <= ~8-10; h >= ~16 needs the large-h emptiness lemma (route ii) as a third piece IF the window audit's H_max reaches that high. The audit is the decisive pending input."
+   "notes": "DECOMPOSED (roadmap-lane, seed identity sympy-verified): C1a \u2014 direct MITM certificates at h = 4/5, n = 1024 (FEASIBLE NOW, ~2^35 hash entries; covers the most exposed window sizes); C1b \u2014 the descent-injection certificate (trades descend to band pairs via the exact pushforward identity, budget h/2 per level; only 4 levels needed to reach the censusable n = 64; the injection lemma is the one new statement, calibratable against the pilot's exact n = 32 ground truth); C1c \u2014 the antipodal branch tracked as paid per level (X24's mechanism); C1d \u2014 the interface with the h-window audit (running). ALSO NOTED: at official primes the first-moment gap is 700+ bits per h (unlike the giant regime's razor edge) \u2014 if C1b resists, a large-sieve/averaging argument over patterns is the theory fallback. | COVERAGE MAP after the delta-saturation correction: C1a (direct MITM) covers h = 4, maybe 5; C1b (descent) covers h <= ~8-10; h >= ~16 needs the large-h emptiness lemma (route ii) as a third piece IF the window audit's H_max reaches that high. The audit is the decisive pending input. | WINDOW VERDICT: H_max = A. Coverage now: C1a h=4(-5), C1b h<=~10, NEITHER for h in (10, A] \u2014 the widened gap is noded (midlarge_h_certification) and goes into the Fable brief."
   },
   {
    "id": "c1a_lowh_direct_certificates",
@@ -3394,6 +3394,27 @@
    "falsifier": "the pipeline at 128->64 missing a known trade (the census has ground truth) or the bottom band count exploding beyond per-candidate-checkable size",
    "refs": [
     "experimental/notes/roadmaps/a_pilot_wh_torsion_data.md"
+   ]
+  },
+  {
+   "id": "value_set_partner_cap",
+   "title": "PROVED (all h): <= floor(n/h) partners per anchored core",
+   "status": "PROVED",
+   "statement": "For ANY h and any anchored core P: partners Q with L_Q = L_P - c are injectively indexed by c in the value set {L_P(x) : x in mu_n}, giving <= floor(n/h) partners per core (each partner consumes h roots). Uniform-in-h sharpening of the h=3 cubic-cap mechanism; verified numerically. Reduces every per-h trade bound to bounding ACTIVE cores.",
+   "refs": [
+    "experimental/notes/roadmaps/h_window_derivation_audit.md"
+   ]
+  },
+  {
+   "id": "midlarge_h_certification",
+   "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261",
+   "status": "TARGET",
+   "key": true,
+   "statement": "With H_max = A (audit verdict), the certification pipelines cover: C1a direct MITM h = 4(-5); C1b descent h <= ~8-10 (band saturation). The range h in (~10, A] (A = 67/133/261 per rate) is covered by NEITHER \u2014 and the crude route (value_set_partner_cap x C(n,h) cores) reduces back to the terminal bound. ROUTES: (a) a large-h emptiness/exclusion THEOREM (first moment empty by thousands of bits; h-1 obstruction conditions overwhelm the C(n,h) pattern entropy above h ~ some explicit H0 \u2014 find the worst-case tool); (b) a scalable certificate valid at all h (the descent is not); (c) consumer-side: resolve the h <= A vs 2h <= A micro-lemma and check whether large-h trades enter R_PTE at full weight; (d) per-h budget arithmetic: 261 x ~1e5 << n^3 fits, so per-h bounds suffice \u2014 no aggregation cleverness needed.",
+   "attack_surface": "the Fable C1b brief carries this as its second part: prove the injection lemma (h <= 10) AND map/attack the large-h routes",
+   "falsifier": "a trade found at h in (10, A] at any calibration row with q >= n^3 (none ever observed)",
+   "refs": [
+    "experimental/notes/roadmaps/h_window_derivation_audit.md"
    ]
   }
  ],
@@ -6025,6 +6046,16 @@
   },
   {
    "from": "c1b_descent_injection",
+   "to": "c1_scalable_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "value_set_partner_cap",
+   "to": "h_window_derivation",
+   "kind": "ev"
+  },
+  {
+   "from": "midlarge_h_certification",
    "to": "c1_scalable_certificate",
    "kind": "req"
   }

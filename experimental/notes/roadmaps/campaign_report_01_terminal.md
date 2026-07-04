@@ -63,7 +63,38 @@ subgroup-point bounds (our count is a moving family in `(G_m)^{2h-1}`;
 summing per-curve diverges); finite-field quadratic Vinogradov mean
 value (`n^{2h-3-1/9}`, too weak); characteristic-zero lifting
 (threshold `C^{phi(n)}`); resultant elimination (degree-`n` objects).
-The missing input is a **high-dimensional point-count for varieties
-over small multiplicative subgroups** — apparently not in the current
-literature. The one mercy: the application affords any exponent up to
-`q >= n^6`, and the empirical transition is at `n^3`.
+The one mercy: the application affords any exponent up to `q >= n^6`,
+and the empirical transition is at `n^3`.
+
+## Update (2026-07-04): the dichotomy — the problem is no longer a point count
+
+The "missing high-dimensional point-count" framing above is
+superseded. A verified chain (`x24`/`x81`/`x83` + the good-reduction
+lemma `a3`, all with green verifiers and independent replays) now
+gives:
+
+1. **The universal obstruction gate.** A 2h-support underlies a trade
+   iff a forced square-shift system vanishes; the obstruction variety
+   `W_h` is a *graph* in coefficient space, depends only on `h`, and
+   is scaling-equivariant.
+2. **Char-0 classification (complete).** Characteristic-zero trades
+   are exactly full `mu_h`-fiber pairs (2-power `h`; none otherwise).
+   Verified censuses: non-toral char-0 torsion EMPTY at every tested
+   `(n, h)`.
+3. **Good reduction (proved, fixed `(n,h)`).** Away from an explicit
+   finite exceptional set of primes, finite-row trades do not exceed
+   the char-0 structure. Validated end-to-end at `(16,3)`: predicted
+   exceptional set `{7, 17, 97}` matches brute force both directions —
+   the observed "exceptional primes" (F_193 etc.) *are* the bad
+   reduction primes.
+
+**What actually remains** is certification, not theory: (i) direct
+MITM certificates at the window's bottom (`h = 4/5`, feasible,
+running); (ii) a descent-injection certificate for mid `h <= ~10`
+(seed identity verified; band budget saturates at `~log2 h` levels);
+(iii) the `h`-window cap derivation (which `h` the consumers need —
+in audit); (iv) if the window reaches `h >= ~16`, a large-h emptiness
+lemma (first moment empty by hundreds of bits). The giant regime
+(prize-max rows) is decomposed separately: the char-0 coset theorem
+is proved (Galois-orbit argument); the residue is a no-concentration
+bound with a 123-bit cushion at the first-moment balance point.

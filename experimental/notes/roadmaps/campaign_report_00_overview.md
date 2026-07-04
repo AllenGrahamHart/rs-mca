@@ -50,10 +50,14 @@ carries a wired falsifier.
 
 ## What remains
 
-See `campaign_report_01_terminal.md`. In one line: bound the primitive
-active-core count for h >= 4 (and sharpen h = 3 past the n^3 rung),
-most promisingly as a high-q vanishing theorem `q >= n^c => count = 0`
-for any `c <= 6` (official rows afford it; empirics vanish at c = 3).
+See `campaign_report_01_terminal.md` (esp. the 2026-07-04 update). In
+one line: the terminal estimate is now a proved dichotomy (universal
+obstruction gate + char-0 classification + good-reduction lemma, all
+verifier-backed); what remains is **certification** — per-row
+certificates at small/mid `h` (two pipelines, one running), the
+`h`-window cap derivation, possibly a large-h emptiness lemma — plus
+the giant-regime no-concentration bound (char-0 half proved; 123-bit
+cushion on the residue).
 
 ## Asks of the maintainer
 
