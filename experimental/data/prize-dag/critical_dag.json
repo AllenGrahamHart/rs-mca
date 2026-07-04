@@ -344,7 +344,7 @@
   },
   {
    "id": "f_dual_distance_frame",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The frame: trace degeneracies = low-weight words of the flat's dual code P-perp"
   },
   {
@@ -369,7 +369,7 @@
   },
   {
    "id": "f_sparse_descent_step",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The descent step: a sparse dual word buys divisor depth faster than it costs dimension"
   },
   {
@@ -379,12 +379,12 @@
   },
   {
    "id": "f_spread_moment_count",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension"
   },
   {
    "id": "f_support_lattice",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Reformulation: descent-tree size = closed-set count of the sparse-support lattice"
   },
   {
@@ -394,7 +394,7 @@
   },
   {
    "id": "f_termination_mds",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "MDS-dual flats: termination is TRIVIAL (no sparse words exist)"
   },
   {
@@ -859,7 +859,7 @@
   },
   {
    "id": "xr_globalness_from_ledger",
-   "label": "PROVABLE",
+   "label": "CONDITIONAL",
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
   },
   {
@@ -869,7 +869,7 @@
   },
   {
    "id": "xr_ledger_qpower",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Each residual constraint is worth a q-factor: the ledger's exchange rate over combinatorics"
   },
   {
