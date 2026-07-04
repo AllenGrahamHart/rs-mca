@@ -174,12 +174,12 @@
   },
   {
    "id": "certified_valueset_lower",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)"
   },
   {
    "id": "certifier_uniformity",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p"
   },
   {
@@ -329,7 +329,7 @@
   },
   {
    "id": "f_descent_termination",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)"
   },
   {
@@ -349,7 +349,7 @@
   },
   {
    "id": "f_dim_induction",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
   },
   {
@@ -369,7 +369,7 @@
   },
   {
    "id": "f_primitive_case",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
   },
   {
@@ -419,7 +419,7 @@
   },
   {
    "id": "far_pair_separation",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification"
   },
   {
@@ -529,12 +529,12 @@
   },
   {
    "id": "lattice_cone_certificate",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row"
   },
   {
    "id": "list_adjacency_closing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii"
   },
   {
@@ -599,7 +599,7 @@
   },
   {
    "id": "midlarge_h20_A",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "midlarge h20 A"
   },
   {
@@ -609,7 +609,7 @@
   },
   {
    "id": "midlarge_h_certification",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261"
   },
   {
@@ -669,7 +669,7 @@
   },
   {
    "id": "payment_completeness",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
@@ -689,7 +689,7 @@
   },
   {
    "id": "petal_growth",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Full-petal growth bound / mixed-petal amplification"
   },
   {
@@ -874,7 +874,7 @@
   },
   {
    "id": "xr_clean_residual_any_gate",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
@@ -884,7 +884,7 @@
   },
   {
    "id": "xr_fresh_codim_dichotomy",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy"
   },
   {
@@ -909,7 +909,7 @@
   },
   {
    "id": "xr_light_triangle_eliminant",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus"
   },
   {
@@ -924,7 +924,7 @@
   },
   {
    "id": "xr_popular_core_triangles",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy"
   },
   {
@@ -949,7 +949,7 @@
   },
   {
    "id": "xr_smallcore_spread_count",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count"
   },
   {
@@ -1931,6 +1931,10 @@
   {
    "from": "cap_envelope_parameter_sweep",
    "to": "corridor_ledger"
+  },
+  {
+   "from": "f_spread_moment_count",
+   "to": "f_descent_termination"
   }
  ]
 }

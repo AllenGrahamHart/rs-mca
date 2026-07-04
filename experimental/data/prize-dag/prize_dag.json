@@ -6,13 +6,14 @@
   {
    "id": "prize",
    "title": "Proximity Prize resolved",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#1"
    ],
-   "statement": "Both grand challenges resolved per the official statement, packaged per the rules (partials creditable)."
+   "statement": "Both grand challenges resolved per the official statement, packaged per the rules (partials creditable).",
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/prize/conditional.md."
   },
   {
    "id": "mca_grand",
@@ -41,13 +42,13 @@
   {
    "id": "packaging",
    "title": "Assembly: compiler + dossier + gates",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "gate": "all",
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#1"
    ],
    "statement": "Compiler emits verdicts under the refusal rule; dossier versions gate-checked; every constant descriptor-generated.",
-   "notes": "MAINTAINER SIGNAL (main commits 9e9bbf8c/0f3f5620): Paper D is framed as the FINAL SUBMISSION SPINE. The packaging tier should target Paper D's certificate grammar and structure directly, not a parallel standalone dossier."
+   "notes": "MAINTAINER SIGNAL (main commits 9e9bbf8c/0f3f5620): Paper D is framed as the FINAL SUBMISSION SPINE. The packaging tier should target Paper D's certificate grammar and structure directly, not a parallel standalone dossier. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/packaging/conditional.md."
   },
   {
    "id": "s0_zero_open",
@@ -740,7 +741,7 @@
   {
    "id": "petal_growth",
    "title": "Full-petal growth bound / mixed-petal amplification",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "proof_sketch/s7_list_side.md#4"
@@ -748,7 +749,8 @@
    "gate": "any",
    "statement": "Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
-   "falsifier": "fixed-excess counts growing super-poly in n at some c"
+   "falsifier": "fixed-excess counts growing super-poly in n at some c",
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md."
   },
   {
    "id": "petal_witnesses",
@@ -1110,12 +1112,13 @@
   {
    "id": "petal_mixed_amplification",
    "title": "Mixed-petal sunflower amplification theorem",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
    "statement": "The program's first precise target (note, Consequences of the mixed-petal analysis): count degree-<=d polynomials W with many zeros across the shifted-target family W - c_i L_D on T_i; super-polynomial amplification must force quotient, low-defect, or another explicitly budgeted structured family. A lower-dimensional incidence question.",
-   "attack_surface": "the incidence count over the shifted-target family; Q2.9's fixed-excess data grounds the exponents"
+   "attack_surface": "the incidence count over the shifted-target family; Q2.9's fixed-excess data grounds the exponents",
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_mixed_amplification/conditional.md."
   },
   {
    "id": "e1_fullness",
@@ -1607,7 +1610,7 @@
   {
    "id": "f_primitive_case",
    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For every linear P <= P^j and pair (u,v): #{ell in P cap D_j : gcd(P cap D_j) = 1, ell not a pullback, ell unpaid} <= n^{B_F}. By f_gcd_reduction + f_scale_recursion this implies full Conjecture F.",
    "attack_surface": "the irreducible instance every route must face; coordinate planes first (perfiber is its coordinate case), kernel planes second",
@@ -1615,7 +1618,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "E7 EVIDENCE (PR #183, replayed green): exact n=16 j=3 projective-plane census \u2014 the paid spike is EXACTLY the 16 common-root planes (105 = C(15,2) points each, the tangent shape as predicted); primitive max after removing them = 38 across 240 top planes, BELOW the weighted pair-bound floor 60. Hankel-kernel sample (j=5, t=3, 2048 full-rank planes \u2014 the consumer-relevant family): primitive max 13 < floor 30. No rich unpaid primitive dim-2 plane in census or sample. Prior UP. Next refinement: exhaustive j=4 Grassmannian or structured Hankel row-space enumeration."
+   "notes": "E7 EVIDENCE (PR #183, replayed green): exact n=16 j=3 projective-plane census \u2014 the paid spike is EXACTLY the 16 common-root planes (105 = C(15,2) points each, the tangent shape as predicted); primitive max after removing them = 38 across 240 top planes, BELOW the weighted pair-bound floor 60. Hankel-kernel sample (j=5, t=3, 2048 full-rank planes \u2014 the consumer-relevant family): primitive max 13 < floor 30. No rich unpaid primitive dim-2 plane in census or sample. Prior UP. Next refinement: exhaustive j=4 Grassmannian or structured Hankel row-space enumeration. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/f_primitive_case/conditional.md."
   },
   {
    "id": "collision_norm_criterion",
@@ -1630,7 +1633,7 @@
   {
    "id": "payment_completeness",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "The ledger taxonomy is exhaustive. NOT to be assumed or merely evidenced: it is the CLASSIFICATION OUTPUT of whichever enumeration route completes \u2014 the inverse class C_XR, the component list, the regularity-lemma exceptional sets, or the monodromy subgroup classification \u2014 each of which is complete by construction. Red-team results preview its content; they do not certify it.",
    "attack_surface": "complete step 2 (classification) of any one enumeration route; a new class member discovered there = the S9 protocol, built into the strategy rather than bolted on",
@@ -1638,7 +1641,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had. | GATE FIX (expansion audit): the statement says 'whichever enumeration route completes' \u2014 set gate:any over the four alt routes. ALSO: the B2b scan's 'no sixth guise' finding is supporting evidence at giant scale.",
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had. | GATE FIX (expansion audit): the statement says 'whichever enumeration route completes' \u2014 set gate:any over the four alt routes. ALSO: the B2b scan's 'no sixth guise' finding is supporting evidence at giant scale. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/payment_completeness/conditional.md.",
    "gate": "any"
   },
   {
@@ -1991,7 +1994,7 @@
   {
    "id": "certified_valueset_lower",
    "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For a knife-edge row (specific p): certify |{e1(B) mod p}| > B* by exhibiting a provably all-pairs-distinct class family of size > B*. Collision-monotonicity makes the safe side free; THIS is the entire hard half. Per-prime (almost-all-primes tools do not apply); sampling unreachable at N' >= 128.",
    "attack_surface": "compose pairwise height-certified distinctness (norm < p => no collision) into large families: a packing/coding problem in the swap metric \u2014 minimum-swap-distance families whose difference heights stay below p, or a smarter invariant certifying blocks at once",
@@ -1999,7 +2002,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the knife-edge census's difficulty CONCENTRATED into one object; everything else in Tier A is estimates + elementary structure"
+   "notes": "the knife-edge census's difficulty CONCENTRATED into one object; everything else in Tier A is estimates + elementary structure | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/certified_valueset_lower/conditional.md."
   },
   {
    "id": "single_swap_injectivity",
@@ -2055,7 +2058,7 @@
   {
    "id": "list_adjacency_closing",
    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced \u2014 the exact mirror of adjacency_closing.",
    "attack_surface": "the hardness SWAPS sides vs MCA: unsafe witnesses are CONSTRUCTIVE (planted families = explicit codewords), the safe half is imgfib + integrality; the residue is worst-word extremality + exact planted arithmetic",
@@ -2063,7 +2066,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work."
+   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md."
   },
   {
    "id": "list_crossing_localization",
@@ -2114,7 +2117,7 @@
   {
    "id": "f_dim_induction",
    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "F_r for gcd-trivial r-flats by induction: at each multiplicity->=j point, either the hyperplanes through it are SPREAD (pair/r-tuple counting binds \u2014 now PROVED as f_spread_descent_dichotomy L1+L2) or RANK-DEFECT coincidence (corrected from 'twin-type': equal hyperplanes OR a common pencil/subflat) forces a shared divisor and strict descent (PROVED, L3). REMAINING CONTENT (the honest residue): the GLOBAL PACKING STEP \u2014 the spread bound carries an n^r-type numerator; the induction closes only if f_scale_recursion (or a packing argument) absorbs the r-tuple count into an absolute exponent B_F.",
    "attack_surface": "one step left: absorb the n^r/j^r spread numerator \u2014 check whether the proved f_scale_recursion's rescaling does it; else a packing lemma over the flat family",
@@ -2122,7 +2125,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "PRO BRIEF B (partial, certified): dichotomy + descent PROVED and banked as f_spread_descent_dichotomy; the twin-only reading REFUTED in dim >= 3 (statement corrected); the residue is exactly the global packing step."
+   "notes": "PRO BRIEF B (partial, certified): dichotomy + descent PROVED and banked as f_spread_descent_dichotomy; the twin-only reading REFUTED in dim >= 3 (statement corrected); the residue is exactly the global packing step. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/f_dim_induction/conditional.md."
   },
   {
    "id": "f_dual_distance_frame",
@@ -2205,14 +2208,15 @@
   {
    "id": "far_pair_separation",
    "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Construct class families F with |F| > B*/poly whose pairwise e1-differences all factor as (unit of height < p^{1/phi}) x (one of g <= poly generators). Then g per-row valuation checks certify ALL pairs of F simultaneously \u2014 constant per-row computation replacing 2^244 pairwise checks. The open problem is the DESIGN: Sidon-flavored difference structure in Z[zeta_N'] compatible with the class-to-e1 map. DECOMPOSED: = cluster_certificates (free cliques + one-check pairing + integer freebies, PROVABLE) + generator_economy (multiplicative difference-designs \u2014 the sharpened open core, with the root-difference factorization as its proved germ).",
    "attack_surface": "toy design search at small N' (measure achievable |F| vs g); telescoping-chain and hierarchical-core approaches provably fail by height_only_impossibility unless generator-factored; the difference-set literature in abelian groups is the import candidate",
    "falsifier": "n/a (construction target); partial designs have PROPORTIONAL value \u2014 census_window_arithmetic converts any achieved L into decided window fractions",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/far_pair_separation/conditional.md."
   },
   {
    "id": "cluster_certificates",
@@ -2286,14 +2290,15 @@
   {
    "id": "f_descent_termination",
    "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Iterating the weight-w descents (each drops degree >= w, dimension <= w-1; E9 observed w <= 3 suffices at toy scale) produces a descent tree of TOTAL size poly(n), with the spread/moment base at each leaf. Grounded by E9's census multiplicities. With this, F_r assembles for r = O(log n), and high dimension merges into the fiber machinery.",
    "attack_surface": "DECOMPOSED by consumer family: MDS-dual flats trivial (f_termination_mds); Hankel-kernel flats via the coset-pattern lattice bound (f_termination_hankel \u2014 the open piece); the escaping sunflower-fiber family is priced by the PMA machinery, NOT by descent (no double-counting). The support-lattice reformulation (f_support_lattice) is what defuses the naive 2^depth danger.",
    "falsifier": "a toy flat whose descent tree branches super-poly (searchable at n = 16..32)",
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/f_descent_termination/conditional.md."
   },
   {
    "id": "c_xr_content",
@@ -2502,7 +2507,7 @@
   {
    "id": "lattice_cone_certificate",
    "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For a knife-edge row's specific p: a printed lattice certificate (dual/transference bound restricted to the sparse ternary cone, or exhaustion over reduced bases) proving K_p contains no ternary vector of support <= 2l' beyond the cyclotomic relations \u2014 certifying FULL injectivity in one per-row computation. Replaces the generator-design existence question as certified_valueset_lower's primary route; fits the repo's certificate grammar (the knife-edge certificate becomes a lattice certificate).",
    "attack_surface": "DECOMPOSED: multiplier lemma (elementary) -> weight-graded MITM (provable radius extension 7 -> ~12 swaps per row) -> k-multiplier reduction (GV-favorable at k ~ 10) -> integer_code_distance_cert (the residue: one small explicit matrix per row). E24's BKZ hunt is the search-side complement throughout.",
@@ -2510,7 +2515,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "The proof-logging certifier now aligns with the prize's own formal-verification-encouraged criterion \u2014 not just convenient, textually favored. | C-4 (#217): the toy pipeline VALIDATED \u2014 direct mod-p MITM and the exact B&B totality anchor agree exactly (288 antipodal cyclotomic relations, zero non-cyclotomic at N'=16, p=12289, w<=6); corrected N'=128 MITM costs: w=12 at 2^38.3, w=14 at 2^43.5, w=16 at 2^48.4. The Reading-B anchor works end to end at toy scale."
+   "notes": "The proof-logging certifier now aligns with the prize's own formal-verification-encouraged criterion \u2014 not just convenient, textually favored. | C-4 (#217): the toy pipeline VALIDATED \u2014 direct mod-p MITM and the exact B&B totality anchor agree exactly (288 antipodal cyclotomic relations, zero non-cyclotomic at N'=16, p=12289, w<=6); corrected N'=128 MITM costs: w=12 at 2^38.3, w=14 at 2^43.5, w=16 at 2^48.4. The Reading-B anchor works end to end at toy scale. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/lattice_cone_certificate/conditional.md."
   },
   {
    "id": "multiplier_exactness",
@@ -2556,7 +2561,7 @@
   {
    "id": "certifier_uniformity",
    "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "WORKING INTERPRETATION ADOPTED (project decision 2026-07-03): Reading B \u2014 the determination artifact is a proved-correct procedure yielding the certified delta*_C for any admissible C. Under B the layer restructures: correctness = certificate self-verification (easy); TOTALITY = free with an EXACT (complete) solver, since each row's question is finite and branch-and-bound terminates with a verdict \u2014 the UNKNOWN outcome is eliminated by solver completeness, not by a uniform distance theorem. Residuals: (a) practical runtime on queried rows (empirical, demonstrated on exhibited rows; partials creditable); (b) judged acceptability of procedure-as-determination (favorable signals; settled by peer review). INSURANCE RETAINED: the classical uniform-GV theorem remains mapped as the fallback should review demand Reading A; uniform multiplier existence (QA.19) stays valuable as an efficiency theorem.",
    "attack_surface": "(i) first: uniform multiplier existence is a counting argument, delegable; then the uniform-L window census quantifies exactly which rows remain exposed; (ii) is where genuinely new mathematics would live if the rules demand a classical uniform theorem",
@@ -2564,7 +2569,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "Reading B adopted as working interpretation by project decision; the boss dissolves into solver completeness + engineering + judgment. The classical branch demotes to insurance-tier."
+   "notes": "Reading B adopted as working interpretation by project decision; the boss dissolves into solver completeness + engineering + judgment. The classical branch demotes to insurance-tier. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/certifier_uniformity/conditional.md."
   },
   {
    "id": "rate_half_coverage_gap",
@@ -2605,7 +2610,7 @@
   {
    "id": "xr_clean_residual_any_gate",
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "TRANSFORMED BY THE AUDIT (s >= 2^122): the emptiness form is DEAD at every clean-rate decision point \u2014 the requirement is now: for every pair (u,v), the unpaid aperiodic deep bad-slope count at the candidate agreement is <= poly(n) (any polynomial up to ~n^3 fits inside the 2^122-2^127.9 allowance). The singleton obstruction is GONE. The needed statement is the GENERIC BRANCH of a deep-mca-type dichotomy at corridor radius: tangent-paid OR <= poly(n) slopes \u2014 deep-mca proves exactly this shape (<= r+1 ~ n) at radius <= (1-rho)/3; the task is extending the dichotomy's reach with a 2^122-sized loss tolerance. Unsafe side at A-1 is quotient-census-witnessed (the candidates were chosen as first-past-the-realizable point). This is a VASTLY weaker target than this morning's emptiness form and materially weaker than R2-as-stated (poly count, not poly x FM).",
    "attack_surface": "per-pair algebraic exclusion: an unpaid aperiodic aligned support at corridor deficiency = a solution of an overdetermined algebraic system; the M5 eliminant dichotomy (nonzero eliminant => bounded solutions; identically-valid => structured/paid) is the proved base pattern; deep-mca is the proved template at low radius; the gap is radius reach \u2014 the band",
@@ -2613,7 +2618,7 @@
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field). | THE COMPILED TARGET (proved compiler): the entire clean-rate safe-side obligation is now officially R_post(u,v; A) <= 16 n^3 per pair \u2014 post quotient/tangent strip, with dihedral and extension columns INSIDE R_post. Sufficiency is exact integer arithmetic at all six candidates. The face-4 rungs are the supply side of exactly this inequality."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field). | THE COMPILED TARGET (proved compiler): the entire clean-rate safe-side obligation is now officially R_post(u,v; A) <= 16 n^3 per pair \u2014 post quotient/tangent strip, with dihedral and extension columns INSIDE R_post. Sufficiency is exact integer arithmetic at all six candidates. The face-4 rungs are the supply side of exactly this inequality. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_clean_residual_any_gate/conditional.md."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2681,7 +2686,7 @@
   {
    "id": "xr_smallcore_spread_count",
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase.",
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
@@ -2689,7 +2694,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md."
   },
   {
    "id": "xr_sameslope_list_crossover",
@@ -2719,7 +2724,7 @@
   {
    "id": "xr_fresh_codim_dichotomy",
    "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Far-spread regime (distinct slopes, cores r < k \u2014 no pairwise forcing exists): prove that every additional aligned support either (a) raises the joint rank of the pair's stacked alignment conditions by >= 1 (then the 2n dimension cap gives per-pair count <= 2n + charged, POLY outright), or (b) certifies an algebraic identity (rank stagnation = an eliminant vanishing identically) that places the family in a paid stratum. Proved inputs: distinct-slope conditions are exactly-additive PAIRWISE (qx13 (2b): the [[1,z],[1,z']] change of variables is rank-level, not just measure-level); the m >= 3 degeneracy question is the eliminant dichotomy at family level (M5's u5 shape). THIS is where the rigidity kernel's axis-Q content genuinely lives for face 4 \u2014 everything else in the face is proved machinery, a crossover, or graded bookkeeping. Note: dimension counting ALONE cannot close it (a point lies in adversarially many t-codim subspaces); the algebraic dichotomy is the content.",
    "attack_surface": "the eliminant route at family level: rank stagnation across three-plus slopes as an identity in the support indicators; the M5/#199 chart machinery is the base laboratory; E27's organic sample calibrates how often stagnation occurs at toys (answer: FM-band rates)",
@@ -2728,7 +2733,7 @@
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED via the syzygy anatomy (derived and verified in-line): stagnation = twisted syzygy of constrained-support dual codewords; MDS dual weight forces the k+1 overlap budget (2c-alpha, PROVABLE, 4-line proof); budget-meeting configurations split into concentrated (popular cores + the m=3 triangle dichotomy \u2014 2c-beta, first concrete target, toy-exhaustible) and diffuse (scattered syzygies = face 2's F-lattice objects \u2014 2c-gamma). E32 probe queued: stacked-rank column on E27's machinery, hunt stagnating far-spread triples."
+   "notes": "DECOMPOSED via the syzygy anatomy (derived and verified in-line): stagnation = twisted syzygy of constrained-support dual codewords; MDS dual weight forces the k+1 overlap budget (2c-alpha, PROVABLE, 4-line proof); budget-meeting configurations split into concentrated (popular cores + the m=3 triangle dichotomy \u2014 2c-beta, first concrete target, toy-exhaustible) and diffuse (scattered syzygies = face 2's F-lattice objects \u2014 2c-gamma). E32 probe queued: stacked-rank column on E27's machinery, hunt stagnating far-spread triples. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_fresh_codim_dichotomy/conditional.md."
   },
   {
    "id": "xr_syzygy_support_lemma",
@@ -2746,7 +2751,7 @@
   {
    "id": "xr_popular_core_triangles",
    "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "When the k+1 overlap budget is met by FEW partners (near-k overlaps): classify. Two shapes: (a) popular cores \u2014 many supports through a common near-k core: link/top-core territory (G1 cap machinery; the c(s,t) plateau says alignments there are independent, so mass is rationed); (b) TRIANGLES \u2014 the minimal stagnation configuration: three far-spread supports with two near-k overlaps plus the twisted compatibility. THE FIRST CONCRETE TARGET: prove the m=3 dichotomy \u2014 every rank-stagnating far-spread triple is paid (tangent/quotient/dihedral) or satisfies an eliminant identity placing it in a paid stratum. Exhaustively toy-testable with M5 charts; the eliminant at triple level is the smallest interesting instance of the family-level u5 dichotomy.",
    "attack_surface": "enumerate toy triples exhaustively (E32 probe: extend E27's verifier with a stacked-rank column and hunt stagnating far-spread triples); the triple eliminant in M5's chart machinery; the two near-k overlaps are one point below rung 2b's forcing threshold \u2014 the boundary case",
@@ -2754,7 +2759,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (derived, not conjectured): beta-1 sunflowers never stagnate (PROVABLE \u2014 support cancellation + dual weight; families capped at 2n/t ~ 630; the list lane's worst case is the MCA lane's safe case); beta-2 heavy triangles (syzygy dimensionally forced when sum r - triple > 2k) merge with rung 2b's graded ledger, and non-sunflower popular cores reduce here via petal contact; beta-3 light triangles = the triple eliminant locus \u2014 the smallest closed form of the residual core, E32-testable. The dimension count (3t vs |union| - k) is the exact heavy/light divider."
+   "notes": "DECOMPOSED (derived, not conjectured): beta-1 sunflowers never stagnate (PROVABLE \u2014 support cancellation + dual weight; families capped at 2n/t ~ 630; the list lane's worst case is the MCA lane's safe case); beta-2 heavy triangles (syzygy dimensionally forced when sum r - triple > 2k) merge with rung 2b's graded ledger, and non-sunflower popular cores reduce here via petal contact; beta-3 light triangles = the triple eliminant locus \u2014 the smallest closed form of the residual core, E32-testable. The dimension count (3t vs |union| - k) is the exact heavy/light divider. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_popular_core_triangles/conditional.md."
   },
   {
    "id": "xr_scattered_syzygy_flattice",
@@ -2797,7 +2802,7 @@
   {
    "id": "xr_light_triangle_eliminant",
    "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "Light configurations (sum r - triple <= 2k, budget >= k+1 still met): syzygy existence is a NON-GENERIC determinantal condition \u2014 an explicit eliminant locus in the support coordinates (the kernel of the sum map Lambda_0 + Lambda_1 + Lambda_2 jumps rank). The remaining claim: for every pair, stagnating light triangles are rationed \u2014 the eliminant locus's intersection with the pair's aligned-support variety is poly-bounded or paid. This is the SMALLEST closed form of face 4's residual core: one determinantal condition, three supports, exhaustively toy-testable (E32), and M5's chart machinery is its laboratory at deficiency-triple level.",
    "attack_surface": "write the eliminant explicitly at toy scale (the sum-map matrix in MDS coordinates); E32 hunts stagnating light triples; the u5-style dichotomy (eliminant nonzero => rationed; identically zero => the configuration family is structured/paid) at triple level",
@@ -2805,7 +2810,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "E32-MERGED: no profile-forced vanishing anywhere checked; the dichotomy's structured branch is empty at profile level. Remaining: coordinate-special vanishing + the rationing leg (deep-link staircase, E33 pending)."
+   "notes": "E32-MERGED: no profile-forced vanishing anywhere checked; the dichotomy's structured branch is empty at profile level. Remaining: coordinate-special vanishing + the rationing leg (deep-link staircase, E33 pending). | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_light_triangle_eliminant/conditional.md."
   },
   {
    "id": "deep_link_staircase",
@@ -3448,7 +3453,7 @@
   {
    "id": "midlarge_h_certification",
    "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "With H_max = A (audit verdict), the certification pipelines cover: C1a direct MITM h = 4(-5); C1b descent h <= ~8-10 (band saturation). The range h in (~10, A] (A = 67/133/261 per rate) is covered by NEITHER \u2014 and the crude route (value_set_partner_cap x C(n,h) cores) reduces back to the terminal bound. ROUTES: (a) a large-h emptiness/exclusion THEOREM (first moment empty by thousands of bits; h-1 obstruction conditions overwhelm the C(n,h) pattern entropy above h ~ some explicit H0 \u2014 find the worst-case tool); (b) a scalable certificate valid at all h (the descent is not); (c) consumer-side: resolve the h <= A vs 2h <= A micro-lemma and check whether large-h trades enter R_PTE at full weight; (d) per-h budget arithmetic: 261 x ~1e5 << n^3 fits, so per-h bounds suffice \u2014 no aggregation cleverness needed. GAP PINNED (micro-lemma 5/5): h <= A reading PROVED (2h <= A wrong) \u2014 the certification gap is the full (10, A] with A = 67/133/261; its (100, A] tail additionally lies outside the frozen W3 grammar window at rates 1/4 and 1/8 (nonempty both), empty at 1/16. FRONTIER UPDATE (C1b proved + route-a autopsy): the gap is now h in (6, A] \u2014 C1b certifies h = 5, 6 (bottom census 2^38 at n=1024), C1a h = 4. Route (a) is DEAD (m1_trade_bijection: a bijection, not a bound). Live assets: the ~3.3e3-active-cores-per-h budget target (quantified), the M2 lever at extension rows, the first-moment margin (thousands of bits). This node is now the single largest open item on the (A) side.",
    "attack_surface": "the Fable C1b brief carries this as its second part: prove the injection lemma (h <= 10) AND map/attack the large-h routes",
@@ -3456,7 +3461,7 @@
    "refs": [
     "experimental/notes/roadmaps/h_window_derivation_audit.md"
    ],
-   "notes": "C1a VERDICT SHARPENS THE SPLIT: direct MITM is h=4-only (h=5 measured ~2.2yr infeasible). The descent (C1b) must carry h = 5..~10; the gap above ~10 unchanged."
+   "notes": "C1a VERDICT SHARPENS THE SPLIT: direct MITM is h=4-only (h=5 measured ~2.2yr infeasible). The descent (C1b) must carry h = 5..~10; the gap above ~10 unchanged. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/midlarge_h_certification/conditional.md."
   },
   {
    "id": "star_pte_support_bound",
@@ -3671,13 +3676,14 @@
   {
    "id": "midlarge_h20_A",
    "title": "midlarge h20 A",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "The asymptotic band h in (20, A] (A = 67/133/261): the obstruction-overwhelm route \u2014 an active core forces h-1 >= 20 simultaneous obstruction vanishings at the row's zeta; prove a single-obstruction value-set lower bound (via the m1 bijection reparametrization + Lemma 0's determined-low-coefficients structure) forcing active cores <= budget. Decomposes further to single_obstruction_valueset below.",
    "attack_surface": "the graph structure: cores inject into top-coefficient tuples; one obstruction's value distribution is the whole question",
    "falsifier": "an active core at h > 20 anywhere (never observed)",
    "refs": [
     "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ]
+   ],
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/midlarge_h20_A/conditional.md."
   },
   {
    "id": "single_obstruction_valueset",
@@ -6721,6 +6727,11 @@
   {
    "from": "cap_envelope_parameter_sweep",
    "to": "corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "f_spread_moment_count",
+   "to": "f_descent_termination",
    "kind": "req"
   }
  ]
