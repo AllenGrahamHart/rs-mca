@@ -229,15 +229,19 @@ def radial():
         for u in rev[v]:
             if u not in crit:
                 crit.add(u); stack.append(u)
-    # ring = shortest req-distance to a grand
-    from collections import deque
-    ring = {g: 0 for g in GRANDS if g in nodes}
-    dq = deque(ring)
-    while dq:
-        v = dq.popleft()
-        for u in rev[v]:
-            if u in crit and u not in ring:
-                ring[u] = ring[v] + 1; dq.append(u)
+    # ring = LONGEST req-path to a grand: guarantees ring(u) > ring(v) for
+    # every requirement edge u -> v, so implication always flows strictly
+    # inward - the radial direction IS the direction of implication.
+    import functools
+
+    @functools.lru_cache(maxsize=None)
+    def lrank(v):
+        if v in GRANDS:
+            return 0
+        outs = [w for w in cons[v] if w in crit]
+        return 1 + max(lrank(w) for w in outs) if outs else 0
+
+    ring = {v: lrank(v) for v in crit}
     maxring = max(ring.values())
     rings = defaultdict(list)
     for v, r in ring.items():
