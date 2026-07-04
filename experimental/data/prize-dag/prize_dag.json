@@ -397,7 +397,8 @@
    ],
    "statement": "For every pair (u,v): #(D_j cap X_{u,v} minus paid strata) <= n^B max(1, C(n,j) q^{1-t}) with B <= 3, X_{u,v} = V(2x2 minors of (H_u l ; H_v l)).",
    "attack_surface": "any ONE of the four wall routes; budget B <= 3 verified",
-   "falsifier": "an unpaid collision in the window scan (P1c) or an unpaid identically-valid pencil at deficiency 1 (P3)"
+   "falsifier": "an unpaid collision in the window scan (P1c) or an unpaid identically-valid pencil at deficiency 1 (P3)",
+   "notes": "WIRING FIX (orbit check): the Theorem-J route (spi_point_counting = conj_f + slope sieve) wired as alt \u2014 it IS an R2 proof route and was unwired. NOTE: all three reqs went green TODAY (conj_f, payment_completeness); this gate:any node discharges the moment one alt greens. The sieve chain (diffuse_triple_shadow -> sieve -> spi_point_counting) is correctly OFF the strict orbit while amber (candidate route, per the green-alts rule) and will surface automatically when it greens."
   },
   {
    "id": "budget_b3",
@@ -1693,7 +1694,7 @@
    "refs": [
     "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#5"
    ],
-   "notes": "CONDITIONAL (Pro Theorem J): conj_f (PROVED) + hankel_slope_large_sieve => R2 with B = C_F + C_Sigma. Honest: the sieve IS R2 factorized \u2014 the gain is that the fiber factor is now settled by Conjecture F and the residue is purely the XR exchange wall, where the campaign has machinery (Johnson expansion, exchange ledgers)."
+   "notes": "CONDITIONAL (Pro Theorem J): conj_f (PROVED) + hankel_slope_large_sieve => R2 with B = C_F + C_Sigma. Honest: the sieve IS R2 factorized \u2014 the gain is that the fiber factor is now settled by Conjecture F and the residue is purely the XR exchange wall, where the campaign has machinery (Johnson expansion, exchange ledgers). | Wired as an alt route into r2_rigidity (Theorem J). When the diffuse-shadow leaf lands, this chain greens, r2_rigidity discharges (reqs already all green), and the general R2 becomes available to the terminal cluster alongside the compiled XR route."
   },
   {
    "id": "es_regularity",
@@ -3579,7 +3580,8 @@
    "falsifier": "a third challenger class outside both",
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
-   ]
+   ],
+   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible."
   },
   {
    "id": "cap_end_sharpening",
@@ -6970,6 +6972,11 @@
    "from": "pcf_norm_gate_flatness",
    "to": "b2b_primitive_core",
    "kind": "ev"
+  },
+  {
+   "from": "spi_point_counting",
+   "to": "r2_rigidity",
+   "kind": "alt"
   }
  ]
 }
