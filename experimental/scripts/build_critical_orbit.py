@@ -75,6 +75,16 @@ def derive():
                  + [{"from": u, "to": v, "kind": "alt"} for u, v in alt
                     if u in crit and v in crit and nodes[v].get("gate") == "any"],
     }
+    fwd = defaultdict(list)
+    for e in out["edges"]:
+        fwd[e["from"]].append(e["to"])
+    def _reaches(x, seen):
+        if x in R.GRANDS:
+            return True
+        seen.add(x)
+        return any(_reaches(y, seen) for y in fwd[x] if y not in seen)
+    orphans = sorted(x for x in crit if not _reaches(x, set()))
+    assert not orphans, f"connectivity violation: {orphans[:8]}"
     path = os.path.join(HERE, "..", "data", "prize-dag", "critical_dag.json")
     json.dump(out, open(path, "w"), indent=1)
     return out
