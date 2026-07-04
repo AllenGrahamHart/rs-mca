@@ -1,0 +1,181 @@
+{
+  "checks": 41,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "pte_h2_rung": "PROVED",
+    "x50_h4_centered_threshold": "PROVED",
+    "x58_h4_reduced_additive_energy": "PROVED",
+    "x60_h4_linear_triple_form": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "branch_formula": "y=x count = z=1 count = D+1",
+      "diagonal_branch_z_equals_1": 15,
+      "diagonal_correction_D": 14,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "p": 17,
+      "source_overlap_branch_y_equals_x": 15,
+      "sunit_degenerate_branches": {
+        "x_equals_1": 16,
+        "y_equals_1": 16,
+        "y_equals_minus_x": 16
+      }
+    },
+    {
+      "branch_formula": "y=x count = z=1 count = D+1",
+      "diagonal_branch_z_equals_1": 21,
+      "diagonal_correction_D": 20,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "p": 193,
+      "source_overlap_branch_y_equals_x": 21,
+      "sunit_degenerate_branches": {
+        "x_equals_1": 64,
+        "y_equals_1": 64,
+        "y_equals_minus_x": 64
+      }
+    },
+    {
+      "branch_formula": "y=x count = z=1 count = D+1",
+      "diagonal_branch_z_equals_1": 5,
+      "diagonal_correction_D": 4,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "p": 7937,
+      "source_overlap_branch_y_equals_x": 5,
+      "sunit_degenerate_branches": {
+        "x_equals_1": 64,
+        "y_equals_1": 64,
+        "y_equals_minus_x": 64
+      }
+    },
+    {
+      "branch_formula": "y=x count = z=1 count = D+1",
+      "diagonal_branch_z_equals_1": 1,
+      "diagonal_correction_D": 0,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "p": 17921,
+      "source_overlap_branch_y_equals_x": 1,
+      "sunit_degenerate_branches": {
+        "x_equals_1": 128,
+        "y_equals_1": 128,
+        "y_equals_minus_x": 128
+      }
+    },
+    {
+      "branch_formula": "y=x count = z=1 count = D+1",
+      "diagonal_branch_z_equals_1": 3,
+      "diagonal_correction_D": 2,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "p": 91393,
+      "source_overlap_branch_y_equals_x": 3,
+      "sunit_degenerate_branches": {
+        "x_equals_1": 256,
+        "y_equals_1": 256,
+        "y_equals_minus_x": 256
+      }
+    }
+  ],
+  "scale_table": [
+    {
+      "exact_threshold": 11,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 442368,
+        "cubed_right_after_minus_one": 146363183,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 16,
+      "x60_linear_barrier": 528
+    },
+    {
+      "exact_threshold": 13,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 1769472,
+        "cubed_right_after_minus_one": 384240583,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 32,
+      "x60_linear_barrier": 728
+    },
+    {
+      "exact_threshold": 16,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 7077888,
+        "cubed_right_after_minus_one": 1284365503,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 64,
+      "x60_linear_barrier": 1088
+    },
+    {
+      "exact_threshold": 20,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 28311552,
+        "cubed_right_after_minus_one": 4733169839,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 128,
+      "x60_linear_barrier": 1680
+    },
+    {
+      "exact_threshold": 25,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 113246208,
+        "cubed_right_after_minus_one": 17555727799,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 256,
+      "x60_linear_barrier": 2600
+    },
+    {
+      "exact_threshold": 38,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 1811939328,
+        "cubed_right_after_minus_one": 208211532983,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 1024,
+      "x60_linear_barrier": 5928
+    },
+    {
+      "exact_threshold": 371,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 1899956092796928,
+        "cubed_right_after_minus_one": 168239574922207823,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 1048576,
+      "x60_linear_barrier": 552048
+    },
+    {
+      "exact_threshold": 47261,
+      "h2_fixed_line_plus_one_comparison": {
+        "cubed_left_without_plus_one": 8356095265176316855569088512,
+        "cubed_right_after_minus_one": 713222411356814474721846002183,
+        "holds": true,
+        "inequality": "12*n^(2/3)+1 < 8*C(T+1,2)"
+      },
+      "n": 2199023255552,
+      "x60_linear_barrier": 8934597528
+    }
+  ],
+  "status": "PROVED DEGENERACY LEDGER AND DIAGONAL-LINE AFFORDABILITY",
+  "task": "X61 h=4 linear degeneracy ledger",
+  "theorem": "For x+y-z-1=0, the only proper vanishing subsums on H^3 are x=1, y=1, and y=-x.  X60's additional excluded loci y=x and z=1 are source-overlap/diagonal line branches, each of size D+1 where D is X58's diagonal correction.  The pte_h2_rung fixed-line bound puts each such branch below 12*n^(2/3)+1, and exact X50 arithmetic shows this is below the X60 barrier 8*C(T+1,2) on every recorded threshold row."
+}
