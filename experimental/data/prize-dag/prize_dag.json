@@ -3434,6 +3434,16 @@
     "experimental/notes/roadmaps/x41_h4_centered_norm_gate.md"
    ],
    "notes": "Proved localization. This does not bound the number of norm-gated shells; it shows the nonzero centered affine branch is not a new characteristic-zero h=4 mechanism."
+  },
+  {
+   "id": "x42_h4_centered_energy_accounting",
+   "title": "X42: h=4 centered affine residue has shell-energy accounting",
+   "status": "PROVED",
+   "statement": "For each nonzero pair-sum shell S_s={{x,y}:x+y=s}, pair products U_s={xy} are distinct. Centered h=4 trades with center s/2 are exactly additive two-sum collisions among unordered pairs of U_s with disjoint indices. In odd characteristic each four-subset of U_s supports at most one equal-sum partition, so the centered branch is bounded by sum_s C(|S_s|,4). The verifier computes the exact shell energy and this bound in stress and campaign rows.",
+   "refs": [
+    "experimental/notes/roadmaps/x42_h4_centered_energy_accounting.md"
+   ],
+   "notes": "Proved accounting formula for the X40/X41 centered branch. This is a count/certifier packet, not a uniform shell-size theorem."
   }
  ],
  "edges": [
@@ -6099,6 +6109,11 @@
   },
   {
    "from": "x41_h4_centered_norm_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x42_h4_centered_energy_accounting",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
