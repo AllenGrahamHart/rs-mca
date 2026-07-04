@@ -3716,13 +3716,14 @@
   {
    "id": "f1_full_field_pole_forcing",
    "title": "f1 full field pole forcing",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "THE REAL CONTENT of the trichotomy: K = F (genuinely F-valued, not subfield-confined) FORCES the pole mechanism \u2014 s6 section 1's verified direction ('B-rational data cannot produce genuinely F-valued bad slopes; those require F-valued words or the pole mechanism') upgraded from the generating-row case to all admissible rows. With this, case (ii)'s pricing applies to everything K = F, and the trichotomy closes given the tower case.",
    "attack_surface": "extend the s6 section-1 argument row-uniformly; the extension-fiber arithmetic is banked",
    "falsifier": "a genuinely F-valued bad slope above the reserve avoiding both the pole mechanism and subfield confinement",
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
-   ]
+   ],
+   "notes": "CONDITIONAL (Pro Brief K, refereed): Theorem K \u2014 row-uniform trichotomy on the single hypothesis ef_ru; base collapse unconditional; generating audit clean (generating = the E=B degenerate case); constants uniform (orbits < 7, tower <= 3, monotone pole envelope); failure class NAMED (Galois-skew hidden-fiber leakage). The f1 cluster is now ALL-AMBER above the ef_ru leaf."
   },
   {
    "id": "petal_excess_induction",
@@ -3915,6 +3916,12 @@
    "title": "Dirichlet log-integral flatness",
    "status": "TARGET",
    "statement": "Near-log-integral geometric-mean distribution of low-degree odd evaluations on the section (see statement.md) \u2014 the final reduced input of the primitive core."
+  },
+  {
+   "id": "ef_ru",
+   "title": "row-uniform extension-fiber hypothesis",
+   "status": "TARGET",
+   "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first)."
   }
  ],
  "edges": [
@@ -6977,6 +6984,11 @@
    "from": "spi_point_counting",
    "to": "r2_rigidity",
    "kind": "alt"
+  },
+  {
+   "from": "ef_ru",
+   "to": "f1_full_field_pole_forcing",
+   "kind": "req"
   }
  ]
 }

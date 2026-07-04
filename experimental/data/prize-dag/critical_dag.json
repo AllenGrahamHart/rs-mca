@@ -288,6 +288,11 @@
    "title": "e1 non-quotient collision density"
   },
   {
+   "id": "ef_ru",
+   "label": "UNPROVED",
+   "title": "row-uniform extension-fiber hypothesis"
+  },
+  {
    "id": "ejm_joint_moment",
    "label": "CONDITIONAL",
    "title": "EJM joint Fourier moment"
@@ -334,7 +339,7 @@
   },
   {
    "id": "f1_full_field_pole_forcing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "f1 full field pole forcing"
   },
   {
@@ -2129,6 +2134,10 @@
   {
    "from": "e1_fullness",
    "to": "zone_b"
+  },
+  {
+   "from": "ef_ru",
+   "to": "f1_full_field_pole_forcing"
   },
   {
    "from": "acl_second_order",
