@@ -77,7 +77,7 @@
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
    "statement": "Resolve: does the official sampler batch as affine lines u + zv (repo convention) or another shape (powers-of-alpha)? Quote-level audit vs the ABF text.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis1_batching/.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis1_batching/. | FABLE AUDIT PASSED (2026-07-04 pm): quote-level verification against the pages of abf26.pdf read directly by the roadmap lane (pp.3-5, 17-19) \u2014 quotes real, claims match, the axis4 identification routes through the banked noncontain_degeneracy, axis8's adverse reading is additionally conservative-safe (over-pricing cannot create a false claim). The S0 cascade STANDS at full audit grade.",
    "closure": "citation"
   },
   {
@@ -88,7 +88,7 @@
     "proof_sketch/s5_s0_statements_and_object.md#4"
    ],
    "statement": "Resolve: official MCA quantifies pairs (C^{==2}) or ell-tuples? If tuples: supply the tuple-to-pair reduction or per-ell gates.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis2_ell/.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis2_ell/. | FABLE AUDIT PASSED (2026-07-04 pm): quote-level verification against the pages of abf26.pdf read directly by the roadmap lane (pp.3-5, 17-19) \u2014 quotes real, claims match, the axis4 identification routes through the banked noncontain_degeneracy, axis8's adverse reading is additionally conservative-safe (over-pricing cannot create a false claim). The S0 cascade STANDS at full audit grade.",
    "closure": "citation"
   },
   {
@@ -100,7 +100,7 @@
     "proof_sketch/s4_reserve_dictionary.md#2"
    ],
    "statement": "Resolve: is ABF's Delta_S((f1,f2), C^{==2}) > 0 exactly the same-support degenerate-pencil predicate (a = b = 0 stratum)? Quote-level audit.",
-   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis4_predicate/.",
+   "notes": "Root authority identified: ePrint 2026/680 (ABF26 survey) \u2014 the audit compares against ITS text; repo authors have the PDF (our fetch is Cloudflare-blocked). | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis4_predicate/. | FABLE AUDIT PASSED (2026-07-04 pm): quote-level verification against the pages of abf26.pdf read directly by the roadmap lane (pp.3-5, 17-19) \u2014 quotes real, claims match, the axis4 identification routes through the banked noncontain_degeneracy, axis8's adverse reading is additionally conservative-safe (over-pricing cannot create a false claim). The S0 cascade STANDS at full audit grade.",
    "closure": "citation"
   },
   {
@@ -3503,7 +3503,7 @@
     "experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md"
    ],
    "closure": "citation",
-   "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis8_generating/."
+   "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis8_generating/. | FABLE AUDIT PASSED (2026-07-04 pm): quote-level verification against the pages of abf26.pdf read directly by the roadmap lane (pp.3-5, 17-19) \u2014 quotes real, claims match, the axis4 identification routes through the banked noncontain_degeneracy, axis8's adverse reading is additionally conservative-safe (over-pricing cannot create a false claim). The S0 cascade STANDS at full audit grade."
   },
   {
    "id": "corridor_window_cleanup",
