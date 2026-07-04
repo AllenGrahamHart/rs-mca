@@ -3654,6 +3654,16 @@
     "experimental/notes/roadmaps/x63_h4_linear_content_descent.md"
    ],
    "notes": "Splits X62's p-specific norm-gate mass into quotient-pullback content and genuinely primitive four-term norm-gate residue. Nonprimitive filtered triples recurse to smaller quotient rows and are not a new top-level mechanism."
+  },
+  {
+   "id": "x64_h4_linear_orbit_compression",
+   "title": "X64: h=4 filtered linear triples have free eightfold chord orbits",
+   "status": "PROVED",
+   "statement": "The X60 equation x+y=z+1 is equality of unordered pairs {x,y} and {z,1}. Swapping within pairs, swapping the pairs, and re-anchoring gives eight explicit exponent transforms; on the X60 filtered locus the action is free, and gcd(n,a,b,c) is invariant. Thus the primitive content-one X63 residue is certified on canonical eight-orbit representatives and expands by exactly 8.",
+   "refs": [
+    "experimental/notes/roadmaps/x64_h4_linear_orbit_compression.md"
+   ],
+   "notes": "Converts the remaining primitive four-term norm-gate problem from ordered triples to canonical chord-pair orbit representatives. This is a constant compression, but it fixes the natural certifier currency for the X62/X63 residue."
   }
  ],
  "edges": [
@@ -6609,6 +6619,21 @@
   },
   {
    "from": "x63_h4_linear_content_descent",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
+   "to": "x64_h4_linear_orbit_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x63_h4_linear_content_descent",
+   "to": "x64_h4_linear_orbit_compression",
+   "kind": "req"
+  },
+  {
+   "from": "x64_h4_linear_orbit_compression",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
