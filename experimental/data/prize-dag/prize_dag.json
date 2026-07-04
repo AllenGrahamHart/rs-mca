@@ -3564,11 +3564,12 @@
    "status": "TARGET",
    "key": true,
    "statement": "Cover the 2,978,147-radius band at prize-max rate 1/2 (M_max = 2^33 vs sigma* = 8,592,912,738) by a new mechanism (quotient windows and integrality both fall short) \u2014 or the rate-1/2 determination lands bracket-grade there. Rates 1/4, 1/8, 1/16 need nothing (clean by margins < -121). THE rate-1/2 battlefield node.",
-   "attack_surface": "a third mechanism for the band: extended quotient scales, averaged conversion at giant M, or the B2b-style balance analysis",
+   "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
    "falsifier": "a band radius provably uncoverable by any priced mechanism",
    "refs": [
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
-   ]
+   ],
+   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued."
   },
   {
    "id": "worst_word_challenger_pricing",
