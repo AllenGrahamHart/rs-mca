@@ -119,7 +119,7 @@
   },
   {
    "id": "b2b_primitive_core",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "b2b primitive core"
   },
   {
@@ -464,8 +464,13 @@
   },
   {
    "id": "generator_economy",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "THE CORE, SHARPENED: multiplicative difference-designs (few bases certify everything)"
+  },
+  {
+   "id": "generator_size_budget_check",
+   "label": "UNPROVED",
+   "title": "generator size budget check"
   },
   {
    "id": "graded_collision_radius",
@@ -676,6 +681,11 @@
    "id": "payment_completeness",
    "label": "CONDITIONAL",
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
+  },
+  {
+   "id": "pcf_norm_gate_flatness",
+   "label": "UNPROVED",
+   "title": "pcf norm gate flatness"
   },
   {
    "id": "periodic_strata",
@@ -2026,6 +2036,14 @@
   {
    "from": "ext_import",
    "to": "f1_pole_list_threshold_location"
+  },
+  {
+   "from": "pcf_norm_gate_flatness",
+   "to": "b2b_primitive_core"
+  },
+  {
+   "from": "generator_size_budget_check",
+   "to": "generator_economy"
   },
   {
    "from": "acl_second_order",
