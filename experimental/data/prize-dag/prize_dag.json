@@ -3888,8 +3888,9 @@
   {
    "id": "ejm_joint_moment",
    "title": "EJM joint Fourier moment",
-   "status": "TARGET",
-   "statement": "Nonzero-frequency joint moment bound for the odd-evaluation map (see statement.md); the corrected one-node residue of the primitive core."
+   "status": "CONDITIONAL",
+   "statement": "Nonzero-frequency joint moment bound for the odd-evaluation map (see statement.md); the corrected one-node residue of the primitive core.",
+   "notes": "CONDITIONAL (Pro D4 route b, verified: collision identity + 3 calibration rows exact): DLI => EJM_2 by pointwise log-loss + frequency union bound. The support lever is proved-but-insufficient (honest); no toy falsifier; geometric not arithmetic decay is the content."
   },
   {
    "id": "aqb_averaged_quotient_box",
@@ -3909,6 +3910,12 @@
    "title": "diffuse triple-shadow theorem",
    "status": "TARGET",
    "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED)."
+  },
+  {
+   "id": "dli_dirichlet_log_integral",
+   "title": "Dirichlet log-integral flatness",
+   "status": "TARGET",
+   "statement": "Near-log-integral geometric-mean distribution of low-degree odd evaluations on the section (see statement.md) \u2014 the final reduced input of the primitive core."
   }
  ],
  "edges": [
@@ -6950,6 +6957,11 @@
   {
    "from": "diffuse_triple_shadow",
    "to": "hankel_slope_large_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "dli_dirichlet_log_integral",
+   "to": "ejm_joint_moment",
    "kind": "req"
   }
  ]

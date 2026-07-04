@@ -273,13 +273,18 @@
    "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
   },
   {
+   "id": "dli_dirichlet_log_integral",
+   "label": "UNPROVED",
+   "title": "Dirichlet log-integral flatness"
+  },
+  {
    "id": "dyadic_profile_evaluation",
    "label": "PROVED",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
   },
   {
    "id": "ejm_joint_moment",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "EJM joint Fourier moment"
   },
   {
@@ -2111,6 +2116,10 @@
   {
    "from": "aqb_averaged_quotient_box",
    "to": "rate_half_band_closure"
+  },
+  {
+   "from": "dli_dirichlet_log_integral",
+   "to": "ejm_joint_moment"
   },
   {
    "from": "acl_second_order",
