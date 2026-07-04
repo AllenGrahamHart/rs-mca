@@ -3596,6 +3596,28 @@
    "refs": [
     "experimental/notes/roadmaps/acl_second_order_evaluation.md"
    ]
+  },
+  {
+   "id": "list_corridor_widths",
+   "title": "list corridor widths",
+   "status": "TARGET",
+   "statement": "Compute the LIST-side corridor widths per clean rate: the gap in grid steps between the proved list-safe radius (|Lambda| <= eps*|F| above the window) and the proved list-unsafe radius (crossing at the gate), at each rate's official row \u2014 the list analogue of W = 2.17/2.00/1.12. Previously unpriced; pure computation from the banked list-safe/unsafe formulas (imgfib-conditional bounds + planted arithmetic).",
+   "attack_surface": "the corridor_eaters machinery, list-side formulas; delegable compute",
+   "falsifier": "a rate where the list corridor is already <= 1 grid step (adjacency free)",
+   "refs": [
+    "experimental/notes/roadmaps/corridor_eaters_computation.md"
+   ]
+  },
+  {
+   "id": "list_corridor_ledger",
+   "title": "list corridor ledger",
+   "status": "TARGET",
+   "statement": "The list-side assembly: per clean rate, the available eaters (planted-arithmetic pinning, census windows, any list analogue of the second-order term) recover >= W_list(rate) - 1 grid steps \u2014 collapsing the list bracket to adjacency. Exhaustive over the three rates; becomes list_adjacency_closing's implication packet. Evidence-gated on list_corridor_widths.",
+   "attack_surface": "the three-row table, mirroring corridor_ledger",
+   "falsifier": "a rate whose list eaters cannot reach W_list - 1",
+   "refs": [
+    "experimental/notes/roadmaps/corridor_eaters_computation.md"
+   ]
   }
  ],
  "edges": [
@@ -6382,6 +6404,16 @@
   {
    "from": "fourth_mechanism_rate8",
    "to": "corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "list_corridor_widths",
+   "to": "list_corridor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "list_corridor_ledger",
+   "to": "list_adjacency_closing",
    "kind": "req"
   }
  ]

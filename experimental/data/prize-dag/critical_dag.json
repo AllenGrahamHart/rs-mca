@@ -443,6 +443,16 @@
    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii"
   },
   {
+   "id": "list_corridor_ledger",
+   "label": "UNPROVED",
+   "title": "list corridor ledger"
+  },
+  {
+   "id": "list_corridor_widths",
+   "label": "UNPROVED",
+   "title": "list corridor widths"
+  },
+  {
    "id": "list_crossing_localization",
    "label": "PROVABLE",
    "title": "List staircase: sup-over-words list size is a monotone integer => unique crossing exists"
@@ -1568,6 +1578,14 @@
   {
    "from": "fourth_mechanism_rate8",
    "to": "corridor_ledger"
+  },
+  {
+   "from": "list_corridor_widths",
+   "to": "list_corridor_ledger"
+  },
+  {
+   "from": "list_corridor_ledger",
+   "to": "list_adjacency_closing"
   }
  ]
 }
