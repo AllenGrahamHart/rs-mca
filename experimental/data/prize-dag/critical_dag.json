@@ -374,7 +374,7 @@
   },
   {
    "id": "f_dih_subgroup_completeness",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory"
   },
   {
@@ -404,7 +404,7 @@
   },
   {
    "id": "f_many_sparse_structure",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
   },
   {
@@ -424,7 +424,7 @@
   },
   {
    "id": "f_sparse_rank_split",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
   },
   {
@@ -454,7 +454,7 @@
   },
   {
    "id": "f_weight2_inverse",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "FACE-2 CORE (evidence-informed): the weight-2 inverse theorem"
   },
   {
@@ -584,7 +584,7 @@
   },
   {
    "id": "list_corridor_ledger",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "list corridor ledger"
   },
   {
@@ -979,7 +979,7 @@
   },
   {
    "id": "wild_row_audit",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
   },
   {

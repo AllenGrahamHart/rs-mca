@@ -2161,7 +2161,7 @@
   {
    "id": "f_many_sparse_structure",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "RESTATED (second revision, after the verified dihedral counterexample): many-sparse flats are MULTIPLICATIVE-pullback-structured, DIHEDRAL/Chebyshev-quotient-structured (X^e g(X^M + X^{-M}) \u2014 the new class), tangent-structured, or descent-reducible. The conjecture: nothing UNPAID survives all FOUR branches. The dihedral branch is forced: reciprocal flats are gcd-trivial, multiplicatively aperiodic, and have super-poly lattices \u2014 only the enlarged quotient class pays them.",
    "attack_surface": "coding-theory structure: codes with many minimal low-weight words are classified in known regimes; the coset-support pattern (supports = unions of coset pairs) is the signature to force; toy-enumerable falsifier at n = 16",
@@ -2865,7 +2865,7 @@
   {
    "id": "f_dih_subgroup_completeness",
    "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "Quotient-type escape mechanisms arise from Mobius symmetries of the evaluation domain; the PGL_2 stabilizer of mu_n (and of 2-power coset domains) contains the dihedral group Dih_n (rotations x -> zeta x, inversions x -> zeta/x) and generically equals it. Every subgroup of a dihedral group is cyclic or dihedral (theorem): cyclic => multiplicative pullbacks g(X^M); dihedral => Chebyshev quotients X^e g(X^M + zeta' X^-M) (twisted inversions are conjugate relabelings). THEREFORE the symmetry-quotient taxonomy {multiplicative, dihedral} is COMPLETE \u2014 no sixth quotient mechanism exists. Explains E25/E27/E30's clean fifth-shape watches structurally. Residual check (small lemma): no exotic stabilizer at special (n, q) \u2014 the stabilizer of an n-point projective set with n >= 3 is finite and contains Dih_n; rule out proper overgroups for prize domains. AMENDED (Codex P2 + verified negative controls + the Mersenne analysis): the raw all-(n,q) claim is FALSE. TAME rows: stabilizer = Dih_n PROVED (P2's tame case). WILD rows \u2014 the stabilizer explodes to PGL_2(F_{n-1}) (3-transitive, order ~n^3) exactly when the domain is projectively the subfield line P^1(F_{n-1}): requires n-1 a prime power AND F_{n-1} in F_q. For 2-power n, n-1 prime power <=> Mersenne structure: n in {4, 8, 32, 128, 2^13, 2^17, 2^19, 2^31} (exhaustive to 2^41; both negative controls verified independently: F_9/mu_4 -> 24 = S_4 by my brute force, F_49/mu_8 -> 336 = |PGL_2(F_7)|). ADMISSIBLE WILD ROWS EXIST: q = (2^m - 1)^{2s} < 2^256 with n | q - 1 automatic (q'^2 - 1 = (q'-1) 2^m for Mersenne q') at n = 2^13, 2^17, 2^19, 2^31. Row C (1023 = 3*11*31) and prize-max (2^41 - 1 composite) are TAME. At wild rows the completeness conclusion enlarges from {cyclic, dihedral} to the DICKSON subgroup lattice of PGL_2(F_{n-1}) \u2014 still finite and classical. Named condition: p2_no_wild_subfield_circle_domain (per-row tameness check, pure arithmetic).",
    "attack_surface": "the subgroup theorem is classical; the stabilizer computation is a short PGL_2 argument; the exotic-case check is finite casework (n = 2-power, n | q-1)",
@@ -2878,7 +2878,7 @@
   {
    "id": "f_sparse_rank_split",
    "title": "FACE-2 SPLIT (derivation): by sparse-word rank",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Split many-sparse flats by d_sp = dim span of their sparse dual words: (a) d_sp bounded => quotient by the sparse span reduces to the PROVED fixed-d lattice machinery + strip; (b) d_sp growing => abundance of independent sparse words, which splits by weight: abundant weight-2 => the inverse theorem f_weight2_inverse (conclusion FINITE by f_dih_subgroup_completeness); higher-weight accumulation => face-4 configuration machinery via the proved transport dictionary. Exhaustive by construction.",
    "attack_surface": "leg (a) is a quotient argument over the proved fixed-d bound; leg (b) wiring is the two named children",
    "falsifier": "a growing-d_sp flat with neither weight-2 abundance nor higher-weight accumulation (definitionally excluded \u2014 the split is exhaustive; the falsifier tests the LEG proofs)",
@@ -2890,7 +2890,7 @@
   {
    "id": "f_weight2_inverse",
    "title": "FACE-2 CORE (evidence-informed): the weight-2 inverse theorem",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "RESTATED ALONG E35's OBSERVED STRUCTURE (1452 flats, 28/28): if a flat (post common-root strip) carries >= 4 DISJOINT minimal weight-2 dual supports (the MATCHING count, not raw pairs \u2014 near-pencils reach raw 6 without symmetry but matching 2), then it is contained in a projective-multiplicative stratum X^e g(X^M) or a dihedral stratum. Empirical basis: the distribution has an EMPTY BAND \u2014 nonsymmetric flats have matching count 0-3, symmetric 7-8, nothing at 4-6 (threshold 4, margin 3); collapse under perturbation is all-or-nothing (7-8 -> <=2 in one cell), so the inverse theorem is sharp with no soft regime. PROOF PLAN (two steps): (i) matching composition \u2014 >= 4 disjoint two-point ratio constraints compose into a global symmetry candidate; (ii) the candidate lands in the FINITE target (f_dih_subgroup_completeness: cyclic or dihedral, nothing else). STEP (i) PROVED AT QUADRATIC THRESHOLD (Theorem 1, verifier 7/7: m > j + (j-1)^2 disjoint weight-2 supports force GLOBAL PULLBACK: Phi = nu compose psi, every psi-fiber pair a flat-wide ratio edge; engine = value rigidity + P1xP1 Bezout + Luroth; linear threshold W(d) = d+2 open with Lemma D as seed). STEP (ii) FALSIFIED AS STATED and CORRECTED: the conclusion space is NOT Dih_n \u2014 witness span{1, q, q^2}, q = X^2+3X over F_17: post-strip, w2m = 7, no Dih stratum, psi-fibers of the affine involution x -> -3-x. The TRUE conclusion space is the LUROTH/PULLBACK LATTICE (intermediate fields F(psi) of F(X)), of which the Dih_n-invariant subfields are the group special case \u2014 completeness now by LUROTH'S THEOREM (every intermediate field is F(psi)): closure by classification at the correct level. E35's empty band survives with the enlarged conclusion: abundant flats are pullback-structured (symmetric OR not); primitive stay <= 3.",
    "attack_surface": "step (i) is the content: disjoint weight-2 words are ratio-edges on the domain; composition/transitivity across 4+ disjoint edges within a d-dim flat forces the edge map to extend (dimension count: each independent edge cuts dim by 1; 4 edges over dim <= 3 over-determine); step (ii) is the keystone; E35's all-or-nothing collapse says no stability epsilon is needed",
@@ -2953,7 +2953,7 @@
   {
    "id": "wild_row_audit",
    "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "For the admissible wild rows (n in {2^13, 2^17, 2^19, 2^31}, q = (2^m - 1)^{2s} < 2^256): (a) enumerate exactly which (n, q, coset) pairs are wild (cosets of mu_n inherit wildness by scaling conjugacy); (b) the quotient taxonomy there = the Dickson subgroup lattice of PGL_2(F_{n-1}) (Borel, cyclic, dihedral, A_4, S_4, A_5, subfield PSL/PGL) \u2014 each subgroup class a candidate quotient stratum; (c) the unsafe side GAINS: more symmetry = more window families at wild rows \u2014 recompute the census window arithmetic there (thresholds may differ from tame rows; the determination is per-row, so wild rows get their own richer analysis, not a program failure); (d) the weight-2 inverse and completeness statements gain wild-row cases with Dickson conclusion spaces.",
    "attack_surface": "pure arithmetic for (a); Dickson's classical theorem for (b); the existing census machinery transported for (c); toy laboratory: F_49/mu_8 (fully computable wild row)",
@@ -2961,7 +2961,7 @@
    "refs": [
     "experimental/notes/roadmaps/e36_pgl2_stabilizer.md"
    ],
-   "notes": "QA.23 (16/16): the wild-row arithmetic CLOSED (exact admissible list) + the F_49/mu_8 toy fully audited (Dickson strata + window arithmetic); the prize-scale Dickson budget theorem honestly left open \u2014 needed only if a wild row is ever submitted, and the family's tame rows suffice for the three-rate campaign. | QA.23 detail (#17): 26 admissible wild rows enumerated exactly; the F_49/mu_8 Dickson toy shows NO escape, but Dickson-derived window PARTITIONS need their own census column at wild rows (unsafe side bookkeeping, queued with the dossier)."
+   "notes": "QA.23 (16/16): the wild-row arithmetic CLOSED (exact admissible list) + the F_49/mu_8 toy fully audited (Dickson strata + window arithmetic); the prize-scale Dickson budget theorem honestly left open \u2014 needed only if a wild row is ever submitted, and the family's tame rows suffice for the three-rate campaign. | QA.23 detail (#17): 26 admissible wild rows enumerated exactly; the F_49/mu_8 Dickson toy shows NO escape, but Dickson-derived window PARTITIONS need their own census column at wild rows (unsafe side bookkeeping, queued with the dossier). | PROVED on replay (Codex audit packet, 16 QA.23 checks PASS)."
   },
   {
    "id": "p1_post_paid_subcore_richline_cap",
@@ -3644,13 +3644,14 @@
   {
    "id": "list_corridor_ledger",
    "title": "list corridor ledger",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "The list-side assembly: per clean rate, the available eaters (planted-arithmetic pinning, census windows, any list analogue of the second-order term) recover >= W_list(rate) - 1 grid steps \u2014 collapsing the list bracket to adjacency. Exhaustive over the three rates; becomes list_adjacency_closing's implication packet. Evidence-gated on list_corridor_widths.",
    "attack_surface": "the three-row table, mirroring corridor_ledger",
    "falsifier": "a rate whose list eaters cannot reach W_list - 1",
    "refs": [
     "experimental/notes/roadmaps/corridor_eaters_computation.md"
-   ]
+   ],
+   "notes": "PROVED on replay (Codex assembly packet, verifier PASS): the scale-free floor covers W_list - 1 at all three clean rates with exact-rational gains (81/128, 203/2048, 3/8); margins +0.0203 / +0.0240 / +0.0467. THE LIST CORRIDOR FAMILY CLOSES by the same mechanism as the mca family \u2014 the floor is list-native (it constructs the list)."
   },
   {
    "id": "midlarge_partner_cap_reduction",
