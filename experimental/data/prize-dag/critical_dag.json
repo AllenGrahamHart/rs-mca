@@ -629,7 +629,7 @@
   },
   {
    "id": "p1_post_paid_subcore_richline_cap",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "P1's named gap: the per-subcore cap holds POST-STRIP"
   },
   {
@@ -759,7 +759,7 @@
   },
   {
    "id": "subcore_richline_classification",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores"
   },
   {

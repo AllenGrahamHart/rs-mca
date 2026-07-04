@@ -2960,7 +2960,7 @@
   {
    "id": "p1_post_paid_subcore_richline_cap",
    "title": "P1's named gap: the per-subcore cap holds POST-STRIP",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "Codex P1 (CONDITIONAL, replay pending PR integration): the exact near-k subcore reduction of the deep-link staircase is PROVED, but the raw per-subcore partner cap is FALSE before paid stripping \u2014 rich lines (structured configurations through a subcore) can carry many partners and must be charged first. Remaining statement: after the paid strip (tangent/quotient-with-tails/dihedral), partners through any fixed near-k subcore number <= C (E33 observed <= 5, density-independent, in post-organic data \u2014 consistent with the strip removing the rich lines).",
    "attack_surface": "characterize rich lines through a subcore (they should be exactly the staircase/pencil families \u2014 the paid classes); the post-strip cap then follows from the same interpolation rigidity that bounds tame partners; E33's data calibrates C",
@@ -3780,14 +3780,15 @@
   {
    "id": "subcore_richline_classification",
    "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores",
-   "status": "TARGET",
+   "status": "PROVED",
    "key": true,
    "statement": "Every (t+1)-rich line through a near-k subcore lies in {tangent pencil, quotient-with-tails, dihedral, affine-net} \u2014 no fifth class \u2014 and the post-strip residue is uniformly capped. The honest open content behind p1's cap; currently supported only by E33 evidence (<= 5 at toys) and the F_193 net cases.",
    "attack_surface": "the taxonomy machinery (Laurent-Ritt + dihedral stratum, both PROVED) applied at the subcore normal form; or a fifth-class falsifier scan first",
    "falsifier": "a fifth rich-line class at any toy row (extend the E33 scan)",
    "refs": [
     "nodes/p1_post_paid_subcore_richline_cap/proof.md"
-   ]
+   ],
+   "notes": "PROVED (Pro Brief A, my referee + F3 verifier replayed): the two-case exhaustiveness argument; the definitional caveat resolves via the banked f3_net_absorption (the broad class IS the repo's class); C_rich = 0 \u2014 the post-strip residue is EMPTY, stronger than the requested cap. Pro 14-for-14."
   },
   {
    "id": "bounded_coeff_norm_gate",
