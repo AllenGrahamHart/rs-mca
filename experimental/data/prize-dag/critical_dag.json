@@ -273,6 +273,11 @@
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
   },
   {
+   "id": "ejm_joint_moment",
+   "label": "UNPROVED",
+   "title": "EJM joint Fourier moment"
+  },
+  {
    "id": "exchange_calculus",
    "label": "PROVED",
    "title": "One-exchange = Cauchy rank-one update (#152 instances)"
@@ -699,7 +704,7 @@
   },
   {
    "id": "pcf_evaluation_flatness",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "pcf evaluation flatness"
   },
   {
@@ -2093,6 +2098,10 @@
   {
    "from": "hankel_rank_profile_entropy",
    "to": "spi_exceptional_class"
+  },
+  {
+   "from": "ejm_joint_moment",
+   "to": "pcf_evaluation_flatness"
   },
   {
    "from": "acl_second_order",

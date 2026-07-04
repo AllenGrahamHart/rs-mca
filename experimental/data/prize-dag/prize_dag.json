@@ -3880,8 +3880,15 @@
   {
    "id": "pcf_evaluation_flatness",
    "title": "pcf evaluation flatness",
+   "status": "CONDITIONAL",
+   "statement": "The CORRECTED flatness target (post falsification #20): for every central\nlevel-j profile M, the TRUE valid-skew count satisfies\nB_j(M) = #{d in D_j(M) : Q_d(zeta^{2l-1}) = 0 in F_q for all 1 <= l <= L_j}\n<= q^{-L_j + eta_j} U_j(M), with sum_j eta_j = o(t) (prize budget\nq^{-t+H} W_cen <= 2^122). The conditions are the ACTUAL odd evaluation\nequations at the specific roots \u2014 L_j genuinely independent F_q-conditions \u2014\nNOT the folded-resultant divisibility, which collapses to ONE condition for\n2-power moduli (Res(X^N+1, Q_{d,r}) = Res(X^N+1, Q_{d,1}) for all odd r \u2014\nthe collapse identity, proved+verified). Surviving levers: the second-moment/\ncharacter-sum route (untouched by the falsifier), the divisor-pair bilinear\nroute, and any structure that remembers WHICH roots are prescribed.",
+   "notes": "CONDITIONAL (Pro D3 route C, verified): EJM_{2m} => flatness by exact Holder cancellation; the D2 falsifier is now a diagnostic (short by (3/5)^N); the proved 255L+1-coordinate lever replaces the dead resultant-gcd."
+  },
+  {
+   "id": "ejm_joint_moment",
+   "title": "EJM joint Fourier moment",
    "status": "TARGET",
-   "statement": "The CORRECTED flatness target (post falsification #20): for every central\nlevel-j profile M, the TRUE valid-skew count satisfies\nB_j(M) = #{d in D_j(M) : Q_d(zeta^{2l-1}) = 0 in F_q for all 1 <= l <= L_j}\n<= q^{-L_j + eta_j} U_j(M), with sum_j eta_j = o(t) (prize budget\nq^{-t+H} W_cen <= 2^122). The conditions are the ACTUAL odd evaluation\nequations at the specific roots \u2014 L_j genuinely independent F_q-conditions \u2014\nNOT the folded-resultant divisibility, which collapses to ONE condition for\n2-power moduli (Res(X^N+1, Q_{d,r}) = Res(X^N+1, Q_{d,1}) for all odd r \u2014\nthe collapse identity, proved+verified). Surviving levers: the second-moment/\ncharacter-sum route (untouched by the falsifier), the divisor-pair bilinear\nroute, and any structure that remembers WHICH roots are prescribed."
+   "statement": "Nonzero-frequency joint moment bound for the odd-evaluation map (see statement.md); the corrected one-node residue of the primitive core."
   }
  ],
  "edges": [
@@ -6898,6 +6905,11 @@
   {
    "from": "hankel_rank_profile_entropy",
    "to": "spi_exceptional_class",
+   "kind": "req"
+  },
+  {
+   "from": "ejm_joint_moment",
+   "to": "pcf_evaluation_flatness",
    "kind": "req"
   }
  ]
