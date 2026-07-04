@@ -1,0 +1,84 @@
+{
+  "checks": 31,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x56_h2_anchored_surplus_currency": "PROVED",
+    "x58_h4_reduced_additive_energy": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "anchored_nonzero_h2_surplus": 84,
+      "diagonal_h_equals_2_over_1_plus_r_count": 14,
+      "inverse_source_h_equals_r_inverse_count": 14,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "nontrivial_mobius_ordered_count": 168,
+      "normal_form": "A = #{(r,h): h(1+r)-1 in H, h notin {1,r^-1,2/(1+r)}} / 2",
+      "p": 17,
+      "raw_surface_count": 210,
+      "source_h_equals_1_count": 14,
+      "x56_anchored_barrier": 264
+    },
+    {
+      "anchored_nonzero_h2_surplus": 588,
+      "diagonal_h_equals_2_over_1_plus_r_count": 20,
+      "inverse_source_h_equals_r_inverse_count": 62,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "nontrivial_mobius_ordered_count": 1176,
+      "normal_form": "A = #{(r,h): h(1+r)-1 in H, h notin {1,r^-1,2/(1+r)}} / 2",
+      "p": 193,
+      "raw_surface_count": 1320,
+      "source_h_equals_1_count": 62,
+      "x56_anchored_barrier": 544
+    },
+    {
+      "anchored_nonzero_h2_surplus": 104,
+      "diagonal_h_equals_2_over_1_plus_r_count": 4,
+      "inverse_source_h_equals_r_inverse_count": 62,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "nontrivial_mobius_ordered_count": 208,
+      "normal_form": "A = #{(r,h): h(1+r)-1 in H, h notin {1,r^-1,2/(1+r)}} / 2",
+      "p": 7937,
+      "raw_surface_count": 336,
+      "source_h_equals_1_count": 62,
+      "x56_anchored_barrier": 544
+    },
+    {
+      "anchored_nonzero_h2_surplus": 60,
+      "diagonal_h_equals_2_over_1_plus_r_count": 0,
+      "inverse_source_h_equals_r_inverse_count": 126,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "nontrivial_mobius_ordered_count": 120,
+      "normal_form": "A = #{(r,h): h(1+r)-1 in H, h notin {1,r^-1,2/(1+r)}} / 2",
+      "p": 17921,
+      "raw_surface_count": 372,
+      "source_h_equals_1_count": 126,
+      "x56_anchored_barrier": 840
+    },
+    {
+      "anchored_nonzero_h2_surplus": 112,
+      "diagonal_h_equals_2_over_1_plus_r_count": 2,
+      "inverse_source_h_equals_r_inverse_count": 254,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "nontrivial_mobius_ordered_count": 224,
+      "normal_form": "A = #{(r,h): h(1+r)-1 in H, h notin {1,r^-1,2/(1+r)}} / 2",
+      "p": 91393,
+      "raw_surface_count": 734,
+      "source_h_equals_1_count": 254,
+      "x56_anchored_barrier": 1300
+    }
+  ],
+  "status": "PROVED EXACT MOBIUS-COLLISION IDENTITY",
+  "task": "X59 h=4 Mobius collision normal form",
+  "theorem": "For an anchor ratio r, target ratios t in the same quotient shell are exactly t = h(1+r)-1 with h in H.  The source unordered pair corresponds to t=r (h=1) and t=r^-1 (h=r^-1).  The diagonal target corresponds to t=1 (h=2/(1+r)) when it lies in H.  After excluding these branches, each valid unordered target contributes two ordered ratios.  Hence A_anchor_surplus is half the nontrivial Mobius collision count."
+}

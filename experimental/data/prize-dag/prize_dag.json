@@ -3604,6 +3604,16 @@
     "experimental/notes/roadmaps/x58_h4_reduced_additive_energy.md"
    ],
    "notes": "Removes the last h=4 support language from the centered-surplus target: after subtracting the forced ordered source-pair copies and diagonal targets, the remaining shifted incidence 1+a=b+c is exactly the surplus to bound."
+  },
+  {
+   "id": "x59_h4_mobius_collision_form",
+   "title": "X59: h=4 centered surplus is a nontrivial Mobius collision count",
+   "status": "PROVED",
+   "statement": "The X56 anchored surplus equals half the count of pairs (r,h) with r in H\\{1,-1}, h in H, h(1+r)-1 in H, excluding the source-ratio branches h=1 and h=r^-1 and the diagonal branch h=2/(1+r). Thus X55-X56 require this nontrivial Mobius collision count to be < 8*C(T(n)+1,2).",
+   "refs": [
+    "experimental/notes/roadmaps/x59_h4_mobius_collision_form.md"
+   ],
+   "notes": "Equivalent to X58's reduced additive-energy form, but exposes the p-specific subgroup correspondence h(1+r)-1 in H. This is the current cleanest surface-incidence statement for the centered h=4 branch."
   }
  ],
  "edges": [
@@ -6469,6 +6479,21 @@
   },
   {
    "from": "x58_h4_reduced_additive_energy",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x56_h2_anchored_surplus_currency",
+   "to": "x59_h4_mobius_collision_form",
+   "kind": "req"
+  },
+  {
+   "from": "x58_h4_reduced_additive_energy",
+   "to": "x59_h4_mobius_collision_form",
+   "kind": "req"
+  },
+  {
+   "from": "x59_h4_mobius_collision_form",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
