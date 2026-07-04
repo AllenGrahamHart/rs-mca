@@ -1,0 +1,599 @@
+{
+  "checks": 32,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x60_h4_linear_triple_form": "PROVED",
+    "x62_h4_linear_norm_gate": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "content_histogram": {
+        "1": 160,
+        "2": 8
+      },
+      "descended_examples": [
+        {
+          "content": 2,
+          "quotient_exponents": [
+            1,
+            2,
+            6
+          ],
+          "quotient_n": 8,
+          "source_exponents": [
+            2,
+            4,
+            12
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            2,
+            1,
+            6
+          ],
+          "quotient_n": 8,
+          "source_exponents": [
+            4,
+            2,
+            12
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            3,
+            4,
+            2
+          ],
+          "quotient_n": 8,
+          "source_exponents": [
+            6,
+            8,
+            4
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            3,
+            2
+          ],
+          "quotient_n": 8,
+          "source_exponents": [
+            8,
+            6,
+            4
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            6,
+            7
+          ],
+          "quotient_n": 8,
+          "source_exponents": [
+            8,
+            12,
+            14
+          ]
+        }
+      ],
+      "filtered_linear_triple_count": 168,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "p": 17,
+      "primitive_content_one_count": 160,
+      "primitive_examples": [
+        {
+          "a": 1,
+          "b": 2,
+          "c": 7
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "c": 13
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "c": 6
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "c": 11
+        },
+        {
+          "a": 1,
+          "b": 7,
+          "c": 4
+        }
+      ],
+      "quotient_descended_count": 8,
+      "quotient_equation_failures": 0,
+      "quotient_filter_failures": 0,
+      "quotient_row_histogram": {
+        "8": 8
+      }
+    },
+    {
+      "content_histogram": {
+        "1": 1072,
+        "2": 104
+      },
+      "descended_examples": [
+        {
+          "content": 2,
+          "quotient_exponents": [
+            1,
+            7,
+            11
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            2,
+            14,
+            22
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            1,
+            24,
+            13
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            2,
+            48,
+            26
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            1,
+            27,
+            23
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            2,
+            54,
+            46
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            1,
+            29,
+            8
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            2,
+            58,
+            16
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            2,
+            28,
+            13
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            4,
+            56,
+            26
+          ]
+        }
+      ],
+      "filtered_linear_triple_count": 1176,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "p": 193,
+      "primitive_content_one_count": 1072,
+      "primitive_examples": [
+        {
+          "a": 1,
+          "b": 3,
+          "c": 49
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "c": 52
+        },
+        {
+          "a": 1,
+          "b": 16,
+          "c": 8
+        },
+        {
+          "a": 1,
+          "b": 17,
+          "c": 35
+        },
+        {
+          "a": 1,
+          "b": 19,
+          "c": 4
+        }
+      ],
+      "quotient_descended_count": 104,
+      "quotient_equation_failures": 0,
+      "quotient_filter_failures": 0,
+      "quotient_row_histogram": {
+        "32": 104
+      }
+    },
+    {
+      "content_histogram": {
+        "1": 184,
+        "2": 24
+      },
+      "descended_examples": [
+        {
+          "content": 2,
+          "quotient_exponents": [
+            2,
+            4,
+            27
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            4,
+            8,
+            54
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            2,
+            11,
+            20
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            4,
+            22,
+            40
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            2,
+            27
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            8,
+            4,
+            54
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            11,
+            18
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            8,
+            22,
+            36
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            7,
+            9,
+            5
+          ],
+          "quotient_n": 32,
+          "source_exponents": [
+            14,
+            18,
+            10
+          ]
+        }
+      ],
+      "filtered_linear_triple_count": 208,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "p": 7937,
+      "primitive_content_one_count": 184,
+      "primitive_examples": [
+        {
+          "a": 1,
+          "b": 41,
+          "c": 10
+        },
+        {
+          "a": 1,
+          "b": 42,
+          "c": 9
+        },
+        {
+          "a": 1,
+          "b": 46,
+          "c": 14
+        },
+        {
+          "a": 4,
+          "b": 9,
+          "c": 22
+        },
+        {
+          "a": 4,
+          "b": 17,
+          "c": 58
+        }
+      ],
+      "quotient_descended_count": 24,
+      "quotient_equation_failures": 0,
+      "quotient_filter_failures": 0,
+      "quotient_row_histogram": {
+        "32": 24
+      }
+    },
+    {
+      "content_histogram": {
+        "1": 96,
+        "2": 24
+      },
+      "descended_examples": [
+        {
+          "content": 2,
+          "quotient_exponents": [
+            16,
+            22,
+            55
+          ],
+          "quotient_n": 64,
+          "source_exponents": [
+            32,
+            44,
+            110
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            16,
+            23,
+            54
+          ],
+          "quotient_n": 64,
+          "source_exponents": [
+            32,
+            46,
+            108
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            22,
+            16,
+            55
+          ],
+          "quotient_n": 64,
+          "source_exponents": [
+            44,
+            32,
+            110
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            22,
+            23,
+            48
+          ],
+          "quotient_n": 64,
+          "source_exponents": [
+            44,
+            46,
+            96
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            23,
+            16,
+            54
+          ],
+          "quotient_n": 64,
+          "source_exponents": [
+            46,
+            32,
+            108
+          ]
+        }
+      ],
+      "filtered_linear_triple_count": 120,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "p": 17921,
+      "primitive_content_one_count": 96,
+      "primitive_examples": [
+        {
+          "a": 1,
+          "b": 89,
+          "c": 48
+        },
+        {
+          "a": 1,
+          "b": 112,
+          "c": 25
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "c": 109
+        },
+        {
+          "a": 6,
+          "b": 45,
+          "c": 72
+        },
+        {
+          "a": 8,
+          "b": 6,
+          "c": 109
+        }
+      ],
+      "quotient_descended_count": 24,
+      "quotient_equation_failures": 0,
+      "quotient_filter_failures": 0,
+      "quotient_row_histogram": {
+        "64": 24
+      }
+    },
+    {
+      "content_histogram": {
+        "1": 176,
+        "2": 48
+      },
+      "descended_examples": [
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            5,
+            46
+          ],
+          "quotient_n": 128,
+          "source_exponents": [
+            8,
+            10,
+            92
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            4,
+            110,
+            69
+          ],
+          "quotient_n": 128,
+          "source_exponents": [
+            8,
+            220,
+            138
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            5,
+            4,
+            46
+          ],
+          "quotient_n": 128,
+          "source_exponents": [
+            10,
+            8,
+            92
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            5,
+            110,
+            68
+          ],
+          "quotient_n": 128,
+          "source_exponents": [
+            10,
+            220,
+            136
+          ]
+        },
+        {
+          "content": 2,
+          "quotient_exponents": [
+            17,
+            20,
+            86
+          ],
+          "quotient_n": 128,
+          "source_exponents": [
+            34,
+            40,
+            172
+          ]
+        }
+      ],
+      "filtered_linear_triple_count": 224,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "p": 91393,
+      "primitive_content_one_count": 176,
+      "primitive_examples": [
+        {
+          "a": 2,
+          "b": 4,
+          "c": 193
+        },
+        {
+          "a": 2,
+          "b": 65,
+          "c": 132
+        },
+        {
+          "a": 2,
+          "b": 69,
+          "c": 6
+        },
+        {
+          "a": 2,
+          "b": 134,
+          "c": 197
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "c": 193
+        }
+      ],
+      "quotient_descended_count": 48,
+      "quotient_equation_failures": 0,
+      "quotient_filter_failures": 0,
+      "quotient_row_histogram": {
+        "128": 48
+      }
+    }
+  ],
+  "status": "PROVED CONTENT SPLIT: NONPRIMITIVE X62 WORDS DESCEND TO QUOTIENT ROWS",
+  "task": "X63 h=4 linear content descent",
+  "theorem": "For an X60-filtered word f=X^a+X^b-X^c-1 on mu_n, let d=gcd(n,a,b,c).  If d>1 then f(X)=g(X^d), zeta^d is primitive of order n/d, and the triple descends to the same filtered linear equation on mu_{n/d}.  Therefore the post-quotient X62 primitive residue is the content-one subfamily."
+}

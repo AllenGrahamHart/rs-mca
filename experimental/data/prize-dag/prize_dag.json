@@ -3644,6 +3644,16 @@
     "experimental/notes/roadmaps/x62_h4_linear_norm_gate.md"
    ],
    "notes": "Strengthens X61's nondegenerate handoff: after the X60 branches are stripped, the centered h=4 obstruction has no characteristic-zero S-unit residue. The remaining filtered triples are entirely finite-p sparse cyclotomic norm-gate mass, in the same certification lane as X30/X35."
+  },
+  {
+   "id": "x63_h4_linear_content_descent",
+   "title": "X63: h=4 linear norm-gate content descends to quotient rows",
+   "status": "PROVED",
+   "statement": "For an X60-filtered word f=X^a+X^b-X^c-1 on mu_n, let d=gcd(n,a,b,c). If d>1 then f(X)=G(X^d), zeta^d has order n/d, and the same filtered linear equation holds on the quotient row mu_{n/d}. Hence the post-quotient primitive X62 residue is exactly the content-one subfamily gcd(n,a,b,c)=1.",
+   "refs": [
+    "experimental/notes/roadmaps/x63_h4_linear_content_descent.md"
+   ],
+   "notes": "Splits X62's p-specific norm-gate mass into quotient-pullback content and genuinely primitive four-term norm-gate residue. Nonprimitive filtered triples recurse to smaller quotient rows and are not a new top-level mechanism."
   }
  ],
  "edges": [
@@ -6584,6 +6594,21 @@
   },
   {
    "from": "x62_h4_linear_norm_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x60_h4_linear_triple_form",
+   "to": "x63_h4_linear_content_descent",
+   "kind": "req"
+  },
+  {
+   "from": "x62_h4_linear_norm_gate",
+   "to": "x63_h4_linear_content_descent",
+   "kind": "req"
+  },
+  {
+   "from": "x63_h4_linear_content_descent",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
