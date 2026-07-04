@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - QA.23 wild-row Dickson audit
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/qa23_wild_row_audit.md`,
+  `experimental/scripts/verify_qa23_wild_row_audit.py`,
+  `experimental/data/certificates/qa23-wild-row-audit/`.
+- **Status:** AUDIT.
+- **What is being added:** Exact enumeration of admissible wild
+  `(n,q)` rows below `2^256`, plus the fully computable `F_49/mu_8`
+  Dickson/PGL2 subgroup-lattice toy audit.
+- **How it is useful:** Records that wild cosets inherit the Dickson
+  stabilizer structure and that the toy has orbit-window strata not present
+  in the tame dihedral sublattice.
+- **What to do next:** Treat the extra Dickson windows as a separate ledger
+  column; this packet is not a prize-scale wild-row budget theorem.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
