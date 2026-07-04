@@ -45,7 +45,7 @@ def derive():
     while grew:
         grew = False
         for u, v in alt:
-            if v in crit and u not in crit and nodes[u]["status"] != "REFUTED" \
+            if v in crit and u not in crit and nodes[u]["status"] in ("PROVED", "PROVABLE") \
                     and nodes[v].get("gate") == "any":
                 crit.add(u)
                 grew = True
@@ -143,7 +143,8 @@ color:var(--muted);background:rgba(11,18,32,.75);padding:4px 8px;border-radius:5
 <p class="note"><b>The colour contract:</b> <span class="g">green</span> = proven (light green =
 provable, write-up pending); <span class="a">amber</span> = proven or provable conditional on its
 predicate nodes; <span class="r">red</span> = unproved — one proof remains to be written at this
-node. Every arc carries the colour of its source; rings are implication depth. Built by
+node. Every arc carries the colour of its source; rings are implication depth.
+<b>Solid arcs are requirements</b> (all needed). <b>Dashed arcs are delivered or deliverable alternative routes</b> into a gated node (at least one route is required; only green routes are plotted — unproved candidates are attack surface in the node's folder, not obligations, so they are excluded from the map and the counts). Built by
 <code>experimental/scripts/build_critical_orbit.py</code> — stats and map derive from the same
 <code>critical_dag.json</code>, so they cannot drift.</p>
 </div>

@@ -148,11 +148,6 @@
    "title": "C1b THE CORE: the descent-injection certificate (verified seed identity)"
   },
   {
-   "id": "c_xr_content",
-   "label": "PROVABLE",
-   "title": "C_XR content at k=3 (grounded): post-strip extremals are fixed-core/fixed-hole structures"
-  },
-  {
    "id": "cap_end_sharpening",
    "label": "PROVED",
    "title": "cap end sharpening"
@@ -171,11 +166,6 @@
    "id": "census_bounded_scales",
    "label": "PROVED",
    "title": "The deciding scale is PINNED in an absolute window (n-uniformity of the census)"
-  },
-  {
-   "id": "census_crossing_pinning",
-   "label": "UNPROVED",
-   "title": "census crossing pinning"
   },
   {
    "id": "census_exact_counts",
@@ -201,21 +191,6 @@
    "id": "char0_collision_classification",
    "label": "PROVED",
    "title": "thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic"
-  },
-  {
-   "id": "circuit_locus_density",
-   "label": "PROVABLE",
-   "title": "Schwartz-Zippel on the locus: circuit-carrying configurations are q-power suppressed"
-  },
-  {
-   "id": "circuit_nongeneric",
-   "label": "PROVABLE",
-   "title": "Circuits are non-generic: the two-identity syzygy kernel vanishes off a determinantal locus"
-  },
-  {
-   "id": "circuit_pricing",
-   "label": "PROVABLE",
-   "title": "Pricing: each minimal circuit contributes O(1) slopes via the deficiency-one machinery (direct reuse)"
   },
   {
    "id": "clique_cap",
@@ -296,16 +271,6 @@
    "id": "dyadic_profile_evaluation",
    "label": "PROVED",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
-  },
-  {
-   "id": "e1_fullness",
-   "label": "UNPROVED",
-   "title": "e1 value sets stay (1-o(1))-full below the saturation scale"
-  },
-  {
-   "id": "es_regularity",
-   "label": "UNPROVED",
-   "title": "ES route: adapt the algebraic regularity lemma (Tao) as the off-the-shelf enumerator"
   },
   {
    "id": "exchange_calculus",
@@ -533,11 +498,6 @@
    "title": "Isotypic refinement: escape iff multi-isotypic (x1)"
   },
   {
-   "id": "johnson_gap",
-   "label": "PROVED",
-   "title": "Johnson graph exact gap lam0 - lam1 = n"
-  },
-  {
    "id": "kernel_lattice_reframing",
    "label": "PROVED",
    "title": "REFRAMING: e1 is linear \u2014 collisions = sparse ternary vectors in ONE explicit index-p lattice"
@@ -673,19 +633,9 @@
    "title": "THE FIFTH MECHANISM (X-4b verdict, VERIFIED): primitive moment-trade / PTE staircases"
   },
   {
-   "id": "monodromy_realization",
-   "label": "UNPROVED",
-   "title": "Monodromy route stage 0: realize general aperiodic alignment as sheaf monodromy"
-  },
-  {
    "id": "noncontain_degeneracy",
    "label": "PROVED",
    "title": "Containment = degenerate pencil (a=b=0) = def:residue"
-  },
-  {
-   "id": "norm_threshold_ext",
-   "label": "UNPROVED",
-   "title": "Extend qfloor exactness past N'~80 (hand-off)"
   },
   {
    "id": "official_row_primes_pinning",
@@ -728,11 +678,6 @@
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
-   "id": "perfiber",
-   "label": "UNPROVED",
-   "title": "prob:perfiber (coordinate-plane case of F)"
-  },
-  {
    "id": "periodic_strata",
    "label": "PROVED",
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
@@ -751,26 +696,6 @@
    "id": "petal_growth",
    "label": "CONDITIONAL",
    "title": "Full-petal growth bound / mixed-petal amplification"
-  },
-  {
-   "id": "petal_mixed_amplification",
-   "label": "CONDITIONAL",
-   "title": "Mixed-petal sunflower amplification theorem"
-  },
-  {
-   "id": "pma_aux_list_reduction",
-   "label": "PROVED",
-   "title": "PMA stage 1: mixed-petal extras = RS list of the auxiliary pieced word (one level down)"
-  },
-  {
-   "id": "pma_johnson_regime",
-   "label": "PROVED",
-   "title": "PMA stage 2: few-petal regime is CLASSICAL \u2014 Johnson/GS list bound applies"
-  },
-  {
-   "id": "pma_wide_residual",
-   "label": "UNPROVED",
-   "title": "PMA stage 3 (the residue): many-petal, sub-Johnson regime with CORRELATED targets"
   },
   {
    "id": "q_recursion",
@@ -828,36 +753,6 @@
    "title": "skew support threshold"
   },
   {
-   "id": "spi_component_control",
-   "label": "UNPROVED",
-   "title": "SPI stage 1: effective component control \u2014 count and degrees of irreducible components"
-  },
-  {
-   "id": "spi_exceptional_class",
-   "label": "UNPROVED",
-   "title": "SPI classification: high-dimensional components map to paid strata"
-  },
-  {
-   "id": "spread_exception_classification",
-   "label": "UNPROVED",
-   "title": "LEAP: below-cap spread exceptions are exactly the finite-geometry class"
-  },
-  {
-   "id": "spread_regime_bound",
-   "label": "UNPROVED",
-   "title": "Spread regime: all pairwise support intersections < k => poly(n) slopes"
-  },
-  {
-   "id": "spread_syzygy_circuit_bound",
-   "label": "PROVABLE",
-   "title": "The syzygy-circuit branch: bound the full-support minimal-circuit exceptions"
-  },
-  {
-   "id": "spread_syzygy_ident",
-   "label": "PROVED",
-   "title": "FACE-3 (identification): below-cap configurations = the syzygy anatomy at general supports"
-  },
-  {
    "id": "staircase",
    "label": "PROVED",
    "title": "Tangent staircase compiler (#147)"
@@ -898,11 +793,6 @@
    "title": "PROVED (X-9): the tame Laurent-Ritt / toral stabilizer theorem \u2014 T's core"
   },
   {
-   "id": "taustar_reserve_tightening",
-   "label": "UNPROVED",
-   "title": "taustar reserve tightening"
-  },
-  {
    "id": "tr_joint_telescope",
    "label": "PROVED",
    "title": "FACE-1 CORE (derivation candidate): jointness telescopes to the joint stabilizer"
@@ -911,11 +801,6 @@
    "id": "tr_perleaf_list_ident",
    "label": "CONDITIONAL",
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
-  },
-  {
-   "id": "two_slope_intersection",
-   "label": "PROVED",
-   "title": "Two distinct bad slopes explain u AND v individually on the support intersection"
   },
   {
    "id": "u1_alpha_active_core_incidence",
@@ -1008,21 +893,6 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
-   "id": "xr_crystallization",
-   "label": "UNPROVED",
-   "title": "XR classification: members of the exchange-inverse class C_XR are paid"
-  },
-  {
-   "id": "xr_e3_calculus",
-   "label": "PROVABLE",
-   "title": "E_3 calculus: the 3-fold exchange energy + the structured lower-bound direction"
-  },
-  {
-   "id": "xr_e3_to_expansion",
-   "label": "PROVABLE",
-   "title": "Bridge 1: E_3-large = walk-trapping = non-expanding (elementary spectral bookkeeping)"
-  },
-  {
    "id": "xr_eliminant_vanishing_class",
    "label": "UNPROVED",
    "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations"
@@ -1038,34 +908,9 @@
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
   },
   {
-   "id": "xr_gvn",
-   "label": "PROVED",
-   "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies"
-  },
-  {
    "id": "xr_heavy_triangle_charge",
    "label": "CONDITIONAL",
    "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge"
-  },
-  {
-   "id": "xr_inverse",
-   "label": "PROVABLE",
-   "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR"
-  },
-  {
-   "id": "xr_junta_to_paid",
-   "label": "PROVABLE",
-   "title": "Bridge 2: juntas = fixed-core families = tangent/common-divisor structures = PAID"
-  },
-  {
-   "id": "xr_kms_import",
-   "label": "PROVABLE",
-   "title": "THE ENGINE: Khot-Minzer-Safra Johnson-graph structure theorem (import)"
-  },
-  {
-   "id": "xr_kms_parameter_matching",
-   "label": "PROVED",
-   "title": "THE RESIDUE: quantitative regime matching at FM-scale densities"
   },
   {
    "id": "xr_ledger_exponent_reconciliation",
@@ -1419,20 +1264,8 @@
    "to": "f1_case_pole"
   },
   {
-   "from": "two_slope_intersection",
-   "to": "xr_crystallization"
-  },
-  {
-   "from": "spread_regime_bound",
-   "to": "xr_crystallization"
-  },
-  {
    "from": "stratification_partition_thm",
    "to": "strat_tree"
-  },
-  {
-   "from": "common_code_line_budget",
-   "to": "xr_crystallization"
   },
   {
    "from": "common_code_line_budget",
@@ -1495,56 +1328,12 @@
    "to": "imgfib"
   },
   {
-   "from": "xr_gvn",
-   "to": "xr_inverse"
-  },
-  {
-   "from": "xr_inverse",
-   "to": "xr_crystallization"
-  },
-  {
-   "from": "averaged_xr",
-   "to": "xr_gvn"
-  },
-  {
-   "from": "spi_component_control",
-   "to": "spi_exceptional_class"
-  },
-  {
-   "from": "pma_aux_list_reduction",
-   "to": "petal_mixed_amplification"
-  },
-  {
-   "from": "pma_johnson_regime",
-   "to": "petal_mixed_amplification"
-  },
-  {
-   "from": "pma_wide_residual",
-   "to": "petal_mixed_amplification"
-  },
-  {
-   "from": "pma_aux_list_reduction",
-   "to": "pma_johnson_regime"
-  },
-  {
-   "from": "pma_aux_list_reduction",
-   "to": "pma_wide_residual"
-  },
-  {
    "from": "f_dim1",
    "to": "f_primitive_case"
   },
   {
    "from": "f_concurrency_equiv",
    "to": "f_primitive_case"
-  },
-  {
-   "from": "xr_e3_calculus",
-   "to": "xr_inverse"
-  },
-  {
-   "from": "spread_exception_classification",
-   "to": "spread_regime_bound"
   },
   {
    "from": "gap1_product_model",
@@ -1711,14 +1500,6 @@
    "to": "f_descent_termination"
   },
   {
-   "from": "c_xr_content",
-   "to": "xr_inverse"
-  },
-  {
-   "from": "spread_syzygy_circuit_bound",
-   "to": "spread_exception_classification"
-  },
-  {
    "from": "f_support_lattice",
    "to": "f_descent_termination"
   },
@@ -1733,50 +1514,6 @@
   {
    "from": "f_dual_distance_frame",
    "to": "f_support_lattice"
-  },
-  {
-   "from": "xr_e3_to_expansion",
-   "to": "c_xr_content"
-  },
-  {
-   "from": "xr_kms_import",
-   "to": "c_xr_content"
-  },
-  {
-   "from": "xr_junta_to_paid",
-   "to": "c_xr_content"
-  },
-  {
-   "from": "xr_kms_parameter_matching",
-   "to": "c_xr_content"
-  },
-  {
-   "from": "johnson_gap",
-   "to": "xr_e3_to_expansion"
-  },
-  {
-   "from": "xr_globalness_from_ledger",
-   "to": "xr_kms_parameter_matching"
-  },
-  {
-   "from": "xr_small_set_engine",
-   "to": "xr_kms_parameter_matching"
-  },
-  {
-   "from": "circuit_nongeneric",
-   "to": "spread_syzygy_circuit_bound"
-  },
-  {
-   "from": "circuit_locus_density",
-   "to": "spread_syzygy_circuit_bound"
-  },
-  {
-   "from": "circuit_pricing",
-   "to": "spread_syzygy_circuit_bound"
-  },
-  {
-   "from": "circuit_nongeneric",
-   "to": "circuit_locus_density"
   },
   {
    "from": "exchange_calculus",
@@ -1913,10 +1650,6 @@
   {
    "from": "tr_joint_telescope",
    "to": "gap1_noneq_mass"
-  },
-  {
-   "from": "spread_syzygy_ident",
-   "to": "spread_exception_classification"
   },
   {
    "from": "x4_exactlist_staircase_split",
@@ -2300,57 +2033,7 @@
    "kind": "alt"
   },
   {
-   "from": "norm_threshold_ext",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
-   "from": "perfiber",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
-   "from": "petal_mixed_amplification",
-   "to": "petal_growth",
-   "kind": "alt"
-  },
-  {
-   "from": "e1_fullness",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
-   "from": "xr_crystallization",
-   "to": "payment_completeness",
-   "kind": "alt"
-  },
-  {
-   "from": "spi_exceptional_class",
-   "to": "payment_completeness",
-   "kind": "alt"
-  },
-  {
-   "from": "es_regularity",
-   "to": "payment_completeness",
-   "kind": "alt"
-  },
-  {
-   "from": "monodromy_realization",
-   "to": "payment_completeness",
-   "kind": "alt"
-  },
-  {
    "from": "cap_end_sharpening",
-   "to": "fourth_mechanism_rate8",
-   "kind": "alt"
-  },
-  {
-   "from": "taustar_reserve_tightening",
-   "to": "fourth_mechanism_rate8",
-   "kind": "alt"
-  },
-  {
-   "from": "census_crossing_pinning",
    "to": "fourth_mechanism_rate8",
    "kind": "alt"
   }

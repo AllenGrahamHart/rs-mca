@@ -248,7 +248,7 @@ def radial():
     while grew:
         grew = False
         for u, v in alt_pairs:
-            if v in crit and u not in crit and nodes[u]["status"] != "REFUTED" \
+            if v in crit and u not in crit and nodes[u]["status"] in ("PROVED", "PROVABLE") \
                     and nodes[v].get("gate") == "any":
                 crit.add(u); grew = True
                 st2 = [u]
@@ -261,7 +261,7 @@ def radial():
     drawn = [(u, v, "req") for u, v in req if u in crit and v in crit]
     drawn += [(u, v, "alt") for u, v in alt_pairs
               if u in crit and v in crit and nodes[v].get("gate") == "any"
-              and nodes[u]["status"] != "REFUTED"]
+              and nodes[u]["status"] in ("PROVED", "PROVABLE")]
     fwd = defaultdict(list)
     for u, v, _k in drawn:
         fwd[u].append(v)
