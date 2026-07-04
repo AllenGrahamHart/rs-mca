@@ -2348,7 +2348,7 @@
   {
    "id": "f_termination_hankel",
    "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "SATURATED formulation (Pro round 4, verified): for rate-1/2 Hankel-kernel instances over mu_n, after ROOT-CLOSURE saturation (count reachable forced-root closures rcl_P(B u S), NOT raw support unions) and after routing tangent/common-divisor and quotient/pullback/DIHEDRAL structure to the paid/reduced ledgers, the number of reachable UNPAID PRIMITIVE saturated closures is poly(n); AND terminal unpaid primitive leaves satisfy the direction-dual (moment/residue) cleanliness. Raw #L over-counts: the loop-free pair-family (weighted syndrome on non-coset A) is gcd-trivial AND primitive with raw #L = 2^|A|, yet ALL pairs share ONE root-closure = A (verified: 5 raw -> 1 closure). The 'many-atoms => paid' heavy lifting is f_many_sparse_structure (PROVED, four-branch crystallization).",
    "attack_surface": "v5 (post-critique): four lemmas \u2014 L1 descent stability PROVED (syndrome convolution, 1800/1800); L2 paid Luroth/rational-pullback quotient reduction (incl. the missing dihedral y=X+1/X reduction); L3 the HEREDITARY closure-entropy bound (THE core \u2014 local few-atoms does not imply poly reachable closures, per QF.12's own non-claims); L4 moment-clean leaves / pinned-value variant. f_many_sparse_structure supports the weight-2 branch (constant threshold via E35) but its w>=3 branch routes to Face-4 wall machinery \u2014 insufficient for hereditary use.",
@@ -2356,7 +2356,7 @@
    "refs": [
     "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
    ],
-   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest. | LEVERAGE +4 (top of board). Reframed to the exact #closed-sets-poly question. Phase 0 probe found the object lives at rank-drop slopes \u2014 census must use the fiber machinery, not naive sampling. Pipeline banked. | PHASE 0 DONE: M(Z) pinned (v12 extractor), E17 reproduced (gate passed). REFRAMED: generic supports uniform-diameter but <=1/flat (trivial lattice); termination = MAX #closed-sets over rare structured flats. Modal census dispatched (max-search). | BRIEF FALSIFIED (Pro, #16 of my leaps; verified #L=64840): my W(P) = 'all minimal dependent supports' was too broad \u2014 it counts the GENERIC (weight = dim+1) circuits every flat has by dimension. Pro's P = span{1,X,X^2} (MDS RS_3) then gives #L = 2^n - O(n^3), exponential. FIX (Pro's own diagnosis, confirmed): W(P) = EXCEPTIONAL circuits of weight <= dim(P) only (sub-generic dependencies); MDS/general-position flats have W(P) = empty, #L = 1 \u2014 consistent with f_termination_mds PROVED. The node's termination question STANDS with the corrected W(P); the Modal max-search already uses ~the right (sub-generic) filter. Corrected brief issued. | BRIEF FALSIFIED TWICE MORE, RESOLVED: (Pro #17) weight-1 common roots give #L=2^|A| \u2014 stripped by f_gcd_reduction. (mine #18) gcd-trivial PULLBACK {g(X^2)} gives #L=2^{n/2} via disjoint {x,-x} coset-pairs \u2014 SURVIVES the gcd-strip, needs f_scale_recursion (non-pullback). VERIFIED both (#L=8, #L=256 at n=16). RESOLUTION: the true statement is f_primitive_case for Hankel \u2014 gcd-trivial + PRIMITIVE. Both proved reductions strip exactly the two counterexample classes; the downstream conj_f already consumes precisely this strength. Neither counterexample touches the primitive residual = the genuine open question. | PRO ROUND 4 (reformulation, verified): raw #L is the wrong invariant \u2014 count ROOT-CLOSURES (saturated states). Loop-free pair-family refutes even v3 (primitive) at raw level, but collapses under rcl. The node is now an ASSEMBLY: f_many_sparse_structure (PROVED) + root-closure accounting + moment-clean leaves. CAVEAT (Pro): f_support_lattice bounds state size NOT fiber count \u2014 leaf bound separate. Connects to the SPI/XR crystallization core (spi_exceptional_class). f_many_sparse_structure now LOAD-BEARING \u2014 flag for content audit. | ROUND 5: Pro's critique of v4 adjudicated LARGELY CORRECT (gap 3 the standout: my contrapositive overreached \u2014 QF.12 Remark 4.7's non-claim). Descent stability PROVED (new lemma). The four-lemma v5 decomposition adopted. f_many_sparse_structure's w>=3 Face-4-wall routing = the sharpened content-audit flag."
+   "notes": "E17 verdict: coset prediction FALSE; adjacent-exponent counterexample recorded with certificate. Pre-registered response executed: fall back to the general lattice argument. Falsification count for my leaps now 2 (of 5) \u2014 the cycle is honest. | LEVERAGE +4 (top of board). Reframed to the exact #closed-sets-poly question. Phase 0 probe found the object lives at rank-drop slopes \u2014 census must use the fiber machinery, not naive sampling. Pipeline banked. | PHASE 0 DONE: M(Z) pinned (v12 extractor), E17 reproduced (gate passed). REFRAMED: generic supports uniform-diameter but <=1/flat (trivial lattice); termination = MAX #closed-sets over rare structured flats. Modal census dispatched (max-search). | BRIEF FALSIFIED (Pro, #16 of my leaps; verified #L=64840): my W(P) = 'all minimal dependent supports' was too broad \u2014 it counts the GENERIC (weight = dim+1) circuits every flat has by dimension. Pro's P = span{1,X,X^2} (MDS RS_3) then gives #L = 2^n - O(n^3), exponential. FIX (Pro's own diagnosis, confirmed): W(P) = EXCEPTIONAL circuits of weight <= dim(P) only (sub-generic dependencies); MDS/general-position flats have W(P) = empty, #L = 1 \u2014 consistent with f_termination_mds PROVED. The node's termination question STANDS with the corrected W(P); the Modal max-search already uses ~the right (sub-generic) filter. Corrected brief issued. | BRIEF FALSIFIED TWICE MORE, RESOLVED: (Pro #17) weight-1 common roots give #L=2^|A| \u2014 stripped by f_gcd_reduction. (mine #18) gcd-trivial PULLBACK {g(X^2)} gives #L=2^{n/2} via disjoint {x,-x} coset-pairs \u2014 SURVIVES the gcd-strip, needs f_scale_recursion (non-pullback). VERIFIED both (#L=8, #L=256 at n=16). RESOLUTION: the true statement is f_primitive_case for Hankel \u2014 gcd-trivial + PRIMITIVE. Both proved reductions strip exactly the two counterexample classes; the downstream conj_f already consumes precisely this strength. Neither counterexample touches the primitive residual = the genuine open question. | PRO ROUND 4 (reformulation, verified): raw #L is the wrong invariant \u2014 count ROOT-CLOSURES (saturated states). Loop-free pair-family refutes even v3 (primitive) at raw level, but collapses under rcl. The node is now an ASSEMBLY: f_many_sparse_structure (PROVED) + root-closure accounting + moment-clean leaves. CAVEAT (Pro): f_support_lattice bounds state size NOT fiber count \u2014 leaf bound separate. Connects to the SPI/XR crystallization core (spi_exceptional_class). f_many_sparse_structure now LOAD-BEARING \u2014 flag for content audit. | ROUND 5: Pro's critique of v4 adjudicated LARGELY CORRECT (gap 3 the standout: my contrapositive overreached \u2014 QF.12 Remark 4.7's non-claim). Descent stability PROVED (new lemma). The four-lemma v5 decomposition adopted. f_many_sparse_structure's w>=3 Face-4-wall routing = the sharpened content-audit flag. | ROUNDS 6-7 (the same Pro thread): L3 SOLVED-IN-ROUTE \u2014 the rank-profile dichotomy (row-deficient => principal GRS via binary apolarity, verified 4000/4000; wide => one rational class, separation verified 233k pairs/0 violations; narrow => dim O(W)) gives n^{O(W^2)} unpaid states via entropy/Kraft. Node CONDITIONAL on the two packets; L2's Chebyshev syndrome transform delivered en passant; the w>=3 many-sparse inverse NOT needed. Falsification count intact: my 'bounded branching x short chains' shortcut was invalid (Pro caught it); the entropy formulation replaced it."
   },
   {
    "id": "xr_e3_to_expansion",
@@ -3854,6 +3854,24 @@
    "status": "TARGET",
    "statement": "Size-budget match (Brief F). With B* = 2^122, need |F| >= B*/2^33 = 2^89 per open quotient row. Verified: |F| = N' C(N'/2-2, N'/4-1) = 2^65.69 at N'=128 (SHORT ~23.3 bits) and 2^130.18 at N'=256 (PASS +41). So the O(N)-base construction covers N'=256 but is SHORT at N'=128 \u2014 a genuine gap. RESOLUTION ROUTES: (i) a larger economical family at N'=128 (higher-multiplicity padding beyond antipodal), (ii) a smaller effective budget at that row (per-row B* pinning), or (iii) accept a proportional/partial win at N'=128.",
    "notes": "Brief-F construction is short at N'=128 (2^65.7 vs 2^89) \u2014 a real limitation, not a rubber-stamp; N'=256 passes."
+  },
+  {
+   "id": "hankel_sparse_atoms_as_rational_defects",
+   "title": "hankel sparse atoms as rational defects",
+   "status": "PROVABLE",
+   "statement": "Sparse annihilator atoms of a Hankel state are small defect sets of rational approximants to the spectral weight (RS-dual normal form); distinct-closure atoms satisfy |T1 u T2| >= j-t+2 (verified 233130 pairs, 0 violations); same-approximant atoms saturate to ONE closure (punctured-GRS/MDS collapse). Hereditary via the proved stability lemma."
+  },
+  {
+   "id": "hankel_rank_profile_entropy",
+   "title": "hankel rank profile entropy",
+   "status": "PROVABLE",
+   "statement": "The rank-profile dichotomy: row-deficient Hankel kernels are principal GRS segments (binary apolarity; verified 4000/4000); row-full wide states have one atom-closure; row-full narrow states have dim O(W). Hence unpaid primitive saturated states number n^{O(W^2)} for fixed cutoff W \u2014 L3 via the entropy/Kraft argument. Write-up + the classical apolar lemma pending."
+  },
+  {
+   "id": "hankel_moment_clean_leaves",
+   "title": "hankel moment clean leaves",
+   "status": "TARGET",
+   "statement": "L4: direction-dual cleanliness (or pinned-value variant) at terminal unpaid primitive Hankel leaves \u2014 the member-count input QF.12 leaves family-specific."
   }
  ],
  "edges": [
@@ -6845,6 +6863,26 @@
   {
    "from": "generator_size_budget_check",
    "to": "generator_economy",
+   "kind": "req"
+  },
+  {
+   "from": "hankel_sparse_atoms_as_rational_defects",
+   "to": "hankel_rank_profile_entropy",
+   "kind": "req"
+  },
+  {
+   "from": "f_support_lattice",
+   "to": "hankel_rank_profile_entropy",
+   "kind": "req"
+  },
+  {
+   "from": "hankel_rank_profile_entropy",
+   "to": "f_termination_hankel",
+   "kind": "req"
+  },
+  {
+   "from": "hankel_moment_clean_leaves",
+   "to": "f_termination_hankel",
    "kind": "req"
   }
  ]

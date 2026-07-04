@@ -409,7 +409,7 @@
   },
   {
    "id": "f_termination_hankel",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice"
   },
   {
@@ -486,6 +486,21 @@
    "id": "h_window_derivation",
    "label": "PROVED",
    "title": "THE LOOSE END the assembly surfaced: derive the h-window cap"
+  },
+  {
+   "id": "hankel_moment_clean_leaves",
+   "label": "UNPROVED",
+   "title": "hankel moment clean leaves"
+  },
+  {
+   "id": "hankel_rank_profile_entropy",
+   "label": "PROVABLE",
+   "title": "hankel rank profile entropy"
+  },
+  {
+   "id": "hankel_sparse_atoms_as_rational_defects",
+   "label": "PROVABLE",
+   "title": "hankel sparse atoms as rational defects"
   },
   {
    "id": "imgfib",
@@ -2044,6 +2059,22 @@
   {
    "from": "generator_size_budget_check",
    "to": "generator_economy"
+  },
+  {
+   "from": "hankel_sparse_atoms_as_rational_defects",
+   "to": "hankel_rank_profile_entropy"
+  },
+  {
+   "from": "f_support_lattice",
+   "to": "hankel_rank_profile_entropy"
+  },
+  {
+   "from": "hankel_rank_profile_entropy",
+   "to": "f_termination_hankel"
+  },
+  {
+   "from": "hankel_moment_clean_leaves",
+   "to": "f_termination_hankel"
   },
   {
    "from": "acl_second_order",
