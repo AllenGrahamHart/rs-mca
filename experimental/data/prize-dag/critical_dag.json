@@ -353,6 +353,11 @@
    "title": "FM1: E[#aligned] = C(n,j)(1-q^-t)q^{1-t} exactly"
   },
   {
+   "id": "fourth_mechanism_rate8",
+   "label": "UNPROVED",
+   "title": "THE WEDGE: 0.00707 grid steps at rate 1/8 from any fourth mechanism"
+  },
+  {
    "id": "gap1_noneq_mass",
    "label": "UNPROVED",
    "title": "GAP-1: non-equivariant periodic mass <= poly"
@@ -1559,6 +1564,10 @@
   {
    "from": "axis8_generating",
    "to": "corridor_ext_crossing"
+  },
+  {
+   "from": "fourth_mechanism_rate8",
+   "to": "corridor_ledger"
   }
  ]
 }

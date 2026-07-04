@@ -3550,6 +3550,52 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ]
+  },
+  {
+   "id": "cap_end_sharpening",
+   "title": "cap end sharpening",
+   "status": "TARGET",
+   "statement": "Fourth mechanism (a): sharpen the unsafe-side cap beyond 1 - rho - 2^-9 at rate 1/8 \u2014 the Paper D cap carries a 2^-9 reserve; any improvement moves W itself. Needs >= 0.00707 grid steps equivalent.",
+   "attack_surface": "the cap proof's slack terms at the specific rate-1/8 row",
+   "falsifier": "an exact computation showing the mechanism's contribution < 0.00707 steps at 1/8",
+   "refs": [
+    "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+   ]
+  },
+  {
+   "id": "taustar_reserve_tightening",
+   "title": "taustar reserve tightening",
+   "status": "TARGET",
+   "statement": "Fourth mechanism (b): tighten the tau*/eta reserve conventions at the actual rate-1/8 row \u2014 eta = 2^-9 is a declared convenience, not an optimum; recompute the true reserve fine-grained.",
+   "attack_surface": "re-derive eta at the row; the banked formulas parameterize it",
+   "falsifier": "an exact computation showing the mechanism's contribution < 0.00707 steps at 1/8",
+   "refs": [
+    "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+   ]
+  },
+  {
+   "id": "census_crossing_pinning",
+   "title": "census crossing pinning",
+   "status": "TARGET",
+   "statement": "Fourth mechanism (c): the knife-edge census pins the actual crossing within the B*-window by exact Diophantine arithmetic \u2014 pinning could shave the needed fraction directly.",
+   "attack_surface": "run the census at the rate-1/8 window (knife_edge_census machinery)",
+   "falsifier": "an exact computation showing the mechanism's contribution < 0.00707 steps at 1/8",
+   "refs": [
+    "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+   ]
+  },
+  {
+   "id": "fourth_mechanism_rate8",
+   "title": "THE WEDGE: 0.00707 grid steps at rate 1/8 from any fourth mechanism",
+   "status": "TARGET",
+   "key": true,
+   "gate": "any",
+   "statement": "Recover >= 0.00707 grid steps (~0.9 bits) at rate 1/8 from ANY mechanism outside the three-eater partition \u2014 (a) cap-end sharpening, (b) tau* reserve tightening, (c) census crossing pinning. ONE suffices (gate: any). Closing this closes the campaign's first full determination corridor; failing all three lands rate 1/8 bracket-grade honestly.",
+   "attack_surface": "the three alt routes; (b) is likely cheapest (pure re-derivation), (c) is compute-shaped, (a) is proof-shaped",
+   "falsifier": "all three mechanisms exactly computed below the wedge",
+   "refs": [
+    "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+   ]
   }
  ],
  "edges": [
@@ -6316,6 +6362,26 @@
   {
    "from": "axis8_generating",
    "to": "corridor_ext_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "cap_end_sharpening",
+   "to": "fourth_mechanism_rate8",
+   "kind": "alt"
+  },
+  {
+   "from": "taustar_reserve_tightening",
+   "to": "fourth_mechanism_rate8",
+   "kind": "alt"
+  },
+  {
+   "from": "census_crossing_pinning",
+   "to": "fourth_mechanism_rate8",
+   "kind": "alt"
+  },
+  {
+   "from": "fourth_mechanism_rate8",
+   "to": "corridor_ledger",
    "kind": "req"
   }
  ]
