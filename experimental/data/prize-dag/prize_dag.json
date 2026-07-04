@@ -3852,7 +3852,8 @@
    "id": "generator_size_budget_check",
    "title": "generator size budget check",
    "status": "TARGET",
-   "statement": ""
+   "statement": "Size-budget match (Brief F). With B* = 2^122, need |F| >= B*/2^33 = 2^89 per open quotient row. Verified: |F| = N' C(N'/2-2, N'/4-1) = 2^65.69 at N'=128 (SHORT ~23.3 bits) and 2^130.18 at N'=256 (PASS +41). So the O(N)-base construction covers N'=256 but is SHORT at N'=128 \u2014 a genuine gap. RESOLUTION ROUTES: (i) a larger economical family at N'=128 (higher-multiplicity padding beyond antipodal), (ii) a smaller effective budget at that row (per-row B* pinning), or (iii) accept a proportional/partial win at N'=128.",
+   "notes": "Brief-F construction is short at N'=128 (2^65.7 vs 2^89) \u2014 a real limitation, not a rubber-stamp; N'=256 passes."
   }
  ],
  "edges": [
