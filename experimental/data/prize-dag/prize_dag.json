@@ -3294,6 +3294,16 @@
     "experimental/notes/roadmaps/x27_h4_large_quotient_sum.md"
    ],
    "notes": "Extends X26's lower h=2 quotient arithmetic without h=4 support sorting. This is finite evidence, not a structural h=4 classification; it shows the known paid finite-p exception mechanism remains far below the rewired n^3 terminal column in the next two full boundary windows."
+  },
+  {
+   "id": "x28_h4_n128_direct_bridge",
+   "title": "X28: selected n=128 h=4 rows match the quotient ledger",
+   "status": "TEST",
+   "statement": "Exact direct h=4 support replay at selected n=128 boundary primes p=17921,33409,65537,665857,697601,2095361. Every anchored h=4 active pair is either a mu_4 full fiber or an antipodal h=2 quotient lift. The direct h=4 counts match the X27 quotient prediction exactly: raw counts 43,67,83,71,71,31 with quotient extras 12,36,52,40,40,0 and zero primitive residue.",
+   "refs": [
+    "experimental/notes/roadmaps/x28_h4_n128_direct_bridge.md"
+   ],
+   "notes": "Bridges X27's cheap quotient arithmetic back to actual h=4 support space on selected larger rows, including the max n=128 quotient-extra row and a clean high-end row. This is selected-row evidence, not a full n=128 prime-window h=4 sort."
   }
  ],
  "edges": [
@@ -5884,6 +5894,11 @@
   },
   {
    "from": "x27_h4_large_quotient_sum",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x28_h4_n128_direct_bridge",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
