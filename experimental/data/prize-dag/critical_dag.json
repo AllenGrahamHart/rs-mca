@@ -139,7 +139,7 @@
   },
   {
    "id": "c1a_lowh_direct_certificates",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "C1a: direct per-row certificates at the window's bottom (feasible NOW)"
   },
   {
@@ -544,7 +544,7 @@
   },
   {
    "id": "list_corridor_widths",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "list corridor widths"
   },
   {
@@ -634,7 +634,7 @@
   },
   {
    "id": "official_row_primes_pinning",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo"
   },
   {

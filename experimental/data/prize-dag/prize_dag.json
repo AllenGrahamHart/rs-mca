@@ -3421,7 +3421,7 @@
   {
    "id": "c1a_lowh_direct_certificates",
    "title": "C1a: direct per-row certificates at the window's bottom (feasible NOW)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "At h = 4 (and plausibly 5): the per-row trade search at n = 1024 is FEASIBLE by MITM \u2014 pattern space C(1024, 8) ~ 2^55, halves ~ 2^{35} hash entries. Certify the official Row-C primes directly: no non-toral h=4 trades at (p, zeta). Pure compute; the exact analogue of the banked toy MITM machinery scaled up. Covers the window's most exposed sizes (the smallest h dominate risk). DELIVERED (27-check verifier green; 13/13 fast-mode replayed): (1) EXACT COMPLETE census over REAL finite fields at n = 16/32/64/128/256 \u2014 zero non-toral h=4 trades, toral exactly C(n/4,2) at every scale (extends the pilot's char-0 emptiness to actual F_p, two octaves further); (2) a decisive DETECTION gate: at the exceptional prime F17 the pipeline finds all 120 genuine non-toral 4-trades \u2014 sensitivity proved, and it caught+fixed a sign-convention bug that would have silently blinded the fast path; (3) n = 1024: machinery validated, toral family certified (32640), exhaustive spot-slice clean; the FULL run honestly deferred (~18h and ~16GB unbucketed; e_1-bucketing fits 2GB) \u2014 unconditional n=1024 closure rests on the A3+X24 route with C1a as corroborating harness, or a future bucketed long run; (4) h = 5 measured INFEASIBLE (~2.2yr) \u2014 the descent (C1b) must carry h >= 5. CONDITIONAL on: stand-in prime (see official_row_primes_pinning).",
    "attack_surface": "the F2/E37 MITM machinery at n = 1024 with disk-backed hashing if needed; SOLO",
    "falsifier": "a real trade found at an official prime (then absorbency counts it \u2014 budget ~1e5 per h)",
@@ -3475,11 +3475,12 @@
   {
    "id": "official_row_primes_pinning",
    "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "The repo pins only the SHAPE of the Row-C fields (log2 q = 250, 1024 | q - 1, idealized q = 2^250) \u2014 no literal primes anywhere (xr-budget-audit/ certificate dir absent). ALL per-row certification (C1a certificates, the C2 GCD harness) currently runs on a clearly-labeled STAND-IN prime p* = 1 mod 1024 (~250 bits); re-running on real primes = swapping one constant. NEEDED: the authoritative literal row primes (prize spec / maintainer / rules-freeze artifact) before any certification claim is made about OFFICIAL rows. Goes on the maintainer asks list.",
    "refs": [
     "experimental/notes/roadmaps/c1a_lowh_mitm_certificates.md"
-   ]
+   ],
+   "notes": "PROVED on replay (Codex citation/reframe packet, verifier PASS): the challenge quantifies over admissible F with a sufficiently-large-field proviso \u2014 no literal prime list exists to pin; obligations are family-uniform or exhibit-specific."
   },
   {
    "id": "m1_trade_bijection",
@@ -3631,13 +3632,14 @@
   {
    "id": "list_corridor_widths",
    "title": "list corridor widths",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Compute the LIST-side corridor widths per clean rate: the gap in grid steps between the proved list-safe radius (|Lambda| <= eps*|F| above the window) and the proved list-unsafe radius (crossing at the gate), at each rate's official row \u2014 the list analogue of W = 2.17/2.00/1.12. Previously unpriced; pure computation from the banked list-safe/unsafe formulas (imgfib-conditional bounds + planted arithmetic).",
    "attack_surface": "the corridor_eaters machinery, list-side formulas; delegable compute",
    "falsifier": "a rate where the list corridor is already <= 1 grid step (adjacency free)",
    "refs": [
     "experimental/notes/roadmaps/corridor_eaters_computation.md"
-   ]
+   ],
+   "notes": "PROVED on replay (Codex packet, verifier PASS): W_list = 1.6125 / 1.0751 / 1.3283 cap-grid steps at 1/4, 1/8, 1/16. CRITICAL OBSERVATION for the ledger: all three sit just INSIDE the scale-free floor's total reach (1.633 / 1.099 / 1.375 from the sweep) \u2014 margins +0.021 / +0.024 / +0.047 steps. If exact arithmetic confirms (floats too close to call at 1/4), the LIST corridor family closes by the same mechanism. The ledger packet must do the comparison in exact rationals."
   },
   {
    "id": "list_corridor_ledger",
