@@ -494,7 +494,7 @@
   {
    "id": "conj_f",
    "title": "Conjecture F: plane sections of D_j have poly unpaid points",
-   "status": "CONJECTURE",
+   "status": "CONDITIONAL",
    "gate": "all",
    "key": true,
    "refs": [
@@ -502,7 +502,8 @@
    ],
    "statement": "For every linear P <= P^j and pair (u,v): the D_j-points of P are, up to n^{B_F} exceptions, covered by a shared divisor of degree >= j - dim P - O(log_n) (tangent shape) or a proper quotient-pullback stratum (periodic shape).",
    "attack_surface": "prove coordinate planes first (= prob:perfiber, minimal instance), then kernel planes; the crux is classifying exceptional planes (ES-type)",
-   "falsifier": "a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry"
+   "falsifier": "a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry",
+   "notes": "FLIP on replay (Codex wave 7): assembly conditional \u2014 gcd-reduction + scale-recursion PROVED; closes on f_primitive_case."
   },
   {
    "id": "perfiber",
@@ -869,7 +870,7 @@
     "proof_sketch/s6_extension_lift.md#4"
    ],
    "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger.",
-   "notes": "AUDITED TRUE RED (Codex packet, accepted): the case classification's own content is open mathematics."
+   "notes": "AUDITED TRUE RED (Codex packet, accepted): the case classification's own content is open mathematics. | CONVERGENT FRONTIER CERTIFICATION: Codex's wave-7 audit independently matches the Opus TRUE RED verdict \u2014 the Galois-descent trichotomy content is confirmed hard red by both lanes."
   },
   {
    "id": "sigma1_cx",
@@ -1100,11 +1101,11 @@
   {
    "id": "petal_fixed_excess",
    "title": "Bound full-petal extras at each fixed excess d-ell <= c (finite toy enumerations)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
-   "notes": "IN FLIGHT: #197 | DELIVERED in #197: exact per-layer bounds through e <= 6 with poly lower-cutoff growth rows."
+   "notes": "IN FLIGHT: #197 | DELIVERED in #197: exact per-layer bounds through e <= 6 with poly lower-cutoff growth rows. | FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (exact CRT rank: extras <= q^{e+1} at fixed excess)."
   },
   {
    "id": "petal_mixed_amplification",
@@ -2469,12 +2470,12 @@
   {
    "id": "xr_radius_arithmetic",
    "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "FULL VERDICT (wave 1, 215/215 checks \u2014 CORRECTING the premature 's*=1' reading): s* = 1 NEVER closes a corridor row. Under the pinned-ledger two-regime model every corridor edge needs full reach s* = t*-1 (~8.6e9 exchange steps at rate-1/2 prize scale, ~n*2^-8); Chebyshev-strict reads identically; even the generous three-regime scenario needs s* ~ t*/15 at prize scale. THE RESIDUAL-LEDGER CONVERSION PATH IS HARD, localized to the mid band s in (t/15, t-1]. Structural facts that survive: the distinct-slope plateau = E[X]^2 exactly (Vandermonde); s=1 dominates the head; a second bulk peak (~j(n-j)/n) rides the plateau at a q^-1 discount. MITIGATIONS: the A=265 stripped exemplar needs only s* = 4 (small-t partial XR = what P2 needs); at rates 1/4, 1/8, 1/16 the corridor edges have E[X] < 1 (moment-level Markov-trivial) \u2014 THE CONTENTFUL ROWS ARE RATE 1/2 ONLY; the n^3-budget and plateau-absorption mechanisms hand off with ~3 bits of margin at the rate-1/2 edge (the arithmetic shadow of E[X] ~ B*).",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
-   "notes": "UNBLOCKED: c(s,t) = min(s,t-1) pinned \u2014 QX.14 is RUNNABLE NOW. Ledger reach resolved in principle: s_L = t-1 (full linear reach to the independence plateau); QX.14 determines the much smaller s* the coverage actually needs. | Ball profile N_s = C(j,s)C(n-j,s) proved + exhaustively verified; bulk peak formula verified exactly."
+   "notes": "UNBLOCKED: c(s,t) = min(s,t-1) pinned \u2014 QX.14 is RUNNABLE NOW. Ledger reach resolved in principle: s_L = t-1 (full linear reach to the independence plateau); QX.14 determines the much smaller s* the coverage actually needs. | Ball profile N_s = C(j,s)C(n-j,s) proved + exhaustively verified; bulk peak formula verified exactly. | FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (reproduces QX.14/15 exactly; s* = t*-1 under the pinned anchored ledger convention)."
   },
   {
    "id": "profile_covering_obstruction",

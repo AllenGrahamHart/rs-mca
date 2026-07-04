@@ -209,7 +209,7 @@
   },
   {
    "id": "conj_f",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Conjecture F: plane sections of D_j have poly unpaid points"
   },
   {
@@ -669,7 +669,7 @@
   },
   {
    "id": "petal_fixed_excess",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Bound full-petal extras at each fixed excess d-ell <= c (finite toy enumerations)"
   },
   {
@@ -909,7 +909,7 @@
   },
   {
    "id": "xr_radius_arithmetic",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope"
   },
   {
