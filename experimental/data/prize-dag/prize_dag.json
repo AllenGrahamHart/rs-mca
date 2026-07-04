@@ -3544,6 +3544,16 @@
     "experimental/notes/roadmaps/x52_h4_centered_field_uniformity.md"
    ],
    "notes": "Removes the prime-field caveat from the centered h=4 packets. The verifier replays the identities in GF(25)/mu8, GF(49)/mu16, and GF(121)/mu24, where the subgroups are not contained in the prime field."
+  },
+  {
+   "id": "x53_h4_centered_line_bound_gap",
+   "title": "X53: h=4 centered branch needs more than the standard line bound",
+   "status": "PROVED",
+   "statement": "The h=2 subgroup-point line input gives M <= 6 n^(2/3) generally, and M <= 2 n^(2/3) in the prime-field Garcia-Voloch variant recorded in pte_h2_rung. X50 needs M <= T(n) ~ (48n)^(1/3). Exact comparison shows both n^(2/3) line bounds fail from n=16 onward, including n=2^41, so the centered h=4 branch needs dyadic/norm-gate rigidity, a fourth-moment distribution bound, or another exponent <=1/3 input.",
+   "refs": [
+    "experimental/notes/roadmaps/x53_h4_centered_line_bound_gap.md"
+   ],
+   "notes": "Prevents a false closure by reusing the h=2 line theorem. The verifier compares X50 thresholds against the general CZ/MV and prime-field GV constants and records the official-scale gap."
   }
  ],
  "edges": [
@@ -6294,6 +6304,26 @@
   },
   {
    "from": "x52_h4_centered_field_uniformity",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "pte_h2_rung",
+   "to": "x53_h4_centered_line_bound_gap",
+   "kind": "req"
+  },
+  {
+   "from": "x50_h4_centered_threshold",
+   "to": "x53_h4_centered_line_bound_gap",
+   "kind": "req"
+  },
+  {
+   "from": "x52_h4_centered_field_uniformity",
+   "to": "x53_h4_centered_line_bound_gap",
+   "kind": "req"
+  },
+  {
+   "from": "x53_h4_centered_line_bound_gap",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
