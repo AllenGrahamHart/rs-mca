@@ -374,8 +374,8 @@ def radial():
             parts.append(f'<path d="{pth}" fill="none" stroke="#f59e0b" stroke-width="1.2" '
                          f'stroke-opacity="0.75"/>')
         elif c == "inh":
-            parts.append(f'<path d="{pth}" fill="none" stroke="#b91c1c" stroke-width="0.9" '
-                         f'stroke-opacity="0.4"/>')
+            parts.append(f'<path d="{pth}" fill="none" stroke="#dc2626" stroke-width="1.4" '
+                         f'stroke-opacity="0.6" stroke-dasharray="6 4"/>')
         else:
             parts.append(f'<path d="{pth}" fill="none" stroke="#475569" stroke-width="0.8" stroke-opacity="0.5"/>')
     for v in ring:
