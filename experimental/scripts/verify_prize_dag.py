@@ -118,6 +118,11 @@ def main() -> None:
             if any(s not in okset2 for s in reqs) or (gate_any and not any(s in okset2 for s in alts)):
                 errors.append(f"{i}: declared PROVABLE but requirements exceed PROVED/PROVABLE")
         elif n["status"] in {"CONJECTURE", "TARGET"} and (reqs or gate_any):
+            # own-content rule: a node carrying an attack_surface has open
+            # mathematical work of its own - requirements-met never makes it
+            # declaration-ready, it makes it ACTIONABLE.
+            if n.get("attack_surface"):
+                continue
             if all(s in okset2 for s in reqs) and (not gate_any or any(s in okset2 for s in alts)):
                 ripe.append(i)
 
@@ -172,6 +177,17 @@ def main() -> None:
         for e in errors:
             print("  -", e)
         sys.exit(1)
+    # normal-form report: CONDITIONAL requires wired open hypotheses (or it is RIPE)
+    _rev = {}
+    for _e in edges:
+        if _e.get("kind", "req") == "req":
+            _rev.setdefault(_e["to"], []).append(_e["from"])
+    _prose = [nid for nid, n in nodes.items() if n["status"] == "CONDITIONAL"
+              and not any(nodes[u]["status"] not in ("PROVED", "PROVABLE")
+                          for u in _rev.get(nid, []) if u in nodes)]
+    if _prose:
+        print("CONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready):",
+              ", ".join(sorted(_prose)))
     print("PASS: structure, refs, acyclicity, reachability, status propagation")
 
 
