@@ -1,0 +1,1240 @@
+{
+ "derived_from": "prize_dag.json",
+ "labels": [
+  "PROVED",
+  "PROVABLE",
+  "CONDITIONAL",
+  "UNPROVED"
+ ],
+ "nodes": [
+  {
+   "id": "acl_count",
+   "label": "PROVED",
+   "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)"
+  },
+  {
+   "id": "acl_second_order",
+   "label": "UNPROVED",
+   "title": "Acl second-order term (hand-off lemma)"
+  },
+  {
+   "id": "adjacency_closing",
+   "label": "UNPROVED",
+   "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points"
+  },
+  {
+   "id": "aperiodic_zero_at_crossing",
+   "label": "CONDITIONAL",
+   "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
+  },
+  {
+   "id": "axes_verified",
+   "label": "PROVED",
+   "title": "Axes 3/5/7 verified + q-dictionary (axis 6)"
+  },
+  {
+   "id": "axis1_batching",
+   "label": "UNPROVED",
+   "title": "Axis 1: ABF batching shape"
+  },
+  {
+   "id": "axis2_ell",
+   "label": "UNPROVED",
+   "title": "Axis 2: ell>2 batching / tuple-to-pair"
+  },
+  {
+   "id": "axis4_predicate",
+   "label": "UNPROVED",
+   "title": "Axis 4: ABF Delta_S = degenerate-pencil predicate?"
+  },
+  {
+   "id": "axis9_dither",
+   "label": "CONDITIONAL",
+   "title": "Axis 9: exact rates (dither adverse, provisional)"
+  },
+  {
+   "id": "b2_modp_giant_extras",
+   "label": "UNPROVED",
+   "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion"
+  },
+  {
+   "id": "b_rational_lift",
+   "label": "PROVED",
+   "title": "B-rational pencils give B-slopes (linearity)"
+  },
+  {
+   "id": "budget_b3",
+   "label": "PROVED",
+   "title": "Poly budget B <= 3 at n = 2^41 (123 < 128 bits)"
+  },
+  {
+   "id": "cap_theorem",
+   "label": "PROVED",
+   "title": "Paper D universal cap (unsafe above 1-rho-2^-9)"
+  },
+  {
+   "id": "census_bounded_scales",
+   "label": "PROVABLE",
+   "title": "The deciding scale is PINNED in an absolute window (n-uniformity of the census)"
+  },
+  {
+   "id": "census_exact_counts",
+   "label": "PROVABLE",
+   "title": "Exact bignum evaluation at bounded scales: expansions unnecessary at candidates"
+  },
+  {
+   "id": "census_window_arithmetic",
+   "label": "PROVABLE",
+   "title": "The undecided set as an explicit function of certification strength L"
+  },
+  {
+   "id": "certified_valueset_lower",
+   "label": "UNPROVED",
+   "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)"
+  },
+  {
+   "id": "certifier_uniformity",
+   "label": "UNPROVED",
+   "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p"
+  },
+  {
+   "id": "char0_collision_classification",
+   "label": "PROVED",
+   "title": "thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic"
+  },
+  {
+   "id": "clique_cap",
+   "label": "PROVED",
+   "title": "K_{m,m} clique cap n >= k + m^2(a-k) (x1)"
+  },
+  {
+   "id": "cluster_certificates",
+   "label": "PROVABLE",
+   "title": "Cluster machinery: free cliques + one-check cluster pairing"
+  },
+  {
+   "id": "codegree",
+   "label": "PROVED",
+   "title": "L2 codegree reduction (Theorems A/B/C, L1-free)"
+  },
+  {
+   "id": "collision_norm_criterion",
+   "label": "PROVABLE",
+   "title": "Non-quotient e1-collisions mod p <=> p divides an explicit bounded nonzero norm"
+  },
+  {
+   "id": "common_code_line_budget",
+   "label": "PROVED",
+   "title": "Common code-line residual budget (MDS): tangent-agreeing lines pay residual slopes outside the support"
+  },
+  {
+   "id": "confinement",
+   "label": "PROVED",
+   "title": "Confinement-from-stabilizer theorem (x1)"
+  },
+  {
+   "id": "conj_f",
+   "label": "UNPROVED",
+   "title": "Conjecture F: plane sections of D_j have poly unpaid points"
+  },
+  {
+   "id": "counting_frame",
+   "label": "PROVED",
+   "title": "Exact frame: finite divisor set, pencil linear, <=1 slope/locator"
+  },
+  {
+   "id": "crossing_localization",
+   "label": "PROVABLE",
+   "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list"
+  },
+  {
+   "id": "deep_point",
+   "label": "PROVED",
+   "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
+  },
+  {
+   "id": "descriptor",
+   "label": "UNPROVED",
+   "title": "Symbolic row descriptor (single constants source)"
+  },
+  {
+   "id": "dihedral_quotient_stratum",
+   "label": "PROVABLE",
+   "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
+  },
+  {
+   "id": "dyadic_profile_evaluation",
+   "label": "PROVABLE",
+   "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
+  },
+  {
+   "id": "ext_import",
+   "label": "PROVABLE",
+   "title": "B_ext crosses gate exactly at the S7 list window"
+  },
+  {
+   "id": "ext_lift",
+   "label": "UNPROVED",
+   "title": "S6: extension lift classified"
+  },
+  {
+   "id": "ext_pole_floor",
+   "label": "PROVED",
+   "title": "Extension-pole floor (v10): N(L) witnesses"
+  },
+  {
+   "id": "f1_case_pole",
+   "label": "CONDITIONAL",
+   "title": "F1 case (ii): pole-type slopes priced by the imported list term"
+  },
+  {
+   "id": "f1_case_tower",
+   "label": "UNPROVED",
+   "title": "F1 case (iii): intermediate-subfield tower recursion"
+  },
+  {
+   "id": "f1_classification",
+   "label": "UNPROVED",
+   "title": "F-valued slopes: B-rational / pole / tower"
+  },
+  {
+   "id": "f1_pole_list_threshold_location",
+   "label": "UNPROVED",
+   "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
+  },
+  {
+   "id": "f_concurrency_equiv",
+   "label": "PROVABLE",
+   "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)"
+  },
+  {
+   "id": "f_descent_termination",
+   "label": "UNPROVED",
+   "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)"
+  },
+  {
+   "id": "f_dih_subgroup_completeness",
+   "label": "CONDITIONAL",
+   "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory"
+  },
+  {
+   "id": "f_dim1",
+   "label": "PROVABLE",
+   "title": "F at dimension 1: pencils meet D_j in at most n/j points (VOTING)"
+  },
+  {
+   "id": "f_dim2_skeleton",
+   "label": "PROVABLE",
+   "title": "F at dimension 2: elementary pair bound + twins are tangent-paid"
+  },
+  {
+   "id": "f_dim_induction",
+   "label": "UNPROVED",
+   "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
+  },
+  {
+   "id": "f_dual_distance_frame",
+   "label": "PROVABLE",
+   "title": "The frame: trace degeneracies = low-weight words of the flat's dual code P-perp"
+  },
+  {
+   "id": "f_gcd_reduction",
+   "label": "PROVABLE",
+   "title": "F WLOG reduction: factor out the plane's common divisor"
+  },
+  {
+   "id": "f_many_sparse_structure",
+   "label": "UNPROVED",
+   "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
+  },
+  {
+   "id": "f_primitive_case",
+   "label": "UNPROVED",
+   "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
+  },
+  {
+   "id": "f_scale_recursion",
+   "label": "PROVABLE",
+   "title": "F scale recursion: pullback points are plane points of the quotient instance"
+  },
+  {
+   "id": "f_sparse_descent_step",
+   "label": "PROVABLE",
+   "title": "The descent step: a sparse dual word buys divisor depth faster than it costs dimension"
+  },
+  {
+   "id": "f_sparse_rank_split",
+   "label": "UNPROVED",
+   "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
+  },
+  {
+   "id": "f_spread_moment_count",
+   "label": "PROVABLE",
+   "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension"
+  },
+  {
+   "id": "f_support_lattice",
+   "label": "PROVABLE",
+   "title": "Reformulation: descent-tree size = closed-set count of the sparse-support lattice"
+  },
+  {
+   "id": "f_termination_hankel",
+   "label": "UNPROVED",
+   "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice"
+  },
+  {
+   "id": "f_termination_mds",
+   "label": "PROVABLE",
+   "title": "MDS-dual flats: termination is TRIVIAL (no sparse words exist)"
+  },
+  {
+   "id": "f_weight2_inverse",
+   "label": "CONDITIONAL",
+   "title": "FACE-2 CORE (evidence-informed): the weight-2 inverse theorem"
+  },
+  {
+   "id": "far_pair_separation",
+   "label": "UNPROVED",
+   "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification"
+  },
+  {
+   "id": "field_cap_check",
+   "label": "PROVED",
+   "title": "Confirm k<=2^40, |F|<2^256 in ePrint"
+  },
+  {
+   "id": "fm1",
+   "label": "PROVABLE",
+   "title": "FM1: E[#aligned] = C(n,j)(1-q^-t)q^{1-t} exactly"
+  },
+  {
+   "id": "gap1_noneq_mass",
+   "label": "UNPROVED",
+   "title": "GAP-1: non-equivariant periodic mass <= poly"
+  },
+  {
+   "id": "gap1_product_model",
+   "label": "UNPROVED",
+   "title": "LEAP: non-equivariant periodic mass EQUALS the per-character product (tower extension)"
+  },
+  {
+   "id": "gap2_seam",
+   "label": "PROVABLE",
+   "title": "GAP-2 seam closed: pullback => M | t_denom"
+  },
+  {
+   "id": "generating_escape",
+   "label": "PROVED",
+   "title": "Non-generating rows forced tiny (q_gen < 2^128)"
+  },
+  {
+   "id": "generator_economy",
+   "label": "UNPROVED",
+   "title": "THE CORE, SHARPENED: multiplicative difference-designs (few bases certify everything)"
+  },
+  {
+   "id": "graded_collision_radius",
+   "label": "PROVABLE",
+   "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL"
+  },
+  {
+   "id": "imgfib",
+   "label": "UNPROVED",
+   "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)"
+  },
+  {
+   "id": "integer_code_distance_cert",
+   "label": "UNPROVED",
+   "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system"
+  },
+  {
+   "id": "isotypic",
+   "label": "PROVED",
+   "title": "Isotypic refinement: escape iff multi-isotypic (x1)"
+  },
+  {
+   "id": "kernel_lattice_reframing",
+   "label": "PROVABLE",
+   "title": "REFRAMING: e1 is linear \u2014 collisions = sparse ternary vectors in ONE explicit index-p lattice"
+  },
+  {
+   "id": "knife_edge_census",
+   "label": "UNPROVED",
+   "title": "The genuine residue: census + exact handling of knife-edge rows"
+  },
+  {
+   "id": "l1_core_defect_reduction",
+   "label": "PROVED",
+   "title": "L1 Lemma 2: sunflower core-defect reduction"
+  },
+  {
+   "id": "l1_crt_compression",
+   "label": "PROVED",
+   "title": "L1 Lemmas 7/8: full-petal CRT compression + rank certificate"
+  },
+  {
+   "id": "l1_defect_layer_bounds",
+   "label": "PROVED",
+   "title": "L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)"
+  },
+  {
+   "id": "l1_program_frontier",
+   "label": "PROVED",
+   "title": "L1 proof program: all branches closed except full-petal d-ell -> infinity (Thm 21/B11)"
+  },
+  {
+   "id": "lattice_cone_certificate",
+   "label": "UNPROVED",
+   "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row"
+  },
+  {
+   "id": "list_adjacency_closing",
+   "label": "UNPROVED",
+   "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii"
+  },
+  {
+   "id": "list_crossing_localization",
+   "label": "PROVABLE",
+   "title": "List staircase: sup-over-words list size is a monotone integer => unique crossing exists"
+  },
+  {
+   "id": "list_grand",
+   "label": "CONDITIONAL",
+   "title": "Grand List: determine delta* (|Lambda| <= 2^-128 |F|)"
+  },
+  {
+   "id": "list_planted_arithmetic",
+   "label": "PROVABLE",
+   "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)"
+  },
+  {
+   "id": "list_safe",
+   "label": "UNPROVED",
+   "title": "List safe side above the window"
+  },
+  {
+   "id": "list_unsafe",
+   "label": "CONDITIONAL",
+   "title": "List unsafe at gate: qcore counting (conventions pending)"
+  },
+  {
+   "id": "m_handling",
+   "label": "UNPROVED",
+   "title": "Interleaved m-handling per the official quantifier"
+  },
+  {
+   "id": "m_sweep",
+   "label": "PROVED",
+   "title": "For-all-m affordable: m <= sqrt((n-k)/t) ~ 16-31"
+  },
+  {
+   "id": "mca_grand",
+   "label": "CONDITIONAL",
+   "title": "Grand MCA: determine delta* (emca <= 2^-128)"
+  },
+  {
+   "id": "mca_safe",
+   "label": "CONDITIONAL",
+   "title": "MCA safe side: B_C(a_safe) <= B* in-band"
+  },
+  {
+   "id": "mca_unsafe",
+   "label": "CONDITIONAL",
+   "title": "MCA unsafe side at adjacent grid point"
+  },
+  {
+   "id": "mixed_radix_frontier",
+   "label": "PROVED",
+   "title": "Mixed-radix uniformity: does the machinery survive non-2-power smooth domains?"
+  },
+  {
+   "id": "moment_trade_staircase",
+   "label": "PROVABLE",
+   "title": "THE FIFTH MECHANISM (X-4b verdict, VERIFIED): primitive moment-trade / PTE staircases"
+  },
+  {
+   "id": "noncontain_degeneracy",
+   "label": "PROVED",
+   "title": "Containment = degenerate pencil (a=b=0) = def:residue"
+  },
+  {
+   "id": "paid_closure",
+   "label": "PROVABLE",
+   "title": "Paid(A) closure: tangent+quotient+extension computable"
+  },
+  {
+   "id": "paid_ext_fn",
+   "label": "PROVABLE",
+   "title": "Paid_ext(A): the s6 import rule (0 if generating)"
+  },
+  {
+   "id": "paid_quot_fn",
+   "label": "PROVABLE",
+   "title": "Paid_quot(A): zones a/b/c, interval-valued cells"
+  },
+  {
+   "id": "paid_tan_fn",
+   "label": "PROVABLE",
+   "title": "Paid_tan(A): staircase formula as a computable function"
+  },
+  {
+   "id": "payment_completeness",
+   "label": "UNPROVED",
+   "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
+  },
+  {
+   "id": "periodic_strata",
+   "label": "PROVED",
+   "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
+  },
+  {
+   "id": "petal_fixed_excess",
+   "label": "PROVABLE",
+   "title": "Bound full-petal extras at each fixed excess d-ell <= c (finite toy enumerations)"
+  },
+  {
+   "id": "petal_growth",
+   "label": "UNPROVED",
+   "title": "Full-petal growth bound / mixed-petal amplification"
+  },
+  {
+   "id": "q_recursion",
+   "label": "PROVED",
+   "title": "Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)"
+  },
+  {
+   "id": "qcore",
+   "label": "PROVED",
+   "title": "thm:qcore: C(n/M-1, k/M) codewords, q-independent"
+  },
+  {
+   "id": "qfloor_exact",
+   "label": "PROVED",
+   "title": "prop:qfloor: quotient floor exact above norm threshold"
+  },
+  {
+   "id": "r2_rigidity",
+   "label": "UNPROVED",
+   "title": "R2: unpaid aligned count <= n^B * FM (B<=3)"
+  },
+  {
+   "id": "rate_half_coverage_gap",
+   "label": "UNPROVED",
+   "title": "DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max"
+  },
+  {
+   "id": "rules_freeze",
+   "label": "CONDITIONAL",
+   "title": "Rules freeze + SHA drift detector"
+  },
+  {
+   "id": "rules_m_reading",
+   "label": "PROVED",
+   "title": "Official resolution of the 'constant m' quantifier"
+  },
+  {
+   "id": "s0_zero_open",
+   "label": "UNPROVED",
+   "title": "S0 object audit: zero OPEN axes"
+  },
+  {
+   "id": "safe_assembly_uniformity",
+   "label": "UNPROVED",
+   "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family"
+  },
+  {
+   "id": "staircase",
+   "label": "PROVED",
+   "title": "Tangent staircase compiler (#147)"
+  },
+  {
+   "id": "staircase_steepness",
+   "label": "PROVABLE",
+   "title": "Consecutive grid counts differ by ~q-factors: sign decisions need only coarse relative precision"
+  },
+  {
+   "id": "strip",
+   "label": "CONDITIONAL",
+   "title": "Strip-periodic: aperiodic stratum exact"
+  },
+  {
+   "id": "tr_joint_telescope",
+   "label": "PROVED",
+   "title": "FACE-1 CORE (derivation candidate): jointness telescopes to the joint stabilizer"
+  },
+  {
+   "id": "tr_perleaf_list_ident",
+   "label": "UNPROVED",
+   "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
+  },
+  {
+   "id": "u2_per_row_certifier",
+   "label": "UNPROVED",
+   "title": "U2-B: the per-row moment certificates (small-t rows)"
+  },
+  {
+   "id": "u2c_boundary_scale_column",
+   "label": "UNPROVED",
+   "title": "THE REPAIR: the boundary-scale (M = t) zero-sum column + crossover arithmetic (QA.25)"
+  },
+  {
+   "id": "unsafe_at_crossing",
+   "label": "UNPROVED",
+   "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
+  },
+  {
+   "id": "v8_ledger",
+   "label": "PROVED",
+   "title": "v8 one-support-one-slope ledger"
+  },
+  {
+   "id": "vtdv",
+   "label": "PROVED",
+   "title": "Subgroup Hankel = V^T D_u V (prime + extension verified)"
+  },
+  {
+   "id": "weight_graded_mitm",
+   "label": "PROVABLE",
+   "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24"
+  },
+  {
+   "id": "wild_row_audit",
+   "label": "UNPROVED",
+   "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
+  },
+  {
+   "id": "worst_word_planted",
+   "label": "UNPROVED",
+   "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
+  },
+  {
+   "id": "x4_exactlist_staircase_split",
+   "label": "UNPROVED",
+   "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
+  },
+  {
+   "id": "x4b_moment_trade_exclusion",
+   "label": "UNPROVED",
+   "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)"
+  },
+  {
+   "id": "zone_b",
+   "label": "UNPROVED",
+   "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)"
+  }
+ ],
+ "edges": [
+  {
+   "from": "s0_zero_open",
+   "to": "mca_grand"
+  },
+  {
+   "from": "s0_zero_open",
+   "to": "list_grand"
+  },
+  {
+   "from": "mca_safe",
+   "to": "mca_grand"
+  },
+  {
+   "from": "mca_unsafe",
+   "to": "mca_grand"
+  },
+  {
+   "from": "list_safe",
+   "to": "list_grand"
+  },
+  {
+   "from": "list_unsafe",
+   "to": "list_grand"
+  },
+  {
+   "from": "axes_verified",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "axis1_batching",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "axis2_ell",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "axis4_predicate",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "axis9_dither",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "field_cap_check",
+   "to": "rules_freeze"
+  },
+  {
+   "from": "rules_freeze",
+   "to": "s0_zero_open"
+  },
+  {
+   "from": "cap_theorem",
+   "to": "mca_unsafe"
+  },
+  {
+   "from": "zone_b",
+   "to": "mca_unsafe"
+  },
+  {
+   "from": "acl_count",
+   "to": "qfloor_exact"
+  },
+  {
+   "from": "counting_frame",
+   "to": "mca_safe"
+  },
+  {
+   "from": "fm1",
+   "to": "mca_safe"
+  },
+  {
+   "from": "strip",
+   "to": "mca_safe"
+  },
+  {
+   "from": "paid_closure",
+   "to": "mca_safe"
+  },
+  {
+   "from": "r2_rigidity",
+   "to": "mca_safe"
+  },
+  {
+   "from": "ext_lift",
+   "to": "mca_safe"
+  },
+  {
+   "from": "v8_ledger",
+   "to": "counting_frame"
+  },
+  {
+   "from": "noncontain_degeneracy",
+   "to": "counting_frame"
+  },
+  {
+   "from": "vtdv",
+   "to": "counting_frame"
+  },
+  {
+   "from": "vtdv",
+   "to": "fm1"
+  },
+  {
+   "from": "staircase",
+   "to": "paid_closure"
+  },
+  {
+   "from": "qfloor_exact",
+   "to": "paid_closure"
+  },
+  {
+   "from": "ext_pole_floor",
+   "to": "paid_closure"
+  },
+  {
+   "from": "periodic_strata",
+   "to": "strip"
+  },
+  {
+   "from": "q_recursion",
+   "to": "strip"
+  },
+  {
+   "from": "confinement",
+   "to": "strip"
+  },
+  {
+   "from": "isotypic",
+   "to": "strip"
+  },
+  {
+   "from": "gap1_noneq_mass",
+   "to": "strip"
+  },
+  {
+   "from": "gap2_seam",
+   "to": "strip"
+  },
+  {
+   "from": "budget_b3",
+   "to": "r2_rigidity"
+  },
+  {
+   "from": "conj_f",
+   "to": "r2_rigidity"
+  },
+  {
+   "from": "qcore",
+   "to": "list_unsafe"
+  },
+  {
+   "from": "s0_zero_open",
+   "to": "list_unsafe"
+  },
+  {
+   "from": "imgfib",
+   "to": "list_safe"
+  },
+  {
+   "from": "codegree",
+   "to": "list_safe"
+  },
+  {
+   "from": "m_sweep",
+   "to": "list_safe"
+  },
+  {
+   "from": "clique_cap",
+   "to": "m_sweep"
+  },
+  {
+   "from": "deep_point",
+   "to": "codegree"
+  },
+  {
+   "from": "petal_growth",
+   "to": "imgfib"
+  },
+  {
+   "from": "conj_f",
+   "to": "imgfib"
+  },
+  {
+   "from": "b_rational_lift",
+   "to": "ext_lift"
+  },
+  {
+   "from": "ext_import",
+   "to": "ext_lift"
+  },
+  {
+   "from": "generating_escape",
+   "to": "ext_lift"
+  },
+  {
+   "from": "f1_classification",
+   "to": "ext_lift"
+  },
+  {
+   "from": "ext_pole_floor",
+   "to": "ext_import"
+  },
+  {
+   "from": "petal_fixed_excess",
+   "to": "petal_growth"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "imgfib"
+  },
+  {
+   "from": "l1_core_defect_reduction",
+   "to": "l1_program_frontier"
+  },
+  {
+   "from": "l1_crt_compression",
+   "to": "l1_program_frontier"
+  },
+  {
+   "from": "l1_defect_layer_bounds",
+   "to": "l1_program_frontier"
+  },
+  {
+   "from": "l1_crt_compression",
+   "to": "petal_fixed_excess"
+  },
+  {
+   "from": "paid_tan_fn",
+   "to": "paid_closure"
+  },
+  {
+   "from": "paid_quot_fn",
+   "to": "paid_closure"
+  },
+  {
+   "from": "paid_ext_fn",
+   "to": "paid_closure"
+  },
+  {
+   "from": "staircase",
+   "to": "paid_tan_fn"
+  },
+  {
+   "from": "qfloor_exact",
+   "to": "paid_quot_fn"
+  },
+  {
+   "from": "acl_count",
+   "to": "paid_quot_fn"
+  },
+  {
+   "from": "ext_import",
+   "to": "paid_ext_fn"
+  },
+  {
+   "from": "generating_escape",
+   "to": "paid_ext_fn"
+  },
+  {
+   "from": "b_rational_lift",
+   "to": "f1_classification"
+  },
+  {
+   "from": "f1_case_pole",
+   "to": "f1_classification"
+  },
+  {
+   "from": "f1_case_tower",
+   "to": "f1_classification"
+  },
+  {
+   "from": "ext_import",
+   "to": "f1_case_pole"
+  },
+  {
+   "from": "common_code_line_budget",
+   "to": "paid_tan_fn"
+  },
+  {
+   "from": "unsafe_at_crossing",
+   "to": "mca_unsafe"
+  },
+  {
+   "from": "dyadic_profile_evaluation",
+   "to": "imgfib"
+  },
+  {
+   "from": "m_handling",
+   "to": "list_safe"
+  },
+  {
+   "from": "f_gcd_reduction",
+   "to": "conj_f"
+  },
+  {
+   "from": "f_scale_recursion",
+   "to": "conj_f"
+  },
+  {
+   "from": "f_primitive_case",
+   "to": "conj_f"
+  },
+  {
+   "from": "periodic_strata",
+   "to": "f_scale_recursion"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "zone_b"
+  },
+  {
+   "from": "char0_collision_classification",
+   "to": "collision_norm_criterion"
+  },
+  {
+   "from": "payment_completeness",
+   "to": "r2_rigidity"
+  },
+  {
+   "from": "payment_completeness",
+   "to": "imgfib"
+  },
+  {
+   "from": "f_dim1",
+   "to": "f_primitive_case"
+  },
+  {
+   "from": "f_concurrency_equiv",
+   "to": "f_primitive_case"
+  },
+  {
+   "from": "gap1_product_model",
+   "to": "gap1_noneq_mass"
+  },
+  {
+   "from": "mixed_radix_frontier",
+   "to": "mca_grand"
+  },
+  {
+   "from": "mixed_radix_frontier",
+   "to": "list_grand"
+  },
+  {
+   "from": "adjacency_closing",
+   "to": "mca_grand"
+  },
+  {
+   "from": "acl_second_order",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "crossing_localization",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "staircase_steepness",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "aperiodic_zero_at_crossing",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "knife_edge_census",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "r2_rigidity",
+   "to": "aperiodic_zero_at_crossing"
+  },
+  {
+   "from": "fm1",
+   "to": "aperiodic_zero_at_crossing"
+  },
+  {
+   "from": "certified_valueset_lower",
+   "to": "knife_edge_census"
+  },
+  {
+   "from": "census_bounded_scales",
+   "to": "census_exact_counts"
+  },
+  {
+   "from": "census_exact_counts",
+   "to": "census_window_arithmetic"
+  },
+  {
+   "from": "census_window_arithmetic",
+   "to": "knife_edge_census"
+  },
+  {
+   "from": "list_adjacency_closing",
+   "to": "list_grand"
+  },
+  {
+   "from": "list_crossing_localization",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "worst_word_planted",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "list_planted_arithmetic",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "imgfib",
+   "to": "worst_word_planted"
+  },
+  {
+   "from": "f_dim2_skeleton",
+   "to": "f_primitive_case"
+  },
+  {
+   "from": "f_dim_induction",
+   "to": "f_primitive_case"
+  },
+  {
+   "from": "f_gcd_reduction",
+   "to": "f_dim2_skeleton"
+  },
+  {
+   "from": "f_dim2_skeleton",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_dual_distance_frame",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_spread_moment_count",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_sparse_descent_step",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_many_sparse_structure",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_dual_distance_frame",
+   "to": "f_spread_moment_count"
+  },
+  {
+   "from": "f_dual_distance_frame",
+   "to": "f_sparse_descent_step"
+  },
+  {
+   "from": "f_dual_distance_frame",
+   "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "safe_assembly_uniformity",
+   "to": "mca_safe"
+  },
+  {
+   "from": "descriptor",
+   "to": "safe_assembly_uniformity"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "graded_collision_radius"
+  },
+  {
+   "from": "graded_collision_radius",
+   "to": "certified_valueset_lower"
+  },
+  {
+   "from": "far_pair_separation",
+   "to": "certified_valueset_lower"
+  },
+  {
+   "from": "graded_collision_radius",
+   "to": "cluster_certificates"
+  },
+  {
+   "from": "cluster_certificates",
+   "to": "far_pair_separation"
+  },
+  {
+   "from": "generator_economy",
+   "to": "far_pair_separation"
+  },
+  {
+   "from": "cluster_certificates",
+   "to": "generator_economy"
+  },
+  {
+   "from": "f_sparse_descent_step",
+   "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "f_descent_termination",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_sparse_descent_step",
+   "to": "f_descent_termination"
+  },
+  {
+   "from": "f_support_lattice",
+   "to": "f_descent_termination"
+  },
+  {
+   "from": "f_termination_mds",
+   "to": "f_descent_termination"
+  },
+  {
+   "from": "f_termination_hankel",
+   "to": "f_descent_termination"
+  },
+  {
+   "from": "f_dual_distance_frame",
+   "to": "f_support_lattice"
+  },
+  {
+   "from": "kernel_lattice_reframing",
+   "to": "lattice_cone_certificate"
+  },
+  {
+   "from": "weight_graded_mitm",
+   "to": "lattice_cone_certificate"
+  },
+  {
+   "from": "integer_code_distance_cert",
+   "to": "lattice_cone_certificate"
+  },
+  {
+   "from": "certifier_uniformity",
+   "to": "certified_valueset_lower"
+  },
+  {
+   "from": "lattice_cone_certificate",
+   "to": "certifier_uniformity"
+  },
+  {
+   "from": "rate_half_coverage_gap",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "rate_half_coverage_gap",
+   "to": "adjacency_closing"
+  },
+  {
+   "from": "dihedral_quotient_stratum",
+   "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "f_dih_subgroup_completeness",
+   "to": "f_weight2_inverse"
+  },
+  {
+   "from": "f_weight2_inverse",
+   "to": "f_sparse_rank_split"
+  },
+  {
+   "from": "f_sparse_rank_split",
+   "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "tr_perleaf_list_ident",
+   "to": "gap1_noneq_mass"
+  },
+  {
+   "from": "tr_joint_telescope",
+   "to": "gap1_noneq_mass"
+  },
+  {
+   "from": "x4_exactlist_staircase_split",
+   "to": "tr_perleaf_list_ident"
+  },
+  {
+   "from": "wild_row_audit",
+   "to": "f_dih_subgroup_completeness"
+  },
+  {
+   "from": "moment_trade_staircase",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "x4b_moment_trade_exclusion",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "u2_per_row_certifier",
+   "to": "x4b_moment_trade_exclusion"
+  },
+  {
+   "from": "u2c_boundary_scale_column",
+   "to": "x4b_moment_trade_exclusion"
+  },
+  {
+   "from": "b2_modp_giant_extras",
+   "to": "u2c_boundary_scale_column"
+  },
+  {
+   "from": "rules_freeze",
+   "to": "axis9_dither"
+  },
+  {
+   "from": "f1_pole_list_threshold_location",
+   "to": "f1_case_pole"
+  },
+  {
+   "from": "rules_m_reading",
+   "to": "rules_freeze"
+  }
+ ]
+}
