@@ -380,8 +380,14 @@ def radial():
     for v in ring:
         n = nodes[v]; st = n["status"]
         fill = FILL.get(st, "#64748b")
+        # class drives color COMPLETELY: staged amber; any open non-staged
+        # node is red regardless of status nuance (TARGET vs CONJECTURE
+        # lives in the hover tooltip, not the palette - a conjecture has no
+        # local proof and must read as red, not orange-that-looks-amber)
         if v in staged:
-            fill = "#f59e0b"   # class drives color: RIPE targets are amber like CONDITIONALs
+            fill = "#f59e0b"
+        elif st in OPEN:
+            fill = "#ef4444"
         r0 = 10 if v in GRANDS else (6.5 if st in OPEN else 5.5)
         halo = ""
         if v in leaf:
