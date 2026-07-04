@@ -1,0 +1,237 @@
+{
+  "checks": 39,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x39_h4_affine_line_normal_form": "PROVED"
+  },
+  "identity_examples": [
+    {
+      "common_sum_s": 287,
+      "direct_top_three": [
+        574,
+        353,
+        1056
+      ],
+      "formula_top_three": [
+        574,
+        353,
+        1056
+      ],
+      "n": 32,
+      "p": 1153,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          22,
+          29
+        ]
+      ],
+      "product_sum": 1000,
+      "support": [
+        0,
+        1,
+        22,
+        29
+      ]
+    },
+    {
+      "common_sum_s": 4036,
+      "direct_top_three": [
+        3783,
+        1813,
+        3536
+      ],
+      "formula_top_three": [
+        3783,
+        1813,
+        3536
+      ],
+      "n": 64,
+      "p": 4289,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          7,
+          14
+        ]
+      ],
+      "product_sum": 2139,
+      "support": [
+        0,
+        2,
+        7,
+        14
+      ]
+    },
+    {
+      "common_sum_s": 4760,
+      "direct_top_three": [
+        9520,
+        12943,
+        11172
+      ],
+      "formula_top_three": [
+        9520,
+        12943,
+        11172
+      ],
+      "n": 128,
+      "p": 17921,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          52,
+          84
+        ]
+      ],
+      "product_sum": 7487,
+      "support": [
+        0,
+        2,
+        52,
+        84
+      ]
+    }
+  ],
+  "node": "active_core_count_bound",
+  "row_evidence": [
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 1024,
+      "h": 4,
+      "label": "n32_alpha_2",
+      "max_product_sum_bucket_within_shell": 1,
+      "n": 32,
+      "nonzero_centered_supports": 96,
+      "p": 1153,
+      "pair_sum_shell_count": 385,
+      "pair_sum_shell_size_histogram": {
+        "1": 288,
+        "16": 1,
+        "2": 96
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 32768,
+      "h": 4,
+      "label": "n32_alpha_3",
+      "max_product_sum_bucket_within_shell": 0,
+      "n": 32,
+      "nonzero_centered_supports": 0,
+      "p": 32801,
+      "pair_sum_shell_count": 481,
+      "pair_sum_shell_size_histogram": {
+        "1": 480,
+        "16": 1
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 4096,
+      "h": 4,
+      "label": "n64_alpha_2",
+      "max_product_sum_bucket_within_shell": 1,
+      "n": 64,
+      "nonzero_centered_supports": 192,
+      "p": 4289,
+      "pair_sum_shell_count": 1793,
+      "pair_sum_shell_size_histogram": {
+        "1": 1600,
+        "2": 192,
+        "32": 1
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 262144,
+      "h": 4,
+      "label": "n64_alpha_3",
+      "max_product_sum_bucket_within_shell": 0,
+      "n": 64,
+      "nonzero_centered_supports": 0,
+      "p": 262337,
+      "pair_sum_shell_count": 1985,
+      "pair_sum_shell_size_histogram": {
+        "1": 1984,
+        "32": 1
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 16384,
+      "h": 4,
+      "label": "n128_alpha_2",
+      "max_product_sum_bucket_within_shell": 1,
+      "n": 128,
+      "nonzero_centered_supports": 1920,
+      "p": 17921,
+      "pair_sum_shell_count": 6273,
+      "pair_sum_shell_size_histogram": {
+        "1": 4608,
+        "2": 1536,
+        "3": 128,
+        "64": 1
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 2097152,
+      "h": 4,
+      "label": "n128_alpha_3",
+      "max_product_sum_bucket_within_shell": 0,
+      "n": 128,
+      "nonzero_centered_supports": 0,
+      "p": 2100097,
+      "pair_sum_shell_count": 8065,
+      "pair_sum_shell_size_histogram": {
+        "1": 8064,
+        "64": 1
+      }
+    },
+    {
+      "active_center_shells": 0,
+      "centered_trade_pairs": 0,
+      "examples": [],
+      "floor_n_alpha": 65536,
+      "h": 4,
+      "label": "n256_alpha_2",
+      "max_product_sum_bucket_within_shell": 1,
+      "n": 256,
+      "nonzero_centered_supports": 8704,
+      "p": 65537,
+      "pair_sum_shell_count": 26113,
+      "pair_sum_shell_size_histogram": {
+        "1": 21504,
+        "128": 1,
+        "2": 3328,
+        "3": 768,
+        "4": 512
+      }
+    }
+  ],
+  "status": "PROVED REDUCTION + FINITE EVIDENCE: centered affine h=4 trades reduce to pair-product h=2 collisions; none in checked rows",
+  "task": "X40 h=4 centered pair-shell reduction",
+  "theorem": "For a nonzero center c with s=2c, any h=4 support even around c is two unordered H-pairs with common sum s.  If their products are u and v, then the support has top-three elementary sums (2s, s^2+u+v, s(u+v)).  Hence two centered supports with the same nonzero center have equal top-three sums iff their pair-product sums u+v agree.  The h4_centered_power_affine_residue is therefore exactly a same-sum collision among pair products inside a fixed nonzero pair-sum shell."
+}

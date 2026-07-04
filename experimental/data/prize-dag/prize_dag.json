@@ -3414,6 +3414,16 @@
     "experimental/notes/roadmaps/x39_h4_affine_line_normal_form.md"
    ],
    "notes": "Proved affine bidegree-(1,1) normal form for quartic fiber products. This sharpens the h=4 primitive residue by isolating the only affine-line escape not already multiplicative-cyclic paid."
+  },
+  {
+   "id": "x40_h4_centered_pair_shell_reduction",
+   "title": "X40: h=4 centered affine residue reduces to pair-shell h=2 collisions",
+   "status": "PROVED",
+   "statement": "For nonzero center c with s=2c, any h=4 support even around c is two unordered H-pairs with common sum s. If the pair products are u and v, its top-three elementary sums are (2s, s^2+u+v, s(u+v)). Hence two centered supports with the same nonzero center have equal top-three coefficients iff their pair-product sums u+v agree. Thus h4_centered_power_affine_residue is exactly a same-sum collision among pair products inside a fixed nonzero pair-sum shell.",
+   "refs": [
+    "experimental/notes/roadmaps/x40_h4_centered_pair_shell_reduction.md"
+   ],
+   "notes": "Proved exact reduction plus finite pair-shell evidence through n=256 alpha=2 and n=128 alpha=3. This does not prove shell emptiness uniformly; it turns the centered affine residue into a lower-dimensional h=2 collision target."
   }
  ],
  "edges": [
@@ -6069,6 +6079,11 @@
   },
   {
    "from": "x39_h4_affine_line_normal_form",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x40_h4_centered_pair_shell_reduction",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
