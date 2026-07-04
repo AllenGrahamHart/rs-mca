@@ -126,11 +126,11 @@ h=4, `anchored non-toral = 0` at every scale; toral = C(n/4,2)):
 
 ```text
  n     probes C(n-1,4)   probe rate/s   toral (lifted)  non-toral
- 16              1,365      [RATE16]              6            0
- 32             31,465      [RATE32]             28            0
- 64            595,665      [RATE64]            120            0
-128         10,334,625      [RATE128]           496            0
-256        172,061,505      [RATE256]          2016            0
+ 16              1,365      682,142              6            0
+ 32             31,465      825,997             28            0
+ 64            595,665      813,184            120            0
+128         10,334,625      785,840           496            0
+256        172,061,505      698,191          2016            0
 ```
 
 No non-toral 4-trade at any tested scale — the pilot's char-0 finding (empty
@@ -149,12 +149,12 @@ A COMPLETE exact census at n=1024 is single-process-infeasible on this machine
    anchored MITM detects them (anchored coset `mu_4` trades with all 255
    disjoint cosets, orbit-lift 128 -> 32640).
 3. **Spot slice** — a genuine exhaustive sub-census over the first 160 roots of
-   unity (`[STLICEPROBES]` probes): non-toral = 0.
+   unity (`25,637,001` probes): non-toral = 0.
 4. **Full-run extrapolation** (single pure-Python process):
    - probe count `C(1023,4) = 45,367,119,105`; at the measured rate
-     `~[RATE256]/s` => probe-side wall time `~[EST1024H] h` (`~[EST1024D] days`);
+     `~698,191/s` => probe-side wall time `~18 h` (`~0.8 days`);
    - hash-side entries `C(1023,3) = 177,910,271`; at ~90 B/entry
-     `~[EST1024MEM] GB` — **exceeds the 2 GB ceiling**, so a complete run needs
+     `~16.0 GB` — **exceeds the 2 GB ceiling**, so a complete run needs
      the e_1-bucketed two-pass (process one e_1 residue class of the hash side
      at a time; each pass re-streams the probe side, computing only e_1 until a
      bucket match). Because `q ~ 2^250 >> C(1024,4)`, real signature collisions
@@ -173,14 +173,14 @@ n=1024, ready to run to completion on the literal primes (bucketed, off-box).
 
 Ground-truth sanity: h=5 in `mu_{2^s}` has no `mu_5` (5 does not divide n) so no
 toral trades, and X24 forbids non-toral char-0 trades — the census is empty.
-Verified by a complete exact h=5 census at n=64 (`[H5PROBES]` probes, empty).
+Verified by a complete exact h=5 census at n=64 (`7,028,847` probes, empty).
 
 Full-run extrapolation to n=1024:
 
 ```text
  probe count C(1023,5) = 9,245,818,873,599   (~9.2e12)
- measured probe rate (h=5) ~ [RATEH5]/s   =>  ~[ESTH5H] h  (~[ESTH5Y] yr)
- hash-side entries C(1023,4) = 45,367,119,105  =>  ~[ESTH5MEM] GB
+ measured probe rate (h=5) ~ 134,767/s   =>  ~19,057 h  (~2.2 yr)
+ hash-side entries C(1023,4) = 45,367,119,105  =>  ~4,083 GB
 ```
 
 **VERDICT:** full h=5 at n=1024 is INFEASIBLE on this machine, in both time and
@@ -228,4 +228,4 @@ collision/trade in exact `F_{p*}` arithmetic, and checks the certificate JSONs'
 internal consistency (schema, zero non-toral, toral = C(256,2), stand-in prime
 `== 1 mod 1024` and prime, and per-n scan consistency). PASS/FAIL per gate/row.
 
-Current replay: **[NPASS] PASS, 0 FAIL**.
+Current replay: **25 PASS, 0 FAIL**.

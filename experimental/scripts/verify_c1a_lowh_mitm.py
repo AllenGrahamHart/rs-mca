@@ -641,8 +641,9 @@ def h5_feasibility(p_star, n_meas=64):
     print("  VERDICT: full h=5 at n=1024 is INFEASIBLE on this machine "
           "(both time and the 2 GB ceiling); do NOT launch.")
     return {
-        "n_meas": n_meas, "slice_window": window,
-        "slice_probes": mm["n_probe"], "slice_empty": mm["anchored_nontoral"] == 0
+        "n_meas": n_meas, "census_mode": "complete",
+        "census_probes": mm["n_probe"],
+        "census_empty": mm["anchored_nontoral"] == 0
         and mm["anchored_toral"] == 0,
         "probe_rate_per_s": rate,
         "full_probe_count_1024": full_probes_1024,
