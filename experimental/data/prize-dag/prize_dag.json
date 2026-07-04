@@ -3264,6 +3264,16 @@
     "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
    ],
    "notes": "Generalizes X23 and explains h=5 char-zero emptiness. The remaining terminal residue is finite-p certification/charging of p-specific reductions."
+  },
+  {
+   "id": "x25_h5_prime_window",
+   "title": "X25: h=5 has no finite reductions in n=16,32 full windows",
+   "status": "TEST",
+   "statement": "Exact h=5 same-top-four sweep over the full boundary windows n=16 and n=32: every prime p == 1 mod n with n^2 < p <= n^3 has zero signature collisions. This supports X24's non-power-h emptiness against finite-p reductions at the first odd campaign size.",
+   "refs": [
+    "experimental/notes/roadmaps/x25_h5_prime_window.md"
+   ],
+   "notes": "Finite evidence only. The scan stops at n=32 because full n=64,h=5 all-prime coverage is much heavier; X15 already checks selected n=64 rows through alpha=3."
   }
  ],
  "edges": [
@@ -5839,6 +5849,11 @@
   },
   {
    "from": "x24_char0_dyadic_descent",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x25_h5_prime_window",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

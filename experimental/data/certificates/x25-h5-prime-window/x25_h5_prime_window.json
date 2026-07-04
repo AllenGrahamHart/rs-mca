@@ -1,0 +1,48 @@
+{
+  "checks": 7,
+  "families": [
+    {
+      "collision_rows": [],
+      "elapsed_seconds": 0.5033299922943115,
+      "max_subset_count": 4368,
+      "mode": "all primes n^2 < p <= n^3",
+      "n": 16,
+      "p_max": 4049,
+      "p_min": 257,
+      "prime_count": 61
+    },
+    {
+      "collision_rows": [],
+      "elapsed_seconds": 90.83516526222229,
+      "max_subset_count": 201376,
+      "mode": "all primes n^2 < p <= n^3",
+      "n": 32,
+      "p_max": 32609,
+      "p_min": 1153,
+      "prime_count": 212
+    }
+  ],
+  "node": "active_core_count_bound",
+  "status": "EXACT FINITE EVIDENCE: h=5 has no same-top-four collisions in full n=16,32 boundary windows",
+  "summary": {
+    "families": [
+      {
+        "collision_rows": 0,
+        "max_subset_count": 4368,
+        "n": 16,
+        "p_max": 4049,
+        "p_min": 257,
+        "prime_count": 61
+      },
+      {
+        "collision_rows": 0,
+        "max_subset_count": 201376,
+        "n": 32,
+        "p_max": 32609,
+        "p_min": 1153,
+        "prime_count": 212
+      }
+    ]
+  },
+  "task": "X25 h=5 prime-window sweep"
+}
