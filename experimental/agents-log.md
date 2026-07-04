@@ -30,6 +30,22 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - U2C-PRIME boundary fiber test
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/u2c_prime_boundary_fiber_test.md`,
+  `experimental/scripts/verify_u2c_prime_boundary_fiber_test.py`,
+  `experimental/data/certificates/u2c-prime-boundary-fiber-test/`.
+- **Status:** toy falsifier negative for the X-8 boundary construction.
+- **What is being added:** An exact toy verifier for the boundary-scale
+  zero-sum family showing that X-8 witnesses are old-primitive under `M > t`
+  but repaired-charged under `M >= t`.
+- **How it is useful:** Supports the QA.25 boundary-scale arithmetic repair
+  and narrows the remaining U2-C residual to genuinely primitive blocks beyond
+  this boundary family.
+- **What to do next:** Do not treat this as a proof of U2-C prime
+  completeness; it only closes the named X-8 boundary falsifier.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
