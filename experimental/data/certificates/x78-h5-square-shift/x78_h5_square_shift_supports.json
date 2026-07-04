@@ -1,0 +1,65 @@
+{
+  "algebra_checks": {
+    "constructed_lambda": 17,
+    "converse_square_root_coefficients": [
+      19,
+      23,
+      29,
+      31,
+      37,
+      1
+    ],
+    "delta": 13,
+    "field_p": 101,
+    "midpoint_coefficients": [
+      70,
+      99,
+      56,
+      86,
+      73,
+      1
+    ]
+  },
+  "checks": 18,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x30_finite_p_norm_gate": "PROVED",
+    "x77_h5_norm_gate_reduction": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "sanity_rows": [
+    {
+      "examples": [],
+      "five_subset_count": 4368,
+      "n": 16,
+      "p": 17,
+      "square_lambda_square_shift_supports": 0,
+      "square_shift_supports": 0,
+      "ten_support_count": 8008,
+      "unordered_h5_trade_pairs": 0
+    },
+    {
+      "examples": [],
+      "five_subset_count": 4368,
+      "n": 16,
+      "p": 97,
+      "square_lambda_square_shift_supports": 0,
+      "square_shift_supports": 0,
+      "ten_support_count": 8008,
+      "unordered_h5_trade_pairs": 0
+    },
+    {
+      "examples": [],
+      "five_subset_count": 4368,
+      "n": 16,
+      "p": 257,
+      "square_lambda_square_shift_supports": 0,
+      "square_shift_supports": 0,
+      "ten_support_count": 8008,
+      "unordered_h5_trade_pairs": 0
+    }
+  ],
+  "status": "PROVED H5 ALGEBRAIC COMPRESSION: TRADES BIJECT WITH SQUARE-SHIFT 10-SUPPORTS",
+  "task": "X78 h=5 square-shift support criterion",
+  "theorem": "Over any odd-characteristic field, a disjoint h=5 same-top-four pair (P,Q) is equivalent to the union locator L_{P union Q} admitting a unique monic degree-five S and a square lambda with L_{P union Q}+lambda=S^2.  The square lambda is nonzero for disjoint supports, and the split is unique up to swapping P and Q.  Thus h=5 pair counting may be replaced by counting square-shift 10-supports with nonzero square shift."
+}

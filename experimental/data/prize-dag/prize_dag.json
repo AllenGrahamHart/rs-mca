@@ -3794,6 +3794,16 @@
     "experimental/notes/roadmaps/x77_h5_norm_gate_reduction.md"
    ],
    "notes": "Pins the h=5 branch shape: no descent/paid ambiguity remains; the only possible finite residue is first-level p-specific norm-gate mass, which is empty in the existing exact checked windows."
+  },
+  {
+   "id": "x78_h5_square_shift_supports",
+   "title": "X78: h=5 trades biject with square-shift 10-supports",
+   "status": "PROVED",
+   "statement": "For odd characteristic, a disjoint h=5 same-top-four pair P,Q is equivalent to the union locator L_{P union Q} admitting a unique monic degree-five square shift L_{P union Q}+lambda=S^2 with nonzero square lambda. The split is unique up to swapping sides, so h=5 pair counting compresses to square-shift 10-support counting, with at most a factor 2 for ordered pairs.",
+   "refs": [
+    "experimental/notes/roadmaps/x78_h5_square_shift_supports.md"
+   ],
+   "notes": "Turns the h=5 norm-gate branch into a canonical support test: the candidate square root is forced by the degree 10..5 coefficients, degrees 1..4 are obstruction equations, and there is no partition multiplicity."
   }
  ],
  "edges": [
@@ -7064,6 +7074,16 @@
   },
   {
    "from": "x77_h5_norm_gate_reduction",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x77_h5_norm_gate_reduction",
+   "to": "x78_h5_square_shift_supports",
+   "kind": "req"
+  },
+  {
+   "from": "x78_h5_square_shift_supports",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
