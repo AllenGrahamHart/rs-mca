@@ -3554,6 +3554,16 @@
     "experimental/notes/roadmaps/x53_h4_centered_line_bound_gap.md"
    ],
    "notes": "Prevents a false closure by reusing the h=2 line theorem. The verifier compares X50 thresholds against the general CZ/MV and prime-field GV constants and records the official-scale gap."
+  },
+  {
+   "id": "x54_h4_shell_surplus_norm_gate_bridge",
+   "title": "X54: h=4 centered shell surplus is h=2 norm-gate surplus",
+   "status": "PROVED",
+   "statement": "For every nonzero pair-sum shell S_s of size m_s, each unordered choice of two distinct shell pairs gives a disjoint nonzero h=2 pair-sum collision; by X41 it is non-descended and p-norm-gated. Hence the centered shell-surplus count is exactly sum_{s != 0} C(m_s,2), and by X48/X52 this compresses to n sum_C C(m_C,2).",
+   "refs": [
+    "experimental/notes/roadmaps/x54_h4_shell_surplus_norm_gate_bridge.md"
+   ],
+   "notes": "Quantifies the X41 localization. Any large centered h=4 shell first appears as a quadratic surplus of sparse h=2 norm gates; a quotient shell of size M forces n*C(M,2) such surplus collisions."
   }
  ],
  "edges": [
@@ -6324,6 +6334,31 @@
   },
   {
    "from": "x53_h4_centered_line_bound_gap",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x31_h2_quotient_norm_criterion",
+   "to": "x54_h4_shell_surplus_norm_gate_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "x41_h4_centered_norm_gate",
+   "to": "x54_h4_shell_surplus_norm_gate_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "x48_h4_centered_coset_shell_param",
+   "to": "x54_h4_shell_surplus_norm_gate_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "x52_h4_centered_field_uniformity",
+   "to": "x54_h4_shell_surplus_norm_gate_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "x54_h4_shell_surplus_norm_gate_bridge",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
