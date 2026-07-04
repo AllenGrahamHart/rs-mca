@@ -2556,7 +2556,8 @@
    "falsifier": "a ternary kernel vector of the k-multiplier system that IS a genuine collision (E24 would find it independently)",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated."
   },
   {
    "id": "certifier_uniformity",
@@ -2848,7 +2849,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "E32-MERGED VERDICT (17/17, replayed green): NO identically-vanishing light profile exists at any checked row \u2014 the canonical normal-form matrix has full rank on every budget-meeting light profile (34/91/163 light profiles across three F_17 rows, representing ~4e11 triples by profile class). The profile-forced S9 scenario is REMOVED. Remaining sliver: coordinate-special vanishing (vanishing at special point choices within a full-rank profile) \u2014 a much smaller target, E32-coordinate refinement queued. BONUS CRITERION: sigma >= 3A - n always, so rows with 3A > n + 2k have EMPTY light regime (E27's toy corridor row is one \u2014 its triples are all heavy/boundary); prize rows do have light regimes (3A < n + 2k there). | E32-COORD (#18, 7/7 replayed): ZERO coordinate-special eliminant vanishings across 382,200 exact toy placements \u2014 the sliver is EMPTY in practice; the hypersurface-rationing statement is safe-side slack at toys. Combined with the profile-level emptiness (E32-MERGED), beta-3b's structured branch is empty at every level censused."
+   "notes": "E32-MERGED VERDICT (17/17, replayed green): NO identically-vanishing light profile exists at any checked row \u2014 the canonical normal-form matrix has full rank on every budget-meeting light profile (34/91/163 light profiles across three F_17 rows, representing ~4e11 triples by profile class). The profile-forced S9 scenario is REMOVED. Remaining sliver: coordinate-special vanishing (vanishing at special point choices within a full-rank profile) \u2014 a much smaller target, E32-coordinate refinement queued. BONUS CRITERION: sigma >= 3A - n always, so rows with 3A > n + 2k have EMPTY light regime (E27's toy corridor row is one \u2014 its triples are all heavy/boundary); prize rows do have light regimes (3A < n + 2k there). | E32-COORD (#18, 7/7 replayed): ZERO coordinate-special eliminant vanishings across 382,200 exact toy placements \u2014 the sliver is EMPTY in practice; the hypersurface-rationing statement is safe-side slack at toys. Combined with the profile-level emptiness (E32-MERGED), beta-3b's structured branch is empty at every level censused. | MODAL RUNNING ap-gVR6MjqiBK4vxY9U1ABUZ7 (E32 extended n=9..13). Caveat: prime SAMPLE \u2014 vanishing is p-specific; classify classes, don't overclaim coverage."
   },
   {
    "id": "xr_syzygy_flat_transport",
@@ -3145,7 +3146,7 @@
    "refs": [
     "experimental/notes/roadmaps/f2_moment_trade_census.md"
    ],
-   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch."
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80)."
   },
   {
    "id": "u2c_boundary_scale_column",
@@ -3676,7 +3677,8 @@
    "falsifier": "an active core at h in (7,20] at any calibration row",
    "refs": [
     "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ]
+   ],
+   "notes": "MODAL RUNNING ap-vQcKCgn6xEDBu2mAipdR7u. Caveat: banked MITM census (not the C1b pipeline); window-slice zeros = zero-within-[0,W); incomplete cells flagged not zeroed."
   },
   {
    "id": "midlarge_h20_A",
@@ -3699,7 +3701,8 @@
    "falsifier": "O-value collision rates far above uniform at any calibration row",
    "refs": [
     "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ]
+   ],
+   "notes": "MODAL RUNNING ap-rLAsDplh1N7jQAiy0gmOEE. Referee caveat: X78's h=5 forced-square-root generalized to arbitrary h (gate-validated); calibration primes q~n^2,n^3 stand in for the prize prime \u2014 interpret as shape evidence, not prize-row certification."
   },
   {
    "id": "f1_minimal_field_descent",
@@ -3735,7 +3738,7 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/imgfib.md"
    ],
-   "notes": "UPSTREAM REINFORCEMENT: Vadim's residue bridge classifies full-petal capped kernel sets as quotient-coset OR residue-line data \u2014 the growing-excess census wall may reduce to residue-LINE counting (line arithmetic, not raw enumeration). Re-scope the scan spec before dispatch."
+   "notes": "UPSTREAM REINFORCEMENT: Vadim's residue bridge classifies full-petal capped kernel sets as quotient-coset OR residue-line data \u2014 the growing-excess census wall may reduce to residue-LINE counting (line arithmetic, not raw enumeration). Re-scope the scan spec before dispatch. | MODAL RUNNING ap-zd7RoOmGJ1hyL4MooOBOqg. Caveat: flat-vs-growth threshold is the agent's declared choice \u2014 referee against the banked bridge on return."
   },
   {
    "id": "b2b_dyadic_descent_packet",
