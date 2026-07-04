@@ -3534,6 +3534,16 @@
     "experimental/notes/roadmaps/x51_h4_quotient_shell_window.md"
    ],
    "notes": "Low-memory exact test using (1+r)^n as the quotient-coset representative. The data says X50 has large slack at boundary scale; the shifted-subgroup target likely needs only a coarse O(n^{1/3}) theorem, and observed behavior through n=512 is consistent with bounded shell sizes."
+  },
+  {
+   "id": "x52_h4_centered_field_uniformity",
+   "title": "X52: h=4 centered shell reduction is field-uniform",
+   "status": "PROVED",
+   "statement": "The X48 ratio bijection, X49 quotient-energy accounting, and X50 threshold hold over any field of odd characteristic with an even order-n cyclic subgroup H <= F^*. For finite F_q, quotient cosets are represented by n-th powers because ker(z -> z^n)=H. Thus the centered h=4 branch over general F_q has the same shifted-subgroup concentration target as in prime fields.",
+   "refs": [
+    "experimental/notes/roadmaps/x52_h4_centered_field_uniformity.md"
+   ],
+   "notes": "Removes the prime-field caveat from the centered h=4 packets. The verifier replays the identities in GF(25)/mu8, GF(49)/mu16, and GF(121)/mu24, where the subgroups are not contained in the prime field."
   }
  ],
  "edges": [
@@ -6264,6 +6274,26 @@
   },
   {
    "from": "x51_h4_quotient_shell_window",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x48_h4_centered_coset_shell_param",
+   "to": "x52_h4_centered_field_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "x49_h4_centered_quotient_energy",
+   "to": "x52_h4_centered_field_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "x50_h4_centered_threshold",
+   "to": "x52_h4_centered_field_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "x52_h4_centered_field_uniformity",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
