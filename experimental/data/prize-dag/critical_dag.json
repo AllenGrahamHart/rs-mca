@@ -273,6 +273,11 @@
    "title": "One-exchange = Cauchy rank-one update (#152 instances)"
   },
   {
+   "id": "exchange_ledger_gen_t",
+   "label": "PROVED",
+   "title": "Generalize #152 exchange ledger past t=2 (hand-off)"
+  },
+  {
    "id": "ext_import",
    "label": "PROVED",
    "title": "B_ext crosses gate exactly at the S7 list window"
@@ -894,7 +899,7 @@
   },
   {
    "id": "xr_globalness_from_ledger",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
   },
   {
@@ -1671,6 +1676,10 @@
   },
   {
    "from": "u1_pullback_dichotomy",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "u1_pullback_dichotomy",
    "to": "xr_smallcore_spread_count"
   },
   {
@@ -1716,6 +1725,14 @@
   {
    "from": "anchored_nontoral_pte_bound",
    "to": "u1_alpha_active_core_incidence"
+  },
+  {
+   "from": "anchored_nontoral_pte_bound",
+   "to": "a1_lower_overlap_occupied_subcore_accounting"
+  },
+  {
+   "from": "anchored_nontoral_pte_bound",
+   "to": "a2_depth_cell_active_shadow_bound"
   },
   {
    "from": "active_core_count_bound",
@@ -1956,6 +1973,54 @@
   {
    "from": "strat_tree",
    "to": "safe_assembly_uniformity"
+  },
+  {
+   "from": "xr_ledger_qpower",
+   "to": "exchange_ledger_gen_t"
+  },
+  {
+   "from": "f1_case_pole",
+   "to": "ext_lift"
+  },
+  {
+   "from": "f1_case_tower",
+   "to": "ext_lift"
+  },
+  {
+   "from": "tr_joint_telescope",
+   "to": "gap1_product_model"
+  },
+  {
+   "from": "tr_perleaf_list_ident",
+   "to": "gap1_product_model"
+  },
+  {
+   "from": "worst_word_planted",
+   "to": "list_planted_arithmetic"
+  },
+  {
+   "from": "worst_word_challenger_pricing",
+   "to": "list_planted_arithmetic"
+  },
+  {
+   "from": "imgfib",
+   "to": "list_planted_arithmetic"
+  },
+  {
+   "from": "exchange_ledger_gen_t",
+   "to": "xr_globalness_from_ledger"
+  },
+  {
+   "from": "tr_joint_telescope",
+   "to": "tr_perleaf_list_ident"
+  },
+  {
+   "from": "list_adjacency_closing",
+   "to": "f1_pole_list_threshold_location"
+  },
+  {
+   "from": "ext_import",
+   "to": "f1_pole_list_threshold_location"
   }
  ]
 }

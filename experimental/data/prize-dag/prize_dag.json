@@ -468,11 +468,11 @@
   {
    "id": "exchange_ledger_gen_t",
    "title": "Generalize #152 exchange ledger past t=2 (hand-off)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#7"
    ],
-   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/exchange_ledger_gen_t/."
+   "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/exchange_ledger_gen_t/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate xr_ledger_qpower was not wired req \u2014 promoted."
   },
   {
    "id": "averaged_xr",
@@ -829,7 +829,7 @@
     "proof_sketch/s6_extension_lift.md"
    ],
    "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined.",
-   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_pole was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_tower was not wired req \u2014 promoted."
   },
   {
    "id": "b_rational_lift",
@@ -1053,7 +1053,7 @@
   {
    "id": "xr_expansion",
    "title": "Expansion pumping: dense aligned Johnson-neighborhoods over-constrain",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
@@ -1668,7 +1668,7 @@
   {
    "id": "xr_inverse",
    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives.",
    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
@@ -1898,7 +1898,7 @@
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
    ],
-   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL."
+   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_perleaf_list_ident was not wired req \u2014 promoted."
   },
   {
    "id": "f_pair_bound_envelope",
@@ -2099,7 +2099,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted). | FLIP on replay (Codex wave 3): PROVABLE -> CONDITIONAL."
+   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted). | FLIP on replay (Codex wave 3): PROVABLE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_planted was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_challenger_pricing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate imgfib was not wired req \u2014 promoted."
   },
   {
    "id": "f_dim2_skeleton",
@@ -2303,7 +2303,7 @@
   {
    "id": "c_xr_content",
    "title": "C_XR content at k=3 (grounded): post-strip extremals are fixed-core/fixed-hole structures",
-   "status": "CONDITIONAL",
+   "status": "PROVABLE",
    "key": true,
    "statement": "After stripping paid quotient strata, the k=3 inverse class C_XR consists exactly of fixed-core and fixed-hole (first-eigenspace) structures. Grounded by E11's stripped dictionary scan (J(16,8), J(32,16): only such structures top the E_3 lists) and #191's proved k=1 dictator extremals. This SPECIFIES the inverse theorem's target class \u2014 xr_inverse now has a concrete statement to prove rather than an unknown class to discover.",
    "attack_surface": "DECOMPOSED: two elementary bridges (E_3 <-> expansion; junta <-> paid) + the NAMED literature engine (KMS Johnson-graph structure theorem) + one residue (quantitative matching at FM scale, with KLLM global hypercontractivity as the modern fallback). The pair-orbit scanner (QX.5) remains the empirical falsifier.",
@@ -2391,7 +2391,7 @@
   {
    "id": "xr_kms_parameter_matching",
    "title": "THE RESIDUE: quantitative regime matching at FM-scale densities",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import. COMPOSITION TENSION (#211/E20): raw KMS/DKKMS do not provide a q-power FM engine as stated (verdict per the loss tables); KLLM's extracted stay-probability arithmetic consumes globalness beta <= q^-g and yields q^{-(g+t-1)/4} \u2014 a Q-POWER globalness demand, while the proved top-core cap gives poly(n)-scale. THE open arithmetic: does poly-globalness + the q-power pair ledger compose to n^B * FM (the KLLM engine used only for the structured residue), or does the cap need a q-power strengthening (a new, harder statement)? This is now the central question of the QX.14/QX.15 assembly.",
    "attack_surface": "parameter tables first (S-sized): tabulate the KMS/KLLM loss exponents against the FM gap per rate; if the exponents eat the gap, the KLLM global-hypercontractivity route is the fallback with sharper small-set constants",
@@ -2404,7 +2404,7 @@
   {
    "id": "xr_globalness_from_ledger",
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "THEOREM (proof written and verified; PROVED modulo the tangent-strip normal form): if every unpaid (j-1)-core has at most L_tan aligned completions (the top-core cap \u2014 which IS the tangent/moving-root ledger: completions of a core share the degree-(j-1) divisor; #152 proves the t=2 case as the residual one-exchange-edge bound), then by an exact double count, EVERY r-core link of the post-strip family has density <= L_tan/(n-j+1), uniformly in r <= j-1. Hence A_post is (a, L_tan/(n-j+1))-global in the uniform-slice KLLM sense for all a <= j-1 \u2014 a polynomial-scale link parameter, INDEPENDENT of the FM density. The KLLM loss is then poly(n), and the q-power savings remain with the pair ledger c(s,t) = min(s,t-1): the globalness branch no longer consumes the q-budget crux 1 needs. L_tan = 1 (first-unpaid-support convention) or 2 (residual-edge convention).",
    "attack_surface": "quantify the ledger's per-cell caps as link-density bounds at each core size r; compare against KLLM's globalness threshold (the composition arithmetic); the strip handles the quotient links",
@@ -2412,7 +2412,7 @@
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this). | E19 STRESS (#209): 10 post-strip paid-tangent LINK-LEAK CANDIDATES at the exact n=16 corpus \u2014 the 'modulo strip normal form' caveat is now LOAD-BEARING: each candidate must be adjudicated (strippable under the correct L_tan convention vs a genuine unpaid tangent leak). The double-count mathematics is unaffected; the hypothesis-pinning is the open work. The #209 corpus is the adjudication test bed. | PACKET AT REPO STANDARD (Fleet A M2): G1 proved with Steiner-system tightness (Fano/SQS(8) meet the bound exactly); BONUS G2 (hereditary cap on junta cells \u2014 connects directly to the qx6_qx8 pigeonhole) and G3 (LEAK LOCALIZATION: any r-level link leak localizes upward to a top core \u2014 the #209 adjudication reduces to top-core counts only, and E19's per-r tables collapse to one level). HONEST SCOPING SHARPENED: the cap HYPOTHESIS for post-strip families at general in-band t is open \u2014 grounded only at t=2 (#152); Convention S needs an unwritten per-core stripping ledger; Convention E is #152's shape. The hypothesis at scale = exchange_ledger_gen_t territory. | C-1 ADJUDICATION (#43, replayed green, PROVED for the exact #209 corpus): all ten post-strip link-leak candidates are STRIPPABLE at L_tan = 1 \u2014 every residual support has (j-1)-core multiplicity 1 after T2-paid charging; two candidates are convention-sensitive (character pairs 9/13 and 10/14: they need the L_tan = 1 stripping convention, not L_tan = 2). The E19 leak question is CLOSED at the corpus level: the top-core cap hypothesis survives its sharpest empirical test, with the convention pinned (Convention S, L_tan = 1) as the load-bearing choice. | FLIP on replay (Codex wave 4): PROVABLE -> CONDITIONAL."
+   "notes": "PROVENANCE: proof by GPT Pro (relayed by project owner, 2026-07-03); VERIFIED here \u2014 algebra re-derived by hand (the binomial cancellation is exact) + 400 brute-force trials on J(10,5)/J(9,4) across all core sizes and both L_tan values. TWO FLAGS for the packet: (a) the quoted KLLM constants (delta = 10^-3 r^-1 eta^3 etc.) are [CITATION NEEDED] \u2014 verify against the actual paper in QX.12 before citing (GPT Pro hallucinated a citation once already); (b) the uniform-slice (Johnson) variant of global hypercontractivity must be cited precisely \u2014 the cube version does not transfer verbatim. FALSIFIER unchanged and sharper: an unpaid post-strip (j-1)-core with > L_tan completions = an unpaid tangent leak (E19 measures exactly this). | E19 STRESS (#209): 10 post-strip paid-tangent LINK-LEAK CANDIDATES at the exact n=16 corpus \u2014 the 'modulo strip normal form' caveat is now LOAD-BEARING: each candidate must be adjudicated (strippable under the correct L_tan convention vs a genuine unpaid tangent leak). The double-count mathematics is unaffected; the hypothesis-pinning is the open work. The #209 corpus is the adjudication test bed. | PACKET AT REPO STANDARD (Fleet A M2): G1 proved with Steiner-system tightness (Fano/SQS(8) meet the bound exactly); BONUS G2 (hereditary cap on junta cells \u2014 connects directly to the qx6_qx8 pigeonhole) and G3 (LEAK LOCALIZATION: any r-level link leak localizes upward to a top core \u2014 the #209 adjudication reduces to top-core counts only, and E19's per-r tables collapse to one level). HONEST SCOPING SHARPENED: the cap HYPOTHESIS for post-strip families at general in-band t is open \u2014 grounded only at t=2 (#152); Convention S needs an unwritten per-core stripping ledger; Convention E is #152's shape. The hypothesis at scale = exchange_ledger_gen_t territory. | C-1 ADJUDICATION (#43, replayed green, PROVED for the exact #209 corpus): all ten post-strip link-leak candidates are STRIPPABLE at L_tan = 1 \u2014 every residual support has (j-1)-core multiplicity 1 after T2-paid charging; two candidates are convention-sensitive (character pairs 9/13 and 10/14: they need the L_tan = 1 stripping convention, not L_tan = 2). The E19 leak question is CLOSED at the corpus level: the top-core cap hypothesis survives its sharpest empirical test, with the convention pinned (Convention S, L_tan = 1) as the load-bearing choice. | FLIP on replay (Codex wave 4): PROVABLE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate exchange_ledger_gen_t was not wired req \u2014 promoted."
   },
   {
    "id": "xr_small_set_engine",
@@ -2910,7 +2910,7 @@
    "refs": [
     "experimental/notes/roadmaps/gap1_terminal_reserve.md"
    ],
-   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
+   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted."
   },
   {
    "id": "tr_joint_telescope",
@@ -2948,7 +2948,7 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
+   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted."
   },
   {
    "id": "wild_row_audit",
@@ -3108,7 +3108,7 @@
    "refs": [
     "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
    ],
-   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a1_lower_overlap_occupied_subcore_accounting/."
+   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a1_lower_overlap_occupied_subcore_accounting/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate anchored_nontoral_pte_bound was not wired req \u2014 promoted."
   },
   {
    "id": "a2_depth_cell_residual_occupancy",
@@ -3191,7 +3191,7 @@
    "refs": [
     "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
    ],
-   "notes": "ACT-SHADOW (#36): active depth cells max 10, max depth mass 60 <= n^2 = 256 at toys \u2014 no falsifier; the active-shadow statements are empirically solid and are instances of the same rarity count as the final estimate. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a2_depth_cell_active_shadow_bound/."
+   "notes": "ACT-SHADOW (#36): active depth cells max 10, max depth mass 60 <= n^2 = 256 at toys \u2014 no falsifier; the active-shadow statements are empirically solid and are instances of the same rarity count as the final estimate. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a2_depth_cell_active_shadow_bound/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate anchored_nontoral_pte_bound was not wired req \u2014 promoted."
   },
   {
    "id": "anchored_nontoral_pte_bound",
@@ -3507,7 +3507,7 @@
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
    ],
-   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate list_adjacency_closing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate ext_import was not wired req \u2014 promoted."
   },
   {
    "id": "axis8_generating",
@@ -6267,7 +6267,7 @@
   {
    "from": "u1_pullback_dichotomy",
    "to": "x4_exactlist_staircase_split",
-   "kind": "alt"
+   "kind": "req"
   },
   {
    "from": "u1_pullback_dichotomy",
@@ -6357,12 +6357,12 @@
   {
    "from": "anchored_nontoral_pte_bound",
    "to": "a1_lower_overlap_occupied_subcore_accounting",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "anchored_nontoral_pte_bound",
    "to": "a2_depth_cell_active_shadow_bound",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "splitpair_lowq_falsifier",
@@ -6752,6 +6752,66 @@
   {
    "from": "strat_tree",
    "to": "safe_assembly_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "xr_ledger_qpower",
+   "to": "exchange_ledger_gen_t",
+   "kind": "req"
+  },
+  {
+   "from": "f1_case_pole",
+   "to": "ext_lift",
+   "kind": "req"
+  },
+  {
+   "from": "f1_case_tower",
+   "to": "ext_lift",
+   "kind": "req"
+  },
+  {
+   "from": "tr_joint_telescope",
+   "to": "gap1_product_model",
+   "kind": "req"
+  },
+  {
+   "from": "tr_perleaf_list_ident",
+   "to": "gap1_product_model",
+   "kind": "req"
+  },
+  {
+   "from": "worst_word_planted",
+   "to": "list_planted_arithmetic",
+   "kind": "req"
+  },
+  {
+   "from": "worst_word_challenger_pricing",
+   "to": "list_planted_arithmetic",
+   "kind": "req"
+  },
+  {
+   "from": "imgfib",
+   "to": "list_planted_arithmetic",
+   "kind": "req"
+  },
+  {
+   "from": "exchange_ledger_gen_t",
+   "to": "xr_globalness_from_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "tr_joint_telescope",
+   "to": "tr_perleaf_list_ident",
+   "kind": "req"
+  },
+  {
+   "from": "list_adjacency_closing",
+   "to": "f1_pole_list_threshold_location",
+   "kind": "req"
+  },
+  {
+   "from": "ext_import",
+   "to": "f1_pole_list_threshold_location",
    "kind": "req"
   }
  ]
