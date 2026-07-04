@@ -1,0 +1,229 @@
+{
+  "checks": 49,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "pte_h2_rung": "PROVED",
+    "x48_h4_centered_coset_shell_param": "PROVED",
+    "x54_h4_shell_surplus_norm_gate_bridge": "PROVED",
+    "x55_h4_surplus_threshold_bridge": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "anchored_barrier_margin": 180,
+      "anchored_nonzero_h2_surplus": 84,
+      "anchored_x55_barrier": 264,
+      "currency_identity": "4*N_surplus = n*A_anchor_surplus",
+      "exact_threshold": 11,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "max_shell_size": 7,
+      "n": 16,
+      "p": 17,
+      "quotient_quadratic_surplus": 21,
+      "unanchored_shell_surplus": 336,
+      "unanchored_x55_barrier": 1056
+    },
+    {
+      "anchored_barrier_margin": -44,
+      "anchored_nonzero_h2_surplus": 588,
+      "anchored_x55_barrier": 544,
+      "currency_identity": "4*N_surplus = n*A_anchor_surplus",
+      "exact_threshold": 16,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "max_shell_size": 12,
+      "n": 64,
+      "p": 193,
+      "quotient_quadratic_surplus": 147,
+      "unanchored_shell_surplus": 9408,
+      "unanchored_x55_barrier": 8704
+    },
+    {
+      "anchored_barrier_margin": 440,
+      "anchored_nonzero_h2_surplus": 104,
+      "anchored_x55_barrier": 544,
+      "currency_identity": "4*N_surplus = n*A_anchor_surplus",
+      "exact_threshold": 16,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "max_shell_size": 6,
+      "n": 64,
+      "p": 7937,
+      "quotient_quadratic_surplus": 26,
+      "unanchored_shell_surplus": 1664,
+      "unanchored_x55_barrier": 8704
+    },
+    {
+      "anchored_barrier_margin": 780,
+      "anchored_nonzero_h2_surplus": 60,
+      "anchored_x55_barrier": 840,
+      "currency_identity": "4*N_surplus = n*A_anchor_surplus",
+      "exact_threshold": 20,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "max_shell_size": 3,
+      "n": 128,
+      "p": 17921,
+      "quotient_quadratic_surplus": 15,
+      "unanchored_shell_surplus": 1920,
+      "unanchored_x55_barrier": 26880
+    },
+    {
+      "anchored_barrier_margin": 1188,
+      "anchored_nonzero_h2_surplus": 112,
+      "anchored_x55_barrier": 1300,
+      "currency_identity": "4*N_surplus = n*A_anchor_surplus",
+      "exact_threshold": 25,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "max_shell_size": 5,
+      "n": 256,
+      "p": 91393,
+      "quotient_quadratic_surplus": 28,
+      "unanchored_shell_surplus": 7168,
+      "unanchored_x55_barrier": 83200
+    }
+  ],
+  "scale_table": [
+    {
+      "anchored_x55_barrier": 264,
+      "exact_threshold": 11,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 226492416,
+        "cubed_right": 18399744,
+        "holds": true
+      },
+      "n": 16,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 8388608,
+        "cubed_right": 18399744,
+        "holds": false
+      }
+    },
+    {
+      "anchored_x55_barrier": 364,
+      "exact_threshold": 13,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 7247757312,
+        "cubed_right": 48228544,
+        "holds": true
+      },
+      "n": 32,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 268435456,
+        "cubed_right": 48228544,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 544,
+      "exact_threshold": 16,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 231928233984,
+        "cubed_right": 160989184,
+        "holds": true
+      },
+      "n": 64,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 8589934592,
+        "cubed_right": 160989184,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 840,
+      "exact_threshold": 20,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 7421703487488,
+        "cubed_right": 592704000,
+        "holds": true
+      },
+      "n": 128,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 274877906944,
+        "cubed_right": 592704000,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 1300,
+      "exact_threshold": 25,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 237494511599616,
+        "cubed_right": 2197000000,
+        "holds": true
+      },
+      "n": 256,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 8796093022208,
+        "cubed_right": 2197000000,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 2964,
+      "exact_threshold": 38,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 243194379878006784,
+        "cubed_right": 26039617344,
+        "holds": true
+      },
+      "n": 1024,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 9007199254740992,
+        "cubed_right": 26039617344,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 276024,
+      "exact_threshold": 371,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 273812529649297550723287892361216,
+        "cubed_right": 21030061148941824,
+        "holds": true
+      },
+      "n": 1048576,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 10141204801825835211973625643008,
+        "cubed_right": 21030061148941824,
+        "holds": true
+      }
+    },
+    {
+      "anchored_x55_barrier": 4467298764,
+      "exact_threshold": 47261,
+      "general_h2_bound_comparison": {
+        "comparison": "6*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 11107155761918140784546041982262115908633467093026664077603110912,
+        "cubed_right": 89152801449536946707134167744,
+        "holds": true
+      },
+      "n": 2199023255552,
+      "prime_h2_bound_comparison": {
+        "comparison": "2*n^(5/3) > 4*C(T+1,2)",
+        "cubed_left": 411376139330301510538742295639337626245683966408394965837152256,
+        "cubed_right": 89152801449536946707134167744,
+        "holds": true
+      }
+    }
+  ],
+  "status": "PROVED EXACT CURRENCY CONVERSION",
+  "task": "X56 h=2 anchored surplus currency",
+  "theorem": "For each anchored nonzero h=2 source pair {1,a}, the number of disjoint target pairs is m_{1+a}-1.  X48 gives exactly 2*m_C ratios a with 1+a in a quotient coset C, so the anchored surplus is sum_C 2*m_C*(m_C-1) = 4*sum_C C(m_C,2).  X54 gives N_surplus = n*sum_C C(m_C,2), hence 4*N_surplus = n*A_anchor_surplus.  Therefore X55 is equivalent in anchored currency to A_anchor_surplus < 4*C(T(n)+1,2)."
+}

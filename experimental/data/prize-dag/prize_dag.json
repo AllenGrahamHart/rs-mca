@@ -3574,6 +3574,16 @@
     "experimental/notes/roadmaps/x55_h4_surplus_threshold_bridge.md"
    ],
    "notes": "Converts the centered h=4 shell maximum target into one aggregate h=2 norm-gate surplus target. The verifier replays X54 rows, records a stress row where the sufficient barrier is not necessary, and checks exactly that the 6*n^(5/3) total-surplus scale lies below the barrier on every X50 threshold-table row, including n=2^41."
+  },
+  {
+   "id": "x56_h2_anchored_surplus_currency",
+   "title": "X56: h=2 anchored surplus is exactly 4/n of h=4 shell surplus",
+   "status": "PROVED",
+   "statement": "Define A_anchor_surplus as the anchored nonzero h=2 surplus count of triples (a,{b,c}) with 1+a=b+c and {b,c} disjoint from {1,a}. X48 gives A_anchor_surplus = 4 sum_C C(m_C,2), while X54 gives N_surplus = n sum_C C(m_C,2). Hence 4 N_surplus = n A_anchor_surplus, and X55 is equivalently the anchored target A_anchor_surplus < 4*C(T(n)+1,2).",
+   "refs": [
+    "experimental/notes/roadmaps/x56_h2_anchored_surplus_currency.md"
+   ],
+   "notes": "Removes the anchored/unanchored convention ambiguity around the h=2 rung. The verifier shows exactly why the existing A_2^nt <= 6*n^(5/3) line-bound total is still too weak for X55's anchored surplus target, which is O(n^(2/3)); the remaining input must be p-specific norm-gate surplus exclusion or stronger distribution, not the standard fixed-line theorem."
   }
  ],
  "edges": [
@@ -6384,6 +6394,31 @@
   },
   {
    "from": "x55_h4_surplus_threshold_bridge",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "pte_h2_rung",
+   "to": "x56_h2_anchored_surplus_currency",
+   "kind": "req"
+  },
+  {
+   "from": "x48_h4_centered_coset_shell_param",
+   "to": "x56_h2_anchored_surplus_currency",
+   "kind": "req"
+  },
+  {
+   "from": "x54_h4_shell_surplus_norm_gate_bridge",
+   "to": "x56_h2_anchored_surplus_currency",
+   "kind": "req"
+  },
+  {
+   "from": "x55_h4_surplus_threshold_bridge",
+   "to": "x56_h2_anchored_surplus_currency",
+   "kind": "req"
+  },
+  {
+   "from": "x56_h2_anchored_surplus_currency",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
