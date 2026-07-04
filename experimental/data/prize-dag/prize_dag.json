@@ -3334,6 +3334,16 @@
     "experimental/notes/roadmaps/x31_h2_quotient_norm_criterion.md"
    ],
    "notes": "Specializes X30 to the quotient h=2 layer used by X26-X29. It proves that the h=4 paid quotient exception column decomposes as zero-sum baseline plus sparse norm gates, with no hidden third mechanism in the quotient layer."
+  },
+  {
+   "id": "x32_h4_terminal_dichotomy",
+   "title": "X32: h=4 residue is paid quotient branch or top-level sparse norm gate",
+   "status": "PROVED",
+   "statement": "For n=2^s over odd characteristic, every disjoint h=4 top-three trade in mu_n satisfies the following dichotomy. If the first-sum word is Phi_n-descended, then the supports are antipodal unions and X29/X31 identify the branch as the paid mu_4 baseline plus quotient h=2 sparse norm-gate extras. If it is not Phi_n-descended, then X30 forces p | Res(Phi_n,f) for the top-level 8-sparse first-sum word. Thus the only h=4 residue outside the paid antipodal quotient ledger is the explicit top-level 8-sparse norm-gate branch.",
+   "refs": [
+    "experimental/notes/roadmaps/x32_h4_terminal_dichotomy.md"
+   ],
+   "notes": "Packages X29-X31 in terminal-node currency. It does not bound the top-level non-antipodal norm-gate branch; it names that branch as the precise remaining h=4 obstruction and verifies representative baseline, quotient-extra, and top-level norm-gate examples."
   }
  ],
  "edges": [
@@ -5944,6 +5954,11 @@
   },
   {
    "from": "x31_h2_quotient_norm_criterion",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x32_h4_terminal_dichotomy",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
