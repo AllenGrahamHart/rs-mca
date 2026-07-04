@@ -3354,6 +3354,16 @@
     "experimental/notes/roadmaps/x33_h4_common_gcd_gate.md"
    ],
    "notes": "Strengthens X32's top-level norm-gate residue into the exact row-local checker using all h=4 equations. The packet proves the checker and supplies small-row evidence; it does not provide the compressed official-row pattern list."
+  },
+  {
+   "id": "x34_h4_staged_gcd_anatomy",
+   "title": "X34: h=4 top-level common-gcd obstruction dies in stages",
+   "status": "TEST",
+   "statement": "Staged anatomy for the X33 h=4 common-gcd gate. In representative rows F257/mu16 and F4993/mu32, G1=gcd(Phi_n,E1) is positive on every selected top-level first-sum pair; adding E2 kills 704/712 and 19848/19860 candidates respectively; adding E3 kills the remaining 8 and 12, leaving zero top-level h=4 survivors. This suggests the proof route: prove a generic E2 kill for non-antipodal top-level gates, then classify the small G12-positive tail with E3.",
+   "refs": [
+    "experimental/notes/roadmaps/x34_h4_staged_gcd_anatomy.md"
+   ],
+   "notes": "Finite evidence and proof-target anatomy only. It does not prove the general E2-kill theorem."
   }
  ],
  "edges": [
@@ -5974,6 +5984,11 @@
   },
   {
    "from": "x33_h4_common_gcd_gate",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x34_h4_staged_gcd_anatomy",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
