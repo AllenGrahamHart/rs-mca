@@ -3594,6 +3594,16 @@
     "experimental/notes/roadmaps/x57_h4_surplus_boundary_window.md"
    ],
    "notes": "Strengthens X51's boundary evidence from max-shell control to the aggregate surplus inequality that X55/X56 identify as the real centered h=4 target. The census is low-memory quotient-shell arithmetic, not h=4 support enumeration."
+  },
+  {
+   "id": "x58_h4_reduced_additive_energy",
+   "title": "X58: h=4 centered surplus is reduced shifted additive energy",
+   "status": "PROVED",
+   "statement": "Let I count triples (a,b,c) in H^3 with a not in {1,-1} and 1+a=b+c, and let D count anchors with diagonal target (1+a)/2 in H. Then the X56 anchored surplus is exactly A_anchor_surplus = (I - D - 2(n-2))/2. Thus the X55/X56 target is the reduced additive-energy inequality I - D - 2(n-2) < 8*C(T(n)+1,2).",
+   "refs": [
+    "experimental/notes/roadmaps/x58_h4_reduced_additive_energy.md"
+   ],
+   "notes": "Removes the last h=4 support language from the centered-surplus target: after subtracting the forced ordered source-pair copies and diagonal targets, the remaining shifted incidence 1+a=b+c is exactly the surplus to bound."
   }
  ],
  "edges": [
@@ -6449,6 +6459,16 @@
   },
   {
    "from": "x57_h4_surplus_boundary_window",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x56_h2_anchored_surplus_currency",
+   "to": "x58_h4_reduced_additive_energy",
+   "kind": "req"
+  },
+  {
+   "from": "x58_h4_reduced_additive_energy",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
