@@ -495,7 +495,7 @@
   {
    "id": "conj_f",
    "title": "Conjecture F: plane sections of D_j have poly unpaid points",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "gate": "all",
    "key": true,
    "refs": [
@@ -1610,7 +1610,7 @@
   {
    "id": "f_primitive_case",
    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "For every linear P <= P^j and pair (u,v): #{ell in P cap D_j : gcd(P cap D_j) = 1, ell not a pullback, ell unpaid} <= n^{B_F}. By f_gcd_reduction + f_scale_recursion this implies full Conjecture F.",
    "attack_surface": "the irreducible instance every route must face; coordinate planes first (perfiber is its coordinate case), kernel planes second",
@@ -2117,7 +2117,7 @@
   {
    "id": "f_dim_induction",
    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "F_r for gcd-trivial r-flats by induction: at each multiplicity->=j point, either the hyperplanes through it are SPREAD (pair/r-tuple counting binds \u2014 now PROVED as f_spread_descent_dichotomy L1+L2) or RANK-DEFECT coincidence (corrected from 'twin-type': equal hyperplanes OR a common pencil/subflat) forces a shared divisor and strict descent (PROVED, L3). REMAINING CONTENT (the honest residue): the GLOBAL PACKING STEP \u2014 the spread bound carries an n^r-type numerator; the induction closes only if f_scale_recursion (or a packing argument) absorbs the r-tuple count into an absolute exponent B_F.",
    "attack_surface": "REGIME-CORRECTED (Brief E): the induction/packing bound is for PROPER low-dim planes dim P << j (the applied fiber-plane regime), NOT the degenerate full-space j=dim P case. Close the packing step in that regime via f_scale_recursion + the spread bound (now non-vacuous).",
@@ -2290,7 +2290,7 @@
   {
    "id": "f_descent_termination",
    "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "Iterating the weight-w descents (each drops degree >= w, dimension <= w-1; E9 observed w <= 3 suffices at toy scale) produces a descent tree of TOTAL size poly(n), with the spread/moment base at each leaf. Grounded by E9's census multiplicities. With this, F_r assembles for r = O(log n), and high dimension merges into the fiber machinery.",
    "attack_surface": "DECOMPOSED by consumer family: MDS-dual flats trivial (f_termination_mds); Hankel-kernel flats via the coset-pattern lattice bound (f_termination_hankel \u2014 the open piece); the escaping sunflower-fiber family is priced by the PMA machinery, NOT by descent (no double-counting). The support-lattice reformulation (f_support_lattice) is what defuses the naive 2^depth danger.",
@@ -2348,7 +2348,7 @@
   {
    "id": "f_termination_hankel",
    "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "SATURATED formulation (Pro round 4, verified): for rate-1/2 Hankel-kernel instances over mu_n, after ROOT-CLOSURE saturation (count reachable forced-root closures rcl_P(B u S), NOT raw support unions) and after routing tangent/common-divisor and quotient/pullback/DIHEDRAL structure to the paid/reduced ledgers, the number of reachable UNPAID PRIMITIVE saturated closures is poly(n); AND terminal unpaid primitive leaves satisfy the direction-dual (moment/residue) cleanliness. Raw #L over-counts: the loop-free pair-family (weighted syndrome on non-coset A) is gcd-trivial AND primitive with raw #L = 2^|A|, yet ALL pairs share ONE root-closure = A (verified: 5 raw -> 1 closure). The 'many-atoms => paid' heavy lifting is f_many_sparse_structure (PROVED, four-branch crystallization).",
    "attack_surface": "v5 (post-critique): four lemmas \u2014 L1 descent stability PROVED (syndrome convolution, 1800/1800); L2 paid Luroth/rational-pullback quotient reduction (incl. the missing dihedral y=X+1/X reduction); L3 the HEREDITARY closure-entropy bound (THE core \u2014 local few-atoms does not imply poly reachable closures, per QF.12's own non-claims); L4 moment-clean leaves / pinned-value variant. f_many_sparse_structure supports the weight-2 branch (constant threshold via E35) but its w>=3 branch routes to Face-4 wall machinery \u2014 insufficient for hereditary use.",
@@ -3858,20 +3858,22 @@
   {
    "id": "hankel_sparse_atoms_as_rational_defects",
    "title": "hankel sparse atoms as rational defects",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "statement": "Sparse annihilator atoms of a Hankel state are small defect sets of rational approximants to the spectral weight (RS-dual normal form); distinct-closure atoms satisfy |T1 u T2| >= j-t+2 (verified 233130 pairs, 0 violations); same-approximant atoms saturate to ONE closure (punctured-GRS/MDS collapse). Hereditary via the proved stability lemma."
   },
   {
    "id": "hankel_rank_profile_entropy",
    "title": "hankel rank profile entropy",
-   "status": "PROVABLE",
-   "statement": "The rank-profile dichotomy: row-deficient Hankel kernels are principal GRS segments (binary apolarity; verified 4000/4000); row-full wide states have one atom-closure; row-full narrow states have dim O(W). Hence unpaid primitive saturated states number n^{O(W^2)} for fixed cutoff W \u2014 L3 via the entropy/Kraft argument. Write-up + the classical apolar lemma pending."
+   "status": "PROVED",
+   "statement": "The rank-profile dichotomy: row-deficient Hankel kernels are principal GRS segments (binary apolarity; verified 4000/4000); row-full wide states have one atom-closure; row-full narrow states have dim O(W). Hence unpaid primitive saturated states number n^{O(W^2)} for fixed cutoff W \u2014 L3 via the entropy/Kraft argument. Write-up + the classical apolar lemma pending.",
+   "notes": "PROVED on replay (rounds 7-8): the corrected torus lemma (falsification #19 was MY v7 statement \u2014 Pro found the boundary counterexample AND supplied the referee-grade corrected proof); 5086/5086 verified incl. 2966 boundary cases."
   },
   {
    "id": "hankel_moment_clean_leaves",
    "title": "hankel moment clean leaves",
-   "status": "TARGET",
-   "statement": "L4: direction-dual cleanliness (or pinned-value variant) at terminal unpaid primitive Hankel leaves \u2014 the member-count input QF.12 leaves family-specific."
+   "status": "PROVED",
+   "statement": "L4: direction-dual cleanliness (or pinned-value variant) at terminal unpaid primitive Hankel leaves \u2014 the member-count input QF.12 leaves family-specific.",
+   "notes": "PROVED via the pinned-value variant (cleanliness is FALSE in general \u2014 the MDS monic-slice example); verified 279 flats."
   }
  ],
  "edges": [

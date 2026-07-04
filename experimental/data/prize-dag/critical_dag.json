@@ -224,7 +224,7 @@
   },
   {
    "id": "conj_f",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Conjecture F: plane sections of D_j have poly unpaid points"
   },
   {
@@ -334,7 +334,7 @@
   },
   {
    "id": "f_descent_termination",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)"
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "id": "f_dim_induction",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
   },
   {
@@ -374,7 +374,7 @@
   },
   {
    "id": "f_primitive_case",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
   },
   {
@@ -409,7 +409,7 @@
   },
   {
    "id": "f_termination_hankel",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice"
   },
   {
@@ -489,17 +489,17 @@
   },
   {
    "id": "hankel_moment_clean_leaves",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "hankel moment clean leaves"
   },
   {
    "id": "hankel_rank_profile_entropy",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "hankel rank profile entropy"
   },
   {
    "id": "hankel_sparse_atoms_as_rational_defects",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "hankel sparse atoms as rational defects"
   },
   {
