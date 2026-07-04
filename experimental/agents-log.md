@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-04 - E32 stagnation and coordinate-sliver evidence
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/notes/roadmaps/e32_merged_stagnation_exception_census.md`,
+  `experimental/notes/roadmaps/e32_coordinate_sliver.md`,
+  `experimental/scripts/verify_e32_merged_census.py`,
+  `experimental/scripts/verify_e32_coordinate_sliver.py`,
+  `experimental/data/certificates/e32-merged-census/`,
+  `experimental/data/certificates/e32-coordinate-sliver/`.
+- **Status:** EVIDENCE / AUDIT.
+- **What is being added:** The E32 profile-exact stagnation/exception census
+  and the coordinate-level sliver audit for light-triangle eliminant
+  vanishing.
+- **How it is useful:** Removes the profile-forced S9 scenario at the checked
+  rows and records that no coordinate-special eliminant defects appear in the
+  exact `n=8` toy audits.
+- **What to do next:** Treat this as evidence only; the global
+  hypersurface-rationing and face-3 classification statements still need their
+  proof packets.
+
 ### 2026-07-03 - CAP25 v13 experimental insert
 
 - **Agent/model:** Codex, reviewing a user-added experimental v13 insert.
