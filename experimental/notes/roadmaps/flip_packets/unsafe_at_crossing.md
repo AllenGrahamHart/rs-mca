@@ -3,10 +3,10 @@
 - **Node:** `unsafe_at_crossing`
 - **Current critical label:** UNPROVED
 - **Verdict:** DEFECT
-- **Referee summary:** the node's statement names two proof branches, but the
-  DAG gives it no req children. The missing branch dependencies are already
-  node-shaped elsewhere, so this is a wiring defect rather than a clean
-  TRUE-RED mathematical singleton.
+- **Referee summary:** the collided averaged-conversion branch is now wired,
+  but the collision-free qfloor/value-set branch remains prose-only. The
+  remaining issue is still a wiring defect rather than a clean TRUE-RED
+  mathematical singleton.
 
 ## Statement
 
@@ -14,9 +14,12 @@
 
 ## Req Children
 
-There are no live req children.
+| child | live status | critical label | role |
+|---|---:|---:|---|
+| `averaged_slope_conversion` | CONJECTURE | CONDITIONAL | Supplies the collided averaged fiber-to-slope conversion branch. |
 
-That is the defect. The statement itself cites branch hypotheses:
+That is only a partial repair. The statement itself cites two branch
+hypotheses:
 
 - collision-free branch: the qfloor/value-set family;
 - collided branch: averaged fiber-to-slope conversion.
@@ -27,7 +30,8 @@ unsafe witness at the adjacent point.
 ## Referee Argument
 
 This packet does not recommend `TRUE RED` because the local content has not
-been isolated as a single open theorem. The route note
+been isolated as a single open theorem. The live graph now wires the collided
+branch, but it still leaves the collision-free branch in prose. The route note
 `q3r5_three_rate_dossier_skeleton.md` already records open slots for the
 branch inputs:
 
@@ -38,16 +42,16 @@ UNSAFE-2  Witnesses at the adjacent point. Collision-free branch: the
           [OPEN SLOT -> DAG: unsafe_at_crossing].
 ```
 
-The live graph therefore hides dependencies in prose. A referee cannot check
-whether `unsafe_at_crossing` follows from its children because there are no
-children.
+The live graph therefore still hides a dependency in prose. A referee cannot
+check whether `unsafe_at_crossing` follows from its children while the
+collision-free witness node is not a req child.
 
 The precise fix is to choose one of two shapes:
 
-1. Keep `unsafe_at_crossing` as an assembly node and wire req edges from the
-   branch predicates it consumes, at least `averaged_slope_conversion` and the
-   appropriate value-set/lower-bound certificate node for the collision-free
-   branch.
+1. Keep `unsafe_at_crossing` as an assembly node and wire the missing req edge
+   from the appropriate collision-free qfloor/value-set certificate node
+   (`qfloor_exact` if that is intended to carry the branch, otherwise the
+   row-specific witness certificate).
 2. Rewrite it as a primitive target with no branch clauses, e.g. "construct
    adjacent-grid unsafe witnesses for every admissible row." Under that rewrite
    the node should be TRUE RED until the construction is proved.

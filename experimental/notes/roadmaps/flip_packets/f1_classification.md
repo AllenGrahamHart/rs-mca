@@ -18,7 +18,7 @@
 |---|---:|---:|---|
 | `b_rational_lift` | PROVED | PROVED | Prices/rules out the B-rational pencil case by linearity. |
 | `f1_case_pole` | CONDITIONAL | CONDITIONAL | Prices pole-type slopes by the imported list term. |
-| `f1_case_tower` | TARGET | UNPROVED | Prices intermediate-subfield tower recursion if such rows are live. |
+| `f1_case_tower` | TARGET | UNPROVED | Prices intermediate-subfield tower recursion. |
 
 ## Referee Argument
 
@@ -51,9 +51,9 @@ Prove a Galois-descent classification for the alignment pencil:
    extension-pole/list import or are confined to an intermediate field;
 4. rule out a genuinely F-valued, non-pole, non-confined residual class.
 
-The tower subcase may become moot if the official admissible family excludes
-non-generating rows, but that would only delete case (iii); it would not prove
-the trichotomy in the live statement.
+Earlier notes treated the tower case as conditional on whether official rows
+admit non-generating fields. The live DAG now records that such rows are in
+scope, so `f1_case_tower` remains genuinely critical.
 
 ## Evidence Pins
 
@@ -66,6 +66,6 @@ the trichotomy in the live statement.
 
 - `proof_sketch/s6_extension_lift.md` Section 4 labels the safe-side
   classification as CONJECTURE and describes the Galois-descent route.
-- `strategic_recommendations.md` notes that `f1_case_tower` is critical only
-  if the official family admits non-generating rows, but still lists
-  `f1_classification` as a critical mathematical leaf.
+- `strategic_recommendations.md` lists `f1_classification` and its tower case
+  among the critical mathematical leaves; the live DAG notes now confirm the
+  official family includes non-generating rows.

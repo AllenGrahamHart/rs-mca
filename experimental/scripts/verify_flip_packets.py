@@ -64,10 +64,6 @@ def main() -> int:
         if node_id not in nodes:
             print(f"FAIL: {path.name}: unknown node {node_id}")
             ok = False
-        if node_id not in critical_nodes:
-            print(f"FAIL: {path.name}: node {node_id} is not in critical_dag")
-            ok = False
-
         packet = ROOT / entry.get("packet", "")
         if not packet.exists():
             print(f"FAIL: {path.name}: missing packet note {packet}")
@@ -84,6 +80,9 @@ def main() -> int:
             print(f"FAIL: {node_id}: integrated as {_integ.get('applied_as')} but live status {_st}")
             ok = False
             continue
+        if node_id not in critical_nodes:
+            print(f"FAIL: {path.name}: node {node_id} is not in critical_dag")
+            ok = False
         expected_kids = req_children.get(node_id, [])
         listed_kids = sorted(entry.get("kids", []))
         if listed_kids != expected_kids:

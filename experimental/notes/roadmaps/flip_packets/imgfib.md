@@ -65,8 +65,9 @@ The promotion is only the parent assembly step.
 - `proof_sketch/s7_list_side.md` Section 4: the L1 input is
   `#ImgFib_U(a) <= n^B` above the reserve, with the one populated escape being
   full-petal sunflowers.
-- `wp_consolidation_sketch_extracts.md` WP-5.1: the concrete open sub-battle
-  is the full-petal sunflower growth; Conjecture F supplies the dictionary.
-- `l1_full_list_quotient_proof_program.md` summary: all listed L1 components
-  are proved except the aperiodic extension counting / growing-excess full
-  petal frontier.
+- `wp_detail/wp_consolidation_sketch_extracts.md` WP-5.1: the concrete open
+  sub-battle is the full-petal sunflower growth; Conjecture F supplies the
+  dictionary.
+- `experimental/notes/l1/l1_full_list_quotient_proof_program.md` summary: all
+  listed L1 components are proved except the aperiodic extension counting /
+  growing-excess full-petal frontier.
