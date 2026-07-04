@@ -32,25 +32,39 @@ FILL = {"PROVED": "#15803d", "PROVABLE": "#86efac", "CONDITIONAL": "#f59e0b",
         "TARGET": "#ef4444", "CONJECTURE": "#fb923c", "TEST": "#a78bfa",
         "WALL": "#7f1d1d", "REFUTED": "#9ca3af"}
 
+def validator_ripe():
+    """The validator owns RIPE semantics (requirements met AND the node is
+    discharge-only); parse its report rather than re-deriving by wiring."""
+    import subprocess
+    out = subprocess.run(
+        ["python3", os.path.join(HERE, "verify_prize_dag.py")],
+        capture_output=True, text=True).stdout
+    for line in out.splitlines():
+        if line.startswith("RIPE"):
+            return set(x.strip() for x in line.split(":", 1)[1].split(","))
+    return set()
+
+
 def open_classes(nodes, req, crit):
-    """leaf-open (own content open), staged (CONDITIONAL or RIPE: reqs all
-    green), inherited-open (red only via upstream)."""
+    """leaf-open (actionable work site: no open requirements, own content
+    open), staged (CONDITIONAL proof exists, or validator-RIPE: discharge
+    pending), inherited-open (open only via upstream)."""
     from collections import defaultdict
     rev = defaultdict(list)
     for u, v in req:
         rev[v].append(u)
+    ripe_set = validator_ripe()
     leaf, staged, inh = set(), set(), set()
     for v in crit:
         st = nodes[v]["status"]
         if st not in OPEN:
             continue
         kids = [u for u in rev[v] if u in crit]
-        ripe = kids and all(nodes[u]["status"] in DONE for u in kids)
         open_kid = any(nodes[u]["status"] in OPEN for u in kids)
-        if st == "CONDITIONAL" or ripe:
+        if st == "CONDITIONAL" or v in ripe_set:
             staged.add(v)
         elif not open_kid:
-            leaf.add(v)
+            leaf.add(v)      # all reqs settled, own content open: ACTIONABLE
         else:
             inh.add(v)
     return leaf, staged, inh
