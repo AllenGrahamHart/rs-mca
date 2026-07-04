@@ -424,7 +424,7 @@
   },
   {
    "id": "m_handling",
-   "label": "PROVED",
+   "label": "PROVABLE",
    "title": "Interleaved m-handling per the official quantifier"
   },
   {
