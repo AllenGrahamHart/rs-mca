@@ -3774,6 +3774,16 @@
     "experimental/notes/roadmaps/x75_h4_witness_injection_bound.md"
    ],
    "notes": "Strengthens X74 by bypassing X68 key expansion: primitive h=4 canonical row orbits are O(n^2), not merely O(n^3), in the X65 orbit currency."
+  },
+  {
+   "id": "x76_h4_filtered_l3_bound",
+   "title": "X76: h=4 primitive filtered triples fit the rewired n^3 row-count column",
+   "status": "PROVED",
+   "statement": "X65 gives primitive filtered triples = 8*primitive canonical orbits. X75 gives primitive h=4 canonical orbits <= n(n-1). Hence primitive h=4 filtered finite-p mass is <= 8n(n-1)<n^3 for every 2-power row n>=8.",
+   "refs": [
+    "experimental/notes/roadmaps/x76_h4_filtered_l3_bound.md"
+   ],
+   "notes": "Converts the h=4 X75 witness-injection bound from canonical-orbit currency back into filtered row-count currency, matching the L3 n^3 compiler column scale for the primitive h=4 finite-p branch."
   }
  ],
  "edges": [
@@ -7009,6 +7019,21 @@
   },
   {
    "from": "x75_h4_witness_injection_bound",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x65_h4_linear_orbit_budget",
+   "to": "x76_h4_filtered_l3_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x75_h4_witness_injection_bound",
+   "to": "x76_h4_filtered_l3_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x76_h4_filtered_l3_bound",
    "to": "active_core_count_bound",
    "kind": "ev"
   }

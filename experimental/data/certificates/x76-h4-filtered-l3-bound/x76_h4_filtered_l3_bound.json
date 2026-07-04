@@ -1,0 +1,79 @@
+{
+  "checks": 32,
+  "dependency_statuses": {
+    "active_core_count_bound": "TARGET",
+    "x65_h4_linear_orbit_budget": "PROVED",
+    "x75_h4_witness_injection_bound": "PROVED"
+  },
+  "node": "active_core_count_bound",
+  "rows": [
+    {
+      "bound_slack": 2176,
+      "filtered_triple_bound_8n_nminus1": 1920,
+      "kind": "low_characteristic_stress",
+      "label": "low_n16_p17",
+      "n": 16,
+      "n_cubed_bound": 4096,
+      "p": 17,
+      "primitive_canonical_orbit_count": 20,
+      "primitive_filtered_triple_count": 160,
+      "replay_slack": 3936,
+      "witness_orbit_bound": 240
+    },
+    {
+      "bound_slack": 229888,
+      "filtered_triple_bound_8n_nminus1": 32256,
+      "kind": "low_characteristic_stress",
+      "label": "low_n64_p193",
+      "n": 64,
+      "n_cubed_bound": 262144,
+      "p": 193,
+      "primitive_canonical_orbit_count": 134,
+      "primitive_filtered_triple_count": 1072,
+      "replay_slack": 261072,
+      "witness_orbit_bound": 4032
+    },
+    {
+      "bound_slack": 229888,
+      "filtered_triple_bound_8n_nminus1": 32256,
+      "kind": "boundary_x43_fails_x44_closes",
+      "label": "boundary_n64_p7937",
+      "n": 64,
+      "n_cubed_bound": 262144,
+      "p": 7937,
+      "primitive_canonical_orbit_count": 23,
+      "primitive_filtered_triple_count": 184,
+      "replay_slack": 261960,
+      "witness_orbit_bound": 4032
+    },
+    {
+      "bound_slack": 1967104,
+      "filtered_triple_bound_8n_nminus1": 130048,
+      "kind": "campaign_boundary",
+      "label": "boundary_n128_p17921",
+      "n": 128,
+      "n_cubed_bound": 2097152,
+      "p": 17921,
+      "primitive_canonical_orbit_count": 12,
+      "primitive_filtered_triple_count": 96,
+      "replay_slack": 2097056,
+      "witness_orbit_bound": 16256
+    },
+    {
+      "bound_slack": 16254976,
+      "filtered_triple_bound_8n_nminus1": 522240,
+      "kind": "campaign_boundary",
+      "label": "boundary_n256_p91393",
+      "n": 256,
+      "n_cubed_bound": 16777216,
+      "p": 91393,
+      "primitive_canonical_orbit_count": 22,
+      "primitive_filtered_triple_count": 176,
+      "replay_slack": 16777040,
+      "witness_orbit_bound": 65280
+    }
+  ],
+  "status": "PROVED H4 ROW-COUNT CONSEQUENCE: PRIMITIVE FILTERED TRIPLES ARE < n^3",
+  "task": "X76 h=4 filtered-triple L3 bound",
+  "theorem": "X65 proves primitive filtered h=4 triples equal eight times the primitive canonical orbit count.  X75 proves the primitive canonical orbit count is at most n(n-1).  Therefore primitive filtered h=4 triples are at most 8*n*(n-1), which is < n^3 for every 2-power row n>=8, the first size where disjoint h=4 supports exist."
+}
