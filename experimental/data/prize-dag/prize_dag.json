@@ -3784,6 +3784,16 @@
     "experimental/notes/roadmaps/x76_h4_filtered_l3_bound.md"
    ],
    "notes": "Converts the h=4 X75 witness-injection bound from canonical-orbit currency back into filtered row-count currency, matching the L3 n^3 compiler column scale for the primitive h=4 finite-p branch."
+  },
+  {
+   "id": "x77_h5_norm_gate_reduction",
+   "title": "X77: h=5 trades are first-level p-specific norm gates; checked windows are empty",
+   "status": "PROVED",
+   "statement": "For h=5 on a 2-power row, the X30 dyadic descent branch is impossible because antipodal unions have even size, and X24 gives no characteristic-zero h=5 trades. Hence any finite h=5 trade is a first-level p-specific sparse norm-gate event for the signed 5+5 first-sum word. X25/X15 replay no same-top-four collisions in the checked h=5 windows.",
+   "refs": [
+    "experimental/notes/roadmaps/x77_h5_norm_gate_reduction.md"
+   ],
+   "notes": "Pins the h=5 branch shape: no descent/paid ambiguity remains; the only possible finite residue is first-level p-specific norm-gate mass, which is empty in the existing exact checked windows."
   }
  ],
  "edges": [
@@ -7034,6 +7044,26 @@
   },
   {
    "from": "x76_h4_filtered_l3_bound",
+   "to": "active_core_count_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "x77_h5_norm_gate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "x30_finite_p_norm_gate",
+   "to": "x77_h5_norm_gate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "x25_h5_prime_window",
+   "to": "x77_h5_norm_gate_reduction",
+   "kind": "ev"
+  },
+  {
+   "from": "x77_h5_norm_gate_reduction",
    "to": "active_core_count_bound",
    "kind": "ev"
   }
