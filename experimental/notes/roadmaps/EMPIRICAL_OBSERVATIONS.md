@@ -352,3 +352,17 @@ CONSEQUENCE: the petal falsification is interior-real; the trivial-salvage escap
 frontier converges to Codex's Attempt-9 conclusion: petal_squarefree_classification_ledger_payload is the
 live frontier, with the burden = CLASSIFY the rare-but-real structured realizable families (multi-char
 included) -- generic mass is absent (Codex, coset chart), structured mass exists (full-fibre, verified).
+
+## BAND CORRECTION (supersedes "boundary-artifact refuted") + enrichment-vs-c outcome + petal compression
+CORRECTION: my "interior-real" claim was WRONG -- that test accepted kernel points of LOWER actual degree
+(= embeddings of lower rows), not genuine defect-d content. Exact verification (M=3, t=8/10/12): the
+exact-degree-d kernel's top coefficient is ALIVE precisely in the TOP-DEFECT BAND d >= M(t-2) (width ell;
+Omega-reduction active) and FORCED TO ZERO at all interior rows. Enrichment-vs-c sampling confirmed: zero
+exact-degree hits everywhere off-band (the earlier "witnesses" were lower-row embeddings).
+=> The multi-char threat at exact defect is BAND-CONFINED. Off-band sparsity gains a proof route (top-coeff
+forcing => induction on defect). In-band, at prize-scale q (log_q d! ~ 0), realizable count ~ q^Theta(dim):
+the band is the real obligation. SCOPE: full-fibre chart, scalar degree 2 (band = M(t-g) for scalar degree g);
+coset charts show zero realizable mass (Codex).
+ACTIONS: chargeability (frontier) RE-POSED to the band obligation; sparsity (interface) RE-POSED band-split;
+ledger_payload + kernel_classification COMPRESSED into the packet (policy applied; knife stopped at the
+verified band line). Petal chain now frontier+interface, matching the dli compression.

@@ -1328,19 +1328,9 @@
    "title": "Petal squarefree classification counting soundness"
   },
   {
-   "id": "petal_squarefree_classification_ledger_payload",
-   "label": "CONDITIONAL",
-   "title": "Petal actual squarefree classification ledger payload"
-  },
-  {
    "id": "petal_squarefree_classification_ledger_soundness",
    "label": "PROVED",
    "title": "Petal squarefree classification-ledger soundness"
-  },
-  {
-   "id": "petal_squarefree_kernel_classification_payload",
-   "label": "CONDITIONAL",
-   "title": "Petal squarefree kernel classification payload"
   },
   {
    "id": "q_cofactor_normal_form",
@@ -3159,18 +3149,6 @@
    "to": "petal_kernel_realizable_sparsity"
   },
   {
-   "from": "petal_squarefree_classification_ledger_soundness",
-   "to": "petal_squarefree_kernel_classification_payload"
-  },
-  {
-   "from": "petal_squarefree_classification_ledger_payload",
-   "to": "petal_squarefree_kernel_classification_payload"
-  },
-  {
-   "from": "petal_squarefree_kernel_classification_payload",
-   "to": "petal_kernel_realizable_sparsity"
-  },
-  {
    "from": "petal_realizable_extra_uniformity",
    "to": "petal_residue_line_uniformity"
   },
@@ -3783,20 +3761,12 @@
    "to": "m720_official_norm_gate_case_manifest_payload"
   },
   {
-   "from": "petal_cofactor_chargeability",
-   "to": "petal_squarefree_classification_ledger_payload"
-  },
-  {
    "from": "e22_mixed_petal_covariance",
    "to": "e22_tail_removed_factor_manifest_payload"
   },
   {
    "from": "q_cofactor_normal_form",
    "to": "e22_tail_removed_factor_manifest_payload"
-  },
-  {
-   "from": "q_cofactor_normal_form",
-   "to": "petal_squarefree_classification_ledger_payload"
   },
   {
    "from": "dli_prime_weighted_large_block_support",
@@ -3845,6 +3815,18 @@
   {
    "from": "subfield_trace_paid_gate",
    "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "petal_cofactor_chargeability",
+   "to": "petal_kernel_realizable_sparsity"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_kernel_realizable_sparsity"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "petal_kernel_realizable_sparsity"
   },
   {
    "from": "acl_second_order",

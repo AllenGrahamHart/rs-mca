@@ -4319,15 +4319,6 @@
    "falsifier": "a family where exact realizable full-petal extras grow beyond the uniform polynomial budget as c increases"
   },
   {
-   "id": "petal_squarefree_classification_ledger_payload",
-   "title": "Petal actual squarefree classification ledger payload",
-   "status": "CONDITIONAL",
-   "statement": "CONDITIONAL on P5-CL (Pro P5): every squarefree full-petal kernel point injects into the cofactor space V_c (deg A_i<=c, dim K<=c+1 by Lemma 13), so all c-growth is in the cofactor coordinate. CLOSES given P5-CL: every cofactor family of dim > absolute B_pet is QUOTIENT/coset/signed/cyclotomic chargeable (sparse coeff support signature); then uncharged count is c-independent, total <= 2^M poly(M) q^{B_pet}=n^{O(1)}. SHARED THEME: needs quotient/coset chargeability.",
-   "attack_surface": "project-specific structural classification of squarefree realizable kernel families",
-   "falsifier": "a squarefree realizable kernel family missing from the ledger, charged without a paid citation, or uncharged without a c-independent polynomial bound",
-   "notes": "CENSUS RAN, INCONCLUSIVE (Modal): measures RAW extras (0->462 threshold jump, = charged coset mass) not the UNCHARGED residual the claim bounds; raw dim_K exceeds Lemma 13 c+1 (scope flag for audit). Needs a REFINED census separating charged/uncharged + flatness of the uncharged count in c. | LEMMA-13 FLAG RESOLVED: the census raw dim_K growth is EXPECTED (Lemma 13 permits dim K up to c+1, and it's tight at large c: dim_K ~ c in-regime). Confirms the census must measure the UNCHARGED residual (after charging paid coset families), NOT raw dim_K. Refined census config: use ell>=3 (so c=2..8 is in Lemma 13's regime d<=(t-1)ell-1); classify charged vs uncharged; test uncharged flatness. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
-  },
-  {
    "id": "petal_mixed_amplification_step",
    "title": "Petal mixed-amplification induction step",
    "status": "CONDITIONAL",
@@ -4347,17 +4338,10 @@
    "id": "petal_kernel_realizable_sparsity",
    "title": "Petal residue-kernel realizable sparsity",
    "status": "CONDITIONAL",
-   "statement": "Across the coset-chart corridor, the squarefree locator points inside the residue-line kernel that correspond to exact full-petal extras are bounded by a polynomial whose exponent is independent of the excess c. This is reduced to the proved classification-to-sparsity counting rule and the remaining squarefree-kernel classification payload.",
+   "statement": "INTERFACE (band-split, compressed 2026-07-05, see REDUCTION_PACKET.md): squarefree realizable locator points in the residue-line kernels K_I,d are polynomially bounded with exponent independent of the excess c, SPLIT BY THE TOP-DEFECT BAND: (OFF-BAND, d < M(t-2)) the exact-degree-d kernel has top coefficient forced to zero (VERIFIED) => interior kernels embed lower rows => poly count via induction on defect + the proved counting soundness; supported by Codex 0/71210 generic realizable hits. (IN-BAND, d >= M(t-2)) conditional on the FRONTIER petal_cofactor_chargeability (price the band multi-char families). The former ledger/classification middle nodes are compressed into the packet.",
    "attack_surface": "assembly from classification-to-sparsity soundness and the remaining squarefree kernel classification payload",
-   "falsifier": "a corridor family where squarefree realizable locator points inside the residue kernel grow beyond the uniform polynomial budget"
-  },
-  {
-   "id": "petal_squarefree_kernel_classification_payload",
-   "title": "Petal squarefree kernel classification payload",
-   "status": "CONDITIONAL",
-   "statement": "Classify the squarefree locator points inside the residue-line kernels across the coset-chart corridor into charged families and uncharged families with polynomial bounds whose exponents are independent of the excess c. This is reduced to the proved classification-ledger soundness rule plus the remaining actual squarefree classification ledger payload.",
-   "attack_surface": "assembly from the classification-ledger soundness rule and the actual structural classification of squarefree kernel points or proof-grade transfer from off-laptop certificates",
-   "falsifier": "an unclassified or uncharged squarefree kernel family whose size has exponent growing with c"
+   "falsifier": "a corridor family where squarefree realizable locator points inside the residue kernel grow beyond the uniform polynomial budget",
+   "notes": "| COMPRESSED per CHAIN_COMPRESSION_POLICY: ledger_payload + kernel_classification_payload -> REDUCTION_PACKET.md; band-split re-pose; knife stopped at the verified band line."
   },
   {
    "id": "petal_residue_line_uniformity",
@@ -5166,10 +5150,10 @@
    "id": "petal_cofactor_chargeability",
    "title": "Petal cofactor chargeability lemma (P5-CL)",
    "status": "TARGET",
-   "statement": "RE-POSED 2026-07-05 (consumer-premise attack, VERIFIED; absorbs pruned PRK): the charged-or-bounded dichotomy is FALSE AS STATED -- generic multi-character kernel families ESCAPE every paid template (isotypic/quotient/signed/cyclotomic/low-defect; 25/25 verified, M=3,5,7) AND their primitive projection GROWS: dim Pi_prim ~ 2c/M (measured 8,12,16,20,24 for c=11..35), so no absolute B_pet exists; bounded tail ops change dim by O(1) and cannot rescue. REMAINING OBLIGATION (the real petal frontier): a PARAMETERIZED multi-character paid family with a proved ledger price (finite menus ruled out: 2^M-M-1 active-set types), OR a c-dependent bound compatible with the downstream count, OR show these families do not inflate the actual list. Charged templates still convert via the PROVED q_cofactor_normal_form.",
+   "statement": "RE-POSED 2026-07-05 (TOP-DEFECT-BAND form; supersedes the interior-wide form): price the multi-character squarefree-realizable kernel families in the TOP-DEFECT BAND d in [M(t-2), M(t-1)-1] (width ell=M). VERIFIED STRUCTURE (exact, M=3, t=8/10/12): the exact-degree-d kernel has its top coefficient ALIVE precisely in the band (Omega-reduction active, deg(Y^2 B)>=t) and FORCED TO ZERO at all interior rows -- interior kernels are embeddings of lower rows, so the multi-char threat at exact defect is band-confined. In-band the kernel dim grows (~2c/M, c~(t-3)M) and at prize-scale q (log_q d! ~ 0) the realizable count ~ q^Theta(dim); the Pro explicit realizable family sits at the band top. OBLIGATION: a parameterized paid class + ledger price for the band families (finite menus refuted), OR a band-count bound compatible with downstream, OR show band families do not inflate the actual list. SCOPE CAVEATS: full-fibre chart with scalar degree 2 (band location M(t-g) depends on scalar degree g); coset charts show zero realizable mass (Codex); band width/location must be re-derived per corridor chart family.",
    "attack_surface": "Decompose K_{I,d} into quotient-saturated (charged, cf. E22 tail-removed manifest) + bounded-dim primitive residual.",
    "falsifier": "An in-regime family with c->inf, dim A_i(Z_c)->inf, not quotient/coset/signed/cyclotomic chargeable.",
-   "notes": "Sharpened by T2: family-level bounded-primitive-projection source; terminal proved; separate from E22. | AMBERED (Pro T7): conditional theorem PROVED (charged=>T2 finishes; uncharged=>bounded points); reduces to petal_primitive_residue_kernel_rank (PRK_pet). | CONSUMER-PREMISE ATTACK (my measurement): the SAME multi-char families that killed PRK kill this dichotomy (escape paid + dim Pi_prim grows ~2c/M). PRK pruned per the falsification-pruning protocol (salvage non-trivial, consumer falls to same object); frontier moved here. The petal red is now THIS node."
+   "notes": "Sharpened by T2: family-level bounded-primitive-projection source; terminal proved; separate from E22. | AMBERED (Pro T7): conditional theorem PROVED (charged=>T2 finishes; uncharged=>bounded points); reduces to petal_primitive_residue_kernel_rank (PRK_pet). | CONSUMER-PREMISE ATTACK (my measurement): the SAME multi-char families that killed PRK kill this dichotomy (escape paid + dim Pi_prim grows ~2c/M). PRK pruned per the falsification-pruning protocol (salvage non-trivial, consumer falls to same object); frontier moved here. The petal red is now THIS node. | BAND CORRECTION: my earlier interior-real claim was WRONG (test accepted lower actual degrees = lower-row embeddings). Verified: top coeff alive iff d>=M(t-2). The obligation shrinks to the width-ell top band."
   },
   {
    "id": "e22_mixed_petal_covariance",
@@ -8710,21 +8694,6 @@
    "kind": "req"
   },
   {
-   "from": "petal_squarefree_classification_ledger_soundness",
-   "to": "petal_squarefree_kernel_classification_payload",
-   "kind": "req"
-  },
-  {
-   "from": "petal_squarefree_classification_ledger_payload",
-   "to": "petal_squarefree_kernel_classification_payload",
-   "kind": "req"
-  },
-  {
-   "from": "petal_squarefree_kernel_classification_payload",
-   "to": "petal_kernel_realizable_sparsity",
-   "kind": "req"
-  },
-  {
    "from": "petal_realizable_extra_uniformity",
    "to": "petal_residue_line_uniformity",
    "kind": "req"
@@ -9495,11 +9464,6 @@
    "kind": "req"
   },
   {
-   "from": "petal_cofactor_chargeability",
-   "to": "petal_squarefree_classification_ledger_payload",
-   "kind": "req"
-  },
-  {
    "from": "e22_mixed_petal_covariance",
    "to": "e22_tail_removed_factor_manifest_payload",
    "kind": "req"
@@ -9512,11 +9476,6 @@
   {
    "from": "q_cofactor_normal_form",
    "to": "e22_tail_removed_factor_manifest_payload",
-   "kind": "req"
-  },
-  {
-   "from": "q_cofactor_normal_form",
-   "to": "petal_squarefree_classification_ledger_payload",
    "kind": "req"
   },
   {
@@ -9577,6 +9536,21 @@
   {
    "from": "subfield_trace_paid_gate",
    "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "petal_cofactor_chargeability",
+   "to": "petal_kernel_realizable_sparsity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_kernel_realizable_sparsity",
+   "kind": "req"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "petal_kernel_realizable_sparsity",
    "kind": "req"
   }
  ]
