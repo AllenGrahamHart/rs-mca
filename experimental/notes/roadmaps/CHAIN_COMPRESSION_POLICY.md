@@ -72,3 +72,6 @@ Log: 2026-07-05 — u1_pullback_dichotomy (5 dominated, 3 cut) and petal_growth
 2026-07-05 (3rd) — xr_smallcore_spread_count (83 dominated, 30 cut incl. the sov and
 m720 red branches + the midlarge/anchored spine; sov Pro round becomes advisory /
 re-expansion material). Largest single trust-surface reduction.
+2026-07-05 (4th) — worst_word_challenger_pricing (49 dominated, 17 cut = the entire
+e22 branch incl. its red; the branch had quantified premise failure 78% at scale).
+New red = the top-down challenger-pricing obligation.

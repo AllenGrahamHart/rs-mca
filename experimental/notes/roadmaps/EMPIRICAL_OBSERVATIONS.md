@@ -393,3 +393,13 @@ New red = the SPREAD remainder count (post-cascade aligned aperiodic supports wi
 <= poly(n)) -- a crisp sunflower/spread obligation. The in-flight SOV-BOHR-PRICING Pro round becomes advisory:
 if it lands, RE-EXPAND the segment with proven material (retraction is reversible-by-proving).
 BOARD: 6 reds -- dli, e22, rate_half, petal_growth, u1_pullback_dichotomy, xr_smallcore_spread_count.
+
+## FRONTIER RETRACTION 4: worst_word_challenger_pricing (the e22 branch)
+Cut the entire e22 sub-frontier (17 non-proved incl. the e22_mixed_petal_covariance red + 16 staircase/
+cofactor ambers; 32 proved kept). Most-justified retraction: the branch was built on a premise with QUANTIFIED
+failure (CF certificate 0/85 on real challengers; useful premise fails 6527/8393=78% at scale). New red =
+the top-down obligation (price/exhaust the structured non-planted challenger class), which ABSORBS the e22
+narrowing question in cleaner form; Codex's e22 findings become its attack notes.
+END-OF-DAY BOARD: 6 reds (dli validated+in play; petal_growth, u1_pullback, xr_spread_count,
+worst_word_challenger_pricing = retraction chokepoints; rate_half aside), 28 critical ambers (was 102).
+A complete statement-vs-wiring audit of the remaining ambers is now a feasible single task.

@@ -3363,14 +3363,14 @@
   {
    "id": "worst_word_challenger_pricing",
    "title": "Challenger-class pricing (the E15 successor hypothesis of worst_word_planted)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "statement": "Price or exhaust the structured low-slack NON-planted challenger class (the E15 counterexample's family) so the revised worst_word_planted statement's sup-over-words claim is carried by planted + challenger classes jointly.",
    "attack_surface": "the E15 construction's parameters; classify then price",
    "falsifier": "a third challenger class outside both",
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ],
-   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM)."
+   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM). | FRONTIER RETRACTION 2026-07-05 (fourth application): demoted CONDITIONAL->TARGET; the e22 sub-frontier CUT (archive/retraction_e22_20260705/, 17 non-proved nodes incl. the e22_mixed_petal_covariance red and the staircase/cofactor/common-tail machinery), 32 PROVED kept off the trust surface. Reason: the branch below was the weakest on the board -- the covariance certificate CF failed 0/85 on real challengers and the useful premise failed 6527/8393 (78%) at scale (Codex); the machinery was built on a failing premise. This node is the honest top-down obligation: price or exhaust the structured low-slack non-planted challenger class so the sup-over-words claim is carried by planted + challenger jointly. ADVISORY ATTACK NOTES from the cut branch: the CF certificate (proved: CF => factorization); which challengers fail covariance (all structured sigma-1 in toys); the one-point-per-fiber and common-tail counterexamples (verified); Codex attempts 3/7/8/13. If a bottom-up certificate route lands later, RE-EXPAND with proven material per policy."
   },
   {
    "id": "cap_end_sharpening",
@@ -4389,14 +4389,6 @@
    "falsifier": "a coarse M_j-fiber fully contained in the support without all of its M_i-children selected, or a wrong residual-tail size formula"
   },
   {
-   "id": "e22_cross_scale_planted_degeneracy_control",
-   "title": "E22 cross-scale and planted degeneracy control",
-   "status": "CONDITIONAL",
-   "statement": "The only duplicate representations among E22 staircase parameters are the declared quotient-equivalence/cross-scale degeneracies, and no nondegenerate staircase parameter set yields a planted sunflower codeword.",
-   "attack_surface": "assembly from planted-profile disjointness plus the remaining cross-scale duplicate-control theorem",
-   "falsifier": "an undeclared cross-scale duplicate staircase representation, or a nondegenerate staircase locator equal to a planted core locator"
-  },
-  {
    "id": "e22_fiber_locator_saturation",
    "title": "E22 quotient-fiber locator saturation",
    "status": "PROVED",
@@ -4419,22 +4411,6 @@
    "statement": "For a finite dyadic chain of admissible scales, raw per-scale counts decompose triangularly by minimal scale: the raw count at scale M_j equals the selected minimal count at M_j plus the contributions from smaller minimal scales that are also admissible at M_j. Therefore exact selected counts are recovered by subtracting the smaller-scale overlap counts.",
    "attack_surface": "formal partition accounting on a finite totally ordered set",
    "falsifier": "a class counted at scale M_j whose minimal admissible scale is larger than M_j, or a class with no unique minimal scale"
-  },
-  {
-   "id": "e22_staircase_parametrization",
-   "title": "E22 quotient-coset staircase parametrization",
-   "status": "CONDITIONAL",
-   "statement": "Every mixed/full-petal non-planted listed codeword for the E22 planted sunflower receiver is represented by the quotient-coset staircase parameters advertised in the X-4 ledger, expressed in the notation of e22_core.py. Equivalently, the structured challenger class is covered by the declared L_B G(X^M)-type staircase forms after translating core, petal, scalar, and background choices into the local sunflower model.",
-   "attack_surface": "assembly from the forced tail-plus-cosets support theorem and the proved locator algebra; toy profile matching is only calibration",
-   "falsifier": "a mixed/full-petal listed codeword whose agreement pattern is structured but whose locator cannot be written in the declared staircase form"
-  },
-  {
-   "id": "e22_agreement_coset_support_forcing",
-   "title": "E22 agreement equations force tail-plus-coset support",
-   "status": "CONDITIONAL",
-   "statement": "Every mixed/full-petal non-planted listed codeword for the E22 planted sunflower receiver has, after the advertised translation of agreement equations to locator/co-support language, a support of the form fixed tail B plus full quotient fibers for some divisor M with M>t.",
-   "attack_surface": "assembly from the proved cofactor-equation reduction and the remaining cofactor-to-coset-saturation theorem",
-   "falsifier": "a mixed/full-petal listed codeword whose agreement equations do not force any tail-plus-full-coset support representation"
   },
   {
    "id": "e22_weighted_intersection_certificate_soundness",
@@ -4467,14 +4443,6 @@
    "statement": "If a manifest supplies one common tail B, dyadic local moduli M_i>t, verifies |B|<min_i M_i, and proves that each non-tail locator L_{T_i\\B} equals a product of distinct quotient-fiber factors X^{M_i}-z, then e22_common_tail_invariance_payload holds.",
    "attack_surface": "formal conversion from explicit quotient-factor manifest to full-fiber and kernel-invariant non-tail sets",
    "falsifier": "a verified tail-removed quotient-factor manifest whose non-tail set is not kernel-invariant or whose tail/modulus data do not satisfy the common-tail payload"
-  },
-  {
-   "id": "e22_staircase_arithmetic_pricing",
-   "title": "E22 staircase integer pricing column",
-   "status": "CONDITIONAL",
-   "statement": "The exact E22 staircase count column, after injective parametrization and declared equivalence quotienting, is inserted into the list-side integer comparison with the planted column and satisfies the required row-by-row pricing inequalities.",
-   "attack_surface": "assembly only after the formula and multiplicities are fixed: reuse the exact dyadic profile evaluator for the staircase column and compare integer counts without floating decisions",
-   "falsifier": "a candidate row where the exact planted-plus-staircase count crosses the required list threshold differently from the claimed pricing, or an omitted integer factor in the staircase column"
   },
   {
    "id": "e22_dyadic_minimal_scale_selector",
@@ -4517,14 +4485,6 @@
    "falsifier": "a subset invariant under the quotient-map kernel that is not a union of fibers, or a union of fibers that is not kernel-invariant"
   },
   {
-   "id": "e22_challenger_staircase_pricing",
-   "title": "E22 exact pricing for the structured challenger staircase",
-   "status": "CONDITIONAL",
-   "statement": "The mixed/full-petal E15 successor class has an exact quotient-coset staircase count formula, compatible with the X-4 identification as L_B G(X^M)-type locators, and the resulting challenger column is priced in the list-side integer comparison alongside planted_count. The needed deliverable is the explicit formula, its injectivity/no-overlap proof, and the row-by-row comparison against the list threshold.",
-   "attack_surface": "extract the formula from exhaustive E22 challenger_count_grid cells and prove the quotient-coset staircase parametrization; then run the same integer-window comparison used by list_planted_arithmetic",
-   "falsifier": "two distinct staircase parameters yielding the same challenger word without being quotient-equivalent, or a structured challenger subfamily not covered by the formula"
-  },
-  {
    "id": "e22_lower_scale_intersection_formula_payload",
    "title": "E22 lower-scale intersection formula payload",
    "status": "PROVED",
@@ -4533,29 +4493,12 @@
    "falsifier": "a missing subset, an incorrect coefficient formula, or a multiplicity mismatch with dyadic_profile_evaluation"
   },
   {
-   "id": "e22_cofactor_common_tail_quotient_structure",
-   "title": "E22 cofactor common-tail quotient structure",
-   "status": "CONDITIONAL",
-   "statement": "From the E22 sunflower cofactor divisibility constraints L_{T_i}|H_i, construct one common exceptional tail B, prove |B|<min_i M_i, choose dyadic local moduli M_i>t, and show every forced non-tail root set T_i\\B is a union of full fibers of x -> x^{M_i}. This is reduced to the proved kernel-invariance full-fiber criterion and the remaining cofactor-specific tail plus kernel-invariance theorem.",
-   "attack_surface": "assembly from the kernel-invariance criterion and the remaining E22-specific common-tail invariance theorem",
-   "falsifier": "cofactor divisor constraints whose forced non-tail roots cannot be covered by dyadic full fibers outside one bounded common tail"
-  },
-  {
    "id": "e22_lower_scale_filter_inclusion_exclusion",
    "title": "E22 lower-scale filter inclusion-exclusion",
    "status": "PROVED",
    "statement": "Inside any fixed residual-profile universe for a dyadic pair M_i<M_j, the condition that no smaller dyadic scale M'<M_i is admissible is exactly the finite inclusion-exclusion complement of the smaller-scale admissibility events. The identity is valid with the declared multiplicity weights as long as the intersection counts use those same weights.",
    "attack_surface": "finite set inclusion-exclusion for the complement of smaller-scale admissibility events",
    "falsifier": "a weighted residual universe where inclusion-exclusion fails to remove precisely the objects admissible at some smaller scale"
-  },
-  {
-   "id": "e22_tail_removed_factor_manifest_payload",
-   "title": "E22 actual tail-removed factor manifest payload",
-   "status": "CONDITIONAL",
-   "statement": "REDUCED (Pro W3, verified): the exact squarefree factorization L_{T_i\\B}(X)=prod_{z in Z_i}(X^{M_i}-z) is PROVED given the certificate CF(B,{M_i}) \u2014 common tail B subset T_i, dyadic M_i|n with M_i>t, |B|<min M_i, and kernel saturation (T_i\\B)mu_{M_i}=T_i\\B (verified p=97). It is NOT derivable from bare L_{T_i}|H_i (verified counterexample: one root per fiber). REMAINING SEAM: establish CF (common-tail extraction + full-fiber saturation) from the actual E22 cofactor equations; the full-fiber locator + local-to-common lemmas are already proved.",
-   "attack_surface": "actual extraction of one bounded common tail and exact tail-removed quotient-factor identities from L_{T_i}|H_i",
-   "falsifier": "a touched-petal cofactor divisor pattern for which no such common tail and exact quotient-factor identity exists",
-   "notes": "W3 (verified): factorization proved MODULO the CF kernel-saturation certificate (target C); bare divisibility insufficient. Remaining: extract CF from the cofactor equations. | CF-EXTRACTION ANALYSIS (mine, verified): the whole E22 CF certificate reduces through PROVED steps (fiber_locator_saturation, kernel_invariance_full_fiber_criterion, two_class_exhaustion, dyadic_local_to_common_saturation, tail_removed_quotient_factor_passthrough) to ONE irreducible core: e22_cofactor_common_tail_kernel_invariance (mixed-petal kernel invariance + bounded tail). FULL-PETAL case CLOSED: a full touched petal beta*mu_M has locator X^M-beta^M = full fiber (verified p=193). RESIDUAL = the mixed-petal completion: partial agreements across several petals whose union must be mu_M-saturated after removing a bounded tail B (|B|<min M_i). This needs the E22 sunflower's degree/scalar data (the mu_M-covariance of U,L_{Z\\C},L_{C\\Z},a_i) to force completion \u2014 the sharp Pro-shaped obligation. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "e22_minimal_scale_pricing_compatibility",
@@ -4582,14 +4525,6 @@
    "falsifier": "a support R with a staircase representation at M that is not recovered by the full-fiber/tail rule, or equal supports with different canonical scale data"
   },
   {
-   "id": "e22_local_quotient_factor_extraction",
-   "title": "E22 local quotient-factor extraction",
-   "status": "CONDITIONAL",
-   "statement": "For E22 mixed/full-petal challengers satisfying the petal-locator divisibility constraints, after deleting one common exceptional tail B with size below the minimum local modulus, each touched-petal cofactor has the required local quotient-fiber factors X^{M_i}-z with dyadic M_i>t for every non-tail block it forces. This is reduced to the E22-specific common-tail/full-fiber structure theorem and the proved tail-removal factor passthrough.",
-   "attack_surface": "assembly from the common-tail quotient-structure theorem and the formal tail-removal factor passthrough",
-   "falsifier": "a petal cofactor divisor pattern where the non-tail forced roots do not arise from quotient factors X^{M_i}-z after deleting one bounded common tail"
-  },
-  {
    "id": "e22_residual_profile_generating_function",
    "title": "E22 residual-profile generating function",
    "status": "PROVED",
@@ -4598,37 +4533,12 @@
    "falsifier": "a canonical scale-M_i support counted by the product formula with the wrong residual statistic or tail multiplicity"
   },
   {
-   "id": "e22_cofactor_common_tail_kernel_invariance",
-   "title": "E22 cofactor common-tail kernel invariance",
-   "status": "CONDITIONAL",
-   "statement": "CONDITIONAL (Pro P1, verified): the cofactor divisibility L_{T_i}|H_i ALONE does NOT force mixed-petal saturation (interpolation counterexample defeats every |B|<min M_i, VERIFIED reasoning). Full-petal case done (coset locator=fiber). CLOSES given a sunflower COVARIANCE/degree property: off one bounded tail B (|B|<min M_i), either (deg/remainder) non-tail fiber remainders of H_i have <=t zeros unless X^{M_i}-z | H_i, or (covariance) H_i(eta x)=eta^{e_i}H_i(x) i.e. H_i=X^{e_i}G_i(X^{M_i}) on the petal coordinate. SHARED THEME: needs mu_M coset/quotient covariance.",
-   "attack_surface": "assembly from proved tail/modulus certificate soundness and the remaining E22-specific cofactor-tail invariance payload",
-   "falsifier": "a touched-petal divisor pattern whose non-tail roots are not invariant under any admissible dyadic local quotient kernel after removing a bounded common tail, or a defect in the certificate soundness rule",
-   "notes": "THE IRREDUCIBLE E22 CORE (verified reduction): all other CF pieces proved; this mixed-petal kernel-invariance + bounded-tail construction is the sole remaining content. Full-petal case done (coset locator=fiber). Needs the sunflower mu_M-covariance/degree data for the mixed completion."
-  },
-  {
-   "id": "e22_cofactor_coset_saturation",
-   "title": "E22 cofactor equations force coset saturation",
-   "status": "CONDITIONAL",
-   "statement": "For mixed/full-petal non-planted E22 challengers, the cofactor equations supplied by e22_agreement_cofactor_equations force the non-tail roots to be saturated on full fibers of a quotient map x -> x^M for some divisor M with M>t.",
-   "attack_surface": "assembly from the proved petal-divisibility translation plus the remaining divisor-to-quotient gluing theorem",
-   "falsifier": "a mixed/full-petal challenger satisfying the cofactor equations but whose non-tail roots are not saturated on any such quotient fibers"
-  },
-  {
    "id": "e22_agreement_cofactor_equations",
    "title": "E22 agreement cofactor equations",
    "status": "PROVED",
    "statement": "For any listed E22 sunflower codeword f and its zero-agreement root set Z inside core union background, writing f=U L_Z converts every petal agreement on petal i into the cofactor equation U(x)L_{Z\\C}(x)=a_i L_{C\\Z}(x) after cancelling the common core factor. Thus the mixed/full-petal support-forcing problem may be studied entirely through these cofactor equations on petal agreement points.",
    "attack_surface": "direct locator factorization and cancellation in the local sunflower model",
    "falsifier": "a listed codeword and petal agreement point for which the stated cofactor equation fails after factoring zero agreements"
-  },
-  {
-   "id": "e22_common_tail_invariance_payload",
-   "title": "E22 common-tail invariance payload",
-   "status": "CONDITIONAL",
-   "statement": "Provide the actual E22 cofactor-tail certificate: common tail B, dyadic local moduli M_i>t, the bound |B|<min_i M_i, and kernel invariance of every T_i\\B from the cofactor divisor constraints. This is reduced to a proved tail-removed factor-manifest soundness rule plus the remaining actual factor manifest.",
-   "attack_surface": "assembly from tail-removed factor-manifest soundness and the remaining actual mixed-petal cofactor factorization manifest",
-   "falsifier": "a cofactor divisor pattern for which no bounded common tail and admissible dyadic local kernel invariance package exists"
   },
   {
    "id": "e22_common_tail_invariance_certificate_soundness",
@@ -4647,36 +4557,12 @@
    "falsifier": "a minimal-scale partition cell whose contribution to the dyadic pricing column is omitted, duplicated, or assigned the wrong multiplicity"
   },
   {
-   "id": "e22_staircase_injectivity",
-   "title": "E22 staircase injectivity and planted no-overlap",
-   "status": "CONDITIONAL",
-   "statement": "The E22 quotient-coset staircase parametrization is injective up to the declared quotient equivalences, and its image has no hidden overlap with the planted sunflower codewords.",
-   "attack_surface": "assembly from fixed-scale injectivity plus the remaining cross-scale equivalence and planted-degeneracy control",
-   "falsifier": "two inequivalent staircase parameter sets yielding the same degree-<k codeword, or a non-degenerate staircase parameter set yielding a planted codeword"
-  },
-  {
    "id": "e22_cofactor_petal_divisibility",
    "title": "E22 cofactor petal divisibility",
    "status": "PROVED",
    "statement": "For each touched petal in an E22 mixed/full-petal challenger, the cofactor equation U(x)L_{Z\\C}(x)=a_i L_{C\\Z}(x) on the agreement subset T_i is equivalent to divisibility of H_i(X)=U(X)L_{Z\\C}(X)-a_i L_{C\\Z}(X) by the locator L_{T_i}(X). In particular, a full touched petal contributes the full petal locator as a divisor of H_i.",
    "attack_surface": "formal polynomial root/divisibility translation from pointwise cofactor equations",
    "falsifier": "a touched-petal agreement set where H_i vanishes on every agreement point but is not divisible by the agreement-set locator"
-  },
-  {
-   "id": "e22_fixed_tail_local_saturation",
-   "title": "E22 fixed-tail local quotient saturation",
-   "status": "CONDITIONAL",
-   "statement": "For E22 mixed/full-petal challengers satisfying the petal-locator divisibility constraints, the divisor constraints isolate a single exceptional tail B and local dyadic quotient moduli M_i>t such that every non-tail contribution forced by each touched-petal divisor is a union of full fibers of x -> x^{M_i}. This is reduced to extracting quotient-fiber locator factors from the cofactors plus the proved fiber-locator saturation lemma.",
-   "attack_surface": "assembly from local quotient-factor extraction and the proved locator-divisibility-to-full-fiber lemma",
-   "falsifier": "petal divisor constraints whose forced non-tail roots cannot be partitioned into locally saturated dyadic quotient-fiber blocks outside one bounded common tail"
-  },
-  {
-   "id": "e22_cross_scale_duplicate_control",
-   "title": "E22 cross-scale duplicate control",
-   "status": "CONDITIONAL",
-   "statement": "The only duplicate representations among E22 staircase parameters across different quotient moduli M are the declared quotient-equivalence/cross-scale degeneracies.",
-   "attack_surface": "assemble fixed-scale root-set recovery with the exact declared cross-scale equivalence specification",
-   "falsifier": "an undeclared cross-scale duplicate staircase representation"
   },
   {
    "id": "e22_minimal_scale_partition",
@@ -4703,28 +4589,12 @@
    "falsifier": "equal staircase locators with different root sets, or a fixed-scale tail/fiber recovery failure"
   },
   {
-   "id": "e22_cross_scale_equivalence_specification",
-   "title": "E22 cross-scale equivalence specification",
-   "status": "CONDITIONAL",
-   "statement": "After the E22 staircase parameter set is fixed, specify the exact declared cross-scale equivalence relation on recovered root-set data and prove it includes every equal-support representation across quotient moduli.",
-   "attack_surface": "assemble canonical support-scale recovery with the remaining pricing multiplicity specification",
-   "falsifier": "an equal-support cross-scale representation pair not included in the declared equivalence relation, or an equivalence class whose pricing multiplicity is wrong"
-  },
-  {
    "id": "e22_tail_removed_quotient_factor_passthrough",
    "title": "E22 tail-removed quotient-factor passthrough",
    "status": "PROVED",
    "statement": "If a touched-petal locator L_T divides a cofactor H, and T is the disjoint union of a tail B and full quotient fibers with locators X^{M}-z, then after removing the tail factor L_B the cofactor divisibility supplies exactly those quotient factors. Products of distinct quotient fibers pass through with their multiplicity one.",
    "attack_surface": "formal squarefree locator divisibility after splitting tail and quotient-fiber factors",
    "falsifier": "a squarefree locator factorization L_T=L_B prod_z (X^M-z) dividing H while one quotient factor fails to divide the tail-removed cofactor"
-  },
-  {
-   "id": "e22_cofactor_divisor_quotient_gluing",
-   "title": "E22 cofactor divisor-to-quotient gluing",
-   "status": "CONDITIONAL",
-   "statement": "For E22 mixed/full-petal challengers, the petal-locator divisibility constraints H_i divisible by L_{T_i}, together with the degree and scalar data of the sunflower model, force all non-tail roots to be saturated on full fibers of a quotient map x -> x^M with M>t. This is reduced to fixed-tail local saturation plus the proved dyadic local-to-common saturation lemma.",
-   "attack_surface": "assembly from the E22-specific fixed-tail local-saturation theorem and the proved dyadic common-modulus gluing lemma",
-   "falsifier": "a family satisfying all petal divisor constraints but whose non-tail roots are not full fibers for any quotient modulus M>t"
   },
   {
    "id": "e22_overlap_residual_profile_formula",
@@ -4742,15 +4612,6 @@
    "attack_surface": "Weil-restrict extension rows to base F_p (proved f1/interleaved machinery); or price the trace-flat/subfield-norm class in the paid ledger.",
    "falsifier": "An extension row whose trace-flat/subfield-degenerate locus is neither paid nor base-reducible.",
    "notes": "PROVED (Pro T1, all core claims verified): exact Weil descent + trace-flat classification |Ann(A)|=p^{e-dimW} + SOV Euler product; both counterexamples absorbed as paid trace-kernel collapses. TRACE_FLAT ledger column installed; affordability (2^122.5 << |F|=2^131) routed to the mca_safe budget audit. SHARED SPINE CLOSED \u2014 dli & sov now need only their residual."
-  },
-  {
-   "id": "e22_mixed_petal_covariance",
-   "title": "E22 sunflower mixed-petal covariance (P1)",
-   "status": "TARGET",
-   "statement": "E22-CF source (Pro T2, confirmed 2nd pass): the sunflower supplies, off one common fiber-compatible bounded tail B (|B|<min M_i), BOTH (i) POINTWISE covariance H_i(eta x)=eta^{e_i}H_i(x) for eta in mu_{M_i} (equiv. H_i=X^{e_i}G_i(X^{M_i})), AND (ii) OFF-TAIL EXHAUSTIVITY T_i\\B={x in P_i\\B: H_i(x)=0} (the agreement set IS the full off-tail zero set). Then T_i\\B is mu_{M_i}-invariant and q_cofactor_normal_form (PROVED) gives L_{T_i\\B}=prod_z(X^{M_i}-z). BOTH clauses load-bearing: divisor constraints L_{T_i}|H_i alone fail (interpolation counterexample), and a quotient-shaped H with T one-point-short of full fibers also fails ('one point per fiber' counterexample) \u2014 exhaustivity is what excludes it. A pointwise extraction from the moment-trade model; NOT shared with P5.",
-   "attack_surface": "Extract the covariance/degree property from the actual E22 moment-trade sunflower model (U, L_{Z\\C}, L_{C\\Z}, a_i).",
-   "falsifier": "A mixed-petal challenger whose cofactor is not mu_M-semi-invariant off any bounded tail.",
-   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5. | 2nd T2 pass: added off-tail exhaustivity clause (one-point-per-fiber counterexample); confirmed separate from P5. | T6 (verified + Lean): source = SQUARE-SHIFT CHARACTER BALANCE + off-tail exhaustivity (F_97 counterexample confirms bare divisibility insufficient; stdlib Lean handoff, no sorry). Remaining: cite square-shift balance from the moment-trade construction."
   },
   {
    "id": "dihedral_sibling_window_certificate",
@@ -8147,73 +8008,8 @@
    "kind": "req"
   },
   {
-   "from": "e22_challenger_staircase_pricing",
-   "to": "worst_word_challenger_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_staircase_parametrization",
-   "to": "e22_challenger_staircase_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_tail_coset_locator_algebra",
-   "to": "e22_staircase_parametrization",
-   "kind": "req"
-  },
-  {
-   "from": "e22_agreement_coset_support_forcing",
-   "to": "e22_staircase_parametrization",
-   "kind": "req"
-  },
-  {
-   "from": "e22_agreement_cofactor_equations",
-   "to": "e22_agreement_coset_support_forcing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_coset_saturation",
-   "to": "e22_agreement_coset_support_forcing",
-   "kind": "req"
-  },
-  {
    "from": "e22_agreement_cofactor_equations",
    "to": "e22_cofactor_petal_divisibility",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_petal_divisibility",
-   "to": "e22_cofactor_coset_saturation",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_divisor_quotient_gluing",
-   "to": "e22_cofactor_coset_saturation",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_petal_divisibility",
-   "to": "e22_fixed_tail_local_saturation",
-   "kind": "req"
-  },
-  {
-   "from": "e22_fixed_tail_local_saturation",
-   "to": "e22_cofactor_divisor_quotient_gluing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_petal_divisibility",
-   "to": "e22_local_quotient_factor_extraction",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_petal_divisibility",
-   "to": "e22_cofactor_common_tail_quotient_structure",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_petal_divisibility",
-   "to": "e22_cofactor_common_tail_kernel_invariance",
    "kind": "req"
   },
   {
@@ -8222,11 +8018,6 @@
    "kind": "req"
   },
   {
-   "from": "e22_common_tail_invariance_certificate_soundness",
-   "to": "e22_cofactor_common_tail_kernel_invariance",
-   "kind": "req"
-  },
-  {
    "from": "e22_fiber_locator_saturation",
    "to": "e22_tail_removed_factor_manifest_soundness",
    "kind": "req"
@@ -8234,36 +8025,6 @@
   {
    "from": "e22_kernel_invariance_full_fiber_criterion",
    "to": "e22_tail_removed_factor_manifest_soundness",
-   "kind": "req"
-  },
-  {
-   "from": "e22_tail_removed_factor_manifest_soundness",
-   "to": "e22_common_tail_invariance_payload",
-   "kind": "req"
-  },
-  {
-   "from": "e22_tail_removed_factor_manifest_payload",
-   "to": "e22_common_tail_invariance_payload",
-   "kind": "req"
-  },
-  {
-   "from": "e22_common_tail_invariance_payload",
-   "to": "e22_cofactor_common_tail_kernel_invariance",
-   "kind": "req"
-  },
-  {
-   "from": "e22_kernel_invariance_full_fiber_criterion",
-   "to": "e22_cofactor_common_tail_quotient_structure",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_common_tail_kernel_invariance",
-   "to": "e22_cofactor_common_tail_quotient_structure",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cofactor_common_tail_quotient_structure",
-   "to": "e22_local_quotient_factor_extraction",
    "kind": "req"
   },
   {
@@ -8272,53 +8033,8 @@
    "kind": "req"
   },
   {
-   "from": "e22_tail_removed_quotient_factor_passthrough",
-   "to": "e22_local_quotient_factor_extraction",
-   "kind": "req"
-  },
-  {
-   "from": "e22_local_quotient_factor_extraction",
-   "to": "e22_fixed_tail_local_saturation",
-   "kind": "req"
-  },
-  {
-   "from": "e22_fiber_locator_saturation",
-   "to": "e22_fixed_tail_local_saturation",
-   "kind": "req"
-  },
-  {
    "from": "e22_dyadic_minimal_scale_selector",
    "to": "e22_dyadic_local_to_common_saturation",
-   "kind": "req"
-  },
-  {
-   "from": "e22_dyadic_local_to_common_saturation",
-   "to": "e22_cofactor_divisor_quotient_gluing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_staircase_injectivity",
-   "to": "e22_challenger_staircase_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_fixed_scale_staircase_injectivity",
-   "to": "e22_staircase_injectivity",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cross_scale_planted_degeneracy_control",
-   "to": "e22_staircase_injectivity",
-   "kind": "req"
-  },
-  {
-   "from": "e22_planted_profile_disjointness",
-   "to": "e22_cross_scale_planted_degeneracy_control",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cross_scale_duplicate_control",
-   "to": "e22_cross_scale_planted_degeneracy_control",
    "kind": "req"
   },
   {
@@ -8327,18 +8043,8 @@
    "kind": "req"
   },
   {
-   "from": "e22_staircase_parametrization",
-   "to": "e22_cross_scale_equivalence_specification",
-   "kind": "req"
-  },
-  {
    "from": "e22_cross_scale_rootset_recovery",
    "to": "e22_cross_scale_support_canonical_form",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cross_scale_support_canonical_form",
-   "to": "e22_cross_scale_equivalence_specification",
    "kind": "req"
   },
   {
@@ -8567,54 +8273,9 @@
    "kind": "req"
   },
   {
-   "from": "e22_cross_scale_pricing_multiplicity",
-   "to": "e22_cross_scale_equivalence_specification",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cross_scale_rootset_recovery",
-   "to": "e22_cross_scale_duplicate_control",
-   "kind": "req"
-  },
-  {
-   "from": "e22_cross_scale_equivalence_specification",
-   "to": "e22_cross_scale_duplicate_control",
-   "kind": "req"
-  },
-  {
-   "from": "e22_staircase_parametrization",
-   "to": "e22_staircase_arithmetic_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_staircase_injectivity",
-   "to": "e22_staircase_arithmetic_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "dyadic_profile_evaluation",
-   "to": "e22_staircase_arithmetic_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_staircase_arithmetic_pricing",
-   "to": "e22_challenger_staircase_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "e22_mixed_petal_covariance",
-   "to": "e22_tail_removed_factor_manifest_payload",
-   "kind": "req"
-  },
-  {
    "from": "dihedral_sibling_window_certificate",
    "to": "rate_half_band_closure",
    "kind": "ev"
-  },
-  {
-   "from": "q_cofactor_normal_form",
-   "to": "e22_tail_removed_factor_manifest_payload",
-   "kind": "req"
   },
   {
    "from": "dli_prime_weighted_large_block_support",
