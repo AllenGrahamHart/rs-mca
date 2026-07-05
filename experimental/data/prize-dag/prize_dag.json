@@ -331,7 +331,8 @@
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md"
    ],
-   "notes": "combinatorics PROVED; completeness rests on GAP-1 pricing"
+   "notes": "combinatorics PROVED; completeness rests on GAP-1 pricing",
+   "statement": "Strip-periodic: the aperiodic stratum is exact -- B_C(a_safe) decomposes with the periodic strata stripped (periodic_strata + q_recursion + confinement + isotypic, all PROVED) leaving the gap-1 non-equivariant mass (gap1_noneq_mass) as the only open input. [Statement recovered from nodes/strip/statement.md during the 2026-07-05 amber triage: the dag statement field was EMPTY -- flagged for the overnight audit to state the implication precisely.]"
   },
   {
    "id": "periodic_strata",
@@ -1356,7 +1357,8 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#4"
    ],
-   "notes": "priced by ext_import (green); the second condition \u2014 the list-side location \u2014 was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location."
+   "notes": "priced by ext_import (green); the second condition \u2014 the list-side location \u2014 was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location.",
+   "statement": "F1 case (ii): pole-type slopes are priced by the imported list term (ext_import, PROVED) with the list-side location supplied by f1_pole_list_threshold_location. [Statement recovered from nodes/f1_case_pole/statement.md during the 2026-07-05 amber triage: the dag statement field was EMPTY.]"
   },
   {
    "id": "f1_case_tower",
