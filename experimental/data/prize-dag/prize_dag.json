@@ -3973,7 +3973,8 @@
    "status": "TARGET",
    "statement": "Provide the actual coupled AQB manifest for sigma*=8,592,912,738: the c=2 averaged-family member parametrization, shared quotient/fiber and reusable charge data, member-to-witness transfers, and exact or interval-certified entropy ledger entries keyed to that same family with certified net gain at least 429,645,547 bits.",
    "attack_surface": "actual construction/import of the averaged c=2 family together with its certified entropy ledger",
-   "falsifier": "a missing family field, a ledger not keyed to the family, or a certified net lower bound below 429,645,547 bits"
+   "falsifier": "a missing family field, a ledger not keyed to the family, or a certified net lower bound below 429,645,547 bits",
+   "notes": "| ATTACK OPEN (node 1): deficit side PROVED (B_I(256)=429645546.77<429645547, interval-certified); averaging transfer PROVED. Residue = the c=2 box-charge amortization gain (construct canonical family + closed-form ledger, net >=429645547, OR refute via independent-box decomposition). Self-contained Pro brief issued."
   },
   {
    "id": "aqb_box_charge_amortization",
