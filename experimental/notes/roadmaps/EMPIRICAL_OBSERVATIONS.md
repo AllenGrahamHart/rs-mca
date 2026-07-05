@@ -300,3 +300,20 @@ Per the falsification-pruning protocol, attacked the premises A of the consumer 
 Also: e22 consumer's premise (certificate CF) is exactly what Codex found unachievable (0/85 challengers) --
 if Modal-confirmed, the manifest's coverage is vacuous for structured challengers; interface scope must say
 which challengers need CF vs are routed elsewhere.
+
+## dli CHAIN RE-POSE + COHERENCE AUDIT (sup -> weighted, full chain) — chain now coherent
+- dli_prime_block_conductor_mass + dli_bohr_flatness_prime RE-POSED from sup_M to U-WEIGHTED form
+  (E_U[C_j+X_j]=o(L_j); E_U[S_{j,lambda}]=o(L_j) + Markov + trivial eta_j<=L_j => E_U[q^{eta_j}]=q^{o(L_j)}).
+  The proved pointwise T3 reduction (S<=C_j+X_j, Deligne + exceptional split) is unchanged, applied inside the average.
+- SAFETY MARGIN VERIFIED: low-mass profiles (all-singleton blocks, X_j~L_j) falsify the sup but self-kill under
+  the weight: weight fraction 2^{-501L_j} vs penalty q^{L_j}=2^{256L_j} => net 2^{-245L_j}. Independently matches
+  Codex's alpha=256 envelope (-0.9639 ~ -245/256) and its exact weighted DPs (rho=1.000000 flat).
+- AUDIT UP THE CHAIN: 9 more nodes had per-profile language. Pole/conductor nodes (polar_obstruction,
+  pole_majorant, reduced_pole_budget, noncollapse, reduced_phase_manifest, harmonic ledger) are MASS-INSENSITIVE
+  (pole orders/conductors don't depend on profile mass) -- left uniform. The 4 mass-SENSITIVE nodes
+  (exponential_sum_bound, peak_mass_discrepancy, odd_evaluation_discrepancy, log_integral_equidistribution)
+  CANNOT hold for low-mass profiles (inactive coords contribute 0 to the log-integral; the bound needs ~256L_j
+  coords x 2log2) -- SCOPED to full-mass profiles; the low-mass tail is absorbed by the weighted ledger below.
+=> The dli chain is now COHERENT end-to-end: leaf (weighted/RES) -> ledger (weighted) -> 2nd moment (weighted)
+   -> full-mass-scoped Deligne branch -> ejm -> pcf -> b2b (weighted). The re-pose propagation debt from the
+   leaf correction is PAID.
