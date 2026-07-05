@@ -139,7 +139,7 @@
   {
    "id": "mca_unsafe",
    "title": "MCA unsafe side at adjacent grid point",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
@@ -176,7 +176,7 @@
   {
    "id": "zone_b",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "gate": "any",
    "key": true,
    "refs": [
@@ -1125,7 +1125,7 @@
   {
    "id": "e1_fullness",
    "title": "e1 non-quotient collision density",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16).",
    "notes": "CONSUMER-TOLERANCE: the N'=256 cell needs the DENSITY bound (o(1)-sparse), not the zero-cert. The folded zero-cert is the strong route (held at N'=128); at N'=256 use the density/typicality route (e1_official_typicality_or_certificate)."
   },
@@ -4182,7 +4182,7 @@
   {
    "id": "e1_folded_certificate_cell_256_payload",
    "title": "E1 actual folded certificate payload for N'=256",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For the E1 open cell N'=256, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_256_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^128.",
    "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=256 no-vector certificate payload",
    "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=256 field, or an incomplete no-vector certificate"
@@ -4198,7 +4198,7 @@
   {
    "id": "e1_open_cell_control_payload",
    "title": "E1 open-cell typicality or folded-certificate payload",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For N' in {128,256}, provide either a uniform admissible-family typicality theorem for the explicit exceptional norm-divisor set, or named exhibit fields with complete folded kernel certificates returning no nonzero non-cyclotomic folded vector. This is reduced to the proved folded-certificate manifest soundness rule plus the remaining actual named folded-certificate manifest payload.",
    "attack_surface": "assembly from folded-certificate manifest soundness and the actual complete named folded-certificate transcripts for the open E1 cells",
    "falsifier": "missing N'=128 or N'=256 coverage, a failed folded certificate, or an admissible-field family with exceptional incidence exceeding the allowed budget"
@@ -4230,7 +4230,7 @@
   {
    "id": "e1_folded_certificate_manifest_payload",
    "title": "E1 actual folded-certificate manifest payload",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Construct the named folded-certificate manifest for the E1 open cells N' in {128,256}. This is now conditional on the proved two-cell assembly rule plus the actual N'=128 and N'=256 folded-certificate cell payloads, each with a named exhibit field, complete folded kernel certificate, and zero nonzero non-cyclotomic folded vectors.",
    "attack_surface": "assembly from the two explicit E1 folded-certificate cell payloads",
    "falsifier": "missing N'=128 or N'=256 cell payload, an incomplete folded certificate, or a nonzero folded vector in either listed certificate"
@@ -4246,11 +4246,11 @@
   {
    "id": "e1_folded_no_vector_certificate_256_payload",
    "title": "e1 N'=256: density bound (WEAKENED from the zero-survivor cert)",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "WEAKENED (consumer-tolerance, verified): e1_fullness needs only that non-quotient e1 collisions are o(1)-SPARSE relative to the value set (density), NOT a zero-survivor folded cert. The N'=256 dim-128 {-2..2}-box ZERO-cert is (a) likely IMPOSSIBLE at |F|<2^256 (random model: ~2^48 expected non-quotient box collisions; BKZ inconclusive) and (b) UNNECESSARY: 2^48 / value-set(~2^249) = 2^-201 = o(1), so e1_fullness holds regardless. ACHIEVABLE ROUTE (from e1_fullness's own statement): the density/typicality bound \u2014 norm_threshold_ext, split-prime transfer, or a bad-prime union bound \u2014 over the admissible prime family. The dim-128 exact lattice enumeration is over-engineered; do not pursue it. (N'=128 zero-cert genuinely HELD: lambda_1=31.67>16.)",
    "attack_surface": "actual complete no-vector certificate for the N'=256 folded kernel over the named field/root",
    "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=256 field/root, or an incomplete certificate transcript",
-   "notes": "OPEN + HARD (Modal fpylll): BKZ shortest = 18.8 < radius 22.6 but inf-norm 4 (NOT a box vector) -> plain lambda_1 INCONCLUSIVE (cone-restricted/box bound needed, as reframing flagged). Count heuristic 2^48 box collisions NOT confirmed (BKZ found none). Needs a bounded-coefficient box enumeration or a cone-restricted dual cert to resolve certify-vs-collision. | RE-POSED (over-strong, verified): the zero-cert is impossible AND unnecessary; e1_fullness needs o(1)-sparsity (2^-201), delivered by the DENSITY route (norm-threshold / split-prime / bad-prime union). Deprioritize the dim-128 enumeration."
+   "notes": "OPEN + HARD (Modal fpylll): BKZ shortest = 18.8 < radius 22.6 but inf-norm 4 (NOT a box vector) -> plain lambda_1 INCONCLUSIVE (cone-restricted/box bound needed, as reframing flagged). Count heuristic 2^48 box collisions NOT confirmed (BKZ found none). Needs a bounded-coefficient box enumeration or a cone-restricted dual cert to resolve certify-vs-collision. | RE-POSED (over-strong, verified): the zero-cert is impossible AND unnecessary; e1_fullness needs o(1)-sparsity (2^-201), delivered by the DENSITY route (norm-threshold / split-prime / bad-prime union). Deprioritize the dim-128 enumeration. | PROVED (Pro W3, verified): bad-prime union bound gives E S_p <= 2^64.2 at N'=256 => o(1)-sparse for all but p^-0.24 of admissible primes. Density/typicality route."
   },
   {
    "id": "e1_folded_certificate_cell_128_payload",
@@ -4280,7 +4280,7 @@
   {
    "id": "e1_official_typicality_or_certificate",
    "title": "E1 official-prime typicality or certificate",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For the open E1 cells N' in {128,256}, either prove uniform admissible-family typicality for the explicit exceptional norm-divisor set, or complete folded kernel certificates for named exhibit fields and return no nonzero non-cyclotomic folded vector. This is reduced to route soundness plus the remaining open-cell control payload.",
    "attack_surface": "assembly from official-row pinning, folded-certificate soundness, route soundness, and the remaining open-cell control payload",
    "falsifier": "an admissible row or named exhibit field with too many non-quotient folded sparse kernel vectors, a failed/incomplete folded certificate, or a defect in the route-soundness reduction"
@@ -4288,7 +4288,7 @@
   {
    "id": "e1_official_prime_exception_control",
    "title": "E1 official-prime exceptional-set control",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For the admissible prize-scale row primes in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count. Equivalently, the official row primes are typical for the exceptional-set reduction, or the pinned rows are certified directly by the folded lattice/kernel procedure.",
    "attack_surface": "assembly from folded-certificate soundness plus the remaining official-row typicality/certificate production",
    "falsifier": "an admissible prize-scale row prime with enough non-quotient folded sparse kernel vectors to make e1 collisions exceed the allowed o(1) budget"

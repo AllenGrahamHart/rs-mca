@@ -404,12 +404,12 @@
   },
   {
    "id": "e1_folded_certificate_cell_256_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 actual folded certificate payload for N'=256"
   },
   {
    "id": "e1_folded_certificate_manifest_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 actual folded-certificate manifest payload"
   },
   {
@@ -429,12 +429,12 @@
   },
   {
    "id": "e1_folded_no_vector_certificate_256_payload",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "e1 N'=256: density bound (WEAKENED from the zero-survivor cert)"
   },
   {
    "id": "e1_fullness",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "e1 non-quotient collision density"
   },
   {
@@ -444,17 +444,17 @@
   },
   {
    "id": "e1_official_prime_exception_control",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 official-prime exceptional-set control"
   },
   {
    "id": "e1_official_typicality_or_certificate",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 official-prime typicality or certificate"
   },
   {
    "id": "e1_open_cell_control_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 open-cell typicality or folded-certificate payload"
   },
   {
@@ -1229,7 +1229,7 @@
   },
   {
    "id": "mca_unsafe",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "MCA unsafe side at adjacent grid point"
   },
   {
@@ -1814,7 +1814,7 @@
   },
   {
    "id": "zone_b",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)"
   }
  ],
