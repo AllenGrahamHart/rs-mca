@@ -158,3 +158,18 @@ obligation (quotient/dihedral exhaustion + the Lane-1 power-sum residual bound +
 quantifier); (2) moderate primes (structural claim, scale-invariant, but not prize-scale); (3) maxpow has a
 small-sample bias at tiny m (handled: REAL_CE category is mass-sufficient where maxpow is reliable).
 CONFIDENCE: mechanism HIGH; full sov leaf MEDIUM-HIGH (untested parts remain).
+
+## sov LANE-1 RESIDUAL probe (quantitative, dli-lesson-applied) — Lane-1 ROBUST; pricing crux identified
+Quantitative (B=maxpow, value-set deficit) census + a gap probe (diluted-Bohr cells, Bohr fraction 0..1):
+- 0 Lane-1 violations across 328 mass-sufficient cells. Fourier-uniform cells have deficit~0 (FULL value-set).
+- Sharp transition: deficit~0 up to B~0.93; only PURE Bohr/interval (B->1) collapses (deficit 0.99). A 10%
+  random admixture already rescues the value-set. So the Bohr class that TRULY collapses is very narrow.
+- KEY SUBTLETY for the pricing obligation: a cell can have high char-sum B AND full value-set (random part
+  rescues). The Bohr GATE (B>threshold) thus OVER-includes cells Lane-1 would close. Threshold placement:
+  low => Bohr class large/expensive to price; near B=1 => narrow/cheap, BUT only if the Euler-product bound
+  is TIGHT enough to close cells up to B~1. Empirically deficit=0 up to B~0.93.
+  => THE CRUX of the pricing obligation = tightness of the Lane-1 Euler-product bound near B=1 (the gap between
+     "Lane-1 proves closure" and "Bohr gate must price"). This is the sharp question for a Pro round / proof.
+- CONFIDENCE: Lane-1 Euler-product theorem empirically ROBUST (stress-tested, survives). The open pricing
+  obligation is well-characterized (narrow Bohr class) but its difficulty hinges on the bound's tightness.
+  Moderate primes (structural). Overall sov: mechanism HIGH, Lane-1 HIGH, pricing obligation OPEN-but-narrowed.
