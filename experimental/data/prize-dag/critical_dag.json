@@ -1584,7 +1584,7 @@
   },
   {
    "id": "subfield_trace_paid_gate",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "Subfield/trace-flat paid gate (SHARED: dli + sov)"
   },
   {
