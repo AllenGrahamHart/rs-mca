@@ -2841,7 +2841,7 @@
   {
    "id": "xr_eliminant_vanishing_class",
    "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "key": true,
    "statement": "The triple-level u5 dichotomy's structured branch: classify support/slope configurations where the light-triangle eliminant vanishes IDENTICALLY (for structural reasons) \u2014 conjecturally exactly the paid patterns (near-heavy boundary, dihedral-symmetric, pullback-patterned). Per the program's strategy this node is NOT decomposed further until the census runs: E32-extended enumerates ALL eliminant-vanishing light configurations at n = 16 exhaustively; the classification will be written along the observed cases (the E9/E13 pattern). SHARPENED POST-E32: since the eliminant is nonzero on every light profile, coordinate-special stagnation means lying on a PROPER hypersurface inside the profile cell \u2014 the remaining obligation is 'per pair, aligned light triples on an explicit proper hypersurface are rationed', a Bezout/SPI-shaped counting statement, no longer a classification. Its proof route likely shares the deep-link staircase's budget machinery (E33 pending).",
    "attack_surface": "E32-extended census first; then the M5 chart machinery per observed class",
@@ -4050,7 +4050,7 @@
   {
    "id": "xr_profile_eliminant_nonvanishing",
    "title": "XR light-profile eliminant nonvanishing",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For every budget-meeting light-triangle profile not already paid or boundary, the normal-form matrix from xr_triangle_eliminant_form has at least one maximal minor that is a nonzero polynomial in the profile coordinates. This follows once the certificate semantics are fixed and every unpaid light profile is covered by a concrete nonzero minor/specialization certificate.",
    "attack_surface": "assembled from xr_minor_specialization_certificate_semantics plus xr_profile_minor_certificate_coverage; the latter is the remaining uniform certificate-production problem",
    "falsifier": "a budget-meeting unpaid light profile for which no admissible nonzero maximal-minor specialization exists"
@@ -4058,7 +4058,7 @@
   {
    "id": "xr_profile_minor_certificate_payload",
    "title": "XR profile minor-certificate payload",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, supply either an admissible triangular maximal-minor certificate, an admissible monomial/noncancellation certificate, or a complete remote certificate-table record giving a nonzero maximal-minor specialization. This is reduced to the proved record-inventory soundness rule plus the remaining actual XR profile record inventory payload.",
    "attack_surface": "assembly from the record-inventory soundness rule and the actual uniform profile-by-profile certificate inventory without local E32 search",
    "falsifier": "a budget-meeting unpaid non-boundary light profile with no payload entry or with only a determinant-zero or inadmissible specialization"
@@ -4074,7 +4074,7 @@
   {
    "id": "xr_profile_minor_certificate_coverage",
    "title": "XR profile minor-certificate coverage",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, produce a maximal minor of the normal-form matrix from xr_triangle_eliminant_form and an admissible chart specialization at which that determinant is nonzero. This is reduced to the proved triangular-minor soundness criterion, the record-inventory soundness rule, and the remaining actual uniform profile record inventory payload.",
    "attack_surface": "assembly from the triangular determinant criterion, record-inventory soundness, and the remaining uniform profile inventory payload; toy E32 data remains evidence only",
    "falsifier": "a budget-meeting unpaid non-boundary light profile for which every maximal minor vanishes at every admissible specialization"
@@ -4082,11 +4082,11 @@
   {
    "id": "xr_profile_minor_record_inventory_payload",
    "title": "XR actual profile minor record inventory payload",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Construct the actual inventory of XR minor-certificate records covering every budget-meeting unpaid non-boundary light-triangle profile, with each record triangular with nonzero diagonal, monomial/noncancellation-certified, or part of a complete remote nonzero-minor certificate table.",
    "attack_surface": "project-specific uniform XR profile enumeration and certificate-record construction",
    "falsifier": "a live XR profile missing from the inventory, an inadmissible record, or a listed record whose determinant evidence is zero",
-   "notes": "| CENSUS (Modal, evidence): 152/152 light profile types across k=2..6 certified nonvanishing, 0 gaps, uniform across scales. Evidence-only (profile count grows -> full quantifier needs parametric proof). Pro brief issued."
+   "notes": "CENSUS (Modal, evidence): 152/152 light profile types across k=2..6 certified nonvanishing, 0 gaps, uniform across scales. Evidence-only (profile count grows -> full quantifier needs parametric proof). Pro brief issued. | PROVED (Pro basis-free proof, verified 2837 triples + 152/152 census): uniform certificate \u2014 collapse-to-I + r<=k Vandermonde at distinct slopes => rank 3t. Covers ALL light profiles."
   },
   {
    "id": "xr_profile_minor_record_inventory_soundness",

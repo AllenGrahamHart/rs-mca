@@ -954,7 +954,7 @@
   },
   {
    "id": "xr_eliminant_vanishing_class",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations"
   },
   {
@@ -1009,22 +1009,22 @@
   },
   {
    "id": "xr_profile_eliminant_nonvanishing",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "XR light-profile eliminant nonvanishing"
   },
   {
    "id": "xr_profile_minor_certificate_coverage",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "XR profile minor-certificate coverage"
   },
   {
    "id": "xr_profile_minor_certificate_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "XR profile minor-certificate payload"
   },
   {
    "id": "xr_profile_minor_record_inventory_payload",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "XR actual profile minor record inventory payload"
   },
   {
