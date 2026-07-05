@@ -4296,7 +4296,8 @@
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)",
    "status": "TARGET",
    "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
-   "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class."
+   "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class.",
+   "notes": "| Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1."
   }
  ],
  "edges": [
