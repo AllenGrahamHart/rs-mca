@@ -283,3 +283,20 @@ of product-of-kernel types. So PRK is likely FIXABLE by adding multi-character p
 chargeability obligation (each must fit a ledger budget), which does not exist yet.
 ANSWER to 'is the amber true / stress-tested?': NO -- and stress-testing FALSIFIED it as stated. The petal branch
 needs an expanded paid menu + multi-character chargeability. The 24 downstream conditionals hinge on this repair.
+
+## CONSUMER-PREMISE ATTACKS (the 5 ambers accepting the 5 reds) — 3 findings, 1 pruning
+Per the falsification-pruning protocol, attacked the premises A of the consumer ambers directly:
+1. petal_cofactor_chargeability: FALSIFIED AS STATED by the same multi-char families that killed PRK --
+   escape paid menu (25/25) AND dim Pi_prim grows ~2c/M (measured 8..24 for c=11..35); tail ops O(1) can't
+   rescue. => PRK PRUNED (salvage non-trivial, consumer falls to same object); frontier moved UP to
+   chargeability (demoted to red, re-posed). Petal chain trimmed one level toward the prize.
+2. dli_prime_block_conductor_mass (+bohr_flatness_prime): INTERFACE MISMATCH -- leaf re-posed to weighted
+   average but consumers still sup/uniform-form; plus structural falsifier-candidate (minimal-support profile
+   => all singleton blocks => exceptional mass ~L_j, not o(L_j)). Recommend re-posing the T3 intermediate
+   chain to weighted form (the second-moment reduction likely needs only the average). No status flip (scope caveat).
+3. m720_official_norm_gate_case_manifest_payload: COMPRESSION ROUTE EMPIRICALLY DEAD -- the h=7 (official
+   band edge) survivor has FULL degree 32=phi(64), 291*32=9312 >> 250 (fails ~37x); all measured survivors
+   full-degree. Live premise narrows to the C2/D-GCD certificate route (data acquisition).
+Also: e22 consumer's premise (certificate CF) is exactly what Codex found unachievable (0/85 challengers) --
+if Modal-confirmed, the manifest's coverage is vacuous for structured challengers; interface scope must say
+which challengers need CF vs are routed elsewhere.

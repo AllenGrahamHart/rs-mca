@@ -1344,7 +1344,7 @@
   },
   {
    "id": "petal_cofactor_chargeability",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "Petal cofactor chargeability lemma (P5-CL)"
   },
   {
@@ -1371,11 +1371,6 @@
    "id": "petal_mixed_amplification_step",
    "label": "CONDITIONAL",
    "title": "Petal mixed-amplification induction step"
-  },
-  {
-   "id": "petal_primitive_residue_kernel_rank",
-   "label": "UNPROVED",
-   "title": "Petal primitive residue-kernel rank lemma PRK_pet (T7 residual)"
   },
   {
    "id": "petal_realizable_extra_uniformity",
@@ -3980,10 +3975,6 @@
   {
    "from": "dli_prime_block_conductor_mass",
    "to": "dli_bohr_flatness_prime"
-  },
-  {
-   "from": "petal_primitive_residue_kernel_rank",
-   "to": "petal_cofactor_chargeability"
   },
   {
    "from": "dli_prime_weighted_large_block_support",
