@@ -364,8 +364,13 @@
   },
   {
    "id": "dli_prime_block_conductor_mass",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)"
+  },
+  {
+   "id": "dli_prime_weighted_large_block_support",
+   "label": "UNPROVED",
+   "title": "DLI odd-eval residue partition has large blocks (weighted anti-concentration) \u2014 T3-followup residual"
   },
   {
    "id": "dli_reduced_phase_manifest_payload",
@@ -3979,6 +3984,10 @@
   {
    "from": "petal_primitive_residue_kernel_rank",
    "to": "petal_cofactor_chargeability"
+  },
+  {
+   "from": "dli_prime_weighted_large_block_support",
+   "to": "dli_prime_block_conductor_mass"
   },
   {
    "from": "acl_second_order",

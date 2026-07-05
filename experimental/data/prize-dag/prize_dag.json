@@ -5307,11 +5307,11 @@
   {
    "id": "dli_prime_block_conductor_mass",
    "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Over prime rows F_p, uniformly in the central profile M and every nonzero lambda, the weighted block ledger is sublinear: sup_{M,lambda!=0} [ sum_{r not in X_{j,lambda}} m_{j,r} cond_{j,r}(lambda)^2/|A_{j,r}| + sum_{r in X_{j,lambda}} m_{j,r} ] = o(L_j) per level j, where cond_{j,r} is the reduced-pole conductor of lambda P_lambda on residue block A_{j,r} and X_{j,lambda} is the exceptional set (singleton blocks, exact atoms, near-linear/pole-failure blocks). SUFFICIENT concrete form: #{active blocks}=O((log n)^A), cond=O((log n)^B), m_{j,r} << |A_{j,r}|, exceptional mass o(L_j). Then S_{j,lambda}=o(L_j) unconditionally (T3), closing dli.",
    "attack_surface": "count active residue blocks + bound reduced-pole conductors (via the proved dli_phase_pole_conductor_manifest) + bound singleton/near-linear exceptional mass; possibly a finite structural computation on the section blocks.",
    "falsifier": "a level/profile/frequency with polynomially-many high-conductor blocks OR Omega(L_j) singleton/exact-atom mass.",
-   "notes": "T3 residual leaf: the deepest, most concrete form of dli \u2014 a weighted conductor + small-block mass count. Reduction to this is PROVED (second-moment split + Deligne)."
+   "notes": "T3 residual leaf: the deepest, most concrete form of dli \u2014 a weighted conductor + small-block mass count. Reduction to this is PROVED (second-moment split + Deligne). | AMBERED (T3-followup, verified): refuted as unconditional (small-block counterexample); PROVED conditional on dli_prime_weighted_large_block_support (real map-partition has large blocks)."
   },
   {
    "id": "petal_primitive_residue_kernel_rank",
@@ -5321,6 +5321,15 @@
    "attack_surface": "stratify the residue-kernel realizable locus; bound primitive tangent rank of residual components via the actual kernel equations + squarefree openness.",
    "falsifier": "an in-regime squarefree-realizable family with unbounded primitive tangent rank not contained in any paid template.",
    "notes": "T7 residual leaf: the sole family-level lemma making P5-CL unconditional. T2 is terminal only."
+  },
+  {
+   "id": "dli_prime_weighted_large_block_support",
+   "title": "DLI odd-eval residue partition has large blocks (weighted anti-concentration) \u2014 T3-followup residual",
+   "status": "TARGET",
+   "statement": "For the ACTUAL (map-determined) residue partition of the odd-evaluation map on the square-root section, there is a threshold B_j->inf with Gamma_j/B_j->0 (Gamma_j=sup_{lambda,r not in X} cond_{j,r}(lambda)^2) such that, uniformly in the central profile M and every nonzero lambda, the multiplicity mass on exceptional + small blocks is sublinear: sum_{r not in X, |A_{j,r}|<B_j} m_{j,r} + sum_{r in X_{j,lambda}} m_{j,r} = o(L_j). I.e. a typical weighted active coordinate lies in a residue block whose size -> infinity, with conductor^2 negligible vs block size. This is WEIGHTED ANTI-CONCENTRATION of the residue partition \u2014 NOT trace, NOT exact collisions, NOT Deligne; a structural property of the odd-eval map (the free-partition singleton counterexample is not a real DLI partition).",
+   "attack_surface": "compute/bound the block-size distribution of the degree-preimage residue partition of the odd-eval map on the square-root section; likely checkable at small scale (mu_16/mu_32).",
+   "falsifier": "a central profile / level whose actual map-partition carries Omega(L_j) mass on blocks of bounded size.",
+   "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7."
   }
  ],
  "edges": [
@@ -9772,6 +9781,11 @@
   {
    "from": "petal_primitive_residue_kernel_rank",
    "to": "petal_cofactor_chargeability",
+   "kind": "req"
+  },
+  {
+   "from": "dli_prime_weighted_large_block_support",
+   "to": "dli_prime_block_conductor_mass",
    "kind": "req"
   }
  ]
