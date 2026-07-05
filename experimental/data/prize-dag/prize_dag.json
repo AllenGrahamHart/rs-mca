@@ -3696,7 +3696,7 @@
   {
    "id": "single_obstruction_valueset",
    "title": "single obstruction valueset",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "THE LEMMA UNDER midlarge_h20_A: for h > 20 at official-shape rows, the first obstruction O_{h-1}, restricted to anchored cores, takes >= C(n,h)/budget distinct values in F_p (equivalently: its fibers are small). EVIDENCE WALL: the value-distribution scan \u2014 sample anchored cores at h = 21..40, calibration rows, measure O-value collision rates; pre-registered: collision rate consistent with uniform => the lemma's shape is right; heavy collisions => route dead, fall back to per-h certificates.",
    "attack_surface": "sampling scan, delegable; then the proof via character sums or the norm structure",
    "falsifier": "O-value collision rates far above uniform at any calibration row",
@@ -4294,10 +4294,10 @@
   {
    "id": "ef_fullfield_bridge",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
    "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class.",
-   "notes": "| Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1."
+   "notes": "Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1. | Pro round 2 (verified): linearity ALONE does not close it (S9 obstruction exhibited). Reduced to: (proved) F-valued=>e-interleaved witness + (open) interleaved_floor_import (does ext_pole_floor cover interleaved witnesses?). Ordinary-base-list version FALSE."
   },
   {
    "id": "petal_residue_kernel_linear_bound",
@@ -4379,6 +4379,131 @@
    "statement": "In the L1 coset-chart full-petal residue bridge, every exact realizable full-petal extra determines a squarefree locator point lying in the residue-line kernel, and this assignment is injective.",
    "attack_surface": "Lemma 8 full-petal rank certificate from the coset-chart bridge",
    "falsifier": "two distinct realizable full-petal extras with the same locator point, or a realizable extra whose locator does not lie in the residue-line kernel"
+  },
+  {
+   "id": "sov_affine_piece_partition_payload",
+   "title": "SOV affine-piece partition payload",
+   "status": "TARGET",
+   "statement": "Provide the actual anchored-core partition certificates for every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell: cancellative affine pieces plus budget-small paid/norm-structured exceptions.",
+   "attack_surface": "actual anchored-core coordinate decomposition and exceptional-piece budget proof",
+   "falsifier": "a forced-root conditioning cell with no such partition or with exceptional mass above the character-sum budget"
+  },
+  {
+   "id": "sov_active_core_obstruction_vanishing",
+   "title": "SOV active-core obstruction vanishing",
+   "status": "PROVED",
+   "statement": "Every active h-core in the intended h>20 band corresponds to a finite h-trade whose locator L satisfies the forced-root obstruction equations, so all obstruction coordinates from sov_forced_root_recursion_algebra vanish.",
+   "attack_surface": "connect active-core equations to the finite h-trade square-shift model used by X79, uniformly for h in the intended band",
+   "falsifier": "an active h-core whose locator is not in the square-shift trade model or has a nonzero forced-root obstruction coordinate"
+  },
+  {
+   "id": "sov_first_obstruction_sensitivity",
+   "title": "SOV first-obstruction coefficient sensitivity",
+   "status": "PROVED",
+   "statement": "For the forced-root obstruction construction, changing only the coefficient of X^{h-1} in the locator L leaves the forced root unchanged and changes the first obstruction O_{h-1} by exactly the negative of that coefficient change. Hence O_{h-1} is the correct coordinate-sensitive obstruction to use for the value-set problem.",
+   "attack_surface": "triangular forced-root recursion and coefficient inspection",
+   "falsifier": "a unit change in the X^{h-1} coefficient that changes the forced root or fails to change O_{h-1} by -1"
+  },
+  {
+   "id": "sov_obstruction_equidistribution",
+   "title": "SOV first-obstruction value-set equidistribution",
+   "status": "CONDITIONAL",
+   "statement": "For official-shape rows and h in (20,A], the first obstruction map O_{h-1} on anchored cores has sufficiently small fibers. Equivalently, the value set of O_{h-1} is large enough to prevent a super-budget concentration of active cores in any one value fiber.",
+   "attack_surface": "assembly from first-obstruction sensitivity and the remaining value-distribution/fiber theorem",
+   "falsifier": "a calibration or official-shape row where O_{h-1} has a fiber above the active-core budget, or a structural family of anchored cores on which O_{h-1} is constant"
+  },
+  {
+   "id": "sov_forced_root_recursion_algebra",
+   "title": "SOV forced-root recursion algebra",
+   "status": "PROVED",
+   "statement": "For every h over odd characteristic, the monic degree-h square-root recursion uniquely recovers the degree-h polynomial S forced by the top h+1 coefficients of a monic degree-2h locator L, and the obstruction vector is exactly the list of coefficients of S^2-L in degrees 1 through h-1. In the X79 shifted-constant trade model the recursion returns the midpoint and all obstructions vanish.",
+   "attack_surface": "symbolic triangular coefficient recursion; local verifier replays the generalized X79 gate for several h",
+   "falsifier": "a degree 2h locator whose top coefficients do not determine the forced root by the printed recursion, or a shifted-constant X79 trade with a nonzero obstruction"
+  },
+  {
+   "id": "sov_hminus1_fiber_fourier_duality",
+   "title": "SOV h-1 fiber Fourier duality",
+   "status": "PROVED",
+   "statement": "For any forced-root conditioned anchored-core fiber and the map c(L)=[X^{h-1}]L to the row field, the largest fiber of c is bounded by the uniform term plus the average of the nontrivial additive character sums of c.",
+   "attack_surface": "finite-field Fourier inversion on the coefficient map",
+   "falsifier": "a finite map to a field whose fiber size exceeds the Fourier-inversion bound"
+  },
+  {
+   "id": "sov_fiber_budget_translation",
+   "title": "SOV fiber bound to active-core budget",
+   "status": "CONDITIONAL",
+   "statement": "The quantitative fiber bound supplied by sov_obstruction_equidistribution is below the per-h active-core budget for every h in (20,A] at the official-shape rows.",
+   "attack_surface": "exact arithmetic once the value-set bound has constants",
+   "falsifier": "a row or h value where the proved fiber bound is still too large for the active-core budget used by midlarge_h20_A"
+  },
+  {
+   "id": "sov_nonconstant_affine_character_cancellation",
+   "title": "SOV nonconstant affine character cancellation",
+   "status": "PROVED",
+   "statement": "For any finite-dimensional affine space over the row field, any nontrivial additive character, and any affine-linear coefficient map with nonzero linear part, the nontrivial character sum over the affine space is zero. For a disjoint partition into such affine pieces plus an exceptional set, the total character sum is bounded by the exceptional-set size.",
+   "attack_surface": "finite-field additive-character orthogonality on a nonconstant affine map",
+   "falsifier": "a nonconstant affine-linear map over a finite field whose nontrivial additive character sum is nonzero"
+  },
+  {
+   "id": "sov_first_obstruction_value_distribution",
+   "title": "SOV first-obstruction value distribution",
+   "status": "CONDITIONAL",
+   "statement": "For official-shape rows and h in (20,A], the coefficient-sensitive first obstruction O_{h-1} has fibers small enough on anchored cores to meet the active-core budget.",
+   "attack_surface": "assembly from first-obstruction coefficient sensitivity and the remaining h-1 locator-coefficient distribution theorem",
+   "falsifier": "a calibration or official-shape row where a fiber of O_{h-1} is above budget, or a structural constant-family for O_{h-1}"
+  },
+  {
+   "id": "sov_hminus1_affine_piece_decomposition",
+   "title": "SOV h-1 affine-piece decomposition",
+   "status": "CONDITIONAL",
+   "statement": "For every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell of anchored-core locators, partition the cell into affine pieces on which c(L)=[X^{h-1}]L is nonconstant affine-linear, plus exceptional paid/norm-structured pieces whose total size is below the character-sum budget. This is reduced to affine-partition certificate soundness plus the remaining anchored-core partition payload.",
+   "attack_surface": "assembly from proved affine-partition certificate soundness and the remaining anchored-core affine/paid-piece partition payload",
+   "falsifier": "a conditioning cell with a large non-paid component on which the h-1 coefficient is constant or has no cancellative affine direction, or a defect in the partition certificate soundness rule"
+  },
+  {
+   "id": "sov_forced_root_correctness",
+   "title": "SOV forced-root obstruction correctness",
+   "status": "PROVED",
+   "statement": "The generalized forced square-root recursion correctly produces the obstruction vector for every h in the intended band, and every active h-core forces the relevant obstruction coordinates to vanish.",
+   "attack_surface": "assembly from the proved forced-root recursion algebra and the remaining active-core obstruction-vanishing theorem",
+   "falsifier": "an active core in the intended h band whose forced-root obstruction vector does not vanish, or a mismatch with the banked h=5/X79 construction"
+  },
+  {
+   "id": "sov_hminus1_coefficient_distribution",
+   "title": "SOV h-1 locator-coefficient distribution",
+   "status": "CONDITIONAL",
+   "statement": "For official-shape rows and h in (20,A], the coefficient [X^{h-1}]L of anchored-core locators has fibers small enough, after conditioning on the forced-root higher coefficients, to meet the active-core budget once transported by first-obstruction sensitivity. This follows from finite Fourier fiber duality plus the anchored-core nontrivial character-sum bound for this coefficient.",
+   "attack_surface": "assembly from sov_hminus1_fiber_fourier_duality and the remaining anchored-core character-sum bound",
+   "falsifier": "a calibration or official-shape row where the h-1 coefficient has a fiber above budget after the forced-root conditioning"
+  },
+  {
+   "id": "sov_affine_piece_partition_certificate_soundness",
+   "title": "SOV affine-piece partition certificate soundness",
+   "status": "PROVED",
+   "statement": "If a certificate partitions every forced-root conditioning cell into disjoint affine pieces where c(L)=[X^{h-1}]L has nonzero linear part, plus paid/norm-structured exceptional pieces whose total size is below the declared character-sum budget, then sov_hminus1_affine_piece_decomposition holds.",
+   "attack_surface": "finite partition and affine-linear certificate semantics for SOV conditioned cells",
+   "falsifier": "a verified affine/exceptional partition certificate that fails to imply the SOV h-1 affine-piece decomposition"
+  },
+  {
+   "id": "sov_hminus1_character_sum_bound",
+   "title": "SOV h-1 anchored-core character-sum bound",
+   "status": "CONDITIONAL",
+   "statement": "For every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell, the nontrivial additive character sums of c(L)=[X^{h-1}]L over anchored cores are small enough that the Fourier-duality fiber bound is below the active-core budget. This is reduced to a proved affine-piece cancellation lemma plus the remaining anchored-core affine/paid-piece decomposition.",
+   "attack_surface": "assembly from affine-piece cancellation and the remaining decomposition/classification of conditioned anchored-core cells",
+   "falsifier": "a forced-root conditioning cell with nontrivial character sums large enough to create an above-budget h-1 coefficient fiber"
+  },
+  {
+   "id": "ef_fvalued_word_source_is_interleaved_witness",
+   "title": "F-valued word source => e-interleaved base-list witness (Pro, verified)",
+   "status": "PROVED",
+   "statement": "Every trivial-stabilizer noncontainment non-tower horizontal component with F-valued word source is, at its generic point, an e=[E:B]-interleaved base-field multiplication-slice witness (syndrome commutes with B-basis expansion since D subset B; mult-by-z = M_z; noncontainment preserved). The ordinary-base-list version is FALSE (proved extension-line counterexample)."
+  },
+  {
+   "id": "interleaved_floor_import",
+   "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)",
+   "status": "TARGET",
+   "statement": "ext_pole_floor's N(L) mechanism covers e-interleaved base-list multiplication-slice witnesses; every such witness meets D_E. Sole remaining seam for ef_fullfield_bridge; failure = a new extension-valued/interleaved S9 ledger class.",
+   "falsifier": "an e-interleaved base-list witness escaping ext_pole_floor -- the S9 class."
   }
  ],
  "edges": [
@@ -7915,6 +8040,121 @@
   {
    "from": "petal_mixed_amplification_step",
    "to": "petal_excess_induction",
+   "kind": "req"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "sov_obstruction_equidistribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "sov_obstruction_equidistribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_first_obstruction_value_distribution",
+   "to": "sov_obstruction_equidistribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "sov_first_obstruction_value_distribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_hminus1_coefficient_distribution",
+   "to": "sov_first_obstruction_value_distribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_hminus1_fiber_fourier_duality",
+   "to": "sov_hminus1_coefficient_distribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_hminus1_character_sum_bound",
+   "to": "sov_hminus1_coefficient_distribution",
+   "kind": "req"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "sov_hminus1_character_sum_bound",
+   "kind": "req"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "sov_affine_piece_partition_certificate_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "sov_affine_piece_partition_certificate_soundness",
+   "to": "sov_hminus1_affine_piece_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "sov_affine_piece_partition_payload",
+   "to": "sov_hminus1_affine_piece_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "sov_hminus1_affine_piece_decomposition",
+   "to": "sov_hminus1_character_sum_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "sov_active_core_obstruction_vanishing",
+   "kind": "req"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "sov_active_core_obstruction_vanishing",
+   "kind": "req"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "sov_active_core_obstruction_vanishing",
+   "kind": "req"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "sov_forced_root_correctness",
+   "kind": "req"
+  },
+  {
+   "from": "sov_active_core_obstruction_vanishing",
+   "to": "sov_forced_root_correctness",
+   "kind": "req"
+  },
+  {
+   "from": "sov_obstruction_equidistribution",
+   "to": "sov_fiber_budget_translation",
+   "kind": "req"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "single_obstruction_valueset",
+   "kind": "req"
+  },
+  {
+   "from": "sov_obstruction_equidistribution",
+   "to": "single_obstruction_valueset",
+   "kind": "req"
+  },
+  {
+   "from": "sov_fiber_budget_translation",
+   "to": "single_obstruction_valueset",
+   "kind": "req"
+  },
+  {
+   "from": "ef_fvalued_word_source_is_interleaved_witness",
+   "to": "ef_fullfield_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "interleaved_floor_import",
+   "to": "ef_fullfield_bridge",
    "kind": "req"
   }
  ]

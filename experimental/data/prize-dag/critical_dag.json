@@ -399,8 +399,13 @@
   },
   {
    "id": "ef_fullfield_bridge",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)"
+  },
+  {
+   "id": "ef_fvalued_word_source_is_interleaved_witness",
+   "label": "PROVED",
+   "title": "F-valued word source => e-interleaved base-list witness (Pro, verified)"
   },
   {
    "id": "ef_galois_stabilizer_descent",
@@ -661,6 +666,11 @@
    "id": "integer_code_distance_cert",
    "label": "PROVED",
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system"
+  },
+  {
+   "id": "interleaved_floor_import",
+   "label": "UNPROVED",
+   "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)"
   },
   {
    "id": "isotypic",
@@ -969,13 +979,83 @@
   },
   {
    "id": "single_obstruction_valueset",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "single obstruction valueset"
   },
   {
    "id": "skew_support_threshold",
    "label": "PROVED",
    "title": "skew support threshold"
+  },
+  {
+   "id": "sov_active_core_obstruction_vanishing",
+   "label": "PROVED",
+   "title": "SOV active-core obstruction vanishing"
+  },
+  {
+   "id": "sov_affine_piece_partition_certificate_soundness",
+   "label": "PROVED",
+   "title": "SOV affine-piece partition certificate soundness"
+  },
+  {
+   "id": "sov_affine_piece_partition_payload",
+   "label": "UNPROVED",
+   "title": "SOV affine-piece partition payload"
+  },
+  {
+   "id": "sov_fiber_budget_translation",
+   "label": "CONDITIONAL",
+   "title": "SOV fiber bound to active-core budget"
+  },
+  {
+   "id": "sov_first_obstruction_sensitivity",
+   "label": "PROVED",
+   "title": "SOV first-obstruction coefficient sensitivity"
+  },
+  {
+   "id": "sov_first_obstruction_value_distribution",
+   "label": "CONDITIONAL",
+   "title": "SOV first-obstruction value distribution"
+  },
+  {
+   "id": "sov_forced_root_correctness",
+   "label": "PROVED",
+   "title": "SOV forced-root obstruction correctness"
+  },
+  {
+   "id": "sov_forced_root_recursion_algebra",
+   "label": "PROVED",
+   "title": "SOV forced-root recursion algebra"
+  },
+  {
+   "id": "sov_hminus1_affine_piece_decomposition",
+   "label": "CONDITIONAL",
+   "title": "SOV h-1 affine-piece decomposition"
+  },
+  {
+   "id": "sov_hminus1_character_sum_bound",
+   "label": "CONDITIONAL",
+   "title": "SOV h-1 anchored-core character-sum bound"
+  },
+  {
+   "id": "sov_hminus1_coefficient_distribution",
+   "label": "CONDITIONAL",
+   "title": "SOV h-1 locator-coefficient distribution"
+  },
+  {
+   "id": "sov_hminus1_fiber_fourier_duality",
+   "label": "PROVED",
+   "title": "SOV h-1 fiber Fourier duality"
+  },
+  {
+   "id": "sov_nonconstant_affine_character_cancellation",
+   "label": "PROVED",
+   "title": "SOV nonconstant affine character cancellation"
+  },
+  {
+   "id": "sov_obstruction_equidistribution",
+   "label": "CONDITIONAL",
+   "title": "SOV first-obstruction value-set equidistribution"
   },
   {
    "id": "spi_component_control",
@@ -1113,6 +1193,11 @@
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
   },
   {
+   "id": "x24_char0_dyadic_descent",
+   "label": "PROVED",
+   "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers"
+  },
+  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
@@ -1121,6 +1206,16 @@
    "id": "x4b_moment_trade_exclusion",
    "label": "CONDITIONAL",
    "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)"
+  },
+  {
+   "id": "x81_minimal_trade_square_shift",
+   "label": "PROVED",
+   "title": "PROVED (x81): minimal trades = square-shift factorizations"
+  },
+  {
+   "id": "x83_uniform_square_shift_obstruction_gate",
+   "label": "PROVED",
+   "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -2031,6 +2126,14 @@
    "to": "active_core_count_bound"
   },
   {
+   "from": "x24_char0_dyadic_descent",
+   "to": "x83_uniform_square_shift_obstruction_gate"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "x83_uniform_square_shift_obstruction_gate"
+  },
+  {
    "from": "a_universal_trade_variety",
    "to": "h4_sparse_norm_gate"
   },
@@ -2657,6 +2760,98 @@
   {
    "from": "petal_mixed_amplification_step",
    "to": "petal_excess_induction"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "sov_obstruction_equidistribution"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "sov_obstruction_equidistribution"
+  },
+  {
+   "from": "sov_first_obstruction_value_distribution",
+   "to": "sov_obstruction_equidistribution"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "sov_first_obstruction_value_distribution"
+  },
+  {
+   "from": "sov_hminus1_coefficient_distribution",
+   "to": "sov_first_obstruction_value_distribution"
+  },
+  {
+   "from": "sov_hminus1_fiber_fourier_duality",
+   "to": "sov_hminus1_coefficient_distribution"
+  },
+  {
+   "from": "sov_hminus1_character_sum_bound",
+   "to": "sov_hminus1_coefficient_distribution"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "sov_hminus1_character_sum_bound"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "sov_affine_piece_partition_certificate_soundness"
+  },
+  {
+   "from": "sov_affine_piece_partition_certificate_soundness",
+   "to": "sov_hminus1_affine_piece_decomposition"
+  },
+  {
+   "from": "sov_affine_piece_partition_payload",
+   "to": "sov_hminus1_affine_piece_decomposition"
+  },
+  {
+   "from": "sov_hminus1_affine_piece_decomposition",
+   "to": "sov_hminus1_character_sum_bound"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "sov_active_core_obstruction_vanishing"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "sov_active_core_obstruction_vanishing"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "sov_active_core_obstruction_vanishing"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "sov_forced_root_correctness"
+  },
+  {
+   "from": "sov_active_core_obstruction_vanishing",
+   "to": "sov_forced_root_correctness"
+  },
+  {
+   "from": "sov_obstruction_equidistribution",
+   "to": "sov_fiber_budget_translation"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "single_obstruction_valueset"
+  },
+  {
+   "from": "sov_obstruction_equidistribution",
+   "to": "single_obstruction_valueset"
+  },
+  {
+   "from": "sov_fiber_budget_translation",
+   "to": "single_obstruction_valueset"
+  },
+  {
+   "from": "ef_fvalued_word_source_is_interleaved_witness",
+   "to": "ef_fullfield_bridge"
+  },
+  {
+   "from": "interleaved_floor_import",
+   "to": "ef_fullfield_bridge"
   },
   {
    "from": "acl_second_order",
