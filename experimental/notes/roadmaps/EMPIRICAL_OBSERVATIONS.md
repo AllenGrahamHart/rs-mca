@@ -97,3 +97,21 @@ large N without 3^N enumeration:
    wrong route; the real-object test confirms it properly. dli is now empirically PROMOTION-READY (HIGH).
 Small-N artifacts noted: at large-p/small-N, B collapses to the trivial vector (expected count <<1) giving
 spurious large rho -- NOT the meaningful regime. The Fourier form at large N is the correct test.
+
+## dli CHAIN RECONCILIATION (task b) — OUTCOME: chain is SOUND (spot-check + endpoint)
+Full upward trace: the leaf reaches ejm through ONE connected chain (~17 nodes); the two
+"branches" (polar_obstruction / pole_majorant) RECONVERGE at odd_phase_reduced_pole_budget.
+Spot-check of the 3 critical joints:
+- reduced_phase_manifest: reqs = {phase_pole_conductor_manifest [PROVED], harmonic_conductor_ledger
+  [weakened]}. CONSISTENT = proved Deligne pole + weakened harmonic total. NOT stale (my earlier read
+  was wrong: the pole parts are PROVED, only the harmonic-sum part is the weakened open route).
+- odd_phase_reduced_pole_budget: needs "not AS-trivial" + "polar divisor harmonic total o(t)" -- the
+  SAME o(t) threading back to harmonic_conductor_ledger -> bohr -> block_conductor -> leaf.
+- dli_dirichlet_log_integral: the geometric-mean DLI, fed by the chain.
+ENDPOINT CHECK: my calibration measured rho_j = sum_lambda F_M(lambda) DIRECTLY = the pcf/b2b endpoint;
+it is flat. So the leaf's flatness gives the ejm/pcf input at the endpoint regardless of the Deligne
+detour. Wired path and direct measurement AGREE.
+=> A proved leaf propagates cleanly to ejm. No rewiring/hacking needed.
+CAVEAT: spot-check of 3 joints + endpoint, NOT a full 17-node per-implication audit. The one residual
+item worth a Pro glance: confirm the T3 "near-peak mass / harmonic total o(t)" output EXACTLY matches
+the Deligne route's "reduced polar divisor harmonic total o(t)" input (same quantity, different language).
