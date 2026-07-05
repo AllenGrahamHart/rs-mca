@@ -289,7 +289,7 @@
   },
   {
    "id": "e1_folded_certificate_cell_128_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "E1 actual folded certificate payload for N'=128"
   },
   {
@@ -314,7 +314,7 @@
   },
   {
    "id": "e1_folded_no_vector_certificate_128_payload",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "E1 folded no-vector certificate payload for N'=128"
   },
   {
@@ -379,7 +379,7 @@
   },
   {
    "id": "ef_descended_cycle_inventory_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "EF actual descended-cycle inventory payload"
   },
   {
@@ -396,6 +396,11 @@
    "id": "ef_full_orbit_pole_forcing",
    "label": "CONDITIONAL",
    "title": "EF full-orbit pole forcing"
+  },
+  {
+   "id": "ef_fullfield_bridge",
+   "label": "UNPROVED",
+   "title": "ef_fullfield_bridge (the s6 F1 typecheck)"
   },
   {
    "id": "ef_galois_stabilizer_descent",
@@ -2534,6 +2539,10 @@
   {
    "from": "e1_folded_no_vector_certificate_256_payload",
    "to": "e1_folded_certificate_cell_256_payload"
+  },
+  {
+   "from": "ef_fullfield_bridge",
+   "to": "ef_descended_cycle_inventory_payload"
   },
   {
    "from": "acl_second_order",

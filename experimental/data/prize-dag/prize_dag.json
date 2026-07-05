@@ -4155,11 +4155,11 @@
   {
    "id": "ef_descended_cycle_inventory_payload",
    "title": "EF actual descended-cycle inventory payload",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Construct the actual inventory of every B-defined pole-free horizontal cycle produced after full-orbit descent, with each cycle certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate.",
    "attack_surface": "project-specific EF extension-fiber cycle enumeration and classification",
    "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails",
-   "notes": "| ATTACK (node 3): completeness assembly \u2014 3 exit classes all PROVED (full-orbit descent, galois-stabilizer descent, noncontainment); ext_pole_floor forces pole-free off genuinely-E. Open = no hidden-fiber leakage. Pro brief issued; likely close-by-assembly per repo referee note. Closes ef_ru -> f1_full_field_pole_forcing."
+   "notes": "ATTACK (node 3): completeness assembly \u2014 3 exit classes all PROVED (full-orbit descent, galois-stabilizer descent, noncontainment); ext_pole_floor forces pole-free off genuinely-E. Open = no hidden-fiber leakage. Pro brief issued; likely close-by-assembly per repo referee note. Closes ef_ru -> f1_full_field_pole_forcing. | Pro completeness proof banked (stabilizer trichotomy, Galois-descent part UNCONDITIONAL); reduced to the single seam ef_fullfield_bridge (= s6 F1 typecheck). No longer a construction task."
   },
   {
    "id": "ef_descended_cycle_inventory_soundness",
@@ -4247,12 +4247,13 @@
    "status": "TARGET",
    "statement": "Over the named E1 Pocklington field and displayed primitive 256th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^128 satisfies the N'=256 folded kernel equation.",
    "attack_surface": "actual complete no-vector certificate for the N'=256 folded kernel over the named field/root",
-   "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=256 field/root, or an incomplete certificate transcript"
+   "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=256 field/root, or an incomplete certificate transcript",
+   "notes": "OPEN + HARD (Modal fpylll): BKZ shortest = 18.8 < radius 22.6 but inf-norm 4 (NOT a box vector) -> plain lambda_1 INCONCLUSIVE (cone-restricted/box bound needed, as reframing flagged). Count heuristic 2^48 box collisions NOT confirmed (BKZ found none). Needs a bounded-coefficient box enumeration or a cone-restricted dual cert to resolve certify-vs-collision."
   },
   {
    "id": "e1_folded_certificate_cell_128_payload",
    "title": "E1 actual folded certificate payload for N'=128",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "For the E1 open cell N'=128, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_128_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^64.",
    "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=128 no-vector certificate payload",
    "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=128 field, or an incomplete no-vector certificate"
@@ -4268,10 +4269,11 @@
   {
    "id": "e1_folded_no_vector_certificate_128_payload",
    "title": "E1 folded no-vector certificate payload for N'=128",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "Over the named E1 Pocklington field and displayed primitive 128th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^64 satisfies the N'=128 folded kernel equation.",
    "attack_surface": "actual complete no-vector certificate for the N'=128 folded kernel over the named field/root",
-   "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=128 field/root, or an incomplete certificate transcript"
+   "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=128 field/root, or an incomplete certificate transcript",
+   "notes": "PROVED (Modal fpylll, named 250-bit field): lambda_1 = 31.67 > box radius 16, no box collision. CERTIFIED."
   },
   {
    "id": "e1_official_typicality_or_certificate",
@@ -4288,6 +4290,13 @@
    "statement": "For the admissible prize-scale row primes in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count. Equivalently, the official row primes are typical for the exceptional-set reduction, or the pinned rows are certified directly by the folded lattice/kernel procedure.",
    "attack_surface": "assembly from folded-certificate soundness plus the remaining official-row typicality/certificate production",
    "falsifier": "an admissible prize-scale row prime with enough non-quotient folded sparse kernel vectors to make e1 collisions exceed the allowed o(1) budget"
+  },
+  {
+   "id": "ef_fullfield_bridge",
+   "title": "ef_fullfield_bridge (the s6 F1 typecheck)",
+   "status": "TARGET",
+   "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
+   "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class."
   }
  ],
  "edges": [
@@ -7739,6 +7748,11 @@
   {
    "from": "e1_folded_no_vector_certificate_256_payload",
    "to": "e1_folded_certificate_cell_256_payload",
+   "kind": "req"
+  },
+  {
+   "from": "ef_fullfield_bridge",
+   "to": "ef_descended_cycle_inventory_payload",
    "kind": "req"
   }
  ]
