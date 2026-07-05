@@ -1450,7 +1450,7 @@
   {
    "id": "sov_affine_piece_partition_payload",
    "label": "UNPROVED",
-   "title": "SOV affine-piece partition payload"
+   "title": "SOV grid character-sum bound (affine-piece route REFUTED)"
   },
   {
    "id": "sov_fiber_budget_translation",
