@@ -239,3 +239,19 @@ Modal test over realizable kernel points (K_{I,d} split-squarefree):
 STRESS-BEFORE-DECOMPOSE verdict: the shared coordinate is now empirically grounded (not vacuous, not undefined-in-
 principle). Once the definition is tied to the petal structure + c-scaling verified, the petal cluster can be
 decomposed on solid ground. Until then, do not add the foundation node.
+
+## GATE N EXTRACTION REFUTED (Pro PETAL-PRIMITIVE-COORDINATE, verified) — petal descent broken
+Pro answered Part A (canonical coordinate = petal quotient X->X^M + mu_M-character projectors Pi_{M,r}) but
+REFUTED Part B (the extraction). Explicit counterexample (VERIFIED, M=3,t=6,q=127):
+  F = X^{M-1}P(X^M)+Q(X^M), P=Y^{t-2}+omega_{t-1}Y^{t-3}, Q=const -- a TWO-CHARACTER family.
+  * F in K_{I,d}: deg CRT(c_i F mod L_i)=14 <= d=14, G≡c_i F mod L_i for all petals. YES (realizable).
+  * squarefree: gcd(F,F')=const. YES.
+  * excess c=(t-2)M-1=11 (grows with t).  quotient moment window = 0 (s_M=90=-M*omega_{t-1}!=0).
+=> Gate N's pointwise 'window>=c-kappa_N' is FALSE. The N->D->L descent (which needs N's window) is BROKEN.
+ROOT CAUSE: quotient compatibility => isotypic mu_M-character decomposition, but does NOT select one character.
+The unbounded-excess obstruction lives in MULTI-CHARACTER kernel directions. Same obstruction as
+q_cofactor_normal_form (character selection = source data, not a divisibility consequence).
+CORRECT REPLACEMENT (Pro): a FAMILY-LEVEL PRK-type statement -- multi-character squarefree-realizable residue
+directions are paid separately OR bounded after peeling. NOT a pointwise Newton-window extraction.
+IMPLICATION: the petal cluster needs RE-ARCHITECTING around the multi-character obstruction. The stress-first
+discipline caught this BEFORE we built a foundation node on the false extraction -- exactly as intended.
