@@ -3704,7 +3704,7 @@
    "refs": [
     "experimental/notes/roadmaps/midlarge_h_routes.md"
    ],
-   "notes": "MODAL RUNNING ap-rLAsDplh1N7jQAiy0gmOEE. Referee caveat: X78's h=5 forced-square-root generalized to arbitrary h (gate-validated); calibration primes q~n^2,n^3 stand in for the prize prime \u2014 interpret as shape evidence, not prize-row certification."
+   "notes": "MODAL RUNNING ap-rLAsDplh1N7jQAiy0gmOEE. Referee caveat: X78's h=5 forced-square-root generalized to arbitrary h (gate-validated); calibration primes q~n^2,n^3 stand in for the prize prime \u2014 interpret as shape evidence, not prize-row certification. | SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close."
   },
   {
    "id": "f1_minimal_field_descent",
@@ -4389,7 +4389,8 @@
    "status": "TARGET",
    "statement": "Provide the actual anchored-core partition certificates for every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell: cancellative affine pieces plus budget-small paid/norm-structured exceptions.",
    "attack_surface": "actual anchored-core coordinate decomposition and exceptional-piece budget proof",
-   "falsifier": "a forced-root conditioning cell with no such partition or with exceptional mass above the character-sum budget"
+   "falsifier": "a forced-root conditioning cell with no such partition or with exceptional mass above the character-sum budget",
+   "notes": "| SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close."
   },
   {
    "id": "sov_active_core_obstruction_vanishing",
