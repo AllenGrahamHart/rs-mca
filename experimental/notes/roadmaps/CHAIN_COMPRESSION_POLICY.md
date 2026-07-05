@@ -69,3 +69,6 @@ ahead of verification.
 
 Log: 2026-07-05 — u1_pullback_dichotomy (5 dominated, 3 cut) and petal_growth
 (12 dominated, 6 cut) retracted; dli deliberately kept in play (validated).
+2026-07-05 (3rd) — xr_smallcore_spread_count (83 dominated, 30 cut incl. the sov and
+m720 red branches + the midlarge/anchored spine; sov Pro round becomes advisory /
+re-expansion material). Largest single trust-surface reduction.

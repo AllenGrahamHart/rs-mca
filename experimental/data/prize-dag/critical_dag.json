@@ -8,31 +8,6 @@
  ],
  "nodes": [
   {
-   "id": "a1_lower_overlap_occupied_subcore_accounting",
-   "label": "CONDITIONAL",
-   "title": "SHARED BLOCKER of A1 + A2: occupied-subcore accounting"
-  },
-  {
-   "id": "a2_depth_cell_active_shadow_bound",
-   "label": "CONDITIONAL",
-   "title": "OCC-2's named replacement: the active-shadow depth-cell bound"
-  },
-  {
-   "id": "a3_good_reduction_lemma",
-   "label": "PROVED",
-   "title": "(A3) THE ONE NEW LEMMA: good reduction of W_h's torsion structure"
-  },
-  {
-   "id": "a_closure_assembly",
-   "label": "CONDITIONAL",
-   "title": "THE (A) CLOSURE (conditional, verified): zero primitive residue on two computational inputs"
-  },
-  {
-   "id": "a_universal_trade_variety",
-   "label": "PROVED",
-   "title": "(A) SHARPENED: trades = torsion points on the UNIVERSAL variety W_h"
-  },
-  {
    "id": "acl_count",
    "label": "PROVED",
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)"
@@ -43,19 +18,9 @@
    "title": "Acl second-order term (hand-off lemma)"
   },
   {
-   "id": "active_core_count_bound",
-   "label": "CONDITIONAL",
-   "title": "THE RESIDUE, PEELED ONCE MORE (X-11): the active-core count C_h^nt"
-  },
-  {
    "id": "adjacency_closing",
    "label": "CONDITIONAL",
    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points"
-  },
-  {
-   "id": "anchored_nontoral_pte_bound",
-   "label": "CONDITIONAL",
-   "title": "THE FINAL ESTIMATE: A_h^nt <= hn \u2014 everything reduces to this"
   },
   {
    "id": "aperiodic_zero_at_crossing",
@@ -136,21 +101,6 @@
    "id": "bounded_coeff_norm_gate",
    "label": "PROVED",
    "title": "bounded coeff norm gate"
-  },
-  {
-   "id": "c1_scalable_certificate",
-   "label": "CONDITIONAL",
-   "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024"
-  },
-  {
-   "id": "c1a_lowh_direct_certificates",
-   "label": "PROVED",
-   "title": "C1a: direct per-row certificates at the window's bottom (feasible NOW)"
-  },
-  {
-   "id": "c1b_descent_injection",
-   "label": "PROVED",
-   "title": "C1b THE CORE: the descent-injection certificate (verified seed identity)"
   },
   {
    "id": "cap_end_sharpening",
@@ -256,11 +206,6 @@
    "id": "crossing_localization",
    "label": "PROVED",
    "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list"
-  },
-  {
-   "id": "deep_link_staircase",
-   "label": "CONDITIONAL",
-   "title": "THE COMMON GATE of beta-2b and beta-3c: aligned partners at near-k overlap"
   },
   {
    "id": "deep_point",
@@ -928,16 +873,6 @@
    "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL"
   },
   {
-   "id": "h4_sparse_norm_gate",
-   "label": "CONDITIONAL",
-   "title": "THE h=4 RESIDUE (x32): the 8-sparse cyclotomic norm gate"
-  },
-  {
-   "id": "h_window_derivation",
-   "label": "PROVED",
-   "title": "THE LOOSE END the assembly surfaced: derive the h-window cap"
-  },
-  {
    "id": "hankel_moment_clean_leaves",
    "label": "PROVED",
    "title": "hankel moment clean leaves"
@@ -1048,116 +983,6 @@
    "title": "List unsafe at gate: qcore counting (conventions pending)"
   },
   {
-   "id": "m720_certificate_semantics",
-   "label": "PROVED",
-   "title": "M720 calibration certificate semantics"
-  },
-  {
-   "id": "m720_complete_calibration_certificates",
-   "label": "PROVED",
-   "title": "M720 complete bounded-band calibration certificates"
-  },
-  {
-   "id": "m720_conductor_compression",
-   "label": "UNPROVED",
-   "title": "m720 norm gate: survivor-conditioned field bound OR D-GCD payload (compression REFUTED)"
-  },
-  {
-   "id": "m720_ground_truth_replay",
-   "label": "PROVED",
-   "title": "M720 h=3,4,5 ground-truth replay"
-  },
-  {
-   "id": "m720_h3_large_gate_replay",
-   "label": "PROVED",
-   "title": "M720 large h=3 gate replay"
-  },
-  {
-   "id": "m720_h5_n32_gate_replay",
-   "label": "PROVED",
-   "title": "M720 local h=5 n=32 gate replay"
-  },
-  {
-   "id": "m720_mitm_enumerator_soundness",
-   "label": "PROVED",
-   "title": "M720 MITM enumerator soundness"
-  },
-  {
-   "id": "m720_mitm_gate",
-   "label": "PROVED",
-   "title": "M720 MITM correctness gate"
-  },
-  {
-   "id": "m720_off_laptop_zero_certificates",
-   "label": "PROVED",
-   "title": "M720 off-laptop complete zero certificates"
-  },
-  {
-   "id": "m720_official_exclusion",
-   "label": "CONDITIONAL",
-   "title": "M720 official-shape h=7..20 exclusion"
-  },
-  {
-   "id": "m720_official_h7_20_norm_gate_certificates",
-   "label": "CONDITIONAL",
-   "title": "M720 official h=7..20 norm-gate certificates"
-  },
-  {
-   "id": "m720_official_h7_20_norm_gate_payload",
-   "label": "CONDITIONAL",
-   "title": "M720 official h=7..20 norm-gate payload"
-  },
-  {
-   "id": "m720_official_norm_gate_case_manifest_payload",
-   "label": "CONDITIONAL",
-   "title": "M720 actual official norm-gate case manifest payload"
-  },
-  {
-   "id": "m720_official_norm_gate_case_manifest_soundness",
-   "label": "PROVED",
-   "title": "M720 official norm-gate case-manifest soundness"
-  },
-  {
-   "id": "m720_official_norm_gate_certificate_soundness",
-   "label": "PROVED",
-   "title": "M720 official norm-gate certificate soundness"
-  },
-  {
-   "id": "m720_official_paid_branch_alignment",
-   "label": "PROVED",
-   "title": "M720 official h=7..20 paid/norm-gate dichotomy"
-  },
-  {
-   "id": "m720_overceiling_complete_window_certificates",
-   "label": "PROVED",
-   "title": "M720 over-ceiling complete-window certificates"
-  },
-  {
-   "id": "m720_remaining_gate_replay",
-   "label": "PROVED",
-   "title": "M720 remaining off-laptop gate replay"
-  },
-  {
-   "id": "m720_residual_off_laptop_zero_certificates",
-   "label": "PROVED",
-   "title": "M720 residual off-laptop zero certificates"
-  },
-  {
-   "id": "m720_residual_slice_metadata",
-   "label": "PROVED",
-   "title": "M720 residual slice metadata"
-  },
-  {
-   "id": "m720_small_gate_replay",
-   "label": "PROVED",
-   "title": "M720 local n=16 small-gate replay"
-  },
-  {
-   "id": "m720_wsl_complete_zero_subcertificates",
-   "label": "PROVED",
-   "title": "M720 WSL-safe complete zero subcertificates"
-  },
-  {
    "id": "m_handling",
    "label": "PROVED",
    "title": "Interleaved m-handling per the official quantifier"
@@ -1183,26 +1008,6 @@
    "title": "MCA unsafe side at adjacent grid point"
   },
   {
-   "id": "midlarge_h20_A",
-   "label": "CONDITIONAL",
-   "title": "midlarge h20 A"
-  },
-  {
-   "id": "midlarge_h7_20",
-   "label": "CONDITIONAL",
-   "title": "midlarge h7 20"
-  },
-  {
-   "id": "midlarge_h_certification",
-   "label": "CONDITIONAL",
-   "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261"
-  },
-  {
-   "id": "midlarge_partner_cap_reduction",
-   "label": "PROVED",
-   "title": "midlarge partner cap reduction"
-  },
-  {
    "id": "mixed_radix_frontier",
    "label": "PROVED",
    "title": "Mixed-radix uniformity: does the machinery survive non-2-power smooth domains?"
@@ -1221,16 +1026,6 @@
    "id": "official_row_primes_pinning",
    "label": "PROVED",
    "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo"
-  },
-  {
-   "id": "p1_post_paid_subcore_richline_cap",
-   "label": "PROVED",
-   "title": "P1's named gap: the per-subcore cap holds POST-STRIP"
-  },
-  {
-   "id": "p3_affine_net_richline_residue",
-   "label": "PROVED",
-   "title": "P3's named residue: multi-direction affine nets in the subcore parameter plane"
   },
   {
    "id": "paid_closure",
@@ -1328,89 +1123,9 @@
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family"
   },
   {
-   "id": "single_obstruction_valueset",
-   "label": "CONDITIONAL",
-   "title": "single obstruction valueset"
-  },
-  {
    "id": "skew_support_threshold",
    "label": "PROVED",
    "title": "skew support threshold"
-  },
-  {
-   "id": "sov_active_core_obstruction_vanishing",
-   "label": "PROVED",
-   "title": "SOV active-core obstruction vanishing"
-  },
-  {
-   "id": "sov_affine_piece_partition_certificate_soundness",
-   "label": "PROVED",
-   "title": "SOV affine-piece partition certificate soundness"
-  },
-  {
-   "id": "sov_affine_piece_partition_payload",
-   "label": "CONDITIONAL",
-   "title": "SOV grid character-sum bound (affine-piece route REFUTED)"
-  },
-  {
-   "id": "sov_fiber_budget_translation",
-   "label": "CONDITIONAL",
-   "title": "SOV fiber bound to active-core budget"
-  },
-  {
-   "id": "sov_first_obstruction_sensitivity",
-   "label": "PROVED",
-   "title": "SOV first-obstruction coefficient sensitivity"
-  },
-  {
-   "id": "sov_first_obstruction_value_distribution",
-   "label": "CONDITIONAL",
-   "title": "SOV first-obstruction value distribution"
-  },
-  {
-   "id": "sov_forced_root_correctness",
-   "label": "PROVED",
-   "title": "SOV forced-root obstruction correctness"
-  },
-  {
-   "id": "sov_forced_root_recursion_algebra",
-   "label": "PROVED",
-   "title": "SOV forced-root recursion algebra"
-  },
-  {
-   "id": "sov_gridsum_residual",
-   "label": "UNPROVED",
-   "title": "SOV grid character-sum residual (non-trace-flat cells)"
-  },
-  {
-   "id": "sov_hminus1_affine_piece_decomposition",
-   "label": "CONDITIONAL",
-   "title": "SOV h-1 affine-piece decomposition"
-  },
-  {
-   "id": "sov_hminus1_character_sum_bound",
-   "label": "CONDITIONAL",
-   "title": "SOV h-1 anchored-core character-sum bound"
-  },
-  {
-   "id": "sov_hminus1_coefficient_distribution",
-   "label": "CONDITIONAL",
-   "title": "SOV h-1 locator-coefficient distribution"
-  },
-  {
-   "id": "sov_hminus1_fiber_fourier_duality",
-   "label": "PROVED",
-   "title": "SOV h-1 fiber Fourier duality"
-  },
-  {
-   "id": "sov_nonconstant_affine_character_cancellation",
-   "label": "PROVED",
-   "title": "SOV nonconstant affine character cancellation"
-  },
-  {
-   "id": "sov_obstruction_equidistribution",
-   "label": "CONDITIONAL",
-   "title": "SOV first-obstruction value-set equidistribution"
   },
   {
    "id": "spi_component_control",
@@ -1433,11 +1148,6 @@
    "title": "Consecutive grid counts differ by ~q-factors: sign decisions need only coarse relative precision"
   },
   {
-   "id": "star_pte_support_bound",
-   "label": "PROVED",
-   "title": "PROVED (micro-lemma, 5/5): h <= A is the correct reading; 2h <= A is WRONG"
-  },
-  {
    "id": "strat_tree",
    "label": "PROVED",
    "title": "Stratification case-tree T0-T7 (= dedup convention)"
@@ -1451,11 +1161,6 @@
    "id": "strip",
    "label": "CONDITIONAL",
    "title": "Strip-periodic: aperiodic stratum exact"
-  },
-  {
-   "id": "subcore_richline_classification",
-   "label": "PROVED",
-   "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores"
   },
   {
    "id": "subfield_trace_paid_gate",
@@ -1508,11 +1213,6 @@
    "title": "v8 one-support-one-slope ledger"
   },
   {
-   "id": "value_set_partner_cap",
-   "label": "PROVED",
-   "title": "PROVED (all h): <= floor(n/h) partners per anchored core"
-  },
-  {
    "id": "vtdv",
    "label": "PROVED",
    "title": "Subgroup Hankel = V^T D_u V (prime + extension verified)"
@@ -1538,11 +1238,6 @@
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
   },
   {
-   "id": "x24_char0_dyadic_descent",
-   "label": "PROVED",
-   "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers"
-  },
-  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
@@ -1553,44 +1248,14 @@
    "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)"
   },
   {
-   "id": "x81_minimal_trade_square_shift",
-   "label": "PROVED",
-   "title": "PROVED (x81): minimal trades = square-shift factorizations"
-  },
-  {
-   "id": "x83_uniform_square_shift_obstruction_gate",
-   "label": "PROVED",
-   "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
-  },
-  {
    "id": "xr_clean_residual_any_gate",
    "label": "CONDITIONAL",
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
-   "id": "xr_coordinate_hypersurface_reduction",
-   "label": "PROVED",
-   "title": "XR coordinate-special proper hypersurface reduction"
-  },
-  {
-   "id": "xr_eliminant_vanishing_class",
-   "label": "PROVED",
-   "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations"
-  },
-  {
-   "id": "xr_fresh_codim_dichotomy",
-   "label": "CONDITIONAL",
-   "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy"
-  },
-  {
    "id": "xr_globalness_from_ledger",
    "label": "PROVED",
    "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
-  },
-  {
-   "id": "xr_heavy_triangle_charge",
-   "label": "CONDITIONAL",
-   "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge"
   },
   {
    "id": "xr_ledger_exponent_reconciliation",
@@ -1603,54 +1268,9 @@
    "title": "Each residual constraint is worth a q-factor: the ledger's exchange rate over combinatorics"
   },
   {
-   "id": "xr_light_triangle_eliminant",
-   "label": "CONDITIONAL",
-   "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus"
-  },
-  {
-   "id": "xr_minor_specialization_certificate_semantics",
-   "label": "PROVED",
-   "title": "XR minor-specialization certificate semantics"
-  },
-  {
-   "id": "xr_partial_tangent_band",
-   "label": "CONDITIONAL",
-   "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger"
-  },
-  {
    "id": "xr_pencil_cascade",
    "label": "PROVED",
    "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma"
-  },
-  {
-   "id": "xr_popular_core_triangles",
-   "label": "CONDITIONAL",
-   "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy"
-  },
-  {
-   "id": "xr_profile_eliminant_nonvanishing",
-   "label": "PROVED",
-   "title": "XR light-profile eliminant nonvanishing"
-  },
-  {
-   "id": "xr_profile_minor_certificate_coverage",
-   "label": "PROVED",
-   "title": "XR profile minor-certificate coverage"
-  },
-  {
-   "id": "xr_profile_minor_certificate_payload",
-   "label": "PROVED",
-   "title": "XR profile minor-certificate payload"
-  },
-  {
-   "id": "xr_profile_minor_record_inventory_payload",
-   "label": "PROVED",
-   "title": "XR actual profile minor record inventory payload"
-  },
-  {
-   "id": "xr_profile_minor_record_inventory_soundness",
-   "label": "PROVED",
-   "title": "XR profile minor record-inventory soundness"
   },
   {
    "id": "xr_radius_arithmetic",
@@ -1663,49 +1283,19 @@
    "title": "RUNG 2a: same-slope families ARE the list challenge's object"
   },
   {
-   "id": "xr_scattered_syzygy_flattice",
-   "label": "PROVED",
-   "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects"
-  },
-  {
    "id": "xr_small_set_engine",
    "label": "PROVED",
    "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure"
   },
   {
    "id": "xr_smallcore_spread_count",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count"
-  },
-  {
-   "id": "xr_sunflower_rank_additive",
-   "label": "PROVED",
-   "title": "beta-1 (PROVABLE, proof complete): sunflowers never stagnate \u2014 the 2n/t cap"
-  },
-  {
-   "id": "xr_syzygy_flat_transport",
-   "label": "PROVED",
-   "title": "gamma-a (PROVABLE/mechanical): the scattered-syzygy -> flat dictionary"
-  },
-  {
-   "id": "xr_syzygy_support_lemma",
-   "label": "PROVED",
-   "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget"
   },
   {
    "id": "xr_target_budget_audit",
    "label": "PROVED",
    "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?"
-  },
-  {
-   "id": "xr_triangle_eliminant_form",
-   "label": "PROVED",
-   "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form"
-  },
-  {
-   "id": "xr_triangular_minor_certificate_soundness",
-   "label": "PROVED",
-   "title": "XR triangular minor-certificate soundness"
   },
   {
    "id": "zone_b",
@@ -2303,58 +1893,6 @@
    "to": "xr_smallcore_spread_count"
   },
   {
-   "from": "xr_partial_tangent_band",
-   "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "xr_fresh_codim_dichotomy",
-   "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "xr_syzygy_support_lemma",
-   "to": "xr_fresh_codim_dichotomy"
-  },
-  {
-   "from": "xr_popular_core_triangles",
-   "to": "xr_fresh_codim_dichotomy"
-  },
-  {
-   "from": "xr_scattered_syzygy_flattice",
-   "to": "xr_fresh_codim_dichotomy"
-  },
-  {
-   "from": "xr_sunflower_rank_additive",
-   "to": "xr_popular_core_triangles"
-  },
-  {
-   "from": "xr_heavy_triangle_charge",
-   "to": "xr_popular_core_triangles"
-  },
-  {
-   "from": "xr_light_triangle_eliminant",
-   "to": "xr_popular_core_triangles"
-  },
-  {
-   "from": "deep_link_staircase",
-   "to": "xr_heavy_triangle_charge"
-  },
-  {
-   "from": "deep_link_staircase",
-   "to": "xr_light_triangle_eliminant"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_light_triangle_eliminant"
-  },
-  {
-   "from": "xr_eliminant_vanishing_class",
-   "to": "xr_light_triangle_eliminant"
-  },
-  {
-   "from": "xr_syzygy_flat_transport",
-   "to": "xr_scattered_syzygy_flattice"
-  },
-  {
    "from": "f_dih_subgroup_completeness",
    "to": "f_weight2_inverse"
   },
@@ -2387,20 +1925,12 @@
    "to": "f_dih_subgroup_completeness"
   },
   {
-   "from": "p1_post_paid_subcore_richline_cap",
-   "to": "deep_link_staircase"
-  },
-  {
    "from": "moment_trade_staircase",
    "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "x4b_moment_trade_exclusion",
    "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "p3_affine_net_richline_residue",
-   "to": "p1_post_paid_subcore_richline_cap"
   },
   {
    "from": "u1_pullback_dichotomy",
@@ -2415,14 +1945,6 @@
    "to": "u1_pullback_dichotomy"
   },
   {
-   "from": "a1_lower_overlap_occupied_subcore_accounting",
-   "to": "deep_link_staircase"
-  },
-  {
-   "from": "a1_lower_overlap_occupied_subcore_accounting",
-   "to": "xr_partial_tangent_band"
-  },
-  {
    "from": "u2_per_row_certifier",
    "to": "x4b_moment_trade_exclusion"
   },
@@ -2435,76 +1957,8 @@
    "to": "u1_tame_toral_fiberproduct_classification"
   },
   {
-   "from": "a2_depth_cell_active_shadow_bound",
-   "to": "xr_partial_tangent_band"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "a1_lower_overlap_occupied_subcore_accounting"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "a2_depth_cell_active_shadow_bound"
-  },
-  {
-   "from": "active_core_count_bound",
-   "to": "anchored_nontoral_pte_bound"
-  },
-  {
-   "from": "h4_sparse_norm_gate",
-   "to": "active_core_count_bound"
-  },
-  {
-   "from": "x24_char0_dyadic_descent",
-   "to": "x83_uniform_square_shift_obstruction_gate"
-  },
-  {
-   "from": "x81_minimal_trade_square_shift",
-   "to": "x83_uniform_square_shift_obstruction_gate"
-  },
-  {
-   "from": "a_universal_trade_variety",
-   "to": "h4_sparse_norm_gate"
-  },
-  {
-   "from": "a3_good_reduction_lemma",
-   "to": "h4_sparse_norm_gate"
-  },
-  {
    "from": "b2_modp_giant_extras",
    "to": "u2c_boundary_scale_column"
-  },
-  {
-   "from": "a_closure_assembly",
-   "to": "h4_sparse_norm_gate"
-  },
-  {
-   "from": "h_window_derivation",
-   "to": "a_closure_assembly"
-  },
-  {
-   "from": "c1_scalable_certificate",
-   "to": "a_closure_assembly"
-  },
-  {
-   "from": "c1a_lowh_direct_certificates",
-   "to": "c1_scalable_certificate"
-  },
-  {
-   "from": "c1b_descent_injection",
-   "to": "c1_scalable_certificate"
-  },
-  {
-   "from": "midlarge_h_certification",
-   "to": "c1_scalable_certificate"
-  },
-  {
-   "from": "star_pte_support_bound",
-   "to": "midlarge_h_certification"
-  },
-  {
-   "from": "official_row_primes_pinning",
-   "to": "a_closure_assembly"
   },
   {
    "from": "rules_freeze",
@@ -2513,10 +1967,6 @@
   {
    "from": "f1_pole_list_threshold_location",
    "to": "f1_case_pole"
-  },
-  {
-   "from": "official_row_primes_pinning",
-   "to": "c1a_lowh_direct_certificates"
   },
   {
    "from": "rules_m_reading",
@@ -2599,26 +2049,6 @@
    "to": "list_adjacency_closing"
   },
   {
-   "from": "midlarge_partner_cap_reduction",
-   "to": "midlarge_h_certification"
-  },
-  {
-   "from": "midlarge_h7_20",
-   "to": "midlarge_h_certification"
-  },
-  {
-   "from": "midlarge_h20_A",
-   "to": "midlarge_h_certification"
-  },
-  {
-   "from": "single_obstruction_valueset",
-   "to": "midlarge_h20_A"
-  },
-  {
-   "from": "value_set_partner_cap",
-   "to": "midlarge_partner_cap_reduction"
-  },
-  {
    "from": "f1_minimal_field_descent",
    "to": "f1_classification"
   },
@@ -2645,10 +2075,6 @@
   {
    "from": "xr_ledger_exponent_reconciliation",
    "to": "averaged_xr"
-  },
-  {
-   "from": "subcore_richline_classification",
-   "to": "p1_post_paid_subcore_richline_cap"
   },
   {
    "from": "bounded_coeff_norm_gate",
@@ -2777,66 +2203,6 @@
   {
    "from": "ef_ru",
    "to": "f1_full_field_pole_forcing"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_profile_eliminant_nonvanishing"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_minor_specialization_certificate_semantics"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_profile_minor_certificate_coverage"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_triangular_minor_certificate_soundness"
-  },
-  {
-   "from": "xr_triangular_minor_certificate_soundness",
-   "to": "xr_profile_minor_certificate_coverage"
-  },
-  {
-   "from": "xr_triangular_minor_certificate_soundness",
-   "to": "xr_profile_minor_record_inventory_soundness"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_profile_minor_certificate_payload"
-  },
-  {
-   "from": "xr_profile_minor_record_inventory_soundness",
-   "to": "xr_profile_minor_certificate_payload"
-  },
-  {
-   "from": "xr_profile_minor_record_inventory_payload",
-   "to": "xr_profile_minor_certificate_payload"
-  },
-  {
-   "from": "xr_profile_minor_certificate_payload",
-   "to": "xr_profile_minor_certificate_coverage"
-  },
-  {
-   "from": "xr_minor_specialization_certificate_semantics",
-   "to": "xr_profile_eliminant_nonvanishing"
-  },
-  {
-   "from": "xr_profile_minor_certificate_coverage",
-   "to": "xr_profile_eliminant_nonvanishing"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_coordinate_hypersurface_reduction"
-  },
-  {
-   "from": "xr_profile_eliminant_nonvanishing",
-   "to": "xr_eliminant_vanishing_class"
-  },
-  {
-   "from": "xr_coordinate_hypersurface_reduction",
-   "to": "xr_eliminant_vanishing_class"
   },
   {
    "from": "spi_component_control",
@@ -3019,90 +2385,6 @@
    "to": "ef_descended_cycle_inventory_payload"
   },
   {
-   "from": "sov_forced_root_correctness",
-   "to": "sov_obstruction_equidistribution"
-  },
-  {
-   "from": "sov_first_obstruction_sensitivity",
-   "to": "sov_obstruction_equidistribution"
-  },
-  {
-   "from": "sov_first_obstruction_value_distribution",
-   "to": "sov_obstruction_equidistribution"
-  },
-  {
-   "from": "sov_first_obstruction_sensitivity",
-   "to": "sov_first_obstruction_value_distribution"
-  },
-  {
-   "from": "sov_hminus1_coefficient_distribution",
-   "to": "sov_first_obstruction_value_distribution"
-  },
-  {
-   "from": "sov_hminus1_fiber_fourier_duality",
-   "to": "sov_hminus1_coefficient_distribution"
-  },
-  {
-   "from": "sov_hminus1_character_sum_bound",
-   "to": "sov_hminus1_coefficient_distribution"
-  },
-  {
-   "from": "sov_nonconstant_affine_character_cancellation",
-   "to": "sov_hminus1_character_sum_bound"
-  },
-  {
-   "from": "sov_nonconstant_affine_character_cancellation",
-   "to": "sov_affine_piece_partition_certificate_soundness"
-  },
-  {
-   "from": "sov_affine_piece_partition_certificate_soundness",
-   "to": "sov_hminus1_affine_piece_decomposition"
-  },
-  {
-   "from": "sov_affine_piece_partition_payload",
-   "to": "sov_hminus1_affine_piece_decomposition"
-  },
-  {
-   "from": "sov_hminus1_affine_piece_decomposition",
-   "to": "sov_hminus1_character_sum_bound"
-  },
-  {
-   "from": "x83_uniform_square_shift_obstruction_gate",
-   "to": "sov_active_core_obstruction_vanishing"
-  },
-  {
-   "from": "a_universal_trade_variety",
-   "to": "sov_active_core_obstruction_vanishing"
-  },
-  {
-   "from": "sov_forced_root_recursion_algebra",
-   "to": "sov_active_core_obstruction_vanishing"
-  },
-  {
-   "from": "sov_forced_root_recursion_algebra",
-   "to": "sov_forced_root_correctness"
-  },
-  {
-   "from": "sov_active_core_obstruction_vanishing",
-   "to": "sov_forced_root_correctness"
-  },
-  {
-   "from": "sov_obstruction_equidistribution",
-   "to": "sov_fiber_budget_translation"
-  },
-  {
-   "from": "sov_forced_root_correctness",
-   "to": "single_obstruction_valueset"
-  },
-  {
-   "from": "sov_obstruction_equidistribution",
-   "to": "single_obstruction_valueset"
-  },
-  {
-   "from": "sov_fiber_budget_translation",
-   "to": "single_obstruction_valueset"
-  },
-  {
    "from": "ef_fvalued_word_source_is_interleaved_witness",
    "to": "ef_fullfield_bridge"
   },
@@ -3121,118 +2403,6 @@
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
    "to": "dli_reduced_phase_manifest_soundness"
-  },
-  {
-   "from": "official_row_primes_pinning",
-   "to": "m720_official_h7_20_norm_gate_certificates"
-  },
-  {
-   "from": "m720_mitm_gate",
-   "to": "m720_complete_calibration_certificates"
-  },
-  {
-   "from": "m720_certificate_semantics",
-   "to": "m720_complete_calibration_certificates"
-  },
-  {
-   "from": "m720_off_laptop_zero_certificates",
-   "to": "m720_complete_calibration_certificates"
-  },
-  {
-   "from": "m720_wsl_complete_zero_subcertificates",
-   "to": "m720_off_laptop_zero_certificates"
-  },
-  {
-   "from": "m720_residual_off_laptop_zero_certificates",
-   "to": "m720_off_laptop_zero_certificates"
-  },
-  {
-   "from": "m720_residual_slice_metadata",
-   "to": "m720_residual_off_laptop_zero_certificates"
-  },
-  {
-   "from": "m720_overceiling_complete_window_certificates",
-   "to": "m720_residual_off_laptop_zero_certificates"
-  },
-  {
-   "from": "m720_mitm_enumerator_soundness",
-   "to": "m720_mitm_gate"
-  },
-  {
-   "from": "m720_ground_truth_replay",
-   "to": "m720_mitm_gate"
-  },
-  {
-   "from": "m720_small_gate_replay",
-   "to": "m720_ground_truth_replay"
-  },
-  {
-   "from": "m720_h5_n32_gate_replay",
-   "to": "m720_remaining_gate_replay"
-  },
-  {
-   "from": "m720_h3_large_gate_replay",
-   "to": "m720_remaining_gate_replay"
-  },
-  {
-   "from": "m720_remaining_gate_replay",
-   "to": "m720_ground_truth_replay"
-  },
-  {
-   "from": "m720_complete_calibration_certificates",
-   "to": "m720_official_exclusion"
-  },
-  {
-   "from": "m720_official_paid_branch_alignment",
-   "to": "m720_official_exclusion"
-  },
-  {
-   "from": "m720_official_h7_20_norm_gate_certificates",
-   "to": "m720_official_exclusion"
-  },
-  {
-   "from": "m720_certificate_semantics",
-   "to": "m720_official_norm_gate_certificate_soundness"
-  },
-  {
-   "from": "m720_official_paid_branch_alignment",
-   "to": "m720_official_norm_gate_certificate_soundness"
-  },
-  {
-   "from": "m720_official_norm_gate_certificate_soundness",
-   "to": "m720_official_h7_20_norm_gate_certificates"
-  },
-  {
-   "from": "m720_official_norm_gate_case_manifest_soundness",
-   "to": "m720_official_h7_20_norm_gate_payload"
-  },
-  {
-   "from": "m720_official_norm_gate_case_manifest_payload",
-   "to": "m720_official_h7_20_norm_gate_payload"
-  },
-  {
-   "from": "m720_official_h7_20_norm_gate_payload",
-   "to": "m720_official_h7_20_norm_gate_certificates"
-  },
-  {
-   "from": "x83_uniform_square_shift_obstruction_gate",
-   "to": "m720_official_paid_branch_alignment"
-  },
-  {
-   "from": "a_universal_trade_variety",
-   "to": "m720_official_paid_branch_alignment"
-  },
-  {
-   "from": "m720_mitm_gate",
-   "to": "midlarge_h7_20"
-  },
-  {
-   "from": "m720_complete_calibration_certificates",
-   "to": "midlarge_h7_20"
-  },
-  {
-   "from": "m720_official_exclusion",
-   "to": "midlarge_h7_20"
   },
   {
    "from": "e22_two_class_exhaustion",
@@ -3601,18 +2771,6 @@
   {
    "from": "e22_staircase_arithmetic_pricing",
    "to": "e22_challenger_staircase_pricing"
-  },
-  {
-   "from": "subfield_trace_paid_gate",
-   "to": "sov_affine_piece_partition_payload"
-  },
-  {
-   "from": "sov_gridsum_residual",
-   "to": "sov_affine_piece_partition_payload"
-  },
-  {
-   "from": "m720_conductor_compression",
-   "to": "m720_official_norm_gate_case_manifest_payload"
   },
   {
    "from": "e22_mixed_petal_covariance",

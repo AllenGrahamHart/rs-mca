@@ -385,3 +385,11 @@ surface. dli deliberately kept in play (leaf+chain+consumer all validated). BOAR
 e22, rate_half, petal_growth (poly(n) extras uniformly in c), u1_pullback_dichotomy (the compression theorem).
 Critical ambers shrink accordingly; the audit surface is now dominated by short, validated chains.
 The cut petal band structure + u1 census notes remain the best-known attack routes for the two new reds.
+
+## FRONTIER RETRACTION 3: xr_smallcore_spread_count (user-directed, largest cut)
+Retracted at the topmost chokepoint of the midlarge/anchored/sov/m720 lane: 83 dominated (30 non-proved cut
+incl. reds sov_gridsum_residual + m720_conductor_compression and the whole spine; 53 proved kept off surface).
+New red = the SPREAD remainder count (post-cascade aligned aperiodic supports with pairwise-small cores
+<= poly(n)) -- a crisp sunflower/spread obligation. The in-flight SOV-BOHR-PRICING Pro round becomes advisory:
+if it lands, RE-EXPAND the segment with proven material (retraction is reversible-by-proving).
+BOARD: 6 reds -- dli, e22, rate_half, petal_growth, u1_pullback_dichotomy, xr_smallcore_spread_count.

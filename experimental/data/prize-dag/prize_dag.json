@@ -2688,7 +2688,7 @@
   {
    "id": "xr_smallcore_spread_count",
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "key": true,
    "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase.",
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
@@ -2696,7 +2696,7 @@
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md. | FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy."
   },
   {
    "id": "xr_sameslope_list_crossover",
@@ -2712,32 +2712,6 @@
    "notes": "PROVED (X-3 wave, verifier 39/39): same_slope_branch(u,v;z,A) = ExactList_C(w_z, A) exactly, with automatic far-spread (RS uniqueness + exactness). The list-lane obligation itself lives in the list nodes, as designed. | X-4 CORRECTION: the consumed object is the SPLIT form (staircase terms charged + primitive bound), not the unqualified ExactList. Slope/support distinction limits MCA-side impact: staircase supports share slopes, so R_post's slope count survives; the spread-count support analysis charges staircase supports to the (enlarged, tail-form) quotient strip."
   },
   {
-   "id": "xr_partial_tangent_band",
-   "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger",
-   "status": "CONDITIONAL",
-   "statement": "Distinct-slope aligned supports with core r in [k+1, A-2]: subtracting the two alignment identities gives (z1-z2) v = c1 - c2 on the core, so v agrees with a codeword on r >= k+1 points \u2014 the pair acquires depth-(r-k) tangent structure (one line, proved two-slope machinery). The work: design the GRADED tangent ledger charging depth-d partially-forced pairs (the s-ladder's worst-case face; #152's t=2 exchange packet is the proved base case), so that every band pair is either charged or upgraded toward the cascade threshold.",
-   "attack_surface": "iterate pairwise forcing up the depth grading; the tangent staircase's shape at each depth; E27's machinery calibrates band occupancy at toys",
-   "falsifier": "a toy band family resisting both charge and upgrade (E27's pencil machinery extended to partial cores)",
-   "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ],
-   "notes": "THE FORCING MAP IS PROVED (X-3 wave): every distinct-slope pair with core r = k+d, 1 <= d <= t-2, forces u = U, v = V on the core \u2014 a genuine tangent-depth-d cell; the COMPLEMENTARITY IDENTITY d + s = t (tangent depth + qx13 fresh codim = t exactly). Remaining: the ledger design (charging). Boundary r = k proved to belong with the rank/spread core. | W2 (PR #12, 26,385 checks replayed): the graded ledger DESIGN packet \u2014 depth-cell charging table built on the proved forcing map, honest non-promotion (the final ledger bound remains open; the design is the scaffold for it). | A2 (#26, 10/10 replayed): CONDITIONAL-ROUTED, routing table COMPLETE (no extra pairwise/heavy-triangle object); the two occupancy accountings are the only remaining content (nodes added, one shared with A1). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_partial_tangent_band/."
-  },
-  {
-   "id": "xr_fresh_codim_dichotomy",
-   "title": "THE IRREDUCIBLE CORE (rung 2c): the fresh-codimension-or-structure dichotomy",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "Far-spread regime (distinct slopes, cores r < k \u2014 no pairwise forcing exists): prove that every additional aligned support either (a) raises the joint rank of the pair's stacked alignment conditions by >= 1 (then the 2n dimension cap gives per-pair count <= 2n + charged, POLY outright), or (b) certifies an algebraic identity (rank stagnation = an eliminant vanishing identically) that places the family in a paid stratum. Proved inputs: distinct-slope conditions are exactly-additive PAIRWISE (qx13 (2b): the [[1,z],[1,z']] change of variables is rank-level, not just measure-level); the m >= 3 degeneracy question is the eliminant dichotomy at family level (M5's u5 shape). THIS is where the rigidity kernel's axis-Q content genuinely lives for face 4 \u2014 everything else in the face is proved machinery, a crossover, or graded bookkeeping. Note: dimension counting ALONE cannot close it (a point lies in adversarially many t-codim subspaces); the algebraic dichotomy is the content.",
-   "attack_surface": "the eliminant route at family level: rank stagnation across three-plus slopes as an identity in the support indicators; the M5/#199 chart machinery is the base laboratory; E27's organic sample calibrates how often stagnation occurs at toys (answer: FM-band rates)",
-   "falsifier": "a toy pair with rank-stagnating far-spread family OUTSIDE every paid stratum (searchable: extend E27's pencil verifier with a stacked-rank column)",
-   "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md",
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ],
-   "notes": "DECOMPOSED via the syzygy anatomy (derived and verified in-line): stagnation = twisted syzygy of constrained-support dual codewords; MDS dual weight forces the k+1 overlap budget (2c-alpha, PROVABLE, 4-line proof); budget-meeting configurations split into concentrated (popular cores + the m=3 triangle dichotomy \u2014 2c-beta, first concrete target, toy-exhaustible) and diffuse (scattered syzygies = face 2's F-lattice objects \u2014 2c-gamma). E32 probe queued: stacked-rank column on E27's machinery, hunt stagnating far-spread triples. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_fresh_codim_dichotomy/conditional.md."
-  },
-  {
    "id": "xr_syzygy_support_lemma",
    "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget",
    "status": "PROVED",
@@ -2749,19 +2723,6 @@
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
    ],
    "notes": "PROVED (23,480 checks): the k+1 overlap budget, in the rank-linear-algebra model of qx13 (the ledger's own model \u2014 scoping consistent across the whole chain)."
-  },
-  {
-   "id": "xr_popular_core_triangles",
-   "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "When the k+1 overlap budget is met by FEW partners (near-k overlaps): classify. Two shapes: (a) popular cores \u2014 many supports through a common near-k core: link/top-core territory (G1 cap machinery; the c(s,t) plateau says alignments there are independent, so mass is rationed); (b) TRIANGLES \u2014 the minimal stagnation configuration: three far-spread supports with two near-k overlaps plus the twisted compatibility. THE FIRST CONCRETE TARGET: prove the m=3 dichotomy \u2014 every rank-stagnating far-spread triple is paid (tangent/quotient/dihedral) or satisfies an eliminant identity placing it in a paid stratum. Exhaustively toy-testable with M5 charts; the eliminant at triple level is the smallest interesting instance of the family-level u5 dichotomy.",
-   "attack_surface": "enumerate toy triples exhaustively (E32 probe: extend E27's verifier with a stacked-rank column and hunt stagnating far-spread triples); the triple eliminant in M5's chart machinery; the two near-k overlaps are one point below rung 2b's forcing threshold \u2014 the boundary case",
-   "falsifier": "an unpaid rank-stagnating far-spread triple at toys (the E32 hunt, directly)",
-   "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ],
-   "notes": "DECOMPOSED (derived, not conjectured): beta-1 sunflowers never stagnate (PROVABLE \u2014 support cancellation + dual weight; families capped at 2n/t ~ 630; the list lane's worst case is the MCA lane's safe case); beta-2 heavy triangles (syzygy dimensionally forced when sum r - triple > 2k) merge with rung 2b's graded ledger, and non-sunflower popular cores reduce here via petal contact; beta-3 light triangles = the triple eliminant locus \u2014 the smallest closed form of the residual core, E32-testable. The dimension count (3t vs |union| - k) is the exact heavy/light divider. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_popular_core_triangles/conditional.md."
   },
   {
    "id": "xr_scattered_syzygy_flattice",
@@ -2788,44 +2749,6 @@
     "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
    ],
    "notes": "PROVED (552,814 checks): sunflowers never stagnate; the exact cap m <= floor(2n/t) per pair is proved, not just the shape."
-  },
-  {
-   "id": "xr_heavy_triangle_charge",
-   "title": "beta-2: heavy triangles (syzygy dimensionally forced) \u2014 the 2b boundary charge",
-   "status": "CONDITIONAL",
-   "statement": "Configurations with sum of pairwise overlaps minus triple intersection > 2k: syzygies exist for dimension reasons (kernel of the sum map is forced positive: 3t > |union| - k). These are overlap-heavy \u2014 at least two near-k/2+ overlaps, one step below rung 2b's partial-forcing threshold. TASK: extend the graded tangent ledger (2b) across the boundary so heavy-triangle stagnations are charged by the same depth grading; the popular-core case with petal-petal contact reduces here too (non-sunflower popular cores stagnate only through petal contact \u2014 sunflowers are excluded by beta-1).",
-   "attack_surface": "shared ledger design with xr_partial_tangent_band; the dimension count above pins exactly which configurations need the charge",
-   "falsifier": "a heavy triangle whose stagnation resists the graded charge at toys",
-   "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ],
-   "notes": "DECOMPOSED: beta-2a the pencil-degenerate case (derived codewords w_ij coincide) gives v agreement >= k+1 with one codeword \u2014 rung 2b VERBATIM, proved reduction (the w's are always affinely dependent; degeneracy = pencil collapse); beta-2b the generic case reduces to deep_link_staircase (every heavy triple contains a near-k partner pair). | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/xr_heavy_triangle_charge/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
-  },
-  {
-   "id": "xr_light_triangle_eliminant",
-   "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "Light configurations (sum r - triple <= 2k, budget >= k+1 still met): syzygy existence is a NON-GENERIC determinantal condition \u2014 an explicit eliminant locus in the support coordinates (the kernel of the sum map Lambda_0 + Lambda_1 + Lambda_2 jumps rank). The remaining claim: for every pair, stagnating light triangles are rationed \u2014 the eliminant locus's intersection with the pair's aligned-support variety is poly-bounded or paid. This is the SMALLEST closed form of face 4's residual core: one determinantal condition, three supports, exhaustively toy-testable (E32), and M5's chart machinery is its laboratory at deficiency-triple level.",
-   "attack_surface": "write the eliminant explicitly at toy scale (the sum-map matrix in MDS coordinates); E32 hunts stagnating light triples; the u5-style dichotomy (eliminant nonzero => rationed; identically zero => the configuration family is structured/paid) at triple level",
-   "falsifier": "a toy pair with super-poly stagnating light triangles outside paid strata (E32 directly)",
-   "refs": [
-    "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
-   ],
-   "notes": "E32-MERGED: no profile-forced vanishing anywhere checked; the dichotomy's structured branch is empty at profile level. Remaining: coordinate-special vanishing + the rationing leg (deep-link staircase, E33 pending). | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_light_triangle_eliminant/conditional.md."
-  },
-  {
-   "id": "deep_link_staircase",
-   "title": "THE COMMON GATE of beta-2b and beta-3c: aligned partners at near-k overlap",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "For a fixed pair and a fixed aligned support T0: bound the number of aligned supports (distinct slopes) overlapping T0 in the budget-relevant range (roughly (k/2, k) points) by poly(n) \u2014 expected staircase-linear. This single lemma rations BOTH heavy-triangle stagnations (beta-2b: every heavy triple contains such a partner pair) AND the total overlap budget for light-triangle stagnations (beta-3c: each stagnation spends k+1 budget, and the staircase bounds the family's total budget). Pairwise machinery is proved (the r < k plateau gives exact 2t-additivity); the staircase is about the POPULATION of near-k partners, the link of T0 at deep sub-cores \u2014 where the tangent staircase and top-core cap machineries both point. EVIDENCE-GATED: E33 (count near-k-overlap aligned partners at toys) runs before proof attempts, per the program's strategy.",
-   "attack_surface": "PROOF ROUTE SELECTED BY E33 (falsifier never fired, both rows): the link-population cap. Observed: max partner events per anchor 13 (< n) at the corridor row, 72 = 4.5n at the dense stress row \u2014 linear shape throughout; and THE key structural signal: partner events through any single fixed subcore max out at 5 on BOTH rows (density-independent). Proof shape: per-subcore rigidity (interpolation at near-k cores \u2014 the c(s,t) plateau's boundary) x occupied-subcore accounting. The derived-pencil recursion demotes to a transport tool \u2014 no super-linear growth exists for it to explain.",
-   "falsifier": "a toy pair + support with super-linear near-k aligned partners (E33 directly)",
-   "refs": [
-    "experimental/notes/roadmaps/qx13_pair_rank_ledger.md"
-   ],
-   "notes": "E33 (replayed green): 4096 + 512 anchor samples, observed/expected event counts consistent (870/910, 3734/3522), overlap spectrum concentrated at r = k-2, k-1; no all-slope support code in the near-k band. The lemma is now a shaped transfer target, not an open-ended question. | P1 (PR #13, 32/32 replayed): the E33 route is now ALGEBRAICALLY REDUCED to the named post-strip rich-line cap \u2014 the subcore reduction is proved; the raw pre-strip statement is false (rich lines are the paid families). Status stays TARGET pending p1_post_paid_subcore_richline_cap. | PROVABLE via assembly (P1 reduction + U3 charge + E33 constants) \u2014 unlocks beta-2b, beta-3c, and closes the rich-line chapter of face 4. | A1 (#24, 9/9): CONDITIONAL-ASSEMBLED \u2014 the fixed-subcore rich-line residue is CLOSED post-unified-strip (P1 reduction + F3 charge composed and verified); the one remaining step is the lower-overlap / occupied-subcore ACCOUNTING (how many subcores can be simultaneously occupied \u2014 a counting statement over the proved per-subcore cap). Face 4's rich-line chapter is one accounting lemma from done. | Status corrected PROVABLE -> CONDITIONAL: the occupancy accounting is now a formal open requirement (the validator caught the optimistic label)."
   },
   {
    "id": "xr_triangle_eliminant_form",
@@ -3064,19 +2987,6 @@
    "notes": "LITERATURE SEARCH RESOLVED THE ROUTE (roadmap-lane, web-verified to exist; exact statements to be pulled from the PDFs before use): (1) Zannier, 'Ritt's Second Theorem in arbitrary characteristic', Crelle 445 (1993) 175-203 \u2014 Ritt II in char p under tameness; (2) Kulkarni-Muller-Sury, 'Quadratic factors of f(X) - g(Y)' \u2014 Bilu's classification EXTENDED TO ARBITRARY CHARACTERISTIC (the bidegree-(1,1) toral case directly); (3) Turnwald's Dickson/Schur treatment for the Dickson normal forms; (4) Fried-Guralnick-Saxl + Klyachko for the exceptional direction (degree coprime to p: compositions of monomials/Dicksons exhaust). THE ASSEMBLY: toral factor x^a y^b = c => monomial substitution => Laurent functional equation => Zannier char-p Ritt II + Turnwald => monomial/Dickson. THE COMPLICATION FOUND: Zieve's 'Decompositions of Laurent polynomials' (the natural one-shot import) is CHARACTERISTIC 0 (built on Bilu-Tichy) \u2014 cannot be imported directly; the route goes through Zannier + substitution instead. THE TWO SEAMS THAT ARE OURS: (a) lifting general bidegree (a,b) toral factors to the quadratic/KMS case via the substitution (elementary-looking, needs writing); (b) the bounded-tails robustness wrapper. Status upgraded TARGET -> PROVABLE: an assembly task with named sources, not an open import. | T IS NOW ASSEMBLED MODULO ONE LEMMA: toral branch PROVED (t_laurent_ritt_toral_stabilizer \u2014 cyclic/dihedral pullback exactly); many-fibers branch = the verified subgroup-point bound with the corrected max{n^{2/3}, n^2/p} threshold (satisfied at the candidates by ~200 bits) forces a toral component, then the theorem applies; REMAINING: the bounded-tails wrapper (fibers-minus-B-points incidence loss \u2014 lemma-sized, named in X-8). Status TARGET -> CONDITIONAL on the tails wrapper. GRAMMAR NOTE: v1's charged forms should read outer-LAURENT in the cyclic branch per the X-9 correction."
   },
   {
-   "id": "a1_lower_overlap_occupied_subcore_accounting",
-   "title": "SHARED BLOCKER of A1 + A2: occupied-subcore accounting",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "Count the subcores simultaneously occupied by aligned partners at lower overlaps \u2014 the accounting layer above the proved per-subcore cap. Consumers: the assembled staircase (A1) and the graded tangent ledger bound (A2) \u2014 one machinery, two clients. E33's occupancy data calibrates (observed: totals stayed linear).",
-   "attack_surface": "sum the proved per-subcore cap over an occupancy-bounded family; the occupancy bound is a packing count over the (k-1)-subcore lattice",
-   "falsifier": "toy occupancy exceeding the budget (E33's scan + an occupancy histogram column)",
-   "refs": [
-    "experimental/notes/roadmaps/a1_staircase_cap_assembly.md"
-   ],
-   "notes": "OCC-1 (#28, 19/19): CONDITIONAL/RESIDUE \u2014 the E33 occupancy column is benign but DIRECT formal-lattice packing is under-specified; the bound must be on ACTIVE occupied subcores (the shadow), not the formal lattice. Same pattern as OCC-2 and everything else in this program: raw/formal fails, active/post-strip holds. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a1_lower_overlap_occupied_subcore_accounting/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate anchored_nontoral_pte_bound was not wired req \u2014 promoted."
-  },
-  {
    "id": "a2_depth_cell_residual_occupancy",
    "title": "A2's second blocker: depth-cell residual occupancy",
    "status": "REFUTED",
@@ -3148,31 +3058,6 @@
    "notes": "PROVENANCE: GPT Pro X-9 (10-for-10 substantive). The theorem is EASIER than full Laurent-Ritt precisely because the degree collapse kills general-bidegree components geometrically \u2014 the fence that made T look hard was an artifact of not parametrizing. | T-TOY (#32, 212/212): the classification confirmed empirically through degree 20 at tame toy rows \u2014 zero unclassified bidegree-(1,1) toral/affine cases; line factors are linear-conjugate power pullbacks; Dickson appears at the X^2 symmetry exactly as the theorem predicts."
   },
   {
-   "id": "a2_depth_cell_active_shadow_bound",
-   "title": "OCC-2's named replacement: the active-shadow depth-cell bound",
-   "status": "CONDITIONAL",
-   "statement": "The graded ledger's quantitative bound must count ACTIVE depth cells (those actually occupied by post-strip pairs \u2014 the shadow), not the formal cell lattice, which is already super-linear at every clean row (OCC-2's verified negative). Statement: the active shadow is budget-bounded; E33/P-A-style occupancy data says active objects are rare throughout this program.",
-   "attack_surface": "the same rarity-counting shape as A-i: activity requires an alignment event, which is suppressed; count expected active cells directly",
-   "falsifier": "a toy row with super-budget ACTIVE depth cells (extend the OCC-2 audit with the activity filter)",
-   "refs": [
-    "experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md"
-   ],
-   "notes": "ACT-SHADOW (#36): active depth cells max 10, max depth mass 60 <= n^2 = 256 at toys \u2014 no falsifier; the active-shadow statements are empirically solid and are instances of the same rarity count as the final estimate. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/a2_depth_cell_active_shadow_bound/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate anchored_nontoral_pte_bound was not wired req \u2014 promoted."
-  },
-  {
-   "id": "anchored_nontoral_pte_bound",
-   "title": "THE FINAL ESTIMATE: A_h^nt <= hn \u2014 everything reduces to this",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "H = mu_n in F_q*, n = 2^s, p >= n^2 (NEARLY SHARP \u2014 verified low-q falsifier below), 2 <= h <= (log2 n)^2. A_h^nt = #{anchored pairs (P, Q): 1 in P, disjoint h-subsets of H, e_j(P) = e_j(Q) for j < h, L_Q non-toral}. TARGET: A_h^nt <= hn. CONSEQUENCES (all proved conditional, X-10): #uncharged split pairs = (n/h) A_h^nt <= n^2 (the orbit argument: uncharged pairs have trivial scaling stabilizer, orbits of size n \u2014 PROVED); quotient-row transport verbatim; the k-fiber version via A_{h,k}^nt <= C_k hn; the tails wrapper via the defect version A_{h,B}^nt <= C_{h,B} n. WHY THE VERIFIED INPUTS STOP HERE (X-10's insufficiency ledger, source-checked): the Corvaja-Zannier curve theorem is one dimension too small (the system lives in (G_m)^{2h}, slicing loses n^{2h-O(1)}); per-psi caps do not sum over C(n,h) cores; the derivative identity (L_P' = L_Q') isolates the clustering but does not bound it; Shkredov-Vyugin additive-shift energy controls LINEAR patterns only, not h-1 simultaneous power sums. This is a high-dimensional finite-field PTE/Vinogradov mean-value problem for multiplicative subgroups \u2014 plausibly at the research frontier.",
-   "attack_surface": "the derivative-clustering lens (all fibers of one antiderivative share L'); Vinogradov-style mean-value induction on h (each moment level should cost a factor ~n... the conjectured bound hn is LINEAR \u2014 the strongest possible form; a weaker n^{1+eps} or n polylog n version still closes the campaign with adjusted budgets); SP-CENSUS (running) measures A_h^nt directly at toys \u2014 add the anchored column",
-   "falsifier": "SP-CENSUS anchored counts exceeding hn at any in-range (p >= n^2) toy row",
-   "refs": [
-    "experimental/notes/roadmaps/pa_active_core_probe.md"
-   ],
-   "notes": "SP-CENSUS (#33): every uncharged excess sits at q << n^2 \u2014 empirical CONFIRMATION of X-10's low-q falsifier (F17/mu16 at 3.8x, F41/mu20 at 13.7x, F97/mu24 at 52x \u2014 all far below the q >= n^2 line); NO in-range excess observed. Follow-up: SP-CENSUS-2 at q > n^2 rows (the census's toy fields were all sub-threshold). The anchored/active framing note is the conservative reading; the sharp reading is that the hypothesis line is real and empirically visible. | X-11: status -> CONDITIONAL on active_core_count_bound (the reduction chain is proved: anchor injectivity + the per-core cap). The h = 2 rung is PROVED (delta = 1/3). The residue is one peel smaller: count active cores, not split pairs. | QA.26 THE TOLERANCE LADDER (#38, replayed green): THE REWIRING DISCOUNT \u2014 the raw row arithmetic (QA.22 + QA.25 certificates, exact integer room) tolerates a DIRECT compiler column of n^{alpha+1} with alpha_max = 2.0925 at every row (limiting: the prize rows), i.e. A_h^nt <= n^3 suffices IF the consumers charge the split-pair mass directly into the compiler budget as a column (like the staircases) instead of through the orbit-converted n^2 form. The n^2 requirement is an ARTIFACT of how U1/B's formal reductions currently route. The tails constraint alpha + lambda <= 1 also relaxes under rewiring. NOTE the elementary freeze-bound A_3^nt << n^3 already MEETS the rewired target at h = 3. NEW TASK W4: re-derive the two consumption points (U1's primitive column, B's exit 3) against the n^3 direct-column form \u2014 pure convention plumbing with a factor-n prize. | SP-CENSUS-2 (#39, 54/54): an in-range falsifier OF THE STRICT hn FORM under the CYCLIC-ONLY classifier \u2014 F1153/mu32 (q = 1.13 n^2, the boundary zone), h = 8: A_8 = 976 vs hn = 256. ANALYSIS: (i) pigeonhole predicts nothing at h = 8 => the mass is STRUCTURED; the classifier tested only the cyclic branch \u2014 dihedral/boundary/zero-sum classes live exactly at n = 32, h = 8; RECLASS-976 (queued) re-classifies against the full strip. (ii) EVEN IF genuinely uncharged: 976 < n^2 = 1024 (the ladder holds) and 976 << n^3 (the W4-rewired target is untouched). (iii) All other in-range rows CLEAR. The trophy hn dies at the boundary zone; the campaign never needed it. EXTREMAL-MINE (#40, 20/20): the 976 do NOT cluster into few derivative classes \u2014 the derivative route is dead for the boundary mass; the high-q + full-strip + ladder formulation is the survivor."
-  },
-  {
    "id": "splitpair_lowq_falsifier",
    "title": "PROVED/VERIFIED (X-10): the low-q split-pair falsifier \u2014 p >= n^2 is nearly sharp",
    "status": "PROVED",
@@ -3191,19 +3076,6 @@
     "experimental/notes/roadmaps/sp_census_split_pair_census.md"
    ],
    "notes": "X-11 deliverable; verified here (the charged h=2 class is exactly antipodal-sum, matching the census's 992). NOTE: trade sizes start at h = t+1 >= 4 at the campaign rows, so this rung is a template and base case, not a direct consumer input."
-  },
-  {
-   "id": "active_core_count_bound",
-   "title": "THE RESIDUE, PEELED ONCE MORE (X-11): the active-core count C_h^nt",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "THE TERMINAL NODE (the contract for the autonomous proof loop \u2014 read this in full). SETTING: H = mu_n in F_q*, n = 2^s, char p >= n^2, h in [3, (log2 n)^2] (h = 2 is EXCLUDED \u2014 it has its own proved bound A_2^nt <= 6n^{5/3}; its active-core count genuinely exceeds n^{1/3} shapes near q = n^2). OBJECT: anchored cores P (1 in P, |P| = h) whose locator L_P admits a second completely split H-fiber, with (P, Q) NOT charged by the FULL STRIP = {cyclic: psi = F(x^m), F Laurent, m > 1 (X-9); dihedral: psi = F(x^m + alpha x^-m) (X-9); boundary-scale zero-sum coset patterns (the #35 classifier); moment/PTE-block pullback forms (W3 grammar v1)}. TARGETS, weakest first (ANY rung closes the campaign): (L3) #uncharged split pairs <= n^3 per row \u2014 sufficient AFTER the W4 rewiring (QA.26: all six rows tolerate the direct compiler column at alpha = 2.09; W4 = re-derive the two consumption points, part of this goal); (L2) <= n^2 \u2014 sufficient for the proof stack as currently wired; (L1/trophy) C_h^nt <= poly(h) n^{1/3} \u2014 dead in strict form at the q ~ n^2 boundary under the cyclic-only classifier (the 976 at F1153/mu32 h=8 \u2014 RECLASS against the full strip is an open subtask of this goal), plausibly alive away from the boundary. HIGH-Q FORM (most promising): for q >= n^c, ANY c <= 6, the fully-stripped count VANISHES for h >= 3 \u2014 empirically true at c = 3 everywhere tested; official rows afford c = 6 with 4 bits of slack. PROVED TOOLS IN-REPO: the star-PTE normal form; anchor injectivity (derivative classes are injective); the per-core cap poly(h) n^{2/3} (CZ/MV, verified, p >= n^2 kills the n^2/p term); the X-9 toral classification (toral => cyclic or dihedral, self-contained); the h=2 rung's freeze-to-a-curve method (elementary A_h << n^{2h-3}); the h=3 (a,b,t) rational parametrization (three explicit rational functions, X-12 verdict \u2014 REPLICATE IN-REPO before building on it, Pro's census numbers 18/129 are unverified by our harness). KNOWN-DEAD ROUTES (do not respend): Weil/char sums (subgroup below the Weil floor); per-curve bounds summed over cores (diverges); quadratic VMVT import (n^{2h-3-1/9}); char-0 lifting at campaign scale (phi(n) = 2^40 exponents); naive resultant elimination (degree-n objects); elementary rigidity R1-R4 (measured dead, 147 cores); derivative clustering of boundary mass (#40). HYGIENE: one lemma per file/packet, honest labels (PROVED only with complete proof), every numeric claim verifier-backed, every conditional's hypothesis a named node; statuses flip only on the roadmap lane's replay.",
-   "attack_surface": "Open routes, in promise order: (1) THE HIGH-Q VANISHING route \u2014 the empirical transition is bracketed (mass at q = 1.13n^2, zero at n^3); locate it finely (the q-sweep), then prove vanishing above it: candidate mechanisms \u2014 the (a,b,t) incidence at three simultaneous H-memberships (each costs n/q; at q >= n^3 the total parameter mass n^2 q (n/q)^3 = n^5/q^2 < 1: the challenge is converting this expectation into exclusion via the parametrization's algebraic structure, NOT pigeonhole); (2) the h = 3 case fully first (the parametrization makes it three rational functions \u2014 an exact component analysis of the incidence surface may be feasible symbolically), then induct via the freeze method with the h=3 base replacing the trivial base \u2014 recompute what n-power the induction then yields; (3) the full-strip cleanup (RECLASS-976): if the strip charges the boundary mass, restate and retarget; (4) W4 rewiring for the n^3 rung. Numerical scans are first-class moves: every hypothesis gets its falsifier scan before proof effort (the program's law \u2014 it has caught 10 falsehoods this week).",
-   "falsifier": "SP-CENSUS-2 anchored active-core counts exceeding the n^{1/3} (trophy) or n^{4/3-delta} (ladder) shapes at in-range toys",
-   "refs": [
-    "experimental/notes/roadmaps/pa_active_core_probe.md"
-   ],
-   "notes": "R2 REPLICATION IN-REPO (#44, autonomous mode, 38/38 replayed green): Pro's independent h=3 census CONFIRMED to the number \u2014 C_3^nt = 18 at (n=128, p=17921), 129 at (n=256, p=65537); K(P)=1 (partner pairs = cores) everywhere. HIGH-Q VANISHING CONFIRMED IN-REPO: all four q ~ n^3 rows (n = 32/64/128/256, p up to 16,777,729) give C_3^nt = 0. The two censuses now agree; the numbers are trustworthy for the high-q route. Next contract subtasks: the fine q-sweep between n^2 and n^3 (locate the transition), RECLASS-976, and the (a,b,t) incidence enumerator. | h3_param_lemma PROVED (#45, sympy-independently-verified): the h=3 count is now the exact 3-variable rational incidence #{(a,b,t): a,b,x(t),y(t),z(t) in H}. The autonomous loop's first proof claim, verified at proof level. | h=3 L3 RUNG PROVED (#46 cubic cap, verified): anchored active pairs < n^3 unconditionally at h=3 via the degree-2n root bound on N_x^n - D^n (<= 2n partners/core x C(n-1,2) cores). The smallest open trade size now meets the n^3 target; closure of h=3 awaits only W4's n^3-sufficiency rewiring. Remaining: h >= 4 (the freeze method with h=3 as base), and the high-q route for the sharper rungs. | W4 LANDED (#47, verified sound): the sufficiency rewiring drops the terminal target from n^2 to n^3 (both consumers charge R_PTE as one compiler column; row arithmetic fits, 31 checks). HONEST CORRECTION of my earlier 'h=3 closure pending W4': the campaign's trade sizes are h >= t+1 (Row C: t=3..5 => h >= 4; the smallest campaign trade is h=4, NOT h=3). So #46's h=3 cubic cap is a BASE CASE, not a campaign row; W4 makes n^3 SUFFICIENT but the BOUND is still open for the actual range h >= 4. Net: target lowered a full power of n; h=3 base proved; h >= 4 is the live front (the freeze-induction with h=3 as base, or the high-q route). | X-13 q-SWEEP (#48, 106/106 replayed): the high-q vanishing is ROBUST but the transition is NON-MONOTONE \u2014 n=32 gives C_3 = 6 at alpha=9/4 (p=2593) between ZEROS at alpha=2 and alpha=5/2; n=128/256 large at alpha=2 (18/129) then zero from alpha=9/4 up. READING: the non-monotonicity is EXCEPTIONAL-PRIME structure (single prime per cell; specific-prime resultant effects, the same phenomenon as the X-6 moment-block special primes), NOT a smooth density threshold. CONSEQUENCE for X-13: the clean target is q >= n^3 (ALL tested vanish there; official rows afford it) rather than a sharp intermediate exponent \u2014 a sub-n^3 threshold would need the exceptional-prime characterization AND multiple primes per cell to pin. The safe high-q theorem is 'q >= n^3 => C_h = 0' with the exceptional-prime set explicitly excluded or shown empty at official primes. | X14 h=4 CHARGED SWEEP (branch x14-h4-charged-sweep, 90/90 replayed; no PR yet, integrated proactively): at h=4 \u2014 THE FIRST REAL CAMPAIGN TRADE SIZE (t=3 at Row C => smallest trade h=4) \u2014 EVERY active pair is cyclic-charged, non-toral = 0 at ALL tested rows INCLUDING alpha=2 (q~n^2, the boundary). STRIKING CONTRAST: h=3 at alpha=2 had 18/129 primitive cores, but h=4 has ZERO \u2014 the primitive h=3 mass is a SMALL-h ARTIFACT; the actual campaign sizes (h>=4) show no primitive residue even at the boundary. IMPLICATION: the campaign may close not via a count bound but via a CLASSIFICATION LEMMA 'every active h>=4 partner is cyclic-charged' => R_PTE = 0 <= n^3 trivially. This is honest EVIDENCE (not proof); the named next step is exactly that lemma. Much more promising than the high-q count route \u2014 a structural charging statement at h>=4, not an asymptotic count. | X15 h=5 EMPTY SWEEP (#50, 40/40 replayed): ZERO RAW active partners at h=5 in all tested rows \u2014 no trades at all even BEFORE stripping (vs h=4, which had active pairs all cyclic-charged). So the primitive residue is zero at h=4 (charged) AND h=5 (empty), by different mechanisms. THE EMERGING UNIFIED PROOF TARGET (Codex's sketch): the top-(h-1) elementary-symmetric SIGNATURE is INJECTIVE on h-subsets of H for h large enough => no active partners exist => R_PTE = 0 outright. This is the clean closure route: a signature-injectivity lemma, NOT a count bound and NOT the high-dimensional subgroup point-count frontier. It must fail at h=3 (which has 18-129 primitive cores) \u2014 so the lemma's h-threshold and the reason it engages at h>=4/5 is the crux to verify when the proof lands. | AUTONOMOUS RUN x20-x39 (~20 proved reduction packets, verified green): h=4 is REDUCED by a PROVED DICHOTOMY (x32) to exactly {paid antipodal quotient branch + top-level 8-sparse cyclotomic norm gates} \u2014 NO hidden third mechanism. This proves payment-completeness for h=4 modulo the explicit norm-gate residue (h4_sparse_norm_gate), which is the SAME exceptional-prime resultant mechanism as the q-sweep non-monotonicity and X-6/X-8 \u2014 now certification-shaped and pinned to 8-sparse. NOT closed, but the residue is concrete, bounded, per-prime arithmetic. Also proved this run: the cyclic full-fiber collision lemma (x19, easy direction), the h=4 two-fingerprint classification (x20), h=6/7/8 empty signature sweeps (x17/x18/x19). | THE COMPLETE DICHOTOMY LANDS (x24 + x81 + x83, all replayed, core algebra independently verified): every finite-row minimal h-trade, for EVERY h, is full-fiber-PAID (power-of-two h only) or a p-specific norm-gate event. The small-h MATHEMATICS of this node is DONE \u2014 the entire remaining small-h content is the uniform certifier statement (h4_sparse_norm_gate, generalized): official primes divide no cleared obstruction norm. Remaining for closure: (1) the certifier execution / norm-bound at official rows (weight <= 2h_max ~ 40-80 at Row C per U2-A windows); (2) the giant regime (U2-C-prime, evidence-strong). The scans h=5..8 empty + h=4 all-charged are now COROLLARIES of the dichotomy plus per-prime facts, not standalone evidence. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/active_core_count_bound/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
   },
   {
    "id": "h3_param_lemma",
@@ -3235,19 +3107,6 @@
     "experimental/notes/roadmaps/x32_h4_terminal_dichotomy.md"
    ],
    "notes": "Autonomous run x20-x39 (~20 proved reduction packets), verified. The dichotomy is a real structural theorem \u2014 it PROVES payment-completeness for h=4 modulo the explicit norm-gate residue."
-  },
-  {
-   "id": "h4_sparse_norm_gate",
-   "title": "THE h=4 RESIDUE (x32): the 8-sparse cyclotomic norm gate",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "The precise remaining h=4 obstruction: bound/exclude the primes p with p | Res(Phi_n, f) for f an 8-sparse signed exponent word from disjoint 4-subsets of mu_n (Phi_n not dividing f). This IS the exceptional-prime mechanism from the q-sweep non-monotonicity and X-6/X-8 (resultant divisibility) \u2014 now pinned to h=4 and 8-sparse. CERTIFICATION-SHAPED (same as u2_per_row_certifier): either bound |Res(Phi_n, f)| below the official row primes (finitely many exceptional primes per f; the resultant route), or show the row primes divide none. Norm-gate machinery: x30 (finite-p norm gate, proved reduction), x31 (h=2 quotient norm criterion), x35 (power-sum gate). GENERALIZED BY x83 (uniform in h): the residue for EVERY window h is now \u2014 official row primes do not divide any cleared-obstruction cyclotomic norm (2^{4h-2}-cleared, from the forced square-shift recursion) of a square-shift support outside the paid full-fiber class. The h=4 8-sparse form is the special case. One certifier statement for the whole window, with x82's key discipline as the dedup.",
-   "attack_surface": "the resultant Res(Phi_n, f) for 8-sparse f is an explicit integer; bound its prime factors (Weil/height bounds on cyclotomic resultants) below 2^128, OR per-row divisibility check; 8-sparse structure + antipodal-free (branch 2) constrains f strongly",
-   "falsifier": "an official row prime dividing some 8-sparse Res(Phi_n, f) \u2014 a real h=4 primitive trade at that row (would need charging, not exclusion)",
-   "refs": [
-    "experimental/notes/roadmaps/x30_finite_p_norm_gate.md"
-   ],
-   "notes": "(A) DECOMPOSED (roadmap-lane derivation): the universal-variety reframing \u2014 trades = torsion points on the h-only variety W_h. (A1) toral part = fibers (proved, X24/x83 geometric); (A2) Laurent's theorem: non-toral torsion <= C(h) UNIFORM IN N (classical, needs effective citation); (A3) the good-reduction lemma: extras mod p require p in a finite h-only computable set S(h) \u2014 the one new lemma, with the always-works fallback (compute S(h) once, per-row GCD tests); (A4) assembly: C(h) x orbit factor n^2 <= n^3 budget. (A) has moved from the unsolved subgroup-counting frontier to effective-Laurent + good-reduction \u2014 proven-theory territory plus one lemma. | A3 PROVED + assembly banked: (A) closes with ZERO primitive residue on (C1) pilot certificates + (C2) per-row GCDs; Laurent off critical path; one loose end noded (h_window_derivation); absorbency margin 3 orders of magnitude. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/h4_sparse_norm_gate/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
   },
   {
    "id": "x24_char0_dyadic_descent",
@@ -3348,17 +3207,6 @@
    "notes": "PRO PACKET INTEGRATED (verified 17/17): descent suite PROVED, near-tails PROVED (< 2^122, half the budget), boundary notation repaired (hazard 1), brief frame (c) refuted (hazard 2 = falsification #14, mine). The node now = the primitive core alone (b2b_primitive_core). | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
-   "id": "a_closure_assembly",
-   "title": "THE (A) CLOSURE (conditional, verified): zero primitive residue on two computational inputs",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "At every official Row-C-class row, every window h: primitive trade count EXACTLY ZERO provided (C1) the D(1024,h) certificates exist (pilot) and (C2) row primes pass the GCD tests \u2014 via A3 + X24 only, no Laurent. Absorbency: one n^3 column tolerates ~3.1-8.0e5 anchored extras per h vs 132 observed at the worst calibration row (three orders of magnitude). Budget arithmetic checked against banked QA.22/W4 certificates.",
-   "refs": [
-    "experimental/notes/roadmaps/a_closure_assembly.md"
-   ],
-   "notes": "Fable-agent deliverable, replayed green. | AUDIT INTEGRATED: H_max := A (67/133/261 per rate) \u2014 the 2log2(n) cap was unfounded; assembly arithmetic already verified at 100, needs the h <= A extension pass. The (C2) GCD harness is BUILT and self-tested (recovers {7,17,97} exactly, three independent ways, 4s, stdlib-only) \u2014 (C2) is now purely mechanical once certificates exist. The star-PTE support micro-lemma (h <= A vs 2h <= A) flagged for the maintainer."
-  },
-  {
    "id": "h_window_derivation",
    "title": "THE LOOSE END the assembly surfaced: derive the h-window cap",
    "status": "PROVED",
@@ -3370,19 +3218,6 @@
     "experimental/notes/roadmaps/a_closure_assembly.md"
    ],
    "notes": "Micro-lemma resolved (star_pte_support_bound PROVED): h <= A, extremes realized explicitly at F_101. The audit's tighter 2h <= A hope is dead."
-  },
-  {
-   "id": "c1_scalable_certificate",
-   "title": "THE NEW BLOCKER: a scalable D(n,h) certificate at n = 1024",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "The (A) closure's (C1) input cannot be computed by direct elimination (pilot-measured: dead at n = 32). NEEDED: a certificate for 'no non-toral mod-p solutions of the anchored system rem(X^n - 1, S^2 - S(1)^2) = 0' computable at n = 1024, h in the window, for the six official primes. ROUTES: (i) 2-ADIC RECURSIVE DESCENT (most promising): X^n - 1 = (X^{n/2} - 1)(X^{n/2} + 1) \u2014 the divisor S^2 - lambda distributes across the dyadic tower in finitely many degree patterns; per pattern the conditions decompose into subproblems at n/2 \u2014 D(n,h) as a product of much smaller resultants over descent patterns (the same tower structure that powers every 2-power argument in this campaign); (ii) mod-p elimination for the six specific primes (kills coefficient growth but symbolic degree growth in the 41 squarings remains \u2014 feasibility unclear); (iii) the absorbency retreat: even without certificates, bound the multiplicity at possibly-bad primes structurally (A3's G3 gap \u2014 currently no tool). Route (i) is the one with a campaign pedigree.",
-   "attack_surface": "work out the descent pattern combinatorics at h = 4, n = 32 vs the pilot's computed data (the calibration case exists); if the recursion closes, the n = 1024 certificate is log2(n) = 10 descent levels of bounded work",
-   "falsifier": "the descent producing cross-terms that do not decompose (check at n = 32 against the pilot's exact eliminant)",
-   "refs": [
-    "experimental/notes/roadmaps/a_pilot_wh_torsion_data.md"
-   ],
-   "notes": "DECOMPOSED (roadmap-lane, seed identity sympy-verified): C1a \u2014 direct MITM certificates at h = 4/5, n = 1024 (FEASIBLE NOW, ~2^35 hash entries; covers the most exposed window sizes); C1b \u2014 the descent-injection certificate (trades descend to band pairs via the exact pushforward identity, budget h/2 per level; only 4 levels needed to reach the censusable n = 64; the injection lemma is the one new statement, calibratable against the pilot's exact n = 32 ground truth); C1c \u2014 the antipodal branch tracked as paid per level (X24's mechanism); C1d \u2014 the interface with the h-window audit (running). ALSO NOTED: at official primes the first-moment gap is 700+ bits per h (unlike the giant regime's razor edge) \u2014 if C1b resists, a large-sieve/averaging argument over patterns is the theory fallback. | COVERAGE MAP after the delta-saturation correction: C1a (direct MITM) covers h = 4, maybe 5; C1b (descent) covers h <= ~8-10; h >= ~16 needs the large-h emptiness lemma (route ii) as a third piece IF the window audit's H_max reaches that high. The audit is the decisive pending input. | WINDOW VERDICT: H_max = A. Coverage now: C1a h=4(-5), C1b h<=~10, NEITHER for h in (10, A] \u2014 the widened gap is noded (midlarge_h_certification) and goes into the Fable brief. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
    "id": "c1a_lowh_direct_certificates",
@@ -3415,19 +3250,6 @@
    "refs": [
     "experimental/notes/roadmaps/h_window_derivation_audit.md"
    ]
-  },
-  {
-   "id": "midlarge_h_certification",
-   "title": "THE WIDENED GAP: certification for h in (~10, A], A <= 261",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "With H_max = A (audit verdict), the certification pipelines cover: C1a direct MITM h = 4(-5); C1b descent h <= ~8-10 (band saturation). The range h in (~10, A] (A = 67/133/261 per rate) is covered by NEITHER \u2014 and the crude route (value_set_partner_cap x C(n,h) cores) reduces back to the terminal bound. ROUTES: (a) a large-h emptiness/exclusion THEOREM (first moment empty by thousands of bits; h-1 obstruction conditions overwhelm the C(n,h) pattern entropy above h ~ some explicit H0 \u2014 find the worst-case tool); (b) a scalable certificate valid at all h (the descent is not); (c) consumer-side: resolve the h <= A vs 2h <= A micro-lemma and check whether large-h trades enter R_PTE at full weight; (d) per-h budget arithmetic: 261 x ~1e5 << n^3 fits, so per-h bounds suffice \u2014 no aggregation cleverness needed. GAP PINNED (micro-lemma 5/5): h <= A reading PROVED (2h <= A wrong) \u2014 the certification gap is the full (10, A] with A = 67/133/261; its (100, A] tail additionally lies outside the frozen W3 grammar window at rates 1/4 and 1/8 (nonempty both), empty at 1/16. FRONTIER UPDATE (C1b proved + route-a autopsy): the gap is now h in (6, A] \u2014 C1b certifies h = 5, 6 (bottom census 2^38 at n=1024), C1a h = 4. Route (a) is DEAD (m1_trade_bijection: a bijection, not a bound). Live assets: the ~3.3e3-active-cores-per-h budget target (quantified), the M2 lever at extension rows, the first-moment margin (thousands of bits). This node is now the single largest open item on the (A) side.",
-   "attack_surface": "the Fable C1b brief carries this as its second part: prove the injection lemma (h <= 10) AND map/attack the large-h routes",
-   "falsifier": "a trade found at h in (10, A] at any calibration row with q >= n^3 (none ever observed)",
-   "refs": [
-    "experimental/notes/roadmaps/h_window_derivation_audit.md"
-   ],
-   "notes": "C1a VERDICT SHARPENS THE SPLIT: direct MITM is h=4-only (h=5 measured ~2.2yr infeasible). The descent (C1b) must carry h = 5..~10; the gap above ~10 unchanged. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/midlarge_h_certification/conditional.md."
   },
   {
    "id": "star_pte_support_bound",
@@ -3633,42 +3455,6 @@
     "experimental/notes/roadmaps/midlarge_h_routes.md"
    ],
    "notes": "FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
-  },
-  {
-   "id": "midlarge_h7_20",
-   "title": "midlarge h7 20",
-   "status": "CONDITIONAL",
-   "statement": "The scannable band h in (6, 20]: zero active cores at official-shape rows. EVIDENCE WALL: the pre-registered scan \u2014 C1b-descent pipelines at n <= 256 calibration rows plus MITM slices at n = 1024, h = 7..20; interpretation fixed before data: any active core found is charged and counted against the 3.3e3/h budget; zero across calibrations licenses the exclusion lemma attempt.",
-   "attack_surface": "the C1a/C1b machinery re-parameterized; delegable compute",
-   "falsifier": "an active core at h in (7,20] at any calibration row",
-   "refs": [
-    "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ],
-   "notes": "MODAL RUNNING ap-vQcKCgn6xEDBu2mAipdR7u. Caveat: banked MITM census (not the C1b pipeline); window-slice zeros = zero-within-[0,W); incomplete cells flagged not zeroed."
-  },
-  {
-   "id": "midlarge_h20_A",
-   "title": "midlarge h20 A",
-   "status": "CONDITIONAL",
-   "statement": "The asymptotic band h in (20, A] (A = 67/133/261): the obstruction-overwhelm route \u2014 an active core forces h-1 >= 20 simultaneous obstruction vanishings at the row's zeta; prove a single-obstruction value-set lower bound (via the m1 bijection reparametrization + Lemma 0's determined-low-coefficients structure) forcing active cores <= budget. Decomposes further to single_obstruction_valueset below.",
-   "attack_surface": "the graph structure: cores inject into top-coefficient tuples; one obstruction's value distribution is the whole question",
-   "falsifier": "an active core at h > 20 anywhere (never observed)",
-   "refs": [
-    "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ],
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/midlarge_h20_A/conditional.md."
-  },
-  {
-   "id": "single_obstruction_valueset",
-   "title": "single obstruction valueset",
-   "status": "CONDITIONAL",
-   "statement": "THE LEMMA UNDER midlarge_h20_A: for h > 20 at official-shape rows, the first obstruction O_{h-1}, restricted to anchored cores, takes >= C(n,h)/budget distinct values in F_p (equivalently: its fibers are small). EVIDENCE WALL: the value-distribution scan \u2014 sample anchored cores at h = 21..40, calibration rows, measure O-value collision rates; pre-registered: collision rate consistent with uniform => the lemma's shape is right; heavy collisions => route dead, fall back to per-h certificates.",
-   "attack_surface": "sampling scan, delegable; then the proof via character sums or the norm structure",
-   "falsifier": "O-value collision rates far above uniform at any calibration row",
-   "refs": [
-    "experimental/notes/roadmaps/midlarge_h_routes.md"
-   ],
-   "notes": "MODAL RUNNING ap-rLAsDplh1N7jQAiy0gmOEE. Referee caveat: X78's h=5 forced-square-root generalized to arbitrary h (gate-validated); calibration primes q~n^2,n^3 stand in for the prize prime \u2014 interpret as shape evidence, not prize-row certification. | SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close."
   },
   {
    "id": "f1_minimal_field_descent",
@@ -4287,15 +4073,6 @@
    "falsifier": "two distinct realizable full-petal extras with the same locator point, or a realizable extra whose locator does not lie in the residue-line kernel"
   },
   {
-   "id": "sov_affine_piece_partition_payload",
-   "title": "SOV grid character-sum bound (affine-piece route REFUTED)",
-   "status": "CONDITIONAL",
-   "statement": "RE-POSED (Pro P2+P3, verified): affine-piece route REFUTED (q>n incidence); grid-sum FALSE for the canonical trace char (F_{17^32}: 496/512 trace-zero points, cell density 0.506 at h=21, VERIFIED). single_obstruction survives (scan UNIFORM_CONSISTENT). NEW target P3': prove the grid character-sum bound after removing TRACE-FLAT/SUBFIELD-NORM gates (a!=0 with x->Tr(ax) constant on a positive-density cell) IN ADDITION to quotient/pullback/dihedral, then a Lane-1 power-sum / Lane-2 sheaf bound on the residual. SHARED THEME: trace/subfield-flat is a PAID gate (cf. dli P2).",
-   "attack_surface": "actual anchored-core coordinate decomposition and exceptional-piece budget proof",
-   "falsifier": "a forced-root conditioning cell with no such partition or with exceptional mass above the character-sum budget",
-   "notes": "SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close. | W2 (verified): affine-piece route REFUTED (q>n incidence obstruction); re-posed to the grid character-sum bound. Downstream single_obstruction NOT refuted. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs. | Shared gate subfield_trace_paid_gate PROVED (Pro T1); this node now reduces to its prime-field/non-degenerate residual only."
-  },
-  {
    "id": "sov_active_core_obstruction_vanishing",
    "title": "SOV active-core obstruction vanishing",
    "status": "PROVED",
@@ -4310,14 +4087,6 @@
    "statement": "For the forced-root obstruction construction, changing only the coefficient of X^{h-1} in the locator L leaves the forced root unchanged and changes the first obstruction O_{h-1} by exactly the negative of that coefficient change. Hence O_{h-1} is the correct coordinate-sensitive obstruction to use for the value-set problem.",
    "attack_surface": "triangular forced-root recursion and coefficient inspection",
    "falsifier": "a unit change in the X^{h-1} coefficient that changes the forced root or fails to change O_{h-1} by -1"
-  },
-  {
-   "id": "sov_obstruction_equidistribution",
-   "title": "SOV first-obstruction value-set equidistribution",
-   "status": "CONDITIONAL",
-   "statement": "For official-shape rows and h in (20,A], the first obstruction map O_{h-1} on anchored cores has sufficiently small fibers. Equivalently, the value set of O_{h-1} is large enough to prevent a super-budget concentration of active cores in any one value fiber.",
-   "attack_surface": "assembly from first-obstruction sensitivity and the remaining value-distribution/fiber theorem",
-   "falsifier": "a calibration or official-shape row where O_{h-1} has a fiber above the active-core budget, or a structural family of anchored cores on which O_{h-1} is constant"
   },
   {
    "id": "sov_forced_root_recursion_algebra",
@@ -4336,36 +4105,12 @@
    "falsifier": "a finite map to a field whose fiber size exceeds the Fourier-inversion bound"
   },
   {
-   "id": "sov_fiber_budget_translation",
-   "title": "SOV fiber bound to active-core budget",
-   "status": "CONDITIONAL",
-   "statement": "The quantitative fiber bound supplied by sov_obstruction_equidistribution is below the per-h active-core budget for every h in (20,A] at the official-shape rows.",
-   "attack_surface": "exact arithmetic once the value-set bound has constants",
-   "falsifier": "a row or h value where the proved fiber bound is still too large for the active-core budget used by midlarge_h20_A"
-  },
-  {
    "id": "sov_nonconstant_affine_character_cancellation",
    "title": "SOV nonconstant affine character cancellation",
    "status": "PROVED",
    "statement": "For any finite-dimensional affine space over the row field, any nontrivial additive character, and any affine-linear coefficient map with nonzero linear part, the nontrivial character sum over the affine space is zero. For a disjoint partition into such affine pieces plus an exceptional set, the total character sum is bounded by the exceptional-set size.",
    "attack_surface": "finite-field additive-character orthogonality on a nonconstant affine map",
    "falsifier": "a nonconstant affine-linear map over a finite field whose nontrivial additive character sum is nonzero"
-  },
-  {
-   "id": "sov_first_obstruction_value_distribution",
-   "title": "SOV first-obstruction value distribution",
-   "status": "CONDITIONAL",
-   "statement": "For official-shape rows and h in (20,A], the coefficient-sensitive first obstruction O_{h-1} has fibers small enough on anchored cores to meet the active-core budget.",
-   "attack_surface": "assembly from first-obstruction coefficient sensitivity and the remaining h-1 locator-coefficient distribution theorem",
-   "falsifier": "a calibration or official-shape row where a fiber of O_{h-1} is above budget, or a structural constant-family for O_{h-1}"
-  },
-  {
-   "id": "sov_hminus1_affine_piece_decomposition",
-   "title": "SOV h-1 affine-piece decomposition",
-   "status": "CONDITIONAL",
-   "statement": "For every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell of anchored-core locators, partition the cell into affine pieces on which c(L)=[X^{h-1}]L is nonconstant affine-linear, plus exceptional paid/norm-structured pieces whose total size is below the character-sum budget. This is reduced to affine-partition certificate soundness plus the remaining anchored-core partition payload.",
-   "attack_surface": "assembly from proved affine-partition certificate soundness and the remaining anchored-core affine/paid-piece partition payload",
-   "falsifier": "a conditioning cell with a large non-paid component on which the h-1 coefficient is constant or has no cancellative affine direction, or a defect in the partition certificate soundness rule"
   },
   {
    "id": "sov_forced_root_correctness",
@@ -4376,28 +4121,12 @@
    "falsifier": "an active core in the intended h band whose forced-root obstruction vector does not vanish, or a mismatch with the banked h=5/X79 construction"
   },
   {
-   "id": "sov_hminus1_coefficient_distribution",
-   "title": "SOV h-1 locator-coefficient distribution",
-   "status": "CONDITIONAL",
-   "statement": "For official-shape rows and h in (20,A], the coefficient [X^{h-1}]L of anchored-core locators has fibers small enough, after conditioning on the forced-root higher coefficients, to meet the active-core budget once transported by first-obstruction sensitivity. This follows from finite Fourier fiber duality plus the anchored-core nontrivial character-sum bound for this coefficient.",
-   "attack_surface": "assembly from sov_hminus1_fiber_fourier_duality and the remaining anchored-core character-sum bound",
-   "falsifier": "a calibration or official-shape row where the h-1 coefficient has a fiber above budget after the forced-root conditioning"
-  },
-  {
    "id": "sov_affine_piece_partition_certificate_soundness",
    "title": "SOV affine-piece partition certificate soundness",
    "status": "PROVED",
    "statement": "If a certificate partitions every forced-root conditioning cell into disjoint affine pieces where c(L)=[X^{h-1}]L has nonzero linear part, plus paid/norm-structured exceptional pieces whose total size is below the declared character-sum budget, then sov_hminus1_affine_piece_decomposition holds.",
    "attack_surface": "finite partition and affine-linear certificate semantics for SOV conditioned cells",
    "falsifier": "a verified affine/exceptional partition certificate that fails to imply the SOV h-1 affine-piece decomposition"
-  },
-  {
-   "id": "sov_hminus1_character_sum_bound",
-   "title": "SOV h-1 anchored-core character-sum bound",
-   "status": "CONDITIONAL",
-   "statement": "For every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell, the nontrivial additive character sums of c(L)=[X^{h-1}]L over anchored cores are small enough that the Fourier-duality fiber bound is below the active-core budget. This is reduced to a proved affine-piece cancellation lemma plus the remaining anchored-core affine/paid-piece decomposition.",
-   "attack_surface": "assembly from affine-piece cancellation and the remaining decomposition/classification of conditioned anchored-core cells",
-   "falsifier": "a forced-root conditioning cell with nontrivial character sums large enough to create an above-budget h-1 coefficient fiber"
   },
   {
    "id": "ef_fvalued_word_source_is_interleaved_witness",
@@ -4500,14 +4229,6 @@
    "falsifier": "a payload marked complete and zero for every primitive norm-gate case while an unpaid non-toral official h=7..20 active core survives"
   },
   {
-   "id": "m720_official_h7_20_norm_gate_certificates",
-   "title": "M720 official h=7..20 norm-gate certificates",
-   "status": "CONDITIONAL",
-   "statement": "For admissible official-shape rows and h=7..20, no primitive p-specific x83 norm-gate event survives. This is reduced to the proved official norm-gate certificate soundness rule and the remaining payload or uniform nonvanishing theorem for the primitive norm-gate branch.",
-   "attack_surface": "assembly from payload soundness, case-manifest soundness, and the remaining h=7..20 official norm-gate case manifest payload",
-   "falsifier": "an admissible or named-exhibit h=7..20 non-paid square-shift support whose cleared obstruction norm vanishes in the field"
-  },
-  {
    "id": "m720_certificate_semantics",
    "title": "M720 calibration certificate semantics",
    "status": "PROVED",
@@ -4548,28 +4269,12 @@
    "falsifier": "a complete calibration cell with nonzero unpaid non-toral active cores, or missing/false completeness metadata"
   },
   {
-   "id": "m720_official_exclusion",
-   "title": "M720 official-shape h=7..20 exclusion",
-   "status": "CONDITIONAL",
-   "statement": "At official-shape rows, every h=7..20 active-core candidate is empty or belongs to a charged paid structure, so the unpaid active-core contribution in this band is zero.",
-   "attack_surface": "transfer calibration/certificate structure to official-shape rows using C1a/C1b obstruction equations and the paid ledger",
-   "falsifier": "an official-shape row with an unpaid non-toral active core in the band h=7..20"
-  },
-  {
    "id": "m720_residual_slice_metadata",
    "title": "M720 residual slice metadata",
    "status": "PROVED",
    "statement": "Under the Modal count-ceiling window rule, every h=7..20 residual cell beyond the WSL-safe complete zero cells is either a W<n window slice or one of exactly two over-ceiling complete-window cells: n=32,h=16 at q~n^2 and q~n^3.",
    "attack_surface": "mechanical replay of the Modal window-selection rule over the configured h,n,q_exp grid",
    "falsifier": "a residual configured cell that is complete, under ceiling, and not already in the WSL-safe complete-cell list"
-  },
-  {
-   "id": "m720_official_h7_20_norm_gate_payload",
-   "title": "M720 official h=7..20 norm-gate payload",
-   "status": "CONDITIONAL",
-   "statement": "Provide either a uniform admissible-family nonvanishing theorem for the primitive h=7..20 norm-gate obstructions, or a complete named-exhibit certificate payload covering every official-shape primitive norm-gate case with zero unpaid non-toral survivors. This is reduced to the proved official case-manifest soundness rule plus the remaining actual official norm-gate case manifest payload.",
-   "attack_surface": "assembly from the case-manifest soundness rule and the actual official h=7..20 nonvanishing proof or complete machine-checkable payload for the primitive norm-gate branch",
-   "falsifier": "an uncovered official primitive norm-gate case, an incomplete certificate record, or a surviving unpaid non-toral active core"
   },
   {
    "id": "m720_h3_large_gate_replay",
@@ -4634,15 +4339,6 @@
    "statement": "The M720 gate arithmetic reproduces the banked h=3,4,5 calibration facts: full_census(16,3,17)=352, full_census(16,3,97)=16, full_census(128,3,17921)=18 anchored cores, full_census(256,3,65537)=129 anchored cores, full_census(16,4,17)=120 non-toral + 6 toral, and full_census(32,5,97)=96 trades.",
    "attack_surface": "assembly from local small-gate replay and the remaining off-laptop larger calibration rows",
    "falsifier": "any replay returning a different count, or a corrected banked calibration table"
-  },
-  {
-   "id": "m720_official_norm_gate_case_manifest_payload",
-   "title": "M720 actual official norm-gate case manifest payload",
-   "status": "CONDITIONAL",
-   "statement": "STRUCTURAL DISCHARGE (Pro P4, verified): a non-toral survivor => p | N_{L/Q}(A_j(R)) for a nonzero cleared cyclotomic obstruction A_j=2^{4h-2}O_j; if |N|<=B^{[L:Q]}<p then no survivor. Crude height log2 B_20 ~ 290.7 VERIFIED. Remaining: a DEGREE/CONDUCTOR COMPRESSION lemma (the obstruction lives in a small subfield L with 291*[L:Q]<log2 p) OR the C2 per-row certs gcd(p,D(n,h))=1. SHARED THEME: needs subfield/conductor compression.",
-   "attack_surface": "project-specific official h=7..20 primitive norm-gate case enumeration and certificate manifest",
-   "falsifier": "an official primitive norm-gate case missing from the manifest, a non-complete record, or a listed record with unpaid non-toral survivors",
-   "notes": "MODAL CENSUS DONE (partial, EVIDENCE only): gate_pass=true; 6 cases exhausted with ZERO norm-gate witnesses (n=16,32 at h=7), but 73/79 cases INCOMPLETE (hit 6M-probe count_ceiling). No counterexample where complete, but the deployed cases (n>=64, higher h) did NOT exhaust \u2014 brute-force MITM enumeration is exponential and will not reach them. Node stays RED: needs a STRUCTURAL norm-gate argument (analytic witness bound), not exhaustion. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs. | CONSUMER-PREMISE ATTACK (verified): the COMPRESSION premise is empirically dead -- Codex's h=7 survivor (n=64,p=193; h=7 = BOTTOM EDGE of the official band) has FULL obstruction degree 32=phi(64), trivial stabilizer; 291*32=9312 >> log2 p~250 (fails by ~37x). ALL measured survivors (calibration h=3..5 + band-edge h=7) are full-degree. LIVE PREMISE NARROWS to the C2/D-GCD certificate route (official D(n,h) + row-prime payload) -- a data-acquisition problem, not a compression theorem. (Toy scale n<=128; official rows unmeasured, but zero evidence for compression anywhere.)"
   },
   {
    "id": "m720_remaining_gate_replay",
@@ -5046,24 +4742,6 @@
    "attack_surface": "Weil-restrict extension rows to base F_p (proved f1/interleaved machinery); or price the trace-flat/subfield-norm class in the paid ledger.",
    "falsifier": "An extension row whose trace-flat/subfield-degenerate locus is neither paid nor base-reducible.",
    "notes": "PROVED (Pro T1, all core claims verified): exact Weil descent + trace-flat classification |Ann(A)|=p^{e-dimW} + SOV Euler product; both counterexamples absorbed as paid trace-kernel collapses. TRACE_FLAT ledger column installed; affordability (2^122.5 << |F|=2^131) routed to the mca_safe budget audit. SHARED SPINE CLOSED \u2014 dli & sov now need only their residual."
-  },
-  {
-   "id": "sov_gridsum_residual",
-   "title": "SOV grid character-sum residual (non-trace-flat cells)",
-   "status": "TARGET",
-   "statement": "CORRECTED (Pro T4B, verified): the arbitrary-cell version is REFUTED by an INFINITE family \u2014 prime-field additive Bohr/interval cells Gamma={1..(p-1)/R} are non-trace-flat, non-quotient, non-dihedral, positive density (R^-r), yet the obstruction takes only <=(r/R)q values (0.321q at F_65537,R=64,r=21, VERIFIED) with char ratio >sinc(pi/R)^r. So trace-flat + quotient/dihedral removal is NOT enough. Valid decomposition: + a NEW paid large_power_sum/Bohr-window class (exists a!=0,j with |sum psi(jax)|>B) whose MASS must be priced; then the PROVED Lane-1 Euler-product theorem closes the residual_fourier_uniform cells. REMAINING: price/rule the large_power_sum/Bohr class (a real ledger obligation, proven necessary).",
-   "attack_surface": "Lane-1 distinct-coordinate/symmetric-power sieve; Lane-2 sheaf trace bound on the divisor chart.",
-   "falsifier": "A positive-density residual (non-trace-flat, non-quotient) cell with no cancellation.",
-   "notes": "T4 (verified): trace-flat gate insufficient (arc counterexample); Lane-1 engine PROVED; needs large_power_sum/Bohr-flat paid gate + residual budget. | T4B (verified): infinite-family refutation; needs the large_power_sum/Bohr-window paid gate priced, then Lane-1. | WORST-CASE CENSUS SURVIVED (dli-lesson-corrected, Modal 1064 cells): value-set measured rel. achievable mass min(C(m,h),p); 521 collision-heavy cells 100% Bohr-caught, 0 counterexamples incl. degenerate small-support/subgroup families. Core mechanism (collision=>Bohr=>paid) is robust -- OPPOSITE of dli. Mechanism HIGH; full leaf MED-HIGH (Lane-1 residual + quotient/dihedral exhaustion untested by census). | LANE-1 RESIDUAL probe (quantitative): 0 violations/328 cells; deficit~0 up to B~0.93, only PURE Bohr collapses. CRUX of the pricing obligation identified = tightness of the Euler-product bound near B=1 (a cell can have high B yet full value-set, so the Bohr gate over-includes; threshold placement depends on bound tightness). Lane-1 theorem empirically ROBUST. Pricing obligation OPEN-but-narrowed. | CODEX CROSS-VALIDATION (independent): 528 cases + adversarial local search, 0 falsifiers to the repaired decomposition; concluded the surviving target is pricing the large_power_sum/Bohr class -- MATCHES my worst-case census + Lane-1 probe exactly."
-  },
-  {
-   "id": "m720_conductor_compression",
-   "title": "m720 norm gate: survivor-conditioned field bound OR D-GCD payload (compression REFUTED)",
-   "status": "TARGET",
-   "statement": "REFINED (Pro T5, verified): the support-size compression is REFUTED (1024/7 obstruction has full degree 512). A REFINED universal height gate is PROVED: |sigma(A_j)|<=2^{H_h}, H_h=(4h-2)+log2(max_j sum U_a U_b), VERIFIED H_20=136.24 (CORRECTS my earlier crude 291 which was too weak: 2^290.7>2^250). Even refined, h<=18 close at degree<=2 (p~2^250) but h=19,20 close only at [L:Q]=1 and CANNOT close over F_{p^2} (char~125<136.24). So m720 needs, per row/window: (R2) a SURVIVOR-CONDITIONED nonzero obstruction in a field L with H_h[L:Q]<log2 p (survivor-specific), OR (R3) the C2 gcd(p,D(n,h))=1 certificate, BLOCKED on the missing official Row-C primes + D(n,h) payload.",
-   "attack_surface": "(i) survivor-conditioned field bound via the actual survivor equations (not support size); or (ii) obtain the D(n,h) + official Row-C primes and run the C2 gcd check.",
-   "falsifier": "an official case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
-   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data. | T5 (verified): refined height H_20=136.24 (was 291); still insufficient for h=19,20 at Row-C => needs survivor-conditioned descent (R2) or C2 payload (R3)."
   },
   {
    "id": "e22_mixed_petal_covariance",
@@ -7379,74 +7057,9 @@
    "kind": "req"
   },
   {
-   "from": "xr_partial_tangent_band",
-   "to": "xr_smallcore_spread_count",
-   "kind": "req"
-  },
-  {
-   "from": "xr_fresh_codim_dichotomy",
-   "to": "xr_smallcore_spread_count",
-   "kind": "req"
-  },
-  {
-   "from": "xr_ledger_qpower",
-   "to": "xr_fresh_codim_dichotomy",
-   "kind": "ev"
-  },
-  {
-   "from": "xr_syzygy_support_lemma",
-   "to": "xr_fresh_codim_dichotomy",
-   "kind": "req"
-  },
-  {
-   "from": "xr_popular_core_triangles",
-   "to": "xr_fresh_codim_dichotomy",
-   "kind": "req"
-  },
-  {
-   "from": "xr_scattered_syzygy_flattice",
-   "to": "xr_fresh_codim_dichotomy",
-   "kind": "req"
-  },
-  {
    "from": "f_many_sparse_structure",
    "to": "xr_scattered_syzygy_flattice",
    "kind": "ev"
-  },
-  {
-   "from": "xr_sunflower_rank_additive",
-   "to": "xr_popular_core_triangles",
-   "kind": "req"
-  },
-  {
-   "from": "xr_heavy_triangle_charge",
-   "to": "xr_popular_core_triangles",
-   "kind": "req"
-  },
-  {
-   "from": "xr_light_triangle_eliminant",
-   "to": "xr_popular_core_triangles",
-   "kind": "req"
-  },
-  {
-   "from": "deep_link_staircase",
-   "to": "xr_heavy_triangle_charge",
-   "kind": "req"
-  },
-  {
-   "from": "deep_link_staircase",
-   "to": "xr_light_triangle_eliminant",
-   "kind": "req"
-  },
-  {
-   "from": "xr_triangle_eliminant_form",
-   "to": "xr_light_triangle_eliminant",
-   "kind": "req"
-  },
-  {
-   "from": "xr_eliminant_vanishing_class",
-   "to": "xr_light_triangle_eliminant",
-   "kind": "req"
   },
   {
    "from": "xr_syzygy_flat_transport",
@@ -7509,11 +7122,6 @@
    "kind": "req"
   },
   {
-   "from": "p1_post_paid_subcore_richline_cap",
-   "to": "deep_link_staircase",
-   "kind": "req"
-  },
-  {
    "from": "moment_trade_staircase",
    "to": "x4_exactlist_staircase_split",
    "kind": "req"
@@ -7554,21 +7162,6 @@
    "kind": "req"
   },
   {
-   "from": "a1_lower_overlap_occupied_subcore_accounting",
-   "to": "deep_link_staircase",
-   "kind": "req"
-  },
-  {
-   "from": "a1_lower_overlap_occupied_subcore_accounting",
-   "to": "xr_partial_tangent_band",
-   "kind": "req"
-  },
-  {
-   "from": "a2_depth_cell_residual_occupancy",
-   "to": "xr_partial_tangent_band",
-   "kind": "ev"
-  },
-  {
    "from": "u2c_giant_block_dichotomy",
    "to": "x4b_moment_trade_exclusion",
    "kind": "ev"
@@ -7594,56 +7187,6 @@
    "kind": "req"
   },
   {
-   "from": "a2_depth_cell_active_shadow_bound",
-   "to": "xr_partial_tangent_band",
-   "kind": "req"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "a1_lower_overlap_occupied_subcore_accounting",
-   "kind": "req"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "a2_depth_cell_active_shadow_bound",
-   "kind": "req"
-  },
-  {
-   "from": "splitpair_lowq_falsifier",
-   "to": "anchored_nontoral_pte_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "pte_h2_rung",
-   "to": "anchored_nontoral_pte_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "active_core_count_bound",
-   "to": "anchored_nontoral_pte_bound",
-   "kind": "req"
-  },
-  {
-   "from": "h3_param_lemma",
-   "to": "active_core_count_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "w4_direct_column_rewiring",
-   "to": "active_core_count_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "h4_terminal_dichotomy",
-   "to": "active_core_count_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "h4_sparse_norm_gate",
-   "to": "active_core_count_bound",
-   "kind": "req"
-  },
-  {
    "from": "x24_char0_dyadic_descent",
    "to": "x83_uniform_square_shift_obstruction_gate",
    "kind": "req"
@@ -7659,26 +7202,6 @@
    "kind": "ev"
   },
   {
-   "from": "x83_uniform_square_shift_obstruction_gate",
-   "to": "active_core_count_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "a_universal_trade_variety",
-   "to": "h4_sparse_norm_gate",
-   "kind": "req"
-  },
-  {
-   "from": "a2_laurent_finiteness",
-   "to": "h4_sparse_norm_gate",
-   "kind": "ev"
-  },
-  {
-   "from": "a3_good_reduction_lemma",
-   "to": "h4_sparse_norm_gate",
-   "kind": "req"
-  },
-  {
    "from": "b1_char0_giant_coset_theorem",
    "to": "u2c_boundary_scale_column",
    "kind": "ev"
@@ -7689,58 +7212,8 @@
    "kind": "req"
   },
   {
-   "from": "a_closure_assembly",
-   "to": "h4_sparse_norm_gate",
-   "kind": "req"
-  },
-  {
-   "from": "h_window_derivation",
-   "to": "a_closure_assembly",
-   "kind": "req"
-  },
-  {
-   "from": "c1_scalable_certificate",
-   "to": "a_closure_assembly",
-   "kind": "req"
-  },
-  {
-   "from": "c1a_lowh_direct_certificates",
-   "to": "c1_scalable_certificate",
-   "kind": "req"
-  },
-  {
-   "from": "c1b_descent_injection",
-   "to": "c1_scalable_certificate",
-   "kind": "req"
-  },
-  {
    "from": "value_set_partner_cap",
    "to": "h_window_derivation",
-   "kind": "ev"
-  },
-  {
-   "from": "midlarge_h_certification",
-   "to": "c1_scalable_certificate",
-   "kind": "req"
-  },
-  {
-   "from": "star_pte_support_bound",
-   "to": "midlarge_h_certification",
-   "kind": "req"
-  },
-  {
-   "from": "official_row_primes_pinning",
-   "to": "a_closure_assembly",
-   "kind": "req"
-  },
-  {
-   "from": "m1_trade_bijection",
-   "to": "midlarge_h_certification",
-   "kind": "ev"
-  },
-  {
-   "from": "m2_antinorm_lever",
-   "to": "midlarge_h_certification",
    "kind": "ev"
   },
   {
@@ -7871,26 +7344,6 @@
   {
    "from": "list_corridor_ledger",
    "to": "list_adjacency_closing",
-   "kind": "req"
-  },
-  {
-   "from": "midlarge_partner_cap_reduction",
-   "to": "midlarge_h_certification",
-   "kind": "req"
-  },
-  {
-   "from": "midlarge_h7_20",
-   "to": "midlarge_h_certification",
-   "kind": "req"
-  },
-  {
-   "from": "midlarge_h20_A",
-   "to": "midlarge_h_certification",
-   "kind": "req"
-  },
-  {
-   "from": "single_obstruction_valueset",
-   "to": "midlarge_h20_A",
    "kind": "req"
   },
   {
@@ -8544,63 +7997,8 @@
    "kind": "req"
   },
   {
-   "from": "sov_forced_root_correctness",
-   "to": "sov_obstruction_equidistribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_first_obstruction_sensitivity",
-   "to": "sov_obstruction_equidistribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_first_obstruction_value_distribution",
-   "to": "sov_obstruction_equidistribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_first_obstruction_sensitivity",
-   "to": "sov_first_obstruction_value_distribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_hminus1_coefficient_distribution",
-   "to": "sov_first_obstruction_value_distribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_hminus1_fiber_fourier_duality",
-   "to": "sov_hminus1_coefficient_distribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_hminus1_character_sum_bound",
-   "to": "sov_hminus1_coefficient_distribution",
-   "kind": "req"
-  },
-  {
-   "from": "sov_nonconstant_affine_character_cancellation",
-   "to": "sov_hminus1_character_sum_bound",
-   "kind": "req"
-  },
-  {
    "from": "sov_nonconstant_affine_character_cancellation",
    "to": "sov_affine_piece_partition_certificate_soundness",
-   "kind": "req"
-  },
-  {
-   "from": "sov_affine_piece_partition_certificate_soundness",
-   "to": "sov_hminus1_affine_piece_decomposition",
-   "kind": "req"
-  },
-  {
-   "from": "sov_affine_piece_partition_payload",
-   "to": "sov_hminus1_affine_piece_decomposition",
-   "kind": "req"
-  },
-  {
-   "from": "sov_hminus1_affine_piece_decomposition",
-   "to": "sov_hminus1_character_sum_bound",
    "kind": "req"
   },
   {
@@ -8629,26 +8027,6 @@
    "kind": "req"
   },
   {
-   "from": "sov_obstruction_equidistribution",
-   "to": "sov_fiber_budget_translation",
-   "kind": "req"
-  },
-  {
-   "from": "sov_forced_root_correctness",
-   "to": "single_obstruction_valueset",
-   "kind": "req"
-  },
-  {
-   "from": "sov_obstruction_equidistribution",
-   "to": "single_obstruction_valueset",
-   "kind": "req"
-  },
-  {
-   "from": "sov_fiber_budget_translation",
-   "to": "single_obstruction_valueset",
-   "kind": "req"
-  },
-  {
    "from": "ef_fvalued_word_source_is_interleaved_witness",
    "to": "ef_fullfield_bridge",
    "kind": "req"
@@ -8671,11 +8049,6 @@
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
    "to": "dli_reduced_phase_manifest_soundness",
-   "kind": "req"
-  },
-  {
-   "from": "official_row_primes_pinning",
-   "to": "m720_official_h7_20_norm_gate_certificates",
    "kind": "req"
   },
   {
@@ -8744,21 +8117,6 @@
    "kind": "req"
   },
   {
-   "from": "m720_complete_calibration_certificates",
-   "to": "m720_official_exclusion",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_paid_branch_alignment",
-   "to": "m720_official_exclusion",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_h7_20_norm_gate_certificates",
-   "to": "m720_official_exclusion",
-   "kind": "req"
-  },
-  {
    "from": "m720_certificate_semantics",
    "to": "m720_official_norm_gate_certificate_soundness",
    "kind": "req"
@@ -8766,26 +8124,6 @@
   {
    "from": "m720_official_paid_branch_alignment",
    "to": "m720_official_norm_gate_certificate_soundness",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_norm_gate_certificate_soundness",
-   "to": "m720_official_h7_20_norm_gate_certificates",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_norm_gate_case_manifest_soundness",
-   "to": "m720_official_h7_20_norm_gate_payload",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_norm_gate_case_manifest_payload",
-   "to": "m720_official_h7_20_norm_gate_payload",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_h7_20_norm_gate_payload",
-   "to": "m720_official_h7_20_norm_gate_certificates",
    "kind": "req"
   },
   {
@@ -8802,21 +8140,6 @@
    "from": "m720_mitm_gate",
    "to": "m720_official_paid_branch_alignment",
    "kind": "ev"
-  },
-  {
-   "from": "m720_mitm_gate",
-   "to": "midlarge_h7_20",
-   "kind": "req"
-  },
-  {
-   "from": "m720_complete_calibration_certificates",
-   "to": "midlarge_h7_20",
-   "kind": "req"
-  },
-  {
-   "from": "m720_official_exclusion",
-   "to": "midlarge_h7_20",
-   "kind": "req"
   },
   {
    "from": "e22_two_class_exhaustion",
@@ -9276,21 +8599,6 @@
   {
    "from": "e22_staircase_arithmetic_pricing",
    "to": "e22_challenger_staircase_pricing",
-   "kind": "req"
-  },
-  {
-   "from": "subfield_trace_paid_gate",
-   "to": "sov_affine_piece_partition_payload",
-   "kind": "req"
-  },
-  {
-   "from": "sov_gridsum_residual",
-   "to": "sov_affine_piece_partition_payload",
-   "kind": "req"
-  },
-  {
-   "from": "m720_conductor_compression",
-   "to": "m720_official_norm_gate_case_manifest_payload",
    "kind": "req"
   },
   {
