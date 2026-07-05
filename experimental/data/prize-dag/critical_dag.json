@@ -859,7 +859,7 @@
   },
   {
    "id": "petal_excess_induction",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "petal excess induction"
   },
   {
@@ -871,6 +871,56 @@
    "id": "petal_growth",
    "label": "CONDITIONAL",
    "title": "Full-petal growth bound / mixed-petal amplification"
+  },
+  {
+   "id": "petal_kernel_realizable_sparsity",
+   "label": "CONDITIONAL",
+   "title": "Petal residue-kernel realizable sparsity"
+  },
+  {
+   "id": "petal_mixed_amplification_step",
+   "label": "CONDITIONAL",
+   "title": "Petal mixed-amplification induction step"
+  },
+  {
+   "id": "petal_realizable_extra_uniformity",
+   "label": "CONDITIONAL",
+   "title": "Petal realizable-extra uniformity"
+  },
+  {
+   "id": "petal_realizable_kernel_injection",
+   "label": "PROVED",
+   "title": "Petal realizable extras inject into residue kernel"
+  },
+  {
+   "id": "petal_residue_kernel_linear_bound",
+   "label": "PROVED",
+   "title": "Petal residue-kernel linear bound"
+  },
+  {
+   "id": "petal_residue_line_uniformity",
+   "label": "CONDITIONAL",
+   "title": "Petal residue-line uniformity"
+  },
+  {
+   "id": "petal_squarefree_classification_counting_soundness",
+   "label": "PROVED",
+   "title": "Petal squarefree classification counting soundness"
+  },
+  {
+   "id": "petal_squarefree_classification_ledger_payload",
+   "label": "UNPROVED",
+   "title": "Petal actual squarefree classification ledger payload"
+  },
+  {
+   "id": "petal_squarefree_classification_ledger_soundness",
+   "label": "PROVED",
+   "title": "Petal squarefree classification-ledger soundness"
+  },
+  {
+   "id": "petal_squarefree_kernel_classification_payload",
+   "label": "CONDITIONAL",
+   "title": "Petal squarefree kernel classification payload"
   },
   {
    "id": "q_recursion",
@@ -2543,6 +2593,70 @@
   {
    "from": "ef_fullfield_bridge",
    "to": "ef_descended_cycle_inventory_payload"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_residue_line_uniformity"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_residue_kernel_linear_bound"
+  },
+  {
+   "from": "l1_defect_layer_bounds",
+   "to": "petal_residue_kernel_linear_bound"
+  },
+  {
+   "from": "petal_residue_kernel_linear_bound",
+   "to": "petal_residue_line_uniformity"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_realizable_extra_uniformity"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_realizable_kernel_injection"
+  },
+  {
+   "from": "petal_realizable_kernel_injection",
+   "to": "petal_realizable_extra_uniformity"
+  },
+  {
+   "from": "petal_kernel_realizable_sparsity",
+   "to": "petal_realizable_extra_uniformity"
+  },
+  {
+   "from": "petal_squarefree_classification_counting_soundness",
+   "to": "petal_kernel_realizable_sparsity"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_squarefree_kernel_classification_payload"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_payload",
+   "to": "petal_squarefree_kernel_classification_payload"
+  },
+  {
+   "from": "petal_squarefree_kernel_classification_payload",
+   "to": "petal_kernel_realizable_sparsity"
+  },
+  {
+   "from": "petal_realizable_extra_uniformity",
+   "to": "petal_residue_line_uniformity"
+  },
+  {
+   "from": "petal_residue_line_uniformity",
+   "to": "petal_mixed_amplification_step"
+  },
+  {
+   "from": "petal_residue_line_uniformity",
+   "to": "petal_excess_induction"
+  },
+  {
+   "from": "petal_mixed_amplification_step",
+   "to": "petal_excess_induction"
   },
   {
    "from": "acl_second_order",

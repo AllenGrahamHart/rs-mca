@@ -3732,7 +3732,7 @@
   {
    "id": "petal_excess_induction",
    "title": "petal excess induction",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Bridge from petal_fixed_excess (PROVED, c fixed) to growing excess: the mixed-amplification induction on c with poly(n) constants uniform in c. EVIDENCE WALL: the growing-excess petal census \u2014 pre-registered scan of full-petal extras at c = 2..8 on calibration rows; interpretation fixed: counts flat in c => the induction's shape is right; growth in c => the amplification route needs a new idea (route_exact_rank is already REFUTED).",
    "attack_surface": "the petal census machinery at growing c; delegable compute",
    "falsifier": "petal extras growing with c at any calibration row",
@@ -4298,6 +4298,87 @@
    "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
    "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class.",
    "notes": "| Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1."
+  },
+  {
+   "id": "petal_residue_kernel_linear_bound",
+   "title": "Petal residue-kernel linear bound",
+   "status": "PROVED",
+   "statement": "In the L1 coset-chart full-petal residue bridge, the residue-line kernel K_{I,d}=ker(pi_{>d} R_{I,d}) satisfies the proved Lemma 13 bound dim K <= c+1, where c=d-ell.",
+   "attack_surface": "none; this is the already banked L1 Lemma 13 bound made explicit for the petal branch",
+   "falsifier": "a coset-chart residue instance violating dim K <= c+1"
+  },
+  {
+   "id": "petal_realizable_extra_uniformity",
+   "title": "Petal realizable-extra uniformity",
+   "status": "CONDITIONAL",
+   "statement": "Over the same coset-chart corridor range, the exact number of realizable full-petal extras controlled by the residue-line kernel is bounded by a polynomial whose exponent is independent of c. This is reduced to the proved injection of realizable extras into squarefree locator points inside the residue-line kernel plus the remaining uniform sparsity theorem for those points.",
+   "attack_surface": "assembly from petal_realizable_kernel_injection and petal_kernel_realizable_sparsity",
+   "falsifier": "a family where exact realizable full-petal extras grow beyond the uniform polynomial budget as c increases"
+  },
+  {
+   "id": "petal_squarefree_classification_ledger_payload",
+   "title": "Petal actual squarefree classification ledger payload",
+   "status": "TARGET",
+   "statement": "Construct the actual Petal squarefree classification ledger covering every squarefree realizable locator point in the residue-line kernels by charged class records or uniformly polynomial uncharged class records, with the number of uncharged classes independent of c.",
+   "attack_surface": "project-specific structural classification of squarefree realizable kernel families",
+   "falsifier": "a squarefree realizable kernel family missing from the ledger, charged without a paid citation, or uncharged without a c-independent polynomial bound",
+   "notes": "| CENSUS RAN, INCONCLUSIVE (Modal): measures RAW extras (0->462 threshold jump, = charged coset mass) not the UNCHARGED residual the claim bounds; raw dim_K exceeds Lemma 13 c+1 (scope flag for audit). Needs a REFINED census separating charged/uncharged + flatness of the uncharged count in c."
+  },
+  {
+   "id": "petal_mixed_amplification_step",
+   "title": "Petal mixed-amplification induction step",
+   "status": "CONDITIONAL",
+   "statement": "Assuming residue-line uniformity, the full-petal bound at excess c implies the corresponding bound at excess c+1 with polynomial constants controlled uniformly in c throughout the corridor range.",
+   "attack_surface": "derive the c to c+1 transition from the coset-chart bridge without using the refuted exact-rank formula",
+   "falsifier": "an induction coefficient or residue-line transition whose size grows super-polynomially with the corridor parameters or unboundedly with c"
+  },
+  {
+   "id": "petal_squarefree_classification_counting_soundness",
+   "title": "Petal squarefree classification counting soundness",
+   "status": "PROVED",
+   "statement": "If the squarefree realizable locator points in each residue-line kernel decompose into finitely many charged classes and uncharged classes each bounded by a polynomial with exponent independent of c, then petal_kernel_realizable_sparsity holds.",
+   "attack_surface": "finite-union counting rule for classified squarefree kernel points",
+   "falsifier": "a finite classification with each uncharged class uniformly polynomial but whose union grows beyond the same uniform-polynomial regime"
+  },
+  {
+   "id": "petal_kernel_realizable_sparsity",
+   "title": "Petal residue-kernel realizable sparsity",
+   "status": "CONDITIONAL",
+   "statement": "Across the coset-chart corridor, the squarefree locator points inside the residue-line kernel that correspond to exact full-petal extras are bounded by a polynomial whose exponent is independent of the excess c. This is reduced to the proved classification-to-sparsity counting rule and the remaining squarefree-kernel classification payload.",
+   "attack_surface": "assembly from classification-to-sparsity soundness and the remaining squarefree kernel classification payload",
+   "falsifier": "a corridor family where squarefree realizable locator points inside the residue kernel grow beyond the uniform polynomial budget"
+  },
+  {
+   "id": "petal_squarefree_kernel_classification_payload",
+   "title": "Petal squarefree kernel classification payload",
+   "status": "CONDITIONAL",
+   "statement": "Classify the squarefree locator points inside the residue-line kernels across the coset-chart corridor into charged families and uncharged families with polynomial bounds whose exponents are independent of the excess c. This is reduced to the proved classification-ledger soundness rule plus the remaining actual squarefree classification ledger payload.",
+   "attack_surface": "assembly from the classification-ledger soundness rule and the actual structural classification of squarefree kernel points or proof-grade transfer from off-laptop certificates",
+   "falsifier": "an unclassified or uncharged squarefree kernel family whose size has exponent growing with c"
+  },
+  {
+   "id": "petal_residue_line_uniformity",
+   "title": "Petal residue-line uniformity",
+   "status": "CONDITIONAL",
+   "statement": "In the coset-chart residue bridge for the growing-excess petal problem, the residue-line contribution has uniformly bounded realizable full-petal extras over the corridor range; the ambient kernel dimension is controlled only by the proved linear Lemma 13 bound dim K<=c+1, and literal kernel flatness is refuted in small coset rows.",
+   "attack_surface": "assemble the proved linear kernel accounting with realizable-extra uniformity; do not use the refuted ambient-kernel flatness route",
+   "falsifier": "a calibration row or theorem where exact realizable full-petal extras grow with c beyond the allowed polynomial budget"
+  },
+  {
+   "id": "petal_squarefree_classification_ledger_soundness",
+   "title": "Petal squarefree classification-ledger soundness",
+   "status": "PROVED",
+   "statement": "If a ledger covers every squarefree realizable locator point in the residue-line kernels by disjoint charged or uncharged class records, every charged record cites an already paid family, every uncharged record has a polynomial bound with exponent independent of c, and the number of uncharged records is independent of c, then petal_squarefree_kernel_classification_payload holds.",
+   "attack_surface": "formal coverage and charged/uncharged dispatch for Petal squarefree classification ledgers",
+   "falsifier": "a complete valid classification ledger while the squarefree-kernel classification payload fails"
+  },
+  {
+   "id": "petal_realizable_kernel_injection",
+   "title": "Petal realizable extras inject into residue kernel",
+   "status": "PROVED",
+   "statement": "In the L1 coset-chart full-petal residue bridge, every exact realizable full-petal extra determines a squarefree locator point lying in the residue-line kernel, and this assignment is injective.",
+   "attack_surface": "Lemma 8 full-petal rank certificate from the coset-chart bridge",
+   "falsifier": "two distinct realizable full-petal extras with the same locator point, or a realizable extra whose locator does not lie in the residue-line kernel"
   }
  ],
  "edges": [
@@ -7754,6 +7835,86 @@
   {
    "from": "ef_fullfield_bridge",
    "to": "ef_descended_cycle_inventory_payload",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_residue_line_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_residue_kernel_linear_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_defect_layer_bounds",
+   "to": "petal_residue_kernel_linear_bound",
+   "kind": "req"
+  },
+  {
+   "from": "petal_residue_kernel_linear_bound",
+   "to": "petal_residue_line_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_realizable_extra_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_realizable_kernel_injection",
+   "kind": "req"
+  },
+  {
+   "from": "petal_realizable_kernel_injection",
+   "to": "petal_realizable_extra_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_kernel_realizable_sparsity",
+   "to": "petal_realizable_extra_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_squarefree_classification_counting_soundness",
+   "to": "petal_kernel_realizable_sparsity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_squarefree_kernel_classification_payload",
+   "kind": "req"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_payload",
+   "to": "petal_squarefree_kernel_classification_payload",
+   "kind": "req"
+  },
+  {
+   "from": "petal_squarefree_kernel_classification_payload",
+   "to": "petal_kernel_realizable_sparsity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_realizable_extra_uniformity",
+   "to": "petal_residue_line_uniformity",
+   "kind": "req"
+  },
+  {
+   "from": "petal_residue_line_uniformity",
+   "to": "petal_mixed_amplification_step",
+   "kind": "req"
+  },
+  {
+   "from": "petal_residue_line_uniformity",
+   "to": "petal_excess_induction",
+   "kind": "req"
+  },
+  {
+   "from": "petal_mixed_amplification_step",
+   "to": "petal_excess_induction",
    "kind": "req"
   }
  ]
