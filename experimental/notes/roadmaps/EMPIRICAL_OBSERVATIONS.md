@@ -143,3 +143,18 @@ LESSON: the calibration was necessary but not sufficient -- it covered one profi
 weighted-average over ALL profiles. Adversarial Pro pressure caught the overclaim. This is the
 "leaf-is-incorrect -> reassess" scenario. REASSESSMENT NEEDED: does pcf/ejm/b2b use the per-profile
 sup (broken) or the weighted average (correct)? The chain must be re-checked against the weighted-average form.
+
+## sov WORST-CASE CENSUS (dli-lesson-corrected) — MECHANISM SURVIVES (opposite of dli)
+Modal thorough run (1064 cells, primes to 32003, 9 families incl. DEGENERATE small-support + subgroup-confined):
+- value-set measured RELATIVE TO ACHIEVABLE MASS min(C(m,h),p) -- the dli-lesson fix (distinguishes genuine
+  COLLISIONS from mass-deficiency). 950 mass-sufficient cells.
+- 521 collision-heavy cells (vf<0.6 rel. mass); of those 521/521 = 100% Bohr-caught (maxpow>=0.15). ZERO
+  counterexamples (no small-value-set cell evades the Bohr paid class), including the degenerate families that
+  are the analog of the low-mass profile that KILLED dli.
+=> sov's CORE MECHANISM (genuine collision => Bohr-detectable => paid) survives a worst-case adversarial census.
+   Strong positive evidence, the OPPOSITE of the dli outcome.
+CAVEATS (dli lesson: don't over-generalize the census): (1) tests the collision=>Bohr MECHANISM, not the FULL
+obligation (quotient/dihedral exhaustion + the Lane-1 power-sum residual bound + the exact anchored-core
+quantifier); (2) moderate primes (structural claim, scale-invariant, but not prize-scale); (3) maxpow has a
+small-sample bias at tiny m (handled: REAL_CE category is mass-sufficient where maxpow is reliable).
+CONFIDENCE: mechanism HIGH; full sov leaf MEDIUM-HIGH (untested parts remain).
