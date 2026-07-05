@@ -24,8 +24,8 @@
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#1"
    ],
-   "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed.",
-   "notes": "CAMPAIGN PIVOT (project decision 2026-07-03): primary closure target = rates 1/4, 1/8, 1/16 (clean corridors, 100+-bit conversion slack, no coverage band); rate 1/2 = the endgame (three named residuals: the tight composition, the 3.0e6-radius band, the -12.87-bit margin point). Per-rate determinations are creditable partials; three-rate closure would be a monumental submission and an information source on 1/2. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: assembly implication packaged (mca_grand_assembly_implication.md, statement-pinned). The referee audit also caught and repaired the rate-1/2 wiring asymmetry one ring deeper (adjacency_closing)."
+   "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+   "notes": "CAMPAIGN PIVOT (project decision 2026-07-03): primary closure target = rates 1/4, 1/8, 1/16 (clean corridors, 100+-bit conversion slack, no coverage band); rate 1/2 = the endgame (three named residuals: the tight composition, the 3.0e6-radius band, the -12.87-bit margin point). Per-rate determinations are creditable partials; three-rate closure would be a monumental submission and an information source on 1/2. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: assembly implication packaged (mca_grand_assembly_implication.md, statement-pinned). The referee audit also caught and repaired the rate-1/2 wiring asymmetry one ring deeper (adjacency_closing). | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "list_grand",
@@ -36,8 +36,8 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it.",
-   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs."
+   "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "packaging",
@@ -225,8 +225,8 @@
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#4"
    ],
-   "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum.",
-   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry. | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine."
+   "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry. | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "counting_frame",
@@ -331,8 +331,8 @@
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md"
    ],
-   "notes": "combinatorics PROVED; completeness rests on GAP-1 pricing",
-   "statement": "Strip-periodic: the aperiodic stratum is exact -- B_C(a_safe) decomposes with the periodic strata stripped (periodic_strata + q_recursion + confinement + isotypic, all PROVED) leaving the gap-1 non-equivariant mass (gap1_noneq_mass) as the only open input. [Statement recovered from nodes/strip/statement.md during the 2026-07-05 amber triage: the dag statement field was EMPTY -- flagged for the overnight audit to state the implication precisely.]"
+   "notes": "combinatorics PROVED; completeness rests on GAP-1 pricing | AMBER AUDIT 2026-07-06: was ILL-POSED (terse stub); exact assertion written from the folder ledger + req structure.",
+   "statement": "EXACT FORM (written 2026-07-06, replacing the terse stub): for each admissible row, the stratified first-match decomposition of B_C(a_safe) strips the periodic strata EXACTLY -- periodic_strata + q_recursion + confinement + isotypic + gap2_seam (all PROVED) account for every periodic-stratum codeword with no double counting -- so the residual aperiodic-stratum count equals the non-equivariant gap-1 alignment mass. IMPLICATION: given gap1_noneq_mass (<= poly(n)*FM on the isotypic escape stratum), the aperiodic stratum is priced and the mca_safe stratified sum closes."
   },
   {
    "id": "periodic_strata",
@@ -376,7 +376,7 @@
    "statement": "#{aligned (l, Z): root set K_M-stable but (u,v) multi-isotypic (non-equivariant) on the stratum} <= poly(n) * FM \u2014 the isotypic escape stratum carries no super-poly alignment mass.",
    "attack_surface": "bound the multi-isotypic stratum via the isotypic decomposition + FM; the stratum is thin (non-equivariant data on stable supports)",
    "falsifier": "toy enumeration (gap1_toy_test) showing non-equivariant periodic alignments outgrowing poly",
-   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate). | Reduced to Conjecture TR (joint quotient-row FM bound) \u2014 see gap1_product_model. The convergence deepens: GAP-1, F, spread, and the clean-rate exclusion all funnel toward the same rigidity/counting core at quotient scales. | FACE 1 SIMPLIFIED (E34): Conjecture TR's jointness is STRUCTURAL \u2014 exact telescoping to a single instance at the joint-stabilizer scale (class-closure form). Remaining: (i) lift the identity from linear-model counts to aligned A_r sets; (ii) the per-leaf bound = the list-lane identification (tr_perleaf_list_ident). The q^{M-1} over-aggregation M4 flagged is gone by construction. | FACE 1 STATUS after the lifting lemma: jointness fully closed (structural + lifted); the ENTIRE remaining face-1 content = the per-leaf bound in its corrected split form (x4_exactlist_staircase_split at quotient rows) + the degenerate-tower bookkeeping (count transfer conditional there \u2014 charge degenerate towers separately or exclude by row arithmetic). | QA.24: the degenerate-tower correction column exists and is universal (all consumer triples) \u2014 face 1's arithmetic uses corrected counts; no route change. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL."
+   "notes": "E6 (PR #187): NO amplification signal in any tested periodic model (exact F_13/F_97 all-support + F_257 to n=256); packet PROVES the local isotypic base-line rank lemma (alpha^M in base field => each character maps into one line alpha^r B => cosets cannot add slope exponent) \u2014 the per-character product model looks like the MECHANISM, not just a bound. Prior UP strongly. | With #212's product mechanism, GAP-1 = one remaining counting step (terminal reserve estimate). | Reduced to Conjecture TR (joint quotient-row FM bound) \u2014 see gap1_product_model. The convergence deepens: GAP-1, F, spread, and the clean-rate exclusion all funnel toward the same rigidity/counting core at quotient scales. | FACE 1 SIMPLIFIED (E34): Conjecture TR's jointness is STRUCTURAL \u2014 exact telescoping to a single instance at the joint-stabilizer scale (class-closure form). Remaining: (i) lift the identity from linear-model counts to aligned A_r sets; (ii) the per-leaf bound = the list-lane identification (tr_perleaf_list_ident). The q^{M-1} over-aggregation M4 flagged is gone by construction. | FACE 1 STATUS after the lifting lemma: jointness fully closed (structural + lifted); the ENTIRE remaining face-1 content = the per-leaf bound in its corrected split form (x4_exactlist_staircase_split at quotient rows) + the degenerate-tower bookkeeping (count transfer conditional there \u2014 charge degenerate towers separately or exclude by row arithmetic). | QA.24: the degenerate-tower correction column exists and is universal (all consumer triples) \u2014 face 1's arithmetic uses corrected counts; no route change. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL. | AMBER AUDIT 2026-07-06: SOUND (weakened to single clean premise; survived)."
   },
   {
    "id": "gap2_seam",
@@ -726,7 +726,7 @@
     "proof_sketch/s7_list_side.md#5"
    ],
    "statement": "#Lambda(C^{==m}, delta) <= 2^-128 |F| above the window: ImgFib bound + codegree conversion + m-handling per the official quantifier.",
-   "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/list_safe/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
+   "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/list_safe/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | AMBER AUDIT 2026-07-06: SOUND (official m-handling wired; open work honestly imgfib)."
   },
   {
    "id": "imgfib",
@@ -739,7 +739,7 @@
    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
    "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
-   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form."
+   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form. | AMBER AUDIT 2026-07-06: SOUND (petal premise honestly wired as red)."
   },
   {
    "id": "petal_growth",
@@ -832,7 +832,7 @@
     "proof_sketch/s6_extension_lift.md"
    ],
    "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined.",
-   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_pole was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_tower was not wired req \u2014 promoted."
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_pole was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_tower was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (assembly matches F1 predicates after cargo cleanup)."
   },
   {
    "id": "b_rational_lift",
@@ -875,7 +875,7 @@
     "proof_sketch/s6_extension_lift.md#4"
    ],
    "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger.",
-   "notes": "CONDITIONAL on {pole_forcing, case_pole}: the trichotomy assembly (conditional.md); tower case PROVED."
+   "notes": "CONDITIONAL on {pole_forcing, case_pole}: the trichotomy assembly (conditional.md); tower case PROVED. | AMBER AUDIT 2026-07-06: REPAIRABLE verdict = stale status artifacts around promoted children; conditional.md refreshed."
   },
   {
    "id": "sigma1_cx",
@@ -1357,7 +1357,7 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#4"
    ],
-   "notes": "priced by ext_import (green); the second condition \u2014 the list-side location \u2014 was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location.",
+   "notes": "priced by ext_import (green); the second condition \u2014 the list-side location \u2014 was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location. | AMBER AUDIT 2026-07-06: REPAIRED (two-predicate packet written to conditional.md).",
    "statement": "F1 case (ii): pole-type slopes are priced by the imported list term (ext_import, PROVED) with the list-side location supplied by f1_pole_list_threshold_location. [Statement recovered from nodes/f1_case_pole/statement.md during the 2026-07-05 amber triage: the dag statement field was EMPTY.]"
   },
   {
@@ -1902,7 +1902,7 @@
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
    ],
-   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_perleaf_list_ident was not wired req \u2014 promoted."
+   "notes": "Provenance: Codex (#212), the third handoff item; verified by replay + structural check. GAP-1 now reduces to a counting step (the terminal per-character reserve estimate). | TERMINAL STEP VERDICT (Fleet A M4-retry, verifier 9/9): the crude |K|-line count is INSUFFICIENT \u2014 short by 119.96 bits (pinned row) to 951.5 bits (Row C corridor candidate); the dominating factor is |K| >= q vs a <= +49-bit budget. The precise remaining statement is CONJECTURE TR: the JOINT product over active characters of per-character sets \u2014 each a same-rate quotient-row instance at scale n/M \u2014 is <= n^B x max(1, FM). Per-leaf FM bounds over-aggregate by q^{M-1} when M > t: the bound must be joint. The multi-scale recursion's FIFTH appearance: GAP-1's closure is R2/FM-flavored at the quotient rows. | FLIP on replay (Codex wave 3): CONJECTURE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_perleaf_list_ident was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (delegation to TR/list lane clean)."
   },
   {
    "id": "f_pair_bound_envelope",
@@ -1944,13 +1944,13 @@
    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "For each admissible row: the proved safe agreement a and proved unsafe agreement a-1 are ADJACENT \u2014 the bracket between the two sides collapses to one grid step. Current per-rate corridor widths are 1.12-2.17 grid steps: even with every mapped conjecture closed, the slack must be eaten by (i) the Acl second-order term (makes the quotient end a number), (ii) per-point window cleanup at the boundary, and (iii) the extension-crossing arithmetic \u2014 or the determination lands with a gap and only bracket-grade partials.",
+   "statement": "For each admissible row: the proved safe agreement a and proved unsafe agreement a-1 are ADJACENT \u2014 the bracket between the two sides collapses to one grid step. Current per-rate corridor widths are 1.12-2.17 grid steps: even with every mapped conjecture closed, the slack must be eaten by (i) the Acl second-order term (makes the quotient end a number), (ii) per-point window cleanup at the boundary, and (iii) the extension-crossing arithmetic \u2014 or the determination lands with a gap and only bracket-grade partials. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
    "attack_surface": "rate-by-rate: compute which corridors provably collapse under acl_second_order alone (width 1.12 = rho 1/8 is closest); the 506/507 pinned row is the existence proof that adjacency IS achievable where tangent exactness rules",
    "falsifier": "a rate whose bracket provably CANNOT collapse to one step under the mapped mechanisms \u2014 would mean the prize needs a mechanism not yet on the map",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | STATUS AFTER THE EVALUATION: honest bracket-grade at all clean rates under the three-eater partition; rate 1/8 needs 0.007 steps from outside the partition. The node's 'or the determination lands with a gap and only bracket-grade partials' clause is now the live branch unless a fourth mechanism is found. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
+   "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | STATUS AFTER THE EVALUATION: honest bracket-grade at all clean rates under the three-eater partition; rate 1/8 needs 0.007 steps from outside the partition. The node's 'or the determination lands with a gap and only bracket-grade partials' clause is now the live branch unless a fourth mechanism is found. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "crossing_localization",
@@ -1976,11 +1976,11 @@
    "id": "aperiodic_zero_at_crossing",
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates",
    "status": "CONDITIONAL",
-   "statement": "CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 \u2014 margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term \u2014 R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects.",
+   "statement": "CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 \u2014 margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term \u2014 R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "conditional on r2_rigidity; crystallizes the integrality mechanism discovered in the proved-results survey (pinned row, exactslack, qfloor, FM1 are all exactness-on-a-stratum) | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine."
+   "notes": "conditional on r2_rigidity; crystallizes the integrality mechanism discovered in the proved-results survey (pinned row, exactslack, qfloor, FM1 are all exactness-on-a-stratum) | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "knife_edge_census",
@@ -2064,13 +2064,13 @@
    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced \u2014 the exact mirror of adjacency_closing.",
+   "statement": "For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced \u2014 the exact mirror of adjacency_closing. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
    "attack_surface": "the hardness SWAPS sides vs MCA: unsafe witnesses are CONSTRUCTIVE (planted families = explicit codewords), the safe half is imgfib + integrality; the residue is worst-word extremality + exact planted arithmetic",
    "falsifier": "n/a (composite obligation)",
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md."
+   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit)."
   },
   {
    "id": "list_crossing_localization",
@@ -2093,7 +2093,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired. | PROMOTED red -> amber (Codex batch 3, my replay): with the repaired challenger-pricing child and imgfib granted, the sup is carried by planted + priced-challenger classes \u2014 assembly statement. | (Base-drift artifact caught: the rednode branch's stale base showed CONJECTURE; my batch-3 promotion stands.)"
+   "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired. | PROMOTED red -> amber (Codex batch 3, my replay): with the repaired challenger-pricing child and imgfib granted, the sup is carried by planted + priced-challenger classes \u2014 assembly statement. | (Base-drift artifact caught: the rednode branch's stale base showed CONJECTURE; my batch-3 promotion stands.) | AMBER AUDIT 2026-07-06: SOUND (two-class route supported by E22 toy replay)."
   },
   {
    "id": "list_planted_arithmetic",
@@ -2103,7 +2103,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted). | FLIP on replay (Codex wave 3): PROVABLE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_planted was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_challenger_pricing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate imgfib was not wired req \u2014 promoted."
+   "notes": "unsafe witnesses are free (exhibit the plants); the safe certificate is imgfib at the candidates + the FM-style extras table | IN FLIGHT: #196 | Must now price the E15 challenger class alongside planted counts (see revised worst_word_planted). | FLIP on replay (Codex wave 3): PROVABLE -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_planted was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate worst_word_challenger_pricing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate imgfib was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (exact integer arithmetic after predicates)."
   },
   {
    "id": "f_dim2_skeleton",
@@ -2617,13 +2617,13 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "TRANSFORMED BY THE AUDIT (s >= 2^122): the emptiness form is DEAD at every clean-rate decision point \u2014 the requirement is now: for every pair (u,v), the unpaid aperiodic deep bad-slope count at the candidate agreement is <= poly(n) (any polynomial up to ~n^3 fits inside the 2^122-2^127.9 allowance). The singleton obstruction is GONE. The needed statement is the GENERIC BRANCH of a deep-mca-type dichotomy at corridor radius: tangent-paid OR <= poly(n) slopes \u2014 deep-mca proves exactly this shape (<= r+1 ~ n) at radius <= (1-rho)/3; the task is extending the dichotomy's reach with a 2^122-sized loss tolerance. Unsafe side at A-1 is quotient-census-witnessed (the candidates were chosen as first-past-the-realizable point). This is a VASTLY weaker target than this morning's emptiness form and materially weaker than R2-as-stated (poly count, not poly x FM).",
+   "statement": "TRANSFORMED BY THE AUDIT (s >= 2^122): the emptiness form is DEAD at every clean-rate decision point \u2014 the requirement is now: for every pair (u,v), the unpaid aperiodic deep bad-slope count at the candidate agreement is <= poly(n) (any polynomial up to ~n^3 fits inside the 2^122-2^127.9 allowance). The singleton obstruction is GONE. The needed statement is the GENERIC BRANCH of a deep-mca-type dichotomy at corridor radius: tangent-paid OR <= poly(n) slopes \u2014 deep-mca proves exactly this shape (<= r+1 ~ n) at radius <= (1-rho)/3; the task is extending the dichotomy's reach with a 2^122-sized loss tolerance. Unsafe side at A-1 is quotient-census-witnessed (the candidates were chosen as first-past-the-realizable point). This is a VASTLY weaker target than this morning's emptiness form and materially weaker than R2-as-stated (poly count, not poly x FM). EXPONENT ALIGNED (2026-07-06): the bound this node passes upward is the explicit 16 n^3 form (matching r2_clean_rates), supplied by the sharpened xr_smallcore_spread_count.",
    "attack_surface": "per-pair algebraic exclusion: an unpaid aperiodic aligned support at corridor deficiency = a solution of an overdetermined algebraic system; the M5 eliminant dichotomy (nonzero eliminant => bounded solutions; identically-valid => structured/paid) is the proved base pattern; deep-mca is the proved template at low radius; the gap is radius reach \u2014 the band",
    "falsifier": "an explicit post-strip aligned support at a clean-rate corridor point (would also be a spectacular unsafe-side discovery)",
    "refs": [
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field). | THE COMPILED TARGET (proved compiler): the entire clean-rate safe-side obligation is now officially R_post(u,v; A) <= 16 n^3 per pair \u2014 post quotient/tangent strip, with dihedral and extension columns INSIDE R_post. Sufficiency is exact integer arithmetic at all six candidates. The face-4 rungs are the supply side of exactly this inequality. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_clean_residual_any_gate/conditional.md."
+   "notes": "PROVENANCE: GPT Pro X-1 verdict (outcome b), verified here \u2014 the below-1 equivalence, the singleton obstruction, and the gap arithmetic all check. My 'slack composition' framing was WRONG: below one expected point, all slack collapses to exclusion, and density tools are categorically insufficient. | #213 quantifies exactly what this node gates: extending the determined region from ~2^168-170-bit fields to the full 2^256 regime at the clean rates. | REFRAMING CANDIDATE (step-zero audit pending): the emptiness form came from r2_clean_rates AS WRITTEN (2^100 x FM), but the true requirement is the INTEGER budget B* - B_quot - B_tan at the decision point. If that slack is >= 1, singletons are allowed and the problem becomes bounded-multiplicity FORCING (s+1 deep slopes => paid structure) \u2014 a friendlier class squarely in the proved multi-slope machinery's range. The audit decides which problem we actually face. | The day's arc: emptiness (X-1 verdict) -> singleton obstruction -> budget audit -> poly-count forcing with astronomical slack. Each reframing came from computing what the determination actually requires rather than what the conjecture stated. | The poly-forcing form is now CONDITIONAL on dihedral_staircase (QA21-G1): if the per-pair dihedral cap is linear-staircase-like (expected \u2014 two-point link structure + palindromic rigidity + E25's small toy counts), the 2^122 allowance survives essentially intact; until proved, the clean-rate allowance is formally unknown. | DECOMPOSED (the consolidated pass, E27+QA.21+E30+audit): face 4 = xr_pencil_cascade (PROVABLE forcing lemma, threshold core = k+t-1, verified algebraically at toys) + xr_smallcore_spread_count (the poly bound on the spread remainder \u2014 face-3-type) + dihedral_staircase (the budget leg, with GPT Pro as X-3). E27's spectrum: 1309/562/129 at mult 1/2/3+ constructed; organic events exactly in the FM band; no fifth mechanism (all classifiers at chance; multiplicative zero by parity; extension vacuous at prime field). | THE COMPILED TARGET (proved compiler): the entire clean-rate safe-side obligation is now officially R_post(u,v; A) <= 16 n^3 per pair \u2014 post quotient/tangent strip, with dihedral and extension columns INSIDE R_post. Sufficiency is exact integer arithmetic at all six candidates. The face-4 rungs are the supply side of exactly this inequality. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_clean_residual_any_gate/conditional.md. | AMBER AUDIT 2026-07-06: REPAIRED (exponent aligned 16n^3; note the node name says any_gate but gate=all after its alt routes were cut -- name is historical)."
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -2693,13 +2693,13 @@
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count",
    "status": "TARGET",
    "key": true,
-   "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase.",
+   "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase. SHARPENED (amber audit 2026-07-06): \"poly(n)\" is INSUFFICIENT as stated -- the consumer chain (xr_clean_residual_any_gate -> r2_clean_rates) has sufficiency PROVED exactly at R_post <= 16 n^3 (dihedral and extension columns inside). The obligation is the 16 n^3-compatible form: the spread remainder count must fit within the 16 n^3 budget after the paid columns, not merely poly(n).",
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
    "falsifier": "a toy pair with super-poly many pairwise-small-core aligned supports (searchable with E27's pencil machinery)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md. | FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md. | FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy. | Sharpened to 16n^3-compatible form (exponent mismatch found by the audit: a Cn^5 resolution would satisfy the old wording and break the consumer)."
   },
   {
    "id": "xr_sameslope_list_crossover",
@@ -2838,7 +2838,7 @@
    "refs": [
     "experimental/notes/roadmaps/gap1_terminal_reserve.md"
    ],
-   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted."
+   "notes": "X-4: TR's arithmetic must carry the transported quotient-row staircase term explicitly (exact binomials at scale n'/Q) before the primitive per-leaf bound applies. | X-4b: the quotient-row split gains the moment column verbatim. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate tr_joint_telescope was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (identification survived DIRECT stable-support transport check)."
   },
   {
    "id": "tr_joint_telescope",
@@ -2876,7 +2876,7 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/."
+   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written)."
   },
   {
    "id": "wild_row_audit",
@@ -3260,7 +3260,7 @@
    "refs": [
     "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
    ],
-   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate list_adjacency_closing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate ext_import was not wired req \u2014 promoted."
+   "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate list_adjacency_closing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate ext_import was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (bridge follows from list adjacency + import)."
   },
   {
    "id": "axis8_generating",
@@ -5118,12 +5118,12 @@
   {
    "from": "ext_import",
    "to": "ext_lift",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "generating_escape",
    "to": "ext_lift",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "f1_classification",
@@ -6143,7 +6143,7 @@
   {
    "from": "acl_second_order",
    "to": "adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "window_m5_charts",
@@ -6893,12 +6893,12 @@
   {
    "from": "tr_perleaf_list_ident",
    "to": "gap1_noneq_mass",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "tr_joint_telescope",
    "to": "gap1_noneq_mass",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "spread_syzygy_ident",
@@ -7038,12 +7038,12 @@
   {
    "from": "corridor_window_cleanup",
    "to": "adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "corridor_ext_crossing",
    "to": "adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "corridor_ledger",
@@ -8228,6 +8228,11 @@
   {
    "from": "xr_scattered_syzygy_flattice",
    "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "mca_safe",
    "kind": "req"
   }
  ]

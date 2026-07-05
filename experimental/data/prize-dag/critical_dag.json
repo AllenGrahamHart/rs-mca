@@ -1201,14 +1201,6 @@
    "to": "ext_lift"
   },
   {
-   "from": "ext_import",
-   "to": "ext_lift"
-  },
-  {
-   "from": "generating_escape",
-   "to": "ext_lift"
-  },
-  {
    "from": "f1_classification",
    "to": "ext_lift"
   },
@@ -1375,10 +1367,6 @@
   {
    "from": "adjacency_closing",
    "to": "mca_grand"
-  },
-  {
-   "from": "acl_second_order",
-   "to": "adjacency_closing"
   },
   {
    "from": "crossing_localization",
@@ -1617,14 +1605,6 @@
    "to": "f_many_sparse_structure"
   },
   {
-   "from": "tr_perleaf_list_ident",
-   "to": "gap1_noneq_mass"
-  },
-  {
-   "from": "tr_joint_telescope",
-   "to": "gap1_noneq_mass"
-  },
-  {
    "from": "x4_exactlist_staircase_split",
    "to": "tr_perleaf_list_ident"
   },
@@ -1679,14 +1659,6 @@
   {
    "from": "corridor_ext_crossing",
    "to": "corridor_ledger"
-  },
-  {
-   "from": "corridor_window_cleanup",
-   "to": "adjacency_closing"
-  },
-  {
-   "from": "corridor_ext_crossing",
-   "to": "adjacency_closing"
   },
   {
    "from": "corridor_ledger",
@@ -2131,6 +2103,10 @@
   {
    "from": "xr_scattered_syzygy_flattice",
    "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "rate_half_band_closure",
+   "to": "mca_safe"
   },
   {
    "from": "acl_second_order",

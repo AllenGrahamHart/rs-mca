@@ -424,3 +424,18 @@ Deliverable-assembly targets (closure=artifact: dossiers/tables, req = staged in
 are exempt; m4_table tagged artifact. VALIDATOR LAW ADDED: proof-closure TARGET/CONJECTURE with req/alt
 in-edges is an error. Board unchanged: 7 reds, 21 ambers, 203 critical nodes (a few proved supporters
 dropped off the orbit as intended -- they are evidence, not logic).
+
+## MORNING REPLAY: overnight amber audit (all 21 critical conditionals) — 0 FATAL
+Codex's sweep: 9 SOUND / 11 REPAIRABLE / 1 ILL-POSED / 0 FATAL-CANDIDATE. No amber is mathematically broken;
+the repairables cluster into SYSTEMATIC issues, all repaired on canonical this morning:
+1. FULL-vs-CLEAN RATE SCOPE (6 nodes: mca_grand/safe, both adjacency closings, list_grand, aperiodic_zero):
+   full-family claims consumed clean-rate-only premises (rate-1/2 unpriced, VERIFIED: rate_half absent from
+   mca_safe reqs). Repair: explicit rate-scope clauses + rate_half wired into mca_safe.
+2. EXPONENT MISMATCH (VERIFIED): xr red promised poly(n); consumer sufficiency PROVED exactly at 16n^3.
+   Red sharpened to the 16n^3-compatible obligation.
+3. strip ILL-POSED -> exact assertion written. x4 packet hypothesis list aligned + missing dli frontier
+   statement.md written. f1_case_pole two-predicate packet + f1_classification refresh.
+4. Codex's 7 cargo-req->ev reclassifications replayed (verified diamond collapses).
+SOUND certificates recorded on 9 nodes (incl. tr_perleaf_list_ident's identification surviving a DIRECT
+transport check, and gap1_product_model). The board's ambers are now: audited-sound (9), audited-repaired
+(11), re-stated (1) -- the trust surface is fully certified at first-audit level.
