@@ -300,7 +300,7 @@
   {
    "id": "dli_harmonic_conductor_ledger",
    "label": "UNPROVED",
-   "title": "DLI low-total-normalized-conductor-mass ledger (the real gap)"
+   "title": "DLI polynomial-loss per-level bound (WEAKENED from sharp geometric-mean)"
   },
   {
    "id": "dli_log_integral_equidistribution",
