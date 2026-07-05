@@ -1135,7 +1135,7 @@
   {
    "id": "m720_conductor_compression",
    "label": "UNPROVED",
-   "title": "m720 norm-gate conductor/degree compression"
+   "title": "m720 norm gate: survivor-conditioned field bound OR D-GCD payload (compression REFUTED)"
   },
   {
    "id": "m720_ground_truth_replay",

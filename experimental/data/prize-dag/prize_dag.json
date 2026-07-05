@@ -5261,12 +5261,12 @@
   },
   {
    "id": "m720_conductor_compression",
-   "title": "m720 norm-gate conductor/degree compression",
+   "title": "m720 norm gate: survivor-conditioned field bound OR D-GCD payload (compression REFUTED)",
    "status": "TARGET",
-   "statement": "Either (compression) every non-toral anchored cleared obstruction A_j(R)=2^{4h-2}O_j relevant to h in [7,20] lies in a subfield L with 291*[L:Q] < log2 p (crude height log2 B_20~290.7 VERIFIED), so p \u2224 N_{L/Q}(A_j) for the official primes; OR (certificate) the C2 per-row gcd(p, D(n,h))=1 for the official p-values. Either discharges the norm gate without census (P4-HB).",
-   "attack_surface": "A degree/conductor compression lemma (obstruction in a small subfield); or the D(n,h)-GCD per-row certificates.",
-   "falsifier": "An official primitive case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
-   "notes": ""
+   "statement": "CORRECTED (Pro T5, verified): the support-size conductor-compression route is REFUTED \u2014 a 14-support with trivial multiplicative stabilizer mod 1024 gives an obstruction of full degree phi(1024)=512, so 291*512>>250 and the height gate does not close (VERIFIED). The m720 norm gate is discharged for a (row,h) pair iff EITHER (i) a SURVIVOR-CONDITIONED small-field certificate 291[L:Q]<log2 p is proved for a nonzero cleared obstruction A_j(R)=2^{4h-2}O_j (using survivor-specific equations, not anchoredness/size) \u2014 the conditional P4-HB gate is PROVED; OR (ii) the C2 certificate gcd(p,D(n,h))=1 is supplied, which is BLOCKED ON PAYLOAD (the public repo lacks the explicit D(n,h) integers and the official Row-C ~250-bit prime list).",
+   "attack_surface": "(i) survivor-conditioned field bound via the actual survivor equations (not support size); or (ii) obtain the D(n,h) + official Row-C primes and run the C2 gcd check.",
+   "falsifier": "an official case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
+   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data."
   },
   {
    "id": "petal_cofactor_chargeability",
