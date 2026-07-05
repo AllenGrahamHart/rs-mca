@@ -25,7 +25,7 @@
   {
    "id": "aperiodic_zero_at_crossing",
    "label": "CONDITIONAL",
-   "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
+   "title": "Clean-rate integrality: R2 + tiny FM pin the aperiodic zero threshold"
   },
   {
    "id": "are_exceptional_density",
@@ -138,19 +138,9 @@
    "title": "thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic"
   },
   {
-   "id": "clique_cap",
-   "label": "PROVED",
-   "title": "K_{m,m} clique cap n >= k + m^2(a-k) (x1)"
-  },
-  {
    "id": "cluster_certificates",
    "label": "PROVED",
    "title": "Cluster machinery: free cliques + one-check cluster pairing"
-  },
-  {
-   "id": "codegree",
-   "label": "PROVED",
-   "title": "L2 codegree reduction (Theorems A/B/C, L1-free)"
   },
   {
    "id": "collision_norm_criterion",
@@ -196,11 +186,6 @@
    "id": "crossing_localization",
    "label": "PROVED",
    "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list"
-  },
-  {
-   "id": "deep_point",
-   "label": "PROVED",
-   "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -406,16 +391,6 @@
    "id": "ef_ru",
    "label": "PROVED",
    "title": "row-uniform extension-fiber hypothesis"
-  },
-  {
-   "id": "exchange_calculus",
-   "label": "PROVED",
-   "title": "One-exchange = Cauchy rank-one update (#152 instances)"
-  },
-  {
-   "id": "exchange_ledger_gen_t",
-   "label": "PROVED",
-   "title": "Generalize #152 exchange ledger past t=2 (hand-off)"
   },
   {
    "id": "ext_import",
@@ -713,26 +688,6 @@
    "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)"
   },
   {
-   "id": "list_safe",
-   "label": "CONDITIONAL",
-   "title": "List safe side above the window"
-  },
-  {
-   "id": "list_unsafe",
-   "label": "PROVED",
-   "title": "List unsafe at gate: qcore counting (conventions pending)"
-  },
-  {
-   "id": "m_handling",
-   "label": "PROVED",
-   "title": "Interleaved m-handling per the official quantifier"
-  },
-  {
-   "id": "m_sweep",
-   "label": "PROVED",
-   "title": "For-all-m affordable: m <= sqrt((n-k)/t) ~ 16-31"
-  },
-  {
    "id": "mca_grand",
    "label": "CONDITIONAL",
    "title": "Grand MCA: determine delta* (emca <= 2^-128)"
@@ -808,11 +763,6 @@
    "title": "Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)"
   },
   {
-   "id": "qcore",
-   "label": "PROVED",
-   "title": "thm:qcore: C(n/M-1, k/M) codewords, q-independent"
-  },
-  {
    "id": "qfloor_exact",
    "label": "PROVED",
    "title": "prop:qfloor: quotient floor exact above norm threshold"
@@ -885,7 +835,7 @@
   {
    "id": "strip",
    "label": "CONDITIONAL",
-   "title": "Strip-periodic: aperiodic stratum exact"
+   "title": "Strip-periodic decomposition: quotient columns plus GAP-1 residual"
   },
   {
    "id": "subfield_trace_paid_gate",
@@ -963,19 +913,9 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
-   "id": "xr_globalness_from_ledger",
-   "label": "PROVED",
-   "title": "THE SHORTCUT: the proved tangent ledger IS a globalness certificate"
-  },
-  {
    "id": "xr_ledger_exponent_reconciliation",
    "label": "PROVED",
    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))"
-  },
-  {
-   "id": "xr_ledger_qpower",
-   "label": "PROVED",
-   "title": "Each residual constraint is worth a q-factor: the ledger's exchange rate over combinatorics"
   },
   {
    "id": "xr_pencil_cascade",
@@ -983,19 +923,9 @@
    "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma"
   },
   {
-   "id": "xr_radius_arithmetic",
-   "label": "PROVED",
-   "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope"
-  },
-  {
    "id": "xr_scattered_syzygy_flattice",
    "label": "PROVED",
    "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects"
-  },
-  {
-   "id": "xr_small_set_engine",
-   "label": "PROVED",
-   "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure"
   },
   {
    "id": "xr_smallcore_spread_count",
@@ -1039,14 +969,6 @@
   {
    "from": "mca_unsafe",
    "to": "mca_grand"
-  },
-  {
-   "from": "list_safe",
-   "to": "list_grand"
-  },
-  {
-   "from": "list_unsafe",
-   "to": "list_grand"
   },
   {
    "from": "axes_verified",
@@ -1161,34 +1083,6 @@
    "to": "strip"
   },
   {
-   "from": "qcore",
-   "to": "list_unsafe"
-  },
-  {
-   "from": "s0_zero_open",
-   "to": "list_unsafe"
-  },
-  {
-   "from": "imgfib",
-   "to": "list_safe"
-  },
-  {
-   "from": "codegree",
-   "to": "list_safe"
-  },
-  {
-   "from": "m_sweep",
-   "to": "list_safe"
-  },
-  {
-   "from": "clique_cap",
-   "to": "m_sweep"
-  },
-  {
-   "from": "deep_point",
-   "to": "codegree"
-  },
-  {
    "from": "petal_growth",
    "to": "imgfib"
   },
@@ -1301,10 +1195,6 @@
    "to": "imgfib"
   },
   {
-   "from": "m_handling",
-   "to": "list_safe"
-  },
-  {
    "from": "f_gcd_reduction",
    "to": "conj_f"
   },
@@ -1410,10 +1300,6 @@
   },
   {
    "from": "list_crossing_localization",
-   "to": "list_adjacency_closing"
-  },
-  {
-   "from": "worst_word_planted",
    "to": "list_adjacency_closing"
   },
   {
@@ -1529,14 +1415,6 @@
    "to": "f_support_lattice"
   },
   {
-   "from": "exchange_calculus",
-   "to": "xr_ledger_qpower"
-  },
-  {
-   "from": "xr_ledger_qpower",
-   "to": "xr_radius_arithmetic"
-  },
-  {
    "from": "kernel_lattice_reframing",
    "to": "lattice_cone_certificate"
   },
@@ -1555,18 +1433,6 @@
   {
    "from": "lattice_cone_certificate",
    "to": "certifier_uniformity"
-  },
-  {
-   "from": "xr_globalness_from_ledger",
-   "to": "r2_clean_rates"
-  },
-  {
-   "from": "xr_small_set_engine",
-   "to": "r2_clean_rates"
-  },
-  {
-   "from": "xr_radius_arithmetic",
-   "to": "r2_clean_rates"
   },
   {
    "from": "xr_clean_residual_any_gate",
@@ -1635,18 +1501,6 @@
   {
    "from": "axis8_generating",
    "to": "s0_zero_open"
-  },
-  {
-   "from": "rules_freeze",
-   "to": "m_handling"
-  },
-  {
-   "from": "rules_m_reading",
-   "to": "m_handling"
-  },
-  {
-   "from": "m_sweep",
-   "to": "m_handling"
   },
   {
    "from": "acl_second_order",
@@ -1745,10 +1599,6 @@
    "to": "safe_assembly_uniformity"
   },
   {
-   "from": "xr_ledger_qpower",
-   "to": "exchange_ledger_gen_t"
-  },
-  {
    "from": "f1_case_pole",
    "to": "ext_lift"
   },
@@ -1775,10 +1625,6 @@
   {
    "from": "imgfib",
    "to": "list_planted_arithmetic"
-  },
-  {
-   "from": "exchange_ledger_gen_t",
-   "to": "xr_globalness_from_ledger"
   },
   {
    "from": "tr_joint_telescope",

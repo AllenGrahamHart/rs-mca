@@ -466,3 +466,15 @@ identities; list side = mirror arithmetic + composition. Ledger: notes/amber_aud
 - HONEST RE-RANK: the repaired u2c = entropic suppression (zero accidents when expected <1) = the same
   anti-concentration shape as dli's RES count. NOT the easiest red after all; worst_word_challenger_pricing
   moves up to most-tractable.
+
+## CODEX ROUND-2 REPLAY + VALIDATOR-GATE REPAIR (2026-07-06)
+Codex round-2 (prize-amber-stress-20260706): batch-1 algebraic attacks all resisted (tr_perleaf 886k comparisons
++ 10/10 negative controls -- stability is load-bearing; moment-trade witness recomputed non-quotient/non-dihedral;
+E22 gate UNCLASSIFIED=0); batch-2 existing verifiers all pass. Premise weakenings REPLAYED (6 diamond edges->ev
+on list_grand/list_adjacency/r2). CRITICAL CATCHES: (1) rate_half folder carried STALE POSITIVE PROOFS
+(conditional.md claimed refuted AQB-I closes the band; proof.md claimed refuted P6 works) -- replaced with honest
+open-status + re-posed as the strong full-determination premise; (2) three more statement-less ambers.
+GATE REPAIR (found chasing #2): dag_commit's validator gate was a fragile GREP that silently ignored reachability
+failures, every invariant added this week, and a NONEXISTENT assembly-verifier step. Now exit-code based; it
+immediately caught a red-leaf violation in my own demotion (working as intended). Masked debt paid: 110
+retraction-orphaned proved nodes re-anchored as ev on their lane reds (incl. q_cofactor_normal_form).

@@ -37,7 +37,7 @@
     "proof_sketch/s7_list_side.md"
    ],
    "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
-   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized."
   },
   {
    "id": "packaging",
@@ -325,7 +325,7 @@
   },
   {
    "id": "strip",
-   "title": "Strip-periodic: aperiodic stratum exact",
+   "title": "Strip-periodic decomposition: quotient columns plus GAP-1 residual",
    "status": "CONDITIONAL",
    "gate": "all",
    "refs": [
@@ -790,10 +790,11 @@
   {
    "id": "a_regular_collapse",
    "title": "a-regular collapse: interleaved = base (exponent 1)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
-   ]
+   ],
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "a_regularity_forcing",
@@ -1522,11 +1523,12 @@
   {
    "id": "free_pool_ladder",
    "title": "thm:ladder: polynomial-range free-pool ladder",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "conditional on a precise subgroup exponential-sum import"
+   "notes": "conditional on a precise subgroup exponential-sum import",
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "subgroup_expsum_input",
@@ -1550,11 +1552,12 @@
   {
    "id": "m_le3_route",
    "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
-   ]
+   ],
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "rules_m_reading",
@@ -1974,7 +1977,7 @@
   },
   {
    "id": "aperiodic_zero_at_crossing",
-   "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates",
+   "title": "Clean-rate integrality: R2 + tiny FM pin the aperiodic zero threshold",
    "status": "CONDITIONAL",
    "statement": "CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 \u2014 margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term \u2014 R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
    "refs": [
@@ -2070,7 +2073,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
-   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+   "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized."
   },
   {
    "id": "list_crossing_localization",
@@ -2610,7 +2613,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "C-2 PIPELINE (#213, checker replayed green): corridor crossings located at all three clean rates with the ordering list_lo < quot < tau* < cap verified; per-row certificate skeletons emitted; minimum integrality margin ~8.0e11 bits. THE DETERMINED REGION: pinned-class rows are threshold-DECIDED for field sizes 128..168 bits (rate 1/4), 128..169 (1/8), 128..170 (1/16) by existing machinery; Row-C-class norm frontiers at even N' <= 100/120/112. Beyond ~170 bits the band/exclusion theory (xr_clean_residual_any_gate) gates. PRECISION (corrected 2026-07-03): the determined region covers the DEMONSTRATED ROW CLASSES (pinned-class, Row-C-class) at fields 2^128..~2^168-170; class-universality below 2^168 needs the pipeline sweep (mechanical, not yet run). The grand challenges at the clean rates are NOT resolved: fields 2^170..2^256 are gated by the per-pair exclusion (the band) \u2014 the honest claim is 'one named problem stands between the clean rates and full resolution', not 'basically resolved'. | STATEMENT ARC (one day): slack composition -> emptiness (X-1) -> integer budget (audit) -> compiled poly target (16 n^3). Each form superseded by computing the requirement more precisely. | The zero-residue form of the (A) closure makes the trade column rate-portable (see rate_half_coverage_gap note): when the clean-rate certificates land, running the rho = 1/2 rows through C2 is nearly free and should be done opportunistically \u2014 the 1/2 deferral then rests solely on the coverage band + margin point + B-side re-arithmetic. | PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/r2_clean_rates.md): statement-level assembly over the wired kids. | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+   "notes": "C-2 PIPELINE (#213, checker replayed green): corridor crossings located at all three clean rates with the ordering list_lo < quot < tau* < cap verified; per-row certificate skeletons emitted; minimum integrality margin ~8.0e11 bits. THE DETERMINED REGION: pinned-class rows are threshold-DECIDED for field sizes 128..168 bits (rate 1/4), 128..169 (1/8), 128..170 (1/16) by existing machinery; Row-C-class norm frontiers at even N' <= 100/120/112. Beyond ~170 bits the band/exclusion theory (xr_clean_residual_any_gate) gates. PRECISION (corrected 2026-07-03): the determined region covers the DEMONSTRATED ROW CLASSES (pinned-class, Row-C-class) at fields 2^128..~2^168-170; class-universality below 2^168 needs the pipeline sweep (mechanical, not yet run). The grand challenges at the clean rates are NOT resolved: fields 2^170..2^256 are gated by the per-pair exclusion (the band) \u2014 the honest claim is 'one named problem stands between the clean rates and full resolution', not 'basically resolved'. | STATEMENT ARC (one day): slack composition -> emptiness (X-1) -> integer budget (audit) -> compiled poly target (16 n^3). Each form superseded by computing the requirement more precisely. | The zero-residue form of the (A) closure makes the trade column rate-portable (see rate_half_coverage_gap note): when the clean-rate certificates land, running the rho = 1/2 rows through C2 is nearly free and should be done opportunistically \u2014 the 1/2 deferral then rests solely on the coverage band + margin point + B-side re-arithmetic. | PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/r2_clean_rates.md): statement-level assembly over the wired kids. | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized."
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -3321,7 +3324,7 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
    ],
-   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec. | GATE REPAIR 2026-07-05: stale gate:any with sole alt = the REFUTED aqb route (left dangling when AQB was refuted) made the ROOT formally unsatisfiable-even-granting-open ever since -- surfaced during the dli-lane compression validation. Alt edge removed, gate normalized. rate_half remains a bare open TARGET (new mechanism or bracket).",
+   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec. | GATE REPAIR 2026-07-05: stale gate:any with sole alt = the REFUTED aqb route (left dangling when AQB was refuted) made the ROOT formally unsatisfiable-even-granting-open ever since -- surfaced during the dli-lane compression validation. Alt edge removed, gate normalized. rate_half remains a bare open TARGET (new mechanism or bracket). | CODEX ROUND-2 (replayed): node folder was internally inconsistent -- conditional.md claimed AQB-I closes the band and proof.md claimed the refuted P6 route works; both replaced with honest open-status notices. Re-posed as the STRONG full-determination premise (bracket-grade is a separate partial, not a satisfaction of this node).",
    "gate": "all"
   },
   {
@@ -4618,12 +4621,12 @@
   {
    "from": "list_safe",
    "to": "list_grand",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "list_unsafe",
    "to": "list_grand",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "axes_verified",
@@ -5068,7 +5071,7 @@
   {
    "from": "a_regularity_forcing",
    "to": "a_regular_collapse",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "m_sweep",
@@ -5758,7 +5761,7 @@
   {
    "from": "subgroup_expsum_input",
    "to": "free_pool_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "free_pool_ladder",
@@ -5783,12 +5786,12 @@
   {
    "from": "rules_m_reading",
    "to": "m_le3_route",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "imgfib",
    "to": "m_le3_route",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "imgfib_monomial",
@@ -6248,7 +6251,7 @@
   {
    "from": "worst_word_planted",
    "to": "list_adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "list_planted_arithmetic",
@@ -6763,17 +6766,17 @@
   {
    "from": "xr_globalness_from_ledger",
    "to": "r2_clean_rates",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "xr_small_set_engine",
    "to": "r2_clean_rates",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "xr_radius_arithmetic",
    "to": "r2_clean_rates",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "xr_clean_residual_any_gate",
@@ -8234,6 +8237,556 @@
    "from": "rate_half_band_closure",
    "to": "mca_safe",
    "kind": "req"
+  },
+  {
+   "from": "xr_sunflower_rank_additive",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_eliminant_vanishing_class",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "p1_post_paid_subcore_richline_cap",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "p3_affine_net_richline_residue",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "u2_large_characteristic_lift",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a2_depth_cell_residual_occupancy",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "u2c_giant_block_dichotomy",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "splitpair_lowq_falsifier",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "pte_h2_rung",
+   "to": "u1_pullback_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "h3_param_lemma",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "w4_direct_column_rewiring",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "h4_terminal_dichotomy",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x82_square_shift_certifier_keys",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a2_laurent_finiteness",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a3_good_reduction_lemma",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "b1_char0_giant_coset_theorem",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "h_window_derivation",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "c1a_lowh_direct_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "c1b_descent_injection",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "value_set_partner_cap",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "star_pte_support_bound",
+   "to": "u1_pullback_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "m1_trade_bijection",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m2_antinorm_lever",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "midlarge_partner_cap_reduction",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "subcore_richline_classification",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "pcf_norm_gate_flatness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_averaged_quotient_box",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_deficit_arithmetic",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_c2_average_family",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_family_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_c2_family_certificate_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_box_charge_amortization",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_amortization_threshold_accounting",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_shared_entropy_gain",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_entropy_ledger_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_shared_entropy_gain_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_minor_specialization_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_eliminant_nonvanishing",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_certificate_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_coordinate_hypersurface_reduction",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_certificate_coverage",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_residue_kernel_linear_bound",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_squarefree_classification_counting_soundness",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_realizable_kernel_injection",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_active_core_obstruction_vanishing",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_hminus1_fiber_fourier_duality",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_affine_piece_partition_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_norm_gate_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_overceiling_complete_window_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_off_laptop_zero_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_residual_slice_metadata",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_h3_large_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_h5_n32_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_mitm_enumerator_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_wsl_complete_zero_subcertificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_small_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_ground_truth_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_remaining_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_residual_off_laptop_zero_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_local_to_common_saturation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_pricing_multiplicity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_overlap_nested_fiber_residual_identity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_fiber_locator_saturation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_count_formula",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_chain_mobius_accounting",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_weighted_intersection_certificate_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_planted_profile_disjointness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_residual_minimality_multiplicity_filter",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_removed_factor_manifest_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_minimal_scale_selector",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_coset_locator_algebra",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_fixed_scale_staircase_injectivity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_overlap_counts",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_kernel_invariance_full_fiber_criterion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_intersection_formula_payload",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_filter_inclusion_exclusion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_pricing_compatibility",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_tail_criterion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_support_canonical_form",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_residual_profile_generating_function",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_agreement_cofactor_equations",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_common_tail_invariance_certificate_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_column_evaluation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cofactor_petal_divisibility",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_partition",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_intersection_profile_counts",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_rootset_recovery",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_removed_quotient_factor_passthrough",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_overlap_residual_profile_formula",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
   }
  ]
 }
