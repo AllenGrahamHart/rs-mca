@@ -1013,6 +1013,11 @@
    "title": "RUNG 2a: same-slope families ARE the list challenge's object"
   },
   {
+   "id": "xr_scattered_syzygy_flattice",
+   "label": "PROVED",
+   "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects"
+  },
+  {
    "id": "xr_small_set_engine",
    "label": "PROVED",
    "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure"
@@ -1021,6 +1026,16 @@
    "id": "xr_smallcore_spread_count",
    "label": "UNPROVED",
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count"
+  },
+  {
+   "id": "xr_syzygy_flat_transport",
+   "label": "PROVED",
+   "title": "gamma-a (PROVABLE/mechanical): the scattered-syzygy -> flat dictionary"
+  },
+  {
+   "id": "xr_syzygy_support_lemma",
+   "label": "PROVED",
+   "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget"
   },
   {
    "id": "xr_target_budget_audit",
@@ -1623,6 +1638,10 @@
    "to": "xr_smallcore_spread_count"
   },
   {
+   "from": "xr_syzygy_flat_transport",
+   "to": "xr_scattered_syzygy_flattice"
+  },
+  {
    "from": "f_dih_subgroup_completeness",
    "to": "f_weight2_inverse"
   },
@@ -2160,6 +2179,14 @@
   },
   {
    "from": "u2_per_row_certifier",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "xr_syzygy_support_lemma",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "xr_scattered_syzygy_flattice",
    "to": "x4_exactlist_staircase_split"
   },
   {

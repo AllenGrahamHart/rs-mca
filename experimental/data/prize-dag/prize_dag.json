@@ -3318,8 +3318,8 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
    ],
-   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec.",
-   "gate": "any"
+   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec. | GATE REPAIR 2026-07-05: stale gate:any with sole alt = the REFUTED aqb route (left dangling when AQB was refuted) made the ROOT formally unsatisfiable-even-granting-open ever since -- surfaced during the dli-lane compression validation. Alt edge removed, gate normalized. rate_half remains a bare open TARGET (new mechanism or bracket).",
+   "gate": "all"
   },
   {
    "id": "worst_word_challenger_pricing",
@@ -3449,7 +3449,7 @@
    "attack_surface": "ready for formalization; feeds the primitive-core reduction",
    "falsifier": "n/a (proved)",
    "refs": [
-    "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
+    "archive/compressed_dli_lane_20260705/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
    ]
   },
   {
@@ -3460,7 +3460,7 @@
    "attack_surface": "n/a (proved)",
    "falsifier": "n/a (proved)",
    "refs": [
-    "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
+    "archive/compressed_dli_lane_20260705/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
    ]
   },
   {
@@ -3503,7 +3503,7 @@
    "status": "PROVED",
    "statement": "For bounded integer coefficients |c_a| <= C and omega of 2-power order M in F_p: P_c(omega) = 0 forces the cyclotomic/coset case (c_a = c_{a+M/2}, counted exactly) OR p | Res(X^{M/2}+1, Q_c) \u2014 the explicit cleared norm. Tower sections contain no opposite pairs, so every nonzero tower skew is norm-gated at every imposed odd exponent simultaneously. No bounded-coefficient escape. (Pro; replayed, F_97 example Res = 97^2 exact.)",
    "refs": [
-    "nodes/b2b_primitive_core/notes/pro_skew_tower_packet.md"
+    "archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/pro_skew_tower_packet.md"
    ]
   },
   {
@@ -3512,7 +3512,7 @@
    "status": "PROVED",
    "statement": "Vandermonde rigidity: a nonzero level-j skew under L_j odd constraints needs active support >= L_j + 1; at prize t = 2^33 the thresholds are 2^{32-j} + 1 per level. In the small-support regime the branch factor is profile-only ({0,1} by parity). (Pro; replayed.)",
    "refs": [
-    "nodes/b2b_primitive_core/notes/pro_skew_tower_packet.md"
+    "archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/pro_skew_tower_packet.md"
    ]
   },
   {
@@ -7273,11 +7273,6 @@
    "kind": "req"
   },
   {
-   "from": "aqb_averaged_quotient_box",
-   "to": "rate_half_band_closure",
-   "kind": "alt"
-  },
-  {
    "from": "conj_f",
    "to": "spi_point_counting",
    "kind": "req"
@@ -8219,6 +8214,16 @@
   },
   {
    "from": "u2_per_row_certifier",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "xr_syzygy_support_lemma",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "xr_scattered_syzygy_flattice",
    "to": "x4_exactlist_staircase_split",
    "kind": "req"
   }
