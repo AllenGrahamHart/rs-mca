@@ -3898,7 +3898,7 @@
   {
    "id": "aqb_averaged_quotient_box",
    "title": "AQB-I averaged quotient-box estimate",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently."
   },
   {
@@ -3926,6 +3926,102 @@
    "status": "TARGET",
    "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first).",
    "notes": "REFEREE VERDICT: NOT discharged by the banked arithmetic \u2014 ext_import prices the pole column, generating_escape gives the s6 escape direction; EF_ru is the COMPLETENESS claim (nothing lands off the pole divisor). Genuine leaf #5, but rich-line-classification-shaped: a one-round Pro target with s6 sections attached."
+  },
+  {
+   "id": "aqb_deficit_arithmetic",
+   "title": "AQB finite deficit arithmetic",
+   "status": "PROVED",
+   "statement": "For N=2^40, d=4,296,456,369, m=2^39+d, and Q<=256, the finite AQB deficit B_I=dQ-40-log2 C(N,m) is maximized at Q=256 and is strictly less than 429,645,547 bits; equivalently the recorded averaged-gain target clears the finite arithmetic deficit, with Qcrit=255.900000020976...",
+   "attack_surface": "finite arithmetic only; certified by Robbins Stirling interval bounds in nodes/aqb_averaged_quotient_box/verify.py",
+   "falsifier": "a certified interval computation placing B_I(256) at or above 429,645,547 bits"
+  },
+  {
+   "id": "aqb_c2_average_family",
+   "title": "AQB c=2 averaged quotient-box family",
+   "status": "CONDITIONAL",
+   "statement": "There exists an averaged family over the c=2 quotient-box geometry at sigma*=8,592,912,738 whose members share enough quotient structure for their list contributions to be averaged before paying the full box charge separately for each member. This is reduced to certificate semantics plus the remaining concrete averaged-family certificate payload.",
+   "attack_surface": "assembly from the proved averaged-family certificate semantics and the remaining concrete c=2 family certificate payload",
+   "falsifier": "a structural theorem showing every admissible c=2 quotient-box family at sigma* decomposes into single-word boxes with no nontrivial shared quotient charge, or a defect in the certificate semantics"
+  },
+  {
+   "id": "aqb_family_certificate_semantics",
+   "title": "AQB averaged-family certificate semantics",
+   "status": "PROVED",
+   "statement": "If an AQB c=2 certificate specifies a finite nonempty family at sigma*, shared quotient/fiber data, reusable box-charge data, and a transfer map from each member to its list witness, and the certificate predicates verify those fields, then aqb_c2_average_family holds.",
+   "attack_surface": "definition-checking soundness for finite averaged-family certificates",
+   "falsifier": "a verifying AQB averaged-family certificate whose family is empty, not in the c=2 quotient-box geometry, or lacks the asserted shared quotient/transfer structure"
+  },
+  {
+   "id": "aqb_c2_family_certificate_payload",
+   "title": "AQB c=2 averaged-family certificate payload",
+   "status": "CONDITIONAL",
+   "statement": "Provide a concrete certificate for the averaged c=2 quotient-box family at sigma*=8,592,912,738: finite member parametrization, shared quotient/fiber data, reusable box-charge data, and transfer maps to the list witnesses consumed by the AQB averaging argument. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
+   "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual coupled AQB manifest; no broad local WSL search",
+   "falsifier": "a missing certificate field, a failed quotient/fiber consistency check, or a certificate whose family decomposes into independent single-word boxes"
+  },
+  {
+   "id": "aqb_coupled_family_entropy_manifest_soundness",
+   "title": "AQB coupled family-entropy manifest soundness",
+   "status": "PROVED",
+   "statement": "If a coupled AQB manifest supplies the c=2 averaged-family certificate fields and an exact/interval entropy ledger keyed to the same family, with certified net gain at least 429,645,547 bits, then both aqb_c2_family_certificate_payload and aqb_shared_entropy_gain_payload hold.",
+   "attack_surface": "schema soundness tying the family certificate and entropy ledger to one manifest",
+   "falsifier": "a verified coupled manifest that satisfies the family schema and ledger threshold but fails either AQB payload"
+  },
+  {
+   "id": "aqb_coupled_family_entropy_manifest_payload",
+   "title": "AQB actual coupled family-entropy manifest payload",
+   "status": "TARGET",
+   "statement": "Provide the actual coupled AQB manifest for sigma*=8,592,912,738: the c=2 averaged-family member parametrization, shared quotient/fiber and reusable charge data, member-to-witness transfers, and exact or interval-certified entropy ledger entries keyed to that same family with certified net gain at least 429,645,547 bits.",
+   "attack_surface": "actual construction/import of the averaged c=2 family together with its certified entropy ledger",
+   "falsifier": "a missing family field, a ledger not keyed to the family, or a certified net lower bound below 429,645,547 bits"
+  },
+  {
+   "id": "aqb_box_charge_amortization",
+   "title": "AQB shared box-charge amortization",
+   "status": "CONDITIONAL",
+   "statement": "For the averaged c=2 quotient-box family, the shared box charge amortizes by at least 429,645,547 bits relative to the single-word floor at sigma*.",
+   "attack_surface": "assembly from the family definition, proved threshold accounting, and the remaining shared-family entropy-gain inequality",
+   "falsifier": "a certified upper bound showing that the proposed averaged family saves less than 429,645,547 bits after all multiplicities, overlaps, and quotient/fiber normalizations are charged"
+  },
+  {
+   "id": "aqb_amortization_threshold_accounting",
+   "title": "AQB amortization threshold accounting",
+   "status": "PROVED",
+   "statement": "Any c=2 averaged quotient-box family whose certified shared entropy gain after all box charges and normalizations is at least 429,645,547 bits clears the finite AQB deficit at sigma*, because aqb_deficit_arithmetic proves the worst-case deficit is strictly below that threshold by more than 0.226 bits.",
+   "attack_surface": "exact threshold comparison against aqb_deficit_arithmetic",
+   "falsifier": "a certified recomputation where the AQB deficit reaches or exceeds 429,645,547 bits"
+  },
+  {
+   "id": "aqb_average_member_transfer",
+   "title": "AQB average-to-member transfer",
+   "status": "PROVED",
+   "statement": "For a finite AQB averaged quotient-box family, if the family-average list contribution exceeds the MCA trigger after the certified shared entropy gain is applied, then at least one member of the family individually exceeds the trigger and gives an unsafe witness at sigma*.",
+   "attack_surface": "finite averaging/pigeonhole transfer from average excess to one member excess",
+   "falsifier": "a finite family whose average exceeds a threshold while every member is at or below that threshold"
+  },
+  {
+   "id": "aqb_shared_entropy_gain",
+   "title": "AQB shared-family entropy gain",
+   "status": "CONDITIONAL",
+   "statement": "For the averaged c=2 quotient-box family supplied by aqb_c2_average_family, the shared-family entropy minus all charged box, overlap, multiplicity, and quotient/fiber normalization costs is at least 429,645,547 bits. This is reduced to the proved entropy-ledger certificate soundness rule and the remaining exact ledger payload for the concrete averaged family.",
+   "attack_surface": "assembly from entropy-ledger soundness and the remaining exact/interval payload for the concrete averaged family",
+   "falsifier": "a certified accounting of the proposed family whose net shared entropy gain is below 429,645,547 bits"
+  },
+  {
+   "id": "aqb_entropy_ledger_certificate_soundness",
+   "title": "AQB entropy-ledger certificate soundness",
+   "status": "PROVED",
+   "statement": "If an AQB ledger supplies certified lower bounds for shared-family entropy and certified upper bounds for all charged box, overlap, multiplicity, and quotient/fiber normalization costs, and the resulting lower bound is at least 429,645,547 bits, then aqb_shared_entropy_gain holds for that family.",
+   "attack_surface": "interval-arithmetic soundness for entropy gain ledgers",
+   "falsifier": "a ledger whose certified lower-minus-upper interval clears the threshold while the true net gain is below it"
+  },
+  {
+   "id": "aqb_shared_entropy_gain_payload",
+   "title": "AQB shared entropy-gain payload",
+   "status": "CONDITIONAL",
+   "statement": "For the averaged c=2 quotient-box family from aqb_c2_average_family, provide exact or interval-certified ledger entries for shared entropy and all costs whose certified net lower bound is at least 429,645,547 bits. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
+   "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual entropy ledger keyed to the concrete averaged family",
+   "falsifier": "a missing ledger entry or certified net lower bound below 429,645,547 bits"
   }
  ],
  "edges": [
@@ -6992,6 +7088,96 @@
   {
    "from": "ef_ru",
    "to": "f1_full_field_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_average_member_transfer",
+   "to": "rate_half_band_closure",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_deficit_arithmetic",
+   "to": "aqb_averaged_quotient_box",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_c2_average_family",
+   "to": "aqb_averaged_quotient_box",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_family_certificate_semantics",
+   "to": "aqb_c2_average_family",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_family_certificate_semantics",
+   "to": "aqb_coupled_family_entropy_manifest_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_entropy_ledger_certificate_soundness",
+   "to": "aqb_coupled_family_entropy_manifest_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_soundness",
+   "to": "aqb_c2_family_certificate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_payload",
+   "to": "aqb_c2_family_certificate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_c2_family_certificate_payload",
+   "to": "aqb_c2_average_family",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_box_charge_amortization",
+   "to": "aqb_averaged_quotient_box",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_c2_average_family",
+   "to": "aqb_box_charge_amortization",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_amortization_threshold_accounting",
+   "to": "aqb_box_charge_amortization",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_shared_entropy_gain",
+   "to": "aqb_box_charge_amortization",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_c2_average_family",
+   "to": "aqb_shared_entropy_gain_payload",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_soundness",
+   "to": "aqb_shared_entropy_gain_payload",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_payload",
+   "to": "aqb_shared_entropy_gain_payload",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_entropy_ledger_certificate_soundness",
+   "to": "aqb_shared_entropy_gain",
+   "kind": "req"
+  },
+  {
+   "from": "aqb_shared_entropy_gain_payload",
+   "to": "aqb_shared_entropy_gain",
    "kind": "req"
   }
  ]
