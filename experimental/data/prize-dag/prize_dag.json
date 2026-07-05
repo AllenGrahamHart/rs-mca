@@ -4503,7 +4503,8 @@
    "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)",
    "status": "TARGET",
    "statement": "ext_pole_floor's N(L) mechanism covers e-interleaved base-list multiplication-slice witnesses; every such witness meets D_E. Sole remaining seam for ef_fullfield_bridge; failure = a new extension-valued/interleaved S9 ledger class.",
-   "falsifier": "an e-interleaved base-list witness escaping ext_pole_floor -- the S9 class."
+   "falsifier": "an e-interleaved base-list witness escaping ext_pole_floor -- the S9 class.",
+   "notes": "| Pro follow-up brief issued (same ef thread): does N(L) apply to the interleaved witness effective list size? Prove (A) or exhibit S9 (B). The crux is pure list-counting of the multiplication-slice vs N(L). Closes ef->f1."
   }
  ],
  "edges": [
