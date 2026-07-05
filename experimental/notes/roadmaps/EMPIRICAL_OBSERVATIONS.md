@@ -199,3 +199,16 @@ grand challenges. Gate L's citation gap is the most concerning (a charged-but-un
   needs (D proof must visibly use the residue-kernel/primitive coordinate). => THE PETAL CLUSTER HAS A COMMON ROOT:
   one primitive/quotient-coordinate bridge would feed Gates L, N, D simultaneously. Highest-leverage petal move.
 - Gate L is therefore NOT a dead soundness hole: it's bridgeable (poly(n) sheets), pending the shared coordinate bridge.
+
+## Gate D STABILITY STRESS (petal_quotient_descent_step) — NOT yet stable; scoping is load-bearing + untested
+C/Modal exhaustive MITM (M<=44): bare-mechanism counterexample window L*(M) [max window with a non-coarser,
+non-antipodal, first-L-power-sums-zero subset]:
+  M= 28 32 36 40 42 44  ->  L*= 4  4  5  6  6  5   (arithmetic-dependent; prime p matters strongly).
+- L* EXCEEDS the toy theta=5 at M=40,42 (bare counterexamples at window 6). So NO small fixed window threshold
+  makes the bare mechanism safe. (My first read of "unbounded ~M/logM" was an over-interpretation of 4 points;
+  the Modal sweep shows fluctuation in 4-6, not clean growth -- corrected.)
+- => Gate D's stability RESTS ENTIRELY on the squarefree-realizable scoping doing real work, which is UNVERIFIED
+  and shares the primitive-coordinate definition gap with Gate N.
+CONCLUSION (answers the "are red nodes stable before decomposing?" question for Gate D): NO, not yet. Do not
+introduce a foundation node beneath the petal cluster until the squarefree-realizable scoping is pinned + tested.
+The stress test did its job: it caught that Gate D's stability is contingent on an untested hypothesis.
