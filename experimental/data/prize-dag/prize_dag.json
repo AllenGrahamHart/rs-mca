@@ -5254,19 +5254,19 @@
    "id": "sov_gridsum_residual",
    "title": "SOV grid character-sum residual (non-trace-flat cells)",
    "status": "TARGET",
-   "statement": "CORRECTED (Pro T4, verified): the trace-flat gate ALONE is insufficient \u2014 an additive Bohr ARC Gamma={1..1024} in F_65537 (h=21) is non-trace-flat, non-quotient, yet has ~0.992 NO cancellation (density 2^-126.3, VERIFIED). The Lane-1 theorem is PROVED (power-sum bound B => CharBudget [u^r](1-u)^{-B}(1-u^{p0})^{-(M-B)/p0}, VERIFIED). So sov_gridsum_residual = (a) a NEW paid class large_power_sum/Bohr-flat (remove additive-arc / Fourier-biased cells; general condition = small power sums P_j for all j,a) + (b) sum_a CharBudget^2 = o(|Omega|^2) on the residual via Lane-1 => single_obstruction small-fiber.",
+   "statement": "CORRECTED (Pro T4B, verified): the arbitrary-cell version is REFUTED by an INFINITE family \u2014 prime-field additive Bohr/interval cells Gamma={1..(p-1)/R} are non-trace-flat, non-quotient, non-dihedral, positive density (R^-r), yet the obstruction takes only <=(r/R)q values (0.321q at F_65537,R=64,r=21, VERIFIED) with char ratio >sinc(pi/R)^r. So trace-flat + quotient/dihedral removal is NOT enough. Valid decomposition: + a NEW paid large_power_sum/Bohr-window class (exists a!=0,j with |sum psi(jax)|>B) whose MASS must be priced; then the PROVED Lane-1 Euler-product theorem closes the residual_fourier_uniform cells. REMAINING: price/rule the large_power_sum/Bohr class (a real ledger obligation, proven necessary).",
    "attack_surface": "Lane-1 distinct-coordinate/symmetric-power sieve; Lane-2 sheaf trace bound on the divisor chart.",
    "falsifier": "A positive-density residual (non-trace-flat, non-quotient) cell with no cancellation.",
-   "notes": "T4 (verified): trace-flat gate insufficient (arc counterexample); Lane-1 engine PROVED; needs large_power_sum/Bohr-flat paid gate + residual budget."
+   "notes": "T4 (verified): trace-flat gate insufficient (arc counterexample); Lane-1 engine PROVED; needs large_power_sum/Bohr-flat paid gate + residual budget. | T4B (verified): infinite-family refutation; needs the large_power_sum/Bohr-window paid gate priced, then Lane-1."
   },
   {
    "id": "m720_conductor_compression",
    "title": "m720 norm gate: survivor-conditioned field bound OR D-GCD payload (compression REFUTED)",
    "status": "TARGET",
-   "statement": "CORRECTED (Pro T5, verified): the support-size conductor-compression route is REFUTED \u2014 a 14-support with trivial multiplicative stabilizer mod 1024 gives an obstruction of full degree phi(1024)=512, so 291*512>>250 and the height gate does not close (VERIFIED). The m720 norm gate is discharged for a (row,h) pair iff EITHER (i) a SURVIVOR-CONDITIONED small-field certificate 291[L:Q]<log2 p is proved for a nonzero cleared obstruction A_j(R)=2^{4h-2}O_j (using survivor-specific equations, not anchoredness/size) \u2014 the conditional P4-HB gate is PROVED; OR (ii) the C2 certificate gcd(p,D(n,h))=1 is supplied, which is BLOCKED ON PAYLOAD (the public repo lacks the explicit D(n,h) integers and the official Row-C ~250-bit prime list).",
+   "statement": "REFINED (Pro T5, verified): the support-size compression is REFUTED (1024/7 obstruction has full degree 512). A REFINED universal height gate is PROVED: |sigma(A_j)|<=2^{H_h}, H_h=(4h-2)+log2(max_j sum U_a U_b), VERIFIED H_20=136.24 (CORRECTS my earlier crude 291 which was too weak: 2^290.7>2^250). Even refined, h<=18 close at degree<=2 (p~2^250) but h=19,20 close only at [L:Q]=1 and CANNOT close over F_{p^2} (char~125<136.24). So m720 needs, per row/window: (R2) a SURVIVOR-CONDITIONED nonzero obstruction in a field L with H_h[L:Q]<log2 p (survivor-specific), OR (R3) the C2 gcd(p,D(n,h))=1 certificate, BLOCKED on the missing official Row-C primes + D(n,h) payload.",
    "attack_surface": "(i) survivor-conditioned field bound via the actual survivor equations (not support size); or (ii) obtain the D(n,h) + official Row-C primes and run the C2 gcd check.",
    "falsifier": "an official case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
-   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data."
+   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data. | T5 (verified): refined height H_20=136.24 (was 291); still insufficient for h=19,20 at Row-C => needs survivor-conditioned descent (R2) or C2 payload (R3)."
   },
   {
    "id": "petal_cofactor_chargeability",
@@ -5316,11 +5316,11 @@
   {
    "id": "petal_primitive_residue_kernel_rank",
    "title": "Petal primitive residue-kernel rank lemma PRK_pet (T7 residual)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Lemma PRK_pet(B0,b0): absolute B0,b0 s.t. for every full-petal in-regime chart and squarefree-realizable cofactor family Y=A_i(Z) subset V_c, after peeling paid quotient/coset/signed/antipodal/cyclotomic/low-defect sheets, the residual Y^u has (1) dim Pi_prim(T_y Y^u)<=B0, (2) dim(T_y Y^u \u2229 ker dPi_prim)<=b0 (no unbounded invisible primitive fibers except tails), (3) affine-linear slicing => <=q^r points. Must use the residue-kernel EQUATIONS + squarefree-realizability (NOT dim K<=c+1 + T2 alone; the affine family A_c refutes the dimension-only route). Then P5-CL/petal ledger closes with c-independent uncharged exponent B_pet=B0+b0+b_tail.",
    "attack_surface": "stratify the residue-kernel realizable locus; bound primitive tangent rank of residual components via the actual kernel equations + squarefree openness.",
    "falsifier": "an in-regime squarefree-realizable family with unbounded primitive tangent rank not contained in any paid template.",
-   "notes": "T7 residual leaf: the sole family-level lemma making P5-CL unconditional. T2 is terminal only."
+   "notes": "T7 residual leaf: the sole family-level lemma making P5-CL unconditional. T2 is terminal only. | AMBERED (Pro T7): conditional theorem PROVED \u2014 Gates N(newton_window)+D(quotient_descent_step)+L(low_defect_quotient_charge) => PRK_pet with B_pet=kappa_N+theta+b_N+1 (uncharged only when c<theta+kappa_N is bounded). Naive PRK without low-defect charging REFUTED (guardrail). Calibrated in L1 dyadic toy."
   },
   {
    "id": "dli_prime_weighted_large_block_support",
@@ -5330,6 +5330,33 @@
    "attack_surface": "compute/bound the block-size distribution of the degree-preimage residue partition of the odd-eval map on the square-root section; likely checkable at small scale (mu_16/mu_32).",
    "falsifier": "a central profile / level whose actual map-partition carries Omega(L_j) mass on blocks of bounded size.",
    "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7."
+  },
+  {
+   "id": "petal_newton_window",
+   "title": "Petal Newton/power-sum window (Gate N)",
+   "status": "TARGET",
+   "statement": "Absolute kappa_N,b_N>=0: every squarefree-realizable full-petal residue-kernel cofactor component is either bounded-tail charged OR its residue-kernel equations force >= c - kappa_N consecutive quotient-compatible moment (power-sum / elementary-coeff) vanishings in the primitive coordinate. This is where the residue-kernel EQUATIONS + Newton identities enter (Lemma 13 alone insufficient).",
+   "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+   "falsifier": "a residue-kernel component with c large but no long initial moment window.",
+   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
+  },
+  {
+   "id": "petal_quotient_descent_step",
+   "title": "Petal quotient descent step (Gate D)",
+   "status": "TARGET",
+   "statement": "Absolute theta>=1, mu>=2 (dyadic mu=2, toy theta=5): a Q-fiber-saturated squarefree-realizable component with long moment window m>=theta*Q is saturated by a strictly coarser paid quotient (fiber >= mu*Q) \u2014 the moment equations force the Q-quotient image signed/antipodal/coset-periodic, lifting to a larger charged full-fiber sheet. The genuine rigidity/descent theorem.",
+   "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+   "falsifier": "a long moment window at scale Q not saturated at a larger quotient scale.",
+   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
+  },
+  {
+   "id": "petal_low_defect_quotient_charge",
+   "title": "Petal low-defect quotient charge (Gate L)",
+   "status": "TARGET",
+   "statement": "Absolute delta_L: at the maximal paid quotient Q with short window m<theta*Q, the quotient-coordinate residual has defect delta=floor(m/Q)<=theta-1; every such low-defect quotient-complement family is a PAID low-defect sheet (a chargeability/citation, NOT a point-count bound \u2014 they may be large). GUARDRAIL: omitting low-defect sheets from the paid menu is REFUTED (terminal quotient-complement rows Z_1,Z_2,Z_3 in the L1 dyadic toy are not bounded residual noise).",
+   "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+   "falsifier": "a short-window quotient-complement family not present in the paid low-defect ledger.",
+   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
   }
  ],
  "edges": [
@@ -9786,6 +9813,21 @@
   {
    "from": "dli_prime_weighted_large_block_support",
    "to": "dli_prime_block_conductor_mass",
+   "kind": "req"
+  },
+  {
+   "from": "petal_newton_window",
+   "to": "petal_primitive_residue_kernel_rank",
+   "kind": "req"
+  },
+  {
+   "from": "petal_quotient_descent_step",
+   "to": "petal_primitive_residue_kernel_rank",
+   "kind": "req"
+  },
+  {
+   "from": "petal_low_defect_quotient_charge",
+   "to": "petal_primitive_residue_kernel_rank",
    "kind": "req"
   }
  ]

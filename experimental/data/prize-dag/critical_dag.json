@@ -1368,14 +1368,29 @@
    "title": "Petal residue-kernel realizable sparsity"
   },
   {
+   "id": "petal_low_defect_quotient_charge",
+   "label": "UNPROVED",
+   "title": "Petal low-defect quotient charge (Gate L)"
+  },
+  {
    "id": "petal_mixed_amplification_step",
    "label": "CONDITIONAL",
    "title": "Petal mixed-amplification induction step"
   },
   {
-   "id": "petal_primitive_residue_kernel_rank",
+   "id": "petal_newton_window",
    "label": "UNPROVED",
+   "title": "Petal Newton/power-sum window (Gate N)"
+  },
+  {
+   "id": "petal_primitive_residue_kernel_rank",
+   "label": "CONDITIONAL",
    "title": "Petal primitive residue-kernel rank lemma PRK_pet (T7 residual)"
+  },
+  {
+   "id": "petal_quotient_descent_step",
+   "label": "UNPROVED",
+   "title": "Petal quotient descent step (Gate D)"
   },
   {
    "id": "petal_realizable_extra_uniformity",
@@ -3988,6 +4003,18 @@
   {
    "from": "dli_prime_weighted_large_block_support",
    "to": "dli_prime_block_conductor_mass"
+  },
+  {
+   "from": "petal_newton_window",
+   "to": "petal_primitive_residue_kernel_rank"
+  },
+  {
+   "from": "petal_quotient_descent_step",
+   "to": "petal_primitive_residue_kernel_rank"
+  },
+  {
+   "from": "petal_low_defect_quotient_charge",
+   "to": "petal_primitive_residue_kernel_rank"
   },
   {
    "from": "acl_second_order",
