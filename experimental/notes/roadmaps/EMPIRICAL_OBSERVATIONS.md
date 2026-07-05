@@ -212,3 +212,16 @@ non-antipodal, first-L-power-sums-zero subset]:
 CONCLUSION (answers the "are red nodes stable before decomposing?" question for Gate D): NO, not yet. Do not
 introduce a foundation node beneath the petal cluster until the squarefree-realizable scoping is pinned + tested.
 The stress test did its job: it caught that Gate D's stability is contingent on an untested hypothesis.
+
+## Gate D SCOPING VERIFIED (squarefree-realizable pinned + tested) — realizability caps the window
+Pinned: squarefree-realizable = a split-squarefree kernel point of K_{I,d}=ker(pi_{>d} R_{I,d}) (executable).
+Modal test + scaling:
+- initial (t,ell<=4, d<=~11, q<=53): 2.05M candidates, 19211 realizable, max naive window = 3.
+- scaled (t,ell<=6, d<=~20, q<=101): 1.36M candidates, 4276 realizable, max naive window = 2.
+=> realizability FUNDAMENTALLY caps the naive-coordinate moment window at ~2-3 (does NOT grow with size). ZERO
+   realizable points reach window>=5, vs arbitrary subsets where L*=5,6 exist. The bare Gate-D counterexamples
+   are NOT realizable. The squarefree-realizable scoping is VERIFIED to do real work.
+- So the workflow: bare mechanism UNSTABLE (L* stress) -> scoping VERIFIED to cap the window -> Gate D substantially
+  more stable. This is the scoping earning its place, not assumed.
+CAVEAT / REMAINING: naive root-coordinate window; Gate D's actual object is the QUOTIENT-coordinate window
+Sum_x x^{Qt} (part 2, the primitive-coordinate definition). Confirm the cap holds there too before full confidence.
