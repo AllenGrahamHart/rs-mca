@@ -3921,8 +3921,8 @@
    "id": "dli_dirichlet_log_integral",
    "title": "Dirichlet log-integral flatness",
    "status": "CONDITIONAL",
-   "statement": "Near-log-integral geometric-mean distribution of low-degree odd evaluations on the section (see statement.md) \u2014 the final reduced input of the primitive core.",
-   "notes": "STRATEGIC (verified): the sharp DLI (geometric mean -2log2) is stronger than the primitive core needs \u2014 polynomial-loss per level suffices (34 levels, reserve >> O(log n); agents.md level-2). The dli terminal weakened accordingly."
+   "statement": "INTERFACE (chain compressed 2026-07-05, see REDUCTION_PACKET.md): near-log-integral geometric-mean distribution of low-degree odd evaluations on the section -- the final reduced input of the primitive core (feeds ejm_joint_moment). CONDITIONAL on the frontier dli_prime_weighted_large_block_support (the U-weighted/RES counting obligation) via the 14-step packet reduction (weighted ledger -> weighted 2nd moment -> full-mass-scoped Deligne branch -> log-integral), with 11 PROVED side-inputs reattached. The packet chain was validated pre-compression: weighted re-pose coherent end-to-end, tail margin 2^{-245 L_j}, consumer ledger exhaustively adversarially confirmed (n=32..2048).",
+   "notes": "STRATEGIC (verified): the sharp DLI (geometric mean -2log2) is stronger than the primitive core needs \u2014 polynomial-loss per level suffices (34 levels, reserve >> O(log n); agents.md level-2). The dli terminal weakened accordingly. | COMPRESSED per CHAIN_COMPRESSION_POLICY: 14 middle nodes -> REDUCTION_PACKET.md; folders archived at archive/compressed_dli_chain_20260705/."
   },
   {
    "id": "ef_ru",
@@ -4511,32 +4511,6 @@
    "notes": "Pro follow-up brief issued (same ef thread): does N(L) apply to the interleaved witness effective list size? Prove (A) or exhibit S9 (B). The crux is pure list-counting of the multiplication-slice vs N(L). Closes ef->f1. | PRO ROUND 3 (verified): list-counting EXACT (L_eff = extension-code list, not L^e; interleaving is diagonal not Cartesian). Singleton exclusion N_int(1)=1 VERIFIED. Reduced to Weil-restriction functoriality of the Paper D floor proof (singleton for exclusion) \u2014 a scope property of an EXISTING proof, checkable by inspecting it. | PROVED (Pro W2, verified): the Paper D simple-pole floor is Weil-functorial for the singleton multiplication-slice witness (CA-bad construction verified, numerator L=1); no S9 class. Closes ef->f1."
   },
   {
-   "id": "dli_odd_evaluation_discrepancy",
-   "title": "DLI odd-evaluation discrepancy",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the sequence of low-degree odd evaluations P_lambda(sigma(y)) on the square-root section has enough discrepancy control away from Dirichlet peaks to support the DLI log-integral geometric-mean bound with total loss sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
-   "attack_surface": "assembly from the truncated-log transfer lemma and the remaining peak-mass discrepancy estimate for the odd-evaluation sequence",
-   "falsifier": "a central profile and nonzero frequency whose odd-evaluation sequence remains near Dirichlet peaks on a positive-density set of section coordinates, forcing a linear-in-t loss",
-   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
-  },
-  {
-   "id": "dli_odd_phase_nontriviality_payload",
-   "title": "DLI actual odd-phase nontriviality payload",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile, nonzero frequency, DLI harmonic, and relevant square-root component, the actual odd-evaluation phase P_lambda(sigma(y)) is not of Artin-Schreier form g^p-g+c. This is reduced to the proved polar-obstruction soundness rule plus the remaining actual DLI polar-obstruction certificate payload.",
-   "attack_surface": "assembly from the polar-obstruction soundness rule and project-specific certificates for the actual odd-evaluation map on square-root components",
-   "falsifier": "an actual central-profile component where P_lambda(sigma(y)) equals g^p-g+c"
-  },
-  {
-   "id": "dli_reduced_phase_manifest_payload",
-   "title": "DLI actual reduced-phase manifest payload",
-   "status": "CONDITIONAL",
-   "statement": "Provide the actual DLI reduced-phase manifest: for every central profile, nonzero frequency, DLI harmonic, and relevant square-root component, the Artin-Schreier-reduced local expansion of P_lambda(sigma(y)), a positive pole order prime to p, a certified polar-divisor majorant for the same tuple, and an o(t) harmonic total for the majorants.",
-   "attack_surface": "actual project-specific local expansions, Artin-Schreier reduction, pole witnesses, majorant rows, and harmonic summation",
-   "falsifier": "a missing tuple, no prime-to-p reduced pole, a majorant below the true reduced polar divisor, or a harmonic total not o(t)",
-   "notes": "Pro brief issued (deep analytic): the Deligne-Weil reduced-phase manifest \u2014 per-tuple prime-to-p reduced pole + conductor majorant + o(t) harmonic sum, giving geometric-mean equidistribution at -2log2. Calibrated flat. Closes dli->ejm->pcf->b2b primitive core. | Pro (verified): pole+conductor parts PROVED (dli_phase_pole_conductor_manifest); the o(t) harmonic total is the REAL gap (dli_harmonic_conductor_ledger) \u2014 ordinary Deligne non-saving at section scale (sqrt q/N=2^87). Target C. | NOTE: the harmonic-total obligation WEAKENED to polynomial-loss per level (o(t) over 34 levels); the sharp geometric-mean route is over-engineered."
-  },
-  {
    "id": "dli_circle_log_integral_constant",
    "title": "DLI circle log-integral constant",
    "status": "PROVED",
@@ -4545,46 +4519,12 @@
    "falsifier": "a corrected evaluation of the circle integral"
   },
   {
-   "id": "dli_odd_phase_polar_obstruction_payload",
-   "title": "DLI actual odd-phase polar-obstruction payload",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile, nonzero frequency, DLI harmonic, and relevant square-root component, construct a local certificate showing that the Artin-Schreier-reduced odd-evaluation phase P_lambda(sigma(y)) has a positive pole order not divisible by p. This is reduced to a proved reduced-phase manifest soundness rule plus the remaining actual reduced-phase manifest.",
-   "attack_surface": "assembly from reduced-phase manifest soundness and the remaining project-specific local expansion/cancellation manifest",
-   "falsifier": "an actual DLI odd phase whose Artin-Schreier-reduced local expansions have no pole order prime to p"
-  },
-  {
-   "id": "dli_peak_mass_discrepancy",
-   "title": "DLI odd-evaluation peak-mass discrepancy",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the truncated-log discrepancy and peak-mass tail bounds required by dli_truncated_log_transfer, with total error sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
-   "attack_surface": "assembly from the deterministic Erdos-Turan peak-mass reduction and the remaining odd-evaluation exponential-sum estimate",
-   "falsifier": "a central profile and nonzero frequency for which odd evaluations put too much mass near Dirichlet peaks or violate the required truncated-log discrepancy bound",
-   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
-  },
-  {
    "id": "dli_odd_phase_polar_obstruction_soundness",
    "title": "DLI odd-phase polar-obstruction soundness",
    "status": "PROVED",
    "statement": "If, for each actual DLI odd-evaluation phase on each relevant square-root component, a certificate identifies a pole of the Artin-Schreier-reduced phase with positive order not divisible by p, then the phase is not of Artin-Schreier form g^p-g+c.",
    "attack_surface": "formal local-pole obstruction to Artin-Schreier triviality",
    "falsifier": "a phase of Artin-Schreier form g^p-g+c whose reduced representative has a pole order prime to p"
-  },
-  {
-   "id": "dli_odd_eval_exponential_sum_bound",
-   "title": "DLI odd-evaluation exponential-sum bound",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the normalized odd low-degree evaluations on the square-root section have Weyl sums small enough, uniformly over the harmonic ranges required by dli_et_peak_mass_reduction, with total DLI error sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
-   "attack_surface": "assembly from the standard Deligne/Weil transfer plus the remaining noncollapse/conductor theorem for the actual odd-evaluation phase",
-   "falsifier": "a central profile, nonzero frequency, and harmonic range whose Weyl sum is too large to feed the peak-mass reduction",
-   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
-  },
-  {
-   "id": "dli_odd_phase_reduced_pole_budget",
-   "title": "DLI actual odd-phase reduced-pole budget",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile, nonzero frequency, and DLI harmonic, the actual odd-evaluation phase on each square-root component is not of Artin-Schreier-trivial form, and its reduced polar divisor has harmonic total o(t). This is reduced to the proved harmonic ledger soundness rule plus the remaining actual nontriviality and polar-divisor ledger payloads.",
-   "attack_surface": "assembly from DLI odd-phase nontriviality and reduced-pole harmonic ledger payloads",
-   "falsifier": "an actual central-profile component where the phase is g^p-g+constant, or where the reduced polar-divisor harmonic total exceeds the DLI budget"
   },
   {
    "id": "dli_deligne_weyl_transfer",
@@ -4611,22 +4551,6 @@
    "falsifier": "a verified reduced-phase manifest satisfying the pole and majorant predicates while one DLI payload fails"
   },
   {
-   "id": "dli_odd_phase_noncollapse_conductor",
-   "title": "DLI odd-phase noncollapse and conductor budget",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile, nonzero frequency, and harmonic m in the DLI ranges, the actual odd-evaluation phase P_lambda(sigma(y)) on the square-root section is geometrically nonconstant/non-Artin-Schreier on every relevant component, with conductor bounds whose harmonic total is o(t). This is reduced to the standard Artin-Schreier/conductor criterion plus the remaining reduced-pole and noncollapse budget for the actual phases.",
-   "attack_surface": "assembly from dli_artin_schreier_conductor_criterion and dli_odd_phase_reduced_pole_budget",
-   "falsifier": "a central profile and nonzero frequency where the odd-evaluation phase is geometrically trivial on a component, or where the conductor budget is too large for the DLI harmonic summation"
-  },
-  {
-   "id": "dli_reduced_pole_majorant_table_payload",
-   "title": "DLI actual reduced-pole majorant table payload",
-   "status": "CONDITIONAL",
-   "statement": "Construct the actual DLI reduced-pole majorant table: for every central profile, nonzero frequency, DLI harmonic, and square-root component, bound the Artin-Schreier-reduced polar divisor of P_lambda(sigma(y)) and prove that the harmonic sum of the table is o(t). This is reduced to a proved reduced-phase manifest soundness rule plus the remaining actual reduced-phase manifest.",
-   "attack_surface": "assembly from reduced-phase manifest soundness and the remaining project-specific reduced local pole accounting manifest",
-   "falsifier": "an actual DLI tuple whose reduced polar divisor exceeds the table entry, or a table whose harmonic total is not o(t)"
-  },
-  {
    "id": "dli_reduced_pole_majorant_table_soundness",
    "title": "DLI reduced-pole majorant-table soundness",
    "status": "PROVED",
@@ -4641,14 +4565,6 @@
    "statement": "If the normalized odd-evaluation sequence satisfies the required finite-frequency Weyl-sum bounds up to the reciprocal scales used by the DLI peak neighborhoods, then Erdos-Turan plus dyadic annuli around the Dirichlet peaks gives the truncated-log discrepancy and peak-mass tail bounds required by dli_truncated_log_transfer.",
    "attack_surface": "deterministic interval-discrepancy and dyadic layer-cake reduction",
    "falsifier": "a sequence satisfying the stated Weyl-sum bounds but violating the required peak-mass or truncated-log discrepancy bound"
-  },
-  {
-   "id": "dli_reduced_pole_harmonic_ledger",
-   "title": "DLI reduced-pole harmonic ledger",
-   "status": "CONDITIONAL",
-   "statement": "For the same actual odd-evaluation phases, provide reduced Artin-Schreier polar-divisor bounds whose sum over the DLI harmonic ranges and components is o(t). This is reduced to a proved majorant-table soundness rule plus the remaining actual DLI reduced-pole majorant table payload.",
-   "attack_surface": "assembly from the majorant-table soundness rule and actual reduced polar-divisor accounting for the DLI odd phases",
-   "falsifier": "a harmonic range or component where the reduced polar-divisor contribution makes the total non-negligible"
   },
   {
    "id": "dli_artin_schreier_conductor_criterion",
@@ -4667,27 +4583,10 @@
    "falsifier": "a complete ledger with all phases marked nontrivial and total o(t) while the reduced-pole budget statement fails"
   },
   {
-   "id": "dli_log_integral_equidistribution",
-   "title": "DLI log-integral equidistribution",
-   "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the near-circle log-integral geometric-mean bound -sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2 >= 2(L_j-eps_j) log q - O(1), with sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
-   "attack_surface": "assembly from the proved circle constant plus the open odd-evaluation discrepancy/peak-repulsion predicate",
-   "falsifier": "a profile/frequency pair whose Dirichlet factors stay near peaks often enough that the total loss is linear in t",
-   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
-  },
-  {
    "id": "dli_phase_pole_conductor_manifest",
    "title": "DLI phase-side pole+conductor manifest (Pro, verified)",
    "status": "PROVED",
    "statement": "For each DLI tuple: the Artin-Schreier reduced phase hP_lambda has a prime-to-p pole of order ed (d odd <p, e a 2-power sqrt pullback), surviving nondegeneracy, with conductor majorant ed + C_tame. Parts 1-3 of the reduced-phase manifest."
-  },
-  {
-   "id": "dli_harmonic_conductor_ledger",
-   "title": "DLI polynomial-loss per-level bound (WEAKENED from sharp geometric-mean)",
-   "status": "CONDITIONAL",
-   "statement": "SCOPED (Pro P2, verified): fixed-freq 2nd-moment flatness S_{j,lambda}=o(L_j) is FALSE over extension fields (F_{p^2}: a trace-zero lambda + subfield-valued section collapses psi to 1, S=Omega(L_j), VERIFIED) but HOLDS prime-field-wise (Tr=id, no collapse) \u2014 consistent with b2b's 'fixed prime q'. Prime rows: still needs the fixed-frequency Bohr bound (P2-A). EXTENSION rows (KoalaBear sextic F_{p^6}) need Weil-restriction to base F_p OR a proved no-subfield-trace-kernel-collapse hypothesis. SHARED THEME: the trace/subfield-flat frequencies are a PAID gate (cf. sov P3).",
-   "falsifier": "a harmonic expansion with weighted normalized conductor total not o(t).",
-   "notes": "RE-POSED (agents.md level-2 insight, verified): needlessly strong. Primitive core needs sum eta_j = o(t) over 34 levels => polynomial-loss/level suffices (reserve ~2^35 >> O(log n)). Sharp -2log2 geometric mean NOT needed; the PROVED seen-coordinate lever + crude near-peak (~129/level) charge should close it. Deligne conductor-mass ledger over-engineered. | CLOSE ATTEMPT: the weakened polynomial-loss target is CONFIRMED NUMERICALLY (calibration eta*/L=3.6e-7 flat => sum eta_j ~ 3.6e-7*t ~ 3092 = o(t)). Rigorous proof reduces to the soft target eta_j/L_j->0 via the PROVED seen-coordinate lever + a near-peak (~129/level) deficit bound \u2014 handed to Pro window W1-DLI-POLYLOSS (much softer than the Deligne ledger). | W1 RESOLVED (target C, verified): Pro charge argument reduces dli to the near-peak multiplicity-mass seam o(L_j), calibration-supported. Deligne/\u20132log2 not needed. | CLOSE ATTEMPT (mine): reduced the near-peak seam FURTHER to the SECOND-MOMENT/additive-energy near-diagonal bound (the pcf-listed surviving route) \u2014 a standard estimate, but rigorous (mu_hat machinery not in repo). Handed to fresh window W1b-DLI-SECONDMOMENT. | W1b (verified): sharpened to fixed-frequency 2nd-moment S_{j,lambda}=o(L_j); my coincidence-count reduction was too strong (Pro corrected via Parseval counterexample). Target C. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs. | Shared gate subfield_trace_paid_gate PROVED (Pro T1); this node now reduces to its prime-field/non-degenerate residual only."
   },
   {
    "id": "m720_official_norm_gate_certificate_soundness",
@@ -5246,15 +5145,6 @@
    "notes": "PROVED (Pro T1, all core claims verified): exact Weil descent + trace-flat classification |Ann(A)|=p^{e-dimW} + SOV Euler product; both counterexamples absorbed as paid trace-kernel collapses. TRACE_FLAT ledger column installed; affordability (2^122.5 << |F|=2^131) routed to the mca_safe budget audit. SHARED SPINE CLOSED \u2014 dli & sov now need only their residual."
   },
   {
-   "id": "dli_bohr_flatness_prime",
-   "title": "DLI fixed-frequency Bohr flatness (PRIME rows)",
-   "status": "CONDITIONAL",
-   "statement": "RE-POSED 2026-07-05 (weighted form): over PRIME rows F_p (Tr=id, no subfield collapse), per level j and nonzero lambda, the U-WEIGHTED fixed-frequency second moment is sublinear: E_U[ S_{j,lambda}(M) ] = o(L_j) over the central profile measure, S_{j,lambda}=sum_r m_{j,r}|mu_hat_r(lambda)|^2 for the odd-evaluation phase psi(lambda P_lambda(sigma(y))). Combined with the trivial per-profile bound eta_j <= L_j and the exponential low-mass tail (weight 2^{-501 L_j} vs penalty 2^{256 L_j}: net self-killing, verified), Markov gives E_U[q^{eta_j}] = q^{o(L_j)} -- exactly the form b2b consumes. The former per-profile sup version is FALSE on low-mass profiles (singleton blocks give |mu_hat_r|=1, S~L_j) -- those profiles are down-weighted out. Calibration eta*/L=3.6e-7 (full-mass, P2 target A) unchanged.",
-   "attack_surface": "Weil/Deligne cancellation for the low-degree odd phase off the exact-atom locus; second-moment/character-sum route.",
-   "falsifier": "A prime-row profile/frequency with S_{j,lambda}=Omega(L_j) at fixed nonzero lambda.",
-   "notes": "AMBERED (Pro T3, verified): reduction PROVED (second-moment split + Deligne block bound); reduces to dli_prime_block_conductor_mass (weighted conductor + small-block mass = o(L_j)). Degeneracy counterexamples (P=0, singletons) verified. | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | Same interface concern as block_conductor_mass: posed \"uniformly in central profile M\" while the leaf is now weighted-average form. Re-pose to weighted form recommended (T3 route). | RE-POSED to weighted form 2026-07-05 (matching the leaf re-pose + block_conductor_mass). The T3 second-moment reduction (S<=C_j+X_j, Deligne + exceptional split, PROVED) is per-profile and survives verbatim inside the average."
-  },
-  {
    "id": "sov_gridsum_residual",
    "title": "SOV grid character-sum residual (non-trace-flat cells)",
    "status": "TARGET",
@@ -5307,15 +5197,6 @@
    "attack_surface": "proved via mu_M isotypic projectors + full-fiber factorization (char\u2224n).",
    "falsifier": "a mu_M-character-component polynomial that is not X^e G(X^M), or a covariant retained root set that is not a fiber union.",
    "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0. | 2nd T2 pass CONFIRMS the split (T2a=this, T2b=e22_mixed_petal_covariance, T2c=petal_cofactor_chargeability). 2nd counterexample (affine family A_c={1+X+sum a_k X^k}: dim c-1 grows but support in classes 0,1 mod M => never a pullback, VERIFIED) reinforces that dimension-excess alone forces nothing on the P5 side."
-  },
-  {
-   "id": "dli_prime_block_conductor_mass",
-   "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)",
-   "status": "CONDITIONAL",
-   "statement": "RE-POSED 2026-07-05 (weighted form; sup form had an interface mismatch with the re-posed leaf + a low-mass falsifier candidate): over prime rows F_p, per level j and uniformly in nonzero lambda, the U-WEIGHTED block ledger is sublinear: E_U[ C_j(M) + X_j(M) ] = o(L_j) over the central profile measure (weight U(M)=prod_y|D_y|), where C_j(M) = sum_{r not in X_{j,lambda}} m_{j,r} cond_{j,r}(lambda)^2/|A_{j,r}| (reduced-pole conductor on residue block A_{j,r}) and X_j(M) = sum_{r in X_{j,lambda}} m_{j,r} (exceptional: singletons, exact atoms, near-linear/pole-failure). TAIL CONTROL (verified arithmetic): low-mass profiles have X_j ~ L_j (all-singleton blocks) but weight fraction <= 2^{-501 L_j} vs penalty q^{L_j}=2^{256 L_j} -- net 2^{-245 L_j}, self-killing; matches the alpha=256 envelope (log_q/L=-0.96) and exact weighted DPs (rho=1.000000 flat). SUFFICIENT concrete form (full-mass profiles, which dominate the measure): #{active blocks}=O((log n)^A), cond=O((log n)^B), m_{j,r} << |A_{j,r}|, exceptional mass o(L_j). Then E_U[S_{j,lambda}] = o(L_j) via the proved pointwise reduction (T3), closing dli in the weighted form the endpoint (b2b U-weighted average) consumes.",
-   "attack_surface": "count active residue blocks + bound reduced-pole conductors (via the proved dli_phase_pole_conductor_manifest) + bound singleton/near-linear exceptional mass; possibly a finite structural computation on the section blocks.",
-   "falsifier": "a level/profile/frequency with polynomially-many high-conductor blocks OR Omega(L_j) singleton/exact-atom mass.",
-   "notes": "T3 residual leaf: the deepest, most concrete form of dli \u2014 a weighted conductor + small-block mass count. Reduction to this is PROVED (second-moment split + Deligne). | AMBERED (T3-followup, verified): refuted as unconditional (small-block counterexample); PROVED conditional on dli_prime_weighted_large_block_support (real map-partition has large blocks). | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | CONSUMER-PREMISE ATTACK: (a) INTERFACE MISMATCH -- the leaf below was re-posed to the U-WEIGHTED AVERAGE, but this node is posed as sup_{M,lambda} (uniform over central profiles); a weighted-average premise cannot feed a sup-form claim. (b) FALSIFIER-CANDIDATE: a minimal-support profile (L_j+1 active, Vandermonde minimum) makes every block a singleton => exceptional mass ~ L_j, NOT o(L_j) -- the same low-mass killer as the leaf, one level up (scope caveat: pending the exact central-profile class + block rule). RECOMMEND: re-pose this node (and bohr_flatness_prime) in WEIGHTED/average form to match the leaf re-pose; the T3 second-moment reduction likely only needs the average. | RE-POSED to weighted form 2026-07-05: fixes (a) the interface mismatch (leaf is weighted-average; sup cannot follow from an average) and (b) the low-mass falsifier candidate (minimal-support profile => all-singleton blocks => X_j~L_j breaks the sup; under the U-weight it contributes 2^{-245 L_j}, verified). The proved pointwise reduction S<=C_j+X_j is UNCHANGED and applied per-profile inside the average. | VALIDATED-FRONTIER-CANDIDATE (confirmation attack, 2026-07-05): the crux (uniform-in-lambda conductor/ledger control on the MAP-DETERMINED dyadic blocks at full mass) SURVIVED an EXHAUSTIVE adversarial-lambda sweep (every lambda!=0 tested) across n=32..2048 (64x range): sup_lambda D_lambda/coords DECAYS 0.296->0.0048 (strongly sublinear at the worst lambda), and max effective conductor |mu_hat_r|sqrt|A_r| is FLAT ~2.0-2.7 = O(1) at every scale -- far below the polylog claim, let alone the degree bound. First amber to survive crux-level adversarial confirmation. CAVEATS: L=1 exhaustive at large n (L=2 exhaustive only at n=32, ratio 0.60-0.69 at tiny blocks); toy q<=12289; dyadic block scales K=2,4. The remaining conditional content is the leaf (weighted large-block support) + extending conductor O(1) to all levels/L."
   },
   {
    "id": "dli_prime_weighted_large_block_support",
@@ -8979,66 +8860,11 @@
    "kind": "req"
   },
   {
-   "from": "dli_circle_log_integral_constant",
-   "to": "dli_log_integral_equidistribution",
-   "kind": "req"
-  },
-  {
-   "from": "dli_truncated_log_transfer",
-   "to": "dli_odd_evaluation_discrepancy",
-   "kind": "req"
-  },
-  {
-   "from": "dli_peak_mass_discrepancy",
-   "to": "dli_odd_evaluation_discrepancy",
-   "kind": "req"
-  },
-  {
-   "from": "dli_et_peak_mass_reduction",
-   "to": "dli_peak_mass_discrepancy",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_eval_exponential_sum_bound",
-   "to": "dli_peak_mass_discrepancy",
-   "kind": "req"
-  },
-  {
-   "from": "dli_deligne_weyl_transfer",
-   "to": "dli_odd_eval_exponential_sum_bound",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_phase_noncollapse_conductor",
-   "to": "dli_odd_eval_exponential_sum_bound",
-   "kind": "req"
-  },
-  {
-   "from": "dli_artin_schreier_conductor_criterion",
-   "to": "dli_odd_phase_noncollapse_conductor",
-   "kind": "req"
-  },
-  {
    "from": "dli_artin_schreier_conductor_criterion",
    "to": "dli_odd_phase_polar_obstruction_soundness",
    "kind": "req"
   },
   {
-   "from": "dli_odd_phase_reduced_pole_budget",
-   "to": "dli_odd_phase_noncollapse_conductor",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_phase_budget_ledger_soundness",
-   "to": "dli_odd_phase_reduced_pole_budget",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_phase_polar_obstruction_soundness",
-   "to": "dli_odd_phase_nontriviality_payload",
-   "kind": "req"
-  },
-  {
    "from": "dli_odd_phase_polar_obstruction_soundness",
    "to": "dli_reduced_phase_manifest_soundness",
    "kind": "req"
@@ -9046,71 +8872,6 @@
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
    "to": "dli_reduced_phase_manifest_soundness",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_odd_phase_polar_obstruction_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_payload",
-   "to": "dli_odd_phase_polar_obstruction_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_phase_polar_obstruction_payload",
-   "to": "dli_odd_phase_nontriviality_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_phase_nontriviality_payload",
-   "to": "dli_odd_phase_reduced_pole_budget",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_pole_majorant_table_soundness",
-   "to": "dli_reduced_pole_harmonic_ledger",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_reduced_pole_majorant_table_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_payload",
-   "to": "dli_reduced_pole_majorant_table_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_pole_majorant_table_payload",
-   "to": "dli_reduced_pole_harmonic_ledger",
-   "kind": "req"
-  },
-  {
-   "from": "dli_reduced_pole_harmonic_ledger",
-   "to": "dli_odd_phase_reduced_pole_budget",
-   "kind": "req"
-  },
-  {
-   "from": "dli_odd_evaluation_discrepancy",
-   "to": "dli_log_integral_equidistribution",
-   "kind": "req"
-  },
-  {
-   "from": "dli_log_integral_equidistribution",
-   "to": "dli_dirichlet_log_integral",
-   "kind": "req"
-  },
-  {
-   "from": "dli_phase_pole_conductor_manifest",
-   "to": "dli_reduced_phase_manifest_payload",
-   "kind": "req"
-  },
-  {
-   "from": "dli_harmonic_conductor_ledger",
-   "to": "dli_reduced_phase_manifest_payload",
    "kind": "req"
   },
   {
@@ -9720,16 +9481,6 @@
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "dli_harmonic_conductor_ledger",
-   "kind": "req"
-  },
-  {
-   "from": "dli_bohr_flatness_prime",
-   "to": "dli_harmonic_conductor_ledger",
-   "kind": "req"
-  },
-  {
-   "from": "subfield_trace_paid_gate",
    "to": "sov_affine_piece_partition_payload",
    "kind": "req"
   },
@@ -9769,13 +9520,63 @@
    "kind": "req"
   },
   {
-   "from": "dli_prime_block_conductor_mass",
-   "to": "dli_bohr_flatness_prime",
+   "from": "dli_prime_weighted_large_block_support",
+   "to": "dli_dirichlet_log_integral",
    "kind": "req"
   },
   {
-   "from": "dli_prime_weighted_large_block_support",
-   "to": "dli_prime_block_conductor_mass",
+   "from": "dli_artin_schreier_conductor_criterion",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_circle_log_integral_constant",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_deligne_weyl_transfer",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_et_peak_mass_reduction",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_odd_phase_budget_ledger_soundness",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_odd_phase_polar_obstruction_soundness",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_phase_pole_conductor_manifest",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_reduced_phase_manifest_soundness",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_reduced_pole_majorant_table_soundness",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_truncated_log_transfer",
+   "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "dli_dirichlet_log_integral",
    "kind": "req"
   }
  ]

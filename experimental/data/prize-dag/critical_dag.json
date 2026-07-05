@@ -278,11 +278,6 @@
    "title": "DLI Artin-Schreier conductor criterion"
   },
   {
-   "id": "dli_bohr_flatness_prime",
-   "label": "CONDITIONAL",
-   "title": "DLI fixed-frequency Bohr flatness (PRIME rows)"
-  },
-  {
    "id": "dli_circle_log_integral_constant",
    "label": "PROVED",
    "title": "DLI circle log-integral constant"
@@ -303,44 +298,9 @@
    "title": "DLI Erdos-Turan peak-mass reduction"
   },
   {
-   "id": "dli_harmonic_conductor_ledger",
-   "label": "CONDITIONAL",
-   "title": "DLI polynomial-loss per-level bound (WEAKENED from sharp geometric-mean)"
-  },
-  {
-   "id": "dli_log_integral_equidistribution",
-   "label": "CONDITIONAL",
-   "title": "DLI log-integral equidistribution"
-  },
-  {
-   "id": "dli_odd_eval_exponential_sum_bound",
-   "label": "CONDITIONAL",
-   "title": "DLI odd-evaluation exponential-sum bound"
-  },
-  {
-   "id": "dli_odd_evaluation_discrepancy",
-   "label": "CONDITIONAL",
-   "title": "DLI odd-evaluation discrepancy"
-  },
-  {
    "id": "dli_odd_phase_budget_ledger_soundness",
    "label": "PROVED",
    "title": "DLI odd-phase budget ledger soundness"
-  },
-  {
-   "id": "dli_odd_phase_noncollapse_conductor",
-   "label": "CONDITIONAL",
-   "title": "DLI odd-phase noncollapse and conductor budget"
-  },
-  {
-   "id": "dli_odd_phase_nontriviality_payload",
-   "label": "CONDITIONAL",
-   "title": "DLI actual odd-phase nontriviality payload"
-  },
-  {
-   "id": "dli_odd_phase_polar_obstruction_payload",
-   "label": "CONDITIONAL",
-   "title": "DLI actual odd-phase polar-obstruction payload"
   },
   {
    "id": "dli_odd_phase_polar_obstruction_soundness",
@@ -348,24 +308,9 @@
    "title": "DLI odd-phase polar-obstruction soundness"
   },
   {
-   "id": "dli_odd_phase_reduced_pole_budget",
-   "label": "CONDITIONAL",
-   "title": "DLI actual odd-phase reduced-pole budget"
-  },
-  {
-   "id": "dli_peak_mass_discrepancy",
-   "label": "CONDITIONAL",
-   "title": "DLI odd-evaluation peak-mass discrepancy"
-  },
-  {
    "id": "dli_phase_pole_conductor_manifest",
    "label": "PROVED",
    "title": "DLI phase-side pole+conductor manifest (Pro, verified)"
-  },
-  {
-   "id": "dli_prime_block_conductor_mass",
-   "label": "CONDITIONAL",
-   "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)"
   },
   {
    "id": "dli_prime_weighted_large_block_support",
@@ -373,24 +318,9 @@
    "title": "DLI weighted-average count (sup formulation REFUTED)"
   },
   {
-   "id": "dli_reduced_phase_manifest_payload",
-   "label": "CONDITIONAL",
-   "title": "DLI actual reduced-phase manifest payload"
-  },
-  {
    "id": "dli_reduced_phase_manifest_soundness",
    "label": "PROVED",
    "title": "DLI reduced-phase manifest soundness"
-  },
-  {
-   "id": "dli_reduced_pole_harmonic_ledger",
-   "label": "CONDITIONAL",
-   "title": "DLI reduced-pole harmonic ledger"
-  },
-  {
-   "id": "dli_reduced_pole_majorant_table_payload",
-   "label": "CONDITIONAL",
-   "title": "DLI actual reduced-pole majorant table payload"
   },
   {
    "id": "dli_reduced_pole_majorant_table_soundness",
@@ -3349,112 +3279,16 @@
    "to": "ef_fullfield_bridge"
   },
   {
-   "from": "dli_circle_log_integral_constant",
-   "to": "dli_log_integral_equidistribution"
-  },
-  {
-   "from": "dli_truncated_log_transfer",
-   "to": "dli_odd_evaluation_discrepancy"
-  },
-  {
-   "from": "dli_peak_mass_discrepancy",
-   "to": "dli_odd_evaluation_discrepancy"
-  },
-  {
-   "from": "dli_et_peak_mass_reduction",
-   "to": "dli_peak_mass_discrepancy"
-  },
-  {
-   "from": "dli_odd_eval_exponential_sum_bound",
-   "to": "dli_peak_mass_discrepancy"
-  },
-  {
-   "from": "dli_deligne_weyl_transfer",
-   "to": "dli_odd_eval_exponential_sum_bound"
-  },
-  {
-   "from": "dli_odd_phase_noncollapse_conductor",
-   "to": "dli_odd_eval_exponential_sum_bound"
-  },
-  {
-   "from": "dli_artin_schreier_conductor_criterion",
-   "to": "dli_odd_phase_noncollapse_conductor"
-  },
-  {
    "from": "dli_artin_schreier_conductor_criterion",
    "to": "dli_odd_phase_polar_obstruction_soundness"
   },
   {
-   "from": "dli_odd_phase_reduced_pole_budget",
-   "to": "dli_odd_phase_noncollapse_conductor"
-  },
-  {
-   "from": "dli_odd_phase_budget_ledger_soundness",
-   "to": "dli_odd_phase_reduced_pole_budget"
-  },
-  {
-   "from": "dli_odd_phase_polar_obstruction_soundness",
-   "to": "dli_odd_phase_nontriviality_payload"
-  },
-  {
    "from": "dli_odd_phase_polar_obstruction_soundness",
    "to": "dli_reduced_phase_manifest_soundness"
   },
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
    "to": "dli_reduced_phase_manifest_soundness"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_odd_phase_polar_obstruction_payload"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_payload",
-   "to": "dli_odd_phase_polar_obstruction_payload"
-  },
-  {
-   "from": "dli_odd_phase_polar_obstruction_payload",
-   "to": "dli_odd_phase_nontriviality_payload"
-  },
-  {
-   "from": "dli_odd_phase_nontriviality_payload",
-   "to": "dli_odd_phase_reduced_pole_budget"
-  },
-  {
-   "from": "dli_reduced_pole_majorant_table_soundness",
-   "to": "dli_reduced_pole_harmonic_ledger"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_reduced_pole_majorant_table_payload"
-  },
-  {
-   "from": "dli_reduced_phase_manifest_payload",
-   "to": "dli_reduced_pole_majorant_table_payload"
-  },
-  {
-   "from": "dli_reduced_pole_majorant_table_payload",
-   "to": "dli_reduced_pole_harmonic_ledger"
-  },
-  {
-   "from": "dli_reduced_pole_harmonic_ledger",
-   "to": "dli_odd_phase_reduced_pole_budget"
-  },
-  {
-   "from": "dli_odd_evaluation_discrepancy",
-   "to": "dli_log_integral_equidistribution"
-  },
-  {
-   "from": "dli_log_integral_equidistribution",
-   "to": "dli_dirichlet_log_integral"
-  },
-  {
-   "from": "dli_phase_pole_conductor_manifest",
-   "to": "dli_reduced_phase_manifest_payload"
-  },
-  {
-   "from": "dli_harmonic_conductor_ledger",
-   "to": "dli_reduced_phase_manifest_payload"
   },
   {
    "from": "official_row_primes_pinning",
@@ -3938,14 +3772,6 @@
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "dli_harmonic_conductor_ledger"
-  },
-  {
-   "from": "dli_bohr_flatness_prime",
-   "to": "dli_harmonic_conductor_ledger"
-  },
-  {
-   "from": "subfield_trace_paid_gate",
    "to": "sov_affine_piece_partition_payload"
   },
   {
@@ -3973,12 +3799,52 @@
    "to": "petal_squarefree_classification_ledger_payload"
   },
   {
-   "from": "dli_prime_block_conductor_mass",
-   "to": "dli_bohr_flatness_prime"
+   "from": "dli_prime_weighted_large_block_support",
+   "to": "dli_dirichlet_log_integral"
   },
   {
-   "from": "dli_prime_weighted_large_block_support",
-   "to": "dli_prime_block_conductor_mass"
+   "from": "dli_artin_schreier_conductor_criterion",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_circle_log_integral_constant",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_deligne_weyl_transfer",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_et_peak_mass_reduction",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_odd_phase_budget_ledger_soundness",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_odd_phase_polar_obstruction_soundness",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_phase_pole_conductor_manifest",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_reduced_phase_manifest_soundness",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_reduced_pole_majorant_table_soundness",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_truncated_log_transfer",
+   "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "dli_dirichlet_log_integral"
   },
   {
    "from": "acl_second_order",
