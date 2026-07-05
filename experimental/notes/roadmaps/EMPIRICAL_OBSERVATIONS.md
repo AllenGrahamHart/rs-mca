@@ -86,3 +86,14 @@ Strategic update: remaining prize gaps = (a) the 8 mca_safe leaves, (b) rate_hal
   normalization + the level structure), confirm eta_j/L_j ~ 3.6e-7 and characterize which profiles are the sup.
 - Task (b) chain-tangle: dli subtree ~15 nodes, two Deligne branches converge on ejm; reduced_phase_manifest
   statement stale (Deligne route) but is one node in the tangle; full reconciliation pending a careful trace.
+
+## dli REAL-OBJECT CONFIRMATION (resolves the correction above) — confidence: HIGH (on the true object)
+Using the Fourier form (rho_j = sum_{lam in F_p^L} prod_y (1/|D|) sum_u psi(a_y u)) — the REAL object, reaching
+large N without 3^N enumeration:
+- eta* = log_q rho_j is FLAT: rho_j -> 1.0000 (eta* -> 0) as N grows, BOTH ternary and signed. [n=32..256, N up to 128]
+- CALIBRATION REPRODUCED: signed midpoint eta*=0.019 at mu_32,N=16 (EXACT match to dli_dirichlet_log_integral
+  record); decreasing with N. ternary flat ~0. This is the node's own calibration, replayed on the real object.
+=> Sum_j eta_j = o(t) holds; the leaf is CORRECT as stated. The earlier proxy reached the right conclusion by the
+   wrong route; the real-object test confirms it properly. dli is now empirically PROMOTION-READY (HIGH).
+Small-N artifacts noted: at large-p/small-N, B collapses to the trivial vector (expected count <<1) giving
+spurious large rho -- NOT the meaningful regime. The Fourier form at large N is the correct test.
