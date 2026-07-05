@@ -370,7 +370,7 @@
   {
    "id": "dli_prime_weighted_large_block_support",
    "label": "UNPROVED",
-   "title": "DLI resultant-survivor count RES (exact reduction proved; rank-charged central measure)"
+   "title": "DLI weighted-average count (sup formulation REFUTED)"
   },
   {
    "id": "dli_reduced_phase_manifest_payload",

@@ -127,3 +127,19 @@ the Deligne route's "reduced polar divisor harmonic total o(t)" input (same quan
 - FIXED-LAMBDA refuted (|F_M|<=1): obstruction is aggregate kernel-skew mass, not any single lambda.
 - Empirical eta* flat (rho_j->1) = RES with kappa_j ~ 0 already supported. Remaining = the rigorous
   RES/resultant-sieve count. dli confidence HIGH; exact reduction now PROVEN.
+
+## dli MAJOR CORRECTION (supersedes the HIGH-confidence + "phrasing artifact" entries above)
+Pro's SHARPER counterexample (verified): a low-mass profile with L active ternary coords + rest zero
+has U_j=3^L, |Z_j|=1 (Vandermonde), so rho_j=(q/3)^L => log_q rho_j ~ 0.994 L_j = Omega(L_j). This is
+FORCED BY MASS (log_q U_j=0.006 L_j << L_j), independent of resultants. NOT the trivial {0} case; the
+active-coord/full-rank scoping does NOT exclude it. So:
+- The SUP obligation (my brief) is FALSE. It was only a SUFFICIENT condition for the b2b U-WEIGHTED
+  AVERAGE of prod_j rho_j = q^{o(t)}; sup false => that route is DEAD.
+- The real obligation = the weighted average directly (low-mass profiles U-suppressed by q^{1.58L} but
+  number C(256L,L); whether suppression beats count is the OPEN primitive-core content).
+- My eta*-flat calibration ONLY tested the FULL-MASS profile => HIGH confidence was OVERSTATED.
+- Lemma 1 (exact reduction rho_j=q^{L_j}|Z_j|/U_j) still holds.
+LESSON: the calibration was necessary but not sufficient -- it covered one profile family, not the sup/
+weighted-average over ALL profiles. Adversarial Pro pressure caught the overclaim. This is the
+"leaf-is-incorrect -> reassess" scenario. REASSESSMENT NEEDED: does pcf/ejm/b2b use the per-profile
+sup (broken) or the weighted average (correct)? The chain must be re-checked against the weighted-average form.
