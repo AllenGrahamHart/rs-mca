@@ -5244,11 +5244,11 @@
   {
    "id": "dli_bohr_flatness_prime",
    "title": "DLI fixed-frequency Bohr flatness (PRIME rows)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Over PRIME rows F_p, the fixed-frequency second moment S_{j,lambda}=sum_r m_{j,r}|mu_hat_r(lambda)|^2 = o(L_j) uniformly in central profile M and nonzero lambda, for the odd-evaluation phase psi(lambda P_lambda(sigma(y))). No subfield collapse over prime fields (Tr=id). Equivalent to the eps-Bohr-pair mass B_{j,lambda}(sqrt delta)=o(L_j). Calibration eta*/L=3.6e-7 (P2 target A).",
    "attack_surface": "Weil/Deligne cancellation for the low-degree odd phase off the exact-atom locus; second-moment/character-sum route.",
    "falsifier": "A prime-row profile/frequency with S_{j,lambda}=Omega(L_j) at fixed nonzero lambda.",
-   "notes": ""
+   "notes": "AMBERED (Pro T3, verified): reduction PROVED (second-moment split + Deligne block bound); reduces to dli_prime_block_conductor_mass (weighted conductor + small-block mass = o(L_j)). Degeneracy counterexamples (P=0, singletons) verified."
   },
   {
    "id": "sov_gridsum_residual",
@@ -5303,6 +5303,15 @@
    "attack_surface": "proved via mu_M isotypic projectors + full-fiber factorization (char\u2224n).",
    "falsifier": "a mu_M-character-component polynomial that is not X^e G(X^M), or a covariant retained root set that is not a fiber union.",
    "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0. | 2nd T2 pass CONFIRMS the split (T2a=this, T2b=e22_mixed_petal_covariance, T2c=petal_cofactor_chargeability). 2nd counterexample (affine family A_c={1+X+sum a_k X^k}: dim c-1 grows but support in classes 0,1 mod M => never a pullback, VERIFIED) reinforces that dimension-excess alone forces nothing on the P5 side."
+  },
+  {
+   "id": "dli_prime_block_conductor_mass",
+   "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)",
+   "status": "TARGET",
+   "statement": "Over prime rows F_p, uniformly in the central profile M and every nonzero lambda, the weighted block ledger is sublinear: sup_{M,lambda!=0} [ sum_{r not in X_{j,lambda}} m_{j,r} cond_{j,r}(lambda)^2/|A_{j,r}| + sum_{r in X_{j,lambda}} m_{j,r} ] = o(L_j) per level j, where cond_{j,r} is the reduced-pole conductor of lambda P_lambda on residue block A_{j,r} and X_{j,lambda} is the exceptional set (singleton blocks, exact atoms, near-linear/pole-failure blocks). SUFFICIENT concrete form: #{active blocks}=O((log n)^A), cond=O((log n)^B), m_{j,r} << |A_{j,r}|, exceptional mass o(L_j). Then S_{j,lambda}=o(L_j) unconditionally (T3), closing dli.",
+   "attack_surface": "count active residue blocks + bound reduced-pole conductors (via the proved dli_phase_pole_conductor_manifest) + bound singleton/near-linear exceptional mass; possibly a finite structural computation on the section blocks.",
+   "falsifier": "a level/profile/frequency with polynomially-many high-conductor blocks OR Omega(L_j) singleton/exact-atom mass.",
+   "notes": "T3 residual leaf: the deepest, most concrete form of dli \u2014 a weighted conductor + small-block mass count. Reduction to this is PROVED (second-moment split + Deligne)."
   }
  ],
  "edges": [
@@ -9744,6 +9753,11 @@
   {
    "from": "q_cofactor_normal_form",
    "to": "petal_squarefree_classification_ledger_payload",
+   "kind": "req"
+  },
+  {
+   "from": "dli_prime_block_conductor_mass",
+   "to": "dli_bohr_flatness_prime",
    "kind": "req"
   }
  ]

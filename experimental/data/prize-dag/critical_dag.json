@@ -284,7 +284,7 @@
   },
   {
    "id": "dli_bohr_flatness_prime",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "DLI fixed-frequency Bohr flatness (PRIME rows)"
   },
   {
@@ -366,6 +366,11 @@
    "id": "dli_phase_pole_conductor_manifest",
    "label": "PROVED",
    "title": "DLI phase-side pole+conductor manifest (Pro, verified)"
+  },
+  {
+   "id": "dli_prime_block_conductor_mass",
+   "label": "UNPROVED",
+   "title": "DLI prime-row block conductor + small-block mass ledger (T3 residual)"
   },
   {
    "id": "dli_reduced_phase_manifest_payload",
@@ -3970,6 +3975,10 @@
   {
    "from": "q_cofactor_normal_form",
    "to": "petal_squarefree_classification_ledger_payload"
+  },
+  {
+   "from": "dli_prime_block_conductor_mass",
+   "to": "dli_bohr_flatness_prime"
   },
   {
    "from": "acl_second_order",
