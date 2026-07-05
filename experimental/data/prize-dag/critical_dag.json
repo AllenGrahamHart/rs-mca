@@ -1539,12 +1539,12 @@
   },
   {
    "id": "u1_beta_band_trade_reduction",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "INPUT B: the band-trade reduction"
   },
   {
    "id": "u1_minimal_fixed_core_sporadic_bound",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "BANKABLE PARTIAL (X-7): per-core sporadic fiber bound"
   },
   {

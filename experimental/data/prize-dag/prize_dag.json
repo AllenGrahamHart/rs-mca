@@ -971,8 +971,8 @@
   {
    "id": "plv_reduction",
    "title": "Simple-pole residue lines reduce to projected RS list values (PLV)",
-   "status": "CONDITIONAL",
-   "notes": "source: PR #173 (unmerged; self-labelled PROVED reduction; held CONDITIONAL pending independent replay per standing order 12)"
+   "status": "TARGET",
+   "notes": "source: PR #173 (unmerged; self-labelled PROVED reduction; held CONDITIONAL pending independent replay per standing order 12) | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. Amber was being used as a QUARANTINE status (unmerged PR #173, self-labelled PROVED, held pending independent replay per standing order 12) -- an unverified claim is a TARGET until replayed, not a conditional."
   },
   {
    "id": "projected_locator_wall",
@@ -3053,12 +3053,12 @@
   {
    "id": "u1_minimal_fixed_core_sporadic_bound",
    "title": "BANKABLE PARTIAL (X-7): per-core sporadic fiber bound",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "statement": "For h = t+1 and fixed core Q: non-v1 full-fiber trades P (L_P = L_Q - c) number <= poly(h) n^{2/3}, unless psi_Q's non-diagonal fiber product has a toral component (the structured branch). Rests on verified subgroup-points imports: Corvaja-Zannier positive-characteristic gcd estimate + Makarychev-Vyugin subgroup solution bounds; size hypotheses hold at official rows with >53 bits of margin (n <= 2^41 < p^{3/4}/3 at p >= 2^128; error term 12n^2/p < 2^{-42}).",
    "refs": [
     "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
    ],
-   "notes": "X-7 partial. CONDITIONAL on the no-toral hypothesis being the right split (T classifies the toral branch)."
+   "notes": "X-7 partial. CONDITIONAL on the no-toral hypothesis being the right split (T classifies the toral branch). | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. The condition ('the no-toral hypothesis being the right split') was PROSE-ONLY and is meta-uncertainty about well-posedness, not a wireable hypothesis. The Corvaja-Zannier + Makarychev-Vyugin imports are real but the split itself is unestablished. Honest open obligation."
   },
   {
    "id": "u1_tame_toral_fiberproduct_classification",
@@ -3089,7 +3089,7 @@
   {
    "id": "u1_beta_band_trade_reduction",
    "title": "INPUT B: the band-trade reduction",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "key": true,
    "statement": "For h in (t+1, (log2 n)^2]: every family of > n^2 non-v1 canonical band trades (deg(L_P - L_Q) <= h-t-1) satisfies one of: (1) contains > n^2 minimal subtrades after bounded-tail deletion; (2) the moving pencil L_Q + f lies in a v1-chargeable pullback linear series; (3) already moment/PTE-charged. The correspondence route fails as-is (moving curves: psi_P, psi_Q vary per trade \u2014 curve-point theorems need fixed curves or a clustering statement).",
    "attack_surface": "the linear-series view (bounded-degree pencils of divisors of X^n - delta with many totally-split members); or a difference/derivative step down in h; toy census of band trades at n = 64 calibrates which exit dominates",
@@ -3097,7 +3097,7 @@
    "refs": [
     "experimental/notes/roadmaps/h1_u1_toy_harness.md"
    ],
-   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table. | B-WRITEUP (#37): exits 1 and 2 REDUCE FORMALLY (proved reductions); exit 3 is EXACTLY the X-10 residue (anchored_nontoral_pte_bound + the defect/tails wrapper). B collapses into the final estimate \u2014 status CONDITIONAL on it. THE CONVERGENCE COMPLETES: A, B, both active-shadow bounds, and the tails wrapper are now all faces of A_h^nt."
+   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table. | B-WRITEUP (#37): exits 1 and 2 REDUCE FORMALLY (proved reductions); exit 3 is EXACTLY the X-10 residue (anchored_nontoral_pte_bound + the defect/tails wrapper). B collapses into the final estimate \u2014 status CONDITIONAL on it. THE CONVERGENCE COMPLETES: A, B, both active-shadow bounds, and the tails wrapper are now all faces of A_h^nt. | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. This was a hidden red: an open trichotomy claim (three-exit structure) with census support (93/93) but NO proof and NO wired hypotheses -- amber violated the color contract (CONDITIONAL requires wired req nodes). The correspondence route is noted as failing as-is; the claim is an honest open obligation."
   },
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",

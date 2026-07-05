@@ -366,3 +366,13 @@ coset charts show zero realizable mass (Codex).
 ACTIONS: chargeability (frontier) RE-POSED to the band obligation; sparsity (interface) RE-POSED band-split;
 ledger_payload + kernel_classification COMPRESSED into the packet (policy applied; knife stopped at the
 verified band line). Petal chain now frontier+interface, matching the dli compression.
+
+## LEAF-CONDITIONAL AUDIT (user-spotted) — 2 hidden reds surfaced + validator invariant added
+User spotted CONDITIONAL nodes with no req edges -- impossible under the color contract (conditions must be
+wired nodes). Sweep found 3: u1_beta_band_trade_reduction (critical; an OPEN trichotomy claim, census 93/93
+but no proof), u1_minimal_fixed_core_sporadic_bound (critical; PROSE-ONLY hypothesis "the no-toral split is
+right" = well-posedness meta-uncertainty), plv_reduction (off-critical; amber used as QUARANTINE for an
+unreplayed PR claim). ROOT CAUSE: auto_discharge skips zero-req conditionals (guard `if not rk...continue`),
+so they sit amber forever, invisible to every audit. ALL 3 demoted to TARGET. VALIDATOR INVARIANT ADDED
+(verify_prize_dag.py): CONDITIONAL with no wired req/alt hypotheses is now an ERROR. Critical reds 6 -> 8
+(honest count; the u1 pair feed u1_pullback_dichotomy -> mca_grand).
