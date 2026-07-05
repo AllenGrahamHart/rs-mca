@@ -255,3 +255,17 @@ CORRECT REPLACEMENT (Pro): a FAMILY-LEVEL PRK-type statement -- multi-character 
 directions are paid separately OR bounded after peeling. NOT a pointwise Newton-window extraction.
 IMPLICATION: the petal cluster needs RE-ARCHITECTING around the multi-character obstruction. The stress-first
 discipline caught this BEFORE we built a foundation node on the false extraction -- exactly as intended.
+
+## PRK TRUTH STRESS (petal_primitive_residue_kernel_rank) — the AMBER ITSELF is at risk
+Question: is PRK's conclusion (dim Pi_prim <= B_pet ABSOLUTE after peeling) even TRUE? Never stress-tested until now.
+Measurement (M=3, growing t): dim K_{I,d} ~ c+1 (grows with excess). The MULTI-CHARACTER residual (dim K minus
+single largest character block) grows LINEARLY: c=5->4, c=17->12, c=29->20 (~2c/M). Single-character quotient
+paid class covers only ~c/M. Pro's two-character counterexamples are squarefree-realizable and grow with c.
+=> PRK requires the GROWING multi-character bulk to be PAID by a new mechanism (Pro's 'paid separately') or
+   COLLAPSED by Pi_prim. NEITHER established. PRK is NOT confirmed true; its truth = the multi-character
+   paid-or-bounded question (same as its proof).
+CONSEQUENCE: we cannot separate 'is PRK true' from 'can we prove PRK'. If the multi-character bulk is unpayable,
+PRK is FALSE -> the 24 downstream petal->list/mca conditionals need fundamental rethinking. This is now the
+decisive petal-branch question. Do NOT invest in re-architecting PRK's proof until its TRUTH is resolved.
+LESSON: the amber we were trying to flip had never itself been adversarially tested -- exactly the gap the
+user flagged. The gates' refutation was the surface; the amber's truth is the real question.
