@@ -5272,19 +5272,19 @@
    "id": "petal_cofactor_chargeability",
    "title": "Petal cofactor chargeability lemma (P5-CL)",
    "status": "TARGET",
-   "statement": "There is an absolute B_pet (indep of c,d,ell,t,q,n) such that every squarefree-realizable petal cofactor family A_i(Z) subset V_c is EITHER charged (contained in a paid quotient/coset/signed/cyclotomic family \u2014 sparse-coefficient signature) OR has dim A_i(Z) <= B_pet. Then (via the proved cofactor injection, deg A_i<=c, dim K<=c+1) the uncharged count is c-INDEPENDENT, total <= 2^M poly(M) q^{B_pet} = n^{O(1)}.",
+   "statement": "P5-CL source (Pro T2): for every squarefree-realizable family Z in the residue-kernel chart, either (charged) A_i(Z) lies \u2014 after bounded tail ops \u2014 in a paid isotypic/quotient/signed/cyclotomic/low-defect template X^e G(X^M), or (uncharged) the PRIMITIVE PROJECTION dim Pi_primitive A_i(Z) <= B_pet (absolute, indep of c,d,ell,t,q,n). Charged templates convert via the PROVED q_cofactor_normal_form. This is a FAMILY-LEVEL chargeability/bounded-primitive-projection theorem \u2014 NOT the same as e22's pointwise covariance.",
    "attack_surface": "Decompose K_{I,d} into quotient-saturated (charged, cf. E22 tail-removed manifest) + bounded-dim primitive residual.",
    "falsifier": "An in-regime family with c->inf, dim A_i(Z_c)->inf, not quotient/coset/signed/cyclotomic chargeable.",
-   "notes": ""
+   "notes": "Sharpened by T2: family-level bounded-primitive-projection source; terminal proved; separate from E22."
   },
   {
    "id": "e22_mixed_petal_covariance",
    "title": "E22 sunflower mixed-petal covariance (P1)",
    "status": "TARGET",
-   "statement": "The E22 sunflower construction supplies, off one common bounded tail B (|B|<min_i M_i), the mu_{M_i}-COVARIANCE of the cofactor on each touched petal: H_i(eta x)=eta^{e_i} H_i(x) for eta in mu_{M_i}, i.e. H_i(X)=X^{e_i} G_i(X^{M_i}) on the petal coordinate (equivalently the degree/remainder form: non-tail fiber remainders of H_i have <=t zeros unless X^{M_i}-z | H_i). VERIFIED necessary: divisor constraints ALONE fail (interpolation defeats every |B|<min M_i, P1). This forces mixed-petal kernel invariance => the proved downstream (fiber locator, dyadic glue, passthrough) closes e22.",
+   "statement": "E22-COV source (Pro T2): the sunflower construction supplies, off one common bounded tail B (|B|<min M_i), the POINTWISE mu_{M_i}-covariance H_i(eta x)=eta^{e_i} H_i(x) for eta in mu_{M_i} (equiv. H_i=X^{e_i} G_i(X^{M_i}) on the retained petal coordinate). Then the PROVED q_cofactor_normal_form converts it to full-fiber factorization. Divisor constraints L_{T_i}|H_i ALONE are insufficient (verified interpolation + the P(X^M)(A+X^r B) counterexample). This is a POINTWISE covariance extraction \u2014 NOT shared with petal's family-level problem.",
    "attack_surface": "Extract the covariance/degree property from the actual E22 moment-trade sunflower model (U, L_{Z\\C}, L_{C\\Z}, a_i).",
    "falsifier": "A mixed-petal challenger whose cofactor is not mu_M-semi-invariant off any bounded tail.",
-   "notes": ""
+   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5."
   },
   {
    "id": "dihedral_sibling_window_certificate",
@@ -5294,6 +5294,15 @@
    "attack_surface": "Chebyshev locator degree bookkeeping; inversion fixed-point endpoint parity; distinctness audit vs quotient-core; binomial count certificate.",
    "falsifier": "A sigma in [2^33, sigma*] where every dihedral twin/fixed-point family either overflows degree k, collapses to the old qcore count, or fails noncontainment.",
    "notes": "P6 residual leaf: the concrete certificate that turns the dihedral sibling window into a theorem. Entropy margin overwhelming (verified); the work is degree/distinctness certification, not numerical."
+  },
+  {
+   "id": "q_cofactor_normal_form",
+   "title": "Quotient-cofactor normal form (SHARED TERMINAL: e22 + petal)",
+   "status": "PROVED",
+   "statement": "For D=mu_n, M|n, char\u2224n: f(eta x)=eta^e f(x) for all eta in mu_M IFF f=X^e G(X^M) (isotypic projector Pi_{M,e}), and off a bounded tail the retained root set is a union of full x->x^M fibers with locator prod_z(X^M - z). This is the shared terminal consumed by BOTH the e22 factor manifest and the petal paid-quotient ledger. NOTE: the NAIVE sharing (dimension/quotient-compatible-constraints alone => scalar pullback) is REFUTED (verified counterexample P(X^M)(A(X^M)+X^r B(X^M)): full-fiber divisible, support in 2 classes). Character selection needs SOURCE data \u2014 so e22 (pointwise covariance E22-COV) and petal (family chargeability P5-CL) stay SEPARATE upstream leaves.",
+   "attack_surface": "proved via mu_M isotypic projectors + full-fiber factorization (char\u2224n).",
+   "falsifier": "a mu_M-character-component polynomial that is not X^e G(X^M), or a covariant retained root set that is not a fiber union.",
+   "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0."
   }
  ],
  "edges": [
@@ -9725,6 +9734,16 @@
   {
    "from": "dihedral_sibling_window_certificate",
    "to": "rate_half_band_closure",
+   "kind": "req"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "e22_tail_removed_factor_manifest_payload",
+   "kind": "req"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "petal_squarefree_classification_ledger_payload",
    "kind": "req"
   }
  ]

@@ -1408,6 +1408,11 @@
    "title": "Petal squarefree kernel classification payload"
   },
   {
+   "id": "q_cofactor_normal_form",
+   "label": "PROVED",
+   "title": "Quotient-cofactor normal form (SHARED TERMINAL: e22 + petal)"
+  },
+  {
    "id": "q_recursion",
    "label": "PROVED",
    "title": "Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)"
@@ -3957,6 +3962,14 @@
   {
    "from": "dihedral_sibling_window_certificate",
    "to": "rate_half_band_closure"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "e22_tail_removed_factor_manifest_payload"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "petal_squarefree_classification_ledger_payload"
   },
   {
    "from": "acl_second_order",
