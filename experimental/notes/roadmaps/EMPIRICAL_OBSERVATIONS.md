@@ -452,3 +452,17 @@ has a HARD ~13x ceiling above 16n^3; yesterday's exponent sharpening was quantif
 Algebraic: f1 trichotomy exhaustiveness forced by the proved forcing+descent pair; bridges = verified import
 identities; list side = mirror arithmetic + composition. Ledger: notes/amber_audit_20260706/stress_verification.md.
 => TWO independent audits agree: the conditional structure is SOUND. Open mathematics = exactly the 7 reds.
+
+## GOAL: prove-or-falsify u2c_giant_tnull_dichotomy — OUTCOME: FALSIFIED AS STATED (verified), REPAIRED
+- COMPLEMENTATION LEMMA PROVED (sparse full-coset product + Newton; verified 27762/27762 at t=2,3,4):
+  S t-null iff complement t-null. Corollaries: top-band rigidity (|S|>=n-t => full coset), (t+1)-support
+  rigidity (t-null size t+1 = full mu_{t+1}-coset).
+- ACCIDENT HUNT (exhaustive, 7 rows): non-coset t-null sets EXIST exactly where the random model predicts --
+  the above-balance window C(n,b) > q^t: (97,32,t=2): 160 at size 6; (73,24,t=2): 168; (17,16,t=2): 128.
+  CLEAN at t=3 and at large q/n (window closed).
+- VERIFIED GIANT WITNESS: complement of a size-6 accident = 81%-scale 2-null NON-coset block at (97,32,t=2)
+  => the unscoped dichotomy is FALSE. RE-POSED with the sub-balance hypothesis q^t >= 2^n (prize-max rows
+  qualify by ~2%; the b2_modp scan regime).
+- HONEST RE-RANK: the repaired u2c = entropic suppression (zero accidents when expected <1) = the same
+  anti-concentration shape as dli's RES count. NOT the easiest red after all; worst_word_challenger_pricing
+  moves up to most-tractable.
