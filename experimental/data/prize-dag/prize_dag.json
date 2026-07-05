@@ -5281,10 +5281,10 @@
    "id": "e22_mixed_petal_covariance",
    "title": "E22 sunflower mixed-petal covariance (P1)",
    "status": "TARGET",
-   "statement": "E22-COV source (Pro T2): the sunflower construction supplies, off one common bounded tail B (|B|<min M_i), the POINTWISE mu_{M_i}-covariance H_i(eta x)=eta^{e_i} H_i(x) for eta in mu_{M_i} (equiv. H_i=X^{e_i} G_i(X^{M_i}) on the retained petal coordinate). Then the PROVED q_cofactor_normal_form converts it to full-fiber factorization. Divisor constraints L_{T_i}|H_i ALONE are insufficient (verified interpolation + the P(X^M)(A+X^r B) counterexample). This is a POINTWISE covariance extraction \u2014 NOT shared with petal's family-level problem.",
+   "statement": "E22-CF source (Pro T2, confirmed 2nd pass): the sunflower supplies, off one common fiber-compatible bounded tail B (|B|<min M_i), BOTH (i) POINTWISE covariance H_i(eta x)=eta^{e_i}H_i(x) for eta in mu_{M_i} (equiv. H_i=X^{e_i}G_i(X^{M_i})), AND (ii) OFF-TAIL EXHAUSTIVITY T_i\\B={x in P_i\\B: H_i(x)=0} (the agreement set IS the full off-tail zero set). Then T_i\\B is mu_{M_i}-invariant and q_cofactor_normal_form (PROVED) gives L_{T_i\\B}=prod_z(X^{M_i}-z). BOTH clauses load-bearing: divisor constraints L_{T_i}|H_i alone fail (interpolation counterexample), and a quotient-shaped H with T one-point-short of full fibers also fails ('one point per fiber' counterexample) \u2014 exhaustivity is what excludes it. A pointwise extraction from the moment-trade model; NOT shared with P5.",
    "attack_surface": "Extract the covariance/degree property from the actual E22 moment-trade sunflower model (U, L_{Z\\C}, L_{C\\Z}, a_i).",
    "falsifier": "A mixed-petal challenger whose cofactor is not mu_M-semi-invariant off any bounded tail.",
-   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5."
+   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5. | 2nd T2 pass: added off-tail exhaustivity clause (one-point-per-fiber counterexample); confirmed separate from P5."
   },
   {
    "id": "dihedral_sibling_window_certificate",
@@ -5302,7 +5302,7 @@
    "statement": "For D=mu_n, M|n, char\u2224n: f(eta x)=eta^e f(x) for all eta in mu_M IFF f=X^e G(X^M) (isotypic projector Pi_{M,e}), and off a bounded tail the retained root set is a union of full x->x^M fibers with locator prod_z(X^M - z). This is the shared terminal consumed by BOTH the e22 factor manifest and the petal paid-quotient ledger. NOTE: the NAIVE sharing (dimension/quotient-compatible-constraints alone => scalar pullback) is REFUTED (verified counterexample P(X^M)(A(X^M)+X^r B(X^M)): full-fiber divisible, support in 2 classes). Character selection needs SOURCE data \u2014 so e22 (pointwise covariance E22-COV) and petal (family chargeability P5-CL) stay SEPARATE upstream leaves.",
    "attack_surface": "proved via mu_M isotypic projectors + full-fiber factorization (char\u2224n).",
    "falsifier": "a mu_M-character-component polynomial that is not X^e G(X^M), or a covariant retained root set that is not a fiber union.",
-   "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0."
+   "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0. | 2nd T2 pass CONFIRMS the split (T2a=this, T2b=e22_mixed_petal_covariance, T2c=petal_cofactor_chargeability). 2nd counterexample (affine family A_c={1+X+sum a_k X^k}: dim c-1 grows but support in classes 0,1 mod M => never a pullback, VERIFIED) reinforces that dimension-excess alone forces nothing on the P5 side."
   }
  ],
  "edges": [
