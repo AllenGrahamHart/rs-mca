@@ -317,3 +317,19 @@ which challengers need CF vs are routed elsewhere.
 => The dli chain is now COHERENT end-to-end: leaf (weighted/RES) -> ledger (weighted) -> 2nd moment (weighted)
    -> full-mass-scoped Deligne branch -> ejm -> pcf -> b2b (weighted). The re-pose propagation debt from the
    leaf correction is PAID.
+
+## CONFIRMATION ATTACK: dli_prime_block_conductor_mass (weighted) — FIRST VALIDATED FRONTIER
+Strategy: of the 5 ambers accepting the reds (rate_half set aside), attack the one most likely to survive
+outright, to bank actually-true statements. Ranking: block_conductor (HIGH) > m720 manifest (implication
+proved, data-blocked) > sov payload (pricing pending) > e22 manifest (premise failed 0/85) > petal ledger (next domino).
+Attack (exhaustive, not sampled): blocks = map-determined dyadic residue classes (the tower partition);
+ledger D_lambda = sum_r |A_r||mu_hat_r|^2; swept EVERY lambda != 0 (the uniform-in-lambda quantifier fully
+tested), n=32..2048, full-mass profiles.
+RESULT — SURVIVED with a strong signal:
+  sup_lambda D/coords: 0.296 (n=32) -> 0.0775 (128) -> 0.0149 (1024) -> 0.0048 (2048)  [decaying, sublinear]
+  max effective conductor |mu_hat_r|sqrt|A_r|: 2.0-2.7 FLAT across the whole range = O(1)
+  (the statement's polylog conductor claim is empirically CONSERVATIVE; reality looks like a constant).
+Caveats: L=1 exhaustive at scale (L=2 only at n=32); toy q<=12289; K=2,4 block scales.
+=> dli's amber consumer is the first to earn VALIDATED-FRONTIER status under the confirmation protocol.
+   The dli branch now has: coherent weighted chain + empirically-nailed leaf obligation + validated consumer.
+   It is the healthiest of the five branches.
