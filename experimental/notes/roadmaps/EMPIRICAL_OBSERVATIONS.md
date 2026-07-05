@@ -173,3 +173,16 @@ Quantitative (B=maxpow, value-set deficit) census + a gap probe (diluted-Bohr ce
 - CONFIDENCE: Lane-1 Euler-product theorem empirically ROBUST (stress-tested, survives). The open pricing
   obligation is well-characterized (narrow Bohr class) but its difficulty hinges on the bound's tightness.
   Moderate primes (structural). Overall sov: mechanism HIGH, Lane-1 HIGH, pricing obligation OPEN-but-narrowed.
+
+## CODEX FALSIFICATION PASS (prize-rednode-falsification-20260705) — assessed + replayed 2026-07-05
+Codex attacked all 8 leaves (numeric + algebraic, Modal <60s each). NONE deleted; all survive as TARGET.
+CROSS-VALIDATION of my work: sov (0 falsifiers, remaining=Bohr pricing -- matches me exactly); dli (zero-atom/
+rank falsifier reproduced; large-support scans FLATTEN -> positive for the weighted-average obligation).
+CLEAN SURVIVORS (4): sov (Bohr pricing), rate_half (new mechanism, 2.98M gap, 0.1 vs 91.85 bits guardrail),
+  e22 (source construction), m720 (survivor descent / D-GCD; shortcut 'h>=7 enough' killed).
+PETAL CLUSTER = THE WEAK LINK (3 gates need repair):
+  - Gate D (petal_quotient_descent_step): naive strategy FALSIFIED (verified witness M=36,p=37); scope/window/paid.
+  - Gate L (petal_low_defect_quotient_charge): CITATION GAP (charging without a paid citation; sheets grow); SOUNDNESS.
+  - Gate N (petal_newton_window): SCOPE GAP (no definition/verifier; naive shortcut refuted).
+The petal gates feed BOTH list_grand AND (via the pole/list bridge) mca_safe -> the fragility touches both
+grand challenges. Gate L's citation gap is the most concerning (a charged-but-uncited class = latent soundness hole).
