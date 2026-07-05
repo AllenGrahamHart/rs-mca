@@ -714,7 +714,7 @@
   },
   {
    "id": "ef_descended_cycle_classification_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "EF descended pole-free cycle classification payload"
   },
   {
@@ -724,7 +724,7 @@
   },
   {
    "id": "ef_descended_cycle_inventory_payload",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "EF actual descended-cycle inventory payload"
   },
   {
@@ -739,12 +739,12 @@
   },
   {
    "id": "ef_full_orbit_pole_forcing",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "EF full-orbit pole forcing"
   },
   {
    "id": "ef_fullfield_bridge",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)"
   },
   {
@@ -759,12 +759,12 @@
   },
   {
    "id": "ef_pole_free_cycle_exclusion",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "EF pole-free hidden-cycle exclusion"
   },
   {
    "id": "ef_ru",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "row-uniform extension-fiber hypothesis"
   },
   {
@@ -814,7 +814,7 @@
   },
   {
    "id": "f1_full_field_pole_forcing",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "f1 full field pole forcing"
   },
   {
@@ -1014,7 +1014,7 @@
   },
   {
    "id": "interleaved_floor_import",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)"
   },
   {

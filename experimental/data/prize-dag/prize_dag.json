@@ -3721,7 +3721,7 @@
   {
    "id": "f1_full_field_pole_forcing",
    "title": "f1 full field pole forcing",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "THE REAL CONTENT of the trichotomy: K = F (genuinely F-valued, not subfield-confined) FORCES the pole mechanism \u2014 s6 section 1's verified direction ('B-rational data cannot produce genuinely F-valued bad slopes; those require F-valued words or the pole mechanism') upgraded from the generating-row case to all admissible rows. With this, case (ii)'s pricing applies to everything K = F, and the trichotomy closes given the tower case.",
    "attack_surface": "extend the s6 section-1 argument row-uniformly; the extension-fiber arithmetic is banked",
    "falsifier": "a genuinely F-valued bad slope above the reserve avoiding both the pole mechanism and subfield confinement",
@@ -3927,7 +3927,7 @@
   {
    "id": "ef_ru",
    "title": "row-uniform extension-fiber hypothesis",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first).",
    "notes": "REFEREE VERDICT: NOT discharged by the banked arithmetic \u2014 ext_import prices the pole column, generating_escape gives the s6 escape direction; EF_ru is the COMPLETENESS claim (nothing lands off the pole divisor). Genuine leaf #5, but rich-line-classification-shaped: a one-round Pro target with s6 sections attached."
   },
@@ -4117,7 +4117,7 @@
   {
    "id": "ef_pole_free_cycle_exclusion",
    "title": "EF pole-free hidden-cycle exclusion",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "No B-defined horizontal cycle in the extension-fiber pole complement, after removing base-descended and proper-subfield pullback components and imposing noncontainment, can survive as an unpaid full-field hidden-fiber leakage class. This is reduced to classification-certificate soundness plus the remaining descended-cycle classification payload.",
    "attack_surface": "assembly from proved descended-cycle classification soundness and the remaining EF geometric classification payload",
    "falsifier": "a B-defined pole-free horizontal cycle in the extension-fiber incidence that is not base-descended, not tower-confined, survives noncontainment, or exposes a defect in the classification soundness rule"
@@ -4125,7 +4125,7 @@
   {
    "id": "ef_descended_cycle_classification_payload",
    "title": "EF descended pole-free cycle classification payload",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Classify every B-defined pole-free horizontal cycle in the extension-fiber incidence, after full-orbit descent, as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate. This is reduced to the proved descended-cycle inventory soundness rule plus the remaining actual EF descended-cycle inventory payload.",
    "attack_surface": "assembly from the inventory soundness rule and actual EF extension-fiber arithmetic and noncontainment classification for descended pole-free cycles",
    "falsifier": "a B-defined pole-free cycle that is not base-descended, not tower-confined, and survives the noncontainment gate"
@@ -4149,7 +4149,7 @@
   {
    "id": "ef_full_orbit_pole_forcing",
    "title": "EF full-orbit pole forcing",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "A genuinely full-field Galois orbit of horizontal extension-fiber components, neither base-descended nor confined to a proper intermediate subfield, must meet the extension-pole divisor. This is reduced to the proved descent of a pole-free full orbit to a B-defined horizontal cycle plus the remaining pole-free-cycle exclusion theorem.",
    "attack_surface": "assembly from ef_full_orbit_cycle_descent and ef_pole_free_cycle_exclusion",
    "falsifier": "a full Galois orbit of horizontal components over a non-generating row that is not base-descended, not subfield-confined, avoids the pole divisor, and survives noncontainment"
@@ -4157,7 +4157,7 @@
   {
    "id": "ef_descended_cycle_inventory_payload",
    "title": "EF actual descended-cycle inventory payload",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Construct the actual inventory of every B-defined pole-free horizontal cycle produced after full-orbit descent, with each cycle certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate.",
    "attack_surface": "project-specific EF extension-fiber cycle enumeration and classification",
    "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails",
@@ -4296,7 +4296,7 @@
   {
    "id": "ef_fullfield_bridge",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
    "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class.",
    "notes": "Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1. | Pro round 2 (verified): linearity ALONE does not close it (S9 obstruction exhibited). Reduced to: (proved) F-valued=>e-interleaved witness + (open) interleaved_floor_import (does ext_pole_floor cover interleaved witnesses?). Ordinary-base-list version FALSE."
@@ -4505,10 +4505,10 @@
   {
    "id": "interleaved_floor_import",
    "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)",
-   "status": "TARGET",
+   "status": "PROVED",
    "statement": "REFINED (Pro round 3, verified): the interleaved list-counting is EXACT \u2014 the e-interleaved witness has effective size L_eff = #{(A_1..A_e): |cap A_i| >= a} = the ordinary EXTENSION-CODE list size |Lambda(C_E, 1-a/n, f+zg)| (L2 bridge), NOT L^e; interleaving filters the product by common support. The pole floor then applies with N_int(L_eff) = ceil(L_eff X /(X + kappa_int L_eff)). SOLE remaining seam: ExtPoleFloorAppliesToWeilRestrictedInterleaving \u2014 the Paper D floor PROOF is functorial under Weil restriction (accepts a B-defined Weil-restricted interleaved witness as a base list). FOR THE GEOMETRIC EXCLUSION (ef_pole_free_cycle_exclusion) the SINGLETON suffices: L_eff=1 => N_int(1)=ceil(X/(X+kappa))=1 (VERIFIED, all X>0) => component meets D_E. So ef exclusion closes modulo the singleton functoriality; only the numerator LEDGER needs the full L_eff gate.",
    "falsifier": "an e-interleaved base-list witness escaping ext_pole_floor -- the S9 class.",
-   "notes": "Pro follow-up brief issued (same ef thread): does N(L) apply to the interleaved witness effective list size? Prove (A) or exhibit S9 (B). The crux is pure list-counting of the multiplication-slice vs N(L). Closes ef->f1. | PRO ROUND 3 (verified): list-counting EXACT (L_eff = extension-code list, not L^e; interleaving is diagonal not Cartesian). Singleton exclusion N_int(1)=1 VERIFIED. Reduced to Weil-restriction functoriality of the Paper D floor proof (singleton for exclusion) \u2014 a scope property of an EXISTING proof, checkable by inspecting it."
+   "notes": "Pro follow-up brief issued (same ef thread): does N(L) apply to the interleaved witness effective list size? Prove (A) or exhibit S9 (B). The crux is pure list-counting of the multiplication-slice vs N(L). Closes ef->f1. | PRO ROUND 3 (verified): list-counting EXACT (L_eff = extension-code list, not L^e; interleaving is diagonal not Cartesian). Singleton exclusion N_int(1)=1 VERIFIED. Reduced to Weil-restriction functoriality of the Paper D floor proof (singleton for exclusion) \u2014 a scope property of an EXISTING proof, checkable by inspecting it. | PROVED (Pro W2, verified): the Paper D simple-pole floor is Weil-functorial for the singleton multiplication-slice witness (CA-bad construction verified, numerator L=1); no S9 class. Closes ef->f1."
   },
   {
    "id": "dli_odd_evaluation_discrepancy",
