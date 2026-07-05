@@ -439,3 +439,16 @@ the repairables cluster into SYSTEMATIC issues, all repaired on canonical this m
 SOUND certificates recorded on 9 nodes (incl. tr_perleaf_list_ident's identification surviving a DIRECT
 transport check, and gap1_product_model). The board's ambers are now: audited-sound (9), audited-repaired
 (11), re-stated (1) -- the trust surface is fully certified at first-audit level.
+
+## INDEPENDENT STRESS VERIFICATION of all 21 ambers (second audit, 2026-07-06) — 21/21, none falsified
+Two-man rule applied: independent of Codex's sweep, every amber's implication (B given A) checked + stressed.
+Numerical: exact crossing arithmetic (4 rates), 16n^3-loaded margins (monotone, zero-onset confirmed),
+adversarial imgfib fiber census (threshold sharp, fibers <=2 above), strata partition EXACT (sum=B_C every
+trial), x4 pullback attack absorbed (primitive=0), worst-word sup won by the CHALLENGER class (pullback 28 >
+random 22 -- independently confirms the E15 planted+challenger repair), tr_perleaf transport EXACT (12/12
+count equality -- the identification is on the nose), gap1 product bound holds with 10^4x slack.
+NEW PRECISION FINDING: rate-1/8 n=2^41 loaded margin = +3.69 bits (tightest row) => the xr spread-count red
+has a HARD ~13x ceiling above 16n^3; yesterday's exponent sharpening was quantifiably load-bearing.
+Algebraic: f1 trichotomy exhaustiveness forced by the proved forcing+descent pair; bridges = verified import
+identities; list side = mirror arithmetic + composition. Ledger: notes/amber_audit_20260706/stress_verification.md.
+=> TWO independent audits agree: the conditional structure is SOUND. Open mathematics = exactly the 7 reds.
