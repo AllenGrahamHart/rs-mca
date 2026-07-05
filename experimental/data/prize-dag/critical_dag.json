@@ -430,7 +430,7 @@
   {
    "id": "e1_folded_no_vector_certificate_256_payload",
    "label": "UNPROVED",
-   "title": "E1 folded no-vector certificate payload for N'=256"
+   "title": "e1 N'=256: density bound (WEAKENED from the zero-survivor cert)"
   },
   {
    "id": "e1_fullness",
