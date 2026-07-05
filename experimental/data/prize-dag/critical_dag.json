@@ -283,8 +283,53 @@
    "title": "e1 non-quotient collision density"
   },
   {
-   "id": "ef_ru",
+   "id": "ef_component_control_alignment",
+   "label": "PROVED",
+   "title": "EF component-control alignment"
+  },
+  {
+   "id": "ef_descended_cycle_classification_payload",
+   "label": "CONDITIONAL",
+   "title": "EF descended pole-free cycle classification payload"
+  },
+  {
+   "id": "ef_descended_cycle_classification_soundness",
+   "label": "PROVED",
+   "title": "EF descended-cycle classification soundness"
+  },
+  {
+   "id": "ef_descended_cycle_inventory_payload",
    "label": "UNPROVED",
+   "title": "EF actual descended-cycle inventory payload"
+  },
+  {
+   "id": "ef_descended_cycle_inventory_soundness",
+   "label": "PROVED",
+   "title": "EF descended-cycle inventory soundness"
+  },
+  {
+   "id": "ef_full_orbit_cycle_descent",
+   "label": "PROVED",
+   "title": "EF full-orbit pole-free cycle descent"
+  },
+  {
+   "id": "ef_full_orbit_pole_forcing",
+   "label": "CONDITIONAL",
+   "title": "EF full-orbit pole forcing"
+  },
+  {
+   "id": "ef_galois_stabilizer_descent",
+   "label": "PROVED",
+   "title": "EF Galois-stabilizer descent"
+  },
+  {
+   "id": "ef_pole_free_cycle_exclusion",
+   "label": "CONDITIONAL",
+   "title": "EF pole-free hidden-cycle exclusion"
+  },
+  {
+   "id": "ef_ru",
+   "label": "CONDITIONAL",
    "title": "row-uniform extension-fiber hypothesis"
   },
   {
@@ -2229,6 +2274,82 @@
   {
    "from": "xr_coordinate_hypersurface_reduction",
    "to": "xr_eliminant_vanishing_class"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "ef_component_control_alignment"
+  },
+  {
+   "from": "f1_minimal_field_descent",
+   "to": "ef_galois_stabilizer_descent"
+  },
+  {
+   "from": "ext_import",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "paid_ext_fn",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "noncontain_degeneracy",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "f1_case_tower",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_full_orbit_cycle_descent"
+  },
+  {
+   "from": "ef_full_orbit_cycle_descent",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "ef_pole_free_cycle_exclusion",
+   "to": "ef_full_orbit_pole_forcing"
+  },
+  {
+   "from": "ef_full_orbit_cycle_descent",
+   "to": "ef_descended_cycle_classification_soundness"
+  },
+  {
+   "from": "ef_component_control_alignment",
+   "to": "ef_descended_cycle_classification_soundness"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_descended_cycle_classification_soundness"
+  },
+  {
+   "from": "ef_descended_cycle_classification_soundness",
+   "to": "ef_pole_free_cycle_exclusion"
+  },
+  {
+   "from": "ef_descended_cycle_inventory_soundness",
+   "to": "ef_descended_cycle_classification_payload"
+  },
+  {
+   "from": "ef_descended_cycle_inventory_payload",
+   "to": "ef_descended_cycle_classification_payload"
+  },
+  {
+   "from": "ef_descended_cycle_classification_payload",
+   "to": "ef_pole_free_cycle_exclusion"
+  },
+  {
+   "from": "ef_component_control_alignment",
+   "to": "ef_ru"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_ru"
+  },
+  {
+   "from": "ef_full_orbit_pole_forcing",
+   "to": "ef_ru"
   },
   {
    "from": "acl_second_order",

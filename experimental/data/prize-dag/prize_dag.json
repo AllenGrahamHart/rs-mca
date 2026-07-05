@@ -3925,7 +3925,7 @@
   {
    "id": "ef_ru",
    "title": "row-uniform extension-fiber hypothesis",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first).",
    "notes": "REFEREE VERDICT: NOT discharged by the banked arithmetic \u2014 ext_import prices the pole column, generating_escape gives the s6 escape direction; EF_ru is the COMPLETENESS claim (nothing lands off the pole divisor). Genuine leaf #5, but rich-line-classification-shaped: a one-round Pro target with s6 sections attached."
   },
@@ -4095,6 +4095,79 @@
    "statement": "If an inventory covers every budget-meeting unpaid non-boundary light-triangle profile and assigns each profile an admissible record of an accepted nonzero-minor type, then xr_profile_minor_certificate_payload holds.",
    "attack_surface": "formal coverage and accepted-record dispatch for XR minor certificate inventories",
    "falsifier": "a complete inventory of accepted nonzero-minor records while some required XR profile lacks a valid payload record"
+  },
+  {
+   "id": "ef_component_control_alignment",
+   "title": "EF component-control alignment",
+   "status": "PROVED",
+   "statement": "The banked spi_component_control theorem applies to the extension-fiber alignment incidence used by ef_ru: after removing the base-descended section and restricting to relevant paid strata, there are at most polynomially many controlled-degree horizontal components to classify.",
+   "attack_surface": "assembly of spi_component_control with the EF incidence notation",
+   "falsifier": "an EF horizontal component not controlled by the Hankel slope-incidence component theorem"
+  },
+  {
+   "id": "ef_descended_cycle_classification_soundness",
+   "title": "EF descended-cycle classification soundness",
+   "status": "PROVED",
+   "statement": "If every B-defined pole-free horizontal cycle produced by full-orbit descent is certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate, then ef_pole_free_cycle_exclusion holds.",
+   "attack_surface": "finite logical soundness of the base/tower/noncontainment classification certificate for descended pole-free cycles",
+   "falsifier": "a complete base/tower/noncontainment classification certificate that still leaves an unpaid pole-free hidden-fiber leakage class"
+  },
+  {
+   "id": "ef_pole_free_cycle_exclusion",
+   "title": "EF pole-free hidden-cycle exclusion",
+   "status": "CONDITIONAL",
+   "statement": "No B-defined horizontal cycle in the extension-fiber pole complement, after removing base-descended and proper-subfield pullback components and imposing noncontainment, can survive as an unpaid full-field hidden-fiber leakage class. This is reduced to classification-certificate soundness plus the remaining descended-cycle classification payload.",
+   "attack_surface": "assembly from proved descended-cycle classification soundness and the remaining EF geometric classification payload",
+   "falsifier": "a B-defined pole-free horizontal cycle in the extension-fiber incidence that is not base-descended, not tower-confined, survives noncontainment, or exposes a defect in the classification soundness rule"
+  },
+  {
+   "id": "ef_descended_cycle_classification_payload",
+   "title": "EF descended pole-free cycle classification payload",
+   "status": "CONDITIONAL",
+   "statement": "Classify every B-defined pole-free horizontal cycle in the extension-fiber incidence, after full-orbit descent, as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate. This is reduced to the proved descended-cycle inventory soundness rule plus the remaining actual EF descended-cycle inventory payload.",
+   "attack_surface": "assembly from the inventory soundness rule and actual EF extension-fiber arithmetic and noncontainment classification for descended pole-free cycles",
+   "falsifier": "a B-defined pole-free cycle that is not base-descended, not tower-confined, and survives the noncontainment gate"
+  },
+  {
+   "id": "ef_full_orbit_cycle_descent",
+   "title": "EF full-orbit pole-free cycle descent",
+   "status": "PROVED",
+   "statement": "In the B-defined extension-fiber incidence with B-defined extension-pole divisor, any full Galois orbit of horizontal components avoiding the pole divisor has a B-defined reduced cycle as its union, and that cycle is still disjoint from the pole divisor.",
+   "attack_surface": "standard Galois descent for the orbit cycle and B-defined closed divisors",
+   "falsifier": "a Galois orbit of components disjoint from a B-defined divisor whose reduced union is not B-defined or meets the divisor"
+  },
+  {
+   "id": "ef_galois_stabilizer_descent",
+   "title": "EF Galois-stabilizer descent",
+   "status": "PROVED",
+   "statement": "For the B-defined extension-fiber alignment incidence over an admissible row B<=E, every horizontal irreducible component is classified by its stabilizer under Gal(E/B): full stabilizer gives base descent; a proper nontrivial stabilizer gives an intermediate-subfield pullback/tower component; only trivial stabilizer/full Galois orbit remains as the genuinely full-field case.",
+   "attack_surface": "standard Galois descent for irreducible components of a B-defined projective incidence",
+   "falsifier": "a component with nontrivial stabilizer that is neither descended to the fixed field nor part of the corresponding tower case"
+  },
+  {
+   "id": "ef_full_orbit_pole_forcing",
+   "title": "EF full-orbit pole forcing",
+   "status": "CONDITIONAL",
+   "statement": "A genuinely full-field Galois orbit of horizontal extension-fiber components, neither base-descended nor confined to a proper intermediate subfield, must meet the extension-pole divisor. This is reduced to the proved descent of a pole-free full orbit to a B-defined horizontal cycle plus the remaining pole-free-cycle exclusion theorem.",
+   "attack_surface": "assembly from ef_full_orbit_cycle_descent and ef_pole_free_cycle_exclusion",
+   "falsifier": "a full Galois orbit of horizontal components over a non-generating row that is not base-descended, not subfield-confined, avoids the pole divisor, and survives noncontainment"
+  },
+  {
+   "id": "ef_descended_cycle_inventory_payload",
+   "title": "EF actual descended-cycle inventory payload",
+   "status": "TARGET",
+   "statement": "Construct the actual inventory of every B-defined pole-free horizontal cycle produced after full-orbit descent, with each cycle certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate.",
+   "attack_surface": "project-specific EF extension-fiber cycle enumeration and classification",
+   "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails",
+   "notes": "| ATTACK (node 3): completeness assembly \u2014 3 exit classes all PROVED (full-orbit descent, galois-stabilizer descent, noncontainment); ext_pole_floor forces pole-free off genuinely-E. Open = no hidden-fiber leakage. Pro brief issued; likely close-by-assembly per repo referee note. Closes ef_ru -> f1_full_field_pole_forcing."
+  },
+  {
+   "id": "ef_descended_cycle_inventory_soundness",
+   "title": "EF descended-cycle inventory soundness",
+   "status": "PROVED",
+   "statement": "If an inventory covers every B-defined pole-free horizontal cycle produced after full-orbit descent and labels each cycle with a verified base-descended, proper-subfield/tower-confined, or noncontainment-degenerate certificate, then ef_descended_cycle_classification_payload holds.",
+   "attack_surface": "formal coverage and label-dispatch rule for EF descended-cycle inventories",
+   "falsifier": "a complete valid descended-cycle inventory while the EF classification payload fails"
   }
  ],
  "edges": [
@@ -7326,6 +7399,101 @@
   {
    "from": "xr_coordinate_hypersurface_reduction",
    "to": "xr_eliminant_vanishing_class",
+   "kind": "req"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "ef_component_control_alignment",
+   "kind": "req"
+  },
+  {
+   "from": "f1_minimal_field_descent",
+   "to": "ef_galois_stabilizer_descent",
+   "kind": "req"
+  },
+  {
+   "from": "ext_import",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "paid_ext_fn",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "noncontain_degeneracy",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "f1_case_tower",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_full_orbit_cycle_descent",
+   "kind": "req"
+  },
+  {
+   "from": "ef_full_orbit_cycle_descent",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "ef_pole_free_cycle_exclusion",
+   "to": "ef_full_orbit_pole_forcing",
+   "kind": "req"
+  },
+  {
+   "from": "ef_full_orbit_cycle_descent",
+   "to": "ef_descended_cycle_classification_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "ef_component_control_alignment",
+   "to": "ef_descended_cycle_classification_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_descended_cycle_classification_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "ef_descended_cycle_classification_soundness",
+   "to": "ef_pole_free_cycle_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "ef_descended_cycle_inventory_soundness",
+   "to": "ef_descended_cycle_classification_payload",
+   "kind": "req"
+  },
+  {
+   "from": "ef_descended_cycle_inventory_payload",
+   "to": "ef_descended_cycle_classification_payload",
+   "kind": "req"
+  },
+  {
+   "from": "ef_descended_cycle_classification_payload",
+   "to": "ef_pole_free_cycle_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "ef_component_control_alignment",
+   "to": "ef_ru",
+   "kind": "req"
+  },
+  {
+   "from": "ef_galois_stabilizer_descent",
+   "to": "ef_ru",
+   "kind": "req"
+  },
+  {
+   "from": "ef_full_orbit_pole_forcing",
+   "to": "ef_ru",
    "kind": "req"
   }
  ]
