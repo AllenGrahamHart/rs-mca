@@ -2841,7 +2841,7 @@
   {
    "id": "xr_eliminant_vanishing_class",
    "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "The triple-level u5 dichotomy's structured branch: classify support/slope configurations where the light-triangle eliminant vanishes IDENTICALLY (for structural reasons) \u2014 conjecturally exactly the paid patterns (near-heavy boundary, dihedral-symmetric, pullback-patterned). Per the program's strategy this node is NOT decomposed further until the census runs: E32-extended enumerates ALL eliminant-vanishing light configurations at n = 16 exhaustively; the classification will be written along the observed cases (the E9/E13 pattern). SHARPENED POST-E32: since the eliminant is nonzero on every light profile, coordinate-special stagnation means lying on a PROPER hypersurface inside the profile cell \u2014 the remaining obligation is 'per pair, aligned light triples on an explicit proper hypersurface are rationed', a Bezout/SPI-shaped counting statement, no longer a classification. Its proof route likely shares the deep-link staircase's budget machinery (E33 pending).",
    "attack_surface": "E32-extended census first; then the M5 chart machinery per observed class",
@@ -4023,6 +4023,70 @@
    "statement": "For the averaged c=2 quotient-box family from aqb_c2_average_family, provide exact or interval-certified ledger entries for shared entropy and all costs whose certified net lower bound is at least 429,645,547 bits. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
    "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual entropy ledger keyed to the concrete averaged family",
    "falsifier": "a missing ledger entry or certified net lower bound below 429,645,547 bits"
+  },
+  {
+   "id": "xr_minor_specialization_certificate_semantics",
+   "title": "XR minor-specialization certificate semantics",
+   "status": "PROVED",
+   "statement": "In the light-triangle eliminant normal form, a certificate consisting of a maximal minor and one admissible specialization at which that minor evaluates nonzero proves that the corresponding minor polynomial is nonzero on the profile chart.",
+   "attack_surface": "formal determinant-polynomial semantics over the profile chart coordinate ring",
+   "falsifier": "a polynomial minor that evaluates nonzero at an admissible specialization while being identically zero"
+  },
+  {
+   "id": "xr_triangular_minor_certificate_soundness",
+   "title": "XR triangular minor-certificate soundness",
+   "status": "PROVED",
+   "statement": "If an admissible specialization of an XR normal-form maximal minor makes the selected square submatrix triangular with every diagonal entry nonzero, then that specialization is a valid nonzero-minor certificate.",
+   "attack_surface": "finite determinant criterion for triangular specialized matrices",
+   "falsifier": "a specialized triangular minor with nonzero diagonal and zero determinant"
+  },
+  {
+   "id": "xr_profile_eliminant_nonvanishing",
+   "title": "XR light-profile eliminant nonvanishing",
+   "status": "CONDITIONAL",
+   "statement": "For every budget-meeting light-triangle profile not already paid or boundary, the normal-form matrix from xr_triangle_eliminant_form has at least one maximal minor that is a nonzero polynomial in the profile coordinates. This follows once the certificate semantics are fixed and every unpaid light profile is covered by a concrete nonzero minor/specialization certificate.",
+   "attack_surface": "assembled from xr_minor_specialization_certificate_semantics plus xr_profile_minor_certificate_coverage; the latter is the remaining uniform certificate-production problem",
+   "falsifier": "a budget-meeting unpaid light profile for which no admissible nonzero maximal-minor specialization exists"
+  },
+  {
+   "id": "xr_profile_minor_certificate_payload",
+   "title": "XR profile minor-certificate payload",
+   "status": "CONDITIONAL",
+   "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, supply either an admissible triangular maximal-minor certificate, an admissible monomial/noncancellation certificate, or a complete remote certificate-table record giving a nonzero maximal-minor specialization. This is reduced to the proved record-inventory soundness rule plus the remaining actual XR profile record inventory payload.",
+   "attack_surface": "assembly from the record-inventory soundness rule and the actual uniform profile-by-profile certificate inventory without local E32 search",
+   "falsifier": "a budget-meeting unpaid non-boundary light profile with no payload entry or with only a determinant-zero or inadmissible specialization"
+  },
+  {
+   "id": "xr_coordinate_hypersurface_reduction",
+   "title": "XR coordinate-special proper hypersurface reduction",
+   "status": "PROVED",
+   "statement": "Once the light-triangle profile eliminant is nonzero, the coordinate-special stagnation locus inside that profile is a proper bounded-degree hypersurface in the aligned-support chart.",
+   "attack_surface": "formal consequence of the nonzero determinantal eliminant supplied by xr_triangle_eliminant_form",
+   "falsifier": "a nonzero profile eliminant whose coordinate-special vanishing locus is not a proper hypersurface"
+  },
+  {
+   "id": "xr_profile_minor_certificate_coverage",
+   "title": "XR profile minor-certificate coverage",
+   "status": "CONDITIONAL",
+   "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, produce a maximal minor of the normal-form matrix from xr_triangle_eliminant_form and an admissible chart specialization at which that determinant is nonzero. This is reduced to the proved triangular-minor soundness criterion, the record-inventory soundness rule, and the remaining actual uniform profile record inventory payload.",
+   "attack_surface": "assembly from the triangular determinant criterion, record-inventory soundness, and the remaining uniform profile inventory payload; toy E32 data remains evidence only",
+   "falsifier": "a budget-meeting unpaid non-boundary light profile for which every maximal minor vanishes at every admissible specialization"
+  },
+  {
+   "id": "xr_profile_minor_record_inventory_payload",
+   "title": "XR actual profile minor record inventory payload",
+   "status": "TARGET",
+   "statement": "Construct the actual inventory of XR minor-certificate records covering every budget-meeting unpaid non-boundary light-triangle profile, with each record triangular with nonzero diagonal, monomial/noncancellation-certified, or part of a complete remote nonzero-minor certificate table.",
+   "attack_surface": "project-specific uniform XR profile enumeration and certificate-record construction",
+   "falsifier": "a live XR profile missing from the inventory, an inadmissible record, or a listed record whose determinant evidence is zero"
+  },
+  {
+   "id": "xr_profile_minor_record_inventory_soundness",
+   "title": "XR profile minor record-inventory soundness",
+   "status": "PROVED",
+   "statement": "If an inventory covers every budget-meeting unpaid non-boundary light-triangle profile and assigns each profile an admissible record of an accepted nonzero-minor type, then xr_profile_minor_certificate_payload holds.",
+   "attack_surface": "formal coverage and accepted-record dispatch for XR minor certificate inventories",
+   "falsifier": "a complete inventory of accepted nonzero-minor records while some required XR profile lacks a valid payload record"
   }
  ],
  "edges": [
@@ -7179,6 +7243,81 @@
   {
    "from": "aqb_shared_entropy_gain_payload",
    "to": "aqb_shared_entropy_gain",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_eliminant_nonvanishing",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_minor_specialization_certificate_semantics",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_minor_certificate_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_triangular_minor_certificate_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_profile_minor_certificate_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_profile_minor_record_inventory_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_minor_certificate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_soundness",
+   "to": "xr_profile_minor_certificate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_payload",
+   "to": "xr_profile_minor_certificate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "xr_profile_minor_certificate_payload",
+   "to": "xr_profile_minor_certificate_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "xr_minor_specialization_certificate_semantics",
+   "to": "xr_profile_eliminant_nonvanishing",
+   "kind": "req"
+  },
+  {
+   "from": "xr_profile_minor_certificate_coverage",
+   "to": "xr_profile_eliminant_nonvanishing",
+   "kind": "req"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_coordinate_hypersurface_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "xr_profile_eliminant_nonvanishing",
+   "to": "xr_eliminant_vanishing_class",
+   "kind": "req"
+  },
+  {
+   "from": "xr_coordinate_hypersurface_reduction",
+   "to": "xr_eliminant_vanishing_class",
    "kind": "req"
   }
  ]

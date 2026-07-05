@@ -1013,8 +1013,13 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
+   "id": "xr_coordinate_hypersurface_reduction",
+   "label": "PROVED",
+   "title": "XR coordinate-special proper hypersurface reduction"
+  },
+  {
    "id": "xr_eliminant_vanishing_class",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "beta-3b (EVIDENCE-GATED): classify identically-vanishing light configurations"
   },
   {
@@ -1048,6 +1053,11 @@
    "title": "beta-3 (THE RESIDUE of beta): light triangles \u2014 the triple eliminant locus"
   },
   {
+   "id": "xr_minor_specialization_certificate_semantics",
+   "label": "PROVED",
+   "title": "XR minor-specialization certificate semantics"
+  },
+  {
    "id": "xr_partial_tangent_band",
    "label": "CONDITIONAL",
    "title": "RUNG 2b: the partial-forcing band (cores k+1..A-2) \u2014 a graded tangent ledger"
@@ -1061,6 +1071,31 @@
    "id": "xr_popular_core_triangles",
    "label": "CONDITIONAL",
    "title": "2c-beta: concentrated budgets \u2014 popular cores and the m=3 triangle dichotomy"
+  },
+  {
+   "id": "xr_profile_eliminant_nonvanishing",
+   "label": "CONDITIONAL",
+   "title": "XR light-profile eliminant nonvanishing"
+  },
+  {
+   "id": "xr_profile_minor_certificate_coverage",
+   "label": "CONDITIONAL",
+   "title": "XR profile minor-certificate coverage"
+  },
+  {
+   "id": "xr_profile_minor_certificate_payload",
+   "label": "CONDITIONAL",
+   "title": "XR profile minor-certificate payload"
+  },
+  {
+   "id": "xr_profile_minor_record_inventory_payload",
+   "label": "UNPROVED",
+   "title": "XR actual profile minor record inventory payload"
+  },
+  {
+   "id": "xr_profile_minor_record_inventory_soundness",
+   "label": "PROVED",
+   "title": "XR profile minor record-inventory soundness"
   },
   {
    "id": "xr_radius_arithmetic",
@@ -1111,6 +1146,11 @@
    "id": "xr_triangle_eliminant_form",
    "label": "PROVED",
    "title": "beta-3a (PROVABLE/mechanical): the light-triangle eliminant normal form"
+  },
+  {
+   "id": "xr_triangular_minor_certificate_soundness",
+   "label": "PROVED",
+   "title": "XR triangular minor-certificate soundness"
   },
   {
    "id": "zone_b",
@@ -2270,6 +2310,66 @@
   {
    "from": "aqb_shared_entropy_gain_payload",
    "to": "aqb_shared_entropy_gain"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_eliminant_nonvanishing"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_minor_specialization_certificate_semantics"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_minor_certificate_coverage"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_triangular_minor_certificate_soundness"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_profile_minor_certificate_coverage"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_profile_minor_record_inventory_soundness"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_profile_minor_certificate_payload"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_soundness",
+   "to": "xr_profile_minor_certificate_payload"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_payload",
+   "to": "xr_profile_minor_certificate_payload"
+  },
+  {
+   "from": "xr_profile_minor_certificate_payload",
+   "to": "xr_profile_minor_certificate_coverage"
+  },
+  {
+   "from": "xr_minor_specialization_certificate_semantics",
+   "to": "xr_profile_eliminant_nonvanishing"
+  },
+  {
+   "from": "xr_profile_minor_certificate_coverage",
+   "to": "xr_profile_eliminant_nonvanishing"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_coordinate_hypersurface_reduction"
+  },
+  {
+   "from": "xr_profile_eliminant_nonvanishing",
+   "to": "xr_eliminant_vanishing_class"
+  },
+  {
+   "from": "xr_coordinate_hypersurface_reduction",
+   "to": "xr_eliminant_vanishing_class"
   },
   {
    "from": "acl_second_order",
