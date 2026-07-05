@@ -73,3 +73,16 @@ STRESS-TEST of the amber (and correction of my own stale strategic claim):
 CAVEAT: the eaters are "COMPUTED (agent verifier PASS)" — arithmetically verified here, but the
 rigorous-proof vs high-confidence-computation status is the general fidelity question, not re-audited.
 Strategic update: remaining prize gaps = (a) the 8 mca_safe leaves, (b) rate_half adjacency (rate 1/2).
+
+## dli REAL-OBJECT CORRECTION (supersedes the proxy evidence above) — confidence: MEDIUM (was HIGH)
+- Block partition PINNED: B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y(lambda)=sum_d psi(d lambda v_y),
+  v_y=zeta_n^{(2s+1)i}. CONFIRMED by verify_level2_tower.py (TEST 1 = exact mu_32 census match).
+- My earlier max|mu_hat|~2.5/sqrt(n) was the WHOLE-SECTION average = a PROXY, NOT prod_y mu_hat_y. Superseded.
+- Real excess rho=skewcount*q/2^|G| SCALES WITH q; eta_j=log_q rho_j. VANDERMONDE: nonzero skew needs support
+  >= L_j+1, so meaningful regime is LARGE support (my |G|=3-6 test = below-threshold toy artifacts).
+- Calibration eta*/L=3.6e-7 => eta_j=3.6e-7 L_j (linear, tiny coeff): Sum_j eta_j=3.6e-7 t=o(t) via the SMALL
+  COEFFICIENT, not bounded excess. This is the correct hypothesis shape.
+- NEXT TEST: reproduce eta_j = log_q(B_j/balanced_mean) at the actual calibration params (need the U_j/balanced
+  normalization + the level structure), confirm eta_j/L_j ~ 3.6e-7 and characterize which profiles are the sup.
+- Task (b) chain-tangle: dli subtree ~15 nodes, two Deligne branches converge on ejm; reduced_phase_manifest
+  statement stale (Deligne route) but is one node in the tangle; full reconciliation pending a careful trace.
