@@ -4078,7 +4078,8 @@
    "status": "TARGET",
    "statement": "Construct the actual inventory of XR minor-certificate records covering every budget-meeting unpaid non-boundary light-triangle profile, with each record triangular with nonzero diagonal, monomial/noncancellation-certified, or part of a complete remote nonzero-minor certificate table.",
    "attack_surface": "project-specific uniform XR profile enumeration and certificate-record construction",
-   "falsifier": "a live XR profile missing from the inventory, an inadmissible record, or a listed record whose determinant evidence is zero"
+   "falsifier": "a live XR profile missing from the inventory, an inadmissible record, or a listed record whose determinant evidence is zero",
+   "notes": "| CENSUS (Modal, evidence): 152/152 light profile types across k=2..6 certified nonvanishing, 0 gaps, uniform across scales. Evidence-only (profile count grows -> full quantifier needs parametric proof). Pro brief issued."
   },
   {
    "id": "xr_profile_minor_record_inventory_soundness",
