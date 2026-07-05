@@ -63,6 +63,11 @@
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
   },
   {
+   "id": "are_exceptional_density",
+   "label": "PROVED",
+   "title": "Almost-all-primes collision-lightness (the density partial)"
+  },
+  {
    "id": "averaged_slope_conversion",
    "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
@@ -278,9 +283,84 @@
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
   },
   {
-   "id": "e1_fullness",
+   "id": "e1_exceptional_set_reduction",
+   "label": "PROVED",
+   "title": "E1 reduction to explicit exceptional prime set"
+  },
+  {
+   "id": "e1_folded_certificate_cell_128_payload",
+   "label": "CONDITIONAL",
+   "title": "E1 actual folded certificate payload for N'=128"
+  },
+  {
+   "id": "e1_folded_certificate_cell_256_payload",
+   "label": "CONDITIONAL",
+   "title": "E1 actual folded certificate payload for N'=256"
+  },
+  {
+   "id": "e1_folded_certificate_manifest_payload",
+   "label": "CONDITIONAL",
+   "title": "E1 actual folded-certificate manifest payload"
+  },
+  {
+   "id": "e1_folded_certificate_manifest_soundness",
+   "label": "PROVED",
+   "title": "E1 folded-certificate manifest soundness"
+  },
+  {
+   "id": "e1_folded_certificate_soundness",
+   "label": "PROVED",
+   "title": "E1 folded kernel certificate soundness"
+  },
+  {
+   "id": "e1_folded_no_vector_certificate_128_payload",
    "label": "UNPROVED",
+   "title": "E1 folded no-vector certificate payload for N'=128"
+  },
+  {
+   "id": "e1_folded_no_vector_certificate_256_payload",
+   "label": "UNPROVED",
+   "title": "E1 folded no-vector certificate payload for N'=256"
+  },
+  {
+   "id": "e1_fullness",
+   "label": "CONDITIONAL",
    "title": "e1 non-quotient collision density"
+  },
+  {
+   "id": "e1_named_field_folded_cell_certificate_soundness",
+   "label": "PROVED",
+   "title": "E1 named-field folded cell certificate soundness"
+  },
+  {
+   "id": "e1_official_prime_exception_control",
+   "label": "CONDITIONAL",
+   "title": "E1 official-prime exceptional-set control"
+  },
+  {
+   "id": "e1_official_typicality_or_certificate",
+   "label": "CONDITIONAL",
+   "title": "E1 official-prime typicality or certificate"
+  },
+  {
+   "id": "e1_open_cell_control_payload",
+   "label": "CONDITIONAL",
+   "title": "E1 open-cell typicality or folded-certificate payload"
+  },
+  {
+   "id": "e1_open_cell_route_soundness",
+   "label": "PROVED",
+   "title": "E1 open-cell route soundness"
+  },
+  {
+   "id": "e1_pocklington_250bit_exhibit_field",
+   "label": "PROVED",
+   "title": "E1 250-bit Pocklington exhibit field"
+  },
+  {
+   "id": "e1_two_cell_folded_manifest_assembly_soundness",
+   "label": "PROVED",
+   "title": "E1 two-cell folded manifest assembly soundness"
   },
   {
    "id": "ef_component_control_alignment",
@@ -1480,6 +1560,10 @@
    "to": "f_primitive_case"
   },
   {
+   "from": "collision_norm_criterion",
+   "to": "are_exceptional_density"
+  },
+  {
    "from": "gap1_product_model",
    "to": "gap1_noneq_mass"
   },
@@ -2350,6 +2434,106 @@
   {
    "from": "ef_full_orbit_pole_forcing",
    "to": "ef_ru"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_exceptional_set_reduction"
+  },
+  {
+   "from": "kernel_lattice_reframing",
+   "to": "e1_exceptional_set_reduction"
+  },
+  {
+   "from": "graded_collision_radius",
+   "to": "e1_exceptional_set_reduction"
+  },
+  {
+   "from": "are_exceptional_density",
+   "to": "e1_exceptional_set_reduction"
+  },
+  {
+   "from": "e1_exceptional_set_reduction",
+   "to": "e1_fullness"
+  },
+  {
+   "from": "e1_official_prime_exception_control",
+   "to": "e1_fullness"
+  },
+  {
+   "from": "e1_folded_certificate_soundness",
+   "to": "e1_official_prime_exception_control"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "e1_open_cell_route_soundness"
+  },
+  {
+   "from": "e1_folded_certificate_soundness",
+   "to": "e1_open_cell_route_soundness"
+  },
+  {
+   "from": "e1_open_cell_route_soundness",
+   "to": "e1_official_typicality_or_certificate"
+  },
+  {
+   "from": "e1_folded_certificate_manifest_soundness",
+   "to": "e1_open_cell_control_payload"
+  },
+  {
+   "from": "e1_folded_certificate_manifest_payload",
+   "to": "e1_open_cell_control_payload"
+  },
+  {
+   "from": "e1_open_cell_control_payload",
+   "to": "e1_official_typicality_or_certificate"
+  },
+  {
+   "from": "e1_open_cell_control_payload",
+   "to": "e1_official_prime_exception_control"
+  },
+  {
+   "from": "e1_official_typicality_or_certificate",
+   "to": "e1_official_prime_exception_control"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "e1_official_typicality_or_certificate"
+  },
+  {
+   "from": "e1_two_cell_folded_manifest_assembly_soundness",
+   "to": "e1_folded_certificate_manifest_payload"
+  },
+  {
+   "from": "e1_folded_certificate_cell_128_payload",
+   "to": "e1_folded_certificate_manifest_payload"
+  },
+  {
+   "from": "e1_folded_certificate_cell_256_payload",
+   "to": "e1_folded_certificate_manifest_payload"
+  },
+  {
+   "from": "e1_pocklington_250bit_exhibit_field",
+   "to": "e1_folded_certificate_cell_128_payload"
+  },
+  {
+   "from": "e1_pocklington_250bit_exhibit_field",
+   "to": "e1_folded_certificate_cell_256_payload"
+  },
+  {
+   "from": "e1_named_field_folded_cell_certificate_soundness",
+   "to": "e1_folded_certificate_cell_128_payload"
+  },
+  {
+   "from": "e1_named_field_folded_cell_certificate_soundness",
+   "to": "e1_folded_certificate_cell_256_payload"
+  },
+  {
+   "from": "e1_folded_no_vector_certificate_128_payload",
+   "to": "e1_folded_certificate_cell_128_payload"
+  },
+  {
+   "from": "e1_folded_no_vector_certificate_256_payload",
+   "to": "e1_folded_certificate_cell_256_payload"
   },
   {
    "from": "acl_second_order",
