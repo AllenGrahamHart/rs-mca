@@ -186,3 +186,16 @@ PETAL CLUSTER = THE WEAK LINK (3 gates need repair):
   - Gate N (petal_newton_window): SCOPE GAP (no definition/verifier; naive shortcut refuted).
 The petal gates feed BOTH list_grand AND (via the pole/list bridge) mca_safe -> the fragility touches both
 grand challenges. Gate L's citation gap is the most concerning (a charged-but-uncited class = latent soundness hole).
+
+## Gate L CITATION-GAP TRACE (petal_low_defect_quotient_charge) — bridgeable, SHARED ROOT with Gates N & D
+- Gate L asserts low-defect quotient sheets are PAID; consumer PRK_pet peels them assuming paid; NO node justifies it.
+- VERIFIED: the sheets = EXACTLY C(M,delta) (choices of the delta removed points B): 560=C(16,3), 4960=C(32,3),
+  41664=C(64,3), 341376=C(128,3). So poly(n)-MANY structured quotient-coordinate families (fixed defect delta<=theta-1)
+  -- exactly the TYPE petal_fixed_excess (poly count at fixed excess) handles. NOT unbounded.
+- The gap = no node PROVES the C(M,delta) sheets are a paid class. TWO missing links:
+  (a) defect delta <-> excess e=d-ell (reparametrization to fixed_excess);
+  (b) quotient-coordinate <-> ambient full-petal coordinate.
+- LINK (b) IS THE SAME primitive-coordinate bridge Gate N needs (naive K-membership shortcut refuted) and Gate D
+  needs (D proof must visibly use the residue-kernel/primitive coordinate). => THE PETAL CLUSTER HAS A COMMON ROOT:
+  one primitive/quotient-coordinate bridge would feed Gates L, N, D simultaneously. Highest-leverage petal move.
+- Gate L is therefore NOT a dead soundness hole: it's bridgeable (poly(n) sheets), pending the shared coordinate bridge.
