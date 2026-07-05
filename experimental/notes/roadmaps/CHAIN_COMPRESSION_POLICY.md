@@ -54,3 +54,18 @@ mid-sweep.
   compressed after end-to-end weighted re-pose + exhaustive consumer validation.
 - pending: petal chain (chargeability -> residue_line_uniformity) — waits for
   the enrichment-vs-c measurement to decide where the stable frontier sits.
+
+## Extension: FRONTIER RETRACTION (adopted 2026-07-05)
+
+When a sub-frontier's conditionals are no longer trusted (repeated
+falsifications-as-stated, hidden reds, audit cost exceeding value), RETRACT:
+pick a clean, comprehensible amber ancestor; demote it to TARGET (the honest
+open obligation); CUT the dominated non-PROVED nodes below it (archive folders,
+RETRACTION_MANIFEST.md on the new red); KEEP dominated PROVED nodes (trusted,
+off the trust surface). The cut exploration remains the best-known attack notes
+for the new red — retraction converts untrusted structure into advisory notes.
+Retraction is the inverse of decomposition: apply when decomposition has run
+ahead of verification.
+
+Log: 2026-07-05 — u1_pullback_dichotomy (5 dominated, 3 cut) and petal_growth
+(12 dominated, 6 cut) retracted; dli deliberately kept in play (validated).

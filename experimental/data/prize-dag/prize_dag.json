@@ -742,7 +742,7 @@
   {
    "id": "petal_growth",
    "title": "Full-petal growth bound / mixed-petal amplification",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "key": true,
    "refs": [
     "proof_sketch/s7_list_side.md#4"
@@ -751,7 +751,7 @@
    "statement": "Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "fixed-excess counts growing super-poly in n at some c",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS."
   },
   {
    "id": "petal_witnesses",
@@ -3020,7 +3020,7 @@
   {
    "id": "u1_pullback_dichotomy",
    "title": "U1 \u2014 THE CLOSING CONJECTURE: cancellation is pullback, quantitatively",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "key": true,
    "statement": "RESTATED (X-5 verdict \u2014 the tautology repaired): U1 = THE COMPRESSION THEOREM u1_pte_trade_compression. By the star-PTE lemma (PROVED), every same-top-t family is a star of canonical order-t PTE trades from any base \u2014 representation is free; the conjecture is COMPRESSION: if |F| > n^2, all but <= n^2 canonical trades belong to a FINITE CHARGEABLE PULLBACK DICTIONARY (data: finitely many rational maps psi_alpha, fiber values, fixed tails, zero-top-t coefficient constraints, and an EXACT staircase counting rule \u2014 the bounded-complexity grammar W3 must define). Falsifiable form u1_primitive_star_pte_bound: post-dictionary-strip, <= n^2 star trades survive from any base (toy harness: enumerate same-top-t families, canonical trades, filter by dictionary, count survivors). Quotient-row transport verbatim (the GAP-1 per-leaf form). EVIDENCE: six documented demolition attacks (cross-block compensation, defect-plus-point, mixed sizes, poles, towers, char-p switch nets) all die into canonical trades or rational-pullback variants \u2014 the strongest pre-proof evidence compression can have. RESIDUAL RED-TEAM TEMPLATE (dangerous for the narrow form): characteristic-p switch nets \u2014 many disjoint identical-defect gadgets with p-fold switches; no verified tame-row instance yet; F4 probe hunts them.",
    "attack_surface": "THE RITT/LANG ROUTE (proof skeleton, u1_proof_skeleton_ritt_route.md): minimal trades are fibers TAUTOLOGICALLY (L_P = L_Q - c); abundance from one map = composite divisibility G(psi(X)) | X^n - delta; the dichotomy via two classical imports \u2014 subgroup-points-on-curves (non-toral => few fibers) and TAME RITT (deg < char at official rows => decompositions are EXACTLY monomial + Dickson = grammar v1, derived; additive exceptions degree-excluded, explaining every small-p pathology). Two named gaps: alpha (sporadic-core bookkeeping) and beta (general-h via the correspondence version). X-7 = complete this skeleton.",
@@ -3028,7 +3028,7 @@
    "refs": [
     "experimental/notes/roadmaps/f_matching_composition.md"
    ],
-   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence. | THE ADVERSARIAL CAMPAIGN IS COMPLETE AND CLEAN: F4 (#22, 21/21) \u2014 the switch-net template is EMPTY at the checked tame toy rows (the last known attack, flagged by X-5 itself, died); H1 (#23, 28/28) \u2014 the frozen-v1 harness PASSES: max post-strip survivors <= n^2 at every checked base and row. Per the pre-registered exits: U1 GOES TO PROOF against grammar v1. Route as banked: Theorem 1's value-rigidity/Bezout engine at fiber size b via the fiber dictionary. The next GPT Pro brief (the U1 proof) is now unblocked. | X-7 VERDICT: U1 is now a CONDITIONAL THEOREM on three named inputs {T, A, B} \u2014 the seven-step proof is written and transports verbatim to quotient rows (the subgroup-point condition IMPROVES at smaller scales). Import (i) VERIFIED (Corvaja-Zannier + Makarychev-Vyugin, >53 bits of margin at official rows); the bankable partial (per-core n^{2/3}) banked. My skeleton's K^2 fiber-product count corrected to linear (falsification #8, mine) \u2014 alpha is genuine new math, not bookkeeping. U1 remains UNFALSIFIED through: X-5 (6 attacks), F4, H1, and now X-7's proof attempt. | X-9 SHRINKS THE CONDITIONAL SET: T's core is PROVED; U1 is now conditional on {A (active-core incidence), B (band reduction), tails wrapper} \u2014 with T's classification available as a proved tool for both remaining inputs (the structured branch of every dichotomy is now exactly two normal forms)."
+   "notes": "W3 GRAMMAR FROZEN (v1, w3_chargeable_dictionary_grammar.md): map-orbit count <= log2 n, degrees in (t, (log2 n)^2], tails bounded, exact binomial counting; v1's audit trail charges all five known guises; the deliberate exclusions (arbitrary trades, unbounded orbits) are the falsification surface. The U1 campaign is now testable: F4 + the toy harness attack v1; survivors-with->n^2 falsify; clean toys send U1 to proof against v1. Revision only by explicit v2 with evidence. | THE ADVERSARIAL CAMPAIGN IS COMPLETE AND CLEAN: F4 (#22, 21/21) \u2014 the switch-net template is EMPTY at the checked tame toy rows (the last known attack, flagged by X-5 itself, died); H1 (#23, 28/28) \u2014 the frozen-v1 harness PASSES: max post-strip survivors <= n^2 at every checked base and row. Per the pre-registered exits: U1 GOES TO PROOF against grammar v1. Route as banked: Theorem 1's value-rigidity/Bezout engine at fiber size b via the fiber dictionary. The next GPT Pro brief (the U1 proof) is now unblocked. | X-7 VERDICT: U1 is now a CONDITIONAL THEOREM on three named inputs {T, A, B} \u2014 the seven-step proof is written and transports verbatim to quotient rows (the subgroup-point condition IMPROVES at smaller scales). Import (i) VERIFIED (Corvaja-Zannier + Makarychev-Vyugin, >53 bits of margin at official rows); the bankable partial (per-core n^{2/3}) banked. My skeleton's K^2 fiber-product count corrected to linear (falsification #8, mine) \u2014 alpha is genuine new math, not bookkeeping. U1 remains UNFALSIFIED through: X-5 (6 attacks), F4, H1, and now X-7's proof attempt. | X-9 SHRINKS THE CONDITIONAL SET: T's core is PROVED; U1 is now conditional on {A (active-core incidence), B (band reduction), tails wrapper} \u2014 with T's classification available as a proved tool for both remaining inputs (the structured branch of every dichotomy is now exactly two normal forms). | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_u1_20260705/). Reason: the subtree below contained 2 hidden reds (leaf-conditionals with prose hypotheses / census-only support) and its conditionals were not trusted at the extremities. This node is now the honest open obligation of the u1 lane; the cut exploration (band-trade trichotomy, sporadic bound, Corvaja-Zannier/Makarychev-Vyugin route) remains archived as the best-known attack notes."
   },
   {
    "id": "star_pte_lemma",
@@ -3051,16 +3051,6 @@
    "notes": "PROVENANCE: GPT Pro X-6. The elegant core: antipodal descent \u2014 each moment level halves the domain; the 2-power structure does the rest."
   },
   {
-   "id": "u1_minimal_fixed_core_sporadic_bound",
-   "title": "BANKABLE PARTIAL (X-7): per-core sporadic fiber bound",
-   "status": "TARGET",
-   "statement": "For h = t+1 and fixed core Q: non-v1 full-fiber trades P (L_P = L_Q - c) number <= poly(h) n^{2/3}, unless psi_Q's non-diagonal fiber product has a toral component (the structured branch). Rests on verified subgroup-points imports: Corvaja-Zannier positive-characteristic gcd estimate + Makarychev-Vyugin subgroup solution bounds; size hypotheses hold at official rows with >53 bits of margin (n <= 2^41 < p^{3/4}/3 at p >= 2^128; error term 12n^2/p < 2^{-42}).",
-   "refs": [
-    "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
-   ],
-   "notes": "X-7 partial. CONDITIONAL on the no-toral hypothesis being the right split (T classifies the toral branch). | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. The condition ('the no-toral hypothesis being the right split') was PROSE-ONLY and is meta-uncertainty about well-posedness, not a wireable hypothesis. The Corvaja-Zannier + Makarychev-Vyugin imports are real but the split itself is unestablished. Honest open obligation."
-  },
-  {
    "id": "u1_tame_toral_fiberproduct_classification",
    "title": "INPUT T: the toral fiber-product classification",
    "status": "PROVED",
@@ -3072,32 +3062,6 @@
     "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
    ],
    "notes": "LITERATURE SEARCH RESOLVED THE ROUTE (roadmap-lane, web-verified to exist; exact statements to be pulled from the PDFs before use): (1) Zannier, 'Ritt's Second Theorem in arbitrary characteristic', Crelle 445 (1993) 175-203 \u2014 Ritt II in char p under tameness; (2) Kulkarni-Muller-Sury, 'Quadratic factors of f(X) - g(Y)' \u2014 Bilu's classification EXTENDED TO ARBITRARY CHARACTERISTIC (the bidegree-(1,1) toral case directly); (3) Turnwald's Dickson/Schur treatment for the Dickson normal forms; (4) Fried-Guralnick-Saxl + Klyachko for the exceptional direction (degree coprime to p: compositions of monomials/Dicksons exhaust). THE ASSEMBLY: toral factor x^a y^b = c => monomial substitution => Laurent functional equation => Zannier char-p Ritt II + Turnwald => monomial/Dickson. THE COMPLICATION FOUND: Zieve's 'Decompositions of Laurent polynomials' (the natural one-shot import) is CHARACTERISTIC 0 (built on Bilu-Tichy) \u2014 cannot be imported directly; the route goes through Zannier + substitution instead. THE TWO SEAMS THAT ARE OURS: (a) lifting general bidegree (a,b) toral factors to the quadratic/KMS case via the substitution (elementary-looking, needs writing); (b) the bounded-tails robustness wrapper. Status upgraded TARGET -> PROVABLE: an assembly task with named sources, not an open import. | T IS NOW ASSEMBLED MODULO ONE LEMMA: toral branch PROVED (t_laurent_ritt_toral_stabilizer \u2014 cyclic/dihedral pullback exactly); many-fibers branch = the verified subgroup-point bound with the corrected max{n^{2/3}, n^2/p} threshold (satisfied at the candidates by ~200 bits) forces a toral component, then the theorem applies; REMAINING: the bounded-tails wrapper (fibers-minus-B-points incidence loss \u2014 lemma-sized, named in X-8). Status TARGET -> CONDITIONAL on the tails wrapper. GRAMMAR NOTE: v1's charged forms should read outer-LAURENT in the cyclic branch per the X-9 correction."
-  },
-  {
-   "id": "u1_alpha_active_core_incidence",
-   "title": "INPUT A: the active-core incidence theorem (the genuine new math)",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "Sum over cores Q subset S0 (|Q| = t+1) of the sporadic full-fiber counts K_Q^sp is <= n^2. NOT bookkeeping: the corrected fiber-product count is LINEAR in K (fibers pair only within themselves \u2014 K h(h-1), not K^2 h^2; the skeleton's quadratic count was wrong, falsification #8), so per-core bounds give n^{2/3} each and the summation over active cores is a genuine incidence theorem on the PTE incidence variety e_r(P) = e_r(Q), r <= h-1, P subset D, Q subset S0.",
-   "attack_surface": "second-moment/energy count over (Q, P) incidences; or show > n^{4/3} active cores force shared toral structure; toy calibration via H1's harness data (which already measures active cores implicitly)",
-   "falsifier": "a toy base with active-core mass exceeding the n^2 budget post-strip (extend H1's harness with a per-core column \u2014 cheap)",
-   "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ],
-   "notes": "P-A DATA (#27, 28/28): active cores are RARE \u2014 max 6 active cores per base, max K_Q = 2, budget ratio 0.016 of n^2 at toys. THE DECOMPOSITION SEED: A splits as (A-i) the active-core rarity lemma \u2014 a core is active only if some full fiber of psi_Q lies in D, itself a strongly suppressed event; count E[active] directly \u2014 and (A-ii) the per-core cap (ALREADY BANKED as u1_minimal_fixed_core_sporadic_bound). The incidence-variety machinery may be unnecessary: rarity x per-core cap could give the n^2 budget outright. | X-10: A reduces EXACTLY to anchored_nontoral_pte_bound (the orbit argument proved; the anchored count is the resisting sub-count). The toy tables match P-A (in-range rows tiny; low-q rows blow up per the verified falsifier). | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/u1_alpha_active_core_incidence/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
-  },
-  {
-   "id": "u1_beta_band_trade_reduction",
-   "title": "INPUT B: the band-trade reduction",
-   "status": "TARGET",
-   "key": true,
-   "statement": "For h in (t+1, (log2 n)^2]: every family of > n^2 non-v1 canonical band trades (deg(L_P - L_Q) <= h-t-1) satisfies one of: (1) contains > n^2 minimal subtrades after bounded-tail deletion; (2) the moving pencil L_Q + f lies in a v1-chargeable pullback linear series; (3) already moment/PTE-charged. The correspondence route fails as-is (moving curves: psi_P, psi_Q vary per trade \u2014 curve-point theorems need fixed curves or a clustering statement).",
-   "attack_surface": "the linear-series view (bounded-degree pencils of divisors of X^n - delta with many totally-split members); or a difference/derivative step down in h; toy census of band trades at n = 64 calibrates which exit dominates",
-   "falsifier": "a toy band-trade family avoiding all three exits (searchable with H1 machinery extended to h > t+1)",
-   "refs": [
-    "experimental/notes/roadmaps/h1_u1_toy_harness.md"
-   ],
-   "notes": "P-B CENSUS (#29, 93/93): PASS \u2014 no toy family avoids the three exits; every canonical dihedral-orbit representative routed. B's three-exit structure is confirmed observed structure; the proof should follow the census's routing table. | B-WRITEUP (#37): exits 1 and 2 REDUCE FORMALLY (proved reductions); exit 3 is EXACTLY the X-10 residue (anchored_nontoral_pte_bound + the defect/tails wrapper). B collapses into the final estimate \u2014 status CONDITIONAL on it. THE CONVERGENCE COMPLETES: A, B, both active-shadow bounds, and the tails wrapper are now all faces of A_h^nt. | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. This was a hidden red: an open trichotomy claim (three-exit structure) with census support (93/93) but NO proof and NO wired hypotheses -- amber violated the color contract (CONDITIONAL requires wired req nodes). The correspondence route is noted as failing as-is; the claim is an honest open obligation."
   },
   {
    "id": "a1_lower_overlap_occupied_subcore_accounting",
@@ -3731,18 +3695,6 @@
    "notes": "CONDITIONAL (Pro Brief K, refereed): Theorem K \u2014 row-uniform trichotomy on the single hypothesis ef_ru; base collapse unconditional; generating audit clean (generating = the E=B degenerate case); constants uniform (orbits < 7, tower <= 3, monotone pole envelope); failure class NAMED (Galois-skew hidden-fiber leakage). The f1 cluster is now ALL-AMBER above the ef_ru leaf."
   },
   {
-   "id": "petal_excess_induction",
-   "title": "petal excess induction",
-   "status": "CONDITIONAL",
-   "statement": "Bridge from petal_fixed_excess (PROVED, c fixed) to growing excess: the mixed-amplification induction on c with poly(n) constants uniform in c. EVIDENCE WALL: the growing-excess petal census \u2014 pre-registered scan of full-petal extras at c = 2..8 on calibration rows; interpretation fixed: counts flat in c => the induction's shape is right; growth in c => the amplification route needs a new idea (route_exact_rank is already REFUTED).",
-   "attack_surface": "the petal census machinery at growing c; delegable compute",
-   "falsifier": "petal extras growing with c at any calibration row",
-   "refs": [
-    "experimental/notes/roadmaps/flip_packets/imgfib.md"
-   ],
-   "notes": "UPSTREAM REINFORCEMENT: Vadim's residue bridge classifies full-petal capped kernel sets as quotient-coset OR residue-line data \u2014 the growing-excess census wall may reduce to residue-LINE counting (line arithmetic, not raw enumeration). Re-scope the scan spec before dispatch. | MODAL RUNNING ap-zd7RoOmGJ1hyL4MooOBOqg. Caveat: flat-vs-growth threshold is the agent's declared choice \u2014 referee against the banked bridge on return."
-  },
-  {
    "id": "b2b_dyadic_descent_packet",
    "title": "b2b dyadic descent packet",
    "status": "PROVED",
@@ -4311,45 +4263,12 @@
    "notes": "AUDIT FLAG RESOLVED (verified): Lemma 13 (dim K <= c+1, i.e. rank floor r >= ell) holds PERFECTLY in-regime \u2014 verified ell=3,t=5, c=2..8: r>=ell and dim_K in {0,0,1,3,5,7,9} all <= c+1 (tight at c=8). The apparent census discrepancy was OUT OF SCOPE: the census's ell=2,t=3 has d=c+ell > (t-1)ell-1=3 for c>=2, collapsing the residue space to <ell columns so r<ell is forced by dimensions. Lemma 13 is SOUND; the l1 note (line 91) confirms the floor is never violated in-regime."
   },
   {
-   "id": "petal_realizable_extra_uniformity",
-   "title": "Petal realizable-extra uniformity",
-   "status": "CONDITIONAL",
-   "statement": "Over the same coset-chart corridor range, the exact number of realizable full-petal extras controlled by the residue-line kernel is bounded by a polynomial whose exponent is independent of c. This is reduced to the proved injection of realizable extras into squarefree locator points inside the residue-line kernel plus the remaining uniform sparsity theorem for those points.",
-   "attack_surface": "assembly from petal_realizable_kernel_injection and petal_kernel_realizable_sparsity",
-   "falsifier": "a family where exact realizable full-petal extras grow beyond the uniform polynomial budget as c increases"
-  },
-  {
-   "id": "petal_mixed_amplification_step",
-   "title": "Petal mixed-amplification induction step",
-   "status": "CONDITIONAL",
-   "statement": "Assuming residue-line uniformity, the full-petal bound at excess c implies the corresponding bound at excess c+1 with polynomial constants controlled uniformly in c throughout the corridor range.",
-   "attack_surface": "derive the c to c+1 transition from the coset-chart bridge without using the refuted exact-rank formula",
-   "falsifier": "an induction coefficient or residue-line transition whose size grows super-polynomially with the corridor parameters or unboundedly with c"
-  },
-  {
    "id": "petal_squarefree_classification_counting_soundness",
    "title": "Petal squarefree classification counting soundness",
    "status": "PROVED",
    "statement": "If the squarefree realizable locator points in each residue-line kernel decompose into finitely many charged classes and uncharged classes each bounded by a polynomial with exponent independent of c, then petal_kernel_realizable_sparsity holds.",
    "attack_surface": "finite-union counting rule for classified squarefree kernel points",
    "falsifier": "a finite classification with each uncharged class uniformly polynomial but whose union grows beyond the same uniform-polynomial regime"
-  },
-  {
-   "id": "petal_kernel_realizable_sparsity",
-   "title": "Petal residue-kernel realizable sparsity",
-   "status": "CONDITIONAL",
-   "statement": "INTERFACE (band-split, compressed 2026-07-05, see REDUCTION_PACKET.md): squarefree realizable locator points in the residue-line kernels K_I,d are polynomially bounded with exponent independent of the excess c, SPLIT BY THE TOP-DEFECT BAND: (OFF-BAND, d < M(t-2)) the exact-degree-d kernel has top coefficient forced to zero (VERIFIED) => interior kernels embed lower rows => poly count via induction on defect + the proved counting soundness; supported by Codex 0/71210 generic realizable hits. (IN-BAND, d >= M(t-2)) conditional on the FRONTIER petal_cofactor_chargeability (price the band multi-char families). The former ledger/classification middle nodes are compressed into the packet.",
-   "attack_surface": "assembly from classification-to-sparsity soundness and the remaining squarefree kernel classification payload",
-   "falsifier": "a corridor family where squarefree realizable locator points inside the residue kernel grow beyond the uniform polynomial budget",
-   "notes": "| COMPRESSED per CHAIN_COMPRESSION_POLICY: ledger_payload + kernel_classification_payload -> REDUCTION_PACKET.md; band-split re-pose; knife stopped at the verified band line."
-  },
-  {
-   "id": "petal_residue_line_uniformity",
-   "title": "Petal residue-line uniformity",
-   "status": "CONDITIONAL",
-   "statement": "In the coset-chart residue bridge for the growing-excess petal problem, the residue-line contribution has uniformly bounded realizable full-petal extras over the corridor range; the ambient kernel dimension is controlled only by the proved linear Lemma 13 bound dim K<=c+1, and literal kernel flatness is refuted in small coset rows.",
-   "attack_surface": "assemble the proved linear kernel accounting with realizable-extra uniformity; do not use the refuted ambient-kernel flatness route",
-   "falsifier": "a calibration row or theorem where exact realizable full-petal extras grow with c beyond the allowed polynomial budget"
   },
   {
    "id": "petal_squarefree_classification_ledger_soundness",
@@ -5145,15 +5064,6 @@
    "attack_surface": "(i) survivor-conditioned field bound via the actual survivor equations (not support size); or (ii) obtain the D(n,h) + official Row-C primes and run the C2 gcd check.",
    "falsifier": "an official case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
    "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data. | T5 (verified): refined height H_20=136.24 (was 291); still insufficient for h=19,20 at Row-C => needs survivor-conditioned descent (R2) or C2 payload (R3)."
-  },
-  {
-   "id": "petal_cofactor_chargeability",
-   "title": "Petal cofactor chargeability lemma (P5-CL)",
-   "status": "TARGET",
-   "statement": "RE-POSED 2026-07-05 (TOP-DEFECT-BAND form; supersedes the interior-wide form): price the multi-character squarefree-realizable kernel families in the TOP-DEFECT BAND d in [M(t-2), M(t-1)-1] (width ell=M). VERIFIED STRUCTURE (exact, M=3, t=8/10/12): the exact-degree-d kernel has its top coefficient ALIVE precisely in the band (Omega-reduction active, deg(Y^2 B)>=t) and FORCED TO ZERO at all interior rows -- interior kernels are embeddings of lower rows, so the multi-char threat at exact defect is band-confined. In-band the kernel dim grows (~2c/M, c~(t-3)M) and at prize-scale q (log_q d! ~ 0) the realizable count ~ q^Theta(dim); the Pro explicit realizable family sits at the band top. OBLIGATION: a parameterized paid class + ledger price for the band families (finite menus refuted), OR a band-count bound compatible with downstream, OR show band families do not inflate the actual list. SCOPE CAVEATS: full-fibre chart with scalar degree 2 (band location M(t-g) depends on scalar degree g); coset charts show zero realizable mass (Codex); band width/location must be re-derived per corridor chart family.",
-   "attack_surface": "Decompose K_{I,d} into quotient-saturated (charged, cf. E22 tail-removed manifest) + bounded-dim primitive residual.",
-   "falsifier": "An in-regime family with c->inf, dim A_i(Z_c)->inf, not quotient/coset/signed/cyclotomic chargeable.",
-   "notes": "Sharpened by T2: family-level bounded-primitive-projection source; terminal proved; separate from E22. | AMBERED (Pro T7): conditional theorem PROVED (charged=>T2 finishes; uncharged=>bounded points); reduces to petal_primitive_residue_kernel_rank (PRK_pet). | CONSUMER-PREMISE ATTACK (my measurement): the SAME multi-char families that killed PRK kill this dichotomy (escape paid + dim Pi_prim grows ~2c/M). PRK pruned per the falsification-pruning protocol (salvage non-trivial, consumer falls to same object); frontier moved here. The petal red is now THIS node. | BAND CORRECTION: my earlier interior-real claim was WRONG (test accepted lower actual degrees = lower-row embeddings). Verified: top coeff alive iff d>=M(t-2). The obligation shrinks to the width-ell top band."
   },
   {
    "id": "e22_mixed_petal_covariance",
@@ -7639,22 +7549,7 @@
    "kind": "ev"
   },
   {
-   "from": "u1_minimal_fixed_core_sporadic_bound",
-   "to": "u1_pullback_dichotomy",
-   "kind": "req"
-  },
-  {
    "from": "u1_tame_toral_fiberproduct_classification",
-   "to": "u1_pullback_dichotomy",
-   "kind": "req"
-  },
-  {
-   "from": "u1_alpha_active_core_incidence",
-   "to": "u1_pullback_dichotomy",
-   "kind": "req"
-  },
-  {
-   "from": "u1_beta_band_trade_reduction",
    "to": "u1_pullback_dichotomy",
    "kind": "req"
   },
@@ -7701,11 +7596,6 @@
   {
    "from": "a2_depth_cell_active_shadow_bound",
    "to": "xr_partial_tangent_band",
-   "kind": "req"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "u1_alpha_active_core_incidence",
    "kind": "req"
   },
   {
@@ -8024,11 +7914,6 @@
    "kind": "req"
   },
   {
-   "from": "petal_excess_induction",
-   "to": "petal_growth",
-   "kind": "req"
-  },
-  {
    "from": "b2b_dyadic_descent_packet",
    "to": "b2_modp_giant_extras",
    "kind": "req"
@@ -8041,11 +7926,6 @@
   {
    "from": "b2b_primitive_core",
    "to": "b2_modp_giant_extras",
-   "kind": "req"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_excess_induction",
    "kind": "req"
   },
   {
@@ -8650,11 +8530,6 @@
   },
   {
    "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_residue_line_uniformity",
-   "kind": "req"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
    "to": "petal_residue_kernel_linear_bound",
    "kind": "req"
   },
@@ -8664,53 +8539,8 @@
    "kind": "req"
   },
   {
-   "from": "petal_residue_kernel_linear_bound",
-   "to": "petal_residue_line_uniformity",
-   "kind": "req"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_realizable_extra_uniformity",
-   "kind": "req"
-  },
-  {
    "from": "l1_coset_chart_residue_bridge",
    "to": "petal_realizable_kernel_injection",
-   "kind": "req"
-  },
-  {
-   "from": "petal_realizable_kernel_injection",
-   "to": "petal_realizable_extra_uniformity",
-   "kind": "req"
-  },
-  {
-   "from": "petal_kernel_realizable_sparsity",
-   "to": "petal_realizable_extra_uniformity",
-   "kind": "req"
-  },
-  {
-   "from": "petal_squarefree_classification_counting_soundness",
-   "to": "petal_kernel_realizable_sparsity",
-   "kind": "req"
-  },
-  {
-   "from": "petal_realizable_extra_uniformity",
-   "to": "petal_residue_line_uniformity",
-   "kind": "req"
-  },
-  {
-   "from": "petal_residue_line_uniformity",
-   "to": "petal_mixed_amplification_step",
-   "kind": "req"
-  },
-  {
-   "from": "petal_residue_line_uniformity",
-   "to": "petal_excess_induction",
-   "kind": "req"
-  },
-  {
-   "from": "petal_mixed_amplification_step",
-   "to": "petal_excess_induction",
    "kind": "req"
   },
   {
@@ -9536,21 +9366,6 @@
   {
    "from": "subfield_trace_paid_gate",
    "to": "dli_dirichlet_log_integral",
-   "kind": "req"
-  },
-  {
-   "from": "petal_cofactor_chargeability",
-   "to": "petal_kernel_realizable_sparsity",
-   "kind": "req"
-  },
-  {
-   "from": "petal_squarefree_classification_ledger_soundness",
-   "to": "petal_kernel_realizable_sparsity",
-   "kind": "req"
-  },
-  {
-   "from": "q_cofactor_normal_form",
-   "to": "petal_kernel_realizable_sparsity",
    "kind": "req"
   }
  ]

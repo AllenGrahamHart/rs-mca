@@ -376,3 +376,12 @@ unreplayed PR claim). ROOT CAUSE: auto_discharge skips zero-req conditionals (gu
 so they sit amber forever, invisible to every audit. ALL 3 demoted to TARGET. VALIDATOR INVARIANT ADDED
 (verify_prize_dag.py): CONDITIONAL with no wired req/alt hypotheses is now an ERROR. Critical reds 6 -> 8
 (honest count; the u1 pair feed u1_pullback_dichotomy -> mca_grand).
+
+## FRONTIER RETRACTION (fragility response): u1_pullback_dichotomy + petal_growth
+Trust in the critical DAG extremities had degraded (3 falsified-as-stated ambers, 2 hidden reds, prose
+hypotheses). Applied the new FRONTIER RETRACTION policy: both points demoted to TARGET (honest reds),
+9 non-proved dominated nodes cut (archived with manifests), 8 proved dominated nodes kept off the trust
+surface. dli deliberately kept in play (leaf+chain+consumer all validated). BOARD: 7 reds -- dli, sov, m720,
+e22, rate_half, petal_growth (poly(n) extras uniformly in c), u1_pullback_dichotomy (the compression theorem).
+Critical ambers shrink accordingly; the audit surface is now dominated by short, validated chains.
+The cut petal band structure + u1 census notes remain the best-known attack routes for the two new reds.

@@ -988,11 +988,6 @@
    "title": "L1 Lemma 2: sunflower core-defect reduction"
   },
   {
-   "id": "l1_coset_chart_residue_bridge",
-   "label": "PROVED",
-   "title": "UPSTREAM (Vadim, integrated by Przemek): the full-petal coset-chart residue-line bridge"
-  },
-  {
    "id": "l1_crt_compression",
    "label": "PROVED",
    "title": "L1 Lemmas 7/8: full-petal CRT compression + rank certificate"
@@ -1273,64 +1268,14 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
-   "id": "petal_cofactor_chargeability",
-   "label": "UNPROVED",
-   "title": "Petal cofactor chargeability lemma (P5-CL)"
-  },
-  {
-   "id": "petal_excess_induction",
-   "label": "CONDITIONAL",
-   "title": "petal excess induction"
-  },
-  {
    "id": "petal_fixed_excess",
    "label": "PROVED",
    "title": "Bound full-petal extras at each fixed excess d-ell <= c (finite toy enumerations)"
   },
   {
    "id": "petal_growth",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "Full-petal growth bound / mixed-petal amplification"
-  },
-  {
-   "id": "petal_kernel_realizable_sparsity",
-   "label": "CONDITIONAL",
-   "title": "Petal residue-kernel realizable sparsity"
-  },
-  {
-   "id": "petal_mixed_amplification_step",
-   "label": "CONDITIONAL",
-   "title": "Petal mixed-amplification induction step"
-  },
-  {
-   "id": "petal_realizable_extra_uniformity",
-   "label": "CONDITIONAL",
-   "title": "Petal realizable-extra uniformity"
-  },
-  {
-   "id": "petal_realizable_kernel_injection",
-   "label": "PROVED",
-   "title": "Petal realizable extras inject into residue kernel"
-  },
-  {
-   "id": "petal_residue_kernel_linear_bound",
-   "label": "PROVED",
-   "title": "Petal residue-kernel linear bound"
-  },
-  {
-   "id": "petal_residue_line_uniformity",
-   "label": "CONDITIONAL",
-   "title": "Petal residue-line uniformity"
-  },
-  {
-   "id": "petal_squarefree_classification_counting_soundness",
-   "label": "PROVED",
-   "title": "Petal squarefree classification counting soundness"
-  },
-  {
-   "id": "petal_squarefree_classification_ledger_soundness",
-   "label": "PROVED",
-   "title": "Petal squarefree classification-ledger soundness"
   },
   {
    "id": "q_cofactor_normal_form",
@@ -1533,23 +1478,8 @@
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
   },
   {
-   "id": "u1_alpha_active_core_incidence",
-   "label": "CONDITIONAL",
-   "title": "INPUT A: the active-core incidence theorem (the genuine new math)"
-  },
-  {
-   "id": "u1_beta_band_trade_reduction",
-   "label": "UNPROVED",
-   "title": "INPUT B: the band-trade reduction"
-  },
-  {
-   "id": "u1_minimal_fixed_core_sporadic_bound",
-   "label": "UNPROVED",
-   "title": "BANKABLE PARTIAL (X-7): per-core sporadic fiber bound"
-  },
-  {
    "id": "u1_pullback_dichotomy",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "U1 \u2014 THE CLOSING CONJECTURE: cancellation is pullback, quantitatively"
   },
   {
@@ -2481,19 +2411,7 @@
    "to": "xr_smallcore_spread_count"
   },
   {
-   "from": "u1_minimal_fixed_core_sporadic_bound",
-   "to": "u1_pullback_dichotomy"
-  },
-  {
    "from": "u1_tame_toral_fiberproduct_classification",
-   "to": "u1_pullback_dichotomy"
-  },
-  {
-   "from": "u1_alpha_active_core_incidence",
-   "to": "u1_pullback_dichotomy"
-  },
-  {
-   "from": "u1_beta_band_trade_reduction",
    "to": "u1_pullback_dichotomy"
   },
   {
@@ -2519,10 +2437,6 @@
   {
    "from": "a2_depth_cell_active_shadow_bound",
    "to": "xr_partial_tangent_band"
-  },
-  {
-   "from": "anchored_nontoral_pte_bound",
-   "to": "u1_alpha_active_core_incidence"
   },
   {
    "from": "anchored_nontoral_pte_bound",
@@ -2717,10 +2631,6 @@
    "to": "f1_case_tower"
   },
   {
-   "from": "petal_excess_induction",
-   "to": "petal_growth"
-  },
-  {
    "from": "b2b_dyadic_descent_packet",
    "to": "b2_modp_giant_extras"
   },
@@ -2731,10 +2641,6 @@
   {
    "from": "b2b_primitive_core",
    "to": "b2_modp_giant_extras"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_excess_induction"
   },
   {
    "from": "xr_ledger_exponent_reconciliation",
@@ -3111,58 +3017,6 @@
   {
    "from": "ef_fullfield_bridge",
    "to": "ef_descended_cycle_inventory_payload"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_residue_line_uniformity"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_residue_kernel_linear_bound"
-  },
-  {
-   "from": "l1_defect_layer_bounds",
-   "to": "petal_residue_kernel_linear_bound"
-  },
-  {
-   "from": "petal_residue_kernel_linear_bound",
-   "to": "petal_residue_line_uniformity"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_realizable_extra_uniformity"
-  },
-  {
-   "from": "l1_coset_chart_residue_bridge",
-   "to": "petal_realizable_kernel_injection"
-  },
-  {
-   "from": "petal_realizable_kernel_injection",
-   "to": "petal_realizable_extra_uniformity"
-  },
-  {
-   "from": "petal_kernel_realizable_sparsity",
-   "to": "petal_realizable_extra_uniformity"
-  },
-  {
-   "from": "petal_squarefree_classification_counting_soundness",
-   "to": "petal_kernel_realizable_sparsity"
-  },
-  {
-   "from": "petal_realizable_extra_uniformity",
-   "to": "petal_residue_line_uniformity"
-  },
-  {
-   "from": "petal_residue_line_uniformity",
-   "to": "petal_mixed_amplification_step"
-  },
-  {
-   "from": "petal_residue_line_uniformity",
-   "to": "petal_excess_induction"
-  },
-  {
-   "from": "petal_mixed_amplification_step",
-   "to": "petal_excess_induction"
   },
   {
    "from": "sov_forced_root_correctness",
@@ -3815,18 +3669,6 @@
   {
    "from": "subfield_trace_paid_gate",
    "to": "dli_dirichlet_log_integral"
-  },
-  {
-   "from": "petal_cofactor_chargeability",
-   "to": "petal_kernel_realizable_sparsity"
-  },
-  {
-   "from": "petal_squarefree_classification_ledger_soundness",
-   "to": "petal_kernel_realizable_sparsity"
-  },
-  {
-   "from": "q_cofactor_normal_form",
-   "to": "petal_kernel_realizable_sparsity"
   },
   {
    "from": "acl_second_order",
