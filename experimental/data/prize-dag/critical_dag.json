@@ -273,11 +273,6 @@
    "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
   },
   {
-   "id": "dihedral_sibling_window_certificate",
-   "label": "UNPROVED",
-   "title": "Dihedral fixed-point sibling window certificate (P6)"
-  },
-  {
    "id": "dli_artin_schreier_conductor_criterion",
    "label": "PROVED",
    "title": "DLI Artin-Schreier conductor criterion"
@@ -1344,7 +1339,7 @@
   },
   {
    "id": "petal_cofactor_chargeability",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Petal cofactor chargeability lemma (P5-CL)"
   },
   {
@@ -1371,6 +1366,11 @@
    "id": "petal_mixed_amplification_step",
    "label": "CONDITIONAL",
    "title": "Petal mixed-amplification induction step"
+  },
+  {
+   "id": "petal_primitive_residue_kernel_rank",
+   "label": "UNPROVED",
+   "title": "Petal primitive residue-kernel rank lemma PRK_pet (T7 residual)"
   },
   {
    "id": "petal_realizable_extra_uniformity",
@@ -1439,7 +1439,7 @@
   },
   {
    "id": "rate_half_band_closure",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
   },
   {
@@ -3965,10 +3965,6 @@
    "to": "e22_tail_removed_factor_manifest_payload"
   },
   {
-   "from": "dihedral_sibling_window_certificate",
-   "to": "rate_half_band_closure"
-  },
-  {
    "from": "q_cofactor_normal_form",
    "to": "e22_tail_removed_factor_manifest_payload"
   },
@@ -3979,6 +3975,10 @@
   {
    "from": "dli_prime_block_conductor_mass",
    "to": "dli_bohr_flatness_prime"
+  },
+  {
+   "from": "petal_primitive_residue_kernel_rank",
+   "to": "petal_cofactor_chargeability"
   },
   {
    "from": "acl_second_order",
