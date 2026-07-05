@@ -4321,11 +4321,11 @@
   {
    "id": "petal_squarefree_classification_ledger_payload",
    "title": "Petal actual squarefree classification ledger payload",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "CONDITIONAL on P5-CL (Pro P5): every squarefree full-petal kernel point injects into the cofactor space V_c (deg A_i<=c, dim K<=c+1 by Lemma 13), so all c-growth is in the cofactor coordinate. CLOSES given P5-CL: every cofactor family of dim > absolute B_pet is QUOTIENT/coset/signed/cyclotomic chargeable (sparse coeff support signature); then uncharged count is c-independent, total <= 2^M poly(M) q^{B_pet}=n^{O(1)}. SHARED THEME: needs quotient/coset chargeability.",
    "attack_surface": "project-specific structural classification of squarefree realizable kernel families",
    "falsifier": "a squarefree realizable kernel family missing from the ledger, charged without a paid citation, or uncharged without a c-independent polynomial bound",
-   "notes": "CENSUS RAN, INCONCLUSIVE (Modal): measures RAW extras (0->462 threshold jump, = charged coset mass) not the UNCHARGED residual the claim bounds; raw dim_K exceeds Lemma 13 c+1 (scope flag for audit). Needs a REFINED census separating charged/uncharged + flatness of the uncharged count in c. | LEMMA-13 FLAG RESOLVED: the census raw dim_K growth is EXPECTED (Lemma 13 permits dim K up to c+1, and it's tight at large c: dim_K ~ c in-regime). Confirms the census must measure the UNCHARGED residual (after charging paid coset families), NOT raw dim_K. Refined census config: use ell>=3 (so c=2..8 is in Lemma 13's regime d<=(t-1)ell-1); classify charged vs uncharged; test uncharged flatness."
+   "notes": "CENSUS RAN, INCONCLUSIVE (Modal): measures RAW extras (0->462 threshold jump, = charged coset mass) not the UNCHARGED residual the claim bounds; raw dim_K exceeds Lemma 13 c+1 (scope flag for audit). Needs a REFINED census separating charged/uncharged + flatness of the uncharged count in c. | LEMMA-13 FLAG RESOLVED: the census raw dim_K growth is EXPECTED (Lemma 13 permits dim K up to c+1, and it's tight at large c: dim_K ~ c in-regime). Confirms the census must measure the UNCHARGED residual (after charging paid coset families), NOT raw dim_K. Refined census config: use ell>=3 (so c=2..8 is in Lemma 13's regime d<=(t-1)ell-1); classify charged vs uncharged; test uncharged flatness. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "petal_mixed_amplification_step",
@@ -4386,11 +4386,11 @@
   {
    "id": "sov_affine_piece_partition_payload",
    "title": "SOV grid character-sum bound (affine-piece route REFUTED)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "RE-POSED (Pro P2+P3, verified): affine-piece route REFUTED (q>n incidence); grid-sum FALSE for the canonical trace char (F_{17^32}: 496/512 trace-zero points, cell density 0.506 at h=21, VERIFIED). single_obstruction survives (scan UNIFORM_CONSISTENT). NEW target P3': prove the grid character-sum bound after removing TRACE-FLAT/SUBFIELD-NORM gates (a!=0 with x->Tr(ax) constant on a positive-density cell) IN ADDITION to quotient/pullback/dihedral, then a Lane-1 power-sum / Lane-2 sheaf bound on the residual. SHARED THEME: trace/subfield-flat is a PAID gate (cf. dli P2).",
    "attack_surface": "actual anchored-core coordinate decomposition and exceptional-piece budget proof",
    "falsifier": "a forced-root conditioning cell with no such partition or with exceptional mass above the character-sum budget",
-   "notes": "SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close. | W2 (verified): affine-piece route REFUTED (q>n incidence obstruction); re-posed to the grid character-sum bound. Downstream single_obstruction NOT refuted."
+   "notes": "SOV SCAN DONE (Modal, evidence): UNIFORM_CONSISTENT across ALL (row,h) \u2014 n=128/256, h=21..40, 60k samples/config; collision ratio ~1.00 everywhere, max fiber 3-15, any_heavy_collisions=FALSE. Verdict UNIFORM_CONSISTENT_LEMMA_SHAPE_SUPPORTED \u2014 the value-distribution lemma shape is confirmed (small fibers). Evidence-only; the affine-piece partition proof (W-shaped char-sum) remains the close. | W2 (verified): affine-piece route REFUTED (q>n incidence obstruction); re-posed to the grid character-sum bound. Downstream single_obstruction NOT refuted. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "sov_active_core_obstruction_vanishing",
@@ -4680,10 +4680,10 @@
   {
    "id": "dli_harmonic_conductor_ledger",
    "title": "DLI polynomial-loss per-level bound (WEAKENED from sharp geometric-mean)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "SCOPED (Pro P2, verified): fixed-freq 2nd-moment flatness S_{j,lambda}=o(L_j) is FALSE over extension fields (F_{p^2}: a trace-zero lambda + subfield-valued section collapses psi to 1, S=Omega(L_j), VERIFIED) but HOLDS prime-field-wise (Tr=id, no collapse) \u2014 consistent with b2b's 'fixed prime q'. Prime rows: still needs the fixed-frequency Bohr bound (P2-A). EXTENSION rows (KoalaBear sextic F_{p^6}) need Weil-restriction to base F_p OR a proved no-subfield-trace-kernel-collapse hypothesis. SHARED THEME: the trace/subfield-flat frequencies are a PAID gate (cf. sov P3).",
    "falsifier": "a harmonic expansion with weighted normalized conductor total not o(t).",
-   "notes": "RE-POSED (agents.md level-2 insight, verified): needlessly strong. Primitive core needs sum eta_j = o(t) over 34 levels => polynomial-loss/level suffices (reserve ~2^35 >> O(log n)). Sharp -2log2 geometric mean NOT needed; the PROVED seen-coordinate lever + crude near-peak (~129/level) charge should close it. Deligne conductor-mass ledger over-engineered. | CLOSE ATTEMPT: the weakened polynomial-loss target is CONFIRMED NUMERICALLY (calibration eta*/L=3.6e-7 flat => sum eta_j ~ 3.6e-7*t ~ 3092 = o(t)). Rigorous proof reduces to the soft target eta_j/L_j->0 via the PROVED seen-coordinate lever + a near-peak (~129/level) deficit bound \u2014 handed to Pro window W1-DLI-POLYLOSS (much softer than the Deligne ledger). | W1 RESOLVED (target C, verified): Pro charge argument reduces dli to the near-peak multiplicity-mass seam o(L_j), calibration-supported. Deligne/\u20132log2 not needed. | CLOSE ATTEMPT (mine): reduced the near-peak seam FURTHER to the SECOND-MOMENT/additive-energy near-diagonal bound (the pcf-listed surviving route) \u2014 a standard estimate, but rigorous (mu_hat machinery not in repo). Handed to fresh window W1b-DLI-SECONDMOMENT. | W1b (verified): sharpened to fixed-frequency 2nd-moment S_{j,lambda}=o(L_j); my coincidence-count reduction was too strong (Pro corrected via Parseval counterexample). Target C."
+   "notes": "RE-POSED (agents.md level-2 insight, verified): needlessly strong. Primitive core needs sum eta_j = o(t) over 34 levels => polynomial-loss/level suffices (reserve ~2^35 >> O(log n)). Sharp -2log2 geometric mean NOT needed; the PROVED seen-coordinate lever + crude near-peak (~129/level) charge should close it. Deligne conductor-mass ledger over-engineered. | CLOSE ATTEMPT: the weakened polynomial-loss target is CONFIRMED NUMERICALLY (calibration eta*/L=3.6e-7 flat => sum eta_j ~ 3.6e-7*t ~ 3092 = o(t)). Rigorous proof reduces to the soft target eta_j/L_j->0 via the PROVED seen-coordinate lever + a near-peak (~129/level) deficit bound \u2014 handed to Pro window W1-DLI-POLYLOSS (much softer than the Deligne ledger). | W1 RESOLVED (target C, verified): Pro charge argument reduces dli to the near-peak multiplicity-mass seam o(L_j), calibration-supported. Deligne/\u20132log2 not needed. | CLOSE ATTEMPT (mine): reduced the near-peak seam FURTHER to the SECOND-MOMENT/additive-energy near-diagonal bound (the pcf-listed surviving route) \u2014 a standard estimate, but rigorous (mu_hat machinery not in repo). Handed to fresh window W1b-DLI-SECONDMOMENT. | W1b (verified): sharpened to fixed-frequency 2nd-moment S_{j,lambda}=o(L_j); my coincidence-count reduction was too strong (Pro corrected via Parseval counterexample). Target C. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "m720_official_norm_gate_certificate_soundness",
@@ -4832,11 +4832,11 @@
   {
    "id": "m720_official_norm_gate_case_manifest_payload",
    "title": "M720 actual official norm-gate case manifest payload",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "STRUCTURAL DISCHARGE (Pro P4, verified): a non-toral survivor => p | N_{L/Q}(A_j(R)) for a nonzero cleared cyclotomic obstruction A_j=2^{4h-2}O_j; if |N|<=B^{[L:Q]}<p then no survivor. Crude height log2 B_20 ~ 290.7 VERIFIED. Remaining: a DEGREE/CONDUCTOR COMPRESSION lemma (the obstruction lives in a small subfield L with 291*[L:Q]<log2 p) OR the C2 per-row certs gcd(p,D(n,h))=1. SHARED THEME: needs subfield/conductor compression.",
    "attack_surface": "project-specific official h=7..20 primitive norm-gate case enumeration and certificate manifest",
    "falsifier": "an official primitive norm-gate case missing from the manifest, a non-complete record, or a listed record with unpaid non-toral survivors",
-   "notes": "| MODAL CENSUS DONE (partial, EVIDENCE only): gate_pass=true; 6 cases exhausted with ZERO norm-gate witnesses (n=16,32 at h=7), but 73/79 cases INCOMPLETE (hit 6M-probe count_ceiling). No counterexample where complete, but the deployed cases (n>=64, higher h) did NOT exhaust \u2014 brute-force MITM enumeration is exponential and will not reach them. Node stays RED: needs a STRUCTURAL norm-gate argument (analytic witness bound), not exhaustion."
+   "notes": "MODAL CENSUS DONE (partial, EVIDENCE only): gate_pass=true; 6 cases exhausted with ZERO norm-gate witnesses (n=16,32 at h=7), but 73/79 cases INCOMPLETE (hit 6M-probe count_ceiling). No counterexample where complete, but the deployed cases (n>=64, higher h) did NOT exhaust \u2014 brute-force MITM enumeration is exponential and will not reach them. Node stays RED: needs a STRUCTURAL norm-gate argument (analytic witness bound), not exhaustion. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "m720_remaining_gate_replay",
@@ -5049,11 +5049,11 @@
   {
    "id": "e22_tail_removed_factor_manifest_payload",
    "title": "E22 actual tail-removed factor manifest payload",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "REDUCED (Pro W3, verified): the exact squarefree factorization L_{T_i\\B}(X)=prod_{z in Z_i}(X^{M_i}-z) is PROVED given the certificate CF(B,{M_i}) \u2014 common tail B subset T_i, dyadic M_i|n with M_i>t, |B|<min M_i, and kernel saturation (T_i\\B)mu_{M_i}=T_i\\B (verified p=97). It is NOT derivable from bare L_{T_i}|H_i (verified counterexample: one root per fiber). REMAINING SEAM: establish CF (common-tail extraction + full-fiber saturation) from the actual E22 cofactor equations; the full-fiber locator + local-to-common lemmas are already proved.",
    "attack_surface": "actual extraction of one bounded common tail and exact tail-removed quotient-factor identities from L_{T_i}|H_i",
    "falsifier": "a touched-petal cofactor divisor pattern for which no such common tail and exact quotient-factor identity exists",
-   "notes": "W3 (verified): factorization proved MODULO the CF kernel-saturation certificate (target C); bare divisibility insufficient. Remaining: extract CF from the cofactor equations. | CF-EXTRACTION ANALYSIS (mine, verified): the whole E22 CF certificate reduces through PROVED steps (fiber_locator_saturation, kernel_invariance_full_fiber_criterion, two_class_exhaustion, dyadic_local_to_common_saturation, tail_removed_quotient_factor_passthrough) to ONE irreducible core: e22_cofactor_common_tail_kernel_invariance (mixed-petal kernel invariance + bounded tail). FULL-PETAL case CLOSED: a full touched petal beta*mu_M has locator X^M-beta^M = full fiber (verified p=193). RESIDUAL = the mixed-petal completion: partial agreements across several petals whose union must be mu_M-saturated after removing a bounded tail B (|B|<min M_i). This needs the E22 sunflower's degree/scalar data (the mu_M-covariance of U,L_{Z\\C},L_{C\\Z},a_i) to force completion \u2014 the sharp Pro-shaped obligation."
+   "notes": "W3 (verified): factorization proved MODULO the CF kernel-saturation certificate (target C); bare divisibility insufficient. Remaining: extract CF from the cofactor equations. | CF-EXTRACTION ANALYSIS (mine, verified): the whole E22 CF certificate reduces through PROVED steps (fiber_locator_saturation, kernel_invariance_full_fiber_criterion, two_class_exhaustion, dyadic_local_to_common_saturation, tail_removed_quotient_factor_passthrough) to ONE irreducible core: e22_cofactor_common_tail_kernel_invariance (mixed-petal kernel invariance + bounded tail). FULL-PETAL case CLOSED: a full touched petal beta*mu_M has locator X^M-beta^M = full fiber (verified p=193). RESIDUAL = the mixed-petal completion: partial agreements across several petals whose union must be mu_M-saturated after removing a bounded tail B (|B|<min M_i). This needs the E22 sunflower's degree/scalar data (the mu_M-covariance of U,L_{Z\\C},L_{C\\Z},a_i) to force completion \u2014 the sharp Pro-shaped obligation. | AMBERED: decomposed into its Pro-reduced obligation(s); see reqs."
   },
   {
    "id": "e22_minimal_scale_pricing_compatibility",
@@ -5231,6 +5231,60 @@
    "statement": "For every dyadic pair M_i<M_j, count exactly the canonical minimal-scale-M_i E22 support data whose scale-M_i tail and incomplete-M_j-parent residual profile satisfy the raw M_j admissibility inequality from e22_overlap_nested_fiber_residual_identity, with the declared dyadic_profile_evaluation multiplicity. This is reduced to the proved residual generating function and the remaining lower-scale minimality/multiplicity filter.",
    "attack_surface": "assembly from the residual generating function and the remaining minimality/multiplicity filter",
    "falsifier": "a minimal-scale-M_i support whose residual profile is counted with the wrong binomial coefficient or multiplicity"
+  },
+  {
+   "id": "subfield_trace_paid_gate",
+   "title": "Subfield/trace-flat paid gate (SHARED: dli + sov)",
+   "status": "TARGET",
+   "statement": "Over extension rows F_q=F_{p^k} (k>=2), the TRACE-FLAT/subfield-degenerate locus is a PAID class OR reduces to the base F_p by Weil restriction: (frequency form, dli) lambda with Tr_{F_q/F_p}(lambda*phi(x)) == 0 on a positive-density section-image; (cell form, sov) cells where x->Tr(ax) is constant on a positive-density free-root set. VERIFIED these are non-negligible: F_{p^2} trace-zero lambda gives S=Omega(L_j) (P2); F_{17^32} canonical trace char is flat on 496/512 grid points, cell density 0.506 at h=21 (P3). Prime rows (k=1): VACUOUS (Tr=id, no proper subfield). SUPPORTED by the proved interleaved/Weil-restriction machinery that closed f1 (base reduction).",
+   "attack_surface": "Weil-restrict extension rows to base F_p (proved f1/interleaved machinery); or price the trace-flat/subfield-norm class in the paid ledger.",
+   "falsifier": "An extension row whose trace-flat/subfield-degenerate locus is neither paid nor base-reducible.",
+   "notes": ""
+  },
+  {
+   "id": "dli_bohr_flatness_prime",
+   "title": "DLI fixed-frequency Bohr flatness (PRIME rows)",
+   "status": "TARGET",
+   "statement": "Over PRIME rows F_p, the fixed-frequency second moment S_{j,lambda}=sum_r m_{j,r}|mu_hat_r(lambda)|^2 = o(L_j) uniformly in central profile M and nonzero lambda, for the odd-evaluation phase psi(lambda P_lambda(sigma(y))). No subfield collapse over prime fields (Tr=id). Equivalent to the eps-Bohr-pair mass B_{j,lambda}(sqrt delta)=o(L_j). Calibration eta*/L=3.6e-7 (P2 target A).",
+   "attack_surface": "Weil/Deligne cancellation for the low-degree odd phase off the exact-atom locus; second-moment/character-sum route.",
+   "falsifier": "A prime-row profile/frequency with S_{j,lambda}=Omega(L_j) at fixed nonzero lambda.",
+   "notes": ""
+  },
+  {
+   "id": "sov_gridsum_residual",
+   "title": "SOV grid character-sum residual (non-trace-flat cells)",
+   "status": "TARGET",
+   "statement": "After removing the trace-flat/subfield-norm paid gate (and quotient/pullback/dihedral), the grid character-sum |sum_{L in Omega} psi([X^{h-1}]L)| <= CharBudget on the residual cells, small enough for sov_hminus1_fiber_fourier_duality (PROVED) to give the small-fiber single_obstruction bound. Lane 1: power-sum |sum_{x in Gamma} psi(jax)|<=B (1<=j<=h, p0\u2224j) => coefficient majorant. Lane 2: Artin-Schreier sheaf nontriviality off the paid locus, trace<=cond*q^{dim/2} (P3').",
+   "attack_surface": "Lane-1 distinct-coordinate/symmetric-power sieve; Lane-2 sheaf trace bound on the divisor chart.",
+   "falsifier": "A positive-density residual (non-trace-flat, non-quotient) cell with no cancellation.",
+   "notes": ""
+  },
+  {
+   "id": "m720_conductor_compression",
+   "title": "m720 norm-gate conductor/degree compression",
+   "status": "TARGET",
+   "statement": "Either (compression) every non-toral anchored cleared obstruction A_j(R)=2^{4h-2}O_j relevant to h in [7,20] lies in a subfield L with 291*[L:Q] < log2 p (crude height log2 B_20~290.7 VERIFIED), so p \u2224 N_{L/Q}(A_j) for the official primes; OR (certificate) the C2 per-row gcd(p, D(n,h))=1 for the official p-values. Either discharges the norm gate without census (P4-HB).",
+   "attack_surface": "A degree/conductor compression lemma (obstruction in a small subfield); or the D(n,h)-GCD per-row certificates.",
+   "falsifier": "An official primitive case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
+   "notes": ""
+  },
+  {
+   "id": "petal_cofactor_chargeability",
+   "title": "Petal cofactor chargeability lemma (P5-CL)",
+   "status": "TARGET",
+   "statement": "There is an absolute B_pet (indep of c,d,ell,t,q,n) such that every squarefree-realizable petal cofactor family A_i(Z) subset V_c is EITHER charged (contained in a paid quotient/coset/signed/cyclotomic family \u2014 sparse-coefficient signature) OR has dim A_i(Z) <= B_pet. Then (via the proved cofactor injection, deg A_i<=c, dim K<=c+1) the uncharged count is c-INDEPENDENT, total <= 2^M poly(M) q^{B_pet} = n^{O(1)}.",
+   "attack_surface": "Decompose K_{I,d} into quotient-saturated (charged, cf. E22 tail-removed manifest) + bounded-dim primitive residual.",
+   "falsifier": "An in-regime family with c->inf, dim A_i(Z_c)->inf, not quotient/coset/signed/cyclotomic chargeable.",
+   "notes": ""
+  },
+  {
+   "id": "e22_mixed_petal_covariance",
+   "title": "E22 sunflower mixed-petal covariance (P1)",
+   "status": "TARGET",
+   "statement": "The E22 sunflower construction supplies, off one common bounded tail B (|B|<min_i M_i), the mu_{M_i}-COVARIANCE of the cofactor on each touched petal: H_i(eta x)=eta^{e_i} H_i(x) for eta in mu_{M_i}, i.e. H_i(X)=X^{e_i} G_i(X^{M_i}) on the petal coordinate (equivalently the degree/remainder form: non-tail fiber remainders of H_i have <=t zeros unless X^{M_i}-z | H_i). VERIFIED necessary: divisor constraints ALONE fail (interpolation defeats every |B|<min M_i, P1). This forces mixed-petal kernel invariance => the proved downstream (fiber locator, dyadic glue, passthrough) closes e22.",
+   "attack_surface": "Extract the covariance/degree property from the actual E22 moment-trade sunflower model (U, L_{Z\\C}, L_{C\\Z}, a_i).",
+   "falsifier": "A mixed-petal challenger whose cofactor is not mu_M-semi-invariant off any bounded tail.",
+   "notes": ""
   }
  ],
  "edges": [
@@ -9622,6 +9676,41 @@
   {
    "from": "e22_staircase_arithmetic_pricing",
    "to": "e22_challenger_staircase_pricing",
+   "kind": "req"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "dli_harmonic_conductor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_bohr_flatness_prime",
+   "to": "dli_harmonic_conductor_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "sov_affine_piece_partition_payload",
+   "kind": "req"
+  },
+  {
+   "from": "sov_gridsum_residual",
+   "to": "sov_affine_piece_partition_payload",
+   "kind": "req"
+  },
+  {
+   "from": "m720_conductor_compression",
+   "to": "m720_official_norm_gate_case_manifest_payload",
+   "kind": "req"
+  },
+  {
+   "from": "petal_cofactor_chargeability",
+   "to": "petal_squarefree_classification_ledger_payload",
+   "kind": "req"
+  },
+  {
+   "from": "e22_mixed_petal_covariance",
+   "to": "e22_tail_removed_factor_manifest_payload",
    "kind": "req"
   }
  ]

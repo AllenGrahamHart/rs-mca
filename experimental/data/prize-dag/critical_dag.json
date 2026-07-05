@@ -278,6 +278,11 @@
    "title": "DLI Artin-Schreier conductor criterion"
   },
   {
+   "id": "dli_bohr_flatness_prime",
+   "label": "UNPROVED",
+   "title": "DLI fixed-frequency Bohr flatness (PRIME rows)"
+  },
+  {
    "id": "dli_circle_log_integral_constant",
    "label": "PROVED",
    "title": "DLI circle log-integral constant"
@@ -299,7 +304,7 @@
   },
   {
    "id": "dli_harmonic_conductor_ledger",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "DLI polynomial-loss per-level bound (WEAKENED from sharp geometric-mean)"
   },
   {
@@ -638,6 +643,11 @@
    "title": "E22 minimal-scale tail criterion"
   },
   {
+   "id": "e22_mixed_petal_covariance",
+   "label": "UNPROVED",
+   "title": "E22 sunflower mixed-petal covariance (P1)"
+  },
+  {
    "id": "e22_overlap_nested_fiber_residual_identity",
    "label": "PROVED",
    "title": "E22 nested-fiber residual identity"
@@ -684,7 +694,7 @@
   },
   {
    "id": "e22_tail_removed_factor_manifest_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "E22 actual tail-removed factor manifest payload"
   },
   {
@@ -1113,6 +1123,11 @@
    "title": "M720 complete bounded-band calibration certificates"
   },
   {
+   "id": "m720_conductor_compression",
+   "label": "UNPROVED",
+   "title": "m720 norm-gate conductor/degree compression"
+  },
+  {
    "id": "m720_ground_truth_replay",
    "label": "PROVED",
    "title": "M720 h=3,4,5 ground-truth replay"
@@ -1159,7 +1174,7 @@
   },
   {
    "id": "m720_official_norm_gate_case_manifest_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "M720 actual official norm-gate case manifest payload"
   },
   {
@@ -1318,6 +1333,11 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
+   "id": "petal_cofactor_chargeability",
+   "label": "UNPROVED",
+   "title": "Petal cofactor chargeability lemma (P5-CL)"
+  },
+  {
    "id": "petal_excess_induction",
    "label": "CONDITIONAL",
    "title": "petal excess induction"
@@ -1369,7 +1389,7 @@
   },
   {
    "id": "petal_squarefree_classification_ledger_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Petal actual squarefree classification ledger payload"
   },
   {
@@ -1449,7 +1469,7 @@
   },
   {
    "id": "sov_affine_piece_partition_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "SOV grid character-sum bound (affine-piece route REFUTED)"
   },
   {
@@ -1476,6 +1496,11 @@
    "id": "sov_forced_root_recursion_algebra",
    "label": "PROVED",
    "title": "SOV forced-root recursion algebra"
+  },
+  {
+   "id": "sov_gridsum_residual",
+   "label": "UNPROVED",
+   "title": "SOV grid character-sum residual (non-trace-flat cells)"
   },
   {
    "id": "sov_hminus1_affine_piece_decomposition",
@@ -1551,6 +1576,11 @@
    "id": "subcore_richline_classification",
    "label": "PROVED",
    "title": "THE MISSING LEMMA (found by cross-audit): rich-line exhaustiveness at near-k subcores"
+  },
+  {
+   "id": "subfield_trace_paid_gate",
+   "label": "UNPROVED",
+   "title": "Subfield/trace-flat paid gate (SHARED: dli + sov)"
   },
   {
    "id": "t_laurent_ritt_toral_stabilizer",
@@ -3890,6 +3920,34 @@
   {
    "from": "e22_staircase_arithmetic_pricing",
    "to": "e22_challenger_staircase_pricing"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "dli_harmonic_conductor_ledger"
+  },
+  {
+   "from": "dli_bohr_flatness_prime",
+   "to": "dli_harmonic_conductor_ledger"
+  },
+  {
+   "from": "subfield_trace_paid_gate",
+   "to": "sov_affine_piece_partition_payload"
+  },
+  {
+   "from": "sov_gridsum_residual",
+   "to": "sov_affine_piece_partition_payload"
+  },
+  {
+   "from": "m720_conductor_compression",
+   "to": "m720_official_norm_gate_case_manifest_payload"
+  },
+  {
+   "from": "petal_cofactor_chargeability",
+   "to": "petal_squarefree_classification_ledger_payload"
+  },
+  {
+   "from": "e22_mixed_petal_covariance",
+   "to": "e22_tail_removed_factor_manifest_payload"
   },
   {
    "from": "acl_second_order",
