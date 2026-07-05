@@ -225,3 +225,17 @@ Modal test + scaling:
   more stable. This is the scoping earning its place, not assumed.
 CAVEAT / REMAINING: naive root-coordinate window; Gate D's actual object is the QUOTIENT-coordinate window
 Sum_x x^{Qt} (part 2, the primitive-coordinate definition). Confirm the cap holds there too before full confidence.
+
+## PRIMITIVE COORDINATE — confirmed load-bearing + candidate definition (Gate N's core gap)
+Modal test over realizable kernel points (K_{I,d} split-squarefree):
+- naive (Q=1) moment window: capped at 2-3 (from prior test).
+- MAX quotient-coordinate window (over x->x^Q): reaches 5. Witness: F_37, roots {4,5,10,12,17,29}, Q=6, window=5.
+=> The primitive coordinate is REAL and load-bearing: the window small in the naive coordinate becomes large in a
+   quotient coordinate. CANDIDATE DEFINITION: primitive coord = argmax_Q window(sum_x x^{Qt}). Window 5 > excess 1
+   (consistent with Gate N ≥ c-kappa_N). This resolves the naive-vs-primitive contradiction Codex flagged.
+- STATUS of the petal-cluster bottleneck: the coordinate is no longer a total unknown -- a concrete, testable
+  candidate exists. REMAINING (Pro DEFINITION task): tie it to the petal/locator structure (vs generic x^Q) +
+  verify the window grows with excess c across realizable families. This is a definition/proof task, not numerical.
+STRESS-BEFORE-DECOMPOSE verdict: the shared coordinate is now empirically grounded (not vacuous, not undefined-in-
+principle). Once the definition is tied to the petal structure + c-scaling verified, the petal cluster can be
+decomposed on solid ground. Until then, do not add the foundation node.
