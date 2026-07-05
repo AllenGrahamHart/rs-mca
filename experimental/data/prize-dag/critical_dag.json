@@ -273,6 +273,11 @@
    "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
   },
   {
+   "id": "dihedral_sibling_window_certificate",
+   "label": "UNPROVED",
+   "title": "Dihedral fixed-point sibling window certificate (P6)"
+  },
+  {
    "id": "dli_artin_schreier_conductor_criterion",
    "label": "PROVED",
    "title": "DLI Artin-Schreier conductor criterion"
@@ -1424,7 +1429,7 @@
   },
   {
    "id": "rate_half_band_closure",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
   },
   {
@@ -3948,6 +3953,10 @@
   {
    "from": "e22_mixed_petal_covariance",
    "to": "e22_tail_removed_factor_manifest_payload"
+  },
+  {
+   "from": "dihedral_sibling_window_certificate",
+   "to": "rate_half_band_closure"
   },
   {
    "from": "acl_second_order",
