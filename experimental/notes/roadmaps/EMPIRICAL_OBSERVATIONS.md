@@ -333,3 +333,22 @@ Caveats: L=1 exhaustive at scale (L=2 only at n=32); toy q<=12289; K=2,4 block s
 => dli's amber consumer is the first to earn VALIDATED-FRONTIER status under the confirmation protocol.
    The dli branch now has: coherent weighted chain + empirically-nailed leaf obligation + validated consumer.
    It is the healthiest of the five branches.
+
+## BOUNDARY-ARTIFACT HYPOTHESIS REFUTED (petal multi-char falsification is INTERIOR-real)
+Question raised by Codex Attempt 9 (0 generic realizable hits, coset chart) + the observation that Pro's
+realizable construction sits AT the in-regime boundary d=(t-1)ell-1: is the multi-char falsification a
+boundary artifact (=> trivial salvage: handle the boundary row)?
+ANSWER: NO, on both counts (full-fibre chart, c_i=a_i^2):
+1. Multi-char kernel DIMENSION grows at interior rows too (t=12, d=17 interior: 8; ~2c/3 from mid-interior
+   to boundary; only vanishes when the kernel itself is empty at tiny d).
+2. Interior realizable MASS exists: t=8, d=11 (boundary=20): 3/400 sampled kernel points are split-squarefree,
+   ALL 3 multi-character. ENRICHMENT: random degree-11 polys split at ~1/11!~1e-7; 3/400 means the kernel is
+   ~10^4-fold enriched for split points -- the realizable mass is RARE but REAL and structured.
+   (0/400 at d>=14 rows is a POWERLESS test, not absence: the boundary rows also show 0/400 despite Pro's
+   PROVEN realizable construction there -- random sampling cannot find split polys at degree>=14.)
+CAVEAT: the 3 interior witnesses have not yet been run through the paid-class escape checks (boundary
+multi-char escapes 25/25; interior expected same, verify before final cut decision).
+CONSEQUENCE: the petal falsification is interior-real; the trivial-salvage escape hatch is CLOSED. The petal
+frontier converges to Codex's Attempt-9 conclusion: petal_squarefree_classification_ledger_payload is the
+live frontier, with the burden = CLASSIFY the rare-but-real structured realizable families (multi-char
+included) -- generic mass is absent (Codex, coset chart), structured mass exists (full-fibre, verified).
