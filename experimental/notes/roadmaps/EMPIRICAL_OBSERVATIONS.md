@@ -115,3 +115,15 @@ detour. Wired path and direct measurement AGREE.
 CAVEAT: spot-check of 3 joints + endpoint, NOT a full 17-node per-implication audit. The one residual
 item worth a Pro glance: confirm the T3 "near-peak mass / harmonic total o(t)" output EXACTLY matches
 the Deligne route's "reduced polar divisor harmonic total o(t)" input (same quantity, different language).
+
+## dli PRO CONDITIONAL CLOSURE (DLI-FLATNESS) — exact reduction PROVED, leaf = RES count
+- Lemma 1 (PROVED, orthogonality, VERIFIED): rho_j(M) = q^{L_j} |Z_j(M)| / U_j, Z_j = kernel skews
+  {d in prod D_y : A d = 0}. |Z_j|=81(ternary)/16(signed) match the harness B exactly. So dli-flatness
+  is EXACTLY a kernel-skew count.
+- Remaining leaf (RES): |R_j(M)| + 1_{0} <= q^{kappa_j} U_j/q^{L_j}, sum kappa_j=o(t); R_j (proved to
+  contain Z_j\{0}) = large-support(>=L_j+1) + norm-gated + not killed-cyclotomic. A sharp COUNTING stmt.
+- ZERO-ATOM (verified): unconditional-A FALSE if singleton-zero domains allowed (rho_j=q^{L_j}). Fix =
+  RANK CHARGING (zero atoms cost L_j - rank; central measure must exclude/charge them).
+- FIXED-LAMBDA refuted (|F_M|<=1): obstruction is aggregate kernel-skew mass, not any single lambda.
+- Empirical eta* flat (rho_j->1) = RES with kappa_j ~ 0 already supported. Remaining = the rigorous
+  RES/resultant-sieve count. dli confidence HIGH; exact reduction now PROVEN.
