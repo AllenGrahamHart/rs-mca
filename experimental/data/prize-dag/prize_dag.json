@@ -633,7 +633,8 @@
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
-   "statement": "Script-emitted per-A table: tan/quot(zones, intervals)/ext/ap columns, deduped total vs B*, checker-recomputed."
+   "statement": "Script-emitted per-A table: tan/quot(zones, intervals)/ext/ap columns, deduped total vs B*, checker-recomputed.",
+   "closure": "artifact"
   },
   {
    "id": "strat_tree",
@@ -4825,27 +4826,27 @@
   {
    "from": "spi_wall",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "xr_wall",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "monodromy_route",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "budget_b3",
    "to": "r2_rigidity",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "conj_f",
    "to": "r2_rigidity",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "beta2_reduction",
@@ -4930,17 +4931,17 @@
   {
    "from": "route_prime_avg",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "route_expsums",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "route_anticonc",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "graver_wall",
@@ -4955,27 +4956,27 @@
   {
    "from": "window_pred_aper0",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "alpha_front",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "beta_front",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "window_m5_charts",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "m4_table",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "strat_tree",
@@ -5010,17 +5011,17 @@
   {
    "from": "a384_bucket",
    "to": "deficiency_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "spi_dim1",
    "to": "deficiency_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "deficiency_growth",
    "to": "deficiency_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "pr172_ladder",
@@ -5035,7 +5036,7 @@
   {
    "from": "deficiency_ladder",
    "to": "second_pin_or_wall",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "qcore",
@@ -5100,7 +5101,7 @@
   {
    "from": "route_exact_rank",
    "to": "petal_growth",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "averaged_xr",
@@ -5170,7 +5171,7 @@
   {
    "from": "m4_table",
    "to": "compiler",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "lean_tier1",
@@ -5180,7 +5181,7 @@
   {
    "from": "row_slate",
    "to": "second_pin_or_wall",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "descriptor",
@@ -5190,7 +5191,7 @@
   {
    "from": "row_c_experiment",
    "to": "row_slate",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "second_pin_or_wall",
@@ -5205,7 +5206,7 @@
   {
    "from": "projected_locator_wall",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "deep_point",
@@ -5305,7 +5306,7 @@
   {
    "from": "displacement_uniform",
    "to": "spi_dimension_free",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "xr_crystallization",
@@ -5315,12 +5316,12 @@
   {
    "from": "petal_fixed_excess",
    "to": "petal_growth",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "petal_mixed_amplification",
    "to": "petal_growth",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "e1_fullness",
@@ -5395,7 +5396,7 @@
   {
    "from": "m3_generic_minor",
    "to": "window_program",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "m3_generic_minor",
@@ -5515,7 +5516,7 @@
   {
    "from": "u5_dichotomy",
    "to": "deficiency_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "vtdv",
@@ -5590,12 +5591,12 @@
   {
    "from": "two_slope_intersection",
    "to": "xr_crystallization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "spread_regime_bound",
    "to": "xr_crystallization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "two_slope_intersection",
@@ -5615,7 +5616,7 @@
   {
    "from": "galois_amplification",
    "to": "amplification_range_ext",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "amplification_range_ext",
@@ -5660,7 +5661,7 @@
   {
    "from": "common_code_line_budget",
    "to": "xr_crystallization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "common_code_line_budget",
@@ -5860,7 +5861,7 @@
   {
    "from": "payment_completeness",
    "to": "r2_rigidity",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "payment_completeness",
@@ -5890,7 +5891,7 @@
   {
    "from": "xr_inverse",
    "to": "xr_crystallization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "averaged_xr",
@@ -5970,7 +5971,7 @@
   {
    "from": "pma_aux_list_reduction",
    "to": "pma_wide_residual",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "petal_fixed_excess",
@@ -6020,12 +6021,12 @@
   {
    "from": "are_sharp_constant",
    "to": "amplification_range_ext",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "are_subfield_amp",
    "to": "amplification_range_ext",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "collision_norm_criterion",
@@ -6090,7 +6091,7 @@
   {
    "from": "collision_norm_criterion",
    "to": "e1_random_prime_model",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "are_exceptional_density",
@@ -6100,7 +6101,7 @@
   {
    "from": "spread_exception_classification",
    "to": "spread_regime_bound",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "gap1_product_model",
@@ -6480,12 +6481,12 @@
   {
    "from": "a426_universal_numerator",
    "to": "second_pin_a426",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "second_pin_a426",
    "to": "second_pin_or_wall",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "a426_universal_numerator",
@@ -6510,7 +6511,7 @@
   {
    "from": "spread_syzygy_circuit_bound",
    "to": "spread_exception_classification",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "f_support_lattice",
@@ -6805,7 +6806,7 @@
   {
    "from": "rigidity_kernel",
    "to": "spread_exception_classification",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "rigidity_kernel",
@@ -6850,7 +6851,7 @@
   {
    "from": "xr_sameslope_list_crossover",
    "to": "xr_smallcore_spread_count",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "f_many_sparse_structure",
@@ -6900,12 +6901,12 @@
   {
    "from": "spread_syzygy_ident",
    "to": "spread_exception_classification",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "x4_exactlist_staircase_split",
    "to": "xr_smallcore_spread_count",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "x4_exactlist_staircase_split",
@@ -6935,7 +6936,7 @@
   {
    "from": "u1_pullback_dichotomy",
    "to": "xr_smallcore_spread_count",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "star_pte_lemma",
@@ -6945,7 +6946,7 @@
   {
    "from": "u1_tame_toral_fiberproduct_classification",
    "to": "u1_pullback_dichotomy",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "t_poly_exact_toral",
@@ -7295,7 +7296,7 @@
   {
    "from": "spi_point_counting",
    "to": "r2_rigidity",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "ef_ru",
@@ -7855,7 +7856,7 @@
   {
    "from": "e22_two_class_exhaustion",
    "to": "worst_word_challenger_pricing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "e22_agreement_cofactor_equations",

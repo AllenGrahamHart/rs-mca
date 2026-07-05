@@ -348,11 +348,6 @@
    "title": "E1 two-cell folded manifest assembly soundness"
   },
   {
-   "id": "e22_two_class_exhaustion",
-   "label": "PROVED",
-   "title": "E22 two-class exhaustion for worst-word challengers"
-  },
-  {
    "id": "ef_component_control_alignment",
    "label": "PROVED",
    "title": "EF component-control alignment"
@@ -803,11 +798,6 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
-   "id": "petal_fixed_excess",
-   "label": "PROVED",
-   "title": "Bound full-petal extras at each fixed excess d-ell <= c (finite toy enumerations)"
-  },
-  {
    "id": "petal_growth",
    "label": "UNPROVED",
    "title": "Full-petal growth bound / mixed-petal amplification"
@@ -903,11 +893,6 @@
    "title": "Subfield/trace-flat paid gate (SHARED: dli + sov)"
   },
   {
-   "id": "t_laurent_ritt_toral_stabilizer",
-   "label": "PROVED",
-   "title": "PROVED (X-9): the tame Laurent-Ritt / toral stabilizer theorem \u2014 T's core"
-  },
-  {
    "id": "tr_joint_telescope",
    "label": "PROVED",
    "title": "FACE-1 CORE (derivation candidate): jointness telescopes to the joint stabilizer"
@@ -921,11 +906,6 @@
    "id": "u1_pullback_dichotomy",
    "label": "UNPROVED",
    "title": "U1 \u2014 THE CLOSING CONJECTURE: cancellation is pullback, quantitatively"
-  },
-  {
-   "id": "u1_tame_toral_fiberproduct_classification",
-   "label": "PROVED",
-   "title": "INPUT T: the toral fiber-product classification"
   },
   {
    "id": "u2_per_row_certifier",
@@ -1006,11 +986,6 @@
    "id": "xr_radius_arithmetic",
    "label": "PROVED",
    "title": "The coverage table: compute the REQUIRED ledger reach s*(rate) \u2014 a number, not a hope"
-  },
-  {
-   "id": "xr_sameslope_list_crossover",
-   "label": "PROVED",
-   "title": "RUNG 2a: same-slope families ARE the list challenge's object"
   },
   {
    "id": "xr_scattered_syzygy_flattice",
@@ -1242,10 +1217,6 @@
    "to": "ext_import"
   },
   {
-   "from": "petal_fixed_excess",
-   "to": "petal_growth"
-  },
-  {
    "from": "l1_program_frontier",
    "to": "imgfib"
   },
@@ -1260,10 +1231,6 @@
   {
    "from": "l1_defect_layer_bounds",
    "to": "l1_program_frontier"
-  },
-  {
-   "from": "l1_crt_compression",
-   "to": "petal_fixed_excess"
   },
   {
    "from": "paid_tan_fn",
@@ -1634,10 +1601,6 @@
    "to": "xr_clean_residual_any_gate"
   },
   {
-   "from": "xr_sameslope_list_crossover",
-   "to": "xr_smallcore_spread_count"
-  },
-  {
    "from": "xr_syzygy_flat_transport",
    "to": "xr_scattered_syzygy_flattice"
   },
@@ -1663,10 +1626,6 @@
   },
   {
    "from": "x4_exactlist_staircase_split",
-   "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "x4_exactlist_staircase_split",
    "to": "tr_perleaf_list_ident"
   },
   {
@@ -1680,18 +1639,6 @@
   {
    "from": "u1_pullback_dichotomy",
    "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "u1_pullback_dichotomy",
-   "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "u1_tame_toral_fiberproduct_classification",
-   "to": "u1_pullback_dichotomy"
-  },
-  {
-   "from": "t_laurent_ritt_toral_stabilizer",
-   "to": "u1_tame_toral_fiberproduct_classification"
   },
   {
    "from": "rules_freeze",
@@ -2104,10 +2051,6 @@
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
    "to": "dli_reduced_phase_manifest_soundness"
-  },
-  {
-   "from": "e22_two_class_exhaustion",
-   "to": "worst_word_challenger_pricing"
   },
   {
    "from": "dli_prime_weighted_large_block_support",

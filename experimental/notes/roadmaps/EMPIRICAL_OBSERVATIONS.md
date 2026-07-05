@@ -413,3 +413,14 @@ new wired red: u2c_giant_tnull_dichotomy (born red; strong scan evidence 39/39, 
 survivors; prize scales rest on it). 7 middles compressed; x4 interface hypotheses now: dli frontier +
 U2-C' + u1_pullback + proved sides. Two reds (dli, u1) + the new one now VISIBLY converge at x4 -- the
 lane's true epistemic shape, previously spread over 9 links.
+
+## RED-LEAF LAW (user catch #6): reds must be logical leaves
+User spotted red nodes with predicates -- semantically impossible (red = no proven implication, so nothing
+can be its logical hypothesis; if the implication were proved it would be amber). Sweep found 49 req/alt
+edges into proof-closure TARGETs/CONJECTUREs across the DAG -- including a red-depends-on-red
+(u1_pullback -> xr_smallcore) and a REFUTED alt on petal_growth (the same latent trap as rate_half's gate).
+ALL reclassified to 'ev' (evidence/ingredient -- the kind already existed and was used correctly elsewhere).
+Deliverable-assembly targets (closure=artifact: dossiers/tables, req = staged ingredient, RIPE-when-green)
+are exempt; m4_table tagged artifact. VALIDATOR LAW ADDED: proof-closure TARGET/CONJECTURE with req/alt
+in-edges is an error. Board unchanged: 7 reds, 21 ambers, 203 critical nodes (a few proved supporters
+dropped off the orbit as intended -- they are evidence, not logic).
