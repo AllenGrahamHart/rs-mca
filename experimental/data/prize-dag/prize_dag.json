@@ -4835,7 +4835,8 @@
    "status": "TARGET",
    "statement": "Construct the actual manifest covering every official-shape primitive h=7..20 norm-gate case, with each case discharged by a uniform nonvanishing theorem citation or a complete=true zero-survivor certificate record.",
    "attack_surface": "project-specific official h=7..20 primitive norm-gate case enumeration and certificate manifest",
-   "falsifier": "an official primitive norm-gate case missing from the manifest, a non-complete record, or a listed record with unpaid non-toral survivors"
+   "falsifier": "an official primitive norm-gate case missing from the manifest, a non-complete record, or a listed record with unpaid non-toral survivors",
+   "notes": "| MODAL CENSUS DONE (partial, EVIDENCE only): gate_pass=true; 6 cases exhausted with ZERO norm-gate witnesses (n=16,32 at h=7), but 73/79 cases INCOMPLETE (hit 6M-probe count_ceiling). No counterexample where complete, but the deployed cases (n>=64, higher h) did NOT exhaust \u2014 brute-force MITM enumeration is exponential and will not reach them. Node stays RED: needs a STRUCTURAL norm-gate argument (analytic witness bound), not exhaustion."
   },
   {
    "id": "m720_remaining_gate_replay",
