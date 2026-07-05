@@ -3562,7 +3562,7 @@
   {
    "id": "rate_half_band_closure",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "key": true,
    "statement": "Cover the 2,978,147-radius band at prize-max rate 1/2 \u2014 now proven (Modal, exact) to be OPEN ONLY for fields with log2 q in (255.900, 256): below the threshold the scale-free floor's reach (~n/log2 q) clears sigma* = 8,592,912,738 and the corridor closes like the other rates. The residual battlefield: the top 0.100 bits of the admissible field range, where the floor caps at 2^33 = sigma* - 2,978,146. Routes: averaged conversion at giant M, B2b-style balance, or safe-side push through sigma*. Rates 1/4, 1/8, 1/16 need nothing (clean by margins < -121).",
    "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
@@ -3570,7 +3570,8 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
    ],
-   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate."
+   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands.",
+   "gate": "any"
   },
   {
    "id": "worst_word_challenger_pricing",
@@ -3898,8 +3899,9 @@
   {
    "id": "aqb_averaged_quotient_box",
    "title": "AQB-I averaged quotient-box estimate",
-   "status": "CONDITIONAL",
-   "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently."
+   "status": "REFUTED",
+   "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently.",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "hankel_slope_large_sieve",
@@ -3938,10 +3940,11 @@
   {
    "id": "aqb_c2_average_family",
    "title": "AQB c=2 averaged quotient-box family",
-   "status": "CONDITIONAL",
+   "status": "REFUTED",
    "statement": "There exists an averaged family over the c=2 quotient-box geometry at sigma*=8,592,912,738 whose members share enough quotient structure for their list contributions to be averaged before paying the full box charge separately for each member. This is reduced to certificate semantics plus the remaining concrete averaged-family certificate payload.",
    "attack_surface": "assembly from the proved averaged-family certificate semantics and the remaining concrete c=2 family certificate payload",
-   "falsifier": "a structural theorem showing every admissible c=2 quotient-box family at sigma* decomposes into single-word boxes with no nontrivial shared quotient charge, or a defect in the certificate semantics"
+   "falsifier": "a structural theorem showing every admissible c=2 quotient-box family at sigma* decomposes into single-word boxes with no nontrivial shared quotient charge, or a defect in the certificate semantics",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "aqb_family_certificate_semantics",
@@ -3954,10 +3957,11 @@
   {
    "id": "aqb_c2_family_certificate_payload",
    "title": "AQB c=2 averaged-family certificate payload",
-   "status": "CONDITIONAL",
+   "status": "REFUTED",
    "statement": "Provide a concrete certificate for the averaged c=2 quotient-box family at sigma*=8,592,912,738: finite member parametrization, shared quotient/fiber data, reusable box-charge data, and transfer maps to the list witnesses consumed by the AQB averaging argument. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
    "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual coupled AQB manifest; no broad local WSL search",
-   "falsifier": "a missing certificate field, a failed quotient/fiber consistency check, or a certificate whose family decomposes into independent single-word boxes"
+   "falsifier": "a missing certificate field, a failed quotient/fiber consistency check, or a certificate whose family decomposes into independent single-word boxes",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "aqb_coupled_family_entropy_manifest_soundness",
@@ -3970,19 +3974,20 @@
   {
    "id": "aqb_coupled_family_entropy_manifest_payload",
    "title": "AQB actual coupled family-entropy manifest payload",
-   "status": "TARGET",
+   "status": "REFUTED",
    "statement": "Provide the actual coupled AQB manifest for sigma*=8,592,912,738: the c=2 averaged-family member parametrization, shared quotient/fiber and reusable charge data, member-to-witness transfers, and exact or interval-certified entropy ledger entries keyed to that same family with certified net gain at least 429,645,547 bits.",
    "attack_surface": "actual construction/import of the averaged c=2 family together with its certified entropy ledger",
    "falsifier": "a missing family field, a ledger not keyed to the family, or a certified net lower bound below 429,645,547 bits",
-   "notes": "| ATTACK OPEN (node 1): deficit side PROVED (B_I(256)=429645546.77<429645547, interval-certified); averaging transfer PROVED. Residue = the c=2 box-charge amortization gain (construct canonical family + closed-form ledger, net >=429645547, OR refute via independent-box decomposition). Self-contained Pro brief issued."
+   "notes": "ATTACK OPEN (node 1): deficit side PROVED (B_I(256)=429645546.77<429645547, interval-certified); averaging transfer PROVED. Residue = the c=2 box-charge amortization gain (construct canonical family + closed-form ledger, net >=429645547, OR refute via independent-box decomposition). Self-contained Pro brief issued. | AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "aqb_box_charge_amortization",
    "title": "AQB shared box-charge amortization",
-   "status": "CONDITIONAL",
+   "status": "REFUTED",
    "statement": "For the averaged c=2 quotient-box family, the shared box charge amortizes by at least 429,645,547 bits relative to the single-word floor at sigma*.",
    "attack_surface": "assembly from the family definition, proved threshold accounting, and the remaining shared-family entropy-gain inequality",
-   "falsifier": "a certified upper bound showing that the proposed averaged family saves less than 429,645,547 bits after all multiplicities, overlaps, and quotient/fiber normalizations are charged"
+   "falsifier": "a certified upper bound showing that the proposed averaged family saves less than 429,645,547 bits after all multiplicities, overlaps, and quotient/fiber normalizations are charged",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "aqb_amortization_threshold_accounting",
@@ -4003,10 +4008,11 @@
   {
    "id": "aqb_shared_entropy_gain",
    "title": "AQB shared-family entropy gain",
-   "status": "CONDITIONAL",
+   "status": "REFUTED",
    "statement": "For the averaged c=2 quotient-box family supplied by aqb_c2_average_family, the shared-family entropy minus all charged box, overlap, multiplicity, and quotient/fiber normalization costs is at least 429,645,547 bits. This is reduced to the proved entropy-ledger certificate soundness rule and the remaining exact ledger payload for the concrete averaged family.",
    "attack_surface": "assembly from entropy-ledger soundness and the remaining exact/interval payload for the concrete averaged family",
-   "falsifier": "a certified accounting of the proposed family whose net shared entropy gain is below 429,645,547 bits"
+   "falsifier": "a certified accounting of the proposed family whose net shared entropy gain is below 429,645,547 bits",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "aqb_entropy_ledger_certificate_soundness",
@@ -4019,10 +4025,11 @@
   {
    "id": "aqb_shared_entropy_gain_payload",
    "title": "AQB shared entropy-gain payload",
-   "status": "CONDITIONAL",
+   "status": "REFUTED",
    "statement": "For the averaged c=2 quotient-box family from aqb_c2_average_family, provide exact or interval-certified ledger entries for shared entropy and all costs whose certified net lower bound is at least 429,645,547 bits. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
    "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual entropy ledger keyed to the concrete averaged family",
-   "falsifier": "a missing ledger entry or certified net lower bound below 429,645,547 bits"
+   "falsifier": "a missing ledger entry or certified net lower bound below 429,645,547 bits",
+   "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
   },
   {
    "id": "xr_minor_specialization_certificate_semantics",
@@ -7114,7 +7121,7 @@
   {
    "from": "aqb_averaged_quotient_box",
    "to": "rate_half_band_closure",
-   "kind": "req"
+   "kind": "alt"
   },
   {
    "from": "conj_f",
@@ -7159,7 +7166,7 @@
   {
    "from": "aqb_average_member_transfer",
    "to": "rate_half_band_closure",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_deficit_arithmetic",
@@ -7169,7 +7176,7 @@
   {
    "from": "aqb_c2_average_family",
    "to": "aqb_averaged_quotient_box",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_family_certificate_semantics",
@@ -7194,22 +7201,22 @@
   {
    "from": "aqb_coupled_family_entropy_manifest_payload",
    "to": "aqb_c2_family_certificate_payload",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_c2_family_certificate_payload",
    "to": "aqb_c2_average_family",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_box_charge_amortization",
    "to": "aqb_averaged_quotient_box",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_c2_average_family",
    "to": "aqb_box_charge_amortization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_amortization_threshold_accounting",
@@ -7219,12 +7226,12 @@
   {
    "from": "aqb_shared_entropy_gain",
    "to": "aqb_box_charge_amortization",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_c2_average_family",
    "to": "aqb_shared_entropy_gain_payload",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_coupled_family_entropy_manifest_soundness",
@@ -7234,7 +7241,7 @@
   {
    "from": "aqb_coupled_family_entropy_manifest_payload",
    "to": "aqb_shared_entropy_gain_payload",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "aqb_entropy_ledger_certificate_soundness",
@@ -7244,7 +7251,7 @@
   {
    "from": "aqb_shared_entropy_gain_payload",
    "to": "aqb_shared_entropy_gain",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "xr_triangle_eliminant_form",

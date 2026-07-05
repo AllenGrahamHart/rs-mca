@@ -63,71 +63,6 @@
    "title": "Integrality: R2 (any poly) + tiny FM => aperiodic contribution EXACTLY 0 at candidates"
   },
   {
-   "id": "aqb_amortization_threshold_accounting",
-   "label": "PROVED",
-   "title": "AQB amortization threshold accounting"
-  },
-  {
-   "id": "aqb_average_member_transfer",
-   "label": "PROVED",
-   "title": "AQB average-to-member transfer"
-  },
-  {
-   "id": "aqb_averaged_quotient_box",
-   "label": "CONDITIONAL",
-   "title": "AQB-I averaged quotient-box estimate"
-  },
-  {
-   "id": "aqb_box_charge_amortization",
-   "label": "CONDITIONAL",
-   "title": "AQB shared box-charge amortization"
-  },
-  {
-   "id": "aqb_c2_average_family",
-   "label": "CONDITIONAL",
-   "title": "AQB c=2 averaged quotient-box family"
-  },
-  {
-   "id": "aqb_c2_family_certificate_payload",
-   "label": "CONDITIONAL",
-   "title": "AQB c=2 averaged-family certificate payload"
-  },
-  {
-   "id": "aqb_coupled_family_entropy_manifest_payload",
-   "label": "UNPROVED",
-   "title": "AQB actual coupled family-entropy manifest payload"
-  },
-  {
-   "id": "aqb_coupled_family_entropy_manifest_soundness",
-   "label": "PROVED",
-   "title": "AQB coupled family-entropy manifest soundness"
-  },
-  {
-   "id": "aqb_deficit_arithmetic",
-   "label": "PROVED",
-   "title": "AQB finite deficit arithmetic"
-  },
-  {
-   "id": "aqb_entropy_ledger_certificate_soundness",
-   "label": "PROVED",
-   "title": "AQB entropy-ledger certificate soundness"
-  },
-  {
-   "id": "aqb_family_certificate_semantics",
-   "label": "PROVED",
-   "title": "AQB averaged-family certificate semantics"
-  },
-  {
-   "id": "aqb_shared_entropy_gain",
-   "label": "CONDITIONAL",
-   "title": "AQB shared-family entropy gain"
-  },
-  {
-   "id": "aqb_shared_entropy_gain_payload",
-   "label": "CONDITIONAL",
-   "title": "AQB shared entropy-gain payload"
-  },
-  {
    "id": "averaged_slope_conversion",
    "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
@@ -829,7 +764,7 @@
   },
   {
    "id": "rate_half_band_closure",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
   },
   {
@@ -2224,10 +2159,6 @@
    "to": "pcf_evaluation_flatness"
   },
   {
-   "from": "aqb_averaged_quotient_box",
-   "to": "rate_half_band_closure"
-  },
-  {
    "from": "dli_dirichlet_log_integral",
    "to": "ejm_joint_moment"
   },
@@ -2238,78 +2169,6 @@
   {
    "from": "ef_ru",
    "to": "f1_full_field_pole_forcing"
-  },
-  {
-   "from": "aqb_average_member_transfer",
-   "to": "rate_half_band_closure"
-  },
-  {
-   "from": "aqb_deficit_arithmetic",
-   "to": "aqb_averaged_quotient_box"
-  },
-  {
-   "from": "aqb_c2_average_family",
-   "to": "aqb_averaged_quotient_box"
-  },
-  {
-   "from": "aqb_family_certificate_semantics",
-   "to": "aqb_c2_average_family"
-  },
-  {
-   "from": "aqb_family_certificate_semantics",
-   "to": "aqb_coupled_family_entropy_manifest_soundness"
-  },
-  {
-   "from": "aqb_entropy_ledger_certificate_soundness",
-   "to": "aqb_coupled_family_entropy_manifest_soundness"
-  },
-  {
-   "from": "aqb_coupled_family_entropy_manifest_soundness",
-   "to": "aqb_c2_family_certificate_payload"
-  },
-  {
-   "from": "aqb_coupled_family_entropy_manifest_payload",
-   "to": "aqb_c2_family_certificate_payload"
-  },
-  {
-   "from": "aqb_c2_family_certificate_payload",
-   "to": "aqb_c2_average_family"
-  },
-  {
-   "from": "aqb_box_charge_amortization",
-   "to": "aqb_averaged_quotient_box"
-  },
-  {
-   "from": "aqb_c2_average_family",
-   "to": "aqb_box_charge_amortization"
-  },
-  {
-   "from": "aqb_amortization_threshold_accounting",
-   "to": "aqb_box_charge_amortization"
-  },
-  {
-   "from": "aqb_shared_entropy_gain",
-   "to": "aqb_box_charge_amortization"
-  },
-  {
-   "from": "aqb_c2_average_family",
-   "to": "aqb_shared_entropy_gain_payload"
-  },
-  {
-   "from": "aqb_coupled_family_entropy_manifest_soundness",
-   "to": "aqb_shared_entropy_gain_payload"
-  },
-  {
-   "from": "aqb_coupled_family_entropy_manifest_payload",
-   "to": "aqb_shared_entropy_gain_payload"
-  },
-  {
-   "from": "aqb_entropy_ledger_certificate_soundness",
-   "to": "aqb_shared_entropy_gain"
-  },
-  {
-   "from": "aqb_shared_entropy_gain_payload",
-   "to": "aqb_shared_entropy_gain"
   },
   {
    "from": "xr_triangle_eliminant_form",
