@@ -2873,7 +2873,7 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted."
+   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/."
   },
   {
    "id": "wild_row_audit",
@@ -2913,19 +2913,6 @@
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
    "notes": "THE UNIFICATION (matching-composition witness + fiber arithmetic, verified): t-moment-null blocks of size b ARE fibers of polynomials with zero top-t coefficients (elementary symmetric functions of a fiber = the map's coefficients, invariant in the fiber value below e_b), and the matching-composition counterexample's psi-fiber pairs are the same class at b = 2. The fifth mechanism = PULLBACK ALONG RATIONAL MAPS with coefficient constraints; the symmetry quotients are its invertible/group special cases. Trade FAMILIES mix maps across blocks (each block a fiber of its own map) \u2014 the family class is the mixed-pullback closure. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
-  },
-  {
-   "id": "x4b_moment_trade_exclusion",
-   "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "For each official row (p, n, t): either (a) prove no super-logarithmic disjoint family of primitive (non-quotient, non-dihedral) t-moment-null blocks exists in the row domain \u2014 then the four-column split's moment column is empty/log-bounded there; or (b) enumerate/charge the existing families as the MomentTradeStaircase column with exact counts. Includes the full PTE-trade version (pairs P, Q with matching first-t power sums). This is per-prime certification-shaped \u2014 exactly the crux-2 architecture: the engine checks rows; Reading B semantics apply. The four-column split: ExactList <= QuotientStaircase + DihedralStaircase + MomentTradeStaircase + PrimitiveNoTradeExactList (<= n^2 target for the last).",
-   "attack_surface": "per-row search = lattice/coding computation (0/1 dual words with t leading zeros, weight window (t, O(log n)]): MITM/BKZ machinery from the certifier pipeline applies directly; theory side: weight distributions of the relevant cyclic codes, Weil-type bounds may kill small blocks at large p (the F_193 witness needed small p relative to n)",
-   "falsifier": "E37 finds primitive blocks at an official-row-like (p, n, t) with super-log families (then branch (b) is forced and the column gets charged)",
-   "refs": [
-    "experimental/notes/roadmaps/xr_budget_audit.md"
-   ],
-   "notes": "Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' \u2014 E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic at large p. | U2 \u2014 THE LARGE-PRIME CONJECTURE (branch (a) sharpened with first-moment arithmetic): at official rows, primitive t-moment-null blocks of size b in (t, polylog n] do not exist \u2014 expected count ~ n^b p^{-t}, and t log2 p >= 384 dwarfs b log2 n <= 41b at every official row (the verified witness needed p ~ n^3 \u2014 tiny; official p ~ 2^128+). Route: Weil/character-sum bounds on the block variety. E37 tests the threshold empirically; if confirmed, the moment column is EMPTY at official rows and the exclusion is a provable-shaped theorem, not a certification burden. | X-5 DEFINITIONAL FIX: the moment/PTE column must carry a BOUNDED GRAMMAR (shared-map fiber families with exact counting rules), NOT arbitrary trades \u2014 arbitrary trades are universal by the star-PTE lemma and uncountable as a column. QA.22's computed columns are already bounded-grammar instances (shared-map quotient/dihedral) \u2014 affordable; the compression conjecture says the full dictionary stays affordable. | F2/E37 (#21, 9/9 replayed): THE THRESHOLD IS MEASURED \u2014 primitive t=3 blocks (b <= 8) exist ONLY at very small p (hits at p = 193/257/577 for n = 64; none from p = 641 up; none at representative n^2, n^3, or 2^61 scales). Official rows (p ~ 2^128+) are far beyond every observed hit. b = 9, 10 honestly left open. U2 survives with its Weil-route target inequality now empirically calibrated. | U2 PROMOTED TO PROOF TARGET (X-6 brief drafted): the Weil-route theorem over the full b-window (t, O(log n)], uniform \u2014 the census's b = 9,10 gap makes window uniformity mandatory in the proof. | U2 REFUTED AS UNIVERSAL (X-6, witness verified here: 234-bit prime, sparse relation 1+a+a^2+a^4 = 0, ord(a) = 1024, block {+-1, +-b, +-b^2, +-b^4} in mu_2048 over F_{p^2} \u2014 3-moment-null, non-quotient, non-dihedral). MITIGATIONS, both verified: (1) the witness is INADMISSIBLE (q = 2^468 > 2^256 field cap); (2) the mechanism is resultant-divisibility \u2014 sparse-relation blocks exist EXACTLY at primes dividing fixed integers Res(relation, Phi_n) (finitely many exceptional primes per relation), so E37's small-p hits were small resultant factors and the 2^61 no-hits mean those primes divide no relevant resultant \u2014 evidence of SPARSITY, not a universal threshold. THE LANE'S NEW FORM: u2_per_row_moment_certifier \u2014 enumerate sparse-relation/moment ideals for b <= C log n, verify official-row primes divide none of the norms (pure divisibility checks; crux-2's architecture; Reading B semantics). The universal-theorem route is closed; the certification route is fully specified and cheap per row. Falsification #7 (mine). | THE CLOSURE PLAN (three pieces, window arithmetic first): (A) WINDOW SPLIT \u2014 blocks need b > t, so the small-block window (t, C log n] is EMPTY at prize-max rates (t ~ 10^9 >> log n): the sparse-relation class cannot exist there; small blocks threaten only Row-C-class rows (t = 3-5, b <= ~20). (B) SMALL-WINDOW CERTIFIER (Row-C-class, feasible NOW): per official row, certify no primitive t-null block of size b <= C log n exists in that row's domain \u2014 method: elimination/Groebner on the t power-sum equations over mu_n (b <= 20 variables), or the resultant route (enumerate sparse-relation patterns of weight <= b, check p divides no norm); E37's MITM machinery prototypes this; output = exact per-row certificates (Reading B inputs). (C) GIANT REGIME (prize-max, b >= t+1 ~ 10^9): disjointness caps gadget families at R <= n/t ~ 255; existing giant blocks are plausibly ONLY 2-power coset unions (M > t forces M >= 2^34 \u2014 the already-charged quotient staircase, QA.22-affordable); primitive-giant nonexistence is a named structural sub-target \u2014 and the FALLBACK is absorbency: even a charged primitive-giant column of QA.22-comparable size fits the 27-61-bit margins. Assign: (A)+(B) Codex; (C) statement first (roadmap-maker), then GPT Pro. | U2-C DRAFTED (u2c_giant_block_statement.md): the two-exit giant-regime statement with four handles, incl. the NEW complement duality (L_B L_comp = X^n - gamma forces co-blocks t-null \u2014 the regime is pinched from both ends) and the scaled toy falsifier (n = 256, t = 16 \u2014 trade-level MITM search). | F2-EXT (#25, 5/5 replayed): b = 9,10 CLOSED \u2014 low-prime hits persist (n=64, b=10 to p=1601); representative n^2/n^3/2^61 rows primitive-clean; the threshold picture holds at every tested b. | U2-C FALSIFIER SCAN: PASS (agent-green; my replay running in background \u2014 amend if red). Structural bonus: t-null blocks are BCH-type 0/1 words (DFT vanishing at 1..t); 2-power dictionary blocks reduce to residue classes mod n/16 (stride test); weight not divisible by 16 => automatically primitive. Both scales: only mu_16-cosets found; THE TAME DOOR DOES NOT OPEN (at n | q-1 the only minimal 2-power-root relation is 1 + (-1) = 0 \u2014 X-6's mechanism recurses into cosets). U2-C is PROOF-READY per the pre-registered exit; honest residuals: n=64 weights 19-31 and n=128 sampled not certified; special resultant primes untested. | QA.25 (#34): the boundary-scale ceilings are 1/1/64/1/1/2 across the six campaign rows \u2014 adding to QA.22 totals still fits every row. The boundary column is closed arithmetic at the candidates. | U2C-PRIME (#35): the repaired M >= t classifier charges every X-8 toy boundary witness \u2014 the residual dichotomy U2-C-prime machinery is validated. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "p3_affine_net_richline_residue",
@@ -3022,19 +3009,6 @@
     "experimental/notes/roadmaps/f2_moment_trade_census.md"
    ],
    "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there. | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | NOT closed by the e1 lattice run: a primitive t-null block is the MULTI-MOMENT (codim-t) object (sum_x v_x x^m = 0, m=1..t), not the codim-1 e1 collision. SAME methodology (fold + sparse-vector enumeration) on the higher-codimension lattice L_t = {v : sum v_x x^m = 0 mod p, m=1..t}, seeking a 0/1 vector of support b <= C log n. Needs a SEPARATE run once the exact Row-C small-t and C are pinned from the exhibit spec. Feasible, same tooling. | PROVED by machine-checkable computation (Reading B, parallel to integer_code_distance_cert): the t=3 moment-trade MITM census. GATE VALIDATED \u2014 reproduces the F2 census EXACTLY: n=64 primes 257->192 / 577->64 primitive blocks (F2's recorded hits), 641/769 CERTIFIED (F2's 'clean at 641+'). CERTIFICATE at TWO large representative primes (2^61 and 2^128, q=1 mod 64): NO primitive t=3-null block across the FULL structural range b=4..10 (= (t,2t+4], the F2 spec's own range) \u2014 extending the deferred b=9,10 bands (which only exceeded laptop MITM reach). MITM is exhaustive/complete per cell. Depends on U2-A window arithmetic (PROVED, 174/174). CAVEATS (honest, same as integer_cert): representative primes (no literal official primes exist); domain mu_64 (F2 threshold/representative row); per-prime (a bad prime could carry a block \u2014 survivable, charge-the-column); t=3 small-t. Verifier: notes/modal_u2_census.py."
-  },
-  {
-   "id": "u2c_boundary_scale_column",
-   "title": "THE REPAIR: the boundary-scale (M = t) zero-sum column + crossover arithmetic (QA.25)",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "(1) DICTIONARY CLAUSE: mu_t-coset unions with zero-sum value patterns (and the multi-level generalization for non-2-power t*: zero sums at each multiple of M <= t*) join the charged classes \u2014 exactly characterized, exactly countable (subset-sum collision counts, ~max(0, 2^{R/2}/q) scale). (2) QA.25 CROSSOVER ARITHMETIC: per admissible row, the boundary-column staircase mass vs B* = q/2^128 \u2014 the count GROWS as q shrinks while B* SHRINKS: locate the crossover row exactly; above it (incl. all six campaign candidates, verified nearly-empty) the column fits; below it the rows need richer per-row analysis (possibly a new determined-region-style boundary in q). (3) The residual dichotomy conjecture (U2-C'): every t-null block is a union of mu_M-cosets with M >= t... M = t INCLUDED... with zero-sum patterns \u2014 i.e., the boundary class + the old dictionary EXHAUST t-null blocks. The X-8 construction is consistent with this; its falsifier is a t-null block that is not even a boundary-scale coset union.",
-   "attack_surface": "the counting is elementary (subset-sum collision enumeration/bounds); the residual dichotomy may follow from the antipodal-descent structure one scale down; QA.25 is pure arithmetic",
-   "falsifier": "a t-null block that is not a union of mu_M-cosets for ANY M >= t dividing n (searchable: the toy scan machinery with the fiber test at M = t added \u2014 cheap extension)",
-   "refs": [
-    "experimental/notes/roadmaps/u2c_giant_block_statement.md"
-   ],
-   "notes": "(B) DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem \u2014 PROVED (one-paragraph Galois/Fourier argument, exhaustively toy-verified); B2a the boundary class \u2014 exactly counted (QA.25 fits); B2b the mod-p extras bound \u2014 the residue, with the Frobenius gap explaining WHY it exists, the first-moment balance explaining why counting can't close it, and the 123-bit cushion changing its difficulty class (no-concentration, not exclusion). (B) is now structurally parallel to (A): char-0 classification proved + one mod-p gap lemma \u2014 but WITHOUT the universal-variety trick (2^41 variables), compensated by the cushion. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL."
   },
   {
    "id": "t_poly_exact_toral",
@@ -3192,19 +3166,6 @@
    "refs": [
     "experimental/notes/roadmaps/b1_char0_giant_coset_theorem.md"
    ]
-  },
-  {
-   "id": "b2_modp_giant_extras",
-   "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion",
-   "status": "CONDITIONAL",
-   "key": true,
-   "statement": "At official prize-max rows: the count of non-coset-union t-null blocks (and their trade families) is <= n^3 = 2^123. STRUCTURE: (i) THE FROBENIUS GAP \u2014 q = 1 mod n makes Frobenius act trivially on frequencies, so B1's Galois forcing has NO mod-p analogue; extras genuinely can exist (the X-8 boundary class is exactly such) \u2014 the char-0/finite-field gap is fundamental, not technical. (ii) THE FIRST-MOMENT BALANCE: t log2 q ~ 2.15e12 vs log2(2^n) = 2.2e12 \u2014 the prize-max giant regime sits within ~2% of the counting threshold; pure counting can NEVER close it. (iii) THE CUSHION: the budget is 2^123, not 1 \u2014 the statement is 'no 2^123-fold concentration above the balanced mean', a FIXED arithmetic quantity per row (no adversarial quantifier). (iv) The boundary/zero-sum class is EXACTLY counted (QA.25: <= 64 per row, fits). Routes for the residue: the divisor frame (L_B = degree-b divisor of X^n - delta with a top-t coefficient gap \u2014 divisor-with-prescribed-coefficients counting), the mu_M-fiber descent (128 coupled fiber-DFTs), or a second-moment/pair-correlation bound at giant scale. SCAN VERDICT (39/39 rows, replayed): NOT FALSIFIED \u2014 and the shape is the best case: NO spike at the balance crossing; extras die BEFORE nominal balance, decaying faster than the mean; above balance every t-null block is exactly a coset union (the coset floor). Max observed excess 2^4.18 vs the toy cushion 2^15 \u2014 concentration exponent ~4 bits against the 123-bit prize cushion. NO SIXTH GUISE: every near-crossing survivor is X-8/QA.25 boundary-class. Coverage exact and honest: exhaustive mu_32 all-t, n=64 window b in [5,10] (amended from [5,16], disclosed), n=256/512 known-class arithmetic + falsifier-only sampling. RESIDUAL for the proof: large weights and prize scales rest on known-class arithmetic \u2014 the divisor-frame lemma must close them, now with the calibrated target: smooth sub-mean decay, boundary-class-only survivors, 119 bits of margin.",
-   "attack_surface": "the divisor-counting frame is the most promising: monic degree-b divisors of a fully-split X^n - delta with t prescribed top coefficients \u2014 a concrete F_q[X] counting question with possible Hayes/Carlitz-style tools; the cushion means even 2^100-lossy bounds close it",
-   "falsifier": "a toy-scale analogue showing concentration ~2^{cushion} above the mean (scaled: count non-coset t-null blocks at n = 256, t = 16, q chosen near the balance point \u2014 extend the U2-C scan machinery)",
-   "refs": [
-    "experimental/notes/roadmaps/u2c_falsifier_scan.md"
-   ],
-   "notes": "PRO PACKET INTEGRATED (verified 17/17): descent suite PROVED, near-tails PROVED (< 2^122, half the budget), boundary notation repaired (hazard 1), brief frame (c) refuted (hazard 2 = falsification #14, mine). The node now = the primitive core alone (b2b_primitive_core). | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land."
   },
   {
    "id": "h_window_derivation",
@@ -3503,18 +3464,6 @@
    ]
   },
   {
-   "id": "b2b_primitive_core",
-   "title": "b2b primitive core",
-   "status": "CONDITIONAL",
-   "statement": "THE REMAINING CORE of B2b: #{t-null primitive B : t+16 <= |B| <= n/2} <= 2^122 (after complement duality, the M > t dictionary, the M_0-boundary class, and the proved near-tails). The descent packet reduces this to counting bounded-multiplicity multiset-null objects WITH the odd skew equations retained; interpolation is dead at k = 16 (reaches 2^128). One structural input needed \u2014 candidate shapes: the skew-equation rigidity at successive scales, or a divisor-pair argument exploiting BOTH constrained halves of L_A L_{A^c} = X^n - 1.",
-   "attack_surface": "THE REFORMULATED CORE (Pro packet, verified 12/12): profile-constancy is dead (falsification #15 \u2014 F_17 witness) but replaced by stronger structure: Vandermonde support thresholds (2^{32-j}+1 per level) + the bounded-coefficient norm gate (no escape) + the EXACT character-sum cascade with sum L_j = t. The remaining core is sharp: prove the rho_j deviation product is q^{o(t)} on the central tower measure \u2014 i.e., bound large-support bounded-coefficient vectors whose folded resultants simultaneously carry the fixed prime. Two-level gate bound already unconditional.",
-   "falsifier": "a t-null primitive census at a scaled row showing core counts near the budget",
-   "refs": [
-    "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
-   ],
-   "notes": "ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out \u2014 strengthened into a framework. | PRO SKEW PACKET INTEGRATED (12/12 replayed): one falsification (#15, profile-constancy \u2014 honest witness banked), two new theorems (the bounded-coefficient norm gate \u2014 ask 2 CLOSED; the support thresholds), the exact cascade identity, and the unconditional two-level bound. The node's problem is now exact and norm-gate-shaped end to end. | LEVEL-2 FALSIFIER CONVERGES (Opus, 3 pre-registered tests, deterministic, 133MB): TEST 1 \u2014 the kill-test SURVIVED: the tower formula reproduces the exhaustive mu_32 census EXACTLY on all 8 rows (incl. 455488); the factorization is quantitatively real at level 2. TEST 2 \u2014 profile-constancy independently falsified (second witness set; constant on scaling orbits, NOT profiles; vacuous at non-exceptional primes) \u2014 converges with Pro's F_17 witness. TEST 3 \u2014 no coefficient explosion at generic primes; per-level rigidity numerically confirmed, matching the proved norm gate. NET (both lanes agree): exact factorization + proved rigidity + dead shortcut; the one question is the norm-gate-sparsity bound on the profile SUM (= Pro's rho_j product formulation). | CONDITIONAL (Pro Brief D route C, verified): reduces to the ONE per-level estimate pcf_norm_gate_flatness (|G_j| <= q^{-L_j+eta_j}U_j, sum eta_j=o(t)). The frontier moves inward to a single clean norm-gate count. | PREDICATE RESTATED (falsification #20): the resultant-majorant PCF is FALSE (the collapse identity); the conditional chain survives verbatim with the evaluation-form predicate pcf_evaluation_flatness (B_j itself <= balanced * q^eta \u2014 the direct statement; Lemma 2.1 onward unchanged). | EXTENSION-FIELD SCOPE GAP (Pro P2, verified): the DLI/PCF flatness is a PRIME-FIELD estimate ('fixed prime q'). Over extension rows (KoalaBear sextic F_{p^6}) trace-zero frequencies collapse the phase (S=Omega(L_j)). The primitive core must Weil-restrict extension rows to the base F_p (the interleaved/Weil machinery that closed f1) OR carry a proved no-trace-collapse hypothesis. Genuine open sub-obligation. | FALSIFICATION-PASS HANDOFF (for the falsify-and-clean loop): the dli sup formulation (dli_prime_weighted_large_block_support) is REFUTED -- a low-mass profile (L active ternary + rest zero, U_j=3^L, |Z_j|=1 by Vandermonde) forces rho_j=(q/3)^L=Omega(L_j) by MASS ALONE (log_q U_j << L_j), independent of resultants/norm-gate. VERIFIED. The sup was only a SUFFICIENT condition for the U-WEIGHTED AVERAGE of prod_j rho_j=q^{o(t)} (the real requirement). REASSESSMENT NEEDED HERE: does this node use the per-profile bound rho_j<=q^{eta_j} (BROKEN on low-mass profiles) or the U-weighted average (SAVABLE)? If per-profile: SAVE by re-posing to the weighted average (down-weights low-mass profiles by U(Pi)); if unsavable, the dli sup cluster (leaf->block_conductor->bohr->harmonic_ledger) collapses into the b2b weighted-average count directly. Lemma 1 exact reduction rho_j=q^{L_j}|Z_j|/U_j SURVIVES. See notes/EMPIRICAL_OBSERVATIONS.md."
-  },
-  {
    "id": "l1_coset_chart_residue_bridge",
    "title": "UPSTREAM (Vadim, integrated by Przemek): the full-petal coset-chart residue-line bridge",
    "status": "PROVED",
@@ -3622,20 +3571,6 @@
    "notes": "PROVED via the pinned-value variant (cleanliness is FALSE in general \u2014 the MDS monic-slice example); verified 279 flats."
   },
   {
-   "id": "pcf_evaluation_flatness",
-   "title": "pcf evaluation flatness",
-   "status": "CONDITIONAL",
-   "statement": "The CORRECTED flatness target (post falsification #20): for every central\nlevel-j profile M, the TRUE valid-skew count satisfies\nB_j(M) = #{d in D_j(M) : Q_d(zeta^{2l-1}) = 0 in F_q for all 1 <= l <= L_j}\n<= q^{-L_j + eta_j} U_j(M), with sum_j eta_j = o(t) (prize budget\nq^{-t+H} W_cen <= 2^122). The conditions are the ACTUAL odd evaluation\nequations at the specific roots \u2014 L_j genuinely independent F_q-conditions \u2014\nNOT the folded-resultant divisibility, which collapses to ONE condition for\n2-power moduli (Res(X^N+1, Q_{d,r}) = Res(X^N+1, Q_{d,1}) for all odd r \u2014\nthe collapse identity, proved+verified). Surviving levers: the second-moment/\ncharacter-sum route (untouched by the falsifier), the divisor-pair bilinear\nroute, and any structure that remembers WHICH roots are prescribed.",
-   "notes": "CONDITIONAL (Pro D3 route C, verified): EJM_{2m} => flatness by exact Holder cancellation; the D2 falsifier is now a diagnostic (short by (3/5)^N); the proved 255L+1-coordinate lever replaces the dead resultant-gcd. | FALSIFICATION-PASS HANDOFF (for the falsify-and-clean loop): the dli sup formulation (dli_prime_weighted_large_block_support) is REFUTED -- a low-mass profile (L active ternary + rest zero, U_j=3^L, |Z_j|=1 by Vandermonde) forces rho_j=(q/3)^L=Omega(L_j) by MASS ALONE (log_q U_j << L_j), independent of resultants/norm-gate. VERIFIED. The sup was only a SUFFICIENT condition for the U-WEIGHTED AVERAGE of prod_j rho_j=q^{o(t)} (the real requirement). REASSESSMENT NEEDED HERE: does this node use the per-profile bound rho_j<=q^{eta_j} (BROKEN on low-mass profiles) or the U-weighted average (SAVABLE)? If per-profile: SAVE by re-posing to the weighted average (down-weights low-mass profiles by U(Pi)); if unsavable, the dli sup cluster (leaf->block_conductor->bohr->harmonic_ledger) collapses into the b2b weighted-average count directly. Lemma 1 exact reduction rho_j=q^{L_j}|Z_j|/U_j SURVIVES. See notes/EMPIRICAL_OBSERVATIONS.md."
-  },
-  {
-   "id": "ejm_joint_moment",
-   "title": "EJM joint Fourier moment",
-   "status": "CONDITIONAL",
-   "statement": "Nonzero-frequency joint moment bound for the odd-evaluation map (see statement.md); the corrected one-node residue of the primitive core.",
-   "notes": "CONDITIONAL (Pro D4 route b, verified: collision identity + 3 calibration rows exact): DLI => EJM_2 by pointwise log-loss + frequency union bound. The support lever is proved-but-insufficient (honest); no toy falsifier; geometric not arithmetic decay is the content. | FALSIFICATION-PASS HANDOFF (for the falsify-and-clean loop): the dli sup formulation (dli_prime_weighted_large_block_support) is REFUTED -- a low-mass profile (L active ternary + rest zero, U_j=3^L, |Z_j|=1 by Vandermonde) forces rho_j=(q/3)^L=Omega(L_j) by MASS ALONE (log_q U_j << L_j), independent of resultants/norm-gate. VERIFIED. The sup was only a SUFFICIENT condition for the U-WEIGHTED AVERAGE of prod_j rho_j=q^{o(t)} (the real requirement). REASSESSMENT NEEDED HERE: does this node use the per-profile bound rho_j<=q^{eta_j} (BROKEN on low-mass profiles) or the U-weighted average (SAVABLE)? If per-profile: SAVE by re-posing to the weighted average (down-weights low-mass profiles by U(Pi)); if unsavable, the dli sup cluster (leaf->block_conductor->bohr->harmonic_ledger) collapses into the b2b weighted-average count directly. Lemma 1 exact reduction rho_j=q^{L_j}|Z_j|/U_j SURVIVES. See notes/EMPIRICAL_OBSERVATIONS.md."
-  },
-  {
    "id": "aqb_averaged_quotient_box",
    "title": "AQB-I averaged quotient-box estimate",
    "status": "REFUTED",
@@ -3654,13 +3589,6 @@
    "title": "diffuse triple-shadow theorem",
    "status": "TARGET",
    "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED)."
-  },
-  {
-   "id": "dli_dirichlet_log_integral",
-   "title": "Dirichlet log-integral flatness",
-   "status": "CONDITIONAL",
-   "statement": "INTERFACE (chain compressed 2026-07-05, see REDUCTION_PACKET.md): near-log-integral geometric-mean distribution of low-degree odd evaluations on the section -- the final reduced input of the primitive core (feeds ejm_joint_moment). CONDITIONAL on the frontier dli_prime_weighted_large_block_support (the U-weighted/RES counting obligation) via the 14-step packet reduction (weighted ledger -> weighted 2nd moment -> full-mass-scoped Deligne branch -> log-integral), with 11 PROVED side-inputs reattached. The packet chain was validated pre-compression: weighted re-pose coherent end-to-end, tail margin 2^{-245 L_j}, consumer ledger exhaustively adversarially confirmed (n=32..2048).",
-   "notes": "STRATEGIC (verified): the sharp DLI (geometric mean -2log2) is stronger than the primitive core needs \u2014 polynomial-loss per level suffices (34 levels, reserve >> O(log n); agents.md level-2). The dli terminal weakened accordingly. | COMPRESSED per CHAIN_COMPRESSION_POLICY: 14 middle nodes -> REDUCTION_PACKET.md; folders archived at archive/compressed_dli_chain_20260705/."
   },
   {
    "id": "ef_ru",
@@ -4639,6 +4567,13 @@
    "attack_surface": "compute/bound the block-size distribution of the degree-preimage residue partition of the odd-eval map on the square-root section; likely checkable at small scale (mu_16/mu_32).",
    "falsifier": "a central profile / level whose actual map-partition carries Omega(L_j) mass on blocks of bounded size.",
    "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7. | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | REAL-OBJECT CORRECTION (harness-based, this session): my earlier max|mu_hat|~2.5/sqrt(n) evidence was a PROXY (whole-section average), NOT the real DLI object. The real object is B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y=sum_d psi(d lambda v_y) (VERIFIED via verify_level2_tower.py TEST 1 = exact census match). Excess rho=skewcount*q/2^|G| SCALES WITH q (not 1/sqrt(n)); eta_j=log_q rho_j. Governed by VANDERMONDE RIGIDITY: nonzero skew needs support >= L_j+1, so the meaningful regime is LARGE support (my |G|=3-6 test was below-threshold toy artifacts). Calibration eta*/L=3.6e-7 => eta_j=3.6e-7 L_j (linear, tiny coeff) => sum=o(t) via the small coefficient, NOT bounded excess. CONFIDENCE: HIGH->MEDIUM (proxy was misleading). NEXT: reproduce the calibration eta_j=3.6e-7 L_j on the real object at the actual calibration params. | REAL-OBJECT CONFIRMATION (Fourier form, verify_d3_reduction harness extended): the deviation exponent eta*=log_q rho_j is FLAT \u2014 rho_j -> 1.0000 (eta*->0) as N/scale grows, for BOTH ternary and signed domains. CALIBRATION REPRODUCED EXACTLY: signed midpoint eta*=0.019 at mu_32 N=16 (exact match to the node record), DECREASING with N; ternary flat ~0. So Sum_j eta_j = o(t) holds on the REAL object (prod_y mu_hat_y(lambda), not the earlier whole-section proxy). CONFIDENCE: MEDIUM->HIGH (now on the true object, calibration on the nose). The leaf is CORRECT as stated \u2014 no chain-hacking needed. | PRO CONDITIONAL CLOSURE (verified): exact reduction rho_j=q^L|Z_j|/U proved (Lemma 1); dli-flatness reduced to the RES resultant-survivor count; zero-atom caveat => rank-charged central measure; fixed-lambda refuted. The remaining leaf is now a sharp COUNTING statement, empirically supported. | ZERO-ATOM RESOLVED (verified): Pro's singleton-{0} counterexample was a phrasing artifact of my brief (\"bounded symmetric domain\" did not say ACTIVE). Real central profiles have active coords |D_y|>=2 and the wide Vandermonde odd-eval matrix A is FULL RANK (rank=L for all N>=L, verified) => rank-charging penalty L_j-rank=0. No real gap; scope = active full-rank central profiles (auto-satisfied). The RES count is unaffected. | MAJOR CORRECTION (verified): sup formulation REFUTED by a low-mass profile (rho_j=(q/3)^L, mass-forced). My HIGH confidence was overstated (only tested full-mass). The sufficient-condition route to b2b is dead; the real obligation is the U-weighted average = b2b directly, OPEN. Lemma 1 exact reduction still holds. This is the leaf-is-incorrect -> reassess scenario. | CODEX CROSS-VALIDATION (independent): reproduced the zero-atom/rank-deficient falsifier (matches Pro + my sup refutation); active full-rank large-support scans show the small-support spikes FLATTEN (active 18->36: rho 129->1.04; signed L=4 active 32->40: rho 4.06->1.15). Positive evidence that the rank-charged/weighted-average (large-support) obligation holds -- no large-support falsifier found."
+  },
+  {
+   "id": "u2c_giant_tnull_dichotomy",
+   "status": "TARGET",
+   "title": "U2-C prime: giant-regime t-null dichotomy",
+   "statement": "SURFACED HYPOTHESIS (dli-lane compression audit 2026-07-05; was PROSE inside u2c_boundary_scale_column clause 3 + the b2_modp divisor-frame residual): every t-null block at giant/boundary scale is a union of mu_M-cosets with M >= t (M = t included) carrying zero-sum value patterns -- i.e. boundary class + the dictionary EXHAUST t-null blocks (U2-C prime). This subsumes the b2_modp prose residual (if the dichotomy holds, extras = the exactly-counted boundary class, QA.25 <= 64 per row, and the 2^123 cushion follows). FALSIFIER: a t-null block that is not even a boundary-scale coset union. EVIDENCE (b2_modp scan, 39/39 rows replayed): NOT falsified; extras die before nominal balance; above balance every t-null block is exactly a coset union; every near-crossing survivor is X-8/QA.25 boundary-class; max excess 2^4.18 vs 2^15 toy cushion. Coverage: exhaustive mu_32 all-t, n=64 window b in [5,10], n=256/512 known-class arithmetic + falsifier-only sampling -- prize scales REST ON THIS DICHOTOMY (the divisor-frame lemma is the proposed proof route).",
+   "notes": "Born red: this hypothesis was always load-bearing, hidden in prose. Compression forced the declaration."
   }
  ],
  "edges": [
@@ -6988,11 +6923,6 @@
    "kind": "req"
   },
   {
-   "from": "x4b_moment_trade_exclusion",
-   "to": "x4_exactlist_staircase_split",
-   "kind": "req"
-  },
-  {
    "from": "p3_affine_net_richline_residue",
    "to": "p1_post_paid_subcore_richline_cap",
    "kind": "req"
@@ -7013,28 +6943,8 @@
    "kind": "ev"
   },
   {
-   "from": "u2_large_characteristic_lift",
-   "to": "x4b_moment_trade_exclusion",
-   "kind": "ev"
-  },
-  {
    "from": "u1_tame_toral_fiberproduct_classification",
    "to": "u1_pullback_dichotomy",
-   "kind": "req"
-  },
-  {
-   "from": "u2c_giant_block_dichotomy",
-   "to": "x4b_moment_trade_exclusion",
-   "kind": "ev"
-  },
-  {
-   "from": "u2_per_row_certifier",
-   "to": "x4b_moment_trade_exclusion",
-   "kind": "req"
-  },
-  {
-   "from": "u2c_boundary_scale_column",
-   "to": "x4b_moment_trade_exclusion",
    "kind": "req"
   },
   {
@@ -7061,16 +6971,6 @@
    "from": "x82_square_shift_certifier_keys",
    "to": "x83_uniform_square_shift_obstruction_gate",
    "kind": "ev"
-  },
-  {
-   "from": "b1_char0_giant_coset_theorem",
-   "to": "u2c_boundary_scale_column",
-   "kind": "ev"
-  },
-  {
-   "from": "b2_modp_giant_extras",
-   "to": "u2c_boundary_scale_column",
-   "kind": "req"
   },
   {
    "from": "value_set_partner_cap",
@@ -7228,21 +7128,6 @@
    "kind": "req"
   },
   {
-   "from": "b2b_dyadic_descent_packet",
-   "to": "b2_modp_giant_extras",
-   "kind": "req"
-  },
-  {
-   "from": "b2b_near_tail_bound",
-   "to": "b2_modp_giant_extras",
-   "kind": "req"
-  },
-  {
-   "from": "b2b_primitive_core",
-   "to": "b2_modp_giant_extras",
-   "kind": "req"
-  },
-  {
    "from": "l1_coset_chart_residue_bridge",
    "to": "petal_growth",
    "kind": "ev"
@@ -7255,16 +7140,6 @@
   {
    "from": "subcore_richline_classification",
    "to": "p1_post_paid_subcore_richline_cap",
-   "kind": "req"
-  },
-  {
-   "from": "bounded_coeff_norm_gate",
-   "to": "b2b_primitive_core",
-   "kind": "req"
-  },
-  {
-   "from": "skew_support_threshold",
-   "to": "b2b_primitive_core",
    "kind": "req"
   },
   {
@@ -7368,11 +7243,6 @@
    "kind": "ev"
   },
   {
-   "from": "pcf_evaluation_flatness",
-   "to": "b2b_primitive_core",
-   "kind": "req"
-  },
-  {
    "from": "generator_size_budget_check",
    "to": "generator_economy",
    "kind": "req"
@@ -7403,11 +7273,6 @@
    "kind": "req"
   },
   {
-   "from": "ejm_joint_moment",
-   "to": "pcf_evaluation_flatness",
-   "kind": "req"
-  },
-  {
    "from": "aqb_averaged_quotient_box",
    "to": "rate_half_band_closure",
    "kind": "alt"
@@ -7428,19 +7293,9 @@
    "kind": "req"
   },
   {
-   "from": "dli_dirichlet_log_integral",
-   "to": "ejm_joint_moment",
-   "kind": "req"
-  },
-  {
    "from": "e1_fullness",
    "to": "zone_b",
    "kind": "req"
-  },
-  {
-   "from": "pcf_norm_gate_flatness",
-   "to": "b2b_primitive_core",
-   "kind": "ev"
   },
   {
    "from": "spi_point_counting",
@@ -8279,62 +8134,92 @@
   },
   {
    "from": "dli_prime_weighted_large_block_support",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "u2c_giant_tnull_dichotomy",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "b2b_dyadic_descent_packet",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "b2b_near_tail_bound",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "bounded_coeff_norm_gate",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_artin_schreier_conductor_criterion",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_circle_log_integral_constant",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_deligne_weyl_transfer",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_et_peak_mass_reduction",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_odd_phase_budget_ledger_soundness",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_odd_phase_polar_obstruction_soundness",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_phase_pole_conductor_manifest",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "dli_truncated_log_transfer",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "skew_support_threshold",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "dli_dirichlet_log_integral",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
+   "from": "u2_per_row_certifier",
+   "to": "x4_exactlist_staircase_split",
    "kind": "req"
   }
  ]

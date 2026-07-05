@@ -403,3 +403,13 @@ narrowing question in cleaner form; Codex's e22 findings become its attack notes
 END-OF-DAY BOARD: 6 reds (dli validated+in play; petal_growth, u1_pullback, xr_spread_count,
 worst_word_challenger_pricing = retraction chokepoints; rate_half aside), 28 critical ambers (was 102).
 A complete statement-vs-wiring audit of the remaining ambers is now a feasible single task.
+
+## FULL-LANE COMPRESSION: dli -> x4_exactlist_staircase_split (single arc) + 1 hypothesis SURFACED
+User's framing adopted: the chain of ambers IS the conditional proof; the arc = the composed implication,
+the packet = the proof document. AUDIT BEFORE COMPRESSION (4 upper links) found the composed proof had TWO
+undeclared prose lemmas: (1) u2c clause 3 = "the residual dichotomy conjecture U2-C'" (load-bearing,
+unwired); (2) b2_modp's "divisor-frame lemma must close prize scales". U2-C' SUBSUMES (2). Declared as a
+new wired red: u2c_giant_tnull_dichotomy (born red; strong scan evidence 39/39, boundary-class-only
+survivors; prize scales rest on it). 7 middles compressed; x4 interface hypotheses now: dli frontier +
+U2-C' + u1_pullback + proved sides. Two reds (dli, u1) + the new one now VISIBLY converge at x4 -- the
+lane's true epistemic shape, previously spread over 9 links.

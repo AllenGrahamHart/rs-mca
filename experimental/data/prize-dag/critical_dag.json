@@ -73,11 +73,6 @@
    "title": "Axis 9: exact rates (dither adverse, provisional)"
   },
   {
-   "id": "b2_modp_giant_extras",
-   "label": "CONDITIONAL",
-   "title": "(B)'s residue: the mod-p extras bound at prize-max \u2014 with a 123-bit cushion"
-  },
-  {
    "id": "b2b_dyadic_descent_packet",
    "label": "PROVED",
    "title": "b2b dyadic descent packet"
@@ -86,11 +81,6 @@
    "id": "b2b_near_tail_bound",
    "label": "PROVED",
    "title": "b2b near tail bound"
-  },
-  {
-   "id": "b2b_primitive_core",
-   "label": "CONDITIONAL",
-   "title": "b2b primitive core"
   },
   {
    "id": "b_rational_lift",
@@ -231,11 +221,6 @@
    "id": "dli_deligne_weyl_transfer",
    "label": "PROVED",
    "title": "DLI Deligne-to-Weyl transfer"
-  },
-  {
-   "id": "dli_dirichlet_log_integral",
-   "label": "CONDITIONAL",
-   "title": "Dirichlet log-integral flatness"
   },
   {
    "id": "dli_et_peak_mass_reduction",
@@ -426,11 +411,6 @@
    "id": "ef_ru",
    "label": "PROVED",
    "title": "row-uniform extension-fiber hypothesis"
-  },
-  {
-   "id": "ejm_joint_moment",
-   "label": "CONDITIONAL",
-   "title": "EJM joint Fourier moment"
   },
   {
    "id": "exchange_calculus",
@@ -818,11 +798,6 @@
    "title": "Payment-completeness hypothesis: the ledger taxonomy is EXHAUSTIVE"
   },
   {
-   "id": "pcf_evaluation_flatness",
-   "label": "CONDITIONAL",
-   "title": "pcf evaluation flatness"
-  },
-  {
    "id": "periodic_strata",
    "label": "PROVED",
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
@@ -958,9 +933,9 @@
    "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
-   "id": "u2c_boundary_scale_column",
-   "label": "CONDITIONAL",
-   "title": "THE REPAIR: the boundary-scale (M = t) zero-sum column + crossover arithmetic (QA.25)"
+   "id": "u2c_giant_tnull_dichotomy",
+   "label": "UNPROVED",
+   "title": "U2-C prime: giant-regime t-null dichotomy"
   },
   {
    "id": "unsafe_at_crossing",
@@ -1001,11 +976,6 @@
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
-  },
-  {
-   "id": "x4b_moment_trade_exclusion",
-   "label": "CONDITIONAL",
-   "title": "THE p-SPECIFIC EXCLUSION: no primitive moment trades at official rows (or charge them)"
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -1689,10 +1659,6 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
-   "from": "x4b_moment_trade_exclusion",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
    "from": "u1_pullback_dichotomy",
    "to": "x4_exactlist_staircase_split"
   },
@@ -1705,20 +1671,8 @@
    "to": "u1_pullback_dichotomy"
   },
   {
-   "from": "u2_per_row_certifier",
-   "to": "x4b_moment_trade_exclusion"
-  },
-  {
-   "from": "u2c_boundary_scale_column",
-   "to": "x4b_moment_trade_exclusion"
-  },
-  {
    "from": "t_laurent_ritt_toral_stabilizer",
    "to": "u1_tame_toral_fiberproduct_classification"
-  },
-  {
-   "from": "b2_modp_giant_extras",
-   "to": "u2c_boundary_scale_column"
   },
   {
    "from": "rules_freeze",
@@ -1821,28 +1775,8 @@
    "to": "f1_case_tower"
   },
   {
-   "from": "b2b_dyadic_descent_packet",
-   "to": "b2_modp_giant_extras"
-  },
-  {
-   "from": "b2b_near_tail_bound",
-   "to": "b2_modp_giant_extras"
-  },
-  {
-   "from": "b2b_primitive_core",
-   "to": "b2_modp_giant_extras"
-  },
-  {
    "from": "xr_ledger_exponent_reconciliation",
    "to": "averaged_xr"
-  },
-  {
-   "from": "bounded_coeff_norm_gate",
-   "to": "b2b_primitive_core"
-  },
-  {
-   "from": "skew_support_threshold",
-   "to": "b2b_primitive_core"
   },
   {
    "from": "f_spread_descent_dichotomy",
@@ -1921,10 +1855,6 @@
    "to": "f1_pole_list_threshold_location"
   },
   {
-   "from": "pcf_evaluation_flatness",
-   "to": "b2b_primitive_core"
-  },
-  {
    "from": "generator_size_budget_check",
    "to": "generator_economy"
   },
@@ -1947,14 +1877,6 @@
   {
    "from": "hankel_rank_profile_entropy",
    "to": "spi_exceptional_class"
-  },
-  {
-   "from": "ejm_joint_moment",
-   "to": "pcf_evaluation_flatness"
-  },
-  {
-   "from": "dli_dirichlet_log_integral",
-   "to": "ejm_joint_moment"
   },
   {
    "from": "e1_fullness",
@@ -2170,51 +2092,75 @@
   },
   {
    "from": "dli_prime_weighted_large_block_support",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "u2c_giant_tnull_dichotomy",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "b2b_dyadic_descent_packet",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "b2b_near_tail_bound",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "bounded_coeff_norm_gate",
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_artin_schreier_conductor_criterion",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_circle_log_integral_constant",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_deligne_weyl_transfer",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_et_peak_mass_reduction",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_odd_phase_budget_ledger_soundness",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_odd_phase_polar_obstruction_soundness",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_phase_pole_conductor_manifest",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_reduced_phase_manifest_soundness",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_reduced_pole_majorant_table_soundness",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "dli_truncated_log_transfer",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "skew_support_threshold",
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "dli_dirichlet_log_integral"
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "u2_per_row_certifier",
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "acl_second_order",
