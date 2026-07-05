@@ -269,3 +269,17 @@ PRK is FALSE -> the 24 downstream petal->list/mca conditionals need fundamental 
 decisive petal-branch question. Do NOT invest in re-architecting PRK's proof until its TRUTH is resolved.
 LESSON: the amber we were trying to flip had never itself been adversarially tested -- exactly the gap the
 user flagged. The gates' refutation was the surface; the amber's truth is the real question.
+
+## PRK FALSIFIED AS STATED (petal_primitive_residue_kernel_rank) — the amber is FALSE with the current paid menu
+Attack (Modal, bug-fixed): generic multi-character kernel families (all mu_M-character blocks active, B_r in ker lambda):
+- ESCAPE every existing paid class (mu_k quotient/coset, antipodal, cyclotomic; low-defect is single-char-based too)
+  -- 25/25 across M=3,5,7, q=127..337, growing c. (First run's q-dependent catches were a z=1 bug in the mu_k
+  primitive-root computation -- g could be a k-th power => z=1 => spurious pass. Fixed => uniform escape.)
+- dimension GROWS ~ (M-1)c/M with excess c.
+=> after peeling the current menu, an UNBOUNDED residual survives => dim Pi_prim <= B_pet (absolute) is FALSE.
+   PRK is NOT true as stated.
+FIXABILITY (encouraging): the multi-character families are STRUCTURED -- a bounded number (2^M-M-1, c-independent)
+of product-of-kernel types. So PRK is likely FIXABLE by adding multi-character paid classes -- but that is a NEW
+chargeability obligation (each must fit a ledger budget), which does not exist yet.
+ANSWER to 'is the amber true / stress-tested?': NO -- and stress-testing FALSIFIED it as stated. The petal branch
+needs an expanded paid menu + multi-character chargeability. The 24 downstream conditionals hinge on this repair.

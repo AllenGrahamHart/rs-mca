@@ -1384,7 +1384,7 @@
   },
   {
    "id": "petal_primitive_residue_kernel_rank",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": "Petal primitive residue-kernel rank lemma PRK_pet (T7 residual)"
   },
   {
