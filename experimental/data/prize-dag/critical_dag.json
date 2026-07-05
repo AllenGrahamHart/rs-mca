@@ -298,6 +298,11 @@
    "title": "DLI Erdos-Turan peak-mass reduction"
   },
   {
+   "id": "dli_harmonic_conductor_ledger",
+   "label": "UNPROVED",
+   "title": "DLI low-total-normalized-conductor-mass ledger (the real gap)"
+  },
+  {
    "id": "dli_log_integral_equidistribution",
    "label": "CONDITIONAL",
    "title": "DLI log-integral equidistribution"
@@ -348,8 +353,13 @@
    "title": "DLI odd-evaluation peak-mass discrepancy"
   },
   {
+   "id": "dli_phase_pole_conductor_manifest",
+   "label": "PROVED",
+   "title": "DLI phase-side pole+conductor manifest (Pro, verified)"
+  },
+  {
    "id": "dli_reduced_phase_manifest_payload",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "DLI actual reduced-phase manifest payload"
   },
   {
@@ -3052,6 +3062,14 @@
   {
    "from": "dli_log_integral_equidistribution",
    "to": "dli_dirichlet_log_integral"
+  },
+  {
+   "from": "dli_phase_pole_conductor_manifest",
+   "to": "dli_reduced_phase_manifest_payload"
+  },
+  {
+   "from": "dli_harmonic_conductor_ledger",
+   "to": "dli_reduced_phase_manifest_payload"
   },
   {
    "from": "acl_second_order",

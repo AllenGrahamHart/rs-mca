@@ -4525,11 +4525,11 @@
   {
    "id": "dli_reduced_phase_manifest_payload",
    "title": "DLI actual reduced-phase manifest payload",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Provide the actual DLI reduced-phase manifest: for every central profile, nonzero frequency, DLI harmonic, and relevant square-root component, the Artin-Schreier-reduced local expansion of P_lambda(sigma(y)), a positive pole order prime to p, a certified polar-divisor majorant for the same tuple, and an o(t) harmonic total for the majorants.",
    "attack_surface": "actual project-specific local expansions, Artin-Schreier reduction, pole witnesses, majorant rows, and harmonic summation",
    "falsifier": "a missing tuple, no prime-to-p reduced pole, a majorant below the true reduced polar divisor, or a harmonic total not o(t)",
-   "notes": "| Pro brief issued (deep analytic): the Deligne-Weil reduced-phase manifest \u2014 per-tuple prime-to-p reduced pole + conductor majorant + o(t) harmonic sum, giving geometric-mean equidistribution at -2log2. Calibrated flat. Closes dli->ejm->pcf->b2b primitive core."
+   "notes": "Pro brief issued (deep analytic): the Deligne-Weil reduced-phase manifest \u2014 per-tuple prime-to-p reduced pole + conductor majorant + o(t) harmonic sum, giving geometric-mean equidistribution at -2log2. Calibrated flat. Closes dli->ejm->pcf->b2b primitive core. | Pro (verified): pole+conductor parts PROVED (dli_phase_pole_conductor_manifest); the o(t) harmonic total is the REAL gap (dli_harmonic_conductor_ledger) \u2014 ordinary Deligne non-saving at section scale (sqrt q/N=2^87). Target C."
   },
   {
    "id": "dli_circle_log_integral_constant",
@@ -4666,6 +4666,19 @@
    "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the near-circle log-integral geometric-mean bound -sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2 >= 2(L_j-eps_j) log q - O(1), with sum_j eps_j=o(t).",
    "attack_surface": "assembly from the proved circle constant plus the open odd-evaluation discrepancy/peak-repulsion predicate",
    "falsifier": "a profile/frequency pair whose Dirichlet factors stay near peaks often enough that the total loss is linear in t"
+  },
+  {
+   "id": "dli_phase_pole_conductor_manifest",
+   "title": "DLI phase-side pole+conductor manifest (Pro, verified)",
+   "status": "PROVED",
+   "statement": "For each DLI tuple: the Artin-Schreier reduced phase hP_lambda has a prime-to-p pole of order ed (d odd <p, e a 2-power sqrt pullback), surviving nondegeneracy, with conductor majorant ed + C_tame. Parts 1-3 of the reduced-phase manifest."
+  },
+  {
+   "id": "dli_harmonic_conductor_ledger",
+   "title": "DLI low-total-normalized-conductor-mass ledger (the real gap)",
+   "status": "TARGET",
+   "statement": "sum_j (1/L_j) sup sum_omega |c_omega| cond(omega) sqrt(q) = o(t). Ordinary Deligne is NON-SAVING at the section scale (sqrt(q)/N = 2^87); the estimate needs many small-conductor sums. The real DLI terminal gap.",
+   "falsifier": "a harmonic expansion with weighted normalized conductor total not o(t)."
   }
  ],
  "edges": [
@@ -8442,6 +8455,16 @@
   {
    "from": "dli_log_integral_equidistribution",
    "to": "dli_dirichlet_log_integral",
+   "kind": "req"
+  },
+  {
+   "from": "dli_phase_pole_conductor_manifest",
+   "to": "dli_reduced_phase_manifest_payload",
+   "kind": "req"
+  },
+  {
+   "from": "dli_harmonic_conductor_ledger",
+   "to": "dli_reduced_phase_manifest_payload",
    "kind": "req"
   }
  ]
