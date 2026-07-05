@@ -5053,7 +5053,7 @@
    "statement": "REDUCED (Pro W3, verified): the exact squarefree factorization L_{T_i\\B}(X)=prod_{z in Z_i}(X^{M_i}-z) is PROVED given the certificate CF(B,{M_i}) \u2014 common tail B subset T_i, dyadic M_i|n with M_i>t, |B|<min M_i, and kernel saturation (T_i\\B)mu_{M_i}=T_i\\B (verified p=97). It is NOT derivable from bare L_{T_i}|H_i (verified counterexample: one root per fiber). REMAINING SEAM: establish CF (common-tail extraction + full-fiber saturation) from the actual E22 cofactor equations; the full-fiber locator + local-to-common lemmas are already proved.",
    "attack_surface": "actual extraction of one bounded common tail and exact tail-removed quotient-factor identities from L_{T_i}|H_i",
    "falsifier": "a touched-petal cofactor divisor pattern for which no such common tail and exact quotient-factor identity exists",
-   "notes": "W3 (verified): factorization proved MODULO the CF kernel-saturation certificate (target C); bare divisibility insufficient. Remaining: extract CF from the cofactor equations."
+   "notes": "W3 (verified): factorization proved MODULO the CF kernel-saturation certificate (target C); bare divisibility insufficient. Remaining: extract CF from the cofactor equations. | CF-EXTRACTION ANALYSIS (mine, verified): the whole E22 CF certificate reduces through PROVED steps (fiber_locator_saturation, kernel_invariance_full_fiber_criterion, two_class_exhaustion, dyadic_local_to_common_saturation, tail_removed_quotient_factor_passthrough) to ONE irreducible core: e22_cofactor_common_tail_kernel_invariance (mixed-petal kernel invariance + bounded tail). FULL-PETAL case CLOSED: a full touched petal beta*mu_M has locator X^M-beta^M = full fiber (verified p=193). RESIDUAL = the mixed-petal completion: partial agreements across several petals whose union must be mu_M-saturated after removing a bounded tail B (|B|<min M_i). This needs the E22 sunflower's degree/scalar data (the mu_M-covariance of U,L_{Z\\C},L_{C\\Z},a_i) to force completion \u2014 the sharp Pro-shaped obligation."
   },
   {
    "id": "e22_minimal_scale_pricing_compatibility",
@@ -5101,7 +5101,8 @@
    "status": "CONDITIONAL",
    "statement": "From the E22 cofactor divisor constraints, construct one common tail B with |B|<min_i M_i, choose dyadic M_i>t, and prove each non-tail set T_i\\B is invariant under the M_i-th-root kernel of x -> x^{M_i}. This is reduced to tail/modulus certificate soundness plus the remaining cofactor-tail invariance payload.",
    "attack_surface": "assembly from proved tail/modulus certificate soundness and the remaining E22-specific cofactor-tail invariance payload",
-   "falsifier": "a touched-petal divisor pattern whose non-tail roots are not invariant under any admissible dyadic local quotient kernel after removing a bounded common tail, or a defect in the certificate soundness rule"
+   "falsifier": "a touched-petal divisor pattern whose non-tail roots are not invariant under any admissible dyadic local quotient kernel after removing a bounded common tail, or a defect in the certificate soundness rule",
+   "notes": "THE IRREDUCIBLE E22 CORE (verified reduction): all other CF pieces proved; this mixed-petal kernel-invariance + bounded-tail construction is the sole remaining content. Full-petal case done (coset locator=fiber). Needs the sunflower mu_M-covariance/degree data for the mixed completion."
   },
   {
    "id": "e22_cofactor_coset_saturation",
