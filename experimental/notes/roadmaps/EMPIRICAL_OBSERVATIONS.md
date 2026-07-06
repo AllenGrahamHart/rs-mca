@@ -564,3 +564,16 @@ RE-POSED: DLI-AGG (Sum_j log2 E_j <= 100/row) with the remaining kernel = the OR
 independent low-weight ternary cyclotomic elements can one prime < 2^256 divide -- each extra = ~2^-216
 coincidence). Pro's construction VALIDATES the norm-gate as the true mechanism: the only way into R* was
 norm-divisibility engineering, exactly what the proved gate prices.
+
+## V13 ADAPTER LAYER IMPORTED (consolidation phase; upstream verified via towards-prize.md 2026-07-01)
+8-node cluster bridging to Przemek's current Q/BC/SP program, all-ev wiring (Codex's review, upstream text
+verified by me): 3 PROVED adapters (qbcsp interface = first-match taxonomy; base-field normalization guard =
+ledger law -- the most valuable safety import, |F|-vs-|B| errors exceed the 3.1-bit upstream margins; finite
+adjacent compiler = the endpoint convention, one-paragraph proof matching the F17^32 row); 1 TARGET
+(prefix collision ledger -- upstream proof unaudited, quarantine precedent); 3 CONJECTURE (BC=SPI/XR
+identification -- held to the tr_perleaf transport-check standard; SP-distinct-residual -- aligns with our
+verified moment-trade/round-5 orbit discoveries; the entropy-subfield envelope headline); 1 TEST (deployed
+raw edges 0.4678273/0.4678388 + the four adjacent predictions with 3.1-22.2 bit margins, all flagged
+pre-audit). BONUS FIX: pinned_row (PROVED) had an EMPTY statement -- written with the exact upstream numbers
+(LD 7@506 / 6@507, 6*2^128 < 17^32 < 7*2^128). Deliberately NOT imported as critical: the four deployed
+predictions as req children (rate-1/2 deployed-row exact-constant targets; our DAG is broader).

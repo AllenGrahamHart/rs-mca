@@ -321,7 +321,8 @@
    "key": true,
    "refs": [
     "wp_detail/wp1_1_wp1_2_submission_and_lean.md#1"
-   ]
+   ],
+   "statement": "The F_17^32 finite row (n=512, k=256) is PINNED: LD_sw(C,506) = 7 (unsafe) and LD_sw(C,507) = 6 (safe), with 6*2^128 < 17^32 < 7*2^128 -- a full adjacent determination on one row (upstream towards-prize.md section 2.1; our smoke_packet replays it). A clean partial-submission result; not the full prize."
   },
   {
    "id": "strip",
@@ -4596,6 +4597,54 @@
     "archive/retraction_xr_20260705/anchored_nontoral_pte_bound/statement.md"
    ],
    "notes": "AMBER WEAKENING 2026-07-06: x4_exactlist_staircase_split was rewired to consume this narrower red premise instead of the full u1_pullback_dichotomy. The full U1 theorem remains a live target and route material, but the X4 consumer only needs this direct primitive-column budget. AMBER STRESS 2026-07-06: u1_x4_active_core_budget_probe.py replayed exact small active-core gates and checked complete small rows plus capped boundary slices under a 60s cap; no n^3 direct-column excess was found, and the exceptional active-core control was detected."
+  },
+  {
+   "id": "v13_qbcsp_interface",
+   "status": "PROVED",
+   "title": "v13 Q/BC/SP interface (adapter taxonomy)",
+   "statement": "ADAPTER (v13 raw, upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): the safe-side residual decomposes first-match as paid_tangent + paid_quotient + paid_extension + Q + BC + SP + named residuals, where Q = prefix/quotient flatness, BC = base-field-normalized split-pencil census, SP = primitive shift-pair control. PROVED as a taxonomy: the classes are defined first-match with a named-residual catch-all, so the decomposition is exhaustive by construction; the content lives in the class bounds (our existing strata), not the partition. This is the translation bridge: Q ~ our quotient/strip lane, BC ~ our SPI/XR aperiodic census, SP ~ our moment-trade/shift-pair discoveries."
+  },
+  {
+   "id": "v13_base_field_normalization_guard",
+   "status": "PROVED",
+   "title": "v13 base-field normalization guard (ledger law)",
+   "statement": "LEDGER LAW (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): prefix-floor and split-pencil entropy costs are normalized over the generated/base field B, NOT over a larger line/challenge field, unless an explicit transfer theorem is wired. PROVED as a convention+guard: any ledger entry spending |F| where the construction only earns |B| is invalid without a cited transfer. Rationale: prevents the false-proof class where extension-field size is spent against base-field-generated objects (the v13 margins are 3.1-22.2 bits -- a |F|/|B| confusion is fatal at that precision)."
+  },
+  {
+   "id": "v13_finite_adjacent_compiler",
+   "status": "PROVED",
+   "title": "v13 finite adjacent compiler (endpoint convention)",
+   "statement": "COMPILER THEOREM (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): if the exact unsafe inequality holds at agreement a0, and the safe upper ledger at a1 = a0+1 is a disjoint/first-match integer sum bounded by B*, then a1 is the first safe agreement and the closed-radius threshold is pinned at the a0/a1 boundary. PROVED (one paragraph): unsafe(a0) gives count > B* at a0; the ledger gives count <= B* at a1; counts are monotone in agreement; hence the crossing is exactly between a0 and a1 -- the adjacent determination in the sense of the prize spec and of our mca_grand statement. Matches the F_17^32 pinned row (LD 7 at 506, 6 at 507)."
+  },
+  {
+   "id": "v13_prefix_collision_ledger",
+   "status": "TARGET",
+   "title": "v13 prefix collision ledger (upstream, audit pending)",
+   "statement": "UPSTREAM CLAIM held at TARGET pending independent replay (quarantine precedent, standing order 12; upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): equal prefix fibers imply strong split rigidity; prefix collisions decompose into quotient-pullback and primitive shift-pair pieces; the exact second moment is a collision ledger over split locators. If audited green, this feeds our q_recursion/strip/gap1 lane as a second route to the prefix-fiber second moment. Does NOT by itself give max-fiber control (so it cannot close gap1_noneq_mass)."
+  },
+  {
+   "id": "v13_bc_split_pencil_normal_form",
+   "status": "CONJECTURE",
+   "title": "v13 BC = split-pencil normal form (identification)",
+   "statement": "IDENTIFICATION CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): after removing tangent, quotient, extension, common-GCD, and bounded chart strata, the remaining aperiodic safe-side problem IS a base-field split-pencil incidence/census problem -- i.e. upstream BC and our SPI/XR/M5 machinery are the same object. Untested as an exact identification (quantifier/row alignment unchecked -- the tr_perleaf lesson applies); held CONJECTURE until a transport check like the one run for tr_perleaf_list_ident passes."
+  },
+  {
+   "id": "v13_sp_shift_pair_residual",
+   "status": "CONJECTURE",
+   "title": "v13 SP: shift-pair residual is a distinct class",
+   "statement": "HYGIENE CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): primitive shift-pair coincidences form a residual class DISTINCT from quotient-pullback pairs and must not be hidden inside Q or BC. Aligns with our verified moment-trade / fifth-mechanism discoveries (the x4 moment column; Pro round-5 engineered relation orbits are exactly primitive shift-pair objects). Prevents the DAG from pretending all cancellation is quotient symmetry."
+  },
+  {
+   "id": "v13_frontier_row_packets",
+   "status": "TEST",
+   "title": "v13 frontier row packets (deployed edges + adjacent predictions)",
+   "statement": "BENCHMARK/REGRESSION (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes, all RAW/PRE-AUDIT per upstream caveat): (i) deployed v13 unsafe edges: KoalaBear sextic MCA delta >= 0.4678273, Mersenne-31 circle MCA delta >= 0.4678388 (improving the v12 public edge 0.467865); (ii) the four adjacent predictions: KoalaBear unsafe at 1116047 / conjectured first safe 1116048; Mersenne-31 unsafe 1116023 / conjectured 1116024; next-step margins 22.2, 22.0, 3.3, 3.1 bits (an unspecified poly(n) loss is NOT a finite certificate at these margins); (iii) frontier-adjacent packet JSONs + identity-prefix unsafe certificates as regression tests. NOT critical proof mass; useful as harness/row-slate test material."
+  },
+  {
+   "id": "v13_entropy_envelope_conjecture",
+   "status": "CONJECTURE",
+   "title": "Upstream headline conjecture: entropy-subfield envelope",
+   "statement": "UPSTREAM HEADLINE CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): the closed-form threshold delta*_C(eps*) = 1 - rho - g*(rho,beta) + o(1) (the entropy-subfield envelope). This is the upstream program-level answer-shape our conjectural_mca_delta.py row map should converge to; kept as a named CONJECTURE for visibility in the shared artifact. Consistent with our corridor arithmetic (batch-1 crossings) at the four rates."
   }
  ],
  "edges": [
@@ -8803,6 +8852,166 @@
    "from": "u1_x4_direct_column_budget",
    "to": "x4_exactlist_staircase_split",
    "kind": "req"
+  },
+  {
+   "from": "v13_qbcsp_interface",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_qbcsp_interface",
+   "to": "payment_completeness",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "descriptor",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "mca_unsafe",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "ext_lift",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "confinement",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_finite_adjacent_compiler",
+   "to": "adjacency_closing",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_finite_adjacent_compiler",
+   "to": "compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_finite_adjacent_compiler",
+   "to": "harness",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_finite_adjacent_compiler",
+   "to": "packaging",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "q_recursion",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "strip",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "gap1_noneq_mass",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "char0_collision_classification",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_split_pencil_normal_form",
+   "to": "spi_point_counting",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_split_pencil_normal_form",
+   "to": "spi_dim1",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_split_pencil_normal_form",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_split_pencil_normal_form",
+   "to": "xr_pencil_cascade",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_split_pencil_normal_form",
+   "to": "window_m5_charts",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_sp_shift_pair_residual",
+   "to": "u1_pullback_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_sp_shift_pair_residual",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_sp_shift_pair_residual",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_sp_shift_pair_residual",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_sp_shift_pair_residual",
+   "to": "payment_completeness",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_frontier_row_packets",
+   "to": "harness",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_frontier_row_packets",
+   "to": "row_slate",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_frontier_row_packets",
+   "to": "compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_frontier_row_packets",
+   "to": "dossier_partial",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_entropy_envelope_conjecture",
+   "to": "mca_grand",
+   "kind": "ev"
   }
  ]
 }
