@@ -503,3 +503,11 @@ structure hunts CLEAN at 5 random-empty rows (expected down to 7e-4); (iv) analy
 (circle constant -2 bits/coord vs -1 needed). Weight split: w<=L PROVED; gap = the content; tail = K x random
 OR the analytic margin. Level-independence flagged as explicit hypothesis. Next: Pro brief + Codex adversarial
 goal generated from DLI_CLOSE_PINNED.md.
+
+## SOV-BOHR-PRICING Pro response VERIFIED + banked as the lane's stability theorem
+Pro reframed pricing as scale-adaptive containment (fixed B* gate rejected -- right call) and isolated ONE
+inverse/stability theorem (small V_h + budget density => near-interval after dilation), anchored in DdS-H +
+Bajnok-Edwards (formulas + full calibration table verified to every digit; DdS-H attainment exact). All three
+named risk families tested: rank-2 at budget size FILLS; small rank-2 density-excluded; sparse-long-container
+FILLS (exact bitset DP 0.882p -- my sampled 0.289p was a CLT-concentration estimator bug, caught; trap recorded).
+Advisory on xr_smallcore_spread_count; re-expansion of the retracted sov segment awaits a proof.
