@@ -3507,7 +3507,7 @@
    "attack_surface": "recompute the toy pair-ledger at both exponents vs the exact counts",
    "falsifier": "the toy ledger matching neither exponent",
    "refs": [
-    "nodes/averaged_xr/proof.md"
+    "critical/nodes/averaged_xr/proof.md"
    ],
    "notes": "PROVED (my lane, exact linear algebra, verifier green): codim = t + min(s,t) exactly; the statement's exponent is right, the ledger's min(s,t-1) is the anchored convention \u2014 a dictionary entry, not an error. The four-node chain re-discharges."
   },
@@ -3520,7 +3520,7 @@
    "attack_surface": "the taxonomy machinery (Laurent-Ritt + dihedral stratum, both PROVED) applied at the subcore normal form; or a fifth-class falsifier scan first",
    "falsifier": "a fifth rich-line class at any toy row (extend the E33 scan)",
    "refs": [
-    "nodes/p1_post_paid_subcore_richline_cap/proof.md"
+    "background/nodes/p1_post_paid_subcore_richline_cap/proof.md"
    ],
    "notes": "PROVED (Pro Brief A, my referee + F3 verifier replayed): the two-case exhaustiveness argument; the definitional caveat resolves via the banked f3_net_absorption (the broad class IS the repo's class); C_rich = 0 \u2014 the post-strip residue is EMPTY, stronger than the requested cap. Pro 14-for-14."
   },
@@ -3548,7 +3548,7 @@
    "status": "PROVED",
    "statement": "Three lemmas (Pro, refereed + sanity-checked at r = 2): (L1) at every point of P cap D_j, either the incident hyperplane functionals are SPREAD (I_r(p) >= (1-alpha)^{r-1} C(m,r) independent r-subsets, greedy span-avoidance) or > alpha m of them lie in a proper subspace \u2014 the RANK-DEFECT case, yielding a positive-dimensional proper subflat carrying the shared divisor g_S; (L2) spread points number <= C(n,r) / [(1-alpha)^{r-1} C(j,r)] (double counting through independent r-tuples); (L3) coincidence gives STRICT descent \u2014 division by g_S is linear, degree drops by |S|, dimension drops, landing in F_{dim Q} or re-triggering gcd-reduction. r=3 specialization at alpha = 2/3 with the twin/pencil-through-a-line branch split. CRITICAL CORRECTION: 'coincidence' = rank defect, NOT equal hyperplanes \u2014 the pencil-through-a-line configuration (planes X0 = aX1, no twins, multiplicity n on the common line) refutes the twin-only reading in dim >= 3.",
    "refs": [
-    "nodes/f_dim_induction/notes/pro_brief_b_result.md"
+    "critical/nodes/f_dim_induction/notes/pro_brief_b_result.md"
    ]
   },
   {
@@ -3559,7 +3559,7 @@
    "attack_surface": "pure compute: evaluate the floor at the (c,d) grid per rate; verify each point against cor:extension-pole-quotient-remainder-floor's hypotheses",
    "falsifier": "the lemma's conditions failing at every scale finer than N_rho for rates 1/4, 1/16",
    "refs": [
-    "nodes/fourth_mechanism_rate8/proof.md"
+    "critical/nodes/fourth_mechanism_rate8/proof.md"
    ],
    "notes": "PROVED (agent sweep, verifier replayed ALL PASS): the floor is scale-free; ALL THREE clean rates exceed their required gains with margins +0.266/+0.076/+0.071. THE CORRIDOR FAMILY CLOSES BY PARAMETER OPTIMIZATION."
   },
