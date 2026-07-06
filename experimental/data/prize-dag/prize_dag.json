@@ -210,11 +210,13 @@
   {
    "id": "row_c_experiment",
    "title": "Row-C birthday sampling of e1 value sets",
-   "status": "TEST",
+   "status": "TARGET",
    "key": true,
    "refs": [
     "wp_detail/wp3_1_wp3_3_rows_and_second_pin.md#1"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "mca_safe",
@@ -578,11 +580,12 @@
   {
    "id": "window_pred_aper0",
    "title": "Prediction: window aperiodic numerator 0 throughout",
-   "status": "TEST",
+   "status": "CONJECTURE",
    "key": true,
    "refs": [
     "proof_sketch/s3a_regular_window.md#2"
-   ]
+   ],
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "window_fm",
@@ -595,20 +598,22 @@
   {
    "id": "alpha_front",
    "title": "Front alpha scan (P1a/P1b/P1c)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md"
    ],
-   "notes": "ACTIVE: PR #170 all-shift spectral probe + rectangular null-polynomial (moment-run rigidity) target"
+   "notes": "ACTIVE: PR #170 all-shift spectral probe + rectangular null-polynomial (moment-run rigidity) target | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+   "closure": "artifact"
   },
   {
    "id": "beta_front",
    "title": "Front beta realizability (P-beta; codim ~29068)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s3a_regular_window.md#4"
    ],
-   "notes": "ACTIVE: PR #171 A385/386 rank-6 program \u2014 hexagon sharpness witness, conic/Pascal branch closures (P-beta test underway)"
+   "notes": "ACTIVE: PR #171 A385/386 rank-6 program \u2014 hexagon sharpness witness, conic/Pascal branch closures (P-beta test underway) | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+   "closure": "artifact"
   },
   {
    "id": "window_m5_charts",
@@ -623,10 +628,12 @@
   {
    "id": "replay_170_171",
    "title": "Replay audit of #170/#171 (unblocks fronts)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "wp_detail/wp0_3_wp0_4_replay_and_harness.md#1"
-   ]
+   ],
+   "closure": "artifact",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "m4_table",
@@ -679,10 +686,12 @@
   {
    "id": "acid_test",
    "title": "F_97/mu_16 exhaustive acid test (brute force == charts)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "wp_detail/wp2_6_underdetermined_program.md"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "deficiency_growth",
@@ -968,10 +977,12 @@
   {
    "id": "pr172_ladder",
    "title": "PR #172 deficiency-1 experiment (tests P3)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "wp_detail/wp2_6_underdetermined_program.md"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "plv_reduction",
@@ -1582,18 +1593,22 @@
   {
    "id": "gap1_toy_test",
    "title": "Toy enumeration: non-equivariant periodic alignment mass (F_13/F_97 rows)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#3"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "a_regularity_test",
    "title": "Toy measurement: a-regularity frequency + irregular-stratum contribution",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "f_gcd_reduction",
@@ -1655,13 +1670,14 @@
   {
    "id": "redteam_multiscale",
    "title": "RED TEAM: construct a fifth mechanism from cross-scale resonance",
-   "status": "TEST",
+   "status": "TARGET",
    "key": true,
    "statement": "Adversarial search at n = 2^10..2^12 (enough nested dyadic scales, unlike toys): deliberately construct pairs with simultaneous structure at MANY quotient scales and measure their unpaid alignment mass. Success = a counterexample contribution (COUNTEREXAMPLE status, S9 trigger); sustained failure across a structured search space = the first evidence that touches the actual hiding room.",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#3"
    ],
-   "notes": "First sweep executed (#188): empty in the pre-registered linear periodic model."
+   "notes": "First sweep executed (#188): empty in the pre-registered linear periodic model. | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+   "closure": "computation"
   },
   {
    "id": "xr_gvn",
@@ -1792,11 +1808,12 @@
   {
    "id": "xr_inverse_toy",
    "title": "TOY INVERSE at n = 16/32: every E_3-large pair is structured (exhaustive)",
-   "status": "TEST",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
    ],
-   "notes": "the k=3 inverse verified exhaustively at toy scale \u2014 falsifier and content-preview for C_XR in one experiment"
+   "notes": "the k=3 inverse verified exhaustively at toy scale \u2014 falsifier and content-preview for C_XR in one experiment | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+   "closure": "computation"
   },
   {
    "id": "are_sharp_constant",
@@ -1937,12 +1954,14 @@
   {
    "id": "mixed_radix_toy_row",
    "title": "E8: the n=48 mixed-radix toy row (F_97) \u2014 rerun the base machinery off the 2-power chain",
-   "status": "TEST",
+   "status": "TARGET",
    "key": true,
    "statement": "F_97 supports n = 48 = 2^4*3: rerun FM exact means, periodic strata counts C(n/M, j/M) over the FULL divisor lattice (incl. incomparable M = 2^a*3^b), first-match dedup totality/disjointness, and coset-move dynamics. Every 2-power-verified invariant either reproduces or the breakage is named.",
    "refs": [
     "experimental/notes/roadmaps/evidence_plan_codex.md"
-   ]
+   ],
+   "closure": "computation",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "adjacency_closing",
@@ -4636,9 +4655,11 @@
   },
   {
    "id": "v13_frontier_row_packets",
-   "status": "TEST",
+   "status": "TARGET",
    "title": "v13 frontier row packets (deployed edges + adjacent predictions)",
-   "statement": "BENCHMARK/REGRESSION (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes, all RAW/PRE-AUDIT per upstream caveat): (i) deployed v13 unsafe edges: KoalaBear sextic MCA delta >= 0.4678273, Mersenne-31 circle MCA delta >= 0.4678388 (improving the v12 public edge 0.467865); (ii) the four adjacent predictions: KoalaBear unsafe at 1116047 / conjectured first safe 1116048; Mersenne-31 unsafe 1116023 / conjectured 1116024; next-step margins 22.2, 22.0, 3.3, 3.1 bits (an unspecified poly(n) loss is NOT a finite certificate at these margins); (iii) frontier-adjacent packet JSONs + identity-prefix unsafe certificates as regression tests. NOT critical proof mass; useful as harness/row-slate test material."
+   "statement": "BENCHMARK/REGRESSION (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes, all RAW/PRE-AUDIT per upstream caveat): (i) deployed v13 unsafe edges: KoalaBear sextic MCA delta >= 0.4678273, Mersenne-31 circle MCA delta >= 0.4678388 (improving the v12 public edge 0.467865); (ii) the four adjacent predictions: KoalaBear unsafe at 1116047 / conjectured first safe 1116048; Mersenne-31 unsafe 1116023 / conjectured 1116024; next-step margins 22.2, 22.0, 3.3, 3.1 bits (an unspecified poly(n) loss is NOT a finite certificate at these margins); (iii) frontier-adjacent packet JSONs + identity-prefix unsafe certificates as regression tests. NOT critical proof mass; useful as harness/row-slate test material.",
+   "closure": "artifact",
+   "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
   },
   {
    "id": "v13_entropy_envelope_conjecture",
@@ -5021,7 +5042,7 @@
   {
    "from": "window_fm",
    "to": "window_pred_aper0",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "window_pred_aper0",

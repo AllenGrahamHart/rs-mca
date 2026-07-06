@@ -75,3 +75,21 @@ re-expansion material). Largest single trust-surface reduction.
 2026-07-05 (4th) — worst_word_challenger_pricing (49 dominated, 17 cut = the entire
 e22 branch incl. its red; the branch had quantified premise failure 78% at scale).
 New red = the top-down challenger-pricing obligation.
+
+## Extension: THE NODE-SEMANTICS LAW (adopted 2026-07-06)
+
+EVERY NODE IS A TRUTH CLAIM. A status is an epistemic state of that claim:
+- PROVED (incl. PROVED-BY-COMPUTATION: the claim "program P on input I yields X",
+  whose proof is a pinned result + replayable verifier in the node folder);
+- PROVABLE (proof sketched, write-up owed); CONDITIONAL (implication proved,
+  hypotheses wired); TARGET / CONJECTURE (open: owed / noted); WALL (proved
+  route-impossibility meta-claim); REFUTED (false, never a req child).
+TEST is RETIRED: an executable artifact is a PROOF of a computation claim, not a
+status. Computation reports without a replayable pinned verifier are OPEN claims
+(TARGET, closure: computation) -- the plv/quarantine precedent applies to our own
+past runs exactly as to upstream claims. The only non-claim nodes permitted are
+closure='artifact' deliverables (dossiers/tables/experiment pipelines), which are
+tracked by RIPE and exempt from the red-leaf law.
+Migration log: 13 ex-TEST nodes re-statused 2026-07-06 (8 computation reports ->
+TARGET/computation; 1 prediction -> CONJECTURE; 4 pipeline/packet deliverables ->
+TARGET/artifact).
