@@ -478,3 +478,16 @@ GATE REPAIR (found chasing #2): dag_commit's validator gate was a fragile GREP t
 failures, every invariant added this week, and a NONEXISTENT assembly-verifier step. Now exit-code based; it
 immediately caught a red-leaf violation in my own demotion (working as intended). Masked debt paid: 110
 retraction-orphaned proved nodes re-anchored as ev on their lane reds (incl. q_cofactor_normal_form).
+
+## CODEX AMBER ROUND-3 INTEGRATED (20 experiment batches, prize-amber-stress worktree)
+Highlights: INDEPENDENT CONFIRMATIONS of both of today's red findings -- U2-C boundary transition (192->0
+primitive non-boundary blocks as q grows past the window, N=64 t=3 b=8) and the dli weighted repair
+(low-mass sup refutations reproduced; weighted form flattens eta 2.33 -> 0.007 with growing active mass).
+STRUCTURAL: (1) F1-lane premise weakening (4 diamond edges -> ev; ext_lift's sole logical premise is now the
+f1_classification trichotomy); (2) NEW RED u1_x4_direct_column_budget replaces u1_pullback_dichotomy as x4's
+premise (strictly weaker: <=n^3 direct-column residue after all strips; probe found no n^3 alarms, positive
+controls detected) -- u1_pullback drops OFF the critical orbit (retained as ev/route material); (3) the 3
+statement-less ambers got REAL statements from Codex (adopted, superseding my blunt demotion; hypotheses
+re-wired). 31/31 verifier suite green in its worktree. Batches 3-15,18,19: GAP-1 telescope algebra, MCA
+self-consistency, SPI/Hankel, PMA adversarial (incl. correlated-target search), E22 shuffled-layout census,
+TR quotient-row dictionary, XR triangle/quad rank scans -- ALL resisted; no falsifiers.

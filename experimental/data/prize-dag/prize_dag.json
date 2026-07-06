@@ -753,7 +753,7 @@
    "statement": "Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "fixed-excess counts growing super-poly in n at some c",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus."
   },
   {
    "id": "petal_witnesses",
@@ -790,11 +790,12 @@
   {
    "id": "a_regular_collapse",
    "title": "a-regular collapse: interleaved = base (exponent 1)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
    ],
-   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
+   "statement": "Conditional on a_regularity_forcing, the large-m a-regular interleaved list branch collapses to the base list problem with exponent 1.",
+   "notes": "ORPHAN/HISTORICAL (amber stress 2026-07-06): retained for the for-all-m branch boundary, but it has no current root-path consumers under the official per-constant-m reading."
   },
   {
    "id": "a_regularity_forcing",
@@ -1123,7 +1124,7 @@
    ],
    "statement": "The program's first precise target (note, Consequences of the mixed-petal analysis): count degree-<=d polynomials W with many zeros across the shifted-target family W - c_i L_D on T_i; super-polynomial amplification must force quotient, low-defect, or another explicitly budgeted structured family. A lower-dimensional incidence question.",
    "attack_surface": "the incidence count over the shifted-target family; Q2.9's fixed-excess data grounds the exponents",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_mixed_amplification/conditional.md."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_mixed_amplification/conditional.md. | AMBER STRESS 2026-07-06: PMA correlated-target search varied defect locators and scalar patterns in the F_109, ell=3, d=5 toy window; 10 exact profiles + 3 sampled M=12 profiles completed, exact M=9 max threshold count 176, no large spread-residual alarm."
   },
   {
    "id": "e1_fullness",
@@ -1523,12 +1524,12 @@
   {
    "id": "free_pool_ladder",
    "title": "thm:ladder: polynomial-range free-pool ladder",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "conditional on a precise subgroup exponential-sum import",
-   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
+   "notes": "conditional on a precise subgroup exponential-sum import | AMBER STRESS 2026-07-06: subgroup_expsum_probe.py checked 749 small-prime subgroup rows in/above the N >= p^(3/7) range, with no near-linear additive-character concentration; this remains evidence only because the analytic import is still open.",
+   "statement": "Conditional on the named subgroup exponential-sum input, the polynomial-range free-pool ladder theorem holds in the slackMCA_v4 ladder route."
   },
   {
    "id": "subgroup_expsum_input",
@@ -1537,7 +1538,7 @@
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "exp sums are DEAD as a route to the core (route_expsums) but ALIVE as this ladder's import \u2014 the nuance matters"
+   "notes": "exp sums are DEAD as a route to the core (route_expsums) but ALIVE as this ladder's import \u2014 the nuance matters | AMBER STRESS 2026-07-06: subgroup_expsum_probe.py found max relative additive Fourier mass about 0.6553 over 749 subgroup rows up to p <= 2800, with 0 near-linear failures at threshold 0.72 and 9/9 controls detected."
   },
   {
    "id": "m_handling",
@@ -1552,12 +1553,12 @@
   {
    "id": "m_le3_route",
    "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
    ],
-   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
+   "statement": "Conditional on rules_m_reading and imgfib at exponent about 1, the worst-case interleaved route covers m <= 3 with the verified 128/(m*40) budget."
   },
   {
    "id": "rules_m_reading",
@@ -1755,7 +1756,7 @@
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
    ],
-   "notes": "E4 (PR #186): exact toy window F_109 l=3 d=5 \u2014 Johnson-covered rows empty, wide rows nonempty but tame (M=12: 2023 aux polys, max agreement 11). NO_SUPERPOLY_SIGNAL. Prior up mildly; window small."
+   "notes": "E4 (PR #186): exact toy window F_109 l=3 d=5 \u2014 Johnson-covered rows empty, wide rows nonempty but tame (M=12: 2023 aux polys, max agreement 11). NO_SUPERPOLY_SIGNAL. Prior up mildly; window small. | AMBER STRESS 2026-07-06: pma_correlated_target_search.py varied defect locators and scalar patterns; constant scalar controls gave the single full-agreement locator target, exact nonconstant M=6/M=9 profiles stayed small (max exact threshold count 176), sampled M=12 profiles estimated about 3.3e4-3.9e4 threshold candidates with no high-agreement runaway."
   },
   {
    "id": "f_dim1",
@@ -1979,7 +1980,7 @@
    "id": "aperiodic_zero_at_crossing",
    "title": "Clean-rate integrality: R2 + tiny FM pin the aperiodic zero threshold",
    "status": "CONDITIONAL",
-   "statement": "CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 \u2014 margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term \u2014 R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+   "statement": "At the clean-rate decision candidates (rho in {1/4, 1/8, 1/16}), integrality does not kill the aperiodic contribution at A* or A*+1. The exactly-zero range begins at A_zero = A*+2, after applying fm1 and the compiled clean-rate R2 bound. Thus the adjacency machinery must decide A*+1 with a live aperiodic term; it may use exact zero only from A*+2. RATE SCOPE (amber audit 2026-07-06): this node makes no rate-1/2 claim; the rate-1/2 thin point is carried by rate_half_band_closure.",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
@@ -2090,7 +2091,7 @@
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "REVISED per the E15 COUNTEREXAMPLE (#197): the naive planted-only form is FALSE \u2014 a structured low-slack NON-planted challenger exists at sigma = 1 in the toy cell. Revised statement: at the crossing radii the sup-over-words list is attained by the planted sunflower family OR the E15 structured challenger class, and list_planted_arithmetic must price BOTH classes exactly. The challenger is structured (not a fifth-mechanism signal); the endgame arithmetic gains one classified column.",
+   "statement": "REVISED per the E15 COUNTEREXAMPLE (#197): the naive planted-only form is FALSE \u2014 a structured low-slack NON-planted challenger exists at sigma = 1 in the toy cell. Revised statement: at the crossing radii the sup-over-words list is controlled by the planted sunflower family plus the priced low-slack challenger/envelope supplied by `worst_word_challenger_pricing`. Exact two-class exhaustion would close this cleanly, but the downstream arithmetic only needs a certified rowwise envelope with matching unsafe witnesses. The observed challenger is structured (not a fifth-mechanism signal); the endgame arithmetic gains one priced column rather than an unpriced supremum.",
    "attack_surface": "toy probe: search word families at n = 16..64 for lists exceeding the planted count at matched radius; the L1 sunflower machinery prices any challenger's structure",
    "falsifier": "a toy word family beating the planted list at a crossing radius",
    "refs": [
@@ -2102,7 +2103,7 @@
    "id": "list_planted_arithmetic",
    "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)",
    "status": "CONDITIONAL",
-   "statement": "planted_count(delta) is an explicit combinatorial formula (core/petal choices x scalar factors). Under worst_word_planted + imgfib + integrality, the list crossing is decided by EXACT arithmetic: windows [planted_count - margin, planted_count) in eps*|F|-space, the census/dodge structure transferring verbatim from the MCA side \u2014 with NO zone-(b) analogue (no value sets mod p; counts are explicit).",
+   "statement": "planted_count(delta) is an explicit combinatorial formula (core/petal choices x scalar factors). Under worst_word_planted + challenger pricing + imgfib + integrality, the list crossing is decided by integer arithmetic: windows [priced_count - margin, priced_count) in eps*|F|-space, with the census/dodge structure transferring verbatim from the MCA side and with NO zone-(b) analogue (no value sets mod p; counts are explicit). Premise weakening recorded 2026-07-06: downstream use does not require a global claim that only the planted and E15-successor families exist. It is enough to have, row by row, a certified upper envelope for every non-extremal/non-planted contribution and explicit lower witnesses for unsafe rows. Exact two-column challenger pricing is one clean way to supply that envelope, but not the only possible way.",
    "refs": [
     "proof_sketch/s7_list_side.md"
    ],
@@ -2696,13 +2697,13 @@
    "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count",
    "status": "TARGET",
    "key": true,
-   "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder \u2014 a SPREAD family in the face-3 sense) is <= poly(n). E27's toy data: this remainder sits exactly in the FM band (unstructured mult->=2 events at FM-normalized rates, all classification tests at chance) \u2014 clause (ii) of the rigidity kernel holds empirically for the remainder. This is face 4's residual content after the cascade lemma \u2014 and it is a SPREAD-FAMILY count: face 3's machinery (design bounds, syzygy circuits, the exception classes) is the natural instrument. The convergence: face 4 decomposes into a provable forcing lemma + a face-3-type bound + the dihedral staircase. SHARPENED (amber audit 2026-07-06): \"poly(n)\" is INSUFFICIENT as stated -- the consumer chain (xr_clean_residual_any_gate -> r2_clean_rates) has sufficiency PROVED exactly at R_post <= 16 n^3 (dihedral and extension columns inside). The obligation is the 16 n^3-compatible form: the spread remainder count must fit within the 16 n^3 budget after the paid columns, not merely poly(n).",
+   "statement": "For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder, a spread family in the face-3 sense) is bounded in the budget-compatible form needed by the consumer: R_spread(u,v; A) <= 16 n^3 after the quotient, tangent, dihedral, and extension columns are stripped or counted inside R_post. The old generic poly(n) wording is insufficient for xr_clean_residual_any_gate; the live obligation is the explicit 16 n^3-compatible count. E27's toy data places this remainder in the FM band (unstructured multiplicity >=2 events at FM-normalized rates, all classification tests at chance). This is face 4's residual content after the cascade lemma: a spread-family count whose natural instruments are face-3 design bounds, syzygy circuits, and the exception classes.",
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
    "falsifier": "a toy pair with super-poly many pairwise-small-core aligned supports (searchable with E27's pencil machinery)",
    "refs": [
     "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
    ],
-   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md. | FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy. | Sharpened to 16n^3-compatible form (exponent mismatch found by the audit: a Cn^5 resolution would satisfy the old wording and break the consumer)."
+   "notes": "DECOMPOSED (close-look pass, conventions pinned against qx13): the split is FORCED by proved machinery \u2014 (2a) same-slope families are automatically far-spread and equal the LIST challenge's worst-word object (the two grand challenges meet); (2b) the partial-forcing band r in [k+1, A-2] reduces to a graded tangent ledger via one-line two-slope forcing; (2c) the far-spread core = the fresh-codimension-or-structure dichotomy \u2014 the face's single irreducible statement. Pairwise additivity at distinct slopes is rank-level PROVED (qx13 2b); only the m >= 3 stagnation dichotomy is genuinely open. | WIRING FIX (seam audit 2026-07-04): u1_pullback_dichotomy promoted ev -> req. Per the strip taxonomy and the tool-failure ledger, the smallcore/spread residual count at corridor points has NO live route other than the pullback dichotomy + anchored PTE machinery \u2014 the ev-kind predated the R2 identification. This puts the terminal cluster (certificates, midlarge, B2b) formally on the prize critical path, as the closure assembly requires. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/xr_smallcore_spread_count/conditional.md. | FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy. | Sharpened to 16n^3-compatible form (exponent mismatch found by the audit: a Cn^5 resolution would satisfy the old wording and break the consumer). | AMBER STRESS 2026-07-06: local XR smallcore triangle scan checks 3 finite rows / about 1.4M deterministic slope tests on the small-core/light-triangle surface, with 0 rank drops and 0 profiles lacking a full-rank probe in the current selected-suite run. | AMBER STRESS 2026-07-06: local XR quadrilateral scan checked 4 rows, 69 small-core/light quadrilateral profile shapes, and 848301 deterministic slope tests, with 0 rank drops and 0 profiles lacking a full-rank probe; extends the triangle scan to the first m=4 surface."
   },
   {
    "id": "xr_sameslope_list_crossover",
@@ -3318,7 +3319,7 @@
    "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)",
    "status": "TARGET",
    "key": true,
-   "statement": "BRACKET-GRADE / new-mechanism (Pro T8, verified): the dihedral/Chebyshev sibling window is REFUTED (packet size != Chebyshev top-degree drop; first band sigma overflows degree by 2^32; true Dickson fibers collapse to <=4 points; next old scale M=2^34 unpriced at 2^123.17<2^128). The rate-1/2 residual band 2^33<sigma<=sigma* is BRACKET-GRADE unless a genuinely NEW theorem supplies many monic degree-k locators with the first sigma high coefficients cancelled, k roots in mu_n, disjoint sigma-tails, provably NOT old 2-power quotient-core. Bracket-grade is a CREDITABLE PARTIAL (the prize allows partials; one-sided/interval bounds like the Paper D cap delta*<=1-rho-2^-9 are recognized partials), NOT a full determination of delta*_C at rate 1/2 (the prize asks for the exact LARGEST threshold / the adjacent crossing). A bracket leaves rate 1/2 undetermined-but-bounded. NOTE: the closest reachable FULL determination is the rate-1/8 fourth-mechanism wedge (~0.9 bits), NOT this band.",
+   "statement": "Strong full-determination target: cover the rate-1/2 residual band 2^33 < sigma <= sigma* by a genuinely new priced mechanism. AQB and the dihedral/Chebyshev sibling window are both refuted. A bracket-grade obstruction for some band radius would be a creditable partial result, but it does not satisfy this node as consumed by adjacency_closing, list_adjacency_closing, or mca_safe.",
    "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
    "falsifier": "a band radius provably uncoverable by any priced mechanism",
    "refs": [
@@ -3331,13 +3332,13 @@
    "id": "worst_word_challenger_pricing",
    "title": "Challenger-class pricing (the E15 successor hypothesis of worst_word_planted)",
    "status": "TARGET",
-   "statement": "Price or exhaust the structured low-slack NON-planted challenger class (the E15 counterexample's family) so the revised worst_word_planted statement's sup-over-words claim is carried by planted + challenger classes jointly.",
+   "statement": "Price or exhaust the structured low-slack NON-planted challenger class (the E15 counterexample's family) so the revised worst_word_planted statement's sup-over-words claim is carried by planted + challenger classes jointly. For downstream list arithmetic, a weaker rowwise deliverable is also sufficient: a certified upper envelope for all non-planted low-slack contributions, together with explicit lower witnesses where the unsafe side is invoked.",
    "attack_surface": "the E15 construction's parameters; classify then price",
    "falsifier": "a third challenger class outside both",
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ],
-   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM). | FRONTIER RETRACTION 2026-07-05 (fourth application): demoted CONDITIONAL->TARGET; the e22 sub-frontier CUT (archive/retraction_e22_20260705/, 17 non-proved nodes incl. the e22_mixed_petal_covariance red and the staircase/cofactor/common-tail machinery), 32 PROVED kept off the trust surface. Reason: the branch below was the weakest on the board -- the covariance certificate CF failed 0/85 on real challengers and the useful premise failed 6527/8393 (78%) at scale (Codex); the machinery was built on a failing premise. This node is the honest top-down obligation: price or exhaust the structured low-slack non-planted challenger class so the sup-over-words claim is carried by planted + challenger jointly. ADVISORY ATTACK NOTES from the cut branch: the CF certificate (proved: CF => factorization); which challengers fail covariance (all structured sigma-1 in toys); the one-point-per-fiber and common-tail counterexamples (verified); Codex attempts 3/7/8/13. If a bottom-up certificate route lands later, RE-EXPAND with proven material per policy."
+   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM). | FRONTIER RETRACTION 2026-07-05 (fourth application): demoted CONDITIONAL->TARGET; the e22 sub-frontier CUT (archive/retraction_e22_20260705/, 17 non-proved nodes incl. the e22_mixed_petal_covariance red and the staircase/cofactor/common-tail machinery), 32 PROVED kept off the trust surface. Reason: the branch below was the weakest on the board -- the covariance certificate CF failed 0/85 on real challengers and the useful premise failed 6527/8393 (78%) at scale (Codex); the machinery was built on a failing premise. This node is the honest top-down obligation: price or exhaust the structured low-slack non-planted challenger class so the sup-over-words claim is carried by planted + challenger jointly. ADVISORY ATTACK NOTES from the cut branch: the CF certificate (proved: CF => factorization); which challengers fail covariance (all structured sigma-1 in toys); the one-point-per-fiber and common-tail counterexamples (verified); Codex attempts 3/7/8/13. If a bottom-up certificate route lands later, RE-EXPAND with proven material per policy. | AMBER STRESS 2026-07-06: e22_random_layout_census.py checked 219 exact shuffled-layout/control cells and 1427408 agreement subsets; all 3 positive controls detected structured challengers and UNCLASSIFIED stayed 0. Together with the 77-cell cyclic extended census, no third challenger class was found; pricing theorem remains open."
   },
   {
    "id": "cap_end_sharpening",
@@ -3588,13 +3589,14 @@
    "title": "Hankel slope large sieve",
    "status": "CONDITIONAL",
    "statement": "Supported-slope estimate = R2's factorized residue (see statement.md); closed subcases: rank-drop, D=1, fixed D.",
-   "notes": "CONDITIONAL (Hankel thread, refereed): three proved reductions (fresh-rank <= 2n; the Vandermonde triple-shadow lemma; m=3 stagnations tangent-paid via the k+1 common-core slope solve) leave only the diffuse m>=4 case \u2014 a strictly narrower residue."
+   "notes": "CONDITIONAL (Hankel thread, refereed): three proved reductions (fresh-rank <= 2n; the Vandermonde triple-shadow lemma; m=3 stagnations tangent-paid via the k+1 common-core slope solve) leave only the diffuse m>=4 case \u2014 a strictly narrower residue. | AMBER STRESS 2026-07-06: diffuse_shadow_circuit_scan.py found 11,785 minimal small-model stagnating circuits with 0 triple-shadow violations; m=3 circuits were tangent-core, while non-tangent m>=4 circuits landed in the diffuse residue."
   },
   {
    "id": "diffuse_triple_shadow",
    "title": "diffuse triple-shadow theorem",
    "status": "TARGET",
-   "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED)."
+   "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED).",
+   "notes": "AMBER STRESS 2026-07-06: diffuse_shadow_circuit_scan.py searched small finite-field Hankel locator models over F_13/mu_12, F_17/mu_8, and F_17/mu_16. It found 11,785 minimal dependent circuits, including 10,691 diffuse m>=4 residues and 1,094 tangent-core circuits, with 0 triple-shadow-size < k+1 violations. This is falsification evidence only; the polynomial count remains open."
   },
   {
    "id": "ef_ru",
@@ -4569,7 +4571,7 @@
    "id": "dli_prime_weighted_large_block_support",
    "title": "DLI weighted-average count (sup formulation REFUTED)",
    "status": "TARGET",
-   "statement": "CORRECTED (Pro sharper counterexample, VERIFIED): the SUP formulation Sum_j sup_M |log_q rho_j(M)|=o(t) is FALSE. A low-mass profile (L active ternary coords + rest zero) has U_j=3^L, |Z_j|=1 (Vandermonde), so rho_j=(q/3)^L => log_q rho_j~0.994 L_j = Omega(L_j) -- forced by MASS alone (log_q U_j=0.006 L_j << L_j), independent of resultants/norm-gate. This is NOT the trivial all-{0} case; active-coord/full-rank scoping does NOT exclude it. The sup was only a SUFFICIENT condition for the ACTUAL b2b requirement, the U-WEIGHTED AVERAGE of prod_j rho_j = q^{o(t)}; since the sup is false, that route is DEAD. The real obligation = the weighted average directly (low-mass profiles are U-suppressed by q^{~1.58L} but number C(256L,L); whether suppression beats count is the OPEN primitive-core content). PROVED: exact reduction rho_j=q^{L_j}|Z_j|/U_j (Lemma 1). My earlier eta*-flat calibration only tested the FULL-MASS profile.",
+   "statement": "LIVE OBLIGATION (2026-07-06): the pointwise/sup DLI-flatness premise is FALSE, even for active full-rank low-mass ternary profiles. The only live input is the U-weighted primitive-core/RES aggregate: after summing central profiles with actual profile weights, prod_j rho_j must cost only q^{o(t)}. PROVED exact identity: rho_j(M)=q^{L_j}|Z_j(M)|/U_j(M). The 2026-07-06 exact probe reproduces the low-mass sup refutations (eta 2.32996 and 1.49494) and finds no unexpected larger-active alarm; n=64,L=4,m=24 ternary has rho=1.036577.",
    "attack_surface": "compute/bound the block-size distribution of the degree-preimage residue partition of the odd-eval map on the square-root section; likely checkable at small scale (mu_16/mu_32).",
    "falsifier": "a central profile / level whose actual map-partition carries Omega(L_j) mass on blocks of bounded size.",
    "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7. | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | REAL-OBJECT CORRECTION (harness-based, this session): my earlier max|mu_hat|~2.5/sqrt(n) evidence was a PROXY (whole-section average), NOT the real DLI object. The real object is B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y=sum_d psi(d lambda v_y) (VERIFIED via verify_level2_tower.py TEST 1 = exact census match). Excess rho=skewcount*q/2^|G| SCALES WITH q (not 1/sqrt(n)); eta_j=log_q rho_j. Governed by VANDERMONDE RIGIDITY: nonzero skew needs support >= L_j+1, so the meaningful regime is LARGE support (my |G|=3-6 test was below-threshold toy artifacts). Calibration eta*/L=3.6e-7 => eta_j=3.6e-7 L_j (linear, tiny coeff) => sum=o(t) via the small coefficient, NOT bounded excess. CONFIDENCE: HIGH->MEDIUM (proxy was misleading). NEXT: reproduce the calibration eta_j=3.6e-7 L_j on the real object at the actual calibration params. | REAL-OBJECT CONFIRMATION (Fourier form, verify_d3_reduction harness extended): the deviation exponent eta*=log_q rho_j is FLAT \u2014 rho_j -> 1.0000 (eta*->0) as N/scale grows, for BOTH ternary and signed domains. CALIBRATION REPRODUCED EXACTLY: signed midpoint eta*=0.019 at mu_32 N=16 (exact match to the node record), DECREASING with N; ternary flat ~0. So Sum_j eta_j = o(t) holds on the REAL object (prod_y mu_hat_y(lambda), not the earlier whole-section proxy). CONFIDENCE: MEDIUM->HIGH (now on the true object, calibration on the nose). The leaf is CORRECT as stated \u2014 no chain-hacking needed. | PRO CONDITIONAL CLOSURE (verified): exact reduction rho_j=q^L|Z_j|/U proved (Lemma 1); dli-flatness reduced to the RES resultant-survivor count; zero-atom caveat => rank-charged central measure; fixed-lambda refuted. The remaining leaf is now a sharp COUNTING statement, empirically supported. | ZERO-ATOM RESOLVED (verified): Pro's singleton-{0} counterexample was a phrasing artifact of my brief (\"bounded symmetric domain\" did not say ACTIVE). Real central profiles have active coords |D_y|>=2 and the wide Vandermonde odd-eval matrix A is FULL RANK (rank=L for all N>=L, verified) => rank-charging penalty L_j-rank=0. No real gap; scope = active full-rank central profiles (auto-satisfied). The RES count is unaffected. | MAJOR CORRECTION (verified): sup formulation REFUTED by a low-mass profile (rho_j=(q/3)^L, mass-forced). My HIGH confidence was overstated (only tested full-mass). The sufficient-condition route to b2b is dead; the real obligation is the U-weighted average = b2b directly, OPEN. Lemma 1 exact reduction still holds. This is the leaf-is-incorrect -> reassess scenario. | CODEX CROSS-VALIDATION (independent): reproduced the zero-atom/rank-deficient falsifier (matches Pro + my sup refutation); active full-rank large-support scans show the small-support spikes FLATTEN (active 18->36: rho 129->1.04; signed L=4 active 32->40: rho 4.06->1.15). Positive evidence that the rank-charged/weighted-average (large-support) obligation holds -- no large-support falsifier found."
@@ -4580,6 +4582,20 @@
    "title": "U2-C prime: giant-regime t-null dichotomy",
    "statement": "RE-POSED 2026-07-06 (FALSIFIED AS STATED, verified witness -- see FALSIFICATION_AND_REPOSE.md): the unscoped dichotomy is FALSE: at (q=97,n=32,t=2) there are GIANT (81%) t-null non-coset-union blocks (complements of size-6 accidents; 160 witnesses). Accidents are random-model objects of the ABOVE-BALANCE window C(n,b) > q^t. REPAIRED CLAIM: at rows with q^t >= 2^n (sub-balance everywhere; all official prize-max rows qualify by ~2%): every t-null block is a union of mu_M-cosets (M >= t) with zero-sum value patterns at multiples of M <= t. PROVED ASSETS: complementation lemma (S t-null iff C\\S t-null; sparse product + Newton; verified 27762/27762), top-band rigidity (|S| >= n-t forces the full coset), (t+1)-support rigidity (t-null of size t+1 = full mu_(t+1)-coset, empty when t+1 does not divide n). Census: t=3 and large-q/n rows CLEAN. Remaining obligation: entropic suppression -- zero accidents in the sub-balance regime (anti-concentration, same shape as the dli RES count).",
    "notes": "Born red: this hypothesis was always load-bearing, hidden in prose. Compression forced the declaration. | COMPLEMENTATION LEVER (verified 2026-07-06, 27762/27762 at t=2,3,4, mu_16/F_97): S subset of a full mu_n-coset C is t-null IFF C\\S is t-null -- because prod_{x in C}(1+ux) = 1 +- delta u^n is SPARSE, so the first t<n coefficients of prod_S equal complete-homogeneous functions of the complement; Newton converts. => the GIANT regime reduces to classifying SMALL t-null sets, where Vandermonde rigidity (proved, support >= t+1) bites and the toy classification is COMPLETE (t=2,|T|<=6: exactly the four mu_4-cosets, nothing else). ATTACK PLAN: (a) prove the sparse-product/Newton complementation lemma (elementary); (b) classify small t-null sets by rigidity+induction (toy: exhaustive match); (c) dichotomy follows for giant blocks. This is the most tractable-looking red on the board. | GOAL OUTCOME 2026-07-06: FALSIFIED as stated (verified giant witness), salvaged by the explicit sub-balance regime hypothesis; complementation lemma + rigidity corollaries PROVED and banked. Difficulty re-ranked: the repaired form is anti-concentration-hard, no longer the easiest red."
+  },
+  {
+   "id": "u1_x4_direct_column_budget",
+   "title": "Weak U1-for-X4: fully stripped primitive column fits the direct n^3 budget",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At the official X4/list corridor rows, after quotient, dihedral, moment-trade, U2 boundary, and DLI/skew strips have removed their paid columns, the remaining primitive exact-list active-core residue fits inside the direct row column consumed by x4_exactlist_staircase_split. A sufficient concrete target is <= n^3 at the official rows. This is strictly weaker than u1_pullback_dichotomy: it does not classify every canonical trade into a pullback dictionary and does not require the older orbit-converted n^2 survivor bound.",
+   "attack_surface": "anchored same-moment/PTE active-core families over mu_n at q >= n^2, especially boundary p = 1 mod n rows where stronger hn or n^2 trophies can fail; also the X4 row arithmetic after all explicit staircase columns are charged",
+   "falsifier": "a complete or certified row/slice with more than n^3 fully stripped non-toral primitive active-core trades, or row arithmetic showing the direct n^3 primitive column no longer fits after quotient/dihedral/moment columns",
+   "refs": [
+    "archive/retraction_xr_20260705/active_core_count_bound/statement.md",
+    "archive/retraction_xr_20260705/anchored_nontoral_pte_bound/statement.md"
+   ],
+   "notes": "AMBER WEAKENING 2026-07-06: x4_exactlist_staircase_split was rewired to consume this narrower red premise instead of the full u1_pullback_dichotomy. The full U1 theorem remains a live target and route material, but the X4 consumer only needs this direct primitive-column budget. AMBER STRESS 2026-07-06: u1_x4_active_core_budget_probe.py replayed exact small active-core gates and checked complete small rows plus capped boundary slices under a 60s cap; no n^3 direct-column excess was found, and the exceptional active-core control was detected."
   }
  ],
  "edges": [
@@ -5071,7 +5087,7 @@
   {
    "from": "a_regularity_forcing",
    "to": "a_regular_collapse",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "m_sweep",
@@ -5116,7 +5132,7 @@
   {
    "from": "b_rational_lift",
    "to": "ext_lift",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "ext_import",
@@ -5591,7 +5607,7 @@
   {
    "from": "ext_import",
    "to": "f1_case_pole",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "two_slope_intersection",
@@ -5761,7 +5777,7 @@
   {
    "from": "subgroup_expsum_input",
    "to": "free_pool_ladder",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "free_pool_ladder",
@@ -5786,12 +5802,12 @@
   {
    "from": "rules_m_reading",
    "to": "m_le3_route",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "imgfib",
    "to": "m_le3_route",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "imgfib_monomial",
@@ -6935,11 +6951,6 @@
   },
   {
    "from": "u1_pullback_dichotomy",
-   "to": "x4_exactlist_staircase_split",
-   "kind": "req"
-  },
-  {
-   "from": "u1_pullback_dichotomy",
    "to": "xr_smallcore_spread_count",
    "kind": "ev"
   },
@@ -7191,12 +7202,12 @@
   {
    "from": "f1_case_pole",
    "to": "ext_lift",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "f1_case_tower",
    "to": "ext_lift",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "tr_joint_telescope",
@@ -8787,6 +8798,11 @@
    "from": "q_cofactor_normal_form",
    "to": "worst_word_challenger_pricing",
    "kind": "ev"
+  },
+  {
+   "from": "u1_x4_direct_column_budget",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
   }
  ]
 }

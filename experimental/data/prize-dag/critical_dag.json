@@ -853,9 +853,9 @@
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
   },
   {
-   "id": "u1_pullback_dichotomy",
+   "id": "u1_x4_direct_column_budget",
    "label": "UNPROVED",
-   "title": "U1 \u2014 THE CLOSING CONJECTURE: cancellation is pullback, quantitatively"
+   "title": "Weak U1-for-X4: fully stripped primitive column fits the direct n^3 budget"
   },
   {
    "id": "u2_per_row_certifier",
@@ -1091,10 +1091,6 @@
    "to": "imgfib"
   },
   {
-   "from": "b_rational_lift",
-   "to": "ext_lift"
-  },
-  {
    "from": "f1_classification",
    "to": "ext_lift"
   },
@@ -1161,10 +1157,6 @@
   {
    "from": "f1_case_tower",
    "to": "f1_classification"
-  },
-  {
-   "from": "ext_import",
-   "to": "f1_case_pole"
   },
   {
    "from": "stratification_partition_thm",
@@ -1483,10 +1475,6 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
-   "from": "u1_pullback_dichotomy",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
    "from": "rules_freeze",
    "to": "axis9_dither"
   },
@@ -1597,14 +1585,6 @@
   {
    "from": "strat_tree",
    "to": "safe_assembly_uniformity"
-  },
-  {
-   "from": "f1_case_pole",
-   "to": "ext_lift"
-  },
-  {
-   "from": "f1_case_tower",
-   "to": "ext_lift"
   },
   {
    "from": "tr_joint_telescope",
@@ -1953,6 +1933,10 @@
   {
    "from": "rate_half_band_closure",
    "to": "mca_safe"
+  },
+  {
+   "from": "u1_x4_direct_column_budget",
+   "to": "x4_exactlist_staircase_split"
   },
   {
    "from": "acl_second_order",
