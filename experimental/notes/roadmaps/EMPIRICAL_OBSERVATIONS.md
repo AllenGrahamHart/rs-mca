@@ -544,3 +544,12 @@ worst-lambda census (912k lambdas) independently confirms the uniform-AC falsifi
 found, correctly remains the one flagged hypothesis. D2=D3 exact at 3 new rows. All feeds DLI-NPM.
 NOTE: the run crashed the machine on local heavy enumerations (Modal unavailable in its shell again);
 next Codex run should get Modal on PATH or hard caps on local enumeration sizes.
+
+## DLI-CLOSE ROUND 4: sub-section refutation verified; target scoped to the production row class R*
+Pro's witness (97,32,L=2,N=12 initial segment): Sum T = 3.6234 > 3 -- VERIFIED exactly. Our diagnostic:
+random 12-subsets fail too (E=4.1/3.6/3.7) => the cause is the ratio (2^12 < 97^2 violates 2^N >= q^L),
+not segment structure; the full half-section survives at the same row (E=1.348). FIFTH window-law instance.
+Re-scoped: R* = rotated full half-sections with 2^N >= q^L -- exactly the real dyadic tower levels
+(a dyadic residue class = rotated full half-section of mu_{n'}). DLI-NPM* verified at every R* row ever
+tested. Pro contributed the exact kernel-form equivalent + two counted proof routes (dyadic near-peak
+ledger B_j; half-circle census G_j). Round 5 brief out.
