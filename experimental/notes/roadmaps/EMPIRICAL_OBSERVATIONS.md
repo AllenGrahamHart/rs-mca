@@ -511,3 +511,17 @@ Bajnok-Edwards (formulas + full calibration table verified to every digit; DdS-H
 named risk families tested: rank-2 at budget size FILLS; small rank-2 density-excluded; sparse-long-container
 FILLS (exact bitset DP 0.882p -- my sampled 0.289p was a CLT-concentration estimator bug, caught; trap recorded).
 Advisory on xr_smallcore_spread_count; re-expansion of the retracted sov segment awaits a proof.
+
+## GOAL: prove-or-falsify worst_word_challenger_pricing — OUTCOME: exhaustion PROVED, pricing law verified
+Falsification campaign FAILED comprehensively (= survival evidence): open-window cells (sigma=2, q=17),
+generic-background receivers, multiple q -- every non-planted list word touches >=2 petals (my apparent
+'third class' was a labeling artifact: bg-touching words all also touch >=2 petals; 13/13 reclassify as mixed).
+PROVED: Lemma A -- in max-fill cells (bg<=1), NO third class at any sigma>=1, any q (one-paragraph agreement-
+counting proof: one-petal g agrees with the planted f_j at >= k points => g = f_j). Hypothesis SHARP: bg=5/9
+cells exhibit verified BG-ONLY (the zero polynomial) and ONE-PETAL witnesses. This converts the 296-cell
+UNCLASSIFIED=0 census record from observation to theorem.
+VERIFIED PRICING LAW (third instance of the universal window law): challengers = codim-sigma coincidences;
+count ~ K_cell/q^sigma (count*q ~ 2000 stable across q=97..449 at sigma=1; sigma=2 window opens at q=17 with
+7 challengers -- all still >=2-petal -- and closes by q=97). Node kernel reduced to: per-official-row certified
+envelope + a K_cell upper-bound lemma. ALSO: caught two of my own artifacts en route (collinear background
+manufacturing agreements; labeling-vs-taxonomy confusion) -- both recorded.
