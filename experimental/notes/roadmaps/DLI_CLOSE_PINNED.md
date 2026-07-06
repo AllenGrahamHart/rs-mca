@@ -133,3 +133,80 @@ round 2: W-display (row-nonuniform) -> E-display    (low-q balanced mass)
 round 3: uniform per-lambda -> summed over lambda   (near-peak concentration)
 The E-form target is now triply battle-tested; every known falsifier family is priced
 into the display itself.
+
+# ROUND-4 UPDATE (2026-07-06, Pro's DLI-NPM refutation — verified + diagnosed)
+
+Pro refuted DLI-NPM as written with an exact witness: (q,n,L,N)=(97,32,2,12), the
+12-point INITIAL SEGMENT of the 16-point half-section: Sum T = 3.6234 > 3 (exact
+rational ledger, 3^12 enumeration — VERIFIED). Pro's own scope note: the FULL
+half-section at the same row gives small mass (VERIFIED: E = 1.3477, matching our
+original identity computation).
+
+DIAGNOSTIC (ours): random 12-subsets ALSO fail (E = 4.1, 3.6, 3.7) — the failure
+is NOT segment structure but the coordinates-per-constraint ratio: N=12, L=2,
+q=97 violates 2^N >= q^L (4096 < 9409). THE WINDOW LAW, FIFTH INSTANCE.
+
+## ROUND-4 SCOPED TARGET (the production row class, finally pinned)
+Row class R*: X = c * (full half-section of mu_{n'}), N = n'/2, with
+    2^N >= q^L    (balanced-volume / matched-alpha; automatic at production:
+                   N = 256L and q < 2^256).
+The real tower levels ARE in R*: a dyadic residue class of the big section equals
+a rotated full half-section of mu_{n'} (n' = n/m), and kernels are rotation-
+invariant (Sum d_i (c x_i)^r = c^r Sum d_i x_i^r).
+
+>>> TARGET (DLI-NPM*): for every row in R*: Sum_{lambda != 0} T(lambda) <= 3. <<<
+
+Equivalent kernel form (Pro round 4, exact): W <= 4 * 2^N/q^L - 1 on R*.
+Verified at every R* row tested: (97,32,16): 0.348; (257,32,16): 0.751;
+(65537,512,256): 0.000000; original DPs ~1e-6. Every failure ever produced
+violates the R* membership (round-2: low-q with N=256 fixed -> W-display artifact;
+round-4: N below the volume line).
+
+## Suggested proof routes (Pro round 4, both summed/counted — guardrail-compliant)
+- Dyadic near-peak ledger: B_j = {lambda != 0 : j <= -log2 T < j+1};
+  leaf: Sum_j 2^{-j} |B_j| <= 3.
+- Half-circle counted form: G_j = {lambda != 0 : #{y : ||a_y/q|| > 1/4} <= j};
+  T >= 2^{-j} => lambda in G_j; leaf: Sum_{j>=1} 2^{-j} |G_j| <= 3.
+
+## Tennis scoreboard (5 window-law instances now)
+r1 sup-profiles -> weighted | r2 W-display -> E-display | r3 uniform-lambda -> sum
+r4 unpinned N -> the R* row class (2^N >= q^L, full half-sections).
+The object has survived every round; only the written slack keeps dying.
+
+# ROUND-5 UPDATE (2026-07-06): FIRST GENUINE REFUTATION — and its absorption
+
+Pro refuted DLI-NPM* INSIDE R* (verified end-to-end, incl. the Pocklington
+primality certificate): an ENGINEERED prime q = 0.528*2^256 chosen to divide the
+norm of the 6-term cyclotomic element 1 - z^33 + z^40 - z^136 - z^143 + z^145
+(z of order 512). The 512 folded signed shifts are distinct weight-6 kernel
+vectors: W >= 8 > 6.57 (the row threshold), E >= 4.753 > 4. Full half-section,
+volume satisfied, no scoping escape. **The per-level uniform constant is FALSE.**
+
+## The absorption (verified arithmetic)
+The endpoint (b2b <= 2^122) consumes PROD_j E_j, not per-level constants. One
+engineered relation orbit at level L costs E <= (vol)(1 + 512L*2^-(L+1)) — the
+Vandermonde floor w >= L+1 makes the cost DECAY with depth:
+  L=1: <= 129 (7.0 bits), L=5: <= 41 (5.4 bits), L=12: <= 1.75, L>=20: ~1.
+- Pro's actual row: 2.25 bits at one L=1 level. Endpoint margin: untouched.
+- Fantasy worst case (ALL 34 levels engineered simultaneously — each extra level
+  is an independent ~2^-216 norm-divisibility coincidence): 51.2 bits total,
+  71 bits of budget to spare.
+SIXTH window-law instance: per-level uniform constant -> cross-level aggregate.
+
+## ROUND-5 RE-POSED TARGET (DLI-AGG — the endpoint's actual consumption)
+> For every admissible row: SUM_j log2 E_U[rho_j] <= 100.
+Orbit decomposition: E_j <= (q^L/2^N)(1 + K_j * 2N * 2^-(L_j+1)) where K_j = the
+number of minimal-weight relation ORBITS at level j whose defining ternary
+element has q-divisible evaluation. The remaining kernel is the ORBIT-COUNT:
+> K_j(q) is small (O(1) engineered + random-window mass) for every admissible q.
+Sharp sub-question (clean number theory): how many INDEPENDENT low-weight ternary
+cyclotomic elements can a single prime q < 2^256 divide? Each additional orbit
+beyond the first is an independent ~2^-216 coincidence; stacking is doubly
+unlikely — but this must become a theorem or a per-row certificate.
+
+## Strategic note
+Pro's construction VALIDATES the norm-gate as the true mechanism: the ONLY way
+into R* was norm-divisibility engineering — precisely what bounded_coeff_norm_gate
+(PROVED) prices. The battlefield was correctly identified in round 1; five rounds
+of tennis eliminated every other surface. What remains: count the norms one prime
+can hit.

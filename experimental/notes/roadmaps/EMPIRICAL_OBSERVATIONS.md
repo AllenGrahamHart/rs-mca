@@ -553,3 +553,14 @@ Re-scoped: R* = rotated full half-sections with 2^N >= q^L -- exactly the real d
 (a dyadic residue class = rotated full half-section of mu_{n'}). DLI-NPM* verified at every R* row ever
 tested. Pro contributed the exact kernel-form equivalent + two counted proof routes (dyadic near-peak
 ledger B_j; half-circle census G_j). Round 5 brief out.
+
+## DLI-CLOSE ROUND 5: FIRST GENUINE REFUTATION (engineered prime, verified) — ABSORBED by the endpoint
+Pro engineered a prime q=0.528*2^256 dividing a 6-term cyclotomic norm: 512-orbit of weight-6 trades inside
+R*, E=4.75>4 -- VERIFIED end-to-end incl. the Pocklington certificate. The per-level uniform constant is
+genuinely FALSE. ABSORPTION (verified): the endpoint consumes the cross-level PRODUCT (budget ~122 bits);
+Pro's row costs 2.25 bits; the Vandermonde floor makes engineered costs DECAY with depth (L=1: 7 bits max,
+L>=12: ~0); even all-34-levels fantasy = 51 bits. SIXTH window-law instance (per-level constant -> aggregate).
+RE-POSED: DLI-AGG (Sum_j log2 E_j <= 100/row) with the remaining kernel = the ORBIT-COUNT question (how many
+independent low-weight ternary cyclotomic elements can one prime < 2^256 divide -- each extra = ~2^-216
+coincidence). Pro's construction VALIDATES the norm-gate as the true mechanism: the only way into R* was
+norm-divisibility engineering, exactly what the proved gate prices.
