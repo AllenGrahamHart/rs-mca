@@ -177,7 +177,6 @@
    "id": "zone_b",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)",
    "status": "PROVED",
-   "gate": "any",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
@@ -185,7 +184,7 @@
    "statement": "Determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs collided (= prob:perfiber at sigma = 1). SHARPENED (E1 compatibility): on 2-power rows the open cells are the 2-power divisors in (80, 512) \u2014 for Row C exactly N' in {128, 256}: the corridor question is TWO value sets per row.",
    "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
    "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction",
-   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan. | CONDITIONAL (Modal data refereed): the raw fullness fractions ARE the signed-core quotient \u2014 N'=16 p=60161 EXACT (3281=3281), N'=32 99.57%/97.66% with accidents shrinking in p, prize-shape scans zero collisions. The collision-free branch stands; residue = e1_fullness (the norm-density estimate)."
+   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan. | CONDITIONAL (Modal data refereed): the raw fullness fractions ARE the signed-core quotient \u2014 N'=16 p=60161 EXACT (3281=3281), N'=32 99.57%/97.66% with accidents shrinking in p, prize-shape scans zero collisions. The collision-free branch stands; residue = e1_fullness (the norm-density estimate). | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (e1_fullness, already wired req) is now a req edge; reserve routes (acl_second_order, norm_threshold_ext, perfiber) demoted to ev -- re-promotable if the winner is ever falsified."
   },
   {
    "id": "acl_second_order",
@@ -759,11 +758,10 @@
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
-   "gate": "any",
    "statement": "Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "fixed-excess counts growing super-poly in n at some c",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway)."
   },
   {
    "id": "petal_witnesses",
@@ -1664,8 +1662,7 @@
    "refs": [
     "proof_sketch/s8_s9_assembly_and_negative.md#4"
    ],
-   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had. | GATE FIX (expansion audit): the statement says 'whichever enumeration route completes' \u2014 set gate:any over the four alt routes. ALSO: the B2b scan's 'no sixth guise' finding is supporting evidence at giant scale. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/payment_completeness/conditional.md. | PROVED on maintainer review of the Opus write-up (three flags recorded: R2 carve-out by design; cited inputs previously refereed; deg_Z q_Z minor-degree bound at normal-form level).",
-   "gate": "any"
+   "notes": "previously smeared invisibly across every safe-side statement; now explicit and machine-classified | Mild support from E7: the dim-2 census's entire excess is classified by the KNOWN paid shapes (common-root/tangent); no unclassified spike. | E5 DELIVERED (#188): NO_MULTISCALE_HIDDEN_RANK_SIGNAL \u2014 phase-locked, adversarial-spread, and random dyadic families at n = 1024..4096: combined multiscale rank never exceeds deduped per-scale payments. FIRST data in the hiding room; scope = linear periodic model. Prior UP. | S9-WATCH ESCALATION (the sharpest candidate ever): does the DIHEDRAL stratum generate unpaid MCA alignment mass on multiplicative rows, or is it absorbed by existing ledgers (the antipodal-class machinery in zone-(b) may already partially know it)? E25 decides. If unpaid: the fifth mechanism, found by pure thought; if absorbed/chargeable: a taxonomy completion at bookkeeping cost. | E25: the completeness hypothesis SURVIVED its sharpest test \u2014 the enlarged four-branch taxonomy absorbed the newly-discovered class with zero unpaid residue at toy scale. The historical pattern holds: taxonomy grows, completeness persists. | E35: taxonomy clause correction (projective multiplicative form X^e g(X^M)); no new mechanism \u2014 the example is a twisted pullback, inside the symmetry sector. Fifth-shape watch remains clean across E25/E27/E30/E32/E35/E36. | THIRD QUOTIENT-CLAUSE REFINEMENT (X-4): the paid quotient shape must include MIXED/TAIL forms L_B(X) G(X^M), |B| < M (and the dihedral analogue) \u2014 pure pullbacks miss the staircase. Clause history: dihedral branch (X-2), projective twist X^e (E35), tail forms (X-4). Each found by counterexample, each inside the symmetry/quotient sector, fifth-shape watch STILL clean. | S9 FIRES \u2014 THE FIFTH MECHANISM IS REAL (first genuine one; six prior clean probes were structurally blind at weight > 4): primitive moment-trade blocks cancel without symmetry. The 'cancellation = symmetry' thesis is REFUTED (my X-4b framing, falsification #5); the Dih_n keystone still governs the SYMMETRY sector, but cancellation is strictly bigger. The S9 response executed: fourth staircase column added, p-specific exclusion targets named, per-row certification hook identified (crux-2 architecture absorbs it), E37 census queued. MCA-side compiler survives AGAIN via the slope/support distinction \u2014 the moment staircases inflate per-slope lists, not slope counts. | TAXONOMY FINAL FORM CANDIDATE (the unification): tangent + PULLBACK (the Luroth lattice: rational-map fibers with coefficient constraints \u2014 subsumes multiplicative, dihedral, moment-trade/PTE, and the affine-involution witness as one class, complete by Luroth's theorem) + extension. Two independent same-hour discoveries of the same class in different object families is the strongest completeness evidence the program has ever had. | GATE FIX (expansion audit): the statement says 'whichever enumeration route completes' \u2014 set gate:any over the four alt routes. ALSO: the B2b scan's 'no sixth guise' finding is supporting evidence at giant scale. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/payment_completeness/conditional.md. | PROVED on maintainer review of the Opus write-up (three flags recorded: R2 carve-out by design; cited inputs previously refereed; deg_Z q_Z minor-degree bound at normal-form level). | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (spi_exceptional_class) is now a req edge; reserve routes (xr_crystallization, es_regularity, monodromy_realization) demoted to ev -- re-promotable if the winner is ever falsified."
   },
   {
    "id": "redteam_multiscale",
@@ -3399,14 +3396,13 @@
    "title": "THE WEDGE: 0.00707 grid steps at rate 1/8 from any fourth mechanism",
    "status": "PROVED",
    "key": true,
-   "gate": "any",
    "statement": "Recover >= 0.00707 grid steps (~0.9 bits) at rate 1/8 from ANY mechanism outside the three-eater partition \u2014 (a) cap-end sharpening, (b) tau* reserve tightening, (c) census crossing pinning. ONE suffices (gate: any). Closing this closes the campaign's first full determination corridor; failing all three lands rate 1/8 bracket-grade honestly.",
    "attack_surface": "the three alt routes; (b) is likely cheapest (pure re-derivation), (c) is compute-shaped, (a) is proof-shaped",
    "falsifier": "all three mechanisms exactly computed below the wedge",
    "refs": [
     "experimental/notes/roadmaps/acl_second_order_evaluation.md"
    ],
-   "notes": "PROVED (Pro Brief C, my 11/11 exact replay + real tex citation): route (a) \u2014 the quotient-remainder floor at c = 2^28 delivers 0.0625 steps, 8.8x the wedge. THE RATE-1/8 CORRIDOR'S LEDGER ROW CLOSES."
+   "notes": "PROVED (Pro Brief C, my 11/11 exact replay + real tex citation): route (a) \u2014 the quotient-remainder floor at c = 2^28 delivers 0.0625 steps, 8.8x the wedge. THE RATE-1/8 CORRIDOR'S LEDGER ROW CLOSES. | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (cap_end_sharpening) is now a req edge; reserve routes (taustar_reserve_tightening, census_crossing_pinning) demoted to ev -- re-promotable if the winner is ever falsified."
   },
   {
    "id": "list_corridor_widths",
@@ -4777,12 +4773,12 @@
   {
    "from": "acl_second_order",
    "to": "zone_b",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "norm_threshold_ext",
    "to": "zone_b",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "row_c_experiment",
@@ -4792,7 +4788,7 @@
   {
    "from": "perfiber",
    "to": "zone_b",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "counting_frame",
@@ -5415,11 +5411,6 @@
    "kind": "ev"
   },
   {
-   "from": "e1_fullness",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
    "from": "acl_count",
    "to": "e1_fullness",
    "kind": "ev"
@@ -6022,22 +6013,22 @@
   {
    "from": "xr_crystallization",
    "to": "payment_completeness",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "spi_exceptional_class",
    "to": "payment_completeness",
-   "kind": "alt"
+   "kind": "req"
   },
   {
    "from": "es_regularity",
    "to": "payment_completeness",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "monodromy_realization",
    "to": "payment_completeness",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "pma_aux_list_reduction",
@@ -7167,17 +7158,17 @@
   {
    "from": "cap_end_sharpening",
    "to": "fourth_mechanism_rate8",
-   "kind": "alt"
+   "kind": "req"
   },
   {
    "from": "taustar_reserve_tightening",
    "to": "fourth_mechanism_rate8",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "census_crossing_pinning",
    "to": "fourth_mechanism_rate8",
-   "kind": "alt"
+   "kind": "ev"
   },
   {
    "from": "fourth_mechanism_rate8",

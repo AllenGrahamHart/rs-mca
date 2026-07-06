@@ -27,3 +27,13 @@ that lands on a req-path is owed — i.e. it IS a target.
 Node semantics: EVERY node is a truth claim (the node-semantics law,
 notes/CHAIN_COMPRESSION_POLICY.md). The DAG asserts: if the red leaves are
 proved, the grands follow by the wired implications alone.
+
+## Gate normalization on close (adopted 2026-07-06)
+
+The critical surface carries ONE edge kind: req (AND-logic). OR-gates (gate:any
++ alt edges) are a planning device for OPEN work only, and open reds cannot
+carry alts (red-leaf law) — so no critical node ever shows a gate. When a gated
+node closes, the delivering route is promoted to req and the losing alternates
+are demoted to ev reserve routes (recorded, re-promotable if the winner falls).
+Validator-enforced. Log: zone_b, payment_completeness, fourth_mechanism_rate8
+normalized 2026-07-06; petal_growth residual gate attribute removed.

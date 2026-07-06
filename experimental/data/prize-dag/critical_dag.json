@@ -1223,6 +1223,10 @@
    "to": "spi_exceptional_class"
   },
   {
+   "from": "spi_exceptional_class",
+   "to": "payment_completeness"
+  },
+  {
    "from": "f_dim1",
    "to": "f_primitive_case"
   },
@@ -1529,6 +1533,10 @@
   {
    "from": "axis8_generating",
    "to": "corridor_ext_crossing"
+  },
+  {
+   "from": "cap_end_sharpening",
+   "to": "fourth_mechanism_rate8"
   },
   {
    "from": "fourth_mechanism_rate8",
@@ -1937,26 +1945,6 @@
   {
    "from": "u1_x4_direct_column_budget",
    "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "acl_second_order",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
-   "from": "e1_fullness",
-   "to": "zone_b",
-   "kind": "alt"
-  },
-  {
-   "from": "spi_exceptional_class",
-   "to": "payment_completeness",
-   "kind": "alt"
-  },
-  {
-   "from": "cap_end_sharpening",
-   "to": "fourth_mechanism_rate8",
-   "kind": "alt"
   }
  ]
 }
