@@ -525,3 +525,12 @@ count ~ K_cell/q^sigma (count*q ~ 2000 stable across q=97..449 at sigma=1; sigma
 7 challengers -- all still >=2-petal -- and closes by q=97). Node kernel reduced to: per-official-row certified
 envelope + a K_cell upper-bound lemma. ALSO: caught two of my own artifacts en route (collinear background
 manufacturing agreements; labeling-vs-taxonomy confusion) -- both recorded.
+
+## DLI-CLOSE ROUND 2: Pro refutation verified, target re-posed to the row-uniform E-form
+Pro refuted W<=3 as stated (verified: 110 relation-trades 1+zeta^95=zeta^146 at q=65537, all in-section;
+identity forces W >= 2^240 there). Verification went further: (a) Pro's corrected uniform DLI-AC leaf is
+ITSELF false at toys (sup T exceeds the uniform bound 117x -- near-peak concentration); (b) the W-display was
+the wrong normalization: at low-q rows W is balanced mass, not trades (the 110 trades contribute 2^-236 to E).
+RE-POSED TARGET: E_U[rho_j] <= 4 per level (sum_{lambda!=0} T <= 3) -- row-uniform, endpoint-exact, needs no
+top-prime condition, and HOLDS AT PRO'S OWN COUNTEREXAMPLE ROW with E = 1.000000 (exhaustive, sup T = 7e-155).
+Round-3 kernel: near-peak mass in SUM form. Pattern (3rd time): uniform quantifiers die, averages survive.

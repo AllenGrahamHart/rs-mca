@@ -95,3 +95,41 @@ family priced (the u2c playbook). If (c)'s constant K is unprovable, the node
 re-poses as the explicit conditional "K-bounded tail". Either outcome is a
 compression of the red to a strictly smaller kernel; the target above is the
 full closure.
+
+# ROUND-2 UPDATE (2026-07-06, after the Pro DLI-CLOSE response — all claims verified)
+
+## What Pro found (VERIFIED)
+1. REFUTATION of "W <= 3" as literally stated: the identity forces W >= (2^256/q)^L - 1,
+   so the target needs q >= 2^{256-2/L}; explicit witness at (q,n,L)=(65537,512,1):
+   zeta=15028, the relation 1 + zeta^95 = zeta^146 gives 110 in-section weight-3
+   odd-trades, W >= 13.75. VERIFIED end-to-end (order, relation, section, trades).
+2. A corrected conditional close: top-prime condition Delta(q,L) = 4(q/2^256)^L - 1 > 0
+   plus the uniform per-frequency bound DLI-AC: T(lambda) <= Delta/(q^L-1) for all
+   lambda != 0 implies W <= 3. Algebra VERIFIED exact.
+
+## What verification found BEYOND Pro's note
+3. Pro's uniform DLI-AC is itself FALSE at toy rows: at the matched top-of-range toy
+   (q=257, n=32, L=2, N=16), sup T(lambda) = 5.3e-3 exceeds Delta/(q^L-1) = 4.6e-5 by
+   ~117x (near-peak frequencies concentrate). Only the SUMMED form survives.
+4. THE NORMALIZATION FIX (supersedes the top-prime patch): the W-display is not
+   row-uniform — at low-q rows the huge W is BALANCED mass (E ~ 1 forces W ~ 2^N/q^L),
+   not trades (Pro's 110 trades contribute ~2^-236 to E). The row-uniform object the
+   endpoint consumes is E itself:
+       >>> RE-POSED TARGET: E_U[rho_j] <= 4 per level  (<=> sum_{lambda!=0} T(lambda) <= 3) <<<
+   This needs NO top-prime condition, gives prod_j E <= 4^34 at every admissible row,
+   and SURVIVES Pro's own counterexample row: E = 1.000000 there (computed exhaustively,
+   sup T = 7e-155). Verified at three row types: Pro's low-q row (1.000000), the
+   matched top-of-range toy (1.75), the original DPs (1.0000008).
+
+## The remaining kernel (round-3 leaf)
+    sum_{lambda != 0} prod_{y=1}^{N} cos^2(pi a_y(lambda)/q)  <=  3   per level,
+i.e. NEAR-PEAK MASS CONTROL IN SUM FORM (the uniform per-lambda form is false; the
+dyadic route: #\{lambda : T(lambda) >= 2^{-j}\} counted against 2^{-j}). The exhaustive-
+lambda ledger sweeps (n=32..2048, worst-case decay, O(1) conductors) bear directly on it.
+
+## The tennis scoreboard (each round: uniform dies, average survives)
+round 1: sup over profiles  -> U-weighted average   (low-mass profiles)
+round 2: W-display (row-nonuniform) -> E-display    (low-q balanced mass)
+round 3: uniform per-lambda -> summed over lambda   (near-peak concentration)
+The E-form target is now triply battle-tested; every known falsifier family is priced
+into the display itself.
