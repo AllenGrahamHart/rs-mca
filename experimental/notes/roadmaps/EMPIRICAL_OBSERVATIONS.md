@@ -534,3 +534,13 @@ the wrong normalization: at low-q rows W is balanced mass, not trades (the 110 t
 RE-POSED TARGET: E_U[rho_j] <= 4 per level (sum_{lambda!=0} T <= 3) -- row-uniform, endpoint-exact, needs no
 top-prime condition, and HOLDS AT PRO'S OWN COUNTEREXAMPLE ROW with E = 1.000000 (exhaustive, sup T = 7e-155).
 Round-3 kernel: near-peak mass in SUM form. Pattern (3rd time): uniform quantifiers die, averages survive.
+
+## CODEX DLI GAP-ATTACK (paused run) INTEGRATED — six attacks, zero falsifiers, one algebraic kill
+Gap hunt: 10 more window-closed rows CLEAN (15 total, n up to 128, q up to 665089). ROTATION FAMILY KILLED
+BY PROOF (odd r0 invertible mod 2^s forces trivial rotation) -- pre-emption item 6 closed. Tail constant
+K ~ 1 measured (ratios 0.97-1.48 at n=64, counts to 73k; max 4.3 at small open-window rows). Exhaustive
+worst-lambda census (912k lambdas) independently confirms the uniform-AC falsification (worst coordinate
+-0.34..-0.84 bits, above -1) -- the round-2 sum-form re-pose was correct. Level-independence: no coupling
+found, correctly remains the one flagged hypothesis. D2=D3 exact at 3 new rows. All feeds DLI-NPM.
+NOTE: the run crashed the machine on local heavy enumerations (Modal unavailable in its shell again);
+next Codex run should get Modal on PATH or hard caps on local enumeration sizes.
