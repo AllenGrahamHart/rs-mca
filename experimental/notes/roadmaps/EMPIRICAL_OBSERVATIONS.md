@@ -491,3 +491,15 @@ statement-less ambers got REAL statements from Codex (adopted, superseding my bl
 re-wired). 31/31 verifier suite green in its worktree. Batches 3-15,18,19: GAP-1 telescope algebra, MCA
 self-consistency, SPI/Hankel, PMA adversarial (incl. correlated-target search), E22 shuffled-layout census,
 TR quotient-row dictionary, XR triangle/quad rank scans -- ALL resisted; no falsifiers.
+
+## DLI-CLOSE PINNED (prong 1 of the closing campaign) — the counterexample-hardened target
+Derived + verified the closed form: E_U[rho_j] = q^L Pr[Ad=0] (iid ternary d, P(0)=1/2) = (q^L/2^N)(1+W_j),
+W_j = 2^-weight count of ODD-TRADES (disjoint P,Q on the section with matching odd power sums <= 2L-1).
+Analytic display: sum_lambda prod_y cos^2(pi a_y(lambda)/q) -- identity VERIFIED exactly (D2=D3=1.347721 at toy).
+TARGET: W_j <= 3 per level => prod E <= 2^68, deep inside budget. HARDENING: (i) section hypotheses verified
+(no antipodes, no full cosets -- these KILL the antipodal/coset trade families; load-bearing); (ii) window law
+calibrated (toy accidents = random counts exactly; gap window-closed at admissible q for all L); (iii) MITM
+structure hunts CLEAN at 5 random-empty rows (expected down to 7e-4); (iv) analytic route has a 100% margin
+(circle constant -2 bits/coord vs -1 needed). Weight split: w<=L PROVED; gap = the content; tail = K x random
+OR the analytic margin. Level-independence flagged as explicit hypothesis. Next: Pro brief + Codex adversarial
+goal generated from DLI_CLOSE_PINNED.md.
