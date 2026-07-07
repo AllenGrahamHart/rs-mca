@@ -393,3 +393,42 @@ artifact replayable by a stranger.
   **F7 SURVIVAL +3 -> F7 HARDENED** (census / envelope-stress / layout-sup).
   **F6 SURVIVAL +3 -> F6 HARDENED** (composite sweep / crossing-fidelity /
   anti-concentration). THREE OF SEVEN FLOORS HARDENED (F2, F6, F7).
+- F1-A3 RUN (f1a3_dual_spectrum_modal.py, 24 rows x full exact dyadic
+  spectra, 5 q-bands 2e4..4.8e5): median K(j) = 0.6-1.35 at every
+  well-sampled level in every band — the dual projection of B-WEAK carries
+  NO structural surplus in population; no alarm.
+  **F1 SURVIVAL +3 -> dli B-WEAK HARDENED** (joint scaling / engineered
+  stacked towers / dual-spectrum sweep). FOUR OF SEVEN HARDENED
+  (F1, F2, F6, F7). Remaining: F5 third (strip-integrity), F4 (A2b +
+  third), F3 (A1b + A2).
+- F5-A3 RUN (f5a3v3_strip_integrity_modal.py, line-geometric tangent-core
+  counting, 3 scales complete; q=389 rung timed out — noted): RANDOM-word
+  depth spectra collapse immediately (g(2) = 0 everywhere — decay faster
+  than the q^-2 model; no stall); ADVERSARIAL cascades are the planted
+  lines' binomial dressings C(m, 2+d) — the tangent ledger's own charged
+  objects (classified in-instrument, pre-registered scope). No leak.
+  **F5 SURVIVAL +3 -> F5 HARDENED** (slope-limited spread / engineered
+  dimension-cap / strip-integrity). FIVE OF SEVEN HARDENED.
+- F3-A2 + CONFINEMENT RUN (f3a2_smooth_confine_modal.py, 14/14 complete,
+  gate exact): adversarially SMOOTH q (40961/61441/65537 incl. Fermat —
+  maximal subgroup richness) at full n=32 windows: ZERO nontoral trades;
+  exceptional-regime confinement at n=16: the p=17 exceptional structure
+  (60 trades, the positive control) does NOT persist at any p >= 97 —
+  zero at 7 rows. **F3 SURVIVAL +3 -> F3 HARDENED** (boundary sweep /
+  smooth-q engineering / exceptional confinement). Honest remaining
+  surface: n=64 full-window needs a numpy signature rewrite (C(63,7)
+  left tables) — follow-up, does not block the 3-family criterion.
+  SIX OF SEVEN HARDENED.
+- F4-A2b COMPLETE + catch #6 (refining, not overturning): per-config
+  captures at three bands reveal the TWO-REGIME structure of the top
+  band — AT/BEYOND the top-defect boundary realizability SATURATES
+  (realized = the full binomial window C(core, 6), p-INDEPENDENTLY: this
+  is why the A1 ladder read a constant 5005 — it is a real, structurally
+  saturated count = the parameterized paid family, exactly chargeable);
+  BELOW top, realized counts are window-law accidents DECAYING with p
+  (4 -> 0, 2 -> 0, 29 -> 8 at matched cells); Lemma-13 kernel ceiling:
+  ZERO violations at every row of every instrument. Deep-c at large p =
+  feasible per-c follow-up jobs (cost scales with p), listed as remaining
+  surface, non-blocking. **F4 SURVIVAL +3 -> F4 HARDENED** (p-ladder with
+  saturation semantics / c-growth bounded-degree binomial / Lemma-13
+  kernel-ceiling). **SEVEN OF SEVEN FLOORS HARDENED.**
