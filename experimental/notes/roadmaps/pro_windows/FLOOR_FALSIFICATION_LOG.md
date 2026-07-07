@@ -432,3 +432,111 @@ artifact replayable by a stranger.
   surface, non-blocking. **F4 SURVIVAL +3 -> F4 HARDENED** (p-ladder with
   saturation semantics / c-growth bounded-degree binomial / Lemma-13
   kernel-ceiling). **SEVEN OF SEVEN FLOORS HARDENED.**
+
+## PRO PHASE (seven parallel windows, replies as relayed)
+
+- FLOOR 2 (EXTRAS-BUDGET), reply 1: **CONCURRENCE, NOT AN ATTACK.** Pro
+  read the fork-published campaign materials (the briefs' ledger pointers
+  made the full evidence base visible), restated our banked results
+  accurately (192/64/0 gate, 1440-trial coprime-ideal obstruction, b=16
+  censuses with the 700 constant, the p=21313 regime-marker trap — all
+  verified verbatim-consistent with the ledger), and concluded "no kill,
+  floor hardens" WITHOUT attempting any of the brief's untried surfaces
+  (CRT-composite q, t >= 5 depths, direct giant-block structure). Under
+  the graduation bookkeeping this is weak evidence (an adversary declining
+  to engage after reading the ledger), NOT an absorbed attack family. Its
+  proof-side recommendation (derive the 700 structurally; formalize the
+  coprime-ideal obstruction) independently matches our F2 proof leads —
+  convergent judgment noted. FOLLOW-UP NUDGE PREPARED (below) to convert
+  audit-mode into attack-mode.
+- FLOOR 1 (B-WEAK), Pro reply 1: **GENUINE ATTACK, NO KILL — fully
+  replayed.** Pro built its own exact instrument (concentration factor
+  K = count*q/(2^w C(N,w)) on the cyclotomic vanisher projection), swept
+  built-in cross-scale rows + a 16-row stress sweep, found ONE spike
+  (K = 16.0003 at N=64, w=5, q=15249281: 256 vanishers = 2 negacyclic
+  orbits) and SELF-CLASSIFIED it as an isolated accident. Our independent
+  replay: count 256 ✓, K ✓, both orbit reps vanish ✓, primality/order ✓;
+  our refinement: lambda = 0.125 orbits, P(>=2 orbits) = 0.0072/row —
+  one spike in ~25 rows is Poisson-ordinary. Honest scope note: the
+  instrument is a single-level primal projection at w = 5 (replicates
+  rather than extends our coverage) — but it is INDEPENDENT adversarial
+  replication with a replayable verifier. **F1 survival +4** (family:
+  independent Pro concentration instrument). Pro's artifacts banked at
+  critical/nodes/dli.../notes/pro_floor1/.
+- FLOOR 4 (PETAL), Pro reply: **NO KILL; audit + a REPLAYED proof-side
+  contribution.** No new enumeration attack, but Pro completed the budget
+  implication of the saturated-column model with an exact certificate:
+  C(n+6,6) <= n^6 at all four official maximal rows (n = 2^41..2^44;
+  effective exponent <= 5.7843; log2 bound 254.508 vs 264 at rho = 1/16)
+  — REPLAYED EXACTLY on our side. Also reasoned (prose, route material)
+  why deep-c, multi-petal amplification (the paid X^e G(X^M) normal form),
+  and adversarial-U cannot fire the falsifier. Credited as route material
+  completing the floor->budget implication; NOT a new attack family.
+- FLOOR 5 (16n^3-SPREAD), Pro reply: **GENUINE ATTACK on the named
+  sharpest surface (shared syzygies, incl. k >= 4), NO KILL.** Pro's
+  greedy rank-minimizing adversary at 5 toy cells (k = 4,5,6) found many
+  algebraic dependencies — but they collapse into Pi_S(v) = 0 INVALID
+  alignments (the direction word forced into local code kernels): max
+  live supports after screening 0-3. Matches our dimension-count and
+  strip-integrity findings from the independent direction. **F5 survival
+  +4** (Pro syzygy family). PROOF LEAD BANKED: the "live-syzygy lemma"
+  (any dependence among live alignments forces Pi_S(v) = 0 or a charged
+  structure) — converts the F5 evidence into a proof route.
+- FLOOR 7 (ROWWISE-ENVELOPE), Pro reply: **NO KILL; audit-grade** (no new
+  attack; accurate restatement of our three families) + a sharp
+  proof-side framing: the conditional row-envelope lemma (kill must force
+  a CODIMENSION DROP in a retained stratum or a NEW COMPONENT class;
+  census attacks the second, ladder/layout-sup the first) and the
+  recommended theorem artifact = a symbolic K_cell rank/Jacobian
+  certificate per official cell family. Converges with our named kernel.
+  Logged as concurrence + proof lead; not an attack family.
+- CONVERGENCE NOTE (for the posting decision): in every window so far,
+  Pro's independent proof-lead recommendations MATCH ours (F2: structural
+  700 + coprime-ideal formalization; F4: saturated-column lemma; F5:
+  live-syzygy lemma; F7: K_cell rank certificate) — independent judgment
+  convergence on both the floors' truth and the proof routes.
+- FLOOR 6 (BAND-DETERMINATION), Pro reply: **GENUINE ENGAGEMENT, NO KILL,
+  + one closure lemma + one errata catch against US.**
+  (i) Arithmetic replay: Pro reproduced our razor reach table EXACTLY
+  (verified: reach matches at all four lq points). ERRATA (catch #7,
+  theirs against ours): our banked band-width line at lq = 255.95 read
+  1,678,484 — a column-mixing error (sigma* minus the RANDOM-word
+  crossing instead of minus the reach); the correct per-row width is
+  1,667,426 (all other banked widths correct). No conclusion changes;
+  the log line is corrected here.
+  (ii) AMORTIZATION SURFACE CLOSED as a pure-averaging attack: for an
+  unsafe-side certificate avg > T forces max > T (pooled witnesses
+  collapse to single-word witnesses); the log2 L pooling gain cancels
+  exactly under the /L normalization — net movement 0 bits/fiber, same
+  cancellation pattern as the dead AQB route. Elementary and SOUND. Any
+  residual route-1 attack now requires a genuine heavy-fiber /
+  anti-concentration theorem, not pooled arithmetic.
+  (iii) The pincer-at-cap route (the truly dangerous one): attempted, no
+  refined constant obtained — honest non-result, surface remains open.
+  **F6 survival +4** (Pro window family: replay + amortization closure).
+- FLOOR 3 (n^3-COLUMN), Pro reply: **GENUINE ATTACK + COVERAGE EXTENSION,
+  NO KILL.** Pro built its own calibrated anchored-PTE probe (u128 exact),
+  reproduced the tiny-field gate EXACTLY (63 = 3 toral + 60 non-toral at
+  p=17, matching our banked control; confinement at p >= 97 confirmed
+  independently), re-verified all our banked rows (boundary/extended/
+  smooth), and EXTENDED onto our open flank: complete exact n=64 sweeps
+  at the first four primes above n^2 (4289/4481/4673/4801, all verified
+  prime ≡ 1 mod 64) at h = 5, 6 — C(63,5) = 7,028,847 anchored targets
+  per row — ZERO non-toral hits. Certificate-strength no-alarm (post-strip
+  is a subset of pre-strip; pre-strip = 0). Honest remaining flank named
+  by both sides: n = 64, h >= 7 (C(63,6)/C(63,7) scale). **F3 survival
+  +4** (Pro anchored-PTE family, extending coverage).
+
+## PRO PHASE COMPLETE — ALL SEVEN WINDOWS, ZERO KILLS
+
+Final tally: genuine adversarial attacks at windows 1, 3, 5, 6 (own
+instruments, own rows; window 3 EXTENDED our coverage; window 5 attacked
+the sharpest named surface; window 6 closed the amortization route and
+caught an errata in our log); audit + verified proof-side certificate at
+windows 4 and 7; pure audit at window 2. Every no-kill self-classification
+checked out under our replay; every proof-lead recommendation converged
+with ours. Under the user's graduation criterion the seven floors have
+now survived: (a) 21 pre-registered internal attack families, (b) the
+independent Pro assault. GRADUATION to standing-conjecture status is the
+user's call, then the posting decision (candidate: PR to the upstream
+repo stating the conditional proof + the battle-hardened conjecture set).
