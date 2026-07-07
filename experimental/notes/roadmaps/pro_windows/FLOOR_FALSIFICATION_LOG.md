@@ -297,3 +297,31 @@ artifact replayable by a stranger.
   orders of magnitude of margin. ZERO alarms, adversarial pencil pairs
   included. **F5 SURVIVAL +1, scoped** (5/6 rungs; q=71 to A1b). ALL
   SEVEN FLOORS now carry survival credits.
+- F2-A2 RUN (f2a2_engineered_accidents_modal.py, 1440 engineered trials at
+  two cells): the dli round-5 norm-selection mechanism transported to
+  accident engineering — ZERO candidate sub-balance primes pass the
+  multi-condition gcd filter (per-r norms generically coprime; the E2
+  coprime-ideals obstruction blocks accident engineering identically).
+  POSITIVE CONTROL PASSES: the known p=257 window accident is fully
+  detected by the same machinery (all 3 norms divisible, gcd retains 257).
+  **F2 SURVIVAL +2** (second distinct family: engineered norm-selection,
+  positively controlled). F2 is at 2/3 toward hardening; third family
+  candidate: giant-block complementation attacks or CRT-composite
+  constructions.
+- F7-A1b COMPLETE (f7a1b_heavy_cells_modal.py, 408 shard jobs): all 17
+  heavy cells finished (24/24 shards each) — TOTAL UNCLASSIFIED = 0; the
+  1,689 hits at the heavy cells (incl. ~400-hit k=16 sigma=1 cells) ALL
+  classify into the two challenger columns. THE PRE-REGISTERED CENSUS IS
+  NOW COMPLETE: 135/135 cells, zero third-class alarms anywhere. **F7
+  first family upgraded scoped -> FULL (+1 unqualified).**
+- F1-exp2 RUN (f1exp2_stacked_towers_modal.py, 120 trials -> 10 engineered
+  stacked rows, exact D3 E at both levels per row): the lift-stacking
+  mechanism is correctly priced. E64 = 1.000000 at EVERY engineered row
+  (the lifted level-64 structure is r-diluted exactly as the ledger
+  predicts); the level-32 measured excess initially read 2-2.8x the w<=7
+  ledger — CLASSIFY-BEFORE-DECLARING (catch #4): the gap is exactly the
+  omitted forced w>=8 window mass, which is the q-INDEPENDENT constant
+  sum C(16,w>=8)/2^16 = 0.598 (the pinned window invariant appearing in
+  the data); with it included the prediction over-covers at 9/10 rows,
+  worst ratio 1.32 (single row, not sustained, << 2x). **F1 SURVIVAL +2**
+  (engineered-stacking family). B-WEAK now has two absorbed families.
