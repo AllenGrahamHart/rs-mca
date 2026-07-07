@@ -383,3 +383,13 @@ artifact replayable by a stranger.
   **F2 SURVIVAL +3 -> F2 HARDENED** (families: calibrated window sweep /
   engineered norm-selection / widest-window boundary census). FIRST
   HARDENED FLOOR OF THE CAMPAIGN.
+- F7-A3 + F6-third RUN (f7a3_f6c_layout_sup_modal.py, 360 exact cells: 60
+  layouts x 2 cells x 3 q): ADVERSARIAL LAYOUT-SUP bounded — max
+  challenger counts <= 2.4x median (no sustained > 3x envelope violation;
+  the mild growth is small-count dispersion), UNCLASSIFIED = 0 at all 360
+  cells. ANTI-CONCENTRATION absent — min counts are Poisson-ordinary
+  (min=4 at lambda=12: expected 0.5 such layouts of 60; observed 1); no
+  word class collapses below the model.
+  **F7 SURVIVAL +3 -> F7 HARDENED** (census / envelope-stress / layout-sup).
+  **F6 SURVIVAL +3 -> F6 HARDENED** (composite sweep / crossing-fidelity /
+  anti-concentration). THREE OF SEVEN FLOORS HARDENED (F2, F6, F7).
