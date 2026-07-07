@@ -280,3 +280,20 @@ artifact replayable by a stranger.
   retraction note demanded; the route side can now try to identify and
   prove the C(.,.) family directly (queued as a route note for the node,
   not a floor obligation).
+- F3-A1 RUN (f3a1_boundary_sweep_modal.py): instrument gate EXACT (60
+  nontoral at the positive control, matching the banked probe); ZERO
+  nontoral trades and ZERO n^3 alarms at all 11 attack rows — original
+  boundary rows now at FULL windows (the local run was sliced), extended
+  boundary primes (p = 3137, 12289 at n=32), and n=64 rows. Complete at
+  every n=32 row except h8 (partial: 50s anchor deadline); all four n=64
+  rows partial-and-clean. **F3 SURVIVAL +1, scoped** (complete n=32
+  boundary family; n=64 + h8 full coverage to F3-A1b anchor-sharding).
+- F5-A1 RUN (f5a1_spread_sweep_modal.py): calibration gate = the node's own
+  rungs-2a/2b certificate, PASS (38 checks). Exact spread measurement at
+  5 completed rungs (k=2: q=17/31/47; k=3: q=17/31; the q=71 rung timed
+  out -> A1b): worst greedy pairwise-small-core distinct-slope family =
+  EXACTLY q at every cell (one aligned support per slope — the spread
+  structure is slope-limited), vs budgets 16n^3 = 6.5e4..1.6e6: four
+  orders of magnitude of margin. ZERO alarms, adversarial pencil pairs
+  included. **F5 SURVIVAL +1, scoped** (5/6 rungs; q=71 to A1b). ALL
+  SEVEN FLOORS now carry survival credits.
