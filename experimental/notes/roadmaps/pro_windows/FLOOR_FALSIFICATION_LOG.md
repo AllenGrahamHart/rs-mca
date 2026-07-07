@@ -325,3 +325,61 @@ artifact replayable by a stranger.
   the data); with it included the prediction over-covers at 9/10 rows,
   worst ratio 1.32 (single row, not sustained, << 2x). **F1 SURVIVAL +2**
   (engineered-stacking family). B-WEAK now has two absorbed families.
+- F4-A2 RUN (f4a2_c_sweep_modal.py, c extended 2..14 at 3 scales): the
+  top-band count grows in c as a BOUNDED-DEGREE BINOMIAL — 5005 = C(15,6)
+  at the A1 c-range stepping to 38760 = C(20,6) at c-max 14 (p=211,
+  complete sweep); degree-6 polynomial growth in the excess parameter is
+  exactly what a c-uniform n^B budget absorbs. **F4 SURVIVAL +2, scoped**
+  (adversarial-c family; caveats: p=809/3209 c-sweeps possibly
+  deadline-truncated — their flat 5005 not yet confirmed as true
+  p-uniformity at large c; the exact C(f(c), 6) offset formula needs the
+  per-cell rows — both queued as F4-A2b). The structural lead sharpens:
+  the paid top-band family is a 6-dimensional binomial column in c.
+- F7-A2 RUN (f7a2_envelope_stress_modal.py, 4 cells x 9-point q-ladder
+  97..1153): the K_cell/q^sigma envelope HOLDS — sigma=1 counts track 1/q
+  (count*q ~ constant, drift <= 1.5x over a 12x ladder, under the 3x
+  alarm gate; counts 109 -> 14), sigma=2 cell IDENTICALLY ZERO at every
+  q >= 97 (the banked window-closure reproduced exactly), UNCLASSIFIED = 0
+  everywhere. **F7 SURVIVAL +2** (envelope-stress family). One more family
+  (engineered challenger stacking) hardens F7.
+- F5-A2 RUN (f5a2_engineered_spread_modal.py, greedy adversarial
+  construction, 5 rows): the engineered spread maximum saturates at
+  THETA(n) — 28/51/106 at n = 46/96/192 (k=2; ~0.55n) and 46/81 (k=3) —
+  matching the dimension-count prediction (each alignment costs sigma of
+  the 2n degrees of freedom of (u,v)), 4-6 orders under the 16n^3
+  budgets, zero alarms. **F5 SURVIVAL +2** + ROUTE LEAD: the
+  dimension-count argument (engineered cap O(n/sigma)) is a proof
+  candidate for the floor's structural margin.
+- F2-A3 RUN, PARTIAL (f2a3_midsize_modal.py; b=12 complete, b=16 jobs
+  need prefix sharding -> A3b): FIRST apparent sub-balance extras of the
+  campaign (32 = one orbit at p=21313, per-b log2W = -1.01) — CLASSIFIED
+  (catch #5): the regime marker must be GLOBAL balance (q^t >= 2^n, the
+  dichotomy's own hypothesis; here p >= 65536), and p=21313 is globally
+  ABOVE balance (the b=16 window is still open: C(32,16)/p^2 = 1.34 —
+  the b=12 extras are window-regime relatives/dressings). All globally
+  sub-balance primes in the sweep (p = 120193, 240641; plus every
+  F2-A1 point) show ZERO extras. The per-b window label in the sweep
+  output was the misleading instrument; the floor's own quantifier
+  (official rows: q^t > 2^n by ~2%) was never touched. F2's third-family
+  credit awaits the b=16 sharded completion (A3b) — the widest window is
+  where the last doubt lives.
+- F6 second family (crossing-fidelity, from banked F7-A2 exact data +
+  first-moment arithmetic): 18/18 determination matches across the
+  9-point q-ladder at sigma = 1, 2 — measured counts land on the SAME
+  side of the unsafe threshold as the first-moment prediction at every
+  point, including THROUGH the crossing transition (sigma=1 flips
+  unsafe -> safe between q = 241 and 337 in both columns). Quantitative
+  tracking within ~2x everywhere (structural columns explain the residue).
+  **F6 SURVIVAL +2** (the floor's determination-location claim verified
+  in its entire accessible regime). Third family = F6-A3 amortization
+  exploration (queued).
+- F2-A3b COMPLETE (f2a3b_b16_sharded_modal.py, 60 shard jobs, complete
+  b=16 censuses = 6e8 subsets per prime): below global balance p=40961 ->
+  640 extras (window population ✓, and further proof the per-b marker
+  misleads: per-b W < 1 there); EVERY globally-sub-balance prime
+  (65537..786433) -> extras = 0 EXACTLY with t-null blocks pinned at the
+  structural constant 700 (pure coset unions, q-independent) at all five
+  primes. The dichotomy holds at the WIDEST window.
+  **F2 SURVIVAL +3 -> F2 HARDENED** (families: calibrated window sweep /
+  engineered norm-selection / widest-window boundary census). FIRST
+  HARDENED FLOOR OF THE CAMPAIGN.
