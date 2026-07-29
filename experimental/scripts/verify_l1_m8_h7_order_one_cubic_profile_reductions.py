@@ -506,6 +506,35 @@ def check_official_role_gcd_packet_sources() -> None:
         assert anchor in checker
 
 
+def check_j0_outer_lift_compiler() -> None:
+    u, v, y = Q(1), Q(2), Q(3)
+    beta, gamma, b_value = Q(2), Q(4), Q(7)
+    role = (gamma - 1) / (beta - 1)
+    quadratic = [v, u, Q(1)]
+    q_at_y = evaluate(quadratic, y)
+    a = (role - 1) * b_value / q_at_y
+    g_factor = poly_mul(quadratic, [-y, Q(1)])
+    f_factor = poly_add(
+        poly_add(g_factor, poly_scale(quadratic, a)), [b_value]
+    )
+    product = poly_mul(f_factor, g_factor)
+    color = poly_add([Q(1)], poly_scale(f_factor, (beta - 1) / b_value))
+
+    assert poly_add(color, [Q(-1)]) == poly_scale(
+        f_factor, (beta - 1) / b_value
+    )
+    assert poly_rem(poly_add(color, [-beta]), quadratic) == [Q(0)]
+    assert evaluate(color, y) == gamma
+    value_product = poly_mul(
+        poly_mul(poly_add(color, [Q(-1)]), poly_add(color, [-beta])),
+        poly_add(color, [-gamma]),
+    )
+    assert poly_rem(value_product, product) == [Q(0)]
+    eta = 1 / (role - 1)
+    assert eta == (beta - 1) / (gamma - beta)
+    assert 7 * 6 == 42 and 8 % 2 == 0
+
+
 def scaled_quadratic_core(x: Q, y: Q, q: Q, d: Q) -> dict[str, Q]:
     a = 6 - 2 * x
     u = x + y
@@ -1334,6 +1363,7 @@ def main() -> None:
     check_official_frobenius_role_packets()
     check_coefficient_field_degree_eight()
     check_official_role_gcd_packet_sources()
+    check_j0_outer_lift_compiler()
     check_scaled_quadratic_core()
     check_coefficient_matrix_router()
     check_singular_j0_univariate()
@@ -1406,6 +1436,8 @@ def main() -> None:
         "d=3(eta R_role-S_role)/q",
         "ord_n(p)=8",
         "{1,2,4,8}",
+        "E_norm=1+(beta-1)F/B",
+        "P=(W+1/d)L divides W^(8(p+1))-1",
         "K_8(P,Q)",
         "Theta_8(T)",
         "alpha B_6-A_6 beta=0",
@@ -1421,6 +1453,7 @@ def main() -> None:
         "frobenius_role_packets=21 "
         "coefficient_field_degree=8 "
         "official_role_gcd_packet=21 "
+        "j0_outer_lift_compiler=1 "
         "scaled_quadratic_core=1 "
         "coefficient_matrix_router=1 "
         "singular_j0_univariate=1 "

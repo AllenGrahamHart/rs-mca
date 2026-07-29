@@ -1607,19 +1607,81 @@ its degree divides eight. Thus the exact official-eligible factor degrees
 are `{1,2,4,8}`. This is a generated-field normalization result; it is not a
 gcd verdict or a claim that the ambient evaluation field has degree eight.
 
+## J-zero exact outer-lift compiler
+
+For a retained eight-filter role candidate, the coefficient-field theorem
+and the role quadratic put every reconstructed value in `K=F_(p^8)`. Write
+
+```text
+S=S_role+qd/3,       eta=S/R_role,       lambda=1+eta^(-1).
+```
+
+Enumerate the at most 42 normalized ordered pairs
+
+```text
+(beta,gamma) in (mu_8\{1})^2,   beta!=gamma,
+eta=(beta-1)/(gamma-beta).                        (42)
+```
+
+The official Frobenius-role split proves that every actual role root has at
+least one such representative. Retain every match. Undo the scaled
+common-quadratic variables:
+
+```text
+g_1=x/d,       y=Y/d,       g_2=G_2/d^2,
+u=g_1+y,       v=V/d^2,     a=(6-2x)/d,
+B=S/d^3,
+
+Q=W^2+uW+v,
+G=Q(W)(W-y),
+F=G+aQ+B,
+L=FG,
+E_norm=1+(beta-1)F/B.                             (43)
+```
+
+The common-quadratic identities give `E_norm=1` on `F`, `E_norm=beta` on
+`Q`, and `E_norm(y)=gamma`. After the inherited exact-fiber guards,
+
+```text
+L divides E_norm^8-1.                              (44)
+```
+
+Consequently the complete outer replay is only
+
+```text
+zeta=d^(p+1),       zeta^8=1,
+W^(p+1)=tau E_norm mod L
+for some tau in mu_8 and one pair from (42).        (45)
+```
+
+Indeed (44)--(45) give `L|W^(8(p+1))-1`; the removed root `-1/d` also has
+eighth-power color `zeta^(-1)`, so the split-root coprimality guard gives
+
+```text
+P=(W+1/d)L divides W^(8(p+1))-1.                   (46)
+```
+
+The same norm gives `(d+1)^p=1+zeta/d`. Thus exact color multiplicity,
+assignment-preserving pointwise Frobenius, the order-one `c^p` relation, and
+full outer cyclotomic divisibility require no degree-`n` polynomial and no
+separate reciprocal surrogate. Modular powering is only modulo the
+degree-six `L`. This is a compiler, not a survivor verdict: all inherited
+guards and the tests in (45) remain mandatory, and the independent global
+inner lift remains outside this note.
+
 ## Verification
 
 The exact-rational identity checker is
 
 ```text
 experimental/scripts/verify_l1_m8_h7_order_one_cubic_profile_reductions.py
-sha256: 8b0224fd837c02786982ed90e2e79b5d3b61b5f360551bf603af3c7bb787f50a
+sha256: ad31838d080fb5e48de5f23a4d88a69b3d63c915fa890b4d4a8c6063f624aa35
 ```
 
 Its expected marker is
 
 ```text
-L1_M8_H7_ORDER_ONE_CUBIC_PROFILE_REDUCTIONS_PASS linear_samples=2 x0_samples=3 q6x2_samples=3 common_quadratic=1 role_polynomial=1 role_factors=4 role_weld=1 galois_role_packets=12 frobenius_role_packets=21 coefficient_field_degree=8 official_role_gcd_packet=21 scaled_quadratic_core=1 coefficient_matrix_router=1 singular_j0_univariate=1 singular_jnonzero_charts=1 generic_linear_d=1 generic_double_linear_d=1 doubly_singular_quotient=1 fully_proportional_parameters=1 fully_proportional_bivariate=1 fully_proportional_coefficients=1 fully_proportional_bivariate_compiler=1 fully_proportional_q_quotient=1 fully_proportional_exceptional_e=1 fully_proportional_exceptional_leading=4 fully_proportional_exceptional_singular_affine=1 fully_proportional_exceptional_j0_affine=1 fully_proportional_exceptional_j0_structural=1 fully_proportional_exceptional_j0_role_p4=1 fully_proportional_structural=1 fully_proportional_exceptional_structural=1 affine_color_shapes=7 affine_formula=1 quotient_weld=1
+L1_M8_H7_ORDER_ONE_CUBIC_PROFILE_REDUCTIONS_PASS linear_samples=2 x0_samples=3 q6x2_samples=3 common_quadratic=1 role_polynomial=1 role_factors=4 role_weld=1 galois_role_packets=12 frobenius_role_packets=21 coefficient_field_degree=8 official_role_gcd_packet=21 j0_outer_lift_compiler=1 scaled_quadratic_core=1 coefficient_matrix_router=1 singular_j0_univariate=1 singular_jnonzero_charts=1 generic_linear_d=1 generic_double_linear_d=1 doubly_singular_quotient=1 fully_proportional_parameters=1 fully_proportional_bivariate=1 fully_proportional_coefficients=1 fully_proportional_bivariate_compiler=1 fully_proportional_q_quotient=1 fully_proportional_exceptional_e=1 fully_proportional_exceptional_leading=4 fully_proportional_exceptional_singular_affine=1 fully_proportional_exceptional_j0_affine=1 fully_proportional_exceptional_j0_structural=1 fully_proportional_exceptional_j0_role_p4=1 fully_proportional_structural=1 fully_proportional_exceptional_structural=1 affine_color_shapes=7 affine_formula=1 quotient_weld=1
 ```
 
 The bounded compute-request launcher has SHA-256
