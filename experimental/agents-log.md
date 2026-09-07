@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-07 - KoalaBear cubic residual and coupled projection bounds
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** `experimental/notes/low-core-cubic-20260907/`
+  and this log. The previous conic packet is unchanged.
+- **Status:** PROVED LOCAL; exported for independent hand review.
+- **What is being added:** Projective-jet and coupled moving-projection
+  dimension bounds, smooth-cubic and normalization-unit prices, and an
+  exhaustive normalized 7117..8655 dichotomy. Either selected slopes plus
+  134944 are at most 255637082913634099, or all but <=65 LOW pairs have
+  the explicit affine-singular cubic form f_s+(tau^2-lambda)*(P+tau*Q).
+- **How it is useful:** K3 source-based residual geometry, with original
+  slope units, degree costs and complete cores retained. This does not pay
+  the remaining normal-form family, close rank twelve, supply a bankable
+  v4 atom, move an unrestricted endpoint or resolve either prize.
+- **What to do next:** Review the analytic suppliers and original-source
+  transport; count the remaining rational (2,3) family with its actual
+  heights and shared carrier. Offered through the existing #1175 discussion,
+  not a change to Hughes's branch. No large compute request.
+
 ### 2026-09-07 - KoalaBear low-core conics and full-kernel strip
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

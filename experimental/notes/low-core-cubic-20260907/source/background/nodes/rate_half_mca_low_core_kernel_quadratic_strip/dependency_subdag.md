@@ -1,0 +1,23 @@
+# Dependencies
+
+The affine-singularity refinement uses the already required jet supplier
+through the finite consumer: the moving projection/kernel dimension
+bound pays the infinity-singular class. The original cubic reduction's
+sections 1--4 first supply a one-place curve; its section 5 and the
+normal-form companion then refine it. The latter is not assumed to
+prove the earlier reduction. No new edge or conditional node is added.
+
+- `rate_half_mca_cancelled_low_core_relation_payment` -> this node (req):
+  normalized source, partitioned margin ledger, conic and line prices,
+  parallel-fiber bound, and their proved coefficient-degree machinery.
+- This node -> `rate_half_mca_global_core_rank_support_distance_router`
+  (ev): closes the printed 4801..7116 interval, and now restricts any
+  unpaid source on 7117..8655 to the one-place singular cubic class.
+
+The cubic continuation uses the same required finite consumer, now
+with its PROVED smooth-cubic and normalization-unit suppliers. The
+degree-eight kernel, asymmetric pair bound and exhaustive factor split
+are proved locally in `cubic_obstruction.md`. No extra edge is needed.
+
+No speculative conditional child, dependency cycle, or original red
+promotion is introduced. The finite supplier does not require this node.
