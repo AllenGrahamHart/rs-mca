@@ -30,6 +30,23 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-07 - Complete normalized cubic strip, companion to #1175
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/notes/low-core-complete-cubic-20260907/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent hand review.
+- **What is being added:** The d=10 geometric-progression and d=7
+  componentwise list counts close the remaining cubic patterns under the
+  exact normalized source contract. Every such source on `4801..8655`
+  has `|Gamma|+134944<=274979661292365251`.
+- **How it is useful:** K3 direct source-based residual geometry; this
+  extends the existing #1175 companion packets without altering them.
+  No unrestricted KoalaBear row, active-v4 atom or LIST endpoint is paid.
+- **What to do next:** Review the generic proofs and source transport;
+  normalized `8656..169999`, higher ranks and owner/add-back remain open.
+  The packet has small serial arithmetic checks and no compute request.
+
 ### 2026-09-07 - KoalaBear cubic residual and coupled projection bounds
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
