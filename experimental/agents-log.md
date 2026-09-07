@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-07 - KoalaBear low-core conics and full-kernel strip
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/notes/low-core-algebraic-20260907/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent hand review.
+- **What is being added:** One grouped companion to PR #1175: degree-weighted
+  algebraic-family counting, rational graphs and pencils, every individual
+  nonsingular conic, and a complete full-kernel reduction on normalized
+  rank-twelve dimensions 4801..7116. The whole-source bound with original
+  near add-back is 272837082962714299, reserve 2143645148680788.
+- **How it is useful:** K3 source-compatible distinct-slope bounds and K4
+  restricted-source elimination, with complete proofs and small exact checks.
+  No original error-rank-twelve, active-v4 atom, adjacent endpoint or prize
+  is closed. Hughes's #1168/#1174 resource is attributed, not claimed anew.
+- **What to do next:** Independently review the full-kernel and moving-conic
+  proofs, bind the normalized source at the integration commit, and attack
+  the remaining J>=7117 and higher-rank cases. The source-complete packet
+  is offered on the existing #1175 discussion without altering its branch.
+
 ### 2026-07-29 - Reviewed PR integration wave 1087--1120
 
 - **Agent/model:** Codex, selectively integrating static-review results from
