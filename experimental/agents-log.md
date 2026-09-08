@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Whole bounded-flat sources and normalized coverage through 9940
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent hand review.
+- **What is being added:** A core-basis/one-defect count pays entire
+  bounded-flat carriers on `23000..169999`, including full rational
+  progressions, without a pair-curve-cover hypothesis. A grouped
+  raw-weighted continuation extends EVERY-carrier normalized coverage
+  through `9940`; a separate all-multiplicity theorem limits the old
+  degree-three recipe from `9981` onward without refuting the source bound.
+- **How it is useful:** K3 direct rank-twelve source geometry. Any unpaid
+  source on the higher interval must have an occupied evaluation flat and
+  no nonconstant rational multiplier of intersection dimension ten, even
+  after extension of constants. Earlier snapshots and #1175 remain intact.
+- **What to do next:** Review the short basis argument and source-class
+  hypotheses, then price the remaining concentrated sources. Higher-J
+  hypotheses are not automatic; original transport, higher ranks, active
+  ownership and both prizes remain open. No compute request or row closure.
+
 ### 2026-09-08 - Multiplicity and cumulative margin accounting, companion to #1175
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

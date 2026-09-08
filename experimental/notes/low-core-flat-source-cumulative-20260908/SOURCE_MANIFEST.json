@@ -1,0 +1,1397 @@
+{
+  "schema": "low-core-flat-source-cumulative-v1",
+  "upstream_main": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "pr1175_head": "6c59f9aa75b897c9274e94c7aa8864acd26a85ea",
+  "origin_worktree_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+  "origin_state": "dirty snapshot; per-file hashes bind the actual proof text",
+  "previous_export": "80d8f5113d62707c4709abb8b0de71a3d5fd90b7",
+  "previous_manifest_sha256": "58bff2fc5543c22fc6ffef4c93061d0114a29b6ddd55b75316badd3a2eee31ff",
+  "files": [
+    {
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/compiler.py",
+      "source_path": "background/nodes/list_padded_johnson_dimension_descent/compiler.py",
+      "snapshot": "previous_export",
+      "sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8"
+    },
+    {
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/proof.md",
+      "source_path": "background/nodes/list_padded_johnson_dimension_descent/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "307fa8d5dc06341dc110948099a0a138f8ddd98348da05676341ae1f9b1c54ef"
+    },
+    {
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/shared_carrier_joint_lists.md",
+      "source_path": "background/nodes/list_padded_johnson_dimension_descent/shared_carrier_joint_lists.md",
+      "snapshot": "previous_export",
+      "sha256": "32d431413c55aa175fc78ea84af486cda420c19b020267b9031292887e63d3ad"
+    },
+    {
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/statement.md",
+      "source_path": "background/nodes/list_padded_johnson_dimension_descent/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "f086fced7869507664dbd8950ec24570f0d50d7ab5ae983286751db6389d641f"
+    },
+    {
+      "path": "source/background/nodes/mca_common_core_low_margin_transport/proof.md",
+      "source_path": "background/nodes/mca_common_core_low_margin_transport/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "043e49659085036fa0d91780231d394f69aa358cbd03667630101f22c2c7ca59"
+    },
+    {
+      "path": "source/background/nodes/mca_common_core_low_margin_transport/statement.md",
+      "source_path": "background/nodes/mca_common_core_low_margin_transport/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "0654d023e686e37af1495e93ab33e27b8f50bce9ec5340d5c5bd2f71930bb2c2"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/proof.md",
+      "source_path": "background/nodes/mca_low_core_polynomial_relation_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "7094d7246d60abd63068fdfaf4845a833d950b320f668def3d9934da3a88f95f"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_controls.md",
+      "source_path": "background/nodes/mca_low_core_polynomial_relation_payment/rational_line_controls.md",
+      "snapshot": "previous_export",
+      "sha256": "d4e7fffeda4ed7c28ce2be0fa08814e3ee78b01be5aabfd44857a9dbd50b7999"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_cores.md",
+      "source_path": "background/nodes/mca_low_core_polynomial_relation_payment/rational_line_cores.md",
+      "snapshot": "previous_export",
+      "sha256": "a2341065d3918d95e88aac0fada5ef21057adee9de552c5f37703d8e8508fe6d"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/statement.md",
+      "source_path": "background/nodes/mca_low_core_polynomial_relation_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "128a8232825a82c06a3c2e964ed8c3f46f1c268d40ba1f2411d800526be5d916"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/verify_rational_line_controls.py",
+      "source_path": "background/nodes/mca_low_core_polynomial_relation_payment/verify_rational_line_controls.py",
+      "snapshot": "previous_export",
+      "sha256": "6443d31b0cc3cf329877355575b55cf9a0ea7e9f728fa1501798a6933dd89937"
+    },
+    {
+      "path": "source/background/nodes/mca_low_core_subfield_row_saturation/verify_small.py",
+      "source_path": "background/nodes/mca_low_core_subfield_row_saturation/verify_small.py",
+      "snapshot": "previous_export",
+      "sha256": "0ecc78210f714e5078964faf0fc9db5ad95e23000df31790ff122ae1d17ffb03"
+    },
+    {
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/proof.md",
+      "source_path": "background/nodes/mca_nonuniform_support_margin_resource/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "50c3ae1b4f0f33a4d1148d090f610f6db01c60965d07ecea02175e3dbb87ba9c"
+    },
+    {
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/statement.md",
+      "source_path": "background/nodes/mca_nonuniform_support_margin_resource/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "15131c591b26922aa4a5d213ea295a8bfea01040fa99d66ab8a6e4c259a6b8ec"
+    },
+    {
+      "path": "source/background/nodes/mca_received_pair_one_defect_weighted_list_reduction/proof.md",
+      "source_path": "background/nodes/mca_received_pair_one_defect_weighted_list_reduction/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "daa6bcc519b907e3cee4bb7f47d287a25c9a0663207a5145f29eb67229feea4f"
+    },
+    {
+      "path": "source/background/nodes/mca_received_pair_one_defect_weighted_list_reduction/statement.md",
+      "source_path": "background/nodes/mca_received_pair_one_defect_weighted_list_reduction/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "5b6e871b5fba31a958b8043033d2033b17c056224a1125ebdb212983077c15a0"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/all_conic_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/all_conic_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "7f82befc0767ab392eee9694696eeaf99d5e298acae001786b8c0f696f269dc5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/automatic_graph_interpolation.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/automatic_graph_interpolation.md",
+      "snapshot": "previous_export",
+      "sha256": "05a7034162d9cd416c9cf2fbdd542f1b7227edcabe234cf08c118c156af60924"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/component_cubic_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/component_cubic_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "437bad3b94c497e5a8b54f444dcabf2aa5cd32c0f46a49360554beeefd120318"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cubic_tail_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cubic_tail_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "f14863c3dd9ecca2de55cc446cd083227ed93fe6332f7be57d630f450f267c2e"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cumulative_low_accounting.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cumulative_low_accounting.md",
+      "snapshot": "previous_export",
+      "sha256": "7efe72b0d951a69fc47d20c969d63912779c7b9515b4d04b50705266233f87eb"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/geometric_progression_cubic_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/geometric_progression_cubic_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "80c8469663036c07ced281ff356044e906ea4c7deaada80be14c05667e926fb1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/homogeneous_level_factor_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/homogeneous_level_factor_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "ce07a8290eae646a1ef9204d081b78cb1b14af9d4a7fd92d19ffde0d9efc92b9"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/jet_graph_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/jet_graph_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "64fe7b03ad119321036bee810775b66b519592a8f1df4f87fc947101ddb2f2cd"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/low_cutoff_accounting.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/low_cutoff_accounting.md",
+      "snapshot": "previous_export",
+      "sha256": "201e44152e4fb029828093a6f8025932ea41dc5e0bf8139eb018f642e10dc1b8"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/polynomial_graph_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/polynomial_graph_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "bfd3ae0e53156d9e3ad4001df4abcab711fea41cce1c086761bae9f9c6ef5420"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "134d493c2217220f8490b31ad74bf3530a7f97b250b26f9904137d2194bdc3a9"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/proof.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "fb6477ae3b98c17c36c743547bba74ba0fccc5b55bbafcf457e65cac1880ef52"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quadratic_graph_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quadratic_graph_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "d48763a109e7e6eca51da30fa401300a314a5a3dea08bd380a3b6ee47a38b155"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_multiplicity_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_multiplicity_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "fbd10ca6d01e8ebd68d3ada4786a23e40accff9109c85f8e4d0eac2b52894a00"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_projection_graph_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_projection_graph_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "1c7328d94672c328029b51fe0f3ef08b5f0a9adaaca68f284b73af9ef6290c36"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_split_product_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_split_product_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "0a79398a1a058a5901ac65eb95d57e415bd6540856a1536d568c713e511fda4f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/rational_pencil_cover_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/rational_pencil_cover_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "0ce6a37a34f2b547e876a8bf954e096dbae86e57ed77ac20fcc4dab925246ef2"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/raw_weighted_cutoff125.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/raw_weighted_cutoff125.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "850dc191ef0bc06c87ac498a417a8e9c9fa60d026ba17da91778e25b454b09df"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/smooth_cubic_factor_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/smooth_cubic_factor_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "fab3958d6b168814ba62115175804c5a9cbabf0747a573ac53de954c57761085"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "db6e9b646591cf1febf7bf0f9896bd3bed4b22d01c63d3fffd464d783ddc2823"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_all_conics.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_all_conics.py",
+      "snapshot": "previous_export",
+      "sha256": "d1f3a94dcc91b83771355920b23b210172f2db0322f56bd83e88b63b5ca24778"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_all_conics_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_all_conics_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "9f234a4a11a56025c6eba1c8a0b6f4ab4656512c7828855a88eebc8d65b2412e"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "b6e280d7753da2f19b51078d432807706a704b489108d2add7d56d570016dbeb"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_automatic_graph.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_automatic_graph.py",
+      "snapshot": "previous_export",
+      "sha256": "a976dfeabdf563111e76e47e6765a557b954b2dae933b1bee88e96ac96c0f43a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_automatic_graph_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_automatic_graph_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "825177105f81222628e8bb0cbf87aec1d65d9969c3983bb63d7a2e3306d3a249"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_homogeneous_level.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_homogeneous_level.py",
+      "snapshot": "previous_export",
+      "sha256": "1e4f3f1370e29fba3df434004bb089bf17229b91e5ce0b4132814c62fdb29ed8"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_homogeneous_level_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_homogeneous_level_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "671a6520e3f1201d120e012d3da3e4e3bc99457d9e7c312c2945b44b8ba9dd4b"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_polynomial_graph.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_polynomial_graph.py",
+      "snapshot": "previous_export",
+      "sha256": "01db91231f341d4b1c3ec34076eee931fa7603b252bc0ec6c8ff45a55d846f3d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_polynomial_graph_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_polynomial_graph_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "8bfa60cddce2134b1fe33318578c5a6d31900fe4543e85bf71e126187981e3e9"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_quadratic_graph.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_quadratic_graph.py",
+      "snapshot": "previous_export",
+      "sha256": "3347c28f4b15b4334fc0b0641c4b51e97ef400e7289288596ec619ae88bea249"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_quadratic_graph_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_quadratic_graph_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "804fc01a25070408adbf5845b83103f9da1ce80361709be2dfe40f8d62c36347"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_rational_pencil_cover.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_rational_pencil_cover.py",
+      "snapshot": "previous_export",
+      "sha256": "d46972be335296046a0b7bb258a9ace57fbdbcb1d6386d203aff786a72086ff7"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_rational_pencil_cover_audit.py",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/verify_rational_pencil_cover_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "9f4287850802716277f86e41dc73d6d29f982c3ba253ef2a27d6137fd11e4949"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/weighted_singular_cubic_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/weighted_singular_cubic_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "ddf9d4b26add04ba73237289c289fdfef2da91acf25539884777505e12c6de2d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/affine_singular_normal_form.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/affine_singular_normal_form.md",
+      "snapshot": "previous_export",
+      "sha256": "d6fd2fa0664c32afe08d6395a70a8ddcd1ddb95b4e2e7e3a71f22d1e00eefc7a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/audit.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "64681b9b607113988acd96d8bd0e987e2aa45c87c538061044d9757a9815c1bc"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/claim_contract.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "fa4c3ea07d0a6b9a05b53407eeb7e742468026bb8a352ba00953b449e7f063ae"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_obstruction.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_obstruction.md",
+      "snapshot": "previous_export",
+      "sha256": "abfbc9e6dfa70e1a5dd29ce26e132d9426b8d874d280d0b24dbce446c243cdcb"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_strip_payment.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_strip_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "b6d3f1b8814a37880c60f8362545e78214ad97fe930edf9fe4d26695ff2b10a1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_audit.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_audit.md",
+      "snapshot": "previous_export",
+      "sha256": "1ed8f310e93107681f09b50c115f6c115dc1b463fd2f8fdcfdb0d78ceb5221c5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_line_partition.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_line_partition.md",
+      "snapshot": "previous_export",
+      "sha256": "2bdacfd1022d2060e1cf2dd7dce13f9a17907f3db3da10ee7f71b0f223eab86c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/dependency_subdag.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "b647ca4f91caa7d86e4575885809f2b226745a8453a1e85de2caf11d441e7803"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/double_point_cubic_tail.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/double_point_cubic_tail.md",
+      "snapshot": "previous_export",
+      "sha256": "4fe9ef39ec06961a84f21a81afc52cd8e808715d6017f0f1bd1a09e1a6b36e3a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/height_aware_line_split.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/height_aware_line_split.md",
+      "snapshot": "previous_export",
+      "sha256": "fedbe14de12e14df799a32bdcfe67628853b93076142be71b67c2f44a3044f30"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/low_cutoff_strip.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/low_cutoff_strip.md",
+      "snapshot": "previous_export",
+      "sha256": "e56506929682af275202e270c770db99974e138e93466149aabbb6b03f39a32a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/proof.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "c4f3ea79a773eb73d22bb9ec2a775fa2e85639c483c01b011d83bde0e4a61aea"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_audit.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_audit.md",
+      "snapshot": "previous_export",
+      "sha256": "ec042e9c9f8520bc03a2b687487dadfb3b469ad6e3f022a0c0e0b4cf1c15e142"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_audit.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_audit.md",
+      "snapshot": "previous_export",
+      "sha256": "d81385027efca0bc635331d39426de647eb04729053f41917084d39225777a70"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_geometry.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_geometry.md",
+      "snapshot": "previous_export",
+      "sha256": "ca30596ab0124e22fa08df197fba5228c08114b2fa423c0bfb61ea01ca314285"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_obstruction.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_obstruction.md",
+      "snapshot": "previous_export",
+      "sha256": "3b9a66e4a12cafd22fa8dacdb6abbe7a92bc3aa7bb67f4f0f83c602788f279a1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_strip_payment.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_strip_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "b06df4cfc05bb18118bcbbcc59b7b5c9936ad23489f6ed9e9b9b757286e44293"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "ef3941e8c2c9f7898d7ab0fcc5f4ba079e75e529495cd68790c9e3f78738a9d1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "81331f5af53fb5092c8ebe49162f0fb352b6fa0867bda5650f58f8b218d4bd3a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/result.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/result.md",
+      "snapshot": "previous_export",
+      "sha256": "cb8844da5f811bb0123262969d40f368daa40bda85439d4b5503f7696178b171"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "9531f88639dce51412d488e06c2b9bacfe195ed06f0450d65b0b41f498824a8d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "2c5e99263eb281d6ac79122f9731bb6c84a91678a563aa763c770c95ac184b75"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_affine_singular_normal_form.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_affine_singular_normal_form.py",
+      "snapshot": "previous_export",
+      "sha256": "b2f53bf6327cd94ccf7854ba38b8184bcd389729a0d7263853aca95f290d91f3"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "af2f15be831ac6ca2bfa72aa61c258a0682580343f9d902220fdebfb3a870b69"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_cubic_obstruction.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_cubic_obstruction.py",
+      "snapshot": "previous_export",
+      "sha256": "1d0e2f0941a1840128db754e8cee2e574733e87fe26777b81af3903bbe2e4f7d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_cubic_obstruction_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_cubic_obstruction_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "b353ef5ed3e985334d66c17aee93830eee42975087e5863c0a00ad6c075fbc98"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_double_point_cubic_tail.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_double_point_cubic_tail.py",
+      "snapshot": "previous_export",
+      "sha256": "c0dd383069bccf06b04832e9123e833a2c643bae22da2e9c52b7495e799d6d0e"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_double_point_cubic_tail_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_double_point_cubic_tail_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "56e5d8302920cd9646f5a21eccf2c0f760268c2c940338603cdc872aceb43323"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_low_cutoff_strip.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_low_cutoff_strip.py",
+      "snapshot": "previous_export",
+      "sha256": "ffc8ba6caa032d9dbb863f82287a79840227dee27bfba4407ebd92444037d945"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_low_cutoff_strip_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_low_cutoff_strip_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "4f889c2e4bfcfab0fd2fa3deabdf230076ad792b55b3893b30d69a55e217088c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_multiplier_geometry.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_multiplier_geometry.py",
+      "snapshot": "previous_export",
+      "sha256": "878c160a52e277ee8d3f05b0b94e3351ad9967d40039e05241e21d2f7087f1e1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_multiplier_geometry_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_multiplier_geometry_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "9ab0e780e1407b214ffcd5b6a7df295666328b67436d1444683423acb99c9a8f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_obstruction.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_obstruction.py",
+      "snapshot": "previous_export",
+      "sha256": "bc46bf6934c891182e03cfd9591dbc27feb7427e6936c77b8d4c0edb1da47b7e"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_obstruction_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_quartic_obstruction_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "1c20075dc9def9b04d1c0bcd709798f8a77d27a962689eb44620baafb6509b18"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip.py",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "9090be859080be08838f209990f61ab072ce12b001ffbcf0a81c62de65b330e5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip_audit.py",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip_audit.py",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "20e6d333c95bc03201b8843731cf55b32fa369480463d980ae0750013c4a06f5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/weighted_cubic_residual.md",
+      "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/weighted_cubic_residual.md",
+      "snapshot": "previous_export",
+      "sha256": "b67c1196620975a2847ce4e3fe7f9fdf5df176f8c179205f31b6e795fd3bed58"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/audit.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "5eadd2fb802431da1d4d4ac8ee115593956645da90e40309b6dfb0b18671acea"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/claim_contract.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "dab5b8ec268a8cf8dbba5ed72eb9754af6cd2de61168953bdefdee03bf38f23a"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/controls.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "dd1a4185862b40f0ac3c2dda73385871f6ca37c66a057bcba08a9ddd941c3832"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/dependency_subdag.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "4dcbc5e534707b1285aef8658947ba4a29e3bc20312aebdbfd72a382b016fb63"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/proof.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "83732e2ae82f3edcd72603d512a8a728949a040e6c3998a232e698fc613a42a3"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/result.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/result.md",
+      "snapshot": "previous_export",
+      "sha256": "e9ec1f579a2e7796cd8ee247fcce9b0f70feaec954cab686a49137de9ef1ceb1"
+    },
+    {
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/statement.md",
+      "source_path": "critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "c8c7af720138f2777341f9fc535974b0910345f2d0833397e408f582d015c16c"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/audit.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "9ec1ad9c59da194c42d7ffbd297ec22ff19b970ef48261aba95309782c3e35fd"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/claim_contract.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "38c9d4d5704e3ce4253175f2a2559bedf0fee2c7e417028807545f3fa2556ab2"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/cumulative_low_weights.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/cumulative_low_weights.md",
+      "snapshot": "previous_export",
+      "sha256": "195e3b4fcebe7e5567b4e92403ac4a05fd0572a8c10288878f6b5e89c29b3b59"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "a98b5c7bc1ac38f2591d9aace9413a19819592d476fd9144f94b3b8e1f5d8850"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/proof.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "5a0aeb3b84430b4ece78ffe0c07de18b1e291e2b7108cdbcb29e9b41c9ab9660"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/result.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/result.md",
+      "snapshot": "previous_export",
+      "sha256": "1fee2f7d08ec9c6c9ad36cb01b94c53255963144b06ae49f47d39496c817285b"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/statement.md",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "d3112dbeb1867bd2cadba4094fe9ed74dfee01b47ec400cd73df01b8e5402d1f"
+    },
+    {
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/verify_small.py",
+      "source_path": "critical/nodes/mca_core_completed_basis_margin_resource/verify_small.py",
+      "snapshot": "previous_export",
+      "sha256": "31fe79d12b92a5978bba566c3bb9dbd174af995941d9c05ef7833a74f6dbe7b3"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/audit.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "4678b903213c892d9236580579cf29eb885f75853ae3d431c8466e1db73f6f52"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "289b7c64b13f53af1a8c4e5cb853362166dc75c10b61c8350f0fcf10bd8b57d6"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/controls.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "77cd3b64e6d91259a577f9be8374440a71798a24fd5695751b7d8e2050e73106"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/curve_descent.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/curve_descent.md",
+      "snapshot": "previous_export",
+      "sha256": "03856e76588723bc28a49737c2fe15688cc8704213ca3e9a80b66c136ac5d668"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/cutoff125.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/cutoff125.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "ad920f27022f405ddf9f6b16d3b7799c022ab01a1c0591d2b32f7fd5f4559660"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "049517baf9fdf5d25b3d5e3516f4a44fe720bee9a7f278676f6258bc19bc314e"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/maximal_parameter_family.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/maximal_parameter_family.md",
+      "snapshot": "previous_export",
+      "sha256": "e07f73beec4fffe17e3a7ed8912267299ed50799c851031269a19d5676087e20"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/proof.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "3a90af5910c8346c9062e5a8c2340ee45254fa9bc4e8704c93450dbfcb0cc65b"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/result.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "46122b362972e2c10e86f48aa2a4b3fa6f23d581f568da138526d18eca0f632d"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/single_fiber_payment.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/single_fiber_payment.md",
+      "snapshot": "previous_export",
+      "sha256": "1426f3b4c57c0ea4c898526211848332b3306fd06ba609ba7eeb068fac89e32f"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "49cb15e85bc2a3f49ac8dd5e7cfec33ab2ad1971c12434c4e13d672dc1592ec7"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/tail9821.md",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/tail9821.md",
+      "snapshot": "previous_export",
+      "sha256": "2e73c1119aac1fcb21273b515f18220f0c1c48c8808691d02728ed322b6bd924"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/verify.py",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "71af52a609598eae678aca14c4846ae88a255075547bee50bdd5f67bcf43b65b"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_audit.py",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "6e216377b08b5a06b8f53a9a4de9d3f3f3c33abb306777ac09130ec64f1f1d18"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_single_fiber.py",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_single_fiber.py",
+      "snapshot": "previous_export",
+      "sha256": "940660c2a630c9036b619c66d53b4bc362ece7569d21348ad9590d0e16ed4513"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_single_fiber_audit.py",
+      "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/verify_single_fiber_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "4bc2f15e80a97c8b060c83501e5c6409bc321d59a51adf09594c47be83ab5a34"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/audit.md",
+      "source_path": "critical/nodes/mca_low_core_homogeneous_level_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "38e1ddbd44bcf0f0bf6a92bd24c4cf8deb595e61ebc1cee43dc216ae45af2133"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/controls.md",
+      "source_path": "critical/nodes/mca_low_core_homogeneous_level_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "0240cc50646e375f02bf2aac1ce9ed678bc622123128623e2821667b3b4c455d"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/proof.md",
+      "source_path": "critical/nodes/mca_low_core_homogeneous_level_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "d7c31cac691cc8b98c1d31982001e16e1d1db8aa1ca41a90580425730d309a2b"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/statement.md",
+      "source_path": "critical/nodes/mca_low_core_homogeneous_level_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "ccfeb6496c98f4828c723b795cb94fec0013423c703b7e43a19f81e78eb73038"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/verify_small.py",
+      "source_path": "critical/nodes/mca_low_core_homogeneous_level_payment/verify_small.py",
+      "snapshot": "previous_export",
+      "sha256": "d20e3feebf6b2c7e1eb8a758cc691392041e60e4eaf768fd8de2827befed070d"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/algebraic_list_bound.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/algebraic_list_bound.md",
+      "snapshot": "previous_export",
+      "sha256": "87449619d9468f1cd9a3aa42ec7a1f8dbb982361afbac1943a0d6fd1db48c8aa"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/controls.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "59fd4ee78ac96d633ccdad9bd600cd1449329cfdefa8759d07bef2bb62152850"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabola_controls.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabola_controls.md",
+      "snapshot": "previous_export",
+      "sha256": "a595bc7c696e3b6e12f010d5790c3bb5952491d665d7d6a6d314326fe02ded25"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabolas.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabolas.md",
+      "snapshot": "previous_export",
+      "sha256": "bd6f4678f0c47356da3b80421d2a89171c4f74e8c53062b71d692ca9acc9d7c0"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graph_controls.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graph_controls.md",
+      "snapshot": "previous_export",
+      "sha256": "6dc950951b98e3d2b4fbeb7b575eb418689c3c0afc110f46c242bbd73e52a918"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graphs.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graphs.md",
+      "snapshot": "previous_export",
+      "sha256": "c091fdfd59abd88e620ed3052b9ff16cc97a4b5746b197c594d6b7c87c156601"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/proof.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "c0617a5b9cb5dacd1230068a105a570866a8d5d3a54127fa60a813c680920843"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_coefficient_graphs.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/rational_coefficient_graphs.md",
+      "snapshot": "previous_export",
+      "sha256": "a8fdd467ea8d4ffa202673583f14056236377380fa21bcfbbb63822988d44074"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_graph_controls.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/rational_graph_controls.md",
+      "snapshot": "previous_export",
+      "sha256": "66b7e283ea38cd321c538d39ccde1e31b888a79c196a377d845040864b7fcfbe"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/statement.md",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "8b33d7a543e3d090685b61ddd4555d30520844f13ade7397309d4d6a52e5e6b4"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/verify_moving_parabola.py",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/verify_moving_parabola.py",
+      "snapshot": "previous_export",
+      "sha256": "a397fed3dfff78d8b295e49f5ea55dd6cb958e44f999cc8a9947572be5869389"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/verify_polynomial_graph_controls.py",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/verify_polynomial_graph_controls.py",
+      "snapshot": "previous_export",
+      "sha256": "1b8923d872f340a130cbd104653e09174e06a27ea4ed7730288f46a375db36bc"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/verify_rational_graph_controls.py",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/verify_rational_graph_controls.py",
+      "snapshot": "previous_export",
+      "sha256": "8a91142fff02ed3127a4b72be78649b298dc558f937c16b91557d7334ac23a93"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/verify_small.py",
+      "source_path": "critical/nodes/mca_low_core_quadratic_graph_payment/verify_small.py",
+      "snapshot": "previous_export",
+      "sha256": "40d3192c07aa905ab5af22f53885a3dfbdbc40e38373643bfeac34335d6e0e93"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/audit.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "e0f57e4dbdb8718d2ecda7a38ab398323ac7a82164fd88bb1b33950377ac09e9"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "a69b4d0b5dd142bcf97d46a40eb6916b243e1f0517b324805739bd4f89be97f3"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "602c3266a08aced6e9ec1531f573295e7b895a2f91b2084c9a2666da01c30417"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/proof.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "4eea1ae6dfa5f02b01d168088f65f3fd2a1d32cf8eb682facfcc1ee8aceaee51"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/result.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "c9145d135d857a436df99ab14d624238bd51bc4f0665107ed7e52da7cd2c8c70"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/statement.md",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "75c1e6b32683062f7d3c78ff6d70236a2575a5bdb255998885ce506b5aef26e3"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/verify.py",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "507f581dc3b4ebeaaa86e5a4479da081c907f4458decbe31561a2d4f421de7c6"
+    },
+    {
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/verify_audit.py",
+      "source_path": "critical/nodes/mca_low_core_smooth_cubic_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "c88aa46924a1d252afd6e9bf593494928f8312a4a88e9109ded684eb04a52273"
+    },
+    {
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/controls.md",
+      "source_path": "critical/nodes/mca_maximal_margin_complete_core_selection/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "e9d63ab86997aa8a2a6d604dd648e1e5628a3ddea21fc747d65faf8716eafb2a"
+    },
+    {
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/proof.md",
+      "source_path": "critical/nodes/mca_maximal_margin_complete_core_selection/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "aae861fcb32f9df60a9aea857827cd60f7fdada6882a01d129ac8da138cdad06"
+    },
+    {
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/statement.md",
+      "source_path": "critical/nodes/mca_maximal_margin_complete_core_selection/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "9ddfde670d435ed0b5b8c26eebdc1b98e027e8d238872eb83214b37b4508d673"
+    },
+    {
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/verify_controls.py",
+      "source_path": "critical/nodes/mca_maximal_margin_complete_core_selection/verify_controls.py",
+      "snapshot": "previous_export",
+      "sha256": "086c0a689c91d2353bde443ba35baff0e8c8507bf9896dfd6b5f667ac11404e6"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/audit.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "6978221418a05c261a0ac49915fe2d18c41785437a98dd1845f45520688990dd"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/claim_contract.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "9f7a1f72161ecc2385051f36c73265e330e6aa46806098647c7b53fd496edc57"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/controls.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "2bf1494033dc0b7725ebb61b73363296b8d997ca420342dc2d886d24c8cbd8ac"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "a53a58569b3886d04e91d87146cdc26c487f4034a78252c56d5f6f72eb962bbc"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "b4eb4a28b0d1a7548717533e70ba140780d6abc3c6bffe3fb64f945da7789bd5"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/kernel_corollary.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/kernel_corollary.md",
+      "snapshot": "previous_export",
+      "sha256": "c51810dddcbabf232572c7c36577b97dcf370b962b4f10be001c2e57391cc256"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/proof.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "bfaeecd9ac2f53e132900d7c6c249275afd69c4f87800db729f7de86cfedb290"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/result.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/result.md",
+      "snapshot": "previous_export",
+      "sha256": "9992dd8863471727265e24aacdc3aa30a9f9638d4deafa3e75974e7dfc864774"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "efde81de845d5e0ab9575844c9d184474f167c7619aca2f3ea905b00d61cb028"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/verify.py",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "0c0de4188cc05cf5f502c5ba3bffd4b76eb6aef79803329c6e61fca3406dfa6e"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_audit.py",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "6b2af051e1b3460ed46d70e8483873eade8cd8d062457e15b82b501df3695326"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_cubic_recipe_boundary.py",
+      "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_cubic_recipe_boundary.py",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "3fe8c142c68b06c38878f7c4ac266e5562addf61e62341953591bec359f159b8"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/audit.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "316582b1ad20538ac2f74bb809376a31ae417fb62d96e29e991b25120db83fab"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "c938b842ffc67c8a0b69d6ba0bf5378649291a25f0e17e2f52dc452dbb6c2e13"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/controls.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "b28bfc7bb73e4dc68e45bb17c5e1ed3e5d879b7f6677dc904223cd92564f808c"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "046e0115453c2607362c32f4c0fb1aaa880a9c2133fa198516bbc9a01b2c5262"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/proof.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "68b16b1dcc27aa67c39b5b0b31297c2959fe6cb81ab00ad6fb4d8f75ab4c8978"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/result.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "f41214cf2b0d275f50fff43ccbe2ce5087175a822d695734dd421348ecb924ab"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/statement.md",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "7b5ba47a01abda091ffaae9bdf8a60b78789ba08904ef9681ea42d341bd7a4dd"
+    },
+    {
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/verify.py",
+      "source_path": "critical/nodes/mca_normalization_unit_curve_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "0391622ab1826a598377779358cd53d36842921791643e5a41466d82fcf7596d"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/audit.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "dd2b5257349915f339524a72e0a435b1e75dad75913df63b5afead50c3f44f8a"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/claim_contract.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "e63e428ccee2a2dd28fe0232cafe8f67e8888e89f346232d9841bdec673c0c96"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/controls.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "e7e7e3070f35fdcd40c163d004fa8217badb8946078a07ea69d17bf8a0743eb4"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "a4da44e8c0f8b0fdea5af8409b81d5492b59004dcf31b5d3a228793d0b826050"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_controls.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_controls.md",
+      "snapshot": "previous_export",
+      "sha256": "c59b1c2f15b0ee82be79b544564590f2644c4c53b89ddd489e68bef0734ee3a3"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_graphs.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_graphs.md",
+      "snapshot": "previous_export",
+      "sha256": "ed75cb786038e8d4a0c04a3f54a76df07180d0276afbc9050e36e709650e3ebf"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/proof.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "63fe5b05e4b145276f7e70b459dd6fa53228f45aa395d22336c8bb074de56420"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/result.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/result.md",
+      "snapshot": "previous_export",
+      "sha256": "4df2492982abea595153d998eec250c146d1a10ce8f1c91fa5c74d94d6b323a7"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/statement.md",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "ea0a8a7cb5ab0aed50676b4a48e7efeb6485c67310b4fe936d6620d7f1eefd96"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/verify.py",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "f6f86caa83ba754786e9315732d55dfcca3af246f7b3c1f64ce4ae39c576c877"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_audit.py",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "946a9aa35a8efa410bb00e62ccbefe51a5ac3c4b7ff4236ec506dc233e572c81"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_moving_projection.py",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_moving_projection.py",
+      "snapshot": "previous_export",
+      "sha256": "6124923299d0b1c1681e1b3d97a0ff737366c6ccd92352171420f44571e9ec5b"
+    },
+    {
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_moving_projection_audit.py",
+      "source_path": "critical/nodes/mca_polynomial_map_projective_jet_dimension/verify_moving_projection_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "cb9ad4d4505adccafda2b514153ac7c474a678942b35be208db8c91800279fbd"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "bebf36288b00c8d82aa2cadd080a42770c8ca0dc4690a66a3ebd82976c946b7d"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/claim_contract.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/claim_contract.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "7067f555abb63021e6e22f11d0766fc52f96a984c8eba9b91e320e10535b8de2"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/controls.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/controls.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "2a93680b9ad42d201bc89a98fd6fc3637b2929682b9b817b87f0fb4a81aa7eac"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/dependency_subdag.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "e2a619419d0d33451aa2050f638565d1f1c4fc9ff55e36d0605c32c55142944f"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/proof.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/proof.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "e89c555e9896c0b72a796a77f56be16e3687284c391ffecbc2c23bb53d472e01"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/result.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/result.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "27a3daf20907c62bec46809d729adf46cd8efc0832735ad726fefc45913180e7"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/statement.md",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/statement.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "5bc668746b7a5c446e42d44570b85dc67ea52eec1742eb6c1c5fbea2ec4fcfe9"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/verify.py",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/verify.py",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "ab3ffe6a8010876ff6b12db47252f31eff8847fe651a1bba9c3740ae6125c3d6"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
+      "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "ba7c90e992ef046b5fca180f1fc7b6340cccd279f4935b80ec559bd8c95387a5"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/audit.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "13a70a312c9105b95f863a3222a5c530d0668b0528e9ab25a2f2c2d5e0d6d575"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "6b828c1ccaee1c28acc7f231a5178b38df5e57865434fe09ad655120339ff140"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/controls.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "8cdf807a45056c39f7cfed804e674ce19fd35b93d16b0e8e3ef2407189e0046e"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "44d5e089ce0e4c1587fb012891dbda748eacfb680a2cccc79de88cf655e1c7b7"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/projective_fiber.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/projective_fiber.md",
+      "snapshot": "previous_export",
+      "sha256": "bbea7ba164d9db3e15feafa5e89b7a0b37217e017db10eef2a281569cccf1edc"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/proof.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "008258f750d06cc87e90a0ea2ab217ab4c7e46b4ec1e2ac222d2bd0642298196"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/result.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "72f070c1511bd5867d4aec16cea85b3e746c4d1ae676971c39de04565bfda0a4"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/statement.md",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "05aa9cb9fa9ba548909069d417f073213ecacf23c3d8a37e5ce88ad4a56448bd"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/verify.py",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "38e05f7867d6a96d6c888afb5442b6217ad8db0fa54de44b120fbbb83b577a58"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/verify_audit.py",
+      "source_path": "critical/nodes/mca_projective_split_product_list_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "a3ac1ce0addecc72a6f249d7adb339208cdacef6cd245bbe62eb8b88a5ff169e"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/audit.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "c3fb3559138d1f9927cfd614cd1246a9d79a06510e3b456ce9350648ebe51954"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "3343791882742aa8806a983f67cc2df2509f6399b266ed29e68e0e79476b3657"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_degree.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/component_degree.md",
+      "snapshot": "previous_export",
+      "sha256": "ad2710d1c91397aea0db78a64e432068feca071ff3098a8cc7e8de6fcea3ec5d"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_list.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/component_list.md",
+      "snapshot": "previous_export",
+      "sha256": "646bb33b819c5325263c7a820f598d4753f6a8a85d79f72b87688c6216e7955e"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_model.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/component_model.md",
+      "snapshot": "previous_export",
+      "sha256": "0f6dd9310446fc9f2f20cfe8893e8c6f600808f8d1fd8346f9214188f7979234"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/controls.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "22199b62fe77904768b1ec57afc5a1bcac3338cde19461d19a6c30451b07653f"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/cutoff101.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/cutoff101.md",
+      "snapshot": "previous_export",
+      "sha256": "51bc26b927b9b94694c253112bce285650276895d1b13c5cdc42e27048e21753"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/cutoff125.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/cutoff125.md",
+      "snapshot": "origin_dirty_snapshot",
+      "sha256": "1733cee3648059fc42d38ecb23e772b719a2e8e4fe7291ab49a0fa8cb5a28460"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "4d3f5a3c6fc0ef256e41dc22f71a70854aee88eb2701ec5738cba2cc77c65437"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/next_interval.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/next_interval.md",
+      "snapshot": "previous_export",
+      "sha256": "4fd89237851ffb1ca3cb03a934b97ac0e69d1bc722db316f7b05f84abf2c3abd"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/proof.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "ab405cebd424e951be01232f25440675ea6e3b7899cca8691eebe7bafaf5f435"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/result.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "99398357554e7eb26891411d1908e79cff7c3ae8d19a0129885b8090dd75471d"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "df1239533effe67787b8ef27fd76ad8939fa0aed0fd81e10eb4bdf7e34c741c1"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/tail9821.md",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/tail9821.md",
+      "snapshot": "previous_export",
+      "sha256": "ca338c4694f96edea2b37fb4ae6ed6d80439ad69832c9ae47b7d7f375d3f0d47"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/verify.py",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "0e87625fb7e98f4e8a71653cb8467482b0f6856c47e8a88814e4c4216e7ec403"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/verify_audit.py",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "b5a3228b480a1e43b951666777c48c3e73f3dc195614070a6d52800166ead426"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/verify_next_interval.py",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/verify_next_interval.py",
+      "snapshot": "previous_export",
+      "sha256": "52712917b023249cd6dc3899616db19f3bf84f6b25d4236db01c8fe1e63de34e"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/verify_next_interval_audit.py",
+      "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/verify_next_interval_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "1a1899c05f0c258cff28ee92163550cf3fe1211998d31544d2caf238c74bc7e4"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/audit.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/audit.md",
+      "snapshot": "previous_export",
+      "sha256": "5288d12c93b4a2ca9bbc8e552055cded3b0645b955e95f8715a42b6b26d5dd23"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/claim_contract.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/claim_contract.md",
+      "snapshot": "previous_export",
+      "sha256": "28a5555add8a38ded8a284a527d25850b84aad3a4ad00866f4b42df65bd50e11"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/completed_high_weight.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/completed_high_weight.md",
+      "snapshot": "previous_export",
+      "sha256": "3ded461d40ab95156c998a6da9affe2d35cd54a033997760e96a7acbb6cd5600"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/controls.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/controls.md",
+      "snapshot": "previous_export",
+      "sha256": "40133abeb404be37b00c0797172b03ef4356d59554524f8eca25d66cdc280cd6"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/dependency_subdag.md",
+      "snapshot": "previous_export",
+      "sha256": "1e1de884f52f2559cca06d2d4703be891dab58c46dffde8a4b28eb55653198d6"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/projection_height.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/projection_height.md",
+      "snapshot": "previous_export",
+      "sha256": "cb949870f3c47ed7150de07b0573735e4ecb7789ddcc36fc0c23b9b65eb832e8"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/proof.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/proof.md",
+      "snapshot": "previous_export",
+      "sha256": "6adee7ebf5d483ec6698ff069a2f1ad97bd4e17a38127e2586fe69d7cdcf0536"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/result.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/result.md",
+      "snapshot": "previous_export",
+      "sha256": "956a432d0e485ce4d0eac6f52f440b9bfb5b2ba8ead593c3e6bc4899be9d0c3e"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/statement.md",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/statement.md",
+      "snapshot": "previous_export",
+      "sha256": "85891b7cd79e63c3494820253743af996e547c144f928dd7252c7f25cf20902a"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify.py",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify.py",
+      "snapshot": "previous_export",
+      "sha256": "331523673cebce40c3ca23a8fab2a9011915f766731a4e2bf684bcefb004e4af"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify_audit.py",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify_audit.py",
+      "snapshot": "previous_export",
+      "sha256": "2607164eecadc1ed4a30829bc6583c4d0236048a8ca7f5aa61893f0a3e730fd1"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify_completed_high.py",
+      "source_path": "critical/nodes/mca_singular_cubic_weighted_incidence_payment/verify_completed_high.py",
+      "snapshot": "previous_export",
+      "sha256": "892fdca25b75276f063dee7b96692dc70d7af3781d7676f8821670c8fb6ed04a"
+    }
+  ]
+}
