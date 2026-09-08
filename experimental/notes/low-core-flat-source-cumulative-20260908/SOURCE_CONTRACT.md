@@ -1,7 +1,10 @@
 # Exact direct source contract
 
-This contract is part of every finite bound in the packet. It is not a
-predicate that can be assigned for free to an arbitrary v4 residual.
+This is the inherited contract for the older lower-strip and source-class
+bounds. The [new high-interval statement](source/critical/nodes/rate_half_mca_maximum_density_high_interval/statement.md)
+does not require its canonical selector; the [original-source assembly](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+proves the bridge from the stated original rank/core classes to this
+contract. It is not a predicate assignable for free to an arbitrary v4 residual.
 
 Let F have size 2130706433^6 and D be ANY set of n=1048576+J distinct
 F-points. Let m=67472+J, 4801<=J<=169999, V a polynomial F-space

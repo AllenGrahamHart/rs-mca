@@ -1,106 +1,73 @@
-# Review Guide
+# Review: Maximum Density And Original-Source Transport
 
-This is a submission for independent mathematical review, not a report
-that such external review has already occurred. The main new theorem
-has a short proof; the cumulative snapshot keeps older prerequisites
-available without making all historical pages new review obligations.
+K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
+for submission; external independent mathematical review remains due.
+The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Follow-Up Review: Actual Fiber And Polynomial Annihilator
+## 1. Coupled Basis Counts
 
-Start with the [fiber statement](source/critical/nodes/mca_projective_fiber_core_basis_resource/statement.md),
-[proof](source/critical/nodes/mca_projective_fiber_core_basis_resource/proof.md)
-and [finite bound](source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md).
+Read the [generic proof](source/critical/nodes/mca_maximum_density_flat_core_basis_resource/proof.md).
 
-- The annihilator has dimension s-1 but degree <K-a after locator
-  division, not automatically <s-1. The excess e=K-a-(s-1) is essential.
-- g=0 excludes carrier zeros from actual joint cores, not from the whole
-  received source. A carrier-zero defect can still contribute a tuple.
-- Count ordered bases with exactly one inside coordinate separately from
-  those with none. The unique inside position, or first s-1 outside
-  positions, makes each construction injective.
-- Positive log-concavity gives a LOWER minimum at t=0,a,c when present.
-  Keep the kink c=M-K+1. LOW uses a fixed m-6 subset of each actual core.
-- The four finite lower envelopes are exhaustive in both a and t.
-  Derivative and convexity bounds prove the all-J extension, not a grid.
-- HIGH raw>=7 has weight >=10488/125. LOW and HIGH consume the same
-  tuple resource; separately maximized source counts cannot be added.
-- Real h is valid in the old greedy proof. Removing rank ten from the
-  unpaid-flat alternative needs this weakening: it is false to infer it
-  from the old integer-h formulation merely by ignoring its remainder.
+- Select density from ALL nonzero original carrier evaluations, not just
+  a chosen core. An annihilator quotient inherits bounds from preimage
+  flats containing the entire original maximizing flat.
+- Retain the quotient degree excess. Locator division here counts ranks;
+  it does not descend the receiver or change the slope set.
+- An inside core can have rank less than the chosen flat. The exact
+  extension identity `sum y_b=E_(b+1)` handles this case.
+- Interleavings are injective: inside positions and the first 11-j
+  outside positions recover the construction. Different inside counts
+  are disjoint. Negative tangent terms cancel before nonnegative
+  coefficients are dropped; this step is proved for j<=4, c>=12.
+- Positive log-concavity gives a minimum at t=0,a,c when applicable.
+  Keep the kink c. Core zeros are excluded by universal-core emptiness;
+  a nonuniversal carrier-zero defect can still contribute.
 
-The primary and independently written audit use rank versus determinants,
-and rational arithmetic versus integer floor certificates. The printed
-source-class hypothesis remains essential. Verdict at this scope:
-**NO ISSUE** in the local hand audit; external independent review is due.
+## 2. All Cardinalities And All J
 
-## Priority 1: One Core Basis Plus One Defect
+Read the [finite proof](source/critical/nodes/rate_half_mca_maximum_density_high_interval/proof.md).
+Density <=(J-6)/5 is paid by the hybrid bound; larger density forces
+rank 1..4 by the polynomial root-space bound. This split is exhaustive.
 
-Read the [statement](source/critical/nodes/mca_projective_flat_core_basis_resource/statement.md)
-and [proof](source/critical/nodes/mca_projective_flat_core_basis_resource/proof.md).
+For each rank, density/degree switches occur at a=j*h_r. Add a=c and
+its actual valid range. Positive log-concavity in a, decreasing branches
+in J and exact curvature bounds reduce the proof to 91 rational
+endpoints. Fractional endpoints bound integer sources by relaxation.
+The constant breakpoint contributes two additional endpoint tests.
 
-- At a joint-core point where V vanishes, v=0 and u=h_*. Thus at most
-  g such points are lost from the available nonzero core evaluations.
-- After j independent choices, bound the ENTIRE span by j*h coordinates.
-  Bounding only projective fibers would not justify this step.
-- The s core normals span the hyperplane annihilating (1,b). Each actual
-  defect lies outside it. Its unique position recovers the ordered core
-  basis, giving exactly the factor s+1 without an overcount.
-- An independent tuple pins gamma and all carrier coefficients. Distinct
-  selected labels therefore have disjoint tuple sets, even if supports
-  overlap. The affine offset and receiver must remain fixed.
-- Old and new lower counts for a single record can overlap. Only their
-  maximum is available. The whole-source LOW/HIGH bound divides by the
-  minimum lower count; it is not a sum of separate family maxima.
-- Review the strict (s+1)T condition for beta monotonicity. This is a
-  proof for the real interval, not an inference from integer tests.
+HIGH raw>=7 has completed weight at least 10488/125, including margins
+above d. LOW and HIGH use the same ordered incidence resource. Combine
+their resulting bounds by maximum, never sum. The 91 endpoint floors,
+curvature gates and budget arithmetic have independent implementations;
+their completeness still depends on the analytic proof.
 
-## Priority 2: Full Carrier, Not A Chosen Curve
+## 3. The Original Line, Not A Normalized Proxy
 
-The [consumer](source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md)
-proves exact all-J bounds by logarithmic derivatives. HIGH weight is 5500,
-not an unsupported 5511. At the variable-height branch, four derivative
-terms already suffice, with positive certificate 7317924.
+Read the [assembly proof](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+and its cited common-core, scalar-descent and near suppliers.
 
-The homogeneous progression model includes infinity, common multiplier
-zeros, and all original coordinates. Rank is unchanged under extension
-of constants; this does not allow a nonconstant function-field extension.
-Receiver values need not descend along rational fibers.
+- The error-rank gauge uses the actual slope/polynomial span and
+  injectivity from v outside the full code. It yields dimension eleven,
+  not merely an arbitrary enclosing space of that dimension.
+- The complete shared scalar core equals the universal carrier core.
+  Cancel only that set, not every common carrier zero.
+- Full-bad saturated supports exist by lifting and connected one-point
+  exchanges. This retains every original finite label without an
+  exception charge or a change of field denominator.
+- The lower-strip canonical reselection preserves the fixed carrier and
+  label set, not necessarily old margins, error rank or a new shared core.
+  The original rank/core gate was already used to construct that child.
+- The old extreme intervals and the two normalized intervals are
+  alternative whole-source bounds. Their maximum pays the stated
+  original classes, with ONE original 134944 near allowance.
+- The contrapositive is for EVERY complete selection of an over-budget
+  line. No favorable low-rank selection is presumed to exist.
 
-For the dimension-ten classification, H_j loses at most one dimension
-at each step. A nonzero vector in H_10 has eleven independent successive
-powers because rho is nonconstant. Polynomiality forces its B^10 factor.
-The two extreme degrees establish the actual height bound.
+The generic/finite/transport arguments were reread for this publication;
+the listed replay and mutations pass. The inherited rounded-Johnson and
+lower-strip suppliers retain their own printed scope and review caveats.
+No exhaustive fresh audit of every historical result is claimed.
 
-The unpaid-source conclusions are contrapositives of a SOURCE-CLASS
-payment. Neither flat occupancy nor full progression form is asserted
-for all carriers. No row-level conclusion is available without transport.
-
-## Priority 3: The Grouped 9940 Extension And Recipe Boundary
-
-Read [raw_weighted_strip.md](source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md)
-and its [audit](source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md).
-The full kernel gives degree <=3 at ACTUAL height <2A and <=256 exceptions.
-The raw-weighted cubic proof and the two cutoff125 component notes price
-these parameters, not earlier <A heights. Check especially the per-pair
-SUM of raw defects and the medium-margin bridge in the large-line ledger.
-There is one original near charge and one resource in each alternative.
-
-In [cubic_recipe_boundary.md](source/critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md),
-T=1 maximizes the shell count. For each fixed multiplicity the gap is
-convex in J, so two endpoint bounds suffice. Small multiplicities 1..4
-are exact endpoint arithmetic; a decreasing/increasing comparison at
-multiplicity 5 handles all larger values. A failed sufficient criterion
-does not refute the intended source bound.
-
-## Limits Of The Checks
-
-Two implementations count small independent tuples by Gaussian rank and
-determinants, respectively. They include strict-weakening and missing-
-hypothesis controls. Exact floors use fractions and independent integer
-cross products. The seven new or updated checkers retain explicit checks under -O.
-
-Snapshot hashes and mutations check file identity, not mathematical truth.
-The old arithmetic children run without optimization even in the optimized
-wrapper. None of these tests formally certifies universal geometry or the
-original-source bridge. For inherited proof stages, the prior packet's
-[review guide](../low-core-multiplicity-cumulative-20260908/REVIEW.md) remains useful.
+Remaining mathematics: rank twelve on J=9941..64999 and higher ranks.
+These are outside the submitted paid scope, not silently assumed true.
+Verdict for the scoped publication hand audit: **NO ISSUE**.

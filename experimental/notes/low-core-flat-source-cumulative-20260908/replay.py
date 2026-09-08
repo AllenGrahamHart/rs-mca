@@ -64,12 +64,54 @@ CHECKS = (
     "source/critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
     "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify.py",
     "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify_audit.py",
+    "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/verify.py",
+    "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/verify_audit.py",
+    "source/critical/nodes/rate_half_mca_maximum_density_high_interval/verify.py",
+    "source/critical/nodes/rate_half_mca_maximum_density_high_interval/verify_audit.py",
+    "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+    "source/background/nodes/mca_common_core_low_margin_transport/verify_small.py",
+    "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify_core_transport.py",
+    "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify_basis_child_payment.py",
+    "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify_basis_child_audit.py",
+    "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify.py",
+    "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify_audit.py",
+    "source/background/nodes/mca_padded_johnson_scalar_descent/verify.py",
+    "source/background/nodes/mca_scalar_agreement_dimension_descent/verify.py",
+    "source/background/nodes/mca_scalar_agreement_dimension_descent/verify_two_anchor.py",
+    "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/verify_caps.py",
+    "source/critical/nodes/bchks_affine_witness_collinearity_mca/verify_exact_gate.py",
 )
 
 
 def require(condition, message):
     if not condition:
         raise ValueError(message)
+
+
+def verify_dependency_inventory(manifest, sources):
+    graph = manifest["interval_extension_requirements"]
+    root = manifest["interval_extension_root"]
+    require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
+    require(len(graph) == 36, "changed proof inventory")
+    active, seen = set(), set()
+
+    def visit(node):
+        require(node not in active, "cyclic proof inventory")
+        if node in seen:
+            return
+        require(node in graph, "missing proof requirement")
+        active.add(node)
+        for filename in ("statement.md", "proof.md"):
+            require(any("source/" + base + "/" + node + "/" + filename in sources
+                        for base in ("critical/nodes", "background/nodes")),
+                    "missing proof document: " + node + "/" + filename)
+        for dependency in graph[node]:
+            visit(dependency)
+        active.remove(node)
+        seen.add(node)
+
+    visit(root)
+    require(seen == set(graph), "unreachable proof inventory")
 
 
 def verify_sources(manifest=None):
@@ -92,6 +134,7 @@ def verify_sources(manifest=None):
               if path.is_file()}
     require(actual == seen, "unlisted or missing source")
     require(set(CHECKS) <= seen, "unfrozen checker")
+    verify_dependency_inventory(manifest, seen)
     return len(seen)
 
 
@@ -111,6 +154,13 @@ def verify_manifest_mutations():
     changed["files"][0].update(path="source/../../agents.md",
                                source_path="../../agents.md")
     bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["interval_extension_requirements"].pop(changed["interval_extension_root"])
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    root = changed["interval_extension_root"]
+    changed["interval_extension_requirements"][root].append(root)
+    bad.append(changed)
     for changed in bad:
         try:
             verify_sources(changed)
@@ -118,7 +168,7 @@ def verify_manifest_mutations():
             continue
         raise ValueError("accepted a malformed source manifest")
     verify_sources(baseline)
-    print("PASS: four manifest mutations rejected; baseline still passes")
+    print("PASS: six source/inventory mutations rejected; baseline still passes")
 
 
 def main():
@@ -139,8 +189,8 @@ def main():
         print("PASS", check, flush=True)
     print("PASS:", count, "frozen sources;", len(CHECKS), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
-    print("CHECKS PASS; hand proofs cover normalized 4801..9940 and declared high-J classes")
-    print("High-J occupancy is NOT automatic; unrestricted row and both prizes OPEN")
+    print("CHECKS PASS; 36-node proof inventory; original rank-twelve residual J=9941..64999")
+    print("Hand proofs are not certified by replay; higher ranks, unrestricted row and both prizes OPEN")
 
 
 if __name__ == "__main__":

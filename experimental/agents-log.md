@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Maximum-density bases and original rank-twelve interval assembly
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** The maximum-density/annihilator basis argument
+  pays EVERY normalized carrier on `65000..169999` by
+  `|Gamma|+134944<=274929007493481160`. The exact original-source bridge
+  and earlier intervals confine any over-budget original rank-twelve
+  selection to `J=9941..64999`, retaining all labels and one near add-back.
+- **How it is useful:** K3 / DIRECT. These are original received-line
+  class bounds, not new v4 owner charges. The 241 inherited sources stay
+  unchanged; 165 proof/control dependencies are added to the same companion
+  branch. All 78 selected checks pass, below 21 MiB measured peak RSS.
+- **What to do next:** Review the coupled inside counts, the 91-endpoint
+  analytic completeness proof and canonical reselection after transport.
+  Rank twelve on `9941..64999`, ranks >=13, the unrestricted row and both
+  prizes remain open. No speculative contraction result or compute request.
+
 ### 2026-09-08 - Large projective fibers and real-valued flat occupancy
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
