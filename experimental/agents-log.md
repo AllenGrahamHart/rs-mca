@@ -30,6 +30,25 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Multiplicity and cumulative margin accounting, companion to #1175
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:**
+  `experimental/notes/low-core-multiplicity-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent hand review.
+- **What is being added:** Characteristic-free multiplicity interpolation
+  escapes prescribed curves and bounds the full kernel's gcd. Cumulative
+  completed-basis accounting retains the entire selected raw-margin profile.
+  Their finite composition extends every-source normalized coverage from
+  `4801..8655` to `4801..9821`, with
+  `|Gamma|+134944<=274979661975561635` under the exact source contract.
+- **How it is useful:** K3 direct source-based residual geometry. The new
+  packet preserves earlier snapshots and Hughes's branch. No unrestricted
+  KoalaBear row, active-v4 atom, ordinary LIST endpoint or prize is closed.
+- **What to do next:** Review the two generic arguments and the exhaustive
+  factor composition. Bind original-source/near/owner transport separately;
+  normalized `9822..169999` and higher ranks remain open. No compute request.
+
 ### 2026-09-07 - Complete normalized cubic strip, companion to #1175
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
