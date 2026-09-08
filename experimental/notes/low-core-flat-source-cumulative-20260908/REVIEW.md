@@ -1,10 +1,48 @@
-# Review: Complete-Core Costs And Original-Source Transport
+# Review: Quotient-Density Costs And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## New Extension: Projected Pairs And Complete-Core Costs
+## New Extension: Quotient Contraction And Density Completion
+
+Read the [generic completion proof](source/critical/nodes/mca_density_aware_flat_completion_resource/proof.md),
+[finite interval proof](source/critical/nodes/rate_half_mca_quotient_density_interval/proof.md)
+and revised original-source assembly.
+
+- Both polynomial root bounds and maximum density bound every completion
+  span. Their minimum yields the maximum in each outside choice factor.
+  Interleavings recover the inside tuple and first quotient basis; no
+  multiply counted tuples or chosen favorable quotient basis are assumed.
+- The exact identity sum y_B=E_(b+1) precedes signed elimination. A
+  negative tail uses the upper ratio, including when E_b=0. Box endpoint
+  choices keep the same sign direction. Lower counts are multiplied only
+  after positivity is established; the positive direct class is retained.
+- Quotient gap lowering chooses an actual smaller nonzero evaluation
+  subset, retaining rank by polynomial root bounds. It neither descends
+  the receiver nor assumes monotonicity of an optimized certificate.
+- Directed coefficient rounding gives a lower quadratic. The tangent
+  remainder is nonnegative; after retaining the quadratic coefficient,
+  the other profile differs affinely, so its two endpoint checks suffice.
+  The rank-dependent gates are verified before using the induction.
+- Density/degree branches are fixed on each size region. Positive affine
+  products and log-concavity justify full boxes. For the supplementary
+  inside classes the individual term minima are added, not the minimum
+  of a sum assumed to occur at one vertex.
+- Record occupancies use one uniform minimum charge on one resource.
+  Source boxes are alternative whole-family bounds. No-heavy sources
+  use the first heavy bin. The heavy ratio's derivative has the printed
+  sign along each upper size edge, and the exception charge is retained.
+- The omitted integer rank-one class a>=J-2000 is paid by the inherited
+  receiver-fiber theorem. Its cap must be included in the final maximum;
+  later degree-block maxima alone do not cover that class.
+
+This publication review found no issue at these stated scopes. The new
+finite interval is 32000..39999; the original rank-twelve residual is now
+9941..31999. Actual small-source controls and exact integer replays
+supplement these hand proofs. Independent external review remains due.
+
+## Previous Extension: Projected Pairs And Complete-Core Costs
 
 Read the new [projected-pair proof](source/critical/nodes/mca_receiver_flat_refunded_resource/proof.md),
 [45000 interval](source/critical/nodes/rate_half_mca_receiver_flat_interval/proof.md),

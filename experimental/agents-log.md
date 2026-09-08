@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Quotient-density costs remove 8000 more rank-twelve degrees
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Density-aware outside completion and signed
+  backward inside ratios, combined with exact quotient-contraction
+  certificates. Every normalized carrier on J=32000..39999 is paid by
+  261925431454675420, including one original near allowance.
+- **How it is useful:** K3 / DIRECT, on the established #1175 companion.
+  The original rank-twelve residual becomes J=9941..31999 (22059 integers);
+  the union 32000..169999 retains total 274929007493481160. Two new
+  proved suppliers; 46-node assembly inventory. All 95 checks pass;
+  four separate extension blocks also pass under -O. Peak RSS below 25 MiB.
+- **What to do next:** Independently review signed elimination, directed
+  quotient rounding, full box coverage and the included rank-one class.
+  Lower rank twelve, ranks >=13, the unrestricted row and both prizes
+  remain open. No new carrier premise, active-v4 atom or compute request.
+
 ### 2026-09-08 - Complete-core costs remove 13000 original rank-twelve degrees
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

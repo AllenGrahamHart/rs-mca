@@ -39,12 +39,12 @@ Its exception charges are inside its heavy-class payment; all original
 labels are included in the resulting whole-source total. One qualifying
 fiber suffices, and different fiber totals are not summed.
 
-The new complete-core interval has the same normalized source contract,
-so it changes only the first middle interval to g=878577..1008576.
-The complementary g=1008577..1038635 is exactly J=9941..39999.
+The new quotient-density interval has the same normalized source contract,
+so it changes only the first middle interval to g=878577..1016576.
+The complementary g=1016577..1038635 is exactly J=9941..31999.
 No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
-useful on 14000..39999. Higher original ranks remain an independent gap.
+useful on 14000..31999. Higher original ranks remain an independent gap.
 
 Verdict: NO ISSUE at the direct original-source scope. The individual
 normalized suppliers remain subject to their recorded external review;

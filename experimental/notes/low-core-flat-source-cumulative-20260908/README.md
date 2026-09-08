@@ -1,4 +1,4 @@
-# KoalaBear MCA: complete-core costs extend original coverage to J=40000
+# KoalaBear MCA: quotient-density costs extend original coverage to J=32000
 
 ~~~yaml
 workboard_item: K3
@@ -7,7 +7,7 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: an original line satisfying the rank/core gate or either rank-twelve receiver-fiber gate below has |Z_bad|<=274979661975561635
+direct_statement: an original line satisfying the rank/core gate or the remaining rank-twelve receiver-fiber gate below has |Z_bad|<=274979661975561635
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
@@ -39,14 +39,14 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`1008577..1038635`. Here the core is the intersection of COMPLETE scalar
+`1016577..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..39999**.
+- error affine rank twelve and `J=1048576-g` in **9941..31999**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
@@ -59,6 +59,39 @@ necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
 ## What Is New In This Extension
+
+The [density-aware completion proof](source/critical/nodes/mca_density_aware_flat_completion_resource/proof.md)
+keeps maximum flat density in the supplementary outside extensions and
+permits any proved quotient-basis lower count. Signed tangent coefficients
+are eliminated backwards through actual inside-extension ratios; negative
+coefficients use upper ratios, never lower ones.
+
+The [finite quotient-density theorem](source/critical/nodes/rate_half_mca_quotient_density_interval/proof.md)
+uses the earlier full-fiber contraction to supply stronger quotient counts.
+Exact downward-rounded quadratic certificates hold uniformly over their
+entire child-degree intervals. Gap lowering uses a smaller nonzero
+evaluation subset, not presumed monotonicity of an empirical optimizer.
+
+Together these two new proved suppliers pay EVERY normalized carrier on
+**32000..39999** by **261925431454675420**, including ONE original near
+allowance. The reserve below B* is **13055296656719667**. All proper
+flat ranks 1..10 and all integer sizes and record occupancies are covered;
+the separately paid near-full rank-one fiber class is included in the maximum.
+There is no additional structural carrier premise.
+
+With the earlier intervals, the union is **32000..169999**, retaining
+**274929007493481160**. Relative to parent `a16bd73b`, this removes
+**8000 integer degrees**, leaving **22059** in the original rank-twelve
+interval. The whole-line assembly maximum is unchanged. Record bins use
+one resource; source alternatives combine by maximum, not sum.
+
+Two independent integer implementations check 112640 record-cost boxes
+and 14080 source boxes. Analytic coverage is proved in the linked text;
+matching output hashes do not certify that proof. The current assembly
+transports the extension with the unchanged field, original slopes,
+full-code badness, complete shared core and one near add-back.
+
+## Previous Complete-Core Extension Retained
 
 Two successive, fully discharged interval theorems pay EVERY normalized
 dimension-eleven carrier, without an additional structural premise:
@@ -224,8 +257,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..1008576 | 40000..169999 | 274929007493481160 |
-| **1008577..1038635** | **9941..39999** | **OPEN** |
+| 878577..1016576 | 32000..169999 | 274929007493481160 |
+| **1016577..1038635** | **9941..31999** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -235,7 +268,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): new projected-pair/complete-core arguments and prior source bridge.
+- [REVIEW.md](REVIEW.md): quotient-density proof checks and the prior source bridge.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -243,22 +276,25 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `4d665ca9`, this extension adds 32 proof/control sources
-and revises eleven sources; 428 parent sources stay byte-identical.
-There are 471 hashed sources and a 44-node acyclic requirement inventory,
+Relative to parent `a16bd73b`, this extension adds 15 proof/control sources
+and revises seven assembly sources; 464 parent sources stay byte-identical.
+There are 486 hashed sources and a 46-node acyclic requirement inventory,
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
-linked complete-core and original-source assembly statements are the
+linked quotient-density and original-source assembly statements are the
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..39999**, higher original error ranks,
+Still open: rank twelve on **9941..31999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
 No new compute request, Modal spending or exploratory script is included.
-To replay just the eight extension checks, use
-`python3 -B replay.py --flat-only` from this packet directory;
-adding `-O` also optimizes those eight explicitly guarded children.
-The earlier `--receiver-only` and `--contraction-only` modes remain available.
+For a short replay, run `python3 -B replay.py --inherited-only`, then run
+`python3 -B replay.py --quotient-only --start J0` separately for each of
+`J0=32000,34000,36000,38000`. Adding `-O` to the quotient-only mode
+optimizes its four explicitly guarded children. Each block reports its
+limited replay scope; all four are needed to replay the new interval.
+The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
+modes remain available. No flag runs a numerical search.

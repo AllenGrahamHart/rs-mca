@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `4d665ca98510bfe8c8021e24721ec86176f0a3a0`.
+- Previous companion: `a16bd73bf3705eb5d84c9bc3b5e7e1dbf8814434`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -29,6 +29,23 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. Density-aware supplementary outside extensions, arbitrary proved
+   quotient-basis counts, and signed backward elimination through actual
+   inside-extension ratios.
+2. Downward-rounded quotient quadratic certificates and an exhaustive
+   finite interval 32000..39999, with total 261925431454675420 including
+   one original near allowance. All proper flat ranks 1..10 are covered.
+3. The original-source assembly now leaves J=9941..31999 (22059 integers),
+   removing 8000 degrees relative to a16bd73b without a new source premise.
+
+Both new suppliers are locally PROVED with discharged prerequisites.
+Contraction, complete-core/defect insertion, receiver-flat separation and
+refunds, full child caps and original-source transport are credited earlier
+results, not rediscovered claims. The matching integer certificates do not
+replace review of analytic box coverage. No active-v4 atom is assigned.
+
+## Previous Complete-Core Contribution Retained
 
 1. Projected receiver-pair separation and an empty-core child at actual
    agreement m-t, with explicit exceptional labels and shared tuple cost.
@@ -105,7 +122,7 @@ near correction + scalar descent + padded Johnson + prior completed bases
 common-core saturated-support transport
     + common-core extremes + high interval + lower strip
     -> original rank-twelve paid-interval assembly
-    -> restriction J=9941..39999 or original rank >=13
+    -> restriction J=9941..31999 or original rank >=13
 
 fiber-basis resource + saturated-support transport
     -> receiver-fiber peeling
@@ -122,9 +139,16 @@ maximum-density basis resource -> calibrated signed inside counts
     + complete-core occupancy + projected-pair costs + full child caps
     -> every-carrier interval / union 40000..169999
     -> original-source assembly, with unchanged bridge and near add-back
+
+maximum-density resource + complete-core inside counts
+    -> density-aware outside completion / signed backward ratios
+    + quotient contraction + receiver-flat costs + full child caps
+    + prior receiver-fiber and complete-core intervals
+    -> every-carrier interval / union 32000..169999
+    -> original-source assembly, with unchanged bridge and near add-back
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 44-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 46-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
@@ -134,9 +158,9 @@ it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent 4d665ca9, 428 source files remain byte-for-byte unchanged.
-Thirty-two sources are added and eleven sources are revised, for 471
-sources. Only small `.md`
+Relative to parent a16bd73b, 464 source files remain byte-for-byte unchanged.
+Fifteen sources are added and seven assembly sources are revised, for 486
+sources and 1428674 source bytes. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
 exploratory receiver-flat script, package environment or Modal job is included.
 Not every historical helper is part of the selected bounded replay.
@@ -156,21 +180,21 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`complete_core_extension` records the immediate parent, its manifest
+`quotient_density_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 44-node graph; the older parent metadata remains
+is updated to the current 46-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
-The original maximum-density proof and contraction proof bytes remain
-unchanged. The rank-five supplement is added with four revised supplier
-descriptions; seven original-source assembly files update the paid range.
-The two interval theorems and two generic suppliers contribute thirty new
-proof/control files. Exploratory scripts are excluded. Frozen source-local
+The original maximum-density, contraction and complete-core proof bytes
+remain unchanged. Seven original-source assembly files update the paid
+range; the two new suppliers contribute fifteen proof/control files.
+The earlier `complete_core_extension` retains its own immutable parent
+and source-history record. Exploratory scripts are excluded. Frozen source-local
 sentences saying a continuation is local describe prepublication custody,
 not a conditional proof status or independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The new complete-core and revised assembly links in README are the current
+The new quotient-density and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.
