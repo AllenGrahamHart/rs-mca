@@ -1,4 +1,4 @@
-# Bounded evaluation flats and the normalized rank-twelve residual
+# Bounded evaluation flats, large fibers and the normalized rank-twelve residual
 
 ~~~yaml
 workboard_item: K3
@@ -7,12 +7,12 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: bounded evaluation flats pay the declared whole high-J source classes; every normalized source on 4801..9940 is paid
+direct_statement: large-fiber sources on 65000..169999 satisfy |Gamma|+134944<=274929007493481160; bounded-flat and lower-strip scopes below
 architecture: DIRECT
 atom_or_cell: normalized rank-twelve source classes, not an active-v4 owner
 quantifier: every source satisfying SOURCE_CONTRACT.md and the theorem's stated interval and carrier conditions
 projection_and_unit: distinct original finite affine slopes, counted once
-claimed_bound: 268724670028139326 for bounded-flat sources on 23000..169999; other scopes below
+claimed_bound: 274929007493481160 for large-fiber sources on 65000..169999; other scopes below
 status: PROVED
 impact: LOCAL_ONLY
 falsifier: a contract source satisfying a stated carrier condition and exceeding its printed slope bound
@@ -23,6 +23,39 @@ Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local hand
 proofs submitted for independent review, not a claim of external acceptance.
 This grouped companion extends [the previous snapshot](../low-core-multiplicity-cumulative-20260908/README.md)
 without altering it or Hughes's #1175 branch.
+
+## Follow-Up: Large Projective Fibers
+
+The [new short proof](source/critical/nodes/mca_projective_fiber_core_basis_resource/proof.md)
+counts bases using the annihilator of an actual projective evaluation
+fiber. After dividing its locator, the remaining polynomial degree excess
+is retained. Exactly-one-inside and zero-inside basis classes are disjoint;
+their sum has its minimum at three explicit endpoints. Inserting one
+actual defect then supplies independent incidence tuples on the original
+coordinates, without descending the receiver.
+
+For EVERY source satisfying [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md), with
+`65000<=J<=169999` and one projective fiber of size `a>=ceil(J/2)`, the
+[finite theorem](source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md)
+gives
+
+~~~text
+N=|Gamma|+134944 <= 274929007493481160,
+reserve >= 51720617913927.
+~~~
+
+LOW raw<=6 and HIGH raw>=7 use ONE tuple budget, combined by maximum,
+not addition. Four explicit lower envelopes and derivative/convexity
+inequalities cover all J and all admissible fiber sizes. This class lies
+outside the earlier bounded-flat hypothesis, so this is a new source-class
+payment, not a rechecking of the same class.
+
+The bounded-flat proof also works for REAL `h>=1`. The finite hypothesis
+can therefore be weakened from `h<=floor((J-1)/10)` to `h<=(J-1)/10`
+without changing its bound. The unpaid-source restriction below now
+uses ranks 1..9 and `floor(j*(J-1)/10)+1`; rank ten is automatic by roots.
+The stronger all-carrier maximum-density argument still being audited
+locally is NOT included in this publication.
 
 ## Main Contribution: Count Core Bases Directly
 
@@ -63,9 +96,10 @@ carrier core, original field, coordinates and distinct finite labels.
 | Additional carrier condition | J interval | Bound on N |
 | --- | --- | ---: |
 | Projectively distinct nonzero evaluations; any at most eleven independent | 10000..169999 | 273674135808267711 |
-| Every j-flat has <=j*h nonzero original evaluations, h<=floor((J-1)/10) | 23000..169999 | 268724670028139326 |
+| Every j-flat has <=j*h nonzero original evaluations, real h<=(J-1)/10 | 23000..169999 | 268724670028139326 |
+| One projective fiber has >=ceil(J/2) nonzero original evaluations | 65000..169999 | 274929007493481160 |
 
-The reserves are respectively 1306592303127376 and 6256058083255761.
+The first two reserves are respectively 1306592303127376 and 6256058083255761.
 The [finite proof](source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md)
 uses T=500, beta(1) for LOW, and completed weight >=5500 for HIGH.
 The two quotients combine by MAXIMUM. Exact derivative inequalities prove
@@ -85,14 +119,16 @@ along these fibers and no change to the slope denominator.
 
 Consequently an over-budget source on 23000..169999 must have BOTH:
 
-1. A j-dimensional dual subspace, 1<=j<=10, containing at least
-   j*floor((J-1)/10)+1 nonzero original evaluations.
+1. A j-dimensional dual subspace, 1<=j<=9, containing at least
+   floor(j*(J-1)/10)+1 nonzero original evaluations.
 2. For every extension of constants k/F and nonconstant rho in k(X),
    dim_k{v in V_k: rho*v in V_k}<=9.
 
 The second restriction uses an elementary dimension-ten classification
 into the paid progression class. These are proved restrictions on the
 remaining source, not new speculative premises or a claim that it is paid.
+On 65000..169999 the large-fiber theorem additionally forces EVERY
+projective fiber of an over-budget source to have size <=ceil(J/2)-1.
 
 ## Grouped Companion: Every-Carrier Coverage Through 9940
 
@@ -122,8 +158,9 @@ unbounded search. It is a limit of this recipe, NOT an unsafe MCA source.
 [PROVENANCE.md](PROVENANCE.md) credits upstream prerequisites, distinguishes
 the new contribution from earlier ones and maps the local dependency DAG.
 [VALIDATION.md](VALIDATION.md) records bounded serial arithmetic/control tests.
-The manifest freezes 231 source files: 212 inherited unchanged and 19 new.
-The replay runs 60 checks with a 15-second child timeout and rejects four
+The manifest freezes 241 source files: 224 unchanged from commit 1a87f28f,
+seven revised for real h, and ten new for the large-fiber theorem.
+The replay runs 62 checks with a 15-second child timeout and rejects four
 manifest mutations. No external dependencies or large computation are needed.
 
 The higher-J classes have ESSENTIAL structural hypotheses; general
@@ -134,6 +171,6 @@ unrestricted adjacent endpoint, ordinary LIST bound or prize closes.
 
 ## Compute Requests
 
-None. The next mathematical step is to price the forced occupied flat
-with its actual polynomial carrier kernel, retaining original labels and
-one accounting resource. These proved restrictions alone do not do that.
+None. Intermediate fibers and higher-dimensional occupied flats still
+need payment with their actual polynomial kernels, original labels and
+one accounting resource. The submitted theorem does not cover those cases.

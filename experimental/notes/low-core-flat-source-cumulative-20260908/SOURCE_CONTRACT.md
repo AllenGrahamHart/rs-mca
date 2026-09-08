@@ -136,7 +136,7 @@ used for that cover. Its full factor accounting is included separately.
 
 ## Additional Whole-Carrier Interfaces
 
-The new generic supplier only requires a selected full-code-bad support
+The core-basis suppliers only require a selected full-code-bad support
 per label, not maximal raw selection. The finite statements retain the
 source above and impose the following ADDITIONAL carrier conditions:
 
@@ -145,10 +145,15 @@ source above and impose the following ADDITIONAL carrier conditions:
   |Gamma|+134944<=273674135808267711.
 - On 23000..169999, every j-dimensional subspace of V*, 1<=j<=10,
   contains nonzero evaluations of at most j*h ORIGINAL coordinates,
-  for some integer 1<=h<=floor((J-1)/10):
+  for some real 1<=h<=(J-1)/10:
   |Gamma|+134944<=268724670028139326.
+- On 65000..169999, some projective evaluation fiber contains at least
+  ceil(J/2) nonzero ORIGINAL coordinates:
+  |Gamma|+134944<=274929007493481160.
+  This theorem uses LOW<=6, HIGH>=7 and weight floor 10488/125;
+  the older LOW<=500 partition is not substituted into this proof.
 
-Both are entire-source counts without a pair-curve premise or off-curve
+These are entire-source counts without a pair-curve premise or off-curve
 exceptions. The second includes full rational progression carriers,
 including those described only after constant-field extension. Field,
 original coordinates, defects and slope denominator never change.
@@ -158,7 +163,10 @@ does not establish higher-dimensional occupancy. In the second interval,
 an over-budget source must violate this occupancy bound and have
 dim_k{v in V_k: rho*v in V_k}<=9 for every extension of constants k/F
 and nonconstant rho in k(X). The consumer proves both restrictions;
-it does not price the remaining concentrated sources.
+the failed occupancy condition means some rank 1<=j<=9 flat has at least
+floor(j*(J-1)/10)+1 nonzero evaluations. On 65000..169999 every fiber
+must additionally have size <=ceil(J/2)-1. Intermediate fibers and
+higher-dimensional concentration remain unpaid by this packet.
 
 Earlier frozen source status pages retain their historical intervals.
 This contract and README identify the cumulative scope; use the explicit

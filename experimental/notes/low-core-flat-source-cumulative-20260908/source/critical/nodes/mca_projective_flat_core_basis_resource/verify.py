@@ -68,6 +68,7 @@ def main():
     weak_tuples = tuple_set((0, 1, 10, 2, 3, 4, 5), 6, weak, 11)
     check(rank([weak(x) for x in (0, 1, 10)], 11) == 2, "weaker source is not an arc")
     check(len(weak_tuples) == 792 >= 4 * 7 * 5 * 3, "positive bound from weaker flat hypothesis")
+    check(4 * 7 * Q(11, 2) * 4 == 616 <= len(weak_tuples), "real h=3/2 occupancy")
 
     # rho=(X^2+1)/X includes its infinity fiber at X=0.
     rational = lambda x: (x * x % P, x * (x * x + 1) % P, (x * x + 1)**2 % P)

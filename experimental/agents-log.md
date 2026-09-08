@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Large projective fibers and real-valued flat occupancy
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Updated the existing
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` packet.
+- **Status:** PROVED LOCAL, submitted for independent hand review.
+- **What is being added:** The actual fiber annihilator pays every
+  normalized source on `65000..169999` with a projective fiber of size
+  `>=ceil(J/2)` by `|Gamma|+134944<=274929007493481160`. The earlier
+  bounded-flat proof permits real h, sharpening the residual flat ranks
+  to 1..9 without changing its finite constant.
+- **How it is useful:** K3 direct rank-twelve source geometry. The new
+  class violates the older bounded-flat premise, so it removes another
+  concentration class with one original tuple resource. The seven revised
+  and ten new source files extend the existing #1175 companion branch.
+- **What to do next:** Review the annihilator degree excess, the disjoint
+  basis counts and four all-interval envelopes. Smaller fibers and higher
+  flat concentrations remain open in this packet, as do original transport,
+  higher ranks and both prizes. No active-v4 atom or new compute request.
+
 ### 2026-09-08 - Whole bounded-flat sources and normalized coverage through 9940
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

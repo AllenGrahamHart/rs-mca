@@ -1,5 +1,10 @@
 # Small Algebraic Controls
 
+The non-arc F_11 example below also satisfies real h=3/2: fibers
+are singletons and a rank-two subspace has at most three roots of a
+nonzero cubic. Its 792 tuples exceed the valid fractional-parameter
+lower count 4*7*(11/2)*4=616, improving the integer-h=2 count 420.
+
 The first four controls use F_7 and actual polynomial evaluations.
 The last hand example uses F_11. These test interfaces, not a claim
 about the deployed large field.

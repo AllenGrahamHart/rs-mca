@@ -1,5 +1,9 @@
 # Exact Contract
 
+The occupancy parameter h>=1 may be real. This is a proved weakening
+of the earlier integer-h statement, not a new conjecture. Only the
+cardinality of the actual original-coordinate sets must be integral.
+
 - Object: distinct selected finite MCA slopes, in the unchanged field.
 - Carrier: actual dimension s, fixed affine translate, degree <K.
 - Supports: size m=K+d and bad in the full degree-<K pair code.

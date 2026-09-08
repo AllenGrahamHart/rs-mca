@@ -5,6 +5,34 @@ that such external review has already occurred. The main new theorem
 has a short proof; the cumulative snapshot keeps older prerequisites
 available without making all historical pages new review obligations.
 
+## Follow-Up Review: Actual Fiber And Polynomial Annihilator
+
+Start with the [fiber statement](source/critical/nodes/mca_projective_fiber_core_basis_resource/statement.md),
+[proof](source/critical/nodes/mca_projective_fiber_core_basis_resource/proof.md)
+and [finite bound](source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md).
+
+- The annihilator has dimension s-1 but degree <K-a after locator
+  division, not automatically <s-1. The excess e=K-a-(s-1) is essential.
+- g=0 excludes carrier zeros from actual joint cores, not from the whole
+  received source. A carrier-zero defect can still contribute a tuple.
+- Count ordered bases with exactly one inside coordinate separately from
+  those with none. The unique inside position, or first s-1 outside
+  positions, makes each construction injective.
+- Positive log-concavity gives a LOWER minimum at t=0,a,c when present.
+  Keep the kink c=M-K+1. LOW uses a fixed m-6 subset of each actual core.
+- The four finite lower envelopes are exhaustive in both a and t.
+  Derivative and convexity bounds prove the all-J extension, not a grid.
+- HIGH raw>=7 has weight >=10488/125. LOW and HIGH consume the same
+  tuple resource; separately maximized source counts cannot be added.
+- Real h is valid in the old greedy proof. Removing rank ten from the
+  unpaid-flat alternative needs this weakening: it is false to infer it
+  from the old integer-h formulation merely by ignoring its remainder.
+
+The primary and independently written audit use rank versus determinants,
+and rational arithmetic versus integer floor certificates. The printed
+source-class hypothesis remains essential. Verdict at this scope:
+**NO ISSUE** in the local hand audit; external independent review is due.
+
 ## Priority 1: One Core Basis Plus One Defect
 
 Read the [statement](source/critical/nodes/mca_projective_flat_core_basis_resource/statement.md)
@@ -69,7 +97,7 @@ does not refute the intended source bound.
 Two implementations count small independent tuples by Gaussian rank and
 determinants, respectively. They include strict-weakening and missing-
 hypothesis controls. Exact floors use fractions and independent integer
-cross products. The five new checkers retain explicit checks under -O.
+cross products. The seven new or updated checkers retain explicit checks under -O.
 
 Snapshot hashes and mutations check file identity, not mathematical truth.
 The old arithmetic children run without optimization even in the optimized

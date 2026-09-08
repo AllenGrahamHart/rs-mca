@@ -4,8 +4,8 @@
   "pr1175_head": "6c59f9aa75b897c9274e94c7aa8864acd26a85ea",
   "origin_worktree_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
   "origin_state": "dirty snapshot; per-file hashes bind the actual proof text",
-  "previous_export": "80d8f5113d62707c4709abb8b0de71a3d5fd90b7",
-  "previous_manifest_sha256": "58bff2fc5543c22fc6ffef4c93061d0114a29b6ddd55b75316badd3a2eee31ff",
+  "previous_export": "1a87f28f465cc15a0238cae61751e28d80eb1d61",
+  "previous_manifest_sha256": "2e308de51f9638b64293d6e71358e04f7505e3428e129c87df7d846996e2ddeb",
   "files": [
     {
       "path": "source/background/nodes/list_padded_johnson_dimension_descent/compiler.py",
@@ -152,6 +152,12 @@
       "sha256": "64fe7b03ad119321036bee810775b66b519592a8f1df4f87fc947101ddb2f2cd"
     },
     {
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md",
+      "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "051f4f3dce4b6d50a32e6233c31f417bddf8888d0340dc15c81ccfee030f0f88"
+    },
+    {
       "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/low_cutoff_accounting.md",
       "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/low_cutoff_accounting.md",
       "snapshot": "previous_export",
@@ -166,8 +172,8 @@
     {
       "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md",
       "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "134d493c2217220f8490b31ad74bf3530a7f97b250b26f9904137d2194bdc3a9"
+      "snapshot": "revised_real_h",
+      "sha256": "e358629c1e39e4c94a8cc63ac2b8b08188fe20520ad30cd8820c0d9e4251c24e"
     },
     {
       "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/proof.md",
@@ -208,7 +214,7 @@
     {
       "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/raw_weighted_cutoff125.md",
       "source_path": "background/nodes/rate_half_mca_cancelled_low_core_relation_payment/raw_weighted_cutoff125.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "850dc191ef0bc06c87ac498a417a8e9c9fa60d026ba17da91778e25b454b09df"
     },
     {
@@ -412,13 +418,13 @@
     {
       "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md",
       "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "ef3941e8c2c9f7898d7ab0fcc5f4ba079e75e529495cd68790c9e3f78738a9d1"
     },
     {
       "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md",
       "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "81331f5af53fb5092c8ebe49162f0fb352b6fa0867bda5650f58f8b218d4bd3a"
     },
     {
@@ -514,13 +520,13 @@
     {
       "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip.py",
       "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip.py",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "9090be859080be08838f209990f61ab072ce12b001ffbcf0a81c62de65b330e5"
     },
     {
       "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip_audit.py",
       "source_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/verify_raw_weighted_strip_audit.py",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "20e6d333c95bc03201b8843731cf55b32fa369480463d980ae0750013c4a06f5"
     },
     {
@@ -646,7 +652,7 @@
     {
       "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/cutoff125.md",
       "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/cutoff125.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "ad920f27022f405ddf9f6b16d3b7799c022ab01a1c0591d2b32f7fd5f4559660"
     },
     {
@@ -922,7 +928,7 @@
     {
       "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md",
       "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "a53a58569b3886d04e91d87146cdc26c487f4034a78252c56d5f6f72eb962bbc"
     },
     {
@@ -970,7 +976,7 @@
     {
       "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_cubic_recipe_boundary.py",
       "source_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_cubic_recipe_boundary.py",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "3fe8c142c68b06c38878f7c4ac266e5562addf61e62341953591bec359f159b8"
     },
     {
@@ -1100,58 +1106,112 @@
       "sha256": "cb9ad4d4505adccafda2b514153ac7c474a678942b35be208db8c91800279fbd"
     },
     {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/audit.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/audit.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "c65626abb9e3986b25bb1736ba35067e07bd552ca976256178f326fa5f3c4e30"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/claim_contract.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/claim_contract.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "29ff787317fdea267deb292273678518de6da72f8a13830213745f95cb21cde4"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/controls.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/controls.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "ac2e13e238dfd76cf52b6b169ee78f97b121e05ac255367e87dc6577a4af8d76"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/dependency_subdag.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "9c953a184b82b64f3d40a497188d038278bda112dc843acc10c9e6a0a11fb4f8"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/proof.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/proof.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "8a9f44143cd271a205e6c4f6869ad83aafe0bede5d721c834d295fb36ab683df"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/result.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/result.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "3f33f6056fd374c5ee3b76dc89a006398d350f8fc27c23e8f4b48c60b592760f"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/statement.md",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/statement.md",
+      "snapshot": "new_large_fiber",
+      "sha256": "8cb7764d268cb89a6c418223769369a621ab9e0bb8fd9eedec6157aca3f5e642"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify.py",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/verify.py",
+      "snapshot": "new_large_fiber",
+      "sha256": "bb970a4f082e6653605a1d2cf5511dff8c4dd1e8b3a1b9251f0ad7dec304f9d2"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify_audit.py",
+      "source_path": "critical/nodes/mca_projective_fiber_core_basis_resource/verify_audit.py",
+      "snapshot": "new_large_fiber",
+      "sha256": "082d19330863055cd5aa4102b8856c0b20149d85d66ebc26b38f7ceb9fb6c359"
+    },
+    {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "bebf36288b00c8d82aa2cadd080a42770c8ca0dc4690a66a3ebd82976c946b7d"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/claim_contract.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/claim_contract.md",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "7067f555abb63021e6e22f11d0766fc52f96a984c8eba9b91e320e10535b8de2"
+      "snapshot": "revised_real_h",
+      "sha256": "6a01d0abedee6841caa1d52df73e9b1acbb673fe87406f7f16b8e14a90f08281"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/controls.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/controls.md",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "2a93680b9ad42d201bc89a98fd6fc3637b2929682b9b817b87f0fb4a81aa7eac"
+      "snapshot": "revised_real_h",
+      "sha256": "1270f2fa42399b833e471f0418240e4a5164bda313b2caeb46c35548cfda988f"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/dependency_subdag.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/dependency_subdag.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "e2a619419d0d33451aa2050f638565d1f1c4fc9ff55e36d0605c32c55142944f"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/proof.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/proof.md",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "e89c555e9896c0b72a796a77f56be16e3687284c391ffecbc2c23bb53d472e01"
+      "snapshot": "revised_real_h",
+      "sha256": "93232a9efd457b441b485b802e207c3c3613fca0ddac2486620464e070e1a2fa"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/result.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/result.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "27a3daf20907c62bec46809d729adf46cd8efc0832735ad726fefc45913180e7"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/statement.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/statement.md",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "5bc668746b7a5c446e42d44570b85dc67ea52eec1742eb6c1c5fbea2ec4fcfe9"
+      "snapshot": "revised_real_h",
+      "sha256": "6547d130b435f29007cd62ca11b53c1959b64ea501f6dae5d085874474c0ec4e"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/verify.py",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/verify.py",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "ab3ffe6a8010876ff6b12db47252f31eff8847fe651a1bba9c3740ae6125c3d6"
+      "snapshot": "revised_real_h",
+      "sha256": "0bfed30d9c760fc22c0d8c65099e8fcce8c7a1a1e8f88ee7f0814ce67c7fe7b0"
     },
     {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
-      "snapshot": "origin_dirty_snapshot",
-      "sha256": "ba7c90e992ef046b5fca180f1fc7b6340cccd279f4935b80ec559bd8c95387a5"
+      "snapshot": "revised_real_h",
+      "sha256": "102be6e9f4f6586b3a07226ca8f8add048e9d5b0fe78e598aef985bfb8828dc3"
     },
     {
       "path": "source/critical/nodes/mca_projective_split_product_list_payment/audit.md",
@@ -1258,7 +1318,7 @@
     {
       "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/cutoff125.md",
       "source_path": "critical/nodes/mca_singular_cubic_component_list_payment/cutoff125.md",
-      "snapshot": "origin_dirty_snapshot",
+      "snapshot": "previous_export",
       "sha256": "1733cee3648059fc42d38ecb23e772b719a2e8e4fe7291ab49a0fa8cb5a28460"
     },
     {

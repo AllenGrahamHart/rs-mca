@@ -8,10 +8,12 @@ h_*+V, size-m full-code-bad supports with m=K+d, and distinct finite
 labels Gamma. The chosen supports need NOT maximize raw margins.
 Let r_gamma>=1 be the minimum mismatch to b in V on the chosen support.
 
-For a fixed basis of V let ell_x be evaluation at x. Fix an integer h>=1.
+For a fixed basis of V let ell_x be evaluation at x. Fix a real h>=1.
 Assume every j-dimensional linear subspace of V* contains the nonzero
 evaluation vectors of at most j*h ORIGINAL coordinates, for 1<=j<s.
 This is a bound on all low-dimensional subspaces, not merely on fibers.
+The proof only multiplies positive lower bounds on integer choice counts;
+integrality of h is unnecessary. This weakens the earlier integer-h scope.
 
 A sufficient special case is a projective arc: every at most s distinct
 projective evaluation classes are independent and each class has at most

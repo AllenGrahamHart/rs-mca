@@ -19,6 +19,9 @@ Thus the number of ORDERED evaluation bases from H is at least
 
 whenever the last factor is positive. Repeated points in one projective
 fiber are not independent choices. No coordinate is removed from S.
+The lower bounds may be real: integer choice counts bounded below by
+positive real numbers still have product at least their product. Nothing
+in this argument requires h to be integral.
 
 To check the sufficient arc condition, a j-dimensional subspace can meet
 at most j projective classes: j+1 classes there would be dependent, and

@@ -27,6 +27,7 @@ def count(core, defect, exponents):
 
 
 def main():
+    require(4 * 7 * 11 * 4 == 2 * 616 and 616 <= 792, "fractional occupancy lower count")
     cases = [
         ((0, 1, 2, 3), 4, (0, 1, 2), 4, 96),
         ((0, 1, 2, 6), 3, (0, 1, 3), 4, 72),

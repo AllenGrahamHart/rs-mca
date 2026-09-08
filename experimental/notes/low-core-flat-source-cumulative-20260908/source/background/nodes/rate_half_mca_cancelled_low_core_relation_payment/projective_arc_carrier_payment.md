@@ -14,7 +14,7 @@ Every source of this consumer satisfying either condition below pays:
 
 2. On 23000<=J<=169999, every j-dimensional subspace of the carrier
    dual contains nonzero evaluations from at most j*h original coordinates,
-   for 1<=j<=10 and some integer h<=floor((J-1)/10):
+   for 1<=j<=10 and some real 1<=h<=(J-1)/10:
 
        N<=268724670028139326,
        reserve>=6256058083255761.                    (ARC-H)
@@ -135,13 +135,18 @@ not merely those on an affine-singular cubic.
 ## 5. Two universal restrictions on unpaid high-J carriers
 
 For ANY unpaid source on 23000..169999, some j-dimensional subspace
-of V*, 1<=j<=10, contains nonzero evaluations at at least
+of V*, 1<=j<=9, contains nonzero evaluations at at least
 
-    j*floor((J-1)/10)+1 original coordinates.          (HEAVY)
+    floor(j*(J-1)/10)+1 original coordinates.          (HEAVY)
 
-Otherwise condition 2 would pay it. This is an actual concentration of
+Indeed the proof allows real h, so use h=(J-1)/10. The dimension-ten
+condition is automatic: a nonzero degree-<J polynomial annihilating
+such a flat has at most J-1 distinct roots. If the first nine ranks also
+satisfied their j*h bounds, condition 2 would pay the source. The earlier
+integer-h formulation remains true but had an unnecessary rounding loss.
+This is an actual concentration of
 carrier evaluations, not an assumed flat cover. Controlling fibers alone
-(j=1) would not suffice: all higher ranks up to ten matter. The tiny
+(j=1) would not suffice: higher ranks up to nine remain. The tiny
 control already shows failure at j=2 with no repeated projective fibers.
 
 For 23000<=J<=169999, an unpaid source cannot admit ANY constant

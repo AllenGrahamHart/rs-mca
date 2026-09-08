@@ -62,6 +62,8 @@ CHECKS = (
     "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/verify_cubic_recipe_boundary.py",
     "source/critical/nodes/mca_projective_flat_core_basis_resource/verify.py",
     "source/critical/nodes/mca_projective_flat_core_basis_resource/verify_audit.py",
+    "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify.py",
+    "source/critical/nodes/mca_projective_fiber_core_basis_resource/verify_audit.py",
 )
 
 
