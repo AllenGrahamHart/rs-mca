@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Complete-core costs remove 13000 original rank-twelve degrees
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Projected receiver-pair separation, complete-core
+  tuple costs without witness reselection, a rank-five supplement and
+  calibrated signed rank-six counts. Two exhaustive interval theorems pay
+  every carrier on 45000..52999 and 40000..44999, with no new carrier premise.
+- **How it is useful:** K3 / DIRECT, extending the existing #1175 companion.
+  Original rank-twelve residual becomes J=9941..39999 (30059 degrees);
+  the union 40000..169999 retains total 274929007493481160. The source
+  bridge and one near allowance are unchanged. All 92 serial checks pass;
+  eight extension children also pass under -O, with peak RSS below 28 MiB.
+- **What to do next:** Independently review the complete-core insertion,
+  coefficient signs, child badness/empty core and uniform box coverage.
+  The lower residual, original ranks >=13, unrestricted row and both
+  prizes remain open. No v4 atom, exploratory script or compute request.
+
 ### 2026-09-08 - Receiver-fiber classes inside the original rank-twelve residual
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

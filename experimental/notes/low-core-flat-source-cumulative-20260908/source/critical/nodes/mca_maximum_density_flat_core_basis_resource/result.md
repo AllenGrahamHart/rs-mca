@@ -14,3 +14,9 @@ basis counts and convexity are not claimed as new general methods.
 Antecedents are Hughes's margin resource and the local completed-basis,
 bounded-flat and projective-fiber arguments. No external extremal theorem
 or conjectural flat classification is imported. External review remains due.
+
+The rank-five supplement extends the same coupled formula when a<=c and
+c>=100, including restricted inside occupancies. Two negative coefficients
+are absorbed by actual tuple-extension bounds, not discarded. It feeds the
+receiver-flat interval consumer without a new requirement or speculative
+rank classification. The old j<=4 theorem is unchanged.

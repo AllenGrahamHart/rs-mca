@@ -9,15 +9,15 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `47d527e5f0ffce97bec470d36e5aabffea0558d7`.
+- Previous companion: `4d665ca98510bfe8c8021e24721ec86176f0a3a0`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
   Read-only; no audit or alteration of its entire uncommitted tree.
 
-Main and #1175 were checked live and remain unchanged. The five most recently
-updated open PRs and the latest #1175 discussion were checked for coordination;
-this is not a fresh mathematical audit of the entire queue. The current
+Main and #1175 were checked live and remain unchanged. The latest #1175
+discussion was checked for coordination; this is not a fresh mathematical
+audit of the entire queue. The current
 workboard permits direct original-numerator theorems outside the v4 ledger.
 
 Hughes's nonuniform margin resource, support-wise near correction, error-rank
@@ -29,6 +29,24 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. Projected receiver-pair separation and an empty-core child at actual
+   agreement m-t, with explicit exceptional labels and shared tuple cost.
+2. A proved rank-five signed-count supplement and an every-carrier
+   interval 45000..52999 with total 272429083415036159.
+3. Complete-core occupancy without witness reselection; calibrated inside
+   counts keep negative coefficients instead of discarding them.
+4. Exact heavy/light costs and an exhaustive rank-1..6 parameter cover pay
+   40000..44999 by 264060029243645954. Together the new intervals remove
+   13000 degrees from the parent's original rank-twelve residual.
+
+All four new nodes have their hypotheses discharged in the finite assembly;
+none is a conjectural replacement leaf. The earlier original source bridge,
+near correction, child caps and completed-basis arguments are prerequisites,
+not new discoveries. The calibrated rank-six count bypasses only a failed
+sign-discarding step, not a proved counterexample to the MCA bound.
+
+## Receiver-Fiber Parent Retained
 
 1. Actual normalized receiver-pair classes on a complete evaluation
    fiber, strict heavy-class counting and same-field child transport
@@ -44,7 +62,7 @@ The generic receiver result has a quantified full child cap as a
 composition input. The finite theorem discharges it with proved suppliers;
 it is not a new conjectural leaf. Earlier padded-Johnson, scalar-descent,
 fiber-basis and source-transport results are credited prerequisites, not
-new claims. No high-dimensional projected-flat extension is exported.
+new claims. The projected-flat continuation is the new extension above.
 
 ## Parent Contribution Retained
 
@@ -87,16 +105,26 @@ near correction + scalar descent + padded Johnson + prior completed bases
 common-core saturated-support transport
     + common-core extremes + high interval + lower strip
     -> original rank-twelve paid-interval assembly
-    -> restriction J=9941..52999 or original rank >=13
+    -> restriction J=9941..39999 or original rank >=13
 
 fiber-basis resource + saturated-support transport
     -> receiver-fiber peeling
     + padded Johnson + full scalar-descent caps
     -> two finite receiver-fiber source classes
     -> original assembly: additional carrier restrictions in same J gap
+
+maximum-density basis resource + full child transport/caps
+    -> projected receiver-flat shared resource
+    + rank-five supplement + quadratic half-credit
+    -> every-carrier interval / union 45000..169999
+
+maximum-density basis resource -> calibrated signed inside counts
+    + complete-core occupancy + projected-pair costs + full child caps
+    -> every-carrier interval / union 40000..169999
+    -> original-source assembly, with unchanged bridge and near add-back
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 40-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 44-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
@@ -106,8 +134,8 @@ it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent 47d527e5, 417 source files remain byte-for-byte unchanged.
-Fifteen sources are added and seven assembly sources are revised, for 439
+Relative to parent 4d665ca9, 428 source files remain byte-for-byte unchanged.
+Thirty-two sources are added and eleven sources are revised, for 471
 sources. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
 exploratory receiver-flat script, package environment or Modal job is included.
@@ -128,19 +156,21 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`receiver_fiber_extension` records the immediate parent, its manifest
+`complete_core_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 40-node graph; the older parent metadata remains
+is updated to the current 44-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
-The current snapshot deliberately retains the old maximum-density and
-contraction proof bytes, excluding local unfinished rank-five/receiver-flat
-changes. The frozen assembly's prepublication custody sentences saying
-the receiver continuation is local are historical; this packet exports it
-for review without asserting independent acceptance.
+The original maximum-density proof and contraction proof bytes remain
+unchanged. The rank-five supplement is added with four revised supplier
+descriptions; seven original-source assembly files update the paid range.
+The two interval theorems and two generic suppliers contribute thirty new
+proof/control files. Exploratory scripts are excluded. Frozen source-local
+sentences saying a continuation is local describe prepublication custody,
+not a conditional proof status or independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The new receiver-fiber and revised assembly links in README are the current
+The new complete-core and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.

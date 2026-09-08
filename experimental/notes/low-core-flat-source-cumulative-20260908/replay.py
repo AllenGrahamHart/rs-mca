@@ -16,6 +16,16 @@ GRAPH = "source/critical/nodes/mca_low_core_quadratic_graph_payment/"
 STRIP = "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/"
 JET = "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/"
 SMOOTH = "source/critical/nodes/mca_low_core_smooth_cubic_payment/"
+FLAT_CHECKS = (
+    "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/verify_rank_five.py",
+    "source/critical/nodes/mca_receiver_flat_refunded_resource/verify.py",
+    "source/critical/nodes/rate_half_mca_receiver_flat_interval/verify.py",
+    "source/critical/nodes/rate_half_mca_receiver_flat_interval/verify_audit.py",
+    "source/critical/nodes/mca_flat_inside_tangent_basis_resource/verify.py",
+    "source/critical/nodes/rate_half_mca_complete_core_refund_interval/verify.py",
+    "source/critical/nodes/rate_half_mca_complete_core_refund_interval/verify_audit.py",
+    "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+)
 RECEIVER_CHECKS = (
     "source/critical/nodes/mca_receiver_fiber_peeling/verify.py",
     "source/critical/nodes/rate_half_mca_receiver_fiber_payment/verify.py",
@@ -94,7 +104,7 @@ CHECKS = (
     "source/background/nodes/mca_scalar_agreement_dimension_descent/verify_two_anchor.py",
     "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/verify_caps.py",
     "source/critical/nodes/bchks_affine_witness_collinearity_mca/verify_exact_gate.py",
-) + CONTRACTION_CHECKS[:-1] + RECEIVER_CHECKS[:-1]
+) + CONTRACTION_CHECKS[:-1] + RECEIVER_CHECKS[:-1] + FLAT_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -106,7 +116,7 @@ def verify_dependency_inventory(manifest, sources):
     graph = manifest["interval_extension_requirements"]
     root = manifest["interval_extension_root"]
     require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 40, "changed proof inventory")
+    require(len(graph) == 44, "changed proof inventory")
     active, seen = set(), set()
 
     def visit(node):
@@ -192,6 +202,8 @@ def main():
                        help="run the five contraction checks; propagate -O")
     group.add_argument("--receiver-only", action="store_true",
                        help="run the four receiver-fiber checks; propagate -O")
+    group.add_argument("--flat-only", action="store_true",
+                       help="run the eight receiver-flat/complete-core checks; propagate -O")
     args = parser.parse_args()
     started = time.monotonic()
     count = verify_sources()
@@ -199,9 +211,10 @@ def main():
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (RECEIVER_CHECKS if args.receiver_only else
+    selected = (FLAT_CHECKS if args.flat_only else
+                RECEIVER_CHECKS if args.receiver_only else
                 CONTRACTION_CHECKS if args.contraction_only else CHECKS)
-    focused = args.contraction_only or args.receiver_only
+    focused = args.contraction_only or args.receiver_only or args.flat_only
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         result = subprocess.run([sys.executable, "-B", *optimization, str(ROOT / check)],
@@ -215,8 +228,8 @@ def main():
     print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
-    print("CHECKS PASS; 40-node proof inventory; original rank-twelve residual J=9941..52999")
-    print("Additional receiver-fiber classes paid; no new whole-J interval claimed")
+    print("CHECKS PASS; 44-node proof inventory; original rank-twelve residual J=9941..39999")
+    print("Every carrier on J=40000..52999 additionally paid; 13000 integer degrees removed")
     print("Hand proofs are not certified by replay; higher ranks, unrestricted row and both prizes OPEN")
 
 

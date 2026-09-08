@@ -81,7 +81,7 @@ coordinate rescaling are injective on their affine-difference span.
 
 ## 4. Canonical Reselection Does Not Reopen Transport
 
-The contraction/high-interval theorem requires no maximal-raw selector. For the
+The complete-core/high-interval theorem requires no maximal-raw selector. For the
 lower-strip theorem, maximize the raw mismatch for each label over all
 size-m' full-bad supports and explanations in the SAME fixed V'. This
 maximum exists over the finite field and finite domain; the family is
@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..995576           53000..169999         274929007493481160
+    878577..1008576          40000..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 995577..1038635, equivalent
-to J=9941..52999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly 1008577..1038635, equivalent
+to J=9941..39999. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -130,18 +130,19 @@ In the remaining interval, sections 1--3 already give a fixed actual
 dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
-common-core cancellation. It pays a fiber of size >=J-2000 on
-14000..52999 by 248408859318207582, or a fiber of size >=ceil(J/2)
-on 45000..52999 by 272112051300507362. Both totals include the one
-original near allowance and are below (ORIGINAL).
+common-core cancellation. In the remaining range it pays a fiber of size
+>=J-2000 on 14000..39999 by 248408859318207582, including the one
+original near allowance and below (ORIGINAL). Its earlier half-size
+fiber payment on 45000..52999 is now subsumed by section 5's unconditional
+every-carrier interval. That older supplier remains valid at its full scope.
 
 Use one such fiber if it exists. This bounds the entire original family,
 not only the labels agreeing on that fiber: the receiver-class theorem
 separately pays the remaining labels on the original incidence resource.
 Do not sum these whole-source bounds over multiple fibers. Taking the
 contrapositive for every complete original selection proves the additional
-carrier restrictions in the statement. No new degree interval or original
-error-rank bound has been proved.
+carrier restriction in the statement. This additional fiber branch does
+not enlarge section 5's degree interval or prove an original error-rank bound.
 
 ## Scope And Provenance
 
@@ -151,10 +152,13 @@ its separate supplier. This node makes their complete source interface
 explicit and composes it with the new normalized bounds. The transport
 mechanism is not claimed as a new independent discovery.
 
-The newer required contraction interval extends the previous high-interval
-supplier from 65000 down to 53000 with no new source hypothesis. It
-already requires the old maximum-density interval. Thus this extension
-changes only the paid range in section 5, not the source bridge or add-back.
+The required complete-core interval extends the previous receiver-flat
+supplier from 45000 down to 40000 with no new source hypothesis. It
+already requires that older interval, the projected-pair/shared resource
+theorem, full child caps and calibrated inside counts. Complete-core
+packing changes counted tuples, not the original witness or minimizing
+pair. This changes the paid range in section 5, not the source bridge
+or original near add-back.
 
 This is a DIRECT original-source theorem, not a claimed active-v4 atom.
 An owner ledger is unnecessary for its direct conclusion; bankability

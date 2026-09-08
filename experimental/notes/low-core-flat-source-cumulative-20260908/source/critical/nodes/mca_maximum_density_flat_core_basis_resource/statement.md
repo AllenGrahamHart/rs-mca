@@ -29,8 +29,9 @@ independent ordered evaluation bases. If 1<=j<=4 they also have at least
     g_j(t)=prod_(i=0)^(j-1)(c+i-t) +11*A_(j-1)*t,   0<=t<=c,
     g_j(t)=11*A_(j-1)*t,                            t>=c.
 
-The product term is zero at c, so the two definitions agree. Set B=B0
-for j>=5, and B=max(B0,B_F) for j<=4. Every selected raw<=T record
+The product term is zero at c, so the two definitions agree. Set
+B=max(B0,B_F) wherever (FLAT) applies, including the scoped rank-five
+supplement below, and B=B0 otherwise. Every selected raw<=T record
 has at least 12*B independent ordered incidence tuples. If a proved
 completed weight floor L>0 holds for every raw>T, then
 
@@ -44,3 +45,8 @@ The maximum-density flat is chosen from the actual original evaluation
 configuration, not conjectured to exist in a prescribed low dimension.
 The finite consumer proves its exhaustive numerical case split. It also
 owns original near and original-row/owner transport obligations.
+
+The [rank-five supplement](rank_five_extension.md) extends (FLAT) to j=5
+when a<=c and c>=100. Two negative coefficients are absorbed using the
+actual inequalities E_3<=t*E_2 and E_4<=t^2*E_2, not discarded.
+The same endpoint bound holds on every restricted interval [0,b], b<=a.

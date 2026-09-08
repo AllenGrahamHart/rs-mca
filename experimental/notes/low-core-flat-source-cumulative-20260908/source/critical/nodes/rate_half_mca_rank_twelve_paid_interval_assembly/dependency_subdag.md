@@ -2,14 +2,15 @@
 
     rank-twelve common-core forcing [PROVED] ----+
     common-core low-margin transport [PROVED] --+
-    contraction + high interval [PROVED] -------+--> original interval assembly [PROVED]
+    complete-core + high interval [PROVED] -----+--> original interval assembly [PROVED]
     full-kernel lower strip [PROVED] -----------+        |
     receiver-fiber class payment [PROVED] ------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
-The contraction interval requires the older maximum-density interval and
-the new generic contraction supplier. Exact IDs are in node.json.
+The complete-core interval requires the older receiver-flat/high interval,
+the projected-pair shared resource, full padded scalar-descent caps and
+calibrated signed inside counts. Exact IDs are in node.json.
 The lower strip already requires
 the finite relation consumer, which requires the high-interval supplier;
 the assembly is downstream of these suppliers. The receiver-fiber theorem

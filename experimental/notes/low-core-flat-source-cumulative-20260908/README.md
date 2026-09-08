@@ -1,4 +1,4 @@
-# KoalaBear MCA: receiver-fiber classes and original rank-twelve bounds
+# KoalaBear MCA: complete-core costs extend original coverage to J=40000
 
 ~~~yaml
 workboard_item: K3
@@ -39,27 +39,76 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`995577..1038635`. Here the core is the intersection of COMPLETE scalar
+`1008577..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..52999**.
+- error affine rank twelve and `J=1048576-g` in **9941..39999**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
-size at most `J-2001` when `J>=14000`, and at most `ceil(J/2)-1` when
-`J>=45000`. These are necessary restrictions on an over-budget line,
-not automatic facts about every carrier. The numerical J interval stays
-unchanged: no new whole interval or rank closure is claimed.
+size at most `J-2001` when `J>=14000`. This is a necessary restriction
+on an over-budget line, not an automatic fact about every carrier. The
+previous half-size gate on 45000..52999 is subsumed by the new interval.
 
 The existing all-rank restriction `g<=1043775` also remains. This is a
 necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
 ## What Is New In This Extension
+
+Two successive, fully discharged interval theorems pay EVERY normalized
+dimension-eleven carrier, without an additional structural premise:
+
+| New J interval | Original slopes, including ONE near allowance |
+| --- | ---: |
+| [45000..52999](source/critical/nodes/rate_half_mca_receiver_flat_interval/statement.md) | 272429083415036159 |
+| [40000..44999](source/critical/nodes/rate_half_mca_complete_core_refund_interval/statement.md) | 264060029243645954 |
+
+With the earlier high interval the union is **40000..169999**, at the
+unchanged bound **274929007493481160**. Relative to parent `4d665ca9`,
+this removes **13000 integer degrees** from the original rank-twelve
+residual, leaving **30059**. The whole-line bound above is unchanged.
+
+The [projected receiver-pair proof](source/critical/nodes/mca_receiver_flat_refunded_resource/proof.md)
+uses maximum flat density to separate pair restrictions. There is at most
+one heavy projected pair. Its child retains actual agreement m-t and
+empty universal core; at most a-t exceptional ORIGINAL labels are charged.
+The heavy group itself consumes the original tuple resource. Accounting
+for that cost reduces the amount of its child bound that must be added.
+
+The [complete-core counting proof](source/critical/nodes/mca_flat_inside_tangent_basis_resource/proof.md)
+then uses the FULL pair-core occupancy even when the selected witness
+omits some flat points. It changes counted tuples, not the original
+witness, raw margin, minimizing pair or slope. The two-cost bound is
+
+~~~text
+N <= T_up/beta_L + max(0,1-beta_H/beta_L)*Q_H.
+~~~
+
+Rank five has a [signed-coefficient supplement](source/critical/nodes/mca_maximum_density_flat_core_basis_resource/rank_five_extension.md).
+Rank six instead uses calibrated convex tangents: couple actual inside
+extension counts FIRST, then use upper counts for negative coefficients
+and lower counts for positive ones. Positivity is checked before a
+lower product bound is multiplied in. The failed rank-six sign-discarding
+shortcut is not reused or assumed true.
+
+The [finite complete-core proof](source/critical/nodes/rate_half_mca_complete_core_refund_interval/proof.md)
+covers 6400 source-parameter boxes and 2560 rank-six record-occupancy
+boxes analytically. Exact rational and independent integer-scaled
+certificates check every box. Rank-six occupancies vary per record:
+take one uniform minimum charge on ONE resource, never sum box budgets.
+The earlier 45000 interval uses 80 exact analytic profiles. These are
+universal bounds plus exact certificates, not extrapolation from samples.
+
+The existing original-source bridge transports both results with the same
+field, full-code badness and one near add-back. This pays whole source
+classes, not active-v4 owners. Independent mathematical review is requested.
+
+## Earlier Receiver-Fiber Classes Retained
 
 The [receiver-fiber theorem](source/critical/nodes/mca_receiver_fiber_peeling/statement.md)
 and [finite payment](source/critical/nodes/rate_half_mca_receiver_fiber_payment/statement.md)
@@ -91,8 +140,8 @@ heavy classes can be added. The original near allowance occurs once.
 This pays the earlier isolated-core method-boundary carrier at J=25000
 for every allowed receiver, but not at J=10000. It does not refute that
 boundary: the new proof uses collective receiver information absent from
-uniform isolated-core pricing. The unfinished higher-flat/shared-budget
-extension is deliberately excluded from this snapshot.
+uniform isolated-core pricing. The higher-flat/shared-budget continuation
+is now proved and included above.
 
 ## Earlier Interval Results Retained
 
@@ -113,7 +162,7 @@ to pay EVERY normalized carrier on **53000..65000**:
 |Gamma|+134944 <= 274171207928811099.
 ~~~
 
-Together with the earlier maximum-density theorem, coverage is now
+Together with the earlier maximum-density theorem, this parent stage gave
 **53000..169999**, with unchanged union bound **274929007493481160**.
 This removes 12000 integer J values from the unpaid interval. No carrier
 classification, maximal-raw selection or additional source premise is added.
@@ -175,8 +224,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..995576 | 53000..169999 | 274929007493481160 |
-| **995577..1038635** | **9941..52999** | **OPEN** |
+| 878577..1008576 | 40000..169999 | 274929007493481160 |
+| **1008577..1038635** | **9941..39999** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -186,7 +235,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): the new contraction argument and prior source bridge.
+- [REVIEW.md](REVIEW.md): new projected-pair/complete-core arguments and prior source bridge.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -194,22 +243,22 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `47d527e5`, this extension adds 15 proof/control sources
-and revises seven assembly files; 417 parent sources stay byte-identical.
-There are 439 hashed sources and a 40-node acyclic requirement inventory,
+Relative to parent `4d665ca9`, this extension adds 32 proof/control sources
+and revises eleven sources; 428 parent sources stay byte-identical.
+There are 471 hashed sources and a 44-node acyclic requirement inventory,
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
-linked receiver-fiber and original-source assembly statements are the
+linked complete-core and original-source assembly statements are the
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..52999**, higher original error ranks,
+Still open: rank twelve on **9941..39999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-No new compute request, Modal spending or unfinished receiver-flat
-extension is included. To replay just the four new checks, use
-`python3 -B replay.py --receiver-only` from this packet directory;
-adding `-O` also optimizes those four explicitly guarded children.
-The earlier `--contraction-only` mode remains available.
+No new compute request, Modal spending or exploratory script is included.
+To replay just the eight extension checks, use
+`python3 -B replay.py --flat-only` from this packet directory;
+adding `-O` also optimizes those eight explicitly guarded children.
+The earlier `--receiver-only` and `--contraction-only` modes remain available.

@@ -23,6 +23,14 @@ first l outside positions. Different b classes are disjoint. The tangent
 bound may be negative on individual choices: sum it FIRST using
 sum y_b=E_(b+1). Only the resulting nonnegative C_(j,b)E_b terms may
 be dropped. This is valid even when the actual inside rank is below j.
+That termwise nonnegativity argument is restricted to j<=4.
+
+The rank-five supplement keeps C_3=-165c-110 and C_4=-165 explicitly.
+Actual E_3<=t*E_2 and E_4<=t^2*E_2 bound their negative contribution;
+for t<=a<=c the remaining E_2 coefficient is positive at c>=100.
+The same logarithmic derivative sign argument works with its separately
+checked seed bound. Five actual inside-rank controls include all deficient
+ranks. No claim is made for j>=6 or j=5,a>c.
 
 The sign proof for log g uses g'>0, g''>=0 and g'''<=0 on [0,c].
 Initial strict log-concavity propagates since

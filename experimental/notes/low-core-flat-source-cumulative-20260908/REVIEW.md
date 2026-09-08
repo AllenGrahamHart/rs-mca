@@ -1,10 +1,49 @@
-# Review: Receiver-Fiber Classes And Original-Source Transport
+# Review: Complete-Core Costs And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## New Extension: Use Actual Receiver Classes
+## New Extension: Projected Pairs And Complete-Core Costs
+
+Read the new [projected-pair proof](source/critical/nodes/mca_receiver_flat_refunded_resource/proof.md),
+[45000 interval](source/critical/nodes/rate_half_mca_receiver_flat_interval/proof.md),
+[calibrated count](source/critical/nodes/mca_flat_inside_tangent_basis_resource/proof.md)
+and [40000 interval](source/critical/nodes/rate_half_mca_complete_core_refund_interval/proof.md).
+
+- Pair restrictions have distance Delta=a/j. Strict heaviness gives at
+  most one heavy pair, but light cores need not be disjoint. The actual
+  light occupancy bound is 2a-Delta-t.
+- Complete-flat locator division preserves empty universal core and
+  actual agreement m-t. Full child caps need no new near removal.
+  The a-t exceptional ORIGINAL labels are explicitly charged.
+- Every heavy record also consumes the original tuple resource. The
+  earlier half-credit is proved by the quadratic certificate; the new
+  two-cost argument keeps the actual heavy cost and the positive part
+  max(0,1-beta_H/beta_L). Upper heavy caps cannot multiply negative terms.
+- Complete-core counting includes ALL t flat points, even if the old
+  selected witness omits them. The inserted defect is from that old
+  witness; raw margin, minimizer and scalar label are unchanged.
+- Rank five absorbs negative coefficients using actual inside counts.
+  Rank six calibrates convex tangents and retains coefficient signs:
+  positive terms use lower counts, negative terms upper counts. Its
+  inner bound must be positive before multiplying lower outside factors.
+- The low-density branch and ranks 1..6 cover EVERY source. Joint
+  log-concavity and fixed density/degree branches justify entire parameter
+  boxes, not just sampled vertices. No-heavy labels use the first heavy
+  occupancy bin, not an incorrectly stronger light cap from a later bin.
+- The 2560 rank-six boxes classify RECORD occupancies, not disjoint
+  sources. Take a uniform minimum tuple charge across those occupancies;
+  only one global resource is available. The other boxes are source-level
+  alternatives. Near-inclusive whole-line caps combine by maximum.
+
+The proofs were reread at these publication scopes; no issue was found.
+Tiny source controls and two exact arithmetic implementations supplement
+the hand proofs. There is no claim of external independent acceptance or
+formal certification. Both new intervals are now included, reducing the
+original rank-twelve residual to J=9941..39999.
+
+## Previous Extension: Use Actual Receiver Classes
 
 Read the [generic proof](source/critical/nodes/mca_receiver_fiber_peeling/proof.md),
 [finite proof](source/critical/nodes/rate_half_mca_receiver_fiber_payment/proof.md)
@@ -37,8 +76,9 @@ becomes good, a nonuniversal carrier zero retained outside the fiber,
 nonconstant evaluation scales, two heavy classes and a strict-threshold
 equality case. They supplement, rather than certify, the universal proof.
 This publication hand review found no issue at the stated scopes.
-The more ambitious receiver-flat continuation has not completed its audit
-and is not included. The original J interval stays 9941..52999.
+At that parent snapshot the receiver-flat continuation was excluded and
+the original J interval stayed 9941..52999. The section above supersedes
+that historical scope description.
 
 ## Previous Extension: Contract The Whole Fiber
 
@@ -130,6 +170,6 @@ does not change those mechanisms. The inherited rounded-Johnson and
 lower-strip suppliers retain their own printed scope and review caveats.
 No exhaustive fresh audit of every historical result is claimed.
 
-Remaining mathematics: rank twelve on J=9941..52999 and higher ranks.
+Remaining mathematics: rank twelve on J=9941..39999 and higher ranks.
 These are outside the submitted paid scope, not silently assumed true.
 Verdict for the scoped publication hand audit: **NO ISSUE**.

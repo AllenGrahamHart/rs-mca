@@ -7,8 +7,11 @@
 - Maximum density counts nonzero ORIGINAL evaluation coordinates, not
   projective classes. The maximum is over proper subspaces of V*, and
   the chosen flat includes all its nonzero original evaluations.
-- Only ranks j<=4 use the inside-extension coefficient positivity and
-  three-point minimum. Larger j retain the hybrid bound only.
+- Only ranks j<=4 use termwise inside-extension coefficient positivity
+  and the three-point minimum. The rank-five supplement permits j=5
+  when a<=c and c>=100: negative coefficients are absorbed using actual
+  tuple-extension bounds, and a restricted interval [0,b] needs 0,b only.
+  Larger ranks and j=5,a>c retain the hybrid bound only.
 - The locator quotient inherits both its actual remaining degree and
   the density cap from preimages containing the complete flat.
 - Counts with different numbers of inside coordinates are disjoint.

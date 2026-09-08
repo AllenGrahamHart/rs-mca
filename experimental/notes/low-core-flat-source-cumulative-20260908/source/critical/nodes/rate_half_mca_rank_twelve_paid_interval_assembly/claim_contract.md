@@ -19,9 +19,13 @@
 - Each branch bounds the whole family. Take the maximum, add the original
   near allowance once, and do not sum different possible core sizes.
 - Inside the remaining J interval, one complete normalized evaluation
-  fiber meeting either receiver-class gate also pays the whole original
+  fiber meeting the remaining near-full receiver gate also pays the whole original
   family. The lower-rank child exceptions are charged inside that supplier;
   no original label is lost from the assembly. Do not add fiber payments.
+- The every-carrier complete-core theorem now pays all 40000..44999,
+  in addition to the preceding receiver-flat interval. The former
+  half-size fiber gate remains subsumed. The remaining numerical
+  interval is 9941..39999, with no new source hypothesis.
 - This direct source-class theorem does not supply an all-source rank
   upper bound, the remaining rank-twelve interval, an active-v4 atom,
   ordinary LIST or an unrestricted prize endpoint.
