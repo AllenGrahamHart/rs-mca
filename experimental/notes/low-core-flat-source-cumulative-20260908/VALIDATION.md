@@ -3,7 +3,63 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Arbitrary-Flat And Stronger-Density Extension
+## Current Whole-Degree And Quantitative-Density Extension
+
+Publication checks on the frozen exported sources, serial under RAMguard
+tiny (256 MiB RAM,64 MiB swap,60-second process-tree limit):
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --interval-only` | 9/9 PASS | 21.25 seconds | 21936 KiB |
+| `python3 -B -O replay.py --interval-only` | 9/9 PASS | 17.91 seconds | 24812 KiB |
+| `python3 -B replay.py --inherited-only` | 92/92 PASS | 9.23 seconds | 25060 KiB |
+| `python3 -B replay.py --density-only` | 7/7 PASS | 2.04 seconds | 21688 KiB |
+| `python3 -B replay.py --rank-eight-only` | 4/4 PASS | 3.10 seconds | 21928 KiB |
+
+The four normal modes cover109 distinct checks; the assembly repeats.
+The six unchanged older quotient/refined/scalar checkers retain their
+successful parent replays and byte identity, not a fresh execution here.
+The complete available suite has115 distinct checks across six modes.
+No fresh full-suite or optimized older-assertion-suite pass is claimed.
+
+The first-excess engines agree on63 degree blocks and63312 parameter
+boxes; both reject126624 adjacent wrong floors. Digest:
+`a34884087a5dd4e1ddfabb9413b89f4bfa4fc02dd6dc7389ed8e5bea6c5f3dc9`.
+The quantitative engines agree on47 blocks and18189 boxes; both
+reject36378 adjacent wrong floors. Digest:
+`42390ea68dfb9360ab741636c071e3a88523c371bf013fc0857016faa8d1eab0`.
+Each primary rejects five broken degree covers. The independent quantitative
+engine uses integer-scaled unrolled products and both J corners, without
+importing the primary or Fraction; the inherited independent inside engine
+reconstructs every full tangent coefficient vector.
+
+Actual-polynomial controls for the quantitative theorem include5798 capped
+moment partitions, five F17/F23 spaces and840 complete descendants, with
+three sources outside the prior exact-density gate. These controls do not
+replace the universal hand proof. Full-fiber receiver and original-source
+transport remain subject to their separate hand audits.
+
+Each invocation hashes all584 sources and checks the58-node acyclic
+assembly plus separate9-node scalar inventory. Twenty-four malformed
+manifests fail, including deletion of new theorem requirements and omission
+of each of the three new direct assembly inputs. Hashes establish custody,
+not mathematical truth.
+
+Manifest SHA256:
+`1c583ca9f13e06bb4f3d18bbd1057cf7a07f7f83b6a5dbcf15242050b9897370`.
+The exporter adds38 files, revises7 assembly files and preserves539 parent
+files byte-for-byte. Total frozen source bytes:1654303.
+
+The local quantitative assembly was completed before export: three new
+PROVED nodes and13 edges. Generated manifests and the focused100-node
+threshold closure pass; the260 prior global DAG diagnostics and11 crosswalk
+failures are exactly unchanged. No globally clean-DAG claim is made.
+No Modal task, spending, large source scan or unrestricted endpoint closure.
+Independent external mathematical review remains due.
+
+## Parent 99a30fdc Arbitrary-Flat And Stronger-Density Replay Retained
+
+The following historical measurements apply to that546-source parent.
 
 Publication checks on the exported sources, serial under RAMguard tiny
 (256 MiB RAM, 64 MiB swap, 60-second process-tree limit):

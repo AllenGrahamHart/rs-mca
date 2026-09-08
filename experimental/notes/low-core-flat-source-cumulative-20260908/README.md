@@ -1,4 +1,4 @@
-# KoalaBear MCA: exclude rank-eight and rank-nine maximizing-flat survivors
+# KoalaBear MCA: rank-twelve coverage down to J=26500
 
 ~~~yaml
 workboard_item: K3
@@ -7,7 +7,7 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: the printed original-source gates give |Z_bad|<=274979661975561635; the stronger density gate h<=(J-3)/8 pays J=23000..29999 and forces every maximizing source flat of an over-budget rank-twelve selection to have rank <=7
+direct_statement: original lines admitting a complete post-near selection of error rank <=11, or rank twelve and complete shared core g outside 1022077..1038635, satisfy |Z_bad|<=274979661975561635
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
@@ -16,7 +16,7 @@ claimed_bound: 274979661975561635
 status: PROVED
 impact: LOCAL_ONLY
 falsifier: an original line satisfying a printed source gate but exceeding its bound
-replay: python3 -B replay.py --rank-eight-only; full replay uses the five bounded modes below
+replay: python3 -B replay.py --interval-only; full replay uses the six bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -39,26 +39,80 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`1018577..1038635`. Here the core is the intersection of COMPLETE scalar
+`1022077..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..29999**.
+- error affine rank twelve and `J=1048576-g` in **9941..26499**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
 size at most `J-2001` when `J>=14000`. This is a necessary restriction
 on an over-budget line, not an automatic fact about every carrier. The
-previous half-size gate on 45000..52999 is subsumed by the new interval.
+previous half-size gate on 45000..52999 is subsumed. On the remaining
+**23000..26499**, the stronger fiber theorem requires every such fiber
+of an over-budget source to have size at most **J-4701**.
 
 The existing all-rank restriction `g<=1043775` also remains. This is a
 necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
-## What Is New In This Extension
+## What Is New: Every-Carrier Coverage Down To J=26500
+
+Relative to public parent `99a30fdc`, five completed proved suppliers
+and the original-source assembly remove **3,500 complete degrees**.
+No new density premise is imposed on the original source.
+
+| New all-carrier J interval | Original slopes, including ONE near allowance | Reserve below B* |
+| --- | ---: | ---: |
+| 28000..29999 | 273019482620216244 | 1961245491178843 |
+| 26500..27999 | 272896493994028693 | 2084234117366394 |
+
+The union **26500..169999** retains **274929007493481160**. The original
+rank-twelve residual is now **9941..26499 (16,559 integers)** rather than
+the public parent's 20,059. The main whole-line maximum is unchanged.
+
+- [First-excess flat](source/critical/nodes/mca_first_excess_core_flat/proof.md):
+  a deficient actual core has a least-rank excess flat, with explicit
+  integer occupancy caps at every smaller rank.
+- [First-excess interval](source/critical/nodes/rate_half_mca_first_excess_core_interval/proof.md):
+  split each LOW core by its own density; first-excess and maximizing-flat
+  counts cover 63 degree blocks and 63,312 parameter boxes.
+- [Quantitative basis product](source/critical/nodes/mca_quantitative_density_basis_product/proof.md):
+  the guarded balanced product extends to a continuous loss factor
+  `1<=lambda<=2`, provided `floor(s*s/4)*h<=lambda*N`.
+  The same factor survives every actual contraction of rank at least
+  three; rank two has a separate seed. Convexity is proved, not fitted.
+- [Stronger source-fiber payment](source/critical/nodes/rate_half_mca_receiver_fiber_degree4700_payment/proof.md):
+  on **23000..52999**, one complete nonzero fiber of size **b>=J-4700**
+  pays the WHOLE source by **246756107210901806** including near.
+  Full Johnson children and explicit receiver exceptions are retained.
+- [Quantitative interval](source/critical/nodes/rate_half_mca_quantitative_density_interval/proof.md):
+  the quantitative product pays the low-density core branch directly.
+  The other branch has maximizing core rank <=6, with proved quotient
+  counts, signed inside counts and the corrected rank-six box corner.
+  Independent exact engines agree on 47 degree blocks and 18,189 boxes.
+
+For rank s>=2, the new product is
+`(D+1)*product_(a=2)^s[D+1+(K-1)*product_(j=a)^(s-1)(1-lambda/j)]`.
+Its complete polynomial, nonzero-evaluation and proper-flat hypotheses
+are in the linked statement. It recovers the earlier product at lambda=1;
+the unguarded balanced product remains false.
+
+[Assembly proof sections 10 and 11](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+retain the SAME original field, finite labels, full-code-bad supports and
+nonuniversal carrier zeros. Near is included once. Alternative whole-source
+bounds combine by MAXIMUM; record cases share ONE tuple resource.
+
+This is direct source-class progress for K3, not a new v4 owner atom,
+an upper census for all surviving labels, or an unrestricted row closure.
+Historical sections below describe their earlier snapshots; the current
+residual and table above supersede their narrower degree coverage.
+
+## Previous Extension: Rank-Eight-Level Density
 
 Relative to public parent `0f2d9e8f`, two proved suppliers strengthen the
 source-density gate throughout **J=23000..29999**:
@@ -103,7 +157,8 @@ pays 23000..24537; the new boxes cover 24538..29999.
 This pays a larger source class, **not a whole degree interval**. The
 original residual is still **J=9941..29999, 20059 integers**. No upper
 census for all remaining dense labels, unrestricted endpoint or Prize
-closure is claimed. The unfinished first-excess interval work is excluded.
+closure was claimed by that parent. Its then-unfinished first-excess work
+is now completed and included in the current extension above.
 
 ## Previous Density And Dense-Core-Mass Extension Retained
 
@@ -442,8 +497,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..1018576 | 30000..169999 | 274929007493481160 |
-| **1018577..1038635** | **9941..29999** | **OPEN** |
+| 878577..1022076 | 26500..169999 | 274929007493481160 |
+| **1022077..1038635** | **9941..26499** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -461,9 +516,9 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `0f2d9e8f`, this extension adds 15 proof/control sources
-and revises seven assembly sources; 524 parent sources stay byte-identical.
-There are 546 hashed sources, a 53-node assembly and a separate nine-node
+Relative to parent `99a30fdc`, this extension adds 38 proof/control sources
+and revises seven assembly sources; 539 parent sources stay byte-identical.
+There are 584 hashed sources, a 58-node assembly and a separate nine-node
 scalar-lemma requirement inventory, both acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
@@ -472,11 +527,11 @@ linked stronger-density, flag-mass, scalar-ledger and original-source assembly s
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..29999**, higher original error ranks,
+Still open: rank twelve on **9941..26499**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these five serial commands cover all 107
+From this packet directory, these six serial commands cover all 115
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -485,11 +540,12 @@ python3 -B replay.py --quotient-only
 python3 -B replay.py --extension-only
 python3 -B replay.py --density-only
 python3 -B replay.py --rank-eight-only
+python3 -B replay.py --interval-only
 ~~~
 
-For just this update, `python3 -B replay.py --rank-eight-only` runs the three
-new checkers and revised assembly in about three seconds. It also supports
-`python3 -B -O replay.py --rank-eight-only`, propagating -O to all four children.
+For just this update, `python3 -B replay.py --interval-only` runs the eight
+new checkers and revised assembly in about 22 seconds. It also supports
+`python3 -B -O replay.py --interval-only`, propagating -O to all nine children.
 The preceding density extension retains
 `python3 -B -O replay.py --density-only`, propagating -O to all seven children.
 The extension mode supports `python3 -B -O replay.py --extension-only`;
@@ -497,8 +553,8 @@ optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects sixteen manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 107-check run may exceed 60 seconds;
+source inventory and rejects 24 manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 115-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

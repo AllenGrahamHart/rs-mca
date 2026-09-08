@@ -19,6 +19,43 @@ SMOOTH = "source/critical/nodes/mca_low_core_smooth_cubic_payment/"
 QUOTIENT = "source/critical/nodes/rate_half_mca_quotient_density_interval/"
 REFINED = "source/critical/nodes/rate_half_mca_quotient_density_refined_interval/"
 SCALAR = "mca_empty_core_full_fiber_scalar_census"
+INTERVAL_REQUIREMENTS = {
+    "mca_first_excess_core_flat": [
+        "mca_balanced_basis_or_dense_core_flag"
+    ],
+    "rate_half_mca_first_excess_core_interval": [
+        "mca_first_excess_core_flat",
+        "mca_arbitrary_core_flat_basis_resource",
+        "rate_half_mca_quotient_density_interval",
+        "rate_half_mca_receiver_fiber_payment",
+        "rate_half_mca_balanced_density_payment",
+        "mca_core_completed_basis_margin_resource",
+        "rate_half_mca_quotient_density_refined_interval"
+    ],
+    "mca_quantitative_density_basis_product": [
+        "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_receiver_fiber_degree4700_payment": [
+        "mca_receiver_fiber_peeling",
+        "mca_padded_johnson_scalar_descent",
+        "rate_half_mca_receiver_fiber_payment"
+    ],
+    "rate_half_mca_quantitative_density_interval": [
+        "mca_quantitative_density_basis_product",
+        "rate_half_mca_receiver_fiber_degree4700_payment",
+        "rate_half_mca_first_excess_core_interval",
+        "mca_arbitrary_core_flat_basis_resource",
+        "rate_half_mca_quotient_density_interval",
+        "rate_half_mca_balanced_density_payment",
+        "mca_core_completed_basis_margin_resource"
+    ]
+}
+INTERVAL_CHECKS = tuple(
+    "source/critical/nodes/" + name + "/" + filename
+    for name in INTERVAL_REQUIREMENTS
+    for filename in (("verify.py", "verify_audit.py")
+                     if name.startswith("rate_half_") else ("verify.py",))
+) + ("source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",)
 RANK_EIGHT_REQUIREMENTS = {
     "mca_arbitrary_core_flat_basis_resource": [
         "mca_density_aware_flat_completion_resource",
@@ -164,6 +201,7 @@ CHECKS += QUOTIENT_CHECKS[:-1]
 CHECKS += EXTENSION_CHECKS[:-1]
 CHECKS += DENSITY_CHECKS[:-1]
 CHECKS += RANK_EIGHT_CHECKS[:-1]
+CHECKS += INTERVAL_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -198,11 +236,17 @@ def verify_dependency_inventory(manifest, sources):
     root = manifest["interval_extension_root"]
     scalar = manifest["scalar_ledger_requirements"]
     require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 53 and len(scalar) == 9, "changed proof inventories")
+    require(len(graph) == 58 and len(scalar) == 9, "changed proof inventories")
     for node, dependencies in DENSITY_REQUIREMENTS.items():
         require(graph.get(node) == dependencies, "changed density/flag dependency: " + node)
     for node, dependencies in RANK_EIGHT_REQUIREMENTS.items():
         require(graph.get(node) == dependencies, "changed arbitrary-flat/density dependency: " + node)
+    for node, dependencies in INTERVAL_REQUIREMENTS.items():
+        require(graph.get(node) == dependencies, "changed whole-interval dependency: " + node)
+    for node in ("rate_half_mca_first_excess_core_interval",
+                 "rate_half_mca_quantitative_density_interval",
+                 "rate_half_mca_receiver_fiber_degree4700_payment"):
+        require(node in graph[root], "missing original-source transport requirement")
     require(manifest["scalar_ledger_root"] == SCALAR, "wrong scalar root")
     require(SCALAR not in graph, "scalar ledger is not an assembly premise")
     verify_graph(graph, root, sources)
@@ -270,9 +314,15 @@ def verify_manifest_mutations():
     changed = copy.deepcopy(baseline)
     changed["scalar_ledger_requirements"]["mca_receiver_fiber_peeling"] = []
     bad.append(changed)
-    for node in (*DENSITY_REQUIREMENTS, *RANK_EIGHT_REQUIREMENTS):
+    for node in (*DENSITY_REQUIREMENTS, *RANK_EIGHT_REQUIREMENTS, *INTERVAL_REQUIREMENTS):
         changed = copy.deepcopy(baseline)
         changed["interval_extension_requirements"][node] = []
+        bad.append(changed)
+    for node in ("rate_half_mca_first_excess_core_interval",
+                 "rate_half_mca_quantitative_density_interval",
+                 "rate_half_mca_receiver_fiber_degree4700_payment"):
+        changed = copy.deepcopy(baseline)
+        changed["interval_extension_requirements"][root].remove(node)
         bad.append(changed)
     for changed in bad:
         try:
@@ -299,6 +349,8 @@ def main():
                        help="run refined interval, scalar ledger and assembly; propagate -O")
     group.add_argument("--density-only", action="store_true",
                        help="run six density/flag checks and assembly; propagate -O")
+    group.add_argument("--interval-only", action="store_true",
+                       help="run eight whole-interval checks and revised assembly; propagate -O")
     group.add_argument("--rank-eight-only", action="store_true",
                        help="run arbitrary-flat, rank-eight-density and assembly checks; propagate -O")
     group.add_argument("--inherited-only", action="store_true",
@@ -317,7 +369,8 @@ def main():
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (RANK_EIGHT_CHECKS if args.rank_eight_only else
+    selected = (INTERVAL_CHECKS if args.interval_only else
+                RANK_EIGHT_CHECKS if args.rank_eight_only else
                 DENSITY_CHECKS if args.density_only else
                 EXTENSION_CHECKS if args.extension_only else
                 QUOTIENT_CHECKS if args.quotient_only else
@@ -327,7 +380,7 @@ def main():
                 CONTRACTION_CHECKS if args.contraction_only else CHECKS)
     focused = (args.contraction_only or args.receiver_only or args.flat_only
                or args.quotient_only or args.extension_only or args.density_only
-               or args.rank_eight_only)
+               or args.rank_eight_only or args.interval_only)
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         extra = (["--start", str(args.start)]
@@ -345,13 +398,14 @@ def main():
     print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
-    print("SELECTED CHECKS PASS; 53-node assembly and separate 9-node scalar inventory")
-    print("Printed theorem: residual J=9941..29999 unchanged since 88f4cf81")
+    print("SELECTED CHECKS PASS; 58-node assembly and separate 9-node scalar inventory")
+    print("Printed theorem: residual J=9941..26499, 16559 integers; 3500 removed since 99a30fdc")
     print("Stronger density payment excludes maximizing source ranks >=8 on J=23000..29999")
-    print("NO exceptional-label upper census, new whole-degree interval or unguarded product")
+    print("Every carrier J=26500..29999 paid; stronger source fiber >=J-4700 pays23000..52999")
+    print("NO exceptional-label upper census or unguarded balanced product")
     print("Scalar ledger gives no additional row payment; its profile needs proved shape inputs")
     if selected is not CHECKS:
-        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density and rank-eight modes")
+        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density, rank-eight and interval modes")
     if args.start is not None:
         print("PARTIAL REPLAY SCOPE: degree block", args.start,
               "only; other blocks require their own successful replay")

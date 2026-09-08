@@ -8,6 +8,9 @@
     bounded-density source payment [PROVED] ---+        |
     actual dense-core flag mass [PROVED] ------+        |
     rank-eight density payment [PROVED] -------+        |
+    first-excess whole interval [PROVED] ------+        |
+    quantitative whole interval [PROVED] ------+        |
+    degree-4700 receiver fiber [PROVED] --------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -40,3 +43,18 @@ The stronger density supplier uses the arbitrary-core-flat counting lemma,
 balanced quotient gates, actual flag geometry and old LOW/HIGH costs.
 It does not require the assembly. All original-slope transport is owned
 here; no numerical upper census or speculative premise becomes an input.
+
+The first-excess interval combines the actual minimal-excess corollary,
+arbitrary-core-flat counting, checked general quotient quadratics,
+receiver-fiber source payment and old raw-margin/defect costs. It also
+requires the refined interval for its larger union. None requires this
+assembly. Section 10 owns the original-source transport and exact gap
+change; the original router still receives evidence only.
+
+Section 11 owns both new original-source transports. The quantitative
+interval requires its hereditary quantitative basis product and existing
+core/quotient counting suppliers. Its dependency on the first-excess
+interval imports the preceding union, not a conjectural lower-degree
+extension. The degree-4700 source-fiber supplier imports a full Johnson
+child cap and old raw-HIGH arithmetic, not the old degree-2000 premise.
+All required nodes are PROVED; neither supplier requires this assembly.

@@ -1,10 +1,45 @@
-# Review: Arbitrary Core Flats, Stronger Density And Original-Source Transport
+# Review: Whole-Degree Extensions And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Arbitrary Flats And Rank-Eight-Level Density
+## Current Extension: Five Completed Suppliers
+
+The five new hand proofs and assembly sections 10 and 11 were reviewed
+at their printed scopes. No issue was found. Important checks:
+
+- First-excess minimality caps EVERY smaller-rank flat of the same core,
+  not just the chosen chain. The chosen flat need not maximize density.
+- The quantitative moment is S2<=(k-1)*max(n/(r-1),A). The same lambda
+  propagates at ranks >=3 because r-1>=2>=lambda. Rank two uses a separate
+  root-capacity seed. All relaxed Jensen arguments are >=1, where the
+  product is proved convex and nondecreasing.
+- Whole-source receiver-fiber exceptions are explicit. The degree-4700
+  Johnson cap is FULL, and the older raw-HIGH bound is imported as arithmetic,
+  not with its older fiber premise. The light quotient's derivative sign
+  is proved on the whole interval.
+- Core density is chosen independently for each LOW record. The low/high
+  density alternatives cover all cores without imposing a source premise.
+  Auxiliary full-locator quotients count polynomial bases, not receivers.
+- Every quantitative lambda guard holds on its entire parameter hull.
+  Omitting an out-of-range product gives zero, never an unsupported count.
+- For the new t=6 case, the completion rank r=5 uses the LOW J corner;
+  ranks r>t use the HIGH corner. The independent engine checks both.
+  Signed negative tails use upper ratios. Every selected tangent is valid;
+  optimality of its calibration is unnecessary.
+- The certificates cover all integer degrees, ranks and sizes. Every
+  label consumes the same global tuple resource. Source alternatives
+  combine by maximum, with the single original near already included.
+- Original transport keeps the actual dimension-eleven carrier, all finite
+  labels, field, full-code badness and nonuniversal zeros. The remaining
+  gap is g=1022077..1038635, exactly J=9941..26499.
+
+This is local review for submission, not external acceptance or formal
+certification. Inherited proofs retain their own audits; no exhaustive
+new hand audit of every predecessor is claimed. Exact replay is separate.
+
+## Previous Extension: Arbitrary Flats And Rank-Eight-Level Density
 
 Read the two new proofs and section nine of the original-source assembly.
 The publication hand audit checked the following scope-sensitive steps:

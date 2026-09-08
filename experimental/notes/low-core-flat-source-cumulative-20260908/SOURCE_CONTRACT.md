@@ -1,5 +1,12 @@
 # Exact direct source contract
 
+Current all-carrier additions: J=28000..29999 and26500..27999 use the
+same normalized source below, but need no canonical maximal-raw selector.
+Their statements and assembly sections10/11 are authoritative. The stronger
+source-fiber payment uses b>=J-4700 on23000..52999; it is an alternative
+whole-source bound, not a new premise on the every-carrier intervals.
+
+
 This is the inherited contract for the older lower-strip and source-class
 bounds. The [new high-interval statement](source/critical/nodes/rate_half_mca_maximum_density_high_interval/statement.md)
 does not require its canonical selector; the [original-source assembly](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)

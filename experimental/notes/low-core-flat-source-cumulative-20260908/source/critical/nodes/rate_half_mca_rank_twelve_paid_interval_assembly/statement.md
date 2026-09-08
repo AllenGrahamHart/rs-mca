@@ -19,7 +19,7 @@ gamma in Z. Let a be the affine rank of their original error words and
 
 If a<=11, or if a=12 and g is OUTSIDE the interval
 
-    1018577<=g<=1038635,
+    1022077<=g<=1038635,
 
 then the ENTIRE original bad-slope set satisfies
 
@@ -33,7 +33,7 @@ intersections of selected size-m witnesses.
 Equivalently, every over-budget original line has, for EVERY complete
 post-near selection, either a>=13 or a=12 with
 
-    J=K-g in 9941..29999.
+    J=K-g in 9941..26499.
 
 In every rank it also retains g<=1043775 from the earlier large-core
 theorem. No bound on all-source error rank is asserted.
@@ -49,10 +49,17 @@ This pays the stated original received-line classes, not the unrestricted
 adjacent endpoint. No active-v4 owner atom, ordinary LIST result or full
 prize resolution follows.
 
-The refined quotient-density extension adds J=30000..31999 to the paid
-classes. Public b69a8b0b has the preceding 32000 coverage; the source
-interface and uniform total are unchanged. The remaining numerical
-interval has 20059 integers, down from that snapshot's 22059.
+The first-excess interval pays EVERY carrier on J=28000..29999 by
+273019482620216244. The quantitative-density interval adds EVERY carrier
+on J=26500..27999 by 272896493994028693, reserve 2084234117366394.
+Both include original near and require no new source-density premise.
+The union 26500..169999 retains 274929007493481160. The residual has
+16559 integers, down from 18059 locally and 20059 in public 99a30fdc.
+The source interface and main whole-line total are unchanged.
+
+The frozen publication history and current submission are recorded in
+notes/correspondence/QUANTITATIVE_DENSITY_EXPORT_20260908.md. Public
+99a30fdc contains neither of these two whole-degree extensions.
 
 ## Additional Receiver-Fiber Classes
 
@@ -61,7 +68,14 @@ by the source bridge above. The SAME bound (ORIGINAL) also holds if
 V' has a complete nonzero projective evaluation fiber of size b satisfying
 the remaining useful fiber gate:
 
-    14000<=J<=29999 and b>=J-2000.
+    14000<=J<=26499 and b>=J-2000.
+
+The stronger degree-4700 source-fiber supplier also pays
+
+    23000<=J<=26499 and b>=J-4700,
+
+by 246756107210901806 including original near. Every over-budget
+selection in this range therefore has every full nonzero fiber <=J-4701.
 
 Here b is a coordinate count, not the original error rank a. These are
 alternative whole-line sufficient conditions, not charges to add over fibers.
@@ -83,8 +97,10 @@ Every flat attaining that maximum has rank at most seven on 23000..24537,
 at most eight on 24538..28916 and at most nine on 28917..29999. These
 are necessary restrictions on a possible over-budget line, not existence
 claims or an assumption that all carriers obey the density gate.
-The numerical residual remains J=9941..29999 (20059 integers). This new
-source class and the dense-core mass below are now published in 0f2d9e8f.
+The numerical residual is J=9941..26499 (16559 integers). This older
+source class and the dense-core mass below are published in 0f2d9e8f.
+Their stated ranges remain valid; above 26499 the new every-carrier
+interval already pays the source, so those restrictions are redundant.
 
 ## Stronger Rank-Eight-Level Density Gate
 
@@ -97,7 +113,8 @@ rank-eight/rank-nine survivors above 24537 without changing the degree gap.
 The proof counts each deficient core through its actual dense-flag upper
 flat with a balanced quotient and integer rank caps. It does not assume an
 exceptional-label upper census or a received-word quotient transport.
-This stronger class is LOCAL, not in public 0f2d9e8f.
+This stronger class is public in 99a30fdc. Its gate alone does not remove
+a whole degree interval; the two new whole-interval theorems do so separately.
 
 ## Actual Dense-Core Mass On An Over-Budget Line
 
@@ -117,4 +134,6 @@ without assuming the source-density gate. One label counts once even
 if it has many flags. Rank-seven witnesses give an auxiliary dimension-
 four annihilator quotient of degree <=5628, not a free received-word
 descent. No upper census is proved; the degree gap and original reds
-remain open. The mass results are public in 0f2d9e8f; the stronger gate above is local.
+remain open. The mass results are public in 0f2d9e8f; the stronger gate
+above is public in 99a30fdc. The new interval makes these necessary mass
+conditions vacuous on J=26500..29999, without invalidating their proofs.

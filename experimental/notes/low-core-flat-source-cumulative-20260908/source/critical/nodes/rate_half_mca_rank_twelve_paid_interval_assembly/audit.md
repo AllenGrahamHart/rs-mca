@@ -1,5 +1,12 @@
 # Hand Audit Of The Original-Source Interface
 
+The first-excess interval transports the SAME normalized source contract
+without extra density, flat-rank or receiver hypotheses. Its bound
+273019482620216244 already includes original near and fits below the
+earlier high-interval union cap. Full-core quotient counting changes no
+original label. Section 10 removes g=1018577..1020576, exactly
+J=28000..29999. All remaining-g partition boundaries are checked.
+
 The rank-eight-density continuation is transported with the SAME original
 |Z_bad|<=|Z|+134944 inequality and no extra near event. Its auxiliary
 core-flat quotients are not receiver children. Independent finite engines
@@ -48,12 +55,13 @@ Its exception charges are inside its heavy-class payment; all original
 labels are included in the resulting whole-source total. One qualifying
 fiber suffices, and different fiber totals are not summed.
 
-The refined quotient-density interval has the same normalized source contract,
-so it changes only the first middle interval to g=878577..1018576.
-The complementary g=1018577..1038635 is exactly J=9941..29999.
+The refined and first-excess intervals have the same normalized contract and,
+with the quantitative extension give the first middle interval
+as g=878577..1022076. The complementary g=1022077..1038635 is exactly
+J=9941..26499.
 No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
-useful on 14000..29999. Higher original ranks remain an independent gap.
+useful on 14000..26499. Higher original ranks remain an independent gap.
 
 The bounded-density branch uses this same normalized source, without
 reselecting a favorable core or reapplying the near theorem. Its bound is
@@ -71,3 +79,12 @@ The mass lower bound is not mistaken for an upper census or row closure.
 Verdict: NO ISSUE at the direct original-source scope. The individual
 normalized suppliers remain subject to their recorded external review;
 this local interface audit is not external acceptance or a formal build.
+
+Section 11 was hand-checked for the publication extension. Its new total
+272896493994028693 includes one original near and is below the retained
+union cap. Independent exact engines cover 47 degree blocks and 18189
+high-density boxes, including the changed t=6 completion corner. Those
+checks audit the finite bound, not the original transport proof. The
+stronger degree-4700 source-fiber gate retains all explicit exceptions
+and pays the whole source, not just a heavy receiver class. The original
+rank/core transport and overall maximum do not change.

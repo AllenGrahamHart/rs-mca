@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1018576          30000..169999         274929007493481160
+    878577..1022076          26500..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 1018577..1038635, equivalent
-to J=9941..29999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly 1022077..1038635, equivalent
+to J=9941..26499. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,7 +131,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on 14000..29999 by 248408859318207582, including the one
+>=J-2000 on 14000..26499 by 248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -194,6 +194,55 @@ therefore excludes EVERY maximizing flat of rank >=8, for EVERY complete
 post-near rank-twelve selection of an over-budget original line in this
 interval. The narrower degree region and original error-rank alternatives
 are unchanged. No upper census of the remaining dense labels is inferred.
+
+## 10. First-Excess Whole-Degree Extension
+
+Use the SAME carrier V' from sections 2 and 3, retaining all original
+post-near labels, full-code-bad supports, field and empty universal core.
+On 28000<=J<=29999 the new first-excess supplier proves
+|Z|+134944<=273019482620216244, with NO source-density hypothesis.
+Its whole-source fiber split covers that class first; all other labels
+share one original tuple resource through a core-local density split.
+Minimal excess flats and maximizing core flats are only basis-counting
+devices. They do not discard receiver exceptions or change the source.
+
+This total is below the earlier 30000..169999 union bound
+274929007493481160. Taking their maximum gives the predecessor of section 5's first row
+on the 28000..169999 range. Section 11 extends it further. There is one original
+near allowance in each alternative and none added again by composition.
+Since g=K-J, the added interval is g=1018577..1020576. At this preceding stage the
+original gap was g=1020577..1038635, or J=9941..27999 (18059 integers).
+
+The earlier density and necessary-mass statements remain valid through
+29999, but become redundant on the new paid interval. This is a genuine
+whole-source extension, not proof that all original error ranks are <=12
+or that the remaining lower degrees are paid.
+
+## 11. Quantitative Whole-Degree And Stronger Fiber Extensions
+
+Use exactly the source from sections 2 and 3. On 26500<=J<=27999,
+the quantitative-density interval supplier gives
+|Z|+134944<=272896493994028693 without an additional source premise.
+Its density conditions split individual actual LOW cores exhaustively;
+they are not assumptions on the original carrier. Its polynomial quotients
+count tuples only. The SAME original labels, receiver, field, full-code
+badness, nonuniversal zeros and empty universal core are retained.
+
+Taking the maximum with section 10's union retains 274929007493481160
+on 26500..169999. The added original core interval is
+g=1020577..1022076, exactly 1500 integers. Section 5 now leaves
+g=1022077..1038635, or J=9941..26499, exactly 16559 integers.
+No near allowance is repeated and the overall assembly maximum is unchanged.
+
+The degree-4700 receiver-fiber supplier also applies directly to this
+fixed normalized source on 23000..52999 whenever one complete nonzero
+fiber has size b>=J-4700. Its whole-source bound, including near, is
+246756107210901806, below (ORIGINAL). On the remaining 23000..26499
+this is stronger than section 6's gate. Its heavy receiver classes carry
+their explicit exceptions; its Johnson children require no second near
+event or empty-core premise. Do not add bounds over alternative fibers.
+The contrapositive forces EVERY full nonzero fiber <=J-4701 on every
+over-budget original selection in that remaining range.
 
 ## Scope And Provenance
 

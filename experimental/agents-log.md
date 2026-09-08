@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Rank-twelve whole-source coverage down to J=26500
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended the existing
+  [grouped review packet](notes/low-core-flat-source-cumulative-20260908/README.md).
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Five proved suppliers: first-excess core flat
+  and interval, a quantitative hereditary density product, degree-4700
+  source-fiber payment and quantitative interval. Every normalized carrier
+  on26500..29999 is now paid without a new source-density premise.
+- **How it is useful:** K3 / DIRECT, companion to #1175. Original-source
+  transport removes3500 complete degrees relative to99a30fdc, leaving
+  J=9941..26499 (16559 integers). The main original near-inclusive bound
+  stays274979661975561635. The remaining23000..26499 also excludes every
+  full nonzero source fiber of size>=J-4700 on an over-budget line.
+- **Verification:** Nine focused checks pass normally and under -O;
+  independent engines agree on63312 and18189 boxes. Inherited92 checks
+  and preceding density/rank-eight checks pass, below25MiB peak RSS.
+  Frozen584-source packet,58-node assembly and separate9-node scalar
+  inventory;24 malformed manifests rejected. No Modal spend.
+- **What to do next:** Independently review quantitative moment propagation,
+  the rank-two seed, rank-six corners and original-source transport.
+  The smaller J interval, original ranks>=13, unrestricted row, ordinary
+  LIST and both Prizes remain open. No active-v4 atom or compute request.
+
 ### 2026-09-08 - Exclude rank-eight and rank-nine maximizing-flat survivors
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

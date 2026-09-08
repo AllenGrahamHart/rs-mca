@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `0f2d9e8f9b1526af593e413b6c6cd6f88b60e8b0`.
+- Previous companion: `99a30fdce8bdea702574261567b92d85d4bf34e1`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,30 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution
+## New Contribution: Complete Whole-Degree Extensions
+
+Five proved suppliers extend the public rank-twelve assembly from
+J>=30000 to J>=26500, removing 3500 degrees without a new source premise.
+The first-excess flat/interval pair was completed after parent99a30fdc.
+The quantitative hereditary product, degree-4700 source-fiber payment
+and quantitative interval supply the further 1500-degree extension.
+Existing exact contraction, root capacity, Johnson children, raw weights,
+signed inside counts and original-source transport are credited prerequisites.
+
+The manifest freezes 584 sources (1654303 bytes), with a 58-node assembly
+and separate nine-node scalar inventory. There are 38 added sources and
+seven revised assembly files; the other 539 are byte-identical to99a30fdc.
+The new `quantitative_interval_extension` records the parent manifest
+hash, old hashes of revised files, dirty origin HEAD and exact scope.
+Generated DAGs, speculative upper censuses and exploratory scripts are excluded.
+
+The two finite caps are273019482620216244 and272896493994028693,
+including original near. The strengthened fiber class pays246756107210901806.
+The main assembly cap is unchanged; residualJ=9941..26499 has16559 integers.
+No claim of general literature novelty, active-v4 ownership, unrestricted
+endpoint movement or external mathematical acceptance is made.
+
+## Previous Arbitrary-Flat And Rank-Eight-Density Contribution
 
 1. A complete core flat need not maximize density to give a valid
    annihilator-quotient count, signed inside-extension count and BOX bound.
@@ -51,7 +74,8 @@ The manifest freezes 546 proof/control sources (1567800 bytes), with a
 revises seven assembly files and preserves 524 parent files byte-for-byte.
 Its `rank_eight_extension` records the immediate parent, parent manifest
 hash, previous revised-source hashes and exact scope. Exploratory scripts
-and unfinished first-excess nodes are excluded.
+and then-unfinished first-excess nodes were excluded from that parent.
+The completed first-excess contribution is now included above.
 
 ## Previous Density And Dense-Core-Mass Contribution Retained
 
