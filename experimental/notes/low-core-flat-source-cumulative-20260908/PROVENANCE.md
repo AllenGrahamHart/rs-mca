@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `a16bd73bf3705eb5d84c9bc3b5e7e1dbf8814434`.
+- Previous companion: `b69a8b0b1c7b644e961b23fd04197bbaf165e359`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -29,6 +29,24 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. Three smaller degree blocks extend the proved quotient-density method
+   to every carrier on 30000..31999, with total 274471852330442343 including
+   one original near allowance. The proof explicitly extends the formula
+   scope; it does not infer a theorem by using a script outside its old range.
+2. The existing original-source assembly removes another 2000 degrees,
+   leaving J=9941..29999 (20059 integers). No new source premise is added.
+3. A separate scalar-incidence ledger counts ALL scalar-restriction labels
+   on actual receiver colors, with a-t exceptions, full-fiber children,
+   preserved empty universal core and retained carrier-zero charges. The
+   two-profile corollary requires proved monotonicity/convexity inputs.
+
+The scalar lemma is not a dependency of the finite interval and supplies
+no additional finite-row bound. Its transport predecessors are credited
+and frozen here. No general novelty or automatically valid recursive
+profile is claimed. The exploratory iteration is excluded.
+
+## Previous Quotient-Density Contribution Retained
 
 1. Density-aware supplementary outside extensions, arbitrary proved
    quotient-basis counts, and signed backward elimination through actual
@@ -122,7 +140,7 @@ near correction + scalar descent + padded Johnson + prior completed bases
 common-core saturated-support transport
     + common-core extremes + high interval + lower strip
     -> original rank-twelve paid-interval assembly
-    -> restriction J=9941..31999 or original rank >=13
+    -> current restriction J=9941..29999 or original rank >=13
 
 fiber-basis resource + saturated-support transport
     -> receiver-fiber peeling
@@ -146,21 +164,33 @@ maximum-density resource + complete-core inside counts
     + prior receiver-fiber and complete-core intervals
     -> every-carrier interval / union 32000..169999
     -> original-source assembly, with unchanged bridge and near add-back
+
+quotient-density interval -> scope extension and shorter degree blocks
+    -> every-carrier interval / union 30000..169999
+    -> original-source assembly, with unchanged bridge and near add-back
+
+receiver-fiber peeling + projected receiver-flat transport
+    + common-core saturated-support transport
+    -> full-fiber scalar-incidence ledger / quantified profile corollary
+    -> evidence only; NOT an input to the interval assembly
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 46-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 47-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
+The separate `scalar_ledger_requirements` has nine proved closure nodes;
+the replay also checks its reachability and shared dependency consistency.
+It explicitly rejects making that lemma an assembly premise.
 This is a source inventory, not formal verification of the mathematics.
 The local assembly gives evidence to the unresolved original-source router;
 it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent a16bd73b, 464 source files remain byte-for-byte unchanged.
-Fifteen sources are added and seven assembly sources are revised, for 486
-sources and 1428674 source bytes. Only small `.md`
+Relative to parent b69a8b0b, 479 source files remain byte-for-byte unchanged.
+Fifteen sources are added and seven assembly sources are revised, for 501
+sources and 1471915 source bytes. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
 exploratory receiver-flat script, package environment or Modal job is included.
 Not every historical helper is part of the selected bounded replay.
@@ -180,12 +210,12 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`quotient_density_extension` records the immediate parent, its manifest
+`refined_scalar_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 46-node graph; the older parent metadata remains
+is updated to the current 47-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
-The original maximum-density, contraction and complete-core proof bytes
+The original maximum-density, contraction, complete-core and quotient-density proof bytes
 remain unchanged. Seven original-source assembly files update the paid
 range; the two new suppliers contribute fifteen proof/control files.
 The earlier `complete_core_extension` retains its own immutable parent
@@ -194,7 +224,7 @@ sentences saying a continuation is local describe prepublication custody,
 not a conditional proof status or independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The new quotient-density and revised assembly links in README are the current
+The refined interval, scalar-ledger and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.

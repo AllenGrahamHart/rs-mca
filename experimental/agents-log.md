@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Refined rank-twelve interval and separate scalar-incidence ledger
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Three short degree blocks extend every-carrier
+  coverage to J=30000, removing 2000 more original rank-twelve degrees.
+  A separate full-fiber scalar-incidence theorem retains receiver-color
+  exceptions, actual empty-core children and carrier-zero charges.
+- **How it is useful:** K3 / DIRECT, on the established #1175 companion.
+  The original residual becomes J=9941..29999 (20059 integers), without
+  a new carrier premise. The scalar lemma has a separate nine-node proof
+  inventory and is NOT a dependency of the 47-node finite assembly.
+  All 98 distinct checks pass in three bounded serial runs; the four
+  extension checks also pass under -O. Peak RSS remains below 25 MiB.
+- **What to do next:** Independently review the scope extension, heavy-ratio
+  sign, complete degree cover and scalar-incidence transport. The scalar
+  profile needs a proved decreasing convex majorant and pays no new row.
+  Lower rank twelve, ranks >=13, unrestricted MCA and LIST remain open.
+  No active-v4 integer, endpoint closure or compute request is supplied.
+
 ### 2026-09-08 - Quotient-density costs remove 8000 more rank-twelve degrees
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

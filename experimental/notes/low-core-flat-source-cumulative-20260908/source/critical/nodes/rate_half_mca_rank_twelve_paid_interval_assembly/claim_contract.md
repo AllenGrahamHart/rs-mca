@@ -22,10 +22,10 @@
   fiber meeting the remaining near-full receiver gate also pays the whole original
   family. The lower-rank child exceptions are charged inside that supplier;
   no original label is lost from the assembly. Do not add fiber payments.
-- The every-carrier quotient-density theorem now pays all 32000..39999,
-  in addition to the preceding complete-core interval. The former
+- The refined every-carrier quotient-density theorem now pays 30000..31999,
+  in addition to the preceding quotient-density interval. The former
   half-size fiber gate remains subsumed. The remaining numerical
-  interval is 9941..31999, with no new source hypothesis.
+  interval is 9941..29999, with no new source hypothesis.
 - This direct source-class theorem does not supply an all-source rank
   upper bound, the remaining rank-twelve interval, an active-v4 atom,
   ordinary LIST or an unrestricted prize endpoint.

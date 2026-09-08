@@ -1,4 +1,4 @@
-# KoalaBear MCA: quotient-density costs extend original coverage to J=32000
+# KoalaBear MCA: coverage to J=30000 and a separate scalar-incidence ledger
 
 ~~~yaml
 workboard_item: K3
@@ -16,7 +16,7 @@ claimed_bound: 274979661975561635
 status: PROVED
 impact: LOCAL_ONLY
 falsifier: an original line satisfying the printed rank/core gate but exceeding the bound
-replay: python3 -B experimental/notes/low-core-flat-source-cumulative-20260908/replay.py
+replay: use the three bounded modes in Review And Reproducibility below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -39,14 +39,14 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`1016577..1038635`. Here the core is the intersection of COMPLETE scalar
+`1018577..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..31999**.
+- error affine rank twelve and `J=1048576-g` in **9941..29999**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
@@ -59,6 +59,55 @@ necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
 ## What Is New In This Extension
+
+Relative to public parent `b69a8b0b`, there are two separate proved results.
+
+### 1. Every-Carrier Coverage Starts At 30000
+
+The [refined interval theorem](source/critical/nodes/rate_half_mca_quotient_density_refined_interval/statement.md)
+and [scope-extension proof](source/critical/nodes/rate_half_mca_quotient_density_refined_interval/proof.md)
+pay EVERY normalized carrier on **30000..31999** by
+**274471852330442343**, including ONE original near allowance, with reserve
+**508875780952744** below B*. Three smaller consecutive degree blocks
+retain the parent's proved geometry and shared resource. No additional
+source premise or new geometric counting theorem is claimed.
+
+The union **30000..169999** retains **274929007493481160**. Through the
+existing original-source bridge, another **2000 integer degrees** are
+removed, leaving **20059** in the original rank-twelve interval. The
+whole-line assembly maximum is unchanged. Independent exact engines agree
+on all 84480 record-cost and 10560 source boxes; analytic full coverage,
+not successful sampling, justifies the universal statement.
+
+### 2. A Separate Full-Fiber Scalar-Incidence Theorem
+
+The [scalar ledger](source/background/nodes/mca_empty_core_full_fiber_scalar_census/statement.md)
+and [hand proof](source/background/nodes/mca_empty_core_full_fiber_scalar_census/proof.md)
+count all original labels satisfying a receiver color's scalar restriction,
+not just labels whose minimizing pair belongs to that color. At most
+`a-t` original exceptional labels are removed before full-fiber division
+gives a same-field, full-code-bad, empty-core child of dimension one lower.
+For any proved uniform child cap G, the exact incidence accounting gives
+
+~~~text
+m |Gamma| <= sum_A |A| G(K-|A|)
+             + sum_A (|A|^2 - sum_(C in A) |C|^2) + z.
+~~~
+
+Here A is a complete nonzero projective evaluation fiber, C an actual
+normalized receiver color inside it, and z counts carrier-zero coordinates.
+These are coordinate-incidence charges; overlapping scalar-label families
+are not treated as disjoint whole-source families. A separate two-profile
+corollary requires a proved >=1, nonincreasing convex C2 child-cap majorant.
+Those shape conditions are not asserted for an arbitrary recursive formula.
+
+**This lemma gives no new finite-row payment and is NOT a dependency of
+the interval theorem.** Its nine-node proof inventory is recorded separately
+from the 47-node original-source assembly. A preliminary numerical iteration
+did not reach the budget and lacked its shape proof; that exploratory script
+is not exported or represented as a certified bound or impossibility result.
+
+## Previous Quotient-Density Extension Retained
 
 The [density-aware completion proof](source/critical/nodes/mca_density_aware_flat_completion_resource/proof.md)
 keeps maximum flat density in the supplementary outside extensions and
@@ -257,8 +306,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..1016576 | 32000..169999 | 274929007493481160 |
-| **1016577..1038635** | **9941..31999** | **OPEN** |
+| 878577..1018576 | 30000..169999 | 274929007493481160 |
+| **1018577..1038635** | **9941..29999** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -268,7 +317,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): quotient-density proof checks and the prior source bridge.
+- [REVIEW.md](REVIEW.md): refined interval, scalar ledger and prior proof checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -276,25 +325,42 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `a16bd73b`, this extension adds 15 proof/control sources
-and revises seven assembly sources; 464 parent sources stay byte-identical.
-There are 486 hashed sources and a 46-node acyclic requirement inventory,
+Relative to parent `b69a8b0b`, this extension adds 15 proof/control sources
+and revises seven assembly sources; 479 parent sources stay byte-identical.
+There are 501 hashed sources, a 47-node assembly and a separate nine-node
+scalar-lemma requirement inventory, both acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
-linked quotient-density and original-source assembly statements are the
+linked refined-interval, scalar-ledger and original-source assembly statements are the
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..31999**, higher original error ranks,
+Still open: rank twelve on **9941..29999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-No new compute request, Modal spending or exploratory script is included.
-For a short replay, run `python3 -B replay.py --inherited-only`, then run
-`python3 -B replay.py --quotient-only --start J0` separately for each of
-`J0=32000,34000,36000,38000`. Adding `-O` to the quotient-only mode
-optimizes its four explicitly guarded children. Each block reports its
-limited replay scope; all four are needed to replay the new interval.
+From this packet directory, these three serial commands cover all 98
+distinct checks while keeping each invocation short:
+
+~~~sh
+python3 -B replay.py --inherited-only
+python3 -B replay.py --quotient-only
+python3 -B replay.py --extension-only
+~~~
+
+The extension mode also supports `python3 -B -O replay.py --extension-only`;
+optimization is explicitly propagated to all four selected children. For
+shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
+extension mode accepts 30000,30200,30800. All blocks of a chosen interval
+are needed for its complete replay. Every invocation validates the entire
+source inventory and rejects ten manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 98-check run may exceed 60 seconds;
+use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.
+
+## Compute Requests
+
+None. Serial standard-library checks suffice; no Modal spending, large-memory
+computation or exploratory script is included.

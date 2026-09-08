@@ -81,7 +81,7 @@ coordinate rescaling are injective on their affine-difference span.
 
 ## 4. Canonical Reselection Does Not Reopen Transport
 
-The quotient-density/high-interval theorem requires no maximal-raw selector. For the
+The refined quotient-density/high interval requires no maximal-raw selector. For the
 lower-strip theorem, maximize the raw mismatch for each label over all
 size-m' full-bad supports and explanations in the SAME fixed V'. This
 maximum exists over the finite field and finite domain; the family is
@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1016576          32000..169999         274929007493481160
+    878577..1018576          30000..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 1016577..1038635, equivalent
-to J=9941..31999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly 1018577..1038635, equivalent
+to J=9941..29999. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,7 +131,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on 14000..31999 by 248408859318207582, including the one
+>=J-2000 on 14000..29999 by 248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -152,11 +152,13 @@ its separate supplier. This node makes their complete source interface
 explicit and composes it with the new normalized bounds. The transport
 mechanism is not claimed as a new independent discovery.
 
-The required quotient-density interval extends the previous complete-core
-supplier from 40000 down to 32000 with no new source hypothesis. It
-requires that older interval, full child and receiver-fiber payments,
-quotient contraction and density-aware completion with coupled inside
-ratios. Quotienting counts bases, not a new received source. Complete-core
+The required refined quotient-density interval extends the previous
+supplier from 32000 down to 30000 with no new source hypothesis. Three
+smaller degree blocks have exhaustive exact certificates and an explicit
+scope extension. It requires the older quotient-density interval and its
+full child and receiver-fiber payments, quotient contraction and density-aware
+completion with coupled inside ratios. Quotienting counts bases, not a new
+received source. Complete-core
 packing retains the original witness and minimizing pair. All proper flat
 ranks are covered, and the old large-fiber source class is included in
 the finite maximum. Only the paid range in section 5 changes, not the

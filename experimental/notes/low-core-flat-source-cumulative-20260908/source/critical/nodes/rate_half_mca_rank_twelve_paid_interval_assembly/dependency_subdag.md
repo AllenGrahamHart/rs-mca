@@ -2,13 +2,14 @@
 
     rank-twelve common-core forcing [PROVED] ----+
     common-core low-margin transport [PROVED] --+
-    quotient-density + high interval [PROVED] -+--> original interval assembly [PROVED]
+    refined quotient-density interval [PROVED] +--> original interval assembly [PROVED]
     full-kernel lower strip [PROVED] -----------+        |
     receiver-fiber class payment [PROVED] ------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
-The quotient-density interval requires the older complete-core/high interval,
+The refined interval requires the older quotient-density interval, which
+requires the older complete-core/high interval,
 full receiver-fiber and child caps, quotient contraction, density-aware
 completion and coupled signed inside ratios. Exact IDs are in node.json.
 The lower strip already requires

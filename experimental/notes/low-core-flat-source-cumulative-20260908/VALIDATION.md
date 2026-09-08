@@ -3,6 +3,64 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
+## Current Refined-Interval And Scalar-Ledger Extension
+
+These serial commands were run from the packet directory, each enclosed
+by RAMguard tiny (256 MiB RAM, 64 MiB swap, 60 seconds):
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --inherited-only` | 92/92 PASS | 11.73 seconds | 25196 KiB |
+| `python3 -B replay.py --quotient-only` | 4/4 PASS | 47.44 seconds | 20968 KiB |
+| `python3 -B replay.py --extension-only` | 4/4 PASS | 33.21 seconds | 22472 KiB |
+| `python3 -B -O replay.py --extension-only` | 4/4 PASS | 33.37 seconds | 24384 KiB |
+
+The first three commands cover all 98 distinct checks; the assembly check
+is repeated across modes. The last command directly propagates -O to the
+primary refined certificate, its independent audit, scalar controls and
+assembly checker. Older assertion-based checks run normally. No timeout
+occurred. The no-flag full replay was not run for this extension because
+its aggregate duration exceeds the 60-second local process-tree limit.
+
+Every invocation validates all 501 sources, the 47-node assembly and
+separate nine-node scalar-lemma inventory, including shared dependency
+consistency. Ten malformed manifests are rejected: the previous six,
+an omitted scalar root, cyclic scalar dependency, invented assembly
+dependency on the scalar lemma and altered shared dependency.
+
+The refined certificate checks all 84480 record-cost and 10560 source
+boxes. Both independent cost engines agree on every streamed value; 21120
+adjacent wrong floors and five broken degree covers fail. The new theorem's
+scope extension is a hand proof, not certified by matching hashes.
+
+Scalar controls cover two actual F_17/F_23 sources, 62 surviving child
+transports, an essential exception, scalar families outside minimizing-pair
+groups and a retained agreeing carrier-zero coordinate. The 476 rational
+partition controls include 59 that reject using minimum instead of maximum.
+They do not assert the recursive shape hypotheses or a new finite-row cap.
+The revised assembly's six interval mutations and eleven receiver-fiber
+boundary controls pass in normal and optimized extension modes.
+
+Current manifest SHA-256:
+
+~~~text
+28d1978685f024ab2157824a6af05162d033d51d204c1d7bf1567a31b40e3a5b
+~~~
+
+The parent b69a8b0b manifest hash is
+`014161c90c8701a893c036bc8c0ff8e183c53547fa51c5404ede9ae73fcc883e`.
+The exporter verified all 486 parent files before adding 15 and revising
+seven assembly files. The other 479 remain byte-identical. The current
+packet freezes 1471915 source bytes. All computation was serial; no Modal
+task, large-memory computation, compute spending or exploratory iteration
+is included. The local full DAG/crosswalk checks were not rerun for this
+source export; their pre-existing diagnostics are not claimed resolved.
+
+## Parent b69a8b0b Replay Retained
+
+The following historical record covers the previous 486-source snapshot.
+Its timings and inventory are not the current extension's measurements.
+
 | Replay | Result | Wall Time | Peak RSS |
 | --- | --- | ---: | ---: |
 | Full normal Python wrapper | 95/95 PASS | 51.83 seconds | 25192 KiB |
@@ -28,7 +86,7 @@ remain byte-identical. There are 1428674 source bytes. The prior validation
 is preserved at
 [parent a16bd73b](https://github.com/AllenGrahamHart/rs-mca/blob/a16bd73bf3705eb5d84c9bc3b5e7e1dbf8814434/experimental/notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
 
-## New Checks
+### Parent Quotient-Density Checks
 
 - Nine actual small polynomial configurations check maximum density,
   quotient rank, exact basis classes and inside-extension identities.

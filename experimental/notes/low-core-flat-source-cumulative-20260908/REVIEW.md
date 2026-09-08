@@ -1,10 +1,48 @@
-# Review: Quotient-Density Costs And Original-Source Transport
+# Review: Refined Interval, Scalar Ledger And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## New Extension: Quotient Contraction And Density Completion
+## New Extension: Scope Refinement And A Separate Scalar Ledger
+
+Read the [refined interval proof](source/critical/nodes/rate_half_mca_quotient_density_refined_interval/proof.md)
+and [scalar-incidence proof](source/background/nodes/mca_empty_core_full_fiber_scalar_census/proof.md).
+The latter is NOT a prerequisite of the former.
+
+- On 30000..31999, every flat still satisfies a<=31998<67467. The
+  positive completion factors, density/degree switches and directed-rounded
+  quotient certificates retain their stated gates. Calling the parent's
+  implementation is not substituted for this mathematical scope check.
+- The heavy-child ratio increases in a and kappa; along an upper size edge
+  a=alpha*J+beta its derivative numerator is
+  `(1-alpha)(d-R)+(1-kappa)(beta-alpha*R)<=0`. The same corner bound
+  therefore covers each new degree block. The separate a-t exception
+  term uses its upper J endpoint.
+- The three consecutive blocks cover every new degree. Source alternatives
+  combine by maximum; all occupancy bins consume one shared resource.
+  The near-full rank-one class is paid by the earlier receiver-fiber gate
+  and included in the final maximum. The original near allowance occurs once.
+- The scalar ledger's family uses a scalar restriction, not a minimizing
+  pair. Outside one receiver color, each coordinate excludes at most one
+  original label. Full-locator division lowers actual enclosing dimension;
+  exact bad subsets follow by connected one-point exchanges in the FULL code.
+- Completeness of each projective fiber identifies all newly zero child
+  evaluations. At original carrier zeros the gauging pair equals (h_*,0),
+  preserving empty universal core; each such coordinate costs at most one
+  original incidence. Neither these zeros nor exceptional labels disappear free.
+- Families may overlap. The proof sums support-coordinate incidences, not
+  separately budgeted slope sets. The top-(s-1) fiber-size constraint and
+  printed derivatives justify the two-profile maximum, including s=2 and
+  K=s. Monotonicity and convexity of the cap majorant are real hypotheses;
+  they are not proved for arbitrary iterations of that formula.
+
+Publication hand review found no issue at these scopes. Exact arithmetic
+and small actual-source controls supplement the proofs, not replace them.
+The residual is J=9941..29999; higher original ranks and the unrestricted
+row remain open. Independent external mathematical review remains due.
+
+## Previous Extension: Quotient Contraction And Density Completion
 
 Read the [generic completion proof](source/critical/nodes/mca_density_aware_flat_completion_resource/proof.md),
 [finite interval proof](source/critical/nodes/rate_half_mca_quotient_density_interval/proof.md)
@@ -38,7 +76,7 @@ and revised original-source assembly.
   later degree-block maxima alone do not cover that class.
 
 This publication review found no issue at these stated scopes. The new
-finite interval is 32000..39999; the original rank-twelve residual is now
+finite interval was 32000..39999; that stage left the rank-twelve residual
 9941..31999. Actual small-source controls and exact integer replays
 supplement these hand proofs. Independent external review remains due.
 

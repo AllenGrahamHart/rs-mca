@@ -17,6 +17,14 @@ STRIP = "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/"
 JET = "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/"
 SMOOTH = "source/critical/nodes/mca_low_core_smooth_cubic_payment/"
 QUOTIENT = "source/critical/nodes/rate_half_mca_quotient_density_interval/"
+REFINED = "source/critical/nodes/rate_half_mca_quotient_density_refined_interval/"
+SCALAR = "mca_empty_core_full_fiber_scalar_census"
+EXTENSION_CHECKS = (
+    REFINED + "verify.py",
+    REFINED + "verify_audit.py",
+    "source/background/nodes/" + SCALAR + "/verify.py",
+    "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+)
 QUOTIENT_CHECKS = (
     "source/critical/nodes/mca_density_aware_flat_completion_resource/verify.py",
     QUOTIENT + "verify.py",
@@ -114,6 +122,7 @@ CHECKS = (
 ) + CONTRACTION_CHECKS[:-1] + RECEIVER_CHECKS[:-1] + FLAT_CHECKS[:-1]
 INHERITED_CHECKS = CHECKS
 CHECKS += QUOTIENT_CHECKS[:-1]
+CHECKS += EXTENSION_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -121,11 +130,7 @@ def require(condition, message):
         raise ValueError(message)
 
 
-def verify_dependency_inventory(manifest, sources):
-    graph = manifest["interval_extension_requirements"]
-    root = manifest["interval_extension_root"]
-    require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 46, "changed proof inventory")
+def verify_graph(graph, root, sources):
     active, seen = set(), set()
 
     def visit(node):
@@ -145,6 +150,20 @@ def verify_dependency_inventory(manifest, sources):
 
     visit(root)
     require(seen == set(graph), "unreachable proof inventory")
+
+
+def verify_dependency_inventory(manifest, sources):
+    graph = manifest["interval_extension_requirements"]
+    root = manifest["interval_extension_root"]
+    scalar = manifest["scalar_ledger_requirements"]
+    require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
+    require(len(graph) == 47 and len(scalar) == 9, "changed proof inventories")
+    require(manifest["scalar_ledger_root"] == SCALAR, "wrong scalar root")
+    require(SCALAR not in graph, "scalar ledger is not an assembly premise")
+    verify_graph(graph, root, sources)
+    verify_graph(scalar, SCALAR, sources)
+    for node in set(graph) & set(scalar):
+        require(graph[node] == scalar[node], "inconsistent shared dependency")
 
 
 def verify_sources(manifest=None):
@@ -194,6 +213,18 @@ def verify_manifest_mutations():
     root = changed["interval_extension_root"]
     changed["interval_extension_requirements"][root].append(root)
     bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["scalar_ledger_requirements"].pop(SCALAR)
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["scalar_ledger_requirements"][SCALAR].append(SCALAR)
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["interval_extension_requirements"][root].append(SCALAR)
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["scalar_ledger_requirements"]["mca_receiver_fiber_peeling"] = []
+    bad.append(changed)
     for changed in bad:
         try:
             verify_sources(changed)
@@ -201,7 +232,7 @@ def verify_manifest_mutations():
             continue
         raise ValueError("accepted a malformed source manifest")
     verify_sources(baseline)
-    print("PASS: six source/inventory mutations rejected; baseline still passes")
+    print("PASS: ten source/inventory mutations rejected; baseline still passes", flush=True)
 
 
 def main():
@@ -215,31 +246,37 @@ def main():
                        help="run the eight receiver-flat/complete-core checks; propagate -O")
     group.add_argument("--quotient-only", action="store_true",
                        help="run the four quotient-density/assembly checks; propagate -O")
+    group.add_argument("--extension-only", action="store_true",
+                       help="run refined interval, scalar ledger and assembly; propagate -O")
     group.add_argument("--inherited-only", action="store_true",
                        help="run the 92 inherited checks, including the revised assembly")
-    parser.add_argument("--start", type=int, choices=(32000, 34000, 36000, 38000),
-                        help="with --quotient-only, replay one complete degree block")
+    parser.add_argument("--start", type=int,
+                        help="with --quotient-only or --extension-only, replay one degree block")
     args = parser.parse_args()
-    if args.start is not None and not args.quotient_only:
-        parser.error("--start requires --quotient-only")
+    if args.start is not None:
+        allowed = ((32000, 34000, 36000, 38000) if args.quotient_only else
+                   (30000, 30200, 30800) if args.extension_only else ())
+        if args.start not in allowed:
+            parser.error("--start must name a complete block of the selected interval mode")
     started = time.monotonic()
     count = verify_sources()
     verify_manifest_mutations()
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (QUOTIENT_CHECKS if args.quotient_only else
+    selected = (EXTENSION_CHECKS if args.extension_only else
+                QUOTIENT_CHECKS if args.quotient_only else
                 INHERITED_CHECKS if args.inherited_only else
                 FLAT_CHECKS if args.flat_only else
                 RECEIVER_CHECKS if args.receiver_only else
                 CONTRACTION_CHECKS if args.contraction_only else CHECKS)
     focused = (args.contraction_only or args.receiver_only or args.flat_only
-               or args.quotient_only)
+               or args.quotient_only or args.extension_only)
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         extra = (["--start", str(args.start)]
-                 if check.startswith(QUOTIENT) and args.start is not None else [])
-        limit = 45 if check.startswith(QUOTIENT) else 15
+                 if check.startswith((QUOTIENT, REFINED)) and args.start is not None else [])
+        limit = 45 if check.startswith((QUOTIENT, REFINED)) else 15
         result = subprocess.run([sys.executable, "-B", *optimization,
                                  str(ROOT / check), *extra],
                                 cwd=ROOT, env=env, timeout=limit, check=False,
@@ -252,10 +289,13 @@ def main():
     print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
-    print("CHECKS PASS; 46-node proof inventory; original rank-twelve residual J=9941..31999")
-    print("Every carrier on J=32000..39999 additionally paid; 8000 integer degrees removed")
+    print("SELECTED CHECKS PASS; 47-node assembly and separate 9-node scalar inventory")
+    print("Printed theorem: residual J=9941..29999; 2000 degrees removed since b69a8b0b")
+    print("Scalar ledger gives no additional row payment; its profile needs proved shape inputs")
+    if selected is not CHECKS:
+        print("PARTIAL SUITE: selected checks only; complete normal replay needs inherited, quotient and extension modes")
     if args.start is not None:
-        print("PARTIAL REPLAY SCOPE: quotient-density block", args.start,
+        print("PARTIAL REPLAY SCOPE: degree block", args.start,
               "only; other blocks require their own successful replay")
     print("Hand proofs are not certified by replay; higher ranks, unrestricted row and both prizes OPEN")
 
