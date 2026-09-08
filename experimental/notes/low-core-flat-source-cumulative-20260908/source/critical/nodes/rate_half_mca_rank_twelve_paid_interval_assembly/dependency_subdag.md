@@ -7,6 +7,7 @@
     receiver-fiber class payment [PROVED] ------+        |
     bounded-density source payment [PROVED] ---+        |
     actual dense-core flag mass [PROVED] ------+        |
+    rank-eight density payment [PROVED] -------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -34,3 +35,8 @@ The mass supplier requires the actual record-core alternative and the
 older comparison arithmetic/record costs, NOT the source-density premise.
 It does not require this assembly. Here its normalized over-budget
 condition is bound to |Z_bad|<=|Z|+134944 with the original labels intact.
+
+The stronger density supplier uses the arbitrary-core-flat counting lemma,
+balanced quotient gates, actual flag geometry and old LOW/HIGH costs.
+It does not require the assembly. All original-slope transport is owned
+here; no numerical upper census or speculative premise becomes an input.

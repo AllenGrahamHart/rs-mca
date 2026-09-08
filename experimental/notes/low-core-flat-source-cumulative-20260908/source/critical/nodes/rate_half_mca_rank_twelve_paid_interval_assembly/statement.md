@@ -84,7 +84,20 @@ at most eight on 24538..28916 and at most nine on 28917..29999. These
 are necessary restrictions on a possible over-budget line, not existence
 claims or an assumption that all carriers obey the density gate.
 The numerical residual remains J=9941..29999 (20059 integers). This new
-source class is LOCAL, not in the published 88f4cf81 companion.
+source class and the dense-core mass below are now published in 0f2d9e8f.
+
+## Stronger Rank-Eight-Level Density Gate
+
+The new rank-eight-density supplier pays h<=(J-3)/8 throughout
+23000..29999 by 274977202549132026 including the original near allowance.
+This is below (ORIGINAL). Thus EVERY over-budget original rank-twelve
+selection in that range has h>(J-3)/8, and EVERY maximizing source flat
+has rank <=7 throughout the interval. This supersedes the earlier possible
+rank-eight/rank-nine survivors above 24537 without changing the degree gap.
+The proof counts each deficient core through its actual dense-flag upper
+flat with a balanced quotient and integer rank caps. It does not assume an
+exceptional-label upper census or a received-word quotient transport.
+This stronger class is LOCAL, not in public 0f2d9e8f.
 
 ## Actual Dense-Core Mass On An Over-Budget Line
 
@@ -104,4 +117,4 @@ without assuming the source-density gate. One label counts once even
 if it has many flags. Rank-seven witnesses give an auxiliary dimension-
 four annihilator quotient of degree <=5628, not a free received-word
 descent. No upper census is proved; the degree gap and original reds
-remain open. These mass results are LOCAL, not in 88f4cf81.
+remain open. The mass results are public in 0f2d9e8f; the stronger gate above is local.

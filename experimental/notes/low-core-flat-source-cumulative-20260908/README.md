@@ -1,4 +1,4 @@
-# KoalaBear MCA: bounded-density payment and necessary dense-core mass
+# KoalaBear MCA: exclude rank-eight and rank-nine maximizing-flat survivors
 
 ~~~yaml
 workboard_item: K3
@@ -7,7 +7,7 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: an original line satisfying the rank/core, receiver-fiber or bounded-density gate below has |Z_bad|<=274979661975561635; over-budget rank-twelve lines on J=23000..29999 require the printed dense-core label mass
+direct_statement: the printed original-source gates give |Z_bad|<=274979661975561635; the stronger density gate h<=(J-3)/8 pays J=23000..29999 and forces every maximizing source flat of an over-budget rank-twelve selection to have rank <=7
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
@@ -15,8 +15,8 @@ projection_and_unit: all original distinct finite bad affine slopes, counted onc
 claimed_bound: 274979661975561635
 status: PROVED
 impact: LOCAL_ONLY
-falsifier: an original line satisfying the printed rank/core gate but exceeding the bound
-replay: use the three bounded modes in Review And Reproducibility below
+falsifier: an original line satisfying a printed source gate but exceeding its bound
+replay: python3 -B replay.py --rank-eight-only; full replay uses the five bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -60,6 +60,53 @@ line in the remaining classes is unsafe or that those classes are empty.
 
 ## What Is New In This Extension
 
+Relative to public parent `0f2d9e8f`, two proved suppliers strengthen the
+source-density gate throughout **J=23000..29999**:
+
+~~~text
+h <= (J-3)/8 implies |Gamma|+134944 <= 274977202549132026,
+reserve below B* = 3525562263061.
+~~~
+
+Here h is the maximum proper-flat COORDINATE density of the entire
+nonzero normalized carrier, not merely a chosen pair core. The
+[finite theorem](source/critical/nodes/rate_half_mca_rank_eight_density_payment/statement.md)
+and [proof](source/critical/nodes/rate_half_mca_rank_eight_density_payment/proof.md)
+preserve all original finite slope labels and add the original near
+allowance once through the existing original-source assembly.
+
+For a maximizing rank-j flat, the polynomial root bound gives
+`h<=1+(J-11)/j`. For j>=8 this is at most `(J-3)/8`. Therefore EVERY
+maximizing source flat of ANY over-budget original rank-twelve selection
+has **rank <=7 throughout 23000..29999**. The previous rank-eight and
+rank-nine maximizing-flat survivors are removed; this is not an assumed
+rank restriction. Pair-core flag ranks and whole-source maximizing-flat
+ranks are different objects.
+
+The [generic counting lemma](source/critical/nodes/mca_arbitrary_core_flat_basis_resource/proof.md)
+works through ANY complete flat inside a nonzero core, without requiring
+that flat to maximize density. A basis-deficient core supplies its actual
+dense-flag upper flat. Full-locator division counts bases in its polynomial
+annihilator quotient; it does not descend a receiver or discard labels.
+Proved balanced quotient counts, integer proper-flat caps and signed
+inside-extension ratios give enough tuples for every eligible LOW record.
+HIGH records keep their prior cost on the SAME resource. Multiple flags
+do not multiply one original label or supply separate budgets.
+
+The exact certificate covers 78 degree blocks and 2038 flag-cost boxes;
+the maximum occurs at J=26999, flag rank 7 and flat size 23621. These
+are exhaustive analytic boxes, not sampled original-field sources.
+Independent rational/integer implementations and the revised source
+assembly pass in normal and optimized modes. The former density supplier
+pays 23000..24537; the new boxes cover 24538..29999.
+
+This pays a larger source class, **not a whole degree interval**. The
+original residual is still **J=9941..29999, 20059 integers**. No upper
+census for all remaining dense labels, unrestricted endpoint or Prize
+closure is claimed. The unfinished first-excess interval work is excluded.
+
+## Previous Density And Dense-Core-Mass Extension Retained
+
 Relative to public parent `88f4cf81`, four proved suppliers strengthen the
 remaining **23000..29999** region. They pay a source class and constrain
 all survivors; they remove no whole degree interval. The overall residual
@@ -86,8 +133,9 @@ reserve = 6067219606307729.
 Here h is maximum proper-flat COORDINATE density of the whole nonzero
 carrier evaluation set, not just the number of projective directions.
 The original-source assembly transports this to original slopes with one
-near add-back. Every maximizing flat on an over-budget source has rank at
-most seven on 23000..24537, eight on 24538..28916, and nine on 28917..29999.
+near add-back. This earlier gate gave maximizing-flat rank at most seven
+on 23000..24537, eight on 24538..28916, and nine on 28917..29999.
+The new theorem above strengthens all three regions to rank at most seven.
 
 **The unqualified product is false.** The generic proof gives an actual
 polynomial large-fiber construction at rank eleven and K=25000 violating
@@ -405,7 +453,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): density, flag mass, source transport and prior proof checks.
+- [REVIEW.md](REVIEW.md): arbitrary-flat counting, stronger density, source transport and prior checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -413,14 +461,14 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `88f4cf81`, this extension adds 30 proof/control sources
-and revises seven assembly sources; 494 parent sources stay byte-identical.
-There are 531 hashed sources, a 51-node assembly and a separate nine-node
+Relative to parent `0f2d9e8f`, this extension adds 15 proof/control sources
+and revises seven assembly sources; 524 parent sources stay byte-identical.
+There are 546 hashed sources, a 53-node assembly and a separate nine-node
 scalar-lemma requirement inventory, both acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
-linked density, flag-mass, scalar-ledger and original-source assembly statements are the
+linked stronger-density, flag-mass, scalar-ledger and original-source assembly statements are the
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
@@ -428,7 +476,7 @@ Still open: rank twelve on **9941..29999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these four serial commands cover all 104
+From this packet directory, these five serial commands cover all 107
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -436,18 +484,21 @@ python3 -B replay.py --inherited-only
 python3 -B replay.py --quotient-only
 python3 -B replay.py --extension-only
 python3 -B replay.py --density-only
+python3 -B replay.py --rank-eight-only
 ~~~
 
-For just this update, `python3 -B replay.py --density-only` runs its six
-new checkers and the revised assembly in about two seconds. It also supports
+For just this update, `python3 -B replay.py --rank-eight-only` runs the three
+new checkers and revised assembly in about three seconds. It also supports
+`python3 -B -O replay.py --rank-eight-only`, propagating -O to all four children.
+The preceding density extension retains
 `python3 -B -O replay.py --density-only`, propagating -O to all seven children.
 The extension mode supports `python3 -B -O replay.py --extension-only`;
 optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects fourteen manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 104-check run may exceed 60 seconds;
+source inventory and rejects sixteen manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 107-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

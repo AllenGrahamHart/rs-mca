@@ -1,10 +1,50 @@
-# Review: Density, Dense-Core Mass And Original-Source Transport
+# Review: Arbitrary Core Flats, Stronger Density And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Hereditary Moments And Actual Dense-Core Flags
+## Current Extension: Arbitrary Flats And Rank-Eight-Level Density
+
+Read the two new proofs and section nine of the original-source assembly.
+The publication hand audit checked the following scope-sensitive steps:
+
+- Completeness of the chosen flat inside H gives a nonzero annihilator
+  quotient outside its FULL locator. Actual rank and polynomial degree
+  decrease together. No maximum-density premise on that chosen flat is used.
+- A quotient flat lifts to a larger original flat containing all inside
+  coordinates. The greedy quotient count and the density bound retain
+  that occupancy, not a favorable guessed intersection with another flat.
+- Ordered interleavings recover the inside positions and first quotient
+  basis; distinct constructions do not double-count bases. Exact inside
+  extension counts absorb signed tangent terms. Negative tails use upper
+  ratios, while positive tails use lower ratios; only positive lower counts
+  may be multiplied by a lower quotient count.
+- The source density supplies integer caps for EVERY chosen LOW core.
+  The actual dense flag gives a strict size lower bound and hence ONSET.
+  Intersecting with this necessary onset removes infeasible parameter
+  boxes, not original slopes or possible core witnesses.
+- Every certificate box satisfies the balanced quotient's rank, degree
+  and density gate over its entire range. For floor-containing factors,
+  ranks <=7 are nondecreasing in J, rank eight is constant, and the root
+  branch dominates at ranks nine and ten. This proves the endpoint directions.
+- The earlier density supplier covers J<=24537. All remaining integer
+  degrees and flag sizes lie in the 78-block, 2038-box certificate. Every
+  record gets its own available lower tuple count on ONE shared resource;
+  the proof does not add separate budgets for flags or source cases.
+- Original-source transport retains the fixed carrier, field, labels and
+  full-code-bad supports. The single original near allowance remains unique.
+  Root capacity at a maximizing rank j>=8 implies h<=(J-3)/8, so the
+  contrapositive excludes EVERY such maximizing flat on an over-budget line.
+
+No issue was found at the printed scope. This is local hand review of
+the extension and transport, not an exhaustive new audit of every inherited
+lemma. Exact arithmetic and small actual polynomial controls supplement
+the hand proofs; external independent mathematical review remains due.
+No new whole degree interval or unrestricted row is paid. The unfinished
+first-excess work is not imported or assumed.
+
+## Previous Extension: Hereditary Moments And Actual Dense-Core Flags
 
 Read the four new linked proofs in the README and sections seven/eight of
 the revised original-source assembly. The publication hand audit checked:

@@ -1,5 +1,14 @@
 # Hand Audit Of The Original-Source Interface
 
+The rank-eight-density continuation is transported with the SAME original
+|Z_bad|<=|Z|+134944 inequality and no extra near event. Its auxiliary
+core-flat quotients are not receiver children. Independent finite engines
+check all 2038 flag-cost boxes and 78 degree blocks; source transport
+itself is a hand proof. The new total stays below the old assembly maximum.
+The root-capacity contrapositive excludes every maximizing rank >=8,
+not merely a chosen maximizing flat. Twelve new gate controls check exact
+integer density boundaries, interval endpoints and the original reserve.
+
 The earlier repeated transport nonclaim was appropriately conservative
 for each isolated normalized theorem, but it is not an outstanding
 mathematical premise for this assembled rank-twelve source class. The

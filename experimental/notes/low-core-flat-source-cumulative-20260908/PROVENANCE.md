@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `88f4cf81c633c7a45ad5d82c5186edc0dbc2b39d`.
+- Previous companion: `0f2d9e8f9b1526af593e413b6c6cd6f88b60e8b0`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -29,6 +29,31 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. A complete core flat need not maximize density to give a valid
+   annihilator-quotient count, signed inside-extension count and BOX bound.
+   This reconstructs the source scope of the earlier density-aware lemma;
+   that lemma and the hereditary balanced-product theorem are prerequisites.
+2. On J=23000..29999, h<=(J-3)/8 pays the normalized source by
+   274977202549132026 including original near. Counting through actual
+   dense-flag upper flats removes the rank-eight/rank-nine maximizing-source
+   survivors without hypothesizing their absence. Every over-budget source
+   has every maximizing flat of rank <=7 on the whole interval.
+
+The source-level conclusion uses the established original-source bridge,
+not a new receiver descent. It gives no new whole-degree interval or upper
+census of all remaining labels. The earlier flag alternative, raw-margin
+costs, density payment and original tuple resource are credited suppliers.
+No general literature novelty or external acceptance is claimed.
+
+The manifest freezes 546 proof/control sources (1567800 bytes), with a
+53-node assembly and separate nine-node scalar inventory. It adds 15 files,
+revises seven assembly files and preserves 524 parent files byte-for-byte.
+Its `rank_eight_extension` records the immediate parent, parent manifest
+hash, previous revised-source hashes and exact scope. Exploratory scripts
+and unfinished first-excess nodes are excluded.
+
+## Previous Density And Dense-Core-Mass Contribution Retained
 
 1. A hereditary capped second-moment theorem proves the balanced basis
    product under an explicit proper-flat coordinate-density guard. The
@@ -54,7 +79,7 @@ No general literature novelty, active-v4 atom or external acceptance is
 claimed. Prior raw-margin, defect-insertion and normalization results are
 credited prerequisites, not new contributions.
 
-The manifest freezes 531 proof/control sources (1531170 bytes), with a
+That parent manifest froze 531 proof/control sources (1531170 bytes), with a
 51-node assembly and separate nine-node scalar inventory. It adds 30 files,
 revises seven assembly files, and preserves the other 494 parent files
 byte-for-byte. Its `density_flag_extension` records the parent manifest
@@ -214,13 +239,19 @@ balanced-basis supplier's moment proof (NOT its density premise)
     -> necessary dense-core label mass on 23000..29999
     -> original-source assembly, NO upper census or free receiver descent
 
+density-aware completion + hereditary balanced bases
+    -> arbitrary complete-core-flat counting (no maximizing-flat premise)
+    + actual dense flags + original LOW/HIGH tuple costs
+    -> h<=(J-3)/8 payment throughout J=23000..29999
+    -> original-source assembly: every over-budget maximizing rank <=7
+
 receiver-fiber peeling + projected receiver-flat transport
     + common-core saturated-support transport
     -> full-fiber scalar-incidence ledger / quantified profile corollary
     -> evidence only; NOT an input to the interval assembly
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 51-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 53-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
@@ -233,9 +264,9 @@ it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent 88f4cf81, 494 source files remain byte-for-byte unchanged.
-Thirty sources are added and seven assembly sources are revised, for 531
-sources and 1531170 source bytes. Only small `.md`
+Relative to parent 0f2d9e8f, 524 source files remain byte-for-byte unchanged.
+Fifteen sources are added and seven assembly sources are revised, for 546
+sources and 1567800 source bytes. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
 exploratory receiver-flat script, package environment or Modal job is included.
 Not every historical helper is part of the selected bounded replay.
@@ -255,22 +286,22 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`density_flag_extension` records the immediate parent, its manifest
+`rank_eight_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 51-node graph; the older parent metadata remains
+is updated to the current 53-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
 The original maximum-density, contraction, complete-core and quotient-density proof bytes
-remain unchanged. Seven original-source assembly files add the source-density
-and necessary mass conclusions; the four new suppliers contribute thirty
-proof/control files. The whole-degree range is unchanged.
-The earlier `refined_scalar_extension` retains its own immutable parent
+remain unchanged. Seven original-source assembly files add the stronger
+density conclusion; the two new suppliers contribute fifteen proof/control
+files. The whole-degree range is unchanged.
+The earlier `density_flag_extension` and `refined_scalar_extension` retain their immutable parent
 and source-history record. Exploratory scripts are excluded. Frozen source-local
 sentences saying a continuation is local describe prepublication custody,
 not a conditional proof status or independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The density, flag-mass, scalar-ledger and revised assembly links in README are the current
+The stronger-density, flag-mass, scalar-ledger and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.

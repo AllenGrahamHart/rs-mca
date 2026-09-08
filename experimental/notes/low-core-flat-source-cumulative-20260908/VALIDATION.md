@@ -3,7 +3,56 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Density And Dense-Core-Flag Extension
+## Current Arbitrary-Flat And Stronger-Density Extension
+
+Publication checks on the exported sources, serial under RAMguard tiny
+(256 MiB RAM, 64 MiB swap, 60-second process-tree limit):
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --rank-eight-only` | 4/4 PASS | 3.05 seconds | 20384 KiB |
+| `python3 -B -O replay.py --rank-eight-only` | 4/4 PASS | 2.85 seconds | 23720 KiB |
+| `python3 -B replay.py --density-only` | 7/7 PASS | 1.63 seconds | 20648 KiB |
+| `python3 -B replay.py --inherited-only` | 92/92 PASS | 9.23 seconds | 25200 KiB |
+
+These cover 101 distinct normal checkers; the assembly repeats across
+modes. Six unchanged quotient/refined/scalar checkers were not rerun:
+their successful parent replays and byte-identical sources are retained.
+The complete suite has 107 distinct checks, split across five README modes.
+No fresh complete-suite replay or optimized older-assertion suite is claimed.
+
+The generic controls cover three actual polynomial spaces, 287 complete
+flats and 1435 tangent choices, including 65 nonmaximizing flats. Primary
+rational and independent scaled-integer arithmetic agree on all 78 basic
+comparisons and 2038 flag-cost boxes. Both reject 4076 adjacent wrong
+floors; five broken degree covers fail. The exact certificate digest is
+`aa67aff314740d5cebcbd03b85dec7e136cea67b009740ad1bdc28ee4dde05d7`.
+The assembly checks the stronger gate's twelve boundary cases as well as
+its existing interval, fiber, older-density and label-mass controls.
+
+Each invocation checks all 546 frozen sources, the 53-node acyclic assembly
+and separate nine-node scalar inventory. Sixteen malformed manifests fail,
+including removal of each new theorem's required inputs; the baseline then
+passes again. Hashes establish source identity, not mathematical truth.
+Current manifest SHA-256:
+
+~~~text
+d214c084c4b940f90c792132f20312cd01daf716bffbd72e8b1600d576c00be9
+~~~
+
+The exporter verified all 531 parent sources, added 15 and revised seven
+assembly files; 524 remain byte-identical. The source total is 1567800
+bytes. Parent manifest hash:
+`7abbe186dae83850f6dd148289777aa2a4d253397d80be61f2f6950034f4c2c6`.
+No Modal task, spending, original-field search or unfinished first-excess
+work is included. This export changes no mathematical DAG status or edge;
+global DAG/crosswalk diagnostics were not rerun or declared fixed.
+The hand audit is recorded separately; external mathematical review is due.
+
+## Parent 0f2d9e8f Density And Dense-Core-Flag Replay Retained
+
+The following historical measurements apply to the 531-source parent,
+not the current extension. Its unchanged sources remain hash-verified.
 
 Publication checks on the exported sources, serial under RAMguard tiny
 (256 MiB RAM, 64 MiB swap, 60-second process-tree limit):

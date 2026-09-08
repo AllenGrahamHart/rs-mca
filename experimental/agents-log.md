@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Exclude rank-eight and rank-nine maximizing-flat survivors
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Arbitrary complete-core-flat basis counting and
+  the source-class payment h<=(J-3)/8 on J=23000..29999, with exact total
+  274977202549132026 including original near. The original-source bridge
+  forces EVERY maximizing source flat of an over-budget rank-twelve
+  selection to have rank <=7 throughout this interval.
+- **How it is useful:** K3 / DIRECT, extending the established #1175
+  companion. Fifteen new frozen proof/control sources and seven revised
+  assembly sources; 53-node assembly inventory. The four focused checks
+  pass normally and under -O, with independent arithmetic on 2038 boxes.
+  Seven preceding density and 92 inherited checks pass, below 25 MiB RSS.
+  The residual stays J=9941..29999; no whole-degree or unrestricted closure.
+- **What to do next:** Independently review arbitrary-flat quotient counting,
+  signed ratios, exhaustive box coverage and original-source transport.
+  Attack the remaining rank-at-most-seven maximizing-flat sources with
+  inherited source charges retained. No compute request or Modal spending.
+
 ### 2026-09-08 - Bounded-density payment and necessary dense-core slope mass
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

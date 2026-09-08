@@ -178,6 +178,23 @@ This proves the new necessary mass and rank/degree restrictions for every
 complete original rank-twelve selection in that interval. It does not
 assert an upper census or enlarge the already paid degree intervals.
 
+## 9. Transport The Stronger Density Gate
+
+Keep the same normalized dimension-eleven carrier from sections 2 and 3.
+For 23000<=J<=29999 and h<=(J-3)/8, the new required supplier pays
+|Z|+134944<=274977202549132026<(ORIGINAL). No new near event occurs,
+and the whole-line alternatives still combine by maximum, not addition.
+The supplier's arbitrary core flats and their quotients are used only to
+count tuples belonging to the same original labels. They do not replace
+the original source, field, denominator or full-code-badness contract.
+
+For any maximizing rank-j flat, the polynomial root-space bound gives
+h<=1+(J-11)/j. This is <=(J-3)/8 when j>=8. The contrapositive
+therefore excludes EVERY maximizing flat of rank >=8, for EVERY complete
+post-near rank-twelve selection of an over-budget original line in this
+interval. The narrower degree region and original error-rank alternatives
+are unchanged. No upper census of the remaining dense labels is inferred.
+
 ## Scope And Provenance
 
 The gauge and core identification are already proved in the rank-twelve

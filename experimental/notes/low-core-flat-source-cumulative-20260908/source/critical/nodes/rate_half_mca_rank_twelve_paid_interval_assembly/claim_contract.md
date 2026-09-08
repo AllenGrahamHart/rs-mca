@@ -1,5 +1,12 @@
 # Exact Contract
 
+The stronger source gate h<=(J-3)/8 on 23000..29999 uses the SAME
+normalized carrier's maximum proper-flat coordinate density. Its bound
+already includes original near and is below the existing whole-line maximum.
+Every maximizing flat is rank <=7 on a remaining over-budget source there.
+Arbitrary core-flat quotients count bases only; they do not authorize
+receiver descent, label loss or a new source normalization.
+
 - The original field, code, agreement, near definition and finite-affine
   slope denominator are those in statement.md and the required suppliers.
 - Select one explanation and full-code-bad witness for EVERY post-near

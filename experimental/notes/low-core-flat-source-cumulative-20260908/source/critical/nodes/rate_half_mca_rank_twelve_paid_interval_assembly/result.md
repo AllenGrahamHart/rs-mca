@@ -36,5 +36,11 @@ flag has rank <=7; rank seven gives an auxiliary degree <=5628 quotient.
 This is a required mass on an unsafe source, not a proved upper census.
 
 The refined interval and separate scalar ledger are public at 88f4cf81;
-the bounded-density class and dense-core mass are LOCAL. External review and any
-active-v4 owner integration remain separate obligations.
+the preceding bounded-density class and dense-core mass are public in
+0f2d9e8f. External review and any active-v4 owner integration remain separate.
+
+The NEW rank-eight-level density gate h<=(J-3)/8 pays 23000..29999
+by 274977202549132026. Every surviving maximizing source flat is now
+rank <=7 throughout that interval, not just its lower part. This stronger
+source class is LOCAL. Neither the whole-line maximum nor the 20059-degree
+residual changes, and no original red or unrestricted endpoint closes.

@@ -50,6 +50,7 @@ def main():
     verify_receiver_gates()
     verify_density_gates()
     verify_dense_core_mass()
+    verify_rank_eight_gate()
     print("PASS: exact original-g partition, child intervals, one near and field reserve")
     print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..29999")
     print("The source bridge is a hand proof, not certified by this arithmetic check")
@@ -97,6 +98,25 @@ def verify_dense_core_mass():
     check(7*(102451841872190189-1)<=8*(budget-185335366473228672)
           <7*102451841872190189,"pointwise endpoint mass")
     print("PASS: original-label dense-core mass and rank/degree boundaries; no upper census")
+
+
+def verify_rank_eight_gate():
+    def gate(J, rank, size):
+        return 23000 <= J <= 29999 and 1 <= rank <= 10 and 8*size <= rank*(J-3)
+    controls = ((23000,8,22997,True), (23000,7,22996,False),
+                (29999,8,29996,True), (29999,9,29997,True),
+                (29999,10,29998,True), (27000,7,23622,True),
+                (27000,7,23623,False), (29999,7,26246,True),
+                (29999,7,26247,False), (22999,8,22996,False),
+                (30000,8,29997,False), (23000,11,23000,False))
+    for J,rank,size,expected in controls:
+        check(gate(J,rank,size)==expected, "new exact integer density gate")
+    for rank in (8,9,10):
+        check((rank-8)*23000+88-11*rank>=0, "all maximizing ranks >=8 paid")
+    total=274977202549132026
+    check(total<274979661975561635 and 2130706433**6//2**128-total==3525562263061,
+          "new total below original maximum with reserve")
+    print("PASS: twelve stronger density controls; every maximizing rank >=8 excluded")
 
 
 if __name__ == "__main__":
