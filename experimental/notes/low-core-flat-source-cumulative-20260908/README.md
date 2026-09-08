@@ -1,4 +1,4 @@
-# KoalaBear MCA: fiber contraction and original rank-twelve intervals
+# KoalaBear MCA: receiver-fiber classes and original rank-twelve bounds
 
 ~~~yaml
 workboard_item: K3
@@ -7,7 +7,7 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: an original line with a complete post-near selection of error rank <=11, or rank twelve and complete shared core g outside 995577..1038635, has |Z_bad|<=274979661975561635
+direct_statement: an original line satisfying the rank/core gate or either rank-twelve receiver-fiber gate below has |Z_bad|<=274979661975561635
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
@@ -48,11 +48,53 @@ selection, either:
 - error affine rank at least thirteen; or
 - error affine rank twelve and `J=1048576-g` in **9941..52999**.
 
+For rank twelve, this extension additionally requires every complete
+nonzero projective evaluation fiber of the normalized carrier to have
+size at most `J-2001` when `J>=14000`, and at most `ceil(J/2)-1` when
+`J>=45000`. These are necessary restrictions on an over-budget line,
+not automatic facts about every carrier. The numerical J interval stays
+unchanged: no new whole interval or rank closure is claimed.
+
 The existing all-rank restriction `g<=1043775` also remains. This is a
 necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
 ## What Is New In This Extension
+
+The [receiver-fiber theorem](source/critical/nodes/mca_receiver_fiber_peeling/statement.md)
+and [finite payment](source/critical/nodes/rate_half_mca_receiver_fiber_payment/statement.md)
+pay two additional WHOLE-source classes inside the remaining interval.
+For one complete nonzero evaluation fiber of size b:
+
+| Normalized degree J | Fiber gate | Bound on original slopes, including near |
+| --- | --- | ---: |
+| 14000..52999 | b >= J-2000 | 248408859318207582 |
+| 45000..52999 | b >= ceil(J/2) | 272112051300507362 |
+
+The existing [original-source assembly](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+transports both results below the unchanged main bound. Either gate
+suffices; these are alternative whole-line bounds, not payments to sum
+over fibers. The exact normalized source hypotheses remain full-code
+badness and empty universal carrier core, with actual dimension eleven.
+No maximal-raw selector or child post-near property is required.
+
+The new information is the fixed receiver: normalize BOTH received
+values along one fiber. A frozen pair's complete joint core meets it
+in one actual value class. There are at most ten classes larger than
+b/11, or one larger than b/2. For each such class of size t, charge
+at most b-t exceptional ORIGINAL labels before dividing by the COMPLETE
+fiber locator. Same-field full child caps pay the remaining labels.
+The light records still share one original incidence-tuple resource;
+LOW and HIGH combine by maximum. Only disjoint, explicitly counted
+heavy classes can be added. The original near allowance occurs once.
+
+This pays the earlier isolated-core method-boundary carrier at J=25000
+for every allowed receiver, but not at J=10000. It does not refute that
+boundary: the new proof uses collective receiver information absent from
+uniform isolated-core pricing. The unfinished higher-flat/shared-budget
+extension is deliberately excluded from this snapshot.
+
+## Earlier Interval Results Retained
 
 ### 1. Fiber Contraction Extends Coverage To 53000
 
@@ -152,19 +194,22 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `6562b807`, this extension adds 18 proof/control sources
-and revises five assembly files; 401 parent sources stay byte-identical.
-There are 424 hashed sources and a 38-node acyclic requirement inventory,
+Relative to parent `47d527e5`, this extension adds 15 proof/control sources
+and revises seven assembly files; 417 parent sources stay byte-identical.
+There are 439 hashed sources and a 40-node acyclic requirement inventory,
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
-linked contraction and original-source assembly are the current authority.
+linked receiver-fiber and original-source assembly statements are the
+current authority. Source-local descriptions of the continuation as
+"local" record its prepublication custody, not a conditional proof status.
 
 Still open: rank twelve on **9941..52999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-No new compute request, Modal spending or speculative receiver-class
-extension is included. To replay only the five extension checks, use
-`python3 -B replay.py --contraction-only` from this packet directory;
-adding `-O` also optimizes those five explicitly guarded children.
+No new compute request, Modal spending or unfinished receiver-flat
+extension is included. To replay just the four new checks, use
+`python3 -B replay.py --receiver-only` from this packet directory;
+adding `-O` also optimizes those four explicitly guarded children.
+The earlier `--contraction-only` mode remains available.

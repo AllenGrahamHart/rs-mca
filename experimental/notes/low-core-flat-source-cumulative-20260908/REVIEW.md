@@ -1,15 +1,51 @@
-# Review: Fiber Contraction And Original-Source Transport
+# Review: Receiver-Fiber Classes And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## New Extension: Contract The Whole Fiber
+## New Extension: Use Actual Receiver Classes
+
+Read the [generic proof](source/critical/nodes/mca_receiver_fiber_peeling/proof.md),
+[finite proof](source/critical/nodes/rate_half_mca_receiver_fiber_payment/proof.md)
+and the assembly's additional receiver-fiber section first.
+
+- Normalize both received values by the nonzero evaluation scale. A
+  frozen pair core meets the fiber in its entire actual value class,
+  not an independently chosen subset. Labels have disjoint ownership.
+- Heavy means STRICTLY larger than theta times the fiber size. This
+  gives at most ceil(1/theta)-1 classes, including equality boundaries.
+- Charge at most b-t original exceptions before dividing by the whole
+  fiber locator. The actual annihilator has dimension s-1 and degree
+  below K-b; the selected explanation span may shrink further.
+- Full-code badness survives by lifting the complete scalar agreement
+  set and using connected one-point exchanges for exact bad subsets.
+  The agreement parameter used here is m-b. No child zero-core or
+  post-near premise is silently imposed on the full child cap.
+- The degree-2000 cap uses same-field padding, not unproved monotonicity
+  of a Johnson bound in the degree. The dimension-ten cap is already
+  proved uniformly over arbitrary received children.
+- Light-core occupancy is restricted on the SAME original fiber.
+  Log-concavity and strict derivative bounds cover every integer degree
+  and fiber size in the two stated ranges, not just sampled endpoints.
+- LOW and HIGH share a resource and combine by maximum. Disjoint heavy
+  classes are separately counted and added, then original near is added
+  once. These are whole-source bounds, never additive per-fiber owners.
+
+The tiny controls include an exceptional label whose punctured set
+becomes good, a nonuniversal carrier zero retained outside the fiber,
+nonconstant evaluation scales, two heavy classes and a strict-threshold
+equality case. They supplement, rather than certify, the universal proof.
+This publication hand review found no issue at the stated scopes.
+The more ambitious receiver-flat continuation has not completed its audit
+and is not included. The original J interval stays 9941..52999.
+
+## Previous Extension: Contract The Whole Fiber
 
 Read the [generic proof](source/critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md)
 and [finite certificate proof](source/critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md)
-first. The previous maximum-density and original-source arguments below
-are unchanged apart from the assembly's paid interval.
+for the interval already in the parent. The previous maximum-density
+and original-source arguments below remain prerequisites.
 
 - The fiber is relative to the counted core, not a receiver puncture.
   Its complete locator leaves every quotient evaluation nonzero and

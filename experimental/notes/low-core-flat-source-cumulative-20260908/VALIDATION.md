@@ -5,27 +5,44 @@ arithmetic/control replays, not external mathematical review or formal proof.
 
 | Replay | Result | Wall Time | Peak RSS |
 | --- | --- | ---: | ---: |
-| Normal Python wrapper | 82/82 PASS | 4.81 seconds | 18636 KiB |
-| Optimized Python wrapper | 82/82 PASS | 4.87 seconds | 22112 KiB |
-| Five extension checkers directly under -O | 5/5 PASS | 0.79 seconds | 21492 KiB |
+| Normal Python wrapper | 85/85 PASS | 4.73 seconds | 18560 KiB |
+| Optimized Python wrapper | 85/85 PASS | 4.90 seconds | 22224 KiB |
+| Four receiver checkers, normal | 4/4 PASS | 0.37 seconds | 18604 KiB |
+| Four receiver checkers directly under -O | 4/4 PASS | 0.64 seconds | 21968 KiB |
 
-Both full runs check all 424 frozen sources, the 38-node acyclic requirement
+Both full runs check all 439 frozen sources, the 40-node acyclic requirement
 inventory and six rejected source/inventory mutations: wrong hash, duplicate
 file, omitted file, nonlocal path, omitted proof root and cyclic requirement.
 The unchanged baseline passes again. Manifest SHA-256:
 
 ~~~text
-6f70eb2a437c17eeb06b34c04eedbcc01b2e4919ebe8ac5c683a7db9d35fb521
+22b2a176c8acc23e12441b1d08b7c99a0922616abca22b4d4566e6eb843cc469
 ~~~
 
-Parent 6562b807's manifest hash is
-`97262ebcafd696b331152effec6491826a70d6c7adef861967f22acd2d7a349d`.
-The 401 unchanged parent sources, 18 additions and five revised assembly
-sources were checked against that Git parent and the dirty origin snapshot.
-There are 1252293 source bytes. The prior validation is preserved at
-[parent 6562b807](https://github.com/AllenGrahamHart/rs-mca/blob/6562b80720397fbc5f0815d53715c72c15c8f6f5/experimental/notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
+Parent 47d527e5's manifest hash is
+`6f70eb2a437c17eeb06b34c04eedbcc01b2e4919ebe8ac5c683a7db9d35fb521`.
+The exporter checked all 424 frozen parent sources before adding 15 sources
+and revising seven assembly sources from the dirty origin. The other 417
+remain byte-identical. There are 1291442 source bytes. The prior validation
+is preserved at
+[parent 47d527e5](https://github.com/AllenGrahamHart/rs-mca/blob/47d527e5f0ffce97bec470d36e5aabffea0558d7/experimental/notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
 
 ## New Checks
+
+- Two tiny actual polynomial sources check receiver colors, complete
+  versus selected cores, exact scalar-agreement sets and full-code
+  badness before/after transport. The exception charge is necessary in
+  one control; the other retains nonconstant scales, two heavy colors
+  and a nonuniversal carrier zero. Equality is not counted as heavy.
+- Independent rational and scaled-integer arithmetic checks the
+  degree-2000 Johnson ceiling, four LOW floors, two HIGH floors,
+  interval derivative gates and disjoint heavy/light composition.
+  Eight off-by-one LOW-floor mutations are rejected.
+- The assembly checker keeps its six interval/budget mutations and
+  adds eleven receiver-fiber gate boundary controls. It retains the
+  same original numerical residual and one near allowance.
+
+## Retained Contraction Checks
 
 - Four actual polynomial carriers check the full-fiber locator division,
   actual rank and degree, preserved gap and exact ordered-basis recurrence.
@@ -65,10 +82,10 @@ There are 1252293 source bytes. The prior validation is preserved at
 
 The wrapper runs children serially, with a 15-second timeout per child,
 bytecode disabled and PYTHONOPTIMIZE cleared. Older assertion-based
-children remain unoptimized even in the optimized-wrapper run. The five
-extension checkers also passed directly with -O using explicit checks,
-via `python3 -B -O replay.py --contraction-only`. That optional mode
-checks the entire source inventory but runs only the five extension scripts;
+children remain unoptimized even in the optimized-wrapper run. The four
+receiver-fiber checkers also passed directly with -O using explicit checks,
+via `python3 -B -O replay.py --receiver-only`. That optional mode
+checks the entire source inventory but runs only the four selected scripts;
 it is not reported as a full supplier replay.
 
 Each run was enclosed in RAMguard tiny: 256 MiB RAM, 64 MiB swap and

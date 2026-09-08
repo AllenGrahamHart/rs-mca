@@ -46,9 +46,27 @@ def main():
             pass
         else:
             raise ValueError("accepted interval/budget mutation")
+    verify_receiver_gates()
     print("PASS: exact original-g partition, child intervals, one near and field reserve")
     print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..52999")
     print("The source bridge is a hand proof, not certified by this arithmetic check")
+
+
+def verify_receiver_gates():
+    def paid(j, a):
+        return ((14000 <= j <= 52999 and a >= j-2000)
+                or (45000 <= j <= 52999 and 2*a >= j))
+    controls = ((14000, 12000, True), (14000, 11999, False),
+                (13999, 13989, False), (25000, 24990, True),
+                (10000, 9990, False), (45000, 22500, True),
+                (45000, 22499, False), (44999, 22499, False),
+                (52999, 26500, True), (52999, 26499, False),
+                (53000, 52990, False))
+    for j, a, expected in controls:
+        check(paid(j, a) == expected, "exact receiver-fiber gate")
+    check(max(248408859318207582, 272112051300507362) < 274979661975561635,
+          "new source classes fit existing original maximum")
+    print("PASS: eleven receiver-fiber boundary controls; no new all-carrier J interval")
 
 
 if __name__ == "__main__":

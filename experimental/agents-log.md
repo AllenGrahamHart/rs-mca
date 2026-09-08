@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Receiver-fiber classes inside the original rank-twelve residual
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Normalizing both received values on a complete
+  evaluation fiber gives disjoint heavy classes, explicit exceptional
+  original labels and full lower-dimensional child caps. The finite
+  theorem pays a fiber >=J-2000 on 14000..52999, or >=ceil(J/2) on
+  45000..52999, below the existing original whole-line bound.
+- **How it is useful:** K3 / DIRECT, on the existing #1175 companion
+  branch. These exclude additional original rank-twelve carrier classes
+  inside the interval left by the parent contraction result. The 439
+  frozen sources have 85 passing serial checks, below 22 MiB peak RSS.
+- **What to do next:** Review full-code badness through locator division,
+  exception ownership, all-interval inequalities and single near add-back.
+  The numerical residual remains J=9941..52999; ranks >=13, the unrestricted
+  row and both prizes remain open. Unfinished receiver-flat work excluded.
+
 ### 2026-09-08 - Maximum-density bases and original rank-twelve interval assembly
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

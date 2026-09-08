@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `6562b80720397fbc5f0815d53715c72c15c8f6f5`.
+- Previous companion: `47d527e5f0ffce97bec470d36e5aabffea0558d7`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -29,6 +29,24 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. Actual normalized receiver-pair classes on a complete evaluation
+   fiber, strict heavy-class counting and same-field child transport
+   with explicit exceptional original labels.
+2. Full child caps plus restricted light-core tuple counts pay a fiber
+   of size >=J-2000 on 14000..52999, or >=ceil(J/2) on 45000..52999.
+   The respective whole-source totals are 248408859318207582 and
+   272112051300507362, each including one original near allowance.
+3. The existing original-source assembly retains its numerical residual
+   J=9941..52999 but excludes these two additional carrier classes.
+
+The generic receiver result has a quantified full child cap as a
+composition input. The finite theorem discharges it with proved suppliers;
+it is not a new conjectural leaf. Earlier padded-Johnson, scalar-descent,
+fiber-basis and source-transport results are credited prerequisites, not
+new claims. No high-dimensional projected-flat extension is exported.
+
+## Parent Contribution Retained
 
 1. Exact complete-fiber contraction of polynomial evaluation bases,
    a rank-three quadratic seed and a two-profile quadratic induction.
@@ -70,9 +88,15 @@ common-core saturated-support transport
     + common-core extremes + high interval + lower strip
     -> original rank-twelve paid-interval assembly
     -> restriction J=9941..52999 or original rank >=13
+
+fiber-basis resource + saturated-support transport
+    -> receiver-fiber peeling
+    + padded Johnson + full scalar-descent caps
+    -> two finite receiver-fiber source classes
+    -> original assembly: additional carrier restrictions in same J gap
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 38-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 40-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
@@ -82,11 +106,11 @@ it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent 6562b807, 401 source files remain byte-for-byte unchanged.
-Eighteen sources are added and five assembly sources are revised, for 424
+Relative to parent 47d527e5, 417 source files remain byte-for-byte unchanged.
+Fifteen sources are added and seven assembly sources are revised, for 439
 sources. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
-exploratory contraction script, package environment or Modal job is included.
+exploratory receiver-flat script, package environment or Modal job is included.
 Not every historical helper is part of the selected bounded replay.
 
 The prior sixteen older statement/contract/result/dependency descriptions have since
@@ -104,14 +128,19 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`fiber_contraction_extension` records the immediate parent, its manifest
+`receiver_fiber_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 38-node graph; the older parent metadata remains
+is updated to the current 40-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
+The current snapshot deliberately retains the old maximum-density and
+contraction proof bytes, excluding local unfinished rank-five/receiver-flat
+changes. The frozen assembly's prepublication custody sentences saying
+the receiver continuation is local are historical; this packet exports it
+for review without asserting independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The new contraction and revised assembly links in README are the current
+The new receiver-fiber and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.

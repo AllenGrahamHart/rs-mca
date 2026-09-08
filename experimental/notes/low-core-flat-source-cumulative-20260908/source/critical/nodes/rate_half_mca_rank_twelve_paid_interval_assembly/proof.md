@@ -124,6 +124,25 @@ the EVERY-selection restriction on any over-budget original line.
 Changing a selection may change a and G; no favorable choice is assumed
 to exist. The existing all-rank large-core restriction remains valid.
 
+## 6. Additional Actual Receiver-Fiber Classes
+
+In the remaining interval, sections 1--3 already give a fixed actual
+dimension-eleven normalized carrier V', the same labels and field,
+full-code-bad supports and empty universal core. The required receiver-
+fiber payment applies directly, with no canonical reselection or new
+common-core cancellation. It pays a fiber of size >=J-2000 on
+14000..52999 by 248408859318207582, or a fiber of size >=ceil(J/2)
+on 45000..52999 by 272112051300507362. Both totals include the one
+original near allowance and are below (ORIGINAL).
+
+Use one such fiber if it exists. This bounds the entire original family,
+not only the labels agreeing on that fiber: the receiver-class theorem
+separately pays the remaining labels on the original incidence resource.
+Do not sum these whole-source bounds over multiple fibers. Taking the
+contrapositive for every complete original selection proves the additional
+carrier restrictions in the statement. No new degree interval or original
+error-rank bound has been proved.
+
 ## Scope And Provenance
 
 The gauge and core identification are already proved in the rank-twelve
@@ -140,5 +159,6 @@ changes only the paid range in section 5, not the source bridge or add-back.
 This is a DIRECT original-source theorem, not a claimed active-v4 atom.
 An owner ledger is unnecessary for its direct conclusion; bankability
 inside such a ledger would require its separate owner contract. Error
-ranks >=13 and rank twelve on the remaining interval are unpaid.
+ranks >=13 and rank twelve in the remaining interval outside the new
+paid receiver-fiber classes are unpaid.
 No unrestricted endpoint, LIST theorem or full prize claim is made.

@@ -15,7 +15,13 @@ integer values and the existing source bridge transports it immediately.
 The gauge, canonical reselection and nonuniversal-zero accounting are
 unchanged. The assembly remains PROVED; the original target remains TARGET.
 
+The receiver-fiber continuation now also pays fibers >=J-2000 on
+14000..52999, or >=ceil(J/2) on 45000..52999, without changing the
+whole-line maximum. Every over-budget original rank-twelve selection
+must fail both applicable fiber gates. This adds source restrictions,
+not another all-carrier interval or an original rank bound.
+
 No unconditional unrestricted safe endpoint or full prize is proved.
-The earlier assembly with residual 9941..64999 is public at 6562b807.
-This contraction extension is local. External review and any active-v4
+The interval-only contraction assembly is public at 47d527e5; this new
+receiver-fiber extension is local. External review and any active-v4
 owner integration remain separate obligations.

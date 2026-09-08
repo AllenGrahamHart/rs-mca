@@ -52,3 +52,21 @@ prize resolution follows.
 The contraction extension adds J=53000..64999 to the paid classes.
 The previously published version at 6562b807 had residual 9941..64999;
 the source interface and uniform total are unchanged.
+
+## Additional Receiver-Fiber Classes
+
+For a rank-twelve selection let V' be the normalized carrier furnished
+by the source bridge above. The SAME bound (ORIGINAL) also holds if
+V' has a complete nonzero projective evaluation fiber of size b satisfying
+either of the following gates:
+
+    14000<=J<=52999 and b>=J-2000;
+    45000<=J<=52999 and b>=ceil(J/2).
+
+Here b is a coordinate count, not the original error rank a. These are
+alternative whole-line sufficient conditions, not charges to add over fibers.
+Thus every over-budget original rank-twelve selection additionally has
+every such fiber of size at most J-2001 when J>=14000, and at most
+ceil(J/2)-1 when J>=45000. The numerical interval J=9941..52999 remains;
+only its possible carriers are restricted further. This continuation is
+local and is not part of the earlier published interval-only snapshot.

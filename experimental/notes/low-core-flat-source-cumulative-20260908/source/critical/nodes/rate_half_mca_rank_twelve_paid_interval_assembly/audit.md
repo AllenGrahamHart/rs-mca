@@ -33,6 +33,13 @@ entire near-inclusive bound is maximized with the other alternatives,
 not added. The two middle intervals reverse correctly under J=K-g.
 No unsafe endpoint or all-source rank bound is inferred.
 
+The receiver-fiber continuation uses exactly this fixed normalized child,
+without cancelling extra carrier zeros or repeating the near removal.
+Its exception charges are inside its heavy-class payment; all original
+labels are included in the resulting whole-source total. One qualifying
+fiber suffices, and different fiber totals are not summed. The original
+numeric residual stays unchanged, with two additional carrier restrictions.
+
 Verdict: NO ISSUE at the direct original-source scope. The individual
 normalized suppliers remain subject to their recorded external review;
 this local interface audit is not external acceptance or a formal build.

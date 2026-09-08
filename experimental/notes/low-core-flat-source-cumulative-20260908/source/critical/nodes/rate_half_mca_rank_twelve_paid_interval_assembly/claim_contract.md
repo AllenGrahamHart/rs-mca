@@ -18,6 +18,10 @@
   original rank/core gate is not re-tested on the reselection.
 - Each branch bounds the whole family. Take the maximum, add the original
   near allowance once, and do not sum different possible core sizes.
+- Inside the remaining J interval, one complete normalized evaluation
+  fiber meeting either receiver-class gate also pays the whole original
+  family. The lower-rank child exceptions are charged inside that supplier;
+  no original label is lost from the assembly. Do not add fiber payments.
 - This direct source-class theorem does not supply an all-source rank
   upper bound, the remaining rank-twelve interval, an active-v4 atom,
   ordinary LIST or an unrestricted prize endpoint.
