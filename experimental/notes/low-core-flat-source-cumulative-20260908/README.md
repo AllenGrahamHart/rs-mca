@@ -1,9 +1,10 @@
 # KoalaBear MCA: rank-twelve source geometry and coverage
 
-Latest addition: the [rank-six rational atlas](RANK_SIX_ATLAS.md), a
-self-contained structural theorem for one fixed core. Its 25/17 flat
-caps are NOT bad-slope counts and do not extend the paid intervals.
-The source-class theorem below is the unchanged preceding contribution.
+Latest addition: the [source-collision interval](COLLISION_PROFILE.md).
+Two generic counting lemmas pay EVERY normalized carrier on J=22500..22999,
+removing 500 whole original rank-twelve core sizes. The preceding
+[rank-six rational atlas](RANK_SIX_ATLAS.md) remains separate structural
+evidence: its 25/17 flat caps are NOT used as bad-slope counts.
 
 ~~~yaml
 workboard_item: K3
@@ -12,16 +13,16 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: original rank-twelve selections with J=20481..22999 and normalized clustered-arc gates (<=560 nonzero projective fibers, each <=2048, any <=11 distinct classes independent) imply |Z_bad|<=274545534639685994
+direct_statement: every original rank-twelve complete selection with J=22500..22999 implies |Z_bad|<=274938028871508001, without additional density or fiber-count gates
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
 projection_and_unit: all original distinct finite bad affine slopes, counted once
-claimed_bound: 274545534639685994 including ONE original near allowance
+claimed_bound: 274938028871508001 including ONE original near allowance
 status: PROVED
 impact: LOCAL_ONLY
-falsifier: an original line satisfying all required source gates but exceeding its bound
-replay: python3 -B replay.py --secant-only; python3 -B -O replay.py --secant-only; full replay uses the eleven bounded modes below
+falsifier: an original line admitting the specified complete selection but exceeding its bound
+replay: python3 -B replay.py --collision-only; python3 -B -O replay.py --collision-only; full replay uses the twelve bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -30,6 +31,41 @@ This grouped extension stays on the established companion branch to
 [#1175](https://github.com/przchojecki/rs-mca/pull/1175). It does not edit
 Hughes's branch, claim his earlier rank/near results as new, or bank a
 Grande Finale v4 atom. Neither Prize problem is resolved.
+
+## Current Contribution: Couple Source Collisions To Core Costs
+
+Relative to `643578b6`, three completed PROVED suppliers establish
+
+~~~text
+every normalized carrier J=22500..22999:
+|Gamma|+134944 <= 274938028871508001,
+reserve below B* = 42699239887086.
+~~~
+
+The [flat-split root-moment lemma](source/critical/nodes/mca_flat_split_root_moment_basis/proof.md)
+improves the first basis-contraction step using the ORIGINAL fiber moment,
+while retaining the original hereditary rank profile. The
+[Bonferroni resource lemma](source/critical/nodes/mca_fiber_collision_bonferroni_resource/proof.md)
+prices pair-collision overlaps after one explicit secant/zero-label
+exception set. They concern the same fixed source; no receiver quotient
+or separate resource for each core is introduced.
+
+The [finite theorem](source/critical/nodes/rate_half_mca_collision_profile_interval/proof.md)
+first applies the proved large-source-fiber gate. In the remaining source,
+let T count ordered equal-fiber coordinate pairs. For T<=180000000 every
+LOW core has an improved root moment, without label removal. For larger T,
+the decreasing Bonferroni bound improves the shared tuple resource, with
+ONE exception allowance. Every maximizing-flat rank 1..10, every allowed
+size and all HIGH raw margins are covered. Independent exact engines agree
+on all 40960 fixed boxes and both source branches; no sampled extrapolation.
+
+[Assembly section 15](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+transports the result to original shared-core sizes 1025577..1026076,
+retaining full-code badness, labels, field and nonuniversal carrier zeros.
+The union J=22500..169999 uses the NEW, larger cap 274938028871508001.
+The overall original bound below stays 274979661975561635. Rank twelve
+on **9941..22499**, higher ranks and the unrestricted row remain open.
+The unverified weighted-collision continuation is deliberately excluded.
 
 ## Previous Contribution: Charge Secants, Then Filter The Tuple Resource
 
@@ -87,7 +123,7 @@ unfiltered bound at the same valid cost is **309119416238808494**, above
 budget. This proves feasibility and utility of the source gate, not an
 unsafe original line or an original selection of minimal rank twelve.
 
-The unrestricted rank-twelve residual remains **J=9941..22999** and
+At that preceding snapshot the rank-twelve residual was **J=9941..22999** and
 original ranks >=13 remain open. Every over-budget rank-twelve selection
 in 20481..22999 must fail at least one of the three gates. No v4 atom,
 unrestricted endpoint, ordinary LIST result or Prize closure is claimed.
@@ -105,21 +141,21 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`1025577..1038635`. Here the core is the intersection of COMPLETE scalar
+`1026077..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..22999**.
+- error affine rank twelve and `J=1048576-g` in **9941..22499**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
 size at most `J-2001` when `J>=14000`. This is a necessary restriction
 on an over-budget line, not an automatic fact about every carrier. The
 previous half-size gate on 45000..52999 is subsumed. On the remaining
-**21000..22999**, the new stronger fiber theorem requires every such fiber
+**21000..22499**, the stronger fiber theorem requires every such fiber
 of an over-budget source to have size at most **J-6001**.
 
 The existing all-rank restriction `g<=1043775` also remains. This is a
@@ -676,8 +712,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..1025576 | 23000..169999 | 274929007493481160 |
-| **1025577..1038635** | **9941..22999** | **OPEN** |
+| 878577..1026076 | 22500..169999 | 274938028871508001 |
+| **1026077..1038635** | **9941..22499** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -687,7 +723,8 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [RANK_SIX_ATLAS.md](RANK_SIX_ATLAS.md): new per-core theorem and hand audit.
+- [COLLISION_PROFILE.md](COLLISION_PROFILE.md): new source split, exact interval and hand audit.
+- [RANK_SIX_ATLAS.md](RANK_SIX_ATLAS.md): preceding per-core theorem and hand audit.
 - [REVIEW.md](REVIEW.md): secant filtering, source transport and prior checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
@@ -696,9 +733,10 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `0a573449`, this extension adds eight proof/control sources;
-all 637 parent sources stay byte-identical. There are 645 hashed sources,
-a 65-node assembly, a separate nine-node scalar-lemma requirement inventory,
+Relative to parent `643578b6`, this extension adds 22 proof/control sources
+and revises seven original-assembly files; 638 parent sources stay
+byte-identical. There are 667 hashed sources,
+a 68-node assembly, a separate nine-node scalar-lemma requirement inventory,
 and a separate one-node structural atlas. All three are acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
@@ -707,11 +745,11 @@ linked stronger-density, flag-mass, scalar-ledger and original-source assembly s
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..22999**, higher original error ranks,
+Still open: rank twelve on **9941..22499**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these eleven serial commands cover all 128
+From this packet directory, these twelve serial commands cover all 132
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -726,9 +764,13 @@ python3 -B replay.py --two-cost-only
 python3 -B replay.py --two-cost-audit-only
 python3 -B replay.py --secant-only
 python3 -B replay.py --atlas-only
+python3 -B replay.py --collision-only
 ~~~
 
-For just this update, use `--atlas-only`: the actual-field primary and the
+For just this update, use `--collision-only`: both generic controls, the
+primary and independent finite certificates, and the revised assembly.
+`python3 -B -O replay.py --collision-only` propagates -O to all five children.
+For the preceding atlas, use `--atlas-only`: the actual-field primary and the
 independent integer/packing controls. It also supports
 `python3 -B -O replay.py --atlas-only`, propagating -O to both children.
 The preceding `--secant-only` mode runs the generic actual-source control,
@@ -746,8 +788,8 @@ optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects 40 manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 128-check run may exceed 60 seconds;
+source inventory and rejects 44 manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 132-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

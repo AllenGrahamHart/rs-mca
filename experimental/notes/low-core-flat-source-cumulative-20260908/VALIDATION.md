@@ -3,7 +3,53 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Rational-Atlas Extension
+## Current Collision-Profile Extension
+
+Fresh frozen-packet replays were serial under RAMguard tiny: 256MiB RAM,
+64MiB swap, 60 seconds per process tree. No Modal use or spending.
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --collision-only` | 5/5 PASS | 18.77 seconds | 25892 KiB |
+| `python3 -B -O replay.py --collision-only` | 5/5 PASS | 19.17 seconds | 28544 KiB |
+| `python3 -B replay.py --secant-only` | 4/4 PASS | 3.27 seconds | 25892 KiB |
+
+The new mode covers both generic controls, both finite certificate engines
+and the revised original-source assembly. Optimization is propagated to
+all five children; explicit failures remain enabled without assertions.
+The two finite engines agree on every rational cost and cap in 40960 boxes
+and both source-collision cases, with frozen certificate digest
+`5ace68871be07e08317ea359ac9a73f80c7a9b9a325e5390a0d6e66b9ecdc5a2`.
+Their maximum 274938028871508001 includes original near. Each rejects
+163840 adjacent wrong floors. The primary also rejects eight broken covers.
+Generic controls cover 312 actual complete flats and 6517 small histograms.
+
+Every invocation validates all 667 frozen sources, the 68-node acyclic
+assembly, separate nine-node scalar graph and separate one-node atlas.
+Forty-four malformed manifests are rejected, including missing collision
+requirements, missing source transport and forbidden atlas promotion.
+Of 645 parent sources, 638 are byte-identical and seven assembly files
+are revised with predecessor hashes. The extension adds 22 frozen sources.
+
+Eight distinct checks were freshly replayed normally; five also under -O.
+The other 124 retain their successful parent replays and unchanged source
+hashes, not a fresh full-suite pass. All 132 checks remain available through
+twelve bounded modes. Peak RSS was below 28MiB; no timeout, large search,
+original-field enumeration or unfinished compute handle occurred.
+
+The [hand-audit note](COLLISION_PROFILE.md) distinguishes source collisions
+from per-core costs, guards the resource derivative on the whole range,
+and traces original labels/near through the assembly. This is an exact
+finite certificate supporting a hand proof, not formal certification or
+external mathematical review. Rank twelve on J=9941..22499, higher ranks,
+the unrestricted row and both Prize problems remain open. Weighted-collision
+prototypes were not exported or counted as proved.
+
+No global DAG or crosswalk rerun is claimed for this publication-only
+change. The prior local integration records 260 pre-existing global DAG
+diagnostics and 11 unchanged crosswalk failures; they are not declared fixed.
+
+## Parent 643578b6 Rational-Atlas Extension
 
 Fresh frozen-packet replays were serial under RAMguard tiny: 256MiB RAM,
 64MiB swap and a 60-second process-tree limit. No Modal use or spending.

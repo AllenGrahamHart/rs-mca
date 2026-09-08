@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `0a573449f42b2c0845f2cd8c1551c9f39dec08ab`.
+- Previous companion: `643578b6fcb86daf380c12ba565cc27de48d6493`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,37 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution: Separate Rank-Six Rational Atlas
+## Current Contribution: Collision-Profile Interval
+
+The [review note](COLLISION_PROFILE.md) groups two generic PROVED counting
+lemmas with their every-carrier consumer on J=22500..22999. Seven revised
+assembly files transport that payment to the original source. The new
+requirement closure has 68 nodes, all locally PROVED at the used scopes;
+the separate nine-node scalar graph and one-node atlas are unchanged.
+
+The manifest freezes 667 sources totaling 1869197 bytes. There are 22 new
+proof/control files; 638 parent sources remain byte-identical. SHA256:
+`fef7106e0b120869a8bea262b7e92abc06ea9ff3c6531256000d4c706b90aebe`.
+Its `collision_profile_extension` records the immediate parent commit
+and manifest digest, dirty origin HEAD, four source node-manifest hashes,
+every new path and the predecessor hash of every revised assembly file.
+The frozen exact certificate digest is recorded separately.
+
+The original rank-twelve residual narrows to J=9941..22499 (12559 integers).
+The high-union cap increases to 274938028871508001; the overall original
+cap stays 274979661975561635. The scalar graph and atlas remain outside
+the payment closure. No upstream atom or unrestricted endpoint is changed.
+
+Live main, agents.md, the newest upstream agents-log entry, four-row
+completion status and #1175 were checked before exporting. Main and the
+PR head retain the pins above. No full-queue mathematical reaudit or
+external acceptance is claimed. Canonical Fable is read-only. The newer
+weighted-collision prototype, its incomplete generic packet, exploratory
+scripts, generated DAG and unrelated dirty sources are excluded. The
+research-tree compiler already owns the mathematical DAG integration;
+publication changes only this frozen companion packet.
+
+## Parent 643578b6: Separate Rank-Six Rational Atlas
 
 The [atlas handoff](RANK_SIX_ATLAS.md) adds one self-contained PROVED node,
 eight proof/control files, and no assembly source revisions. All 637

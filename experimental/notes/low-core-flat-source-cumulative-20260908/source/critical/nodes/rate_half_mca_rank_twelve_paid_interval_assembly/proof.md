@@ -110,11 +110,12 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1025576          23000..169999         274929007493481160
+    878577..1026076          22500..169999         274938028871508001
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly1025577..1038635, equivalent
-to J=9941..22999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly1026077..1038635, equivalent
+to J=9941..22499. Section15 proves the latest interval extension.
+Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,7 +132,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on14000..22999 by248408859318207582, including the one
+>=J-2000 on14000..22499 by248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -302,7 +303,8 @@ source-density, maximizing-rank and necessary dense-label mass statements
 have scope23000..29999 and are likewise entirely redundant. Their proofs
 remain valid, but none gives a constraint on the remaining lower J gap.
 Sections10--12 describe their preceding-stage intervals; this section
-owns the current complement. No favorable original selection or all-source
+owned the preceding complement, now superseded by section15.
+No favorable original selection or all-source
 rank bound is assumed. The original router and unrestricted endpoint stay open.
 
 ## 14. Clustered-Arc Transport Inside The Remaining Gap
@@ -329,8 +331,41 @@ This total is below the existing main whole-line maximum. It is another
 alternative sufficient condition for that bound, not an owner charge or
 new addend. Consequently every over-budget original rank-twelve selection
 in this degree range fails at least one gate. The unrestricted residual
-J=9941..22999 and higher original ranks remain open. No older density
+was then J=9941..22999; section15 narrows it further. Higher original
+ranks remain open. No older density
 condition beginning at23000 is imported below its scope.
+
+## 15. Transport The Collision-Profile Every-Carrier Interval
+
+Sections2 and3 supply the EXACT normalized contract of
+rate_half_mca_collision_profile_interval for every fixed complete original
+rank-twelve selection: actual carrier dimension eleven, empty universal
+core, same field and finite labels, and saturated full-code-bad witnesses.
+Its source-fiber and collision tests are exhaustive alternatives, not
+extra assumptions on the original line. The selected carrier is retained
+after any secant exception labels are removed; the survivors need not
+span it. All exceptional labels are explicitly included in its total.
+
+Therefore EVERY selection with22500<=J<=22999 has
+|Z|+134944<=274938028871508001. Original near is already included.
+UnderJ=1048576-g this is exactly1025577<=g<=1026076,500 complete
+integer core sizes. No canonical reselection, second common-core
+cancellation or original-rank recomputation is required for this theorem.
+
+The previous23000..169999 bound274929007493481160 is SMALLER than
+the new bound. Their union22500..169999 must use their maximum,
+274938028871508001. That is still below the main whole-line maximum
+274979661975561635 from the lower strip, so (ORIGINAL) is unchanged.
+The only remaining original rank-twelve interval is now
+g=1026077..1038635, equivalentlyJ=9941..22499,12559 integers.
+
+The residual source-fiber gates apply on14000..22499 and21000..22499.
+The clustered-arc supplier retains its full20481..22999 scope, but only
+20481..22499 still intersects the unpaid interval. Older source-density
+and mass statements starting at23000 remain fully subsumed. Taking
+the contrapositive for EVERY complete original selection gives the
+updated router restriction. No all-source error-rank bound or claim about
+original ranks>=13, the remaining lower gap, LIST or either full Prize follows.
 
 ## Scope And Provenance
 

@@ -24,6 +24,33 @@ SCALAR = "mca_empty_core_full_fiber_scalar_census"
 ATLAS = "mca_rank_six_maximum_flat_rational_atlas"
 ATLAS_CHECKS = tuple("source/background/nodes/" + ATLAS + "/" + filename
                      for filename in ("verify.py", "verify_audit.py"))
+COLLISION = "source/critical/nodes/rate_half_mca_collision_profile_interval/"
+COLLISION_REQUIREMENTS = {
+    "mca_flat_split_root_moment_basis": [
+        "mca_fiber_contraction_core_basis_resource",
+        "mca_rank_profile_density_basis_product",
+    ],
+    "mca_fiber_collision_bonferroni_resource": [
+        "mca_projective_fiber_secant_resource",
+    ],
+    "rate_half_mca_collision_profile_interval": [
+        "mca_flat_split_root_moment_basis",
+        "mca_fiber_collision_bonferroni_resource",
+        "rate_half_mca_two_cost_receiver_fiber_payment",
+        "rate_half_mca_two_cost_fiber_interval",
+        "mca_arbitrary_core_flat_basis_resource",
+        "mca_fiber_contraction_core_basis_resource",
+        "rate_half_mca_quotient_density_interval",
+        "rate_half_mca_balanced_density_payment",
+        "mca_core_completed_basis_margin_resource",
+    ],
+}
+COLLISION_CHECKS = tuple(
+    "source/critical/nodes/" + name + "/" + filename
+    for name in COLLISION_REQUIREMENTS
+    for filename in (("verify.py", "verify_audit.py")
+                     if name.startswith("rate_half_") else ("verify.py",))
+) + ("source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",)
 SECANT_REQUIREMENTS = {
     "mca_projective_fiber_secant_resource": ["mca_nonuniform_support_margin_resource"],
     "rate_half_mca_clustered_arc_payment": [
@@ -276,6 +303,7 @@ CHECKS += PROFILE_CHECKS[:-1]
 CHECKS += TWO_COST_CHECKS[:-1]
 CHECKS += SECANT_CHECKS[:-1]
 CHECKS += ATLAS_CHECKS
+CHECKS += COLLISION_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -310,7 +338,9 @@ def verify_dependency_inventory(manifest, sources):
     root = manifest["interval_extension_root"]
     scalar = manifest["scalar_ledger_requirements"]
     require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 65 and len(scalar) == 9, "changed proof inventories")
+    require(len(graph) == 68 and len(scalar) == 9, "changed proof inventories")
+    for node, dependencies in COLLISION_REQUIREMENTS.items():
+        require(graph.get(node) == dependencies, "changed collision dependency: " + node)
     for node, dependencies in SECANT_REQUIREMENTS.items():
         require(graph.get(node) == dependencies, "changed secant dependency: " + node)
     for node, dependencies in TWO_COST_REQUIREMENTS.items():
@@ -329,7 +359,8 @@ def verify_dependency_inventory(manifest, sources):
                  "rate_half_mca_rank_profile_density_interval",
                  "rate_half_mca_two_cost_receiver_fiber_payment",
                  "rate_half_mca_two_cost_fiber_interval",
-                 "rate_half_mca_clustered_arc_payment"):
+                 "rate_half_mca_clustered_arc_payment",
+                 "rate_half_mca_collision_profile_interval"):
         require(node in graph[root], "missing original-source transport requirement")
     require(manifest["scalar_ledger_root"] == SCALAR, "wrong scalar root")
     require(SCALAR not in graph, "scalar ledger is not an assembly premise")
@@ -406,7 +437,7 @@ def verify_manifest_mutations():
     bad.append(changed)
     for node in (*DENSITY_REQUIREMENTS, *RANK_EIGHT_REQUIREMENTS,
                  *INTERVAL_REQUIREMENTS, *PROFILE_REQUIREMENTS, *TWO_COST_REQUIREMENTS,
-                 *SECANT_REQUIREMENTS):
+                 *SECANT_REQUIREMENTS, *COLLISION_REQUIREMENTS):
         changed = copy.deepcopy(baseline)
         changed["interval_extension_requirements"][node] = []
         bad.append(changed)
@@ -416,7 +447,8 @@ def verify_manifest_mutations():
                  "rate_half_mca_rank_profile_density_interval",
                  "rate_half_mca_two_cost_receiver_fiber_payment",
                  "rate_half_mca_two_cost_fiber_interval",
-                 "rate_half_mca_clustered_arc_payment"):
+                 "rate_half_mca_clustered_arc_payment",
+                 "rate_half_mca_collision_profile_interval"):
         changed = copy.deepcopy(baseline)
         changed["interval_extension_requirements"][root].remove(node)
         bad.append(changed)
@@ -447,6 +479,8 @@ def verify_manifest_mutations():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group()
+    group.add_argument("--collision-only", action="store_true",
+                       help="run both generic controls, both finite engines and assembly; propagate -O")
     group.add_argument("--atlas-only", action="store_true",
                        help="run both separate structural-atlas controls; propagate -O")
     group.add_argument("--secant-only", action="store_true",
@@ -489,7 +523,8 @@ def main():
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (ATLAS_CHECKS if args.atlas_only else
+    selected = (COLLISION_CHECKS if args.collision_only else
+                ATLAS_CHECKS if args.atlas_only else
                 SECANT_CHECKS if args.secant_only else
                 TWO_COST_PRIMARY_CHECKS if args.two_cost_only else
                 TWO_COST_AUDIT_CHECKS if args.two_cost_audit_only else
@@ -507,12 +542,12 @@ def main():
                or args.quotient_only or args.extension_only or args.density_only
                or args.rank_eight_only or args.interval_only or args.profile_only
                or args.two_cost_only or args.two_cost_audit_only or args.secant_only
-               or args.atlas_only)
+               or args.atlas_only or args.collision_only)
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         extra = (["--start", str(args.start)]
                  if check.startswith((QUOTIENT, REFINED)) and args.start is not None else [])
-        limit = 45 if check.startswith((QUOTIENT, REFINED, PROFILE, TWO_COST)) else 15
+        limit = 45 if check.startswith((QUOTIENT, REFINED, PROFILE, TWO_COST, COLLISION)) else 15
         result = subprocess.run([sys.executable, "-B", *optimization,
                                  str(ROOT / check), *extra],
                                 cwd=ROOT, env=env, timeout=limit, check=False,
@@ -525,17 +560,17 @@ def main():
     print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
-    print("SELECTED CHECKS PASS; 65-node assembly and separate 9-node scalar inventory")
+    print("SELECTED CHECKS PASS; 68-node assembly and separate 9-node scalar inventory")
     print("Separate one-node rational atlas: per-core structure, not a payment premise")
-    print("Printed theorem: residual J=9941..22999, 13059 integers; no whole degree removed since 4b9cef05")
-    print("Every carrier J=23000..169999 paid; fiber >=J-6000 pays21000..52999")
+    print("Printed theorem: residual J=9941..22499, 12559 integers; 500 whole degrees removed since 643578b6")
+    print("Every carrier J=22500..169999 paid at274938028871508001; fiber >=J-6000 pays21000..52999")
     print("Clustered arcs on20481..22999: <=560 nonzero fibers, size<=2048, any<=11 classes independent")
     print("Clustered-arc total274545534639685994 includes one secant exception set and original near")
     print("Older density/mass and degree-4700/8000 scopes are subsumed; no lower-gap restriction")
     print("NO exhaustive payment of remaining source classes or unguarded balanced product")
     print("Scalar ledger gives no additional row payment; its profile needs proved shape inputs")
     if selected is not CHECKS:
-        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density, rank-eight, interval, profile, two-cost, two-cost-audit, secant and atlas modes")
+        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density, rank-eight, interval, profile, two-cost, two-cost-audit, secant, atlas and collision modes")
     if args.start is not None:
         print("PARTIAL REPLAY SCOPE: degree block", args.start,
               "only; other blocks require their own successful replay")

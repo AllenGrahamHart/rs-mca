@@ -5,8 +5,10 @@ carrier on 28000..29999 and 26500..27999, respectively; the rank-profile
 theorem adds every carrier on24000..26499, and the two-cost interval
 adds every carrier on23000..23999, without a new source-density premise. Each total includes
 the original near allowance and enters the interval union by maximum.
-The remaining original gap is J=9941..22999 (13059 integers), with
-g=1025577..1038635. The original labels and source gauge are unchanged.
+The collision-profile theorem additionally pays every carrier22500..22999
+with no extra source premise, yielding union22500..169999 at the larger
+cap274938028871508001. The remaining original gap isJ=9941..22499
+(12559 integers), withg=1026077..1038635. Original labels and gauge are unchanged.
 
 The stronger source gate h<=(J-3)/8 on 23000..29999 uses the SAME
 normalized carrier's maximum proper-flat coordinate density. Its bound
@@ -42,7 +44,7 @@ receiver descent, label loss or a new source normalization.
 - The refined every-carrier quotient-density theorem now pays 30000..31999,
   in addition to the preceding quotient-density interval. The former
   half-size fiber gate remains subsumed. The remaining numerical
-  interval after the whole-degree extensions is9941..22999, with no new
+  interval after the whole-degree extensions is9941..22499, with no new
   source hypothesis. The older density/mass suppliers retain their full
   stated ranges, becoming redundant on their entire23000..29999 scope.
 - This direct source-class theorem does not supply an all-source rank
@@ -64,7 +66,7 @@ an uncharged badness or rank/core change before the child is fixed; an
 uncovered original g outside the printed residual; or an original line
 satisfying the selection premise but exceeding the printed total.
 
-The stronger source-fiber gate is b>=J-6000 on21000..22999 in the
+The stronger source-fiber gate is b>=J-6000 on21000..22499 in the
 remaining interval. Its FULL child cap, explicit receiver exceptions and
 raw-HIGH arithmetic are proved separately; no density premise is imposed
 on the original source by the whole-degree quantitative certificate.
@@ -87,3 +89,11 @@ gates are tested. Nonuniversal zero labels and fiber-secant labels are
 charged once in the new theorem, with original near included once.
 The surviving labels remain in the same actual carrier, even if their
 minimal span changes. No degree interval or original-rank bound follows.
+
+Section15 transports the collision-profile interval. Its low/high T split
+is a theorem covering all sources, not a conditional assumption. The
+single source statistic T is fixed before core choices. Both explicit
+exception and original-near charges are accounted for, without shrinking
+the enclosing carrier or recancelling its core. The old union cap must
+increase, while the main maximum stays unchanged. The full clustered-arc
+scope above remains valid; its current unpaid overlap ends at22499.

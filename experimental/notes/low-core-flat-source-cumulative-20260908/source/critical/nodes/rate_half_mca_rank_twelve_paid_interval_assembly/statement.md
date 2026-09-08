@@ -19,7 +19,7 @@ gamma in Z. Let a be the affine rank of their original error words and
 
 If a<=11, or if a=12 and g is OUTSIDE the interval
 
-    1025577<=g<=1038635,
+    1026077<=g<=1038635,
 
 then the ENTIRE original bad-slope set satisfies
 
@@ -33,7 +33,7 @@ intersections of selected size-m witnesses.
 Equivalently, every over-budget original line has, for EVERY complete
 post-near selection, either a>=13 or a=12 with
 
-    J=K-g in 9941..22999.
+    J=K-g in 9941..22499.
 
 In every rank it also retains g<=1043775 from the earlier large-core
 theorem. No bound on all-source error rank is asserted.
@@ -58,13 +58,16 @@ The new rank-profile interval adds EVERY carrier on J=24000..26499 by
 The two-cost fiber interval additionally pays EVERY carrier on
 J=23000..23999 by274846585959022192, reserve134142152372895,
 including original near and without any new source premise.
-The union23000..169999 retains274929007493481160. The residual has
-13059 integers, down from14059 in public d56d1e13.
+The collision-profile interval now pays EVERY carrier on22500..22999
+by274938028871508001, reserve42699239887086, with both source-collision
+branches proved and no additional source premise. The union22500..169999
+uses274938028871508001, increased from the previous smaller union cap.
+The residual has12559 integers, down from13059 in public643578b6.
 The source interface and main whole-line total are unchanged.
 
-Public4b9cef05 contains the two-cost source gates and23000 start; see
-notes/correspondence/TWO_COST_EXPORT_20260908.md. The clustered-arc
-source class below is a new LOCAL extension beyond that publication.
+Public643578b6 contains the preceding two-cost, secant and structural-atlas
+results. The collision-profile interval is a new LOCAL extension; see
+notes/correspondence/COLLISION_PROFILE_INTERVAL_20260908.md.
 
 ## Additional Clustered-Arc Class
 
@@ -79,7 +82,8 @@ over-budget original rank-twelve selection in that range. This is a
 whole-line alternative, not an assumed property of arbitrary carriers.
 Fiber-secant and carrier-zero exceptional slopes are explicitly charged
 once; all surviving original labels remain on the SAME carrier and field.
-No complete integer J is removed from the residual9941..22999.
+This source class alone removes no complete J. Its remaining useful
+intersection with the current residual9941..22499 is20481..22499.
 
 ## Additional Receiver-Fiber Classes
 
@@ -88,11 +92,11 @@ by the source bridge above. The SAME bound (ORIGINAL) also holds if
 V' has a complete nonzero projective evaluation fiber of size b satisfying
 the remaining useful fiber gate:
 
-    14000<=J<=22999 and b>=J-2000.
+    14000<=J<=22499 and b>=J-2000.
 
 The stronger degree-6000 two-cost source-fiber supplier also pays
 
-    21000<=J<=22999 and b>=J-6000,
+    21000<=J<=22499 and b>=J-6000,
 
 by266180883463176443 including original near. Every over-budget
 selection in this range therefore has every full nonzero fiber<=J-6001.
@@ -121,7 +125,7 @@ Every flat attaining that maximum has rank at most seven on 23000..24537,
 at most eight on 24538..28916 and at most nine on 28917..29999. These
 are necessary restrictions on a possible over-budget line, not existence
 claims or an assumption that all carriers obey the density gate.
-The numerical residual is J=9941..22999 (13059 integers). This older
+The numerical residual is J=9941..22499 (12559 integers). This older
 source class and the dense-core mass below are published in 0f2d9e8f.
 Their stated ranges remain valid, but the new every-carrier interval
 pays their ENTIRE23000..29999 scope. None of these density or mass
@@ -163,4 +167,4 @@ remain open. The mass results are public in 0f2d9e8f; the stronger gate
 above is public in 99a30fdc. The new interval makes these necessary mass
 conditions vacuous on their ENTIRE J=23000..29999 scope, without
 invalidating their proofs. In particular they supply no dense-label mass
-or maximizing-flat rank restriction on the remaining21000..22999.
+or maximizing-flat rank restriction on the remaining21000..22499.

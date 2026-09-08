@@ -4,7 +4,30 @@ K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Two Fiber-Secant Suppliers
+## Current Extension: Source-Collision Split And 500 Whole Degrees
+
+[COLLISION_PROFILE.md](COLLISION_PROFILE.md) gives the current hand-audit
+breakdown and exact integration scope. Its three completed suppliers
+improve the original root moment, bound the distinct-fiber resource by
+Bonferroni, and cover EVERY normalized carrier on J=22500..22999.
+
+Review pins: source T is not a per-core budget; quotient fibers coarsen
+original fibers; the original hereditary profile stays fixed; the
+Bonferroni derivative guard covers all possible T; both collision regimes
+include all maximizing-flat ranks and all HIGH margins. One secant/zero
+exception set is charged only in the high-T branch. Original near is
+added once, and source transport retains labels, full-code badness and
+nonuniversal zeros. Signed completions use the correct sign-dependent
+ratio. The prior every-carrier theorem is a required input to the union.
+
+The two finite engines agree on every rational cost and floor in 40960
+boxes. The atlas is not a counting premise; its 17/25 caps are not slope
+caps. The original residual is now J=9941..22499, 12559 integers, with
+higher ranks and both Prize problems still open. Weighted-collision
+continuations are not part of this reviewed export. Historical sections
+below retain the scope of their preceding publications.
+
+## Previous Extension: Two Fiber-Secant Suppliers
 
 Read both new hand proofs, their statements and implementations, the used
 flat-core/completed-basis arguments, and assembly section14. No issue was

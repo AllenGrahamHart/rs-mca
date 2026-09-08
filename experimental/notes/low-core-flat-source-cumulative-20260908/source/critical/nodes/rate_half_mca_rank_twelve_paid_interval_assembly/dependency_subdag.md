@@ -14,6 +14,8 @@
     rank-profile whole interval [PROVED] ------+        |
     two-cost receiver fiber [PROVED] ----------+        |
     two-cost whole interval [PROVED] ----------+        |
+    clustered-arc source payment [PROVED] -----+        |
+    collision-profile interval [PROVED] ------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -82,3 +84,11 @@ its finite costs use existing flat-core and cumulative completed-basis
 suppliers. Neither new node requires this assembly. The three geometric
 gates are discharged only for their stated source class, not promoted to
 universal premises. The original router continues to receive evidence only.
+
+Section15 requires rate_half_mca_collision_profile_interval. Its two new
+generic PROVED suppliers are mca_flat_split_root_moment_basis and
+mca_fiber_collision_bonferroni_resource, using existing contraction,
+rank-profile, secant and completed-basis suppliers. No supplier requires
+the assembly. The source T split is exhaustive, not a new red premise.
+The rank-six rational atlas is not required by this argument and remains
+separate structural evidence. The assembly closure gains exactly three nodes.

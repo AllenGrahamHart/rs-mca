@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Source-collision counting pays 500 whole rank-twelve degrees
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** The existing grouped companion packet's
+  [collision-profile extension](notes/low-core-flat-source-cumulative-20260908/COLLISION_PROFILE.md),
+  three frozen proof suppliers, original assembly, manifest and replay mode.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** A complete-flat split of the original fiber
+  moment, a Bonferroni bound on the secant-filtered tuple resource, and an
+  exhaustive source-collision split paying every normalized carrier on
+  J=22500..22999 by 274938028871508001 including original near. No extra
+  density or fiber-count premise remains on that interval.
+- **How it is useful:** K3 / DIRECT companion to #1175. Original-source
+  transport removes 500 complete rank-twelve core sizes; the residual is
+  J=9941..22499, 12559 integers. The 22500..169999 union uses the new larger
+  cap; the overall original cap stays 274979661975561635. No v4 atom or
+  unrestricted endpoint moves. The atlas remains a separate structural result.
+- **Verification:** Five checks pass normally and under -O, including both
+  exact finite engines; three older secant checks also pass normally.
+  All 667 hashes, the 68-node assembly and 44 manifest mutations are checked.
+  Peak RSS below 28MiB. The other 124 checks retain parent replays, not a new
+  full-suite pass. No Modal use; independent mathematical review remains due.
+- **What to do next:** Review the source/core collision distinction and
+  whole-range derivative guard, then integrate the grouped direct theorem.
+  Lower rank-twelve degrees, ranks >=13 and both Prize problems remain open.
+  The unverified weighted-collision continuation is excluded.
+
 ### 2026-09-08 - A bounded rational atlas for rank-six core flats
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

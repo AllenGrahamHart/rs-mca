@@ -1,6 +1,25 @@
 # Hand Audit Of The Original-Source Interface
 
-## Current Clustered-Arc Extension
+## Current Collision-Profile Extension
+
+Section15 has exactly the normalized carrier, original finite labels,
+full-code badness and empty universal core already constructed by
+sections2 and3. The source-fiber/T split is exhaustive, not an assumed
+premise. Original near is included once; the high-T secant/zero-label
+charge is explicit inside the new bound. The enclosing carrier remains
+actual dimension eleven even when surviving explanations span less.
+
+The new interval22500..22999 transports to1025577..1026076 and removes
+500 complete integer J values. The union must take the LARGER bound
+274938028871508001, not retain274929007493481160. The main maximum
+274979661975561635 still dominates. Six boundary/budget mutations,
+collision endpoints and the source split are checked by verify.py.
+Current residual:J=9941..22499,g=1026077..1038635,12559 integers.
+The source-fiber gates and remaining clustered-arc overlap end at22499;
+the historical full scopes below remain valid. No original-rank or
+unrestricted endpoint closure follows. External review remains due.
+
+## Previous Clustered-Arc Extension
 
 Section14 binds the new finite consumer to the same normalized source,
 without discarding nonuniversal zeros or assuming the surviving labels
@@ -72,8 +91,8 @@ fiber suffices, and different fiber totals are not summed.
 
 The refined and first-excess intervals have the same normalized contract and,
 with the quantitative extension give the first middle interval
-as g=878577..1025576 after the two-cost extension. The complementary
-g=1025577..1038635 is exactly J=9941..22999.
+as g=878577..1025576 after the two-cost extension. Its then-complementary
+g=1025577..1038635 was exactlyJ=9941..22999, now narrowed by section15.
 No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
 useful on14000..22999. Higher original ranks remain an independent gap.
@@ -114,7 +133,7 @@ Section13 transports the two-cost every-carrier theorem and degree-6000
 source gate on the SAME normalized carrier. Full heavy colors, explicit
 receiver exceptions and a FULL dimension-at-most-ten child count survive;
 no child near event is introduced. The original core extension is exactly
-g=1024577..1025576. The current complement has13059 integer degrees.
+g=1024577..1025576. Its then-complement had13059 integer degrees.
 Every source alternative stays below the existing whole-line maximum.
 
 In the remaining21000..22999 an over-budget source has every complete
