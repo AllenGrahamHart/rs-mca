@@ -1,10 +1,11 @@
 # Exact Contract
 
 The first-excess and quantitative theorems pay EVERY fixed normalized
-carrier on 28000..29999 and 26500..27999, respectively, without a new source-density premise. Each total includes
+carrier on 28000..29999 and 26500..27999, respectively; the rank-profile
+theorem adds every carrier on 24000..26499, without a new source-density premise. Each total includes
 the original near allowance and enters the interval union by maximum.
-The remaining original gap is J=9941..26499 (16559 integers), with
-g=1022077..1038635. The original labels and source gauge are unchanged.
+The remaining original gap is J=9941..23999 (14059 integers), with
+g=1024577..1038635. The original labels and source gauge are unchanged.
 
 The stronger source gate h<=(J-3)/8 on 23000..29999 uses the SAME
 normalized carrier's maximum proper-flat coordinate density. Its bound
@@ -38,9 +39,9 @@ receiver descent, label loss or a new source normalization.
 - The refined every-carrier quotient-density theorem now pays 30000..31999,
   in addition to the preceding quotient-density interval. The former
   half-size fiber gate remains subsumed. The remaining numerical
-  interval after both whole-degree extensions is 9941..26499, with no new
+  interval after the whole-degree extensions is 9941..23999, with no new
   source hypothesis. The older density/mass suppliers retain their full
-  stated ranges, becoming redundant on 26500..29999.
+  stated ranges, becoming redundant on 24000..29999.
 - This direct source-class theorem does not supply an all-source rank
   upper bound, the remaining rank-twelve interval, an active-v4 atom,
   ordinary LIST or an unrestricted prize endpoint.
@@ -60,7 +61,11 @@ an uncharged badness or rank/core change before the child is fixed; an
 uncovered original g outside the printed residual; or an original line
 satisfying the selection premise but exceeding the printed total.
 
-The stronger source-fiber gate is b>=J-4700 on 23000..26499 in the
+The stronger source-fiber gate is b>=J-4700 on 23000..23999 in the
 remaining interval. Its full child cap, explicit receiver exceptions and
 raw-HIGH arithmetic are proved separately; no density premise is imposed
 on the original source by the whole-degree quantitative certificate.
+
+The rank-profile coefficients are frozen on each entire degree box;
+its original-source transport is section 12. No optimized-envelope shape
+hypothesis or new source normalization enters the proof.

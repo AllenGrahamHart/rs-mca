@@ -1,8 +1,9 @@
 # Exact direct source contract
 
-Current all-carrier additions: J=28000..29999 and26500..27999 use the
+Current all-carrier addition: J=24000..26499, following the proved
+J=28000..29999 and26500..27999 intervals, uses the
 same normalized source below, but need no canonical maximal-raw selector.
-Their statements and assembly sections10/11 are authoritative. The stronger
+Their statements and assembly sections10/11/12 are authoritative. The stronger
 source-fiber payment uses b>=J-4700 on23000..52999; it is an alternative
 whole-source bound, not a new premise on the every-carrier intervals.
 

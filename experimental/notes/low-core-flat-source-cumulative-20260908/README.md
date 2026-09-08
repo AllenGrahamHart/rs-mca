@@ -1,4 +1,4 @@
-# KoalaBear MCA: rank-twelve coverage down to J=26500
+# KoalaBear MCA: rank-twelve coverage down to J=24000
 
 ~~~yaml
 workboard_item: K3
@@ -7,7 +7,7 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: original lines admitting a complete post-near selection of error rank <=11, or rank twelve and complete shared core g outside 1022077..1038635, satisfy |Z_bad|<=274979661975561635
+direct_statement: original lines admitting a complete post-near selection of error rank <=11, or rank twelve and complete shared core g outside 1024577..1038635, satisfy |Z_bad|<=274979661975561635
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
@@ -16,7 +16,7 @@ claimed_bound: 274979661975561635
 status: PROVED
 impact: LOCAL_ONLY
 falsifier: an original line satisfying a printed source gate but exceeding its bound
-replay: python3 -B replay.py --interval-only; full replay uses the six bounded modes below
+replay: python3 -B replay.py --profile-only; full replay uses the seven bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -39,28 +39,79 @@ reserve >= 1066135833452,
 
 whenever ONE complete post-near selection has error affine rank at most
 eleven, or rank twelve with complete shared core outside
-`1022077..1038635`. Here the core is the intersection of COMPLETE scalar
+`1024577..1038635`. Here the core is the intersection of COMPLETE scalar
 agreement sets, not selected size-m witnesses.
 
 Equivalently, every over-budget original line must have, for EVERY such
 selection, either:
 
 - error affine rank at least thirteen; or
-- error affine rank twelve and `J=1048576-g` in **9941..26499**.
+- error affine rank twelve and `J=1048576-g` in **9941..23999**.
 
 For rank twelve, this extension additionally requires every complete
 nonzero projective evaluation fiber of the normalized carrier to have
 size at most `J-2001` when `J>=14000`. This is a necessary restriction
 on an over-budget line, not an automatic fact about every carrier. The
 previous half-size gate on 45000..52999 is subsumed. On the remaining
-**23000..26499**, the stronger fiber theorem requires every such fiber
+**23000..23999**, the stronger fiber theorem requires every such fiber
 of an over-budget source to have size at most **J-4701**.
 
 The existing all-rank restriction `g<=1043775` also remains. This is a
 necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
-## What Is New: Every-Carrier Coverage Down To J=26500
+## What Is New: Rank Profiles And Another 2,500 Degrees
+
+Relative to public parent `3d6f9cfa`, two completed proved suppliers
+pay **every normalized carrier on J=24000..26499** without a new
+source-density premise:
+
+~~~text
+|Gamma|+134944 <= 273123695048315164,
+reserve below B* = 1857033063079923.
+~~~
+
+The [rank-profile counting theorem](source/critical/nodes/mca_rank_profile_density_basis_product/proof.md)
+keeps a separate hereditary contraction coefficient at every actual rank.
+For actual rank-s, degree-<K polynomials on N=D+K nonzero evaluations,
+with every proper rank-j flat of coordinate size <=j*h and
+s<=K0<=K<=K1, D>=1, h>=1, put j=s-r and
+
+~~~text
+mu_r=max(1/(r-1), min((K1-s+1)/(D+K1-s+r),
+                     ((j+1)*h-j)/(D+K0-j)))  (r=3..s).
+ordered bases >= (D+1)*product_(a=2)^s
+    [D+1+(K0-1)*product_(r=a+1)^s(1-mu_r)].
+~~~
+
+The entire rank profile is valid on the WHOLE degree box. Its frozen
+polynomial has nonnegative coefficients, so Jensen convexity is proved.
+It needs no global lambda<=2 guard and dominates the earlier quantitative
+product on point boxes whenever that earlier product is applicable.
+This does not remove the proper-flat density hypothesis or validate the
+false unguarded balanced product. It counts bases, not received-word children.
+
+The [finite theorem](source/critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md)
+discharges its source-fiber branch with the existing degree-4700 payment.
+Every remaining LOW core splits exhaustively by its OWN density at
+(J-4)/7. Rank profiles count the low-density branch; the other has an
+actual maximizing core flat of rank 1..6. Whole-box quotient profiles and
+signed inside counts retain actual occupancy and the rank-six corners.
+All labels share ONE tuple resource. No optimized-envelope shape is assumed.
+
+Independent exact engines agree on **79 degree blocks and 30,565 boxes**;
+their maximum is at J=24000..24031, flat rank 1, quotient degree 4701..4949.
+[Assembly section 12](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+keeps the original field, finite labels, full-code badness and nonuniversal
+zeros, with one original near allowance. Whole-source alternatives combine
+by MAXIMUM. The union **24000..169999** keeps **274929007493481160**.
+
+The original rank-twelve residual shrinks from 16,559 to **14,059 integers**,
+namely **J=9941..23999**, or **g=1024577..1038635**. The main whole-line
+cap remains 274979661975561635. No higher-rank or unrestricted row closes.
+Newer, unfinished two-cost work is explicitly excluded from this export.
+
+## Previous Extension: Every-Carrier Coverage Down To J=26500
 
 Relative to public parent `99a30fdc`, five completed proved suppliers
 and the original-source assembly remove **3,500 complete degrees**.
@@ -497,8 +548,8 @@ Together with earlier proved suppliers, the whole-line alternatives are:
 | --- | --- | ---: |
 | 0..793576 | at least 255000 | 273540953998915577 |
 | 793577..878576 | 170000..254999 | 270992495272115150 |
-| 878577..1022076 | 26500..169999 | 274929007493481160 |
-| **1022077..1038635** | **9941..26499** | **OPEN** |
+| 878577..1024576 | 24000..169999 | 274929007493481160 |
+| **1024577..1038635** | **9941..23999** | **OPEN** |
 | 1038636..1043775 | 4801..9940 | 274979661975561635 |
 | at least 1043776 | large-core theorem, all ranks | 100000000000134944 |
 
@@ -508,7 +559,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): arbitrary-flat counting, stronger density, source transport and prior checks.
+- [REVIEW.md](REVIEW.md): rank profiles, source transport and prior checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -516,9 +567,9 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `99a30fdc`, this extension adds 38 proof/control sources
-and revises seven assembly sources; 539 parent sources stay byte-identical.
-There are 584 hashed sources, a 58-node assembly and a separate nine-node
+Relative to parent `3d6f9cfa`, this extension adds 15 proof/control sources
+and revises seven assembly sources; 577 parent sources stay byte-identical.
+There are 599 hashed sources, a 60-node assembly and a separate nine-node
 scalar-lemma requirement inventory, both acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
@@ -527,11 +578,11 @@ linked stronger-density, flag-mass, scalar-ledger and original-source assembly s
 current authority. Source-local descriptions of the continuation as
 "local" record its prepublication custody, not a conditional proof status.
 
-Still open: rank twelve on **9941..26499**, higher original error ranks,
+Still open: rank twelve on **9941..23999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these six serial commands cover all 115
+From this packet directory, these seven serial commands cover all 118
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -541,11 +592,14 @@ python3 -B replay.py --extension-only
 python3 -B replay.py --density-only
 python3 -B replay.py --rank-eight-only
 python3 -B replay.py --interval-only
+python3 -B replay.py --profile-only
 ~~~
 
-For just this update, `python3 -B replay.py --interval-only` runs the eight
-new checkers and revised assembly in about 22 seconds. It also supports
-`python3 -B -O replay.py --interval-only`, propagating -O to all nine children.
+For just this update, `python3 -B replay.py --profile-only` runs the three
+new checkers and revised assembly. It also supports
+`python3 -B -O replay.py --profile-only`, propagating -O to all four children.
+The previous whole-degree extension retains `--interval-only`, with nine
+checks in normal or optimized mode.
 The preceding density extension retains
 `python3 -B -O replay.py --density-only`, propagating -O to all seven children.
 The extension mode supports `python3 -B -O replay.py --extension-only`;
@@ -553,8 +607,8 @@ optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects 24 manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 115-check run may exceed 60 seconds;
+source inventory and rejects 27 manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 118-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

@@ -2793,6 +2793,55 @@
       "sha256": "630395121fd530db8c678ee61260b57974a8b19533ebd523053fda1f48aff548"
     },
     {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/audit.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/audit.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/audit.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "bbd3069be0d4c6a581e038479256fa083139a85222797ed36700da4abc14a432"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/claim_contract.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/claim_contract.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/claim_contract.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "6b6794ae1be9c429781b8d045543a4109fd004fd0e68a312519ee76b87c9a181"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/dependency_subdag.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/dependency_subdag.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "24114cd4e26b6b9dcb3aae8a43024600bfc31a615ac9517a1812be342b2e67b5"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/proof.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/proof.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/proof.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "46acb7c4db8c460439f3924ae1ed55ef0803740e853bebfa0c6511985c054826"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/result.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/result.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/result.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "3faaf766936e427f79de419856d271147028f0b0ddc6ef7cd245738504623e7a"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/statement.md",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/statement.md",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/statement.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "93ddc31609e3c67521dd964f0f1c86a76bbc83c36237ecb0bd5b7037715987e6"
+    },
+    {
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/verify.py",
+      "source_path": "critical/nodes/mca_rank_profile_density_basis_product/verify.py",
+      "origin_path": "critical/nodes/mca_rank_profile_density_basis_product/verify.py",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "5eeb8f600dfee547598b769d4006831b94387d70f27640999c09ea6f09411a57"
+    },
+    {
       "path": "source/critical/nodes/mca_receiver_fiber_peeling/audit.md",
       "source_path": "critical/nodes/mca_receiver_fiber_peeling/audit.md",
       "origin_path": "critical/nodes/mca_receiver_fiber_peeling/audit.md",
@@ -3631,18 +3680,74 @@
       "sha256": "1f6423a19f604fcc96374a189fef099a5cf081d4dcace738da402bb30f98a488"
     },
     {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/audit.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/audit.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/audit.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "77004dda69d6f8cd5c246be977c31bd559d0cec0ca28e663abbf2b90d937320a"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/claim_contract.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/claim_contract.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/claim_contract.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "a5cd335fab67be2470e06e2b93d3cb7b568fd95c311ecdb57290d28dc8f46493"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/dependency_subdag.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/dependency_subdag.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/dependency_subdag.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "48eab40efe25922124b457e4b3a27cb759918dbf05242025635c10f98bcac256"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "263b94caa4cf1e055e36b03fa52aaa8cd6c4ea8fdb25b8b05c9a5e8404dfdf4c"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/result.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/result.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/result.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "b8e19a325c12ed45139f2634d84bbb173566e5a9ce909303c6f05399bd361a43"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/statement.md",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/statement.md",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "1ff097d3c19130bc0f27fba7c56b3cf54493fb9f65ec37f328fc1b5ae3f6013f"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/verify.py",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/verify.py",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/verify.py",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "3362dbe6314298610eb25bd8936991962a1b0c2ecc9699924bccc153dfc772ff"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/verify_audit.py",
+      "source_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/verify_audit.py",
+      "origin_path": "critical/nodes/rate_half_mca_rank_profile_density_interval/verify_audit.py",
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "46a70d8a60f77fd17ea0881ffdeeb7ff7b5da0de276af5245875567ada24c213"
+    },
+    {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "e5258b073b40d019022bda89f11fff04e24bbdb7b64167f117072e0f10b7d8ba"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "6f6be7f7263ef86b0af45fe1e0d9e754c6a04490590bc32a019b5e4a96e69dbd"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "31ab41770fab75ec3ffe703e9d21b7f528676856297eafe2ee2b9f8055255ecc"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "587eedbc0a01919f8e38c98a4a1f6a0b88466b2f08d8a0f31bc30d0c29b783b9"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/controls.md",
@@ -3655,36 +3760,36 @@
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "25411085b0abb3c22c85dae76d427296120440a9f3e6bb1e698f7b587ba91896"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "13a2deb8591a348b7fb2cee2e24e5689067ec1f015b4bf494a471373e3afde45"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "3f6b5e57826404cf452ae616bfeae06e96c3a626e1aab48eb59756c465b3af2d"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "e2ffc1b3da505213f0e99e2e974348ccc62d2784a55a41d682787154446cdeb8"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "99e71b0ee5ad12a9dc329d7945a789faf1ca5829e7059b401312752f5f970429"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "dc89fbc3f5c10eb4fe4587f124c730d46fa7c242a10606986fb1fbd756fd7ae4"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "b766f96d8e4aa161865b10e00a58eb87e3956fbd69d159012727db38e76c7250"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "4d8ccb5e0e14226bf117dc5f25e95dad2ba263b178d778c53b287844504edcb4"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
-      "snapshot": "quantitative_interval_dirty_snapshot",
-      "sha256": "a62ab2a9949b1805fbdbad3fefb48de3594aa249d31490a30d7e9c5811e4bafe"
+      "snapshot": "rank_profile_dirty_snapshot",
+      "sha256": "41346e1b6949cea9a3591fd246742bcdf472996671f5b85e8c0514e834ad332c"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_receiver_fiber_degree4700_payment/audit.md",
@@ -4083,6 +4188,18 @@
       "rate_half_mca_balanced_density_payment",
       "mca_core_completed_basis_margin_resource"
     ],
+    "mca_rank_profile_density_basis_product": [
+      "mca_quantitative_density_basis_product"
+    ],
+    "rate_half_mca_rank_profile_density_interval": [
+      "mca_rank_profile_density_basis_product",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_quantitative_density_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
     "rate_half_mca_rank_twelve_paid_interval_assembly": [
       "rate_half_mca_error_rank_twelve_common_core_forcing",
       "mca_common_core_low_margin_transport",
@@ -4094,7 +4211,8 @@
       "rate_half_mca_rank_eight_density_payment",
       "rate_half_mca_first_excess_core_interval",
       "rate_half_mca_quantitative_density_interval",
-      "rate_half_mca_receiver_fiber_degree4700_payment"
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_rank_profile_density_interval"
     ]
   },
   "retained_historical_descriptions": [
@@ -4468,5 +4586,38 @@
     "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
     "scope": "Every normalized carrier J=26500..29999 is paid; original rank-twelve residual J=9941..26499; stronger source-fiber class b>=J-4700 on23000..52999",
     "excluded": "speculative upper census, exploratory scripts, generated DAG, unrelated dirty sources, external acceptance and unrestricted Prize closure"
+  },
+  "rank_profile_extension": {
+    "parent": "3d6f9cfa0ad17c862678585bfb7f4c2b879ccc5d",
+    "parent_manifest_sha256": "1c583ca9f13e06bb4f3d18bbd1057cf7a07f7f83b6a5dbcf15242050b9897370",
+    "new_source_paths": [
+      "critical/nodes/mca_rank_profile_density_basis_product/audit.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/claim_contract.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/dependency_subdag.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/proof.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/result.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/statement.md",
+      "critical/nodes/mca_rank_profile_density_basis_product/verify.py",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/audit.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/claim_contract.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/dependency_subdag.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/result.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/statement.md",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/verify.py",
+      "critical/nodes/rate_half_mca_rank_profile_density_interval/verify_audit.py"
+    ],
+    "revised_source_previous_sha256": {
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md": "e5258b073b40d019022bda89f11fff04e24bbdb7b64167f117072e0f10b7d8ba",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md": "31ab41770fab75ec3ffe703e9d21b7f528676856297eafe2ee2b9f8055255ecc",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md": "25411085b0abb3c22c85dae76d427296120440a9f3e6bb1e698f7b587ba91896",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md": "3f6b5e57826404cf452ae616bfeae06e96c3a626e1aab48eb59756c465b3af2d",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md": "99e71b0ee5ad12a9dc329d7945a789faf1ca5829e7059b401312752f5f970429",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md": "b766f96d8e4aa161865b10e00a58eb87e3956fbd69d159012727db38e76c7250",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py": "a62ab2a9949b1805fbdbad3fefb48de3594aa249d31490a30d7e9c5811e4bafe"
+    },
+    "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+    "scope": "Every normalized carrier J=24000..26499 is paid; original rank-twelve residual J=9941..23999",
+    "excluded": "unfinished two-cost nodes, exploratory scripts, generated DAG, unrelated dirty sources, external acceptance and unrestricted Prize closure"
   }
 }

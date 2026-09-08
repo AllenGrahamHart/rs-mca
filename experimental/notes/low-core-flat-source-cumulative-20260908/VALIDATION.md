@@ -3,7 +3,62 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Whole-Degree And Quantitative-Density Extension
+## Current Rank-Profile Extension
+
+Publication checks on the frozen exported sources, serial under RAMguard
+tiny (256 MiB RAM,64 MiB swap,60-second process-tree limit):
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --profile-only` | 4/4 PASS | 29.79 seconds | 22344 KiB |
+| `python3 -B -O replay.py --profile-only` | 4/4 PASS | 40.16 seconds | 25328 KiB |
+| `python3 -B replay.py --inherited-only` | 92/92 PASS | 25.42 seconds | 25196 KiB |
+
+The normal modes cover95 distinct checks; the assembly repeats. The23
+unchanged quotient/refined/scalar/density/rank-eight/older-interval checks
+retain their successful parent replays and byte identity, rather than a
+fresh execution here. Peak RSS of all publication runs is below25MiB.
+
+The first optimized attempt was INCOMPLETE: the wrapper's old 15-second
+child limit expired after62 degree blocks, with partial output preserved.
+It did not report a failed mathematical inequality. The rank-profile
+checker now gets the existing45-second interval allowance; the outer
+60-second process-tree and256MiB RAM limits are unchanged. The successful
+optimized replay above reran all four checks, not just the missing tail.
+
+The two exact engines agree on79 degree blocks and30565 parameter boxes,
+maximum273123695048315164. Both reject61130 adjacent wrong floors;
+the primary also rejects five broken degree covers. Certificate digest:
+`2dc6c17b530fa45a8f40864f9910ddb873492217f3785acf875a9946b2441e36`.
+The independent audit unrolls integer-scaled rank profiles, checks both
+J corners and reconstructs full tangent vectors. It imports neither the
+primary finite engine nor Fraction.
+
+Generic controls cover six actual F17/F23 spaces,897 complete descendants,
+270 product/curvature cases and six invalid inputs. The actual old-lambda=4
+source checks a case outside the preceding quantitative theorem. Neither
+these controls nor exact box arithmetic replace the universal hand proof.
+The assembly retains its explicit original-source transport hand proof.
+
+Every invocation hashes all599 sources and checks the60-node acyclic
+assembly plus separate9-node scalar inventory. Twenty-seven malformed
+manifests fail, including deletion of either new supplier's requirements
+and omission of the new direct assembly input. The scalar ledger is not
+an assembly premise. Hashes establish custody, not mathematical truth.
+Manifest SHA256:
+`f05d2a6ca8675b2343d27d7c9e70d34e0992b30d13a96460f07ad64dac97721e`.
+The exporter adds15 files and revises7 assembly files;577 parent sources
+are byte-identical. The frozen sources total1692131 bytes.
+
+The available full suite has118 distinct checks across seven bounded
+modes. Older unchanged finite-grid replays below retain their historical
+scope; a fresh full-suite replay is not claimed. This publication changes
+no mathematical DAG status or edge. No global DAG/crosswalk rerun or
+clean-global-DAG assertion is made. Newer two-cost work is excluded.
+No Modal task, spending or unrestricted endpoint closure is claimed;
+independent external mathematical review remains due.
+
+## Parent 3d6f9cfa Whole-Degree And Quantitative-Density Extension
 
 Publication checks on the frozen exported sources, serial under RAMguard
 tiny (256 MiB RAM,64 MiB swap,60-second process-tree limit):

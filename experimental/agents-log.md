@@ -30,6 +30,32 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Rank-profile counting pays every carrier down to J=24000
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended the established
+  [grouped review packet](notes/low-core-flat-source-cumulative-20260908/README.md).
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** A hereditary ordered-basis product with separate
+  fixed coefficients at every rank, valid on entire degree boxes, and its
+  all-carrier payment273123695048315164 onJ=24000..26499, including near.
+  The density hypothesis is retained but no global lambda<=2 guard is needed.
+- **How it is useful:** K3 / DIRECT, companion to #1175. Original-source
+  transport removes2500 more degrees beyond3d6f9cfa without an extra source
+  premise. The residual isJ=9941..23999 (14059 integers); the main original
+  near-inclusive cap remains274979661975561635. No active-v4 atom is banked.
+- **Verification:** Four focused checks pass normally and under-O;
+  independent engines agree on30565 boxes and reject adjacent wrong floors.
+  The92 inherited checks pass too, for95 distinct normal checks; peak RSS
+  stays below25MiB. Unchanged older grids retain recorded parent replays.
+  Frozen599-source packet,60-node assembly and separate9-node scalar
+  inventory;27 malformed manifests rejected. See the bounded
+  [replay record](notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
+- **What to do next:** Independently review rank-specific moment inheritance,
+  whole-degree-box coefficients and original-source transport. LowerJ,
+  original ranks>=13, unrestricted KoalaBear MCA and both Prizes remain open.
+  Unfinished two-cost nodes are excluded. No compute request or Modal spend.
+
 ### 2026-09-08 - Rank-twelve whole-source coverage down to J=26500
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

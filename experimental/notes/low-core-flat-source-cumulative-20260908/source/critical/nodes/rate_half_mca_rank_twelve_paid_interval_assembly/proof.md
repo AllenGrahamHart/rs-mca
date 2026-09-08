@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1022076          26500..169999         274929007493481160
+    878577..1024576          24000..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 1022077..1038635, equivalent
-to J=9941..26499. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly 1024577..1038635, equivalent
+to J=9941..23999. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,7 +131,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on 14000..26499 by 248408859318207582, including the one
+>=J-2000 on 14000..23999 by 248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -230,7 +230,7 @@ badness, nonuniversal zeros and empty universal core are retained.
 
 Taking the maximum with section 10's union retains 274929007493481160
 on 26500..169999. The added original core interval is
-g=1020577..1022076, exactly 1500 integers. Section 5 now leaves
+g=1020577..1022076, exactly 1500 integers. At this preceding stage section 5 left
 g=1022077..1038635, or J=9941..26499, exactly 16559 integers.
 No near allowance is repeated and the overall assembly maximum is unchanged.
 
@@ -243,6 +243,30 @@ their explicit exceptions; its Johnson children require no second near
 event or empty-core premise. Do not add bounds over alternative fibers.
 The contrapositive forces EVERY full nonzero fiber <=J-4701 on every
 over-budget original selection in that remaining range.
+
+## 12. Rank-Profile Whole-Degree Extension
+
+Apply the new rank-profile interval theorem to the SAME actual carrier
+from sections 2 and 3. It gives |Z|+134944<=273123695048315164 on
+24000<=J<=26499, with no extra source-density hypothesis. The profile
+only changes how polynomial bases of each actual core are counted.
+Its degree-box coefficients, quotient and signed inside counts retain
+the fixed receiver, original field, all finite labels, full-code-bad
+supports, nonuniversal zeros and empty universal carrier core.
+
+The new total is below 274929007493481160, so its maximum with
+section 11's union pays every J in24000..169999 by that same number.
+Since g=K-J, the added original core interval is1022077..1024576,
+exactly2500 integers. The remaining gap is1024577..1038635, or
+J=9941..23999,14059 integers. The overall assembly maximum remains
+274979661975561635. No original near allowance is repeated.
+
+In the remaining interval the old source-fiber gate is useful on
+14000..23999, and the stronger degree-4700 gate on23000..23999.
+The older density and necessary-mass assertions remain valid on their
+full printed scopes but are redundant on24000..29999.
+The contrapositive holds for EVERY original complete selection; there
+is no assumption that a favorable selection or small error rank exists.
 
 ## Scope And Provenance
 

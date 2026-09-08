@@ -1,10 +1,44 @@
-# Review: Whole-Degree Extensions And Original-Source Transport
+# Review: Rank Profiles And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Five Completed Suppliers
+## Current Extension: Two Rank-Profile Suppliers
+
+Read both new proofs, their primary and independent implementations, and
+assembly section 12. No issue was found at their printed scopes.
+
+- A complete rank-j contraction has size b>=j. Root capacity bounds A/n
+  using the HIGH degree endpoint K1; inherited coordinate density uses K0.
+  If (j+1)h>=N, its density entry is >=1 and the root entry alone suffices.
+- Each actual descendant satisfies its own fixed moment coefficient.
+  The whole rank profile is frozen before Jensen is applied. Positive
+  polynomial coefficients prove monotonicity and convexity on arguments
+  >=1. Rank two retains its separate seed. No numerical-envelope curvature
+  is assumed and the general proper-flat density hypothesis remains.
+- The previous quantitative product is dominated only when its own guard
+  holds, on point boxes. An actual old-lambda=4 source is covered by the
+  new theorem, not by an unjustified application of the old theorem.
+- The finite source branch uses a FULL proved Johnson cap through the
+  earlier fiber theorem. The remaining per-core density alternatives
+  exhaust LOW records without a new original-source assumption.
+- Quotient profiles cover every degree in each entire box. Signed inside
+  counts, valid tangent coefficients and rank-six lower/upper J corners
+  are retained. The independent audit uses integer-scaled products and
+  both J corners, without importing the primary engine or Fraction.
+- Whole-source alternatives combine by maximum; label costs share one
+  tuple resource. Original-source transport preserves actual dimension,
+  field, finite labels, full-code-bad supports and nonuniversal zeros.
+  Exactly one original near allowance remains. The gap is now
+  g=1024577..1038635, equivalently J=9941..23999.
+
+This is local hand review plus exact arithmetic controls, not independent
+external acceptance or a new audit of every inherited proof. Rank >=13,
+the residual lower interval and both Prize problems remain unresolved.
+The unfinished two-cost continuation is neither exported nor assumed.
+
+## Previous Extension: Five Completed Suppliers
 
 The five new hand proofs and assembly sections 10 and 11 were reviewed
 at their printed scopes. No issue was found. Important checks:

@@ -11,6 +11,7 @@
     first-excess whole interval [PROVED] ------+        |
     quantitative whole interval [PROVED] ------+        |
     degree-4700 receiver fiber [PROVED] --------+        |
+    rank-profile whole interval [PROVED] ------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -58,3 +59,8 @@ interval imports the preceding union, not a conjectural lower-degree
 extension. The degree-4700 source-fiber supplier imports a full Johnson
 child cap and old raw-HIGH arithmetic, not the old degree-2000 premise.
 All required nodes are PROVED; neither supplier requires this assembly.
+
+Section 12 transports the new rank-profile interval on the same source.
+It requires the hereditary rank-profile basis lemma and credited counting
+suppliers. Its predecessor supplies the earlier union, not an assumed
+lower-degree extension. No consumer is imported back into a supplier.

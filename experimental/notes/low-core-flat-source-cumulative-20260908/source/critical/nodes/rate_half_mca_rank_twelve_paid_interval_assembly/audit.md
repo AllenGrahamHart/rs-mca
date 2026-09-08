@@ -57,11 +57,11 @@ fiber suffices, and different fiber totals are not summed.
 
 The refined and first-excess intervals have the same normalized contract and,
 with the quantitative extension give the first middle interval
-as g=878577..1022076. The complementary g=1022077..1038635 is exactly
-J=9941..26499.
+as g=878577..1024576 after the rank-profile extension. The complementary
+g=1024577..1038635 is exactly J=9941..23999.
 No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
-useful on 14000..26499. Higher original ranks remain an independent gap.
+useful on 14000..23999. Higher original ranks remain an independent gap.
 
 The bounded-density branch uses this same normalized source, without
 reselecting a favorable core or reapplying the near theorem. Its bound is
@@ -88,3 +88,9 @@ checks audit the finite bound, not the original transport proof. The
 stronger degree-4700 source-fiber gate retains all explicit exceptions
 and pays the whole source, not just a heavy receiver class. The original
 rank/core transport and overall maximum do not change.
+
+Section 12 was hand-checked with the rank-profile supplier. Its exhaustive
+24000..26499 source theorem adds g=1022077..1024576 without label loss,
+new badness assumptions or repeated near. The rank-specific moment profile
+is a counting refinement only. The current upper g boundary and14059-degree
+residual are checked separately from the historical interval helpers.

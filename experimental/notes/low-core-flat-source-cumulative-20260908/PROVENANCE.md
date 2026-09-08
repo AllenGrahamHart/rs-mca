@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `99a30fdce8bdea702574261567b92d85d4bf34e1`.
+- Previous companion: `3d6f9cfa0ad17c862678585bfb7f4c2b879ccc5d`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,36 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution: Complete Whole-Degree Extensions
+## New Contribution: Rank Profiles And The 24000 Interval
+
+Two completed PROVED suppliers extend the public assembly from J>=26500
+to J>=24000, removing 2500 degrees without a new source premise. The
+generic theorem freezes separate hereditary coefficients at each actual
+rank across a whole degree box. The finite consumer pays every normalized
+carrier on24000..26499 by273123695048315164 including original near.
+Existing capped moments, complete contraction, root capacity, fiber payment,
+quotient counts, signed inside counts and source transport are prerequisites.
+
+The source manifest freezes599 files,1692131 bytes, with a60-node assembly
+and a separate nine-node scalar inventory. Fifteen sources are added and
+seven assembly sources revised;577 parent sources remain byte-identical.
+The new `rank_profile_extension` records parent commit/manifest hash,
+previous hashes of revised files, dirty origin HEAD and precise scope.
+Manifest SHA256:
+`f05d2a6ca8675b2343d27d7c9e70d34e0992b30d13a96460f07ad64dac97721e`.
+
+The residual is J=9941..23999,14059 integers; the original whole-line
+cap is unchanged. No unrestricted endpoint, owner atom, external acceptance
+or general literature novelty is claimed. The newer incomplete two-cost
+nodes, exploratory scripts, generated DAG and unrelated dirty files are
+excluded. This publication changes no mathematical status or DAG edge.
+
+The local rs-mca checkout has diverged to72f223e8; live upstream was checked
+directly at93fba1be. Its agents.md, latest aggregate coordination entry and
+live completion contract were read. The stale local checkout is not treated
+as the remote frontier, and this export does not modify either source tree.
+
+## Previous Contribution: Complete Whole-Degree Extensions
 
 Five proved suppliers extend the public rank-twelve assembly from
 J>=30000 to J>=26500, removing 3500 degrees without a new source premise.
