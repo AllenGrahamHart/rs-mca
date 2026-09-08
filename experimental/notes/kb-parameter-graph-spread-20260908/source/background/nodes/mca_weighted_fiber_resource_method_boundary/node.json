@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_weighted_fiber_resource_method_boundary",
+    "title": "Gate-respecting raw-one sources obstruct uniform weighted fiber payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every normalized KoalaBear degree J=9941..17000, an actual dimension11 degree<J carrier and full-code-bad raw-one record with empty universal core and no secant/zero exception show that exact weighted distinct-fiber resource divided by any universal per-record lower cost exceeds B*=274980728111395087 for every0<=lambda<=11/(2(n-12)). One fiber has a=J-10 below14000 or a=J-2001 above, respecting the source gates. Exact U/H decreases with a and lambda; endpoint floors379243051432496463 and275795460861917515 give minimum pre-near excess814732750522428. The raw-one choice is forced by canonical maximal-raw selection at its label, but the actual line has exactly two bad slopes and complete error affine rank one. This7060-degree METHOD boundary is not an unsafe line, original rank12 family, unrestricted row or Prize counterexample. Larger source-adapted weights, different resources, actual ownership and complete-family rank restrictions remain possible. No paid interval changes.",
+    "refs": [
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/statement.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/proof.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/claim_contract.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/dependency_subdag.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/audit.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/result.md",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/verify.py",
+      "background/nodes/mca_weighted_fiber_resource_method_boundary/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_projective_fiber_switching_resource"},
+    {"from": "mca_fiber_contraction_core_basis_resource"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router"}
+  ],
+  "refutes": []
+}

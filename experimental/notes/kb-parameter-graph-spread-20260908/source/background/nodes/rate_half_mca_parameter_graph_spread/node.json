@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_parameter_graph_spread",
+    "title": "Actual parameter-graph hyperplane cap and paid post-exception rank collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On normalized KoalaBear rows (1048576+J,J,67472+J), any proper affine hyperplane of the actual dimension-twelve slope/explanation parameter space contains at most 156765527508668296 distinct valid bad labels, by a same-support polynomial gauge and the proved rank-ten cap. Every over-budget original rank-twelve line therefore has at least118215200602591848 labels outside each hyperplane, uniformly over valid reselections in the fixed normalized carrier. On J9941..21499 the existing secant/zero exceptions cost at most1149710068 labels. If the surviving graph lies in a proper hyperplane, the whole original line is paid by156765528658513308 including near once; otherwise an over-budget line retains at least118215199452881780 labels outside every hyperplane. This is a rank-collapse source-class payment and robust full-dimensionality restriction, not a hyperplane cover, full-dimensional census, complete degree interval or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_parameter_graph_spread/statement.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/proof.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/claim_contract.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/dependency_subdag.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/audit.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/result.md",
+      "background/nodes/rate_half_mca_parameter_graph_spread/verify.py",
+      "background/nodes/rate_half_mca_parameter_graph_spread/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_scan_free_error_rank_eleven_payment"},
+    {"from": "rate_half_mca_rank_twelve_paid_interval_assembly"},
+    {"from": "mca_coordinate_weighted_collision_resource"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router"}
+  ],
+  "refutes": []
+}

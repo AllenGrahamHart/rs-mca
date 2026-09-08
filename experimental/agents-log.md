@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Actual parameter-graph spread and a weighted-method boundary
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-parameter-graph-spread-20260908/README.md),
+  two frozen theorem nodes, provenance manifest and bounded serial replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Every proper hyperplane of the actual normalized
+  slope/explanation graph contains at most156765527508668296 labels. Existing
+  secant/zero exceptions cost at most1149710068 on J9941..21499, so rank
+  collapse after them pays the original line by156765528658513308 including
+  near once. The complementary weighted-resource boundary on J9941..17000
+  uses a canonical raw-one construction with exactly two bad slopes, rank one.
+- **How it is useful:** Companion to #1175; distinguishes cheap local records
+  from genuine over-budget rank-twelve families. Those families retain full
+  graph dimension12 after the priced exceptions. Neither result counts the
+  full-dimensional remainder, moves an endpoint or supplies a v4 owner atom.
+- **Verification:** Four focused checks, normal and optimized, with exact
+  endpoints, small actual-source/gauge controls and independent integer
+  audits. See the [validation record](notes/kb-parameter-graph-spread-20260908/VALIDATION.md)
+  for provenance and scope. The old supplier corpus is unchanged.
+- **What to do next:** Review the fixed-hyperplane gauge, strict over-budget
+  complement and one-time exception accounting. Develop a source-level
+  census using actual family rank or tuple ownership. No compute request;
+  no new degree interval or full Prize closure is claimed.
+
 ### 2026-09-08 - Sharp switching and weighted costs pay 1,000 rank-twelve degrees
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
