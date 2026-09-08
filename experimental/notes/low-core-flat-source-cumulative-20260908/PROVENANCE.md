@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `4b9cef05a507df5160a6535cac5ec54d73261249`.
+- Previous companion: `0a573449f42b2c0845f2cd8c1551c9f39dec08ab`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,31 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution: Fiber-Secant Filtering And Clustered Arcs
+## New Contribution: Separate Rank-Six Rational Atlas
+
+The [atlas handoff](RANK_SIX_ATLAS.md) adds one self-contained PROVED node,
+eight proof/control files, and no assembly source revisions. All 637
+parent sources remain byte-identical. The atlas is outside both existing
+requirement inventories; replay rejects promoting it to a payment premise.
+The source manifest now freezes 645 files, 1810453 bytes. SHA256:
+`8e7dcb200e6df182f52d59bf0d443f8a876d1789faf5665b8b9d71f367bf6784`.
+
+The `atlas_extension` records the immediate parent, its manifest digest,
+the dirty origin HEAD, the source node-manifest digest, the eight new paths,
+the evidence-only consumer and explicit exclusions. `atlas_requirements`
+is a separate one-node graph with no unproved prerequisites. Original
+polynomial/evaluation geometry is proved in the frozen hand proof; no
+earlier source payment or full-prize conclusion is assumed.
+
+Live main, agents.md, the latest upstream agents-log entry and #1175 were
+checked before publishing. Main and the PR head retain the pins above.
+No fresh whole-queue mathematical audit or new upstream acceptance is
+claimed. No canonical files, generated DAG, exploratory collision-interval
+script, unfinished finite audit, root-moment/Bonferroni packet or unrelated
+dirty research source is included. The original payment gap is unchanged.
+The historical snapshots below retain their original manifest counts.
+
+## Parent 0a573449: Fiber-Secant Filtering And Clustered Arcs
 
 Two completed PROVED suppliers add the global exceptional-slope set and
 distinct-fiber tuple resource, then the source-class payment on20481..22999.

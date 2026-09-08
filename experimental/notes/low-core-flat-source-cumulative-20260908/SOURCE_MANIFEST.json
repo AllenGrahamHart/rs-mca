@@ -428,6 +428,62 @@
       "sha256": "536bc106dd6c7fc9e3071204faf17ea0ead58e3ed01833d5dc0337c3909704f7"
     },
     {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/audit.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/audit.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/audit.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "9dc5cd180fe6318886ab167a5d4d708e508cb4960e6221de52c25ff28e03fe37"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/claim_contract.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/claim_contract.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/claim_contract.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "c7d83f433a9fe4a6e533295a70d2753b0d8697b598d229efc38859dca319c07f"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/dependency_subdag.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/dependency_subdag.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/dependency_subdag.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "28d4afcb6dc72c1ee85620c5cbe3eae40d3cb398b90df7232f98ec839630df2e"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/proof.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/proof.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/proof.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "30be26883e6c83074c6635ac8dfdd59304143a377b4444125302bbb2ec847884"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/result.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/result.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/result.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "65f10267c24a789d88ede5e6afbc8f341dc97aa63cff52b1f23ba536ddbccd2b"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/statement.md",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/statement.md",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/statement.md",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "a55158aaf985b3450027a6104879ef22db6f0c8c64a0538b6d70967ca9db0aa9"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify.py",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify.py",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify.py",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "ea68d3643286ccfe74ef696d3e6f6929b91f9489e557b2a1be427ff2ed476f04"
+    },
+    {
+      "path": "source/background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify_audit.py",
+      "source_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify_audit.py",
+      "origin_path": "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify_audit.py",
+      "snapshot": "atlas_dirty_snapshot",
+      "sha256": "adf5a92b6d4a0197c48d93095b17d2a6e625129e89b16aab91f56275646a09c9"
+    },
+    {
       "path": "source/background/nodes/mca_raw_low_union_overlap_payment/audit.md",
       "source_path": "background/nodes/mca_raw_low_union_overlap_payment/audit.md",
       "origin_path": "background/nodes/mca_raw_low_union_overlap_payment/audit.md",
@@ -4989,5 +5045,30 @@
     "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
     "scope": "Pay one fiber-secant exception set; clustered-arc source class on J=20481..22999; no whole degree removed; unrestricted rank-twelve residual J=9941..22999",
     "excluded": "exploratory scripts, unproved many-pair/transverse bounds, generated DAG, unrelated dirty sources, external acceptance and unrestricted Prize closure"
+  },
+  "atlas_root": "mca_rank_six_maximum_flat_rational_atlas",
+  "atlas_requirements": {
+    "mca_rank_six_maximum_flat_rational_atlas": []
+  },
+  "atlas_extension": {
+    "parent": "0a573449f42b2c0845f2cd8c1551c9f39dec08ab",
+    "parent_manifest_sha256": "12dcc29a7f13e429baa3a3d77a76ec7fec403734051b6d44e60ff767964e13bd",
+    "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+    "origin_node_manifest_sha256": "26400083c662c5851f290463edaa90ab7bd85cf86e68a984ec6cda6ef0bdbae5",
+    "new_source_paths": [
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/audit.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/claim_contract.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/dependency_subdag.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/proof.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/result.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/statement.md",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify.py",
+      "background/nodes/mca_rank_six_maximum_flat_rational_atlas/verify_audit.py"
+    ],
+    "revised_source_paths": [],
+    "status": "PROVED locally; external independent review remains due",
+    "evidence_for": "rate_half_mca_global_core_rank_support_distance_router",
+    "scope": "One-core rank-six flat packing and rational directions; no slope payment or degree interval removed",
+    "excluded": "collision interval prototype and its unfinished finite audit, new root-moment/Bonferroni packets, generated DAG, unrelated dirty sources, upstream acceptance and Prize closure"
   }
 }

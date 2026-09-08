@@ -21,6 +21,9 @@ REFINED = "source/critical/nodes/rate_half_mca_quotient_density_refined_interval
 PROFILE = "source/critical/nodes/rate_half_mca_rank_profile_density_interval/"
 TWO_COST = "source/critical/nodes/rate_half_mca_two_cost_fiber_interval/"
 SCALAR = "mca_empty_core_full_fiber_scalar_census"
+ATLAS = "mca_rank_six_maximum_flat_rational_atlas"
+ATLAS_CHECKS = tuple("source/background/nodes/" + ATLAS + "/" + filename
+                     for filename in ("verify.py", "verify_audit.py"))
 SECANT_REQUIREMENTS = {
     "mca_projective_fiber_secant_resource": ["mca_nonuniform_support_margin_resource"],
     "rate_half_mca_clustered_arc_payment": [
@@ -272,6 +275,7 @@ CHECKS += INTERVAL_CHECKS[:-1]
 CHECKS += PROFILE_CHECKS[:-1]
 CHECKS += TWO_COST_CHECKS[:-1]
 CHECKS += SECANT_CHECKS[:-1]
+CHECKS += ATLAS_CHECKS
 
 
 def require(condition, message):
@@ -333,6 +337,12 @@ def verify_dependency_inventory(manifest, sources):
     verify_graph(scalar, SCALAR, sources)
     for node in set(graph) & set(scalar):
         require(graph[node] == scalar[node], "inconsistent shared dependency")
+    require(manifest["atlas_root"] == ATLAS, "wrong atlas root")
+    atlas = manifest["atlas_requirements"]
+    require(atlas == {ATLAS: []}, "changed self-contained atlas inventory")
+    require(ATLAS not in graph and ATLAS not in scalar,
+            "atlas is structural evidence, not a payment premise")
+    verify_graph(atlas, ATLAS, sources)
 
 
 def verify_sources(manifest=None):
@@ -410,6 +420,20 @@ def verify_manifest_mutations():
         changed = copy.deepcopy(baseline)
         changed["interval_extension_requirements"][root].remove(node)
         bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["atlas_requirements"] = {}
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["atlas_root"] = SCALAR
+    bad.append(changed)
+    changed = copy.deepcopy(baseline)
+    changed["atlas_requirements"][ATLAS] = [ATLAS]
+    bad.append(changed)
+    for key, owner in (("interval_extension_requirements", root),
+                       ("scalar_ledger_requirements", SCALAR)):
+        changed = copy.deepcopy(baseline)
+        changed[key][owner].append(ATLAS)
+        bad.append(changed)
     for changed in bad:
         try:
             verify_sources(changed)
@@ -423,6 +447,8 @@ def verify_manifest_mutations():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group()
+    group.add_argument("--atlas-only", action="store_true",
+                       help="run both separate structural-atlas controls; propagate -O")
     group.add_argument("--secant-only", action="store_true",
                        help="run secant control, both clustered-arc checks and assembly; propagate -O")
     group.add_argument("--contraction-only", action="store_true",
@@ -463,7 +489,8 @@ def main():
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (SECANT_CHECKS if args.secant_only else
+    selected = (ATLAS_CHECKS if args.atlas_only else
+                SECANT_CHECKS if args.secant_only else
                 TWO_COST_PRIMARY_CHECKS if args.two_cost_only else
                 TWO_COST_AUDIT_CHECKS if args.two_cost_audit_only else
                 PROFILE_CHECKS if args.profile_only else
@@ -479,7 +506,8 @@ def main():
     focused = (args.contraction_only or args.receiver_only or args.flat_only
                or args.quotient_only or args.extension_only or args.density_only
                or args.rank_eight_only or args.interval_only or args.profile_only
-               or args.two_cost_only or args.two_cost_audit_only or args.secant_only)
+               or args.two_cost_only or args.two_cost_audit_only or args.secant_only
+               or args.atlas_only)
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         extra = (["--start", str(args.start)]
@@ -498,6 +526,7 @@ def main():
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
     print("SELECTED CHECKS PASS; 65-node assembly and separate 9-node scalar inventory")
+    print("Separate one-node rational atlas: per-core structure, not a payment premise")
     print("Printed theorem: residual J=9941..22999, 13059 integers; no whole degree removed since 4b9cef05")
     print("Every carrier J=23000..169999 paid; fiber >=J-6000 pays21000..52999")
     print("Clustered arcs on20481..22999: <=560 nonzero fibers, size<=2048, any<=11 classes independent")
@@ -506,7 +535,7 @@ def main():
     print("NO exhaustive payment of remaining source classes or unguarded balanced product")
     print("Scalar ledger gives no additional row payment; its profile needs proved shape inputs")
     if selected is not CHECKS:
-        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density, rank-eight, interval, profile, two-cost, two-cost-audit and secant modes")
+        print("PARTIAL SUITE: complete normal replay needs inherited, quotient, extension, density, rank-eight, interval, profile, two-cost, two-cost-audit, secant and atlas modes")
     if args.start is not None:
         print("PARTIAL REPLAY SCOPE: degree block", args.start,
               "only; other blocks require their own successful replay")

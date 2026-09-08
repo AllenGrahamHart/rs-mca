@@ -1,4 +1,9 @@
-# KoalaBear MCA: fiber-secant filtering and rank-twelve coverage
+# KoalaBear MCA: rank-twelve source geometry and coverage
+
+Latest addition: the [rank-six rational atlas](RANK_SIX_ATLAS.md), a
+self-contained structural theorem for one fixed core. Its 25/17 flat
+caps are NOT bad-slope counts and do not extend the paid intervals.
+The source-class theorem below is the unchanged preceding contribution.
 
 ~~~yaml
 workboard_item: K3
@@ -15,8 +20,8 @@ projection_and_unit: all original distinct finite bad affine slopes, counted onc
 claimed_bound: 274545534639685994 including ONE original near allowance
 status: PROVED
 impact: LOCAL_ONLY
-falsifier: an original line satisfying a printed source gate but exceeding its bound
-replay: python3 -B replay.py --secant-only; python3 -B -O replay.py --secant-only; full replay uses the ten bounded modes below
+falsifier: an original line satisfying all required source gates but exceeding its bound
+replay: python3 -B replay.py --secant-only; python3 -B -O replay.py --secant-only; full replay uses the eleven bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -26,7 +31,7 @@ This grouped extension stays on the established companion branch to
 Hughes's branch, claim his earlier rank/near results as new, or bank a
 Grande Finale v4 atom. Neither Prize problem is resolved.
 
-## New Contribution: Charge Secants, Then Filter The Tuple Resource
+## Previous Contribution: Charge Secants, Then Filter The Tuple Resource
 
 Relative to `4b9cef05`, two completed PROVED suppliers add a source class
 inside the remaining gap. They do NOT remove a whole degree interval.
@@ -682,6 +687,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
+- [RANK_SIX_ATLAS.md](RANK_SIX_ATLAS.md): new per-core theorem and hand audit.
 - [REVIEW.md](REVIEW.md): secant filtering, source transport and prior checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
@@ -690,10 +696,10 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `4b9cef05`, this extension adds 15 proof/control sources
-and revises seven assembly sources; 615 parent sources stay byte-identical.
-There are 637 hashed sources, a 65-node assembly and a separate nine-node
-scalar-lemma requirement inventory, both acyclic and
+Relative to parent `0a573449`, this extension adds eight proof/control sources;
+all 637 parent sources stay byte-identical. There are 645 hashed sources,
+a 65-node assembly, a separate nine-node scalar-lemma requirement inventory,
+and a separate one-node structural atlas. All three are acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
 Historical supplier summaries retain their dated narrower ranges; the
@@ -705,7 +711,7 @@ Still open: rank twelve on **9941..22999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these ten serial commands cover all 126
+From this packet directory, these eleven serial commands cover all 128
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -719,10 +725,14 @@ python3 -B replay.py --profile-only
 python3 -B replay.py --two-cost-only
 python3 -B replay.py --two-cost-audit-only
 python3 -B replay.py --secant-only
+python3 -B replay.py --atlas-only
 ~~~
 
-For just this update, use `--secant-only`: the generic actual-source control,
-both finite implementations and the revised assembly. It also supports
+For just this update, use `--atlas-only`: the actual-field primary and the
+independent integer/packing controls. It also supports
+`python3 -B -O replay.py --atlas-only`, propagating -O to both children.
+The preceding `--secant-only` mode runs the generic actual-source control,
+both finite implementations and the unchanged assembly. It also supports
 `python3 -B -O replay.py --secant-only`, propagating -O to every child.
 The preceding two-cost modes are split so the primary and independent interval engines each have
 their own bounded invocation. The preceding rank-profile extension retains
@@ -736,8 +746,8 @@ optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects 35 manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 126-check run may exceed 60 seconds;
+source inventory and rejects 40 manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 128-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

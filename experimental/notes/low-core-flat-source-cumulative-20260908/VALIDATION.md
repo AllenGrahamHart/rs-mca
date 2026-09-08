@@ -3,7 +3,45 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Fiber-Secant Extension
+## Current Rational-Atlas Extension
+
+Fresh frozen-packet replays were serial under RAMguard tiny: 256MiB RAM,
+64MiB swap and a 60-second process-tree limit. No Modal use or spending.
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --atlas-only` | 2/2 PASS | 3.47 seconds | 25028 KiB |
+| `python3 -B -O replay.py --atlas-only` | 2/2 PASS | 3.67 seconds | 27768 KiB |
+| `python3 -B replay.py --secant-only` | 4/4 PASS | 3.61 seconds | 24916 KiB |
+
+The atlas primary checks four small actual-field sources: a maximum-flat
+family over F_193, intersection dimension four with nonconstant components
+over F_1201, a necessary multiplier-gcd root over F_1201, and failure of
+the rational conclusion over F_23 when its strict-root gate is omitted.
+It also checks 87 near-maximum gates and the exact finite envelopes.
+The separate integer checker uses 1695 admissible set families and whole-
+interval affine endpoint inequalities, with no primary or Fraction import.
+Both atlas checks were freshly replayed normally and under -O. The
+additional normal secant replay checks runner compatibility and the
+unchanged original-source assembly; it is not a new interval proof.
+
+Each invocation verifies all 645 frozen source hashes, the unchanged
+65-node assembly, the separate nine-node scalar graph and the separate
+one-node atlas graph. Forty malformed manifests are rejected, including
+attempts to insert the atlas as an assembly or scalar requirement.
+All 637 parent sources are byte-identical; no old proof is silently revised.
+Six distinct checks were replayed normally this cycle. The other 122
+retain their recorded parent replays and unchanged hashes, not a fresh
+full-suite pass. There are now 128 available checks in eleven bounded modes.
+
+The hand review and limitations are in [RANK_SIX_ATLAS.md](RANK_SIX_ATLAS.md).
+Numerical controls do not certify a general hand proof, optimality of the
+25/17 caps, an unrestricted slope census or external acceptance. No whole
+degree, row endpoint, active-v4 atom or Prize problem is closed here.
+The local mathematical integration, not this publication cycle, owns the
+existing DAG diagnostics. No global DAG or crosswalk replay is claimed.
+
+## Parent 0a573449 Fiber-Secant Extension
 
 Fresh frozen-packet replays were serial under RAMguard tiny:256MiB RAM,
 64MiB swap and a60-second process-tree limit. No Modal use or spending.

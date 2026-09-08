@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - A bounded rational atlas for rank-six core flats
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** The existing grouped packet's
+  [rank-six atlas](notes/low-core-flat-source-cumulative-20260908/RANK_SIX_ATLAS.md),
+  eight frozen proof/control sources, manifest and bounded replay mode.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Under the printed all-proper-flat density gate,
+  same-core maximizing rank-six flats have full pairwise joins, packing caps
+  25/17 on the two declared intervals, and distinct directions in a fixed
+  two-anchor rational atlas. The strict-root guard and multiplier-gcd roots
+  are retained; the quantified near-maximum band has its own packing cap.
+- **How it is useful:** K3 / DIRECT source geometry at the rank-six bottleneck,
+  companion to #1175. This is per-core structure, NOT a bad-slope payment.
+  No whole degree is removed, and the unrestricted rank-twelve residual
+  stays J=9941..22999. The atlas is outside the paid-assembly dependencies.
+- **Verification:** Both atlas controls pass normally and under -O; four
+  unchanged secant/assembly checks also pass normally. Peak RSS below28MiB;
+  645 source hashes and40 malformed-manifest controls checked. The other
+  122 checks retain parent replays. External proof review remains due.
+- **What to do next:** Improve a basis count or prove a same-source census
+  pricing varying cores and anchors. Do not multiply a child cap by17/25.
+  Unfinished collision-interval work is excluded. No Modal compute requested.
+
 ### 2026-09-08 - Fiber-secant filtering pays clustered-arc sources inside the gap
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
