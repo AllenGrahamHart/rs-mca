@@ -1,6 +1,37 @@
 # Hand Audit Of The Original-Source Interface
 
-## Current Collision-Profile Extension
+## Current Sharp Switching Extension
+
+Section17 reuses the source bridge without new geometry premises. The
+arbitrary-lambda core costs and new sharp partition resource use identical
+coordinate weights and one common lambda, with the same secant/zero set.
+All-carrier21500..21799 transports to originalg1026777..1027076, removing
+300 more whole degrees. The high union cap increases to274956328426911303;
+the main maximum remains274979661975561635. Residual:J9941..21499,
+g1027077..1038635,11559 integers. Original near is already included.
+verify.py checks the partition, six mutations and current gate boundaries.
+The coefficient's sharpness is not actual-source unsafe-line evidence.
+No original TARGET closes; external mathematical review remains due.
+
+## Previous Weighted-Collision Extension
+
+Section16 applies the finite weighted theorem to the exact normalized
+source already proved in sections2--3. The weighting is auxiliary counting
+on original coordinates: it changes no finite label, field denominator,
+support badness or actual enclosing carrier. One source lambda is fixed
+for all records. Source T funds the resource, core C increases costs;
+they are not identified. No guessed source-consistency exclusion is used.
+
+The new interval21800..22499 transports to1026077..1026776 and removes
+700 complete original core sizes. The high union must increase to
+274954262108377832, while the original main maximum stays unchanged.
+Residual:J=9941..21799,g=1026777..1038635,11859 integers. Six boundary
+and budget mutations, weighted-interval endpoints, original reserve and
+new useful source-gate endpoints are checked by verify.py. Both source
+exceptions and original near are already in the finite total. No original
+TARGET or unrestricted row is closed; external review remains due.
+
+## Previous Collision-Profile Extension
 
 Section15 has exactly the normalized carrier, original finite labels,
 full-code badness and empty universal core already constructed by

@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `643578b6fcb86daf380c12ba565cc27de48d6493`.
+- Previous companion: `ead4b18c7cabfd2cea046a5883207662f9ca806d`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,38 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## Current Contribution: Collision-Profile Interval
+## Current Contribution: Weighted Costs And Sharp Switching
+
+The [grouped review note](SWITCHING_CREDIT.md) adds four complete PROVED
+suppliers: two generic theorems and two finite consumers. Seven assembly
+files are revised. The proof closure grows from68 to72 nodes, while the
+separate nine-node scalar graph and one-node atlas stay unchanged.
+
+The manifest freezes698 sources totaling1965936 bytes:31 new,7 revised,
+660 parent sources byte-identical. Manifest SHA256:
+`656b342982896233bf8f906b6ba93aae785c9179414d02f982f47b095a60027b`.
+Its switching_credit_extension pins the immediate parent and parent
+manifest hash, dirty origin HEAD, five node-manifest hashes, every new
+source and every revised source's predecessor hash. Both complete
+certificate digests are recorded. Inherited snapshots remain byte-frozen;
+their critical/background locations may differ from the current origin.
+
+The original residual isJ=9941..21499,11559 integers, removing1000 whole
+degrees relative toead4b18c. The high union21500..169999 uses the larger
+274956328426911303. The overall original cap stays274979661975561635.
+No source/rank/near prerequisite is claimed as a new discovery. No new
+upstream owner atom, unrestricted endpoint or external acceptance is claimed.
+
+Live main, agents.md, the newest upstream log entry, completion status
+and #1175 were rechecked. Their pins above are unchanged. Canonical Fable
+was read-only and unchanged at its committed pin. Publication completes
+the local section17 transport/manifest integration before freezing it;
+it does not introduce further speculative mathematics. The exploratory
+split-moment/box scripts, generated DAG and unrelated dirty files are excluded.
+
+## Parent ead4b18c: Collision-Profile Interval
+
+The following records that snapshot; counts and exclusions are historical.
 
 The [review note](COLLISION_PROFILE.md) groups two generic PROVED counting
 lemmas with their every-carrier consumer on J=22500..22999. Seven revised

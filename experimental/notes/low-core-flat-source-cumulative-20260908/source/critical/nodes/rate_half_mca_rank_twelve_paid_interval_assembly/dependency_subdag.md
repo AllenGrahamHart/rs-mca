@@ -16,6 +16,7 @@
     two-cost whole interval [PROVED] ----------+        |
     clustered-arc source payment [PROVED] -----+        |
     collision-profile interval [PROVED] ------+        |
+    weighted-collision interval [PROVED] -----+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -91,4 +92,19 @@ mca_fiber_collision_bonferroni_resource, using existing contraction,
 rank-profile, secant and completed-basis suppliers. No supplier requires
 the assembly. The source T split is exhaustive, not a new red premise.
 The rank-six rational atlas is not required by this argument and remains
-separate structural evidence. The assembly closure gains exactly three nodes.
+separate structural evidence. That stage added exactly three nodes.
+
+Section16 requires rate_half_mca_weighted_collision_interval, which adds
+mca_coordinate_weighted_collision_resource and the already proved source
+and core suppliers. The assembly closure gains exactly two nodes, reaching
+70 PROVED nodes at that stage. Source/core collision weighting is a proved inequality,
+not a speculative premise. No supplier requires the assembly; the router
+still receives only evidence. The atlas remains outside this closure.
+
+Section17 requires rate_half_mca_switching_credit_interval. Its new generic
+supplier mca_projective_fiber_switching_resource requires only the proved
+secant resource. The finite consumer also requires the preceding weighted
+interval and the existing generic cost/source suppliers. The assembly now
+has72 PROVED nodes. There is no backwards dependency or speculative leaf;
+the atlas and scalar inventory remain separate. The router stays TARGET
+and receives evidence only.

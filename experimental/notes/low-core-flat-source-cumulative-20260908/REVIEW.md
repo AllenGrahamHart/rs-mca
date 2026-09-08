@@ -4,7 +4,27 @@ K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Source-Collision Split And 500 Whole Degrees
+## Current Extension: Weighted Costs And Sharp Switching
+
+[SWITCHING_CREDIT.md](SWITCHING_CREDIT.md) gives the hand-audit breakdown.
+Read the two generic proofs, both finite consumers and assembly sections16--17.
+The switch has two incoming orientations and denominator n-r, not n.
+Zero coordinates have weight zero; one common lambda is used for all labels.
+The core-cost inequalities are independent of the older CREDIT guard.
+Core C is not source T, and a resource bound without T still needs T for
+the explicit exception allowance. Full-source fiber alternatives and all
+core ranks/collisions/HIGH margins remain exhaustive. No favorable source
+selection, post-exception full-span assumption or extra near charge enters.
+
+The finite weighted/switching maxima give the new high-union bound
+274956328426911303. The main maximum is unchanged. Rank twelve on
+J=9941..21499 and original ranks>=13 remain open. The sharp partition
+extremizer does not realize an unsafe received line. The atlas stays
+outside the72-node payment closure. External independent review remains due.
+
+## Previous Extension: Source-Collision Split And 500 Whole Degrees
+
+This is the parent snapshot, including its then-current exclusions.
 
 [COLLISION_PROFILE.md](COLLISION_PROFILE.md) gives the current hand-audit
 breakdown and exact integration scope. Its three completed suppliers

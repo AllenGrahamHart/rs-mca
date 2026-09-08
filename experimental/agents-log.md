@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Sharp switching and weighted costs pay 1,000 rank-twelve degrees
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** The grouped companion packet's
+  [weighted/switching note](notes/low-core-flat-source-cumulative-20260908/SWITCHING_CREDIT.md),
+  four frozen suppliers, original assembly, source manifest and two replay modes.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** A sharp weighted distinct-fiber resource inequality,
+  same-source marked core-basis costs, and two exact finite consumers paying
+  EVERY normalized carrier on J=21500..22499 by274956328426911303 including
+  original near once. No extra density or fiber-count premise remains.
+- **How it is useful:** K3 / DIRECT companion to #1175. The original-source
+  transport removes1,000 complete rank-twelve core sizes relative toead4b18c.
+  The residual isJ=9941..21499,11559 integers. The high union21500..169999
+  uses the new larger cap; the main cap stays274979661975561635. The
+  coefficient is sharp only for the partition resource, not the MCA numerator.
+  The scalar inventory and atlas stay outside the72-node payment closure.
+- **Verification:** Primary and separate integer certificates cover56320
+  weighted and40489 switching boxes. See the packet's validation record for
+  normal/-O replays,698 source hashes and50 malformed manifests. These
+  controls do not replace independent review of the hand proofs or replay
+  of the entire inherited suite. No Modal or large-memory computation.
+- **What to do next:** Review the arbitrary-lambda cost scope, exact switch
+  multiplicities and original-label transport. Stronger core costs or actual
+  source-distribution information are needed beyond the sharp uniform credit.
+  Original ranks>=13, lower J, unrestricted rows and both Prizes remain open.
+
 ### 2026-09-08 - Source-collision counting pays 500 whole rank-twelve degrees
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

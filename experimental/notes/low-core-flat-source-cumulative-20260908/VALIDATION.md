@@ -3,7 +3,60 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Collision-Profile Extension
+## Current Weighted And Switching Extension
+
+Fresh frozen-packet replays are serial under RAMguard tiny:256MiB RAM,
+64MiB swap and60 seconds per process tree. No Modal use or spending.
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --weighted-only` | 4/4 PASS | 50.20 seconds | 27504 KiB |
+| `python3 -B -O replay.py --weighted-only` | 4/4 PASS | 49.15 seconds | 30060 KiB |
+| `python3 -B replay.py --switching-only` | 5/5 PASS | 41.41 seconds | 27496 KiB |
+| `python3 -B -O replay.py --switching-only` | 5/5 PASS | 42.23 seconds | 29928 KiB |
+
+Eight distinct checks pass normally and under-O (the assembly is shared).
+Optimization reaches every selected child and explicit guards remain live.
+All four invocations finish within their60-second process-tree limits,
+with peak RSS below30MiB and no pending computation handle.
+
+Each invocation validates698 frozen sources, the72-node acyclic assembly,
+separate9-node scalar graph and1-node atlas, and rejects50 malformed
+manifests. The parent contributes660 byte-identical sources; seven assembly
+files are revised with predecessor hashes and31 new proof/control files
+are added. No exploratory script or generated DAG is exported.
+
+The weighted engines agree on all56320 boxes,12990 old-cost supplements
+and every rational intermediate, digest
+`b0d340b813df77e827f49d3b4d273c8de17c42214f12e4823ee1d87edc8aaafb`.
+Each checks112640 wrong adjacent floors. The switching engines cover40489
+boxes and18068 supplements, digest
+`e9087d3555bafce49cba6c75e09c0c6eb45a5025d057f5f20e9b762f48c0fa86`.
+Each checks80978 wrong adjacent floors. Both primary covers reject four
+malformed partitions. No excluded box or sampled-source extrapolation.
+
+The generic switching primary checks4317 histogram/rank cases,245 sharp
+doubleton families and312 exact switch-target multiplicities. Its separate
+integer/subset audit covers1046 partition cases and693 sharp identities,
+including wrong-orientation, denominator and singleton-weight mutations.
+Actual small polynomial carriers check scope. The weighted generic checks
+1452 histograms,150 tangent comparisons, invalid guards and three actual
+small cores. These controls support, but do not certify, the hand proofs.
+
+The new modes cover seven new checks and the revised assembly. The other
+131 of139 available checks retain recorded parent replays and unchanged
+source hashes, not a fresh full-suite pass. Fourteen bounded modes remain
+available. Inherited prerequisite attribution is unchanged. Local DAG
+manifest/focused checks pass after section17 integration; no fresh global
+prize/crosswalk pass is claimed, and prior260/11 diagnostics are not fixed.
+
+Independent mathematical review remains due. Rank twelve onJ=9941..21499,
+higher original ranks, unrestricted MCA, LIST and both Prize problems remain
+open. Coefficient sharpness is NOT a matching unsafe-line construction.
+
+## Parent ead4b18c Collision-Profile Extension
+
+The following records that snapshot's replay scope and exclusions.
 
 Fresh frozen-packet replays were serial under RAMguard tiny: 256MiB RAM,
 64MiB swap, 60 seconds per process tree. No Modal use or spending.

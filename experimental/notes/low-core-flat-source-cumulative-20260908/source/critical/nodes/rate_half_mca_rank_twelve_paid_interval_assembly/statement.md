@@ -19,7 +19,7 @@ gamma in Z. Let a be the affine rank of their original error words and
 
 If a<=11, or if a=12 and g is OUTSIDE the interval
 
-    1026077<=g<=1038635,
+    1027077<=g<=1038635,
 
 then the ENTIRE original bad-slope set satisfies
 
@@ -33,7 +33,7 @@ intersections of selected size-m witnesses.
 Equivalently, every over-budget original line has, for EVERY complete
 post-near selection, either a>=13 or a=12 with
 
-    J=K-g in 9941..22499.
+    J=K-g in 9941..21499.
 
 In every rank it also retains g<=1043775 from the earlier large-core
 theorem. No bound on all-source error rank is asserted.
@@ -62,12 +62,21 @@ The collision-profile interval now pays EVERY carrier on22500..22999
 by274938028871508001, reserve42699239887086, with both source-collision
 branches proved and no additional source premise. The union22500..169999
 uses274938028871508001, increased from the previous smaller union cap.
-The residual has12559 integers, down from13059 in public643578b6.
-The source interface and main whole-line total are unchanged.
+The weighted-collision theorem further pays EVERY carrier21800..22499
+by274954262108377832, reserve26466003017255. Its common source weighting
+and all-core convex tangents require no extra geometry assumption.
+That stage gives union21800..169999 with11859 residual integers.
+The sharp switching theorem now pays EVERY carrier21500..21799 by
+274956328426911303, reserve24399684483784. The union21500..169999
+must use this larger cap. The residual has11559 integers, removing1000
+whole degrees relative to publicead4b18c (700 weighted plus300 switching).
+The source interface and main whole-line total are unchanged. Sharpness
+concerns the uniform partition-resource coefficient, not the MCA numerator.
 
-Public643578b6 contains the preceding two-cost, secant and structural-atlas
-results. The collision-profile interval is a new LOCAL extension; see
-notes/correspondence/COLLISION_PROFILE_INTERVAL_20260908.md.
+Publicead4b18c contains the preceding collision-profile interval and earlier
+two-cost, secant and atlas results. The weighted and switching intervals
+extend that snapshot; their public custody is recorded separately in
+notes/correspondence/SWITCHING_CREDIT_EXPORT_20260908.md.
 
 ## Additional Clustered-Arc Class
 
@@ -83,7 +92,7 @@ whole-line alternative, not an assumed property of arbitrary carriers.
 Fiber-secant and carrier-zero exceptional slopes are explicitly charged
 once; all surviving original labels remain on the SAME carrier and field.
 This source class alone removes no complete J. Its remaining useful
-intersection with the current residual9941..22499 is20481..22499.
+intersection with the current residual9941..21499 is20481..21499.
 
 ## Additional Receiver-Fiber Classes
 
@@ -92,11 +101,11 @@ by the source bridge above. The SAME bound (ORIGINAL) also holds if
 V' has a complete nonzero projective evaluation fiber of size b satisfying
 the remaining useful fiber gate:
 
-    14000<=J<=22499 and b>=J-2000.
+    14000<=J<=21499 and b>=J-2000.
 
 The stronger degree-6000 two-cost source-fiber supplier also pays
 
-    21000<=J<=22499 and b>=J-6000,
+    21000<=J<=21499 and b>=J-6000,
 
 by266180883463176443 including original near. Every over-budget
 selection in this range therefore has every full nonzero fiber<=J-6001.
@@ -125,7 +134,7 @@ Every flat attaining that maximum has rank at most seven on 23000..24537,
 at most eight on 24538..28916 and at most nine on 28917..29999. These
 are necessary restrictions on a possible over-budget line, not existence
 claims or an assumption that all carriers obey the density gate.
-The numerical residual is J=9941..22499 (12559 integers). This older
+The numerical residual is J=9941..21499 (11559 integers). This older
 source class and the dense-core mass below are published in 0f2d9e8f.
 Their stated ranges remain valid, but the new every-carrier interval
 pays their ENTIRE23000..29999 scope. None of these density or mass
@@ -167,4 +176,4 @@ remain open. The mass results are public in 0f2d9e8f; the stronger gate
 above is public in 99a30fdc. The new interval makes these necessary mass
 conditions vacuous on their ENTIRE J=23000..29999 scope, without
 invalidating their proofs. In particular they supply no dense-label mass
-or maximizing-flat rank restriction on the remaining21000..22499.
+or maximizing-flat rank restriction on the remaining21000..21499.

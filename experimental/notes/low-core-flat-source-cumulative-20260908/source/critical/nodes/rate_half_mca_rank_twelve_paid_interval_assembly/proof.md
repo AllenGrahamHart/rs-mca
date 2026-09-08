@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1026076          22500..169999         274938028871508001
+    878577..1027076          21500..169999         274956328426911303
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly1026077..1038635, equivalent
-to J=9941..22499. Section15 proves the latest interval extension.
+The remaining original interval is exactly1027077..1038635, equivalent
+to J=9941..21499. Section17 proves the latest interval extension.
 Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
@@ -132,7 +132,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on14000..22499 by248408859318207582, including the one
+>=J-2000 on14000..21499 by248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -337,6 +337,9 @@ condition beginning at23000 is imported below its scope.
 
 ## 15. Transport The Collision-Profile Every-Carrier Interval
 
+This section records the preceding500-degree extension, now supplemented
+by section16. Its supplier and full original-source scope remain valid.
+
 Sections2 and3 supply the EXACT normalized contract of
 rate_half_mca_collision_profile_interval for every fixed complete original
 rank-twelve selection: actual carrier dimension eleven, empty universal
@@ -366,6 +369,76 @@ and mass statements starting at23000 remain fully subsumed. Taking
 the contrapositive for EVERY complete original selection gives the
 updated router restriction. No all-source error-rank bound or claim about
 original ranks>=13, the remaining lower gap, LIST or either full Prize follows.
+
+## 16. Transport The Coordinate-Weighted Every-Carrier Interval
+
+This section records the preceding700-degree stage. Section17 gives the
+current complement; this supplier's full scope remains unchanged.
+
+The fixed original complete selection and sections2--3 supply exactly the
+source of rate_half_mca_weighted_collision_interval: same original field
+and finite labels, full-code-bad saturated witnesses, actual dimension11
+and empty universal core after cancelling ONLY the complete shared core.
+Nonuniversal zero coordinates remain. The new source-fiber alternative,
+SOURCE moment cap and common weighting require no further hypothesis on
+this carrier or its receiver. All surviving explanations are counted in
+the same enclosing carrier; no post-exception rank assumption is imposed.
+
+The weighted theorem thus pays|Z|+134944<=274954262108377832 for
+EVERY original rank-twelve selection with21800<=J<=22499. Its explicit
+secant/zero exceptions and the one original near allowance are already
+included. Therefore|Z_bad| obeys the same total. UnderJ=1048576-g the
+new original core interval is1026077..1026776,700 complete integer sizes.
+Weights affect auxiliary tuple counting only, not original slope identity,
+support badness, receiver, field denominator or selection rank.
+
+The previous high union22500..169999 has smaller cap274938028871508001.
+The21800..169999 union must use the new maximum274954262108377832.
+That is still below274979661975561635, so the original main bound and
+its1066135833452 reserve do not change. The exact remaining rank-twelve
+interval is nowg=1026777..1038635, equivalentlyJ=9941..21799,
+11859 integers. The necessary fiber gates end at21799; the clustered-arc
+supplier's remaining useful overlap is20481..21799. Its historical full
+scope is not changed. Old density/mass scopes beginning at23000 remain
+fully subsumed and impose no lower-gap restriction.
+
+Taking the contrapositive for EVERY complete original selection gives
+the revised router evidence. No theorem on higher original ranks, all
+remaining source classes, ordinary LIST or either full Prize is inferred.
+
+## 17. Transport The Sharp Switching Interval
+
+Sections2--3 supply the exact source contract of
+rate_half_mca_switching_credit_interval for every fixed original complete
+rank-twelve selection. The actual dimension-eleven carrier has empty
+universal core after cancelling ONLY the complete shared scalar core.
+The original field, finite labels, full-code-bad saturated witnesses and
+nonuniversal zero coordinates are retained. Fix minimizing pairs only
+after this source is fixed; no new original-rank selection is assumed.
+
+The new supplier pays EVERY carrier21500<=J<=21799 by
+|Z|+134944<=274956328426911303. Its source-fiber branch is exhaustive.
+The remaining branch uses the same secant/zero exception set and one
+nonnegative coefficient for every record. The old core-cost inequalities
+hold for every such coefficient; the sharp switching theorem replaces
+only their sufficient resource guard. It changes neither the source nor
+the label set. Survivors stay in the actual enclosing carrier even when
+their own span is smaller. Exceptions and original near are already paid.
+
+Under J=1048576-g this adds1026777<=g<=1027076, exactly300 complete
+core sizes. The high union21500..169999 must use the LARGER maximum
+274956328426911303. It remains below274979661975561635, so (ORIGINAL)
+and its reserve are unchanged. The exact remaining interval is
+g=1027077..1038635, equivalentlyJ=9941..21499,11559 integers. Relative
+to publicead4b18c, sections16--17 remove1000 whole degrees in total.
+
+The useful2000 and6000 fiber gates now end at21499. The clustered-arc
+supplier retains20481..22999, with remaining overlap20481..21499.
+No older density/mass scope is extended into the smaller gap. Taking the
+contrapositive for EVERY complete original selection gives the current
+router evidence. The sharp coefficient is optimal for its partition
+resource, not for the actual bad-slope numerator. The remaining degrees,
+original ranks>=13, unrestricted MCA, LIST and both Prize problems stay open.
 
 ## Scope And Provenance
 

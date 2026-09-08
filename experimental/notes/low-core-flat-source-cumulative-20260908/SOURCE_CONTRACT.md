@@ -1,6 +1,15 @@
 # Exact direct source contract
 
-Current source-class addition: on J=20481..22999, at most560 complete
+Current all-carrier extension: weighted collisions and sharp switching pay
+J=21500..22499 without new density/fiber-count premises. The same original
+field, actual normalized carrier dimension eleven, full-code-bad supports,
+finite labels and empty universal core are required. No maximal-raw selector
+is needed. Assembly sections16--17 retain nonuniversal zeros and add original
+near once. The current residual is J=9941..21499. Sharpness is only of the
+partition-resource coefficient, not the MCA numerator. See
+[SWITCHING_CREDIT.md](SWITCHING_CREDIT.md) for the current exact contract.
+
+Previous source-class addition: on J=20481..22999, at most560 complete
 nonzero projective evaluation fibers, each of size<=2048, with any<=11
 distinct classes independent, imply |Gamma|+134944<=274545534639685994.
 Use the same actual dimension-eleven source below, full-code badness and
@@ -10,7 +19,7 @@ fiber-secant/zero-coordinate slope set and retain one original near allowance;
 do not assume the three geometric gates for arbitrary carriers or v4 owners.
 No whole degree is removed from the remaining J=9941..22999 interval.
 
-Current all-carrier addition: J=23000..23999, following the proved
+Previous all-carrier addition: J=23000..23999, following the proved
 J=24000..29999 intervals, uses the same normalized source below but needs
 no canonical maximal-raw selector. Its statement and assembly section13
 are authoritative. The new source-fiber payments use a>=J-6000 on
