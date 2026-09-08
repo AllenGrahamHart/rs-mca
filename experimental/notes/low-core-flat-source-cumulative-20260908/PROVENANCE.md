@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `d56d1e134433506cbb87d0249aead623a9937876`.
+- Previous companion: `4b9cef05a507df5160a6535cac5ec54d73261249`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,36 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution: Two Costs And The 23000 Interval
+## New Contribution: Fiber-Secant Filtering And Clustered Arcs
+
+Two completed PROVED suppliers add the global exceptional-slope set and
+distinct-fiber tuple resource, then the source-class payment on20481..22999.
+The inherited support-margin incidence argument, completed-core costs,
+projective-flat basis counts and original-source transport are credited
+prerequisites. No general literature novelty or new upstream owner is claimed.
+
+The manifest freezes637 sources,1780878 bytes, with a65-node assembly
+and a separate nine-node scalar inventory. It adds15 sources and revises
+seven assembly files;615 parent sources remain byte-identical. Its
+`secant_extension` records the immediate parent and manifest hash,
+predecessor hashes of revised files, dirty origin HEAD and precise scope.
+Manifest SHA256:
+`12dcc29a7f13e429baa3a3d77a76ec7fec403734051b6d44e60ff767964e13bd`.
+
+The new nodes are `mca_projective_fiber_secant_resource` and
+`rate_half_mca_clustered_arc_payment`. Their exact requirements and the
+new assembly edge are checked by replay. Complete local proofs are
+submitted for external independent review, which remains due. The source
+gate pays274545534639685994 including near; the main whole-line cap and
+unrestricted rank-twelve residualJ=9941..22999 do not move.
+
+Unproved many-pair/transverse bounds, exploratory scripts, generated DAG
+and unrelated dirty sources are excluded. No mathematical node status
+or DAG edge changes in this publication cycle. Source-local references
+to these proofs as LOCAL record their prepublication custody, not a new
+conditional status. The older sections below describe their parent snapshots.
+
+## Previous Contribution: Two Costs And The 23000 Interval
 
 Three completed PROVED suppliers retain full heavy receiver-color occupancy,
 derive separate uniform light/heavy tuple costs, and discharge the stronger

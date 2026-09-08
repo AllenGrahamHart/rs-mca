@@ -79,3 +79,11 @@ coefficient never multiplies an upper heavy count. The8000-degree source
 gate supplies an exhaustive branch, not an assumption of its premise.
 Both the older4700 and new8000 gates are subsumed above23000. Historical
 density/mass suppliers impose no nonvacuous condition below23000.
+
+Section14 adds a whole-source clustered-arc alternative on20481..22999:
+at most560 nonzero projective fibers, size<=2048 each, any at most11
+distinct classes independent. The original source is fixed before these
+gates are tested. Nonuniversal zero labels and fiber-secant labels are
+charged once in the new theorem, with original near included once.
+The surviving labels remain in the same actual carrier, even if their
+minimal span changes. No degree interval or original-rank bound follows.

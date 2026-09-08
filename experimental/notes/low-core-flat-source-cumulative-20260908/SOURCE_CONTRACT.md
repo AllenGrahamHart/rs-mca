@@ -1,5 +1,15 @@
 # Exact direct source contract
 
+Current source-class addition: on J=20481..22999, at most560 complete
+nonzero projective evaluation fibers, each of size<=2048, with any<=11
+distinct classes independent, imply |Gamma|+134944<=274545534639685994.
+Use the same actual dimension-eleven source below, full-code badness and
+empty universal carrier core. No canonical maximal-raw selector is needed.
+The finite statement and assembly section14 are authoritative. Charge one
+fiber-secant/zero-coordinate slope set and retain one original near allowance;
+do not assume the three geometric gates for arbitrary carriers or v4 owners.
+No whole degree is removed from the remaining J=9941..22999 interval.
+
 Current all-carrier addition: J=23000..23999, following the proved
 J=24000..29999 intervals, uses the same normalized source below but needs
 no canonical maximal-raw selector. Its statement and assembly section13

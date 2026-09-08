@@ -62,9 +62,24 @@ The union23000..169999 retains274929007493481160. The residual has
 13059 integers, down from14059 in public d56d1e13.
 The source interface and main whole-line total are unchanged.
 
-Public d56d1e13 contains the rank-profile theorem and the24000 start.
-The two-cost source gates and current23000 start are LOCAL, recorded in
-notes/correspondence/TWO_COST_RECEIVER_FIBER_INTERVAL_20260908.md.
+Public4b9cef05 contains the two-cost source gates and23000 start; see
+notes/correspondence/TWO_COST_EXPORT_20260908.md. The clustered-arc
+source class below is a new LOCAL extension beyond that publication.
+
+## Additional Clustered-Arc Class
+
+For a rank-twelve selection with20481<=J<=22999, the same bound
+(ORIGINAL) also holds if the NONZERO evaluations of its normalized V'
+have at most560 complete projective fibers of size<=2048 each and any
+at most eleven distinct classes are independent. The required clustered-arc
+theorem gives274545534639685994 including near, below (ORIGINAL).
+
+Thus at least one of these three geometric gates fails for EVERY
+over-budget original rank-twelve selection in that range. This is a
+whole-line alternative, not an assumed property of arbitrary carriers.
+Fiber-secant and carrier-zero exceptional slopes are explicitly charged
+once; all surviving original labels remain on the SAME carrier and field.
+No complete integer J is removed from the residual9941..22999.
 
 ## Additional Receiver-Fiber Classes
 

@@ -75,3 +75,10 @@ and core-counting suppliers. Both direct requirements are retained here:
 the6000 gate additionally pays source classes below the new whole interval.
 Neither supplier requires this assembly. The original target still receives
 only evidence; no speculative leaf or new original-rank hypothesis is added.
+
+Section14 requires rate_half_mca_clustered_arc_payment. Its new secant
+supplier requires the proved nonuniform support-margin incidence resource;
+its finite costs use existing flat-core and cumulative completed-basis
+suppliers. Neither new node requires this assembly. The three geometric
+gates are discharged only for their stated source class, not promoted to
+universal premises. The original router continues to receive evidence only.

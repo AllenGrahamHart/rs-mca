@@ -1,4 +1,4 @@
-# KoalaBear MCA: rank-twelve coverage down to J=23000
+# KoalaBear MCA: fiber-secant filtering and rank-twelve coverage
 
 ~~~yaml
 workboard_item: K3
@@ -7,16 +7,16 @@ object: MCA
 target_epsilon: 2^-128
 agreement: 1116048
 B_star: 274980728111395087
-direct_statement: original lines admitting a complete post-near selection of error rank <=11, or rank twelve and complete shared core g outside 1025577..1038635, satisfy |Z_bad|<=274979661975561635
+direct_statement: original rank-twelve selections with J=20481..22999 and normalized clustered-arc gates (<=560 nonzero projective fibers, each <=2048, any <=11 distinct classes independent) imply |Z_bad|<=274545534639685994
 architecture: DIRECT
 atom_or_cell: original received-line classes, not an active-v4 owner
 quantifier: every original received line admitting such a complete selection
 projection_and_unit: all original distinct finite bad affine slopes, counted once
-claimed_bound: 274979661975561635
+claimed_bound: 274545534639685994 including ONE original near allowance
 status: PROVED
 impact: LOCAL_ONLY
 falsifier: an original line satisfying a printed source gate but exceeding its bound
-replay: python3 -B replay.py --two-cost-only; python3 -B replay.py --two-cost-audit-only; full replay uses the nine bounded modes below
+replay: python3 -B replay.py --secant-only; python3 -B -O replay.py --secant-only; full replay uses the ten bounded modes below
 ~~~
 
 Agent: Codex acting for AllenGrahamHart, 2026-09-08. Complete local proofs
@@ -26,7 +26,68 @@ This grouped extension stays on the established companion branch to
 Hughes's branch, claim his earlier rank/near results as new, or bank a
 Grande Finale v4 atom. Neither Prize problem is resolved.
 
-## Main Result: A Restriction On Original Over-Budget Lines
+## New Contribution: Charge Secants, Then Filter The Tuple Resource
+
+Relative to `4b9cef05`, two completed PROVED suppliers add a source class
+inside the remaining gap. They do NOT remove a whole degree interval.
+
+The [generic theorem](source/critical/nodes/mca_projective_fiber_secant_resource/proof.md)
+normalizes the receiver on each complete nonzero projective evaluation
+fiber. Unequal normalized directions determine at most one agreeing slope
+per pair. Charge the UNION of these slopes and carrier-zero agreeing
+labels as one set E. Outside E, two agreeing coordinates in the same fiber
+have proportional incidence normals. Thus every independent tuple owned
+by a surviving label uses distinct nonzero fibers, giving
+
+~~~text
+|E| <= z + sum_i binom(a_i,2),
+sum_(gamma outside E) b_gamma <= (s+1)! e_(s+1)(a_i).
+~~~
+
+Here z counts carrier-zero coordinates, a_i are complete nonzero fiber
+sizes, and b_gamma is any proved independent-tuple cost for that record.
+For at most F0 fibers, F0>=s+1, the resource is at most
+`(F0)_falling_(s+1)*((n-z)/F0)^(s+1)`. The balance envelope has a hand
+proof. Complete-core counts retain the same explanation and remain valid.
+No child receiver, field change, or separate budget per fiber is introduced.
+
+The [finite clustered-arc theorem](source/critical/nodes/rate_half_mca_clustered_arc_payment/proof.md)
+applies to `(n,K,m)=(1048576+J,J,67472+J)`, actual polynomial carrier
+dimension eleven, full-code-bad supports and empty universal carrier core.
+On **20481..22999**, require all THREE whole-source gates:
+
+- At most **560** complete nonzero projective evaluation fibers.
+- Each fiber has at most **2048** original coordinates.
+- Any at most **eleven** distinct projective classes are independent.
+
+Then
+
+~~~text
+|Gamma|+134944 <= 274545534639685994,
+reserve below B* = 435193471709093.
+~~~
+
+The single exception allowance is 1096757012. Proved LOW flat-core costs
+and HIGH cumulative costs share the filtered resource. An analytic
+derivative bound covers the ENTIRE J interval; no sampled extrapolation
+is used. [Assembly section 14](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
+retains original labels, field, full-code badness and nonuniversal zeros,
+and adds original near once. Surviving explanations need not span the
+unchanged enclosing carrier. These gates are not assumed for every source.
+
+A compressed, genuine power-of-two-domain carrier at J=20481,
+`V=span{1,X^2048,...,X^20480}`, has 522 full 2048-point fibers and one
+singleton. Its exact-histogram bound is **272166503326104174**; the old
+unfiltered bound at the same valid cost is **309119416238808494**, above
+budget. This proves feasibility and utility of the source gate, not an
+unsafe original line or an original selection of minimal rank twelve.
+
+The unrestricted rank-twelve residual remains **J=9941..22999** and
+original ranks >=13 remain open. Every over-budget rank-twelve selection
+in 20481..22999 must fail at least one of the three gates. No v4 atom,
+unrestricted endpoint, ordinary LIST result or Prize closure is claimed.
+
+## Combined Result: Restrictions On Original Over-Budget Lines
 
 The [original-source theorem](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md)
 and its [proof](source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md)
@@ -60,7 +121,7 @@ The existing all-rank restriction `g<=1043775` also remains. This is a
 necessary restriction on a possible unsafe line, not a claim that any
 line in the remaining classes is unsafe or that those classes are empty.
 
-## What Is New: Two-Cost Counting And Another 1,000 Degrees
+## Previous Extension: Two-Cost Counting And Another 1,000 Degrees
 
 Relative to public parent `d56d1e13`, three completed proved suppliers
 pay **every normalized carrier on J=23000..23999** without a new
@@ -621,7 +682,7 @@ child degree. The largest paid total is the displayed main bound.
 
 ## Review And Reproducibility
 
-- [REVIEW.md](REVIEW.md): two-cost counting, source transport and prior checks.
+- [REVIEW.md](REVIEW.md): secant filtering, source transport and prior checks.
 - [PROVENANCE.md](PROVENANCE.md): immutable inputs, attribution and dependency DAG.
 - [VALIDATION.md](VALIDATION.md): bounded serial replay and its limits.
 - [SOURCE_CONTRACT.md](SOURCE_CONTRACT.md): inherited, stronger contract for
@@ -629,9 +690,9 @@ child degree. The largest paid total is the displayed main bound.
 - [EARLIER_SOURCE_CLASSES.md](EARLIER_SOURCE_CLASSES.md): prior bounded-flat,
   progression, large-fiber and lower-strip results, with historical scope labels.
 
-Relative to parent `d56d1e13`, this extension adds 23 proof/control sources
-and revises seven assembly sources; 592 parent sources stay byte-identical.
-There are 622 hashed sources, a 63-node assembly and a separate nine-node
+Relative to parent `4b9cef05`, this extension adds 15 proof/control sources
+and revises seven assembly sources; 615 parent sources stay byte-identical.
+There are 637 hashed sources, a 65-node assembly and a separate nine-node
 scalar-lemma requirement inventory, both acyclic and
 locally PROVED at the used scopes. This is not a globally green-DAG claim.
 The parent commit preserves the previous interval statement and inventory.
@@ -644,7 +705,7 @@ Still open: rank twelve on **9941..22999**, higher original error ranks,
 the unrestricted adjacent KoalaBear inequality, ordinary LIST and both
 Prize problems. The direct theorem needs no v4 owner ledger, but inserting
 it into that ledger would require its separate ownership contract.
-From this packet directory, these nine serial commands cover all 123
+From this packet directory, these ten serial commands cover all 126
 distinct checks while keeping each invocation short:
 
 ~~~sh
@@ -657,12 +718,13 @@ python3 -B replay.py --interval-only
 python3 -B replay.py --profile-only
 python3 -B replay.py --two-cost-only
 python3 -B replay.py --two-cost-audit-only
+python3 -B replay.py --secant-only
 ~~~
 
-For just this update, use the last two commands: three new primary checks
-and the revised assembly, followed by two independent audits and the assembly.
-Both support `python3 -B -O replay.py ...`, propagating -O to every child.
-They are split so the primary and independent interval engines each have
+For just this update, use `--secant-only`: the generic actual-source control,
+both finite implementations and the revised assembly. It also supports
+`python3 -B -O replay.py --secant-only`, propagating -O to every child.
+The preceding two-cost modes are split so the primary and independent interval engines each have
 their own bounded invocation. The preceding rank-profile extension retains
 `--profile-only`, with four checks in normal or optimized mode.
 The previous whole-degree extension retains `--interval-only`, with nine
@@ -674,8 +736,8 @@ optimization is explicitly propagated to all four selected children. For
 shorter runs use `--start J0`: quotient mode accepts 32000,34000,36000,38000;
 extension mode accepts 30000,30200,30800. All blocks of a chosen interval
 are needed for its complete replay. Every invocation validates the entire
-source inventory and rejects 32 manifest mutations, but reports its limited
-arithmetic replay scope. The no-flag 123-check run may exceed 60 seconds;
+source inventory and rejects 35 manifest mutations, but reports its limited
+arithmetic replay scope. The no-flag 126-check run may exceed 60 seconds;
 use the split modes under a 60-second process-tree limit.
 The earlier `--flat-only`, `--receiver-only` and `--contraction-only`
 modes remain available. No flag runs a numerical search.

@@ -22,7 +22,10 @@ The4700/8000 gates and all older density/mass suppliers are fully subsumed
 on their scopes beginning at23000. They give no dense-label mass or
 maximizing-flat rank restriction on the remaining smaller J gap.
 
-The rank-profile theorem and24000 start are public in d56d1e13. The
-two-cost suppliers and current source assembly are LOCAL; their record is
-notes/correspondence/TWO_COST_RECEIVER_FIBER_INTERVAL_20260908.md.
+The two-cost suppliers and23000 start are public in4b9cef05. The new
+clustered-arc source class on20481..22999 is LOCAL: at most560 complete
+nonzero fibers of size<=2048, with any at most11 distinct classes
+independent, pays274545534639685994 including near. This is below the
+unchanged main maximum. Every over-budget selection there fails at least
+one geometric gate. No entire J is removed from the residual.
 No original TARGET, unrestricted MCA endpoint, LIST or Prize problem closes.

@@ -55,6 +55,7 @@ def main():
     verify_quantitative_interval()
     verify_rank_profile_interval()
     verify_two_cost_interval()
+    verify_clustered_arc_gate()
     print("PASS: exact original-g partition, child intervals, one near and field reserve")
     print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..22999")
     print("The source bridge is a hand proof, not certified by this arithmetic check")
@@ -172,6 +173,23 @@ def verify_two_cost_interval():
     check(max(9941,23000)>min(22999,29999), "old density/mass scopes miss entire residual")
     check(22999<23000<=52999<=169999, "full4700/8000 scopes subsumed by paid union")
     print("PASS: two-cost interval, six remaining6000 controls; old density/mass scope entirely subsumed")
+
+
+def verify_clustered_arc_gate():
+    def gate(j, fibers, largest, arc):
+        return 20481<=j<=22999 and fibers<=560 and largest<=2048 and arc
+    controls = ((20481,560,2048,True,True),(22999,560,2048,True,True),
+                (20480,560,2048,True,False),(23000,560,2048,True,False),
+                (20481,561,2048,True,False),(20481,560,2049,True,False),
+                (20481,560,2048,False,False),(20481,523,2048,True,True))
+    for j,f,h,a,expected in controls:
+        check(gate(j,f,h,a)==expected, "actual clustered-arc source gate")
+    total = 274545534639685994
+    check(total<274979661975561635, "whole-line alternative below main maximum")
+    check(2130706433**6//2**128-total==435193471709093, "clustered-arc reserve")
+    check((1048576-22999,1048576-20481)==(1025577,1028095), "original core scope")
+    check(9941<=20481<=22999, "source class inside unchanged degree residual")
+    print("PASS: eight clustered-arc controls and original-source transport; not an entire J interval")
 
 
 if __name__ == "__main__":

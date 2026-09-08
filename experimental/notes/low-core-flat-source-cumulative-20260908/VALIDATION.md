@@ -3,7 +3,46 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Two-Cost Extension
+## Current Fiber-Secant Extension
+
+Fresh frozen-packet replays were serial under RAMguard tiny:256MiB RAM,
+64MiB swap and a60-second process-tree limit. No Modal use or spending.
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --secant-only` | 4/4 PASS | 3.94 seconds | 23932 KiB |
+| `python3 -B -O replay.py --secant-only` | 4/4 PASS | 4.50 seconds | 26508 KiB |
+
+The four checks cover the actual-source secant controls, primary and
+independent finite bounds, and revised original-source assembly. The
+finite engines agree on274545534639685994 and compressed-histogram
+bound272166503326104174, including exceptions and original near. They
+reject adjacent wrong totals/floors and check whole-interval derivative
+and raw-margin guards. No original-field/domain enumeration is performed.
+
+Generic controls use actual F17 receivers, carrier span{X,X^3}, affine
+offset X^2 and a carrier-zero coordinate. Both fixtures have12 selected
+full-code-bad labels;8 and10 survive respectively. All583 and554 independent
+unordered triples are checked, including154 and126 whose repeated-fiber
+or zero-coordinate shape forces an exceptional label. The controls also
+cover1364 small histograms and reject nonempty-universal-core mutations.
+
+Every invocation hashes all637 frozen sources, checks the65-node acyclic
+assembly and separate9-node scalar inventory, and rejects35 malformed
+manifests. The exporter checked the reached local statuses are PROVED
+and froze the dependency inventory. Peak RSS is below26MiB. Source hashes,
+graph checks and exact arithmetic do not formally certify the hand proofs.
+External independent mathematical review remains due.
+
+The other122 distinct checks retain their recorded successful parent
+replays and unchanged source hashes; they were NOT rerun in this cycle.
+The full available suite now has126 distinct checks across ten bounded
+modes. Historical records below retain their original counts and scopes.
+No timeout, new DAG status change, whole-degree removal or Prize closure
+is claimed. The prior local integration owns the unchanged260 global DAG
+diagnostics and11 crosswalk failures; neither global tool is rerun here.
+
+## Parent 4b9cef05 Two-Cost Extension
 
 Fresh publication replays on the frozen exported sources, serial under
 RAMguard tiny:256MiB RAM,64MiB swap,60-second process-tree limit. No Modal

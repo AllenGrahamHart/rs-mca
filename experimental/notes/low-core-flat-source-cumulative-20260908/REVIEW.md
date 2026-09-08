@@ -1,10 +1,45 @@
-# Review: Two-Cost Counting And Original-Source Transport
+# Review: Fiber-Secant Filtering And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Three Two-Cost Suppliers
+## Current Extension: Two Fiber-Secant Suppliers
+
+Read both new hand proofs, their statements and implementations, the used
+flat-core/completed-basis arguments, and assembly section14. No issue was
+found at these printed scopes; no fresh audit of the entire dependency
+closure is claimed. Important scope checks:
+
+- Subtract h_* before normalizing by the nonzero fiber evaluation scale.
+  Unequal normalized directions give a unique finite secant slope.
+  Union those slopes once. Empty universal core handles zero evaluations:
+  a coordinate with v=0 cannot agree, and one with v!=0 gives one label.
+- Outside this exception set, same-fiber agreeing incidence normals are
+  proportional. The conclusion applies to complete scalar agreement,
+  including tuple counts using points outside an old selected support.
+  Independent tuple ownership remains unique at the unchanged source.
+- The symmetric resource is an upper bound, not a claim that every tuple
+  is independent. Compact-simplex pair averaging proves its balanced
+  envelope, including zero-padded fibers; F0>=s+1 is explicit.
+- Arc independence implies the required proper-flat occupancy <=j*2048.
+  All LOW raw margins1..500 have the uniform floor; HIGH margins retain
+  their proved weight>=5500. Both cases spend one filtered resource.
+- The derivative guard covers the whole J interval. The exceptional-label
+  allowance is bounded separately at the upper endpoint; floors occur
+  only after the complete resource/cost ratio. The independent finite
+  implementation uses integer products and a 13-entry symmetric recurrence.
+- Original near is added once. The surviving labels need not span the
+  carrier, which is retained unchanged. The three whole-source gates are
+  sufficient hypotheses, not an exhaustive classification. The monomial
+  example proves feasibility, not an unsafe original received line.
+
+The generic controls and two exact finite implementations pass normally
+and under-O. These support, but do not replace, the hand proof. External
+independent mathematical review remains due. LowerJ, unclassified carriers,
+higher original ranks and both Prize problems remain open.
+
+## Previous Extension: Three Two-Cost Suppliers
 
 Read the three new proofs and assembly section13, and check the new finite
 primary implementations against their printed box formulas. No issue was

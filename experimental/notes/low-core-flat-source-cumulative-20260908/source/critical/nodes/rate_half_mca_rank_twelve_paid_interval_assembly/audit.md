@@ -1,5 +1,20 @@
 # Hand Audit Of The Original-Source Interface
 
+## Current Clustered-Arc Extension
+
+Section14 binds the new finite consumer to the same normalized source,
+without discarding nonuniversal zeros or assuming the surviving labels
+still span the carrier. Its three geometric gates concern all nonzero
+projective evaluations, not selected witness colors. The one secant/zero
+exception charge is included before the new tuple quotient; original near
+is still added only once. The total274545534639685994 fits below the
+existing maximum. Eight source-gate/transport controls pass normally and
+under-O; the whole degree partition and its six mutations are unchanged.
+No entire J interval is claimed paid by this source-class alternative.
+External independent review remains due.
+
+## Earlier Source Transports
+
 The first-excess interval transports the SAME normalized source contract
 without extra density, flat-rank or receiver hypotheses. Its bound
 273019482620216244 already includes original near and fits below the

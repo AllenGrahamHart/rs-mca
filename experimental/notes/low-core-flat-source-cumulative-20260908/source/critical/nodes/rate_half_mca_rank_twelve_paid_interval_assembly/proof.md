@@ -305,6 +305,33 @@ Sections10--12 describe their preceding-stage intervals; this section
 owns the current complement. No favorable original selection or all-source
 rank bound is assumed. The original router and unrestricted endpoint stay open.
 
+## 14. Clustered-Arc Transport Inside The Remaining Gap
+
+Use the SAME normalized source constructed in sections2 and3 from the
+complete original rank-twelve selection. Its actual dimension-eleven
+carrier, original finite labels, full-code-bad supports, field, affine
+offset and empty universal carrier core satisfy the new consumer's
+base contract. Nonuniversal zero coordinates have not been discarded.
+
+If20481<=J<=22999 and this source has at most560 complete nonzero
+projective fibers of size<=2048, with any at most11 distinct classes
+independent, the required clustered-arc theorem bounds the ENTIRE source
+plus original near by274545534639685994. Its single exceptional slope
+set already includes carrier-zero agreements and all charged fiber
+secants. Those labels must not be removed a second time as near.
+
+The surviving labels are counted in the unchanged actual carrier;
+they need not continue to span it. No rank/core recomputation or favorable
+new explanation selection is required. The three geometric gates are
+properties of the whole fixed source, not of a selected witness core.
+
+This total is below the existing main whole-line maximum. It is another
+alternative sufficient condition for that bound, not an owner charge or
+new addend. Consequently every over-budget original rank-twelve selection
+in this degree range fails at least one gate. The unrestricted residual
+J=9941..22999 and higher original ranks remain open. No older density
+condition beginning at23000 is imported below its scope.
+
 ## Scope And Provenance
 
 The gauge and core identification are already proved in the rank-twelve

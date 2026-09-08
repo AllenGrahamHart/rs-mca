@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Fiber-secant filtering pays clustered-arc sources inside the gap
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended the established
+  [grouped review packet](notes/low-core-flat-source-cumulative-20260908/README.md).
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** One global fiber-secant/zero-coordinate slope
+  exception set, followed by a distinct-fiber independent-tuple resource.
+  The finite clustered-arc consumer pays274545534639685994 including near
+  onJ=20481..22999, under the three explicit whole-source geometry gates.
+- **How it is useful:** K3 / DIRECT, companion to #1175. A new original-source
+  class inside the remaining gap, not an active-v4 atom or an all-carrier
+  interval. The rank-twelve residual remainsJ=9941..22999. The compressed
+  smooth-domain example shows the filtered bound pays where the old one fails.
+- **Verification:** Four focused checks pass normally and under-O, below26MiB
+  peak RSS;637 hashed sources,65-node assembly and separate9-node scalar
+  inventory;35 malformed manifests rejected. Unchanged checks retain parent
+  replays. No Modal use. See the linked validation and hand-review records.
+- **What to do next:** Independently audit exceptional-label ownership,
+  complete-core tuple filtering, whole-interval floors and original transport.
+  Unclassified carriers, higher original ranks and both Prizes remain open.
+
 ### 2026-09-08 - Two-cost receiver fibers extend rank-twelve coverage to J=23000
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

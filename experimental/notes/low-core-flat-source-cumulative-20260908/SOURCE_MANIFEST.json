@@ -2630,6 +2630,55 @@
       "sha256": "082d19330863055cd5aa4102b8856c0b20149d85d66ebc26b38f7ceb9fb6c359"
     },
     {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/audit.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/audit.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/audit.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "f2f7a60e0282ca666aeb08d534ced6333554379459feaaa1c35e7c7d10e23f21"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/claim_contract.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/claim_contract.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/claim_contract.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "e043d73f7f013f8c7409dd09b061951b621bb22fc43c2c21e7d460206125102e"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/dependency_subdag.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/dependency_subdag.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "c0b10941d3c0b0d2a275c6b35c28fc4c80d74991c8e4ece1fd5692445ffaed5a"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/proof.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/proof.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/proof.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "b1735996a7bfe451dbb2aa493c3604dc17b3940697db8779a3e50babb5f105f7"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/result.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/result.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/result.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "07ff534dbf39a0ff0ff504737b698b085b95eb2306a2916dfe08bee44a5bce48"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/statement.md",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/statement.md",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/statement.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "3e482eb3849f0988730375c98c392fcffe2ec428ca9452bd582e1006d3076d81"
+    },
+    {
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/verify.py",
+      "source_path": "critical/nodes/mca_projective_fiber_secant_resource/verify.py",
+      "origin_path": "critical/nodes/mca_projective_fiber_secant_resource/verify.py",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "730de77b7a413faefc808cf05cf2aee8e967a96e81b4f67d21a0f87e598c2b7c"
+    },
+    {
       "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
       "source_path": "critical/nodes/mca_projective_flat_core_basis_resource/audit.md",
       "snapshot": "previous_export",
@@ -3225,6 +3274,62 @@
       "sha256": "46851c5b1c1e1833853c9db70841a153ce0048e9446ff80675607945bccdcba7"
     },
     {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/audit.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/audit.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/audit.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "b0fdc73eb3abd79187e3aa08a226a02e550a3ec8271113caac3f0b495519e920"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/claim_contract.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/claim_contract.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/claim_contract.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "ba6ad94919dadca0889d7b0cfeece0e511d39b5fefe6477007cde26f2333e746"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/dependency_subdag.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/dependency_subdag.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/dependency_subdag.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "26f79ae9efd7589e6e9d66390a3e73b0fd187d23c539becbc4d410513300d3ce"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/proof.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/proof.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/proof.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "00ed6e7abef8514a1550701cddc6288e4653ce0f5a35a7e32b928359a3dae6cd"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/result.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/result.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/result.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "a0b8fda75a349813a60825c396129e1993be0331c5256ce4759469feabea7790"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/statement.md",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/statement.md",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "3c97e71a185dda5c2c41393cb238af7e6a21fd6fa8ffb472a913f5fb00c2de91"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/verify.py",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/verify.py",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/verify.py",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "926834d1b0135bb08765e110ed823a61ae5133f12fab06507344c9e7037d75d6"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/verify_audit.py",
+      "source_path": "critical/nodes/rate_half_mca_clustered_arc_payment/verify_audit.py",
+      "origin_path": "critical/nodes/rate_half_mca_clustered_arc_payment/verify_audit.py",
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "c52f97be197d68dc053a53bdcc91d90d65164b7140ec80988a3ed1953f1a0bad"
+    },
+    {
       "path": "source/critical/nodes/rate_half_mca_complete_core_refund_interval/audit.md",
       "source_path": "critical/nodes/rate_half_mca_complete_core_refund_interval/audit.md",
       "origin_path": "critical/nodes/rate_half_mca_complete_core_refund_interval/audit.md",
@@ -3788,15 +3893,15 @@
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "020bedec582d14f840943643daf3b145cb9b3f0e4fcdabc31ae8602aa8710943"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "bd57ce5930ab8312dff044ed6a9b3398edaefeae4e008f8dbf829d6842deef70"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "f5f6a0eebcb6861bba9e1cec0a2931b218a2bc9fe93e2714733eae4b648d0baf"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "4dbc768b52846a338f962d14828cebb38d013a4ab9fb1ceea283f5b5c37e5b8c"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/controls.md",
@@ -3809,36 +3914,36 @@
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "5ba3bbee8b72dc87015e5740f79d26be3e45d1aeae52f779c2ff4fa44b04d1d0"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "ed607c70fa96b74c1d80b1141ffb1c99931e3835051a948afe7160004da3d63d"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "3f6bd4e697a7b8efea7f0fc9c61bf3b7876cbc7c28d7fd8cb42da9e4ebc62897"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "1a224c34f7b5ff56dec784cb514189738495fbaf252fd32790dc2ff9f5cc565c"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "903cb093cfdfcdd8e24611eeddd5bdcb61ce5392087058b4bbb48d2cc1b419fa"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "77ac8fe55f781f92da417f2a07b5b71386a334363eda0e5b0e152bb720306905"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "c84086b0d6cfa63671fe0c67cd25935479d8c2d18c1078f21a626a54af855888"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "8e5d4a3a43c80854dda7f1ff6407e47f9cd9ae34ae5ab35b87895ced51d6d8f6"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
-      "snapshot": "two_cost_dirty_snapshot",
-      "sha256": "ce04cca7393e3d77b39991e91ded7cfa05072cfee8c7e6407fb89ebc6fa0acce"
+      "snapshot": "secant_dirty_snapshot",
+      "sha256": "a47142b67cb40bc6192ea8c8a09cbc275441147398f5f00c5326e460bb26220c"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_receiver_fiber_degree4700_payment/audit.md",
@@ -4380,6 +4485,14 @@
       "rate_half_mca_balanced_density_payment",
       "mca_core_completed_basis_margin_resource"
     ],
+    "mca_projective_fiber_secant_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_clustered_arc_payment": [
+      "mca_projective_fiber_secant_resource",
+      "mca_projective_flat_core_basis_resource",
+      "mca_core_completed_basis_margin_resource"
+    ],
     "rate_half_mca_rank_twelve_paid_interval_assembly": [
       "rate_half_mca_error_rank_twelve_common_core_forcing",
       "mca_common_core_low_margin_transport",
@@ -4394,7 +4507,8 @@
       "rate_half_mca_receiver_fiber_degree4700_payment",
       "rate_half_mca_rank_profile_density_interval",
       "rate_half_mca_two_cost_receiver_fiber_payment",
-      "rate_half_mca_two_cost_fiber_interval"
+      "rate_half_mca_two_cost_fiber_interval",
+      "rate_half_mca_clustered_arc_payment"
     ]
   },
   "retained_historical_descriptions": [
@@ -4842,5 +4956,38 @@
     "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
     "scope": "Every normalized carrier J=23000..23999 is paid; original rank-twelve residual J=9941..22999; degree-6000 source-fiber gate on21000..52999",
     "excluded": "exploratory scripts, unfinished source-flat or method-barrier work, generated DAG, unrelated dirty sources, external acceptance and unrestricted Prize closure"
+  },
+  "secant_extension": {
+    "parent": "4b9cef05a507df5160a6535cac5ec54d73261249",
+    "parent_manifest_sha256": "83d1784d9703e43babe3b3724b043f6cda407838590c379cad9c48c9999ca799",
+    "new_source_paths": [
+      "critical/nodes/mca_projective_fiber_secant_resource/audit.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/claim_contract.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/dependency_subdag.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/proof.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/result.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/statement.md",
+      "critical/nodes/mca_projective_fiber_secant_resource/verify.py",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/audit.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/claim_contract.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/dependency_subdag.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/proof.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/result.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/statement.md",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/verify.py",
+      "critical/nodes/rate_half_mca_clustered_arc_payment/verify_audit.py"
+    ],
+    "revised_source_previous_sha256": {
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md": "020bedec582d14f840943643daf3b145cb9b3f0e4fcdabc31ae8602aa8710943",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md": "f5f6a0eebcb6861bba9e1cec0a2931b218a2bc9fe93e2714733eae4b648d0baf",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md": "5ba3bbee8b72dc87015e5740f79d26be3e45d1aeae52f779c2ff4fa44b04d1d0",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md": "3f6bd4e697a7b8efea7f0fc9c61bf3b7876cbc7c28d7fd8cb42da9e4ebc62897",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md": "903cb093cfdfcdd8e24611eeddd5bdcb61ce5392087058b4bbb48d2cc1b419fa",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md": "c84086b0d6cfa63671fe0c67cd25935479d8c2d18c1078f21a626a54af855888",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py": "ce04cca7393e3d77b39991e91ded7cfa05072cfee8c7e6407fb89ebc6fa0acce"
+    },
+    "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+    "scope": "Pay one fiber-secant exception set; clustered-arc source class on J=20481..22999; no whole degree removed; unrestricted rank-twelve residual J=9941..22999",
+    "excluded": "exploratory scripts, unproved many-pair/transverse bounds, generated DAG, unrelated dirty sources, external acceptance and unrestricted Prize closure"
   }
 }
