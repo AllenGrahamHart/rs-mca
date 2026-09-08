@@ -1,11 +1,13 @@
 # Exact direct source contract
 
-Current all-carrier addition: J=24000..26499, following the proved
-J=28000..29999 and26500..27999 intervals, uses the
-same normalized source below, but need no canonical maximal-raw selector.
-Their statements and assembly sections10/11/12 are authoritative. The stronger
-source-fiber payment uses b>=J-4700 on23000..52999; it is an alternative
-whole-source bound, not a new premise on the every-carrier intervals.
+Current all-carrier addition: J=23000..23999, following the proved
+J=24000..29999 intervals, uses the same normalized source below but needs
+no canonical maximal-raw selector. Its statement and assembly section13
+are authoritative. The new source-fiber payments use a>=J-6000 on
+21000..52999 or a>=J-8000 on23000..52999. These are alternative whole-source
+bounds, not new premises on the every-carrier intervals. The remaining
+original rank-twelve gap is J=9941..22999. Older density/mass statements
+on23000..29999 and the degree-4700/8000 gates no longer constrain this gap.
 
 
 This is the inherited contract for the older lower-strip and source-class

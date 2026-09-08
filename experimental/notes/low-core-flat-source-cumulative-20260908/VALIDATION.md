@@ -3,7 +3,64 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Rank-Profile Extension
+## Current Two-Cost Extension
+
+Fresh publication replays on the frozen exported sources, serial under
+RAMguard tiny:256MiB RAM,64MiB swap,60-second process-tree limit. No Modal
+spending, source enumeration or large-memory computation was used.
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --two-cost-only` | 4/4 PASS | 15.27 seconds | 23460 KiB |
+| `python3 -B replay.py --two-cost-audit-only` | 3/3 PASS | 9.67 seconds | 23356 KiB |
+| `python3 -B -O replay.py --two-cost-only` | 4/4 PASS | 15.25 seconds | 26328 KiB |
+| `python3 -B -O replay.py --two-cost-audit-only` | 3/3 PASS | 10.54 seconds | 25796 KiB |
+
+Together the two modes cover six distinct checks, normally and under-O:
+the generic control, both source-gate engines, both whole-interval engines
+and the revised original-source assembly. The assembly repeats between
+modes. Peak RSS is below26MiB. The other117 unchanged checks retain their
+successful recorded parent replays and source hashes, not a fresh run here.
+The full available suite has123 distinct checks across nine bounded modes.
+The two new modes separate primary and independent interval engines to
+keep each invocation below the outer60-second limit; each interval child
+has the existing45-second allowance. No timeout occurred in these runs.
+
+The generic control covers5376 resource cases, six actual F17 polynomial
+cores with occupancies0..5, and three invalid cost guards. The two source
+engines agree on1984 boxes,3968 rejected adjacent floors and the maxima
+266180883463176443 and265879110627611677. Eight broken primary degree
+covers are rejected. Source-certificate digest:
+`5d958551756ddbc6abb9cd787ed8f3f887bc06087c9583fe335564df76f02804`.
+The independent source engine uses unnormalized quadratic coefficients,
+scaled integer fiber factors and a different final numerator expression;
+both source engines use exact Fraction arithmetic.
+
+The whole-interval engines agree on63 degree blocks,48357 high-density
+boxes and maximum274846585959022192, including original near. Both reject
+96714 adjacent wrong floors; the primary rejects five broken covers.
+Whole-interval digest:
+`a71e75b1e32f0ec5715bc7e37b97d903e3cbd4b01543d21f661b9789e94e9a93`.
+The independent interval engine uses integer-scaled rank profiles, both
+J corners and full tangent vectors without importing the primary or
+Fraction. The revised assembly checks its entire degree partition, six
+bad partition/budget mutations,6000-gate endpoints and disjointness of the
+remaining gap from older density/mass scopes.
+
+Every invocation hashes all622 frozen sources, verifies the63-node acyclic
+assembly and separate9-node scalar inventory, and rejects32 malformed
+manifests. The exporter checked all reached local statuses are PROVED
+and froze the exact dependency edges. Source hashes and graph checks do
+not certify hand proofs. External independent mathematical review remains
+due, and no fresh hand audit of every inherited supplier is claimed.
+
+No mathematical DAG edge or status changes in this publication cycle.
+The previous local integration record owns the105-node threshold closure
+and unchanged260 global DAG diagnostics/11 crosswalk failures; those are
+not rerun or claimed fixed here. No unrestricted row or Prize closes.
+Older validation records below retain their dated source inventories.
+
+## Parent d56d1e13 Rank-Profile Extension
 
 Publication checks on the frozen exported sources, serial under RAMguard
 tiny (256 MiB RAM,64 MiB swap,60-second process-tree limit):

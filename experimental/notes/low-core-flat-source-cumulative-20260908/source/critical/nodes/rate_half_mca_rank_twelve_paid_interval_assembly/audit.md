@@ -57,11 +57,11 @@ fiber suffices, and different fiber totals are not summed.
 
 The refined and first-excess intervals have the same normalized contract and,
 with the quantitative extension give the first middle interval
-as g=878577..1024576 after the rank-profile extension. The complementary
-g=1024577..1038635 is exactly J=9941..23999.
+as g=878577..1025576 after the two-cost extension. The complementary
+g=1025577..1038635 is exactly J=9941..22999.
 No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
-useful on 14000..23999. Higher original ranks remain an independent gap.
+useful on14000..22999. Higher original ranks remain an independent gap.
 
 The bounded-density branch uses this same normalized source, without
 reselecting a favorable core or reapplying the near theorem. Its bound is
@@ -92,5 +92,20 @@ rank/core transport and overall maximum do not change.
 Section 12 was hand-checked with the rank-profile supplier. Its exhaustive
 24000..26499 source theorem adds g=1022077..1024576 without label loss,
 new badness assumptions or repeated near. The rank-specific moment profile
-is a counting refinement only. The current upper g boundary and14059-degree
-residual are checked separately from the historical interval helpers.
+is a counting refinement only. Its then-current14059-degree residual
+is superseded by section13, not confused with the historical interval helpers.
+
+Section13 transports the two-cost every-carrier theorem and degree-6000
+source gate on the SAME normalized carrier. Full heavy colors, explicit
+receiver exceptions and a FULL dimension-at-most-ten child count survive;
+no child near event is introduced. The original core extension is exactly
+g=1024577..1025576. The current complement has13059 integer degrees.
+Every source alternative stays below the existing whole-line maximum.
+
+In the remaining21000..22999 an over-budget source has every complete
+nonzero fiber<=J-6001. The4700 and8000 supplier ranges begin at23000
+and are now fully subsumed. Older source-density and dense-label mass
+theorems also begin at23000. Their necessary conclusions are vacuous
+on the new remaining gap, not exported as smaller-degree restrictions.
+Exact arithmetic checks this complement and the new source-gate endpoints;
+original label and support transport remain a hand proof.

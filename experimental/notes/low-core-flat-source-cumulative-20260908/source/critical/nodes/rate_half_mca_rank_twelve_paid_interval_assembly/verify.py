@@ -6,11 +6,11 @@ def check(ok, message):
         raise ValueError(message)
 
 
-def verify(residual=(1024577, 1038635), total=274979661975561635):
+def verify(residual=(1025577, 1038635), total=274979661975561635):
     K, n, near = 1048576, 2097152, 134944
     paid = [(0, 793576, 273540953998915577),
             (793577, 878576, 270992495272115150),
-            (878577, 1024576, 274929007493481160),
+            (878577, 1025576, 274929007493481160),
             (1038636, 1043775, 274979661975561635),
             (1043776, n, 100000000000134944)]
     intervals = sorted([(a, b) for a, b, _ in paid]+[residual])
@@ -18,11 +18,11 @@ def verify(residual=(1024577, 1038635), total=274979661975561635):
     check(all(a <= b for a, b in intervals), "nonempty intervals")
     check(all(x[1]+1 == y[0] for x, y in zip(intervals, intervals[1:])),
           "disjoint exhaustive original-core partition")
-    check((K-residual[1], K-residual[0]) == (9941, 23999), "unpaid child interval")
-    check((K-1024576, K-878577) == (24000, 169999), "first-excess/refined/high child transport")
+    check((K-residual[1], K-residual[0]) == (9941, 22999), "unpaid child interval")
+    check((K-1025576, K-878577) == (23000, 169999), "whole-interval child transport")
     check((K-1043775, K-1038636) == (4801, 9940), "lower child transport")
-    check(residual[1]-residual[0]+1 == 14059, "residual cardinality")
-    check(16559-14059 == 26499-24000+1 == 2500, "new whole-source degree interval")
+    check(residual[1]-residual[0]+1 == 13059, "residual cardinality")
+    check(14059-13059 == 23999-23000+1 == 1000, "new whole-source degree interval")
     check(total == max([value for _, _, value in paid]+[156765527508803240]),
           "maximum of whole-source bounds")
     budget = 2130706433**6//2**128
@@ -34,12 +34,12 @@ def verify(residual=(1024577, 1038635), total=274979661975561635):
 
 def main():
     verify()
-    mutations = [((1024576, 1038635), 274979661975561635),
-                 ((1024578, 1038635), 274979661975561635),
-                 ((1024577, 1038634), 274979661975561635),
-                 ((1024577, 1038636), 274979661975561635),
-                 ((1024577, 1038635), 274979661975561634),
-                 ((1024577, 1038635), 274979661975561636)]
+    mutations = [((1025576, 1038635), 274979661975561635),
+                 ((1025578, 1038635), 274979661975561635),
+                 ((1025577, 1038634), 274979661975561635),
+                 ((1025577, 1038636), 274979661975561635),
+                 ((1025577, 1038635), 274979661975561634),
+                 ((1025577, 1038635), 274979661975561636)]
     for residual, total in mutations:
         try:
             verify(residual, total)
@@ -54,25 +54,26 @@ def main():
     verify_first_excess_interval()
     verify_quantitative_interval()
     verify_rank_profile_interval()
+    verify_two_cost_interval()
     print("PASS: exact original-g partition, child intervals, one near and field reserve")
-    print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..23999")
+    print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..22999")
     print("The source bridge is a hand proof, not certified by this arithmetic check")
 
 
 def verify_receiver_gates():
     def residual_fiber_gate(j, a):
-        return 14000 <= j <= 23999 and a >= j-2000
+        return 14000 <= j <= 22999 and a >= j-2000
     controls = ((14000, 12000, True), (14000, 11999, False),
-                (13999, 13989, False), (23000, 22990, True),
-                (10000, 9990, False), (23999, 21999, True),
-                (23999, 21998, False), (24000, 22000, False),
+                (13999, 13989, False), (21000, 20990, True),
+                (10000, 9990, False), (22999, 20999, True),
+                (22999, 20998, False), (23000, 21000, False),
                 (9941, 9931, False), (52999, 52989, False),
                 (53000, 52990, False))
     for j, a, expected in controls:
         check(residual_fiber_gate(j, a) == expected, "exact remaining receiver-fiber gate")
     check(max(248408859318207582, 272112051300507362) < 274979661975561635,
           "new source classes fit existing original maximum")
-    print("PASS: eleven residual fiber-gate controls; J>=24000 handled by the whole interval")
+    print("PASS: eleven residual fiber-gate controls; J>=23000 handled by the whole interval")
 
 
 def verify_density_gates():
@@ -140,10 +141,10 @@ def verify_quantitative_interval():
     check(2130706433**6//2**128-total==2084234117366394, "quantitative reserve")
     check(246756107210901806<total<274929007493481160, "whole-source alternatives")
     for J, b, expected in ((22999,22989,False),(23000,18300,True),
-                           (23000,18299,False),(23999,19299,True),
-                           (23999,19298,False),(24000,19300,False)):
-        check((23000<=J<=23999 and b>=J-4700)==expected, "stronger residual fiber gate")
-    print("PASS: quantitative whole-interval transport and six stronger fiber controls")
+                           (23000,18299,False),(52999,48299,True),
+                           (52999,48298,False),(53000,48300,False)):
+        check((23000<=J<=52999 and b>=J-4700)==expected, "historical full supplier fiber gate")
+    print("PASS: quantitative interval and six full-scope fiber controls; no remaining4700 gate")
 
 
 def verify_rank_profile_interval():
@@ -154,6 +155,23 @@ def verify_rank_profile_interval():
     check(2130706433**6//2**128-total==1857033063079923, "rank-profile reserve")
     check(246756107210901806<total<274929007493481160, "whole-source union")
     print("PASS: rank-profile interval transport, four endpoints and original reserve")
+
+
+def verify_two_cost_interval():
+    for J, expected in ((22999,False),(23000,True),(23999,True),(24000,False)):
+        check((23000<=J<=23999)==expected, "two-cost interval endpoints")
+    K, total = 1048576, 274846585959022192
+    check((K-23999,K-23000)==(1024577,1025576), "new original core interval")
+    check(2130706433**6//2**128-total==134142152372895, "two-cost interval reserve")
+    check(265879110627611677<total<274929007493481160, "whole-source union")
+    for J, b, expected in ((20999,20989,False),(21000,15000,True),
+                           (21000,14999,False),(22999,16999,True),
+                           (22999,16998,False),(23000,17000,False)):
+        check((21000<=J<=22999 and b>=J-6000)==expected, "remaining6000 fiber gate")
+    check(266180883463176443<274979661975561635, "additional class fits original maximum")
+    check(max(9941,23000)>min(22999,29999), "old density/mass scopes miss entire residual")
+    check(22999<23000<=52999<=169999, "full4700/8000 scopes subsumed by paid union")
+    print("PASS: two-cost interval, six remaining6000 controls; old density/mass scope entirely subsumed")
 
 
 if __name__ == "__main__":

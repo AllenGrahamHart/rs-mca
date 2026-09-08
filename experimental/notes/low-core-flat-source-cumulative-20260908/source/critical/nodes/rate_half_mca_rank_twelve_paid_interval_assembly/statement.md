@@ -19,7 +19,7 @@ gamma in Z. Let a be the affine rank of their original error words and
 
 If a<=11, or if a=12 and g is OUTSIDE the interval
 
-    1024577<=g<=1038635,
+    1025577<=g<=1038635,
 
 then the ENTIRE original bad-slope set satisfies
 
@@ -33,7 +33,7 @@ intersections of selected size-m witnesses.
 Equivalently, every over-budget original line has, for EVERY complete
 post-near selection, either a>=13 or a=12 with
 
-    J=K-g in 9941..23999.
+    J=K-g in 9941..22999.
 
 In every rank it also retains g<=1043775 from the earlier large-core
 theorem. No bound on all-source error rank is asserted.
@@ -55,13 +55,16 @@ on J=26500..27999 by 272896493994028693, reserve 2084234117366394.
 Both include original near and require no new source-density premise.
 The new rank-profile interval adds EVERY carrier on J=24000..26499 by
 273123695048315164, reserve 1857033063079923, including original near.
-The union 24000..169999 retains 274929007493481160. The residual has
-14059 integers, down from 16559 in public 3d6f9cfa.
+The two-cost fiber interval additionally pays EVERY carrier on
+J=23000..23999 by274846585959022192, reserve134142152372895,
+including original near and without any new source premise.
+The union23000..169999 retains274929007493481160. The residual has
+13059 integers, down from14059 in public d56d1e13.
 The source interface and main whole-line total are unchanged.
 
-Public 3d6f9cfa contains the first-excess and single-lambda extensions.
-The rank-profile theorem and current 24000 start are LOCAL, recorded in
-notes/correspondence/RANK_PROFILE_DENSITY_INTERVAL_20260908.md.
+Public d56d1e13 contains the rank-profile theorem and the24000 start.
+The two-cost source gates and current23000 start are LOCAL, recorded in
+notes/correspondence/TWO_COST_RECEIVER_FIBER_INTERVAL_20260908.md.
 
 ## Additional Receiver-Fiber Classes
 
@@ -70,14 +73,18 @@ by the source bridge above. The SAME bound (ORIGINAL) also holds if
 V' has a complete nonzero projective evaluation fiber of size b satisfying
 the remaining useful fiber gate:
 
-    14000<=J<=23999 and b>=J-2000.
+    14000<=J<=22999 and b>=J-2000.
 
-The stronger degree-4700 source-fiber supplier also pays
+The stronger degree-6000 two-cost source-fiber supplier also pays
 
-    23000<=J<=23999 and b>=J-4700,
+    21000<=J<=22999 and b>=J-6000,
 
-by 246756107210901806 including original near. Every over-budget
-selection in this range therefore has every full nonzero fiber <=J-4701.
+by266180883463176443 including original near. Every over-budget
+selection in this range therefore has every full nonzero fiber<=J-6001.
+Its full supplier scope is21000..52999. The old degree-4700 gate and
+new degree-8000 gate on23000..52999 are now entirely subsumed by the
+every-carrier interval. They remain proved, and the latter supplies the
+source split in the23000 interval theorem.
 
 Here b is a coordinate count, not the original error rank a. These are
 alternative whole-line sufficient conditions, not charges to add over fibers.
@@ -99,10 +106,11 @@ Every flat attaining that maximum has rank at most seven on 23000..24537,
 at most eight on 24538..28916 and at most nine on 28917..29999. These
 are necessary restrictions on a possible over-budget line, not existence
 claims or an assumption that all carriers obey the density gate.
-The numerical residual is J=9941..23999 (14059 integers). This older
+The numerical residual is J=9941..22999 (13059 integers). This older
 source class and the dense-core mass below are published in 0f2d9e8f.
-Their stated ranges remain valid; above 23999 the new every-carrier
-interval already pays the source, so those restrictions are redundant.
+Their stated ranges remain valid, but the new every-carrier interval
+pays their ENTIRE23000..29999 scope. None of these density or mass
+restrictions is asserted on the remaining smaller degrees.
 
 ## Stronger Rank-Eight-Level Density Gate
 
@@ -138,4 +146,6 @@ four annihilator quotient of degree <=5628, not a free received-word
 descent. No upper census is proved; the degree gap and original reds
 remain open. The mass results are public in 0f2d9e8f; the stronger gate
 above is public in 99a30fdc. The new interval makes these necessary mass
-conditions vacuous on J=24000..29999, without invalidating their proofs.
+conditions vacuous on their ENTIRE J=23000..29999 scope, without
+invalidating their proofs. In particular they supply no dense-label mass
+or maximizing-flat rank restriction on the remaining21000..22999.

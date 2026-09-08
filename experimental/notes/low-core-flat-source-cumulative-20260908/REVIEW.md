@@ -1,10 +1,56 @@
-# Review: Rank Profiles And Original-Source Transport
+# Review: Two-Cost Counting And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## Current Extension: Two Rank-Profile Suppliers
+## Current Extension: Three Two-Cost Suppliers
+
+Read the three new proofs and assembly section13, and check the new finite
+primary implementations against their printed box formulas. No issue was
+found at those scopes. Independent exact arithmetic implementations are
+replayed separately; their agreement is not external mathematical review.
+
+- Complete receiver colors on a rank-one source fiber are disjoint, with
+  at most one of size t>a/2. A LOW complete pair core contains that whole
+  color. Root capacity a<=K-s+1<K<=M lets its M-point subset keep ALL t
+  points. The old defect remains outside the complete core and gives
+  s+1 recoverable tuple positions. The original label is not changed.
+- With U>=beta_L*L+beta_H*H, the substitution H<=Q+a-t is valid only when
+  its coefficient is nonnegative. The positive part in the two-cost bound
+  also covers beta_H>beta_L. The exact negative-coefficient control is
+  retained. This improves the local fiber application, not the algebra
+  of an already available general two-cost counting inequality.
+- The child cap156765527508668296 is FULL and covers affine dimension
+  <=10 at every degree<=1048576. The auxiliary degree6000/8000 fibers
+  need no new Johnson statement or child near event. Receiver exceptions
+  a-t are explicit. The quadratic lower count has universal scope
+  11..65000; it is not imported from a narrower finite payment claim.
+- In the finite source proof, fixed theta gives increasing
+  F(J,a,theta*a) throughout the whole legal a range: the combined
+  first/last-factor derivative numerator is at least
+  9*67466-10*52999+199=77403>0. All other derivative terms are nonnegative.
+  At a=J-L every factor is positive affine nondecreasing in J.
+  Log-concavity covers occupancy endpoints; no optimized-ratio shape is
+  inferred from samples. LOW/HIGH cases share one resource.
+- For the every-carrier interval, the paid source-fiber branch leaves
+  every rank-one core fiber <=J-8001. The remaining per-core density
+  alternatives exhaust the source. The rank-profile and completion
+  lemmas have the needed general scopes; the old finite interval is not
+  applied outside its stated J range. The rank-six corner and signed
+  upper extension ratios are retained. The new maximum occurs at rank six.
+- Original transport retains the actual dimension-eleven carrier, finite
+  labels, full-code badness, field and nonuniversal zeros. Whole-source
+  alternatives use MAXIMUM, with one original near allowance. The actual
+  residual is J=9941..22999. Old density/mass scope starts at23000 and
+  cannot silently be used to constrain this lower gap.
+
+External independent hand review remains due. The earlier reviews below
+retain their historical scopes. Their two-cost exclusion referred to
+unfinished work at the parent snapshot, now completed and exported here.
+No new hand audit of every inherited supplier is claimed.
+
+## Previous Extension: Two Rank-Profile Suppliers
 
 Read both new proofs, their primary and independent implementations, and
 assembly section 12. No issue was found at their printed scopes.

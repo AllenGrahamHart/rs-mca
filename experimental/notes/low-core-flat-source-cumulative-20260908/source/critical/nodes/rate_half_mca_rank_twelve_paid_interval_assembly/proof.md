@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..1024576          24000..169999         274929007493481160
+    878577..1025576          23000..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 1024577..1038635, equivalent
-to J=9941..23999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly1025577..1038635, equivalent
+to J=9941..22999. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,7 +131,7 @@ dimension-eleven normalized carrier V', the same labels and field,
 full-code-bad supports and empty universal core. The required receiver-
 fiber payment applies directly, with no canonical reselection or new
 common-core cancellation. In the remaining range it pays a fiber of size
->=J-2000 on 14000..23999 by 248408859318207582, including the one
+>=J-2000 on14000..22999 by248408859318207582, including the one
 original near allowance and below (ORIGINAL). Its earlier half-size
 fiber payment on 45000..52999 is now subsumed by section 5's unconditional
 every-carrier interval. That older supplier remains valid at its full scope.
@@ -267,6 +267,43 @@ The older density and necessary-mass assertions remain valid on their
 full printed scopes but are redundant on24000..29999.
 The contrapositive holds for EVERY original complete selection; there
 is no assumption that a favorable selection or small error rank exists.
+
+## 13. Two-Cost Fiber Transport And A Further Whole Interval
+
+Apply the two-cost fiber interval theorem to the SAME normalized carrier
+of sections2 and3, with its original labels, field, full-code-bad supports,
+nonuniversal zeros and empty universal core. It pays EVERY such source
+on23000..23999 by274846585959022192 including the original near allowance.
+The source-fiber branch uses the FULL dimension-at-most-ten child cap,
+not a new degree-8000 Johnson claim or a child near removal. Its explicit
+receiver exceptions are already included. If that branch fails, the
+per-core rank-profile alternatives exhaust all remaining labels on one
+resource. No source-density assumption is imported by this split.
+
+The new total is below274929007493481160, so its maximum with section12's
+union pays every J in23000..169999 by the same number. The new original
+core interval is g=1024577..1025576, exactly1000 integers. The remaining
+gap is1025577..1038635, equivalently J=9941..22999,13059 integers.
+The main whole-line maximum remains274979661975561635; near is not repeated.
+
+The additional degree-6000 source theorem has full scope21000..52999.
+On the remaining21000..22999, any complete nonzero source fiber of
+size>=J-6000 pays the ENTIRE original line by266180883463176443 including
+near. This is below the main maximum. Its contrapositive forces EVERY
+such fiber to have size<=J-6001 on any over-budget original rank-twelve
+selection in that range. As before, one qualifying fiber suffices and
+alternative fiber/source bounds combine by maximum, not addition.
+The degree-2000 gate still applies on14000..22999; its weaker restriction
+there is implied by the degree-6000 gate on their overlap.
+
+The older degree-4700 and new degree-8000 supplier scopes begin at23000,
+so they are now fully subsumed by the every-carrier union. All previous
+source-density, maximizing-rank and necessary dense-label mass statements
+have scope23000..29999 and are likewise entirely redundant. Their proofs
+remain valid, but none gives a constraint on the remaining lower J gap.
+Sections10--12 describe their preceding-stage intervals; this section
+owns the current complement. No favorable original selection or all-source
+rank bound is assumed. The original router and unrestricted endpoint stay open.
 
 ## Scope And Provenance
 

@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `3d6f9cfa0ad17c862678585bfb7f4c2b879ccc5d`.
+- Previous companion: `d56d1e134433506cbb87d0249aead623a9937876`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -28,7 +28,48 @@ included with their own proofs and upstream provenance. Older evaluation-flat,
 clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
-## New Contribution: Rank Profiles And The 24000 Interval
+## New Contribution: Two Costs And The 23000 Interval
+
+Three completed PROVED suppliers retain full heavy receiver-color occupancy,
+derive separate uniform light/heavy tuple costs, and discharge the stronger
+source-fiber alternatives with a FULL child cap. The finite every-carrier
+consumer pays J=23000..23999 by274846585959022192 including original near.
+It extends the public assembly from J>=24000 to J>=23000, removing1000
+degrees with no new original-source density premise. The degree-6000
+source gate additionally constrains remaining21000..22999 survivors.
+
+The manifest freezes622 sources,1744907 bytes, with a63-node assembly and
+a separate nine-node scalar inventory. It adds23 sources and revises seven
+assembly files;592 parent sources are byte-identical. The new
+`two_cost_extension` records parent commit/manifest hash, predecessor
+hashes of revised sources, the dirty origin HEAD and precise scope.
+Manifest SHA256:
+`83d1784d9703e43babe3b3724b043f6cda407838590c379cad9c48c9999ca799`.
+
+The three new local node IDs are:
+
+- `mca_receiver_fiber_two_cost_resource`
+- `rate_half_mca_two_cost_receiver_fiber_payment`
+- `rate_half_mca_two_cost_fiber_interval`
+
+Their exact required edges and those of the original-source assembly are
+frozen in the manifest and checked by replay. Older receiver transport,
+completed-core tuple counting, universal quadratic coefficients, raw-HIGH
+costs, rank profiles and signed completion counts remain prerequisites.
+The two-cost resource algebra is not claimed as a new general discovery.
+The generic completed SOURCE-FLAT two-cost theorem already present in the
+packet is not minted again or portrayed as this publication's new result.
+
+Residual J=9941..22999 contains13059 integers. Older source-density and
+mass statements on23000..29999 are now wholly subsumed and impose no
+constraint on that lower gap. No original higher-rank bound, v4 owner atom,
+unrestricted endpoint movement or external acceptance is claimed.
+Exploratory source-flat and unfinished method-barrier work, generated DAG
+and unrelated dirty sources are excluded. Publication changes no DAG edge
+or theorem status. Historical sections below describe parent snapshots;
+their former two-cost exclusion is superseded by this completed extension.
+
+## Previous Contribution: Rank Profiles And The 24000 Interval
 
 Two completed PROVED suppliers extend the public assembly from J>=26500
 to J>=24000, removing 2500 degrees without a new source premise. The

@@ -12,6 +12,8 @@
     quantitative whole interval [PROVED] ------+        |
     degree-4700 receiver fiber [PROVED] --------+        |
     rank-profile whole interval [PROVED] ------+        |
+    two-cost receiver fiber [PROVED] ----------+        |
+    two-cost whole interval [PROVED] ----------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -64,3 +66,12 @@ Section 12 transports the new rank-profile interval on the same source.
 It requires the hereditary rank-profile basis lemma and credited counting
 suppliers. Its predecessor supplies the earlier union, not an assumed
 lower-degree extension. No consumer is imported back into a supplier.
+
+Section13 owns the two-cost source and whole-interval transports. The
+source theorem requires the generic two-cost resource, FULL scalar child
+cap, universal quadratic basis certificate and old HIGH arithmetic. The
+whole interval requires that source theorem and the preceding rank-profile
+and core-counting suppliers. Both direct requirements are retained here:
+the6000 gate additionally pays source classes below the new whole interval.
+Neither supplier requires this assembly. The original target still receives
+only evidence; no speculative leaf or new original-rank hypothesis is added.

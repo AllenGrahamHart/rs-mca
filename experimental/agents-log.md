@@ -30,6 +30,32 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Two-cost receiver fibers extend rank-twelve coverage to J=23000
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended the existing
+  [grouped review packet](notes/low-core-flat-source-cumulative-20260908/README.md).
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Full heavy receiver-color occupancy with separate
+  light/heavy tuple costs, finite degree6000/8000 source-fiber gates, and
+  the every-carrier bound274846585959022192 onJ=23000..23999 including near.
+- **How it is useful:** K3 / DIRECT, companion to #1175. Removes1000 more
+  complete degrees beyondd56d1e13 without a new source-density premise.
+  Original rank-twelve residualJ=9941..22999 has13059 integers. The main
+  whole-line cap remains274979661975561635. On remaining21000..22999,
+  an over-budget selection has every complete nonzero fiber<=J-6001.
+  Older density/mass scopes begin at23000 and are now wholly subsumed.
+- **Verification:** Six distinct focused checks pass normally and under-O,
+  with primary/independent exact agreement on1984 source boxes and48357
+  interval boxes. Peak RSS below26MiB; no Modal use. Frozen622-source
+  packet,63-node assembly and separate9-node scalar inventory;32 malformed
+  manifests rejected. Unchanged checks retain recorded parent replays.
+  See the [validation record](notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
+- **What to do next:** Independently review full heavy-core occupancy,
+  positive-part accounting, whole-box monotonicity and original transport.
+  LowerJ, original ranks>=13, unrestricted KoalaBear MCA and both Prizes
+  remain open. No active-v4 atom or exploratory method-barrier is claimed.
+
 ### 2026-09-08 - Rank-profile counting pays every carrier down to J=24000
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
