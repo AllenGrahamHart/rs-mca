@@ -1529,6 +1529,76 @@
       "sha256": "31fe79d12b92a5978bba566c3bb9dbd174af995941d9c05ef7833a74f6dbe7b3"
     },
     {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/audit.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/audit.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/audit.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "bd905b022e5c898f632de6033315d9a9b6faeba9f82ccd7f83bce83e2955ab82"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/claim_contract.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/claim_contract.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/claim_contract.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "b272d50ad280f43286a5bdea990d1cc5fba94265930d86f59cf8ffc1f6105953"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/controls.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/controls.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/controls.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "366bc68f34d3dc8e03ca52c980e44722780bb82b50ca760071453bd7aca960b7"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/dependency_subdag.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/dependency_subdag.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/dependency_subdag.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "c8eb0d20312bfec80a1359d72808e8f8159f117e49a5a4c185e9942a335c3c57"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "233f517f937de029863b2dfa38ef73d7123afc033697f11c068637f835b28dc0"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "29d643b9db3658ae225c151d31f0a8aa498c1089d9b6d6d08dd918ce11283737"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/result.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/result.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/result.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "be754542b918b5a70151e8e44502a931cab963df991600cb1d53b6bfdc926db2"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "a06fa14f5e680189df046239703923e2802f70b9186d87def1f143b7708a8c6b"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "07bd80035b848dcfd947132e066454490f8cc6dacd5a1376be623f2f3ae491b7"
+    },
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/verify_audit.py",
+      "source_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/verify_audit.py",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/verify_audit.py",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "7b04bc58b880eeb0556b8463304c17df7f58c75445875d1077cf52f4f709aef6"
+    },
+    {
       "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/audit.md",
       "source_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/audit.md",
       "snapshot": "previous_export",
@@ -2497,6 +2567,62 @@
       "sha256": "892fdca25b75276f063dee7b96692dc70d7af3781d7676f8821670c8fb6ed04a"
     },
     {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/audit.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/audit.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/audit.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "63eb772a771e05fec34a5564d9688668f2e5c01c28654c1a7cf50d8a41fb9115"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/claim_contract.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/claim_contract.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/claim_contract.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "f5468a9ae4f9237b273fe76b5395b1c1f304a79ffe3cb14dec3077e92a85f326"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/dependency_subdag.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/dependency_subdag.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/dependency_subdag.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "a685e25e8c1d1cb141e5768cf5c0b3213c47c407f695b2485bf749eb34db535a"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "614b39b4d0e5577d661559e73f5025710799e2c5fb6188481ef78d23c12e1a17"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/result.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/result.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/result.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "47ab3182b9bb83ce66bb3e5bffc19e60fe84934951ac4498ebbb22c396012ff6"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "f6aef75d84d498eca2852185d66bb3b7ac80b5fefca41235fee9d0a625ab6705"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/verify.py",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/verify.py",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/verify.py",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "a6ecea6aa3f030014319054132daaa59954e9639adedd082f8cbf79b5caecc37"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/verify_audit.py",
+      "source_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/verify_audit.py",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/verify_audit.py",
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "66a7ac75c88d2752f4721880e91bfe28b52490199c8493ccdf53de8b06c80fc1"
+    },
+    {
       "path": "source/critical/nodes/rate_half_mca_maximum_density_high_interval/audit.md",
       "source_path": "critical/nodes/rate_half_mca_maximum_density_high_interval/audit.md",
       "origin_path": "critical/nodes/rate_half_mca_maximum_density_high_interval/audit.md",
@@ -2577,36 +2703,36 @@
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
-      "snapshot": "original_interval_dirty_snapshot",
-      "sha256": "331351a913eb1b2007c944a2031c8c20ebdc327118bc842cdb17bf643bd78f9d"
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "91d127ce9f21b0610daf1a694835710be85ae5ccaf3cf2bef833db66601821eb"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
-      "snapshot": "original_interval_dirty_snapshot",
-      "sha256": "dec6b189935efab8c41f32ddcf77fcbe39c055f6a434f3e39ca59764faa9018d"
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "40ebd80bb2bd3c9be58b574bd7f5ebd95fc2e2accb078cc014e7eb478a2f74f1"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
-      "snapshot": "original_interval_dirty_snapshot",
-      "sha256": "f562a96853bf3299d08ab797ccd0d1689b0d388f3b6a5f95639e5695fc24d4ee"
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "7cce1f9ed2a62e502064bcb9dc42532582893239e69e2689ccd1f30093dff793"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
-      "snapshot": "original_interval_dirty_snapshot",
-      "sha256": "5595617663a69bb9452280e43eb3d06971157fd92e30fb1163972646b09b749d"
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "efc85a11139d1dfef81b564a1d277bf4f737d1c2b838d2bffa7ffaa82478365c"
     },
     {
       "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "source_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
       "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
-      "snapshot": "original_interval_dirty_snapshot",
-      "sha256": "473311afb1ffd73670d0f80a6bd9de02051389ea5e70b99096112eac3e0e157a"
+      "snapshot": "fiber_contraction_dirty_snapshot",
+      "sha256": "26f437068965e9c6771826034c10ab8f413218825119e2be932f64f6c8774001"
     }
   ],
   "interval_extension_parent": "ef8e3316e7992bf59e5791bec561c8e6406a8138",
@@ -2644,11 +2770,18 @@
       "v13_2_near_rational_supportwise_two_anchor_payment"
     ],
     "mca_common_core_low_margin_transport": [],
+    "mca_fiber_contraction_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
     "mca_maximum_density_flat_core_basis_resource": [
       "mca_core_completed_basis_margin_resource"
     ],
     "rate_half_mca_maximum_density_high_interval": [
       "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "rate_half_mca_fiber_contraction_interval": [
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_maximum_density_high_interval"
     ],
     "mca_projective_flat_core_basis_resource": [
       "mca_core_completed_basis_margin_resource"
@@ -2733,7 +2866,7 @@
     "rate_half_mca_rank_twelve_paid_interval_assembly": [
       "rate_half_mca_error_rank_twelve_common_core_forcing",
       "mca_common_core_low_margin_transport",
-      "rate_half_mca_maximum_density_high_interval",
+      "rate_half_mca_fiber_contraction_interval",
       "rate_half_mca_low_core_kernel_quadratic_strip"
     ]
   },
@@ -2754,5 +2887,37 @@
     "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/dependency_subdag.md",
     "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/result.md",
     "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md"
-  ]
+  ],
+  "fiber_contraction_extension": {
+    "parent": "6562b80720397fbc5f0815d53715c72c15c8f6f5",
+    "parent_manifest_sha256": "97262ebcafd696b331152effec6491826a70d6c7adef861967f22acd2d7a349d",
+    "new_source_paths": [
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/audit.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/claim_contract.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/controls.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/dependency_subdag.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/result.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "critical/nodes/mca_fiber_contraction_core_basis_resource/verify_audit.py",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/audit.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/claim_contract.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/dependency_subdag.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/result.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/verify.py",
+      "critical/nodes/rate_half_mca_fiber_contraction_interval/verify_audit.py"
+    ],
+    "revised_source_previous_sha256": {
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md": "331351a913eb1b2007c944a2031c8c20ebdc327118bc842cdb17bf643bd78f9d",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md": "dec6b189935efab8c41f32ddcf77fcbe39c055f6a434f3e39ca59764faa9018d",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md": "f562a96853bf3299d08ab797ccd0d1689b0d388f3b6a5f95639e5695fc24d4ee",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md": "5595617663a69bb9452280e43eb3d06971157fd92e30fb1163972646b09b749d",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py": "473311afb1ffd73670d0f80a6bd9de02051389ea5e70b99096112eac3e0e157a"
+    },
+    "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77"
+  }
 }

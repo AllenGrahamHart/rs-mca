@@ -19,7 +19,7 @@ gamma in Z. Let a be the affine rank of their original error words and
 
 If a<=11, or if a=12 and g is OUTSIDE the interval
 
-    983577<=g<=1038635,
+    995577<=g<=1038635,
 
 then the ENTIRE original bad-slope set satisfies
 
@@ -33,7 +33,7 @@ intersections of selected size-m witnesses.
 Equivalently, every over-budget original line has, for EVERY complete
 post-near selection, either a>=13 or a=12 with
 
-    J=K-g in 9941..64999.
+    J=K-g in 9941..52999.
 
 In every rank it also retains g<=1043775 from the earlier large-core
 theorem. No bound on all-source error rank is asserted.
@@ -48,3 +48,7 @@ reselection for the lower-strip theorem takes place only after this bridge.
 This pays the stated original received-line classes, not the unrestricted
 adjacent endpoint. No active-v4 owner atom, ordinary LIST result or full
 prize resolution follows.
+
+The contraction extension adds J=53000..64999 to the paid classes.
+The previously published version at 6562b807 had residual 9941..64999;
+the source interface and uniform total are unchanged.

@@ -2,12 +2,14 @@
 
     rank-twelve common-core forcing [PROVED] ----+
     common-core low-margin transport [PROVED] --+
-    maximum-density high interval [PROVED] -----+--> original interval assembly [PROVED]
+    contraction + high interval [PROVED] -------+--> original interval assembly [PROVED]
     full-kernel lower strip [PROVED] -----------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
-Exact requirement IDs are in node.json. The lower strip already requires
+The contraction interval requires the older maximum-density interval and
+the new generic contraction supplier. Exact IDs are in node.json.
+The lower strip already requires
 the finite relation consumer, which requires the high-interval supplier;
 the assembly is downstream of all four. No supplier requires the new
 assembly, so there is no cycle back through the lower strip.

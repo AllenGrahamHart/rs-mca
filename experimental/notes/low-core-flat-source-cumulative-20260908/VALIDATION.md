@@ -5,26 +5,44 @@ arithmetic/control replays, not external mathematical review or formal proof.
 
 | Replay | Result | Wall Time | Peak RSS |
 | --- | --- | ---: | ---: |
-| Normal Python wrapper | 78/78 PASS | 4.69 seconds | 17352 KiB |
-| Optimized Python wrapper | 78/78 PASS | 4.57 seconds | 20696 KiB |
-| Five new checkers directly under -O | 5/5 PASS | 0.49 seconds | 16320 KiB |
+| Normal Python wrapper | 82/82 PASS | 4.81 seconds | 18636 KiB |
+| Optimized Python wrapper | 82/82 PASS | 4.87 seconds | 22112 KiB |
+| Five extension checkers directly under -O | 5/5 PASS | 0.79 seconds | 21492 KiB |
 
-Both full runs check all 406 frozen sources, the 36-node acyclic requirement
+Both full runs check all 424 frozen sources, the 38-node acyclic requirement
 inventory and six rejected source/inventory mutations: wrong hash, duplicate
 file, omitted file, nonlocal path, omitted proof root and cyclic requirement.
 The unchanged baseline passes again. Manifest SHA-256:
 
 ~~~text
-97262ebcafd696b331152effec6491826a70d6c7adef861967f22acd2d7a349d
+6f70eb2a437c17eeb06b34c04eedbcc01b2e4919ebe8ac5c683a7db9d35fb521
 ~~~
 
-Parent ef8e3316's manifest hash is
-`c57bd6ce8d182c463496943efce5eee333cf314afb169162a806eda7ae861d51`.
-All 241 inherited source files are retained unchanged. There are 165
-additions, 469104 new bytes, and 1214185 total source bytes. The parent
-record remains in [EARLIER_VALIDATION.md](EARLIER_VALIDATION.md).
+Parent 6562b807's manifest hash is
+`97262ebcafd696b331152effec6491826a70d6c7adef861967f22acd2d7a349d`.
+The 401 unchanged parent sources, 18 additions and five revised assembly
+sources were checked against that Git parent and the dirty origin snapshot.
+There are 1252293 source bytes. The prior validation is preserved at
+[parent 6562b807](https://github.com/AllenGrahamHart/rs-mca/blob/6562b80720397fbc5f0815d53715c72c15c8f6f5/experimental/notes/low-core-flat-source-cumulative-20260908/VALIDATION.md).
 
 ## New Checks
+
+- Four actual polynomial carriers check the full-fiber locator division,
+  actual rank and degree, preserved gap and exact ordered-basis recurrence.
+  Repeated fibers expose the error in dividing only the selected point.
+- The independent generic audit checks 357 partition inequalities,
+  72 derivative identities and 22 tight controls. These are controls of
+  the universal proof, not a claim of field realizability for every partition.
+- Normalized rational coefficients and independent unnormalized polynomial
+  composition check eight fixed quadratic steps and their global remainder
+  identities. Eight upward mutations and two incorrect LOW floors fail.
+- Two exact method-boundary quotients exceed the budget. They limit
+  uniform per-record pricing, not the desired MCA inequality.
+- The revised original-source checker rejects six interval/budget mutations
+  and records the residual J=9941..52999. The sole near allowance remains
+  134944 and whole-source alternatives combine by maximum.
+
+## Retained Supplier Checks
 
 - Independent Gaussian and Bareiss tuple censuses, with actual polynomial
   carriers, check the exact inside-extension identities and disjoint
@@ -48,7 +66,10 @@ record remains in [EARLIER_VALIDATION.md](EARLIER_VALIDATION.md).
 The wrapper runs children serially, with a 15-second timeout per child,
 bytecode disabled and PYTHONOPTIMIZE cleared. Older assertion-based
 children remain unoptimized even in the optimized-wrapper run. The five
-new checkers also passed directly with -O using explicit checks.
+extension checkers also passed directly with -O using explicit checks,
+via `python3 -B -O replay.py --contraction-only`. That optional mode
+checks the entire source inventory but runs only the five extension scripts;
+it is not reported as a full supplier replay.
 
 Each run was enclosed in RAMguard tiny: 256 MiB RAM, 64 MiB swap and
 60 seconds. A timeout is INCOMPLETE, not a successful proof. Measured

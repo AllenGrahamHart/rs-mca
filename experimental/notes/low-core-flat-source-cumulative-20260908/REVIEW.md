@@ -1,8 +1,34 @@
-# Review: Maximum Density And Original-Source Transport
+# Review: Fiber Contraction And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
+
+## New Extension: Contract The Whole Fiber
+
+Read the [generic proof](source/critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md)
+and [finite certificate proof](source/critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md)
+first. The previous maximum-density and original-source arguments below
+are unchanged apart from the assembly's paid interval.
+
+- The fiber is relative to the counted core, not a receiver puncture.
+  Its complete locator leaves every quotient evaluation nonzero and
+  preserves the degree gap. Removing only one point is insufficient.
+  The publication states r>=2 explicitly; the finite ranks 3..11 are
+  unaffected, and no rank-zero quotient convention is invoked.
+- The top r-1 fiber sizes total at most K-1. Both uses of concavity
+  require K<=D and B>=D*C>=0; they are not general matroid assertions.
+- The real equal-fiber endpoint relaxes a polynomial partition bound.
+  The induction only applies its hypothesis to actual integer children.
+- Eight fixed tangents at 5000 have nonnegative global remainders.
+  The other profile differs affinely, so its endpoint gates suffice.
+- A strict derivative inequality covers every J in 53000..65000.
+  LOW and HIGH share one incidence resource, combined by maximum.
+- The [method boundary](source/critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md)
+  is a limit on uniform record pricing, not an unsafe source construction.
+
+The two new arguments and the assembly were reread for publication.
+The exact replay remains distinct from review of these universal proofs.
 
 ## 1. Coupled Basis Counts
 
@@ -63,11 +89,11 @@ and its cited common-core, scalar-descent and near suppliers.
 - The contrapositive is for EVERY complete selection of an over-budget
   line. No favorable low-rank selection is presumed to exist.
 
-The generic/finite/transport arguments were reread for this publication;
-the listed replay and mutations pass. The inherited rounded-Johnson and
+The previous generic/finite/transport review is retained above; the extension
+does not change those mechanisms. The inherited rounded-Johnson and
 lower-strip suppliers retain their own printed scope and review caveats.
 No exhaustive fresh audit of every historical result is claimed.
 
-Remaining mathematics: rank twelve on J=9941..64999 and higher ranks.
+Remaining mathematics: rank twelve on J=9941..52999 and higher ranks.
 These are outside the submitted paid scope, not silently assumed true.
 Verdict for the scoped publication hand audit: **NO ISSUE**.

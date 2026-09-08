@@ -1,5 +1,6 @@
 """Serial arithmetic/control replay, not certification of the hand proofs."""
 
+import argparse
 import copy
 import hashlib
 import json
@@ -15,6 +16,13 @@ GRAPH = "source/critical/nodes/mca_low_core_quadratic_graph_payment/"
 STRIP = "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/"
 JET = "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/"
 SMOOTH = "source/critical/nodes/mca_low_core_smooth_cubic_payment/"
+CONTRACTION_CHECKS = (
+    "source/critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+    "source/critical/nodes/mca_fiber_contraction_core_basis_resource/verify_audit.py",
+    "source/critical/nodes/rate_half_mca_fiber_contraction_interval/verify.py",
+    "source/critical/nodes/rate_half_mca_fiber_contraction_interval/verify_audit.py",
+    "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+)
 CHECKS = (
     FINITE + "verify.py", FINITE + "verify_audit.py",
     FINITE + "verify_rational_pencil_cover.py",
@@ -80,7 +88,7 @@ CHECKS = (
     "source/background/nodes/mca_scalar_agreement_dimension_descent/verify_two_anchor.py",
     "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/verify_caps.py",
     "source/critical/nodes/bchks_affine_witness_collinearity_mca/verify_exact_gate.py",
-)
+) + CONTRACTION_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -92,7 +100,7 @@ def verify_dependency_inventory(manifest, sources):
     graph = manifest["interval_extension_requirements"]
     root = manifest["interval_extension_root"]
     require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 36, "changed proof inventory")
+    require(len(graph) == 38, "changed proof inventory")
     active, seen = set(), set()
 
     def visit(node):
@@ -172,14 +180,20 @@ def verify_manifest_mutations():
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--contraction-only", action="store_true",
+                        help="run the five extension checks; -O propagates only in this mode")
+    args = parser.parse_args()
     started = time.monotonic()
     count = verify_sources()
     verify_manifest_mutations()
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    for check in CHECKS:
-        result = subprocess.run([sys.executable, "-B", str(ROOT / check)],
+    selected = CONTRACTION_CHECKS if args.contraction_only else CHECKS
+    optimization = ["-O"] if args.contraction_only and sys.flags.optimize else []
+    for check in selected:
+        result = subprocess.run([sys.executable, "-B", *optimization, str(ROOT / check)],
                                 cwd=ROOT, env=env, timeout=15, check=False,
                                 capture_output=True, text=True)
         if result.returncode:
@@ -187,9 +201,10 @@ def main():
             print(result.stderr, end="", file=sys.stderr)
             raise RuntimeError("FAIL: " + check)
         print("PASS", check, flush=True)
-    print("PASS:", count, "frozen sources;", len(CHECKS), "serial checks;",
+    print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
-    print("CHECKS PASS; 36-node proof inventory; original rank-twelve residual J=9941..64999")
+    print("Child optimization:", "-O" if optimization else "off")
+    print("CHECKS PASS; 38-node proof inventory; original rank-twelve residual J=9941..52999")
     print("Hand proofs are not certified by replay; higher ranks, unrestricted row and both prizes OPEN")
 
 

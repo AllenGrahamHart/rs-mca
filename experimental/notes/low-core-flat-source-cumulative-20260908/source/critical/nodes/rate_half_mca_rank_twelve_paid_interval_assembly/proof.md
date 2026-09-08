@@ -81,7 +81,7 @@ coordinate rescaling are injective on their affine-difference span.
 
 ## 4. Canonical Reselection Does Not Reopen Transport
 
-The high-interval theorem requires no maximal-raw selector. For the
+The contraction/high-interval theorem requires no maximal-raw selector. For the
 lower-strip theorem, maximize the raw mismatch for each label over all
 size-m' full-bad supports and explanations in the SAME fixed V'. This
 maximum exists over the finite field and finite domain; the family is
@@ -110,11 +110,11 @@ normalized row J=4801..169999 without losing labels. The required
 all-carrier interval theorems now pay:
 
     original g interval     child J interval      |Z|+134944 upper bound
-    878577..983576           65000..169999         274929007493481160
+    878577..995576           53000..169999         274929007493481160
     1038636..1043775         4801..9940            274979661975561635.
 
-The remaining original interval is exactly 983577..1038635, equivalent
-to J=9941..64999. Every other rank-twelve case has a whole-family bound.
+The remaining original interval is exactly 995577..1038635, equivalent
+to J=9941..52999. Every other rank-twelve case has a whole-family bound.
 The finite alternatives refer to the ONE g attached to the fixed original
 selection; their worst-case totals combine by MAXIMUM, never addition.
 Since |Z_bad|=|Z|+|N|<=|Z|+134944, the largest bound proves (ORIGINAL).
@@ -131,6 +131,11 @@ common-core supplier; saturated-support transport is already proved in
 its separate supplier. This node makes their complete source interface
 explicit and composes it with the new normalized bounds. The transport
 mechanism is not claimed as a new independent discovery.
+
+The newer required contraction interval extends the previous high-interval
+supplier from 65000 down to 53000 with no new source hypothesis. It
+already requires the old maximum-density interval. Thus this extension
+changes only the paid range in section 5, not the source bridge or add-back.
 
 This is a DIRECT original-source theorem, not a claimed active-v4 atom.
 An owner ledger is unnecessary for its direct conclusion; bankability
