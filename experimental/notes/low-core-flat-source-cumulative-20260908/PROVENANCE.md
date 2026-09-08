@@ -9,7 +9,7 @@ LOCAL_ONLY. Complete local proofs submitted for independent review.
 - Hughes's open #1175: `6c59f9aa75b897c9274e94c7aa8864acd26a85ea`.
 - #1174: `1b613fc669158a690a52b64f0eeb440f10672f1e`.
 - Divergent near-reduction #1160: `c5f4ea7a0c78828c901ae5f3428894a8b2e2806b`.
-- Previous companion: `b69a8b0b1c7b644e961b23fd04197bbaf165e359`.
+- Previous companion: `88f4cf81c633c7a45ad5d82c5186edc0dbc2b39d`.
 - Codex origin HEAD: `3b51e86d2595f28a02e842c81effca1dfcf98e77`.
   This is a dirty snapshot: per-file hashes, not HEAD alone, freeze the proofs.
 - Canonical Fable committed pin: `0dd5b324482194208be0289f76ed3f0817648a46`.
@@ -29,6 +29,40 @@ clone-tolerant basis and polynomial root arguments are antecedents, not new
 inventions. No general literature novelty claim is made.
 
 ## New Contribution
+
+1. A hereditary capped second-moment theorem proves the balanced basis
+   product under an explicit proper-flat coordinate-density guard. The
+   earlier full-fiber contraction is credited, including its antecedent
+   large-fiber construction refuting the unguarded product.
+2. On J=23000..29999, density 30h<=J+67466 pays the normalized source
+   by 268913508505087358 including the original near allowance once.
+   Maximizing-flat ranks on surviving sources are correspondingly restricted.
+3. Without that density premise, deficient actual cores contain a nested
+   complete-flat flag. The argument uses the first theorem's capped moment
+   proof and product convexity, not its density-qualified conclusion.
+4. The shared tuple resource retains one eighth of the good cost for each
+   flag-bearing LOW label. Any over-budget original line in this interval
+   must have at least 6933965264351691 such distinct labels, and stronger
+   pointwise masses. Flags have rank <=7; rank seven has an auxiliary
+   dimension-four polynomial annihilator quotient of degree <=5628.
+
+All four local theorem suppliers have discharged requirements at their
+printed scopes. Their source transport is integrated into the original
+assembly. There is no new whole-degree coverage or exceptional-label
+upper census. The scalar-incidence lemma remains separately inventoried.
+No general literature novelty, active-v4 atom or external acceptance is
+claimed. Prior raw-margin, defect-insertion and normalization results are
+credited prerequisites, not new contributions.
+
+The manifest freezes 531 proof/control sources (1531170 bytes), with a
+51-node assembly and separate nine-node scalar inventory. It adds 30 files,
+revises seven assembly files, and preserves the other 494 parent files
+byte-for-byte. Its `density_flag_extension` records the parent manifest
+hash, previous hashes of revised sources, origin HEAD and exact export scope.
+Node-local dependency documents and the acyclic inventory retain the DAG
+structure without exporting unrelated generated DAGs or speculative work.
+
+## Previous Refined-Interval And Scalar-Ledger Contribution Retained
 
 1. Three smaller degree blocks extend the proved quotient-density method
    to every carrier on 30000..31999, with total 274471852330442343 including
@@ -169,13 +203,24 @@ quotient-density interval -> scope extension and shorter degree blocks
     -> every-carrier interval / union 30000..169999
     -> original-source assembly, with unchanged bridge and near add-back
 
+exact full-fiber contraction -> hereditary density-qualified balanced bases
+    + completed-basis costs + maximum-density root capacities
+    -> density-qualified source payment on 23000..29999
+    -> original-source assembly, no new whole-degree coverage
+
+balanced-basis supplier's moment proof (NOT its density premise)
+    -> deficient actual core implies a dense nested-flat flag
+    + density-payment ARITHMETIC + universal completed-basis cost
+    -> necessary dense-core label mass on 23000..29999
+    -> original-source assembly, NO upper census or free receiver descent
+
 receiver-fiber peeling + projected receiver-flat transport
     + common-core saturated-support transport
     -> full-fiber scalar-incidence ledger / quantified profile corollary
     -> evidence only; NOT an input to the interval assembly
 ~~~
 
-`SOURCE_MANIFEST.json` includes the exact 47-node requirement inventory
+`SOURCE_MANIFEST.json` includes the exact 51-node requirement inventory
 of the assembly in `interval_extension_requirements`. The exporter checked
 that these local nodes are PROVED and acyclic, and the replay checks
 reachability, acyclicity and the presence of their statements/proofs.
@@ -188,9 +233,9 @@ it does not promote that TARGET or the Prize roots.
 
 ## Snapshot Boundaries
 
-Relative to parent b69a8b0b, 479 source files remain byte-for-byte unchanged.
-Fifteen sources are added and seven assembly sources are revised, for 501
-sources and 1471915 source bytes. Only small `.md`
+Relative to parent 88f4cf81, 494 source files remain byte-for-byte unchanged.
+Thirty sources are added and seven assembly sources are revised, for 531
+sources and 1531170 source bytes. Only small `.md`
 and `.py` sources are vendored; no generated DAG, large output, credentials,
 exploratory receiver-flat script, package environment or Modal job is included.
 Not every historical helper is part of the selected bounded replay.
@@ -210,21 +255,22 @@ narrower theorems remain suppliers; the current contraction and assembly
 statements supersede those dated residual descriptions. No historical
 summary is used to infer the new interval.
 
-`refined_scalar_extension` records the immediate parent, its manifest
+`density_flag_extension` records the immediate parent, its manifest
 hash, every added path and each revised source's previous hash. The Git
 parent preserves the full earlier assembly. `interval_extension_requirements`
-is updated to the current 47-node graph; the older parent metadata remains
+is updated to the current 51-node graph; the older parent metadata remains
 provenance for the previous publication stage, not the current inventory.
 The original maximum-density, contraction, complete-core and quotient-density proof bytes
-remain unchanged. Seven original-source assembly files update the paid
-range; the two new suppliers contribute fifteen proof/control files.
-The earlier `complete_core_extension` retains its own immutable parent
+remain unchanged. Seven original-source assembly files add the source-density
+and necessary mass conclusions; the four new suppliers contribute thirty
+proof/control files. The whole-degree range is unchanged.
+The earlier `refined_scalar_extension` retains its own immutable parent
 and source-history record. Exploratory scripts are excluded. Frozen source-local
 sentences saying a continuation is local describe prepublication custody,
 not a conditional proof status or independent acceptance.
 
 [EARLIER_PROVENANCE.md](EARLIER_PROVENANCE.md) retains older source-class provenance.
-The refined interval, scalar-ledger and revised assembly links in README are the current
+The density, flag-mass, scalar-ledger and revised assembly links in README are the current
 entry points. Source-control custody and review submission do not imply
 maintainer acceptance. Inserting the direct result into Grande Finale v4
 still requires its separate first-match ownership contract.

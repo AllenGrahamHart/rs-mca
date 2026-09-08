@@ -29,6 +29,16 @@
 - This direct source-class theorem does not supply an all-source rank
   upper bound, the remaining rank-twelve interval, an active-v4 atom,
   ordinary LIST or an unrestricted prize endpoint.
+- The additional bounded-density class on 23000..29999 uses the SAME
+  normalized carrier and all its nonzero evaluation coordinates. Its
+  maximum proper-flat density <=(J+67466)/30 is a substantive sufficient
+  hypothesis, not automatic. One qualifying complete selection pays the
+  whole original line below the existing maximum, with near already included.
+- The dense-core mass assertion applies WITHOUT the density gate on
+  23000..29999. It counts original labels, not flags or projected child
+  parameters, for every fixed minimizing-pair/core choice on the normalized
+  source. It is a necessary condition on an over-budget original line,
+  not an upper census or a stronger unrestricted safety conclusion.
 
 Falsifiers: loss of an original post-near label in the declared transport;
 an uncharged badness or rank/core change before the child is fixed; an

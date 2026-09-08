@@ -5,6 +5,8 @@
     refined quotient-density interval [PROVED] +--> original interval assembly [PROVED]
     full-kernel lower strip [PROVED] -----------+        |
     receiver-fiber class payment [PROVED] ------+        |
+    bounded-density source payment [PROVED] ---+        |
+    actual dense-core flag mass [PROVED] ------+        |
                                                         +--> full-threshold brackets [PROVED]
                                                         --ev--> original source router [TARGET]
 
@@ -23,3 +25,12 @@ The original target gets only supplier-owned evidence, no incoming req.
 The bracket node receives this as a proved original-row source-class
 consequence, not as proof of its unresolved unrestricted adjacent endpoint.
 No speculative conditional or original red promotion is introduced.
+
+The density supplier requires the hereditary balanced-basis product and
+the older completed-basis/maximum-density resources. It does not require
+this assembly, so its new whole-source gate creates no dependency cycle.
+
+The mass supplier requires the actual record-core alternative and the
+older comparison arithmetic/record costs, NOT the source-density premise.
+It does not require this assembly. Here its normalized over-budget
+condition is bound to |Z_bad|<=|Z|+134944 with the original labels intact.

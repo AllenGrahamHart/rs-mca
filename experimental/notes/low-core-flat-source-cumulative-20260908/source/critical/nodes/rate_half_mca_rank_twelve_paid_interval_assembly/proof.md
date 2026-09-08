@@ -144,6 +144,40 @@ contrapositive for every complete original selection proves the additional
 carrier restriction in the statement. This additional fiber branch does
 not enlarge section 5's degree interval or prove an original error-rank bound.
 
+## 7. Transport The Additional Bounded-Density Class
+
+Use the SAME fixed normalized carrier V' from sections 2 and 3, with its
+original slopes, full-code-bad supports and empty universal carrier core.
+On 23000<=J<=29999, if its maximum proper-flat density h satisfies
+30*h<=J+67466, the required balanced-density supplier gives
+|Z|+134944<=268913508505087358. Its bound already contains the single
+original near allowance and is below (ORIGINAL). No extra shortening,
+zero-coordinate deletion, near event or witness reselection is used.
+
+This is an alternative whole-source sufficient condition, not an added
+charge. The supplier's maximizing-flat rank gates and the contrapositive
+for EVERY complete original selection give the stated dense-flat
+restrictions. Neither the numerical J interval nor the original error-rank
+alternatives change. The density condition is not asserted automatic.
+
+## 8. Transport The Actual Dense-Core Mass
+
+If the original line is over budget, |Z_bad|>B*, then sections 1--3 give
+|Z|+134944>=|Z_bad|>B* on the SAME normalized dimension-eleven source.
+For 23000<=J<=29999 the required dense-core mass theorem applies, with
+no flat-density assumption. Fix the minimizing pairs and M-point complete
+core subsets after normalization; its conclusion is uniform in those choices.
+
+The counted exceptional labels are original distinct finite slopes, each
+counted once. Their flags belong to the actual chosen pair cores and
+do not entail a new quotient receiver or uncharged label removal. The
+original near allowance is used only in the displayed inequality. No
+additional near event, selected-rank preservation or core-size sum enters.
+
+This proves the new necessary mass and rank/degree restrictions for every
+complete original rank-twelve selection in that interval. It does not
+assert an upper census or enlarge the already paid degree intervals.
+
 ## Scope And Provenance
 
 The gauge and core identification are already proved in the rank-twelve
@@ -168,5 +202,5 @@ This is a DIRECT original-source theorem, not a claimed active-v4 atom.
 An owner ledger is unnecessary for its direct conclusion; bankability
 inside such a ledger would require its separate owner contract. Error
 ranks >=13 and rank twelve in the remaining interval outside the new
-paid receiver-fiber classes are unpaid.
+paid receiver-fiber and bounded-density classes are unpaid.
 No unrestricted endpoint, LIST theorem or full prize claim is made.

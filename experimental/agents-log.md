@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-08 - Bounded-density payment and necessary dense-core slope mass
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** Extended
+  `experimental/notes/low-core-flat-source-cumulative-20260908/` and this log.
+- **Status:** PROVED LOCAL, submitted for independent mathematical review.
+- **What is being added:** Four theorem suppliers: hereditary balanced bases
+  under proper-flat density, finite KoalaBear source payment, an actual
+  deficient-core flag alternative, and a necessary exceptional-slope mass
+  retaining one eighth of the good cost on the same incidence resource.
+- **How it is useful:** K3 / DIRECT, on the established #1175 companion.
+  On J=23000..29999, density 30h<=J+67466 pays the original source;
+  any over-budget source needs at least 6933965264351691 original labels
+  with dense pair-core flags of rank <=7. The original-source bridge is
+  explicit. The residual interval stays J=9941..29999; no upper census
+  or unrestricted row closure is asserted. The seven focused checks pass
+  normally and under -O; 92 inherited checks also pass, peak below 25 MiB.
+- **What to do next:** Independently review the hereditary moment proof,
+  source-density guard, actual flag descent and strict integer mass boundary.
+  Upper-bound the witness-bearing original labels with source multiplicities
+  and retained charges. A polynomial annihilator quotient is not free
+  received-word descent. No competing PR, active-v4 payment, compute request
+  or closure of either Prize problem is supplied.
+
 ### 2026-09-08 - Refined rank-twelve interval and separate scalar-incidence ledger
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

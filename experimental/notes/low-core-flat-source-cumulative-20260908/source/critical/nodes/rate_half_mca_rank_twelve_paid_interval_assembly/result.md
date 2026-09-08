@@ -21,7 +21,20 @@ original rank-twelve selection must fail that applicable fiber gate.
 The earlier half-size fiber gate is subsumed by the new every-carrier
 interval. The numerical residual now has 20059 rather than 22059 values.
 
+The new density supplier pays h<=(J+67466)/30 on 23000..29999 by
+268913508505087358, including near and below the existing maximum.
+Every over-budget source in that range has greater proper-flat density;
+every maximizing rank is <=7 through 24537, <=8 through 28916 and <=9
+thereafter. This adds a source-class restriction, not a new degree interval.
+
 No unconditional unrestricted safe endpoint or full prize is proved.
-The preceding quotient-density assembly is public at b69a8b0b; this
-refined degree-block extension is local. External review and any active-v4
-owner integration remain separate obligations.
+
+Without a density premise, the new actual-core theorem forces at least
+6933965264351691 low-margin original labels with dense flags on
+23000..29999, rising to 102451841872190189 at J=29999. Every such
+flag has rank <=7; rank seven gives an auxiliary degree <=5628 quotient.
+This is a required mass on an unsafe source, not a proved upper census.
+
+The refined interval and separate scalar ledger are public at 88f4cf81;
+the bounded-density class and dense-core mass are LOCAL. External review and any
+active-v4 owner integration remain separate obligations.

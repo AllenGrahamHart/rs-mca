@@ -68,5 +68,40 @@ alternative whole-line sufficient conditions, not charges to add over fibers.
 Thus every over-budget original rank-twelve selection additionally has
 every such fiber of size at most J-2001 when J>=14000. The earlier
 half-size fiber gate on 45000..52999 is now subsumed by the every-carrier
-interval theorem. The refined degree-block continuation is local and
-not part of the published b69a8b0b snapshot.
+interval theorem. The refined degree-block continuation is now published
+in 88f4cf81; b69a8b0b remains its earlier snapshot.
+
+## Additional Bounded-Density Classes
+
+For 23000<=J<=29999, let h be the maximum proper-flat coordinate
+density of the SAME normalized carrier V', excluding its zero evaluations.
+If 30*h<=J+67466, the new density supplier gives the stronger whole-line
+bound 268913508505087358, hence (ORIGINAL). Every over-budget rank-twelve
+selection in this range therefore has h>(J+67466)/30.
+
+Every flat attaining that maximum has rank at most seven on 23000..24537,
+at most eight on 24538..28916 and at most nine on 28917..29999. These
+are necessary restrictions on a possible over-budget line, not existence
+claims or an assumption that all carriers obey the density gate.
+The numerical residual remains J=9941..29999 (20059 integers). This new
+source class is LOCAL, not in the published 88f4cf81 companion.
+
+## Actual Dense-Core Mass On An Over-Budget Line
+
+For ANY over-budget original rank-twelve selection with 23000<=J<=29999,
+the same normalized source has at least 6933965264351691 distinct
+raw<=6 labels whose OWN fixed minimizing-pair cores contain a dense flag.
+Choose any minimizing pair and any M=J+67466 point subset of its full
+joint core for each such record. Its witness is F<G of ranks t-1,t,
+with complete coordinate sizes a_F,b_G inside that chosen subset and
+
+    (11-t)*b_G-(10-t)*a_F>M, 1<=t<=7.
+
+The source [mass theorem](../rate_half_mca_dense_core_flag_mass/statement.md)
+gives the exact J-dependent lower count, including 102451841872190189
+at J=29999. This holds for EVERY fixed choice of pairs and core subsets,
+without assuming the source-density gate. One label counts once even
+if it has many flags. Rank-seven witnesses give an auxiliary dimension-
+four annihilator quotient of degree <=5628, not a free received-word
+descent. No upper census is proved; the degree gap and original reds
+remain open. These mass results are LOCAL, not in 88f4cf81.

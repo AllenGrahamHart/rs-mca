@@ -19,6 +19,26 @@ SMOOTH = "source/critical/nodes/mca_low_core_smooth_cubic_payment/"
 QUOTIENT = "source/critical/nodes/rate_half_mca_quotient_density_interval/"
 REFINED = "source/critical/nodes/rate_half_mca_quotient_density_refined_interval/"
 SCALAR = "mca_empty_core_full_fiber_scalar_census"
+DENSITY_REQUIREMENTS = {
+    "mca_balanced_basis_under_flat_density": ["mca_fiber_contraction_core_basis_resource"],
+    "rate_half_mca_balanced_density_payment": [
+        "mca_balanced_basis_under_flat_density",
+        "mca_core_completed_basis_margin_resource",
+        "mca_maximum_density_flat_core_basis_resource",
+    ],
+    "mca_balanced_basis_or_dense_core_flag": ["mca_balanced_basis_under_flat_density"],
+    "rate_half_mca_dense_core_flag_mass": [
+        "mca_balanced_basis_or_dense_core_flag",
+        "rate_half_mca_balanced_density_payment",
+        "mca_core_completed_basis_margin_resource",
+    ],
+}
+DENSITY_CHECKS = tuple(
+    "source/critical/nodes/" + name + "/" + filename
+    for name in DENSITY_REQUIREMENTS
+    for filename in (("verify.py", "verify_audit.py")
+                     if name.startswith("rate_half_") else ("verify.py",))
+) + ("source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",)
 EXTENSION_CHECKS = (
     REFINED + "verify.py",
     REFINED + "verify_audit.py",
@@ -123,6 +143,7 @@ CHECKS = (
 INHERITED_CHECKS = CHECKS
 CHECKS += QUOTIENT_CHECKS[:-1]
 CHECKS += EXTENSION_CHECKS[:-1]
+CHECKS += DENSITY_CHECKS[:-1]
 
 
 def require(condition, message):
@@ -157,7 +178,9 @@ def verify_dependency_inventory(manifest, sources):
     root = manifest["interval_extension_root"]
     scalar = manifest["scalar_ledger_requirements"]
     require(root == "rate_half_mca_rank_twelve_paid_interval_assembly", "wrong proof root")
-    require(len(graph) == 47 and len(scalar) == 9, "changed proof inventories")
+    require(len(graph) == 51 and len(scalar) == 9, "changed proof inventories")
+    for node, dependencies in DENSITY_REQUIREMENTS.items():
+        require(graph.get(node) == dependencies, "changed density/flag dependency: " + node)
     require(manifest["scalar_ledger_root"] == SCALAR, "wrong scalar root")
     require(SCALAR not in graph, "scalar ledger is not an assembly premise")
     verify_graph(graph, root, sources)
@@ -225,6 +248,10 @@ def verify_manifest_mutations():
     changed = copy.deepcopy(baseline)
     changed["scalar_ledger_requirements"]["mca_receiver_fiber_peeling"] = []
     bad.append(changed)
+    for node in DENSITY_REQUIREMENTS:
+        changed = copy.deepcopy(baseline)
+        changed["interval_extension_requirements"][node] = []
+        bad.append(changed)
     for changed in bad:
         try:
             verify_sources(changed)
@@ -232,7 +259,7 @@ def verify_manifest_mutations():
             continue
         raise ValueError("accepted a malformed source manifest")
     verify_sources(baseline)
-    print("PASS: ten source/inventory mutations rejected; baseline still passes", flush=True)
+    print("PASS:", len(bad), "source/inventory mutations rejected; baseline still passes", flush=True)
 
 
 def main():
@@ -248,6 +275,8 @@ def main():
                        help="run the four quotient-density/assembly checks; propagate -O")
     group.add_argument("--extension-only", action="store_true",
                        help="run refined interval, scalar ledger and assembly; propagate -O")
+    group.add_argument("--density-only", action="store_true",
+                       help="run six density/flag checks and assembly; propagate -O")
     group.add_argument("--inherited-only", action="store_true",
                        help="run the 92 inherited checks, including the revised assembly")
     parser.add_argument("--start", type=int,
@@ -264,14 +293,15 @@ def main():
     env = dict(os.environ)
     env.pop("PYTHONOPTIMIZE", None)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    selected = (EXTENSION_CHECKS if args.extension_only else
+    selected = (DENSITY_CHECKS if args.density_only else
+                EXTENSION_CHECKS if args.extension_only else
                 QUOTIENT_CHECKS if args.quotient_only else
                 INHERITED_CHECKS if args.inherited_only else
                 FLAT_CHECKS if args.flat_only else
                 RECEIVER_CHECKS if args.receiver_only else
                 CONTRACTION_CHECKS if args.contraction_only else CHECKS)
     focused = (args.contraction_only or args.receiver_only or args.flat_only
-               or args.quotient_only or args.extension_only)
+               or args.quotient_only or args.extension_only or args.density_only)
     optimization = ["-O"] if focused and sys.flags.optimize else []
     for check in selected:
         extra = (["--start", str(args.start)]
@@ -289,11 +319,12 @@ def main():
     print("PASS:", count, "frozen sources;", len(selected), "serial checks;",
           "elapsed", round(time.monotonic() - started, 2), "seconds")
     print("Child optimization:", "-O" if optimization else "off")
-    print("SELECTED CHECKS PASS; 47-node assembly and separate 9-node scalar inventory")
-    print("Printed theorem: residual J=9941..29999; 2000 degrees removed since b69a8b0b")
+    print("SELECTED CHECKS PASS; 51-node assembly and separate 9-node scalar inventory")
+    print("Printed theorem: residual J=9941..29999 unchanged since 88f4cf81")
+    print("New density payment and necessary dense-core mass; NO exceptional-label upper census")
     print("Scalar ledger gives no additional row payment; its profile needs proved shape inputs")
     if selected is not CHECKS:
-        print("PARTIAL SUITE: selected checks only; complete normal replay needs inherited, quotient and extension modes")
+        print("PARTIAL SUITE: selected checks only; complete normal replay needs inherited, quotient, extension and density modes")
     if args.start is not None:
         print("PARTIAL REPLAY SCOPE: degree block", args.start,
               "only; other blocks require their own successful replay")

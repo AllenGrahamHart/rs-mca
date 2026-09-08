@@ -46,6 +46,19 @@ No new original normalization or near event is introduced. The earlier
 half-size fiber restriction is subsumed; the near-full restriction remains
 useful on 14000..29999. Higher original ranks remain an independent gap.
 
+The bounded-density branch uses this same normalized source, without
+reselecting a favorable core or reapplying the near theorem. Its bound is
+below the existing whole-line maximum. The actual-source density gate
+and every maximizing-flat rank restriction are substantive, not automatic;
+their addition does not shrink the printed degree interval.
+
+The mass continuation is uniform in every fixed choice of original
+minimizing pairs and normalized core subsets. |Z_bad|>B* implies
+|Z|+134944>B*; equality between these two quantities is not presumed.
+Only original slope labels are counted, once each. The smaller polynomial
+annihilator for rank-seven flags is not called a received-word child.
+The mass lower bound is not mistaken for an upper census or row closure.
+
 Verdict: NO ISSUE at the direct original-source scope. The individual
 normalized suppliers remain subject to their recorded external review;
 this local interface audit is not external acceptance or a formal build.

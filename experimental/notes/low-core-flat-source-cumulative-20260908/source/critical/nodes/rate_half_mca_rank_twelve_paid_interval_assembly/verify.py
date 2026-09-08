@@ -48,6 +48,8 @@ def main():
         else:
             raise ValueError("accepted interval/budget mutation")
     verify_receiver_gates()
+    verify_density_gates()
+    verify_dense_core_mass()
     print("PASS: exact original-g partition, child intervals, one near and field reserve")
     print("PASS: six boundary/budget mutations rejected; original rank-twelve residual J=9941..29999")
     print("The source bridge is a hand proof, not certified by this arithmetic check")
@@ -67,6 +69,34 @@ def verify_receiver_gates():
     check(max(248408859318207582, 272112051300507362) < 274979661975561635,
           "new source classes fit existing original maximum")
     print("PASS: eleven residual fiber-gate controls; J>=30000 handled by the whole interval")
+
+
+def verify_density_gates():
+    def gate(k, rank, size):
+        return 23000 <= k <= 29999 and 1 <= rank <= 10 and 30*size <= rank*(k+67466)
+    controls = ((23000,8,22997,True), (23000,7,22996,False),
+                (24537,8,24534,True), (24538,8,24535,False),
+                (28916,9,28914,True), (28917,9,28915,False),
+                (29999,10,29998,True), (23014,3,9048,True),
+                (23014,3,9049,False), (22999,10,22998,False),
+                (30000,10,29999,False), (23000,11,23000,False))
+    for k,rank,size,expected in controls:
+        check(gate(k,rank,size)==expected, "bounded-density source gate")
+    check(268913508505087358 < 274979661975561635, "new class below original maximum")
+    print("PASS: twelve density/rank boundary controls; J interval unchanged")
+
+
+def verify_dense_core_mass():
+    budget=2130706433**6//2**128
+    comparison=268913508505087358
+    mass=6933965264351691
+    check(7*(mass-1)<=8*(budget-comparison)<7*mass,"least dense-core mass integer")
+    for t in (8,9):
+        check((10-t)*29999<=67466+111-11*t,"all large core-flag ranks excluded")
+    check(29999-((29999+67484)//4+1)==5628,"rank-seven auxiliary degree")
+    check(7*(102451841872190189-1)<=8*(budget-185335366473228672)
+          <7*102451841872190189,"pointwise endpoint mass")
+    print("PASS: original-label dense-core mass and rank/degree boundaries; no upper census")
 
 
 if __name__ == "__main__":

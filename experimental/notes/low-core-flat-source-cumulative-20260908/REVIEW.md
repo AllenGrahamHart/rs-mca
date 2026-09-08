@@ -1,10 +1,55 @@
-# Review: Refined Interval, Scalar Ledger And Original-Source Transport
+# Review: Density, Dense-Core Mass And Original-Source Transport
 
 K3 / KoalaBear MCA / DIRECT / LOCAL_ONLY. This is local hand review
 for submission; external independent mathematical review remains due.
 The [earlier review](EARLIER_REVIEW.md) covers inherited source-class proofs.
 
-## New Extension: Scope Refinement And A Separate Scalar Ledger
+## Current Extension: Hereditary Moments And Actual Dense-Core Flags
+
+Read the four new linked proofs in the README and sections seven/eight of
+the revised original-source assembly. The publication hand audit checked:
+
+- The top r-1 full fibers have total size <=k-1. Under the printed
+  largest-fiber cap, splitting the squared sum at a_(r-1) gives
+  sum a_i^2<=n*(k-1)/(r-1). Tail terms and excesses have the right sign.
+- Every actual rank-j contracted flat removes its COMPLETE a coordinates.
+  A child fiber lifts to rank j+1 and has size <=(j+1)h-a. The coefficient
+  (s-j-1)(j+1)<=floor(s^2/4) proves the moment at EVERY descendant.
+  No unsupported induction on a numerical envelope is used.
+- Positive product coefficients give monotonicity and convexity for the
+  real Jensen argument; the actual children have integer degree >=rank.
+  Rank-one and rank-two endpoints agree with the product recurrence.
+- The large-fiber polynomial construction genuinely violates the product
+  without the density guard. It does not construct an unsafe MCA line.
+- A deficient core either has a failed moment or an actual deficient
+  contraction. Rank two cannot be deficient, so descent ends at rank >=3.
+  The lifted flag is complete inside the SAME core. A flag may also occur
+  in a basis-rich core; the alternatives are not treated as exclusive.
+- LOW cores have M=J+67466 nonzero evaluations; HIGH costs use only the
+  previously proved weight inequalities. The flag-mass theorem imports
+  arithmetic from the density payment, NOT its source-density premise.
+- Every exceptional record retains sigma>=beta/8 uniformly, by one exact
+  endpoint product inequality. Different constructions for the same label
+  give a union lower bound by their maximum, never their sum. Independent
+  tuples for different original finite labels remain disjoint.
+- Integer strictness follows from B*+1<=|Gamma|+134944<G(J)+1+7e/8.
+  This gives e>8(B*-G(J))/7 and the final +1. Flooring U/beta before
+  adding fractional 7e/8 would be invalid; an explicit control rejects it.
+- Root capacity gives (10-t)J>D+111-11t, excluding t=8,9 on the WHOLE
+  interval. Rank-seven full-locator division yields polynomial dimension
+  four and degree <=5628, but not a received-word child with free exceptions.
+- The assembly uses |Z_bad|<=|Gamma|+134944, not equality. Minimizing
+  pairs and core subsets are fixed AFTER normalization; earlier raw margins
+  need not survive normalization. No extra near event is charged.
+
+No issue was found at these printed scopes. The 23000..29999 theorem
+pays the density-qualified source class and forces large actual-core mass
+on any over-budget source without that guard. It proves NO upper census
+for those labels and removes NO whole degree interval. This is local hand
+review, supplemented by exact arithmetic and small actual polynomial
+controls; independent external mathematical review remains due.
+
+## Previous Extension: Scope Refinement And A Separate Scalar Ledger
 
 Read the [refined interval proof](source/critical/nodes/rate_half_mca_quotient_density_refined_interval/proof.md)
 and [scalar-incidence proof](source/background/nodes/mca_empty_core_full_fiber_scalar_census/proof.md).

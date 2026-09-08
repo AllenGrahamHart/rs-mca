@@ -3,7 +3,58 @@
 Executed in the outbound worktree on 2026-09-08. These are deterministic
 arithmetic/control replays, not external mathematical review or formal proof.
 
-## Current Refined-Interval And Scalar-Ledger Extension
+## Current Density And Dense-Core-Flag Extension
+
+Publication checks on the exported sources, serial under RAMguard tiny
+(256 MiB RAM, 64 MiB swap, 60-second process-tree limit):
+
+| Replay | Result | Wall Time | Peak RSS |
+| --- | --- | ---: | ---: |
+| `python3 -B replay.py --density-only` | 7/7 PASS | 1.49 seconds | 20184 KiB |
+| `python3 -B -O replay.py --density-only` | 7/7 PASS | 2.13 seconds | 23216 KiB |
+| `python3 -B replay.py --inherited-only` | 92/92 PASS | 9.37 seconds | 25160 KiB |
+
+These cover 98 distinct normal-mode checkers (the assembly is repeated).
+The six unchanged quotient/refined/scalar checks were NOT rerun in this
+publication turn; their successful parent replays are retained below and
+their frozen sources are byte-identical. The available complete suite has
+104 distinct checks, covered by the four README modes. No complete-suite
+fresh replay or optimized run of older assertion-based checkers is claimed.
+
+Each invocation checks all 531 frozen sources, the 51-node assembly and
+separate nine-node scalar inventory. Fourteen malformed manifests fail:
+the earlier ten plus removal of each new theorem's required inputs.
+The baseline passes again. Hashes verify source identity, not proof truth.
+
+The six new checkers cover hereditary capped moments, actual small
+polynomial spaces and complete contractions, the actual large-fiber guard
+counterexample, basis-rich cores that also have flags, and deficient cores
+with actual flags. Fraction and separately implemented integer arithmetic
+check the finite source payment, eighth-cost certificate, uniform comparison,
+four pointwise masses, strict +1 and rank/degree consequences. Controls
+reject premature flooring and altered least masses. The revised assembly
+also retains its six interval, eleven receiver-fiber and twelve density
+boundary controls, with the new original-label mass transport checks.
+
+Current manifest SHA-256:
+
+~~~text
+7abbe186dae83850f6dd148289777aa2a4d253397d80be61f2f6950034f4c2c6
+~~~
+
+The exporter verified all 501 parent files before adding 30 and revising
+seven assembly files. The other 494 stay byte-identical; the new source
+total is 1531170 bytes. Parent manifest SHA-256:
+`28d1978685f024ab2157824a6af05162d033d51d204c1d7bf1567a31b40e3a5b`.
+No large numerical search, Modal task, spending or speculative script is
+included. No mathematical DAG status changes occur in this source export;
+the local global DAG/crosswalk diagnostics were not rerun or declared fixed.
+External independent mathematical review remains due.
+
+## Parent 88f4cf81 Refined-Interval And Scalar-Ledger Replay Retained
+
+The following historical measurements apply to the 501-source parent,
+not the current extension. Its unchanged sources remain hash-verified.
 
 These serial commands were run from the packet directory, each enclosed
 by RAMguard tiny (256 MiB RAM, 64 MiB swap, 60 seconds):
