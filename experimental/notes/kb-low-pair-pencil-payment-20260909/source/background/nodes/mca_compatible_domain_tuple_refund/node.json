@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_compatible_domain_tuple_refund",
+    "title": "A compatible domain refunds all its internal incidence tuples",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the original selected-slope incidence frame of actual carrier dimension s, if u+gamma0*v=c in h_*+V on U, all independent tuples internal to U have the single parameter solution at gamma0. After charging that finite slope, the available tuple numerator is at most (n)_falling_(s+1)-(|U|)_falling_(s+1). In the infinite chart v=c in V, all internal tuples are dependent and no label is removed. Every retained record, including high defects, uses this same resource with its separately proved tuple lower count. No coordinate or degree is changed. Actual F7 sources enforce the kernel-slope charge and defeat an extension to nonconstant rational directions.",
+    "refs": [
+      "background/nodes/mca_compatible_domain_tuple_refund/statement.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/proof.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/claim_contract.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/dependency_subdag.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/audit.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/result.md",
+      "background/nodes/mca_compatible_domain_tuple_refund/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_nonuniform_support_margin_resource"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

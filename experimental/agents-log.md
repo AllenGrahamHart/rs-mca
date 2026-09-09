@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Low-pair affine rank and complete rational-pencil payment
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT contribution](notes/kb-low-pair-pencil-payment-20260909/README.md),
+  four theorem snapshots, eight small certificate shards, source manifest
+  and bounded serial replay. Earlier published packets are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** On every remaining original rank-twelve
+  normalization J9965..21499, raw<=2 pair affine dimension<=10 pays the
+  whole source by257846243054097181. Every rational low-pair pencil,
+  including constant-direction affine rank11, pays by274136923022229951.
+  Both totals retain arbitrary raw>=3 records and include near once.
+- **How it is useful:** Companion to #1175. Any over-budget low-pair
+  family must now have affine dimension>=11 AND direction rank two over
+  F(X), under every valid selection/minimizer assignment. A generic
+  compatible-domain tuple refund funds the full-rank constant-pencil case.
+  These are whole-source alternatives, not additive active-owner atoms.
+- **Verification:** Six focused checks pass normally/optimized below25MiB,
+  including19640 independent exact LIST transitions. The80-node closure,
+  816 listed hashes and242 inherited proof documents are pinned;
+  [validation and limits](notes/kb-low-pair-pencil-payment-20260909/VALIDATION.md).
+- **What to do next:** Review affine chart membership, all-record tuple
+  exclusion and funding, preferred-label ownership and the coupled LIST
+  envelope. General rank-two pair families, the11535-degree gap, higher
+  original ranks, unrestricted rows and both Prizes remain open.
+- **Compute requests:** None; no Modal or large computation.
+
 ### 2026-09-09 - Raw-mass accounting pays 24 complete cubic-cover degrees
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

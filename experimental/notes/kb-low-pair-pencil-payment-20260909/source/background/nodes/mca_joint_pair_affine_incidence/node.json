@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_joint_pair_affine_incidence",
+    "title": "A rank-two joint anchor sharpens affine polynomial-pair incidence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an affine F-space of degree-<K polynomial pairs of actual dimension r, with A joint agreements on n coordinates, M<=Q^r for Q=(n-K+1)/(A-K+1). If joint evaluation has rank two off e<A coordinates, M<=(n-e)/(A-e)*Q^(r-2). Function-field rank two supplies e<=2K-2, giving the determinant bound whenever A>2K-2. Only the first anchor loses two dimensions; subsequent sections use ordinary joint affine incidence. Exact F7 controls defeat omission of pencil and bad-anchor hypotheses. Pair LIST count only; original-source and slope ownership belong to the consumer.",
+    "refs": [
+      "background/nodes/mca_joint_pair_affine_incidence/statement.md",
+      "background/nodes/mca_joint_pair_affine_incidence/proof.md",
+      "background/nodes/mca_joint_pair_affine_incidence/claim_contract.md",
+      "background/nodes/mca_joint_pair_affine_incidence/dependency_subdag.md",
+      "background/nodes/mca_joint_pair_affine_incidence/audit.md",
+      "background/nodes/mca_joint_pair_affine_incidence/result.md",
+      "background/nodes/mca_joint_pair_affine_incidence/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_low_core_quadratic_graph_payment"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_affine_span_payment",
+    "title": "Low-defect pair affine rank at most ten pays every remaining normalized degree",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every original KoalaBear rank-twelve normalization J9965..21499, if the actual raw<=2 minimizing polynomial-pair family has affine F-dimension<=10, the entire original line pays by257846243054097181 including near134944 once, reserve17134485057297906. Function-field rank two uses a guarded joint anchor and explicit same-owner defect sums. Rank-one rational pencils use actual scalar parameter dimension, complete-core union and all preferred labels, giving228260637755610995. Empty/singleton families also pay. The uniform truncated-four source mass covers every raw>=3 label. Thus every over-budget source has pair affine dimension>=11 under EVERY valid selection and minimizer assignment, without a canonical-selection premise. Every nonconstant pencil is automatically paid by the common-carrier dimension drop; any surviving pencil has constant direction and exact affine rank11. Otherwise function-field direction rank is two. Pair dimension is not parameter-graph dimension. No entire J interval, rank>=13, unrestricted MCA, LIST, active-v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_affine_span_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_joint_pair_affine_incidence"},
+    {"from": "mca_low_core_polynomial_relation_payment"},
+    {"from": "rate_half_mca_low_raw_rank_filtration"},
+    {"from": "rate_half_mca_rank_twelve_paid_interval_assembly"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

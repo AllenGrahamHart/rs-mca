@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_pencil_payment",
+    "title": "Every low-defect rational pencil pays the whole original rank-twelve source",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank-twelve normalization J9965..21499 and any valid selection/minimizer assignment, if its raw<=2 polynomial pairs lie on one rational F(X) pencil, the entire original line pays by274136923022229951 including near134944 once, reserve843805089165136. The full-rank constant-direction case refunds every internal tuple of its complete low-core union after at most one kernel slope is charged. Eight core-sixteen basis certificates and HIGH187 fund all raw values. The exact unrounded ratio couples to982 exhaustive e intervals and19640 padded LIST transitions in eight small complete JSONL shards. Small unions are separately paid. Nonconstant pencils use the preceding pair-span theorem. Thus every over-budget low-pair family has affine dimension>=11 AND function-field direction rank two. No complete J interval, rank>=13, unrestricted MCA, LIST, active-v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/basis_mass.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/manifest.json",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00000.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00001.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00002.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00003.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00004.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00005.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00006.jsonl",
+      "background/nodes/rate_half_mca_low_pair_pencil_payment/certificate/shards/part-00007.jsonl"
+    ]
+  },
+  "requires": [
+    {"from": "mca_compatible_domain_tuple_refund"},
+    {"from": "mca_raw_margin_basis_mass"},
+    {"from": "mca_core_completed_basis_margin_resource"},
+    {"from": "list_padded_johnson_dimension_descent"},
+    {"from": "mca_low_core_polynomial_relation_payment"},
+    {"from": "rate_half_mca_rank_twelve_paid_interval_assembly"},
+    {"from": "rate_half_mca_low_pair_affine_span_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

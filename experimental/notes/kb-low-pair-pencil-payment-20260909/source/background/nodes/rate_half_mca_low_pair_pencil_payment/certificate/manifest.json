@@ -1,0 +1,78 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "R0": [
+      "140127742123082010779536776164838406497727166358737692518182885976528000",
+      "228585129067384634786905329958427041644271285504861901"
+    ],
+    "claimed_ceiling": 274136923022229951,
+    "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+    "kind": "low-pair-pencil-tuple-refund-v1",
+    "parameters": {
+      "J_max": 21499,
+      "J_min": 9965,
+      "R": 1048576,
+      "core_cutoff": 16,
+      "d": 67472,
+      "dimension": 10,
+      "mass_truncation": 3,
+      "pair_cutoff": 2,
+      "width": 1000
+    },
+    "status": "exact integer inequalities; no field enumeration or source-census premise"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 51084,
+      "path": "shards/part-00000.jsonl",
+      "records": 128,
+      "sha256": "3bb1c5108b0db409b9e6d0d790dafc1d32aefc238333d0fdf89c379981efcb25"
+    },
+    {
+      "bytes": 50576,
+      "path": "shards/part-00001.jsonl",
+      "records": 128,
+      "sha256": "96d48dcccc4a1b62836e3d049da8237ba02b83499e20d33df942ca225195c5b1"
+    },
+    {
+      "bytes": 49170,
+      "path": "shards/part-00002.jsonl",
+      "records": 128,
+      "sha256": "a7fee7f944ddc9c4aad488e3d3c888b4d04b8481b2217ceaccb5eeac2b2175fd"
+    },
+    {
+      "bytes": 48524,
+      "path": "shards/part-00003.jsonl",
+      "records": 128,
+      "sha256": "b6e2d0bb820ebd5437511e118534dc1843dd2014381930a9be24a1880cce950e"
+    },
+    {
+      "bytes": 48454,
+      "path": "shards/part-00004.jsonl",
+      "records": 128,
+      "sha256": "cd83b5767e92479168a0eddc30d7a9bae38be20e1e91fc0c96d20a88d6699d41"
+    },
+    {
+      "bytes": 44118,
+      "path": "shards/part-00005.jsonl",
+      "records": 128,
+      "sha256": "f2709fe6add85da3e39f41e8afacc27f3a73429317feff26ec523120bb69517e"
+    },
+    {
+      "bytes": 39158,
+      "path": "shards/part-00006.jsonl",
+      "records": 128,
+      "sha256": "fc1f4f770de6961644c8444083ff454bd15e8205f45fb9e3e66cd43abdcd7e2d"
+    },
+    {
+      "bytes": 21162,
+      "path": "shards/part-00007.jsonl",
+      "records": 86,
+      "sha256": "5f3b470cddee7aefcb78161e0aa4a7a3d3ab90444243682c858e288f4d7743ba"
+    }
+  ],
+  "total_bytes": 352246,
+  "total_records": 982
+}
