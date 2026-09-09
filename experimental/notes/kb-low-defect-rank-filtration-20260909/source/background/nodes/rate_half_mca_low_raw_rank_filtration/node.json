@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_raw_rank_filtration",
+    "title": "Over-budget rank-twelve sources force massive full-rank tiny-defect families",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every original KoalaBear rank-twelve normalized source on J9941..21499 and every valid reselection in its fixed actual dimension11 carrier, sum min(raw,4)<=624373932788019251, proved by eight quadratic certificates with core gap67347 and an all-HIGH gate. An over-budget original line has at least100284125772880591 raw<=2 labels and158516326552340442 raw<=3 labels; their actual parameter graphs have affine dimensions>=11 and exactly12. On J>=14000 at least27280579497297684 raw-one labels have graph dimension>=11. The nested flag forces either raw-one graph dimension>=11 or raw<=2 graph dimension12. The corresponding low-rank alternatives pay whole original sources, including near once; the largest printed cap is273667628828640978. Canonical maximizing selection identifies complete-set defects, and more than10^11 distinct represented polynomial pairs have joint cores of size>=m-2. Rank margins survive the existing secant/zero exceptions. No full-rank low-defect census, complete J interval, rank>=13, unrestricted MCA, LIST or full Prize closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/statement.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/proof.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/claim_contract.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/audit.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/result.md",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/verify.py",
+      "background/nodes/rate_half_mca_low_raw_rank_filtration/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_raw_margin_basis_mass"},
+    {"from": "rate_half_mca_parameter_graph_spread"},
+    {"from": "mca_padded_johnson_scalar_descent"},
+    {"from": "rate_half_mca_rank_twelve_paid_interval_assembly"},
+    {"from": "mca_maximal_margin_complete_core_selection"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router"}
+  ],
+  "refutes": []
+}

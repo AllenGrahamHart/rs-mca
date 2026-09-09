@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Low-defect mass and actual parameter-graph rank filtration
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-low-defect-rank-filtration-20260909/README.md),
+  two frozen theorem nodes, exact dependency manifest and bounded serial replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Retaining every raw defect in the same core-basis
+  resource proves sum min(raw,4)<=624373932788019251 throughout J9941..21499.
+  It pays five original source classes, the largest by273667628828640978
+  including near once. Any over-budget source forces huge high-rank raw<=2
+  and raw<=3 families, uniformly under valid selection in the fixed carrier.
+- **How it is useful:** Companion to #1175. The source-owned deficit ledger
+  reduces payment to an explicit weighted census of complete-core pairs.
+  The sufficiency implication is proved; the census bound is NOT proved.
+  More than10^11 distinct pairs with cores of size>=m-2 would be required
+  by any over-budget rank-twelve source. No pair-to-slope factor is dropped.
+- **Verification:** Three focused checks, normal and optimized, including
+  independent polynomial-convolution certificates and small actual-source
+  controls; [validation and scope](notes/kb-low-defect-rank-filtration-20260909/VALIDATION.md).
+  Both older supplier packets are unchanged. No Modal or large computation.
+- **What to do next:** Review tuple disjointness, the all-high-defect gate,
+  graph gauge and complete-pair ownership. Prove or improve the remaining
+  census. No full degree interval, active-v4 atom, unrestricted MCA, LIST or
+  Prize closure is claimed; the unproved cubic extension is excluded.
+
 ### 2026-09-09 - Actual parameter-graph spread and a weighted-method boundary
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
