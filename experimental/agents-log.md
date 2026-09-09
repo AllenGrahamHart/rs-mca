@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Shared-carrier descent pays pair affine dimension fifteen
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-shared-carrier-rank-fifteen-20260909/README.md),
+  five theorem snapshots, three small certificates, source manifest and
+  bounded serial replay. Earlier published packets are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** On every original rank-twelve normalization
+  J9965..21499, low-defect pair affine dimension<=15 pays the whole source
+  by274138707278280353. Shared dimension<=10 and pair dimension<=17 also
+  pay at that bound. Higher raw values and near are retained once.
+- **How it is useful:** Companion to #1175. Dual-flat joint anchors,
+  height-resolved pencil exceptions and the existing weighted-owner lemma
+  leave only intrinsic shared/pair ranks10/18..20 or11/16..22 in any
+  over-budget source. The older stronger shared-dimension-nine payment is
+  explicitly credited, not presented as a new gain. These are alternative
+  source-class bounds, not additive active-owner atoms.
+- **Verification:** Nine new and two inherited checks pass normally and
+  under-O below24MiB. The89-node closure,899 listed hashes and261 inherited
+  proof documents are pinned; [validation and limits](notes/kb-shared-carrier-rank-fifteen-20260909/VALIDATION.md).
+- **What to do next:** Independently review the rank guards, original
+  deficit ownership and auxiliary carrier offsets. The11535-degree gap,
+  original higher ranks and both Prize problems remain open.
+- **Compute requests:** None; no Modal or large computation.
+
 ### 2026-09-09 - Large pencil sections pay pair affine dimension eleven
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

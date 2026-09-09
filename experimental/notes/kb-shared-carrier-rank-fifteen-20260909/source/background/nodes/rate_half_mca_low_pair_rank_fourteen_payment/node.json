@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_rank_fourteen_payment",
+    "title": "Height-resolved pencil control pays pair affine dimension at most fourteen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank-twelve normalization J9965..21499 and valid selection/minimizer assignment, actual raw<=2 PAIR affine dimension<=14 pays the ENTIRE source by274138707278280353 including near134944 once, reserve842020833114734. Eleven height bands pay complete-core complements through e_bar=272000+9(21498-u), with all off-pencil pairs, giving hereditary P_t=781095/(85474-t). An auxiliary14-space inside V x V permits three guarded pair/shared rank steps14/11,12/10,10/9, followed by an8/8 child whose constant and rank-two alternatives are both paid by C_t^8. Pair floors71666785024/71678469894 yield branch251217725856263117, combined by maximum with earlier whole-source alternatives. Every lower pair rank is counted again; no stronger branch or weaker earlier cap is misapplied. Every over-budget family forces pair dimension>=15. No full degree interval, original rank>=13, unrestricted MCA, LIST, endpoint, v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/height_caps.json",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_dominant_low_pencil_payment"},
+    {"from": "rate_half_mca_low_pair_rank_twelve_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

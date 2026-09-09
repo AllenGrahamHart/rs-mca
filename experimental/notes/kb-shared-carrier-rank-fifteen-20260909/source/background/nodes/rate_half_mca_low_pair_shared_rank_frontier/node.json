@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_shared_rank_frontier",
+    "title": "Intrinsic pair/carrier ranks leave only ten- and eleven-dimensional survivors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank12 normalization J9965..21499 and valid assignment, define U as the sum of both component direction images of aff(P_2), s=dim U<=11 and r=affdim P_2<=2s. If s<=9, every pair rank is paid by238911770855075395 including near134944 once, without a pencil hypothesis. If s<=10,r<=17, the whole source is paid by274138707278280353, reserve842020833114734. The required r<=15 theorem holds for any s. Auxiliary pair/shared rank embeddings18/9 and17/10 permit nine and seven guarded anchors; the first ends at a point, the second at3/3 with both child types paid. The original V, rank, complete core, field, offsets and labels are not replaced. Every over-budget choice has exactly s=10,r18..20 or s=11,r16..22, hence pair-space codimension<=2 or<=6 respectively. No density, higher original-rank payment, full J value, unrestricted row, endpoint, active atom or Prize closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/statement.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/proof.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/audit.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/result.md",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/verify.py",
+      "background/nodes/rate_half_mca_low_pair_shared_rank_frontier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_low_pair_rank_fifteen_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

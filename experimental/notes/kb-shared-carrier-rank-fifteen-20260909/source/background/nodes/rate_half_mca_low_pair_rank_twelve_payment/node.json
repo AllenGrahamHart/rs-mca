@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_rank_twelve_payment",
+    "title": "Shared-carrier joint anchoring pays low-pair affine dimension twelve",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank-twelve normalization J9965..21499 and any valid selection/minimizer assignment, raw<=2 pair affine dimension<=12 pays the ENTIRE original source by274267808872348771 including near134944 once, reserve712919239046316. A nonconstant height-h<J low-pair pencil with complete-core complement<=272000 separately pays by272840087674756199. Outside earlier and new paid alternatives, pair rank12 above shared rank11 gives at most J-1 bad first anchors. A child has pair/shared ranks10/10, so a rank-one child is constant; a rank-two child has hereditary cap H_t*P_t^8. The resulting pair floors106906553861/106923140583 retain all raw values and original slope charges. Every over-budget family forces pair dimension>=13 under every valid choice. No full J interval, original rank>=13, unrestricted MCA, LIST, v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/outside_list_cap.json",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_rank_twelve_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_dominant_low_pencil_payment"},
+    {"from": "rate_half_mca_low_pair_rank_eleven_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

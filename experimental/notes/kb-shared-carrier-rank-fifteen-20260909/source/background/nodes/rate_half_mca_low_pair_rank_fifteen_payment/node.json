@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_rank_fifteen_payment",
+    "title": "Weighted constant-pencil exceptions pay pair affine rank at most fifteen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank12 normalization J9965..21499 and valid selection/minimizer assignment, actual raw<=2 PAIR affine dimension<=15 pays the ENTIRE source by274138707278280353 including near134944 once, reserve842020833114734. The existing OWNER lemma sharpens each off-pair DEFICIT charge to654070, not a label-count bound. This extends the constant-pencil complete-core complement gate to520000; the added500001..520000 branch costs261389606553601974 with all off-pair and higher-raw records retained. Outside paid classes C_t=528576/(67473-t); four guarded pair/shared stages15/11,13/10,11/9,9/8 end at7/7 and pay both child direction ranks. Pair floors105622838829/105640059975 give branch273428272906977732, combined by maximum with earlier whole-source alternatives. Every over-budget choice forces pair rank>=16. No full J value, original error-rank>=13, unrestricted MCA/LIST, active atom, endpoint or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/outside_list_cap.json",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_raw_margin_basis_mass"},
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_dominant_low_pencil_payment"},
+    {"from": "rate_half_mca_low_pair_rank_fourteen_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

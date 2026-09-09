@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_shared_carrier_rank_two_anchor",
+    "title": "Pair rank above shared-carrier rank confines bad joint anchors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For W subset V x V with dim V=s<r=dim W<=2s and V subset F[X]_<K, bad joint-evaluation functionals span dimension<=2s-r, so all bad coordinates, including common zeros, number<=K+s-r. For A>K+s-r, a good-section cap L gives joint-list cap (n-K-s+r)L/(A-K-s+r). Every good section has pair dimension r-2 and shared carrier V_x of dimension s-1. A rank-s function-field-rank-one pencil in V x V must have constant direction. Arbitrary fields and fixed original domains; pair-to-slope accounting is not supplied.",
+    "refs": [
+      "background/nodes/mca_shared_carrier_rank_two_anchor/statement.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/proof.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/claim_contract.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/dependency_subdag.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/audit.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/result.md",
+      "background/nodes/mca_shared_carrier_rank_two_anchor/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_low_core_polynomial_relation_payment"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
