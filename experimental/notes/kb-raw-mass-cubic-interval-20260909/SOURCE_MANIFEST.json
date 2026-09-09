@@ -1,0 +1,675 @@
+{
+  "schema": "kb-raw-mass-cubic-interval-v1",
+  "parent_commit": "78a12ec166916babdb1a557744525de6eef5d931",
+  "base_packet": "../low-core-flat-source-cumulative-20260908",
+  "base_manifest_sha256": "656b342982896233bf8f906b6ba93aae785c9179414d02f982f47b095a60027b",
+  "upstream_main": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "pr1175_head": "6c59f9aa75b897c9274e94c7aa8864acd26a85ea",
+  "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+  "origin_state": "dirty snapshot; per-file custody, not a clean-HEAD claim",
+  "snapshot_roots": [
+    "mca_raw_margin_basis_mass",
+    "rate_half_mca_raw_mass_cubic_interval",
+    "rate_half_mca_rank_twelve_paid_interval_assembly"
+  ],
+  "requirements": {
+    "mca_nonuniform_support_margin_resource": [],
+    "mca_core_completed_basis_margin_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_uniform_rank_one_weighted_line_cap": [],
+    "mca_scalar_agreement_dimension_descent": [],
+    "bchks_affine_witness_collinearity_mca": [],
+    "mca_padded_johnson_scalar_descent": [
+      "mca_uniform_rank_one_weighted_line_cap",
+      "mca_scalar_agreement_dimension_descent",
+      "bchks_affine_witness_collinearity_mca"
+    ],
+    "v13_2_near_rational_pair_proximity": [],
+    "v13_2_near_rational_supportwise_two_anchor_payment": [
+      "v13_2_near_rational_pair_proximity"
+    ],
+    "rate_half_mca_scan_free_error_rank_eleven_payment": [
+      "mca_padded_johnson_scalar_descent",
+      "mca_uniform_rank_one_weighted_line_cap",
+      "mca_scalar_agreement_dimension_descent",
+      "v13_2_near_rational_supportwise_two_anchor_payment"
+    ],
+    "rate_half_mca_error_rank_twelve_common_core_forcing": [
+      "mca_core_completed_basis_margin_resource",
+      "mca_padded_johnson_scalar_descent",
+      "mca_scalar_agreement_dimension_descent",
+      "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "bchks_affine_witness_collinearity_mca",
+      "v13_2_near_rational_supportwise_two_anchor_payment"
+    ],
+    "mca_common_core_low_margin_transport": [],
+    "mca_maximum_density_flat_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_flat_inside_tangent_basis_resource": [
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "mca_density_aware_flat_completion_resource": [
+      "mca_maximum_density_flat_core_basis_resource",
+      "mca_flat_inside_tangent_basis_resource"
+    ],
+    "mca_fiber_contraction_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_projective_fiber_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_receiver_fiber_peeling": [
+      "mca_projective_fiber_core_basis_resource",
+      "mca_common_core_low_margin_transport"
+    ],
+    "mca_receiver_flat_refunded_resource": [
+      "mca_receiver_fiber_peeling",
+      "mca_scalar_agreement_dimension_descent",
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "rate_half_mca_receiver_fiber_payment": [
+      "mca_receiver_fiber_peeling",
+      "mca_padded_johnson_scalar_descent",
+      "bchks_affine_witness_collinearity_mca"
+    ],
+    "rate_half_mca_maximum_density_high_interval": [
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "rate_half_mca_fiber_contraction_interval": [
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_maximum_density_high_interval"
+    ],
+    "rate_half_mca_receiver_flat_interval": [
+      "mca_receiver_flat_refunded_resource",
+      "rate_half_mca_fiber_contraction_interval",
+      "mca_padded_johnson_scalar_descent"
+    ],
+    "rate_half_mca_complete_core_refund_interval": [
+      "mca_flat_inside_tangent_basis_resource",
+      "mca_receiver_flat_refunded_resource",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_flat_interval"
+    ],
+    "rate_half_mca_quotient_density_interval": [
+      "mca_density_aware_flat_completion_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_flat_inside_tangent_basis_resource",
+      "mca_receiver_flat_refunded_resource",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_complete_core_refund_interval"
+    ],
+    "rate_half_mca_quotient_density_refined_interval": [
+      "rate_half_mca_quotient_density_interval"
+    ],
+    "mca_projective_flat_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_low_core_quadratic_graph_payment": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_multiplicity_interpolation_curve_escape": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_polynomial_core_gluing": [],
+    "mca_received_pair_one_defect_weighted_list_reduction": [
+      "mca_nonuniform_support_margin_resource",
+      "mca_polynomial_core_gluing"
+    ],
+    "list_two_component_relation_dichotomy": [],
+    "mca_low_core_polynomial_relation_payment": [
+      "mca_nonuniform_support_margin_resource",
+      "list_two_component_relation_dichotomy"
+    ],
+    "mca_raw_low_union_overlap_payment": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "list_padded_johnson_dimension_descent": [],
+    "mca_maximal_margin_complete_core_selection": [],
+    "mca_low_core_homogeneous_level_payment": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_projective_split_product_list_payment": [
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_polynomial_map_projective_jet_dimension": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "elliptic_curve_bounded_polynomial_section_dimension": [],
+    "mca_low_core_smooth_cubic_payment": [
+      "elliptic_curve_bounded_polynomial_section_dimension",
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_normalization_unit_curve_payment": [
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_singular_cubic_weighted_incidence_payment": [
+      "mca_polynomial_map_projective_jet_dimension",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_geometric_progression_singular_cubic_payment": [
+      "mca_singular_cubic_weighted_incidence_payment"
+    ],
+    "mca_singular_cubic_component_list_payment": [
+      "mca_singular_cubic_weighted_incidence_payment"
+    ],
+    "rate_half_mca_cancelled_low_core_relation_payment": [
+      "rate_half_mca_maximum_density_high_interval",
+      "mca_projective_flat_core_basis_resource",
+      "mca_multiplicity_interpolation_curve_escape",
+      "mca_nonuniform_support_margin_resource",
+      "mca_received_pair_one_defect_weighted_list_reduction",
+      "mca_low_core_polynomial_relation_payment",
+      "mca_raw_low_union_overlap_payment",
+      "list_padded_johnson_dimension_descent",
+      "mca_common_core_low_margin_transport",
+      "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "mca_maximal_margin_complete_core_selection",
+      "mca_low_core_quadratic_graph_payment",
+      "mca_low_core_homogeneous_level_payment",
+      "mca_projective_split_product_list_payment",
+      "mca_polynomial_map_projective_jet_dimension",
+      "mca_low_core_smooth_cubic_payment",
+      "mca_normalization_unit_curve_payment",
+      "mca_singular_cubic_weighted_incidence_payment",
+      "mca_geometric_progression_singular_cubic_payment",
+      "mca_singular_cubic_component_list_payment",
+      "mca_projective_fiber_core_basis_resource"
+    ],
+    "rate_half_mca_low_core_kernel_quadratic_strip": [
+      "rate_half_mca_cancelled_low_core_relation_payment"
+    ],
+    "mca_balanced_basis_under_flat_density": [
+      "mca_fiber_contraction_core_basis_resource"
+    ],
+    "rate_half_mca_balanced_density_payment": [
+      "mca_balanced_basis_under_flat_density",
+      "mca_core_completed_basis_margin_resource",
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "mca_balanced_basis_or_dense_core_flag": [
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_dense_core_flag_mass": [
+      "mca_balanced_basis_or_dense_core_flag",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_arbitrary_core_flat_basis_resource": [
+      "mca_density_aware_flat_completion_resource",
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_rank_eight_density_payment": [
+      "mca_arbitrary_core_flat_basis_resource",
+      "mca_balanced_basis_or_dense_core_flag",
+      "rate_half_mca_dense_core_flag_mass",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_first_excess_core_flat": [
+      "mca_balanced_basis_or_dense_core_flag"
+    ],
+    "rate_half_mca_first_excess_core_interval": [
+      "mca_first_excess_core_flat",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource",
+      "rate_half_mca_quotient_density_refined_interval"
+    ],
+    "mca_quantitative_density_basis_product": [
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_receiver_fiber_degree4700_payment": [
+      "mca_receiver_fiber_peeling",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_fiber_payment"
+    ],
+    "rate_half_mca_quantitative_density_interval": [
+      "mca_quantitative_density_basis_product",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_first_excess_core_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_rank_profile_density_basis_product": [
+      "mca_quantitative_density_basis_product"
+    ],
+    "rate_half_mca_rank_profile_density_interval": [
+      "mca_rank_profile_density_basis_product",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_quantitative_density_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_receiver_fiber_two_cost_resource": [
+      "mca_receiver_fiber_peeling",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_two_cost_receiver_fiber_payment": [
+      "mca_receiver_fiber_two_cost_resource",
+      "rate_half_mca_fiber_contraction_interval",
+      "rate_half_mca_receiver_fiber_payment",
+      "mca_padded_johnson_scalar_descent"
+    ],
+    "rate_half_mca_two_cost_fiber_interval": [
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_rank_profile_density_interval",
+      "mca_rank_profile_density_basis_product",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_projective_fiber_secant_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_clustered_arc_payment": [
+      "mca_projective_fiber_secant_resource",
+      "mca_projective_flat_core_basis_resource",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_flat_split_root_moment_basis": [
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_rank_profile_density_basis_product"
+    ],
+    "mca_fiber_collision_bonferroni_resource": [
+      "mca_projective_fiber_secant_resource"
+    ],
+    "rate_half_mca_collision_profile_interval": [
+      "mca_flat_split_root_moment_basis",
+      "mca_fiber_collision_bonferroni_resource",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_two_cost_fiber_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_coordinate_weighted_collision_resource": [
+      "mca_fiber_collision_bonferroni_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_rank_profile_density_basis_product",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_weighted_collision_interval": [
+      "mca_coordinate_weighted_collision_resource",
+      "mca_flat_split_root_moment_basis",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_collision_profile_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_projective_fiber_switching_resource": [
+      "mca_projective_fiber_secant_resource"
+    ],
+    "rate_half_mca_switching_credit_interval": [
+      "mca_projective_fiber_switching_resource",
+      "mca_coordinate_weighted_collision_resource",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_weighted_collision_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_raw_margin_basis_mass": [
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_raw_mass_cubic_interval": [
+      "mca_raw_margin_basis_mass",
+      "mca_multiplicity_interpolation_curve_escape",
+      "rate_half_mca_cancelled_low_core_relation_payment",
+      "mca_singular_cubic_weighted_incidence_payment",
+      "mca_singular_cubic_component_list_payment",
+      "mca_geometric_progression_singular_cubic_payment"
+    ],
+    "rate_half_mca_rank_twelve_paid_interval_assembly": [
+      "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "mca_common_core_low_margin_transport",
+      "rate_half_mca_quotient_density_refined_interval",
+      "rate_half_mca_low_core_kernel_quadratic_strip",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_balanced_density_payment",
+      "rate_half_mca_dense_core_flag_mass",
+      "rate_half_mca_rank_eight_density_payment",
+      "rate_half_mca_first_excess_core_interval",
+      "rate_half_mca_quantitative_density_interval",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_rank_profile_density_interval",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_two_cost_fiber_interval",
+      "rate_half_mca_clustered_arc_payment",
+      "rate_half_mca_collision_profile_interval",
+      "rate_half_mca_weighted_collision_interval",
+      "rate_half_mca_switching_credit_interval",
+      "rate_half_mca_raw_mass_cubic_interval"
+    ]
+  },
+  "origin_node_manifest_sha256": {
+    "mca_nonuniform_support_margin_resource": "7ca98443782a5f275143a0cadfa2106184376a02b34cf63fc08dcfa8244d85b1",
+    "mca_core_completed_basis_margin_resource": "06c799837fe649b894fccbc96699d96646c6cb263fcd6ff4e698da0fde030af5",
+    "mca_uniform_rank_one_weighted_line_cap": "5ab725247f3d881855d11482894073d995024adcf58871e9c9f2ba52200b4e7f",
+    "mca_scalar_agreement_dimension_descent": "96524501875072cf5559184a4e651981c51e97bdb98a00f4b24fad4e16398edd",
+    "bchks_affine_witness_collinearity_mca": "f704ab082fe04d9ebeaa8360d7080439cb3bf8c051058148ee824cab9480ec16",
+    "mca_padded_johnson_scalar_descent": "a2ed7adc27d732c79c8f58309cd03b30704cb2223128c6c271c0f75777bddf3a",
+    "v13_2_near_rational_pair_proximity": "bef1ef1c35a1e788d96bc0d8d326e149441a51d6f113bfecee34c3042ae46fc7",
+    "v13_2_near_rational_supportwise_two_anchor_payment": "093b7b5784a9ab80e256b0787fc80739b443deed1108d4bec28306ffe67e5709",
+    "rate_half_mca_scan_free_error_rank_eleven_payment": "61059e547dc538eb9592f567f456b1277ea04ffbad648394ee2696d681330c48",
+    "rate_half_mca_error_rank_twelve_common_core_forcing": "25698ecb9906e829f8fb2769b0089606c2d9c5a7a47d627dc4e923df5c34d377",
+    "mca_common_core_low_margin_transport": "fca6c4bc2b3c69121d3b2273ea3418c55b56412bb0750469a2363b8752ad41cd",
+    "mca_maximum_density_flat_core_basis_resource": "1f27b53b1ea996905f14bc4cebf67cd359350eb7883b7fe2ec224e5a470adeb3",
+    "mca_flat_inside_tangent_basis_resource": "55bcc708ef24e2287066db41a6fe181cee2725e5c9b18d0b8e84d9fa90116762",
+    "mca_density_aware_flat_completion_resource": "fc418e30abba4a92c57d3156a0fb852d714935e2d5f0452ebd2987af6dd4ba66",
+    "mca_fiber_contraction_core_basis_resource": "e591beb9ae7ab0e59074ad22cb781f25b63074b729a6278c88dd30ba6f936c53",
+    "mca_projective_fiber_core_basis_resource": "4b36fce24205ab97585781416ec4fe7f6e7af025a5943ba6f68105e00b3c6711",
+    "mca_receiver_fiber_peeling": "7e8de861987596321cf2cf5daae90b1cbd3bd3d2b38f7e93c630e16c268d0bf9",
+    "mca_receiver_flat_refunded_resource": "8515bc9881dc0b3df830fcfacfebd48052bed6502f57743849783208f6f470bc",
+    "rate_half_mca_receiver_fiber_payment": "72d929e345afd5bfd118cc69de1e3912493b332e2e9f0a72f41cc4c871c4d717",
+    "rate_half_mca_maximum_density_high_interval": "a69ff6538255e64f4c9be407855ea9607e4f4706f7438b8964711c9daace8646",
+    "rate_half_mca_fiber_contraction_interval": "25d5b8006f66866429d518e3e6189a6031186745653729d5ecfc6e07b38643ec",
+    "rate_half_mca_receiver_flat_interval": "962c124765ee3e84529aac312241a683adcb468e0721d6b7eec1b27eea9fbaad",
+    "rate_half_mca_complete_core_refund_interval": "f05a325ff800be47da6120d7d174d8df5b24a3ead0c5f5178c1a5a552a16cf4c",
+    "rate_half_mca_quotient_density_interval": "3bc844b426f98b9d6ea0a026c396efdc35592009867f374ff9a9f42336640d47",
+    "rate_half_mca_quotient_density_refined_interval": "10ff7fc572a7007ef1f35a95c70b45cf2cfc4888dbd800811b25667dbd759f32",
+    "mca_projective_flat_core_basis_resource": "eb5a8f48eee5bf250cb0bf0ae3d54c499bf80479ed6574b6cb8ab0948549314d",
+    "mca_low_core_quadratic_graph_payment": "e2fdf680cbe9a6c9b6366ad46e3cecbac6b4299395965dc4b40c40638a346c77",
+    "mca_multiplicity_interpolation_curve_escape": "fea5c2ecfcdcc05de9200ccc39a88d5aca19b36a76c0054c9b5ac97e324d5c09",
+    "mca_polynomial_core_gluing": "9410ee9e7f2dd92f09e88dd24e70c71bad5e2d4c41404d2252b6808ee06d081f",
+    "mca_received_pair_one_defect_weighted_list_reduction": "4e2d9869dfd815e43da4fed1c6a05e38fc74b5dec8640cdf1c207e32838d177b",
+    "list_two_component_relation_dichotomy": "a8a272d939f120134c1300b0a2825560152f521ef6f0001c856dfe97c6ff7479",
+    "mca_low_core_polynomial_relation_payment": "15b680cdac1df7058a4dffb810d7986943e5719d9951f75504719a96d3b76e69",
+    "mca_raw_low_union_overlap_payment": "72e87da23771850063c1d339a908cee4f64dc5b490cb2c5c966c2b3888e990b8",
+    "list_padded_johnson_dimension_descent": "7177b785179f8a4399525082c4c50fcded5b4355b18e8779ae331b7b87f81266",
+    "mca_maximal_margin_complete_core_selection": "ef2532f33cabd041cf7ee43ddd5477cdfc5544d4c27d0830ffa43d2d18e9f0bc",
+    "mca_low_core_homogeneous_level_payment": "a54b8a30448a90f7565efec77daa79dca15d7f7a9606251c939cec7802dae7d1",
+    "mca_projective_split_product_list_payment": "1b0e03fb931ae2d19d7d6c8daeb1be4cb798239758afd07f36791117dfc008be",
+    "mca_polynomial_map_projective_jet_dimension": "2dbd037eb63edf8048bd1c88668326103f520d56dd6adac741d0b3d930bf9822",
+    "elliptic_curve_bounded_polynomial_section_dimension": "dd908c5b688ae1ae026af03e4dd22fca819d56d7ea53e5e8e652856547afc074",
+    "mca_low_core_smooth_cubic_payment": "a96392ab96f2cafe5c8404f6410639305742c23379a304a56ee2c81c6ab143b6",
+    "mca_normalization_unit_curve_payment": "c2db8caf18404affbe7966b7e5e85f6d325c4fd422af35d50f326cbc8bfe368c",
+    "mca_singular_cubic_weighted_incidence_payment": "9984451f97b0c6d21cab124ba398310adff6cdbdd2506acee02337cb3f9b8556",
+    "mca_geometric_progression_singular_cubic_payment": "547819d2eac7446eab13fcbdd4383fd92057e0f0c6820ff59d9b70024c27c8aa",
+    "mca_singular_cubic_component_list_payment": "1e6cb0ae6202faeca3f23b2b9a95916321ad76833ce16ab19f814ec15a426f9a",
+    "rate_half_mca_cancelled_low_core_relation_payment": "5a889c3e43595f5d20c0b1640624a26b02183c85d30724df0be0a2aab93ee570",
+    "rate_half_mca_low_core_kernel_quadratic_strip": "e2f7986f0c49261f16afdafe368ff4d601ef6a6c22998a56f77fa2931512446a",
+    "mca_balanced_basis_under_flat_density": "b233f8df91de16f80d726c9033554f723cb1980c20745880485a2c4101bd3eb3",
+    "rate_half_mca_balanced_density_payment": "0db9845a2e24e487dbde8e9702108430f71f91cb449919c6eef7e5b93cd1ad03",
+    "mca_balanced_basis_or_dense_core_flag": "dc95339a6711c29c4ca1072ec61aebf5a8aafb777175a13ebc7033a294a684f2",
+    "rate_half_mca_dense_core_flag_mass": "8802ca2f33ba10384b92e502add221b24c5ce403e0342d0799a4595df8d8ac2f",
+    "mca_arbitrary_core_flat_basis_resource": "35d681c592ade80028dabea2df4a6df54b4fad894e3271d49dae166a9a33e19f",
+    "rate_half_mca_rank_eight_density_payment": "a488d376cc38a4bf6c4d9ad2ab73aa24b2dd212d1b0b47ab107ea282c8bb6bfe",
+    "mca_first_excess_core_flat": "5f0d40bc082e6b88ca9be0e01d6cf0bfcc4e0f0d15e983a359d58a58393872d6",
+    "rate_half_mca_first_excess_core_interval": "a018aa7f4a9ffeee94c76f1dcdde421a4f311fc5bfe89f854e8b833c7e58ad2e",
+    "mca_quantitative_density_basis_product": "51036e3eb41d6a446e75f4c5686c14477ebf659f60680dc8cdea35907c345df9",
+    "rate_half_mca_receiver_fiber_degree4700_payment": "2914808b6fd454c8e5c08d51dbac7bd920b3706f0dc1aea19179a42081787c13",
+    "rate_half_mca_quantitative_density_interval": "9b22b07c5c0b640d6f6d5e32029d00d54c6e1528e58acf9b6ecf00a55b4193d8",
+    "mca_rank_profile_density_basis_product": "6622f4cadf72add68706ec49c1ff066547b7e6a21dca44bf7a9ed6c8954645b9",
+    "rate_half_mca_rank_profile_density_interval": "18faa36060f990edaa1e95f47f13aaa9de575b6159ca420766efbe8413df80d9",
+    "mca_receiver_fiber_two_cost_resource": "e77d2ddcd4b55679c526d1b24eefea7e8ae139ec93f2dd86c1b68d74364fcf90",
+    "rate_half_mca_two_cost_receiver_fiber_payment": "aeedfd5c48514d75aa28c7a5108960ad8c87d1e7baf171f5ee27dd600f4c36ec",
+    "rate_half_mca_two_cost_fiber_interval": "f22688ef493909324be062e3bb84f578e9598d4fc3ec6233c99f52e4aaec39e5",
+    "mca_projective_fiber_secant_resource": "31f0c76ffcfec4eacc6ac1f7bc6584d131e9d47b21019e50a98b5ff78b873723",
+    "rate_half_mca_clustered_arc_payment": "eddf74a9a2879080ab12e3ee5589977541455a4d6204206084754df5c385c9f5",
+    "mca_flat_split_root_moment_basis": "b949e8d4c2206e340c2a85f85bcce415a391eb0775a3d42d2e571d3e83f5aef5",
+    "mca_fiber_collision_bonferroni_resource": "07469a3497862ead21600e4296a6ec083a012b5db34eefb21818a50619764cf0",
+    "rate_half_mca_collision_profile_interval": "fa75d79baa6b3c795a8edc5f305b9c595efaa47ccaa9ea6b55a3bd7260fb7d99",
+    "mca_coordinate_weighted_collision_resource": "fc5a5a3ad3715068bde410c0d773ac4924e1d0b2ef2c37e6d29c45695b1ef3a3",
+    "rate_half_mca_weighted_collision_interval": "570583b944c7ef63761ef3fc2fa8b8bcd352bd9f0470763c39a4b270c43809b1",
+    "mca_projective_fiber_switching_resource": "c1922895345bd9b31ec5e7e1344938b1f59773d16bde6868b3fc0a74ba064502",
+    "rate_half_mca_switching_credit_interval": "0cf1d4237498cd80b12f464ea5dd98b19698de03b9922d6a4b99e4fd394d6034",
+    "mca_raw_margin_basis_mass": "d7eca15458542204fe65e2a14d9be7d7e64acfce7c7623b3fee3721920d24b27",
+    "rate_half_mca_raw_mass_cubic_interval": "5ddd9c5557a2144e4b6f368565ea56315d3025b4a4a1c7e50dd9a5fa2424660b",
+    "rate_half_mca_rank_twelve_paid_interval_assembly": "a98cb181863c0c51488fa4fbf57a33c593f06b9fe2e9ebefcc90cb31b2bf46d5"
+  },
+  "inherited_proof_documents_compared": 225,
+  "refreshed_supplier_statements": {
+    "rate_half_mca_low_core_kernel_quadratic_strip": {
+      "base_path": "background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "base_sha256": "9531f88639dce51412d488e06c2b9bacfe195ed06f0450d65b0b41f498824a8d",
+      "current_sha256": "134b7e1bbda090303664b15460817bb7869ad071fe3c09a10eb8d7479dcb1b04"
+    },
+    "mca_geometric_progression_singular_cubic_payment": {
+      "base_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "base_sha256": "49cb15e85bc2a3f49ac8dd5e7cfec33ab2ad1971c12434c4e13d672dc1592ec7",
+      "current_sha256": "af83ea2ea4114b20538ac470708643771aa07d4b3ac77b158584c6ef65732737"
+    },
+    "mca_multiplicity_interpolation_curve_escape": {
+      "base_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "base_sha256": "efde81de845d5e0ab9575844c9d184474f167c7619aca2f3ea905b00d61cb028",
+      "current_sha256": "956e4ed80efa372e891cb25d143923f3fb7c25b1078eaaf7be6cad0b8287d55b"
+    },
+    "mca_singular_cubic_component_list_payment": {
+      "base_path": "critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "base_sha256": "df1239533effe67787b8ef27fd76ad8939fa0aed0fd81e10eb4bdf7e34c741c1",
+      "current_sha256": "a206f50a73ef0552d7cf95c4b70e20e909f6ddf73d3675f31994d19dbcdb8910"
+    },
+    "rate_half_mca_fiber_contraction_interval": {
+      "base_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "base_sha256": "f6aef75d84d498eca2852185d66bb3b7ac80b5fefca41235fee9d0a625ab6705",
+      "current_sha256": "fe5d3cceca6a0fc8f7f1785903fb1a4909ee201b6b671dfe4584a2934daf421c"
+    }
+  },
+  "files": [
+    {
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "origin_path": "critical/nodes/mca_fiber_contraction_core_basis_resource/verify.py",
+      "sha256": "07bd80035b848dcfd947132e066454490f8cc6dacd5a1376be623f2f3ae491b7",
+      "custody": "unchanged base helper"
+    },
+    {
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "origin_path": "critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "sha256": "af83ea2ea4114b20538ac470708643771aa07d4b3ac77b158584c6ef65732737",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "origin_path": "critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "sha256": "956e4ed80efa372e891cb25d143923f3fb7c25b1078eaaf7be6cad0b8287d55b",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/audit.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/audit.md",
+      "sha256": "fdbcc8747b84280c1f67bd8beffc8b328cc439d4a43a7003b15a4f1cc8f739a2",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/claim_contract.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/claim_contract.md",
+      "sha256": "d5d3915c2ae2e0d14df2358ef16e1b31fe4fc42e8a646dab016da0942068f4e9",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/dependency_subdag.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/dependency_subdag.md",
+      "sha256": "7e517dab20264c78d9726e16bec1799a014c1714b37044f049c7de410c45a561",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/node.json",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/node.json",
+      "sha256": "d7eca15458542204fe65e2a14d9be7d7e64acfce7c7623b3fee3721920d24b27",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/proof.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/proof.md",
+      "sha256": "bae510fdcbc99009985fd5275c4ec44954d1ed6ac7a4db0dbabcbfc59ae1ea53",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/result.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/result.md",
+      "sha256": "8fcb8261cd71deab3e34180a2173017781e90432136022e4d95ee6ce3874008d",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/statement.md",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/statement.md",
+      "sha256": "80357fffa60d7c427c032b04275060c070d4f254203799c4d12e5454ca65840e",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/verify.py",
+      "origin_path": "critical/nodes/mca_raw_margin_basis_mass/verify.py",
+      "sha256": "0b08477e8a0c7602dd0745dee833de37036bfe35e2ee33ad4a149cafc2e60b71",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "origin_path": "critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "sha256": "a206f50a73ef0552d7cf95c4b70e20e909f6ddf73d3675f31994d19dbcdb8910",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "sha256": "fe5d3cceca6a0fc8f7f1785903fb1a4909ee201b6b671dfe4584a2934daf421c",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "sha256": "134b7e1bbda090303664b15460817bb7869ad071fe3c09a10eb8d7479dcb1b04",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
+      "sha256": "56bebc4a9a0a385d3730d1b404930be7695966029d5efafd70e54c33999899e5",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
+      "sha256": "bfc12c46ac9d34270d1f65a4965e73c5a7d19c209f36b6e018c3f2fd54a4239e",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/controls.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/controls.md",
+      "sha256": "e36093ad5debdd43417718f1433920f8d06e71ce7a477aeab52ae8d2d2dc54cf",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
+      "sha256": "971897c876d186858e7e156493d5ce954e095b98ff85e93d834e16cb0cd93698",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/node.json",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/node.json",
+      "sha256": "a98cb181863c0c51488fa4fbf57a33c593f06b9fe2e9ebefcc90cb31b2bf46d5",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
+      "sha256": "c52a27f59c28fdba400e8c1a871d41e4146edd6203e44840fde5c1cb5ee9bf11",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
+      "sha256": "a46eecd15ee0ed8eeb6654560276c8c171e63e606628d2098fbd6637cb2c1b48",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
+      "sha256": "5242fea3d48efe95344d447929540e327ce730f6534baf0567e48b4aa79fc3a9",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+      "origin_path": "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+      "sha256": "4c0907c590d3c6beabc167e34133ce06883e275cad22c5755522faf02161b74a",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/audit.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/audit.md",
+      "sha256": "58c666afa5c04bdf55bfe5fb57e79973722255c6b79725e204f2b3a6e6f53c68",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/basis_mass.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/basis_mass.md",
+      "sha256": "5cc775541c5d0db908c5d0347700086223faa18dd2a9fb3be6791c79065a97e1",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/claim_contract.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/claim_contract.md",
+      "sha256": "d693b260b2b0512fc6d434ebd9c56292c6e6a69941b55137477ed73b3dfdaf8b",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/cubic_payment.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/cubic_payment.md",
+      "sha256": "0bc31d5ea96a4bbe65180febe20868196058ac9d203d168a11b8e7e218b1fa80",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/dependency_subdag.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/dependency_subdag.md",
+      "sha256": "fc59074414f3ac9612954e2aa48a78d22f73ce6a95f86d0d0881168980a490f5",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/node.json",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/node.json",
+      "sha256": "5ddd9c5557a2144e4b6f368565ea56315d3025b4a4a1c7e50dd9a5fa2424660b",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/proof.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/proof.md",
+      "sha256": "469491d86ed359f3ec52b1386419c46dc34f1d15b702c24e44ebaa1ec8bc8356",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/result.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/result.md",
+      "sha256": "93a9974430cbb2e8a5e091dfe89e5a95d9fb6118905e421c303fdf5abb61372d",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/statement.md",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/statement.md",
+      "sha256": "ae45ffa5076a440fbc83a91f5f550ee5c680f2e9b24412249fdcc9d9685fe312",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify.py",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify.py",
+      "sha256": "5362d992376b4ab07139185653dbcfb202e7deaf922824a66f1fcc3e231784e8",
+      "custody": "current theorem snapshot"
+    },
+    {
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify_audit.py",
+      "origin_path": "critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify_audit.py",
+      "sha256": "1cadf74319542fc179666ee0c1d42a905193cb370c4f3ab24b727efd31c5af94",
+      "custody": "current theorem snapshot"
+    }
+  ],
+  "status": "PROVED locally at stated scopes; independent mathematical review remains due",
+  "impact": "Every normalized J9941..9964 paid, removing 24 original rank-twelve core sizes; residual J9965..21499 has 11535 integers",
+  "bound_including_near": 274861473951141154,
+  "reserve": 119254160253933,
+  "excluded": "exploratory scripts, generated DAG, unrelated dirty files, low-raw rank-filtration and graph-spread dependencies, active-v4 atoms and unrestricted Prize closure claims"
+}

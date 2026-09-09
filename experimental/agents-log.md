@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Raw-mass accounting pays 24 complete cubic-cover degrees
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-raw-mass-cubic-interval-20260909/README.md),
+  frozen raw-mass/cubic/source-transport proofs, source manifest and bounded replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Every normalized carrier J9941..9964 pays the
+  entire original slope set by274861473951141154, including near once,
+  with reserve119254160253933. A stronger same-resource HIGH bound funds
+  sum min(raw,51)<=646273487661620022. Full double-point coverage, all
+  cubic and reducible types, medium margins and256 exceptions are retained.
+- **How it is useful:** Companion to #1175. This completes the cubic
+  experiment excluded from the preceding packet, removing24 whole original
+  core sizes. Residual J9965..21499 has11535 integers. The 74-node closure
+  has no backward dependency through the low-defect rank-filtration node.
+- **Verification:** Four focused checks pass normally and under-O, with
+  independent exact arithmetic and16 malformed-manifest controls, below22MiB.
+  [Custody and audit scope](notes/kb-raw-mass-cubic-interval-20260909/VALIDATION.md).
+  Earlier published suppliers are unchanged; no Modal or compute request.
+- **What to do next:** Review HIGH funding, full-kernel classification,
+  original-label transport and one-time resource accounting. The broader
+  source-owned pair census, ranks>=13 and unrestricted row remain open.
+  No v4 atom, LIST result, endpoint or full Prize closure is claimed.
+
 ### 2026-09-09 - Low-defect mass and actual parameter-graph rank filtration
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

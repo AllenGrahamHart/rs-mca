@@ -1,0 +1,88 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank_twelve_paid_interval_assembly",
+    "title": "Bind normalized intervals and density classes to original KoalaBear rank-twelve slopes",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the original KoalaBear MCA row q=2130706433^6,n=2097152,K=1048576,m=1116048, any complete post-near selection of error affine rank<=11, or rank12 with COMPLETE shared scalar core g outside1027077..1038611, pays the ENTIRE bad-slope set by274979661975561635 including one original near, reserve1066135833452. Gauge and cancellation of only the complete shared core retain field, finite labels, full-code-bad saturated supports and nonuniversal zeros. Every-carrier intervals4801..9964 and21500..169999 combine with earlier core extremes by MAXIMUM. The new raw-mass cubic interval pays9941..9964 by274861473951141154, including every factor type and256 off-gcd pairs, removing24 complete original core sizes1038612..1038635. Its supplier has no backwards dependency on this assembly or the rank-filtration consumer. The high union remains274956328426911303, below the unchanged main maximum. Every over-budget original line has, for EVERY complete selection, either rank>=13 or rank12 with J=K-g in9965..21499,11535 integers. The6000 fiber gate is useful on21000..21499 and the2000 gate on14000..21499; clustered-arc evidence remains useful on20481..21499. Historical density/mass scopes starting at23000 are subsumed. No all-source rank bound, active-v4 atom, unrestricted endpoint, LIST or full Prize closure.",
+    "refs": [
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/claim_contract.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/dependency_subdag.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/controls.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/audit.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/result.md",
+      "critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/verify.py",
+      "background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/verify_core_transport.py",
+      "background/nodes/mca_common_core_low_margin_transport/verify_small.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_error_rank_twelve_common_core_forcing"
+    },
+    {
+      "from": "mca_common_core_low_margin_transport"
+    },
+    {
+      "from": "rate_half_mca_quotient_density_refined_interval"
+    },
+    {
+      "from": "rate_half_mca_low_core_kernel_quadratic_strip"
+    },
+    {
+      "from": "rate_half_mca_receiver_fiber_payment"
+    },
+    {
+      "from": "rate_half_mca_balanced_density_payment"
+    },
+    {
+      "from": "rate_half_mca_dense_core_flag_mass"
+    },
+    {
+      "from": "rate_half_mca_rank_eight_density_payment"
+    },
+    {
+      "from": "rate_half_mca_first_excess_core_interval"
+    },
+    {
+      "from": "rate_half_mca_quantitative_density_interval"
+    },
+    {
+      "from": "rate_half_mca_receiver_fiber_degree4700_payment"
+    },
+    {
+      "from": "rate_half_mca_rank_profile_density_interval"
+    },
+    {
+      "from": "rate_half_mca_two_cost_receiver_fiber_payment"
+    },
+    {
+      "from": "rate_half_mca_two_cost_fiber_interval"
+    },
+    {
+      "from": "rate_half_mca_clustered_arc_payment"
+    },
+    {
+      "from": "rate_half_mca_collision_profile_interval"
+    },
+    {
+      "from": "rate_half_mca_weighted_collision_interval"
+    },
+    {
+      "from": "rate_half_mca_switching_credit_interval"
+    },
+    {
+      "from": "rate_half_mca_raw_mass_cubic_interval"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

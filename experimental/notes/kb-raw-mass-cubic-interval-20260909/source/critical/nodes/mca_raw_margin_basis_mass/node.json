@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_raw_margin_basis_mass",
+    "title": "All-defect core-basis counting bounds truncated raw mass",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed actual dimension-s MCA carrier with empty universal carrier core, if every nonzero m-T joint-core subset has at least B ordered bases, set beta=(s+1)B and assume (T+1)m prod_(i=1)^(s-1)(d+i)>=kappa beta, with1<=kappa<=T+1 and1<=T<=d. Then sum min(raw,kappa)<=floor((n)_(s+1)/beta)=W. For1<=t<kappa the nested low-raw counts satisfy (t+1)|Gamma|-sum_(j=1)^t L_j<=W, hence (t+1)|Gamma|-t L_t<=W. Every selected raw defect gives a disjoint recoverable tuple insertion; high margins use the same original resource. No low-raw cap, source classification or Prize payment is assumed or proved here. The same conclusions hold with any separately proved uniform HIGH tuple count H>=kappa beta on every raw>T record of the SAME incidence resource; the baseline is H=(T+1)mP.",
+    "refs": [
+      "critical/nodes/mca_raw_margin_basis_mass/statement.md",
+      "critical/nodes/mca_raw_margin_basis_mass/proof.md",
+      "critical/nodes/mca_raw_margin_basis_mass/claim_contract.md",
+      "critical/nodes/mca_raw_margin_basis_mass/dependency_subdag.md",
+      "critical/nodes/mca_raw_margin_basis_mass/audit.md",
+      "critical/nodes/mca_raw_margin_basis_mass/result.md",
+      "critical/nodes/mca_raw_margin_basis_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_fiber_contraction_core_basis_resource"
+    },
+    {
+      "from": "mca_nonuniform_support_margin_resource"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

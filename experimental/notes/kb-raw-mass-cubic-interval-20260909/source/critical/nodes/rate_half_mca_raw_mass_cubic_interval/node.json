@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_mass_cubic_interval",
+    "title": "Raw-mass counting pays every cubic-cover source on J9941..9964",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every exact normalized KoalaBear source (n,K,m)=(1048576+J,J,67472+J), actual carrier dimension11 and empty universal core, J9941..9964, the full original selected label set satisfies |Gamma|+134944<=274861473951141154, reserve119254160253933. Eight universal quadratic basis certificates at D66972,E10000,X5000 and the proved5500 HIGH weight give sum min(raw,51)<=646273487661620022. The FULL double-point kernel covers raw<=50 pairs by gcd degree<=3 with at most256 exceptions and actual factor weight<2*(J+67422). All irreducible cubic types, coefficient components, singular pairs, line/conic patterns and medium margins are paid. The coupled primary-line expression already includes resource and near. This closes24 whole normalized degrees without a chosen-curve or source-density premise. The fixed-cutoff gap is228 at9964 and-136 at9965, a recipe limit not unsafety. Original-source transport is downstream; no original rank>=13, unrestricted MCA endpoint, LIST, v4 atom or full Prize closure.",
+    "refs": [
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/statement.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/proof.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/basis_mass.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/cubic_payment.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/claim_contract.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/dependency_subdag.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/audit.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/result.md",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify.py",
+      "critical/nodes/rate_half_mca_raw_mass_cubic_interval/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_raw_margin_basis_mass"},
+    {"from": "mca_multiplicity_interpolation_curve_escape"},
+    {"from": "rate_half_mca_cancelled_low_core_relation_payment"},
+    {"from": "mca_singular_cubic_weighted_incidence_payment"},
+    {"from": "mca_singular_cubic_component_list_payment"},
+    {"from": "mca_geometric_progression_singular_cubic_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router"}
+  ],
+  "refutes": []
+}
