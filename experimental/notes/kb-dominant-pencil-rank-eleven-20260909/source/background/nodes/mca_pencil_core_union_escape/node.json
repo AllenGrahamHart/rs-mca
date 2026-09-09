@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_pencil_core_union_escape",
+    "title": "A pencil core union forces off-pencil pairs into a Johnson complement",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For degree-<K polynomial pairs and a primitive pencil row of height h compatible with the receiver on U, every off-pencil pair with m-T joint agreements has at least A=m-T-K-h+1 agreements on the e-point complement. If A>e there are none; if 1<=A<=e and A^2>e(K-1), their number is at most floor(e(A-K+1)/(A^2-e(K-1))). Complete-core compatibility retains gcd roots. Row height is essential. Any proved shared-carrier joint-LIST cap on the complement may replace direct Johnson, with auxiliary degree/domain/agreement relaxations checked. This is a joint-pair count, not an MCA projection or Prize closure.",
+    "refs": [
+      "background/nodes/mca_pencil_core_union_escape/statement.md",
+      "background/nodes/mca_pencil_core_union_escape/proof.md",
+      "background/nodes/mca_pencil_core_union_escape/claim_contract.md",
+      "background/nodes/mca_pencil_core_union_escape/dependency_subdag.md",
+      "background/nodes/mca_pencil_core_union_escape/audit.md",
+      "background/nodes/mca_pencil_core_union_escape/result.md",
+      "background/nodes/mca_pencil_core_union_escape/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_low_core_polynomial_relation_payment"},
+    {"from": "list_padded_johnson_dimension_descent"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

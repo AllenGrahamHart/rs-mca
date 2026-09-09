@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-09 - Large pencil sections pay pair affine dimension eleven
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-dominant-pencil-rank-eleven-20260909/README.md),
+  four theorem snapshots, three small outside-LIST certificates, source
+  manifest and bounded serial replay. Earlier published packets are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** On every remaining original rank-twelve
+  normalization J9965..21499, raw<=2 pair affine dimension<=11 pays the
+  entire original source by274138707278280353, reserve842020833114734.
+  A dominant pencil is paid together with all off-pencil exceptions;
+  hereditary incidence then pays the additional rank-two source class.
+- **How it is useful:** Companion to #1175. Every over-budget low-pair
+  family must have affine dimension>=12 under every valid assignment.
+  Higher raw records and near are retained once. These are alternative
+  whole-source bounds, not additive active-owner atoms.
+- **Verification:** Six focused checks plus the inherited pencil independent
+  audit pass normally and under-O below23MiB. The84-node closure,
+  852 listed hashes and252 inherited proof documents are pinned;
+  [validation and limits](notes/kb-dominant-pencil-rank-eleven-20260909/VALIDATION.md).
+- **What to do next:** Independently review off-pencil label projection,
+  all-record refund and hereditary pencil bounds. Pair dimensions>=12,
+  the11535-degree gap, original higher ranks and both Prizes remain open.
+- **Compute requests:** None; no Modal or large computation.
+
 ### 2026-09-09 - Low-pair affine rank and complete rational-pencil payment
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

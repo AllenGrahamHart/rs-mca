@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_rank_eleven_payment",
+    "title": "Low-pair affine rank at most eleven pays every remaining normalized degree",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank-twelve normalization J9965..21499 and any valid selection/minimizer assignment, actual raw<=2 pair affine dimension<=11 pays the ENTIRE original source by274138707278280353 including near134944 once, reserve842020833114734. Earlier whole-pencil/large-section classes are paid first. Outside them, the proved complete-core union limits give hereditary pencil-subspace caps P_t^r, P_t=(798577)/(67474-t). Joint incidence with H_t<=P_t^2 then gives pair floors101805808190/101821603501 and no-large-branch total270931433891625928. The universal cap is the maximum of whole-source alternatives, not the stronger branch alone. All raw values remain funded. Every over-budget family forces actual pair affine dimension>=12 under every valid choice, with no canonical premise or speculative census. No complete J interval, higher original rank, unrestricted MCA, LIST, v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_rank_eleven_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_dominant_low_pencil_payment"},
+    {"from": "rate_half_mca_low_pair_pencil_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

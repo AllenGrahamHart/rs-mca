@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_pencil_section_affine_incidence",
+    "title": "Hereditary pencil bounds propagate through rank-two joint anchors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For degree-<K pairs with A>2K-2 joint agreements, put H=(n-2K+2)/(A-2K+2). If P>=1, H<=P^2, and every affine subspace Z of function-field direction rank at most one has |S intersect Z|<=P^dimZ, then every affine r-space has at most P^r selected pairs and each function-field-rank-two r-space has at most H*P^(r-2). Induction handles pencil children explicitly. The section premise is hereditary and is derived by the finite source consumer, not installed as an unresolved census.",
+    "refs": [
+      "background/nodes/mca_pencil_section_affine_incidence/statement.md",
+      "background/nodes/mca_pencil_section_affine_incidence/proof.md",
+      "background/nodes/mca_pencil_section_affine_incidence/claim_contract.md",
+      "background/nodes/mca_pencil_section_affine_incidence/dependency_subdag.md",
+      "background/nodes/mca_pencil_section_affine_incidence/audit.md",
+      "background/nodes/mca_pencil_section_affine_incidence/result.md",
+      "background/nodes/mca_pencil_section_affine_incidence/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_joint_pair_affine_incidence"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

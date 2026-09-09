@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_dominant_low_pencil_payment",
+    "title": "A large low-pair pencil section pays all its off-pencil exceptions",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank-twelve normalization J9965..21499 and any valid selection/minimizer assignment, let U be the complete-core union of raw<=2 pairs on one primitive height-h<J rational pencil, e=n-|U|. If e(J-1)<(67471-h)^2, or e<=250000, or h=0 and e<=500000, the ENTIRE source pays by274138707278280353 including near134944 once, reserve842020833114734. No all-low-pairs-on-pencil premise: root escape and shared-carrier joint LIST count all off-pencil pairs, each charged at most981106 assigned labels. Groupwise pencil gains retain the same all-raw resource; constant directions refund internal tuples for all retained records. Three small outside-LIST certificates have33 exact transitions and pay beyond direct Johnson. The190/101 branch-box checks reuse the old source certificate. Any over-budget source has |U|<=n-max(250001,ceil((67471-h)^2/(J-1))), and constant-direction unions <=n-500001 for every such pencil. This restricts pencil sections of genuine rank-two families. No entire J interval, higher original rank, unrestricted MCA, LIST, active-v4 atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/statement.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/proof.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/certificate.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/outside_list_caps.json",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/audit.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/result.md",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/verify.py",
+      "background/nodes/rate_half_mca_dominant_low_pencil_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_pencil_core_union_escape"},
+    {"from": "rate_half_mca_low_pair_affine_span_payment"},
+    {"from": "rate_half_mca_low_pair_pencil_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}
