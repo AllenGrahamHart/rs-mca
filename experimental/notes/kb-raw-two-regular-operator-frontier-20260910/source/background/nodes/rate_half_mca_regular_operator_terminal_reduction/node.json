@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_operator_terminal_reduction",
+    "title": "Remaining raw-two ranks have source-preserving operator terminals of dimensions at most three",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original KoalaBear rank12 sources J9965..21499, every over-budget actual P2 rank19..22 has a regularity-preserving weighted descent of8/9/10/11 anchors to regular pair/shared enclosures3/3,2/2,1/1,0/0. The exact factor is product_(j=1)^(r-11)(1048576+j)/(67472-t+j), t1/2. Dividing only pair differences gives original-field operator graph T on dimension c=22-r, retaining original labels and weights. Actual subsets need not span or fill the enclosure; nonsplit and nilpotent cases remain. c0 is a same-pair owner cap981104+t. No affordable c1/2/3 weights, rank19 payment, whole J, active atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/statement.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/proof.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/audit.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/result.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/provenance.md",
+      "background/nodes/rate_half_mca_regular_operator_terminal_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_raw_two_projection_regular_frontier"
+    },
+    {
+      "from": "pair_space_regular_projection_anchor"
+    },
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

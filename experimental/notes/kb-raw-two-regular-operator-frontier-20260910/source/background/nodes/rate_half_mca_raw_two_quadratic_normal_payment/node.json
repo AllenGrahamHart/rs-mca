@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_two_quadratic_normal_payment",
+    "title": "Raw-two quadratic moving normals pay throughout the original rank-twelve gap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear MCA rank12 source J9965..21499 and assignment, any declared degree-two moving-normal Q with independent functionals and fixed offsets gives |Z_bad|<=floor[(756693789832986395+2*x)/3]+134944, where x counts original raw<=2 labels outside Q. Graph containment pays252231263277797075; formal P2 pair-line containment pays252214244730017023. Every over-budget assignment has>=34124197250397019 low labels outside EACH such Q. Uses the uniform T7 basis lemma on actual raw<=2 cores, not a G7 containment premise; original HIGH, moving-zero and noncontained-line labels and near remain once. No arbitrary quadratic cover, whole J, active atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/statement.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/proof.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/audit.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/result.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/provenance.md",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/verify.py",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_moving_parameter_hyperplane_low_mass"
+    },
+    {
+      "from": "rate_half_mca_moving_normal_basis_payment"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

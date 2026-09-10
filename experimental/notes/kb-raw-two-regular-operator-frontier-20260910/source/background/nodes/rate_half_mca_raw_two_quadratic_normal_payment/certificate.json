@@ -1,0 +1,30 @@
+{
+  "schema": "raw-two-quadratic-normal-v1",
+  "parameters": {
+    "R": 1048576,
+    "d": 67472,
+    "J": [
+      9965,
+      21499
+    ],
+    "original_rank": 12,
+    "shared_dimension": 11,
+    "raw_max": 2,
+    "basis_raw": 7,
+    "normal_degree": 2,
+    "basis_floor5": 222676884802638507,
+    "resource": 578501226347492453,
+    "near": 134944,
+    "B_star": 274980728111395087
+  },
+  "basis_primary_sha256": "c038c84cae650280f888bbd2eb339c15fde57219920b26fe824bc3a38948112b",
+  "mass_cap": 89070753921055403,
+  "pair_floor": 12763910835039,
+  "moving_zeros": 21490,
+  "inside_exceptions": 25527821691568,
+  "amount": 756693789832986395,
+  "graph": 252231263277797075,
+  "lines": 252214244730017023,
+  "reserve": 22749464833598012,
+  "outside_min": 34124197250397019
+}

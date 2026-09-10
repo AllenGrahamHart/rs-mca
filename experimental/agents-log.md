@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Raw-two regular projection and small operator terminals
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Four-node K3 / DIRECT extension](notes/kb-raw-two-regular-operator-frontier-20260910/README.md),
+  frozen proofs, exact certificate, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Raw-two quadratic graphs pay by252231263277797075;
+  contained pair lines pay by252214244730017023. Together with rank18 and
+  proper-carrier payments, every deficient generic P2 projection is paid.
+  Regularity-preserving anchors reduce surviving ranks19/20/21/22 to
+  operator enclosures of dimensions3/2/1/0, retaining original weights.
+- **How it is useful:** Continues the source-bound #1179/#1180 methods and
+  ourff28dfa4 packet. Joint rank two alone does not preserve generic
+  projection; the new guard repairs this at the existing worst-case cost.
+  This is not an affordable regular-terminal census or rank19 payment.
+- **Verification:** Five new and four inherited checks pass normally and
+  under-O in under3seconds and26MiB. The107-node closure,313 inherited
+  proof documents and1138 listed hashes are pinned;37 malformed manifests
+  and24 new scope/price mutations are rejected. Fixtures are not Prize witnesses.
+- **What to do next:** Review the raw2/basis7 distinction, all exceptions,
+  generic-kernel exclusion and preservation of original weights. Pay the
+  actual regular operator terminals; whole-J and higher-rank gaps remain.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-10 - Integer compression pays actual pair rank eighteen
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_regular_projection_anchor",
+    "title": "Full generic pair projection survives guarded anchors at unchanged cost",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For W subset V x V of dimensions r,s with s<r<=2s and full generic projection, a bad set of scalar evaluation span<=2s-r and cardinality<=K+s-r can be removed so every remaining joint section has dimensions r-2,s-1 and full generic projection. Weighted incidence retains factor(n-K-s+r)/(A-K-s+r). Joint rank two alone does not preserve regularity; an F101 example shows strict loss. A square regular c/c terminal is an original-field operator graph when |F|>c. No actual-span fullness, terminal weight bound or Prize closure is asserted.",
+    "refs": [
+      "background/nodes/pair_space_regular_projection_anchor/statement.md",
+      "background/nodes/pair_space_regular_projection_anchor/proof.md",
+      "background/nodes/pair_space_regular_projection_anchor/claim_contract.md",
+      "background/nodes/pair_space_regular_projection_anchor/dependency_subdag.md",
+      "background/nodes/pair_space_regular_projection_anchor/audit.md",
+      "background/nodes/pair_space_regular_projection_anchor/result.md",
+      "background/nodes/pair_space_regular_projection_anchor/provenance.md",
+      "background/nodes/pair_space_regular_projection_anchor/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

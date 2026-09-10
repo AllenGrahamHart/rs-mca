@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_two_projection_regular_frontier",
+    "title": "Every surviving actual raw-two pair projection is generically full",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear MCA rank12 source J9965..21499 and assignment, deficient generic projection of the ACTUAL P2 hull pays the ENTIRE source by274462040894062110, reserve518687217332977; empty included. Rank<=18 and proper shared carriers are paid. Otherwise codimension<=3 forces any deficient case to rank19 with a degree-one normal, whose degree-two pair-line hypersurface is paid by252214244730017023. Every over-budget assignment has actual P2 rank19..22, full shared carrier and full generic P2 projection, with at most3/2/1/0 finite rank-drop slopes. Hull images are not actual bad witnesses; regular census, whole J, original higher ranks, active atoms and both Prizes remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/statement.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/proof.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/audit.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/result.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/provenance.md",
+      "background/nodes/rate_half_mca_raw_two_projection_regular_frontier/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_polynomial_projection_dichotomy"
+    },
+    {
+      "from": "rate_half_mca_raw_two_quadratic_normal_payment"
+    },
+    {
+      "from": "rate_half_mca_integer_compression_rank_eighteen_payment"
+    },
+    {
+      "from": "rate_half_mca_low_raw_hyperplane_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}
