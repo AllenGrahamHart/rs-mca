@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_terminal_actual_span_frontier",
+    "title": "Regular rank19 excess requires actual terminal span3; whole constant pencils pay on the lower prefix",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original KoalaBear rank12 J9965..21499 at actual P2 rank19, every regular3/3 eight-anchor terminal with actual raw-t pair span<=2 fits the prior rational-plane L_t, t1/2. Whole constant-direction3 terminals also fit on J9965..14964 using degree-adapted source gates and1164 scalar LIST transitions. Any over-budget rank19 source therefore has an excessive actual-span3 terminal; on the prefix it is rank two with no rank-one plane. Whole constant3 remains possible on J14965..21499. No rank19, whole J, active atom, or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/statement.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/proof.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/constant_prefix.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/audit.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/result.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/provenance.md",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/verify.py",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_regular_rational_plane_terminal_bounds"
+    },
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "rate_half_mca_regular_operator_terminal_reduction"
+    },
+    {
+      "from": "rate_half_mca_coupled_pair_rank_frontier"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

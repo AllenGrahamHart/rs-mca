@@ -30,6 +30,30 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Rational-plane bounds and actual-span-three terminals
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Four-node K3 / DIRECT extension](notes/kb-regular-terminal-actual-span-20260910/README.md),
+  frozen proofs, thirteen certificate shards, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Rational compression keeps the height-corrected
+  shared mass and one global inside-defect charge. Rational-plane terminals
+  and all proper actual spans fit the rank19 weight allowances throughout
+  J9965..21499; whole constant3 also fits through J14964. An excessive
+  terminal must have actual span3, pencil-free on the prefix. An explicit
+  regular pencil-free kernel map has generic fibre1 but an exceptional fibre3.
+- **How it is useful:** Extends the ae6fbacd operator packet and Scott Hughes's
+  source-bound #1179/#1180 program. The available-weight maximum is
+  272127061148955779, NOT an unrestricted rank19 source upper bound.
+- **Verification:** Six new checks and one inherited audit pass normally and
+  under-O in under6seconds and29MiB measured RSS. The111-node closure,
+  325 inherited documents and1194 source hashes are pinned. New arithmetic
+  audits reject44 corruptions; replay rejects44 malformed manifests.
+- **What to do next:** Independently review original ownership and terminal
+  scope; pay full actual-span3 pencil-free terminals and whole constant3
+  on J14965..21499. No whole J, active atom or Prize closes.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-10 - Raw-two regular projection and small operator terminals
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

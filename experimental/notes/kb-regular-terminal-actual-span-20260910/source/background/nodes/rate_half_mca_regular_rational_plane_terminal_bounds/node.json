@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_rational_plane_terminal_bounds",
+    "title": "Source-bound rational-plane operator terminals fit the original eight-anchor weight allowance",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original KoalaBear rank12 J9965..21499, degree-adapted full-P43 pencil gates pay the declared large unions at270000000000000000. Outside these classes, every regular3/3 eight-anchor terminal whose rank-two pair enclosure contains a rank-one plane has the certified rational raw1/2 bounds. One height-corrected mass and a global inside charge give available-weight template maximum272127061148955779, reserve2853666962439308, on13 complete J profiles. This is not a bound for whole-pencil or arbitrary regular terminals, not a rank19/whole-J payment, and not an active atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/statement.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/proof.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/pencil_gates.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/terminal_envelopes.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/audit.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/result.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/provenance.md",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/verify.py",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/verify_audit.py",
+      "background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_rational_compression_fibre_weight"
+    },
+    {
+      "from": "rate_half_mca_regular_operator_terminal_reduction"
+    },
+    {
+      "from": "rate_half_mca_high44_pencil_union_payment"
+    },
+    {
+      "from": "rate_half_mca_coupled_pair_rank_frontier"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

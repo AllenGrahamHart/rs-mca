@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_rational_compression_fibre_weight",
+    "title": "Rational compression has one height-corrected core budget and global inside-defect charge",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For actual original weighted pair fibres in a rank-two enclosure with codimension-one primitive pencil of height h, positive masses x=|C|-K-h+1 share sum x<=n-K-h+1. Original raw weight is at most n+sum(n-|C|)L, or t+sum for constant direction, with unchanged labels and scalar degree K-a-h. In shared dimension3 a two-dimensional nonconstant pencil forces U=g span(A0^2,A0 A1,A1^2) and 2h<=K-a-1. Whole rank-one enclosures and universal terminal coverage are not included.",
+    "refs": [
+      "background/nodes/mca_rational_compression_fibre_weight/statement.md",
+      "background/nodes/mca_rational_compression_fibre_weight/proof.md",
+      "background/nodes/mca_rational_compression_fibre_weight/claim_contract.md",
+      "background/nodes/mca_rational_compression_fibre_weight/dependency_subdag.md",
+      "background/nodes/mca_rational_compression_fibre_weight/audit.md",
+      "background/nodes/mca_rational_compression_fibre_weight/result.md",
+      "background/nodes/mca_rational_compression_fibre_weight/provenance.md",
+      "background/nodes/mca_rational_compression_fibre_weight/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_regular_kernel_multiple_fibre",
+    "title": "A regular pencil-free3 kernel map has generic fibre1 and an exceptional fibre3",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over characteristic0 or p>7, U=span(1,X^3-X,X^4-X^2), with T cycling this basis, gives W={(f,Tf)} of pair/shared dimensions3/3, full generic projection and everywhere-finite joint rank2, with no rank-one plane. Its kernel map d=(v-w^2,vw-1,w-v^2) has a rational inverse generically but exact fibre {-1,0,1} over [0:1:0]. Thus generic degree alone cannot be used as a uniform fibre/intersection cap. This is not an official large-agreement source or Prize counterexample.",
+    "refs": [
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/statement.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/proof.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/claim_contract.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/dependency_subdag.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/audit.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/result.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/provenance.md",
+      "background/nodes/pair_space_regular_kernel_multiple_fibre/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

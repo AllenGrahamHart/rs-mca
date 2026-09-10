@@ -1,0 +1,81 @@
+{
+  "schema": "regular-rational-plane-terminals-v1",
+  "J": [
+    9965,
+    21499
+  ],
+  "rank": 19,
+  "anchors": 8,
+  "terminal_pair_dimension": 3,
+  "pencil_plane_dimension": 2,
+  "raw_cutoffs": [
+    1,
+    2
+  ],
+  "W44": 581590844909990298,
+  "B_star": 274980728111395087,
+  "near": 134944,
+  "threshold": 349525,
+  "large_fibres_max": 2,
+  "source_certificate_sha256": "09a677b5f91a9abca6ace7e07dfbf7ab4f386905cec8e3f3551933007b027f68",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "all_terminals_covered": false,
+  "original_source_closed": false,
+  "prize_closed": false,
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "14217c5623d893ac879ea7c4a11fdf079153a50e56828f37898d740f606ce0a5"
+    },
+    {
+      "path": "10965.json",
+      "sha256": "c331548a93037ebe611a69ef62d0297ada0c3e40029529ef86016c763383580b"
+    },
+    {
+      "path": "11965.json",
+      "sha256": "9224566ec3eba2f2afa7b07a726da600f68f7c9954242950be91c1bc8a259763"
+    },
+    {
+      "path": "12965.json",
+      "sha256": "27eb459ce59df1e5252b4dc59d2e4f8a5b68d0915c8e7dd0a087451231274fc2"
+    },
+    {
+      "path": "13365.json",
+      "sha256": "cc42d1ea5e3aa98371bbe82480a9afa8101fcb22f609e3331b13e393b9ba1f33"
+    },
+    {
+      "path": "13965.json",
+      "sha256": "5082d96a4aa179a29f04e54bdc6233e9e425bf347e1e4a44d6579a2c766b166d"
+    },
+    {
+      "path": "14965.json",
+      "sha256": "809d49cf656a32bbf62fe5ca17d4bb8497db81dbefa046f238f101e0e94f4c20"
+    },
+    {
+      "path": "15965.json",
+      "sha256": "57214468851a1c01d879418afcab8fa620e2b7c1a8ecd8d73ee4ae594942b3d7"
+    },
+    {
+      "path": "16965.json",
+      "sha256": "129f116addbb78b211efb6be1c7351a3d475150d2e9197128509c1050db6e532"
+    },
+    {
+      "path": "17965.json",
+      "sha256": "73daa57a42713e2bc42aad8c36781babd05578a66a89f013f59e6784ada4ed71"
+    },
+    {
+      "path": "18965.json",
+      "sha256": "c2573dc55685e31ba4aa92326cc79efa0479d21fd71736bc094dcc44f2f63bc1"
+    },
+    {
+      "path": "19965.json",
+      "sha256": "5417e4e21760b822ba2dc464526ededcb9ccd5878fcae9ef0e1747c242e7a2df"
+    },
+    {
+      "path": "20965.json",
+      "sha256": "b508835f0104f231a0bba86d38418fe270a2a1e05fa46f4a4a1debd0dd8d9633"
+    }
+  ],
+  "mass_boxes": 92042,
+  "maximum_envelope": 272127061148955779
+}
