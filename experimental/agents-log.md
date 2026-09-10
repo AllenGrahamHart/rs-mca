@@ -30,6 +30,32 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Low-defect hyperplanes and split quadrics pay further source classes
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-low-defect-hyperplanes-quadrics-20260910/README.md),
+  four completed theorem snapshots, source manifest and bounded serial replay.
+  Earlier published packets and stable papers are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** On original rank-twelve J9965..21499, a proper
+  raw<=2 parameter hyperplane pays the whole source by256549971848419485;
+  a split quadratic raw<=3 graph pays by269692335594445840. The split
+  quadratic raw<=2 graph pays by274290004332197866 only on J14000..21499.
+  Higher raw labels remain funded and near is included once.
+- **How it is useful:** Companion to #1175. A fixed-carrier weighted tuple
+  count removes all remaining shared-dimension-ten sources. A moving-carrier
+  two-owner tuple theorem then treats nonlinear graphs of full affine span.
+  Noncontained pair lines and moving-zero exceptions are explicitly counted
+  in original-label units. Alternative whole-source bounds are not added.
+- **Verification:** Six new and two inherited checks pass normally and
+  under-O below24MiB; [validation and limits](notes/kb-low-defect-hyperplanes-quadrics-20260910/VALIDATION.md).
+  The92-node proved closure,933 listed hashes and269 inherited mathematical
+  documents are pinned;23 malformed manifests are rejected.
+- **What to do next:** Independently review low-family transport and the
+  two-owner cone proof. Remaining full-dimensional graphs, all whole-degree
+  gaps, original higher error ranks and both Prize problems remain open.
+- **Compute requests:** None; no Modal or large computation.
+
 ### 2026-09-09 - Shared-carrier descent pays pair affine dimension fifteen
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

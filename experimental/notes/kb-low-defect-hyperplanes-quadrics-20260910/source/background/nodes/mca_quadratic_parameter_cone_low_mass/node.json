@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_quadratic_parameter_cone_low_mass",
+    "title": "Split parameter-cone pair lines have a two-label weighted tuple resource",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed dimension-s polynomial carrier V, s>=3, independent functionals ell1,ell2 and affine offsets, assume each chosen low pair difference satisfies ell1(a)=0,ell2(a)=ell1(b),ell2(b)=0, raw1..T<=d, and V evaluations are nonzero on selected joint cores. At most K-s+2 original labels have a moving-carrier zero on their cores. For the rest, sum raw<=floor(2*(n)_s/(s*(m-T)*product_(j=1)^(s-2)(d-T+j))). Inserting every defect gives invertible restricted incidence Jacobians; each fixed common tuple meets a noncontained affine-line section of w=gamma*t in at most two points. No independent moving-carrier normalization or global budget is summed. Full-source funding and noncontained pair lines belong to the consumer.",
+    "refs": [
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/statement.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/proof.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/claim_contract.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/dependency_subdag.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/audit.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/result.md",
+      "background/nodes/mca_quadratic_parameter_cone_low_mass/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_low_pair_carrier_weighted_tuple_count"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

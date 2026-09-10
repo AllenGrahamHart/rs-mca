@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_raw_hyperplane_payment",
+    "title": "Proper low parameter graphs and every proper shared low-pair carrier are paid",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank12 normalization J9965..21499 and valid assignment, each proper parameter hyperplane contains raw<=2 deficit sum(3-tau)<=156627788100273718. If e low labels lie outside it, whole original slopes<=floor((769649915544853625+2e)/3)+134944. Proper low graph dimension<=11 therefore pays by256549971848419485, reserve18430756262975602. Any over-budget source has>=27646134394463404 low labels outside EACH proper hyperplane. Auxiliary affine low-family tuple counting pays shared low-pair dimension<=10 at ANY pair rank by256541462574529459. Compatible pairs lie in one translated dimension10 kernel; other pairs own at most one hyperplane label and number<=12763910835039. Original W3 and near remain unchanged. Over-budget survivors have low-graph dimension12, shared dimension11 and pair affine rank16..22. No full J, original higher rank, active atom, endpoint or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/statement.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/proof.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/audit.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/result.md",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/verify.py",
+      "background/nodes/rate_half_mca_low_raw_hyperplane_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_low_pair_carrier_weighted_tuple_count"},
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "rate_half_mca_low_pair_pencil_payment"},
+    {"from": "rate_half_mca_low_pair_rank_fifteen_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

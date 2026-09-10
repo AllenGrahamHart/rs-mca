@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_low_pair_carrier_weighted_tuple_count",
+    "title": "Affine low-pair carriers bound original defect mass after auxiliary core cancellation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For distinct original scalar-agreement labels with size-m supports, chosen pairs in (a0+U)x(b0+U), dimU=s>=1, degU<K, m=K+d, and defects1<=tau<=T<=d, let Z={U(x)=0,u=a0,v=b0},z=|Z|. Then z<=K-s and sum tau<=floor((n-z)_(s+1)/((s+1)*(m-z-T)*product_(j=1)^(s-1)(d-T+j))). Original supports need not contain Z; all defects and labels survive auxiliary translation/cancellation. No auxiliary minimality, error-rank or HIGH hypothesis. Weighted tuple ownership, not a pair census or Prize bound.",
+    "refs": [
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/statement.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/proof.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/claim_contract.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/dependency_subdag.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/audit.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/result.md",
+      "background/nodes/mca_low_pair_carrier_weighted_tuple_count/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_raw_margin_basis_mass"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

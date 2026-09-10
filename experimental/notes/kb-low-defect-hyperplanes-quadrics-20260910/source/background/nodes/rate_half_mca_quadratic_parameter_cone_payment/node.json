@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_quadratic_parameter_cone_payment",
+    "title": "Split quadratic low parameter graphs pay with every exceptional pair line",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank12 normalization and valid assignment, a raw<=3 graph contained in one split parameter cone ell1(h-a0-gamma*b0)=gamma*ell2(h-a0-gamma*b0), with independent coefficient functionals and source-compatible offsets, pays J9965..21499 by269692335594445840. A raw<=2 graph on such a cone pays J14000..21499 by274290004332197866. All noncontained pair lines own at most two inside labels and number<=12765991804643/12763910835039; moving-zero label exceptions<=21490. Compatible labels share one two-owner tuple resource, while original W0/W1 fund all raw values. Any over-budget source has>=7051190022598997 raw<=3 labels outside EACH such cone; on J>=14000 it has>=1036085668795833 raw<=2 labels outside each. Cone graphs may have full affine span12 and full shared carrier11. No full J, original higher rank, active atom, endpoint or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/statement.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/proof.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/audit.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/result.md",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/verify.py",
+      "background/nodes/rate_half_mca_quadratic_parameter_cone_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_quadratic_parameter_cone_low_mass"},
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "rate_half_mca_low_raw_rank_filtration"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}
