@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Original HIGH44 pays low-pair ranks sixteen and seventeen
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Two-node K3 / DIRECT extension](notes/kb-high44-pair-rank-extension-20260910/README.md),
+  frozen proofs, exact pencil certificate, manifest and serial replay.
+  Earlier packets and stable papers are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** On every original rank-twelve source J9965..21499,
+  actual P7 affine rank<=16 pays the whole source by 261996525491320703;
+  actual P23 affine rank<=17 pays by 270933399088173359. Higher raw labels
+  and near are included once. Stronger complete P43 pencil-union gates
+  supply hereditary section bounds for the guarded shared-carrier descent.
+- **How it is useful:** Companion to #1175. Remaining over-budget sources
+  have P7 rank>=17 and P23 rank>=18, full generic projections and at most
+  5/4 exceptional finite slopes. These are not P2-rank or original-error-rank
+  sixteen/seventeen theorems, nor additive active-ledger atoms.
+- **Verification:** Four new and two inherited checks; 582 exact LIST
+  transitions; separate arithmetic audits; 25 malformed manifests and 10
+  corrupted certificates rejected. The 97-node closure and 1006 listed
+  source hashes are pinned; [validation limits](notes/kb-high44-pair-rank-extension-20260910/VALIDATION.md).
+- **What to do next:** Review the all-record rational refund, same-pair
+  ON/OFF ownership and BOTH terminal direction types. Remaining pair ranks,
+  whole degrees, original higher error ranks and both Prizes remain open.
+- **Compute requests:** None. No Modal or large computation.
+
 ### 2026-09-10 - Original HIGH44 and an exhaustive deficient-projection payment
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

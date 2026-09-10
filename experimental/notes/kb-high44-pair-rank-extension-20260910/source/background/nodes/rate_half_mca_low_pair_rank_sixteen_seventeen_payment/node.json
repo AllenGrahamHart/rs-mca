@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_rank_sixteen_seventeen_payment",
+    "title": "Original HIGH44 pays raw-seven pair rank16 and raw-twentythree pair rank17",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank12 source J9965..21499 and valid assignment, actual P7 affine rank<=16 pays the ENTIRE source by261996525491320703, reserve12984202620074384; actual P23 affine rank<=17 pays by270933399088173359, reserve4047329023221728. Original HIGH44 and near are retained once. Outside paid complete P43 pencil-union classes, five/six guarded joint anchors lead to6/6 or5/5 equality children. BOTH terminal direction ranks are priced, with rank-two dominance for P7 and constant dominance for P23. This is NOT a P2-rank or original-error-rank16/17 theorem. Every remaining over-budget assignment has P7 rank17..22, P23 rank18..22 and full generic projections with at most5/4 finite exceptional slopes. No whole J, higher original rank, active atom, unrestricted endpoint or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/statement.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/proof.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/audit.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/result.md",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/verify.py",
+      "background/nodes/rate_half_mca_low_pair_rank_sixteen_seventeen_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_high44_pencil_union_payment"},
+    {"from": "rate_half_mca_completed_high_raw_mass"},
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"},
+    {"from": "rate_half_mca_low_pair_projection_regular_frontier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

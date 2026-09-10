@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_high44_pencil_union_payment",
+    "title": "Original HIGH44 pays large complete P43 pencil unions and derives hereditary sections",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank12 source J9965..21499 and valid assignment, a constant pencil whose COMPLETE P43 core union has complement<=567500 pays the WHOLE source by261996525491320703, reserve12984202620074384. Nonconstant height bands ell=1,2001,...,20001 with complement<=441382-8ell pay by110665369786278512. Exact original HIGH44, unrounded compatible-domain refund, preferred labels and all off-pair deficits are retained; no raw remeasurement. Outside these fully paid classes, every affine pencil section of dimension v has constant cap C_t^v, C_t=481076/(67473-t), and general cap P_t^v, P_t=max(9,607203/(67474-t)), for1<=t<=43. The34 box/band rows contain582 legal LIST steps. No universal cover, full J, original higher rank, active atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/statement.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/proof.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/constant_union.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/nonconstant_union.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/hereditary_sections.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/audit.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/result.md",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/certificate.json",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/verify.py",
+      "background/nodes/rate_half_mca_high44_pencil_union_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_completed_high_raw_mass"},
+    {"from": "mca_compatible_domain_tuple_refund"},
+    {"from": "mca_pencil_core_union_escape"},
+    {"from": "mca_joint_pair_affine_incidence"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}
