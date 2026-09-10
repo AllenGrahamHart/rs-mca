@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_min_envelope_raw_mass",
+    "title": "Full polynomial envelopes strengthen original raw-nine and HIGH44 resources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank-twelve source J9941..21499 and valid assignment, the same original ordered12-tuple resource gives sum min(raw,9)<=578501226347492453 and sum min(raw,44)<=581590844909990298, strengthened to469162745598573006 and471656010466926030 on J14000..21499. Three unpruned256-branch core trees at cutoffs9,44,150 satisfy765 whole-interval shape gates and512 branchwise transfer inequalities; completed HIGH151 prices all larger raw values. Each record owns beta_t(J)*min(raw,t) tuples. T150 is only an intermediate basis tool, not truncation150. No source-class premise, remeasurement, additive budget or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/statement.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/proof.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/branch_recurrence.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/claim_contract.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/dependency_subdag.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/audit.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/result.md",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/verify.py",
+      "background/nodes/rate_half_mca_min_envelope_raw_mass/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "mca_min_envelope_fiber_contraction"},
+    {"from": "mca_raw_margin_basis_mass"},
+    {"from": "mca_core_completed_basis_margin_resource"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

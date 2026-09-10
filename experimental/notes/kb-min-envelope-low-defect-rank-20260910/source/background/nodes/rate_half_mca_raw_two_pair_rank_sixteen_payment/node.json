@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_two_pair_rank_sixteen_payment",
+    "title": "Full polynomial resource pays actual raw-two pair rank sixteen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear error-rank12 source J9965..21499 and valid assignment, actual represented raw<=2 pair affine rank<=16, including empty P2, pays the ENTIRE original source by270737716902276994, reserve4243011209118093. The unrefunded new truncation9 resource funds truncation3; eleven complete P43 nonconstant-union gates give hereditary ratio35/4, with the old constant gate unchanged. Five guarded shared-carrier anchors end at6/6; BOTH direction types are priced and the constant terminal dominates. All higher raw labels and near remain once. Every over-budget assignment has P2 affine rank>=17; its generic projection is not proved full. No whole J, higher original error rank or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/statement.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/proof.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/nonconstant_sections.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/audit.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/result.md",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/certificate.json",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/verify.py",
+      "background/nodes/rate_half_mca_raw_two_pair_rank_sixteen_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_min_envelope_raw_mass"},
+    {"from": "rate_half_mca_high44_pencil_union_payment"},
+    {"from": "mca_shared_carrier_rank_two_anchor"},
+    {"from": "mca_pencil_section_affine_incidence"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

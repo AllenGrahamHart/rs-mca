@@ -30,6 +30,32 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Minimum envelopes pay actual low-defect pair rank sixteen
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Three-node K3 / DIRECT packet](notes/kb-min-envelope-low-defect-rank-20260910/README.md),
+  frozen proofs, exact certificate, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** For every original rank-twelve source,
+  full polynomial envelopes strengthen the original truncation9/HIGH44
+  resources. On J9965..21499, actual P2 affine rank<=16 now pays the ENTIRE
+  source by270737716902276994, reserve4243011209118093, including higher
+  raw labels and near once. No assumption that the envelope is convex is used.
+- **How it is useful:** Companion to #1175. Lowering the sufficient P7
+  cutoff to P2 weakens the rank premise. Over-budget assignments require
+  P2 rank>=17, but its generic projection is NOT proved full. These are
+  direct source-class bounds, not additive active-ledger atoms.
+- **Verification:** Five new and four inherited checks pass normally and
+  under-O below24MiB and3seconds per full replay; 765 whole-interval branch
+  gates, 512 coefficient transfers and121 new LIST transitions. The86-node
+  closure and1036 listed hashes are pinned; 26 malformed manifests rejected.
+  See [validation and limits](notes/kb-min-envelope-low-defect-rank-20260910/VALIDATION.md).
+- **What to do next:** Review mixed-branch concavity, all-original tuple
+  ownership, hereditary pencil sections and both terminal directions.
+  No whole J, original higher rank, active atom or Prize is closed.
+  Newer unfinished rank-seventeen/eighteen coupling work is excluded.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-10 - Original HIGH44 pays low-pair ranks sixteen and seventeen
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

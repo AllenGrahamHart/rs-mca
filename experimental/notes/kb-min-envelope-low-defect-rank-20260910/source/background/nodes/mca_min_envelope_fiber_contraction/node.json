@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_min_envelope_fiber_contraction",
+    "title": "Full-fiber endpoints for finite minimum envelopes",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For integers4<=r<=E<=D, an actual rank-r nonzero polynomial evaluation space of degree<K on D+K points satisfies the spike/equal-fiber endpoint lower bound whenever the finite minimum F of smooth branches bounds every integer-degree child and each branch satisfies F_i'>=0,F_i''>=0,2F_i'>=E F_i'',2(r-2)F_i'>=(D+E)F_i'' on[r-1,E]. Weighted branch minima and all mixed branch pairs are concave. The envelope itself need not be convex or differentiable; individual branches need not bound children. No Jensen-on-the-minimum step or fractional-degree source is asserted.",
+    "refs": [
+      "background/nodes/mca_min_envelope_fiber_contraction/statement.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/proof.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/claim_contract.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/dependency_subdag.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/audit.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/result.md",
+      "background/nodes/mca_min_envelope_fiber_contraction/polynomial.py",
+      "background/nodes/mca_min_envelope_fiber_contraction/verify.py"
+    ]
+  },
+  "requires": [{"from": "mca_fiber_contraction_core_basis_resource"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
