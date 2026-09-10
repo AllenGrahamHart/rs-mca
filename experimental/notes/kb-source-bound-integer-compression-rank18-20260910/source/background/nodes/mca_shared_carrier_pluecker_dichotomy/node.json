@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_shared_carrier_pluecker_dichotomy",
+    "title": "Sparse constant children or one-sided shared-carrier compression",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For W subset U^2 with dim U=s>=3, dim W=s+1, degrees<K and N-K+1>2(K-1), the bivariate Pluecker product is either nonzero, giving at most2K-2 good rank-one children, or identically zero, forcing W=(delta tensor U) direct_sum Fz with constant delta. Every rank-one good child is constant by equality rigidity. This is an exhaustive geometric dichotomy over the original field, not an original-label payment.",
+    "refs": [
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/statement.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/proof.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/claim_contract.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/dependency_subdag.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/audit.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/result.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/provenance.md",
+      "background/nodes/mca_shared_carrier_pluecker_dichotomy/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_integer_compression_rank_eighteen_payment",
+    "title": "Integer compression pays actual P2 pair rank eighteen on the entire gap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear MCA rank12 source J9965..21499 and valid assignment, ACTUAL P2 affine rank<=18, including empty, pays the ENTIRE original source by274462040894062110, reserve518687217332977. All original higher raw and near remain once. The integer shifted-core envelope allows at most two large fibres; scalar dimension5 and six anchors remain unchanged. Two degree ranges pay prefix/middle compression, with the earlier upper interval completing all J. No sparse-only or proper-span premise remains. Every over-budget assignment requires P2 rank19..22. No whole J, original higher error rank, active-v4 atom, generic-full P2 claim or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/statement.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/proof.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/integer_envelopes.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/audit.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/result.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/provenance.md",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/verify.py",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_compression_fibre_integer_envelope"
+    },
+    {
+      "from": "rate_half_mca_coupled_pair_rank_frontier"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_compression_fibre_integer_envelope",
+    "title": "Integer shifted-core masses give a two-level compression envelope",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For ACTUAL compression fibre INTEGER masses x_c in[L,Z], 1<=L<=Z<=S and sum x_c<=S, let w(x) bound nonpreferred original raw weight. If T>=L,H>=0 are integers with(H+1)(T+1)>S and alpha,beta>=0 satisfy w(x)<=alpha*x below/equal T and <=alpha*x+beta above T, total raw weight<=t+alpha*S+H*beta. The common preferred slope is charged once. For S1048577,T349525,H2 at most two fibres are large. This is a proved counting corollary, not a scalar LIST or Prize conclusion.",
+    "refs": [
+      "background/nodes/mca_compression_fibre_integer_envelope/statement.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/proof.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/claim_contract.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/dependency_subdag.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/audit.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/result.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/provenance.md",
+      "background/nodes/mca_compression_fibre_integer_envelope/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_compression_fibre_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

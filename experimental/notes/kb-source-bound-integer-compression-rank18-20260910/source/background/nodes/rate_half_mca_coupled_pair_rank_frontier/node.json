@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_coupled_pair_rank_frontier",
+    "title": "Coupled original weights pay pair rank seventeen and narrow rank eighteen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank12 source J9965..21499 and valid assignment, actual P2 affine rank<=17 pays the ENTIRE original source by270000000000000000, reserve4980728111395087. Rank18 pays by274462040894062110 if every populated six-anchor terminal is sparse or has compression fibres of ACTUAL scalar span<=4. All P2 ranks<=18 pay on J14165..21499 by273715780528023745. All higher raw labels and near remain once. Survivors need P2 rank>=18 below14165 and>=19 above; a rank18 lower-J survivor forces an actual full-span5 compression fibre. P2 generic projection and all whole-J/higher original ranks remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/statement.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/proof.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/audit.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/result.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/provenance.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/verify.py",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/pencil_gates.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/compression_boxes.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/source_recursion.md",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/gate_certificate.json",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/compression_certificate.json",
+      "background/nodes/rate_half_mca_coupled_pair_rank_frontier/source_certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "mca_shared_carrier_pluecker_dichotomy"
+    },
+    {
+      "from": "mca_compression_fibre_raw_mass"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "rate_half_mca_high44_pencil_union_payment"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

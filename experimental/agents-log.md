@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Integer compression pays actual pair rank eighteen
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Six-node K3 / DIRECT extension](notes/kb-source-bound-integer-compression-rank18-20260910/README.md),
+  source proofs, exact certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** For every original rank12 source J9965..21499,
+  actual P2 affine rank<=18 pays the entire source by274462040894062110,
+  reserve518687217332977, including higher raw labels and near once.
+  Full-span-five compression is included: one shifted-core budget permits
+  at most two large integer fibres, with actual degree ranges retained.
+- **How it is useful:** Extends the source-bound methods of Scott Hughes's
+  #1179/#1180 and our457bbc73 minimum-envelope packet. Both unpaid rank18
+  primitive types from #1180 receive below-budget payments here. Remaining
+  over-budget assignments require actual P2 rank19..22; its generic
+  projection is not asserted full. No active-ledger atom or whole J closes.
+- **Verification:** Eight new and six inherited checks,2448+860 new LIST
+  transitions, separate audits and45 arithmetic mutations. The90-node
+  closure,262 inherited proof documents and1100 source hashes are pinned;
+  32 malformed manifests rejected. See the packet's validation limits.
+- **What to do next:** Review actual source ownership, the Pluecker guards,
+  the shared mass, both rank-two exits, integer packing and final add-back.
+  Higher pair ranks, original higher error ranks and both Prizes remain open.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-10 - Minimum envelopes pay actual low-defect pair rank sixteen
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

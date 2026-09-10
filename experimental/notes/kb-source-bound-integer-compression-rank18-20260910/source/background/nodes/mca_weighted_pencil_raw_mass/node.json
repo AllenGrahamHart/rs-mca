@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_weighted_pencil_raw_mass",
+    "title": "Original raw weights through guarded anchors and pencil sections",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed original finite-label assignment and complete cores of size>=A, carry each pair's sum of original raw<=t weights unchanged through every affine section. Same-pair weight is at most n-A. Constant/nonconstant pencil caps are t+e Q^v and t(n-e)+e Q_h^v; good shared-carrier and determinant anchors extend by weighted incidence with explicit positive denominators, including all earlier anchor zeros. These are raw-mass bounds, not slope counts or arbitrary-hull realization claims.",
+    "refs": [
+      "background/nodes/mca_weighted_pencil_raw_mass/statement.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/proof.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/claim_contract.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/dependency_subdag.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/audit.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/result.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/provenance.md",
+      "background/nodes/mca_weighted_pencil_raw_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    },
+    {
+      "from": "mca_pencil_core_union_escape"
+    },
+    {
+      "from": "mca_joint_pair_affine_incidence"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

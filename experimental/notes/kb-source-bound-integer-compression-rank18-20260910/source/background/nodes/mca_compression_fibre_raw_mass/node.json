@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_compression_fibre_raw_mass",
+    "title": "One shared shifted-core budget for original compression fibre weights",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an actual weighted pair family enclosed by f_*+H_a*((delta tensor U) direct_sum Fz), original degree<K and complete cores>=A>K-1, the shifted fibre core-union masses x_c=|C_c|-K+1 are positive and sum<=n-K+1. Scalar LIST caps on actual fibre spans give total raw weight<=t+(n-K+1) sup_x ((n-K+1-x)L(x)/x). The common preferred slope is charged once, and only pair differences and auxiliary domains are divided. All cross-fibre overlaps use the ORIGINAL annihilator H_a rho(z).",
+    "refs": [
+      "background/nodes/mca_compression_fibre_raw_mass/statement.md",
+      "background/nodes/mca_compression_fibre_raw_mass/proof.md",
+      "background/nodes/mca_compression_fibre_raw_mass/claim_contract.md",
+      "background/nodes/mca_compression_fibre_raw_mass/dependency_subdag.md",
+      "background/nodes/mca_compression_fibre_raw_mass/audit.md",
+      "background/nodes/mca_compression_fibre_raw_mass/result.md",
+      "background/nodes/mca_compression_fibre_raw_mass/provenance.md",
+      "background/nodes/mca_compression_fibre_raw_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
