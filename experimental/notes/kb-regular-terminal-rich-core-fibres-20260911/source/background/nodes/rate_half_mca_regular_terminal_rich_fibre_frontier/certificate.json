@@ -1,0 +1,1871 @@
+{
+  "schema": "regular-terminal-rich-fibre-v1",
+  "J": [
+    9965,
+    21499
+  ],
+  "original_error_rank": 12,
+  "actual_P2_rank": 19,
+  "anchors": 8,
+  "terminal_dimension": 3,
+  "eigenvalues_field": "original F",
+  "eigenspaces_max_dimension": 1,
+  "root_mask": "anchors plus F-eigenpolynomial roots; common zeros when e=0",
+  "intersection_scope": "two actual complete joint cores on the remaining domain",
+  "raw_cutoffs": [
+    1,
+    2
+  ],
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "unchanged_available_weight_maximum": 272127061148955779,
+  "B_star": 274980728111395087,
+  "near": 134944,
+  "original_weights_unchanged": true,
+  "generic_degree_used": false,
+  "actual_core_witness": true,
+  "original_evaluation_flat_rank": 9,
+  "whole_constant_upper_tail_open": true,
+  "rank19_closed": false,
+  "prize_closed": false,
+  "uniform_intersection_caps": [
+    1913,
+    1913,
+    1022,
+    169
+  ],
+  "profiles": [
+    {
+      "J": [
+        9965,
+        10964
+      ],
+      "parent_sha256": "14217c5623d893ac879ea7c4a11fdf079153a50e56828f37898d740f606ce0a5",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 10961,
+          "max_intersection": 1913,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 68745887819,
+              "denominator": 2546809049,
+              "pair_cap": 26,
+              "original_pair_weight": 981105,
+              "terminal_weight": 25508730,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 68744839240,
+              "denominator": 2546674102,
+              "pair_cap": 26,
+              "original_pair_weight": 981106,
+              "terminal_weight": 25508756,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 10963,
+          "max_intersection": 1913,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 68743659543,
+              "denominator": 2546542983,
+              "pair_cap": 26,
+              "original_pair_weight": 981105,
+              "terminal_weight": 25508730,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 68742610966,
+              "denominator": 2546408040,
+              "pair_cap": 26,
+              "original_pair_weight": 981106,
+              "terminal_weight": 25508756,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 21918,
+          "max_intersection": 1022,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1037622,
+              "reduced_agreement": 56517,
+              "numerator": 57582832890,
+              "denominator": 2133721605,
+              "pair_cap": 26,
+              "original_pair_weight": 981105,
+              "terminal_weight": 25508730,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1037622,
+              "reduced_agreement": 56516,
+              "numerator": 57581795268,
+              "denominator": 2133608572,
+              "pair_cap": 26,
+              "original_pair_weight": 981106,
+              "terminal_weight": 25508756,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 32873,
+          "max_intersection": 347,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1026667,
+              "reduced_agreement": 45562,
+              "numerator": 46420748405,
+              "denominator": 1719642395,
+              "pair_cap": 26,
+              "original_pair_weight": 981105,
+              "terminal_weight": 25508730,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1026667,
+              "reduced_agreement": 45561,
+              "numerator": 46419721738,
+              "denominator": 1719551272,
+              "pair_cap": 26,
+              "original_pair_weight": 981106,
+              "terminal_weight": 25508756,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        10965,
+        11964
+      ],
+      "parent_sha256": "c331548a93037ebe611a69ef62d0297ada0c3e40029529ef86016c763383580b",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 11961,
+          "max_intersection": 2305,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 68334844851,
+              "denominator": 2135766081,
+              "pair_cap": 31,
+              "original_pair_weight": 981105,
+              "terminal_weight": 30414255,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 68333796272,
+              "denominator": 2135631134,
+              "pair_cap": 31,
+              "original_pair_weight": 981106,
+              "terminal_weight": 30414286,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 11963,
+          "max_intersection": 2305,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 68332617359,
+              "denominator": 2135500799,
+              "pair_cap": 31,
+              "original_pair_weight": 981105,
+              "terminal_weight": 30414255,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 68331568782,
+              "denominator": 2135365856,
+              "pair_cap": 31,
+              "original_pair_weight": 981106,
+              "terminal_weight": 30414286,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 23918,
+          "max_intersection": 1278,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1036622,
+              "reduced_agreement": 55517,
+              "numerator": 56225340658,
+              "denominator": 1757334373,
+              "pair_cap": 31,
+              "original_pair_weight": 981105,
+              "terminal_weight": 30414255,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1036622,
+              "reduced_agreement": 55516,
+              "numerator": 56224304036,
+              "denominator": 1757223340,
+              "pair_cap": 31,
+              "original_pair_weight": 981106,
+              "terminal_weight": 30414286,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 35873,
+          "max_intersection": 506,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1024667,
+              "reduced_agreement": 43562,
+              "numerator": 44118062352,
+              "denominator": 1379166342,
+              "pair_cap": 31,
+              "original_pair_weight": 981105,
+              "terminal_weight": 30414255,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1024667,
+              "reduced_agreement": 43561,
+              "numerator": 44117037685,
+              "denominator": 1379079219,
+              "pair_cap": 31,
+              "original_pair_weight": 981106,
+              "terminal_weight": 30414286,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        11965,
+        12964
+      ],
+      "parent_sha256": "9224566ec3eba2f2afa7b07a726da600f68f7c9954242950be91c1bc8a259763",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 12961,
+          "max_intersection": 2722,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67897587408,
+              "denominator": 1698508638,
+              "pair_cap": 39,
+              "original_pair_weight": 981105,
+              "terminal_weight": 38263095,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67896538829,
+              "denominator": 1698373691,
+              "pair_cap": 39,
+              "original_pair_weight": 981106,
+              "terminal_weight": 38263134,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 12963,
+          "max_intersection": 2722,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67895360750,
+              "denominator": 1698244190,
+              "pair_cap": 39,
+              "original_pair_weight": 981105,
+              "terminal_weight": 38263095,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67894312173,
+              "denominator": 1698109247,
+              "pair_cap": 39,
+              "original_pair_weight": 981106,
+              "terminal_weight": 38263134,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 25918,
+          "max_intersection": 1545,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1035622,
+              "reduced_agreement": 54517,
+              "numerator": 54858968584,
+              "denominator": 1372067299,
+              "pair_cap": 39,
+              "original_pair_weight": 981105,
+              "terminal_weight": 38263095,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1035622,
+              "reduced_agreement": 54516,
+              "numerator": 54857932962,
+              "denominator": 1371958266,
+              "pair_cap": 39,
+              "original_pair_weight": 981106,
+              "terminal_weight": 38263134,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 38873,
+          "max_intersection": 666,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1022667,
+              "reduced_agreement": 41562,
+              "numerator": 41822989632,
+              "denominator": 1046303622,
+              "pair_cap": 39,
+              "original_pair_weight": 981105,
+              "terminal_weight": 38263095,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1022667,
+              "reduced_agreement": 41561,
+              "numerator": 41821966965,
+              "denominator": 1046220499,
+              "pair_cap": 39,
+              "original_pair_weight": 981106,
+              "terminal_weight": 38263134,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        12965,
+        13364
+      ],
+      "parent_sha256": "27eb459ce59df1e5252b4dc59d2e4f8a5b68d0915c8e7dd0a087451231274fc2",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 13361,
+          "max_intersection": 2838,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67775952244,
+              "denominator": 1576873474,
+              "pair_cap": 42,
+              "original_pair_weight": 981105,
+              "terminal_weight": 41206410,
+              "allowance": [
+                "7983991472",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67774903665,
+              "denominator": 1576738527,
+              "pair_cap": 42,
+              "original_pair_weight": 981106,
+              "terminal_weight": 41206452,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 13363,
+          "max_intersection": 2838,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67773725818,
+              "denominator": 1576609258,
+              "pair_cap": 42,
+              "original_pair_weight": 981105,
+              "terminal_weight": 41206410,
+              "allowance": [
+                "7983991472",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67772677241,
+              "denominator": 1576474315,
+              "pair_cap": 42,
+              "original_pair_weight": 981106,
+              "terminal_weight": 41206452,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 26718,
+          "max_intersection": 1607,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1035222,
+              "reduced_agreement": 54117,
+              "numerator": 54359507220,
+              "denominator": 1265047935,
+              "pair_cap": 42,
+              "original_pair_weight": 981105,
+              "terminal_weight": 41206410,
+              "allowance": [
+                "7983991472",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1035222,
+              "reduced_agreement": 54116,
+              "numerator": 54358471998,
+              "denominator": 1264939702,
+              "pair_cap": 42,
+              "original_pair_weight": 981106,
+              "terminal_weight": 41206452,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 40073,
+          "max_intersection": 694,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1021867,
+              "reduced_agreement": 40762,
+              "numerator": 40944166956,
+              "denominator": 952364946,
+              "pair_cap": 42,
+              "original_pair_weight": 981105,
+              "terminal_weight": 41206410,
+              "allowance": [
+                "7983991472",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1021867,
+              "reduced_agreement": 40761,
+              "numerator": 40943145089,
+              "denominator": 952283423,
+              "pair_cap": 42,
+              "original_pair_weight": 981106,
+              "terminal_weight": 41206452,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        13365,
+        13964
+      ],
+      "parent_sha256": "cc42d1ea5e3aa98371bbe82480a9afa8101fcb22f609e3331b13e393b9ba1f33",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 13961,
+          "max_intersection": 3053,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67550507759,
+              "denominator": 1351428989,
+              "pair_cap": 49,
+              "original_pair_weight": 981105,
+              "terminal_weight": 48074145,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67549459180,
+              "denominator": 1351294042,
+              "pair_cap": 49,
+              "original_pair_weight": 981106,
+              "terminal_weight": 48074194,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 13963,
+          "max_intersection": 3053,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67548281763,
+              "denominator": 1351165203,
+              "pair_cap": 49,
+              "original_pair_weight": 981105,
+              "terminal_weight": 48074145,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67547233186,
+              "denominator": 1351030260,
+              "pair_cap": 49,
+              "original_pair_weight": 981106,
+              "terminal_weight": 48074194,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 27918,
+          "max_intersection": 1732,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1034622,
+              "reduced_agreement": 53517,
+              "numerator": 53577900270,
+              "denominator": 1072103985,
+              "pair_cap": 49,
+              "original_pair_weight": 981105,
+              "terminal_weight": 48074145,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1034622,
+              "reduced_agreement": 53516,
+              "numerator": 53576865648,
+              "denominator": 1071996952,
+              "pair_cap": 49,
+              "original_pair_weight": 981106,
+              "terminal_weight": 48074194,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 41873,
+          "max_intersection": 757,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1020667,
+              "reduced_agreement": 39562,
+              "numerator": 39606982935,
+              "denominator": 792506925,
+              "pair_cap": 49,
+              "original_pair_weight": 981105,
+              "terminal_weight": 48074145,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ]
+            },
+            "2": {
+              "reduced_n": 1020667,
+              "reduced_agreement": 39561,
+              "numerator": 39605962268,
+              "denominator": 792427802,
+              "pair_cap": 49,
+              "original_pair_weight": 981106,
+              "terminal_weight": 48074194,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        13965,
+        14964
+      ],
+      "parent_sha256": "5082d96a4aa179a29f04e54bdc6233e9e425bf347e1e4a44d6579a2c766b166d",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 14961,
+          "max_intersection": 3103,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67498078809,
+              "denominator": 1299000039,
+              "pair_cap": 51,
+              "original_pair_weight": 981105,
+              "terminal_weight": 50036355,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67497030230,
+              "denominator": 1298865092,
+              "pair_cap": 51,
+              "original_pair_weight": 981106,
+              "terminal_weight": 50036406,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 14963,
+          "max_intersection": 3103,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67495852913,
+              "denominator": 1298736353,
+              "pair_cap": 51,
+              "original_pair_weight": 981105,
+              "terminal_weight": 50036355,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67494804336,
+              "denominator": 1298601410,
+              "pair_cap": 51,
+              "original_pair_weight": 981106,
+              "terminal_weight": 50036406,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 29918,
+          "max_intersection": 1690,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1033622,
+              "reduced_agreement": 52517,
+              "numerator": 52535905394,
+              "denominator": 1011214109,
+              "pair_cap": 51,
+              "original_pair_weight": 981105,
+              "terminal_weight": 50036355,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1033622,
+              "reduced_agreement": 52516,
+              "numerator": 52534871772,
+              "denominator": 1011109076,
+              "pair_cap": 51,
+              "original_pair_weight": 981106,
+              "terminal_weight": 50036406,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 44873,
+          "max_intersection": 675,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1018667,
+              "reduced_agreement": 37562,
+              "numerator": 37575569629,
+              "denominator": 723303619,
+              "pair_cap": 51,
+              "original_pair_weight": 981105,
+              "terminal_weight": 50036355,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ]
+            },
+            "2": {
+              "reduced_n": 1018667,
+              "reduced_agreement": 37561,
+              "numerator": 37574550962,
+              "denominator": 723228496,
+              "pair_cap": 51,
+              "original_pair_weight": 981106,
+              "terminal_weight": 50036406,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        14965,
+        15964
+      ],
+      "parent_sha256": "809d49cf656a32bbf62fe5ca17d4bb8497db81dbefa046f238f101e0e94f4c20",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 15961,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67448795596,
+              "denominator": 1249716826,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "9954687388",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67447747017,
+              "denominator": 1249581879,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 15963,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67446569794,
+              "denominator": 1249453234,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "9954687388",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67445521217,
+              "denominator": 1249318291,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 31918,
+          "max_intersection": 1646,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1032622,
+              "reduced_agreement": 51517,
+              "numerator": 51497891762,
+              "denominator": 954305477,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "9954687388",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1032622,
+              "reduced_agreement": 51516,
+              "numerator": 51496859140,
+              "denominator": 954202444,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 47873,
+          "max_intersection": 596,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1016667,
+              "reduced_agreement": 35562,
+              "numerator": 35548778322,
+              "denominator": 658722312,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "9954687388",
+                "191"
+              ]
+            },
+            "2": {
+              "reduced_n": 1016667,
+              "reduced_agreement": 35561,
+              "numerator": 35547761655,
+              "denominator": 658651189,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        15965,
+        16964
+      ],
+      "parent_sha256": "57214468851a1c01d879418afcab8fa620e2b7c1a8ecd8d73ee4ae594942b3d7",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 16961,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67448795596,
+              "denominator": 1249716826,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67447747017,
+              "denominator": 1249581879,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 16963,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67446569794,
+              "denominator": 1249453234,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67445521217,
+              "denominator": 1249318291,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 33918,
+          "max_intersection": 1567,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1031622,
+              "reduced_agreement": 50517,
+              "numerator": 50497896900,
+              "denominator": 935415615,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1031622,
+              "reduced_agreement": 50516,
+              "numerator": 50496865278,
+              "denominator": 935314582,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 50873,
+          "max_intersection": 497,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1014667,
+              "reduced_agreement": 33562,
+              "numerator": 33549964355,
+              "denominator": 622118345,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1014667,
+              "reduced_agreement": 33561,
+              "numerator": 33548949688,
+              "denominator": 622051222,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        16965,
+        17964
+      ],
+      "parent_sha256": "129f116addbb78b211efb6be1c7351a3d475150d2e9197128509c1050db6e532",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 17961,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67448795596,
+              "denominator": 1249716826,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67447747017,
+              "denominator": 1249581879,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 17963,
+          "max_intersection": 3150,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67446569794,
+              "denominator": 1249453234,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67445521217,
+              "denominator": 1249318291,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 35918,
+          "max_intersection": 1489,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1030622,
+              "reduced_agreement": 49517,
+              "numerator": 49498713416,
+              "denominator": 917337131,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1030622,
+              "reduced_agreement": 49516,
+              "numerator": 49497682794,
+              "denominator": 917238098,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 53873,
+          "max_intersection": 406,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1012667,
+              "reduced_agreement": 31562,
+              "numerator": 31550653052,
+              "denominator": 585017042,
+              "pair_cap": 53,
+              "original_pair_weight": 981105,
+              "terminal_weight": 51998565,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1012667,
+              "reduced_agreement": 31561,
+              "numerator": 31549640385,
+              "denominator": 584953919,
+              "pair_cap": 53,
+              "original_pair_weight": 981106,
+              "terminal_weight": 51998618,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        17965,
+        18964
+      ],
+      "parent_sha256": "73daa57a42713e2bc42aad8c36781babd05578a66a89f013f59e6784ada4ed71",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 18961,
+          "max_intersection": 3172,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67425726858,
+              "denominator": 1226648088,
+              "pair_cap": 54,
+              "original_pair_weight": 981105,
+              "terminal_weight": 52979670,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67424678279,
+              "denominator": 1226513141,
+              "pair_cap": 54,
+              "original_pair_weight": 981106,
+              "terminal_weight": 52979724,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 18963,
+          "max_intersection": 3172,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67423501100,
+              "denominator": 1226384540,
+              "pair_cap": 54,
+              "original_pair_weight": 981105,
+              "terminal_weight": 52979670,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67422452523,
+              "denominator": 1226249597,
+              "pair_cap": 54,
+              "original_pair_weight": 981106,
+              "terminal_weight": 52979724,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 37918,
+          "max_intersection": 1429,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1029622,
+              "reduced_agreement": 48517,
+              "numerator": 48482840736,
+              "denominator": 882569451,
+              "pair_cap": 54,
+              "original_pair_weight": 981105,
+              "terminal_weight": 52979670,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ]
+            },
+            "2": {
+              "reduced_n": 1029622,
+              "reduced_agreement": 48516,
+              "numerator": 48481811114,
+              "denominator": 882472418,
+              "pair_cap": 54,
+              "original_pair_weight": 981106,
+              "terminal_weight": 52979724,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 56873,
+          "max_intersection": 333,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1010667,
+              "reduced_agreement": 29562,
+              "numerator": 29540785743,
+              "denominator": 537359733,
+              "pair_cap": 54,
+              "original_pair_weight": 981105,
+              "terminal_weight": 52979670,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ]
+            },
+            "2": {
+              "reduced_n": 1010667,
+              "reduced_agreement": 29561,
+              "numerator": 29539775076,
+              "denominator": 537300610,
+              "pair_cap": 54,
+              "original_pair_weight": 981106,
+              "terminal_weight": 52979724,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        18965,
+        19964
+      ],
+      "parent_sha256": "c2573dc55685e31ba4aa92326cc79efa0479d21fd71736bc094dcc44f2f63bc1",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 19961,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67381686540,
+              "denominator": 1182607770,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67380637961,
+              "denominator": 1182472823,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 19963,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67379460866,
+              "denominator": 1182344306,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67378412289,
+              "denominator": 1182209363,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 39918,
+          "max_intersection": 1385,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1028622,
+              "reduced_agreement": 47517,
+              "numerator": 47452390104,
+              "denominator": 833223819,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ]
+            },
+            "2": {
+              "reduced_n": 1028622,
+              "reduced_agreement": 47516,
+              "numerator": 47451361482,
+              "denominator": 833128786,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 59873,
+          "max_intersection": 274,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1008667,
+              "reduced_agreement": 27562,
+              "numerator": 27524505096,
+              "denominator": 483289086,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ]
+            },
+            "2": {
+              "reduced_n": 1008667,
+              "reduced_agreement": 27561,
+              "numerator": 27523496429,
+              "denominator": 483233963,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        19965,
+        20964
+      ],
+      "parent_sha256": "5417e4e21760b822ba2dc464526ededcb9ccd5878fcae9ef0e1747c242e7a2df",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 20961,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67381686540,
+              "denominator": 1182607770,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67380637961,
+              "denominator": 1182472823,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 20963,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67379460866,
+              "denominator": 1182344306,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67378412289,
+              "denominator": 1182209363,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 41918,
+          "max_intersection": 1312,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1027622,
+              "reduced_agreement": 46517,
+              "numerator": 46453652510,
+              "denominator": 815591225,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1027622,
+              "reduced_agreement": 46516,
+              "numerator": 46452624888,
+              "denominator": 815498192,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 62873,
+          "max_intersection": 204,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1006667,
+              "reduced_agreement": 25562,
+              "numerator": 25527061786,
+              "denominator": 448055776,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1006667,
+              "reduced_agreement": 25561,
+              "numerator": 25526055119,
+              "denominator": 448004653,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "J": [
+        20965,
+        21499
+      ],
+      "parent_sha256": "b508835f0104f231a0bba86d38418fe270a2a1e05fa46f4a4a1debd0dd8d9633",
+      "spectra": [
+        {
+          "e": 0,
+          "bad_bound": 21496,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67474,
+              "numerator": 67381686540,
+              "denominator": 1182607770,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048579,
+              "reduced_agreement": 67473,
+              "numerator": 67380637961,
+              "denominator": 1182472823,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 1,
+          "bad_bound": 21498,
+          "max_intersection": 3214,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67472,
+              "numerator": 67379460866,
+              "denominator": 1182344306,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1048577,
+              "reduced_agreement": 67471,
+              "numerator": 67378412289,
+              "denominator": 1182209363,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 2,
+          "bad_bound": 42988,
+          "max_intersection": 1274,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1027087,
+              "reduced_agreement": 45982,
+              "numerator": 45919005596,
+              "denominator": 805835486,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1027087,
+              "reduced_agreement": 45981,
+              "numerator": 45917978509,
+              "denominator": 805743523,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ]
+            }
+          }
+        },
+        {
+          "e": 3,
+          "bad_bound": 64478,
+          "max_intersection": 169,
+          "cutoffs": {
+            "1": {
+              "reduced_n": 1005597,
+              "reduced_agreement": 24492,
+              "numerator": 24459135831,
+              "denominator": 429912171,
+              "pair_cap": 56,
+              "original_pair_weight": 981105,
+              "terminal_weight": 54941880,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ]
+            },
+            "2": {
+              "reduced_n": 1005597,
+              "reduced_agreement": 24491,
+              "numerator": 24458130234,
+              "denominator": 429863188,
+              "pair_cap": 56,
+              "original_pair_weight": 981106,
+              "terminal_weight": 54941936,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

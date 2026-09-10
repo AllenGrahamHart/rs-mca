@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Spectral masks force actual shared-core fibres
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Two-node K3 / DIRECT extension](notes/kb-regular-terminal-rich-core-fibres-20260911/README.md),
+  frozen proofs, exact certificate, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Original-field eigen-root masks give exact Johnson
+  bounds for regular dimension3 terminals. Thirteen degree profiles and52
+  spectral gates fit the inherited raw1/2 allowances. Excess forces TWO
+  actual pairs sharing a large core fibre, hence a rank9 original evaluation
+  flat, not an unoccupied fibre or a generic-degree surrogate.
+- **How it is useful:** Extends918324a1 and the source-bound #1179/#1180
+  program. The whole-gap sufficient intersection caps are1913/1913/1022/169
+  for zero/one/two/three original-field eigenvalues. This identifies an
+  actual common-factor obstruction without claiming to pay its mass.
+- **Verification:** Three new checks and an inherited independent audit pass
+  normally and under-O in under3seconds and29MiB measured peak RSS. The112-node
+  closure,337 inherited documents and1216 source hashes are checked.
+  Arithmetic audits reject32new and24inherited corruptions; replay rejects50
+  malformed manifests. Universal proofs still require independent review.
+- **What to do next:** Bound actual rich-core incidence mass and whole
+  constant3 terminals on J14965..21499. Rank19, whole degrees, active atoms
+  and both Prize problems remain open. Unfinished research was not exported.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-10 - Rational-plane bounds and actual-span-three terminals
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

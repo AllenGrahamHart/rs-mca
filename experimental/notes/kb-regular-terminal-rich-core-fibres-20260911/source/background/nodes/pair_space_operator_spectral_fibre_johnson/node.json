@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_operator_spectral_fibre_johnson",
+    "title": "Spectral root removal and finite projective fibres give an operator3 Johnson bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a three-dimensional polynomial operator graph with F-eigenspaces of dimension at most one, remove anchor and F-eigenpolynomial roots (common zeros if no F eigenvalue). Maximum remaining projective evaluation fibre H bounds all distinct pair-core intersections. With b_e=a+e(K-a-1), or K-3 when e=0, the positive Johnson gate gives floor((n-b_e)(A-b_e-H)/((A-b_e)^2-(n-b_e)H)) pairs and original raw weight at most n-A times this count. No generic-degree substitution or universal fibre bound is asserted.",
+    "refs": [
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/statement.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/proof.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/claim_contract.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/dependency_subdag.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/audit.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/result.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/provenance.md",
+      "background/nodes/pair_space_operator_spectral_fibre_johnson/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
