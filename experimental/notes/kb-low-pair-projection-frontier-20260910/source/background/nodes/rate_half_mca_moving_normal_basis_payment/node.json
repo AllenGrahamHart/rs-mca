@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_moving_normal_basis_payment",
+    "title": "Contracted rank-ten bases pay moving-normal low graphs through degree five",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For EVERY original KoalaBear rank12 source and valid assignment on J9965..21499, actual raw<=7 parameter graph containment in one degree2..5 moving-normal hypersurface with independent coefficient functionals pays the WHOLE source by272944903448274111, reserve2035824663120976. If all represented low pair lines are formally contained, the cap is272889015800964850. Seven exact universal contraction certificates improve local moving-kernel bases; common tuple ownership and original HIGH44 remain unchanged. At most21493 moving-zero labels and five labels per each of<=12774319384974 noncontained pairs are paid, near once. Every over-budget source has>=2326656757852545 low labels outside EACH such hypersurface. No arbitrary coverage, whole J, original higher rank or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/statement.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/proof.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/audit.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/result.md",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/verify.py",
+      "background/nodes/rate_half_mca_moving_normal_basis_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_moving_parameter_hyperplane_low_mass"
+    },
+    {
+      "from": "mca_fiber_contraction_core_basis_resource"
+    },
+    {
+      "from": "rate_half_mca_completed_high_raw_mass"
+    },
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

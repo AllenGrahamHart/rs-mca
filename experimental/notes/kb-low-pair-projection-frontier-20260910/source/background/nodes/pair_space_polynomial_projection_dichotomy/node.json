@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_polynomial_projection_dichotomy",
+    "title": "A pair space has a short independent polynomial normal or a generically full projection",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For W subset V x V, dim V=s, dim W=r and c=2s-r, either pi_z(a,b)=a+zb is surjective over F(z), in which case all but at most c finite gamma have pi_gamma(W)=V, or a minimum nonzero polynomial normal ell(z) exists with independent coefficients ell0..ell_d and d+2<=c. If the component-image sum is V then d>=1, so the moving-normal hypersurface degree e=d+1 lies in2..c-1. Cofactor identities prove the alternatives in every characteristic. F(z) is a formal rank test, not a challenge-field transfer. No source count or regular-branch payment is claimed.",
+    "refs": [
+      "background/nodes/pair_space_polynomial_projection_dichotomy/statement.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/proof.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/claim_contract.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/dependency_subdag.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/audit.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/result.md",
+      "background/nodes/pair_space_polynomial_projection_dichotomy/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_low_pair_projection_regular_frontier",
+    "title": "Every deficient raw-seven pair projection is paid; survivors are generically full",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every original KoalaBear rank12 normalization J9965..21499 and every valid assignment, let W be the actual affine-hull direction of the represented raw<=7 pairs. If its formal projection (a,b)->a+zb is proper in the original dimension11 V over F(z), the entire source pays by274138707278280353, reserve842020833114734, near once. Low rank/proper shared carrier are paid by existing suppliers; otherwise codimension<=6 forces an independent normal of parameter degree2..5, whose entire-line case pays by272889015800964850. No normal or cover premise is assumed. Every over-budget source has actual pair rank16..22, full shared carrier, full generic projection and at most22-r<=6 exceptional finite slopes. The regular affine-hull image is NOT an actual bad-explanation census. No full J, original higher rank, active atom or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/statement.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/proof.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/audit.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/result.md",
+      "background/nodes/rate_half_mca_low_pair_projection_regular_frontier/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_polynomial_projection_dichotomy"
+    },
+    {
+      "from": "rate_half_mca_moving_normal_basis_payment"
+    },
+    {
+      "from": "rate_half_mca_low_raw_hyperplane_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

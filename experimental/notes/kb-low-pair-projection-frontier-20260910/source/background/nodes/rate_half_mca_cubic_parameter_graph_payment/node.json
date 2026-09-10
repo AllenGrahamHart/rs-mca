@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_cubic_parameter_graph_payment",
+    "title": "Cubic moving-normal low graphs pay every original high and exceptional label",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every original KoalaBear rank12 source and valid assignment on J9965..21499, actual raw<=8 graph containment in one cubic ell0(h-a0-gamma b0)+gamma ell1(h-a0-gamma b0)+gamma^2 ell2(h-a0-gamma b0)=0 pays the WHOLE original source by271476187024062739, reserve3504541087332348. Independent ell0,ell1,ell2 and source-compatible offsets are required. Stronger raw<=43 containment gives237527989066104848. Original HIGH44, three-owner common tuples, at most21491 moving-zero label exceptions and three labels per explicitly counted noncontained pair compose on the SAME original source, near once. Any over-budget source has>=3942608723248893 raw<=8 labels outside EACH such cubic, or>=38323732976576059 raw<=43 labels. No whole J, arbitrary cubic cover, original higher rank, active atom or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/statement.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/proof.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/route_boundary.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/audit.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/result.md",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/verify.py",
+      "background/nodes/rate_half_mca_cubic_parameter_graph_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_completed_high_raw_mass"
+    },
+    {
+      "from": "mca_moving_parameter_hyperplane_low_mass"
+    },
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

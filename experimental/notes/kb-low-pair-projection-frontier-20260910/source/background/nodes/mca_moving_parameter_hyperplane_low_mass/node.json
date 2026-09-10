@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_moving_parameter_hyperplane_low_mass",
+    "title": "Moving polynomial normals share one degree-bounded label-owned tuple resource",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For2<=e<s<=K and a fixed degree<K carrier V with independent ell0..ell(e-1), distinct original labels with size m=K+d scalar supports and chosen defects1<=tau<=T<=d are assumed to have nonzero V evaluation on each joint core and pair lines satisfying the formal polynomial identity sum z^i ell_i(a-a0+z(b-b0))=0. At most K-s+e original labels are exceptional; the remaining raw mass is<=floor[e(n)_s/(s(m-T)prod_(j=1)^(s-2)(d-T+j))]. One fixed incidence line section has at most e label owners. No per-label cancellation, arbitrary-hypersurface claim, HIGH funding or noncontained-line census is imported. Stronger-basis interface: any separately proved uniform lower bound B_* for the retained actual (s-1)-kernel core bases gives remaining raw mass<=floor[e(n)_s/(s B_*)], with the SAME label-exception count and common tuple budget.",
+    "refs": [
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/statement.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/proof.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/claim_contract.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/dependency_subdag.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/audit.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/result.md",
+      "background/nodes/mca_moving_parameter_hyperplane_low_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_low_pair_carrier_weighted_tuple_count"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

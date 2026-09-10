@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_completed_high_raw_mass",
+    "title": "Completed HIGH funding strengthens original truncated raw mass to forty-four",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every original KoalaBear rank12 normalized source and valid assignment on J9941..21499, the SAME original beta and independent12-tuple resource satisfy sum min(raw,44)<=floor Q(J), hence<=624373932788019251, or<=522680876725222604 on J>=14000. The proved completed weight11*min(raw,500) turns the existing HIGH126 gate into HIGH1386>=44 beta; all positive raw values are funded. No auxiliary source, field/rank reset or added tuple budget. The raw>=44 label tail is<=14190316654273164 (or11879110834664150 on J>=14000). This is a uniform source resource, not a full row or Prize payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_completed_high_raw_mass/statement.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/proof.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/claim_contract.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/dependency_subdag.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/audit.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/result.md",
+      "background/nodes/rate_half_mca_completed_high_raw_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_low_raw_rank_filtration"
+    },
+    {
+      "from": "mca_core_completed_basis_margin_resource"
+    },
+    {
+      "from": "mca_raw_margin_basis_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

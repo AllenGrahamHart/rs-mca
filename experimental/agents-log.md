@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-10 - Original HIGH44 and an exhaustive deficient-projection payment
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-low-pair-projection-frontier-20260910/README.md),
+  six theorem snapshots, source manifest and bounded serial replay.
+  Earlier published packets and stable papers are unchanged.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Stronger original raw-mass control through44,
+  moving-normal payments through degree5, and an intrinsic polynomial
+  projection dichotomy. On original rank-twelve J9965..21499, deficient
+  generic projection of the actual raw<=7 pair hull pays the WHOLE source
+  by274138707278280353, with higher raw labels and near retained once.
+- **How it is useful:** Companion to #1175. The moving normal is derived
+  from the actual pair space, not assumed as a cover. Every remaining
+  over-budget source has actual pair rank16..22, full shared carrier and
+  full generic projection, with at most22-r<=6 finite rank-drop slopes.
+  Affine-hull points are not treated as realized bad explanations.
+- **Verification:** Eight new and two inherited checks pass normally and
+  under-O below24MiB and1.5seconds per full replay;26 malformed manifests
+  are rejected. The96-node closure,984 listed hashes and273 inherited
+  proof documents are pinned; [validation and limits](notes/kb-low-pair-projection-frontier-20260910/VALIDATION.md).
+- **What to do next:** Independently review formal tuple ownership, minimal
+  polynomial normals and the universal contracted-basis application. The
+  regular-projection census, all whole-degree gaps, original higher error
+  ranks and both Prize problems remain open; no active atom changes.
+- **Compute requests:** None; no Modal or large computation.
+
 ### 2026-09-10 - Low-defect hyperplanes and split quadrics pay further source classes
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
