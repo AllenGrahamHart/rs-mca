@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_pencil_free_penultimate_payment",
+    "title": "Pay pencil-free penultimate enclosures with inherited normalization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Residual source scope: after the paid whole-source pencil alternatives of rate_half_mca_regular_rational_plane_terminal_bounds are removed; if one occurs, use its whole-source payment instead. For original KoalaBear rank12 J9965..21499 and actual P2 rank19, every seven-anchor pencil-free pair/shared enclosure5/4 with primitive normalization nu<=H=floor((J1-1)/10) has original raw-t weight<=1048577*L_t/(67473-t), t=1,2. All actual degrees and unused slack are covered by26 exact graded prices and1208 child certificates. Excess forces a seven-anchor enclosure with a rank-one F-plane, or nu>H and an actual normalization jump among the first seven anchors. An enclosure plane need not be occupied. No unrestricted rank19, whole degree, row or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/statement.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/proof.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/child_caps.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/off_mask_plane.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/finite_prices.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/verify.py",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/certificates/index.json",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/audit.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/provenance.md",
+      "background/nodes/rate_half_mca_pencil_free_penultimate_payment/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_graded_inner_projection_incidence"
+    },
+    {
+      "from": "rate_half_mca_inherited_normalization_frontier"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

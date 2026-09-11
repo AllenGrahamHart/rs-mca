@@ -30,6 +30,32 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Graded anchors and nonconstant-pencil source classes
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-penultimate-graded-pencil-payment-20260911/README.md),
+  five new theorem nodes, one clarified supplier, frozen certificates and replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Full-multiplicity genus pricing pays pencil-free
+  small-normalization penultimate enclosures. Quadric geometry also pays the
+  nonconstant-plane class. Maximal nonconstant pencils survive every regular
+  anchor, paying the original rank19/nonconstant10-pencil source class by
+  272127061148955779 without a normalization cap.
+- **Scope correction:** Local L_t prices require the residual source after
+  paid whole-source pencil alternatives are removed. The earlier manifest
+  recorded this, but its standalone prose abbreviated it. Three declarations
+  are clarified; numerical certificates and older frozen files are unchanged.
+- **How it is useful:** Continues #1179/#1180 in original bad-slope units.
+  Remaining penultimate classes are constant-plane-only at small normalization,
+  or image3..9 with earlier high normalization and no maximal nonconstant pencil.
+- **Verification:** Six new and five inherited checks pass normally and under-O
+  in under6seconds and35MiB peak RSS. The129-node closure and1508 source hashes
+  are checked;26 exact prices use1208 independently checked child certificates.
+- **What to do next:** Review singular multiplicities, the retained cone vertex,
+  maximal-pencil descent and original-owner composition. No unrestricted rank19,
+  whole J, row endpoint, active atom or Prize closes.
+- **Compute requests:** None. No Modal, spending or large search.
+
 ### 2026-09-11 - Excess requires an actual inner degree jump
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

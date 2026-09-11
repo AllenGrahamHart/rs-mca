@@ -1,0 +1,169 @@
+{
+  "schema": "inherited-normalization-frontier-v1",
+  "scope": {
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "J": [
+      9965,
+      21499
+    ],
+    "original_shared_dimension": 11,
+    "anchors": 8,
+    "terminal_dimension": 3,
+    "pencil_free": true,
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "image_degrees": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "spectra": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "normalization_ceiling": "floor((J1-1)/10), from the original dimension11 carrier",
+    "primitive_degree": "kappa=eta*nu+1, actual full-gcd degree",
+    "slack": "every v>=0, not assumed saturated",
+    "spectral_capacity": "old full profile degree ceiling, not improved silently",
+    "original_weights_unchanged": true,
+    "remaining_pencil_free_requires_actual_degree_jump": true,
+    "segre_coordinates": "branch weighted; generic centres are not actual anchors",
+    "anchor_guard_globally_affordable": false,
+    "whole_constant_upper_tail_open": true,
+    "source_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "whole_degree_closed": false,
+    "rank19_closed": false,
+    "prize_closed": false
+  },
+  "old_certificate_sha256": "6d5677e763c53bd135cbf244f75c3e974bf97e21a4cee285a53d3ac561332f4e",
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "19f7cebf9f108f24cc34769e089d3bded1aabc8d16625646ebdc07424c6b360d",
+      "J": [
+        9965,
+        10964
+      ],
+      "normalization_ceiling": 1096
+    },
+    {
+      "path": "10965.json",
+      "sha256": "b9705d6fca6036feda6c510acb52cefa7fc28a3533f75a291c66b26e466c1c25",
+      "J": [
+        10965,
+        11964
+      ],
+      "normalization_ceiling": 1196
+    },
+    {
+      "path": "11965.json",
+      "sha256": "4e3a5aaf5f5cc44a5171f4f65bf4c37bfdb456c4e1b9ea6758b0fe396190127e",
+      "J": [
+        11965,
+        12964
+      ],
+      "normalization_ceiling": 1296
+    },
+    {
+      "path": "12965.json",
+      "sha256": "24028427368f2469cc7043982b16ee63efd7cff4195dffc248f6ed647ed32013",
+      "J": [
+        12965,
+        13364
+      ],
+      "normalization_ceiling": 1336
+    },
+    {
+      "path": "13365.json",
+      "sha256": "43178e71d20e97060f48155fabb103d3aa96a9a2c79baf4319f9daafc70022d8",
+      "J": [
+        13365,
+        13964
+      ],
+      "normalization_ceiling": 1396
+    },
+    {
+      "path": "13965.json",
+      "sha256": "10d8ca4e215d0afaa8a147ebc5518032d3f53eea67f477f37cb5e7b32821fa89",
+      "J": [
+        13965,
+        14964
+      ],
+      "normalization_ceiling": 1496
+    },
+    {
+      "path": "14965.json",
+      "sha256": "44edd058f438f89345555f5415285fc680aba0340e1cb0c3bc5c6e653b7eadb3",
+      "J": [
+        14965,
+        15964
+      ],
+      "normalization_ceiling": 1596
+    },
+    {
+      "path": "15965.json",
+      "sha256": "4015946283a9b054cd1b0c2b9c1fbd9d715b6ebb584d36990c4abc9a6b463e07",
+      "J": [
+        15965,
+        16964
+      ],
+      "normalization_ceiling": 1696
+    },
+    {
+      "path": "16965.json",
+      "sha256": "bb5d63d9cd12f8d6c8b2476681a58568d3c51683abe1ead88891fca57c65b92e",
+      "J": [
+        16965,
+        17964
+      ],
+      "normalization_ceiling": 1796
+    },
+    {
+      "path": "17965.json",
+      "sha256": "65a4690455e53d0882109348666d3523431f6fb96e330beb6d471eb7956fbf54",
+      "J": [
+        17965,
+        18964
+      ],
+      "normalization_ceiling": 1896
+    },
+    {
+      "path": "18965.json",
+      "sha256": "186fbdc0a2549dc4be77055025ac1bc1b1e920c579d343d1b2605a8c53b30b8d",
+      "J": [
+        18965,
+        19964
+      ],
+      "normalization_ceiling": 1996
+    },
+    {
+      "path": "19965.json",
+      "sha256": "41008844ab7e7308e50bd0b19717f8654fcb4f4a41a15687ca82e98d48763e76",
+      "J": [
+        19965,
+        20964
+      ],
+      "normalization_ceiling": 2096
+    },
+    {
+      "path": "20965.json",
+      "sha256": "a98e8546c9a7035ce169d0f365933e4cb086f461e6c1c047634f166e89baefd8",
+      "J": [
+        20965,
+        21499
+      ],
+      "normalization_ceiling": 2149
+    }
+  ],
+  "profile_count": 13,
+  "exact_prices": 416,
+  "all_jump_free_pencil_free_paths_paid": true
+}

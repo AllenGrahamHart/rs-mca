@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_nonconstant_pencil_penultimate_payment",
+    "title": "Pay nonconstant-pencil penultimate and maximal-pencil source classes",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the original generic-regular KoalaBear rank12/P2-rank19 source on J9965..21499, outside the previously paid whole-source pencil alternatives, every seven-anchor5/4 enclosure with a nonconstant pencil plane and nu<=H=floor((J1-1)/10) fits1048577*L_t/(67473-t). Any j-anchor prefix with a maximal nonconstant pencil of dimension s-1, s=11-j, fits the full remaining-anchor L_t price without a normalization cap. Therefore an original regular rank19 source with a nonconstant10-dimensional pencil is paid by272127061148955779, including the smaller paid whole-source alternatives by maximum. Combined residual small-normalization penultimate survivors have constant-direction planes but no nonconstant plane; high-normalization image3..9 survivors have no nonconstant3 pencil. No unrestricted rank19, whole J, row or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/statement.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/proof.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/source_scope.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/verify.py",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/audit.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/provenance.md",
+      "background/nodes/rate_half_mca_nonconstant_pencil_penultimate_payment/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_nonconstant_pencil_regular_children"
+    },
+    {
+      "from": "rate_half_mca_pencil_free_penultimate_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

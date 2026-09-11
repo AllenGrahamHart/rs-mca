@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_nonconstant_pencil_regular_children",
+    "title": "Nonconstant pencil planes control regular children through quadrics",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For polynomial V of dimension s, a nonconstant pencil T*(P,Q) has dimension at most s-1. At that maximum its component span is V and every regular anchor preserves maximality at the next shared dimension. In a regular5/4 pair/shared enclosure, any nonconstant pencil plane rules out whole-rank-one3/3 children. The carrier image lies on a smooth quadric or quadric cone: all nonvertex inner projections are birational, while an actual cone-vertex child retains the entire nonconstant plane. This holds in every characteristic, with full gcds and actual rather than generic anchors.",
+    "refs": [
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/statement.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/proof.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/quadric_projection.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/maximal_descent.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/controls.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/verify.py",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/claim_contract.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/dependency_subdag.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/audit.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/provenance.md",
+      "background/nodes/pair_space_nonconstant_pencil_regular_children/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_regular_projection_anchor"
+    },
+    {
+      "from": "polynomial_carrier_inner_projection_degree_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

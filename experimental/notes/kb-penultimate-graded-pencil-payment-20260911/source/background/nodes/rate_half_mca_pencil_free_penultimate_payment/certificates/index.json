@@ -1,0 +1,257 @@
+{
+  "schema": "pencil-free-penultimate-payment-v1",
+  "scope": {
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "J": [
+      9965,
+      21499
+    ],
+    "field": "2130706433^6",
+    "agreement": 1116048,
+    "target": "2^-128",
+    "old_anchors": 7,
+    "parent_pair_dimension": 5,
+    "parent_shared_dimension": 4,
+    "parent_pencil_free": true,
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "normalization_ceiling": "nu<=floor((J1-1)/10)",
+    "prefix_degree": "every actual nu*d_image<=J1-8",
+    "slack": "every v>=0; full gcd and original weights retained",
+    "multiplicity_charge": "binom(m+mu-1,2), not just branch count",
+    "geometric_price": "sum extra incidences<=actual D*max_eta((eta-1)*(C_eta-b0)_+)",
+    "ordinary_child": "every birational inner centre, including singular centres",
+    "occupancy_guard": "affine planes at rank-one coordinates, not line-only",
+    "original_weights_unchanged": true,
+    "hereditary_pencil_freeness": true,
+    "all_parent_enclosures_paid": false,
+    "whole_constant_upper_tail_open": true,
+    "source_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "rank19_closed": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "00fb08ad06908713a1d51c5009ac21d180a21f867effa3ef6fc3b409a1e8f168",
+      "J": [
+        9965,
+        10964
+      ],
+      "ordinary_caps": [
+        20,
+        20
+      ],
+      "excess_theta": [
+        259,
+        259
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "d259fac15bed5e953c2b838dcd6d4f664b1ec890d3e7a40c94dc40645c82e70b",
+      "J": [
+        10965,
+        11964
+      ],
+      "ordinary_caps": [
+        20,
+        20
+      ],
+      "excess_theta": [
+        259,
+        259
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "05452f95aa02c7b8af020f2e0418d94ebc78d212cd2c42cdfd43c2b5a6c309e7",
+      "J": [
+        11965,
+        12964
+      ],
+      "ordinary_caps": [
+        21,
+        21
+      ],
+      "excess_theta": [
+        258,
+        258
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "1c63cb59d9c422ba601e7410e9928799397a1ed950cd69e3b2f16726e64e59c2",
+      "J": [
+        12965,
+        13364
+      ],
+      "ordinary_caps": [
+        22,
+        22
+      ],
+      "excess_theta": [
+        273,
+        273
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "317aa57084c6c4cb08d7529c1df9f09ffd1f4bcd0df6d92e077e9dfe1f8b547c",
+      "J": [
+        13365,
+        13964
+      ],
+      "ordinary_caps": [
+        22,
+        22
+      ],
+      "excess_theta": [
+        273,
+        273
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "c1ad8f0be9ec3a3f744142d158be56fb9852e58e6064038a1ff0862db4b59e9b",
+      "J": [
+        13965,
+        14964
+      ],
+      "ordinary_caps": [
+        23,
+        23
+      ],
+      "excess_theta": [
+        272,
+        272
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "8c54ed03705e818a42ed6380e378836329d1750aa415f5252f0a0a10db239ebb",
+      "J": [
+        14965,
+        15964
+      ],
+      "ordinary_caps": [
+        24,
+        24
+      ],
+      "excess_theta": [
+        286,
+        286
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "6e1ca0e34927ea6bedfcda10c8c8116b30cb287211b13f3b398b0548058598e1",
+      "J": [
+        15965,
+        16964
+      ],
+      "ordinary_caps": [
+        25,
+        25
+      ],
+      "excess_theta": [
+        285,
+        285
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "fa3417c5ce97fe33194c908ab71b93491d8e4b4256e8795618c7b654a40f78ad",
+      "J": [
+        16965,
+        17964
+      ],
+      "ordinary_caps": [
+        26,
+        26
+      ],
+      "excess_theta": [
+        356,
+        356
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "198434bd9256d093f859dfc476b57ad6db91a0952474ddef381d7db07fa5de54",
+      "J": [
+        17965,
+        18964
+      ],
+      "ordinary_caps": [
+        28,
+        28
+      ],
+      "excess_theta": [
+        518,
+        518
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "486ddb0bfb23be4d22c0e60f67ebdf90ca9e05190658009c0d066ea076ea8504",
+      "J": [
+        18965,
+        19964
+      ],
+      "ordinary_caps": [
+        30,
+        30
+      ],
+      "excess_theta": [
+        592,
+        592
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "37ddde955e19f13d051b5424823904b6b1debb8d7c9367f26759ab8736a9764c",
+      "J": [
+        19965,
+        20964
+      ],
+      "ordinary_caps": [
+        33,
+        33
+      ],
+      "excess_theta": [
+        616,
+        616
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "8a6d8f504b8e1a10f50b6fc6fa9648b35e57a72fe111e6e0f96c9a24bc825364",
+      "J": [
+        20965,
+        21499
+      ],
+      "ordinary_caps": [
+        34,
+        34
+      ],
+      "excess_theta": [
+        614,
+        614
+      ]
+    }
+  ],
+  "profile_count": 13,
+  "raw_prices": 26,
+  "child_certificates": 1208,
+  "minimum_comparison_gap": [
+    "150824210815976004",
+    "43409"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_graded_inner_projection_incidence",
+    "title": "Price regular anchors by their child image degrees",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a full-gcd1 shared carrier V of dimension4 and degree D=nu*d, a pencil-free dimension5 pair enclosure W with full generic projection, and N>=A>D, actual pairs of fixed original weight at most c and complete cores at least A satisfy Omega<=c*((N-D)*b0+D*T)/(A-D). Here b0 bounds every birational regular child, C_eta bounds image-degree-eta children, and T=max(eta-1)*(C_eta-b0)_+. Characteristic0 or p>d is required; all child bounds are finite nonnegative actual-subset bounds.",
+    "refs": [
+      "background/nodes/pair_space_graded_inner_projection_incidence/statement.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/proof.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/verify.py",
+      "background/nodes/pair_space_graded_inner_projection_incidence/claim_contract.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/dependency_subdag.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/audit.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/provenance.md",
+      "background/nodes/pair_space_graded_inner_projection_incidence/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rational_curve_inner_projection_multiplicity_budget"
+    },
+    {
+      "from": "pair_space_regular_projection_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

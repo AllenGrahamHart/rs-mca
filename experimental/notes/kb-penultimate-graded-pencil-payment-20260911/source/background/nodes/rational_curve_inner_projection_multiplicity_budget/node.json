@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rational_curve_inner_projection_multiplicity_budget",
+    "title": "Charge full inner-projection multiplicities to one genus budget",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a geometrically integral rational nondegenerate degree-d curve in P^r, r>=3, in characteristic0 or p>d, nonbirational inner centres satisfy sum binom(m_P+mu_P-1,2)<=binom(d-r+1,2), where m_P is the full fixed-divisor degree. In P3, d=m+mu*eta gives nu*m*binom(d-2,2)/binom(m+mu-1,2)<=(eta-1)*nu*d. Singular branch orders and infinity are retained; generic projections are counting devices, not original anchors.",
+    "refs": [
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/statement.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/proof.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/plane_multiplicities.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/price_ratio.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/controls.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/verify.py",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/claim_contract.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/dependency_subdag.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/audit.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/provenance.md",
+      "background/nodes/rational_curve_inner_projection_multiplicity_budget/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rational_curve_inner_projection_branch_budget"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

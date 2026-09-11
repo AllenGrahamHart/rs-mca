@@ -1,0 +1,1486 @@
+{
+  "schema": "pencil-free-penultimate-profile-v1",
+  "J": [
+    15965,
+    16964
+  ],
+  "parent_profile_sha256": "57214468851a1c01d879418afcab8fa620e2b7c1a8ecd8d73ee4ae594942b3d7",
+  "cutoffs": [
+    {
+      "t": 1,
+      "K": 16956,
+      "H": 1696,
+      "q1": 6,
+      "qbar": 20,
+      "original_pair_weight": 981105,
+      "allowance": [
+        "1092404731956",
+        "20767"
+      ],
+      "ordinary_cap": 25,
+      "high_image_cutoff": 25,
+      "high_image_gap_twice": 394090,
+      "ordinary_checks": [
+        {
+          "eta": 2,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 163,
+          "gap_twice": 271678
+        },
+        {
+          "eta": 3,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 109,
+          "gap_twice": 251326
+        },
+        {
+          "eta": 4,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 82,
+          "gap_twice": 230974
+        },
+        {
+          "eta": 5,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 67,
+          "gap_twice": 190270
+        },
+        {
+          "eta": 6,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 56,
+          "gap_twice": 169918
+        },
+        {
+          "eta": 7,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 49,
+          "gap_twice": 129214
+        },
+        {
+          "eta": 8,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 44,
+          "gap_twice": 81726
+        },
+        {
+          "eta": 9,
+          "nu": [
+            1,
+            1695
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 40,
+          "gap_twice": 38440
+        },
+        {
+          "eta": 10,
+          "nu": [
+            1,
+            1541
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 37,
+          "gap_twice": 116950
+        },
+        {
+          "eta": 11,
+          "nu": [
+            1,
+            1413
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 34,
+          "gap_twice": 199036
+        },
+        {
+          "eta": 12,
+          "nu": [
+            1,
+            1304
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 32,
+          "gap_twice": 253438
+        },
+        {
+          "eta": 13,
+          "nu": [
+            1,
+            1211
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 31,
+          "gap_twice": 277894
+        },
+        {
+          "eta": 14,
+          "nu": [
+            1,
+            1130
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 29,
+          "gap_twice": 335630
+        },
+        {
+          "eta": 15,
+          "nu": [
+            1,
+            1059
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 28,
+          "gap_twice": 362980
+        },
+        {
+          "eta": 16,
+          "nu": [
+            1,
+            997
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 27,
+          "gap_twice": 390462
+        },
+        {
+          "eta": 17,
+          "nu": [
+            1,
+            942
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 27,
+          "gap_twice": 386494
+        },
+        {
+          "eta": 18,
+          "nu": [
+            1,
+            892
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 26,
+          "gap_twice": 415918
+        },
+        {
+          "eta": 19,
+          "nu": [
+            1,
+            847
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 26,
+          "gap_twice": 413624
+        },
+        {
+          "eta": 20,
+          "nu": [
+            1,
+            807
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 442990
+        },
+        {
+          "eta": 21,
+          "nu": [
+            1,
+            770
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 441190
+        },
+        {
+          "eta": 22,
+          "nu": [
+            1,
+            737
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 438550
+        },
+        {
+          "eta": 23,
+          "nu": [
+            1,
+            706
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 437110
+        },
+        {
+          "eta": 24,
+          "nu": [
+            1,
+            678
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 435070
+        }
+      ],
+      "all_normalization_checks": [
+        {
+          "eta": 2,
+          "cap": 310,
+          "excess_price": 285,
+          "proof": {
+            "eta": 2,
+            "nu": [
+              1,
+              8477
+            ],
+            "M": 311,
+            "mode": "plane_occupancy",
+            "qbar": 20,
+            "cap": 310
+          }
+        },
+        {
+          "eta": 3,
+          "cap": 158,
+          "excess_price": 266,
+          "proof": {
+            "eta": 3,
+            "nu": [
+              1,
+              5651
+            ],
+            "M": 159,
+            "mode": "energy",
+            "coefficients": [
+              415367318010432,
+              -73909399894,
+              91986
+            ],
+            "endpoints": [
+              415293408702524,
+              642761828224
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              20408290,
+              24764440
+            ],
+            "v_derivatives": [
+              12936658210,
+              15130654910
+            ],
+            "v2": 100488
+          }
+        },
+        {
+          "eta": 4,
+          "cap": 63,
+          "excess_price": 114,
+          "proof": {
+            "eta": 4,
+            "nu": [
+              1,
+              4238
+            ],
+            "M": 64,
+            "mode": "energy",
+            "coefficients": [
+              56475786964992,
+              -12859048230,
+              -89496
+            ],
+            "endpoints": [
+              56462927827266,
+              371734770828
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              7588107,
+              8723623
+            ],
+            "v_derivatives": [
+              1925265882,
+              2145293292
+            ],
+            "v2": 16128
+          }
+        },
+        {
+          "eta": 5,
+          "cap": 45,
+          "excess_price": 80,
+          "proof": {
+            "eta": 5,
+            "nu": [
+              1,
+              3391
+            ],
+            "M": 46,
+            "mode": "energy",
+            "coefficients": [
+              25514188644480,
+              -7106043684,
+              -116820
+            ],
+            "endpoints": [
+              25507082483976,
+              74295233616
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              5159002,
+              5684452
+            ],
+            "v_derivatives": [
+              936832908,
+              1004321028
+            ],
+            "v2": 8280
+          }
+        },
+        {
+          "eta": 6,
+          "cap": 38,
+          "excess_price": 65,
+          "proof": {
+            "eta": 6,
+            "nu": [
+              1,
+              2825
+            ],
+            "M": 39,
+            "mode": "energy",
+            "coefficients": [
+              16660296624192,
+              -5389814164,
+              -143880
+            ],
+            "endpoints": [
+              16654906666148,
+              285819285892
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              4214341,
+              4502389
+            ],
+            "v_derivatives": [
+              646905400,
+              674433752
+            ],
+            "v2": 5928
+          }
+        },
+        {
+          "eta": 7,
+          "cap": 34,
+          "excess_price": 54,
+          "proof": {
+            "eta": 7,
+            "nu": [
+              1,
+              2422
+            ],
+            "M": 35,
+            "mode": "energy",
+            "coefficients": [
+              12402164613440,
+              -4574381570,
+              -172410
+            ],
+            "endpoints": [
+              12397590059460,
+              311640908460
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              3674526,
+              3827049
+            ],
+            "v_derivatives": [
+              504982630,
+              514400320
+            ],
+            "v2": 4760
+          }
+        },
+        {
+          "eta": 8,
+          "cap": 30,
+          "excess_price": 35,
+          "proof": {
+            "eta": 8,
+            "nu": [
+              1,
+              2119
+            ],
+            "M": 31,
+            "mode": "interpolation",
+            "ell": 61,
+            "gap_twice": 17966
+          }
+        },
+        {
+          "eta": 9,
+          "cap": 27,
+          "excess_price": 16,
+          "proof": {
+            "eta": 9,
+            "nu": [
+              1,
+              1883
+            ],
+            "M": 28,
+            "mode": "interpolation",
+            "ell": 46,
+            "gap_twice": 20472
+          }
+        },
+        {
+          "eta": 10,
+          "cap": 26,
+          "excess_price": 9,
+          "proof": {
+            "eta": 10,
+            "nu": [
+              1,
+              1695
+            ],
+            "M": 27,
+            "mode": "interpolation",
+            "ell": 39,
+            "gap_twice": 88634
+          }
+        },
+        {
+          "eta": 11,
+          "cap": 25,
+          "excess_price": 0,
+          "proof": {
+            "eta": 11,
+            "nu": [
+              1,
+              1541
+            ],
+            "M": 26,
+            "mode": "interpolation",
+            "ell": 34,
+            "gap_twice": 89212
+          }
+        },
+        {
+          "eta": 12,
+          "cap": 24,
+          "excess_price": 0,
+          "proof": {
+            "eta": 12,
+            "nu": [
+              1,
+              1412
+            ],
+            "M": 25,
+            "mode": "interpolation",
+            "ell": 30,
+            "gap_twice": 56478
+          }
+        },
+        {
+          "eta": 13,
+          "cap": 24,
+          "excess_price": 0,
+          "proof": {
+            "eta": 13,
+            "nu": [
+              1,
+              1304
+            ],
+            "M": 25,
+            "mode": "interpolation",
+            "ell": 29,
+            "gap_twice": 89806
+          }
+        },
+        {
+          "eta": 14,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 14,
+            "nu": [
+              1,
+              1211
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 26,
+            "gap_twice": 22538
+          }
+        },
+        {
+          "eta": 15,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 15,
+            "nu": [
+              1,
+              1130
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 25,
+            "gap_twice": 56702
+          }
+        },
+        {
+          "eta": 16,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 16,
+            "nu": [
+              1,
+              1059
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 24,
+            "gap_twice": 90974
+          }
+        },
+        {
+          "eta": 17,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 17,
+            "nu": [
+              1,
+              997
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 24,
+            "gap_twice": 90664
+          }
+        },
+        {
+          "eta": 18,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 18,
+            "nu": [
+              1,
+              941
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125222
+          }
+        },
+        {
+          "eta": 19,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 19,
+            "nu": [
+              1,
+              892
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124622
+          }
+        },
+        {
+          "eta": 20,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 20,
+            "nu": [
+              1,
+              847
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125102
+          }
+        },
+        {
+          "eta": 21,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 21,
+            "nu": [
+              1,
+              807
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124682
+          }
+        },
+        {
+          "eta": 22,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 22,
+            "nu": [
+              1,
+              770
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125102
+          }
+        },
+        {
+          "eta": 23,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 23,
+            "nu": [
+              1,
+              737
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124442
+          }
+        },
+        {
+          "eta": 24,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 24,
+            "nu": [
+              1,
+              706
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124862
+          }
+        }
+      ],
+      "excess_theta": 285,
+      "penultimate_bound": [
+        "30460254107925",
+        "67472"
+      ],
+      "parent_allowance": [
+        "286367619155056653",
+        "350297756"
+      ],
+      "comparison_gap": [
+        "512902379560948137",
+        "20767"
+      ]
+    },
+    {
+      "t": 2,
+      "K": 16956,
+      "H": 1696,
+      "q1": 6,
+      "qbar": 20,
+      "original_pair_weight": 981106,
+      "allowance": [
+        "5826146548220",
+        "110757"
+      ],
+      "ordinary_cap": 25,
+      "high_image_cutoff": 25,
+      "high_image_gap_twice": 394038,
+      "ordinary_checks": [
+        {
+          "eta": 2,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 163,
+          "gap_twice": 271626
+        },
+        {
+          "eta": 3,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 109,
+          "gap_twice": 251274
+        },
+        {
+          "eta": 4,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 82,
+          "gap_twice": 230922
+        },
+        {
+          "eta": 5,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 67,
+          "gap_twice": 190218
+        },
+        {
+          "eta": 6,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 56,
+          "gap_twice": 169866
+        },
+        {
+          "eta": 7,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 49,
+          "gap_twice": 129162
+        },
+        {
+          "eta": 8,
+          "nu": [
+            1,
+            1696
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 44,
+          "gap_twice": 81674
+        },
+        {
+          "eta": 9,
+          "nu": [
+            1,
+            1695
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 40,
+          "gap_twice": 38388
+        },
+        {
+          "eta": 10,
+          "nu": [
+            1,
+            1541
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 37,
+          "gap_twice": 116898
+        },
+        {
+          "eta": 11,
+          "nu": [
+            1,
+            1413
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 34,
+          "gap_twice": 198984
+        },
+        {
+          "eta": 12,
+          "nu": [
+            1,
+            1304
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 32,
+          "gap_twice": 253386
+        },
+        {
+          "eta": 13,
+          "nu": [
+            1,
+            1211
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 31,
+          "gap_twice": 277842
+        },
+        {
+          "eta": 14,
+          "nu": [
+            1,
+            1130
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 29,
+          "gap_twice": 335578
+        },
+        {
+          "eta": 15,
+          "nu": [
+            1,
+            1059
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 28,
+          "gap_twice": 362928
+        },
+        {
+          "eta": 16,
+          "nu": [
+            1,
+            997
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 27,
+          "gap_twice": 390410
+        },
+        {
+          "eta": 17,
+          "nu": [
+            1,
+            942
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 27,
+          "gap_twice": 386442
+        },
+        {
+          "eta": 18,
+          "nu": [
+            1,
+            892
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 26,
+          "gap_twice": 415866
+        },
+        {
+          "eta": 19,
+          "nu": [
+            1,
+            847
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 26,
+          "gap_twice": 413572
+        },
+        {
+          "eta": 20,
+          "nu": [
+            1,
+            807
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 442938
+        },
+        {
+          "eta": 21,
+          "nu": [
+            1,
+            770
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 441138
+        },
+        {
+          "eta": 22,
+          "nu": [
+            1,
+            737
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 438498
+        },
+        {
+          "eta": 23,
+          "nu": [
+            1,
+            706
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 437058
+        },
+        {
+          "eta": 24,
+          "nu": [
+            1,
+            678
+          ],
+          "M": 26,
+          "mode": "interpolation",
+          "ell": 25,
+          "gap_twice": 435018
+        }
+      ],
+      "all_normalization_checks": [
+        {
+          "eta": 2,
+          "cap": 310,
+          "excess_price": 285,
+          "proof": {
+            "eta": 2,
+            "nu": [
+              1,
+              8477
+            ],
+            "M": 311,
+            "mode": "plane_occupancy",
+            "qbar": 20,
+            "cap": 310
+          }
+        },
+        {
+          "eta": 3,
+          "cap": 158,
+          "excess_price": 266,
+          "proof": {
+            "eta": 3,
+            "nu": [
+              1,
+              5651
+            ],
+            "M": 159,
+            "mode": "energy",
+            "coefficients": [
+              415354338929472,
+              -73909890250,
+              91986
+            ],
+            "endpoints": [
+              415280429131208,
+              627011745508
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              20407972,
+              24764122
+            ],
+            "v_derivatives": [
+              12936456598,
+              15130453298
+            ],
+            "v2": 100488
+          }
+        },
+        {
+          "eta": 4,
+          "cap": 63,
+          "excess_price": 114,
+          "proof": {
+            "eta": 4,
+            "nu": [
+              1,
+              4238
+            ],
+            "M": 64,
+            "mode": "energy",
+            "coefficients": [
+              56473844494592,
+              -12859116838,
+              -89496
+            ],
+            "endpoints": [
+              56460985288258,
+              369501539724
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              7587979,
+              8723495
+            ],
+            "v_derivatives": [
+              1925233370,
+              2145260780
+            ],
+            "v2": 16128
+          }
+        },
+        {
+          "eta": 5,
+          "cap": 45,
+          "excess_price": 80,
+          "proof": {
+            "eta": 5,
+            "nu": [
+              1,
+              3391
+            ],
+            "M": 46,
+            "mode": "energy",
+            "coefficients": [
+              25513239425096,
+              -7106072204,
+              -116820
+            ],
+            "endpoints": [
+              25506133236072,
+              73249302912
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              5158910,
+              5684360
+            ],
+            "v_derivatives": [
+              936816164,
+              1004304284
+            ],
+            "v2": 8280
+          }
+        },
+        {
+          "eta": 6,
+          "cap": 38,
+          "excess_price": 65,
+          "proof": {
+            "eta": 6,
+            "nu": [
+              1,
+              2825
+            ],
+            "M": 39,
+            "mode": "energy",
+            "coefficients": [
+              16659639208992,
+              -5389830076,
+              -143880
+            ],
+            "endpoints": [
+              16654249235036,
+              285116919292
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              4214263,
+              4502311
+            ],
+            "v_derivatives": [
+              646893388,
+              674421740
+            ],
+            "v2": 5928
+          }
+        },
+        {
+          "eta": 7,
+          "cap": 34,
+          "excess_price": 54,
+          "proof": {
+            "eta": 7,
+            "nu": [
+              1,
+              2422
+            ],
+            "M": 35,
+            "mode": "energy",
+            "coefficients": [
+              12401650193520,
+              -4574390390,
+              -172410
+            ],
+            "endpoints": [
+              12397075630720,
+              311105126500
+            ],
+            "vertex_discriminant": null,
+            "positive_Z": [
+              3674456,
+              3826979
+            ],
+            "v_derivatives": [
+              504972970,
+              514390660
+            ],
+            "v2": 4760
+          }
+        },
+        {
+          "eta": 8,
+          "cap": 30,
+          "excess_price": 35,
+          "proof": {
+            "eta": 8,
+            "nu": [
+              1,
+              2119
+            ],
+            "M": 31,
+            "mode": "interpolation",
+            "ell": 61,
+            "gap_twice": 17904
+          }
+        },
+        {
+          "eta": 9,
+          "cap": 27,
+          "excess_price": 16,
+          "proof": {
+            "eta": 9,
+            "nu": [
+              1,
+              1883
+            ],
+            "M": 28,
+            "mode": "interpolation",
+            "ell": 46,
+            "gap_twice": 20416
+          }
+        },
+        {
+          "eta": 10,
+          "cap": 26,
+          "excess_price": 9,
+          "proof": {
+            "eta": 10,
+            "nu": [
+              1,
+              1695
+            ],
+            "M": 27,
+            "mode": "interpolation",
+            "ell": 39,
+            "gap_twice": 88580
+          }
+        },
+        {
+          "eta": 11,
+          "cap": 25,
+          "excess_price": 0,
+          "proof": {
+            "eta": 11,
+            "nu": [
+              1,
+              1541
+            ],
+            "M": 26,
+            "mode": "interpolation",
+            "ell": 34,
+            "gap_twice": 89160
+          }
+        },
+        {
+          "eta": 12,
+          "cap": 24,
+          "excess_price": 0,
+          "proof": {
+            "eta": 12,
+            "nu": [
+              1,
+              1412
+            ],
+            "M": 25,
+            "mode": "interpolation",
+            "ell": 30,
+            "gap_twice": 56428
+          }
+        },
+        {
+          "eta": 13,
+          "cap": 24,
+          "excess_price": 0,
+          "proof": {
+            "eta": 13,
+            "nu": [
+              1,
+              1304
+            ],
+            "M": 25,
+            "mode": "interpolation",
+            "ell": 29,
+            "gap_twice": 89756
+          }
+        },
+        {
+          "eta": 14,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 14,
+            "nu": [
+              1,
+              1211
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 26,
+            "gap_twice": 22490
+          }
+        },
+        {
+          "eta": 15,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 15,
+            "nu": [
+              1,
+              1130
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 25,
+            "gap_twice": 56654
+          }
+        },
+        {
+          "eta": 16,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 16,
+            "nu": [
+              1,
+              1059
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 24,
+            "gap_twice": 90926
+          }
+        },
+        {
+          "eta": 17,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 17,
+            "nu": [
+              1,
+              997
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 24,
+            "gap_twice": 90616
+          }
+        },
+        {
+          "eta": 18,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 18,
+            "nu": [
+              1,
+              941
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125174
+          }
+        },
+        {
+          "eta": 19,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 19,
+            "nu": [
+              1,
+              892
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124574
+          }
+        },
+        {
+          "eta": 20,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 20,
+            "nu": [
+              1,
+              847
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125054
+          }
+        },
+        {
+          "eta": 21,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 21,
+            "nu": [
+              1,
+              807
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124634
+          }
+        },
+        {
+          "eta": 22,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 22,
+            "nu": [
+              1,
+              770
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 125054
+          }
+        },
+        {
+          "eta": 23,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 23,
+            "nu": [
+              1,
+              737
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124394
+          }
+        },
+        {
+          "eta": 24,
+          "cap": 23,
+          "excess_price": 0,
+          "proof": {
+            "eta": 24,
+            "nu": [
+              1,
+              706
+            ],
+            "M": 24,
+            "mode": "interpolation",
+            "ell": 23,
+            "gap_twice": 124814
+          }
+        }
+      ],
+      "excess_theta": 285,
+      "penultimate_bound": [
+        "30460285154810",
+        "67471"
+      ],
+      "parent_allowance": [
+        "6109163269092882940",
+        "7472885547"
+      ],
+      "comparison_gap": [
+        "2735473466201591770",
+        "110757"
+      ]
+    }
+  ]
+}

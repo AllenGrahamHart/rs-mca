@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_inherited_normalization_frontier",
+    "title": "Force an actual normalization-degree jump in every excessive pencil-free terminal",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Residual source scope: after the paid whole-source pencil alternatives of rate_half_mca_regular_rational_plane_terminal_bounds are removed; if one occurs, use its whole-source payment instead. For original KoalaBear rank12 J9965..21499, actual P2 rank19 and eight regular anchors, all pencil-free regular3 terminals with eta2..5 and nu<=H=floor((J1-1)/10) fit the original raw1/2 allowances L_t, at every unused degree slack. The416 exact prices and inherited eta>=6 payment force excessive pencil-free terminals to have nu_8>H>=nu_0, hence an ACTUAL nonbirational inner anchor. Its branch-weighted coordinate guard applies in the official characteristic, but the coarse fixed-allowance selection recipe is unaffordable; no unrestricted rank19, whole degree, row or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/statement.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/proof.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/anchor_guard.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/guard_analysis.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/finite_prices.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/audit.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/provenance.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/result.md",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/verify.py",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/guard_prices.py",
+      "background/nodes/rate_half_mca_inherited_normalization_frontier/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "polynomial_carrier_inner_projection_degree_ledger"
+    },
+    {
+      "from": "rational_curve_inner_projection_branch_budget"
+    },
+    {
+      "from": "rate_half_mca_double_conic_terminal_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}
