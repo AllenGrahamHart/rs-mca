@@ -1,0 +1,116 @@
+{
+  "schema": "rank20-full-constant-prefix-v1",
+  "field": "2130706433^6",
+  "n": 2097152,
+  "k": 1048576,
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "original_error_rank": 12,
+  "actual_P2_rank": 20,
+  "J": [
+    9965,
+    13964
+  ],
+  "shared_dimension": 11,
+  "full_constant_dimension": 11,
+  "initial_quotient_dimension": 9,
+  "anchors": 8,
+  "terminal_pair_dimension": 4,
+  "terminal_shared_dimension": 3,
+  "terminal_pencil_dimension": 3,
+  "terminal_quotient_dimension": 1,
+  "factor_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "scalar_dimension": 3,
+  "original_weights": true,
+  "original_field": true,
+  "original_union_complements": true,
+  "same_P2_enclosure_for_both_cutoffs": true,
+  "raw_cutoffs": [
+    1,
+    2
+  ],
+  "packing_budget": 1048577,
+  "threshold": 349525,
+  "large_fibres_max": 2,
+  "mass_box_width": 1000,
+  "inside_weight": "one global t",
+  "local_antecedent": "after paid whole-source constant-pencil alternatives",
+  "normalization_cap_required": false,
+  "actual_pencil_occupation_assumed": false,
+  "whole_source_alternatives": "MAXIMUM",
+  "near": 134944,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "all_rank20_paid": false,
+  "full_constant_tail_paid": false,
+  "rank21_to22_paid": false,
+  "active_v4_atom": false,
+  "ordinary_LIST_row_paid": false,
+  "prize_closed": false,
+  "profiles": [
+    {
+      "path": "9965.jsonl",
+      "sha256": "36f43e61a5d5bc2de67edf7985080cd130bf253eed6a58b3ed5eda27237119d5",
+      "J": [
+        9965,
+        10964
+      ],
+      "residual_bound": 246551605079024985,
+      "whole_source_bound": 270000000000000000
+    },
+    {
+      "path": "10965.jsonl",
+      "sha256": "712ba8f4e5b169287fb191ac435004ba431bb186dfce9eb95f43b09c9f26be07",
+      "J": [
+        10965,
+        11964
+      ],
+      "residual_bound": 244822875909897379,
+      "whole_source_bound": 270000000000000000
+    },
+    {
+      "path": "11965.jsonl",
+      "sha256": "b52899368c753631f2ad8a562b54ff91d8c581ba786e36e11fe6bd3cb7d3e384",
+      "J": [
+        11965,
+        12964
+      ],
+      "residual_bound": 249898649334152558,
+      "whole_source_bound": 270000000000000000
+    },
+    {
+      "path": "12965.jsonl",
+      "sha256": "4a65e7edde0561d38209270ab5cd3e693b2346384af9b4c6c766fc828a41e521",
+      "J": [
+        12965,
+        13364
+      ],
+      "residual_bound": 250563989103155372,
+      "whole_source_bound": 270000000000000000
+    },
+    {
+      "path": "13365.jsonl",
+      "sha256": "039b59ee75f877378f9292f72a8cf1af317bb7eb7796b0bf601475a4cd1509e1",
+      "J": [
+        13365,
+        13964
+      ],
+      "residual_bound": 270378604704109625,
+      "whole_source_bound": 270378604704109625
+    }
+  ],
+  "mass_boxes": 3166,
+  "LIST_transitions": 9498,
+  "source_bytes": 361476,
+  "whole_source_bound": 270378604704109625,
+  "reserve": 4602123407285462
+}

@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Rank-twenty full-constant original-source prefix
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Review packet](notes/kb-rank-twenty-full-constant-prefix-20260911/README.md),
+  frozen theorem, certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL at the printed source scope; external review due.
+- **What is being added:** Original KoalaBear error-rank12 sources with
+  ACTUAL P2 rank20 and full constant11 on J9965..13964 pay their entire
+  original bad-slope set by270378604704109625, reserve4602123407285462.
+  Eight anchors leave pair/shared4/3; dimension-three scalar LIST and one
+  shared quotient-fibre mass budget retain original owners and weights.
+- **How it is useful:** Extends K3 / DIRECT and #1179/#1180 beyond the
+  completed rank19 class. Other rank20 classes and the full-constant tail
+  remain open; no active-v4 atom, adjacent safe row or Prize closes.
+- **What to do next:** Review the original source gates, eight factors,
+  quotient1 packing and single global inside charge before integration.
+- **Replay/compute:** Two new and three inherited checks pass normal/O
+  under10seconds and50MiB peak process RSS;62 semantic mutations and69
+  manifest mutations. No Modal or compute request.
+
 ### 2026-09-11 - Full rank-nineteen original-source payment
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
