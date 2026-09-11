@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_terminal_genus_energy_frontier",
+    "title": "Branch energy pays image degrees at least six in regular MCA terminals",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Throughout original KoalaBear rank12 J9965..21499, branch-energy prices and the prior high-image theorem pay every pencil-free regular3 terminal with plane-image equation degree eta>=6; spectral thresholds are4/5/6/6. All actual primitive degrees, full gcds and degree slack are retained in328 exact tests. Excess has image degree2..5; whole constant upper tail, unrestricted rank19 and both Prizes remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/statement.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/proof.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/finite_calibration.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/thresholds.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/result.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/provenance.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/audit.md",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify.py",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_operator_branch_genus_energy"
+    },
+    {
+      "from": "rate_half_mca_regular_terminal_low_image_degree_frontier"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

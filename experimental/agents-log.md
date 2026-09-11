@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Branch energy forces image degree at most five
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Two-node K3 / DIRECT extension](notes/kb-regular-terminal-branch-genus-energy-20260911/README.md),
+  frozen proofs, thirteen certificate shards, dependency manifest and replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** The finite domain constraint and planar branch-pair
+  budget sharpen actual collision energy. Combined with the previous
+  interpolation theorem, every pencil-free regular3 terminal of image degree
+  at least6 fits the original allowances throughout J9965..21499.
+- **How it is useful:** Extends fec5e264 and the #1179/#1180 source-bound
+  program. Uniform spectral thresholds improve from9/10/11/11 to4/5/6/6;
+  excess now has image degree2..5. Singular fibres and original owners survive.
+- **Verification:** Three new and seven inherited focused checks pass normally
+  and under-O. The new audit checks328 exact all-degree/all-slack prices and
+  rejects38 mutations; the wrapper rejects57 malformed manifests. A118-node
+  locally PROVED closure,363 inherited documents and1312 source hashes are checked.
+- **What to do next:** Review normalization, planar delta and weighted energy;
+  pay image degrees2..5 and whole constant3 on J14965..21499. No whole J,
+  unrestricted rank19 bound, active atom, LIST row or Prize problem closes.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-11 - Actual collision interpolation forces low image degree
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

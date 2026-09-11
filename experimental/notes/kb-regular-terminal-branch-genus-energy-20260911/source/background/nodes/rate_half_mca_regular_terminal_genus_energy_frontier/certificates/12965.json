@@ -1,0 +1,663 @@
+{
+  "schema": "regular-branch-energy-profile-v1",
+  "J": [
+    12965,
+    13364
+  ],
+  "old_certificate_sha256": "6d5677e763c53bd135cbf244f75c3e974bf97e21a4cee285a53d3ac561332f4e",
+  "original_constant_gate": 657878,
+  "spectra": [
+    {
+      "e": 0,
+      "eta0": 4,
+      "inherited_eta0": 6,
+      "checks": [
+        {
+          "eta": 4,
+          "t": 1,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 0,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344035745848560,
+            -17427567144,
+            43320
+          ],
+          "energy_endpoints": [
+            343948609095840,
+            119000699196816
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754355,
+            5889190
+          ],
+          "v_derivative_endpoints": [
+            12898175328,
+            15598388376
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 4,
+          "t": 2,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 0,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344022663151536,
+            -17427801064,
+            43320
+          ],
+          "energy_endpoints": [
+            343935525229216,
+            118984492264272
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754269,
+            5889104
+          ],
+          "v_derivative_endpoints": [
+            12897941408,
+            15598154456
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206452
+        },
+        {
+          "eta": 5,
+          "t": 1,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 0,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537546407821092,
+            -17785496424,
+            57732
+          ],
+          "energy_endpoints": [
+            537439696920900,
+            310301709696900
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754440,
+            5889190
+          ],
+          "v_derivative_endpoints": [
+            20153760000,
+            24492777000
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 5,
+          "t": 2,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 0,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537525966106992,
+            -17785861924,
+            57732
+          ],
+          "energy_endpoints": [
+            537419253013800,
+            310276386364800
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754354,
+            5889104
+          ],
+          "v_derivative_endpoints": [
+            20153394500,
+            24492411500
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206452
+        }
+      ]
+    },
+    {
+      "e": 1,
+      "eta0": 4,
+      "inherited_eta0": 6,
+      "checks": [
+        {
+          "eta": 4,
+          "t": 1,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 38,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344041526650544,
+            -23208288872,
+            -36936
+          ],
+          "energy_endpoints": [
+            343925484282784,
+            27482875739216
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754203,
+            5381700
+          ],
+          "v_derivative_endpoints": [
+            12897761888,
+            14218015576
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 4,
+          "t": 2,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 38,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344028443848944,
+            -23208418216,
+            -36936
+          ],
+          "energy_endpoints": [
+            343912400834464,
+            27468065419152
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754117,
+            5381614
+          ],
+          "v_derivative_endpoints": [
+            12897527968,
+            14217781656
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206452
+        },
+        {
+          "eta": 5,
+          "t": 1,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 38,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537555440324192,
+            -26817874124,
+            -67668
+          ],
+          "energy_endpoints": [
+            537394530643400,
+            167305110544400
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754250,
+            5381700
+          ],
+          "v_derivative_endpoints": [
+            20152952500,
+            22335944500
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 5,
+          "t": 2,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 38,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537534998446692,
+            -26818076224,
+            -67668
+          ],
+          "energy_endpoints": [
+            537374087553300,
+            167281969419300
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754164,
+            5381614
+          ],
+          "v_derivative_endpoints": [
+            20152587000,
+            22335579000
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206452
+        }
+      ]
+    },
+    {
+      "e": 2,
+      "eta0": 4,
+      "inherited_eta0": 6,
+      "checks": [
+        {
+          "eta": 4,
+          "t": 1,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 48,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344043047921904,
+            -24729546792,
+            -50376
+          ],
+          "energy_endpoints": [
+            343919398928544,
+            4769012259216
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754163,
+            5248150
+          ],
+          "v_derivative_endpoints": [
+            12897653088,
+            13854759576
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 4,
+          "t": 2,
+          "kappa": [
+            5,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 48,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            344029965092784,
+            -24729648616,
+            -50376
+          ],
+          "energy_endpoints": [
+            343906315590304,
+            4754569468752
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754077,
+            5248064
+          ],
+          "v_derivative_endpoints": [
+            12897419168,
+            13854525656
+          ],
+          "v2": 115584,
+          "paid_terminal_weight": 41206452
+        },
+        {
+          "eta": 5,
+          "t": 1,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 48,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537557817310692,
+            -29194839624,
+            -88668
+          ],
+          "energy_endpoints": [
+            537382645080900,
+            131814698856900
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754200,
+            5248150
+          ],
+          "v_derivative_endpoints": [
+            20152740000,
+            21768357000
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 5,
+          "t": 2,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 48,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537537375390192,
+            -29194998724,
+            -88668
+          ],
+          "energy_endpoints": [
+            537362202205800,
+            131792131996800
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754114,
+            5248064
+          ],
+          "v_derivative_endpoints": [
+            20152374500,
+            21767991500
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206452
+        }
+      ]
+    },
+    {
+      "e": 3,
+      "eta0": 5,
+      "inherited_eta0": 7,
+      "checks": [
+        {
+          "eta": 5,
+          "t": 1,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 57,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537559956602817,
+            -31334117124,
+            -103293
+          ],
+          "energy_endpoints": [
+            537371948181525,
+            100635800345025
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754155,
+            5127955
+          ],
+          "v_derivative_endpoints": [
+            20152548750,
+            21257528250
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 5,
+          "t": 2,
+          "kappa": [
+            6,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 57,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            537539514643617,
+            -31334237524,
+            -103293
+          ],
+          "energy_endpoints": [
+            537351505499925,
+            100613750323425
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754069,
+            5127869
+          ],
+          "v_derivative_endpoints": [
+            20152183250,
+            21257162750
+          ],
+          "v2": 180600,
+          "paid_terminal_weight": 41206452
+        },
+        {
+          "eta": 6,
+          "t": 1,
+          "kappa": [
+            7,
+            13356
+          ],
+          "allowance": [
+            "7983991472",
+            "191"
+          ],
+          "original_pair_weight": 981105,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 57,
+          "branch_budget": 10,
+          "energy_coefficients": [
+            774077282824932,
+            -36066434520,
+            -159756
+          ],
+          "energy_endpoints": [
+            773824809955248,
+            263876271003396
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754183,
+            5127955
+          ],
+          "v_derivative_endpoints": [
+            29019841200,
+            30726163776
+          ],
+          "v2": 260064,
+          "paid_terminal_weight": 41206410
+        },
+        {
+          "eta": 6,
+          "t": 2,
+          "kappa": [
+            7,
+            13356
+          ],
+          "allowance": [
+            "14307282476720",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 43,
+          "P": 903,
+          "q1": 5,
+          "qbar": 19,
+          "root_cost_twice": 57,
+          "branch_budget": 10,
+          "energy_coefficients": [
+            774047846403684,
+            -36066607896,
+            -159756
+          ],
+          "energy_endpoints": [
+            773795372320368,
+            263844518972292
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            4754097,
+            5127869
+          ],
+          "v_derivative_endpoints": [
+            29019314880,
+            30725637456
+          ],
+          "v2": 260064,
+          "paid_terminal_weight": 41206452
+        }
+      ]
+    }
+  ]
+}

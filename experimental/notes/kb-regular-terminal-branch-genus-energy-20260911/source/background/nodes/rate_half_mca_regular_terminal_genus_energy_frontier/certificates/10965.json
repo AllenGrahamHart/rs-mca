@@ -1,0 +1,193 @@
+{
+  "schema": "regular-branch-energy-profile-v1",
+  "J": [
+    10965,
+    11964
+  ],
+  "old_certificate_sha256": "6d5677e763c53bd135cbf244f75c3e974bf97e21a4cee285a53d3ac561332f4e",
+  "original_constant_gate": 673270,
+  "spectra": [
+    {
+      "e": 0,
+      "eta0": 4,
+      "inherited_eta0": 5,
+      "checks": [
+        {
+          "eta": 4,
+          "t": 1,
+          "kappa": [
+            5,
+            11956
+          ],
+          "allowance": [
+            "41417177472",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 32,
+          "P": 496,
+          "q1": 5,
+          "qbar": 18,
+          "root_cost_twice": 0,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            153465680601856,
+            -10110205928,
+            23784
+          ],
+          "energy_endpoints": [
+            153415130166816,
+            35987884668512
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            3269883,
+            4022796
+          ],
+          "v_derivative_endpoints": [
+            6558465952,
+            7885983032
+          ],
+          "v2": 63488,
+          "paid_terminal_weight": 30414255
+        },
+        {
+          "eta": 4,
+          "t": 2,
+          "kappa": [
+            5,
+            11956
+          ],
+          "allowance": [
+            "10602777098880",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 32,
+          "P": 496,
+          "q1": 5,
+          "qbar": 18,
+          "root_cost_twice": 0,
+          "branch_budget": 3,
+          "energy_coefficients": [
+            153458984592128,
+            -10110334952,
+            23784
+          ],
+          "energy_endpoints": [
+            153408433511968,
+            35979646047840
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            3269819,
+            4022732
+          ],
+          "v_derivative_endpoints": [
+            6558336928,
+            7885854008
+          ],
+          "v2": 63488,
+          "paid_terminal_weight": 30414286
+        }
+      ]
+    },
+    {
+      "e": 1,
+      "eta0": 5,
+      "inherited_eta0": 5,
+      "checks": []
+    },
+    {
+      "e": 2,
+      "eta0": 5,
+      "inherited_eta0": 6,
+      "checks": [
+        {
+          "eta": 5,
+          "t": 1,
+          "kappa": [
+            6,
+            11956
+          ],
+          "allowance": [
+            "41417177472",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 32,
+          "P": 496,
+          "q1": 5,
+          "qbar": 18,
+          "root_cost_twice": 46,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            239792468645284,
+            -18139804168,
+            -60316
+          ],
+          "energy_endpoints": [
+            239683627648900,
+            14291042936900
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            3269716,
+            3472866
+          ],
+          "v_derivative_endpoints": [
+            10247076800,
+            10648596800
+          ],
+          "v2": 99200,
+          "paid_terminal_weight": 30414255
+        },
+        {
+          "eta": 5,
+          "t": 2,
+          "kappa": [
+            6,
+            11956
+          ],
+          "allowance": [
+            "10602777098880",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 32,
+          "P": 496,
+          "q1": 5,
+          "qbar": 18,
+          "root_cost_twice": 46,
+          "branch_budget": 6,
+          "energy_coefficients": [
+            239782005982884,
+            -18139858568,
+            -60316
+          ],
+          "energy_endpoints": [
+            239673164660100,
+            14279929868100
+          ],
+          "vertex_discriminant": null,
+          "positive_Z_endpoints": [
+            3269652,
+            3472802
+          ],
+          "v_derivative_endpoints": [
+            10246875200,
+            10648395200
+          ],
+          "v2": 99200,
+          "paid_terminal_weight": 30414286
+        }
+      ]
+    },
+    {
+      "e": 3,
+      "eta0": 6,
+      "inherited_eta0": 6,
+      "checks": []
+    }
+  ]
+}

@@ -1,0 +1,3506 @@
+{
+  "schema": "kb-regular-terminal-branch-genus-energy-v1",
+  "parent_commit": "fec5e264bfe806c2c08b58f2af194e0f1f00902c",
+  "upstream_main": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "upstream_pr_heads": {
+    "1180": "478bfc41278c7669543388107a2fabff4b9fbd1b",
+    "1181": "8543d330a9356df7a7b366e79c8105fd8d2173e1",
+    "1182": "c24afd9b961bee43eaf335a6278160465d880c53",
+    "1183": "3b0db2af019b988945865e7a06e9614495e337fc"
+  },
+  "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+  "origin_state": "dirty snapshot; per-file custody, not a clean-HEAD claim",
+  "snapshot_roots": [
+    "pair_space_operator_branch_genus_energy",
+    "rate_half_mca_regular_terminal_genus_energy_frontier"
+  ],
+  "requirements": {
+    "mca_nonuniform_support_margin_resource": [],
+    "list_two_component_relation_dichotomy": [],
+    "mca_low_core_polynomial_relation_payment": [
+      "mca_nonuniform_support_margin_resource",
+      "list_two_component_relation_dichotomy"
+    ],
+    "mca_shared_carrier_rank_two_anchor": [
+      "mca_low_core_polynomial_relation_payment"
+    ],
+    "list_padded_johnson_dimension_descent": [],
+    "mca_pencil_core_union_escape": [
+      "mca_low_core_polynomial_relation_payment",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "mca_low_core_quadratic_graph_payment": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_joint_pair_affine_incidence": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_weighted_pencil_raw_mass": [
+      "mca_shared_carrier_rank_two_anchor",
+      "mca_pencil_core_union_escape",
+      "mca_joint_pair_affine_incidence"
+    ],
+    "pair_space_operator_spectral_fibre_johnson": [
+      "mca_weighted_pencil_raw_mass"
+    ],
+    "pair_space_operator_eigen_root_incidence": [
+      "pair_space_operator_spectral_fibre_johnson"
+    ],
+    "pair_space_operator_collision_interpolation": [
+      "pair_space_operator_eigen_root_incidence"
+    ],
+    "pair_space_operator_branch_genus_energy": [
+      "pair_space_operator_collision_interpolation"
+    ],
+    "mca_rational_compression_fibre_weight": [
+      "mca_weighted_pencil_raw_mass"
+    ],
+    "pair_space_polynomial_projection_dichotomy": [],
+    "mca_core_completed_basis_margin_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_fiber_contraction_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_raw_margin_basis_mass": [
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_low_pair_carrier_weighted_tuple_count": [
+      "mca_raw_margin_basis_mass"
+    ],
+    "mca_moving_parameter_hyperplane_low_mass": [
+      "mca_low_pair_carrier_weighted_tuple_count"
+    ],
+    "mca_uniform_rank_one_weighted_line_cap": [],
+    "mca_scalar_agreement_dimension_descent": [],
+    "bchks_affine_witness_collinearity_mca": [],
+    "mca_padded_johnson_scalar_descent": [
+      "mca_uniform_rank_one_weighted_line_cap",
+      "mca_scalar_agreement_dimension_descent",
+      "bchks_affine_witness_collinearity_mca"
+    ],
+    "v13_2_near_rational_pair_proximity": [],
+    "v13_2_near_rational_supportwise_two_anchor_payment": [
+      "v13_2_near_rational_pair_proximity"
+    ],
+    "rate_half_mca_scan_free_error_rank_eleven_payment": [
+      "mca_padded_johnson_scalar_descent",
+      "mca_uniform_rank_one_weighted_line_cap",
+      "mca_scalar_agreement_dimension_descent",
+      "v13_2_near_rational_supportwise_two_anchor_payment"
+    ],
+    "rate_half_mca_error_rank_twelve_common_core_forcing": [
+      "mca_core_completed_basis_margin_resource",
+      "mca_padded_johnson_scalar_descent",
+      "mca_scalar_agreement_dimension_descent",
+      "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "bchks_affine_witness_collinearity_mca",
+      "v13_2_near_rational_supportwise_two_anchor_payment"
+    ],
+    "mca_common_core_low_margin_transport": [],
+    "mca_maximum_density_flat_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_flat_inside_tangent_basis_resource": [
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "mca_density_aware_flat_completion_resource": [
+      "mca_maximum_density_flat_core_basis_resource",
+      "mca_flat_inside_tangent_basis_resource"
+    ],
+    "mca_projective_fiber_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_receiver_fiber_peeling": [
+      "mca_projective_fiber_core_basis_resource",
+      "mca_common_core_low_margin_transport"
+    ],
+    "mca_receiver_flat_refunded_resource": [
+      "mca_receiver_fiber_peeling",
+      "mca_scalar_agreement_dimension_descent",
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "rate_half_mca_receiver_fiber_payment": [
+      "mca_receiver_fiber_peeling",
+      "mca_padded_johnson_scalar_descent",
+      "bchks_affine_witness_collinearity_mca"
+    ],
+    "rate_half_mca_maximum_density_high_interval": [
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "rate_half_mca_fiber_contraction_interval": [
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_maximum_density_high_interval"
+    ],
+    "rate_half_mca_receiver_flat_interval": [
+      "mca_receiver_flat_refunded_resource",
+      "rate_half_mca_fiber_contraction_interval",
+      "mca_padded_johnson_scalar_descent"
+    ],
+    "rate_half_mca_complete_core_refund_interval": [
+      "mca_flat_inside_tangent_basis_resource",
+      "mca_receiver_flat_refunded_resource",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_flat_interval"
+    ],
+    "rate_half_mca_quotient_density_interval": [
+      "mca_density_aware_flat_completion_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_flat_inside_tangent_basis_resource",
+      "mca_receiver_flat_refunded_resource",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_complete_core_refund_interval"
+    ],
+    "rate_half_mca_quotient_density_refined_interval": [
+      "rate_half_mca_quotient_density_interval"
+    ],
+    "mca_projective_flat_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_multiplicity_interpolation_curve_escape": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_polynomial_core_gluing": [],
+    "mca_received_pair_one_defect_weighted_list_reduction": [
+      "mca_nonuniform_support_margin_resource",
+      "mca_polynomial_core_gluing"
+    ],
+    "mca_raw_low_union_overlap_payment": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_maximal_margin_complete_core_selection": [],
+    "mca_low_core_homogeneous_level_payment": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_projective_split_product_list_payment": [
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_polynomial_map_projective_jet_dimension": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "elliptic_curve_bounded_polynomial_section_dimension": [],
+    "mca_low_core_smooth_cubic_payment": [
+      "elliptic_curve_bounded_polynomial_section_dimension",
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_normalization_unit_curve_payment": [
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_singular_cubic_weighted_incidence_payment": [
+      "mca_polynomial_map_projective_jet_dimension",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_geometric_progression_singular_cubic_payment": [
+      "mca_singular_cubic_weighted_incidence_payment"
+    ],
+    "mca_singular_cubic_component_list_payment": [
+      "mca_singular_cubic_weighted_incidence_payment"
+    ],
+    "rate_half_mca_cancelled_low_core_relation_payment": [
+      "rate_half_mca_maximum_density_high_interval",
+      "mca_projective_flat_core_basis_resource",
+      "mca_multiplicity_interpolation_curve_escape",
+      "mca_nonuniform_support_margin_resource",
+      "mca_received_pair_one_defect_weighted_list_reduction",
+      "mca_low_core_polynomial_relation_payment",
+      "mca_raw_low_union_overlap_payment",
+      "list_padded_johnson_dimension_descent",
+      "mca_common_core_low_margin_transport",
+      "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "mca_maximal_margin_complete_core_selection",
+      "mca_low_core_quadratic_graph_payment",
+      "mca_low_core_homogeneous_level_payment",
+      "mca_projective_split_product_list_payment",
+      "mca_polynomial_map_projective_jet_dimension",
+      "mca_low_core_smooth_cubic_payment",
+      "mca_normalization_unit_curve_payment",
+      "mca_singular_cubic_weighted_incidence_payment",
+      "mca_geometric_progression_singular_cubic_payment",
+      "mca_singular_cubic_component_list_payment",
+      "mca_projective_fiber_core_basis_resource"
+    ],
+    "rate_half_mca_low_core_kernel_quadratic_strip": [
+      "rate_half_mca_cancelled_low_core_relation_payment"
+    ],
+    "mca_balanced_basis_under_flat_density": [
+      "mca_fiber_contraction_core_basis_resource"
+    ],
+    "rate_half_mca_balanced_density_payment": [
+      "mca_balanced_basis_under_flat_density",
+      "mca_core_completed_basis_margin_resource",
+      "mca_maximum_density_flat_core_basis_resource"
+    ],
+    "mca_balanced_basis_or_dense_core_flag": [
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_dense_core_flag_mass": [
+      "mca_balanced_basis_or_dense_core_flag",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_arbitrary_core_flat_basis_resource": [
+      "mca_density_aware_flat_completion_resource",
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_rank_eight_density_payment": [
+      "mca_arbitrary_core_flat_basis_resource",
+      "mca_balanced_basis_or_dense_core_flag",
+      "rate_half_mca_dense_core_flag_mass",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_first_excess_core_flat": [
+      "mca_balanced_basis_or_dense_core_flag"
+    ],
+    "rate_half_mca_first_excess_core_interval": [
+      "mca_first_excess_core_flat",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource",
+      "rate_half_mca_quotient_density_refined_interval"
+    ],
+    "mca_quantitative_density_basis_product": [
+      "mca_balanced_basis_under_flat_density"
+    ],
+    "rate_half_mca_receiver_fiber_degree4700_payment": [
+      "mca_receiver_fiber_peeling",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_receiver_fiber_payment"
+    ],
+    "rate_half_mca_quantitative_density_interval": [
+      "mca_quantitative_density_basis_product",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_first_excess_core_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_rank_profile_density_basis_product": [
+      "mca_quantitative_density_basis_product"
+    ],
+    "rate_half_mca_rank_profile_density_interval": [
+      "mca_rank_profile_density_basis_product",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_quantitative_density_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_receiver_fiber_two_cost_resource": [
+      "mca_receiver_fiber_peeling",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_two_cost_receiver_fiber_payment": [
+      "mca_receiver_fiber_two_cost_resource",
+      "rate_half_mca_fiber_contraction_interval",
+      "rate_half_mca_receiver_fiber_payment",
+      "mca_padded_johnson_scalar_descent"
+    ],
+    "rate_half_mca_two_cost_fiber_interval": [
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_rank_profile_density_interval",
+      "mca_rank_profile_density_basis_product",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_projective_fiber_secant_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_clustered_arc_payment": [
+      "mca_projective_fiber_secant_resource",
+      "mca_projective_flat_core_basis_resource",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_flat_split_root_moment_basis": [
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_rank_profile_density_basis_product"
+    ],
+    "mca_fiber_collision_bonferroni_resource": [
+      "mca_projective_fiber_secant_resource"
+    ],
+    "rate_half_mca_collision_profile_interval": [
+      "mca_flat_split_root_moment_basis",
+      "mca_fiber_collision_bonferroni_resource",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_two_cost_fiber_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_coordinate_weighted_collision_resource": [
+      "mca_fiber_collision_bonferroni_resource",
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_rank_profile_density_basis_product",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_weighted_collision_interval": [
+      "mca_coordinate_weighted_collision_resource",
+      "mca_flat_split_root_moment_basis",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_collision_profile_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_projective_fiber_switching_resource": [
+      "mca_projective_fiber_secant_resource"
+    ],
+    "rate_half_mca_switching_credit_interval": [
+      "mca_projective_fiber_switching_resource",
+      "mca_coordinate_weighted_collision_resource",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_weighted_collision_interval",
+      "mca_arbitrary_core_flat_basis_resource",
+      "rate_half_mca_quotient_density_interval",
+      "rate_half_mca_balanced_density_payment",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_raw_mass_cubic_interval": [
+      "mca_raw_margin_basis_mass",
+      "mca_multiplicity_interpolation_curve_escape",
+      "rate_half_mca_cancelled_low_core_relation_payment",
+      "mca_singular_cubic_weighted_incidence_payment",
+      "mca_singular_cubic_component_list_payment",
+      "mca_geometric_progression_singular_cubic_payment"
+    ],
+    "rate_half_mca_rank_twelve_paid_interval_assembly": [
+      "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "mca_common_core_low_margin_transport",
+      "rate_half_mca_quotient_density_refined_interval",
+      "rate_half_mca_low_core_kernel_quadratic_strip",
+      "rate_half_mca_receiver_fiber_payment",
+      "rate_half_mca_balanced_density_payment",
+      "rate_half_mca_dense_core_flag_mass",
+      "rate_half_mca_rank_eight_density_payment",
+      "rate_half_mca_first_excess_core_interval",
+      "rate_half_mca_quantitative_density_interval",
+      "rate_half_mca_receiver_fiber_degree4700_payment",
+      "rate_half_mca_rank_profile_density_interval",
+      "rate_half_mca_two_cost_receiver_fiber_payment",
+      "rate_half_mca_two_cost_fiber_interval",
+      "rate_half_mca_clustered_arc_payment",
+      "rate_half_mca_collision_profile_interval",
+      "rate_half_mca_weighted_collision_interval",
+      "rate_half_mca_switching_credit_interval",
+      "rate_half_mca_raw_mass_cubic_interval"
+    ],
+    "rate_half_mca_parameter_graph_spread": [
+      "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "rate_half_mca_rank_twelve_paid_interval_assembly",
+      "mca_coordinate_weighted_collision_resource"
+    ],
+    "rate_half_mca_low_raw_rank_filtration": [
+      "mca_raw_margin_basis_mass",
+      "rate_half_mca_parameter_graph_spread",
+      "mca_padded_johnson_scalar_descent",
+      "rate_half_mca_rank_twelve_paid_interval_assembly",
+      "mca_maximal_margin_complete_core_selection"
+    ],
+    "rate_half_mca_completed_high_raw_mass": [
+      "rate_half_mca_low_raw_rank_filtration",
+      "mca_core_completed_basis_margin_resource",
+      "mca_raw_margin_basis_mass"
+    ],
+    "rate_half_mca_moving_normal_basis_payment": [
+      "mca_moving_parameter_hyperplane_low_mass",
+      "mca_fiber_contraction_core_basis_resource",
+      "rate_half_mca_completed_high_raw_mass",
+      "mca_shared_carrier_rank_two_anchor"
+    ],
+    "mca_min_envelope_fiber_contraction": [
+      "mca_fiber_contraction_core_basis_resource"
+    ],
+    "rate_half_mca_min_envelope_raw_mass": [
+      "mca_min_envelope_fiber_contraction",
+      "mca_raw_margin_basis_mass",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "rate_half_mca_raw_two_quadratic_normal_payment": [
+      "mca_moving_parameter_hyperplane_low_mass",
+      "rate_half_mca_moving_normal_basis_payment",
+      "rate_half_mca_min_envelope_raw_mass",
+      "mca_shared_carrier_rank_two_anchor"
+    ],
+    "mca_compression_fibre_raw_mass": [
+      "mca_weighted_pencil_raw_mass"
+    ],
+    "mca_compression_fibre_integer_envelope": [
+      "mca_compression_fibre_raw_mass"
+    ],
+    "mca_shared_carrier_pluecker_dichotomy": [
+      "mca_shared_carrier_rank_two_anchor"
+    ],
+    "mca_compatible_domain_tuple_refund": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_high44_pencil_union_payment": [
+      "rate_half_mca_completed_high_raw_mass",
+      "mca_compatible_domain_tuple_refund",
+      "mca_pencil_core_union_escape",
+      "mca_joint_pair_affine_incidence"
+    ],
+    "rate_half_mca_coupled_pair_rank_frontier": [
+      "mca_weighted_pencil_raw_mass",
+      "mca_shared_carrier_pluecker_dichotomy",
+      "mca_compression_fibre_raw_mass",
+      "rate_half_mca_min_envelope_raw_mass",
+      "rate_half_mca_high44_pencil_union_payment",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "rate_half_mca_integer_compression_rank_eighteen_payment": [
+      "mca_compression_fibre_integer_envelope",
+      "rate_half_mca_coupled_pair_rank_frontier",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "rate_half_mca_low_pair_affine_span_payment": [
+      "mca_joint_pair_affine_incidence",
+      "mca_low_core_polynomial_relation_payment",
+      "rate_half_mca_low_raw_rank_filtration",
+      "rate_half_mca_rank_twelve_paid_interval_assembly"
+    ],
+    "rate_half_mca_low_pair_pencil_payment": [
+      "mca_compatible_domain_tuple_refund",
+      "mca_raw_margin_basis_mass",
+      "mca_core_completed_basis_margin_resource",
+      "list_padded_johnson_dimension_descent",
+      "mca_low_core_polynomial_relation_payment",
+      "rate_half_mca_rank_twelve_paid_interval_assembly",
+      "rate_half_mca_low_pair_affine_span_payment"
+    ],
+    "mca_pencil_section_affine_incidence": [
+      "mca_joint_pair_affine_incidence"
+    ],
+    "rate_half_mca_dominant_low_pencil_payment": [
+      "mca_pencil_core_union_escape",
+      "rate_half_mca_low_pair_affine_span_payment",
+      "rate_half_mca_low_pair_pencil_payment"
+    ],
+    "rate_half_mca_low_pair_rank_eleven_payment": [
+      "mca_pencil_section_affine_incidence",
+      "rate_half_mca_dominant_low_pencil_payment",
+      "rate_half_mca_low_pair_pencil_payment"
+    ],
+    "rate_half_mca_low_pair_rank_twelve_payment": [
+      "mca_shared_carrier_rank_two_anchor",
+      "mca_pencil_section_affine_incidence",
+      "rate_half_mca_dominant_low_pencil_payment",
+      "rate_half_mca_low_pair_rank_eleven_payment"
+    ],
+    "rate_half_mca_low_pair_rank_fourteen_payment": [
+      "mca_shared_carrier_rank_two_anchor",
+      "mca_pencil_section_affine_incidence",
+      "rate_half_mca_dominant_low_pencil_payment",
+      "rate_half_mca_low_pair_rank_twelve_payment"
+    ],
+    "rate_half_mca_low_pair_rank_fifteen_payment": [
+      "mca_raw_margin_basis_mass",
+      "mca_shared_carrier_rank_two_anchor",
+      "mca_pencil_section_affine_incidence",
+      "rate_half_mca_dominant_low_pencil_payment",
+      "rate_half_mca_low_pair_rank_fourteen_payment"
+    ],
+    "rate_half_mca_low_raw_hyperplane_payment": [
+      "mca_low_pair_carrier_weighted_tuple_count",
+      "mca_shared_carrier_rank_two_anchor",
+      "rate_half_mca_low_pair_pencil_payment",
+      "rate_half_mca_low_pair_rank_fifteen_payment"
+    ],
+    "rate_half_mca_raw_two_projection_regular_frontier": [
+      "pair_space_polynomial_projection_dichotomy",
+      "rate_half_mca_raw_two_quadratic_normal_payment",
+      "rate_half_mca_integer_compression_rank_eighteen_payment",
+      "rate_half_mca_low_raw_hyperplane_payment"
+    ],
+    "pair_space_regular_projection_anchor": [
+      "mca_shared_carrier_rank_two_anchor"
+    ],
+    "rate_half_mca_regular_operator_terminal_reduction": [
+      "rate_half_mca_raw_two_projection_regular_frontier",
+      "pair_space_regular_projection_anchor",
+      "mca_weighted_pencil_raw_mass"
+    ],
+    "rate_half_mca_regular_rational_plane_terminal_bounds": [
+      "mca_rational_compression_fibre_weight",
+      "rate_half_mca_regular_operator_terminal_reduction",
+      "rate_half_mca_high44_pencil_union_payment",
+      "rate_half_mca_coupled_pair_rank_frontier",
+      "rate_half_mca_min_envelope_raw_mass",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "rate_half_mca_regular_terminal_actual_span_frontier": [
+      "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "mca_weighted_pencil_raw_mass",
+      "rate_half_mca_regular_operator_terminal_reduction",
+      "rate_half_mca_coupled_pair_rank_frontier",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "rate_half_mca_regular_terminal_rich_fibre_frontier": [
+      "pair_space_operator_spectral_fibre_johnson",
+      "rate_half_mca_regular_terminal_actual_span_frontier",
+      "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "rate_half_mca_regular_operator_terminal_reduction"
+    ],
+    "rate_half_mca_regular_terminal_eigen_capacity_frontier": [
+      "pair_space_operator_eigen_root_incidence",
+      "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "mca_weighted_pencil_raw_mass"
+    ],
+    "rate_half_mca_regular_terminal_low_image_degree_frontier": [
+      "pair_space_operator_collision_interpolation",
+      "rate_half_mca_regular_terminal_eigen_capacity_frontier"
+    ],
+    "rate_half_mca_regular_terminal_genus_energy_frontier": [
+      "pair_space_operator_branch_genus_energy",
+      "rate_half_mca_regular_terminal_low_image_degree_frontier"
+    ]
+  },
+  "origin_node_manifest_sha256": {
+    "mca_nonuniform_support_margin_resource": "7ca98443782a5f275143a0cadfa2106184376a02b34cf63fc08dcfa8244d85b1",
+    "list_two_component_relation_dichotomy": "a8a272d939f120134c1300b0a2825560152f521ef6f0001c856dfe97c6ff7479",
+    "mca_low_core_polynomial_relation_payment": "15b680cdac1df7058a4dffb810d7986943e5719d9951f75504719a96d3b76e69",
+    "mca_shared_carrier_rank_two_anchor": "be77cd27e62f5f54ab0afe18dd37fd52543236b3278b103a9ad3e51d56f1fb1b",
+    "list_padded_johnson_dimension_descent": "7177b785179f8a4399525082c4c50fcded5b4355b18e8779ae331b7b87f81266",
+    "mca_pencil_core_union_escape": "2ce109ac58fa8837c91a3d2544f72878e67fa75d233021974e25123d60c802eb",
+    "mca_low_core_quadratic_graph_payment": "e2fdf680cbe9a6c9b6366ad46e3cecbac6b4299395965dc4b40c40638a346c77",
+    "mca_joint_pair_affine_incidence": "a2a2c134312dbb86c8ecd1d08055bd6917b8d8da950cbfbca4afbda051328048",
+    "mca_weighted_pencil_raw_mass": "47077bbe3c91779600d950befb07630bd29204a3112e9cb498c978c1c22f1cc5",
+    "pair_space_operator_spectral_fibre_johnson": "87f292eb537fe05bb9e64e2bc00dcf0359eb461bd1dbdf97f76d351e08b9a7cc",
+    "pair_space_operator_eigen_root_incidence": "ca4c4566b5d7df5cf37a3065db6da30cd1e6ee9a651a169e307ab54dcb14a9c2",
+    "pair_space_operator_collision_interpolation": "ecaaa05685c675b5431455dd0957a60243c02a4c87f061d2647ee2136650f30a",
+    "pair_space_operator_branch_genus_energy": "cbc9ada64549b7d06dcc5bd9a1d9957186be2a5a8eac21f2a28c4ae9189bb80d",
+    "mca_rational_compression_fibre_weight": "71ef2f9161550802ef235fddc8a84a09421755d9850dd0e28244c3c59a3593f4",
+    "pair_space_polynomial_projection_dichotomy": "990447489969030748b6a4b69eabde8bdb44021803a417f8cf4bc96107e5df91",
+    "mca_core_completed_basis_margin_resource": "06c799837fe649b894fccbc96699d96646c6cb263fcd6ff4e698da0fde030af5",
+    "mca_fiber_contraction_core_basis_resource": "e591beb9ae7ab0e59074ad22cb781f25b63074b729a6278c88dd30ba6f936c53",
+    "mca_raw_margin_basis_mass": "d7eca15458542204fe65e2a14d9be7d7e64acfce7c7623b3fee3721920d24b27",
+    "mca_low_pair_carrier_weighted_tuple_count": "6dd4cd1ec29e85df97132460a87c6f35fec7c7613eba6101971d71fceeb842b9",
+    "mca_moving_parameter_hyperplane_low_mass": "d288e288d0a7c41cf38dd1136999bc725011d4eb12acf47526638f38bde3dbe8",
+    "mca_uniform_rank_one_weighted_line_cap": "5ab725247f3d881855d11482894073d995024adcf58871e9c9f2ba52200b4e7f",
+    "mca_scalar_agreement_dimension_descent": "96524501875072cf5559184a4e651981c51e97bdb98a00f4b24fad4e16398edd",
+    "bchks_affine_witness_collinearity_mca": "f704ab082fe04d9ebeaa8360d7080439cb3bf8c051058148ee824cab9480ec16",
+    "mca_padded_johnson_scalar_descent": "a2ed7adc27d732c79c8f58309cd03b30704cb2223128c6c271c0f75777bddf3a",
+    "v13_2_near_rational_pair_proximity": "bef1ef1c35a1e788d96bc0d8d326e149441a51d6f113bfecee34c3042ae46fc7",
+    "v13_2_near_rational_supportwise_two_anchor_payment": "093b7b5784a9ab80e256b0787fc80739b443deed1108d4bec28306ffe67e5709",
+    "rate_half_mca_scan_free_error_rank_eleven_payment": "61059e547dc538eb9592f567f456b1277ea04ffbad648394ee2696d681330c48",
+    "rate_half_mca_error_rank_twelve_common_core_forcing": "25698ecb9906e829f8fb2769b0089606c2d9c5a7a47d627dc4e923df5c34d377",
+    "mca_common_core_low_margin_transport": "fca6c4bc2b3c69121d3b2273ea3418c55b56412bb0750469a2363b8752ad41cd",
+    "mca_maximum_density_flat_core_basis_resource": "1f27b53b1ea996905f14bc4cebf67cd359350eb7883b7fe2ec224e5a470adeb3",
+    "mca_flat_inside_tangent_basis_resource": "55bcc708ef24e2287066db41a6fe181cee2725e5c9b18d0b8e84d9fa90116762",
+    "mca_density_aware_flat_completion_resource": "fc418e30abba4a92c57d3156a0fb852d714935e2d5f0452ebd2987af6dd4ba66",
+    "mca_projective_fiber_core_basis_resource": "4b36fce24205ab97585781416ec4fe7f6e7af025a5943ba6f68105e00b3c6711",
+    "mca_receiver_fiber_peeling": "7e8de861987596321cf2cf5daae90b1cbd3bd3d2b38f7e93c630e16c268d0bf9",
+    "mca_receiver_flat_refunded_resource": "8515bc9881dc0b3df830fcfacfebd48052bed6502f57743849783208f6f470bc",
+    "rate_half_mca_receiver_fiber_payment": "72d929e345afd5bfd118cc69de1e3912493b332e2e9f0a72f41cc4c871c4d717",
+    "rate_half_mca_maximum_density_high_interval": "a69ff6538255e64f4c9be407855ea9607e4f4706f7438b8964711c9daace8646",
+    "rate_half_mca_fiber_contraction_interval": "25d5b8006f66866429d518e3e6189a6031186745653729d5ecfc6e07b38643ec",
+    "rate_half_mca_receiver_flat_interval": "962c124765ee3e84529aac312241a683adcb468e0721d6b7eec1b27eea9fbaad",
+    "rate_half_mca_complete_core_refund_interval": "f05a325ff800be47da6120d7d174d8df5b24a3ead0c5f5178c1a5a552a16cf4c",
+    "rate_half_mca_quotient_density_interval": "3bc844b426f98b9d6ea0a026c396efdc35592009867f374ff9a9f42336640d47",
+    "rate_half_mca_quotient_density_refined_interval": "10ff7fc572a7007ef1f35a95c70b45cf2cfc4888dbd800811b25667dbd759f32",
+    "mca_projective_flat_core_basis_resource": "eb5a8f48eee5bf250cb0bf0ae3d54c499bf80479ed6574b6cb8ab0948549314d",
+    "mca_multiplicity_interpolation_curve_escape": "fea5c2ecfcdcc05de9200ccc39a88d5aca19b36a76c0054c9b5ac97e324d5c09",
+    "mca_polynomial_core_gluing": "9410ee9e7f2dd92f09e88dd24e70c71bad5e2d4c41404d2252b6808ee06d081f",
+    "mca_received_pair_one_defect_weighted_list_reduction": "4e2d9869dfd815e43da4fed1c6a05e38fc74b5dec8640cdf1c207e32838d177b",
+    "mca_raw_low_union_overlap_payment": "72e87da23771850063c1d339a908cee4f64dc5b490cb2c5c966c2b3888e990b8",
+    "mca_maximal_margin_complete_core_selection": "ef2532f33cabd041cf7ee43ddd5477cdfc5544d4c27d0830ffa43d2d18e9f0bc",
+    "mca_low_core_homogeneous_level_payment": "a54b8a30448a90f7565efec77daa79dca15d7f7a9606251c939cec7802dae7d1",
+    "mca_projective_split_product_list_payment": "1b0e03fb931ae2d19d7d6c8daeb1be4cb798239758afd07f36791117dfc008be",
+    "mca_polynomial_map_projective_jet_dimension": "2dbd037eb63edf8048bd1c88668326103f520d56dd6adac741d0b3d930bf9822",
+    "elliptic_curve_bounded_polynomial_section_dimension": "dd908c5b688ae1ae026af03e4dd22fca819d56d7ea53e5e8e652856547afc074",
+    "mca_low_core_smooth_cubic_payment": "a96392ab96f2cafe5c8404f6410639305742c23379a304a56ee2c81c6ab143b6",
+    "mca_normalization_unit_curve_payment": "c2db8caf18404affbe7966b7e5e85f6d325c4fd422af35d50f326cbc8bfe368c",
+    "mca_singular_cubic_weighted_incidence_payment": "9984451f97b0c6d21cab124ba398310adff6cdbdd2506acee02337cb3f9b8556",
+    "mca_geometric_progression_singular_cubic_payment": "547819d2eac7446eab13fcbdd4383fd92057e0f0c6820ff59d9b70024c27c8aa",
+    "mca_singular_cubic_component_list_payment": "1e6cb0ae6202faeca3f23b2b9a95916321ad76833ce16ab19f814ec15a426f9a",
+    "rate_half_mca_cancelled_low_core_relation_payment": "5a889c3e43595f5d20c0b1640624a26b02183c85d30724df0be0a2aab93ee570",
+    "rate_half_mca_low_core_kernel_quadratic_strip": "e2f7986f0c49261f16afdafe368ff4d601ef6a6c22998a56f77fa2931512446a",
+    "mca_balanced_basis_under_flat_density": "b233f8df91de16f80d726c9033554f723cb1980c20745880485a2c4101bd3eb3",
+    "rate_half_mca_balanced_density_payment": "0db9845a2e24e487dbde8e9702108430f71f91cb449919c6eef7e5b93cd1ad03",
+    "mca_balanced_basis_or_dense_core_flag": "dc95339a6711c29c4ca1072ec61aebf5a8aafb777175a13ebc7033a294a684f2",
+    "rate_half_mca_dense_core_flag_mass": "8802ca2f33ba10384b92e502add221b24c5ce403e0342d0799a4595df8d8ac2f",
+    "mca_arbitrary_core_flat_basis_resource": "35d681c592ade80028dabea2df4a6df54b4fad894e3271d49dae166a9a33e19f",
+    "rate_half_mca_rank_eight_density_payment": "a488d376cc38a4bf6c4d9ad2ab73aa24b2dd212d1b0b47ab107ea282c8bb6bfe",
+    "mca_first_excess_core_flat": "5f0d40bc082e6b88ca9be0e01d6cf0bfcc4e0f0d15e983a359d58a58393872d6",
+    "rate_half_mca_first_excess_core_interval": "a018aa7f4a9ffeee94c76f1dcdde421a4f311fc5bfe89f854e8b833c7e58ad2e",
+    "mca_quantitative_density_basis_product": "51036e3eb41d6a446e75f4c5686c14477ebf659f60680dc8cdea35907c345df9",
+    "rate_half_mca_receiver_fiber_degree4700_payment": "2914808b6fd454c8e5c08d51dbac7bd920b3706f0dc1aea19179a42081787c13",
+    "rate_half_mca_quantitative_density_interval": "9b22b07c5c0b640d6f6d5e32029d00d54c6e1528e58acf9b6ecf00a55b4193d8",
+    "mca_rank_profile_density_basis_product": "6622f4cadf72add68706ec49c1ff066547b7e6a21dca44bf7a9ed6c8954645b9",
+    "rate_half_mca_rank_profile_density_interval": "18faa36060f990edaa1e95f47f13aaa9de575b6159ca420766efbe8413df80d9",
+    "mca_receiver_fiber_two_cost_resource": "e77d2ddcd4b55679c526d1b24eefea7e8ae139ec93f2dd86c1b68d74364fcf90",
+    "rate_half_mca_two_cost_receiver_fiber_payment": "aeedfd5c48514d75aa28c7a5108960ad8c87d1e7baf171f5ee27dd600f4c36ec",
+    "rate_half_mca_two_cost_fiber_interval": "f22688ef493909324be062e3bb84f578e9598d4fc3ec6233c99f52e4aaec39e5",
+    "mca_projective_fiber_secant_resource": "31f0c76ffcfec4eacc6ac1f7bc6584d131e9d47b21019e50a98b5ff78b873723",
+    "rate_half_mca_clustered_arc_payment": "eddf74a9a2879080ab12e3ee5589977541455a4d6204206084754df5c385c9f5",
+    "mca_flat_split_root_moment_basis": "b949e8d4c2206e340c2a85f85bcce415a391eb0775a3d42d2e571d3e83f5aef5",
+    "mca_fiber_collision_bonferroni_resource": "07469a3497862ead21600e4296a6ec083a012b5db34eefb21818a50619764cf0",
+    "rate_half_mca_collision_profile_interval": "fa75d79baa6b3c795a8edc5f305b9c595efaa47ccaa9ea6b55a3bd7260fb7d99",
+    "mca_coordinate_weighted_collision_resource": "fc5a5a3ad3715068bde410c0d773ac4924e1d0b2ef2c37e6d29c45695b1ef3a3",
+    "rate_half_mca_weighted_collision_interval": "570583b944c7ef63761ef3fc2fa8b8bcd352bd9f0470763c39a4b270c43809b1",
+    "mca_projective_fiber_switching_resource": "c1922895345bd9b31ec5e7e1344938b1f59773d16bde6868b3fc0a74ba064502",
+    "rate_half_mca_switching_credit_interval": "0cf1d4237498cd80b12f464ea5dd98b19698de03b9922d6a4b99e4fd394d6034",
+    "rate_half_mca_raw_mass_cubic_interval": "5ddd9c5557a2144e4b6f368565ea56315d3025b4a4a1c7e50dd9a5fa2424660b",
+    "rate_half_mca_rank_twelve_paid_interval_assembly": "a98cb181863c0c51488fa4fbf57a33c593f06b9fe2e9ebefcc90cb31b2bf46d5",
+    "rate_half_mca_parameter_graph_spread": "25f34d95b1b9c4e037f2aae56114ff77427a25bdc6b6e55915b7bd6166edbf75",
+    "rate_half_mca_low_raw_rank_filtration": "4964b013dbc8eacd2373f72548cec2516e725158843b0987c8846c4a9615a5a3",
+    "rate_half_mca_completed_high_raw_mass": "eab2c4f21c9fb8080e2abf4d883a92ab0207950082d42205b0c986e7f980ba10",
+    "rate_half_mca_moving_normal_basis_payment": "574e5bf3e96c216ac694a42ebc0bb3ea752dd4041167106afa2256c0eba1fd6f",
+    "mca_min_envelope_fiber_contraction": "01b70177bc9cdebed7968263c434bb8d0e546f0a03d6bcabf7c69737730dbbd9",
+    "rate_half_mca_min_envelope_raw_mass": "ea2438d626850fdcf94054055af941adef4de21edb87b386b87bd80af3efac1b",
+    "rate_half_mca_raw_two_quadratic_normal_payment": "4ba4cfe59ad56bc5b4f07c8abfb966e05b1e25c55a81e9f20e7c881afc982453",
+    "mca_compression_fibre_raw_mass": "803663d77213c6e53a2d95d81e0cabf0820e432d25a5f00505ac3b0957f58377",
+    "mca_compression_fibre_integer_envelope": "f0e7aa83aeffe0b5b002d060ac4caca6b53abfeb0f60c0410686cb44cf2bef87",
+    "mca_shared_carrier_pluecker_dichotomy": "74abcd9acded829d12a12769ec5e06c811321230bf25e330121f5a3b36adeb4c",
+    "mca_compatible_domain_tuple_refund": "5e153d2da354bf49739795f1f84ea6df21c8608910356b6c8e355d6ffbf6d7a6",
+    "rate_half_mca_high44_pencil_union_payment": "1f03703d1682aa164385e5c1132d28de48e796cc21c54b0e9478ba4e11608b89",
+    "rate_half_mca_coupled_pair_rank_frontier": "22dbe82fb13a96eeeb357cc23fa2c8f76e45527621d995f73d3cf4e859472cbd",
+    "rate_half_mca_integer_compression_rank_eighteen_payment": "84fcd78d429f4b5e3d715f01bf4ee397cc9b75d28ad121c17c4ebb84bd460c03",
+    "rate_half_mca_low_pair_affine_span_payment": "2da3591c7399f2b714ddd8b93c71018ec449c67cdcd7033089ad32c991010d16",
+    "rate_half_mca_low_pair_pencil_payment": "6e36fd10d6108683fc0b23876919d2101358b3263ebd58e3dd2595920780f9ea",
+    "mca_pencil_section_affine_incidence": "c13539bd061f426b11e863a96eeba6e922e57f77c7128cc1b33e8dee5b91b0b5",
+    "rate_half_mca_dominant_low_pencil_payment": "2dca8e701eeefe38e9474bf6751dca1411791baa1f124a2e4b8224992941a089",
+    "rate_half_mca_low_pair_rank_eleven_payment": "2c456cb8819988f37fac79130756a8fa224a1597d80c8d243f6875f072186adb",
+    "rate_half_mca_low_pair_rank_twelve_payment": "42eeb10504fd5dd635420bf1a63c3130dca4d7a160be49e353241fd73e1186a6",
+    "rate_half_mca_low_pair_rank_fourteen_payment": "503c4e8357af372e571a83956ac7e751652d832d479f111e109aca4dadbaedf1",
+    "rate_half_mca_low_pair_rank_fifteen_payment": "b3dc3db784470a6c0608c92fec31b73a990d05084e12f7128c990550aa3ed4d1",
+    "rate_half_mca_low_raw_hyperplane_payment": "9afd65df2ee3bd73b893d25032cca00c9c1d369e3d3dc9f8f56fa49cc536f505",
+    "rate_half_mca_raw_two_projection_regular_frontier": "6f92a514c9462e9531573ed2d79f330899cf79a31e1c5f32a164b0467ab8c7ee",
+    "pair_space_regular_projection_anchor": "f7021e9dbafc1bae883f119bd9949fe7bd263cd0a9e743e9ef333786f481da64",
+    "rate_half_mca_regular_operator_terminal_reduction": "0feaea4099091b43726032a533b5c8edd9254383e7e587136297e35f2cbbbde9",
+    "rate_half_mca_regular_rational_plane_terminal_bounds": "c4861a7bd3968ef703a4717728fb77f688c6966d4ee408a947f3577309f2a7b2",
+    "rate_half_mca_regular_terminal_actual_span_frontier": "9798b5783c5f5c943afb34f27c5ca89ab0529c9f5c1c99c4aecf5b7841f2aca1",
+    "rate_half_mca_regular_terminal_rich_fibre_frontier": "715ce4818bd807264722c3c799d3c27c58f3165268374eccc5f4388239ffcbff",
+    "rate_half_mca_regular_terminal_eigen_capacity_frontier": "0c77397beea5521cf504cbac306ff31649d3eef9ba427a8ba8dba5dd656135dd",
+    "rate_half_mca_regular_terminal_low_image_degree_frontier": "e5240e3b6f8283c5078b96a70e54db37b723b7d243208fd44db7b40d4ef92347",
+    "rate_half_mca_regular_terminal_genus_energy_frontier": "9e275f22d2098df0c16d3a33175522f3ad13f2a1ee352ad1abd6793a2ea8f8da"
+  },
+  "supplier_manifests": {
+    "low-core-flat-source-cumulative-20260908": "656b342982896233bf8f906b6ba93aae785c9179414d02f982f47b095a60027b",
+    "kb-parameter-graph-spread-20260908": "b93f34d83b297e4370a4d6cb3b949432f99ebb4293b059fc7a926fd6b427ce1c",
+    "kb-low-defect-rank-filtration-20260909": "bc3b337d2c369a06ab82d5d6d5a2fa8f9edfe2931f34e0244b94345286d42645",
+    "kb-raw-mass-cubic-interval-20260909": "375c15045f34386d787b559a8705fc1c1f66653ce5a6568630a2d0f79ee75bbc",
+    "kb-low-pair-pencil-payment-20260909": "c17dcfa6c844ceb0ae5f1a5bd578f4edd7b58d10048ae317528bfd37ebad43ce",
+    "kb-dominant-pencil-rank-eleven-20260909": "8177b2bf76089547514d9d84f111eed4ada89d62c029bfa47e267ee6299f7416",
+    "kb-shared-carrier-rank-fifteen-20260909": "f998e2205389157690fae7f3387aedc6cd6602a1135b2066283d552e9dd1829e",
+    "kb-low-defect-hyperplanes-quadrics-20260910": "e36c4d33ba2357fe313a3788d6f46ea5da7b1b1d2438b796febd914d611e72d3",
+    "kb-low-pair-projection-frontier-20260910": "01a2397889f1df87b3885fd66f192bd1af2236bfb4ea67ad7a747e1752c2a4fe",
+    "kb-high44-pair-rank-extension-20260910": "233dc3d60a09b03ecb9b1101600703b30e2942106e424fff9acd1762b05a11ef",
+    "kb-min-envelope-low-defect-rank-20260910": "36395ad03690b56a49e052c564cb7422b446799c4e1dc9f09eb67cb2332dfa34",
+    "kb-source-bound-integer-compression-rank18-20260910": "b75350a4f7e40db3b403eedccdccc60114b828811f37ddce3d62c2479f4a6676",
+    "kb-raw-two-regular-operator-frontier-20260910": "05224b61e5b914ef799e1718ce6308d74f04e7d9de0c39a03d5f761b4df4a3c6",
+    "kb-regular-terminal-actual-span-20260910": "7b53163ad4e60003b3c1cb4d44d95743b52dd0def950f33e7b29ca6760600cc9",
+    "kb-regular-terminal-rich-core-fibres-20260911": "693c0120e5d2b9e9a868dc250af8f893ec0e234ccfc5f93c7f99f6742aecb5dd",
+    "kb-regular-terminal-collision-interpolation-20260911": "4becaac656ccdc6194d8fd2e588ab4c2c2cf0ecbdb359f5acfc3a6782fd78861"
+  },
+  "inherited_sources": [
+    {
+      "node": "bchks_affine_witness_collinearity_mca",
+      "filename": "exact_agreement_and_small_multiplicity.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/bchks_affine_witness_collinearity_mca/exact_agreement_and_small_multiplicity.md",
+      "sha256": "8a6eb5c52138800e066b6b830ad68ad4bcd1786551d8cec54b89bb113d181106"
+    },
+    {
+      "node": "bchks_affine_witness_collinearity_mca",
+      "filename": "hensel_weight_ledger.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/bchks_affine_witness_collinearity_mca/hensel_weight_ledger.md",
+      "sha256": "d275a0afe0e620191d5596215c63d8f91e73c373b784345ac7b0b693db0d58ab"
+    },
+    {
+      "node": "bchks_affine_witness_collinearity_mca",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/bchks_affine_witness_collinearity_mca/proof.md",
+      "sha256": "b4a2317124cf10458768103ec1a5c79c51bb5ef2b1af07d4a3f053aa0c4b3129"
+    },
+    {
+      "node": "bchks_affine_witness_collinearity_mca",
+      "filename": "provenance.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/bchks_affine_witness_collinearity_mca/provenance.md",
+      "sha256": "73b1acc95b768256d6cc53300e8652cbab1cd83aaa5de914f45b65d0a4fdf6c5"
+    },
+    {
+      "node": "bchks_affine_witness_collinearity_mca",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/bchks_affine_witness_collinearity_mca/statement.md",
+      "sha256": "8da89d4baf07e39c91eb59c69813e8d6ac87ce1d12b8f757af43592e8c6ea215"
+    },
+    {
+      "node": "elliptic_curve_bounded_polynomial_section_dimension",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/proof.md",
+      "sha256": "83732e2ae82f3edcd72603d512a8a728949a040e6c3998a232e698fc613a42a3"
+    },
+    {
+      "node": "elliptic_curve_bounded_polynomial_section_dimension",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/elliptic_curve_bounded_polynomial_section_dimension/statement.md",
+      "sha256": "c8c7af720138f2777341f9fc535974b0910345f2d0833397e408f582d015c16c"
+    },
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/proof.md",
+      "sha256": "307fa8d5dc06341dc110948099a0a138f8ddd98348da05676341ae1f9b1c54ef"
+    },
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "shared_carrier_joint_lists.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/shared_carrier_joint_lists.md",
+      "sha256": "32d431413c55aa175fc78ea84af486cda420c19b020267b9031292887e63d3ad"
+    },
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/statement.md",
+      "sha256": "f086fced7869507664dbd8950ec24570f0d50d7ab5ae983286751db6389d641f"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/proof.md",
+      "sha256": "c3b3beb2c8a844da9f0d6ba5e43448989986acc8c5ab13b248cf10f402155b78"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "provenance.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/provenance.md",
+      "sha256": "dfc05658aadb40662fe10a9630553a3942274ef069009f6f2df17d346cd1d04d"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "scalar_tail_bound.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/scalar_tail_bound.md",
+      "sha256": "6f4f8fdafc70ed7676de20d3f8ff2c8b3db38095a9b576247db1de95669756a5"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/statement.md",
+      "sha256": "ea2001a4807f54078bb6d8b1e99edba835446b6c8a55af7e40c44bd5b83d6dad"
+    },
+    {
+      "node": "mca_arbitrary_core_flat_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_arbitrary_core_flat_basis_resource/proof.md",
+      "sha256": "82a3a5f6745ef8dc41fb12240f54345874266cee89abf5598f87c14740ccb56a"
+    },
+    {
+      "node": "mca_arbitrary_core_flat_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_arbitrary_core_flat_basis_resource/statement.md",
+      "sha256": "12e4d4afd58d91b3093b0bce090c39926568005a76a4d00f3d1aa5a8337dd086"
+    },
+    {
+      "node": "mca_balanced_basis_or_dense_core_flag",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_balanced_basis_or_dense_core_flag/proof.md",
+      "sha256": "9dc1fcf1901f9a44e2d834c6c1233758a3fe1fa2a6689f524ecbadc1869ca424"
+    },
+    {
+      "node": "mca_balanced_basis_or_dense_core_flag",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_balanced_basis_or_dense_core_flag/statement.md",
+      "sha256": "941fed541988875efff36ca25a12eca3a74ac794a7ab734a132f6f86f5c3894c"
+    },
+    {
+      "node": "mca_balanced_basis_under_flat_density",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_balanced_basis_under_flat_density/proof.md",
+      "sha256": "21f0f3d9be23821160de0429d74baef9534d2e2cf78648229e9f284fb6598f62"
+    },
+    {
+      "node": "mca_balanced_basis_under_flat_density",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_balanced_basis_under_flat_density/statement.md",
+      "sha256": "9b9528e65760c13b4e03a607aa8285f04e2581029b6204e4973a4ac33e191b84"
+    },
+    {
+      "node": "mca_common_core_low_margin_transport",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_common_core_low_margin_transport/proof.md",
+      "sha256": "043e49659085036fa0d91780231d394f69aa358cbd03667630101f22c2c7ca59"
+    },
+    {
+      "node": "mca_common_core_low_margin_transport",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_common_core_low_margin_transport/statement.md",
+      "sha256": "0654d023e686e37af1495e93ab33e27b8f50bce9ec5340d5c5bd2f71930bb2c2"
+    },
+    {
+      "node": "mca_compatible_domain_tuple_refund",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_compatible_domain_tuple_refund/proof.md",
+      "sha256": "5fbf09afd94f70d82259e990c5689765389ef2ef85319a4f7d2aa1396e4685c0"
+    },
+    {
+      "node": "mca_compatible_domain_tuple_refund",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_compatible_domain_tuple_refund/statement.md",
+      "sha256": "6437b8eedda660565357e80dcab369bc93635304b550dc572628e3f7752c59de"
+    },
+    {
+      "node": "mca_compression_fibre_integer_envelope",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_integer_envelope/proof.md",
+      "sha256": "5e9f6447197569861674f4ed7afd5ddb9001243a1eaee63d0a2def33f967f15f"
+    },
+    {
+      "node": "mca_compression_fibre_integer_envelope",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_integer_envelope/provenance.md",
+      "sha256": "a42ce365747e2e5802b1d79848787ec9db6765d500ec3e76abc682839367bad8"
+    },
+    {
+      "node": "mca_compression_fibre_integer_envelope",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_integer_envelope/statement.md",
+      "sha256": "adfb0c135e83183a1990b4b003a4a43fddfdddeaca70bf554d0ad188d0547619"
+    },
+    {
+      "node": "mca_compression_fibre_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_raw_mass/proof.md",
+      "sha256": "9602c6d0993ff13c1330c5935ba7b3e019f404a1ac7a4edc96210f2e5cc15087"
+    },
+    {
+      "node": "mca_compression_fibre_raw_mass",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_raw_mass/provenance.md",
+      "sha256": "0defedc25631202dbceaf64bfbcc5a0dba3e716f442bd383ad69abbd939204e5"
+    },
+    {
+      "node": "mca_compression_fibre_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_compression_fibre_raw_mass/statement.md",
+      "sha256": "a40e6ca4e2e72d0fe1e2444bcc59cd3deae1e9a19125490d419371cd6df73044"
+    },
+    {
+      "node": "mca_coordinate_weighted_collision_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_coordinate_weighted_collision_resource/proof.md",
+      "sha256": "0986cc22110a26ef4e754304ceb1b0569c25a7fd8e8d33adccd3444cc6406e63"
+    },
+    {
+      "node": "mca_coordinate_weighted_collision_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_coordinate_weighted_collision_resource/statement.md",
+      "sha256": "00858922167afb3b18d29131e1fd7bc711fbb92d106a5a9ecc2debde9cfaee7c"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "cumulative_low_weights.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/cumulative_low_weights.md",
+      "sha256": "195e3b4fcebe7e5567b4e92403ac4a05fd0572a8c10288878f6b5e89c29b3b59"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/proof.md",
+      "sha256": "5a0aeb3b84430b4ece78ffe0c07de18b1e291e2b7108cdbcb29e9b41c9ab9660"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/statement.md",
+      "sha256": "d3112dbeb1867bd2cadba4094fe9ed74dfee01b47ec400cd73df01b8e5402d1f"
+    },
+    {
+      "node": "mca_density_aware_flat_completion_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_density_aware_flat_completion_resource/proof.md",
+      "sha256": "60c18292744293257e4b88c42a38f735060aa9682fd00116df881076e3e285ea"
+    },
+    {
+      "node": "mca_density_aware_flat_completion_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_density_aware_flat_completion_resource/statement.md",
+      "sha256": "069c75141d4ef9f9c1b960d64401209a973ecb34b1cf4b29e1ee47a3e6e01f9d"
+    },
+    {
+      "node": "mca_fiber_collision_bonferroni_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_collision_bonferroni_resource/proof.md",
+      "sha256": "eba07c95475719d9a7ea9a522292455c7a539a161b7c4f7fd31a73f1d2860f1d"
+    },
+    {
+      "node": "mca_fiber_collision_bonferroni_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_collision_bonferroni_resource/statement.md",
+      "sha256": "cb4d78672fe37835b4e5dadfd88bcb019180d658e7a26104a38aadfc6c0d45e5"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "method_boundary.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "sha256": "233f517f937de029863b2dfa38ef73d7123afc033697f11c068637f835b28dc0"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "sha256": "29d643b9db3658ae225c151d31f0a8aa498c1089d9b6d6d08dd918ce11283737"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "sha256": "a06fa14f5e680189df046239703923e2802f70b9186d87def1f143b7708a8c6b"
+    },
+    {
+      "node": "mca_first_excess_core_flat",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_first_excess_core_flat/proof.md",
+      "sha256": "1f5b888d59834822d1a7fb0d58a3a07f3576ef328458c0cb5d3c10fc57ed5c41"
+    },
+    {
+      "node": "mca_first_excess_core_flat",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_first_excess_core_flat/statement.md",
+      "sha256": "9c3088480400ac0f8eaeeab0dc6597ddfab16121ea934c47cbf84cf45b20003d"
+    },
+    {
+      "node": "mca_flat_inside_tangent_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_flat_inside_tangent_basis_resource/proof.md",
+      "sha256": "9025db303d10dd78eb1d279b9aff56605b74c8d7125c0728a4c3f52a622578a8"
+    },
+    {
+      "node": "mca_flat_inside_tangent_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_flat_inside_tangent_basis_resource/statement.md",
+      "sha256": "c4b36eedcde56b17d5098a48024dabed6c4c175ae481da446768f06aa8cdb2af"
+    },
+    {
+      "node": "mca_flat_split_root_moment_basis",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_flat_split_root_moment_basis/proof.md",
+      "sha256": "855dea203d5b9f71548f00a8c95010edd4ddb055bec5c53f632b82826a48a70e"
+    },
+    {
+      "node": "mca_flat_split_root_moment_basis",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_flat_split_root_moment_basis/statement.md",
+      "sha256": "e2bf45205d18fc6c5a71ae5f4c5b84235583c180b844645a7c6f8a4c32188693"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "curve_descent.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/curve_descent.md",
+      "sha256": "03856e76588723bc28a49737c2fe15688cc8704213ca3e9a80b66c136ac5d668"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "cutoff125.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/cutoff125.md",
+      "sha256": "ad920f27022f405ddf9f6b16d3b7799c022ab01a1c0591d2b32f7fd5f4559660"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "maximal_parameter_family.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/maximal_parameter_family.md",
+      "sha256": "e07f73beec4fffe17e3a7ed8912267299ed50799c851031269a19d5676087e20"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/proof.md",
+      "sha256": "3a90af5910c8346c9062e5a8c2340ee45254fa9bc4e8704c93450dbfcb0cc65b"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "single_fiber_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/single_fiber_payment.md",
+      "sha256": "1426f3b4c57c0ea4c898526211848332b3306fd06ba609ba7eeb068fac89e32f"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/statement.md",
+      "sha256": "af83ea2ea4114b20538ac470708643771aa07d4b3ac77b158584c6ef65732737"
+    },
+    {
+      "node": "mca_geometric_progression_singular_cubic_payment",
+      "filename": "tail9821.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_geometric_progression_singular_cubic_payment/tail9821.md",
+      "sha256": "2e73c1119aac1fcb21273b515f18220f0c1c48c8808691d02728ed322b6bd924"
+    },
+    {
+      "node": "mca_joint_pair_affine_incidence",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_joint_pair_affine_incidence/proof.md",
+      "sha256": "b1b1bbca4fffdbdb5d5d0afc1939cd3082380f69a1a58d774ac7190441abb372"
+    },
+    {
+      "node": "mca_joint_pair_affine_incidence",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_joint_pair_affine_incidence/statement.md",
+      "sha256": "8f421f0cf07a49601693b3c5733fdb566928a7bf8c06bbe003581fed4ce0ee8c"
+    },
+    {
+      "node": "mca_low_core_homogeneous_level_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/proof.md",
+      "sha256": "d7c31cac691cc8b98c1d31982001e16e1d1db8aa1ca41a90580425730d309a2b"
+    },
+    {
+      "node": "mca_low_core_homogeneous_level_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/statement.md",
+      "sha256": "ccfeb6496c98f4828c723b795cb94fec0013423c703b7e43a19f81e78eb73038"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "joint_list_ownership_obstruction.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/joint_list_ownership_obstruction.md",
+      "sha256": "faae1857f005402b48a1eab64ac3fc52e7413001d289d84441675771ee8926ef"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/proof.md",
+      "sha256": "7094d7246d60abd63068fdfaf4845a833d950b320f668def3d9934da3a88f95f"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "rational_line_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_controls.md",
+      "sha256": "d4e7fffeda4ed7c28ce2be0fa08814e3ee78b01be5aabfd44857a9dbd50b7999"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "rational_line_cores.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_cores.md",
+      "sha256": "a2341065d3918d95e88aac0fada5ef21057adee9de552c5f37703d8e8508fe6d"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/statement.md",
+      "sha256": "128a8232825a82c06a3c2e964ed8c3f46f1c268d40ba1f2411d800526be5d916"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "algebraic_list_bound.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/algebraic_list_bound.md",
+      "sha256": "87449619d9468f1cd9a3aa42ec7a1f8dbb982361afbac1943a0d6fd1db48c8aa"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "moving_parabola_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabola_controls.md",
+      "sha256": "a595bc7c696e3b6e12f010d5790c3bb5952491d665d7d6a6d314326fe02ded25"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "moving_parabolas.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabolas.md",
+      "sha256": "bd6f4678f0c47356da3b80421d2a89171c4f74e8c53062b71d692ca9acc9d7c0"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "polynomial_graph_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graph_controls.md",
+      "sha256": "6dc950951b98e3d2b4fbeb7b575eb418689c3c0afc110f46c242bbd73e52a918"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "polynomial_graphs.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graphs.md",
+      "sha256": "c091fdfd59abd88e620ed3052b9ff16cc97a4b5746b197c594d6b7c87c156601"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/proof.md",
+      "sha256": "c0617a5b9cb5dacd1230068a105a570866a8d5d3a54127fa60a813c680920843"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "rational_coefficient_graphs.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_coefficient_graphs.md",
+      "sha256": "a8fdd467ea8d4ffa202673583f14056236377380fa21bcfbbb63822988d44074"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "rational_graph_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_graph_controls.md",
+      "sha256": "66b7e283ea38cd321c538d39ccde1e31b888a79c196a377d845040864b7fcfbe"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/statement.md",
+      "sha256": "8b33d7a543e3d090685b61ddd4555d30520844f13ade7397309d4d6a52e5e6b4"
+    },
+    {
+      "node": "mca_low_core_smooth_cubic_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/proof.md",
+      "sha256": "4eea1ae6dfa5f02b01d168088f65f3fd2a1d32cf8eb682facfcc1ee8aceaee51"
+    },
+    {
+      "node": "mca_low_core_smooth_cubic_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_smooth_cubic_payment/statement.md",
+      "sha256": "75c1e6b32683062f7d3c78ff6d70236a2575a5bdb255998885ce506b5aef26e3"
+    },
+    {
+      "node": "mca_low_pair_carrier_weighted_tuple_count",
+      "filename": "proof.md",
+      "packet": "kb-low-defect-hyperplanes-quadrics-20260910",
+      "path": "source/background/nodes/mca_low_pair_carrier_weighted_tuple_count/proof.md",
+      "sha256": "022925d16cbc2259eef256626007acb0cf8feabd46d2f26127e63ba73f1dd75d"
+    },
+    {
+      "node": "mca_low_pair_carrier_weighted_tuple_count",
+      "filename": "statement.md",
+      "packet": "kb-low-defect-hyperplanes-quadrics-20260910",
+      "path": "source/background/nodes/mca_low_pair_carrier_weighted_tuple_count/statement.md",
+      "sha256": "ab604213e22f97e5f63871b8bf284669a3a32a1a47c61197ca735438efd51099"
+    },
+    {
+      "node": "mca_maximal_margin_complete_core_selection",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/proof.md",
+      "sha256": "aae861fcb32f9df60a9aea857827cd60f7fdada6882a01d129ac8da138cdad06"
+    },
+    {
+      "node": "mca_maximal_margin_complete_core_selection",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/statement.md",
+      "sha256": "9ddfde670d435ed0b5b8c26eebdc1b98e027e8d238872eb83214b37b4508d673"
+    },
+    {
+      "node": "mca_maximum_density_flat_core_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/proof.md",
+      "sha256": "8c0ebd25d687e0213c2d44074b09bb249a7b094d9bcb0323f4dc04f056e8714f"
+    },
+    {
+      "node": "mca_maximum_density_flat_core_basis_resource",
+      "filename": "rank_five_extension.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/rank_five_extension.md",
+      "sha256": "fc8f727aa6b58373cf0eab65eebbad533e45552c62e7d79f016965228eaa1c58"
+    },
+    {
+      "node": "mca_maximum_density_flat_core_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximum_density_flat_core_basis_resource/statement.md",
+      "sha256": "c339c25b93bc6d42a3c0b13bbdc284579fa64322c0f93cd7433928cd8d8dd029"
+    },
+    {
+      "node": "mca_min_envelope_fiber_contraction",
+      "filename": "proof.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/mca_min_envelope_fiber_contraction/proof.md",
+      "sha256": "2b9f769f158bb169924e877e1e23458eb99f08ff286357c665ab4e5c6b69768b"
+    },
+    {
+      "node": "mca_min_envelope_fiber_contraction",
+      "filename": "statement.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/mca_min_envelope_fiber_contraction/statement.md",
+      "sha256": "8af701b71805980f981e3746efebd36e4eaf60dd5878159a8d19086894141999"
+    },
+    {
+      "node": "mca_moving_parameter_hyperplane_low_mass",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/mca_moving_parameter_hyperplane_low_mass/proof.md",
+      "sha256": "20e1e4542be03b1ec34a52c3f3cc8b0fc5ad0cfa58a00d199ef193757bd75d24"
+    },
+    {
+      "node": "mca_moving_parameter_hyperplane_low_mass",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/mca_moving_parameter_hyperplane_low_mass/statement.md",
+      "sha256": "85fccb1205f0c2f004e663d5df2697da17bc2a6e86bc5455f407749a2d802f37"
+    },
+    {
+      "node": "mca_multiplicity_interpolation_curve_escape",
+      "filename": "cubic_recipe_boundary.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/cubic_recipe_boundary.md",
+      "sha256": "a53a58569b3886d04e91d87146cdc26c487f4034a78252c56d5f6f72eb962bbc"
+    },
+    {
+      "node": "mca_multiplicity_interpolation_curve_escape",
+      "filename": "kernel_corollary.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/kernel_corollary.md",
+      "sha256": "c51810dddcbabf232572c7c36577b97dcf370b962b4f10be001c2e57391cc256"
+    },
+    {
+      "node": "mca_multiplicity_interpolation_curve_escape",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/proof.md",
+      "sha256": "bfaeecd9ac2f53e132900d7c6c249275afd69c4f87800db729f7de86cfedb290"
+    },
+    {
+      "node": "mca_multiplicity_interpolation_curve_escape",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_multiplicity_interpolation_curve_escape/statement.md",
+      "sha256": "956e4ed80efa372e891cb25d143923f3fb7c25b1078eaaf7be6cad0b8287d55b"
+    },
+    {
+      "node": "mca_nonuniform_support_margin_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/proof.md",
+      "sha256": "50c3ae1b4f0f33a4d1148d090f610f6db01c60965d07ecea02175e3dbb87ba9c"
+    },
+    {
+      "node": "mca_nonuniform_support_margin_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/statement.md",
+      "sha256": "15131c591b26922aa4a5d213ea295a8bfea01040fa99d66ab8a6e4c259a6b8ec"
+    },
+    {
+      "node": "mca_normalization_unit_curve_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/proof.md",
+      "sha256": "68b16b1dcc27aa67c39b5b0b31297c2959fe6cb81ab00ad6fb4d8f75ab4c8978"
+    },
+    {
+      "node": "mca_normalization_unit_curve_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_normalization_unit_curve_payment/statement.md",
+      "sha256": "7b5ba47a01abda091ffaae9bdf8a60b78789ba08904ef9681ea42d341bd7a4dd"
+    },
+    {
+      "node": "mca_padded_johnson_scalar_descent",
+      "filename": "certificates.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_padded_johnson_scalar_descent/certificates.md",
+      "sha256": "16097b04b84c08d7413dc26cb5c1ec2d71c7429d666884b33d45e88b449dc7e5"
+    },
+    {
+      "node": "mca_padded_johnson_scalar_descent",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_padded_johnson_scalar_descent/proof.md",
+      "sha256": "35e90d6064172651e1afa1ae744e1d05e05e2ac4104cd3bfe418ab0a4f0e8c44"
+    },
+    {
+      "node": "mca_padded_johnson_scalar_descent",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_padded_johnson_scalar_descent/statement.md",
+      "sha256": "d601298185efb731950e0f3049f89be906f24af6617d11006a19e95d4ef7063e"
+    },
+    {
+      "node": "mca_pencil_core_union_escape",
+      "filename": "proof.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_core_union_escape/proof.md",
+      "sha256": "ccd6e4a8ca6a1be8c8875c5eafba4c38067e0083e06eaaa242141be98bc15858"
+    },
+    {
+      "node": "mca_pencil_core_union_escape",
+      "filename": "statement.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_core_union_escape/statement.md",
+      "sha256": "e98a4874beb5717f7226dc5a90fb4eef37653e85d9c4121d975213dd35dcc84d"
+    },
+    {
+      "node": "mca_pencil_section_affine_incidence",
+      "filename": "proof.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_section_affine_incidence/proof.md",
+      "sha256": "bd453438f22a0a77057fa3537f27552804092fc1d26fcdc14340c8843294ed89"
+    },
+    {
+      "node": "mca_pencil_section_affine_incidence",
+      "filename": "statement.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_section_affine_incidence/statement.md",
+      "sha256": "3b9c304311e3212dd6d509f6855fbeb8d672c51c706e17be90cdef4d9ad43f3f"
+    },
+    {
+      "node": "mca_polynomial_core_gluing",
+      "filename": "high_band_defect.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_polynomial_core_gluing/high_band_defect.md",
+      "sha256": "16cb033e4382ce00ea1b44d1850aa32b9f0e0267d7cadcba3faab698a88456fc"
+    },
+    {
+      "node": "mca_polynomial_core_gluing",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_polynomial_core_gluing/proof.md",
+      "sha256": "874f11ef2677539eb1bc791cbf7196933af4546f8b5d64e39bb5e14e1b00665f"
+    },
+    {
+      "node": "mca_polynomial_core_gluing",
+      "filename": "provenance.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_polynomial_core_gluing/provenance.md",
+      "sha256": "876e757a3990f79d5bd12fd5a95674ac75adb32e6f674f01d76b0b56ff026299"
+    },
+    {
+      "node": "mca_polynomial_core_gluing",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_polynomial_core_gluing/statement.md",
+      "sha256": "536bc106dd6c7fc9e3071204faf17ea0ead58e3ed01833d5dc0337c3909704f7"
+    },
+    {
+      "node": "mca_polynomial_map_projective_jet_dimension",
+      "filename": "moving_projection_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_controls.md",
+      "sha256": "c59b1c2f15b0ee82be79b544564590f2644c4c53b89ddd489e68bef0734ee3a3"
+    },
+    {
+      "node": "mca_polynomial_map_projective_jet_dimension",
+      "filename": "moving_projection_graphs.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/moving_projection_graphs.md",
+      "sha256": "ed75cb786038e8d4a0c04a3f54a76df07180d0276afbc9050e36e709650e3ebf"
+    },
+    {
+      "node": "mca_polynomial_map_projective_jet_dimension",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/proof.md",
+      "sha256": "63fe5b05e4b145276f7e70b459dd6fa53228f45aa395d22336c8bb074de56420"
+    },
+    {
+      "node": "mca_polynomial_map_projective_jet_dimension",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_polynomial_map_projective_jet_dimension/statement.md",
+      "sha256": "ea0a8a7cb5ab0aed50676b4a48e7efeb6485c67310b4fe936d6620d7f1eefd96"
+    },
+    {
+      "node": "mca_projective_fiber_core_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/proof.md",
+      "sha256": "8a9f44143cd271a205e6c4f6869ad83aafe0bede5d721c834d295fb36ab683df"
+    },
+    {
+      "node": "mca_projective_fiber_core_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_core_basis_resource/statement.md",
+      "sha256": "8cb7764d268cb89a6c418223769369a621ab9e0bb8fd9eedec6157aca3f5e642"
+    },
+    {
+      "node": "mca_projective_fiber_secant_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/proof.md",
+      "sha256": "b1735996a7bfe451dbb2aa493c3604dc17b3940697db8779a3e50babb5f105f7"
+    },
+    {
+      "node": "mca_projective_fiber_secant_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_secant_resource/statement.md",
+      "sha256": "3e482eb3849f0988730375c98c392fcffe2ec428ca9452bd582e1006d3076d81"
+    },
+    {
+      "node": "mca_projective_fiber_switching_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_switching_resource/proof.md",
+      "sha256": "3fde225a70d8f22f13cbdbd800323179e7f6911106cd2c49159a9c005b239a0d"
+    },
+    {
+      "node": "mca_projective_fiber_switching_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_fiber_switching_resource/statement.md",
+      "sha256": "42e9a9fc65fef6f665afd939ca015d694bf440d4917c70f4d0cd63cb1dfe9f19"
+    },
+    {
+      "node": "mca_projective_flat_core_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/proof.md",
+      "sha256": "93232a9efd457b441b485b802e207c3c3613fca0ddac2486620464e070e1a2fa"
+    },
+    {
+      "node": "mca_projective_flat_core_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_flat_core_basis_resource/statement.md",
+      "sha256": "6547d130b435f29007cd62ca11b53c1959b64ea501f6dae5d085874474c0ec4e"
+    },
+    {
+      "node": "mca_projective_split_product_list_payment",
+      "filename": "projective_fiber.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/projective_fiber.md",
+      "sha256": "bbea7ba164d9db3e15feafa5e89b7a0b37217e017db10eef2a281569cccf1edc"
+    },
+    {
+      "node": "mca_projective_split_product_list_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/proof.md",
+      "sha256": "008258f750d06cc87e90a0ea2ab217ab4c7e46b4ec1e2ac222d2bd0642298196"
+    },
+    {
+      "node": "mca_projective_split_product_list_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_projective_split_product_list_payment/statement.md",
+      "sha256": "05aa9cb9fa9ba548909069d417f073213ecacf23c3d8a37e5ce88ad4a56448bd"
+    },
+    {
+      "node": "mca_quantitative_density_basis_product",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_quantitative_density_basis_product/proof.md",
+      "sha256": "d4220386c06dd646b59a8120ff978fbdb668dc5e466775d4a4cfe6d0211bd2f7"
+    },
+    {
+      "node": "mca_quantitative_density_basis_product",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_quantitative_density_basis_product/statement.md",
+      "sha256": "17b396d9d823e437582cca6aa127161225d6aa4ba00dc749c4ea20a4d822d674"
+    },
+    {
+      "node": "mca_rank_profile_density_basis_product",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/proof.md",
+      "sha256": "46acb7c4db8c460439f3924ae1ed55ef0803740e853bebfa0c6511985c054826"
+    },
+    {
+      "node": "mca_rank_profile_density_basis_product",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_rank_profile_density_basis_product/statement.md",
+      "sha256": "93ddc31609e3c67521dd964f0f1c86a76bbc83c36237ecb0bd5b7037715987e6"
+    },
+    {
+      "node": "mca_rational_compression_fibre_weight",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/mca_rational_compression_fibre_weight/proof.md",
+      "sha256": "d88a6e07cdca1fe2a6611113e52df11e63a2a6f1a9dc576d9abf773e11fcd3c8"
+    },
+    {
+      "node": "mca_rational_compression_fibre_weight",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/mca_rational_compression_fibre_weight/provenance.md",
+      "sha256": "b3e33c7f171f2eafa3ad1c104c5d71b6ab5fd1cbb1012a9a69209ed8acaaee4e"
+    },
+    {
+      "node": "mca_rational_compression_fibre_weight",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/mca_rational_compression_fibre_weight/statement.md",
+      "sha256": "f1fecf2db58fe2e45a31461cbd8176aa79bb3bd67cb54cf2580c7d6c600e34f1"
+    },
+    {
+      "node": "mca_raw_low_union_overlap_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_raw_low_union_overlap_payment/proof.md",
+      "sha256": "cd5a445083dd0fddd4a08d59e76a1863eb11bb3a84982616c94a8f56efa3c98b"
+    },
+    {
+      "node": "mca_raw_low_union_overlap_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_raw_low_union_overlap_payment/statement.md",
+      "sha256": "c81104197a71a98116fa9669e1cbeb3dc669ae51f1ce0c200a49592bfde62707"
+    },
+    {
+      "node": "mca_raw_margin_basis_mass",
+      "filename": "proof.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/proof.md",
+      "sha256": "bae510fdcbc99009985fd5275c4ec44954d1ed6ac7a4db0dbabcbfc59ae1ea53"
+    },
+    {
+      "node": "mca_raw_margin_basis_mass",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/statement.md",
+      "sha256": "80357fffa60d7c427c032b04275060c070d4f254203799c4d12e5454ca65840e"
+    },
+    {
+      "node": "mca_received_pair_one_defect_weighted_list_reduction",
+      "filename": "low_core_localization.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_received_pair_one_defect_weighted_list_reduction/low_core_localization.md",
+      "sha256": "4ba2e7f9d4eee98a159e069aae5d5f543ca08130a98eb910bdc2a19d3e07da2e"
+    },
+    {
+      "node": "mca_received_pair_one_defect_weighted_list_reduction",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_received_pair_one_defect_weighted_list_reduction/proof.md",
+      "sha256": "daa6bcc519b907e3cee4bb7f47d287a25c9a0663207a5145f29eb67229feea4f"
+    },
+    {
+      "node": "mca_received_pair_one_defect_weighted_list_reduction",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_received_pair_one_defect_weighted_list_reduction/statement.md",
+      "sha256": "5b6e871b5fba31a958b8043033d2033b17c056224a1125ebdb212983077c15a0"
+    },
+    {
+      "node": "mca_receiver_fiber_peeling",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_fiber_peeling/proof.md",
+      "sha256": "2f19531737c1bb2417ad221a67fb9d5efd863a2d6c186d08b97821859f8fb2ed"
+    },
+    {
+      "node": "mca_receiver_fiber_peeling",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_fiber_peeling/statement.md",
+      "sha256": "0fd513098953d773596dcc98214132c4c93b6bc4af29c0bfc63d8bf457f2ec87"
+    },
+    {
+      "node": "mca_receiver_fiber_two_cost_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_fiber_two_cost_resource/proof.md",
+      "sha256": "ee766af996ad6d341cddab1631146bca48a8ca1bbff1cdc9385a8f3199f73915"
+    },
+    {
+      "node": "mca_receiver_fiber_two_cost_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_fiber_two_cost_resource/statement.md",
+      "sha256": "213cc9aeea9a3055f4032dba16f4646344dd849d08b76c79d084bedc21ac5f75"
+    },
+    {
+      "node": "mca_receiver_flat_refunded_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_flat_refunded_resource/proof.md",
+      "sha256": "6eaf660dc2b669d8d13838b29c49f8ecc3080680fe895710dc452b23298337a1"
+    },
+    {
+      "node": "mca_receiver_flat_refunded_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_receiver_flat_refunded_resource/statement.md",
+      "sha256": "0259f3ecc408a8842ee6cfb2ce8985e874ddeb4e6a5ebeec35a779ce1dff5e0c"
+    },
+    {
+      "node": "mca_scalar_agreement_dimension_descent",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_scalar_agreement_dimension_descent/proof.md",
+      "sha256": "0a5b7df7398ab0146323b17eeb4e846d7ee21d1d07551bc0f3c22149bc5559a3"
+    },
+    {
+      "node": "mca_scalar_agreement_dimension_descent",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_scalar_agreement_dimension_descent/statement.md",
+      "sha256": "0b5dba3e92b5f70f5e0ffe368c4e6b3e80cfb74cb4bf60e94c87306606126f60"
+    },
+    {
+      "node": "mca_scalar_agreement_dimension_descent",
+      "filename": "two_anchor_fiber_bound.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_scalar_agreement_dimension_descent/two_anchor_fiber_bound.md",
+      "sha256": "950f8408cb568dd432fe3ce7513b21668c04688c3c89d2448d920660cb4930fd"
+    },
+    {
+      "node": "mca_shared_carrier_pluecker_dichotomy",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_shared_carrier_pluecker_dichotomy/proof.md",
+      "sha256": "fa77678140f95bee3a0d2d4274bbb5c70f6593973b519cf0ec6868ff96313b9c"
+    },
+    {
+      "node": "mca_shared_carrier_pluecker_dichotomy",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_shared_carrier_pluecker_dichotomy/provenance.md",
+      "sha256": "0defedc25631202dbceaf64bfbcc5a0dba3e716f442bd383ad69abbd939204e5"
+    },
+    {
+      "node": "mca_shared_carrier_pluecker_dichotomy",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_shared_carrier_pluecker_dichotomy/statement.md",
+      "sha256": "a8c94a1d838364cb2bb67efb40d7d29497d9282479bec0a1f8f591f28d4dfa5c"
+    },
+    {
+      "node": "mca_shared_carrier_rank_two_anchor",
+      "filename": "proof.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/mca_shared_carrier_rank_two_anchor/proof.md",
+      "sha256": "92dcc05485efc759f480f9f045f17018644d176898c579bab63fa8cbcbb925d2"
+    },
+    {
+      "node": "mca_shared_carrier_rank_two_anchor",
+      "filename": "statement.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/mca_shared_carrier_rank_two_anchor/statement.md",
+      "sha256": "a835262ddf11f1bc8a7ee33f7eea809f7c3564af76326f052ccbd5cea8bd919a"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "component_degree.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_degree.md",
+      "sha256": "ad2710d1c91397aea0db78a64e432068feca071ff3098a8cc7e8de6fcea3ec5d"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "component_list.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_list.md",
+      "sha256": "646bb33b819c5325263c7a820f598d4753f6a8a85d79f72b87688c6216e7955e"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "component_model.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/component_model.md",
+      "sha256": "0f6dd9310446fc9f2f20cfe8893e8c6f600808f8d1fd8346f9214188f7979234"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "cutoff101.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/cutoff101.md",
+      "sha256": "51bc26b927b9b94694c253112bce285650276895d1b13c5cdc42e27048e21753"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "cutoff125.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/cutoff125.md",
+      "sha256": "1733cee3648059fc42d38ecb23e772b719a2e8e4fe7291ab49a0fa8cb5a28460"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "next_interval.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/next_interval.md",
+      "sha256": "4fd89237851ffb1ca3cb03a934b97ac0e69d1bc722db316f7b05f84abf2c3abd"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/proof.md",
+      "sha256": "ab405cebd424e951be01232f25440675ea6e3b7899cca8691eebe7bafaf5f435"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/statement.md",
+      "sha256": "a206f50a73ef0552d7cf95c4b70e20e909f6ddf73d3675f31994d19dbcdb8910"
+    },
+    {
+      "node": "mca_singular_cubic_component_list_payment",
+      "filename": "tail9821.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_component_list_payment/tail9821.md",
+      "sha256": "ca338c4694f96edea2b37fb4ae6ed6d80439ad69832c9ae47b7d7f375d3f0d47"
+    },
+    {
+      "node": "mca_singular_cubic_weighted_incidence_payment",
+      "filename": "completed_high_weight.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/completed_high_weight.md",
+      "sha256": "3ded461d40ab95156c998a6da9affe2d35cd54a033997760e96a7acbb6cd5600"
+    },
+    {
+      "node": "mca_singular_cubic_weighted_incidence_payment",
+      "filename": "projection_height.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/projection_height.md",
+      "sha256": "cb949870f3c47ed7150de07b0573735e4ecb7789ddcc36fc0c23b9b65eb832e8"
+    },
+    {
+      "node": "mca_singular_cubic_weighted_incidence_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/proof.md",
+      "sha256": "6adee7ebf5d483ec6698ff069a2f1ad97bd4e17a38127e2586fe69d7cdcf0536"
+    },
+    {
+      "node": "mca_singular_cubic_weighted_incidence_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_singular_cubic_weighted_incidence_payment/statement.md",
+      "sha256": "85891b7cd79e63c3494820253743af996e547c144f928dd7252c7f25cf20902a"
+    },
+    {
+      "node": "mca_uniform_rank_one_weighted_line_cap",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_uniform_rank_one_weighted_line_cap/proof.md",
+      "sha256": "8c705a054324b8e17274e65e0d5c6027b2d7866e09876bfc388e47d2df05484c"
+    },
+    {
+      "node": "mca_uniform_rank_one_weighted_line_cap",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_uniform_rank_one_weighted_line_cap/statement.md",
+      "sha256": "c1f1bc763b359e483f6c8edb3bb635aae6d8aa2b0a827bc88bf14eebd2670f4b"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/proof.md",
+      "sha256": "a292ceeba290ce970353289c84dcd28a06589d0f4ee0defaf4897325a9213dd6"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/provenance.md",
+      "sha256": "0defedc25631202dbceaf64bfbcc5a0dba3e716f442bd383ad69abbd939204e5"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/statement.md",
+      "sha256": "288344b541bd7341012616b664a437057e1116a9b5b83ff18c1aa1f1f996451d"
+    },
+    {
+      "node": "pair_space_operator_collision_interpolation",
+      "filename": "product_rank.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_collision_interpolation/product_rank.md",
+      "sha256": "21122d685e6b9c781b706faf2ca47c899bc32f63eca2295a277e2b99436feb2f"
+    },
+    {
+      "node": "pair_space_operator_collision_interpolation",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_collision_interpolation/proof.md",
+      "sha256": "f4a389d8c822827d31390b9530ee27421d2150eb43d884cbc3f341316bd51258"
+    },
+    {
+      "node": "pair_space_operator_collision_interpolation",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_collision_interpolation/provenance.md",
+      "sha256": "8b3c9461847ffde2c92d8c284cc629b9a6cc628cf35b1fbed1da3da08a1e8b0b"
+    },
+    {
+      "node": "pair_space_operator_collision_interpolation",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_collision_interpolation/statement.md",
+      "sha256": "dd40e3057f8ccd7637d7ff7429681ea5a09c66735571680ad24f8a3615345bb3"
+    },
+    {
+      "node": "pair_space_operator_eigen_root_incidence",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_eigen_root_incidence/proof.md",
+      "sha256": "06f25e4ae4cd2f8304f2e80b80e00e35287573c8f1ec5a301ae321f03ae0547c"
+    },
+    {
+      "node": "pair_space_operator_eigen_root_incidence",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_eigen_root_incidence/provenance.md",
+      "sha256": "9a56000956c1fc9e9dc7eb419e44805b993ed3acc72dbbeb68f3a9eaa1ba3595"
+    },
+    {
+      "node": "pair_space_operator_eigen_root_incidence",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/pair_space_operator_eigen_root_incidence/statement.md",
+      "sha256": "9d8b74e8b984f17f8eb78ef487e7f827c6bc34bf6d3e657511ac85ecb794317a"
+    },
+    {
+      "node": "pair_space_operator_spectral_fibre_johnson",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/pair_space_operator_spectral_fibre_johnson/proof.md",
+      "sha256": "3d83b4181ca00dc7244375f0efa9ce6cb752735c6e8b43f1cc472d9c660194d9"
+    },
+    {
+      "node": "pair_space_operator_spectral_fibre_johnson",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/pair_space_operator_spectral_fibre_johnson/provenance.md",
+      "sha256": "8745030a05826be8fc89f86104f0f1da846d3c79ade851adf80fa34e4e0518cb"
+    },
+    {
+      "node": "pair_space_operator_spectral_fibre_johnson",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/pair_space_operator_spectral_fibre_johnson/statement.md",
+      "sha256": "a70140cdf5856de505755e2ea2e9439b5da12f79bef5045d27f7361d21a4f7b2"
+    },
+    {
+      "node": "pair_space_polynomial_projection_dichotomy",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/pair_space_polynomial_projection_dichotomy/proof.md",
+      "sha256": "57c5aeaeca7f7aecfcff4d95e6936b349ddf310c7edcae90a52dea6ce1043ffc"
+    },
+    {
+      "node": "pair_space_polynomial_projection_dichotomy",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/pair_space_polynomial_projection_dichotomy/statement.md",
+      "sha256": "06a87bc7a992c9b633de806dec62ded73d9e80dc4b3643b1dbad3a2098463d13"
+    },
+    {
+      "node": "pair_space_regular_projection_anchor",
+      "filename": "proof.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/pair_space_regular_projection_anchor/proof.md",
+      "sha256": "5ef0c224223f73fcdb8c89684dcea133c4ceaea3e817c3ea0348eb1fd3e73aa7"
+    },
+    {
+      "node": "pair_space_regular_projection_anchor",
+      "filename": "provenance.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/pair_space_regular_projection_anchor/provenance.md",
+      "sha256": "eeff70ec3df53439f89dd68920ff211178b5c040350f949b1a24449060831828"
+    },
+    {
+      "node": "pair_space_regular_projection_anchor",
+      "filename": "statement.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/pair_space_regular_projection_anchor/statement.md",
+      "sha256": "323780971f8c3b050875ea87ab7ca569e9fe43ff783fa6b9a41fb679dcfa9948"
+    },
+    {
+      "node": "rate_half_mca_balanced_density_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_balanced_density_payment/proof.md",
+      "sha256": "e50f94923a4b39cea0e4f3b7f83c345b1710a812c4e2172b34a99fb6d894ad55"
+    },
+    {
+      "node": "rate_half_mca_balanced_density_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_balanced_density_payment/statement.md",
+      "sha256": "f8b453d85719e660566ece4603bb817ea7af684bb3aff779bad2bd5340a659d6"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "all_conic_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/all_conic_payment.md",
+      "sha256": "7f82befc0767ab392eee9694696eeaf99d5e298acae001786b8c0f696f269dc5"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "automatic_graph_interpolation.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/automatic_graph_interpolation.md",
+      "sha256": "05a7034162d9cd416c9cf2fbdd542f1b7227edcabe234cf08c118c156af60924"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "bounded_row_remainder.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/bounded_row_remainder.md",
+      "sha256": "c9b5cd69d8060d7ed7aa7d23e9c87f26c094b478b54b94165e4de482bef4f8f8"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "component_cubic_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/component_cubic_payment.md",
+      "sha256": "437bad3b94c497e5a8b54f444dcabf2aa5cd32c0f46a49360554beeefd120318"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "cross_core_accounting.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cross_core_accounting.md",
+      "sha256": "c313f645e576c128d6a5360d2c6b9890a96e3c2d9cb26c3415c60ba8816ca4a0"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "cubic_tail_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cubic_tail_payment.md",
+      "sha256": "f14863c3dd9ecca2de55cc446cd083227ed93fe6332f7be57d630f450f267c2e"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "cumulative_low_accounting.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/cumulative_low_accounting.md",
+      "sha256": "7efe72b0d951a69fc47d20c969d63912779c7b9515b4d04b50705266233f87eb"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "geometric_progression_cubic_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/geometric_progression_cubic_payment.md",
+      "sha256": "80c8469663036c07ced281ff356044e906ea4c7deaada80be14c05667e926fb1"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "homogeneous_level_factor_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/homogeneous_level_factor_payment.md",
+      "sha256": "ce07a8290eae646a1ef9204d081b78cb1b14af9d4a7fd92d19ffde0d9efc92b9"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "jet_graph_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/jet_graph_payment.md",
+      "sha256": "64fe7b03ad119321036bee810775b66b519592a8f1df4f87fc947101ddb2f2cd"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "large_projective_fiber_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/large_projective_fiber_payment.md",
+      "sha256": "051f4f3dce4b6d50a32e6233c31f417bddf8888d0340dc15c81ccfee030f0f88"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "low_cutoff_accounting.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/low_cutoff_accounting.md",
+      "sha256": "201e44152e4fb029828093a6f8025932ea41dc5e0bf8139eb018f642e10dc1b8"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "maximal_support_low_span.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/maximal_support_low_span.md",
+      "sha256": "fcca42b8baea062bb65b84454c70129dd38778176050f721e51ce6229477a2e9"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "polynomial_graph_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/polynomial_graph_payment.md",
+      "sha256": "bfd3ae0e53156d9e3ad4001df4abcab711fea41cce1c086761bae9f9c6ef5420"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "projective_arc_carrier_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/projective_arc_carrier_payment.md",
+      "sha256": "e358629c1e39e4c94a8cc63ac2b8b08188fe20520ad30cd8820c0d9e4251c24e"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/proof.md",
+      "sha256": "fb6477ae3b98c17c36c743547bba74ba0fccc5b55bbafcf457e65cac1880ef52"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "quadratic_graph_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quadratic_graph_payment.md",
+      "sha256": "d48763a109e7e6eca51da30fa401300a314a5a3dea08bd380a3b6ee47a38b155"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "quartic_multiplicity_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_multiplicity_payment.md",
+      "sha256": "fbd10ca6d01e8ebd68d3ada4786a23e40accff9109c85f8e4d0eac2b52894a00"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "quartic_projection_graph_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_projection_graph_payment.md",
+      "sha256": "1c7328d94672c328029b51fe0f3ef08b5f0a9adaaca68f284b73af9ef6290c36"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "quartic_split_product_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/quartic_split_product_payment.md",
+      "sha256": "0a79398a1a058a5901ac65eb95d57e415bd6540856a1536d568c713e511fda4f"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "rational_pencil_cover_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/rational_pencil_cover_payment.md",
+      "sha256": "0ce6a37a34f2b547e876a8bf954e096dbae86e57ed77ac20fcc4dab925246ef2"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "raw_weighted_cutoff125.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/raw_weighted_cutoff125.md",
+      "sha256": "850dc191ef0bc06c87ac498a417a8e9c9fa60d026ba17da91778e25b454b09df"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "row_remainder_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/row_remainder_controls.md",
+      "sha256": "0b799263434c41ac3c5923fab38436878253eef782f5f744a4c03a44b8e7ac15"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "seven_margin_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/seven_margin_payment.md",
+      "sha256": "96356013c64576d6d62647a71663127709e1ec6536ae3352b11f7116b7fb18dc"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "smooth_cubic_factor_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/smooth_cubic_factor_payment.md",
+      "sha256": "fab3958d6b168814ba62115175804c5a9cbabf0747a573ac53de954c57761085"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/statement.md",
+      "sha256": "c2c2edd8ae02862377a9c2a6dd7ec1ab961b4b40190b8b1688817986323bb447"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "very_low_union_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/very_low_union_payment.md",
+      "sha256": "08a2cd2d0206d38c9421b5bfe197d3cfdae894d7b98fbdd35affb5d9a0a0cc8e"
+    },
+    {
+      "node": "rate_half_mca_cancelled_low_core_relation_payment",
+      "filename": "weighted_singular_cubic_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_cancelled_low_core_relation_payment/weighted_singular_cubic_payment.md",
+      "sha256": "ddf9d4b26add04ba73237289c289fdfef2da91acf25539884777505e12c6de2d"
+    },
+    {
+      "node": "rate_half_mca_clustered_arc_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/proof.md",
+      "sha256": "00ed6e7abef8514a1550701cddc6288e4653ce0f5a35a7e32b928359a3dae6cd"
+    },
+    {
+      "node": "rate_half_mca_clustered_arc_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_clustered_arc_payment/statement.md",
+      "sha256": "3c97e71a185dda5c2c41393cb238af7e6a21fd6fa8ffb472a913f5fb00c2de91"
+    },
+    {
+      "node": "rate_half_mca_collision_profile_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_collision_profile_interval/proof.md",
+      "sha256": "36e154ea1b81af2c38cbac337125ca64a90a61d2894453d4c2ebd79a3bcd78fc"
+    },
+    {
+      "node": "rate_half_mca_collision_profile_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_collision_profile_interval/statement.md",
+      "sha256": "75ea6d805cc903498e48cf317bc25bc7e02e7b90779977642ff3b8fec13289bd"
+    },
+    {
+      "node": "rate_half_mca_complete_core_refund_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_complete_core_refund_interval/proof.md",
+      "sha256": "4dc369070f95326c9750ddc5a797d6042f051251e541b0ad54428df6ea75c334"
+    },
+    {
+      "node": "rate_half_mca_complete_core_refund_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_complete_core_refund_interval/statement.md",
+      "sha256": "eae33b3f1fd93c00355b5732696aedab4bc61d54f4b9237228e8d77853a1b733"
+    },
+    {
+      "node": "rate_half_mca_completed_high_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_completed_high_raw_mass/proof.md",
+      "sha256": "583b0e6d2f2e68deaccb7d851144cd041188e4193bffdae42f78b3127192801d"
+    },
+    {
+      "node": "rate_half_mca_completed_high_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_completed_high_raw_mass/statement.md",
+      "sha256": "4a4cecd2b7cb36ec50abad3ae3f9d2344eb01efa5672ebca3578d8ce1e39770f"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "compression_boxes.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/compression_boxes.md",
+      "sha256": "c5f2bb92630f7386c1f206908b5e749b82e3a4cf8c142aef681153b14f34e170"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "pencil_gates.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/pencil_gates.md",
+      "sha256": "0617d613faf704fa8c41d45d8e3c5af1b85d5d9b85cd3e9a46b19f4ee0435afb"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/proof.md",
+      "sha256": "ad3701f93bf3f1db49d85c1c42d9a2fddecc09741132ac10dda1e5ec33cae891"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/provenance.md",
+      "sha256": "0defedc25631202dbceaf64bfbcc5a0dba3e716f442bd383ad69abbd939204e5"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "source_recursion.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/source_recursion.md",
+      "sha256": "1346917ff3fad4997f77716ebcd2d5d78ad5bf6ef68dd203b7003cd3a0fceb85"
+    },
+    {
+      "node": "rate_half_mca_coupled_pair_rank_frontier",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_coupled_pair_rank_frontier/statement.md",
+      "sha256": "404815ae4d7921108336fa61a26ba98183c571f6da580b1f997726da32c3386b"
+    },
+    {
+      "node": "rate_half_mca_dense_core_flag_mass",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_dense_core_flag_mass/proof.md",
+      "sha256": "b224bdf63be36a372862b207259c52b6d8e80f6310168415bfc7cc1b049e71c5"
+    },
+    {
+      "node": "rate_half_mca_dense_core_flag_mass",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_dense_core_flag_mass/statement.md",
+      "sha256": "22de772d95345e68b7237cfa99eac4985efeb269d7af5a88d2423cece2b37cc9"
+    },
+    {
+      "node": "rate_half_mca_dominant_low_pencil_payment",
+      "filename": "certificate.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/rate_half_mca_dominant_low_pencil_payment/certificate.md",
+      "sha256": "55cd6ff5cb1dc6341abb1051549b5923feceea1beb51fb40e916a80b6e8850b2"
+    },
+    {
+      "node": "rate_half_mca_dominant_low_pencil_payment",
+      "filename": "proof.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/rate_half_mca_dominant_low_pencil_payment/proof.md",
+      "sha256": "5c5fb8f4ed9cd19c822e8d681eb7fe2abcda2be122640deafd20c8daf29a2fb1"
+    },
+    {
+      "node": "rate_half_mca_dominant_low_pencil_payment",
+      "filename": "statement.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/rate_half_mca_dominant_low_pencil_payment/statement.md",
+      "sha256": "ab01fc17fbc7f1ddb185bb7bea7f21a8ec1c300f39b360b449385719e8ea76c7"
+    },
+    {
+      "node": "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "filename": "basis_child_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/basis_child_payment.md",
+      "sha256": "84ce44630fd37522d593e948ba750583aaede9ce73283c6e85b7736e10df0501"
+    },
+    {
+      "node": "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/proof.md",
+      "sha256": "dd34e74b8b4b300517428b93957e17a18627ade675cdf7d7206059eada12f919"
+    },
+    {
+      "node": "rate_half_mca_error_rank_twelve_common_core_forcing",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_error_rank_twelve_common_core_forcing/statement.md",
+      "sha256": "c7fcac7e844bec758659cdf9a337637f8d26868fd890b197bbe06f27d92cc67b"
+    },
+    {
+      "node": "rate_half_mca_fiber_contraction_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/proof.md",
+      "sha256": "614b39b4d0e5577d661559e73f5025710799e2c5fb6188481ef78d23c12e1a17"
+    },
+    {
+      "node": "rate_half_mca_fiber_contraction_interval",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_fiber_contraction_interval/statement.md",
+      "sha256": "fe5d3cceca6a0fc8f7f1785903fb1a4909ee201b6b671dfe4584a2934daf421c"
+    },
+    {
+      "node": "rate_half_mca_first_excess_core_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_first_excess_core_interval/proof.md",
+      "sha256": "cdbd09ff60805bcb62d64b0065ecc7ec74cc6956bf215de247c62f3c06621a58"
+    },
+    {
+      "node": "rate_half_mca_first_excess_core_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_first_excess_core_interval/statement.md",
+      "sha256": "19ee009d6568669a14db7d227dad3811bdad77d1ee0652a46a44c6a207bce60c"
+    },
+    {
+      "node": "rate_half_mca_high44_pencil_union_payment",
+      "filename": "constant_union.md",
+      "packet": "kb-high44-pair-rank-extension-20260910",
+      "path": "source/background/nodes/rate_half_mca_high44_pencil_union_payment/constant_union.md",
+      "sha256": "0acb04713fd8930cbb74ab550d760c2a2700aa55f1b152aa6b3f89f766be4e26"
+    },
+    {
+      "node": "rate_half_mca_high44_pencil_union_payment",
+      "filename": "hereditary_sections.md",
+      "packet": "kb-high44-pair-rank-extension-20260910",
+      "path": "source/background/nodes/rate_half_mca_high44_pencil_union_payment/hereditary_sections.md",
+      "sha256": "b3655ce374b9b46477773f75f88a778d1d59dc4d7fb43c12ec9ea416d0e7f79a"
+    },
+    {
+      "node": "rate_half_mca_high44_pencil_union_payment",
+      "filename": "nonconstant_union.md",
+      "packet": "kb-high44-pair-rank-extension-20260910",
+      "path": "source/background/nodes/rate_half_mca_high44_pencil_union_payment/nonconstant_union.md",
+      "sha256": "bfd93f87cdfa9be34b05410c31787fe6b4779bf64cb94993bedb1ccae0a4f584"
+    },
+    {
+      "node": "rate_half_mca_high44_pencil_union_payment",
+      "filename": "proof.md",
+      "packet": "kb-high44-pair-rank-extension-20260910",
+      "path": "source/background/nodes/rate_half_mca_high44_pencil_union_payment/proof.md",
+      "sha256": "b28c1466f797a750ee3dba1a49855f132dadd418abfc45e72d2ce144eae89594"
+    },
+    {
+      "node": "rate_half_mca_high44_pencil_union_payment",
+      "filename": "statement.md",
+      "packet": "kb-high44-pair-rank-extension-20260910",
+      "path": "source/background/nodes/rate_half_mca_high44_pencil_union_payment/statement.md",
+      "sha256": "dbe5ee2c872b8a2f9a3e4b17f17d5c978d478044a454df296214b83d0a59b081"
+    },
+    {
+      "node": "rate_half_mca_integer_compression_rank_eighteen_payment",
+      "filename": "integer_envelopes.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/integer_envelopes.md",
+      "sha256": "4b6e9e19245845cbd97538a1e7c5e145e9c56a9230d71878283b84dd04a8bc54"
+    },
+    {
+      "node": "rate_half_mca_integer_compression_rank_eighteen_payment",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/proof.md",
+      "sha256": "ced7dcb6369649d555b29150d6bb01b3c8a6f58b644d69bc85bcfdea04356253"
+    },
+    {
+      "node": "rate_half_mca_integer_compression_rank_eighteen_payment",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/provenance.md",
+      "sha256": "a42ce365747e2e5802b1d79848787ec9db6765d500ec3e76abc682839367bad8"
+    },
+    {
+      "node": "rate_half_mca_integer_compression_rank_eighteen_payment",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/rate_half_mca_integer_compression_rank_eighteen_payment/statement.md",
+      "sha256": "d0bda738ed2faf69844a34ebc4affb6cf69876bae900a87f7dae8f7e7f8afc1e"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "affine_singular_normal_form.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/affine_singular_normal_form.md",
+      "sha256": "d6fd2fa0664c32afe08d6395a70a8ddcd1ddb95b4e2e7e3a71f22d1e00eefc7a"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "cubic_obstruction.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_obstruction.md",
+      "sha256": "abfbc9e6dfa70e1a5dd29ce26e132d9426b8d874d280d0b24dbce446c243cdcb"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "cubic_strip_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_strip_payment.md",
+      "sha256": "b6d3f1b8814a37880c60f8362545e78214ad97fe930edf9fe4d26695ff2b10a1"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "cubic_tail_audit.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_audit.md",
+      "sha256": "1ed8f310e93107681f09b50c115f6c115dc1b463fd2f8fdcfdb0d78ceb5221c5"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "cubic_tail_line_partition.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/cubic_tail_line_partition.md",
+      "sha256": "2bdacfd1022d2060e1cf2dd7dce13f9a17907f3db3da10ee7f71b0f223eab86c"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "double_point_cubic_tail.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/double_point_cubic_tail.md",
+      "sha256": "4fe9ef39ec06961a84f21a81afc52cd8e808715d6017f0f1bd1a09e1a6b36e3a"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "height_aware_line_split.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/height_aware_line_split.md",
+      "sha256": "fedbe14de12e14df799a32bdcfe67628853b93076142be71b67c2f44a3044f30"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "low_cutoff_strip.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/low_cutoff_strip.md",
+      "sha256": "e56506929682af275202e270c770db99974e138e93466149aabbb6b03f39a32a"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/proof.md",
+      "sha256": "c4f3ea79a773eb73d22bb9ec2a775fa2e85639c483c01b011d83bde0e4a61aea"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "quartic_audit.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_audit.md",
+      "sha256": "ec042e9c9f8520bc03a2b687487dadfb3b469ad6e3f022a0c0e0b4cf1c15e142"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "quartic_multiplier_audit.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_audit.md",
+      "sha256": "d81385027efca0bc635331d39426de647eb04729053f41917084d39225777a70"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "quartic_multiplier_geometry.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_multiplier_geometry.md",
+      "sha256": "ca30596ab0124e22fa08df197fba5228c08114b2fa423c0bfb61ea01ca314285"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "quartic_obstruction.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_obstruction.md",
+      "sha256": "3b9a66e4a12cafd22fa8dacdb6abbe7a92bc3aa7bb67f4f0f83c602788f279a1"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "quartic_strip_payment.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/quartic_strip_payment.md",
+      "sha256": "b06df4cfc05bb18118bcbbcc59b7b5c9936ad23489f6ed9e9b9b757286e44293"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "raw_weighted_strip.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip.md",
+      "sha256": "ef3941e8c2c9f7898d7ab0fcc5f4ba079e75e529495cd68790c9e3f78738a9d1"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "raw_weighted_strip_audit.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/raw_weighted_strip_audit.md",
+      "sha256": "81331f5af53fb5092c8ebe49162f0fb352b6fa0867bda5650f58f8b218d4bd3a"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_low_core_kernel_quadratic_strip/statement.md",
+      "sha256": "134b7e1bbda090303664b15460817bb7869ad071fe3c09a10eb8d7479dcb1b04"
+    },
+    {
+      "node": "rate_half_mca_low_core_kernel_quadratic_strip",
+      "filename": "weighted_cubic_residual.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_low_core_kernel_quadratic_strip/weighted_cubic_residual.md",
+      "sha256": "b67c1196620975a2847ce4e3fe7f9fdf5df176f8c179205f31b6e795fd3bed58"
+    },
+    {
+      "node": "rate_half_mca_low_pair_affine_span_payment",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_affine_span_payment/proof.md",
+      "sha256": "af4796515a7c357c02214ca1152ee2965e515b359fe19bd89926fe0cf0bc8b51"
+    },
+    {
+      "node": "rate_half_mca_low_pair_affine_span_payment",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_affine_span_payment/statement.md",
+      "sha256": "d47b01e92b4959932c606e39e16fd738f4649dc21c4eee2cc66ffe562341e299"
+    },
+    {
+      "node": "rate_half_mca_low_pair_pencil_payment",
+      "filename": "basis_mass.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_pencil_payment/basis_mass.md",
+      "sha256": "5277c19583bc0c21b88918f4e20486cd468827846124c75007696746e1af8ac6"
+    },
+    {
+      "node": "rate_half_mca_low_pair_pencil_payment",
+      "filename": "certificate.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_pencil_payment/certificate.md",
+      "sha256": "c11160fa4a7df87ff9198112b738a249e7b6051d16641954779b557077555807"
+    },
+    {
+      "node": "rate_half_mca_low_pair_pencil_payment",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_pencil_payment/proof.md",
+      "sha256": "e4be510cb6ab63bb3456625c7519da4c8538f1cb9471d2ee9335208f17c60b8b"
+    },
+    {
+      "node": "rate_half_mca_low_pair_pencil_payment",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_pencil_payment/statement.md",
+      "sha256": "c89642d991fcf83631e391a9f92c1a3966fc5d212027d996735940c502534631"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_eleven_payment",
+      "filename": "proof.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_eleven_payment/proof.md",
+      "sha256": "c038f0bf5abdd387e1f29e0d55dd9db5a8c69d21713cdd85f2353e9750d8b2a0"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_eleven_payment",
+      "filename": "statement.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_eleven_payment/statement.md",
+      "sha256": "87592343cd1c48e6aa4de2777de6f809204b902eddb280cf9028e435100f1476"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_fifteen_payment",
+      "filename": "proof.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/proof.md",
+      "sha256": "75b7e0bdd7490d5f14335eb68894661398a98dc62b946adf42f067e3ed54be80"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_fifteen_payment",
+      "filename": "statement.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_fifteen_payment/statement.md",
+      "sha256": "aba7e12c15e680060773eb5a76ec343f6b7390655571ad87289f910b4934aeb6"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_fourteen_payment",
+      "filename": "proof.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/proof.md",
+      "sha256": "8075d39b8b00d8f2d0d51e98943f9e49fc1675cbd7323efb74b23b3f0424dc31"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_fourteen_payment",
+      "filename": "statement.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_fourteen_payment/statement.md",
+      "sha256": "b0b616f9c2a6a0fcf4bfe55cf2689f1beeea1d59d980ca54fda15d0de2d275f4"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_twelve_payment",
+      "filename": "proof.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_twelve_payment/proof.md",
+      "sha256": "f7edfd0e0a9911e2f76dd8558c68f8bad213b2a3bf22f4f4509811f2178fcded"
+    },
+    {
+      "node": "rate_half_mca_low_pair_rank_twelve_payment",
+      "filename": "statement.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_pair_rank_twelve_payment/statement.md",
+      "sha256": "dd8b4f56fb012bea15790fad3c725215f95b75149d7132cc77a207be9b2975f4"
+    },
+    {
+      "node": "rate_half_mca_low_raw_hyperplane_payment",
+      "filename": "proof.md",
+      "packet": "kb-low-defect-hyperplanes-quadrics-20260910",
+      "path": "source/background/nodes/rate_half_mca_low_raw_hyperplane_payment/proof.md",
+      "sha256": "9f99abe4a13ac5a4b8c90f626a9a5d02559fce3531b70479e34ad124996cf6ae"
+    },
+    {
+      "node": "rate_half_mca_low_raw_hyperplane_payment",
+      "filename": "statement.md",
+      "packet": "kb-low-defect-hyperplanes-quadrics-20260910",
+      "path": "source/background/nodes/rate_half_mca_low_raw_hyperplane_payment/statement.md",
+      "sha256": "b7f4925dad27f8cd300819932f39ba20bc0dba722abf99cca65c1e76f15f7cc2"
+    },
+    {
+      "node": "rate_half_mca_low_raw_rank_filtration",
+      "filename": "proof.md",
+      "packet": "kb-low-defect-rank-filtration-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_raw_rank_filtration/proof.md",
+      "sha256": "bbb3fb9bd28a8c5ea3f7e4ac4e9a0e5962676cedaf8488bbe2470b8a3341598c"
+    },
+    {
+      "node": "rate_half_mca_low_raw_rank_filtration",
+      "filename": "statement.md",
+      "packet": "kb-low-defect-rank-filtration-20260909",
+      "path": "source/background/nodes/rate_half_mca_low_raw_rank_filtration/statement.md",
+      "sha256": "0fccfa11c38accdab4af73a900235036364e374835bb240deb5c93c32304b669"
+    },
+    {
+      "node": "rate_half_mca_maximum_density_high_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_maximum_density_high_interval/proof.md",
+      "sha256": "d73db910d3bbfcd68f40a2ff75d57f85975f697d40c682c1d8c2c8ca2f788d0d"
+    },
+    {
+      "node": "rate_half_mca_maximum_density_high_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_maximum_density_high_interval/statement.md",
+      "sha256": "daa2992b3ecd893d4a09054417b7650bc0fc3176a33bcd61f762403e857903eb"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "branch_recurrence.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/branch_recurrence.md",
+      "sha256": "adb089a1fa472569e56eff4b3aaed43638dbaeb016e7efb82e2d9da680df15d3"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/proof.md",
+      "sha256": "8d097db73205d4013f03dde7298292c3f8d49abdf84e61cd73d361db91dbf468"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/statement.md",
+      "sha256": "50666c5f1d06231ef2a5241ecfa3430eb3eb0d80009d7c02323eea3a3f93293d"
+    },
+    {
+      "node": "rate_half_mca_moving_normal_basis_payment",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_moving_normal_basis_payment/proof.md",
+      "sha256": "d9eb7f9d5d880f4a854e7e304a14e4ba11e31fd5dcc4976e4319899c44643846"
+    },
+    {
+      "node": "rate_half_mca_moving_normal_basis_payment",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-projection-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_moving_normal_basis_payment/statement.md",
+      "sha256": "b9410f488669f333692cd14741ce9a4abc8ba0c7a90f81cf0d5c01c067d5a034"
+    },
+    {
+      "node": "rate_half_mca_parameter_graph_spread",
+      "filename": "proof.md",
+      "packet": "kb-parameter-graph-spread-20260908",
+      "path": "source/background/nodes/rate_half_mca_parameter_graph_spread/proof.md",
+      "sha256": "f2a7d00e619178b8a9480c78f5efe1b3ba5c02c807fb3e5221bcace2dc49cd1e"
+    },
+    {
+      "node": "rate_half_mca_parameter_graph_spread",
+      "filename": "statement.md",
+      "packet": "kb-parameter-graph-spread-20260908",
+      "path": "source/background/nodes/rate_half_mca_parameter_graph_spread/statement.md",
+      "sha256": "7de9a9184f978002aa105e35a18e39659d462275abf50af112443bc032303577"
+    },
+    {
+      "node": "rate_half_mca_quantitative_density_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quantitative_density_interval/proof.md",
+      "sha256": "06eba30322aeda59b469c726cd93b2f4bafc01ff8197ec072b30ea8448a9ed01"
+    },
+    {
+      "node": "rate_half_mca_quantitative_density_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quantitative_density_interval/statement.md",
+      "sha256": "841f2a339b448594d6fecb2cddf6e5d62c8449a5e019e0471f6d02575276c4b7"
+    },
+    {
+      "node": "rate_half_mca_quotient_density_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quotient_density_interval/proof.md",
+      "sha256": "94107b723bbd8433e022138e1443fe2fbf6e9d3b8955195a002622bd137c0ec7"
+    },
+    {
+      "node": "rate_half_mca_quotient_density_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quotient_density_interval/statement.md",
+      "sha256": "e82b89cd05c1c0bafd62b8ee4b64c6225f08a75ea4e84907b61f0e4ed22fe501"
+    },
+    {
+      "node": "rate_half_mca_quotient_density_refined_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quotient_density_refined_interval/proof.md",
+      "sha256": "c60e186d85f7ec4b2373731b0750c31c0b6cf3705a244c9e3ae047fc9ee8b911"
+    },
+    {
+      "node": "rate_half_mca_quotient_density_refined_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_quotient_density_refined_interval/statement.md",
+      "sha256": "6d11b05804f8ba99e120463afab34ab3843f2e3d0ee4f28c5cefb22516835fb1"
+    },
+    {
+      "node": "rate_half_mca_rank_eight_density_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_rank_eight_density_payment/proof.md",
+      "sha256": "f3418c6d5b2f8f89128b482be134d6167252692f608da04a7952f885695be8e3"
+    },
+    {
+      "node": "rate_half_mca_rank_eight_density_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_rank_eight_density_payment/statement.md",
+      "sha256": "9b6bb9d6bcb2002949e81d1f36224c257466e979157ac79493b0d3671e290625"
+    },
+    {
+      "node": "rate_half_mca_rank_profile_density_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/proof.md",
+      "sha256": "263b94caa4cf1e055e36b03fa52aaa8cd6c4ea8fdb25b8b05c9a5e8404dfdf4c"
+    },
+    {
+      "node": "rate_half_mca_rank_profile_density_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_rank_profile_density_interval/statement.md",
+      "sha256": "1ff097d3c19130bc0f27fba7c56b3cf54493fb9f65ec37f328fc1b5ae3f6013f"
+    },
+    {
+      "node": "rate_half_mca_rank_twelve_paid_interval_assembly",
+      "filename": "proof.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/proof.md",
+      "sha256": "c52a27f59c28fdba400e8c1a871d41e4146edd6203e44840fde5c1cb5ee9bf11"
+    },
+    {
+      "node": "rate_half_mca_rank_twelve_paid_interval_assembly",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_rank_twelve_paid_interval_assembly/statement.md",
+      "sha256": "5242fea3d48efe95344d447929540e327ce730f6534baf0567e48b4aa79fc3a9"
+    },
+    {
+      "node": "rate_half_mca_raw_mass_cubic_interval",
+      "filename": "basis_mass.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/basis_mass.md",
+      "sha256": "5cc775541c5d0db908c5d0347700086223faa18dd2a9fb3be6791c79065a97e1"
+    },
+    {
+      "node": "rate_half_mca_raw_mass_cubic_interval",
+      "filename": "cubic_payment.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/cubic_payment.md",
+      "sha256": "0bc31d5ea96a4bbe65180febe20868196058ac9d203d168a11b8e7e218b1fa80"
+    },
+    {
+      "node": "rate_half_mca_raw_mass_cubic_interval",
+      "filename": "proof.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/proof.md",
+      "sha256": "469491d86ed359f3ec52b1386419c46dc34f1d15b702c24e44ebaa1ec8bc8356"
+    },
+    {
+      "node": "rate_half_mca_raw_mass_cubic_interval",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/rate_half_mca_raw_mass_cubic_interval/statement.md",
+      "sha256": "ae45ffa5076a440fbc83a91f5f550ee5c680f2e9b24412249fdcc9d9685fe312"
+    },
+    {
+      "node": "rate_half_mca_raw_two_projection_regular_frontier",
+      "filename": "proof.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_projection_regular_frontier/proof.md",
+      "sha256": "dc8e5d9698c15aea6744323599cafbad5a5ede7ad3541d180bcbf54d8accd206"
+    },
+    {
+      "node": "rate_half_mca_raw_two_projection_regular_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_projection_regular_frontier/provenance.md",
+      "sha256": "d743250a4b679b9e5e0541be84bb17d8feae09e92bcfd7088fb84f4a9c9444bc"
+    },
+    {
+      "node": "rate_half_mca_raw_two_projection_regular_frontier",
+      "filename": "statement.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_projection_regular_frontier/statement.md",
+      "sha256": "5edf55c77dabbc4f9d625f5c3d88d58c4c92c3f4757474af8b4505cc05332bb5"
+    },
+    {
+      "node": "rate_half_mca_raw_two_quadratic_normal_payment",
+      "filename": "proof.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/proof.md",
+      "sha256": "9edbbd2cfbad944a9a1774037f3031c671c54102076ed7d49b3bcdd7cc5a71cb"
+    },
+    {
+      "node": "rate_half_mca_raw_two_quadratic_normal_payment",
+      "filename": "provenance.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/provenance.md",
+      "sha256": "82eab30718c8f4d94674d7459af2b2ab695d3f844fca86b1589c7e49ba51982b"
+    },
+    {
+      "node": "rate_half_mca_raw_two_quadratic_normal_payment",
+      "filename": "statement.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_raw_two_quadratic_normal_payment/statement.md",
+      "sha256": "06680998bea2ec4c708d3d748a2cb3ced7e316ccaa2f74b8b19d8eea1e110980"
+    },
+    {
+      "node": "rate_half_mca_receiver_fiber_degree4700_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_fiber_degree4700_payment/proof.md",
+      "sha256": "060dda6a86ba32cb14aa433018d39aa588e151fc27d12d020d5cd3bd71c8f040"
+    },
+    {
+      "node": "rate_half_mca_receiver_fiber_degree4700_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_fiber_degree4700_payment/statement.md",
+      "sha256": "8d5fa32ff7c0dc8f7bb2b45b98a3e830097423014f8490d90fc7222caa1920f5"
+    },
+    {
+      "node": "rate_half_mca_receiver_fiber_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_fiber_payment/proof.md",
+      "sha256": "af7d11118b4ad275f4b482a4fd630f5748c35dfb1473807f434c445b7c769472"
+    },
+    {
+      "node": "rate_half_mca_receiver_fiber_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_fiber_payment/statement.md",
+      "sha256": "d3083ecb90d5490fbcc0aa066771f9da39f3dbe107ed624f3650451bdf0a7d28"
+    },
+    {
+      "node": "rate_half_mca_receiver_flat_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_flat_interval/proof.md",
+      "sha256": "046472b770e666543076c78f6561b30b1ddbeb1ac3e6054da4f07e694d8b0ef8"
+    },
+    {
+      "node": "rate_half_mca_receiver_flat_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_receiver_flat_interval/statement.md",
+      "sha256": "70a02b82cba5aea21e5f4d292d9d66fe205fd672367d1f5e799dc35c8df88752"
+    },
+    {
+      "node": "rate_half_mca_regular_operator_terminal_reduction",
+      "filename": "proof.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_operator_terminal_reduction/proof.md",
+      "sha256": "f7199392bca39890ec3a1ee878ae1ecf2235884c0de6d67431f23910c0157c39"
+    },
+    {
+      "node": "rate_half_mca_regular_operator_terminal_reduction",
+      "filename": "provenance.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_operator_terminal_reduction/provenance.md",
+      "sha256": "10145047999e34d9d20bbbd500a5c3648019076c7ff22dada8394356bc86f9fe"
+    },
+    {
+      "node": "rate_half_mca_regular_operator_terminal_reduction",
+      "filename": "statement.md",
+      "packet": "kb-raw-two-regular-operator-frontier-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_operator_terminal_reduction/statement.md",
+      "sha256": "170423970950b22d90529bd908deb49993b51f4a1fd566c443fb78bd41f3184a"
+    },
+    {
+      "node": "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "filename": "pencil_gates.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/pencil_gates.md",
+      "sha256": "547b94dee1ed5dbdd6019e14cf26ebd69516e5b7b6680a59567dac4e412f5c63"
+    },
+    {
+      "node": "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/proof.md",
+      "sha256": "b993fef6e6c40989088b66434b2212f39cab57a8cb741cbd14ab56b4f5e830df"
+    },
+    {
+      "node": "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/provenance.md",
+      "sha256": "cf4312878e47c92eec4a6365b4734a4c0a188786d1ff053382cdc3ef44af0272"
+    },
+    {
+      "node": "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/statement.md",
+      "sha256": "0cf261be36dc4e54c8f1d33f5bcdb39f8079723148c5f35d47c063e8c15b1785"
+    },
+    {
+      "node": "rate_half_mca_regular_rational_plane_terminal_bounds",
+      "filename": "terminal_envelopes.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_rational_plane_terminal_bounds/terminal_envelopes.md",
+      "sha256": "62c604716ae577d4d2ba9d2cc130eb82291131a5e9f4a54fe7c8eb730d86c20a"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_actual_span_frontier",
+      "filename": "constant_prefix.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/constant_prefix.md",
+      "sha256": "8668c47605305b8f28f4ab928c07725bec94c9a56d4bff1a0fb6bf53fed566fc"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_actual_span_frontier",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/proof.md",
+      "sha256": "61de0fd448f70a2fd57f8d88051f4c7f49cdb968d074f2024f7c15a72e318bfe"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_actual_span_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/provenance.md",
+      "sha256": "6950502e952335720af431c01678a17dc8cf594c5e8fa190685a09e655f1c70b"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_actual_span_frontier",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-actual-span-20260910",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_actual_span_frontier/statement.md",
+      "sha256": "9d8f08db7854f14661f1979033387d0d2f18d01b406b709727832d36d0651ac1"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "finite_calibration.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/finite_calibration.md",
+      "sha256": "303d6e5d11f9b68ea0f42c697379cad9093813b15644751b48ae856fcf15ea2e"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "primitive_carrier.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/primitive_carrier.md",
+      "sha256": "d3031fe5d3039b118d9f851ab3a342717907a0d94c10d1f0d06dcc4be52cb602"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/proof.md",
+      "sha256": "c24e9deef928315e9ef5f61cf42bbb1f3ec009929ea440571ba856ef609cc123"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/provenance.md",
+      "sha256": "7749559694cee749530d6ede8c02bd9b81f5953922faa0c991ccda2821f557bb"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "section_capacities.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/section_capacities.md",
+      "sha256": "0f2e5dd7dac6e69bb55b7961b96a1f951de3514b4ca30dd82cc10c7a0e03e29b"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/statement.md",
+      "sha256": "f3b07e7ab87c06f76d516beb354b995d343b8056ad9e254cd07aefd3668606b5"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+      "filename": "thresholds.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/thresholds.md",
+      "sha256": "f5e6be7eede0bbd59151ec9503eff49ab00e44d5da32a73b13fe60cca99e2deb"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_low_image_degree_frontier",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/proof.md",
+      "sha256": "28df4103216b2b793376ad5fff72604c9b5977fcc2ce4cb831717705d5aa6f11"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_low_image_degree_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/provenance.md",
+      "sha256": "edcdb927508dd09651472314e4c5ade466e728a51cf0d5b76d16751899f67cbf"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_low_image_degree_frontier",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/statement.md",
+      "sha256": "9f476106198c76ed5a9cad38b80eacf5fbbd18325fca39d688d8c059f4f14389"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_low_image_degree_frontier",
+      "filename": "thresholds.md",
+      "packet": "kb-regular-terminal-collision-interpolation-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/thresholds.md",
+      "sha256": "81429d6e7a6e90eed9afc89530b2661744f624163f6547c5487d3191b71a2d52"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "filename": "proof.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_rich_fibre_frontier/proof.md",
+      "sha256": "6e7fd94f20cd2c4b79d6141f474d5e9f36499349250320d1a984475a7fd54507"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "filename": "provenance.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_rich_fibre_frontier/provenance.md",
+      "sha256": "cb1a7479c01dd786e1b3e983fd0a788191e0c824635f6e5b20a5b624508a3ad2"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "filename": "source_witness.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_rich_fibre_frontier/source_witness.md",
+      "sha256": "634cc782a565c4a388132d7fefc9fc1c776ad96210749ac08357f6a3d27e395b"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "filename": "statement.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_rich_fibre_frontier/statement.md",
+      "sha256": "754f06e8b9afd57ce287f50f997483d132043cc508abefe16ecbe4713960eae3"
+    },
+    {
+      "node": "rate_half_mca_regular_terminal_rich_fibre_frontier",
+      "filename": "thresholds.md",
+      "packet": "kb-regular-terminal-rich-core-fibres-20260911",
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_rich_fibre_frontier/thresholds.md",
+      "sha256": "fac3f749c1b69cbd3f659ebf93e20673b02ef43b2f4756e80fd44eae35317c6f"
+    },
+    {
+      "node": "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/proof.md",
+      "sha256": "1af92198f86efcdba7323fefa05d3f9a05bc2e162b7b04c438f4aa5a713a8480"
+    },
+    {
+      "node": "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "filename": "raw_low_alternative.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/raw_low_alternative.md",
+      "sha256": "fbbf83ed57fe5bb4a3a6d9219b38b6f91dec50f1344d3829ec86bd7117b1ab90"
+    },
+    {
+      "node": "rate_half_mca_scan_free_error_rank_eleven_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/rate_half_mca_scan_free_error_rank_eleven_payment/statement.md",
+      "sha256": "9869b0762a1f66f98a01f816285efd689e14fe555cfba4e08c244c09f817130f"
+    },
+    {
+      "node": "rate_half_mca_switching_credit_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_switching_credit_interval/proof.md",
+      "sha256": "d8c61c643a64d5a46b2a7a7124a06f9041722b9530183e79e1811370fc3f25fa"
+    },
+    {
+      "node": "rate_half_mca_switching_credit_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_switching_credit_interval/statement.md",
+      "sha256": "f596a3f5ef70412f8ea5843f64f8729a1c27aeae094e129d8097eb1bfcf2a3f1"
+    },
+    {
+      "node": "rate_half_mca_two_cost_fiber_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_two_cost_fiber_interval/proof.md",
+      "sha256": "332b9c2b4402aca26532d79eccf421eeae8cf33c1d5fdb9d31f3edab334d036a"
+    },
+    {
+      "node": "rate_half_mca_two_cost_fiber_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_two_cost_fiber_interval/statement.md",
+      "sha256": "7381cbbf530dca4446f31fe8e0f36658c6ad7c3717d5a75b1432f5acdc2aab3a"
+    },
+    {
+      "node": "rate_half_mca_two_cost_receiver_fiber_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_two_cost_receiver_fiber_payment/proof.md",
+      "sha256": "f6f00aca17b5d114bc59eef00718c75d03bdd612e0ae1a7ca7609d0e9724d41f"
+    },
+    {
+      "node": "rate_half_mca_two_cost_receiver_fiber_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_two_cost_receiver_fiber_payment/statement.md",
+      "sha256": "395e02b4d810b3400da3efaec83c1dab30af9d4b403a5e6a4afe6c7a72a24d56"
+    },
+    {
+      "node": "rate_half_mca_weighted_collision_interval",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_weighted_collision_interval/proof.md",
+      "sha256": "d3e6152b0c1a11a46d96baec8df557f7087eeab8919d25a41a2826be7701b05e"
+    },
+    {
+      "node": "rate_half_mca_weighted_collision_interval",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/rate_half_mca_weighted_collision_interval/statement.md",
+      "sha256": "d429b4fc207145b2e2785a8eb28643ad0b3252e6220de76a2c750c9f2c06ff0d"
+    },
+    {
+      "node": "v13_2_near_rational_pair_proximity",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/v13_2_near_rational_pair_proximity/proof.md",
+      "sha256": "894dfa5bccb8bcba926ff75509919d3ce50d9df1e7309f668597a25c82389d3b"
+    },
+    {
+      "node": "v13_2_near_rational_pair_proximity",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/v13_2_near_rational_pair_proximity/statement.md",
+      "sha256": "d9a9ae57260e516a2db942004dcb067e6e417f26996a5c726d6d36b5a3f9bfb5"
+    },
+    {
+      "node": "v13_2_near_rational_supportwise_two_anchor_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/proof.md",
+      "sha256": "bce6066cb35e5d2207cc775d072a4ef9fcaf98d077670abebbf97ba9f5d90172"
+    },
+    {
+      "node": "v13_2_near_rational_supportwise_two_anchor_payment",
+      "filename": "provenance.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/provenance.md",
+      "sha256": "bf3918e829c8be07dde4606f44f2ff6f53f35c4cff150130b44d0d168d130dbe"
+    },
+    {
+      "node": "v13_2_near_rational_supportwise_two_anchor_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/statement.md",
+      "sha256": "b004a5bd1fd6c38ceb907462e850964b87484a7c63284a0ed9f2fda05f14d616"
+    }
+  ],
+  "inherited_proof_documents_compared": 363,
+  "published_source_hashes_checked": 1275,
+  "files": [
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/audit.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/audit.md",
+      "sha256": "da06897a45d099ba5b9279e57d97b5eff0ece47e4b1d85a92a7acd3f27d2950f"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/branch_budget.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/branch_budget.md",
+      "sha256": "66743ad8c5ca44ce4d4d08b3632f12c72f5c812ab545756aac00f35aab7767a8"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/claim_contract.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/claim_contract.md",
+      "sha256": "72880ebf0bbb03c5b35cf1b8a75d335b3af23408c455ccfa1090dc891fd67a42"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/dependency_subdag.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/dependency_subdag.md",
+      "sha256": "ebd52369fe59a7d3ff97fa0dfbed0971d72225132e3c2b946d574e70ff0797af"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/node.json",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/node.json",
+      "sha256": "cbc9ada64549b7d06dcc5bd9a1d9957186be2a5a8eac21f2a28c4ae9189bb80d"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/normalization.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/normalization.md",
+      "sha256": "adc7c1e5b852d9ff0fee6f4ee22e6c24c3f72c6a37afc1798eddf3fe5c23b082"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/proof.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/proof.md",
+      "sha256": "e57ae2b87b9f3067b675e7dae49d83e9a58f179e7c2857bf55fbf6cdc7e37af3"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/provenance.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/provenance.md",
+      "sha256": "fca067c44f8086251f4786f9e1531809401d1e75afc7d184f926a91b647b7984"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/result.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/result.md",
+      "sha256": "4feab70cbbb08b0d5fd2bdaad7604780c40f8d6f0d9f77d10b81cfb7f44f1821"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/statement.md",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/statement.md",
+      "sha256": "d91600b096e3247eea331ebdb168a8c96ef91a8fcb7c88101c798f65886fa9a9"
+    },
+    {
+      "path": "source/background/nodes/pair_space_operator_branch_genus_energy/verify.py",
+      "origin_path": "background/nodes/pair_space_operator_branch_genus_energy/verify.py",
+      "sha256": "5075e0bb030a86718c6cd7e43f885abab502b49f750844177066645c5a32a337"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/audit.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/audit.md",
+      "sha256": "57b2df5f9e4ab85378f753182ca3c7220b4b04c50565b1499c3384564e2b3a18"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/10965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/10965.json",
+      "sha256": "ebe0a1bab8b0c91f3a2063d541d797bbd8fe42f911745421032b51102013728f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/11965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/11965.json",
+      "sha256": "6bf8bd3493a06f6ade6cecb722a5c9567ca34f6f0722a57a4c2a1777e937de96"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/12965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/12965.json",
+      "sha256": "de00ae4ce1e459d1ac25966268bc5a8514ec3024967fc0c506b81bd601e64957"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/13365.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/13365.json",
+      "sha256": "5b4f6dea965bb149204607842791360c474afbb35cbf92cd91e572635b0f5cb5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/13965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/13965.json",
+      "sha256": "36eaecfd79919091520297d71adf4a880b7ad7da50b57f29fb4107e47a5519ac"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/14965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/14965.json",
+      "sha256": "56cb81bc6a3449b9dc7dcba1c5bab2725d382f56d99d7fb53c6d70b9ba198859"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/15965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/15965.json",
+      "sha256": "98201fec7acc3126308481d387f957d53c832a1ebf9e305586a75d727cac534f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/16965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/16965.json",
+      "sha256": "2d32b8877ed97dcc1f5a8649408fbdf9ea3a695d6bff75c723a4393a8024c37d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/17965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/17965.json",
+      "sha256": "2b2986734164a9fb06ab00f983a57e2deafcc02b84ebd3c15c0231713e9d5247"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/18965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/18965.json",
+      "sha256": "f6c3c42f85b736d1584582d2f6f5909989763caa2aa7c29c452a3bc442ed8d71"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/19965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/19965.json",
+      "sha256": "15a20cdc36412263ac1e391a3c5cff2ef0bd93d16619bfb86e84977a3eda5276"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/20965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/20965.json",
+      "sha256": "17d5207f41c47c82c26922a7f29d10d416ead0e6a67c904520907adf08f4bbdf"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/9965.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/9965.json",
+      "sha256": "3300e051bdbb1542e07659097b3093defb9048be8a79bc628adda554fcc434c7"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/index.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/certificates/index.json",
+      "sha256": "9d9a01c5e9ac131cf6e3f7485dfc1c91595acd26521797544fc339771f437893"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/claim_contract.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/claim_contract.md",
+      "sha256": "1f239416859b9817f91c8497cbb5a02efba9575b740f3dc3d9f58cd9ff68ae7d"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/dependency_subdag.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/dependency_subdag.md",
+      "sha256": "e4dcead0bd12d173f819ee31bb75d337d65d2ab355535d7b4e0e5a22bc3a9a21"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/finite_calibration.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/finite_calibration.md",
+      "sha256": "2073cba9f2aad7acba7c52a7e4ad0e2ecff170ef9004f49a04752ed9196192e0"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/node.json",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/node.json",
+      "sha256": "9e275f22d2098df0c16d3a33175522f3ad13f2a1ee352ad1abd6793a2ea8f8da"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/proof.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/proof.md",
+      "sha256": "d4323722299c9a3f0c2617c2509ca01c881b98321ff540a82592cab31134d4d5"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/provenance.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/provenance.md",
+      "sha256": "7a659a43571493f4425531f0ab503aef13e2d2e29d03e0b30d5031ee6f7c546c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/result.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/result.md",
+      "sha256": "3813300e5d954379279486a18d2aa59a257c382254aa3b198d7a13a108b31637"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/statement.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/statement.md",
+      "sha256": "5fdfa9b5bf65346583e8a91a0667635652daab0e00ce0f83e047a7a028cd15f2"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/thresholds.md",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/thresholds.md",
+      "sha256": "11b53f1cc2db8a1c16887774b63ba38b87f7b500eb5db710f6fca8cd30e983c3"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify.py",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify.py",
+      "sha256": "7edd7d21d51cb75590e7fd0e3d20d8ad61251cf9d56c3e5645bf2abec8705d64"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify_audit.py",
+      "origin_path": "background/nodes/rate_half_mca_regular_terminal_genus_energy_frontier/verify_audit.py",
+      "sha256": "66d16230a0a6472c15d09ec0d1ebaaf41b0c3c499e6f7de119eaf0488783c95a"
+    }
+  ],
+  "source_bytes": 359211,
+  "scope": {
+    "lane": "K3 / DIRECT",
+    "object": "MCA",
+    "agreement": 1116048,
+    "field": "2130706433^6",
+    "target_epsilon": "2^-128",
+    "original_error_rank": 12,
+    "shared_carrier_dimension": 11,
+    "J": [
+      9965,
+      21499
+    ],
+    "actual_P2_rank": 19,
+    "anchors": 8,
+    "terminal_enclosure_dimension": 3,
+    "B_star": "274980728111395087",
+    "near": 134944,
+    "terminal_bound_scope": "Pencil-free regular3 terminals after proved original large-pencil source alternatives are removed",
+    "eigenvalues_field": "original F",
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "spectral_counts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primitive_degree": "kappa=1+actual max degree(U0/G)",
+    "degree_slack": "v=J-8-kappa-distinct nonanchor G roots, every v>=0",
+    "normalization_degree": "nu=(kappa-1)/eta, finite flat map to normalization",
+    "finite_fibre_bound": "l_p<=nu*b_p, b_p geometric branch count",
+    "branch_budget": "sum binom(b_p,2)<=g=binom(eta-1,2)",
+    "pair_budget": "C=sum binom(r_p,2)<=binom(M,2), disjoint actual groups",
+    "energy": "S<=N/2+sqrt((N+2nu*g)*(N/4+2nu*C))",
+    "strict_price": "Z>0 and Z^2>(N+2nu*g)*(N+8nu*binom(M,2))",
+    "coverage": "each newly paid eta separately; inherited interpolation above",
+    "profiles": 13,
+    "spectral_gates": 52,
+    "new_strict_prices": 328,
+    "improved_gates": 46,
+    "uniform_image_thresholds": [
+      4,
+      5,
+      6,
+      6
+    ],
+    "maximum_surviving_image_degree": 5,
+    "image_degree": "image equation degree, not polynomial degree or map multiplicity",
+    "whole_constant_unpaid_tail": [
+      14965,
+      21499
+    ],
+    "available_weight_test_maximum": "272127061148955779",
+    "available_weight_test_reserve": "2853666962439308",
+    "original_weights_unchanged": true,
+    "higher_raw_and_near_included_once": true,
+    "all_terminals_covered": false,
+    "rank19_closed": false,
+    "active_v4_atom": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "status": "PROVED locally at printed scopes; independent mathematical review due",
+  "impact": "Branch energy pays image degrees at least six; pencil-free remainder has image degree 2..5; no unrestricted rank19 payment"
+}

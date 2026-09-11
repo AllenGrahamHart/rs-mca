@@ -1,0 +1,231 @@
+{
+  "schema": "regular-branch-energy-frontier-v1",
+  "scope": {
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "J": [
+      9965,
+      21499
+    ],
+    "anchors": 8,
+    "terminal_dimension": 3,
+    "pencil_free": true,
+    "eigenvalues_field": "original F",
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "primitive_degree": "actual degree of U0/G, all eta+1<=kappa<=J1-8",
+    "degree_slack": "every v>=0; original full gcd and unused degree retained",
+    "normalization_degree": "nu=(kappa-1)/eta; finite flat normalization map",
+    "finite_fibre_bound": "nu times geometric branch count, not nu alone",
+    "branch_budget": "sum binom(b_p,2)<=binom(eta-1,2), from planarity",
+    "pair_budget": "disjoint chosen actual groups, C<=binom(M,2)",
+    "squared_gate": "Z>0 and Z^2>(N+2nu*g)(N+8nu*P)",
+    "coverage": "new eta range up to old eta0-1; inherited payment above",
+    "original_weights_unchanged": true,
+    "whole_constant_upper_tail_open": true,
+    "available_weight_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "rank19_closed": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "old_certificate_sha256": "6d5677e763c53bd135cbf244f75c3e974bf97e21a4cee285a53d3ac561332f4e",
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "3300e051bdbb1542e07659097b3093defb9048be8a79bc628adda554fcc434c7",
+      "J": [
+        9965,
+        10964
+      ],
+      "eta0": [
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "ebe0a1bab8b0c91f3a2063d541d797bbd8fe42f911745421032b51102013728f",
+      "J": [
+        10965,
+        11964
+      ],
+      "eta0": [
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "6bf8bd3493a06f6ade6cecb722a5c9567ca34f6f0722a57a4c2a1777e937de96",
+      "J": [
+        11965,
+        12964
+      ],
+      "eta0": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "de00ae4ce1e459d1ac25966268bc5a8514ec3024967fc0c506b81bd601e64957",
+      "J": [
+        12965,
+        13364
+      ],
+      "eta0": [
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "5b4f6dea965bb149204607842791360c474afbb35cbf92cd91e572635b0f5cb5",
+      "J": [
+        13365,
+        13964
+      ],
+      "eta0": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "36eaecfd79919091520297d71adf4a880b7ad7da50b57f29fb4107e47a5519ac",
+      "J": [
+        13965,
+        14964
+      ],
+      "eta0": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "56cb81bc6a3449b9dc7dcba1c5bab2725d382f56d99d7fb53c6d70b9ba198859",
+      "J": [
+        14965,
+        15964
+      ],
+      "eta0": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "98201fec7acc3126308481d387f957d53c832a1ebf9e305586a75d727cac534f",
+      "J": [
+        15965,
+        16964
+      ],
+      "eta0": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "2d32b8877ed97dcc1f5a8649408fbdf9ea3a695d6bff75c723a4393a8024c37d",
+      "J": [
+        16965,
+        17964
+      ],
+      "eta0": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "2b2986734164a9fb06ab00f983a57e2deafcc02b84ebd3c15c0231713e9d5247",
+      "J": [
+        17965,
+        18964
+      ],
+      "eta0": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "f6c3c42f85b736d1584582d2f6f5909989763caa2aa7c29c452a3bc442ed8d71",
+      "J": [
+        18965,
+        19964
+      ],
+      "eta0": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "15a20cdc36412263ac1e391a3c5cff2ef0bd93d16619bfb86e84977a3eda5276",
+      "J": [
+        19965,
+        20964
+      ],
+      "eta0": [
+        4,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "17d5207f41c47c82c26922a7f29d10d416ead0e6a67c904520907adf08f4bbdf",
+      "J": [
+        20965,
+        21499
+      ],
+      "eta0": [
+        4,
+        5,
+        6,
+        6
+      ]
+    }
+  ],
+  "profile_count": 13,
+  "spectral_gate_count": 52,
+  "new_strict_prices": 328,
+  "improved_spectral_gates": 46,
+  "uniform_image_thresholds": [
+    4,
+    5,
+    6,
+    6
+  ],
+  "maximum_surviving_image_degree": 5
+}

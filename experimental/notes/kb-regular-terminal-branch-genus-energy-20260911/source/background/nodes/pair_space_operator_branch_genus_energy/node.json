@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_operator_branch_genus_energy",
+    "title": "Actual pair ownership and geometric branch budget give a finite-domain energy bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For primitive polynomial operator3 pairs, the actual plane image has normalization degree nu=D/eta and finite fibre size at most nu times the geometric branch count. Planarity gives total binom(branches,2) at most binom(eta-1,2). Coupling this with actual disjoint-pair ownership and finite domain capacity bounds remaining core incidence by n/2+sqrt((n+2nu*g)(n/4+2nu*binom(M,2))). Singular fibres, ramification and original pair owners are retained.",
+    "refs": [
+      "background/nodes/pair_space_operator_branch_genus_energy/statement.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/proof.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/normalization.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/branch_budget.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/claim_contract.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/dependency_subdag.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/audit.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/result.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/provenance.md",
+      "background/nodes/pair_space_operator_branch_genus_energy/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_operator_collision_interpolation"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

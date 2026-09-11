@@ -1,0 +1,35 @@
+{
+  "schema": "regular-branch-energy-profile-v1",
+  "J": [
+    9965,
+    10964
+  ],
+  "old_certificate_sha256": "6d5677e763c53bd135cbf244f75c3e974bf97e21a4cee285a53d3ac561332f4e",
+  "original_constant_gate": 684191,
+  "spectra": [
+    {
+      "e": 0,
+      "eta0": 4,
+      "inherited_eta0": 4,
+      "checks": []
+    },
+    {
+      "e": 1,
+      "eta0": 5,
+      "inherited_eta0": 5,
+      "checks": []
+    },
+    {
+      "e": 2,
+      "eta0": 5,
+      "inherited_eta0": 5,
+      "checks": []
+    },
+    {
+      "e": 3,
+      "eta0": 6,
+      "inherited_eta0": 6,
+      "checks": []
+    }
+  ]
+}
