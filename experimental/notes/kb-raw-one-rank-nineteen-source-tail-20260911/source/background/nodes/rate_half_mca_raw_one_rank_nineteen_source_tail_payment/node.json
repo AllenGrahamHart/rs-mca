@@ -1,0 +1,62 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_one_rank_nineteen_source_tail_payment",
+    "title": "Actual raw-one pair rank at most nineteen pays the original source tail with unrestricted P2",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear complete post-near error-rank12 source on J20618..21499 whose ACTUAL raw-one pair affine rank is <=19 pays its entire original bad-slope set by274978423712566784, reserve2304398828303, with NO P2 rank or projection premise. After paid original whole-source pencil alternatives, all J9965..21499 have raw-one count<=180336660306614524 by an exhaustive proper-carrier/small-projection/generic-enclosure/quadratic-normal case split. The t1 U/G induction is reconstructed for subfamilies without actual enclosure occupancy; all weights, nonregular children, full gcds and eight-section terminal history remain. J20617 misses this upper recipe only. Other source classes, original higher ranks, the whole row and both Prizes stay open.",
+    "refs": [
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/statement.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/proof.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/transport.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/audit.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/result.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/provenance.md",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/verify.py",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_raw_one_rank_nineteen_source_tail_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_all_coordinate_pair_rank_descent"
+    },
+    {
+      "from": "mca_small_pair_terminal_weight_bounds"
+    },
+    {
+      "from": "rate_half_mca_all_coordinate_rank_nineteen_tail_payment"
+    },
+    {
+      "from": "rate_half_mca_raw_one_projection_rank_nine_source_tail_payment"
+    },
+    {
+      "from": "rate_half_mca_low_raw_hyperplane_payment"
+    },
+    {
+      "from": "rate_half_mca_raw_two_quadratic_normal_payment"
+    },
+    {
+      "from": "pair_space_polynomial_projection_dichotomy"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "mca_constant_projection_singleton_fibre_census"
+    },
+    {
+      "from": "rate_half_mca_inherited_normalization_frontier"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

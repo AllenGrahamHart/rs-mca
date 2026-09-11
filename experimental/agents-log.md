@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Raw-one rank-nineteen original-source tail
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Review packet](notes/kb-raw-one-rank-nineteen-source-tail-20260911/README.md),
+  frozen proof, weighted transport, certificate and offline replay.
+- **Status:** PROVED LOCAL at the printed scope; external mathematical review due.
+- **What is being added:** Every original error-rank12 source on J20618..21499
+  with ACTUAL raw-one pair affine rank<=19 has its entire original bad-slope
+  set bounded by274978423712566784, reserve2304398828303. P2 is unrestricted.
+- **How it is useful:** Extends the K3 / DIRECT projection packet and #1180.
+  Four exhaustive cases retain actual owners and higher raw. Explicit U/G
+  transport avoids changing the premise of the older P2 source theorem.
+  The882-degree upper-interval survivor has actual P1 pair rank20..22.
+- **What to do next:** Review enclosure augmentation, quadratic containment,
+  hereditary source gates, eight-section history and once-only source composition.
+  Other original sources, active-v4 atoms, the adjacent row and both Prizes remain open.
+- **Replay/compute:** Two new and five inherited checks pass normal/O in
+  2.60/2.75seconds, below51MiB peak process RSS.58 semantic mutations and
+  60 manifest mutations are rejected. No Modal, spending or compute request.
+
 ### 2026-09-11 - Constant-projection original-source bounds
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
