@@ -1,0 +1,167 @@
+{
+  "schema": "nested-product-full-constant-source-v1",
+  "field": "2130706433^6",
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "J": [
+    9965,
+    21499
+  ],
+  "original_error_rank": 12,
+  "actual_P2_rank": 19,
+  "shared_dimension": 11,
+  "full_constant_dimension": 11,
+  "second_component_dimension": 8,
+  "local_antecedent": "after proved whole-source pencil alternatives are removed",
+  "degree_excess": "kappa=D-(s-1)",
+  "degree_band_width": 1000,
+  "complement_box_width": 10000,
+  "shared_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "codimensions": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "all_coordinates": true,
+  "root_child_codimension_drop": 1,
+  "root_child_pair_rank_drop": 1,
+  "ordinary_child_pair_rank_drop": 2,
+  "root_count_bound": "kappa+c",
+  "original_weights": true,
+  "full_gcd_and_slack": true,
+  "normalization_cap_required": false,
+  "near": 134944,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "whole_constant_terminal_tail_paid": false,
+  "unrestricted_rank19_paid": false,
+  "prize_closed": false,
+  "profiles": [
+    {
+      "path": "9965.jsonl",
+      "sha256": "f763c61f9939c2741bae0918f431b71675ee2431c18ccbbcd9718ebb2ecfbca7",
+      "J": [
+        9965,
+        10964
+      ]
+    },
+    {
+      "path": "10965.jsonl",
+      "sha256": "2298d9d3234b32ca6f5867a19f38d0db94c22a9dddc70962c2b1d328b033f795",
+      "J": [
+        10965,
+        11964
+      ]
+    },
+    {
+      "path": "11965.jsonl",
+      "sha256": "2bdffd6a50b7e72b032d4dafab11ca847e768e56d26fce9975fdebce0dfb8ef3",
+      "J": [
+        11965,
+        12964
+      ]
+    },
+    {
+      "path": "12965.jsonl",
+      "sha256": "963e909c686baae95bfae5386cd2817adb8927f9948e8cecace0b9c6386383ea",
+      "J": [
+        12965,
+        13364
+      ]
+    },
+    {
+      "path": "13365.jsonl",
+      "sha256": "6f9e65f8aff8af3aff32be6b6b03566790e57eaa2a8c7662ead0d88d7814c942",
+      "J": [
+        13365,
+        13964
+      ]
+    },
+    {
+      "path": "13965.jsonl",
+      "sha256": "be141949bd027bda549c5857c6ee44e7810c12df2ebab0a43ad0433a12b84f2d",
+      "J": [
+        13965,
+        14964
+      ]
+    },
+    {
+      "path": "14965.jsonl",
+      "sha256": "74a7bdc8da7f78abd6f608eb678838a704ba445ebd6ebf22a088719230668260",
+      "J": [
+        14965,
+        15964
+      ]
+    },
+    {
+      "path": "15965.jsonl",
+      "sha256": "c66df95764c512637d3fafe69ddbab1c37b61795e1a8e9c6aa5845a830654bf1",
+      "J": [
+        15965,
+        16964
+      ]
+    },
+    {
+      "path": "16965.jsonl",
+      "sha256": "fc580b4a0730aad664d5946e5e0be978d4b8946e66b1979af31f9a7c0d3f7761",
+      "J": [
+        16965,
+        17964
+      ]
+    },
+    {
+      "path": "17965.jsonl",
+      "sha256": "4179639d37f62447f86a80f5f31ae5da00b0434a86400c181c54987db4a44ffa",
+      "J": [
+        17965,
+        18964
+      ]
+    },
+    {
+      "path": "18965.jsonl",
+      "sha256": "fca0f1faa425f4c428f7bd4b0c4bb94c083553b6e8b99049a2e8a40ca1e2c432",
+      "J": [
+        18965,
+        19964
+      ]
+    },
+    {
+      "path": "19965.jsonl",
+      "sha256": "203fa7ca7db889a8a8bdce4569fe31f14463200f76e1c0cfe49e6754f278b219",
+      "J": [
+        19965,
+        20964
+      ]
+    },
+    {
+      "path": "20965.jsonl",
+      "sha256": "e10356b3afdbc9e6a6fdbad23833803c47422747c1eacde3ed8699ba8887c395",
+      "J": [
+        20965,
+        21499
+      ]
+    }
+  ],
+  "degree_bands": 424,
+  "scalar_LIST_steps": 93384,
+  "recurrence_identities": 16112,
+  "state_count": 42,
+  "source_bytes": 4672377,
+  "residual_source_maximum": 239161133377346211,
+  "whole_source_bound": 270000000000000000,
+  "combined_large_pencil_bound": 272127061148955779
+}

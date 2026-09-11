@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_nested_product_all_coordinate_anchor",
+    "title": "Nested products retain all joint rank-one and rank-two anchors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Nested product W=(V,0)+(0,B), B subset V, shared s and codimension c, has two all-coordinate child types: nonroots drop pair rank2 and preserve c; B-roots drop pair rank1 and reduce c by1. Shared dimension drops1 and primitive degree excess kappa=D-(s-1) cannot increase in either case. At most kappa+c coordinates are roots. All-coordinate original-weight incidence and affine-ratio endpoint bounds give a finite state recurrence, with whole-constant scalar LIST terminals and one-pair ownership. No generic-coordinate exclusion, new source resource or row payment is assumed.",
+    "refs": [
+      "background/nodes/mca_nested_product_all_coordinate_anchor/statement.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/proof.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/verify.py",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/claim_contract.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/dependency_subdag.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/audit.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/result.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/provenance.md",
+      "background/nodes/mca_nested_product_all_coordinate_anchor/recurrence.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_shared_carrier_rank_two_anchor"
+    },
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

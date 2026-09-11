@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_full_constant_source_payment",
+    "title": "Pay original full constant-eleven rank19 sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Original KoalaBear error-rank12/P2-rank19 sources with J9965..21499 and a full constant11 pair subspace pay their ENTIRE bad-slope set by270000000000000000. An all-coordinate nested-product recurrence retains rank-one root anchors, full gcds, every normalization degree and original owners. All424 degree bands,93384 LIST steps and16112 identities prove residual maximum239161133377346211; paid source alternatives combine by MAXIMUM. Together with maximum-pencil10 payment, every maximum pencil dimension at least10 pays272127061148955779. Excess now has maximum dimension8/9 and every original-field scalar projection rank10/11. No unrestricted rank19, whole J, endpoint or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_full_constant_source_payment/statement.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/proof.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/verify.py",
+      "background/nodes/rate_half_mca_full_constant_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/audit.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/result.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/provenance.md",
+      "background/nodes/rate_half_mca_full_constant_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_full_constant_source_payment/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_nested_product_all_coordinate_anchor"
+    },
+    {
+      "from": "rate_half_mca_constant_hyperplane_source_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

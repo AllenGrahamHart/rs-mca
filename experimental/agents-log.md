@@ -30,6 +30,25 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Full-constant original-source payment
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped review packet](notes/kb-full-constant-source-payment-20260911/README.md),
+  two frozen theorem nodes, certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL at the printed scopes; independent review due.
+- **What is being added:** Full constant11 original error-rank12/P2-rank19
+  sources on J9965..21499 pay their entire bad-slope set by270000000000000000.
+  All-coordinate nested-product descent retains rank-one roots, full gcds,
+  original owners and weights. The exact residual maximum is239161133377346211.
+- **How it is useful:** Extends K3 / DIRECT and the #1179/#1180 original-source
+  program. Together with prior maximum-pencil10 payment, all maximum pencil
+  dimensions at least10 pay272127061148955779. Excess at rank19 requires
+  maximum pencil dimension8/9. No whole row, v4 atom or Prize closes.
+- **What to do next:** Review the two child types and original-source
+  composition, then continue on the remaining non-product classes.
+- **Replay/compute:** Three new and two inherited focused checks;45 new
+  semantic mutations and61 manifest mutations. No Modal or compute request.
+
 ### 2026-09-11 - Constant-hyperplane original-source payment
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
