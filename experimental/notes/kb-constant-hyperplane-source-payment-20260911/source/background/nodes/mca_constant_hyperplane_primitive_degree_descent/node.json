@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_constant_hyperplane_primitive_degree_descent",
+    "title": "Descend constant hyperplanes with primitive degree and original weights",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In a regular MCA prefix with shared s and pair dimension2s-3, a maximal constant(s-1) subspace stays maximal at a nonroot anchor and loses at least one primitive scalar degree; at its at most D-E common-root coordinates the child has full constant carrier with primitive degree E. Full constant carriers persist under further regular anchors. Degree-refined same-field scalar LIST prices and original weighted compression give a normalized recurrence in zeta=E-(s-2), with root allowance J1-10-zeta_low and exact original anchor factors. No normalization cap or separability premise. The finite consumer proves all cost inputs; no actual occupation is assumed.",
+    "refs": [
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/statement.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/proof.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/verify.py",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/degree_prices.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/normalized_recurrence.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/claim_contract.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/dependency_subdag.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/audit.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/result.md",
+      "background/nodes/mca_constant_hyperplane_primitive_degree_descent/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_constant_pencil_three_child_ledger"
+    },
+    {
+      "from": "mca_rational_compression_fibre_weight"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

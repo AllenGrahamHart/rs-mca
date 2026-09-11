@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Constant-hyperplane original-source payment
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped K3 / DIRECT extension](notes/kb-constant-hyperplane-source-payment-20260911/README.md),
+  four new theorem nodes, exact certificates and frozen-source replay.
+- **Status:** PROVED LOCAL; independent mathematical review due.
+- **What is being added:** Primitive scalar degree descent pays every
+  original generic-regular rank19 constant10/no11 source by270000000000000000.
+  Together with the preceding nonconstant10 theorem, maximum pencil
+  dimension10 pays272127061148955779. Constant3/no4 penultimate enclosures
+  are also paid at all normalization degrees.
+- **How it is useful:** Extends #1179/#1180 in original bad-slope units;
+  excess has maximum pencil dimension8/9 or a full constant11. Intermediate
+  prices may exceed older local allowances; the ORIGINAL resource pays.
+- **Verification:** Six new and four inherited checks pass normal/O in
+  under6seconds and41MiB RSS. The133-node closure and1579 source hashes
+  are checked; new independent arithmetic rejects41+40 mutations.
+- **What to do next:** Review full-constant continuation, degree transport,
+  prefix maxima and original source composition. No unrestricted rank19,
+  whole J, active atom, row endpoint or Prize closes.
+- **Compute requests:** None. No Modal, spending or large search.
+
 ### 2026-09-11 - Graded anchors and nonconstant-pencil source classes
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

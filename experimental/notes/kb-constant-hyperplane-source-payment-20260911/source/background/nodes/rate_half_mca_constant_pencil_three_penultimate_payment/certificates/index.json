@@ -1,0 +1,147 @@
+{
+  "schema": "constant-three-penultimate-v1",
+  "J": [
+    9965,
+    21499
+  ],
+  "field": "2130706433^6",
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "original_error_rank": 12,
+  "actual_P2_rank": 19,
+  "anchors": 7,
+  "pair_shared": [
+    5,
+    4
+  ],
+  "constant_pencil_dimension": 3,
+  "constant_pencil_dimension4_excluded": true,
+  "normalization_cap_required": false,
+  "local_allowance_antecedent": "after proved whole-source pencil alternatives are removed",
+  "primitive_shared_degree_max": "J-8",
+  "scalar_primitive_degree": "E>=2",
+  "exceptional_coordinates": "at most D-E, not D",
+  "ordinary_children": "rank-two3/3 with constant plane; use height-zero C_t",
+  "degree_cut": 12000,
+  "complement_box_width": 10000,
+  "original_weights": true,
+  "full_gcd_and_slack": true,
+  "whole_constant_terminal_tail_paid": false,
+  "all_rank19_sources_paid": false,
+  "prize_closed": false,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "e75e1e8ec92734651d175368b4e893017580728120d7ba2709a069576a966582",
+      "J": [
+        9965,
+        10964
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "5dac5d7f8fb0c0b5f8d8db5fb33272b9fa16317ab5c0139ab1f773f9d0f5de62",
+      "J": [
+        10965,
+        11964
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "06173f8e61c00b7eaabf25f2a525942bb8752049b37fddeeddb54f271a2e08ac",
+      "J": [
+        11965,
+        12964
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "76d7f1511293abeb55a87541b7c155cb48bcc7a5db31b07c9c443db1c38d1434",
+      "J": [
+        12965,
+        13364
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "d193ebf474284713198a9adb08de41d1e845d5ade7ab20b457649872fbcf4d23",
+      "J": [
+        13365,
+        13964
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "33c55381b4a236a7f610c093f4b8c8fe8d020bc4ff57cfd9c01965690ba2bff6",
+      "J": [
+        13965,
+        14964
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "c4e2b102c45c49ae6388c0c1d8a2fbabf0f6a0acf80adaef06a5647f7b92bb2d",
+      "J": [
+        14965,
+        15964
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "257fe8cdeb92b46ce8d8df2be35ec09012a2390926de92be0b22e403768403a4",
+      "J": [
+        15965,
+        16964
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "2c04c16e83e0ba776d459bd2dbeb8096553d42db4a4211408f5eab78e2ec0112",
+      "J": [
+        16965,
+        17964
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "36ae42aad87cd38fa3384a3fa87b332acce38b302e6afef0acb3c2005335a3f1",
+      "J": [
+        17965,
+        18964
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "df210ae144cfd896bf46b54e129fd79cff5ba5e059213c1812434411e573f926",
+      "J": [
+        18965,
+        19964
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "cf0e354ba17aacfbcbcaa0328e0a9f1f52729b06ad2557bba7f1866b07aa1c96",
+      "J": [
+        19965,
+        20964
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "08692840f5b3a004b69c61e5d8a69941c9033c942975776031360418a3edd782",
+      "J": [
+        20965,
+        21499
+      ]
+    }
+  ],
+  "profile_prices": 26,
+  "degree_bands": 48,
+  "scalar_LIST_steps": 5238,
+  "minimum_gap": [
+    "2464185717588779767135",
+    "12274496849"
+  ]
+}

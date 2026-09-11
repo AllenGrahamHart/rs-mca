@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_constant_pencil_three_penultimate_payment",
+    "title": "Pay maximal constant three-pencil penultimate enclosures at all normalization degrees",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original generic-regular KoalaBear rank12/P2-rank19 sources J9965..21499, after removing paid whole-source pencil alternatives, every seven-anchor5/4 enclosure containing constant3 but no constant4 has original raw-t weight<=1048577*L_t/(67473-t), t1,2, with no normalization cap. Height-zero ordinary-child prices and48 degree bands/5238 scalar LIST steps pay root-exceptional whole-constant children using D-E. A remaining excessive parent either contains constant4 on J14965..21499, or every rank-one F-subspace has dimension<=2; in the latter case small normalization is constant-plane-only, while large normalization has image3..9 and a jump among the first7 anchors. No unrestricted rank19, whole J, row or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/statement.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/proof.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/verify.py",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/scalar_child.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/finite_prices.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/certificates/index.json",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/audit.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/result.md",
+      "background/nodes/rate_half_mca_constant_pencil_three_penultimate_payment/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_constant_pencil_three_child_ledger"
+    },
+    {
+      "from": "rate_half_mca_nonconstant_pencil_penultimate_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

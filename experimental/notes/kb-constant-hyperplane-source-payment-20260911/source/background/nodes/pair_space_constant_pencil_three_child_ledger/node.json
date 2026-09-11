@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_constant_pencil_three_child_ledger",
+    "title": "Count root-exceptional children of a maximal constant three-pencil",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For full-gcd1 shared V dimension4 of actual degree D, regular W dimension5 and a maximal constant three-pencil S with no constant4, let E>=2 be the primitive scalar degree of S. Every regular child outside the common roots of S is rank-two3/3 with a constant plane; every exceptional child has direction S and primitive degree E. There are at most D-E exceptional finite coordinates. For N>=A>D and nonnegative child bounds C,U(E), Omega<=((N-D)*C+(D-E)*(U(E)-C)_+)/(A-D). No normalization or characteristic guard is required. A constant4 parent instead has every regular child whole constant3.",
+    "refs": [
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/statement.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/proof.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/verify.py",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/controls.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/claim_contract.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/dependency_subdag.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/audit.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/result.md",
+      "background/nodes/pair_space_constant_pencil_three_child_ledger/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_regular_projection_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

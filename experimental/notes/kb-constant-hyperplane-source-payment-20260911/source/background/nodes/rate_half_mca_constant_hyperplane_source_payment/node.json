@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_constant_hyperplane_source_payment",
+    "title": "Pay original rank19 maximum-pencil-dimension-ten sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original generic-regular KoalaBear rank12/P2-rank19 sources J9965..21499, a constant10 subspace with no constant11 pays the ENTIRE original bad-slope set by270000000000000000, with all original weights and normalization degrees included. The residual numerical maximum is266908096047530929 across218 degree-excess bands and119988 scalar LIST steps; paid source alternatives combine by maximum. Combining the nonconstant10 theorem, maximum pencil dimension exactly10 is paid by272127061148955779. Excess therefore has maximum pencil dimension8 or9 or a full constant11; no original-field scalar projection of its pair hull can have rank9. Intermediate prices need not fit old L_t; no unrestricted rank19, whole J, endpoint or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/statement.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/proof.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/verify.py",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/certificates/index.json",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/audit.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/result.md",
+      "background/nodes/rate_half_mca_constant_hyperplane_source_payment/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_constant_hyperplane_primitive_degree_descent"
+    },
+    {
+      "from": "rate_half_mca_constant_pencil_three_penultimate_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

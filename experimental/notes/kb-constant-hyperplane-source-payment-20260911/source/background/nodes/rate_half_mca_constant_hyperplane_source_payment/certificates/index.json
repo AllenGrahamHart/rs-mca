@@ -1,0 +1,153 @@
+{
+  "schema": "constant-hyperplane-source-v1",
+  "field": "2130706433^6",
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "J": [
+    9965,
+    21499
+  ],
+  "original_error_rank": 12,
+  "actual_P2_rank": 19,
+  "shared_dimension": 11,
+  "constant_dimension": 10,
+  "constant_dimension11_excluded": true,
+  "normalization_cap_required": false,
+  "local_antecedent": "after proved whole-source pencil alternatives are removed",
+  "degree_excess": "zeta=E-(s-2)",
+  "shared_stages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "degree_band_width": 2000,
+  "mass_box_width": 5000,
+  "complement_box_width": 10000,
+  "large_mass_threshold": 349525,
+  "large_mass_count_max": 2,
+  "original_weights": true,
+  "full_gcd_and_slack": true,
+  "near": 134944,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "whole_constant4_penultimate_paid": false,
+  "unrestricted_rank19_paid": false,
+  "prize_closed": false,
+  "profiles": [
+    {
+      "path": "9965.jsonl",
+      "sha256": "47c49852b81e0814909ed7ffa2ecab65f73c8309337aa078a78776270cc3a170",
+      "J": [
+        9965,
+        10964
+      ]
+    },
+    {
+      "path": "10965.jsonl",
+      "sha256": "5e58b2296cfd55ad1d89b7eeffdacbb55fa93ad142833f4054edc70c69410725",
+      "J": [
+        10965,
+        11964
+      ]
+    },
+    {
+      "path": "11965.jsonl",
+      "sha256": "ef83051bc3f372da7e94beed8ca3200e0778bf3362fea2e6ca0891d4f23946ed",
+      "J": [
+        11965,
+        12964
+      ]
+    },
+    {
+      "path": "12965.jsonl",
+      "sha256": "3aa27e616fda5bf6e9527bff7b65b52c9f5ec4e2ed2f0551bd0307bd1fc86a8b",
+      "J": [
+        12965,
+        13364
+      ]
+    },
+    {
+      "path": "13365.jsonl",
+      "sha256": "a02cffdc6a912afe39e3fe063f7ca7cf079e8b33c199fb824178496c7ede4d53",
+      "J": [
+        13365,
+        13964
+      ]
+    },
+    {
+      "path": "13965.jsonl",
+      "sha256": "29d69f7688c8ab5bed9be3a9f5c70a386016d5340001b158f5ced7f3249c5d32",
+      "J": [
+        13965,
+        14964
+      ]
+    },
+    {
+      "path": "14965.jsonl",
+      "sha256": "6940c128af93375a278849378b872f6e8987de391241fc3b1c6567eb8f0767f8",
+      "J": [
+        14965,
+        15964
+      ]
+    },
+    {
+      "path": "15965.jsonl",
+      "sha256": "5e3e2c88caa7d37417ca39524802bd646cf69c56d78535c1c2d7e3645133e5ab",
+      "J": [
+        15965,
+        16964
+      ]
+    },
+    {
+      "path": "16965.jsonl",
+      "sha256": "47aa9bfc147cec3c93787f01544f981d2183b4c1515e58cabcd906b4ee504245",
+      "J": [
+        16965,
+        17964
+      ]
+    },
+    {
+      "path": "17965.jsonl",
+      "sha256": "dfb9cd673fbe70808f574a49587161d984f49eedff672b6db9136c1ee8c9a65d",
+      "J": [
+        17965,
+        18964
+      ]
+    },
+    {
+      "path": "18965.jsonl",
+      "sha256": "1095de3c8d4ed7168f3fe13e11d86007b6d6b2b53df6e72abc2986b4b0eb6d0c",
+      "J": [
+        18965,
+        19964
+      ]
+    },
+    {
+      "path": "19965.jsonl",
+      "sha256": "010e5f445709fae8054ec5f7306469ec9119183c62a75c81b8e9f3862f457f6e",
+      "J": [
+        19965,
+        20964
+      ]
+    },
+    {
+      "path": "20965.jsonl",
+      "sha256": "40ea3a83f978d3d8d0a1903b846c3370279455eb3936a19e0cb0a357cf84cbb6",
+      "J": [
+        20965,
+        21499
+      ]
+    }
+  ],
+  "degree_bands": 218,
+  "scalar_LIST_steps": 119988,
+  "residual_source_maximum": 266908096047530929,
+  "whole_source_bound": 270000000000000000,
+  "combined_maximum_pencil10_bound": 272127061148955779,
+  "source_bytes": 2788463
+}
