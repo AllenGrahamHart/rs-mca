@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rational_curve_inner_projection_branch_budget",
+    "title": "Bound nonbirational inner centres by a branch-weighted genus budget",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a geometrically integral rational nondegenerate degree-d curve in P^r, r>=3, in characteristic0 or p>d, generic smooth inner projection is birational and sum_P binom(b_P+mu_P-1,2)<=binom(d-r+1,2) over nonbirational inner centres. For mu>=h, the branch sum is at most floor(G/(2h-3)), with the stated bounded-ratio refinement. Original-coordinate count is bounded by nu times the BRANCH sum, not centre count. No global anchor affordability is asserted.",
+    "refs": [
+      "background/nodes/rational_curve_inner_projection_branch_budget/statement.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/proof.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/branch_charges.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/controls.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/claim_contract.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/dependency_subdag.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/audit.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/provenance.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/result.md",
+      "background/nodes/rational_curve_inner_projection_branch_budget/bounds.py",
+      "background/nodes/rational_curve_inner_projection_branch_budget/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "polynomial_carrier_inner_projection_degree_ledger"
+    },
+    {
+      "from": "pair_space_operator_branch_genus_energy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "polynomial_carrier_inner_projection_degree_ledger",
+    "title": "Track normalization degree and full fixed divisors along actual regular anchors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over a perfect field, while shared parent and child images are nonconstant, actual regular anchors obey D=nu*eta, eta>=s-1, nu_child=nu*mu and D_child=D-nu*m with eta=m+mu*eta_child and m>=the geometric branch count at the centre. Original dimension11 degree<=J-1 gives nu_0<=floor((J-1)/10); a larger final normalization degree forces an actual nonbirational anchor. No free anchor selection or affordable census is claimed.",
+    "refs": [
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/statement.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/proof.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/controls.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/claim_contract.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/dependency_subdag.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/audit.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/provenance.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/result.md",
+      "background/nodes/polynomial_carrier_inner_projection_degree_ledger/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_regular_projection_anchor"
+    },
+    {
+      "from": "pair_space_operator_branch_genus_energy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

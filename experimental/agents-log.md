@@ -30,6 +30,29 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Excess requires an actual inner degree jump
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Three-node K3 / DIRECT extension](notes/kb-regular-terminal-inherited-normalization-20260911/README.md),
+  frozen proofs, thirteen certificate shards, dependency manifest and replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Actual-anchor degree identities and a branch-weighted
+  exceptional-centre budget. The416 exact prices pay every pencil-free regular3
+  terminal with inherited normalization ceiling H on J9965..21499; excess
+  therefore requires an ACTUAL nonbirational inner anchor.
+- **How it is useful:** Extends52dcebc0 and the #1179/#1180 source-bound
+  program. It narrows the unpaid geometry without assuming generic anchors
+  are free. All13 coarse last-anchor selection recipes exceed the target.
+- **Verification:** Five new and four inherited checks pass normally and
+  under-O in under4seconds and32MiB RSS. The124-node closure,387 inherited
+  proof documents and1410 hashes are checked. The independent new audit
+  rejects49 mutations plus a recomputed raised ceiling; the wrapper rejects58.
+- **What to do next:** Review separability, full fixed divisors and the
+  branch-weighted coordinate conversion; price actual degree-jump centres
+  and the separate constant upper tail. No unrestricted rank19, whole J,
+  active atom, endpoint or Prize closes. Newer unaudited drafts are excluded.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-11 - Double-conic terminals fit original allowances
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
