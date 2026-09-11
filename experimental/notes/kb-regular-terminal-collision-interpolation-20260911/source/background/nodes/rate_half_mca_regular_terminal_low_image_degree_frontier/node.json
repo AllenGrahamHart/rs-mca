@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_terminal_low_image_degree_frontier",
+    "title": "Actual collision interpolation pays high plane-image degree and forces eta at most ten",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Throughout original KoalaBear rank12 J9965..21499, every pencil-free regular3 eight-anchor terminal with plane-image equation degree eta>=11 fits the existing raw1/2 allowances. Sharper original-field spectral thresholds are9/10/11/11, with52 profile gates. Actual pair-owned fat jets and product rank bound aggregate incidence, retaining all polynomial gcds, degree slack and exceptional finite fibres. Excess forces2<=eta<=10; low image degrees, whole constant3 upper tail, unrestricted rank19 and both Prizes remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/statement.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/proof.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/thresholds.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/audit.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/result.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/provenance.md",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/verify.py",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_regular_terminal_low_image_degree_frontier/certificate.json"
+    ]
+  },
+  "requires": [
+    {"from": "pair_space_operator_collision_interpolation"},
+    {"from": "rate_half_mca_regular_terminal_eigen_capacity_frontier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

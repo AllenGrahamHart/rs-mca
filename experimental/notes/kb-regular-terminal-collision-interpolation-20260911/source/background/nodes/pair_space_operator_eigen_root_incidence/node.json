@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_operator_eigen_root_incidence",
+    "title": "Actual line and plane capacities bound eigen-root core incidence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a zero-free polynomial operator3 carrier with one-dimensional F-eigenspaces and actual line/plane capacities q1,q2 with2q1<=q2, the eigen-root core incidence is at most D times0,q2,q2+q1,3q2/2 for0,1,2,3 F-eigenvalues. A fixed M-subset and a strict second-moment inequality give a pair-count cap, with the natural non-eigen intersection bound D-1 retained. Repeated eigenvalues and common-zero exclusion are explicit; no unconditional capacity or Prize bound is assumed.",
+    "refs": [
+      "background/nodes/pair_space_operator_eigen_root_incidence/statement.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/proof.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/claim_contract.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/dependency_subdag.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/audit.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/result.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/provenance.md",
+      "background/nodes/pair_space_operator_eigen_root_incidence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_operator_spectral_fibre_johnson"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

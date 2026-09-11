@@ -1,0 +1,235 @@
+{
+  "schema": "regular-eigen-capacity-index-v1",
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "scope": {
+    "J": [
+      9965,
+      21499
+    ],
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "anchors": 8,
+    "terminal_dimension": 3,
+    "pencil_free": true,
+    "eigenvalues_field": "original F",
+    "eigenspaces_max_dimension": 1,
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "primitive_degree": "kappa=1+actual max degree(U0/G), all 3..J1-8",
+    "gcd_excess": "v=J-8-kappa-distinct nonanchor G roots, includes degree slack, every v>=0",
+    "root_mask": "anchors, domain gcd roots, then primitive F-eigenpolynomial roots",
+    "capacities": "hereditary actual eigenlines and arbitrary affine planes",
+    "selected_pairs": "exactly floor(L_t/(1048576-67472+t))+1",
+    "natural_intersection_cap": "min(H,kappa-2)",
+    "energy_gate": "S0>=N0 and strict energy",
+    "original_weights_unchanged": true,
+    "actual_core_witness": true,
+    "original_evaluation_flat_rank": 9,
+    "automatic_primitive_degree": "kappa<=H+2",
+    "excess_primitive_degree": "kappa>=H+3",
+    "generic_degree_used": false,
+    "available_weight_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "whole_constant_upper_tail_open": true,
+    "rank19_closed": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "01abba221a2403dfcf03d88e313eaaf8b7c410995c7927766d6f4e895c59e76e",
+      "J": [
+        9965,
+        10964
+      ],
+      "H": [
+        2108,
+        1985,
+        1948,
+        1866
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "bbd477d02717e6fca1be536fdd95f496e4c991e6d79da2f3a561b38ba86a8ee7",
+      "J": [
+        10965,
+        11964
+      ],
+      "H": [
+        2556,
+        2417,
+        2377,
+        2354
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "61992fb7be89dcc1a149193a6e0ef2cc21b2003a593df59779cab6abebe96ade",
+      "J": [
+        11965,
+        12964
+      ],
+      "H": [
+        3041,
+        2897,
+        2856,
+        2832
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "850312bcde59d7676cc0994631540b114fe75d5d8b2996798ddc96fb1f087517",
+      "J": [
+        12965,
+        13364
+      ],
+      "H": [
+        3176,
+        3034,
+        2992,
+        2968
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "7b40d74af82deeec1c712e1c99eaa796b54511c80f79ea9b35bda2301634784f",
+      "J": [
+        13365,
+        13964
+      ],
+      "H": [
+        3428,
+        3291,
+        3251,
+        3227
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "b96c0edbe53e397e78881f0b17f233770ba3513ac9f40839d60f87b581abd6d6",
+      "J": [
+        13965,
+        14964
+      ],
+      "H": [
+        3488,
+        3352,
+        3305,
+        3289
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "4449b5db2e7ace3c264ebfd7f3d14a7832eb31eb411a2ec7cb0d420ace2f322a",
+      "J": [
+        14965,
+        15964
+      ],
+      "H": [
+        3543,
+        3409,
+        3362,
+        3347
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "e9ed79df6f3239cfe78e765335dffe840bc0ad8f9e179e58900cd2e8a4c53953",
+      "J": [
+        15965,
+        16964
+      ],
+      "H": [
+        3543,
+        3409,
+        3362,
+        3347
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "5bf0aa3fe3cac02d64144f4773d47bb13e22b61d3a041a82183fd8befd409c2a",
+      "J": [
+        16965,
+        17964
+      ],
+      "H": [
+        3543,
+        3409,
+        3362,
+        3347
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "7f82da5d9924b0db2022304ee62563ce1da23e44f4c09fc99bd2bb366f49472f",
+      "J": [
+        17965,
+        18964
+      ],
+      "H": [
+        3570,
+        3437,
+        3390,
+        3375
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "cdaa96f6a743f2f71be649c0c53bc2f680e8c7a87426a8858cedf1d09a9e4e76",
+      "J": [
+        18965,
+        19964
+      ],
+      "H": [
+        3619,
+        3488,
+        3442,
+        3427
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "b8d2cfe0c93c947fdd4d28120af2d7736b0b9777f2df9c7955aa413e42735604",
+      "J": [
+        19965,
+        20964
+      ],
+      "H": [
+        3619,
+        3488,
+        3434,
+        3427
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "e83de100b766508ab9b5477d3249c8f763af4772ac5aa9834a169ae8d46fd85a",
+      "J": [
+        20965,
+        21499
+      ],
+      "H": [
+        3619,
+        3488,
+        3434,
+        3427
+      ]
+    }
+  ],
+  "uniform_caps": [
+    2108,
+    1985,
+    1948,
+    1866
+  ],
+  "profile_count": 13,
+  "spectral_gate_count": 52,
+  "cutoff_count": 104,
+  "box_count": 704
+}

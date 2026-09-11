@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_operator_collision_interpolation",
+    "title": "Actual pair-owned collision jets give a nonzero polynomial incidence bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For M actual polynomial operator3 pairs off original-field eigen roots, collision fibres of maximum actual occupancy r consume disjoint sets of binom(r,2) unordered pairs. If the degree-ell product rank exceeds their total, a nonzero multiplicity interpolant bounds collision excess by D*ell and total core incidence by B+n+D*ell. The product rank is the exact Hilbert function of the plane image. No generic fibre or formal-hull source census is substituted.",
+    "refs": [
+      "background/nodes/pair_space_operator_collision_interpolation/statement.md",
+      "background/nodes/pair_space_operator_collision_interpolation/proof.md",
+      "background/nodes/pair_space_operator_collision_interpolation/product_rank.md",
+      "background/nodes/pair_space_operator_collision_interpolation/claim_contract.md",
+      "background/nodes/pair_space_operator_collision_interpolation/dependency_subdag.md",
+      "background/nodes/pair_space_operator_collision_interpolation/audit.md",
+      "background/nodes/pair_space_operator_collision_interpolation/result.md",
+      "background/nodes/pair_space_operator_collision_interpolation/provenance.md",
+      "background/nodes/pair_space_operator_collision_interpolation/verify.py"
+    ]
+  },
+  "requires": [{"from": "pair_space_operator_eigen_root_incidence"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

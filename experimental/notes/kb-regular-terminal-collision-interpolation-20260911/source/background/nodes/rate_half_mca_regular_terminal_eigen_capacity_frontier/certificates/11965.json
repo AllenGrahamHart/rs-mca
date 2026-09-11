@@ -1,0 +1,1335 @@
+{
+  "schema": "regular-eigen-capacity-profile-v1",
+  "J": [
+    11965,
+    12964
+  ],
+  "primitive_degree": [
+    3,
+    12956
+  ],
+  "parent_sha256": "9224566ec3eba2f2afa7b07a726da600f68f7c9954242950be91c1bc8a259763",
+  "original_constant_gate": 662350,
+  "spectra": [
+    {
+      "e": 0,
+      "H": 3041,
+      "cutoffs": [
+        {
+          "t": 1,
+          "allowance": [
+            "51619189388",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2065
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397680,
+                80
+              ],
+              "energy4": [
+                17828280203520,
+                -5858040480,
+                0
+              ],
+              "S_margin_endpoints": [
+                3300762,
+                3461598
+              ],
+              "energy4_endpoints": [
+                17810706082080,
+                5731426612320
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2066,
+                3043
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397680,
+                80
+              ],
+              "energy4": [
+                17828280203520,
+                -5858040480,
+                0
+              ],
+              "S_margin_endpoints": [
+                3461676,
+                3537882
+              ],
+              "energy4_endpoints": [
+                5725568571840,
+                2263022880
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                3044,
+                6153
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397680,
+                80
+              ],
+              "energy4": [
+                -2082416428800,
+                666085440,
+                6240
+              ],
+              "S_margin_endpoints": [
+                3537960,
+                3780462
+              ],
+              "energy4_endpoints": [
+                2967091200,
+                2252249995680
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6154,
+                9760
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397680,
+                80
+              ],
+              "energy4": [
+                -2082416428800,
+                666085440,
+                6240
+              ],
+              "S_margin_endpoints": [
+                3780540,
+                4061808
+              ],
+              "energy4_endpoints": [
+                2252992876800,
+                5012984889600
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9761,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397680,
+                80
+              ],
+              "energy4": [
+                -2082416428800,
+                666085440,
+                6240
+              ],
+              "S_margin_endpoints": [
+                4061886,
+                4311096
+              ],
+              "energy4_endpoints": [
+                5013772786080,
+                7594820052480
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        },
+        {
+          "t": 2,
+          "allowance": [
+            "13214484609300",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2064
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397600,
+                80
+              ],
+              "energy4": [
+                17827584353280,
+                -5858053120,
+                0
+              ],
+              "S_margin_endpoints": [
+                3300682,
+                3461440
+              ],
+              "energy4_endpoints": [
+                17810010193920,
+                5736562713600
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2065,
+                3043
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397600,
+                80
+              ],
+              "energy4": [
+                17827584353280,
+                -5858053120,
+                0
+              ],
+              "S_margin_endpoints": [
+                3461518,
+                3537802
+              ],
+              "energy4_endpoints": [
+                5730704660480,
+                1528709120
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                3044,
+                6152
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397600,
+                80
+              ],
+              "energy4": [
+                -2083112279040,
+                666072800,
+                6240
+              ],
+              "S_margin_endpoints": [
+                3537880,
+                3780304
+              ],
+              "energy4_endpoints": [
+                2232764800,
+                2250733515520
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6153,
+                9759
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397600,
+                80
+              ],
+              "energy4": [
+                -2083112279040,
+                666072800,
+                6240
+              ],
+              "S_margin_endpoints": [
+                3780382,
+                4061650
+              ],
+              "energy4_endpoints": [
+                2251476371520,
+                5011377801600
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9760,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                3041
+              ],
+              "root_cost_twice": 0,
+              "S_twice": [
+                5397600,
+                80
+              ],
+              "energy4": [
+                -2083112279040,
+                666072800,
+                6240
+              ],
+              "S_margin_endpoints": [
+                4061728,
+                4311016
+              ],
+              "energy4_endpoints": [
+                5012165672960,
+                7593960438400
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "e": 1,
+      "H": 2897,
+      "cutoffs": [
+        {
+          "t": 1,
+          "allowance": [
+            "51619189388",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2065
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 30,
+              "S_twice": [
+                5397710,
+                50
+              ],
+              "energy4": [
+                17828541150660,
+                -6118983780,
+                -3840
+              ],
+              "S_margin_endpoints": [
+                3300702,
+                3399678
+              ],
+              "energy4_endpoints": [
+                17810184164760,
+                5176465020960
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2066,
+                2899
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 32,
+              "S_twice": [
+                5397712,
+                48
+              ],
+              "energy4": [
+                17828558547200,
+                -6136380128,
+                -4032
+              ],
+              "S_margin_endpoints": [
+                3395596,
+                3433914
+              ],
+              "energy4_endpoints": [
+                5133587191360,
+                5306817696
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2900,
+                6153
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 32,
+              "S_twice": [
+                5397712,
+                48
+              ],
+              "energy4": [
+                -1139929634560,
+                388644352,
+                2208
+              ],
+              "S_margin_endpoints": [
+                3433960,
+                3583598
+              ],
+              "energy4_endpoints": [
+                5708266240,
+                1334992638368
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6154,
+                9760
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 34,
+              "S_twice": [
+                5397714,
+                46
+              ],
+              "energy4": [
+                -1139912238012,
+                371247988,
+                2024
+              ],
+              "S_margin_endpoints": [
+                3571338,
+                3730002
+              ],
+              "energy4_endpoints": [
+                1221400233324,
+                2676269507268
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9761,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 36,
+              "S_twice": [
+                5397716,
+                44
+              ],
+              "energy4": [
+                -1139894841456,
+                353851608,
+                1848
+              ],
+              "S_margin_endpoints": [
+                3710526,
+                3844716
+              ],
+              "energy4_endpoints": [
+                2490122823840,
+                3754808057520
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        },
+        {
+          "t": 2,
+          "allowance": [
+            "13214484609300",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2064
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 30,
+              "S_twice": [
+                5397630,
+                50
+              ],
+              "energy4": [
+                17827845295620,
+                -6118991620,
+                -3840
+              ],
+              "S_margin_endpoints": [
+                3300622,
+                3399550
+              ],
+              "energy4_endpoints": [
+                17809488286200,
+                5181887823300
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2065,
+                2899
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 32,
+              "S_twice": [
+                5397632,
+                48
+              ],
+              "energy4": [
+                17827862691840,
+                -6136387648,
+                -4032
+              ],
+              "S_margin_endpoints": [
+                3395470,
+                3433834
+              ],
+              "energy4_endpoints": [
+                5139028843520,
+                4589161856
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2900,
+                6152
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 32,
+              "S_twice": [
+                5397632,
+                48
+              ],
+              "energy4": [
+                -1140625489920,
+                388636832,
+                2208
+              ],
+              "S_margin_endpoints": [
+                3433880,
+                3583472
+              ],
+              "energy4_endpoints": [
+                4990602880,
+                1333834706176
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6153,
+                9759
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 34,
+              "S_twice": [
+                5397634,
+                46
+              ],
+              "energy4": [
+                -1140608093692,
+                371240788,
+                2024
+              ],
+              "S_margin_endpoints": [
+                3571214,
+                3729878
+              ],
+              "energy4_endpoints": [
+                1220263918688,
+                2675092632344
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9760,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2897
+              ],
+              "root_cost_twice": 36,
+              "S_twice": [
+                5397636,
+                44
+              ],
+              "energy4": [
+                -1140590697456,
+                353844728,
+                1848
+              ],
+              "S_margin_endpoints": [
+                3710404,
+                3844636
+              ],
+              "energy4_endpoints": [
+                2488969892624,
+                3754023064240
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "e": 2,
+      "H": 2856,
+      "cutoffs": [
+        {
+          "t": 1,
+          "allowance": [
+            "51619189388",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2065
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 40,
+              "S_twice": [
+                5397720,
+                40
+              ],
+              "energy4": [
+                17828628133440,
+                -6205965680,
+                -4720
+              ],
+              "S_margin_endpoints": [
+                3300682,
+                3379038
+              ],
+              "energy4_endpoints": [
+                17810010193920,
+                4993181862240
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2066,
+                2858
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 42,
+              "S_twice": [
+                5397722,
+                38
+              ],
+              "energy4": [
+                17828645530020,
+                -6223362108,
+                -4872
+              ],
+              "S_margin_endpoints": [
+                3374946,
+                3403458
+              ],
+              "energy4_endpoints": [
+                4950383984460,
+                2481330348
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2859,
+                6153
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 42,
+              "S_twice": [
+                5397722,
+                38
+              ],
+              "energy4": [
+                -871574967900,
+                301918212,
+                1368
+              ],
+              "S_margin_endpoints": [
+                3403494,
+                3522078
+              ],
+              "energy4_endpoints": [
+                2791069416,
+                1037919462048
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6154,
+                9760
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 44,
+              "S_twice": [
+                5397724,
+                36
+              ],
+              "energy4": [
+                -871557571312,
+                284521768,
+                1224
+              ],
+              "S_margin_endpoints": [
+                3509808,
+                3632412
+              ],
+              "energy4_endpoints": [
+                925744369344,
+                2021970186768
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9761,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 46,
+              "S_twice": [
+                5397726,
+                34
+              ],
+              "energy4": [
+                -871540174716,
+                267125308,
+                1088
+              ],
+              "S_margin_endpoints": [
+                3612926,
+                3715166
+              ],
+              "energy4_endpoints": [
+                1839531464320,
+                2771964750100
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        },
+        {
+          "t": 2,
+          "allowance": [
+            "13214484609300",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2064
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 40,
+              "S_twice": [
+                5397640,
+                40
+              ],
+              "energy4": [
+                17827932276800,
+                -6205971920,
+                -4720
+              ],
+              "S_margin_endpoints": [
+                3300602,
+                3378920
+              ],
+              "energy4_endpoints": [
+                17809314318560,
+                4998698580800
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2065,
+                2858
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 42,
+              "S_twice": [
+                5397642,
+                38
+              ],
+              "energy4": [
+                17827949673060,
+                -6223368028,
+                -4872
+              ],
+              "S_margin_endpoints": [
+                3374830,
+                3403378
+              ],
+              "energy4_endpoints": [
+                4955919391040,
+                1768554028
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2859,
+                6152
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 42,
+              "S_twice": [
+                5397642,
+                38
+              ],
+              "energy4": [
+                -872270824860,
+                301912292,
+                1368
+              ],
+              "S_margin_endpoints": [
+                3403414,
+                3521962
+              ],
+              "energy4_endpoints": [
+                2078287176,
+                1036868433796
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6153,
+                9759
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 44,
+              "S_twice": [
+                5397644,
+                36
+              ],
+              "energy4": [
+                -872253428592,
+                284516168,
+                1224
+              ],
+              "S_margin_endpoints": [
+                3509694,
+                3632298
+              ],
+              "energy4_endpoints": [
+                924714469728,
+                2020911266064
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9760,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2856
+              ],
+              "root_cost_twice": 46,
+              "S_twice": [
+                5397646,
+                34
+              ],
+              "energy4": [
+                -872236032316,
+                267120028,
+                1088
+              ],
+              "S_margin_endpoints": [
+                3612814,
+                3715086
+              ],
+              "energy4_endpoints": [
+                1838495709764,
+                2771200484820
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "e": 3,
+      "H": 2832,
+      "cutoffs": [
+        {
+          "t": 1,
+          "allowance": [
+            "51619189388",
+            "1337"
+          ],
+          "original_pair_weight": 981105,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2065
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 45,
+              "S_twice": [
+                5397725,
+                35
+              ],
+              "energy4": [
+                17828671624905,
+                -6249456780,
+                -5085
+              ],
+              "S_margin_endpoints": [
+                3300672,
+                3368718
+              ],
+              "energy4_endpoints": [
+                17809923208800,
+                4901859790080
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2066,
+                2834
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 48,
+              "S_twice": [
+                5397728,
+                32
+              ],
+              "energy4": [
+                17828697719808,
+                -6275551488,
+                -5280
+              ],
+              "S_margin_endpoints": [
+                3362556,
+                3385596
+              ],
+              "energy4_endpoints": [
+                4840871425920,
+                1378187136
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2835,
+                6153
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 48,
+              "S_twice": [
+                5397728,
+                32
+              ],
+              "energy4": [
+                -714488036352,
+                249878592,
+                960
+              ],
+              "S_margin_endpoints": [
+                3385626,
+                3485166
+              ],
+              "energy4_endpoints": [
+                1633507968,
+                859359972864
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6154,
+                9760
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 51,
+              "S_twice": [
+                5397731,
+                29
+              ],
+              "energy4": [
+                -714461941431,
+                223783848,
+                783
+              ],
+              "S_margin_endpoints": [
+                3466737,
+                3564099
+              ],
+              "energy4_endpoints": [
+                692357412789,
+                1544255115849
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9761,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 54,
+              "S_twice": [
+                5397734,
+                26
+              ],
+              "energy4": [
+                -714435846492,
+                197689068,
+                624
+              ],
+              "S_margin_endpoints": [
+                3534846,
+                3611526
+              ],
+              "energy4_endpoints": [
+                1274660069760,
+                1951567070580
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        },
+        {
+          "t": 2,
+          "allowance": [
+            "13214484609300",
+            "342271"
+          ],
+          "original_pair_weight": 981106,
+          "M": 40,
+          "q1": 5,
+          "boxes": [
+            {
+              "kappa": [
+                3,
+                2064
+              ],
+              "q2": 15,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 45,
+              "S_twice": [
+                5397645,
+                35
+              ],
+              "energy4": [
+                17827975767465,
+                -6249462220,
+                -5085
+              ],
+              "S_margin_endpoints": [
+                3300592,
+                3368605
+              ],
+              "energy4_endpoints": [
+                17809227335040,
+                4907423157225
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2065,
+                2834
+              ],
+              "q2": 16,
+              "H_affine": [
+                1,
+                -2
+              ],
+              "root_cost_twice": 48,
+              "S_twice": [
+                5397648,
+                32
+              ],
+              "energy4": [
+                17828001861888,
+                -6275556448,
+                -5280
+              ],
+              "S_margin_endpoints": [
+                3362446,
+                3385516
+              ],
+              "energy4_endpoints": [
+                4846462688768,
+                668272576
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                2835,
+                6152
+              ],
+              "q2": 16,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 48,
+              "S_twice": [
+                5397648,
+                32
+              ],
+              "energy4": [
+                -715183894272,
+                249873632,
+                960
+              ],
+              "S_margin_endpoints": [
+                3385546,
+                3485056
+              ],
+              "energy4_endpoints": [
+                923588448,
+                858371909632
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                6153,
+                9759
+              ],
+              "q2": 17,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 51,
+              "S_twice": [
+                5397651,
+                29
+              ],
+              "energy4": [
+                -715157799831,
+                223779368,
+                783
+              ],
+              "S_margin_endpoints": [
+                3466630,
+                3563992
+              ],
+              "energy4_endpoints": [
+                691400568720,
+                1543276469904
+              ],
+              "vertex_discriminant": null
+            },
+            {
+              "kappa": [
+                9760,
+                12956
+              ],
+              "q2": 18,
+              "H_affine": [
+                0,
+                2832
+              ],
+              "root_cost_twice": 54,
+              "S_twice": [
+                5397654,
+                26
+              ],
+              "energy4": [
+                -715131705372,
+                197685068,
+                624
+              ],
+              "S_margin_endpoints": [
+                3534742,
+                3611446
+              ],
+              "energy4_endpoints": [
+                1273715300708,
+                1950819387700
+              ],
+              "vertex_discriminant": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

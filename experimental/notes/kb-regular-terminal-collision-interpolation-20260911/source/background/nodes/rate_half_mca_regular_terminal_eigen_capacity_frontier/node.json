@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_regular_terminal_eigen_capacity_frontier",
+    "title": "Actual eigen-root incidences and primitive degree strengthen regular3 terminal bounds",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original KoalaBear rank12 sources J9965..21499, actual pencil-free regular3 eight-anchor terminals satisfy the same raw1/2 allowances under52 stronger shared-core gates, with uniform caps2108/1985/1948/1866 by original-field spectrum. Hereditary line/plane capacities are proved, all polynomial gcds retained, and primitive kappa<=H+2 is automatically paid. Excess forces two actual shared cores and primitive kappa>=H+3, hence a rank9 original flat. No unrestricted rank19 source payment or Prize closure follows.",
+    "refs": [
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/statement.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/proof.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/primitive_carrier.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/section_capacities.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/finite_calibration.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/thresholds.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/claim_contract.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/audit.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/result.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/provenance.md",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/verify.py",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/verify_audit.py",
+      "background/nodes/rate_half_mca_regular_terminal_eigen_capacity_frontier/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {"from": "pair_space_operator_eigen_root_incidence"},
+    {"from": "rate_half_mca_regular_terminal_rich_fibre_frontier"},
+    {"from": "rate_half_mca_regular_rational_plane_terminal_bounds"},
+    {"from": "mca_weighted_pencil_raw_mass"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

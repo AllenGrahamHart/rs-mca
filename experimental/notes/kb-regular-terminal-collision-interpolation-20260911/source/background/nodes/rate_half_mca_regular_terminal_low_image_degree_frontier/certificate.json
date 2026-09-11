@@ -1,0 +1,2794 @@
+{
+  "schema": "regular-low-image-degree-frontier-v1",
+  "scope": {
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "J": [
+      9965,
+      21499
+    ],
+    "anchors": 8,
+    "terminal_dimension": 3,
+    "pencil_free": true,
+    "eigenvalues_field": "original F",
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "image_degree": "primitive homogeneous equation, not map degree or kappa",
+    "interpolation_rank": "actual degree-ell product space, not all ternary forms",
+    "collision_cost": "sum binom(r_p,2)<=binom(M,2), disjoint actual unordered pairs",
+    "pullback": "nonzero polynomial with every actual multiplicity retained",
+    "primitive_degree": "all 3..J1-8; actual degree and full polynomial gcd",
+    "degree_slack": "every v>=0 retained",
+    "original_weights_unchanged": true,
+    "available_weight_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "generic_fibre_used": false,
+    "finite_fibre_cap_assumed": false,
+    "whole_constant_upper_tail_open": true,
+    "rank19_closed": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "capacity_index_sha256": "4c8ddb8396ce996e92fba3e12d6d96e87867668161e2cbbe710bf3de2dac501f",
+  "profiles": [
+    {
+      "J": [
+        9965,
+        10964
+      ],
+      "parent_sha256": "14217c5623d893ac879ea7c4a11fdf079153a50e56828f37898d740f606ce0a5",
+      "kappa_max": 10956,
+      "original_constant_gate": 684191,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 4,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 89,
+              "product_rank": 354,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 4235058,
+              "incidence_upper_twice": 4069054,
+              "gap_twice": 166004,
+              "kappa_slope_twice": -126,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508730
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 89,
+              "product_rank": 354,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 4235004,
+              "incidence_upper_twice": 4069054,
+              "gap_twice": 165950,
+              "kappa_slope_twice": -126,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508756
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 5,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 72,
+              "product_rank": 355,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 4235058,
+              "incidence_upper_twice": 4090964,
+              "gap_twice": 144094,
+              "kappa_slope_twice": -128,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508730
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 72,
+              "product_rank": 355,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 4235004,
+              "incidence_upper_twice": 4090964,
+              "gap_twice": 144040,
+              "kappa_slope_twice": -128,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508756
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 5,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 72,
+              "product_rank": 355,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 4235058,
+              "incidence_upper_twice": 4200514,
+              "gap_twice": 34544,
+              "kappa_slope_twice": -138,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508730
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 72,
+              "product_rank": 355,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 4235004,
+              "incidence_upper_twice": 4200514,
+              "gap_twice": 34490,
+              "kappa_slope_twice": -138,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508756
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1110864316092",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 61,
+              "product_rank": 357,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 4235058,
+              "incidence_upper_twice": 4047144,
+              "gap_twice": 187914,
+              "kappa_slope_twice": -124,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508730
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "8886899218660",
+                "347271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 27,
+              "unordered_pair_budget": 351,
+              "ell": 61,
+              "product_rank": 357,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 4235004,
+              "incidence_upper_twice": 4047144,
+              "gap_twice": 187860,
+              "kappa_slope_twice": -124,
+              "v_slope_twice": 52,
+              "paid_pair_cap": 26,
+              "paid_terminal_weight": 25508756
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        10965,
+        11964
+      ],
+      "parent_sha256": "c331548a93037ebe611a69ef62d0297ada0c3e40029529ef86016c763383580b",
+      "kappa_max": 11956,
+      "original_constant_gate": 673270,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 5,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 101,
+              "product_rank": 500,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 5083328,
+              "incidence_upper_twice": 4535974,
+              "gap_twice": 547354,
+              "kappa_slope_twice": -140,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414255
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 101,
+              "product_rank": 500,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 5083264,
+              "incidence_upper_twice": 4535974,
+              "gap_twice": 547290,
+              "kappa_slope_twice": -140,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414286
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 5,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 101,
+              "product_rank": 500,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 5083328,
+              "incidence_upper_twice": 4966354,
+              "gap_twice": 116974,
+              "kappa_slope_twice": -176,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414255
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 101,
+              "product_rank": 500,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 5083264,
+              "incidence_upper_twice": 4966354,
+              "gap_twice": 116910,
+              "kappa_slope_twice": -176,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414286
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 85,
+              "product_rank": 501,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 5083328,
+              "incidence_upper_twice": 4703344,
+              "gap_twice": 379984,
+              "kappa_slope_twice": -154,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414255
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 85,
+              "product_rank": 501,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 5083264,
+              "incidence_upper_twice": 4703344,
+              "gap_twice": 379920,
+              "kappa_slope_twice": -154,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414286
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "41417177472",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 85,
+              "product_rank": 501,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 5083328,
+              "incidence_upper_twice": 4798984,
+              "gap_twice": 284344,
+              "kappa_slope_twice": -162,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414255
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "10602777098880",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 32,
+              "unordered_pair_budget": 496,
+              "ell": 85,
+              "product_rank": 501,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 5083264,
+              "incidence_upper_twice": 4798984,
+              "gap_twice": 284280,
+              "kappa_slope_twice": -162,
+              "v_slope_twice": 62,
+              "paid_pair_cap": 31,
+              "paid_terminal_weight": 30414286
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        11965,
+        12964
+      ],
+      "parent_sha256": "9224566ec3eba2f2afa7b07a726da600f68f7c9954242950be91c1bc8a259763",
+      "kappa_max": 12956,
+      "original_constant_gate": 662350,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 5,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 158,
+              "product_rank": 785,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 6434160,
+              "incidence_upper_twice": 6216844,
+              "gap_twice": 217316,
+              "kappa_slope_twice": -238,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263095
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 158,
+              "product_rank": 785,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 6434080,
+              "incidence_upper_twice": 6216844,
+              "gap_twice": 217236,
+              "kappa_slope_twice": -238,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263134
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 6434160,
+              "incidence_upper_twice": 6009564,
+              "gap_twice": 424596,
+              "kappa_slope_twice": -222,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263095
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 36,
+              "incidence_lower_twice": 6434080,
+              "incidence_upper_twice": 6009564,
+              "gap_twice": 424516,
+              "kappa_slope_twice": -222,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263134
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 6434160,
+              "incidence_upper_twice": 6139114,
+              "gap_twice": 295046,
+              "kappa_slope_twice": -232,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263095
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 46,
+              "incidence_lower_twice": 6434080,
+              "incidence_upper_twice": 6139114,
+              "gap_twice": 294966,
+              "kappa_slope_twice": -232,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263134
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "51619189388",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 6434160,
+              "incidence_upper_twice": 6242754,
+              "gap_twice": 191406,
+              "kappa_slope_twice": -240,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263095
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "13214484609300",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 40,
+              "unordered_pair_budget": 780,
+              "ell": 132,
+              "product_rank": 783,
+              "q1": 5,
+              "qbar": 18,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 6434080,
+              "incidence_upper_twice": 6242754,
+              "gap_twice": 191326,
+              "kappa_slope_twice": -240,
+              "v_slope_twice": 78,
+              "paid_pair_cap": 39,
+              "paid_terminal_weight": 38263134
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        12965,
+        13364
+      ],
+      "parent_sha256": "27eb459ce59df1e5252b4dc59d2e4f8a5b68d0915c8e7dd0a087451231274fc2",
+      "kappa_max": 13356,
+      "original_constant_gate": 657878,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "7983991472",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 6951122,
+              "incidence_upper_twice": 6210494,
+              "gap_twice": 740628,
+              "kappa_slope_twice": -222,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206410
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 6951036,
+              "incidence_upper_twice": 6210494,
+              "gap_twice": 740542,
+              "kappa_slope_twice": -222,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206452
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "7983991472",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 6951122,
+              "incidence_upper_twice": 6717984,
+              "gap_twice": 233138,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206410
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 6951036,
+              "incidence_upper_twice": 6717984,
+              "gap_twice": 233052,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206452
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "7983991472",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 48,
+              "incidence_lower_twice": 6951122,
+              "incidence_upper_twice": 6851534,
+              "gap_twice": 99588,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206410
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 153,
+              "product_rank": 909,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 48,
+              "incidence_lower_twice": 6951036,
+              "incidence_upper_twice": 6851534,
+              "gap_twice": 99502,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206452
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "7983991472",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 132,
+              "product_rank": 910,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 6951122,
+              "incidence_upper_twice": 6410819,
+              "gap_twice": 540303,
+              "kappa_slope_twice": -237,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206410
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "14307282476720",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 43,
+              "unordered_pair_budget": 903,
+              "ell": 132,
+              "product_rank": 910,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 6951036,
+              "incidence_upper_twice": 6410819,
+              "gap_twice": 540217,
+              "kappa_slope_twice": -237,
+              "v_slope_twice": 84,
+              "paid_pair_cap": 42,
+              "paid_terminal_weight": 41206452
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        13365,
+        13964
+      ],
+      "parent_sha256": "cc42d1ea5e3aa98371bbe82480a9afa8101fcb22f609e3331b13e393b9ba1f33",
+      "kappa_max": 13956,
+      "original_constant_gate": 651329,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 6,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 206,
+              "product_rank": 1227,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 8142700,
+              "incidence_upper_twice": 7874524,
+              "gap_twice": 268176,
+              "kappa_slope_twice": -314,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074145
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 206,
+              "product_rank": 1227,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 8142600,
+              "incidence_upper_twice": 7874524,
+              "gap_twice": 268076,
+              "kappa_slope_twice": -314,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074194
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 8142700,
+              "incidence_upper_twice": 7623334,
+              "gap_twice": 519366,
+              "kappa_slope_twice": -296,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074145
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 8142600,
+              "incidence_upper_twice": 7623334,
+              "gap_twice": 519266,
+              "kappa_slope_twice": -296,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074194
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 48,
+              "incidence_lower_twice": 8142700,
+              "incidence_upper_twice": 7762884,
+              "gap_twice": 379816,
+              "kappa_slope_twice": -306,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074145
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 48,
+              "incidence_lower_twice": 8142600,
+              "incidence_upper_twice": 7762884,
+              "gap_twice": 379716,
+              "kappa_slope_twice": -306,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074194
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "65549517420",
+                "1337"
+              ],
+              "original_pair_weight": 981105,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 8142700,
+              "incidence_upper_twice": 7888479,
+              "gap_twice": 254221,
+              "kappa_slope_twice": -315,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074145
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "16780638898740",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 50,
+              "unordered_pair_budget": 1225,
+              "ell": 178,
+              "product_rank": 1232,
+              "q1": 5,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 8142600,
+              "incidence_upper_twice": 7888479,
+              "gap_twice": 254121,
+              "kappa_slope_twice": -315,
+              "v_slope_twice": 98,
+              "paid_pair_cap": 49,
+              "paid_terminal_weight": 48074194
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        13965,
+        14964
+      ],
+      "parent_sha256": "5082d96a4aa179a29f04e54bdc6233e9e425bf347e1e4a44d6579a2c766b166d",
+      "kappa_max": 14956,
+      "original_constant_gate": 640409,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 192,
+              "product_rank": 1330,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 8572408,
+              "incidence_upper_twice": 7869784,
+              "gap_twice": 702624,
+              "kappa_slope_twice": -282,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036355
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 192,
+              "product_rank": 1330,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 8572304,
+              "incidence_upper_twice": 7869784,
+              "gap_twice": 702520,
+              "kappa_slope_twice": -282,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036406
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 192,
+              "product_rank": 1330,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 8572408,
+              "incidence_upper_twice": 8438074,
+              "gap_twice": 134334,
+              "kappa_slope_twice": -320,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036355
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 192,
+              "product_rank": 1330,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 38,
+              "incidence_lower_twice": 8572304,
+              "incidence_upper_twice": 8438074,
+              "gap_twice": 134230,
+              "kappa_slope_twice": -320,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036406
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 169,
+              "product_rank": 1332,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 50,
+              "incidence_lower_twice": 8572408,
+              "incidence_upper_twice": 7929604,
+              "gap_twice": 642804,
+              "kappa_slope_twice": -286,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036355
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 169,
+              "product_rank": 1332,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 50,
+              "incidence_lower_twice": 8572304,
+              "incidence_upper_twice": 7929604,
+              "gap_twice": 642700,
+              "kappa_slope_twice": -286,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036406
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2186725521176",
+                "43409"
+              ],
+              "original_pair_weight": 981105,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 169,
+              "product_rank": 1332,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 8572408,
+              "incidence_upper_twice": 8034289,
+              "gap_twice": 538119,
+              "kappa_slope_twice": -293,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036355
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5831255785400",
+                "115757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 52,
+              "unordered_pair_budget": 1326,
+              "ell": 169,
+              "product_rank": 1332,
+              "q1": 6,
+              "qbar": 19,
+              "root_cost_twice": 57,
+              "incidence_lower_twice": 8572304,
+              "incidence_upper_twice": 8034289,
+              "gap_twice": 538015,
+              "kappa_slope_twice": -293,
+              "v_slope_twice": 102,
+              "paid_pair_cap": 51,
+              "paid_terminal_weight": 50036406
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        14965,
+        15964
+      ],
+      "parent_sha256": "809d49cf656a32bbf62fe5ca17d4bb8497db81dbefa046f238f101e0e94f4c20",
+      "kappa_max": 15956,
+      "original_constant_gate": 629488,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 7,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "9954687388",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 207,
+              "product_rank": 1435,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9010116,
+              "incidence_upper_twice": 8734434,
+              "gap_twice": 275682,
+              "kappa_slope_twice": -308,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 207,
+              "product_rank": 1435,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9010008,
+              "incidence_upper_twice": 8734434,
+              "gap_twice": 275574,
+              "kappa_slope_twice": -308,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "9954687388",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9010116,
+              "incidence_upper_twice": 8574884,
+              "gap_twice": 435232,
+              "kappa_slope_twice": -298,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9010008,
+              "incidence_upper_twice": 8574884,
+              "gap_twice": 435124,
+              "kappa_slope_twice": -298,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "9954687388",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9010116,
+              "incidence_upper_twice": 8766344,
+              "gap_twice": 243772,
+              "kappa_slope_twice": -310,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9010008,
+              "incidence_upper_twice": 8766344,
+              "gap_twice": 243664,
+              "kappa_slope_twice": -310,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "9954687388",
+                "191"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9010116,
+              "incidence_upper_twice": 8893984,
+              "gap_twice": 116132,
+              "kappa_slope_twice": -318,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "17838763733660",
+                "342271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9010008,
+              "incidence_upper_twice": 8893984,
+              "gap_twice": 116024,
+              "kappa_slope_twice": -318,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        15965,
+        16964
+      ],
+      "parent_sha256": "57214468851a1c01d879418afcab8fa620e2b7c1a8ecd8d73ee4ae594942b3d7",
+      "kappa_max": 16956,
+      "original_constant_gate": 618568,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9118116,
+              "incidence_upper_twice": 8302684,
+              "gap_twice": 815432,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9118008,
+              "incidence_upper_twice": 8302684,
+              "gap_twice": 815324,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9118116,
+              "incidence_upper_twice": 8980884,
+              "gap_twice": 137232,
+              "kappa_slope_twice": -298,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9118008,
+              "incidence_upper_twice": 8980884,
+              "gap_twice": 137124,
+              "kappa_slope_twice": -298,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9118116,
+              "incidence_upper_twice": 8540054,
+              "gap_twice": 578062,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9118008,
+              "incidence_upper_twice": 8540054,
+              "gap_twice": 577954,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092404731956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9118116,
+              "incidence_upper_twice": 8675694,
+              "gap_twice": 442422,
+              "kappa_slope_twice": -280,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826146548220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9118008,
+              "incidence_upper_twice": 8675694,
+              "gap_twice": 442314,
+              "kappa_slope_twice": -280,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        16965,
+        17964
+      ],
+      "parent_sha256": "129f116addbb78b211efb6be1c7351a3d475150d2e9197128509c1050db6e532",
+      "kappa_max": 17956,
+      "original_constant_gate": 607655,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9226116,
+              "incidence_upper_twice": 8668684,
+              "gap_twice": 557432,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 182,
+              "product_rank": 1436,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9226008,
+              "incidence_upper_twice": 8668684,
+              "gap_twice": 557324,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9226116,
+              "incidence_upper_twice": 8704594,
+              "gap_twice": 521522,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 40,
+              "incidence_lower_twice": 9226008,
+              "incidence_upper_twice": 8704594,
+              "gap_twice": 521414,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9226116,
+              "incidence_upper_twice": 8920054,
+              "gap_twice": 306062,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 52,
+              "incidence_lower_twice": 9226008,
+              "incidence_upper_twice": 8920054,
+              "gap_twice": 305954,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1092425498956",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9226116,
+              "incidence_upper_twice": 9063694,
+              "gap_twice": 162422,
+              "kappa_slope_twice": -280,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998565
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "5826257305220",
+                "110757"
+              ],
+              "original_pair_weight": 981106,
+              "M": 54,
+              "unordered_pair_budget": 1431,
+              "ell": 163,
+              "product_rank": 1440,
+              "q1": 6,
+              "qbar": 20,
+              "root_cost_twice": 60,
+              "incidence_lower_twice": 9226008,
+              "incidence_upper_twice": 9063694,
+              "gap_twice": 162314,
+              "kappa_slope_twice": -280,
+              "v_slope_twice": 106,
+              "paid_pair_cap": 53,
+              "paid_terminal_weight": 51998618
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        17965,
+        18964
+      ],
+      "parent_sha256": "73daa57a42713e2bc42aad8c36781babd05578a66a89f013f59e6784ada4ed71",
+      "kappa_max": 18956,
+      "original_constant_gate": 596733,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 8,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ],
+              "original_pair_weight": 981105,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 189,
+              "product_rank": 1492,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9506970,
+              "incidence_upper_twice": 9300054,
+              "gap_twice": 206916,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979670
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 189,
+              "product_rank": 1492,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9506860,
+              "incidence_upper_twice": 9300054,
+              "gap_twice": 206806,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979724
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ],
+              "original_pair_weight": 981105,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 169,
+              "product_rank": 1494,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 42,
+              "incidence_lower_twice": 9506970,
+              "incidence_upper_twice": 9337964,
+              "gap_twice": 169006,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979670
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 169,
+              "product_rank": 1494,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 42,
+              "incidence_lower_twice": 9506860,
+              "incidence_upper_twice": 9337964,
+              "gap_twice": 168896,
+              "kappa_slope_twice": -272,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979724
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ],
+              "original_pair_weight": 981105,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 153,
+              "product_rank": 1495,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 9506970,
+              "incidence_upper_twice": 8958864,
+              "gap_twice": 548106,
+              "kappa_slope_twice": -252,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979670
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 153,
+              "product_rank": 1495,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 9506860,
+              "incidence_upper_twice": 8958864,
+              "gap_twice": 547996,
+              "kappa_slope_twice": -252,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979724
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "2311903645212",
+                "43159"
+              ],
+              "original_pair_weight": 981105,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 153,
+              "product_rank": 1495,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 63,
+              "incidence_lower_twice": 9506970,
+              "incidence_upper_twice": 9129459,
+              "gap_twice": 377511,
+              "kappa_slope_twice": -261,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979670
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "18495181165860",
+                "345271"
+              ],
+              "original_pair_weight": 981106,
+              "M": 55,
+              "unordered_pair_budget": 1485,
+              "ell": 153,
+              "product_rank": 1495,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 63,
+              "incidence_lower_twice": 9506860,
+              "incidence_upper_twice": 9129459,
+              "gap_twice": 377401,
+              "kappa_slope_twice": -261,
+              "v_slope_twice": 108,
+              "paid_pair_cap": 54,
+              "paid_terminal_weight": 52979724
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        18965,
+        19964
+      ],
+      "parent_sha256": "c2573dc55685e31ba4aa92326cc79efa0479d21fd71736bc094dcc44f2f63bc1",
+      "kappa_max": 19956,
+      "original_constant_gate": 585814,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9966678,
+              "incidence_upper_twice": 9360774,
+              "gap_twice": 605904,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 9966564,
+              "incidence_upper_twice": 9360774,
+              "gap_twice": 605790,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 42,
+              "incidence_lower_twice": 9966678,
+              "incidence_upper_twice": 9520414,
+              "gap_twice": 446264,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 42,
+              "incidence_lower_twice": 9966564,
+              "incidence_upper_twice": 9520414,
+              "gap_twice": 446150,
+              "kappa_slope_twice": -258,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 9966678,
+              "incidence_upper_twice": 9759874,
+              "gap_twice": 206804,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 54,
+              "incidence_lower_twice": 9966564,
+              "incidence_upper_twice": 9759874,
+              "gap_twice": 206690,
+              "kappa_slope_twice": -270,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1173312776406",
+                "21067"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 63,
+              "incidence_lower_twice": 9966678,
+              "incidence_upper_twice": 9939469,
+              "gap_twice": 27209,
+              "kappa_slope_twice": -279,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "127707182780",
+                "2293"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 6,
+              "qbar": 21,
+              "root_cost_twice": 63,
+              "incidence_lower_twice": 9966564,
+              "incidence_upper_twice": 9939469,
+              "gap_twice": 27095,
+              "kappa_slope_twice": -279,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        19965,
+        20964
+      ],
+      "parent_sha256": "5417e4e21760b822ba2dc464526ededcb9ccd5878fcae9ef0e1747c242e7a2df",
+      "kappa_max": 20956,
+      "original_constant_gate": 574893,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 10080678,
+              "incidence_upper_twice": 9724774,
+              "gap_twice": 355904,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 10080564,
+              "incidence_upper_twice": 9724774,
+              "gap_twice": 355790,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 44,
+              "incidence_lower_twice": 10080678,
+              "incidence_upper_twice": 9934324,
+              "gap_twice": 146354,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 44,
+              "incidence_lower_twice": 10080564,
+              "incidence_upper_twice": 9934324,
+              "gap_twice": 146240,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 11,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 58,
+              "incidence_lower_twice": 10080678,
+              "incidence_upper_twice": 9640954,
+              "gap_twice": 439724,
+              "kappa_slope_twice": -246,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 58,
+              "incidence_lower_twice": 10080564,
+              "incidence_upper_twice": 9640954,
+              "gap_twice": 439610,
+              "kappa_slope_twice": -246,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 11,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159341312356",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 66,
+              "incidence_lower_twice": 10080678,
+              "incidence_upper_twice": 9808594,
+              "gap_twice": 272084,
+              "kappa_slope_twice": -254,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061045825540",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 66,
+              "incidence_lower_twice": 10080564,
+              "incidence_upper_twice": 9808594,
+              "gap_twice": 271970,
+              "kappa_slope_twice": -254,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "J": [
+        20965,
+        21499
+      ],
+      "parent_sha256": "b508835f0104f231a0bba86d38418fe270a2a1e05fa46f4a4a1debd0dd8d9633",
+      "kappa_max": 21491,
+      "original_constant_gate": 569050,
+      "spectra": [
+        {
+          "e": 0,
+          "eta0": 9,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 10141668,
+              "incidence_upper_twice": 9919514,
+              "gap_twice": 222154,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 181,
+              "product_rank": 1602,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 0,
+              "incidence_lower_twice": 10141554,
+              "incidence_upper_twice": 9919514,
+              "gap_twice": 222040,
+              "kappa_slope_twice": -250,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 1,
+          "eta0": 10,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 44,
+              "incidence_lower_twice": 10141668,
+              "incidence_upper_twice": 10134414,
+              "gap_twice": 7254,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 164,
+              "product_rank": 1605,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 44,
+              "incidence_lower_twice": 10141554,
+              "incidence_upper_twice": 10134414,
+              "gap_twice": 7140,
+              "kappa_slope_twice": -260,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 2,
+          "eta0": 11,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 58,
+              "incidence_lower_twice": 10141668,
+              "incidence_upper_twice": 9833554,
+              "gap_twice": 308114,
+              "kappa_slope_twice": -246,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 58,
+              "incidence_lower_twice": 10141554,
+              "incidence_upper_twice": 9833554,
+              "gap_twice": 308000,
+              "kappa_slope_twice": -246,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        },
+        {
+          "e": 3,
+          "eta0": 11,
+          "cutoffs": [
+            {
+              "t": 1,
+              "allowance": [
+                "1159352422701",
+                "20767"
+              ],
+              "original_pair_weight": 981105,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 66,
+              "incidence_lower_twice": 10141668,
+              "incidence_upper_twice": 10005474,
+              "gap_twice": 136194,
+              "kappa_slope_twice": -254,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941880
+            },
+            {
+              "t": 2,
+              "allowance": [
+                "2061065577205",
+                "36919"
+              ],
+              "original_pair_weight": 981106,
+              "M": 57,
+              "unordered_pair_budget": 1596,
+              "ell": 150,
+              "product_rank": 1606,
+              "q1": 7,
+              "qbar": 22,
+              "root_cost_twice": 66,
+              "incidence_lower_twice": 10141554,
+              "incidence_upper_twice": 10005474,
+              "gap_twice": 136080,
+              "kappa_slope_twice": -254,
+              "v_slope_twice": 112,
+              "paid_pair_cap": 56,
+              "paid_terminal_weight": 54941936
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "profile_count": 13,
+  "spectral_gate_count": 52,
+  "cutoff_count": 104,
+  "uniform_image_thresholds": [
+    9,
+    10,
+    11,
+    11
+  ],
+  "maximum_surviving_image_degree": 10,
+  "minimum_gap_twice": 7140,
+  "maximum_interpolant_degree": 207
+}

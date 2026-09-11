@@ -30,6 +30,31 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Actual collision interpolation forces low image degree
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Four-node K3 / DIRECT extension](notes/kb-regular-terminal-collision-interpolation-20260911/README.md),
+  frozen proofs, exact certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Hereditary original-source capacities bound actual
+  eigen-root incidence. Pair-owned multiplicity interpolation then pays every
+  pencil-free regular3 terminal of plane-image degree at least11 throughout
+  J9965..21499, with sharper spectral/profile gates. Excess has image degree
+  2..10 and dense actual collision groups; generic map degree is not used.
+- **How it is useful:** Extends f328d9fb and the source-bound #1179/#1180
+  program. It gives an aggregate bound rather than only a maximum-fibre gate.
+  Uniform image thresholds are9/10/11/11 for zero/one/two/three original-field
+  eigenvalues. Full polynomial gcds, unused degree and original owners survive.
+- **Verification:** Six new checks and an inherited audit pass normally and
+  under-O in under4seconds and31MiB peak RSS. The116-node closure,345 inherited
+  documents and1275 source hashes are checked. New arithmetic audits reject97
+  corruptions, the inherited audit24, and the wrapper56 malformed manifests.
+- **What to do next:** Independently review actual-pair ownership and nonzero
+  pullback; pay low-image terminal classes and whole constant3 on J14965..21499.
+  The available-weight maximum272127061148955779 is NOT a uniform rank19 bound.
+  No whole J, active atom, ordinary-LIST row or Prize problem closes.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-11 - Spectral masks force actual shared-core fibres
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
