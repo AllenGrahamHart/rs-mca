@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_receiver_colour_profile_core_basis",
+    "title": "Trim receiver-colour profiles to lower-bound complete core bases",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a complete joint core of size>=M in a fixed polynomial carrier, full local-core fibre contraction and any proved monotone child basis bound F give B_s>=min sum x_i F(K-w_i), 0<=x_i<=w_i, sum x_i=M, evaluated by largest-class-first trimming. Heavy coordinate mass<=E in classes>c gives (M-E)F(K-c)+E F(K-E), for1<=c<=E<=K-s+1. This is a lower relaxation, not profile realizability or an MCA payment.",
+    "refs": [
+      "background/nodes/mca_receiver_colour_profile_core_basis/statement.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/proof.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/claim_contract.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/dependency_subdag.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/audit.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/result.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/provenance.md",
+      "background/nodes/mca_receiver_colour_profile_core_basis/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_fiber_contraction_core_basis_resource"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

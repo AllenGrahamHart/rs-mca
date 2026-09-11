@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_small_colour_source_payment",
+    "title": "Small receiver-colour mass pays original rank-twelve sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear error-rank12 fixed-frame source J9965..21499 with at most53067 coordinates in nonzero-evaluation receiver-colour classes of size<=43 has entire bad-slope count<=274978354983575055, reserve2373127820032. Canonical reselection keeps the dim11 carrier and receiver; recordwise rank and HIGH transfer are reproved without retesting original rank. One restricted12-tuple universe, one min(raw,44) resource, global zero-label allowance21488 and near134944 are retained. No P1/P2 restriction, universal bank premise, adjacent unsafety, row or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_small_colour_source_payment/statement.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/proof.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/audit.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/result.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/provenance.md",
+      "background/nodes/rate_half_mca_small_colour_source_payment/verify.py",
+      "background/nodes/rate_half_mca_small_colour_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_small_colour_source_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_canonical_small_colour_defect_bank"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

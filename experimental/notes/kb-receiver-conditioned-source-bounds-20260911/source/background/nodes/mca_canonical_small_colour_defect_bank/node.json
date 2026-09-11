@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_canonical_small_colour_defect_bank",
+    "title": "Canonical low defects occupy small receiver-colour classes",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For finite full-code-bad supports in a fixed polynomial carrier, canonical maximum raw r<=T with2T<d forces all complete nonzero-evaluation defects into receiver-colour classes of size<=r. Zero-evaluation defect labels cost at most K-s globally. A proved r*beta tuple cost yields sum low raw <=[n_falling_(s+1)-(n-sigma_t)_falling_(s+1)]/beta, without a unique bank-entry assumption. No universal bank size or Prize claim.",
+    "refs": [
+      "background/nodes/mca_canonical_small_colour_defect_bank/statement.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/proof.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/claim_contract.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/dependency_subdag.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/audit.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/result.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/provenance.md",
+      "background/nodes/mca_canonical_small_colour_defect_bank/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_maximal_margin_complete_core_selection"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

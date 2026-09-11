@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_dense_conic_receiver_payment",
+    "title": "Dense low-height conic receivers pay original rank-twelve sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every original KoalaBear MCA error-rank12 source J9965..21499 and valid original owner assignment, a nonsingular F(X) conic of original pair-weighted degree<=2J fitting the receiver except on at most276035 coordinates gives entire original bad-slope bound274980278712737789, reserve449398657298. All pair ranks are allowed. Off-conic pairs use shared-dimension11 joint LIST only on the exception coordinates; one original44 resource and one near charge fund all labels. Dense primitive-degree-one terminal conic unions satisfy an explicit adjugate lift. No universal conic cover, adjacent unsafety, row or Prize closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/statement.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/proof.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/audit.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/result.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/provenance.md",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/verify.py",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_dense_conic_receiver_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    },
+    {
+      "from": "mca_low_core_quadratic_graph_payment"
+    },
+    {
+      "from": "mca_low_core_homogeneous_level_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

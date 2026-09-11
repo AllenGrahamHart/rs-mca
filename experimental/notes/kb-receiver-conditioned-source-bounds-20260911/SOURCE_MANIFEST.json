@@ -1,0 +1,910 @@
+{
+  "schema": "kb-receiver-conditioned-source-bounds-v1",
+  "parent_commit": "3e97eb8bc65acfc3f6ce3d88aed56b3a6de96238",
+  "upstream_main": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "upstream_pr_heads": {
+    "1179": "c4e4e7918764a590c4b8cfeac11004d297e2480b",
+    "1180": "478bfc41278c7669543388107a2fabff4b9fbd1b",
+    "1181": "8543d330a9356df7a7b366e79c8105fd8d2173e1",
+    "1182": "c24afd9b961bee43eaf335a6278160465d880c53",
+    "1183": "3b0db2af019b988945865e7a06e9614495e337fc"
+  },
+  "origin_head": "3b51e86d2595f28a02e842c81effca1dfcf98e77",
+  "origin_state": "dirty snapshot; per-file custody, not a clean-HEAD claim",
+  "snapshot_roots": [
+    "rate_half_mca_dense_conic_receiver_payment",
+    "mca_canonical_small_colour_defect_bank",
+    "rate_half_mca_small_colour_source_payment",
+    "rate_half_mca_bounded_colour_source_payment",
+    "mca_receiver_colour_profile_core_basis",
+    "rate_half_mca_sparse_heavy_colour_source_payment"
+  ],
+  "requirements": {
+    "mca_nonuniform_support_margin_resource": [],
+    "mca_core_completed_basis_margin_resource": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_fiber_contraction_core_basis_resource": [
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "mca_min_envelope_fiber_contraction": [
+      "mca_fiber_contraction_core_basis_resource"
+    ],
+    "mca_raw_margin_basis_mass": [
+      "mca_fiber_contraction_core_basis_resource",
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "rate_half_mca_min_envelope_raw_mass": [
+      "mca_min_envelope_fiber_contraction",
+      "mca_raw_margin_basis_mass",
+      "mca_core_completed_basis_margin_resource"
+    ],
+    "list_two_component_relation_dichotomy": [],
+    "mca_low_core_polynomial_relation_payment": [
+      "mca_nonuniform_support_margin_resource",
+      "list_two_component_relation_dichotomy"
+    ],
+    "mca_shared_carrier_rank_two_anchor": [
+      "mca_low_core_polynomial_relation_payment"
+    ],
+    "list_padded_johnson_dimension_descent": [],
+    "mca_pencil_core_union_escape": [
+      "mca_low_core_polynomial_relation_payment",
+      "list_padded_johnson_dimension_descent"
+    ],
+    "mca_low_core_quadratic_graph_payment": [
+      "mca_nonuniform_support_margin_resource"
+    ],
+    "mca_joint_pair_affine_incidence": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "mca_weighted_pencil_raw_mass": [
+      "mca_shared_carrier_rank_two_anchor",
+      "mca_pencil_core_union_escape",
+      "mca_joint_pair_affine_incidence"
+    ],
+    "mca_low_core_homogeneous_level_payment": [
+      "mca_low_core_quadratic_graph_payment"
+    ],
+    "rate_half_mca_dense_conic_receiver_payment": [
+      "rate_half_mca_min_envelope_raw_mass",
+      "mca_weighted_pencil_raw_mass",
+      "list_padded_johnson_dimension_descent",
+      "mca_low_core_quadratic_graph_payment",
+      "mca_low_core_homogeneous_level_payment"
+    ],
+    "mca_maximal_margin_complete_core_selection": [],
+    "mca_canonical_small_colour_defect_bank": [
+      "mca_maximal_margin_complete_core_selection"
+    ],
+    "rate_half_mca_small_colour_source_payment": [
+      "mca_canonical_small_colour_defect_bank",
+      "rate_half_mca_min_envelope_raw_mass"
+    ],
+    "rate_half_mca_bounded_colour_source_payment": [
+      "mca_canonical_small_colour_defect_bank",
+      "rate_half_mca_min_envelope_raw_mass"
+    ],
+    "mca_receiver_colour_profile_core_basis": [
+      "mca_fiber_contraction_core_basis_resource"
+    ],
+    "rate_half_mca_sparse_heavy_colour_source_payment": [
+      "mca_receiver_colour_profile_core_basis",
+      "rate_half_mca_bounded_colour_source_payment"
+    ]
+  },
+  "origin_node_manifest_sha256": {
+    "mca_nonuniform_support_margin_resource": "7ca98443782a5f275143a0cadfa2106184376a02b34cf63fc08dcfa8244d85b1",
+    "mca_core_completed_basis_margin_resource": "06c799837fe649b894fccbc96699d96646c6cb263fcd6ff4e698da0fde030af5",
+    "mca_fiber_contraction_core_basis_resource": "e591beb9ae7ab0e59074ad22cb781f25b63074b729a6278c88dd30ba6f936c53",
+    "mca_min_envelope_fiber_contraction": "01b70177bc9cdebed7968263c434bb8d0e546f0a03d6bcabf7c69737730dbbd9",
+    "mca_raw_margin_basis_mass": "d7eca15458542204fe65e2a14d9be7d7e64acfce7c7623b3fee3721920d24b27",
+    "rate_half_mca_min_envelope_raw_mass": "ea2438d626850fdcf94054055af941adef4de21edb87b386b87bd80af3efac1b",
+    "list_two_component_relation_dichotomy": "a8a272d939f120134c1300b0a2825560152f521ef6f0001c856dfe97c6ff7479",
+    "mca_low_core_polynomial_relation_payment": "15b680cdac1df7058a4dffb810d7986943e5719d9951f75504719a96d3b76e69",
+    "mca_shared_carrier_rank_two_anchor": "be77cd27e62f5f54ab0afe18dd37fd52543236b3278b103a9ad3e51d56f1fb1b",
+    "list_padded_johnson_dimension_descent": "7177b785179f8a4399525082c4c50fcded5b4355b18e8779ae331b7b87f81266",
+    "mca_pencil_core_union_escape": "2ce109ac58fa8837c91a3d2544f72878e67fa75d233021974e25123d60c802eb",
+    "mca_low_core_quadratic_graph_payment": "e2fdf680cbe9a6c9b6366ad46e3cecbac6b4299395965dc4b40c40638a346c77",
+    "mca_joint_pair_affine_incidence": "a2a2c134312dbb86c8ecd1d08055bd6917b8d8da950cbfbca4afbda051328048",
+    "mca_weighted_pencil_raw_mass": "47077bbe3c91779600d950befb07630bd29204a3112e9cb498c978c1c22f1cc5",
+    "mca_low_core_homogeneous_level_payment": "a54b8a30448a90f7565efec77daa79dca15d7f7a9606251c939cec7802dae7d1",
+    "rate_half_mca_dense_conic_receiver_payment": "0d6827386112c5563447a29e0eba93c4334aeacd9234c2dc2bbeba13d67384e2",
+    "mca_maximal_margin_complete_core_selection": "ef2532f33cabd041cf7ee43ddd5477cdfc5544d4c27d0830ffa43d2d18e9f0bc",
+    "mca_canonical_small_colour_defect_bank": "296cd95f0a252db6e194b1c8ac526fd7532183d0048b1046449a2fe8c5f41b06",
+    "rate_half_mca_small_colour_source_payment": "14ea7118c58720413fde3d9977850af268c050831f80e2f63198522cde4531b6",
+    "rate_half_mca_bounded_colour_source_payment": "2a1489332d246181bd2f7251e79fef08f7327d381c70b1bb6f73b237d6accf26",
+    "mca_receiver_colour_profile_core_basis": "970df7adc93f42ae2df723202847c5b3af72aa3fe0897aa97b42e28b0aeb3e86",
+    "rate_half_mca_sparse_heavy_colour_source_payment": "9993fe9ad61b977ba09124ad4c053107d2be2e8a70130b67eaa51bb89f1edf8c"
+  },
+  "supplier_manifests": {
+    "low-core-flat-source-cumulative-20260908": "656b342982896233bf8f906b6ba93aae785c9179414d02f982f47b095a60027b",
+    "kb-parameter-graph-spread-20260908": "b93f34d83b297e4370a4d6cb3b949432f99ebb4293b059fc7a926fd6b427ce1c",
+    "kb-low-defect-rank-filtration-20260909": "bc3b337d2c369a06ab82d5d6d5a2fa8f9edfe2931f34e0244b94345286d42645",
+    "kb-raw-mass-cubic-interval-20260909": "375c15045f34386d787b559a8705fc1c1f66653ce5a6568630a2d0f79ee75bbc",
+    "kb-low-pair-pencil-payment-20260909": "c17dcfa6c844ceb0ae5f1a5bd578f4edd7b58d10048ae317528bfd37ebad43ce",
+    "kb-dominant-pencil-rank-eleven-20260909": "8177b2bf76089547514d9d84f111eed4ada89d62c029bfa47e267ee6299f7416",
+    "kb-shared-carrier-rank-fifteen-20260909": "f998e2205389157690fae7f3387aedc6cd6602a1135b2066283d552e9dd1829e",
+    "kb-low-defect-hyperplanes-quadrics-20260910": "e36c4d33ba2357fe313a3788d6f46ea5da7b1b1d2438b796febd914d611e72d3",
+    "kb-low-pair-projection-frontier-20260910": "01a2397889f1df87b3885fd66f192bd1af2236bfb4ea67ad7a747e1752c2a4fe",
+    "kb-high44-pair-rank-extension-20260910": "233dc3d60a09b03ecb9b1101600703b30e2942106e424fff9acd1762b05a11ef",
+    "kb-min-envelope-low-defect-rank-20260910": "36395ad03690b56a49e052c564cb7422b446799c4e1dc9f09eb67cb2332dfa34",
+    "kb-source-bound-integer-compression-rank18-20260910": "b75350a4f7e40db3b403eedccdccc60114b828811f37ddce3d62c2479f4a6676",
+    "kb-raw-two-regular-operator-frontier-20260910": "05224b61e5b914ef799e1718ce6308d74f04e7d9de0c39a03d5f761b4df4a3c6",
+    "kb-regular-terminal-actual-span-20260910": "7b53163ad4e60003b3c1cb4d44d95743b52dd0def950f33e7b29ca6760600cc9",
+    "kb-regular-terminal-rich-core-fibres-20260911": "693c0120e5d2b9e9a868dc250af8f893ec0e234ccfc5f93c7f99f6742aecb5dd",
+    "kb-regular-terminal-collision-interpolation-20260911": "4becaac656ccdc6194d8fd2e588ab4c2c2cf0ecbdb359f5acfc3a6782fd78861",
+    "kb-regular-terminal-branch-genus-energy-20260911": "2af953fb2fdd69f63968ec42db41390927c5da6d834057f418f650b6371c6cf9",
+    "kb-regular-terminal-double-conic-payment-20260911": "d4b34801f0d3d1ef8f6718e49a7c6efddf3ed5a9e3a6c0fb88969ff38cab4541",
+    "kb-regular-terminal-inherited-normalization-20260911": "3bfc8db237420e913934a48638fa8cdaa6a5b6ba1de664004e2b8a733afe2cd5",
+    "kb-penultimate-graded-pencil-payment-20260911": "5386cd171d87beaf998dfb78bf45ae096b7e2014163f7093788ab1981c2a2cf6",
+    "kb-constant-hyperplane-source-payment-20260911": "68d245f2a6c2dd34674e847865a7da21d3338c68f0355b66d132e1f7769a5f47",
+    "kb-full-constant-source-payment-20260911": "a1a442d4083a1d8ce7eedd6d424e4a7abff48a0257d1e2f09b338b923107428b",
+    "kb-rank-nineteen-source-payment-20260911": "1a22f451aa1bc65bc1e46e9ddcbe00c396ca6888496c18537e36455c7e05ce18",
+    "kb-rank-twenty-full-constant-prefix-20260911": "04f3b7c34e2ba8f39aec37413395a5ec6e82a38230514c59bfadc06ac1adeaa8",
+    "kb-constant-projection-source-payment-20260911": "9731c60403a1138ef5a1f219d42ded1b14def768b8b0f879ae5ae5265adbc8ca",
+    "kb-raw-one-rank-nineteen-source-tail-20260911": "6077c2be5adb36136cd3ad062e1a278c07616fed053085a28b4a740a1759bae7"
+  },
+  "inherited_sources": [
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/proof.md",
+      "sha256": "307fa8d5dc06341dc110948099a0a138f8ddd98348da05676341ae1f9b1c54ef"
+    },
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "shared_carrier_joint_lists.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/shared_carrier_joint_lists.md",
+      "sha256": "32d431413c55aa175fc78ea84af486cda420c19b020267b9031292887e63d3ad"
+    },
+    {
+      "node": "list_padded_johnson_dimension_descent",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_padded_johnson_dimension_descent/statement.md",
+      "sha256": "f086fced7869507664dbd8950ec24570f0d50d7ab5ae983286751db6389d641f"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/proof.md",
+      "sha256": "c3b3beb2c8a844da9f0d6ba5e43448989986acc8c5ab13b248cf10f402155b78"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "provenance.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/provenance.md",
+      "sha256": "dfc05658aadb40662fe10a9630553a3942274ef069009f6f2df17d346cd1d04d"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "scalar_tail_bound.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/scalar_tail_bound.md",
+      "sha256": "6f4f8fdafc70ed7676de20d3f8ff2c8b3db38095a9b576247db1de95669756a5"
+    },
+    {
+      "node": "list_two_component_relation_dichotomy",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/list_two_component_relation_dichotomy/statement.md",
+      "sha256": "ea2001a4807f54078bb6d8b1e99edba835446b6c8a55af7e40c44bd5b83d6dad"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "cumulative_low_weights.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/cumulative_low_weights.md",
+      "sha256": "195e3b4fcebe7e5567b4e92403ac4a05fd0572a8c10288878f6b5e89c29b3b59"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/proof.md",
+      "sha256": "5a0aeb3b84430b4ece78ffe0c07de18b1e291e2b7108cdbcb29e9b41c9ab9660"
+    },
+    {
+      "node": "mca_core_completed_basis_margin_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_core_completed_basis_margin_resource/statement.md",
+      "sha256": "d3112dbeb1867bd2cadba4094fe9ed74dfee01b47ec400cd73df01b8e5402d1f"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "method_boundary.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/method_boundary.md",
+      "sha256": "233f517f937de029863b2dfa38ef73d7123afc033697f11c068637f835b28dc0"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/proof.md",
+      "sha256": "29d643b9db3658ae225c151d31f0a8aa498c1089d9b6d6d08dd918ce11283737"
+    },
+    {
+      "node": "mca_fiber_contraction_core_basis_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_fiber_contraction_core_basis_resource/statement.md",
+      "sha256": "a06fa14f5e680189df046239703923e2802f70b9186d87def1f143b7708a8c6b"
+    },
+    {
+      "node": "mca_joint_pair_affine_incidence",
+      "filename": "proof.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_joint_pair_affine_incidence/proof.md",
+      "sha256": "b1b1bbca4fffdbdb5d5d0afc1939cd3082380f69a1a58d774ac7190441abb372"
+    },
+    {
+      "node": "mca_joint_pair_affine_incidence",
+      "filename": "statement.md",
+      "packet": "kb-low-pair-pencil-payment-20260909",
+      "path": "source/background/nodes/mca_joint_pair_affine_incidence/statement.md",
+      "sha256": "8f421f0cf07a49601693b3c5733fdb566928a7bf8c06bbe003581fed4ce0ee8c"
+    },
+    {
+      "node": "mca_low_core_homogeneous_level_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/proof.md",
+      "sha256": "d7c31cac691cc8b98c1d31982001e16e1d1db8aa1ca41a90580425730d309a2b"
+    },
+    {
+      "node": "mca_low_core_homogeneous_level_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_homogeneous_level_payment/statement.md",
+      "sha256": "ccfeb6496c98f4828c723b795cb94fec0013423c703b7e43a19f81e78eb73038"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "joint_list_ownership_obstruction.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/joint_list_ownership_obstruction.md",
+      "sha256": "faae1857f005402b48a1eab64ac3fc52e7413001d289d84441675771ee8926ef"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/proof.md",
+      "sha256": "7094d7246d60abd63068fdfaf4845a833d950b320f668def3d9934da3a88f95f"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "rational_line_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_controls.md",
+      "sha256": "d4e7fffeda4ed7c28ce2be0fa08814e3ee78b01be5aabfd44857a9dbd50b7999"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "rational_line_cores.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/rational_line_cores.md",
+      "sha256": "a2341065d3918d95e88aac0fada5ef21057adee9de552c5f37703d8e8508fe6d"
+    },
+    {
+      "node": "mca_low_core_polynomial_relation_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_low_core_polynomial_relation_payment/statement.md",
+      "sha256": "128a8232825a82c06a3c2e964ed8c3f46f1c268d40ba1f2411d800526be5d916"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "algebraic_list_bound.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/algebraic_list_bound.md",
+      "sha256": "87449619d9468f1cd9a3aa42ec7a1f8dbb982361afbac1943a0d6fd1db48c8aa"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "moving_parabola_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabola_controls.md",
+      "sha256": "a595bc7c696e3b6e12f010d5790c3bb5952491d665d7d6a6d314326fe02ded25"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "moving_parabolas.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/moving_parabolas.md",
+      "sha256": "bd6f4678f0c47356da3b80421d2a89171c4f74e8c53062b71d692ca9acc9d7c0"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "polynomial_graph_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graph_controls.md",
+      "sha256": "6dc950951b98e3d2b4fbeb7b575eb418689c3c0afc110f46c242bbd73e52a918"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "polynomial_graphs.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/polynomial_graphs.md",
+      "sha256": "c091fdfd59abd88e620ed3052b9ff16cc97a4b5746b197c594d6b7c87c156601"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/proof.md",
+      "sha256": "c0617a5b9cb5dacd1230068a105a570866a8d5d3a54127fa60a813c680920843"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "rational_coefficient_graphs.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_coefficient_graphs.md",
+      "sha256": "a8fdd467ea8d4ffa202673583f14056236377380fa21bcfbbb63822988d44074"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "rational_graph_controls.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/rational_graph_controls.md",
+      "sha256": "66b7e283ea38cd321c538d39ccde1e31b888a79c196a377d845040864b7fcfbe"
+    },
+    {
+      "node": "mca_low_core_quadratic_graph_payment",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_low_core_quadratic_graph_payment/statement.md",
+      "sha256": "8b33d7a543e3d090685b61ddd4555d30520844f13ade7397309d4d6a52e5e6b4"
+    },
+    {
+      "node": "mca_maximal_margin_complete_core_selection",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/proof.md",
+      "sha256": "aae861fcb32f9df60a9aea857827cd60f7fdada6882a01d129ac8da138cdad06"
+    },
+    {
+      "node": "mca_maximal_margin_complete_core_selection",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/critical/nodes/mca_maximal_margin_complete_core_selection/statement.md",
+      "sha256": "9ddfde670d435ed0b5b8c26eebdc1b98e027e8d238872eb83214b37b4508d673"
+    },
+    {
+      "node": "mca_min_envelope_fiber_contraction",
+      "filename": "proof.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/mca_min_envelope_fiber_contraction/proof.md",
+      "sha256": "2b9f769f158bb169924e877e1e23458eb99f08ff286357c665ab4e5c6b69768b"
+    },
+    {
+      "node": "mca_min_envelope_fiber_contraction",
+      "filename": "statement.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/mca_min_envelope_fiber_contraction/statement.md",
+      "sha256": "8af701b71805980f981e3746efebd36e4eaf60dd5878159a8d19086894141999"
+    },
+    {
+      "node": "mca_nonuniform_support_margin_resource",
+      "filename": "proof.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/proof.md",
+      "sha256": "50c3ae1b4f0f33a4d1148d090f610f6db01c60965d07ecea02175e3dbb87ba9c"
+    },
+    {
+      "node": "mca_nonuniform_support_margin_resource",
+      "filename": "statement.md",
+      "packet": "low-core-flat-source-cumulative-20260908",
+      "path": "source/background/nodes/mca_nonuniform_support_margin_resource/statement.md",
+      "sha256": "15131c591b26922aa4a5d213ea295a8bfea01040fa99d66ab8a6e4c259a6b8ec"
+    },
+    {
+      "node": "mca_pencil_core_union_escape",
+      "filename": "proof.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_core_union_escape/proof.md",
+      "sha256": "ccd6e4a8ca6a1be8c8875c5eafba4c38067e0083e06eaaa242141be98bc15858"
+    },
+    {
+      "node": "mca_pencil_core_union_escape",
+      "filename": "statement.md",
+      "packet": "kb-dominant-pencil-rank-eleven-20260909",
+      "path": "source/background/nodes/mca_pencil_core_union_escape/statement.md",
+      "sha256": "e98a4874beb5717f7226dc5a90fb4eef37653e85d9c4121d975213dd35dcc84d"
+    },
+    {
+      "node": "mca_raw_margin_basis_mass",
+      "filename": "proof.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/proof.md",
+      "sha256": "bae510fdcbc99009985fd5275c4ec44954d1ed6ac7a4db0dbabcbfc59ae1ea53"
+    },
+    {
+      "node": "mca_raw_margin_basis_mass",
+      "filename": "statement.md",
+      "packet": "kb-raw-mass-cubic-interval-20260909",
+      "path": "source/critical/nodes/mca_raw_margin_basis_mass/statement.md",
+      "sha256": "80357fffa60d7c427c032b04275060c070d4f254203799c4d12e5454ca65840e"
+    },
+    {
+      "node": "mca_shared_carrier_rank_two_anchor",
+      "filename": "proof.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/mca_shared_carrier_rank_two_anchor/proof.md",
+      "sha256": "92dcc05485efc759f480f9f045f17018644d176898c579bab63fa8cbcbb925d2"
+    },
+    {
+      "node": "mca_shared_carrier_rank_two_anchor",
+      "filename": "statement.md",
+      "packet": "kb-shared-carrier-rank-fifteen-20260909",
+      "path": "source/background/nodes/mca_shared_carrier_rank_two_anchor/statement.md",
+      "sha256": "a835262ddf11f1bc8a7ee33f7eea809f7c3564af76326f052ccbd5cea8bd919a"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/proof.md",
+      "sha256": "a292ceeba290ce970353289c84dcd28a06589d0f4ee0defaf4897325a9213dd6"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "provenance.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/provenance.md",
+      "sha256": "0defedc25631202dbceaf64bfbcc5a0dba3e716f442bd383ad69abbd939204e5"
+    },
+    {
+      "node": "mca_weighted_pencil_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-source-bound-integer-compression-rank18-20260910",
+      "path": "source/background/nodes/mca_weighted_pencil_raw_mass/statement.md",
+      "sha256": "288344b541bd7341012616b664a437057e1116a9b5b83ff18c1aa1f1f996451d"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "branch_recurrence.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/branch_recurrence.md",
+      "sha256": "adb089a1fa472569e56eff4b3aaed43638dbaeb016e7efb82e2d9da680df15d3"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "proof.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/proof.md",
+      "sha256": "8d097db73205d4013f03dde7298292c3f8d49abdf84e61cd73d361db91dbf468"
+    },
+    {
+      "node": "rate_half_mca_min_envelope_raw_mass",
+      "filename": "statement.md",
+      "packet": "kb-min-envelope-low-defect-rank-20260910",
+      "path": "source/background/nodes/rate_half_mca_min_envelope_raw_mass/statement.md",
+      "sha256": "50666c5f1d06231ef2a5241ecfa3430eb3eb0d80009d7c02323eea3a3f93293d"
+    }
+  ],
+  "inherited_proof_documents_compared": 49,
+  "published_source_hashes_checked": 1741,
+  "files": [
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/audit.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/audit.md",
+      "sha256": "1dec4aa81ccba301c48a5a7a038d1b54f0fcd46fbef7d00458af958a83e1a707"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/claim_contract.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/claim_contract.md",
+      "sha256": "094abbb9f8ba9555e13294574b207e90dfe71a399270959de51468ed69f45a5f"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/dependency_subdag.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/dependency_subdag.md",
+      "sha256": "42434cfe40df61477209e8641af2b4633302a6fadeabdabd5b308fed6dd1e109"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/node.json",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/node.json",
+      "sha256": "296cd95f0a252db6e194b1c8ac526fd7532183d0048b1046449a2fe8c5f41b06"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/proof.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/proof.md",
+      "sha256": "a1ba9de11ba24a1ec826c66be2c951bb1e35261be72d17f7de63e18a1de5aa5a"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/provenance.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/provenance.md",
+      "sha256": "11376bcb2e6516f8210c946ab4798292fe399a440befd8a6cc55afdb438a373a"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/result.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/result.md",
+      "sha256": "a3d9d7be519d462cdab9280ffc8140a2b7fd31953dcda4afd68ab5afad7f248f"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/statement.md",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/statement.md",
+      "sha256": "012e213da01b52a1316ef784442f7a26ef02ff047b3ad6b2f095a04ee74ab444"
+    },
+    {
+      "path": "source/background/nodes/mca_canonical_small_colour_defect_bank/verify.py",
+      "origin_path": "background/nodes/mca_canonical_small_colour_defect_bank/verify.py",
+      "sha256": "e421e9760c68c5896d729337fb36d47529c8cefa69752588426cd37d67d59278"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/audit.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/audit.md",
+      "sha256": "0b23303a72dc53b8e8d509e7705b0a89f2b7e057529a6dfa642f27bec7dc9f43"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/claim_contract.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/claim_contract.md",
+      "sha256": "031419852bd16db8a96345eef65a83c8cd08e78aafdd435bdb9d2776e71c56f3"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/dependency_subdag.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/dependency_subdag.md",
+      "sha256": "6a1f651c25698772ef14af7a6c7b86830636c828e727de0c5dba5a335e36ff27"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/node.json",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/node.json",
+      "sha256": "970df7adc93f42ae2df723202847c5b3af72aa3fe0897aa97b42e28b0aeb3e86"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/proof.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/proof.md",
+      "sha256": "e55349062b78e55e7970019268213852b2ba607c21e3ef7510ba76f9c7716229"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/provenance.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/provenance.md",
+      "sha256": "0fa758913ff7d82141a777e9b0d8fdfa4c2b038be3cd934a824b729e995600b1"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/result.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/result.md",
+      "sha256": "c2835ab7374f23331ceb4031caddc6e674460d16efc75bfbf2dbfc2dc546d7ca"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/statement.md",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/statement.md",
+      "sha256": "a2f3d89483d9dc7016cf7a3ad232134682df73e8b971d3d6cbc9921c19e20176"
+    },
+    {
+      "path": "source/background/nodes/mca_receiver_colour_profile_core_basis/verify.py",
+      "origin_path": "background/nodes/mca_receiver_colour_profile_core_basis/verify.py",
+      "sha256": "5da8b2cafb6982807e56468db830f552060ef575ddaae1d4372d5f7b74695bfd"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/audit.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/audit.md",
+      "sha256": "5227853649ca879201aae1913014ce1ff5205b02cb652cb52352df59da9b8e84"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/certificate.json",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/certificate.json",
+      "sha256": "851c08cdff1ce32262bc2bb73e56b6ed610028403f29f4633a32576757a4c012"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/claim_contract.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/claim_contract.md",
+      "sha256": "8b2057e2c307315885e92af9845fe70366b2a11356613e1200a24f8d436b688a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/dependency_subdag.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/dependency_subdag.md",
+      "sha256": "5a8cf298d77ef8a406dc5f3fe814b1cd1097a0309bdbbb8846ae09deb8435a54"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/node.json",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/node.json",
+      "sha256": "2a1489332d246181bd2f7251e79fef08f7327d381c70b1bb6f73b237d6accf26"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/profile_resource.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/profile_resource.md",
+      "sha256": "64449d3ae2d584faebf761b9403860f939110f889e649ca5f16c8172b67b4ae8"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/proof.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/proof.md",
+      "sha256": "f2d97e754160457641c76bc85601328b5e593ae240eb8f24bc2584293656fdf1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/provenance.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/provenance.md",
+      "sha256": "079f6333306141671b51535b4bac311edd0dea09eca274d412836892abbab2e9"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/result.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/result.md",
+      "sha256": "e95f241d794313e5a0bc90478ae30e48078e9d1431ca20a43df0f85038466900"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/statement.md",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/statement.md",
+      "sha256": "45ec80d3cd987270b874e3ba77b75b406467feab92799766d1065e909a764971"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/verify.py",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/verify.py",
+      "sha256": "43794017e927909b4e5c93c74a4d607cfa9ca6ea275b01ca1f82e98e8bb319e1"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_bounded_colour_source_payment/verify_audit.py",
+      "origin_path": "background/nodes/rate_half_mca_bounded_colour_source_payment/verify_audit.py",
+      "sha256": "0bf3221e82268f3bf136b97c926ed17071c4de9a1ecb4ce7bfa416ad001fa2be"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/audit.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/audit.md",
+      "sha256": "6f7c38cab8e4b7b68ced2e094dbecbc102114cea4bf95b0f0f185a546368a50a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/certificate.json",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/certificate.json",
+      "sha256": "47fa0cf46238c8647c89a7980dd53f7266e51dfa948124b9aa726c377300c834"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/claim_contract.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/claim_contract.md",
+      "sha256": "1773e9d9d4ae1ca7dadca5f01e3554a7eba8e6a9984bd0f4df6ebccc0f311416"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/dependency_subdag.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/dependency_subdag.md",
+      "sha256": "16414af9fe2eb108642e04576b494913ac3455f488a097d34214af43d0c58726"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/node.json",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/node.json",
+      "sha256": "0d6827386112c5563447a29e0eba93c4334aeacd9234c2dc2bbeba13d67384e2"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/proof.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/proof.md",
+      "sha256": "204c41dfb2f2ea7e3fbaf884e2fd47825ed032abe541c238ab85653a50486125"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/provenance.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/provenance.md",
+      "sha256": "197ca62a650b65413a414e4d18f59c71fefb96ded8c5da9dc4b83c5262a82066"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/result.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/result.md",
+      "sha256": "af49561b94bd95ad2028645c86f749a71d0ed1c8976a8523b8a7de5eb2268b78"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/statement.md",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/statement.md",
+      "sha256": "ccce18497fdb34f3b781c65a7d50d45ff31b4676843fc69ed48f9ed81717599f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/verify.py",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/verify.py",
+      "sha256": "b2dc240a6181712b5ef5b5df6f93a595aeb4ac1fd7fed4a3c976e049eca93b8a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_dense_conic_receiver_payment/verify_audit.py",
+      "origin_path": "background/nodes/rate_half_mca_dense_conic_receiver_payment/verify_audit.py",
+      "sha256": "a36d540f39a77051e6a1e4c96d0d20e34c0e2f91fe520c1c9f5992890430df32"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/audit.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/audit.md",
+      "sha256": "c9a1d4fe83936ad1a77b9bdf7b61281d66d74a03b6e5fe2cbbf5f7faceac8fd4"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/certificate.json",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/certificate.json",
+      "sha256": "5f36b1890c14b70ac7d3c80fc8df2035b284404f85d757a2cb9ef36115049382"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/claim_contract.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/claim_contract.md",
+      "sha256": "e21b47b367da54537e7cfdc97f7bcd38627da7564257e4ccf6d942e39f7f816f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/dependency_subdag.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/dependency_subdag.md",
+      "sha256": "7b6280907950daac4b035382fff2a6edbf5bbae05b0e02812a2b4281c4f8445c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/node.json",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/node.json",
+      "sha256": "14ea7118c58720413fde3d9977850af268c050831f80e2f63198522cde4531b6"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/proof.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/proof.md",
+      "sha256": "ea21395bce0872109d9de347d4244199dc0e56bb8e6a6a928afae823520a4b8f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/provenance.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/provenance.md",
+      "sha256": "bd8114152edc40b5038704e1787bd192b7d6ea0c89a1625aff5b27b77204e554"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/result.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/result.md",
+      "sha256": "e161373c1cad2c4b7a24165837dfe61b359734f98093858dd24ab254222ffc0c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/statement.md",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/statement.md",
+      "sha256": "d48116b5dc34981faafb35d551e028ab3fca9994aa4467291a376c61bef7020e"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/verify.py",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/verify.py",
+      "sha256": "8626533fd564d582078da68558e7081a8ffe64a03714e1e5471b97441446280a"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_small_colour_source_payment/verify_audit.py",
+      "origin_path": "background/nodes/rate_half_mca_small_colour_source_payment/verify_audit.py",
+      "sha256": "8d0f8d2667bca87fc306a21056dcf2cff66ae8faa22c528983d1cc6f576cda48"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/audit.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/audit.md",
+      "sha256": "126cd3ea99d817e2d00cd31c18df6b927df34372ad64fba7794e473d228bc5a4"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/certificate.json",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/certificate.json",
+      "sha256": "37390858e17597e465ba246c2c1d18c8df214534cfd4772aeb5f70af829d7401"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/claim_contract.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/claim_contract.md",
+      "sha256": "e1ade7720b1ef195c202a53cce11bcfcdc744f9a6eaf34916d4149f12f754d29"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/dependency_subdag.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/dependency_subdag.md",
+      "sha256": "32fd413d82d6ac0d7a0c8235dc579e0850e36d2c05f01bbd3961d0c23ca111da"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/node.json",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/node.json",
+      "sha256": "9993fe9ad61b977ba09124ad4c053107d2be2e8a70130b67eaa51bb89f1edf8c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/proof.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/proof.md",
+      "sha256": "745749ab4a7ca29b3573d35cf64bff6097948092b43f173ec0d0db8f9e5f381c"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/provenance.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/provenance.md",
+      "sha256": "fd557689aea5c8ebc6ad6be18b79460f8f976ebad5bf231bc7015a7b3d97d245"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/result.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/result.md",
+      "sha256": "fefdee620e7c585e5003b217f681cba97e9fd7aee5c6b81ca6e90a1b65f7584f"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/statement.md",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/statement.md",
+      "sha256": "5ea0b7e5a59cdc27cc7bf515fec56a23242fc87cf8a35435089a0a85b5db49c0"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify.py",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify.py",
+      "sha256": "6c1525df5f05296045fc6a088655393eb3b79621337754224f6cfb2e59747bb2"
+    },
+    {
+      "path": "source/background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify_audit.py",
+      "origin_path": "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify_audit.py",
+      "sha256": "a3ee2c15473b8fcf64aa664800f18039603ce3d1f64467751eaa8ea87439a4bb"
+    }
+  ],
+  "source_bytes": 177434,
+  "scope": {
+    "schema": "receiver-conditioned-source-bounds-v1",
+    "lane": "K3 / DIRECT",
+    "object": "MCA",
+    "field": "2130706433^6",
+    "n": 2097152,
+    "k": 1048576,
+    "agreement": 1116048,
+    "target_epsilon": "2^-128",
+    "B_star": "274980728111395087",
+    "original_error_rank_before_reselection": 12,
+    "J": [
+      9965,
+      21499
+    ],
+    "covered_J_integers": 11535,
+    "shared_dimension": 11,
+    "unit": "Entire original distinct bad-slope set",
+    "quantifier": "Every original post-near source at its printed receiver condition; colour proofs reselect inside the fixed frame",
+    "P1_P2_rank_restriction": false,
+    "dense_conic": {
+      "nonsingular": true,
+      "coefficient_field": "F(X)",
+      "weighted_degree_max": "2J",
+      "receiver_exceptions_max": 276035,
+      "bound": "274980278712737789",
+      "reserve": "449398657298",
+      "primitive_degree_one_lift_proved": true
+    },
+    "small_bank": {
+      "class_size_max": 43,
+      "coordinate_mass_max": 53067,
+      "bound": "274978354983575055",
+      "reserve": "2373127820032"
+    },
+    "bounded_colours": [
+      {
+        "class_size_max": 2,
+        "singleton_coordinates_max": 1717,
+        "bound": "274979228268047446",
+        "reserve": "1499843347641"
+      },
+      {
+        "class_size_max": 43,
+        "singleton_coordinates_max": 1465,
+        "bound": "274977964220092532",
+        "reserve": "2763891302555"
+      },
+      {
+        "class_size_max": 286,
+        "singleton_coordinates_max": 0,
+        "bound": "274980091354143171",
+        "reserve": "636757251916"
+      }
+    ],
+    "sparse_heavy_colours": [
+      {
+        "heavy_class_size_gt": 43,
+        "heavy_coordinates_max": 3000,
+        "singleton_coordinates_max": 824,
+        "bound": "274980301923454583",
+        "reserve": "426187940504"
+      },
+      {
+        "heavy_class_size_gt": 43,
+        "heavy_coordinates_max": 4639,
+        "singleton_coordinates_max": 0,
+        "bound": "274979909180000584",
+        "reserve": "818931394503"
+      }
+    ],
+    "colour_partition": "Nonzero projective V-evaluation fibre plus normalized receiver pair",
+    "colour_units": "Coordinates, not classes",
+    "canonical_reselection": "Receiver, carrier, degree and finite labels fixed",
+    "original_rank_retested_after_reselection": false,
+    "original_near_once": 134944,
+    "colour_zero_labels_global_max": 21488,
+    "resource_copies_per_application": 1,
+    "profiles_use_actual_class_sizes": true,
+    "trimmed_core_allocation_is_lower_relaxation": true,
+    "profile_inequality_universally_below_budget": false,
+    "universal_receiver_cover": false,
+    "alternative_source_bounds_combine": "MAXIMUM, not addition",
+    "new_lemmas": [
+      "mca_canonical_small_colour_defect_bank",
+      "mca_receiver_colour_profile_core_basis"
+    ],
+    "all_original_rank12_sources_closed": false,
+    "higher_original_error_ranks_closed": false,
+    "ordinary_LIST_closed": false,
+    "active_v4_atom": false,
+    "adjacent_safe_row_closed": false,
+    "unsafe_adjacent_recipe_claim": false,
+    "prize_closed": false
+  },
+  "status": "PROVED locally at printed scopes; independent mathematical review due",
+  "impact": "Four locally proved receiver-conditioned whole-source theorems and two reusable colour lemmas. Exact conic and colour hypotheses are distinct and not asserted exhaustive. General profile bounds need not pay. No active-v4 atom, original whole degree across all source geometries, adjacent row or Prize closes"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_bounded_colour_source_payment",
+    "title": "Bounded receiver colours and sparse singletons pay original rank-twelve sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear error-rank12 fixed-frame source J9965..21499 is fully paid when all nonzero receiver-colour classes have size<=286 and none is singleton: total274980091354143171, reserve636757251916. Also cap43 with<=1465 singleton coordinates pays274977964220092532, and cap2 with<=1717 pays274979228268047446. Actual core fibre cap improves LOW via the full128-branch rank10 contraction; one effective minimum cost retains every HIGH record, global zero labels21488 and near134944. No P1/P2 rank guard or small-sigma43 premise; cap43 forces sigma43>=1048587. No universal cover, rank retest, adjacent unsafety, row or Prize closure. The profile appendix also proves an actual-class elementary-symmetric tuple bound and pointwise source inequality without C<=286; no universal budget payment follows.",
+    "refs": [
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/statement.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/proof.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/audit.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/result.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/provenance.md",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/verify.py",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/certificate.json",
+      "background/nodes/rate_half_mca_bounded_colour_source_payment/profile_resource.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_canonical_small_colour_defect_bank"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

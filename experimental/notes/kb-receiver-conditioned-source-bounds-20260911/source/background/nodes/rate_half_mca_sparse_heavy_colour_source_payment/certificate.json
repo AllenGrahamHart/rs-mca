@@ -1,0 +1,86 @@
+{
+  "scope": {
+    "schema": "sparse-heavy-colour-source-v1",
+    "field": "2130706433^6",
+    "original_n": 2097152,
+    "original_k": 1048576,
+    "original_agreement": 1116048,
+    "target_epsilon": "2^-128",
+    "original_error_rank_before_reselection": 12,
+    "J": [
+      9965,
+      21499
+    ],
+    "shared_dimension": 11,
+    "fixed_carrier_receiver_labels": true,
+    "rank_retested_after_reselection": false,
+    "light_colour_size_max": 43,
+    "heavy_units": "coordinates in classes larger than43",
+    "heavy_bound_range": [
+      43,
+      4639
+    ],
+    "child_rank": 10,
+    "core_cutoff": 2,
+    "tail_cost": "(M-E)*F10(J-43)+E*F10(J-E)",
+    "effective_cost": "min(beta_E,3*beta44/2)",
+    "one_tuple_resource": true,
+    "all_HIGH_retained": true,
+    "canonical_singletons": true,
+    "zero_labels_global": 21488,
+    "near_once": 134944,
+    "P1_P2_rank_guard": false,
+    "small_sigma43_required": false,
+    "universal_tail_bound": false,
+    "adjacent_unsafe": false,
+    "prize_closed": false
+  },
+  "parent_pin": "43794017e927909b4e5c93c74a4d607cfa9ca6ea275b01ca1f82e98e8bb319e1",
+  "original44": 581590844909990298,
+  "effective_high_floor": 387727229939993532,
+  "base_resource": 541038523546369464,
+  "paid": [
+    {
+      "heavy_coordinates": 3000,
+      "singletons": 824,
+      "resource": 544892386482580591,
+      "singleton_labels": 5068217364015711,
+      "source": 274980301923454583,
+      "reserve": 426187940504
+    },
+    {
+      "heavy_coordinates": 4639,
+      "singletons": 0,
+      "resource": 549959818359688305,
+      "singleton_labels": 0,
+      "source": 274979909180000584,
+      "reserve": 818931394503
+    }
+  ],
+  "adjacent": [
+    {
+      "heavy_coordinates": 3000,
+      "singletons": 825,
+      "resource": 544892386482580591,
+      "singleton_labels": 5074341771611905,
+      "source": 274983364127252680,
+      "reserve": -2636015857593
+    },
+    {
+      "heavy_coordinates": 4639,
+      "singletons": 1,
+      "resource": 549959818359688305,
+      "singleton_labels": 6234541524906,
+      "source": 274983026450763037,
+      "reserve": -2298339367950
+    },
+    {
+      "heavy_coordinates": 4640,
+      "singletons": 0,
+      "resource": 549963488696781436,
+      "singleton_labels": 0,
+      "source": 274981744348547150,
+      "reserve": -1016237152063
+    }
+  ]
+}

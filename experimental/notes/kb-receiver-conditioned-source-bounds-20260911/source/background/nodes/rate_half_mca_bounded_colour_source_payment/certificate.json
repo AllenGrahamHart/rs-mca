@@ -1,0 +1,107 @@
+{
+  "scope": {
+    "schema": "bounded-colour-original-source-v1",
+    "field": "2130706433^6",
+    "original_n": 2097152,
+    "original_k": 1048576,
+    "original_agreement": 1116048,
+    "target_epsilon": "2^-128",
+    "original_error_rank_before_reselection": 12,
+    "J": [
+      9965,
+      21499
+    ],
+    "shared_dimension": 11,
+    "fixed_carrier_receiver_labels": true,
+    "rank_retested_after_reselection": false,
+    "nonzero_evaluation_receiver_colours": true,
+    "cap_range": [
+      2,
+      286
+    ],
+    "core_cutoff": 2,
+    "child_rank": 10,
+    "child_branches": 128,
+    "complete_shape_inputs": 127,
+    "effective_cost": "min(beta_C,3*beta44/2)",
+    "resource_copies": 1,
+    "HIGH_covers_all_raw_at_least": 3,
+    "canonical_singleton_defects": true,
+    "singleton_units": "coordinates",
+    "zero_label_allowance": 21488,
+    "zero_charge_per_pair": false,
+    "near_once": 134944,
+    "P1_P2_rank_restriction": false,
+    "small_sigma43_required": false,
+    "max_colour_universal": false,
+    "adjacent_unsafe": false,
+    "whole_J_all_geometries": false,
+    "prize_closed": false
+  },
+  "supplier_pins": {
+    "mca_min_envelope_fiber_contraction/polynomial.py": "d5cae0ac19b4cb4d7cbe0ebb67d1645204322b30b09ee003ec42b44cf3f4f3c9",
+    "rate_half_mca_min_envelope_raw_mass/verify.py": "b6745db5995bdf421755408a54a92f052beadff4747391f62b93733b51be8867"
+  },
+  "original44": 581590844909990298,
+  "effective_high_floor": 387727229939993532,
+  "paid": [
+    {
+      "cap": 2,
+      "singletons": 1717,
+      "resource": 539549513624449050,
+      "singleton_labels": 10408942911332979,
+      "source": 274979228268047446,
+      "reserve": 1499843347641
+    },
+    {
+      "cap": 43,
+      "singletons": 1465,
+      "resource": 541038523546369464,
+      "singleton_labels": 8917404893502737,
+      "source": 274977964220092532,
+      "reserve": 2763891302555
+    },
+    {
+      "cap": 286,
+      "singletons": 0,
+      "resource": 549960182707973479,
+      "singleton_labels": 0,
+      "source": 274980091354143171,
+      "reserve": 636757251916
+    }
+  ],
+  "adjacent_singletons": [
+    {
+      "cap": 2,
+      "singletons": 1718,
+      "resource": 539549513624449050,
+      "singleton_labels": 10414951184090370,
+      "source": 274982232404426142,
+      "reserve": -1504293031055
+    },
+    {
+      "cap": 43,
+      "singletons": 1466,
+      "resource": 541038523546369464,
+      "singleton_labels": 8923445569313970,
+      "source": 274980984557998149,
+      "reserve": -256446603062
+    },
+    {
+      "cap": 286,
+      "singletons": 1,
+      "resource": 549960182707973479,
+      "singleton_labels": 6234545655289,
+      "source": 274983208626970816,
+      "reserve": -2480515575729
+    }
+  ],
+  "adjacent_colour_cap": {
+    "cap": 287,
+    "singletons": 0,
+    "resource": 549997241526095169,
+    "singleton_labels": 0,
+    "source": 274998620763204016,
+    "reserve": -17892651808929
+  }
+}

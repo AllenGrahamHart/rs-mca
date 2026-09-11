@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_heavy_colour_source_payment",
+    "title": "Sparse heavy receiver colours pay original rank-twelve sources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear error-rank12 fixed-frame source J9965..21499 with at most4639 coordinates in nonzero receiver-colour classes>43 and no singleton colours pays274979909180000584, reserve818931394503. Heavy mass<=3000 and singleton coordinates<=824 pays274980301923454583, reserve426187940504. Trimmed core costs retain all128 child branches and one original LOW/HIGH resource, global zero labels21488 and near134944. No P1/P2 rank or cap286 premise. The pointwise profile inequality is also strengthened for arbitrary actual profiles, without guaranteed payment. No universal cover, adjacent unsafety or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/statement.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/proof.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/audit.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/result.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/provenance.md",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify.py",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_sparse_heavy_colour_source_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_receiver_colour_profile_core_basis"
+    },
+    {
+      "from": "rate_half_mca_bounded_colour_source_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

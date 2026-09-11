@@ -1,0 +1,1278 @@
+{
+  "scope": {
+    "schema": "dense-conic-original-source-v1",
+    "field": "2130706433^6",
+    "n": 2097152,
+    "k": 1048576,
+    "agreement": 1116048,
+    "target_epsilon": "2^-128",
+    "original_error_rank": 12,
+    "J": [
+      9965,
+      21499
+    ],
+    "curve": "nonsingular projective conic over F(X)",
+    "curve_coefficients": "polynomial in X, all roots retained",
+    "weighted_degree_max": "2*J",
+    "receiver_exceptions_max": 276035,
+    "original_raw_cutoff": 43,
+    "resource_cutoff": 44,
+    "on_moving_dimension": 5,
+    "on_moving_degree": 131072,
+    "off_shared_dimension": 11,
+    "on_pair_hull_rank_required": false,
+    "P1_rank_restriction": false,
+    "P2_rank_restriction": false,
+    "same_original_owners": true,
+    "raw_reselection": false,
+    "resource_reapplied_to_exception_domain": false,
+    "original_near": 134944,
+    "whole_source_bound": 274980278712737789,
+    "reserve": 449398657298,
+    "next_exception_unsafe_claim": false,
+    "all_original_rank12_sources_closed": false,
+    "active_v4_atom": false,
+    "ordinary_LIST_closed": false,
+    "adjacent_safe_row_closed": false,
+    "prize_closed": false
+  },
+  "supplier_pins": {
+    "rate_half_mca_min_envelope_raw_mass/verify.py": "b6745db5995bdf421755408a54a92f052beadff4747391f62b93733b51be8867",
+    "mca_min_envelope_fiber_contraction/polynomial.py": "d5cae0ac19b4cb4d7cbe0ebb67d1645204322b30b09ee003ec42b44cf3f4f3c9"
+  },
+  "resource": 581590844909990298,
+  "paid": {
+    "e": 276035,
+    "rows": [
+      {
+        "t": 1,
+        "on_conic_pairs": 118821120962,
+        "off_conic_pairs": 153994645396,
+        "outside_ratio": [
+          254537,
+          24474
+        ],
+        "pair_raw_cap": 981105,
+        "gain": [
+          "133830456226332795",
+          "1"
+        ]
+      },
+      {
+        "t": 2,
+        "on_conic_pairs": 118829926570,
+        "off_conic_pairs": 154063876272,
+        "outside_ratio": [
+          254537,
+          24473
+        ],
+        "pair_raw_cap": 981106,
+        "gain": [
+          "133868873665551626",
+          "3"
+        ]
+      },
+      {
+        "t": 3,
+        "on_conic_pairs": 118838732962,
+        "off_conic_pairs": 154133141103,
+        "outside_ratio": [
+          254537,
+          24472
+        ],
+        "pair_raw_cap": 981107,
+        "gain": [
+          "267814616448289955",
+          "12"
+        ]
+      },
+      {
+        "t": 4,
+        "on_conic_pairs": 118847540137,
+        "off_conic_pairs": 154202439906,
+        "outside_ratio": [
+          254537,
+          24471
+        ],
+        "pair_raw_cap": 981108,
+        "gain": [
+          "66972879955006911",
+          "5"
+        ]
+      },
+      {
+        "t": 5,
+        "on_conic_pairs": 118856348095,
+        "off_conic_pairs": 154271772700,
+        "outside_ratio": [
+          254537,
+          24470
+        ],
+        "pair_raw_cap": 981109,
+        "gain": [
+          "53593691493012331",
+          "6"
+        ]
+      },
+      {
+        "t": 6,
+        "on_conic_pairs": 118865156836,
+        "off_conic_pairs": 154341139504,
+        "outside_ratio": [
+          254537,
+          24469
+        ],
+        "pair_raw_cap": 981110,
+        "gain": [
+          "134022714701068700",
+          "21"
+        ]
+      },
+      {
+        "t": 7,
+        "on_conic_pairs": 118873966361,
+        "off_conic_pairs": 154410540334,
+        "outside_ratio": [
+          254537,
+          24468
+        ],
+        "pair_raw_cap": 981111,
+        "gain": [
+          "268122435648038145",
+          "56"
+        ]
+      },
+      {
+        "t": 8,
+        "on_conic_pairs": 118882776670,
+        "off_conic_pairs": 154479975209,
+        "outside_ratio": [
+          254537,
+          24467
+        ],
+        "pair_raw_cap": 981112,
+        "gain": [
+          "11174978175896227",
+          "3"
+        ]
+      },
+      {
+        "t": 9,
+        "on_conic_pairs": 118891587762,
+        "off_conic_pairs": 154549444147,
+        "outside_ratio": [
+          254537,
+          24466
+        ],
+        "pair_raw_cap": 981113,
+        "gain": [
+          "268276551139334717",
+          "90"
+        ]
+      },
+      {
+        "t": 10,
+        "on_conic_pairs": 118900399637,
+        "off_conic_pairs": 154618947167,
+        "outside_ratio": [
+          254537,
+          24465
+        ],
+        "pair_raw_cap": 981114,
+        "gain": [
+          "12197893655466348",
+          "5"
+        ]
+      },
+      {
+        "t": 11,
+        "on_conic_pairs": 118909212296,
+        "off_conic_pairs": 154688484285,
+        "outside_ratio": [
+          254537,
+          24464
+        ],
+        "pair_raw_cap": 981115,
+        "gain": [
+          "24402800371006165",
+          "12"
+        ]
+      },
+      {
+        "t": 12,
+        "on_conic_pairs": 118918025740,
+        "off_conic_pairs": 154758055522,
+        "outside_ratio": [
+          254537,
+          24463
+        ],
+        "pair_raw_cap": 981116,
+        "gain": [
+          "67126995535862098",
+          "39"
+        ]
+      },
+      {
+        "t": 13,
+        "on_conic_pairs": 118926839967,
+        "off_conic_pairs": 154827660894,
+        "outside_ratio": [
+          254537,
+          24462
+        ],
+        "pair_raw_cap": 981117,
+        "gain": [
+          "268585194621241737",
+          "182"
+        ]
+      },
+      {
+        "t": 14,
+        "on_conic_pairs": 118935654978,
+        "off_conic_pairs": 154897300420,
+        "outside_ratio": [
+          254537,
+          24461
+        ],
+        "pair_raw_cap": 981118,
+        "gain": [
+          "134331220767087482",
+          "105"
+        ]
+      },
+      {
+        "t": 15,
+        "on_conic_pairs": 118944470773,
+        "off_conic_pairs": 154966974117,
+        "outside_ratio": [
+          254537,
+          24460
+        ],
+        "pair_raw_cap": 981119,
+        "gain": [
+          "26873972289903191",
+          "24"
+        ]
+      },
+      {
+        "t": 16,
+        "on_conic_pairs": 118953287352,
+        "off_conic_pairs": 155036682005,
+        "outside_ratio": [
+          254537,
+          24459
+        ],
+        "pair_raw_cap": 981120,
+        "gain": [
+          "988297936527720",
+          "1"
+        ]
+      },
+      {
+        "t": 17,
+        "on_conic_pairs": 118962104716,
+        "off_conic_pairs": 155106424101,
+        "outside_ratio": [
+          254537,
+          24458
+        ],
+        "pair_raw_cap": 981121,
+        "gain": [
+          "15817317003615521",
+          "18"
+        ]
+      },
+      {
+        "t": 18,
+        "on_conic_pairs": 118970922863,
+        "off_conic_pairs": 155176200423,
+        "outside_ratio": [
+          254537,
+          24457
+        ],
+        "pair_raw_cap": 981122,
+        "gain": [
+          "7078204576121234",
+          "9"
+        ]
+      },
+      {
+        "t": 19,
+        "on_conic_pairs": 118979741795,
+        "off_conic_pairs": 155246010990,
+        "outside_ratio": [
+          254537,
+          24456
+        ],
+        "pair_raw_cap": 981123,
+        "gain": [
+          "53809838649935511",
+          "76"
+        ]
+      },
+      {
+        "t": 20,
+        "on_conic_pairs": 118988561512,
+        "off_conic_pairs": 155315855820,
+        "outside_ratio": [
+          254537,
+          24455
+        ],
+        "pair_raw_cap": 981124,
+        "gain": [
+          "67281661787610292",
+          "105"
+        ]
+      },
+      {
+        "t": 21,
+        "on_conic_pairs": 118997382013,
+        "off_conic_pairs": 155385734931,
+        "outside_ratio": [
+          254537,
+          24454
+        ],
+        "pair_raw_cap": 981125,
+        "gain": [
+          "134602067805841000",
+          "231"
+        ]
+      },
+      {
+        "t": 22,
+        "on_conic_pairs": 119006203299,
+        "off_conic_pairs": 155455648342,
+        "outside_ratio": [
+          254537,
+          24453
+        ],
+        "pair_raw_cap": 981126,
+        "gain": [
+          "134640829326563883",
+          "253"
+        ]
+      },
+      {
+        "t": 23,
+        "on_conic_pairs": 119015025370,
+        "off_conic_pairs": 155525596070,
+        "outside_ratio": [
+          254537,
+          24452
+        ],
+        "pair_raw_cap": 981127,
+        "gain": [
+          "11223300678815120",
+          "23"
+        ]
+      },
+      {
+        "t": 24,
+        "on_conic_pairs": 119023848225,
+        "off_conic_pairs": 155595578133,
+        "outside_ratio": [
+          254537,
+          24451
+        ],
+        "pair_raw_cap": 981128,
+        "gain": [
+          "11226533689323826",
+          "25"
+        ]
+      },
+      {
+        "t": 25,
+        "on_conic_pairs": 119032671865,
+        "off_conic_pairs": 155665594551,
+        "outside_ratio": [
+          254537,
+          24450
+        ],
+        "pair_raw_cap": 981129,
+        "gain": [
+          "134757217715231832",
+          "325"
+        ]
+      },
+      {
+        "t": 26,
+        "on_conic_pairs": 119041496291,
+        "off_conic_pairs": 155735645341,
+        "outside_ratio": [
+          254537,
+          24449
+        ],
+        "pair_raw_cap": 981130,
+        "gain": [
+          "44932016161567360",
+          "117"
+        ]
+      },
+      {
+        "t": 27,
+        "on_conic_pairs": 119050321501,
+        "off_conic_pairs": 155805730522,
+        "outside_ratio": [
+          254537,
+          24448
+        ],
+        "pair_raw_cap": 981131,
+        "gain": [
+          "38524256168196859",
+          "108"
+        ]
+      },
+      {
+        "t": 28,
+        "on_conic_pairs": 119059147496,
+        "off_conic_pairs": 155875850111,
+        "outside_ratio": [
+          254537,
+          24447
+        ],
+        "pair_raw_cap": 981132,
+        "gain": [
+          "67436881018037781",
+          "203"
+        ]
+      },
+      {
+        "t": 29,
+        "on_conic_pairs": 119067974277,
+        "off_conic_pairs": 155946004128,
+        "outside_ratio": [
+          254537,
+          24446
+        ],
+        "pair_raw_cap": 981133,
+        "gain": [
+          "17988352644962191",
+          "58"
+        ]
+      },
+      {
+        "t": 30,
+        "on_conic_pairs": 119076801843,
+        "off_conic_pairs": 156016192590,
+        "outside_ratio": [
+          254537,
+          24445
+        ],
+        "pair_raw_cap": 981134,
+        "gain": [
+          "44983848333337837",
+          "155"
+        ]
+      },
+      {
+        "t": 31,
+        "on_conic_pairs": 119085630194,
+        "off_conic_pairs": 156086415516,
+        "outside_ratio": [
+          254537,
+          24444
+        ],
+        "pair_raw_cap": 981135,
+        "gain": [
+          "134990462533840425",
+          "496"
+        ]
+      },
+      {
+        "t": 32,
+        "on_conic_pairs": 119094459331,
+        "off_conic_pairs": 156156672924,
+        "outside_ratio": [
+          254537,
+          24443
+        ],
+        "pair_raw_cap": 981136,
+        "gain": [
+          "1534424971000805",
+          "6"
+        ]
+      },
+      {
+        "t": 33,
+        "on_conic_pairs": 119103289253,
+        "off_conic_pairs": 156226964833,
+        "outside_ratio": [
+          254537,
+          24442
+        ],
+        "pair_raw_cap": 981137,
+        "gain": [
+          "45022783250529297",
+          "187"
+        ]
+      },
+      {
+        "t": 34,
+        "on_conic_pairs": 119112119961,
+        "off_conic_pairs": 156297291261,
+        "outside_ratio": [
+          254537,
+          24441
+        ],
+        "pair_raw_cap": 981138,
+        "gain": [
+          "7947489379633254",
+          "35"
+        ]
+      },
+      {
+        "t": 35,
+        "on_conic_pairs": 119120951454,
+        "off_conic_pairs": 156367652225,
+        "outside_ratio": [
+          254537,
+          24440
+        ],
+        "pair_raw_cap": 981139,
+        "gain": [
+          "270292613125010381",
+          "1260"
+        ]
+      },
+      {
+        "t": 36,
+        "on_conic_pairs": 119129783734,
+        "off_conic_pairs": 156438047746,
+        "outside_ratio": [
+          254537,
+          24439
+        ],
+        "pair_raw_cap": 981140,
+        "gain": [
+          "67592655544571800",
+          "333"
+        ]
+      },
+      {
+        "t": 37,
+        "on_conic_pairs": 119138616799,
+        "off_conic_pairs": 156508477840,
+        "outside_ratio": [
+          254537,
+          24438
+        ],
+        "pair_raw_cap": 981141,
+        "gain": [
+          "14234140320063321",
+          "74"
+        ]
+      },
+      {
+        "t": 38,
+        "on_conic_pairs": 119147450650,
+        "off_conic_pairs": 156578942527,
+        "outside_ratio": [
+          254537,
+          24437
+        ],
+        "pair_raw_cap": 981142,
+        "gain": [
+          "135263372427234067",
+          "741"
+        ]
+      },
+      {
+        "t": 39,
+        "on_conic_pairs": 119156285287,
+        "off_conic_pairs": 156649441825,
+        "outside_ratio": [
+          254537,
+          24436
+        ],
+        "pair_raw_cap": 981143,
+        "gain": [
+          "33825607314481127",
+          "195"
+        ]
+      },
+      {
+        "t": 40,
+        "on_conic_pairs": 119165120711,
+        "off_conic_pairs": 156719975751,
+        "outside_ratio": [
+          254537,
+          24435
+        ],
+        "pair_raw_cap": 981144,
+        "gain": [
+          "33835375885389066",
+          "205"
+        ]
+      },
+      {
+        "t": 41,
+        "on_conic_pairs": 119173956920,
+        "off_conic_pairs": 156790544326,
+        "outside_ratio": [
+          254537,
+          24434
+        ],
+        "pair_raw_cap": 981145,
+        "gain": [
+          "6446695013690635",
+          "41"
+        ]
+      },
+      {
+        "t": 42,
+        "on_conic_pairs": 119182793916,
+        "off_conic_pairs": 156861147566,
+        "outside_ratio": [
+          254537,
+          24433
+        ],
+        "pair_raw_cap": 981146,
+        "gain": [
+          "135419704504649186",
+          "903"
+        ]
+      },
+      {
+        "t": 43,
+        "on_conic_pairs": 119191631698,
+        "off_conic_pairs": 156931785491,
+        "outside_ratio": [
+          254537,
+          24432
+        ],
+        "pair_raw_cap": 981147,
+        "gain": [
+          "270917662404735783",
+          "1892"
+        ]
+      }
+    ],
+    "gain": [
+      "246569310826583153759297930295735337",
+      "941958815880242160"
+    ],
+    "total_before_near": [
+      "259020097726542336130329106102339057",
+      "941958815880242160"
+    ],
+    "whole": 274980278712737789,
+    "reserve": 449398657298
+  },
+  "adjacent": {
+    "e": 276036,
+    "rows": [
+      {
+        "t": 1,
+        "on_conic_pairs": 118821120962,
+        "off_conic_pairs": 154001300517,
+        "outside_ratio": [
+          254538,
+          24474
+        ],
+        "pair_raw_cap": 981105,
+        "gain": [
+          "267667441825154295",
+          "2"
+        ]
+      },
+      {
+        "t": 2,
+        "on_conic_pairs": 118829926570,
+        "off_conic_pairs": 154070534385,
+        "outside_ratio": [
+          254538,
+          24473
+        ],
+        "pair_raw_cap": 981106,
+        "gain": [
+          "133872139822858115",
+          "3"
+        ]
+      },
+      {
+        "t": 3,
+        "on_conic_pairs": 118838732962,
+        "off_conic_pairs": 154139802209,
+        "outside_ratio": [
+          254538,
+          24472
+        ],
+        "pair_raw_cap": 981107,
+        "gain": [
+          "89273717235338099",
+          "4"
+        ]
+      },
+      {
+        "t": 4,
+        "on_conic_pairs": 118847540137,
+        "off_conic_pairs": 154209104007,
+        "outside_ratio": [
+          254538,
+          24471
+        ],
+        "pair_raw_cap": 981108,
+        "gain": [
+          "66974514505707888",
+          "5"
+        ]
+      },
+      {
+        "t": 5,
+        "on_conic_pairs": 118856348095,
+        "off_conic_pairs": 154278439797,
+        "outside_ratio": [
+          254538,
+          24470
+        ],
+        "pair_raw_cap": 981109,
+        "gain": [
+          "133987499306966114",
+          "15"
+        ]
+      },
+      {
+        "t": 6,
+        "on_conic_pairs": 118865156836,
+        "off_conic_pairs": 154347809598,
+        "outside_ratio": [
+          254538,
+          24469
+        ],
+        "pair_raw_cap": 981110,
+        "gain": [
+          "134025986749030870",
+          "21"
+        ]
+      },
+      {
+        "t": 7,
+        "on_conic_pairs": 118873966361,
+        "off_conic_pairs": 154417213428,
+        "outside_ratio": [
+          254538,
+          24468
+        ],
+        "pair_raw_cap": 981111,
+        "gain": [
+          "268128982693965579",
+          "56"
+        ]
+      },
+      {
+        "t": 8,
+        "on_conic_pairs": 118882776670,
+        "off_conic_pairs": 154486651303,
+        "outside_ratio": [
+          254538,
+          24467
+        ],
+        "pair_raw_cap": 981112,
+        "gain": [
+          "33525753277180747",
+          "9"
+        ]
+      },
+      {
+        "t": 9,
+        "on_conic_pairs": 118891587762,
+        "off_conic_pairs": 154556123244,
+        "outside_ratio": [
+          254538,
+          24466
+        ],
+        "pair_raw_cap": 981113,
+        "gain": [
+          "44713850681371613",
+          "15"
+        ]
+      },
+      {
+        "t": 10,
+        "on_conic_pairs": 118900399637,
+        "off_conic_pairs": 154625629267,
+        "outside_ratio": [
+          254538,
+          24465
+        ],
+        "pair_raw_cap": 981114,
+        "gain": [
+          "134180108161059528",
+          "55"
+        ]
+      },
+      {
+        "t": 11,
+        "on_conic_pairs": 118909212296,
+        "off_conic_pairs": 154695169391,
+        "outside_ratio": [
+          254538,
+          24464
+        ],
+        "pair_raw_cap": 981115,
+        "gain": [
+          "268437362938841005",
+          "132"
+        ]
+      },
+      {
+        "t": 12,
+        "on_conic_pairs": 118918025740,
+        "off_conic_pairs": 154764743634,
+        "outside_ratio": [
+          254538,
+          24463
+        ],
+        "pair_raw_cap": 981116,
+        "gain": [
+          "67128635989285346",
+          "39"
+        ]
+      },
+      {
+        "t": 13,
+        "on_conic_pairs": 118926839967,
+        "off_conic_pairs": 154834352014,
+        "outside_ratio": [
+          254538,
+          24462
+        ],
+        "pair_raw_cap": 981117,
+        "gain": [
+          "268591759392822777",
+          "182"
+        ]
+      },
+      {
+        "t": 14,
+        "on_conic_pairs": 118935654978,
+        "off_conic_pairs": 154903994550,
+        "outside_ratio": [
+          254538,
+          24461
+        ],
+        "pair_raw_cap": 981118,
+        "gain": [
+          "44778168210935384",
+          "35"
+        ]
+      },
+      {
+        "t": 15,
+        "on_conic_pairs": 118944470773,
+        "off_conic_pairs": 154973671258,
+        "outside_ratio": [
+          254538,
+          24460
+        ],
+        "pair_raw_cap": 981119,
+        "gain": [
+          "268746293591312689",
+          "240"
+        ]
+      },
+      {
+        "t": 16,
+        "on_conic_pairs": 118953287352,
+        "off_conic_pairs": 155043382159,
+        "outside_ratio": [
+          254538,
+          24459
+        ],
+        "pair_raw_cap": 981120,
+        "gain": [
+          "16801475774414520",
+          "17"
+        ]
+      },
+      {
+        "t": 17,
+        "on_conic_pairs": 118962104716,
+        "off_conic_pairs": 155113127269,
+        "outside_ratio": [
+          254538,
+          24458
+        ],
+        "pair_raw_cap": 981121,
+        "gain": [
+          "15817703863550305",
+          "18"
+        ]
+      },
+      {
+        "t": 18,
+        "on_conic_pairs": 118970922863,
+        "off_conic_pairs": 155182906606,
+        "outside_ratio": [
+          254538,
+          24457
+        ],
+        "pair_raw_cap": 981122,
+        "gain": [
+          "2359459241020037",
+          "3"
+        ]
+      },
+      {
+        "t": 19,
+        "on_conic_pairs": 118979741795,
+        "off_conic_pairs": 155252720191,
+        "outside_ratio": [
+          254538,
+          24456
+        ],
+        "pair_raw_cap": 981123,
+        "gain": [
+          "134527887900545139",
+          "190"
+        ]
+      },
+      {
+        "t": 20,
+        "on_conic_pairs": 118988561512,
+        "off_conic_pairs": 155322568039,
+        "outside_ratio": [
+          254538,
+          24455
+        ],
+        "pair_raw_cap": 981124,
+        "gain": [
+          "67283308167398831",
+          "105"
+        ]
+      },
+      {
+        "t": 21,
+        "on_conic_pairs": 118997382013,
+        "off_conic_pairs": 155392450170,
+        "outside_ratio": [
+          254538,
+          24454
+        ],
+        "pair_raw_cap": 981125,
+        "gain": [
+          "269210724100545875",
+          "462"
+        ]
+      },
+      {
+        "t": 22,
+        "on_conic_pairs": 119006203299,
+        "off_conic_pairs": 155462366602,
+        "outside_ratio": [
+          254538,
+          24453
+        ],
+        "pair_raw_cap": 981126,
+        "gain": [
+          "134644125056344263",
+          "253"
+        ]
+      },
+      {
+        "t": 23,
+        "on_conic_pairs": 119015025370,
+        "off_conic_pairs": 155532317352,
+        "outside_ratio": [
+          254538,
+          24452
+        ],
+        "pair_raw_cap": 981127,
+        "gain": [
+          "134682905361403847",
+          "276"
+        ]
+      },
+      {
+        "t": 24,
+        "on_conic_pairs": 119023848225,
+        "off_conic_pairs": 155602302440,
+        "outside_ratio": [
+          254538,
+          24451
+        ],
+        "pair_raw_cap": 981128,
+        "gain": [
+          "6736085148741253",
+          "15"
+        ]
+      },
+      {
+        "t": 25,
+        "on_conic_pairs": 119032671865,
+        "off_conic_pairs": 155672321884,
+        "outside_ratio": [
+          254538,
+          24450
+        ],
+        "pair_raw_cap": 981129,
+        "gain": [
+          "269521035811962621",
+          "650"
+        ]
+      },
+      {
+        "t": 26,
+        "on_conic_pairs": 119041496291,
+        "off_conic_pairs": 155742375701,
+        "outside_ratio": [
+          254538,
+          24449
+        ],
+        "pair_raw_cap": 981130,
+        "gain": [
+          "134799350163755480",
+          "351"
+        ]
+      },
+      {
+        "t": 27,
+        "on_conic_pairs": 119050321501,
+        "off_conic_pairs": 155812463911,
+        "outside_ratio": [
+          254538,
+          24448
+        ],
+        "pair_raw_cap": 981131,
+        "gain": [
+          "67419099878515243",
+          "189"
+        ]
+      },
+      {
+        "t": 28,
+        "on_conic_pairs": 119059147496,
+        "off_conic_pairs": 155882586531,
+        "outside_ratio": [
+          254538,
+          24447
+        ],
+        "pair_raw_cap": 981132,
+        "gain": [
+          "67438533347344641",
+          "203"
+        ]
+      },
+      {
+        "t": 29,
+        "on_conic_pairs": 119067974277,
+        "off_conic_pairs": 155952743579,
+        "outside_ratio": [
+          254538,
+          24446
+        ],
+        "pair_raw_cap": 981133,
+        "gain": [
+          "134915950986105424",
+          "435"
+        ]
+      },
+      {
+        "t": 30,
+        "on_conic_pairs": 119076801843,
+        "off_conic_pairs": 156022935075,
+        "outside_ratio": [
+          254538,
+          24445
+        ],
+        "pair_raw_cap": 981134,
+        "gain": [
+          "44984950880217502",
+          "155"
+        ]
+      },
+      {
+        "t": 31,
+        "on_conic_pairs": 119085630194,
+        "off_conic_pairs": 156093161036,
+        "outside_ratio": [
+          254538,
+          24444
+        ],
+        "pair_raw_cap": 981135,
+        "gain": [
+          "134993771666723025",
+          "496"
+        ]
+      },
+      {
+        "t": 32,
+        "on_conic_pairs": 119094459331,
+        "off_conic_pairs": 156163421480,
+        "outside_ratio": [
+          254538,
+          24443
+        ],
+        "pair_raw_cap": 981136,
+        "gain": [
+          "5626362836403777",
+          "22"
+        ]
+      },
+      {
+        "t": 33,
+        "on_conic_pairs": 119103289253,
+        "off_conic_pairs": 156233716427,
+        "outside_ratio": [
+          254538,
+          24442
+        ],
+        "pair_raw_cap": 981137,
+        "gain": [
+          "12279241988266280",
+          "51"
+        ]
+      },
+      {
+        "t": 34,
+        "on_conic_pairs": 119112119961,
+        "off_conic_pairs": 156304045894,
+        "outside_ratio": [
+          254538,
+          24441
+        ],
+        "pair_raw_cap": 981138,
+        "gain": [
+          "1589536859615547",
+          "7"
+        ]
+      },
+      {
+        "t": 35,
+        "on_conic_pairs": 119120951454,
+        "off_conic_pairs": 156374409899,
+        "outside_ratio": [
+          254538,
+          24440
+        ],
+        "pair_raw_cap": 981139,
+        "gain": [
+          "270299243342521067",
+          "1260"
+        ]
+      },
+      {
+        "t": 36,
+        "on_conic_pairs": 119129783734,
+        "off_conic_pairs": 156444808462,
+        "outside_ratio": [
+          254538,
+          24439
+        ],
+        "pair_raw_cap": 981140,
+        "gain": [
+          "67594313846795860",
+          "333"
+        ]
+      },
+      {
+        "t": 37,
+        "on_conic_pairs": 119138616799,
+        "off_conic_pairs": 156515241600,
+        "outside_ratio": [
+          254538,
+          24438
+        ],
+        "pair_raw_cap": 981141,
+        "gain": [
+          "14234489593865961",
+          "74"
+        ]
+      },
+      {
+        "t": 38,
+        "on_conic_pairs": 119147450650,
+        "off_conic_pairs": 156585709332,
+        "outside_ratio": [
+          254538,
+          24437
+        ],
+        "pair_raw_cap": 981142,
+        "gain": [
+          "7119299580291038",
+          "39"
+        ]
+      },
+      {
+        "t": 39,
+        "on_conic_pairs": 119156285287,
+        "off_conic_pairs": 156656211676,
+        "outside_ratio": [
+          254538,
+          24436
+        ],
+        "pair_raw_cap": 981143,
+        "gain": [
+          "270611500707768709",
+          "1560"
+        ]
+      },
+      {
+        "t": 40,
+        "on_conic_pairs": 119165120711,
+        "off_conic_pairs": 156726748651,
+        "outside_ratio": [
+          254538,
+          24435
+        ],
+        "pair_raw_cap": 981144,
+        "gain": [
+          "33836206534163766",
+          "205"
+        ]
+      },
+      {
+        "t": 41,
+        "on_conic_pairs": 119173956920,
+        "off_conic_pairs": 156797320275,
+        "outside_ratio": [
+          254538,
+          24434
+        ],
+        "pair_raw_cap": 981145,
+        "gain": [
+          "270767838763488275",
+          "1722"
+        ]
+      },
+      {
+        "t": 42,
+        "on_conic_pairs": 119182793916,
+        "off_conic_pairs": 156867926567,
+        "outside_ratio": [
+          254538,
+          24433
+        ],
+        "pair_raw_cap": 981146,
+        "gain": [
+          "135423030099506759",
+          "903"
+        ]
+      },
+      {
+        "t": 43,
+        "on_conic_pairs": 119191631698,
+        "off_conic_pairs": 156938567545,
+        "outside_ratio": [
+          254538,
+          24432
+        ],
+        "pair_raw_cap": 981147,
+        "gain": [
+          "270924316596671721",
+          "1892"
+        ]
+      }
+    ],
+    "gain": [
+      "68493146695722025062720813962649539",
+      "261655226633400600"
+    ],
+    "total_before_near": [
+      "71951698612377353499118362797817239",
+      "261655226633400600"
+    ],
+    "whole": 274986666760617051,
+    "reserve": -5938649221964
+  }
+}

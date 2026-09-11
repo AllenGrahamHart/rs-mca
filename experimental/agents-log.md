@@ -30,6 +30,27 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Receiver-conditioned original-source bounds
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped six-node review packet](notes/kb-receiver-conditioned-source-bounds-20260911/README.md),
+  frozen proofs, certificates, dependency index and offline replay.
+- **Status:** PROVED LOCAL at the printed scopes; external mathematical review due.
+- **What is being added:** Four entire original error-rank12 source bounds on
+  J9965..21499 under dense-conic, small-colour, bounded-colour or sparse-heavy
+  receiver conditions. None requires a P1/P2 rank or projection bound.
+- **How it is useful:** K3 / DIRECT extension of the existing #1180 discussion.
+  Canonical defects restrict the tuple bank; trimmed complete-core costs retain
+  actual heavy coordinate mass. A pointwise inequality holds for every actual
+  profile but is not guaranteed below budget. One original resource and
+  once-only near/zero-label allowances are retained.
+- **What to do next:** Review fixed-frame reselection, complete-core contraction,
+  shared-dimension11 conic exceptions and source ownership. Prove remaining
+  receiver-profile coverage; no active-v4 atom, adjacent row or Prize closes.
+- **Replay/compute:** Ten new and three inherited focused checks pass normal/O
+  in 4.27/4.94 seconds, below 45 MiB peak process RSS. The wrapper rejects
+  54 malformed manifests. No Modal, spending or compute request.
+
 ### 2026-09-11 - Raw-one rank-nineteen original-source tail
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
