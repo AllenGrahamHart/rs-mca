@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_raw_one_projection_rank_nine_source_tail_payment",
+    "title": "Raw-one projection rank at most nine pays the original source tail with unrestricted P2",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear post-near error-rank12 source on J11925..21499 whose ACTUAL raw-one pairs P1 admit an ORIGINAL-field constant projection of affine rank<=9 pays its entire original bad-slope set by274976274292770934, reserve4453818624153. There is NO P2 pair-rank or projected-image restriction. The generic singleton/rich census bounds raw-one count, and floor((original min(raw,9) resource+N1)/2)+near pays all higher raw values. J11924 misses this upper recipe, not an unsafe-source witness. Other source classes, the full row and both Prizes remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/statement.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/proof.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/audit.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/result.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/provenance.md",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/verify.py",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_raw_one_projection_rank_nine_source_tail_payment/certificate.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_constant_projection_singleton_fibre_census"
+    },
+    {
+      "from": "rate_half_mca_min_envelope_raw_mass"
+    },
+    {
+      "from": "rate_half_mca_regular_rational_plane_terminal_bounds"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

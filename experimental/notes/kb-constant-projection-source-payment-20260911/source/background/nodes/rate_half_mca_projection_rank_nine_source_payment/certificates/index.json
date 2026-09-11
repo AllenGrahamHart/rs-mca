@@ -1,0 +1,162 @@
+{
+  "schema": "constant-projection-rank-nine-source-v1",
+  "field": "2130706433^6",
+  "n": 2097152,
+  "k": 1048576,
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "original_error_rank": 12,
+  "J": [
+    9965,
+    21499
+  ],
+  "projection_affine_dimension_max": 9,
+  "projection_row": "one fixed nonzero ORIGINAL-field constant row",
+  "pair_scalar_carrier_dimension": 11,
+  "raw_cutoffs": [
+    1,
+    2
+  ],
+  "anchors": 0,
+  "original_labels_and_weights": true,
+  "original_complete_unions": true,
+  "inside_weight": "one global t",
+  "singleton_pair_weight": "R-d+t",
+  "heavy_complement_max": "R-2*d-1+2*t",
+  "constant_gate": 569050,
+  "on_scalar_dimension": 11,
+  "projected_scalar_dimension": 9,
+  "complement_box_width": 10000,
+  "projection_tails_counted": true,
+  "base_may_overcount_heavy_fibres": true,
+  "local_antecedent": "after paid original constant-pencil alternatives",
+  "original_min_raw9_mass": 578501226347492453,
+  "near": 134944,
+  "whole_source_alternatives": "MAXIMUM",
+  "normalization_cap_required": false,
+  "actual_pencil_occupation_assumed": false,
+  "rank19_terminal_allowance_used": false,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "mass_verifier_sha256": "b6745db5995bdf421755408a54a92f052beadff4747391f62b93733b51be8867",
+  "full_constant_rank20_paid": true,
+  "other_rank20_paid": false,
+  "rank21_to22_paid": false,
+  "active_v4_atom": false,
+  "ordinary_LIST_row_paid": false,
+  "prize_closed": false,
+  "gate_profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "14217c5623d893ac879ea7c4a11fdf079153a50e56828f37898d740f606ce0a5",
+      "J": [
+        9965,
+        10964
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "c331548a93037ebe611a69ef62d0297ada0c3e40029529ef86016c763383580b",
+      "J": [
+        10965,
+        11964
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "9224566ec3eba2f2afa7b07a726da600f68f7c9954242950be91c1bc8a259763",
+      "J": [
+        11965,
+        12964
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "27eb459ce59df1e5252b4dc59d2e4f8a5b68d0915c8e7dd0a087451231274fc2",
+      "J": [
+        12965,
+        13364
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "cc42d1ea5e3aa98371bbe82480a9afa8101fcb22f609e3331b13e393b9ba1f33",
+      "J": [
+        13365,
+        13964
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "5082d96a4aa179a29f04e54bdc6233e9e425bf347e1e4a44d6579a2c766b166d",
+      "J": [
+        13965,
+        14964
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "809d49cf656a32bbf62fe5ca17d4bb8497db81dbefa046f238f101e0e94f4c20",
+      "J": [
+        14965,
+        15964
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "57214468851a1c01d879418afcab8fa620e2b7c1a8ecd8d73ee4ae594942b3d7",
+      "J": [
+        15965,
+        16964
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "129f116addbb78b211efb6be1c7351a3d475150d2e9197128509c1050db6e532",
+      "J": [
+        16965,
+        17964
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "73daa57a42713e2bc42aad8c36781babd05578a66a89f013f59e6784ada4ed71",
+      "J": [
+        17965,
+        18964
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "c2573dc55685e31ba4aa92326cc79efa0479d21fd71736bc094dcc44f2f63bc1",
+      "J": [
+        18965,
+        19964
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "5417e4e21760b822ba2dc464526ededcb9ccd5878fcae9ef0e1747c242e7a2df",
+      "J": [
+        19965,
+        20964
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "b508835f0104f231a0bba86d38418fe270a2a1e05fa46f4a4a1debd0dd8d9633",
+      "J": [
+        20965,
+        21499
+      ]
+    }
+  ],
+  "heavy_boxes": 70,
+  "LIST_transitions": 1418,
+  "path": "weights.jsonl",
+  "sha256": "c04327bcd9b91cb177436c934ef06abe267b9c6068692e87d1bc47707dce6b81",
+  "source_bytes": 28319,
+  "residual_source_bound": 214086393235061966,
+  "whole_source_bound": 270000000000000000,
+  "reserve": 4980728111395087
+}

@@ -30,6 +30,25 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Constant-projection original-source bounds
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped three-node packet](notes/kb-constant-projection-source-payment-20260911/README.md),
+  frozen proofs, exact certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL at printed scopes; external mathematical review due.
+- **What is being added:** The singleton/rich projection census pays original
+  error-rank12 P2 projection-dimension<=9 sources on J9965..21499 by
+  270000000000000000, completing the full-constant rank20 source class.
+  A separate P1-only application pays J11925..21499 by274976274292770934
+  with no P2 rank or projection premise.
+- **How it is useful:** K3 / DIRECT extension of #1179/#1180. Counts retain
+  original slopes and owners; higher raw and near are paid once. Other
+  source classes, active-v4 atoms, the adjacent row and both Prizes remain open.
+- **What to do next:** Review the two-core threshold, projected multiplicity,
+  global inside charge, source gates and distinct P1/P2 source identities.
+- **Replay/compute:** Normal/O5.35/5.68seconds, below50MiB peak process RSS;
+  62+49 arithmetic mutations and60 manifest mutations. No Modal or compute request.
+
 ### 2026-09-11 - Rank-twenty full-constant original-source prefix
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

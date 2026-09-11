@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_constant_projection_singleton_fibre_census",
+    "title": "Constant-projection singleton and rich-fibre census for original MCA raw weights",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Actual original pair fibres of one nonzero original-field constant projection have a singleton/rich census Omega_t<=t+(n-A)Q(n-A)+sum uP(l)Q(u). Two distinct pairs force complement at most n-2A+K-1. Outside original raw weights are bounded per pair; inside defects use one globally unique preferred label. The projected image may have dimension greater than one; no shared packing or anchor assumption is used.",
+    "refs": [
+      "background/nodes/mca_constant_projection_singleton_fibre_census/statement.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/proof.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/claim_contract.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/dependency_subdag.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/audit.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/result.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/provenance.md",
+      "background/nodes/mca_constant_projection_singleton_fibre_census/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
