@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pair_space_conic_kernel_geometry",
+    "title": "Conic evaluation gives kernel degrees two through four and exact collision heights",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In odd characteristic a primitive pencil-free operator3 carrier with conic evaluation image has original-field binary-product normal form and kernel-image degree chi2,3 or4. In the double-conic case the kernel map is an isomorphism with a degree2 base divisor; rank-one invariant planes have at most one other nonbase exceptional fibre. Actual non-eigen collision lines have original primitive height nu=D/2. No general conic census or source payment is claimed.",
+    "refs": [
+      "background/nodes/pair_space_conic_kernel_geometry/statement.md",
+      "background/nodes/pair_space_conic_kernel_geometry/proof.md",
+      "background/nodes/pair_space_conic_kernel_geometry/kernel_map.md",
+      "background/nodes/pair_space_conic_kernel_geometry/claim_contract.md",
+      "background/nodes/pair_space_conic_kernel_geometry/dependency_subdag.md",
+      "background/nodes/pair_space_conic_kernel_geometry/audit.md",
+      "background/nodes/pair_space_conic_kernel_geometry/provenance.md",
+      "background/nodes/pair_space_conic_kernel_geometry/result.md",
+      "background/nodes/pair_space_conic_kernel_geometry/verify.py"
+    ]
+  },
+  "requires": [{"from": "pair_space_operator_branch_genus_energy"}],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

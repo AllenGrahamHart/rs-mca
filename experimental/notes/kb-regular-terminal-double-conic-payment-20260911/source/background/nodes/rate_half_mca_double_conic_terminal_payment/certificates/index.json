@@ -1,0 +1,259 @@
+{
+  "schema": "double-conic-payment-v1",
+  "scope": {
+    "original_error_rank": 12,
+    "actual_P2_rank": 19,
+    "J": [
+      9965,
+      21499
+    ],
+    "field": "2130706433^6",
+    "agreement": 1116048,
+    "target": "2^-128",
+    "anchors": 8,
+    "terminal_dimension": 3,
+    "pencil_free": true,
+    "evaluation_image_degree": 2,
+    "kernel_image_degree": 2,
+    "raw_cutoffs": [
+      1,
+      2
+    ],
+    "primitive_degree": "D=2nu=kappa-1, every nu=1..floor((J1-9)/2)",
+    "degree_slack": "every v>=0, full gcd and actual degree retained",
+    "nonconstant_collision_height": "exactly nu in the ORIGINAL pair pencil",
+    "removed_fibres": "only rank-one evaluation fibres, not all eigen roots",
+    "rank_one_plane_cap": 15,
+    "rank_one_incidence_per_nu": 30,
+    "subset_resource": "exact all-subset forest expectation, not linear thinning",
+    "source_maximum": 272127061148955779,
+    "B_star": 274980728111395087,
+    "near": 134944,
+    "original_weights_unchanged": true,
+    "all_conic_images_paid": false,
+    "whole_constant_upper_tail_open": true,
+    "rank19_closed": false,
+    "whole_degree_closed": false,
+    "prize_closed": false
+  },
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "graph_helper_sha256": "a9f659e50d12f49c1cb272e9f16e1783982861f67606d25e89bc95b97dfc70d2",
+  "profiles": [
+    {
+      "path": "9965.json",
+      "sha256": "e4d0bd0f05f640e4f22df99e01c344eeb5c8f66d08bad083ca68a6378f3055ac",
+      "J": [
+        9965,
+        10964
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        27,
+        27
+      ]
+    },
+    {
+      "path": "10965.json",
+      "sha256": "786219e6528e6fa4babcb669e2358ffd9207245ae69df227a9c5b1c3c657f3c4",
+      "J": [
+        10965,
+        11964
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        32,
+        32
+      ]
+    },
+    {
+      "path": "11965.json",
+      "sha256": "7f0427c5d2a39fa04c82e6726fc222d941309275f619ec132cb7d15b6ced8abc",
+      "J": [
+        11965,
+        12964
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        40,
+        40
+      ]
+    },
+    {
+      "path": "12965.json",
+      "sha256": "957a8a27137f9f80e97796b4fad9fcb0623f62698eef001bc86af821bbdc1501",
+      "J": [
+        12965,
+        13364
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        43,
+        43
+      ]
+    },
+    {
+      "path": "13365.json",
+      "sha256": "bd837f57dd1e0d9a5637f74560ea1d9cf0729fe438404e565f59625231f53fb2",
+      "J": [
+        13365,
+        13964
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        50,
+        50
+      ]
+    },
+    {
+      "path": "13965.json",
+      "sha256": "2ffaa9c7179b28480d9e6d9cfcebf4e5815257f5ada547fcb5a2846824a35b48",
+      "J": [
+        13965,
+        14964
+      ],
+      "qcap": [
+        6,
+        6
+      ],
+      "M": [
+        52,
+        52
+      ]
+    },
+    {
+      "path": "14965.json",
+      "sha256": "c9a28d06865ce00c8300f2ab3f041e65c79620d6462215d95cdb1795a171b27b",
+      "J": [
+        14965,
+        15964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        54,
+        54
+      ]
+    },
+    {
+      "path": "15965.json",
+      "sha256": "77913a320db033a4877bf91b189bc305262862f978ed35a4f15dcffffa673462",
+      "J": [
+        15965,
+        16964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        54,
+        54
+      ]
+    },
+    {
+      "path": "16965.json",
+      "sha256": "5db62947ce9e41c3567452313a68917888bd3e1f6452b4c898b54aba05ec8c15",
+      "J": [
+        16965,
+        17964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        54,
+        54
+      ]
+    },
+    {
+      "path": "17965.json",
+      "sha256": "16315e4ea59241ef4386e6f0a6ad1511fbfd47fb41aa2143963d153eb2a88db2",
+      "J": [
+        17965,
+        18964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        55,
+        55
+      ]
+    },
+    {
+      "path": "18965.json",
+      "sha256": "03080315b5e0828740ccf5f369bab79d0f63964cbd151030eba46f33b738873c",
+      "J": [
+        18965,
+        19964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        57,
+        57
+      ]
+    },
+    {
+      "path": "19965.json",
+      "sha256": "bffba664d52ff8b8a7b90766d2d2b058c61535026832dfe495dae40fd45eb8ae",
+      "J": [
+        19965,
+        20964
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        57,
+        57
+      ]
+    },
+    {
+      "path": "20965.json",
+      "sha256": "86d2318c479de6ed372b4b51e9ca53a6518042a59b3f583296acf770eb403066",
+      "J": [
+        20965,
+        21499
+      ],
+      "qcap": [
+        7,
+        7
+      ],
+      "M": [
+        57,
+        57
+      ]
+    }
+  ],
+  "profile_count": 13,
+  "raw_price_count": 26,
+  "minimum_gap": [
+    "271760328",
+    "2795"
+  ],
+  "whole_source_degrees_closed": 0,
+  "double_conic_class_paid": true
+}

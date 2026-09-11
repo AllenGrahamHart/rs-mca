@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "conic_direction_subset_forest_bound",
+    "title": "Null-line trees yield exact all-subset incidence resources",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over an odd-characteristic field, trees on distinct affine lines with nondegenerate ternary-null directions form a triangle-free graph with at most two common neighbours per triple. The independent-triple convex inequality gives sufficient edge caps K_s. Reconnecting every actual s-subset and averaging gives sum f_(M,s)(r_i)<=K_s, hence exact nonnegative dual bounds on fibre-weighted incidence. No extremal conjecture or random-survival premise is used.",
+    "refs": [
+      "background/nodes/conic_direction_subset_forest_bound/statement.md",
+      "background/nodes/conic_direction_subset_forest_bound/proof.md",
+      "background/nodes/conic_direction_subset_forest_bound/subset_averaging.md",
+      "background/nodes/conic_direction_subset_forest_bound/claim_contract.md",
+      "background/nodes/conic_direction_subset_forest_bound/dependency_subdag.md",
+      "background/nodes/conic_direction_subset_forest_bound/audit.md",
+      "background/nodes/conic_direction_subset_forest_bound/provenance.md",
+      "background/nodes/conic_direction_subset_forest_bound/result.md",
+      "background/nodes/conic_direction_subset_forest_bound/bounds.py",
+      "background/nodes/conic_direction_subset_forest_bound/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

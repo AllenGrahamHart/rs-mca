@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_double_conic_terminal_payment",
+    "title": "Pay every double-conic regular MCA terminal across the original degree gap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For original KoalaBear rank12 J9965..21499, every pencil-free regular3 terminal with evaluation-image eta2 and kernel-image chi2 fits its original raw1/2 allowance L_t. Original height-nu gates give line caps6/7, invariant rank-one planes have at most15 pairs, and exact subset-forest prices pay all primitive degrees and slack. Excess with eta2 now requires chi3/4; eta3..5 and whole constant upper tail remain. No whole source, unrestricted rank19 or Prize closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/statement.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/proof.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/pencil_capacities.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/rank_one_planes.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/finite_prices.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/audit.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/provenance.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/result.md",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/verify.py",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_double_conic_terminal_payment/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {"from": "pair_space_conic_kernel_geometry"},
+    {"from": "conic_direction_subset_forest_bound"},
+    {"from": "rate_half_mca_regular_terminal_genus_energy_frontier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_mca_global_core_rank_support_distance_router"}],
+  "refutes": []
+}

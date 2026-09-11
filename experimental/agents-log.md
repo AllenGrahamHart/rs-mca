@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Double-conic terminals fit original allowances
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Three-node K3 / DIRECT extension](notes/kb-regular-terminal-double-conic-payment-20260911/README.md),
+  frozen proofs, thirteen certificate shards, dependency manifest and replay.
+- **Status:** PROVED LOCAL; independent mathematical review remains due.
+- **What is being added:** Original-field conic geometry and actual-subset
+  forest averaging pay every eta2/chi2 regular3 terminal on J9965..21499.
+  Existing original pencil gates give collision-line caps6/7; rank-one
+  planes have at most15 actual pairs, and26 exact prices cover all nu,v.
+- **How it is useful:** Extends cf6cd480 and the #1179/#1180 source-bound
+  program. An excessive conic terminal now requires kernel degree3 or4.
+  The null-quadratic graph theorem is not transplanted to those curves.
+- **Verification:** Four new and four inherited focused checks pass normally
+  and under-O in under4seconds and32MiB. The121-node closure,373 inherited
+  documents and1360 hashes are checked. New arithmetic rejects44 mutations
+  plus a recomputed bare-forest price; the wrapper rejects59 malformed manifests.
+- **What to do next:** Review invariant rank-one planes and actual-subset
+  reconnection. Pay eta2/chi3,4, eta3..5 and whole constant3 on J14965..21499.
+  No unrestricted rank19, whole J, active atom, endpoint or Prize closes.
+- **Compute requests:** None. No Modal, spending or large computation.
+
 ### 2026-09-11 - Branch energy forces image degree at most five
 
 - **Agent/model:** Codex acting for AllenGrahamHart.
