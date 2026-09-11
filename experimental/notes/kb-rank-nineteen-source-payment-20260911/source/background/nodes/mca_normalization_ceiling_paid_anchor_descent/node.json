@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_normalization_ceiling_paid_anchor_descent",
+    "title": "Paid normalization-ceiling anchor descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Full-generic pair/shared rank2s-3/s sources with s>=4, actual normalization nu<=H and p>D can retain every coordinate. High-normalization exits have the proved branch-weighted inner-centre budget; generic exits retain their original U/G prices. The exact inequality A*Omega<=N*C+(kappa+3)*(F-C)_++B_geo*(T-C)_+ permits overlap and requires no B_geo<A selection denominator. Image-degree monotonicity, simultaneous floor-quotient intervals, degree prefixes and v endpoints give uniform finite envelopes. No source payment is assumed.",
+    "refs": [
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/statement.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/proof.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/verify.py",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/claim_contract.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/dependency_subdag.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/audit.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/result.md",
+      "background/nodes/mca_normalization_ceiling_paid_anchor_descent/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_all_coordinate_pair_rank_descent"
+    },
+    {
+      "from": "polynomial_carrier_inner_projection_degree_ledger"
+    },
+    {
+      "from": "rational_curve_inner_projection_branch_budget"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

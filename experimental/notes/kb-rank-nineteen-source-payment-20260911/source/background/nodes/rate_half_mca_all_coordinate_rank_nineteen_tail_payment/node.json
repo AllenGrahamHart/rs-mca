@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_all_coordinate_rank_nineteen_tail_payment",
+    "title": "Pay all original pair ranks at most nineteen on J13965..21499",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear error-rank12 source on J13965..21499 with ACTUAL raw<=2 pair rank<=19 pays its ENTIRE original bad-slope set by274839785069298661, reserve140943042096426. Two all-coordinate tables retain rank0/1/2, nonregular children, full gcds and original owners. All844 degree bands,190088 scalar/joint LIST transitions,64144 identities and1068 height atoms are certified. G33 uses inherited L_t only with eight-regular-anchor history and D<2*(H+1). Earlier low-rank/deficient/whole-source alternatives combine by MAXIMUM. Rank19 remains only J9965..13964 with maximum pencil dimension8/9; pair ranks20..22, whole J, endpoints and both Prizes remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/statement.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/proof.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/verify.py",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/audit.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/result.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/provenance.md",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_all_coordinate_rank_nineteen_tail_payment/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_all_coordinate_pair_rank_descent"
+    },
+    {
+      "from": "mca_small_pair_terminal_weight_bounds"
+    },
+    {
+      "from": "rate_half_mca_full_constant_source_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "normalization-ceiling-original-rank19-v1",
+  "field": "2130706433^6",
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "original_error_rank": 12,
+  "actual_P2_rank_max": 19,
+  "J": [
+    9965,
+    21499
+  ],
+  "new_regular_prefix": [
+    9965,
+    13964
+  ],
+  "previous_paid_tail": [
+    13965,
+    21499
+  ],
+  "initial_shared_dimension": 11,
+  "codimension": 3,
+  "ceiling": "H=floor((J1-1)/10)",
+  "degree_excess": "kappa=D-(s-1)",
+  "degree_band_width": 500,
+  "shared_stages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "geometric_stages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "branch_weighted": true,
+  "centre_count_used": false,
+  "original_field_and_owners": true,
+  "full_gcd_and_slack": true,
+  "near": 134944,
+  "geometric_exception_price": "untagged full-generic child",
+  "generic_exception_price": "MAX(generic rank1, unrestricted nonregular rank2)",
+  "exceptional_sets_may_overlap": true,
+  "exceptional_coordinates_discarded": false,
+  "geometric_bad_less_than_core_required": false,
+  "low_terminal_history": "eight actual regular anchors AND nu<=H; source gates first",
+  "local_antecedent": "after proved whole-source pencil alternatives are removed",
+  "prior_index_sha256": "37e1f226deb4ba670373090103ebe7d666200d3186542870c46595bf05797aae",
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "branch_bound_sha256": "398b9ea9b246bb017e434efd4104ec897dac9e2e4ac38cbe4554d42f5d9747b7",
+  "rank20_to22_paid": false,
+  "whole_J_closed": false,
+  "prize_closed": false,
+  "degree_bands": 254,
+  "geometry_rows": 1016,
+  "nu_candidates": 900184,
+  "quotient_boxes": 160107,
+  "low_recurrence_identities": 2032,
+  "inherited_recurrence_identities": 19304,
+  "profiles": [
+    {
+      "path": "9965.jsonl",
+      "sha256": "afdee9c7ee6ca1aead58a47a920fda000303446b02c9a190435558f44f148da9",
+      "J": [
+        9965,
+        10964
+      ],
+      "regular_source": 249604027270088959
+    },
+    {
+      "path": "10965.jsonl",
+      "sha256": "664d77f27f4854fe67d67b6b7efe122dc8c296063e08d6c52e7b5bef0e9177db",
+      "J": [
+        10965,
+        11964
+      ],
+      "regular_source": 243591486993244111
+    },
+    {
+      "path": "11965.jsonl",
+      "sha256": "771d4a32eeef208efad661566d9b511aebc4a21817d31770b98a87b957cfb178",
+      "J": [
+        11965,
+        12964
+      ],
+      "regular_source": 245976215664433629
+    },
+    {
+      "path": "12965.jsonl",
+      "sha256": "01b49a5c3eb401b7fd055eaeb31e77e130224055ff51704fe73c50076b1292ae",
+      "J": [
+        12965,
+        13364
+      ],
+      "regular_source": 241134325029679811
+    },
+    {
+      "path": "13365.jsonl",
+      "sha256": "32ed18a9a57c78a1f619b132c549bb4c9004ddec7b97543850b77def4c21c256",
+      "J": [
+        13365,
+        13964
+      ],
+      "regular_source": 249682145677014171
+    }
+  ],
+  "source_bytes": 423598,
+  "regular_prefix_maximum": 249682145677014171,
+  "whole_prefix_rank_le19_bound": 274462040894062110,
+  "whole_gap_rank_le19_bound": 274839785069298661
+}

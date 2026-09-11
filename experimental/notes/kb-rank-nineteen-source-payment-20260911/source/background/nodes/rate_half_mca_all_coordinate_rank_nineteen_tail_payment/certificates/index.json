@@ -1,0 +1,178 @@
+{
+  "schema": "all-coordinate-rank19-source-v1",
+  "field": "2130706433^6",
+  "agreement": 1116048,
+  "target_epsilon": "2^-128",
+  "J": [
+    9965,
+    21499
+  ],
+  "paid_J": [
+    13965,
+    21499
+  ],
+  "original_error_rank": 12,
+  "actual_P2_rank_max_on_paid_tail": 19,
+  "new_regular_rank": 19,
+  "shared_dimension": 11,
+  "degree_band_width": 500,
+  "complement_box_width": 10000,
+  "degree_excess": "kappa=D-(s-1)",
+  "tables": [
+    "unrestricted",
+    "full_generic"
+  ],
+  "joint_rank_types": [
+    0,
+    1,
+    2
+  ],
+  "regular_exception_types": [
+    "rank1 generic",
+    "rank2 possibly nonregular"
+  ],
+  "rank0_bound": "kappa+floor(c/2)",
+  "rank_le1_and_regular_bad_bound": "kappa+c",
+  "shared_carrier_joint_LIST": true,
+  "field_extension_used": false,
+  "nonconstant_line_inside_charge": "one coordinate globally, not t per coordinate",
+  "local_antecedent": "after proved whole-source pencil alternatives are removed",
+  "G33_small_degree_allowance": "only eight-regular-anchor history and D<2*(H+1)",
+  "original_weights": true,
+  "full_gcd_and_slack": true,
+  "near": 134944,
+  "parent_index_sha256": "432929b5a53e7eb049a2c4280a4278af68b3bb4e69793effb3d15621d7742cba",
+  "gate_index_sha256": "7b58ecc95009ca1a680784343b7121c25feca5ed238c3e9797daa381cc637d51",
+  "compiler_sha256": "bac33f24d1f34760518406185fcc9850d4fc61f5441486f94237e13b99eb8ca8",
+  "unrestricted_rank19_all_J_paid": false,
+  "whole_J_closed": false,
+  "prize_closed": false,
+  "profiles": [
+    {
+      "path": "9965.jsonl",
+      "sha256": "2705100a8cb328ec836716e000d5ade4e491c3299e3e42530b06c12fc4fe43e8",
+      "J": [
+        9965,
+        10964
+      ],
+      "regular_source": 301343079910801930
+    },
+    {
+      "path": "10965.jsonl",
+      "sha256": "426c5e817269ab36b647b0d16a80185c6c585f913117020a003f01810952a1ba",
+      "J": [
+        10965,
+        11964
+      ],
+      "regular_source": 298009161723159553
+    },
+    {
+      "path": "11965.jsonl",
+      "sha256": "4fa5a2d06cbf271721d4d5ba39cf8d91579da1f2e4f045b65f27ce48c12be17d",
+      "J": [
+        11965,
+        12964
+      ],
+      "regular_source": 289619735724568996
+    },
+    {
+      "path": "12965.jsonl",
+      "sha256": "d750dca0dff3fdc38e81d04d6f4088a8af041908ec11984b251fbbbec832aa31",
+      "J": [
+        12965,
+        13364
+      ],
+      "regular_source": 281614409409587412
+    },
+    {
+      "path": "13365.jsonl",
+      "sha256": "e494f2b86d47b8e5f31547654e9d51be7ec265c2d0a7984a4884793880dffbfe",
+      "J": [
+        13365,
+        13964
+      ],
+      "regular_source": 279132689723371234
+    },
+    {
+      "path": "13965.jsonl",
+      "sha256": "71a030cdee6f028cdf6d9c86732940e789b300a69dedaed95866f9b0000c9e65",
+      "J": [
+        13965,
+        14964
+      ],
+      "regular_source": 274839785069298661
+    },
+    {
+      "path": "14965.jsonl",
+      "sha256": "6d8d4abc1cb0fad2bf3c42042a434e3e82a6d817bfa05aae1295edbfe3783b91",
+      "J": [
+        14965,
+        15964
+      ],
+      "regular_source": 268216554549981924
+    },
+    {
+      "path": "15965.jsonl",
+      "sha256": "25f9453b0506ae1d29a25638db1e6d91dea98fbd7773b185c9a596c06aad2071",
+      "J": [
+        15965,
+        16964
+      ],
+      "regular_source": 262440067098698970
+    },
+    {
+      "path": "16965.jsonl",
+      "sha256": "a5e8968db04bb4098ef35fb45be0e7f554b43be858527eb04116d1f1aaa30f03",
+      "J": [
+        16965,
+        17964
+      ],
+      "regular_source": 257081312254413222
+    },
+    {
+      "path": "17965.jsonl",
+      "sha256": "808cd7674118658c5e84273c6724d09a802c8d0e0dd6d51965e8bd869bb9d2ab",
+      "J": [
+        17965,
+        18964
+      ],
+      "regular_source": 256266170922774208
+    },
+    {
+      "path": "18965.jsonl",
+      "sha256": "0f633dd7ff549c05a75be1a182627ddf1d3254b3444ca6325081e2b9d9e0b4ec",
+      "J": [
+        18965,
+        19964
+      ],
+      "regular_source": 253605855460093996
+    },
+    {
+      "path": "19965.jsonl",
+      "sha256": "ccc2bca67d898111468e7d3d2875def06a00072b5ee51623155a7afd2e26b3d0",
+      "J": [
+        19965,
+        20964
+      ],
+      "regular_source": 245895886741509191
+    },
+    {
+      "path": "20965.jsonl",
+      "sha256": "d1eab8b31949c355998a9831ee4a022b94ee947a5fd88c326d9795c5161f311a",
+      "J": [
+        20965,
+        21499
+      ],
+      "regular_source": 242164119085401614
+    }
+  ],
+  "degree_bands": 844,
+  "scalar_and_joint_LIST_steps": 190088,
+  "recurrence_identities": 64144,
+  "state_count_per_table": 42,
+  "line_height_rows": 1068,
+  "source_bytes": 7648432,
+  "tail_regular_maximum": 274839785069298661,
+  "all_regular_recipe_maximum": 301343079910801930,
+  "combined_rank_le19_tail_bound": 274839785069298661
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank_nineteen_source_payment",
+    "title": "Pay all original pair ranks at most nineteen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every original KoalaBear error-rank12 source on J9965..21499 with ACTUAL P2 pair affine rank<=19 pays its ENTIRE bad-slope set by274839785069298661, reserve140943042096426. A paid-normalization-ceiling recurrence closes all4000 lower-prefix degrees: regular maximum249682145677014171, combined source alternatives274462040894062110. All254 bands,1016 geometric rows,900184 nu candidates,160107 quotient intervals,2032 new and19304 inherited identities are certified. No original label, weight, field, full gcd or near charge is changed. Rank19 is fully paid in this gap; every survivor has pair rank20..22 with at most2/1/0 finite rank drops. No whole J, higher error rank, endpoint or Prize closes.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/statement.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/proof.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/verify.py",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/audit.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/result.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_rank_nineteen_source_payment/certificates/index.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_normalization_ceiling_paid_anchor_descent"
+    },
+    {
+      "from": "rate_half_mca_all_coordinate_rank_nineteen_tail_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router"
+    }
+  ],
+  "refutes": []
+}

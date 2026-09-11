@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-09-11 - Full rank-nineteen original-source payment
+
+- **Agent/model:** Codex acting for AllenGrahamHart.
+- **Files added or changed:** [Grouped five-node packet](notes/kb-rank-nineteen-source-payment-20260911/README.md),
+  frozen proofs, exact certificates, dependency manifest and offline replay.
+- **Status:** PROVED LOCAL at the printed source scopes; external review due.
+- **What is being added:** Every original KoalaBear error-rank12 source on
+  J9965..21499 with ACTUAL P2 pair affine rank<=19 pays its entire original
+  bad-slope set by274839785069298661, reserve140943042096426. All-coordinate
+  U/G descent and paid normalization-ceiling exits retain original owners,
+  weights, singular branches, full gcds and actual terminal history.
+- **How it is useful:** Extends K3 / DIRECT and #1179/#1180. The former
+  rank19 maximum-pencil8/9 remainder is paid; excessive original rank12
+  assignments in this gap require actual P2 rank20..22. No row or Prize closes.
+- **What to do next:** Review the child types, actual degree-jump budget and
+  source composition. Higher pair ranks need their own terminal prices.
+- **Replay/compute:** Seven new and four inherited focused checks pass
+  normal/O under18seconds and61MiB peak process RSS;61+58 semantic mutations
+  and73 manifest mutations. No Modal or compute request.
+
 ### 2026-09-11 - Full-constant original-source payment
 
 - **Agent/model:** Codex acting for AllenGrahamHart.

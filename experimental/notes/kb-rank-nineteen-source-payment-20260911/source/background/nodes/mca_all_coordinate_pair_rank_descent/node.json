@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_all_coordinate_pair_rank_descent",
+    "title": "All-coordinate pair-rank descent including nonregular children",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "All original-weight coordinate sections of W subset V squared, rank2s-c>s, have joint ranks0/1/2 and shared dimension s-1. Rank<=1 coordinates number at most kappa+c; rank0 at most kappa+floor(c/2). Full-generic parents have no rank0, preserve genericity at rank1, and can lose it at rank2. Nested exceptional charges give exact U/G recurrences with full gcds, nonincreasing degree excess and unchanged owners; no source budget is assumed.",
+    "refs": [
+      "background/nodes/mca_all_coordinate_pair_rank_descent/statement.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/proof.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/verify.py",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/claim_contract.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/dependency_subdag.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/audit.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/result.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/provenance.md",
+      "background/nodes/mca_all_coordinate_pair_rank_descent/recurrence.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pair_space_regular_projection_anchor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

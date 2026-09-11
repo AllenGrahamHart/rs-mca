@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "mca_small_pair_terminal_weight_bounds",
+    "title": "Integer original-weight line and small shared-terminal bounds",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Original MCA affine pair lines have integer population floor((R+1+h-e)/(d+1-t+h)) and weight bounded by min(m*(R-d+t),t+m*e) for constant direction, or min(m*(R-d+t),R+J+(m-1)*e) otherwise. Inside nonconstant defects charge each original coordinate once globally. Shared/pair dimension c<=3 terminals use constant rigidity or the minimum of determinant incidence and SAME-FIELD shared-carrier joint LIST times original per-pair weight. No source payment is assumed.",
+    "refs": [
+      "background/nodes/mca_small_pair_terminal_weight_bounds/statement.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/proof.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/verify.py",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/claim_contract.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/dependency_subdag.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/audit.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/result.md",
+      "background/nodes/mca_small_pair_terminal_weight_bounds/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_weighted_pencil_raw_mass"
+    },
+    {
+      "from": "mca_rational_compression_fibre_weight"
+    },
+    {
+      "from": "list_padded_johnson_dimension_descent"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
